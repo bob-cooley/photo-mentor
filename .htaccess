@@ -1,0 +1,3 @@
+# Serve files directly, bypassing CMS rewrite rules
+Options -Indexes
+RewriteEngine Off
