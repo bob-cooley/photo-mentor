@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exposure Triangle — Photo Mentor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      min-height: 100%;
+      background: #111;
+      color: #ddd;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    }
+
+    /* ── Header ─────────────────────────────────────────────── */
+    header {
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid #222;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .back-link {
+      color: #666;
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+    .back-link:hover { color: #bbb; }
+
+    .breadcrumb-sep { color: #444; font-size: 0.8rem; }
+
+    header h1 {
+      font-size: 0.9rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #bbb;
+    }
+
+    /* ── Main ───────────────────────────────────────────────── */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2.5rem 2rem;
+    }
+
+    /* ── Section label ──────────────────────────────────────── */
+    .label {
+      font-size: 0.65rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Exposure Meter ─────────────────────────────────────── */
+    .meter-section { margin-bottom: 3rem; }
+
+    .meter {
+      position: relative;
+      height: 32px;
+      display: flex;
+      align-items: center;
+    }
+
+    .meter-track {
+      position: relative;
+      width: 100%;
+      height: 4px;
+      background: #222;
+      border-radius: 2px;
+    }
+
+    .meter-fill {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      border-radius: 2px;
+      transition: left 0.2s, width 0.2s, background-color 0.2s;
+    }
+
+    .meter-center-tick {
+      position: absolute;
+      top: -7px;
+      left: 50%;
+      width: 1px;
+      height: 18px;
+      background: #3a3a3a;
+      transform: translateX(-50%);
+    }
+
+    .meter-needle {
+      position: absolute;
+      top: -9px;
+      width: 3px;
+      height: 22px;
+      background: #fff;
+      border-radius: 1.5px;
+      transform: translateX(-50%);
+      transition: left 0.2s;
+    }
+
+    .meter-tick-row {
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      margin-top: 8px;
+    }
+
+    .meter-tick-row span {
+      font-size: 0.65rem;
+      color: #444;
+      text-align: center;
+    }
+
+    .meter-readout {
+      display: flex;
+      align-items: baseline;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .ev-value {
+      font-size: 1.6rem;
+      font-weight: 300;
+      letter-spacing: 0.02em;
+      transition: color 0.2s;
+    }
+
+    .ev-desc {
+      font-size: 0.8rem;
+      color: #777;
+    }
+
+    /* ── Divider ────────────────────────────────────────────── */
+    .divider {
+      border: none;
+      border-top: 1px solid #1e1e1e;
+      margin: 0 0 2.5rem;
+    }
+
+    /* ── Controls ───────────────────────────────────────────── */
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .controls { grid-template-columns: 1fr; }
+    }
+
+    .control {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .control-value {
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: #fff;
+      line-height: 1;
+      letter-spacing: 0.02em;
+    }
+
+    .control-delta {
+      font-size: 0.72rem;
+      color: #666;
+      min-height: 1em;
+    }
+
+    /* Range slider */
+    input[type="range"] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 4px;
+      background: #2e2e2e;
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+      margin: 0.3rem 0;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+
+    input[type="range"]:active::-webkit-slider-thumb {
+      transform: scale(1.25);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+    }
+
+    .effect-label {
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #444;
+      margin-top: 0.3rem;
+    }
+
+    .effect-text {
+      font-size: 0.8rem;
+      color: #888;
+      line-height: 1.5;
+    }
+
+    /* ── Reset ──────────────────────────────────────────────── */
+    .reset-btn {
+      display: block;
+      margin: 2.5rem auto 0;
+      padding: 0.55rem 1.75rem;
+      background: transparent;
+      border: 1px solid #2e2e2e;
+      color: #666;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 2px;
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .reset-btn:hover {
+      border-color: #777;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="/photo-mentor/">Photo Mentor</a>
+  <span class="breadcrumb-sep">/</span>
+  <h1>Exposure Triangle</h1>
+</header>
+
+<main>
+
+  <!-- Exposure Meter -->
+  <div class="meter-section">
+    <div class="label">Exposure</div>
+    <div class="meter">
+      <div class="meter-track" id="meterTrack">
+        <div class="meter-fill" id="meterFill"></div>
+        <div class="meter-center-tick"></div>
+        <div class="meter-needle" id="meterNeedle"></div>
+      </div>
+    </div>
+    <div class="meter-tick-row">
+      <span>−4</span><span>−3</span><span>−2</span><span>−1</span>
+      <span>0</span>
+      <span>+1</span><span>+2</span><span>+3</span><span>+4</span>
+    </div>
+    <div class="meter-readout">
+      <span class="ev-value" id="evValue">0.0 EV</span>
+      <span class="ev-desc"  id="evDesc">Correct exposure</span>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- Three Controls -->
+  <div class="controls">
+
+    <!-- Aperture -->
+    <div class="control">
+      <div class="label">Aperture</div>
+      <div class="control-value"  id="aVal">f/5.6</div>
+      <div class="control-delta"  id="aDelta">Reference</div>
+      <input type="range" id="aSlider" min="0" max="8" step="1" value="4">
+      <div class="effect-label">Depth of Field</div>
+      <div class="effect-text"    id="aEffect"></div>
+    </div>
+
+    <!-- Shutter Speed -->
+    <div class="control">
+      <div class="label">Shutter Speed</div>
+      <div class="control-value"  id="sVal">1/125</div>
+      <div class="control-delta"  id="sDelta">Reference</div>
+      <input type="range" id="sSlider" min="0" max="12" step="1" value="4">
+      <div class="effect-label">Motion</div>
+      <div class="effect-text"    id="sEffect"></div>
+    </div>
+
+    <!-- ISO -->
+    <div class="control">
+      <div class="label">ISO</div>
+      <div class="control-value"  id="iVal">400</div>
+      <div class="control-delta"  id="iDelta">Reference</div>
+      <input type="range" id="iSlider" min="0" max="7" step="1" value="2">
+      <div class="effect-label">Noise</div>
+      <div class="effect-text"    id="iEffect"></div>
+    </div>
+
+  </div>
+
+  <button class="reset-btn" id="resetBtn">Reset to Reference</button>
+
+</main>
+
+<script>
+  // ── Data ─────────────────────────────────────────────────────
+  const APERTURES = ['f/1.4','f/2','f/2.8','f/4','f/5.6','f/8','f/11','f/16','f/22'];
+  const SHUTTERS  = ['1/2000','1/1000','1/500','1/250','1/125','1/60','1/30','1/15','1/8','1/4','1/2','1″','2″'];
+  const ISOS      = ['100','200','400','800','1600','3200','6400','12800'];
+
+  // Reference: f/5.6 | 1/125 | ISO 400
+  const REF_A = 4, REF_S = 4, REF_I = 2;
+
+  // ── Effect copy ───────────────────────────────────────────────
+  function apertureEffect(i) {
+    if (i <= 1) return 'Very shallow — subject sharply isolated, background strongly blurred';
+    if (i <= 3) return 'Shallow — clear subject separation from background';
+    if (i <= 5) return 'Moderate — near and mid-ground sharp';
+    if (i <= 6) return 'Deep — foreground to background in focus';
+    return 'Maximum — diffraction can soften fine detail at f/22';
+  }
+
+  function shutterEffect(i) {
+    if (i <= 1)  return 'Freezes very fast motion — sports, birds in flight, splashing water';
+    if (i <= 3)  return 'Freezes most motion — running, quick gestures';
+    if (i === 4) return 'Freezes normal-pace motion — general handheld shooting';
+    if (i <= 5)  return 'Motion blur risk — use care handheld';
+    if (i <= 7)  return 'Handheld difficult — stabilization strongly recommended';
+    return 'Long exposure — significant blur, tripod required for sharp results';
+  }
+
+  function isoEffect(i) {
+    if (i <= 1)  return 'Minimal — cleanest files, requires ample light';
+    if (i <= 2)  return 'Low — good image quality, general-purpose use';
+    if (i <= 3)  return 'Moderate — acceptable across most output sizes';
+    if (i <= 5)  return 'Noticeable — reserved for low-light situations';
+    return 'Heavy — extreme low light only, significant quality trade-off';
+  }
+
+  // ── Helpers ───────────────────────────────────────────────────
+  function deltaLabel(stops) {
+    if (stops === 0) return 'Reference';
+    const n    = Math.abs(stops);
+    const word = n === 1 ? 'stop' : 'stops';
+    const dir  = stops > 0 ? 'more light' : 'less light';
+    return `${stops > 0 ? '+' : ''}${stops} ${word} — ${dir}`;
+  }
+
+  function evDescription(ev) {
+    if (Math.abs(ev) < 0.5)  return 'Correct exposure';
+    if (ev <= -3) return 'Severely underexposed';
+    if (ev <= -2) return 'Significantly underexposed';
+    if (ev <   0) return 'Slightly underexposed';
+    if (ev >=  3) return 'Severely overexposed';
+    if (ev >=  2) return 'Significantly overexposed';
+    return 'Slightly overexposed';
+  }
+
+  function evColor(ev) {
+    if (Math.abs(ev) < 0.5) return '#fff';
+    return ev < 0 ? '#6ab8f7' : '#f7963a';
+  }
+
+  function fillColor(ev) {
+    if (Math.abs(ev) <= 1) return '#666';
+    return ev < 0 ? '#5aacf5' : '#f5812a';
+  }
+
+  // ── Render ────────────────────────────────────────────────────
+  function update() {
+    const aI = +document.getElementById('aSlider').value;
+    const sI = +document.getElementById('sSlider').value;
+    const iI = +document.getElementById('iSlider').value;
+
+    // Wider aperture (lower index) = more light = positive delta
+    // Slower shutter (higher index) = more light = positive delta
+    // Higher ISO (higher index)     = more light = positive delta
+    const aDelta  = REF_A - aI;
+    const sDelta  = sI  - REF_S;
+    const iDelta  = iI  - REF_I;
+    const totalEV = aDelta + sDelta + iDelta;
+
+    // Values
+    document.getElementById('aVal').textContent = APERTURES[aI];
+    document.getElementById('sVal').textContent = SHUTTERS[sI];
+    document.getElementById('iVal').textContent = ISOS[iI];
+
+    // Stop deltas
+    document.getElementById('aDelta').textContent = deltaLabel(aDelta);
+    document.getElementById('sDelta').textContent = deltaLabel(sDelta);
+    document.getElementById('iDelta').textContent = deltaLabel(iDelta);
+
+    // Effects
+    document.getElementById('aEffect').textContent = apertureEffect(aI);
+    document.getElementById('sEffect').textContent = shutterEffect(sI);
+    document.getElementById('iEffect').textContent = isoEffect(iI);
+
+    // Meter needle: clamp EV to ±4, map to 0–100%
+    const clamped = Math.max(-4, Math.min(4, totalEV));
+    const pct     = (clamped + 4) / 8 * 100;
+
+    document.getElementById('meterNeedle').style.left = `${pct}%`;
+
+    // Fill from center to needle
+    const fill   = document.getElementById('meterFill');
+    const center = 50;
+    if (pct >= center) {
+      fill.style.left  = `${center}%`;
+      fill.style.width = `${pct - center}%`;
+    } else {
+      fill.style.left  = `${pct}%`;
+      fill.style.width = `${center - pct}%`;
+    }
+    fill.style.backgroundColor = fillColor(totalEV);
+
+    // EV readout
+    const sign = totalEV > 0 ? '+' : '';
+    document.getElementById('evValue').textContent = `${sign}${totalEV.toFixed(1)} EV`;
+    document.getElementById('evValue').style.color = evColor(totalEV);
+    document.getElementById('evDesc').textContent  = evDescription(totalEV);
+  }
+
+  // ── Events ────────────────────────────────────────────────────
+  ['aSlider', 'sSlider', 'iSlider'].forEach(id => {
+    document.getElementById(id).addEventListener('input', update);
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    document.getElementById('aSlider').value = REF_A;
+    document.getElementById('sSlider').value = REF_S;
+    document.getElementById('iSlider').value = REF_I;
+    update();
+  });
+
+  update(); // initial render
+</script>
+
+</body>
+</html>
