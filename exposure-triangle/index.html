@@ -139,7 +139,49 @@
     .divider {
       border: none;
       border-top: 1px solid #1e1e1e;
-      margin: 0 0 2.5rem;
+      margin: 0 0 2rem;
+    }
+
+    /* ── Mode toggle ────────────────────────────────────────── */
+    .mode-row {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .mode-toggle {
+      display: flex;
+    }
+
+    .mode-btn {
+      padding: 0.35rem 0.9rem;
+      background: transparent;
+      border: 1px solid #2a2a2a;
+      color: #555;
+      font-size: 0.65rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+
+    .mode-btn:first-child {
+      border-radius: 2px 0 0 2px;
+    }
+
+    .mode-btn:last-child {
+      border-radius: 0 2px 2px 0;
+      border-left: none;
+    }
+
+    .mode-btn.active {
+      background: #1e1e1e;
+      color: #ccc;
+      border-color: #444;
+    }
+
+    .mode-btn:last-child.active {
+      border-left: 1px solid #444;
     }
 
     /* ── Controls ───────────────────────────────────────────── */
@@ -277,6 +319,14 @@
 
   <hr class="divider">
 
+  <!-- Film / Digital toggle -->
+  <div class="mode-row">
+    <div class="mode-toggle">
+      <button class="mode-btn" id="filmBtn">Film</button>
+      <button class="mode-btn active" id="digitalBtn">Digital</button>
+    </div>
+  </div>
+
   <!-- Three Controls -->
   <div class="controls">
 
@@ -300,14 +350,14 @@
       <div class="effect-text"    id="sEffect"></div>
     </div>
 
-    <!-- ISO -->
+    <!-- ISO / ASA -->
     <div class="control">
-      <div class="label">ISO</div>
+      <div class="label" id="sensitivityLabel">ISO</div>
       <div class="control-value"  id="iVal">400</div>
       <div class="control-delta"  id="iDelta">Reference</div>
       <input type="range" id="iSlider" min="0" max="7" step="1" value="2">
-      <div class="effect-label">Noise</div>
-      <div class="effect-text"    id="iEffect"></div>
+      <div class="effect-label" id="sensitivityEffectLabel">Noise</div>
+      <div class="effect-text"   id="iEffect"></div>
     </div>
 
   </div>
@@ -320,10 +370,27 @@
   // ── Data ─────────────────────────────────────────────────────
   const APERTURES = ['f/1.4','f/2','f/2.8','f/4','f/5.6','f/8','f/11','f/16','f/22'];
   const SHUTTERS  = ['1/2000','1/1000','1/500','1/250','1/125','1/60','1/30','1/15','1/8','1/4','1/2','1″','2″'];
-  const ISOS      = ['100','200','400','800','1600','3200','6400','12800'];
 
-  // Reference: f/5.6 | 1/125 | ISO 400
-  const REF_A = 4, REF_S = 4, REF_I = 2;
+  const SENSITIVITY = {
+    digital: {
+      label:       'ISO',
+      effectLabel: 'Noise',
+      values:      ['100','200','400','800','1600','3200','6400','12800'],
+      ref:         2   // ISO 400
+    },
+    film: {
+      label:       'ASA',
+      effectLabel: 'Grain',
+      values:      ['25','50','100','200','400','800','1600','3200'],
+      ref:         4   // ASA 400
+    }
+  };
+
+  // Aperture and shutter references are mode-independent
+  const REF_A = 4;  // f/5.6
+  const REF_S = 4;  // 1/125
+
+  let mode = 'digital';
 
   // ── Effect copy ───────────────────────────────────────────────
   function apertureEffect(i) {
@@ -343,12 +410,24 @@
     return 'Long exposure — significant blur, tripod required for sharp results';
   }
 
-  function isoEffect(i) {
-    if (i <= 1)  return 'Minimal — cleanest files, requires ample light';
-    if (i <= 2)  return 'Low — good image quality, general-purpose use';
-    if (i <= 3)  return 'Moderate — acceptable across most output sizes';
-    if (i <= 5)  return 'Noticeable — reserved for low-light situations';
-    return 'Heavy — extreme low light only, significant quality trade-off';
+  function sensitivityEffect(i) {
+    if (mode === 'film') {
+      if (i === 0) return 'Extremely fine grain — maximum sharpness and detail, requires bright light';
+      if (i === 1) return 'Very fine grain — excellent sharpness, best in controlled light';
+      if (i === 2) return 'Fine grain — excellent detail, versatile for outdoor shooting';
+      if (i === 3) return 'Fine grain — good detail, handles varied lighting well';
+      if (i === 4) return 'Moderate grain — versatile all-purpose film, capable in low light';
+      if (i === 5) return 'Visible grain — better low-light performance, noticeable texture';
+      if (i === 6) return 'Notable grain — push processing often required, distinct texture';
+      return         'Heavy grain — extreme low light, strong grain character (T-MAX P3200, Delta 3200)';
+    } else {
+      if (i <= 1)  return 'Minimal noise — cleanest files, requires ample light';
+      if (i === 2) return 'Low noise — good image quality, versatile';
+      if (i === 3) return 'Moderate noise — acceptable across most output sizes';
+      if (i <= 5)  return 'Noticeable noise — reserved for low-light situations';
+      if (i === 6) return 'Heavy noise — extreme low light, significant quality trade-off';
+      return         'Very heavy noise — last resort, use only when nothing else is possible';
+    }
   }
 
   // ── Helpers ───────────────────────────────────────────────────
@@ -361,7 +440,7 @@
   }
 
   function evDescription(ev) {
-    if (Math.abs(ev) < 0.5)  return 'Correct exposure';
+    if (Math.abs(ev) < 0.5) return 'Correct exposure';
     if (ev <= -3) return 'Severely underexposed';
     if (ev <= -2) return 'Significantly underexposed';
     if (ev <   0) return 'Slightly underexposed';
@@ -382,22 +461,20 @@
 
   // ── Render ────────────────────────────────────────────────────
   function update() {
-    const aI = +document.getElementById('aSlider').value;
-    const sI = +document.getElementById('sSlider').value;
-    const iI = +document.getElementById('iSlider').value;
+    const cfg = SENSITIVITY[mode];
+    const aI  = +document.getElementById('aSlider').value;
+    const sI  = +document.getElementById('sSlider').value;
+    const iI  = +document.getElementById('iSlider').value;
 
-    // Wider aperture (lower index) = more light = positive delta
-    // Slower shutter (higher index) = more light = positive delta
-    // Higher ISO (higher index)     = more light = positive delta
-    const aDelta  = REF_A - aI;
-    const sDelta  = sI  - REF_S;
-    const iDelta  = iI  - REF_I;
+    const aDelta  = REF_A  - aI;
+    const sDelta  = sI     - REF_S;
+    const iDelta  = iI     - cfg.ref;
     const totalEV = aDelta + sDelta + iDelta;
 
     // Values
     document.getElementById('aVal').textContent = APERTURES[aI];
     document.getElementById('sVal').textContent = SHUTTERS[sI];
-    document.getElementById('iVal').textContent = ISOS[iI];
+    document.getElementById('iVal').textContent = cfg.values[iI];
 
     // Stop deltas
     document.getElementById('aDelta').textContent = deltaLabel(aDelta);
@@ -407,7 +484,7 @@
     // Effects
     document.getElementById('aEffect').textContent = apertureEffect(aI);
     document.getElementById('sEffect').textContent = shutterEffect(sI);
-    document.getElementById('iEffect').textContent = isoEffect(iI);
+    document.getElementById('iEffect').textContent = sensitivityEffect(iI);
 
     // Meter needle: clamp EV to ±4, map to 0–100%
     const clamped = Math.max(-4, Math.min(4, totalEV));
@@ -434,15 +511,37 @@
     document.getElementById('evDesc').textContent  = evDescription(totalEV);
   }
 
+  // ── Mode switch ───────────────────────────────────────────────
+  function setMode(newMode) {
+    mode = newMode;
+    const cfg = SENSITIVITY[mode];
+
+    // Toggle button states
+    document.getElementById('filmBtn').classList.toggle('active',    mode === 'film');
+    document.getElementById('digitalBtn').classList.toggle('active', mode === 'digital');
+
+    // Update sensitivity labels
+    document.getElementById('sensitivityLabel').textContent      = cfg.label;
+    document.getElementById('sensitivityEffectLabel').textContent = cfg.effectLabel;
+
+    // Reset sensitivity slider to this mode's reference
+    document.getElementById('iSlider').value = cfg.ref;
+
+    update();
+  }
+
   // ── Events ────────────────────────────────────────────────────
   ['aSlider', 'sSlider', 'iSlider'].forEach(id => {
     document.getElementById(id).addEventListener('input', update);
   });
 
+  document.getElementById('filmBtn').addEventListener('click',    () => setMode('film'));
+  document.getElementById('digitalBtn').addEventListener('click', () => setMode('digital'));
+
   document.getElementById('resetBtn').addEventListener('click', () => {
     document.getElementById('aSlider').value = REF_A;
     document.getElementById('sSlider').value = REF_S;
-    document.getElementById('iSlider').value = REF_I;
+    document.getElementById('iSlider').value = SENSITIVITY[mode].ref;
     update();
   });
 
