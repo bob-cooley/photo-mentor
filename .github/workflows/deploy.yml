@@ -18,7 +18,7 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
-          server-dir: public_html/photo-mentor/
+          server-dir: public_html/bobcooleyphoto/photo-mentor/
           local-dir: ./
           exclude: |
             **/.git*
