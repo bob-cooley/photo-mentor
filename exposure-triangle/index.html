@@ -211,7 +211,7 @@
       border-color: #666;
     }
 
-    /* Sliders view */
+    /* ── Sliders view ─────────────────────────────── */
     .controls {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -295,7 +295,7 @@
       line-height: 1.5;
     }
 
-    /* Wheel view */
+    /* ── Wheel view ────────────────────────────────── */
     .wheel-view {
       display: none;
     }
@@ -348,7 +348,69 @@
       color: #aaa;
     }
 
-    /* Reset button */
+    /* ── Visual view ───────────────────────────────── */
+    .visual-view {
+      display: none;
+    }
+
+    .visual-view.active {
+      display: block;
+    }
+
+    .visual-controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .visual-controls { grid-template-columns: 1fr; }
+    }
+
+    .visual-column {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .visual-frame {
+      aspect-ratio: 1;
+      border: 1px solid #2a2a2a;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0a0a0a;
+      min-height: 200px;
+      overflow: hidden;
+    }
+
+    .visual-value {
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: #fff;
+      line-height: 1;
+      letter-spacing: 0.02em;
+    }
+
+    .visual-label {
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #983333;
+    }
+
+    .visual-delta {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    input[type="range"] {
+      width: 100%;
+    }
+
+    /* ── Reset button ──────────────────────────────── */
     .reset-btn {
       display: block;
       margin: 2.5rem auto 0;
@@ -417,10 +479,11 @@
     <select id="schemaSelect">
       <option value="sliders">Sliders</option>
       <option value="wheel">Wheel</option>
+      <option value="visual">Visual</option>
     </select>
   </div>
 
-  <!-- Sliders view -->
+  <!-- ── Sliders view ──────────────────────────── -->
   <div class="controls active" id="slidersView">
 
     <div class="control">
@@ -452,29 +515,20 @@
 
   </div>
 
-  <!-- Wheel view -->
+  <!-- ── Wheel view ────────────────────────────── -->
   <div class="wheel-view" id="wheelView">
     <div class="wheel-container">
       <svg class="wheel-svg" id="wheelSvg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-        <!-- Concentric circles for the tracks -->
         <circle cx="200" cy="200" r="40" fill="none" stroke="#2a2a2a" stroke-width="1"/>
         <circle cx="200" cy="200" r="100" fill="none" stroke="#2a2a2a" stroke-width="1"/>
         <circle cx="200" cy="200" r="160" fill="none" stroke="#2a2a2a" stroke-width="1"/>
-
-        <!-- Center dot -->
         <circle cx="200" cy="200" r="3" fill="#fff"/>
-
-        <!-- Draggable handles (will be positioned by JS) -->
         <circle id="aHandle" cx="200" cy="160" r="8" fill="#983333" opacity="0.7" style="cursor: grab;"/>
         <circle id="sHandle" cx="200" cy="100" r="8" fill="#983333" opacity="0.7" style="cursor: grab;"/>
         <circle id="iHandle" cx="200" cy="40" r="8" fill="#983333" opacity="0.7" style="cursor: grab;"/>
-
-        <!-- Labels on wheel (will be updated by JS) -->
         <text id="aLabel" x="200" y="175" text-anchor="middle" font-size="12" fill="#999">f/5.6</text>
         <text id="sLabel" x="200" y="115" text-anchor="middle" font-size="12" fill="#999">1/125</text>
         <text id="iLabel" x="200" y="55" text-anchor="middle" font-size="12" fill="#999">400</text>
-
-        <!-- Center EV display -->
         <text id="wheelEV" x="200" y="210" text-anchor="middle" font-size="28" font-weight="300" fill="#fff">0.0</text>
       </svg>
     </div>
@@ -498,6 +552,72 @@
     </div>
   </div>
 
+  <!-- ── Visual view ───────────────────────────── -->
+  <div class="visual-view" id="visualView">
+    <div class="visual-controls">
+
+      <!-- Aperture -->
+      <div class="visual-column">
+        <div class="visual-frame">
+          <svg id="apertureViz" width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <!-- Lens housing -->
+            <circle cx="80" cy="80" r="75" fill="none" stroke="#666" stroke-width="3"/>
+            <!-- Aperture opening -->
+            <circle id="apertureOpening" cx="80" cy="80" r="50" fill="#000"/>
+          </svg>
+        </div>
+        <div class="visual-label">Aperture</div>
+        <div class="visual-value" id="visualAVal">f/5.6</div>
+        <div class="visual-delta" id="visualADelta">Reference</div>
+        <input type="range" id="aSliderVisual" min="0" max="8" step="1" value="4">
+      </div>
+
+      <!-- Shutter Speed -->
+      <div class="visual-column">
+        <div class="visual-frame">
+          <svg id="shutterViz" width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <!-- Viewfinder -->
+            <rect x="10" y="10" width="140" height="140" fill="#1a1a1a" stroke="#666" stroke-width="2"/>
+            <!-- Split prism circle in center -->
+            <circle cx="80" cy="80" r="20" fill="none" stroke="#999" stroke-width="1" opacity="0.5"/>
+            <line x1="80" y1="60" x2="80" y2="100" stroke="#999" stroke-width="0.5" opacity="0.5"/>
+            <!-- Jogging figure (hidden by default) -->
+            <g id="joggingFigure" opacity="0">
+              <circle cx="80" cy="45" r="8" fill="#999"/>
+              <line x1="80" y1="55" x2="70" y2="75" stroke="#999" stroke-width="2"/>
+              <line x1="80" y1="55" x2="90" y2="70" stroke="#999" stroke-width="2"/>
+              <line x1="70" y1="75" x2="60" y2="110" stroke="#999" stroke-width="2"/>
+              <line x1="90" y1="70" x2="100" y2="100" stroke="#999" stroke-width="2"/>
+            </g>
+            <!-- Motion blur for jogging figure -->
+            <g id="joggingBlur" opacity="0">
+              <line x1="60" y1="75" x2="40" y2="75" stroke="#555" stroke-width="3" opacity="0.3"/>
+              <line x1="100" y1="70" x2="120" y2="70" stroke="#555" stroke-width="3" opacity="0.3"/>
+            </g>
+            <!-- Flash overlay -->
+            <rect id="shutterFlash" x="10" y="10" width="140" height="140" fill="#fff" opacity="0"/>
+          </svg>
+        </div>
+        <div class="visual-label">Shutter Speed</div>
+        <div class="visual-value" id="visualSVal">1/125</div>
+        <div class="visual-delta" id="visualSDelta">Reference</div>
+        <input type="range" id="sSliderVisual" min="0" max="12" step="1" value="4">
+      </div>
+
+      <!-- ISO -->
+      <div class="visual-column">
+        <div class="visual-frame">
+          <canvas id="isoCanvas" width="160" height="160"></canvas>
+        </div>
+        <div class="visual-label" id="visualSensLabel">ISO</div>
+        <div class="visual-value" id="visualIVal">400</div>
+        <div class="visual-delta" id="visualIDelta">Reference</div>
+        <input type="range" id="iSliderVisual" min="0" max="7" step="1" value="2">
+      </div>
+
+    </div>
+  </div>
+
   <button class="reset-btn" id="resetBtn">Reset to Reference</button>
 
 </main>
@@ -506,30 +626,20 @@
   // Data
   const APERTURES = ['f/1.4','f/2','f/2.8','f/4','f/5.6','f/8','f/11','f/16','f/22'];
   const SHUTTERS  = ['1/2000','1/1000','1/500','1/250','1/125','1/60','1/30','1/15','1/8','1/4','1/2','1″','2″'];
+  const SHUTTER_SECONDS = [1/2000, 1/1000, 1/500, 1/250, 1/125, 1/60, 1/30, 1/15, 1/8, 1/4, 1/2, 1, 2];
 
   const SENSITIVITY = {
-    digital: {
-      label: 'ISO',
-      effectLabel: 'Noise',
-      values: ['100','200','400','800','1600','3200','6400','12800'],
-      ref: 2
-    },
-    film: {
-      label: 'ASA',
-      effectLabel: 'Grain',
-      values: ['25','50','100','200','400','800','1600','3200'],
-      ref: 4
-    }
+    digital: { label: 'ISO', effectLabel: 'Noise', values: ['100','200','400','800','1600','3200','6400','12800'], ref: 2 },
+    film: { label: 'ASA', effectLabel: 'Grain', values: ['25','50','100','200','400','800','1600','3200'], ref: 4 }
   };
 
   const REF_A = 4, REF_S = 4;
   let mode = 'digital';
   let schema = 'sliders';
-
-  // Wheel state
   let wheelDragTarget = null;
   const WHEEL_RADII = { aperture: 40, shutter: 100, iso: 160 };
   const WHEEL_CENTER = 200;
+  let shutterAnimationId = null;
 
   // Effects
   function apertureEffect(i) {
@@ -597,7 +707,80 @@
     return ev < 0 ? '#5aacf5' : '#f5812a';
   }
 
-  // Update function (shared by both views)
+  // Visual updates
+  function updateApertureViz(idx) {
+    const maxRadius = 50;
+    const minRadius = 8;
+    const radius = maxRadius - (idx / 8) * (maxRadius - minRadius);
+    document.getElementById('apertureOpening').setAttribute('r', radius);
+  }
+
+  function updateShutterViz(idx) {
+    if (shutterAnimationId) cancelAnimationFrame(shutterAnimationId);
+    const shutterSeconds = SHUTTER_SECONDS[idx];
+    const startTime = Date.now() + 750; // 0.75 sec delay
+
+    function animate() {
+      const elapsed = (Date.now() - startTime) / 1000;
+      const flash = document.getElementById('shutterFlash');
+      const jogging = document.getElementById('joggingFigure');
+      const blur = document.getElementById('joggingBlur');
+
+      if (elapsed < 0) {
+        // Waiting
+        flash.setAttribute('opacity', '0');
+        jogging.setAttribute('opacity', '0');
+        blur.setAttribute('opacity', '0');
+        shutterAnimationId = requestAnimationFrame(animate);
+      } else if (elapsed < shutterSeconds) {
+        // White flash
+        flash.setAttribute('opacity', '1');
+        jogging.setAttribute('opacity', '0');
+        blur.setAttribute('opacity', '0');
+        shutterAnimationId = requestAnimationFrame(animate);
+      } else if (elapsed < shutterSeconds + 0.1) {
+        // Black (very brief)
+        flash.setAttribute('opacity', '0');
+        shutterAnimationId = requestAnimationFrame(animate);
+      } else if (elapsed < shutterSeconds + 1.1) {
+        // Fade to jogging figure
+        const fadeProgress = (elapsed - shutterSeconds - 0.1) / 1;
+        const joggingOpacity = Math.min(1, fadeProgress * 2);
+        const blurOpacity = Math.min(0.4, fadeProgress);
+        jogging.setAttribute('opacity', joggingOpacity);
+        blur.setAttribute('opacity', blurOpacity);
+        shutterAnimationId = requestAnimationFrame(animate);
+      } else {
+        // Stay on static jogging figure
+        jogging.setAttribute('opacity', '1');
+        blur.setAttribute('opacity', '0.4');
+      }
+    }
+    animate();
+  }
+
+  function updateIsoViz(idx) {
+    const canvas = document.getElementById('isoCanvas');
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#0a0a0a';
+    ctx.fillRect(0, 0, 160, 160);
+
+    // More noise at higher ISO
+    const noiseLevel = (idx / 7) * 0.8;
+    const pixelData = ctx.createImageData(160, 160);
+    const data = pixelData.data;
+
+    for (let i = 0; i < data.length; i += 4) {
+      const noise = Math.random() < noiseLevel ? Math.random() * 100 : 0;
+      data[i] = noise;
+      data[i + 1] = noise;
+      data[i + 2] = noise;
+      data[i + 3] = 255;
+    }
+    ctx.putImageData(pixelData, 0, 0);
+  }
+
+  // Main update
   function update() {
     const cfg = SENSITIVITY[mode];
     let aI, sI, iI;
@@ -606,23 +789,49 @@
       aI = +document.getElementById('aSlider').value;
       sI = +document.getElementById('sSlider').value;
       iI = +document.getElementById('iSlider').value;
-    } else {
-      // Wheel view — get indices from wheel positions
+    } else if (schema === 'wheel') {
       aI = Math.round(getCurrentWheelIndex('aperture'));
       sI = Math.round(getCurrentWheelIndex('shutter'));
       iI = Math.round(getCurrentWheelIndex('iso'));
+    } else {
+      aI = +document.getElementById('aSliderVisual').value;
+      sI = +document.getElementById('sSliderVisual').value;
+      iI = +document.getElementById('iSliderVisual').value;
     }
+
+    // Update sliders to match
+    document.getElementById('aSlider').value = aI;
+    document.getElementById('sSlider').value = sI;
+    document.getElementById('iSlider').value = iI;
+    document.getElementById('aSliderVisual').value = aI;
+    document.getElementById('sSliderVisual').value = sI;
+    document.getElementById('iSliderVisual').value = iI;
 
     const aDelta = REF_A - aI;
     const sDelta = sI - REF_S;
     const iDelta = iI - cfg.ref;
     const totalEV = aDelta + sDelta + iDelta;
 
-    // Update both view displays
-    updateSliderDisplay(aI, sI, iI, aDelta, sDelta, iDelta);
-    updateWheelDisplay(aI, sI, iI, aDelta, sDelta, iDelta);
+    // Update displays
+    const aName = APERTURES[aI];
+    const sName = SHUTTERS[sI];
+    const iName = cfg.values[iI];
 
-    // Update meter and EV
+    [['aVal', 'wheelAVal', 'visualAVal'], ['sVal', 'wheelSVal', 'visualSVal'], ['iVal', 'wheelIVal', 'visualIVal']].forEach((ids, idx) => {
+      const val = [aName, sName, iName][idx];
+      ids.forEach(id => document.getElementById(id).textContent = val);
+    });
+
+    [['aDelta', 'wheelADelta', 'visualADelta'], ['sDelta', 'wheelSDelta', 'visualSDelta'], ['iDelta', 'wheelIDelta', 'visualIDelta']].forEach((ids, idx) => {
+      const delta = [aDelta, sDelta, iDelta][idx];
+      ids.forEach(id => document.getElementById(id).textContent = deltaLabel(delta));
+    });
+
+    document.getElementById('aEffect').textContent = apertureEffect(aI);
+    document.getElementById('sEffect').textContent = shutterEffect(sI);
+    document.getElementById('iEffect').textContent = sensitivityEffect(iI);
+
+    // Meter
     const clamped = Math.max(-4, Math.min(4, totalEV));
     const pct = (clamped + 4) / 8 * 100;
     document.getElementById('meterNeedle').style.left = `${pct}%`;
@@ -643,35 +852,16 @@
     document.getElementById('evValue').style.color = evColor(totalEV);
     document.getElementById('evDesc').textContent = evDescription(totalEV);
     document.getElementById('wheelEV').textContent = totalEV.toFixed(1);
+
+    // Visual viz
+    if (schema === 'visual') {
+      updateApertureViz(aI);
+      updateShutterViz(sI);
+      updateIsoViz(iI);
+    }
   }
 
-  function updateSliderDisplay(aI, sI, iI, aDelta, sDelta, iDelta) {
-    const cfg = SENSITIVITY[mode];
-    document.getElementById('aVal').textContent = APERTURES[aI];
-    document.getElementById('sVal').textContent = SHUTTERS[sI];
-    document.getElementById('iVal').textContent = cfg.values[iI];
-    document.getElementById('aDelta').textContent = deltaLabel(aDelta);
-    document.getElementById('sDelta').textContent = deltaLabel(sDelta);
-    document.getElementById('iDelta').textContent = deltaLabel(iDelta);
-    document.getElementById('aEffect').textContent = apertureEffect(aI);
-    document.getElementById('sEffect').textContent = shutterEffect(sI);
-    document.getElementById('iEffect').textContent = sensitivityEffect(iI);
-  }
-
-  function updateWheelDisplay(aI, sI, iI, aDelta, sDelta, iDelta) {
-    const cfg = SENSITIVITY[mode];
-    document.getElementById('wheelAVal').textContent = APERTURES[aI];
-    document.getElementById('wheelSVal').textContent = SHUTTERS[sI];
-    document.getElementById('wheelIVal').textContent = cfg.values[iI];
-    document.getElementById('wheelADelta').textContent = deltaLabel(aDelta);
-    document.getElementById('wheelSDelta').textContent = deltaLabel(sDelta);
-    document.getElementById('wheelIDelta').textContent = deltaLabel(iDelta);
-    document.getElementById('aLabel').textContent = APERTURES[aI];
-    document.getElementById('sLabel').textContent = SHUTTERS[sI];
-    document.getElementById('iLabel').textContent = cfg.values[iI];
-  }
-
-  // Wheel math
+  // Wheel helpers
   function angleToIndex(angle, maxIndex) {
     const normalized = ((angle % 360) + 360) % 360;
     const increment = 360 / (maxIndex + 1);
@@ -684,16 +874,10 @@
   }
 
   function getCurrentWheelIndex(control) {
-    const handle = {
-      aperture: document.getElementById('aHandle'),
-      shutter: document.getElementById('sHandle'),
-      iso: document.getElementById('iHandle')
-    }[control];
-
+    const handle = { aperture: document.getElementById('aHandle'), shutter: document.getElementById('sHandle'), iso: document.getElementById('iHandle') }[control];
     const x = parseFloat(handle.getAttribute('cx')) - WHEEL_CENTER;
     const y = parseFloat(handle.getAttribute('cy')) - WHEEL_CENTER;
     const angle = Math.atan2(y, x) * 180 / Math.PI + 90;
-
     const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[control];
     return angleToIndex(angle, maxIndex);
   }
@@ -702,17 +886,12 @@
     const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[control];
     const radius = WHEEL_RADII[control];
     const angle = indexToAngle(index, maxIndex) * Math.PI / 180 - Math.PI / 2;
-    const handle = {
-      aperture: document.getElementById('aHandle'),
-      shutter: document.getElementById('sHandle'),
-      iso: document.getElementById('iHandle')
-    }[control];
-
+    const handle = { aperture: document.getElementById('aHandle'), shutter: document.getElementById('sHandle'), iso: document.getElementById('iHandle') }[control];
     handle.setAttribute('cx', WHEEL_CENTER + radius * Math.cos(angle));
     handle.setAttribute('cy', WHEEL_CENTER + radius * Math.sin(angle));
   }
 
-  // Mode switch
+  // Mode
   function setMode(newMode) {
     mode = newMode;
     const cfg = SENSITIVITY[mode];
@@ -721,17 +900,20 @@
     document.getElementById('sensitivityLabel').textContent = cfg.label;
     document.getElementById('sensitivityEffectLabel').textContent = cfg.effectLabel;
     document.getElementById('wheelSensLabel').textContent = cfg.label;
+    document.getElementById('visualSensLabel').textContent = cfg.label;
     document.getElementById('iSlider').value = cfg.ref;
+    document.getElementById('iSliderVisual').value = cfg.ref;
     positionWheelHandle('iso', cfg.ref);
     update();
   }
 
-  // Schema switch
+  // Schema
   function setSchema(newSchema) {
     schema = newSchema;
     document.getElementById('slidersView').classList.toggle('active', schema === 'sliders');
     document.getElementById('wheelView').classList.toggle('active', schema === 'wheel');
-    if (schema === 'sliders') {
+    document.getElementById('visualView').classList.toggle('active', schema === 'visual');
+    if (schema === 'sliders' || schema === 'wheel') {
       positionWheelHandle('aperture', +document.getElementById('aSlider').value);
       positionWheelHandle('shutter', +document.getElementById('sSlider').value);
       positionWheelHandle('iso', +document.getElementById('iSlider').value);
@@ -744,15 +926,14 @@
   document.getElementById('digitalBtn').addEventListener('click', () => setMode('digital'));
   document.getElementById('schemaSelect').addEventListener('change', (e) => setSchema(e.target.value));
 
-  ['aSlider', 'sSlider', 'iSlider'].forEach(id => {
+  ['aSlider', 'sSlider', 'iSlider', 'aSliderVisual', 'sSliderVisual', 'iSliderVisual'].forEach(id => {
     document.getElementById(id).addEventListener('input', update);
   });
 
   // Wheel drag
   ['aHandle', 'sHandle', 'iHandle'].forEach((id, idx) => {
-    const handle = document.getElementById(id);
-    handle.addEventListener('mousedown', (e) => {
-      wheelDragTarget = { id, control: ['aperture', 'shutter', 'iso'][idx] };
+    document.getElementById(id).addEventListener('mousedown', () => {
+      wheelDragTarget = { control: ['aperture', 'shutter', 'iso'][idx] };
     });
   });
 
@@ -763,31 +944,29 @@
     const x = (e.clientX - rect.left) * 400 / rect.width - WHEEL_CENTER;
     const y = (e.clientY - rect.top) * 400 / rect.height - WHEEL_CENTER;
     const angle = Math.atan2(y, x) * 180 / Math.PI + 90;
-
     const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[wheelDragTarget.control];
     const index = angleToIndex(angle, maxIndex);
     positionWheelHandle(wheelDragTarget.control, index);
     update();
   });
 
-  document.addEventListener('mouseup', () => {
-    wheelDragTarget = null;
-  });
+  document.addEventListener('mouseup', () => { wheelDragTarget = null; });
 
   document.getElementById('resetBtn').addEventListener('click', () => {
-    if (schema === 'sliders') {
-      document.getElementById('aSlider').value = REF_A;
-      document.getElementById('sSlider').value = REF_S;
-      document.getElementById('iSlider').value = SENSITIVITY[mode].ref;
-    } else {
-      positionWheelHandle('aperture', REF_A);
-      positionWheelHandle('shutter', REF_S);
-      positionWheelHandle('iso', SENSITIVITY[mode].ref);
-    }
+    const ref_i = SENSITIVITY[mode].ref;
+    document.getElementById('aSlider').value = REF_A;
+    document.getElementById('sSlider').value = REF_S;
+    document.getElementById('iSlider').value = ref_i;
+    document.getElementById('aSliderVisual').value = REF_A;
+    document.getElementById('sSliderVisual').value = REF_S;
+    document.getElementById('iSliderVisual').value = ref_i;
+    positionWheelHandle('aperture', REF_A);
+    positionWheelHandle('shutter', REF_S);
+    positionWheelHandle('iso', ref_i);
     update();
   });
 
-  // Initialize
+  // Init
   positionWheelHandle('aperture', REF_A);
   positionWheelHandle('shutter', REF_S);
   positionWheelHandle('iso', SENSITIVITY[mode].ref);
