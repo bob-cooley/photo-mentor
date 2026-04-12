@@ -384,6 +384,7 @@
       background: #0a0a0a;
       min-height: 200px;
       overflow: hidden;
+      margin-bottom: 1.5rem;
     }
 
     .visual-value {
@@ -598,6 +599,7 @@
             <rect id="shutterFlash" x="10" y="10" width="140" height="140" fill="#fff" opacity="0"/>
           </svg>
         </div>
+        <button id="shutterReplayBtn" style="padding: 0.3rem 0.8rem; background: transparent; border: 1px solid #444; color: #999; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; border-radius: 2px; transition: all 0.15s; align-self: flex-start;" onmouseover="this.style.borderColor='#999'; this.style.color='#ddd';" onmouseout="this.style.borderColor='#444'; this.style.color='#999';">See Again</button>
         <div class="visual-label">Shutter Speed</div>
         <div class="visual-value" id="visualSVal">1/125</div>
         <div class="visual-delta" id="visualSDelta">Reference</div>
@@ -956,6 +958,11 @@
     positionWheelHandle('shutter', REF_S);
     positionWheelHandle('iso', ref_i);
     update();
+  });
+
+  document.getElementById('shutterReplayBtn').addEventListener('click', () => {
+    const sI = +document.getElementById('sSliderVisual').value;
+    updateShutterViz(sI);
   });
 
   // Init
