@@ -14,7 +14,6 @@
       font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
     }
 
-    /* ── Header ─────────────────────────────────────────────── */
     header {
       padding: 1.25rem 2rem;
       border-bottom: 1px solid #222;
@@ -41,14 +40,12 @@
       color: #bbb;
     }
 
-    /* ── Main ───────────────────────────────────────────────── */
     main {
       max-width: 860px;
       margin: 0 auto;
       padding: 2.5rem 2rem;
     }
 
-    /* ── Section label ──────────────────────────────────────── */
     .label {
       font-size: 0.85rem;
       letter-spacing: 0.14em;
@@ -57,7 +54,7 @@
       margin-bottom: 1rem;
     }
 
-    /* ── Exposure Meter ─────────────────────────────────────── */
+    /* Meter */
     .meter-section { margin-bottom: 3rem; }
 
     .meter {
@@ -135,14 +132,13 @@
       color: #aaa;
     }
 
-    /* ── Divider ────────────────────────────────────────────── */
     .divider {
       border: none;
       border-top: 1px solid #1e1e1e;
       margin: 0 0 2rem;
     }
 
-    /* ── Mode toggle ────────────────────────────────────────── */
+    /* Mode toggle */
     .mode-row {
       display: flex;
       justify-content: flex-end;
@@ -184,11 +180,47 @@
       border-left: 1px solid #983333;
     }
 
-    /* ── Controls ───────────────────────────────────────────── */
+    /* Schema selector */
+    .schema-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #1e1e1e;
+    }
+
+    .schema-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #666;
+    }
+
+    select {
+      padding: 0.4rem 0.8rem;
+      background: #1a1a1a;
+      border: 1px solid #444;
+      color: #ddd;
+      font-size: 0.85rem;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+
+    select:hover {
+      border-color: #666;
+    }
+
+    /* Sliders view */
     .controls {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 2rem;
+      display: none;
+    }
+
+    .controls.active {
+      display: grid;
     }
 
     @media (max-width: 600px) {
@@ -215,7 +247,6 @@
       min-height: 1em;
     }
 
-    /* Range slider */
     input[type="range"] {
       -webkit-appearance: none;
       width: 100%;
@@ -264,7 +295,60 @@
       line-height: 1.5;
     }
 
-    /* ── Reset ──────────────────────────────────────────────── */
+    /* Wheel view */
+    .wheel-view {
+      display: none;
+    }
+
+    .wheel-view.active {
+      display: block;
+    }
+
+    .wheel-container {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+
+    .wheel-svg {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .wheel-readout {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .wheel-value-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .wheel-value-label {
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #983333;
+    }
+
+    .wheel-value-current {
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: #fff;
+    }
+
+    .wheel-value-delta {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    /* Reset button */
     .reset-btn {
       display: block;
       margin: 2.5rem auto 0;
@@ -313,7 +397,7 @@
     </div>
     <div class="meter-readout">
       <span class="ev-value" id="evValue">0.0 EV</span>
-      <span class="ev-desc"  id="evDesc">Correct exposure</span>
+      <span class="ev-desc" id="evDesc">Correct exposure</span>
     </div>
   </div>
 
@@ -327,39 +411,91 @@
     </div>
   </div>
 
-  <!-- Three Controls -->
-  <div class="controls">
+  <!-- Schema selector -->
+  <div class="schema-row">
+    <span class="schema-label">Tool Schema</span>
+    <select id="schemaSelect">
+      <option value="sliders">Sliders</option>
+      <option value="wheel">Wheel</option>
+    </select>
+  </div>
 
-    <!-- Aperture -->
+  <!-- Sliders view -->
+  <div class="controls active" id="slidersView">
+
     <div class="control">
       <div class="label">Aperture</div>
-      <div class="control-value"  id="aVal">f/5.6</div>
-      <div class="control-delta"  id="aDelta">Reference</div>
+      <div class="control-value" id="aVal">f/5.6</div>
+      <div class="control-delta" id="aDelta">Reference</div>
       <input type="range" id="aSlider" min="0" max="8" step="1" value="4">
       <div class="effect-label">Depth of Field</div>
-      <div class="effect-text"    id="aEffect"></div>
+      <div class="effect-text" id="aEffect"></div>
     </div>
 
-    <!-- Shutter Speed -->
     <div class="control">
       <div class="label">Shutter Speed</div>
-      <div class="control-value"  id="sVal">1/125</div>
-      <div class="control-delta"  id="sDelta">Reference</div>
+      <div class="control-value" id="sVal">1/125</div>
+      <div class="control-delta" id="sDelta">Reference</div>
       <input type="range" id="sSlider" min="0" max="12" step="1" value="4">
       <div class="effect-label">Motion</div>
-      <div class="effect-text"    id="sEffect"></div>
+      <div class="effect-text" id="sEffect"></div>
     </div>
 
-    <!-- ISO / ASA -->
     <div class="control">
       <div class="label" id="sensitivityLabel">ISO</div>
-      <div class="control-value"  id="iVal">400</div>
-      <div class="control-delta"  id="iDelta">Reference</div>
+      <div class="control-value" id="iVal">400</div>
+      <div class="control-delta" id="iDelta">Reference</div>
       <input type="range" id="iSlider" min="0" max="7" step="1" value="2">
       <div class="effect-label" id="sensitivityEffectLabel">Noise</div>
-      <div class="effect-text"   id="iEffect"></div>
+      <div class="effect-text" id="iEffect"></div>
     </div>
 
+  </div>
+
+  <!-- Wheel view -->
+  <div class="wheel-view" id="wheelView">
+    <div class="wheel-container">
+      <svg class="wheel-svg" id="wheelSvg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+        <!-- Concentric circles for the tracks -->
+        <circle cx="200" cy="200" r="40" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+        <circle cx="200" cy="200" r="100" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+        <circle cx="200" cy="200" r="160" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+
+        <!-- Center dot -->
+        <circle cx="200" cy="200" r="3" fill="#fff"/>
+
+        <!-- Draggable handles (will be positioned by JS) -->
+        <circle id="aHandle" cx="200" cy="160" r="8" fill="#983333" opacity="0.7" style="cursor: grab;"/>
+        <circle id="sHandle" cx="200" cy="100" r="8" fill="#983333" opacity="0.7" style="cursor: grab;"/>
+        <circle id="iHandle" cx="200" cy="40" r="8" fill="#983333" opacity="0.7" style="cursor: grab;"/>
+
+        <!-- Labels on wheel (will be updated by JS) -->
+        <text id="aLabel" x="200" y="175" text-anchor="middle" font-size="12" fill="#999">f/5.6</text>
+        <text id="sLabel" x="200" y="115" text-anchor="middle" font-size="12" fill="#999">1/125</text>
+        <text id="iLabel" x="200" y="55" text-anchor="middle" font-size="12" fill="#999">400</text>
+
+        <!-- Center EV display -->
+        <text id="wheelEV" x="200" y="210" text-anchor="middle" font-size="28" font-weight="300" fill="#fff">0.0</text>
+      </svg>
+    </div>
+
+    <div class="wheel-readout">
+      <div class="wheel-value-box">
+        <div class="wheel-value-label">Aperture</div>
+        <div class="wheel-value-current" id="wheelAVal">f/5.6</div>
+        <div class="wheel-value-delta" id="wheelADelta">Reference</div>
+      </div>
+      <div class="wheel-value-box">
+        <div class="wheel-value-label">Shutter</div>
+        <div class="wheel-value-current" id="wheelSVal">1/125</div>
+        <div class="wheel-value-delta" id="wheelSDelta">Reference</div>
+      </div>
+      <div class="wheel-value-box">
+        <div class="wheel-value-label" id="wheelSensLabel">ISO</div>
+        <div class="wheel-value-current" id="wheelIVal">400</div>
+        <div class="wheel-value-delta" id="wheelIDelta">Reference</div>
+      </div>
+    </div>
   </div>
 
   <button class="reset-btn" id="resetBtn">Reset to Reference</button>
@@ -367,32 +503,35 @@
 </main>
 
 <script>
-  // ── Data ─────────────────────────────────────────────────────
+  // Data
   const APERTURES = ['f/1.4','f/2','f/2.8','f/4','f/5.6','f/8','f/11','f/16','f/22'];
   const SHUTTERS  = ['1/2000','1/1000','1/500','1/250','1/125','1/60','1/30','1/15','1/8','1/4','1/2','1″','2″'];
 
   const SENSITIVITY = {
     digital: {
-      label:       'ISO',
+      label: 'ISO',
       effectLabel: 'Noise',
-      values:      ['100','200','400','800','1600','3200','6400','12800'],
-      ref:         2   // ISO 400
+      values: ['100','200','400','800','1600','3200','6400','12800'],
+      ref: 2
     },
     film: {
-      label:       'ASA',
+      label: 'ASA',
       effectLabel: 'Grain',
-      values:      ['25','50','100','200','400','800','1600','3200'],
-      ref:         4   // ASA 400
+      values: ['25','50','100','200','400','800','1600','3200'],
+      ref: 4
     }
   };
 
-  // Aperture and shutter references are mode-independent
-  const REF_A = 4;  // f/5.6
-  const REF_S = 4;  // 1/125
-
+  const REF_A = 4, REF_S = 4;
   let mode = 'digital';
+  let schema = 'sliders';
 
-  // ── Effect copy ───────────────────────────────────────────────
+  // Wheel state
+  let wheelDragTarget = null;
+  const WHEEL_RADII = { aperture: 40, shutter: 100, iso: 160 };
+  const WHEEL_CENTER = 200;
+
+  // Effects
   function apertureEffect(i) {
     if (i <= 1) return 'Very shallow — subject sharply isolated, background strongly blurred';
     if (i <= 3) return 'Shallow — clear subject separation from background';
@@ -419,23 +558,22 @@
       if (i === 4) return 'Moderate grain — versatile all-purpose film, capable in low light';
       if (i === 5) return 'Visible grain — better low-light performance, noticeable texture';
       if (i === 6) return 'Notable grain — push processing often required, distinct texture';
-      return         'Heavy grain — extreme low light, strong grain character (T-MAX P3200, Delta 3200)';
+      return 'Heavy grain — extreme low light, strong grain character (T-MAX P3200, Delta 3200)';
     } else {
       if (i <= 1)  return 'Minimal noise — cleanest files, requires ample light';
       if (i === 2) return 'Low noise — good image quality, versatile';
       if (i === 3) return 'Moderate noise — acceptable across most output sizes';
       if (i <= 5)  return 'Noticeable noise — reserved for low-light situations';
       if (i === 6) return 'Heavy noise — extreme low light, significant quality trade-off';
-      return         'Very heavy noise — last resort, use only when nothing else is possible';
+      return 'Very heavy noise — last resort, use only when nothing else is possible';
     }
   }
 
-  // ── Helpers ───────────────────────────────────────────────────
   function deltaLabel(stops) {
     if (stops === 0) return 'Reference';
-    const n    = Math.abs(stops);
+    const n = Math.abs(stops);
     const word = n === 1 ? 'stop' : 'stops';
-    const dir  = stops > 0 ? 'more light' : 'less light';
+    const dir = stops > 0 ? 'more light' : 'less light';
     return `${stops > 0 ? '+' : ''}${stops} ${word} — ${dir}`;
   }
 
@@ -443,9 +581,9 @@
     if (Math.abs(ev) < 0.5) return 'Correct exposure';
     if (ev <= -3) return 'Severely underexposed';
     if (ev <= -2) return 'Significantly underexposed';
-    if (ev <   0) return 'Slightly underexposed';
-    if (ev >=  3) return 'Severely overexposed';
-    if (ev >=  2) return 'Significantly overexposed';
+    if (ev < 0) return 'Slightly underexposed';
+    if (ev >= 3) return 'Severely overexposed';
+    if (ev >= 2) return 'Significantly overexposed';
     return 'Slightly overexposed';
   }
 
@@ -459,93 +597,201 @@
     return ev < 0 ? '#5aacf5' : '#f5812a';
   }
 
-  // ── Render ────────────────────────────────────────────────────
+  // Update function (shared by both views)
   function update() {
     const cfg = SENSITIVITY[mode];
-    const aI  = +document.getElementById('aSlider').value;
-    const sI  = +document.getElementById('sSlider').value;
-    const iI  = +document.getElementById('iSlider').value;
+    let aI, sI, iI;
 
-    const aDelta  = REF_A  - aI;
-    const sDelta  = sI     - REF_S;
-    const iDelta  = iI     - cfg.ref;
+    if (schema === 'sliders') {
+      aI = +document.getElementById('aSlider').value;
+      sI = +document.getElementById('sSlider').value;
+      iI = +document.getElementById('iSlider').value;
+    } else {
+      // Wheel view — get indices from wheel positions
+      aI = Math.round(getCurrentWheelIndex('aperture'));
+      sI = Math.round(getCurrentWheelIndex('shutter'));
+      iI = Math.round(getCurrentWheelIndex('iso'));
+    }
+
+    const aDelta = REF_A - aI;
+    const sDelta = sI - REF_S;
+    const iDelta = iI - cfg.ref;
     const totalEV = aDelta + sDelta + iDelta;
 
-    // Values
-    document.getElementById('aVal').textContent = APERTURES[aI];
-    document.getElementById('sVal').textContent = SHUTTERS[sI];
-    document.getElementById('iVal').textContent = cfg.values[iI];
+    // Update both view displays
+    updateSliderDisplay(aI, sI, iI, aDelta, sDelta, iDelta);
+    updateWheelDisplay(aI, sI, iI, aDelta, sDelta, iDelta);
 
-    // Stop deltas
-    document.getElementById('aDelta').textContent = deltaLabel(aDelta);
-    document.getElementById('sDelta').textContent = deltaLabel(sDelta);
-    document.getElementById('iDelta').textContent = deltaLabel(iDelta);
-
-    // Effects
-    document.getElementById('aEffect').textContent = apertureEffect(aI);
-    document.getElementById('sEffect').textContent = shutterEffect(sI);
-    document.getElementById('iEffect').textContent = sensitivityEffect(iI);
-
-    // Meter needle: clamp EV to ±4, map to 0–100%
+    // Update meter and EV
     const clamped = Math.max(-4, Math.min(4, totalEV));
-    const pct     = (clamped + 4) / 8 * 100;
-
+    const pct = (clamped + 4) / 8 * 100;
     document.getElementById('meterNeedle').style.left = `${pct}%`;
 
-    // Fill from center to needle
-    const fill   = document.getElementById('meterFill');
+    const fill = document.getElementById('meterFill');
     const center = 50;
     if (pct >= center) {
-      fill.style.left  = `${center}%`;
+      fill.style.left = `${center}%`;
       fill.style.width = `${pct - center}%`;
     } else {
-      fill.style.left  = `${pct}%`;
+      fill.style.left = `${pct}%`;
       fill.style.width = `${center - pct}%`;
     }
     fill.style.backgroundColor = fillColor(totalEV);
 
-    // EV readout
     const sign = totalEV > 0 ? '+' : '';
     document.getElementById('evValue').textContent = `${sign}${totalEV.toFixed(1)} EV`;
     document.getElementById('evValue').style.color = evColor(totalEV);
-    document.getElementById('evDesc').textContent  = evDescription(totalEV);
+    document.getElementById('evDesc').textContent = evDescription(totalEV);
+    document.getElementById('wheelEV').textContent = totalEV.toFixed(1);
   }
 
-  // ── Mode switch ───────────────────────────────────────────────
+  function updateSliderDisplay(aI, sI, iI, aDelta, sDelta, iDelta) {
+    const cfg = SENSITIVITY[mode];
+    document.getElementById('aVal').textContent = APERTURES[aI];
+    document.getElementById('sVal').textContent = SHUTTERS[sI];
+    document.getElementById('iVal').textContent = cfg.values[iI];
+    document.getElementById('aDelta').textContent = deltaLabel(aDelta);
+    document.getElementById('sDelta').textContent = deltaLabel(sDelta);
+    document.getElementById('iDelta').textContent = deltaLabel(iDelta);
+    document.getElementById('aEffect').textContent = apertureEffect(aI);
+    document.getElementById('sEffect').textContent = shutterEffect(sI);
+    document.getElementById('iEffect').textContent = sensitivityEffect(iI);
+  }
+
+  function updateWheelDisplay(aI, sI, iI, aDelta, sDelta, iDelta) {
+    const cfg = SENSITIVITY[mode];
+    document.getElementById('wheelAVal').textContent = APERTURES[aI];
+    document.getElementById('wheelSVal').textContent = SHUTTERS[sI];
+    document.getElementById('wheelIVal').textContent = cfg.values[iI];
+    document.getElementById('wheelADelta').textContent = deltaLabel(aDelta);
+    document.getElementById('wheelSDelta').textContent = deltaLabel(sDelta);
+    document.getElementById('wheelIDelta').textContent = deltaLabel(iDelta);
+    document.getElementById('aLabel').textContent = APERTURES[aI];
+    document.getElementById('sLabel').textContent = SHUTTERS[sI];
+    document.getElementById('iLabel').textContent = cfg.values[iI];
+  }
+
+  // Wheel math
+  function angleToIndex(angle, maxIndex) {
+    const normalized = ((angle % 360) + 360) % 360;
+    const increment = 360 / (maxIndex + 1);
+    return Math.round(normalized / increment) % (maxIndex + 1);
+  }
+
+  function indexToAngle(index, maxIndex) {
+    const increment = 360 / (maxIndex + 1);
+    return index * increment;
+  }
+
+  function getCurrentWheelIndex(control) {
+    const handle = {
+      aperture: document.getElementById('aHandle'),
+      shutter: document.getElementById('sHandle'),
+      iso: document.getElementById('iHandle')
+    }[control];
+
+    const x = parseFloat(handle.getAttribute('cx')) - WHEEL_CENTER;
+    const y = parseFloat(handle.getAttribute('cy')) - WHEEL_CENTER;
+    const angle = Math.atan2(y, x) * 180 / Math.PI + 90;
+
+    const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[control];
+    return angleToIndex(angle, maxIndex);
+  }
+
+  function positionWheelHandle(control, index) {
+    const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[control];
+    const radius = WHEEL_RADII[control];
+    const angle = indexToAngle(index, maxIndex) * Math.PI / 180 - Math.PI / 2;
+    const handle = {
+      aperture: document.getElementById('aHandle'),
+      shutter: document.getElementById('sHandle'),
+      iso: document.getElementById('iHandle')
+    }[control];
+
+    handle.setAttribute('cx', WHEEL_CENTER + radius * Math.cos(angle));
+    handle.setAttribute('cy', WHEEL_CENTER + radius * Math.sin(angle));
+  }
+
+  // Mode switch
   function setMode(newMode) {
     mode = newMode;
     const cfg = SENSITIVITY[mode];
-
-    // Toggle button states
-    document.getElementById('filmBtn').classList.toggle('active',    mode === 'film');
+    document.getElementById('filmBtn').classList.toggle('active', mode === 'film');
     document.getElementById('digitalBtn').classList.toggle('active', mode === 'digital');
-
-    // Update sensitivity labels
-    document.getElementById('sensitivityLabel').textContent      = cfg.label;
+    document.getElementById('sensitivityLabel').textContent = cfg.label;
     document.getElementById('sensitivityEffectLabel').textContent = cfg.effectLabel;
-
-    // Reset sensitivity slider to this mode's reference
+    document.getElementById('wheelSensLabel').textContent = cfg.label;
     document.getElementById('iSlider').value = cfg.ref;
-
+    positionWheelHandle('iso', cfg.ref);
     update();
   }
 
-  // ── Events ────────────────────────────────────────────────────
+  // Schema switch
+  function setSchema(newSchema) {
+    schema = newSchema;
+    document.getElementById('slidersView').classList.toggle('active', schema === 'sliders');
+    document.getElementById('wheelView').classList.toggle('active', schema === 'wheel');
+    if (schema === 'sliders') {
+      positionWheelHandle('aperture', +document.getElementById('aSlider').value);
+      positionWheelHandle('shutter', +document.getElementById('sSlider').value);
+      positionWheelHandle('iso', +document.getElementById('iSlider').value);
+    }
+    update();
+  }
+
+  // Events
+  document.getElementById('filmBtn').addEventListener('click', () => setMode('film'));
+  document.getElementById('digitalBtn').addEventListener('click', () => setMode('digital'));
+  document.getElementById('schemaSelect').addEventListener('change', (e) => setSchema(e.target.value));
+
   ['aSlider', 'sSlider', 'iSlider'].forEach(id => {
     document.getElementById(id).addEventListener('input', update);
   });
 
-  document.getElementById('filmBtn').addEventListener('click',    () => setMode('film'));
-  document.getElementById('digitalBtn').addEventListener('click', () => setMode('digital'));
+  // Wheel drag
+  ['aHandle', 'sHandle', 'iHandle'].forEach((id, idx) => {
+    const handle = document.getElementById(id);
+    handle.addEventListener('mousedown', (e) => {
+      wheelDragTarget = { id, control: ['aperture', 'shutter', 'iso'][idx] };
+    });
+  });
 
-  document.getElementById('resetBtn').addEventListener('click', () => {
-    document.getElementById('aSlider').value = REF_A;
-    document.getElementById('sSlider').value = REF_S;
-    document.getElementById('iSlider').value = SENSITIVITY[mode].ref;
+  document.addEventListener('mousemove', (e) => {
+    if (!wheelDragTarget || schema !== 'wheel') return;
+    const svg = document.getElementById('wheelSvg');
+    const rect = svg.getBoundingClientRect();
+    const x = (e.clientX - rect.left) * 400 / rect.width - WHEEL_CENTER;
+    const y = (e.clientY - rect.top) * 400 / rect.height - WHEEL_CENTER;
+    const angle = Math.atan2(y, x) * 180 / Math.PI + 90;
+
+    const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[wheelDragTarget.control];
+    const index = angleToIndex(angle, maxIndex);
+    positionWheelHandle(wheelDragTarget.control, index);
     update();
   });
 
-  update(); // initial render
+  document.addEventListener('mouseup', () => {
+    wheelDragTarget = null;
+  });
+
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    if (schema === 'sliders') {
+      document.getElementById('aSlider').value = REF_A;
+      document.getElementById('sSlider').value = REF_S;
+      document.getElementById('iSlider').value = SENSITIVITY[mode].ref;
+    } else {
+      positionWheelHandle('aperture', REF_A);
+      positionWheelHandle('shutter', REF_S);
+      positionWheelHandle('iso', SENSITIVITY[mode].ref);
+    }
+    update();
+  });
+
+  // Initialize
+  positionWheelHandle('aperture', REF_A);
+  positionWheelHandle('shutter', REF_S);
+  positionWheelHandle('iso', SENSITIVITY[mode].ref);
+  update();
 </script>
 
 </body>
