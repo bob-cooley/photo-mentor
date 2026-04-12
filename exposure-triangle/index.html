@@ -26,15 +26,15 @@
     .back-link {
       color: #888;
       text-decoration: none;
-      font-size: 0.8rem;
+      font-size: 1rem;
       letter-spacing: 0.05em;
     }
     .back-link:hover { color: #ddd; }
 
-    .breadcrumb-sep { color: #666; font-size: 0.8rem; }
+    .breadcrumb-sep { color: #666; font-size: 1rem; }
 
     header h1 {
-      font-size: 0.9rem;
+      font-size: 1.1rem;
       font-weight: 400;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -50,10 +50,10 @@
 
     /* ── Section label ──────────────────────────────────────── */
     .label {
-      font-size: 0.65rem;
+      font-size: 0.85rem;
       letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: #999;
+      color: #983333;
       margin-bottom: 1rem;
     }
 
@@ -111,7 +111,7 @@
     }
 
     .meter-tick-row span {
-      font-size: 0.65rem;
+      font-size: 0.85rem;
       color: #777;
       text-align: center;
     }
@@ -124,14 +124,14 @@
     }
 
     .ev-value {
-      font-size: 1.6rem;
+      font-size: 2rem;
       font-weight: 300;
       letter-spacing: 0.02em;
       transition: color 0.2s;
     }
 
     .ev-desc {
-      font-size: 0.8rem;
+      font-size: 1rem;
       color: #aaa;
     }
 
@@ -158,7 +158,7 @@
       background: transparent;
       border: 1px solid #444;
       color: #999;
-      font-size: 0.65rem;
+      font-size: 0.8rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       cursor: pointer;
@@ -177,11 +177,11 @@
     .mode-btn.active {
       background: #2a2a2a;
       color: #eee;
-      border-color: #666;
+      border-color: #983333;
     }
 
     .mode-btn:last-child.active {
-      border-left: 1px solid #666;
+      border-left: 1px solid #983333;
     }
 
     /* ── Controls ───────────────────────────────────────────── */
@@ -202,7 +202,7 @@
     }
 
     .control-value {
-      font-size: 1.8rem;
+      font-size: 2.2rem;
       font-weight: 300;
       color: #fff;
       line-height: 1;
@@ -210,7 +210,7 @@
     }
 
     .control-delta {
-      font-size: 0.72rem;
+      font-size: 0.95rem;
       color: #aaa;
       min-height: 1em;
     }
@@ -251,15 +251,15 @@
     }
 
     .effect-label {
-      font-size: 0.62rem;
+      font-size: 0.82rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: #777;
+      color: #983333;
       margin-top: 0.3rem;
     }
 
     .effect-text {
-      font-size: 0.8rem;
+      font-size: 1rem;
       color: #bbb;
       line-height: 1.5;
     }
@@ -272,7 +272,7 @@
       background: transparent;
       border: 1px solid #444;
       color: #999;
-      font-size: 0.7rem;
+      font-size: 0.9rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       cursor: pointer;
@@ -455,7 +455,7 @@
   }
 
   function fillColor(ev) {
-    if (Math.abs(ev) <= 1) return '#666';
+    if (Math.abs(ev) <= 1) return '#983333';
     return ev < 0 ? '#5aacf5' : '#f5812a';
   }
 
