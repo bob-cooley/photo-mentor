@@ -1,0 +1,59 @@
+Exposure triangle calculator
+Interactive aperture, shutter, and ISO controls that show equivalent exposure changes and the practical tradeoffs of each choice.
+
+Equivalent exposure wheel
+A rotating visual dial that lets students swap one setting for another while maintaining the same overall exposure.
+Motion blur and shutter speed simulator
+
+A slider that shows how people, cars, water, and camera shake render at different shutter speeds.
+Depth of field visualizer
+
+A tool that changes aperture, focal length, subject distance, and sensor size so students can see near and far focus zones expand or collapse.
+Focal length and angle-of-view comparer
+
+Side-by-side frames showing how 24mm, 35mm, 50mm, 85mm, 135mm, etc. change framing from the same camera position.
+Perspective vs focal length demonstrator
+
+A lesson showing that camera position changes perspective, while focal length mainly changes framing and field of view.
+Handholding safety chart
+
+An interactive guide for minimum handheld shutter speeds based on focal length, stabilization, and subject movement.
+Metering mode simulator
+
+A scene-based tool showing how evaluative, center-weighted, and spot metering behave in high-contrast conditions.
+Exposure compensation trainer
+
+A set of tricky scenes like snow, backlight, dark clothing, stage light where students decide when to add or subtract exposure.
+Histogram interpreter
+
+A visual lesson that connects actual images to histogram shapes so students learn clipping, midtone placement, and dynamic range.
+Highlight and shadow clipping lab
+
+A before/after tool showing what detail is lost in blown highlights and blocked shadows, and when that loss matters.
+White balance and color temperature slider
+
+A visual comparison tool that shifts a scene through tungsten, daylight, shade, fluorescent, and custom Kelvin values.
+Reciprocity and reciprocity failure calculator
+
+A film-focused tool that starts with metered exposure and shows corrected long-exposure values for specific films.
+Push/pull film decision chart
+
+An interactive guide showing what happens when film is exposed or developed differently from box speed, including contrast and shadow effects.
+Framing cleanup exercise
+
+Students drag crop boundaries or reposition a frame to reduce clutter, tangencies, mergers, and dead space.
+Basic composition guide
+
+A clean visual tool covering horizon placement, subject placement, balance, negative space, and foreground-background relationships.
+Advanced composition variation guide
+
+A more sophisticated lesson showing edge tension, visual weight, layering, repetition, interruption, geometric alignment, and figure-ground separation.
+Lens choice by scenario selector
+
+Students choose a lens for portraits, interiors, street, sports, landscapes, and documentary situations and see the consequences of each choice.
+Focus mode and autofocus area trainer
+
+A scenario-based tool for single AF, continuous AF, manual focus, face detect, zone focus, and tracking behavior.
+“What went wrong?” diagnostic lab
+
+A troubleshooting tool where students inspect failed images and identify missed focus, camera shake, bad exposure, poor framing, subject merge, or wrong timing.
