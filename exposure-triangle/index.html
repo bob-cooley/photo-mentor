@@ -359,8 +359,9 @@
 
     .triangle-wrapper {
       position: relative;
-      width: 100%;
-      margin: 1rem 0;
+      /* Cap the wrapper so the full triangle fits in one viewport */
+      width: min(100%, calc(100vh - 420px));
+      margin: 1rem auto;
     }
 
     .triangle-svg {
@@ -402,24 +403,27 @@
       margin-top: 0.2rem;
     }
 
-    /* Aperture: left side of triangle, mid-height */
+    /* Aperture: left edge midpoint is at x=30%, y=42% of the SVG.
+       Box right edge sits ~3% to the left of the line for comfortable gap. */
     .tri-overlay-aperture {
-      left: 18%;
-      top: 44%;
+      right: 73%;
+      top: 42%;
       transform: translateY(-50%);
     }
 
-    /* ISO: right side of triangle */
+    /* ISO: right edge midpoint is at x=70%, y=42%.
+       Box left edge sits ~3% to the right of the line. */
     .tri-overlay-iso {
-      right: 7%;
-      top: 57%;
+      left: 73%;
+      top: 42%;
       transform: translateY(-50%);
     }
 
-    /* Shutter Speed: bottom center */
+    /* Shutter: bottom edge midpoint is at x=50%, y=78.6%.
+       Box centered horizontally, top sits ~4% below the line. */
     .tri-overlay-shutter {
       left: 50%;
-      top: 80%;
+      top: 83%;
       transform: translateX(-50%);
     }
 
