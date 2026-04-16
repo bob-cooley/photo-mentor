@@ -369,37 +369,36 @@
       height: auto;
     }
 
-    .triangle-readout-wrapper {
-      position: relative;
-      margin-top: 2rem;
-      height: 200px;
+    .triangle-layout {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      margin: 2rem 0;
     }
 
-    .triangle-readout-left, .triangle-readout-right, .triangle-readout-bottom {
-      position: absolute;
-    }
-
-    .triangle-readout-left {
-      left: 0;
-      top: 40px;
-    }
-
-    .triangle-readout-right {
-      right: 0;
-      top: 40px;
-    }
-
-    .triangle-readout-bottom {
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 0;
-    }
-
-    .triangle-value-box {
+    .triangle-module {
       display: flex;
       flex-direction: column;
-      gap: 0.5rem;
+      gap: 0.75rem;
       text-align: center;
+      padding: 1.5rem;
+      border: 1px solid #2a2a2a;
+      border-radius: 3px;
+    }
+
+    .triangle-module-left {
+      justify-self: end;
+    }
+
+    .triangle-module-right {
+      justify-self: start;
+    }
+
+    .triangle-module-bottom {
+      grid-column: 1 / -1;
+      max-width: 280px;
+      margin: 2rem auto 0;
     }
 
     .triangle-value-label {
@@ -413,6 +412,7 @@
       font-size: 2.2rem;
       font-weight: 300;
       color: #fff;
+      line-height: 1;
     }
 
     .triangle-value-delta {
@@ -628,8 +628,17 @@
 
   <!-- ── Triangle view ──────────────────────────── -->
   <div class="triangle-view" id="triangleView">
-    <div class="triangle-container">
-      <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <div class="triangle-layout">
+      <!-- Left: Aperture Module -->
+      <div class="triangle-module triangle-module-left">
+        <div class="triangle-value-label">Aperture</div>
+        <div class="triangle-value-current" id="triangleAVal">f/5.6</div>
+        <div class="triangle-value-delta" id="triangleADelta">Reference</div>
+      </div>
+
+      <!-- Center: Triangle -->
+      <div class="triangle-container">
+        <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
         <!-- Equilateral triangle edges -->
         <!-- Top: (250, 50), Bottom-left: (90, 320), Bottom-right: (410, 320) -->
         <line x1="250" y1="50" x2="90" y2="320" stroke="#1a1a1a" stroke-width="3"/>
@@ -650,36 +659,22 @@
         <circle id="sVertex" cx="90" cy="320" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
         <circle id="iVertex" cx="410" cy="320" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
 
-        <!-- Current value labels -->
-        <text id="aTriangleLabel" x="250" y="35" text-anchor="middle" font-size="13" font-weight="500" fill="#fff">f/5.6</text>
-        <text id="sTriangleLabel" x="250" y="450" text-anchor="middle" font-size="13" font-weight="500" fill="#fff">1/125</text>
-        <text id="iTriangleLabel" x="450" y="245" text-anchor="start" font-size="13" font-weight="500" fill="#fff">400</text>
       </svg>
+      </div>
+
+      <!-- Right: ISO Module -->
+      <div class="triangle-module triangle-module-right">
+        <div class="triangle-value-label" id="triangleSensLabel">ISO</div>
+        <div class="triangle-value-current" id="triangleIVal">400</div>
+        <div class="triangle-value-delta" id="triangleIDelta">Reference</div>
+      </div>
     </div>
 
-    <div class="triangle-readout-wrapper">
-      <div class="triangle-readout-left">
-        <div class="triangle-value-box">
-          <div class="triangle-value-label">Aperture</div>
-          <div class="triangle-value-current" id="triangleAVal">f/5.6</div>
-          <div class="triangle-value-delta" id="triangleADelta">Reference</div>
-        </div>
-      </div>
-      <div class="triangle-readout-center"></div>
-      <div class="triangle-readout-right">
-        <div class="triangle-value-box">
-          <div class="triangle-value-label" id="triangleSensLabel">ISO</div>
-          <div class="triangle-value-current" id="triangleIVal">400</div>
-          <div class="triangle-value-delta" id="triangleIDelta">Reference</div>
-        </div>
-      </div>
-      <div class="triangle-readout-bottom">
-        <div class="triangle-value-box">
-          <div class="triangle-value-label">Shutter</div>
-          <div class="triangle-value-current" id="triangleSVal">1/125</div>
-          <div class="triangle-value-delta" id="triangleSDelta">Reference</div>
-        </div>
-      </div>
+    <!-- Bottom: Shutter Module (full width, centered) -->
+    <div class="triangle-module triangle-module-bottom">
+      <div class="triangle-value-label">Shutter Speed</div>
+      <div class="triangle-value-current" id="triangleSVal">1/125</div>
+      <div class="triangle-value-delta" id="triangleSDelta">Reference</div>
     </div>
   </div>
 
