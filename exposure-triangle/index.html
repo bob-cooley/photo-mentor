@@ -357,69 +357,70 @@
       display: block;
     }
 
-    .triangle-container {
-      display: flex;
-      justify-content: center;
-      margin: 2rem 0;
+    .triangle-wrapper {
+      position: relative;
+      width: 100%;
+      margin: 1rem 0;
     }
 
     .triangle-svg {
       width: 100%;
       height: auto;
+      display: block;
     }
 
-    .triangle-layout {
-      display: grid;
-      grid-template-columns: 30px 1fr 30px;
-      gap: 0.1rem;
-      align-items: center;
-      margin: 2rem auto;
-      width: 95vw;
-      max-width: 100%;
+    /* Overlay modules */
+    .tri-overlay {
+      position: absolute;
+      background: rgba(16, 16, 16, 0.92);
+      border: 1px solid #252525;
+      border-radius: 3px;
+      padding: 0.6rem 0.9rem;
+      min-width: 90px;
+      pointer-events: none;
     }
 
-    .triangle-module {
-      display: flex;
-      flex-direction: column;
-      gap: 0.02rem;
-      text-align: center;
-      overflow: hidden;
-      font-size: 0.65em;
-    }
-
-    .triangle-module-left {
-      justify-self: end;
-    }
-
-    .triangle-module-right {
-      justify-self: start;
-    }
-
-    .triangle-module-bottom {
-      grid-column: 1 / -1;
-      max-width: 150px;
-      margin: 0.5rem auto 0;
-    }
-
-    .triangle-value-label {
-      font-size: 0.08rem;
-      letter-spacing: 0.02em;
+    .tri-label {
+      font-size: 0.68rem;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #983333;
-      line-height: 1;
+      margin-bottom: 0.25rem;
     }
 
-    .triangle-value-current {
-      font-size: 0.22rem;
+    .tri-value {
+      font-size: 2rem;
       font-weight: 300;
       color: #fff;
-      line-height: 1;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
     }
 
-    .triangle-value-delta {
-      font-size: 0.08rem;
-      color: #aaa;
-      line-height: 1;
+    .tri-delta {
+      font-size: 0.72rem;
+      color: #888;
+      margin-top: 0.2rem;
+    }
+
+    /* Aperture: left side of triangle, mid-height */
+    .tri-overlay-aperture {
+      left: 18%;
+      top: 44%;
+      transform: translateY(-50%);
+    }
+
+    /* ISO: right side of triangle */
+    .tri-overlay-iso {
+      right: 7%;
+      top: 57%;
+      transform: translateY(-50%);
+    }
+
+    /* Shutter Speed: bottom center */
+    .tri-overlay-shutter {
+      left: 50%;
+      top: 80%;
+      transform: translateX(-50%);
     }
 
     /* ── Visual view ───────────────────────────────── */
@@ -630,24 +631,16 @@
 
   <!-- ── Triangle view ──────────────────────────── -->
   <div class="triangle-view" id="triangleView">
-    <div class="triangle-layout">
-      <!-- Left: Aperture Module -->
-      <div class="triangle-module triangle-module-left">
-        <div class="triangle-value-label">Aperture</div>
-        <div class="triangle-value-current" id="triangleAVal">f/5.6</div>
-        <div class="triangle-value-delta" id="triangleADelta">Reference</div>
-      </div>
+    <div class="triangle-wrapper">
 
-      <!-- Center: Triangle -->
-      <div class="triangle-container">
-        <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
-        <!-- Equilateral triangle edges -->
+      <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
+        <!-- Triangle edges -->
         <!-- Top: (350, 40), Bottom-left: (70, 550), Bottom-right: (630, 550) -->
         <line x1="350" y1="40" x2="70" y2="550" stroke="#1a1a1a" stroke-width="3"/>
         <line x1="70" y1="550" x2="630" y2="550" stroke="#1a1a1a" stroke-width="3"/>
         <line x1="630" y1="550" x2="350" y2="40" stroke="#1a1a1a" stroke-width="3"/>
 
-        <!-- Aperture marks and labels (top-left edge) -->
+        <!-- Aperture marks and labels (left edge) -->
         <g id="apertureEdge"></g>
 
         <!-- Shutter marks and labels (bottom edge) -->
@@ -661,22 +654,33 @@
         <circle id="sVertex" cx="70" cy="550" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
         <circle id="iVertex" cx="630" cy="550" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
 
+        <!-- Hidden SVG labels (updated by JS) -->
+        <text id="aTriangleLabel" x="0" y="0" opacity="0">f/5.6</text>
+        <text id="sTriangleLabel" x="0" y="0" opacity="0">1/125</text>
+        <text id="iTriangleLabel" x="0" y="0" opacity="0">400</text>
       </svg>
+
+      <!-- Aperture overlay: left side -->
+      <div class="tri-overlay tri-overlay-aperture">
+        <div class="tri-label">Aperture</div>
+        <div class="tri-value" id="triangleAVal">f/5.6</div>
+        <div class="tri-delta" id="triangleADelta">Reference</div>
       </div>
 
-      <!-- Right: ISO Module -->
-      <div class="triangle-module triangle-module-right">
-        <div class="triangle-value-label" id="triangleSensLabel">ISO</div>
-        <div class="triangle-value-current" id="triangleIVal">400</div>
-        <div class="triangle-value-delta" id="triangleIDelta">Reference</div>
+      <!-- ISO overlay: right side -->
+      <div class="tri-overlay tri-overlay-iso">
+        <div class="tri-label" id="triangleSensLabel">ISO</div>
+        <div class="tri-value" id="triangleIVal">400</div>
+        <div class="tri-delta" id="triangleIDelta">Reference</div>
       </div>
-    </div>
 
-    <!-- Bottom: Shutter Module (full width, centered) -->
-    <div class="triangle-module triangle-module-bottom">
-      <div class="triangle-value-label">Shutter Speed</div>
-      <div class="triangle-value-current" id="triangleSVal">1/125</div>
-      <div class="triangle-value-delta" id="triangleSDelta">Reference</div>
+      <!-- Shutter Speed overlay: bottom center -->
+      <div class="tri-overlay tri-overlay-shutter">
+        <div class="tri-label">Shutter Speed</div>
+        <div class="tri-value" id="triangleSVal">1/125</div>
+        <div class="tri-delta" id="triangleSDelta">Reference</div>
+      </div>
+
     </div>
   </div>
 
