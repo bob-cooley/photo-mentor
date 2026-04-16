@@ -138,11 +138,21 @@
       margin: 0 0 0.75rem;
     }
 
-    /* Mode toggle */
-    .mode-row {
+    /* Combined controls row */
+    .controls-row {
       display: flex;
-      justify-content: flex-end;
-      margin-bottom: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.5rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid #1e1e1e;
+    }
+
+    .schema-inline {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
     }
 
     .mode-toggle {
@@ -178,16 +188,6 @@
 
     .mode-btn:last-child.active {
       border-left: 1px solid #983333;
-    }
-
-    /* Schema selector */
-    .schema-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 0.5rem;
-      padding-top: 0.75rem;
-      border-top: 1px solid #1e1e1e;
     }
 
     .schema-label {
@@ -360,7 +360,7 @@
     .triangle-wrapper {
       position: relative;
       /* Cap the wrapper so the full triangle fits in one viewport */
-      width: min(100%, calc(100vh - 340px));
+      width: min(100%, calc(100vh - 310px));
       margin: 0.5rem auto;
     }
 
@@ -493,8 +493,8 @@
     /* ── Reset button ──────────────────────────────── */
     .reset-btn {
       display: block;
-      margin: 1rem auto 0;
-      padding: 0.55rem 1.75rem;
+      margin: 0;
+      padding: 0.35rem 1rem;
       background: transparent;
       border: 1px solid #444;
       color: #999;
@@ -543,25 +543,22 @@
     </div>
   </div>
 
-  <hr class="divider">
-
-  <!-- Film / Digital toggle -->
-  <div class="mode-row">
+  <!-- Controls row: Film/Digital + Schema selector + Reset -->
+  <div class="controls-row">
     <div class="mode-toggle">
       <button class="mode-btn" id="filmBtn">Film</button>
       <button class="mode-btn active" id="digitalBtn">Digital</button>
     </div>
-  </div>
-
-  <!-- Schema selector -->
-  <div class="schema-row">
-    <span class="schema-label">Tool Schema</span>
-    <select id="schemaSelect">
-      <option value="sliders">Sliders</option>
-      <option value="wheel">Wheel</option>
-      <option value="visual">Visual</option>
-      <option value="triangle">Triangle</option>
-    </select>
+    <div class="schema-inline">
+      <span class="schema-label">Tool Schema</span>
+      <select id="schemaSelect">
+        <option value="sliders">Sliders</option>
+        <option value="wheel">Wheel</option>
+        <option value="visual">Visual</option>
+        <option value="triangle">Triangle</option>
+      </select>
+    </div>
+    <button class="reset-btn" id="resetBtn">Reset to Reference</button>
   </div>
 
   <!-- ── Sliders view ──────────────────────────── -->
@@ -755,7 +752,6 @@
     </div>
   </div>
 
-  <button class="reset-btn" id="resetBtn">Reset to Reference</button>
 
 </main>
 
