@@ -634,12 +634,12 @@
 
       <!-- Center: Triangle -->
       <div class="triangle-container">
-        <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg">
         <!-- Equilateral triangle edges -->
-        <!-- Top: (300, 60), Bottom-left: (100, 400), Bottom-right: (500, 400) -->
-        <line x1="300" y1="60" x2="100" y2="400" stroke="#1a1a1a" stroke-width="3"/>
-        <line x1="100" y1="400" x2="500" y2="400" stroke="#1a1a1a" stroke-width="3"/>
-        <line x1="500" y1="400" x2="300" y2="60" stroke="#1a1a1a" stroke-width="3"/>
+        <!-- Top: (350, 40), Bottom-left: (70, 550), Bottom-right: (630, 550) -->
+        <line x1="350" y1="40" x2="70" y2="550" stroke="#1a1a1a" stroke-width="3"/>
+        <line x1="70" y1="550" x2="630" y2="550" stroke="#1a1a1a" stroke-width="3"/>
+        <line x1="630" y1="550" x2="350" y2="40" stroke="#1a1a1a" stroke-width="3"/>
 
         <!-- Aperture marks and labels (top-left edge) -->
         <g id="apertureEdge"></g>
@@ -651,9 +651,9 @@
         <g id="isoEdge"></g>
 
         <!-- Draggable vertices -->
-        <circle id="aVertex" cx="300" cy="60" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
-        <circle id="sVertex" cx="100" cy="400" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
-        <circle id="iVertex" cx="500" cy="400" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
+        <circle id="aVertex" cx="350" cy="40" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
+        <circle id="sVertex" cx="70" cy="550" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
+        <circle id="iVertex" cx="630" cy="550" r="12" fill="#983333" opacity="0.9" style="cursor: grab; filter: drop-shadow(0 0 3px rgba(152,51,51,0.5));"/>
 
       </svg>
       </div>
@@ -1034,11 +1034,11 @@
   }
 
   // Triangle helpers - Equilateral triangle
-  // Top: (300, 60), Bottom-left: (100, 400), Bottom-right: (500, 400)
+  // Top: (350, 40), Bottom-left: (70, 550), Bottom-right: (630, 550)
   const TRIANGLE_VERTS = {
-    aperture: { p1: { x: 300, y: 60 }, p2: { x: 100, y: 400 }, label: 'APERTURE' },    // top-left edge
-    shutter: { p1: { x: 100, y: 400 }, p2: { x: 500, y: 400 }, label: 'SHUTTER' },     // bottom edge
-    iso: { p1: { x: 500, y: 400 }, p2: { x: 300, y: 60 }, label: 'ISO/ASA' }          // right edge
+    aperture: { p1: { x: 350, y: 40 }, p2: { x: 70, y: 550 }, label: 'APERTURE' },    // top-left edge
+    shutter: { p1: { x: 70, y: 550 }, p2: { x: 630, y: 550 }, label: 'SHUTTER' },     // bottom edge
+    iso: { p1: { x: 630, y: 550 }, p2: { x: 350, y: 40 }, label: 'ISO/ASA' }          // right edge
   };
 
   function positionOnEdge(control, index) {
@@ -1223,8 +1223,8 @@
     if (!triangleDragTarget || schema !== 'triangle') return;
     const svg = document.getElementById('triangleSvg');
     const rect = svg.getBoundingClientRect();
-    const x = (e.clientX - rect.left) * 600 / rect.width;
-    const y = (e.clientY - rect.top) * 600 / rect.height;
+    const x = (e.clientX - rect.left) * 700 / rect.width;
+    const y = (e.clientY - rect.top) * 700 / rect.height;
     const edge = TRIANGLE_VERTS[triangleDragTarget.control];
     const dx = edge.p2.x - edge.p1.x;
     const dy = edge.p2.y - edge.p1.y;
