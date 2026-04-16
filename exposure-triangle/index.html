@@ -370,10 +370,12 @@
 
     .triangle-layout {
       display: grid;
-      grid-template-columns: 0.5fr 5fr 0.5fr;
-      gap: 1rem;
+      grid-template-columns: minmax(80px, 0.1fr) 1fr minmax(80px, 0.1fr);
+      gap: 0.5rem;
       align-items: center;
-      margin: 2rem 0;
+      margin: 2rem auto;
+      width: 95vw;
+      max-width: 1400px;
     }
 
     .triangle-module {
@@ -394,8 +396,8 @@
 
     .triangle-module-bottom {
       grid-column: 1 / -1;
-      max-width: 280px;
-      margin: 2rem auto 0;
+      max-width: 200px;
+      margin: 1rem auto 0;
     }
 
     .triangle-value-label {
