@@ -348,6 +348,59 @@
       color: #aaa;
     }
 
+    /* ── Triangle view ───────────────────────────── */
+    .triangle-view {
+      display: none;
+    }
+
+    .triangle-view.active {
+      display: block;
+    }
+
+    .triangle-container {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+
+    .triangle-svg {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+    }
+
+    .triangle-readout {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .triangle-value-box {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .triangle-value-label {
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #983333;
+    }
+
+    .triangle-value-current {
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: #fff;
+    }
+
+    .triangle-value-delta {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
     /* ── Visual view ───────────────────────────────── */
     .visual-view {
       display: none;
@@ -481,6 +534,7 @@
       <option value="sliders">Sliders</option>
       <option value="wheel">Wheel</option>
       <option value="visual">Visual</option>
+      <option value="triangle">Triangle</option>
     </select>
   </div>
 
@@ -549,6 +603,49 @@
         <div class="wheel-value-label" id="wheelSensLabel">ISO</div>
         <div class="wheel-value-current" id="wheelIVal">400</div>
         <div class="wheel-value-delta" id="wheelIDelta">Reference</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Triangle view ──────────────────────────── -->
+  <div class="triangle-view" id="triangleView">
+    <div class="triangle-container">
+      <svg class="triangle-svg" id="triangleSvg" viewBox="0 0 400 450" xmlns="http://www.w3.org/2000/svg">
+        <!-- Triangle edges -->
+        <line id="triangleEdge1" x1="200" y1="50" x2="80" y2="380" stroke="#2a2a2a" stroke-width="2"/>
+        <line id="triangleEdge2" x1="80" y1="380" x2="320" y2="380" stroke="#2a2a2a" stroke-width="2"/>
+        <line id="triangleEdge3" x1="320" y1="380" x2="200" y2="50" stroke="#2a2a2a" stroke-width="2"/>
+
+        <!-- Draggable vertices -->
+        <circle id="aVertex" cx="200" cy="50" r="10" fill="#983333" opacity="0.8" style="cursor: grab;"/>
+        <circle id="sVertex" cx="80" cy="380" r="10" fill="#983333" opacity="0.8" style="cursor: grab;"/>
+        <circle id="iVertex" cx="320" cy="380" r="10" fill="#983333" opacity="0.8" style="cursor: grab;"/>
+
+        <!-- Labels -->
+        <text id="aTriangleLabel" x="200" y="25" text-anchor="middle" font-size="12" fill="#999">f/5.6</text>
+        <text id="sTriangleLabel" x="55" y="410" text-anchor="middle" font-size="12" fill="#999">1/125</text>
+        <text id="iTriangleLabel" x="345" y="410" text-anchor="middle" font-size="12" fill="#999">400</text>
+
+        <!-- Center point for reference -->
+        <circle cx="200" cy="220" r="2" fill="#666" opacity="0.5"/>
+      </svg>
+    </div>
+
+    <div class="triangle-readout">
+      <div class="triangle-value-box">
+        <div class="triangle-value-label">Aperture</div>
+        <div class="triangle-value-current" id="triangleAVal">f/5.6</div>
+        <div class="triangle-value-delta" id="triangleADelta">Reference</div>
+      </div>
+      <div class="triangle-value-box">
+        <div class="triangle-value-label">Shutter</div>
+        <div class="triangle-value-current" id="triangleSVal">1/125</div>
+        <div class="triangle-value-delta" id="triangleSDelta">Reference</div>
+      </div>
+      <div class="triangle-value-box">
+        <div class="triangle-value-label" id="triangleSensLabel">ISO</div>
+        <div class="triangle-value-current" id="triangleIVal">400</div>
+        <div class="triangle-value-delta" id="triangleIDelta">Reference</div>
       </div>
     </div>
   </div>
@@ -795,6 +892,10 @@
       aI = Math.round(getCurrentWheelIndex('aperture'));
       sI = Math.round(getCurrentWheelIndex('shutter'));
       iI = Math.round(getCurrentWheelIndex('iso'));
+    } else if (schema === 'triangle') {
+      aI = Math.round(getCurrentTriangleIndex('aperture'));
+      sI = Math.round(getCurrentTriangleIndex('shutter'));
+      iI = Math.round(getCurrentTriangleIndex('iso'));
     } else {
       aI = +document.getElementById('aSliderVisual').value;
       sI = +document.getElementById('sSliderVisual').value;
@@ -853,6 +954,11 @@
       updateShutterViz(sI);
       updateIsoViz(iI);
     }
+
+    // Triangle viz
+    if (schema === 'triangle') {
+      updateTriangleDisplay(aI, sI, iI, aDelta, sDelta, iDelta);
+    }
   }
 
   // Wheel helpers
@@ -901,16 +1007,79 @@
     update();
   }
 
+  // Triangle helpers
+  const TRIANGLE_CENTER = { x: 200, y: 220 };
+  const TRIANGLE_VERTICES = {
+    aperture: { angle: 270, minDist: 60, maxDist: 170 }, // top
+    shutter: { angle: 150, minDist: 60, maxDist: 170 },  // bottom-left
+    iso: { angle: 30, minDist: 60, maxDist: 170 }         // bottom-right
+  };
+
+  function getTriangleVertexPosition(control, index, maxIndex) {
+    const cfg = TRIANGLE_VERTICES[control];
+    const ratio = index / maxIndex;
+    const distance = cfg.minDist + ratio * (cfg.maxDist - cfg.minDist);
+    const radians = cfg.angle * Math.PI / 180;
+    return {
+      x: TRIANGLE_CENTER.x + distance * Math.cos(radians),
+      y: TRIANGLE_CENTER.y + distance * Math.sin(radians)
+    };
+  }
+
+  function positionTriangleVertex(control, index) {
+    const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[control];
+    const pos = getTriangleVertexPosition(control, index, maxIndex);
+    const vertex = { aperture: 'aVertex', shutter: 'sVertex', iso: 'iVertex' }[control];
+    const elem = document.getElementById(vertex);
+    elem.setAttribute('cx', pos.x);
+    elem.setAttribute('cy', pos.y);
+  }
+
+  function getCurrentTriangleIndex(control) {
+    const vertex = { aperture: 'aVertex', shutter: 'sVertex', iso: 'iVertex' }[control];
+    const elem = document.getElementById(vertex);
+    const x = parseFloat(elem.getAttribute('cx')) - TRIANGLE_CENTER.x;
+    const y = parseFloat(elem.getAttribute('cy')) - TRIANGLE_CENTER.y;
+    const distance = Math.sqrt(x * x + y * y);
+    const cfg = TRIANGLE_VERTICES[control];
+    const ratio = (distance - cfg.minDist) / (cfg.maxDist - cfg.minDist);
+    const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[control];
+    return Math.max(0, Math.min(maxIndex, Math.round(ratio * maxIndex)));
+  }
+
+  let triangleDragTarget = null;
+
+  function updateTriangleDisplay(aI, sI, iI, aDelta, sDelta, iDelta) {
+    const cfg = SENSITIVITY[mode];
+    document.getElementById('triangleAVal').textContent = APERTURES[aI];
+    document.getElementById('triangleSVal').textContent = SHUTTERS[sI];
+    document.getElementById('triangleIVal').textContent = cfg.values[iI];
+    document.getElementById('triangleADelta').textContent = deltaLabel(aDelta);
+    document.getElementById('triangleSDelta').textContent = deltaLabel(sDelta);
+    document.getElementById('triangleIDelta').textContent = deltaLabel(iDelta);
+    document.getElementById('aTriangleLabel').textContent = APERTURES[aI];
+    document.getElementById('sTriangleLabel').textContent = SHUTTERS[sI];
+    document.getElementById('iTriangleLabel').textContent = cfg.values[iI];
+  }
+
   // Schema
   function setSchema(newSchema) {
     schema = newSchema;
     document.getElementById('slidersView').classList.toggle('active', schema === 'sliders');
     document.getElementById('wheelView').classList.toggle('active', schema === 'wheel');
     document.getElementById('visualView').classList.toggle('active', schema === 'visual');
+    document.getElementById('triangleView').classList.toggle('active', schema === 'triangle');
     if (schema === 'sliders' || schema === 'wheel') {
       positionWheelHandle('aperture', +document.getElementById('aSlider').value);
       positionWheelHandle('shutter', +document.getElementById('sSlider').value);
       positionWheelHandle('iso', +document.getElementById('iSlider').value);
+    } else if (schema === 'triangle') {
+      const aI = +document.getElementById('aSliderVisual').value;
+      const sI = +document.getElementById('sSliderVisual').value;
+      const iI = +document.getElementById('iSliderVisual').value;
+      positionTriangleVertex('aperture', aI);
+      positionTriangleVertex('shutter', sI);
+      positionTriangleVertex('iso', iI);
     }
     update();
   }
@@ -965,10 +1134,40 @@
     updateShutterViz(sI);
   });
 
+  // Triangle drag
+  ['aVertex', 'sVertex', 'iVertex'].forEach((id, idx) => {
+    document.getElementById(id).addEventListener('mousedown', () => {
+      triangleDragTarget = { control: ['aperture', 'shutter', 'iso'][idx] };
+    });
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!triangleDragTarget || schema !== 'triangle') return;
+    const svg = document.getElementById('triangleSvg');
+    const rect = svg.getBoundingClientRect();
+    const x = (e.clientX - rect.left) * 400 / rect.width - TRIANGLE_CENTER.x;
+    const y = (e.clientY - rect.top) * 450 / rect.height - TRIANGLE_CENTER.y;
+    const distance = Math.sqrt(x * x + y * y);
+    const cfg = TRIANGLE_VERTICES[triangleDragTarget.control];
+    const clampedDist = Math.max(cfg.minDist, Math.min(cfg.maxDist, distance));
+    const ratio = (clampedDist - cfg.minDist) / (cfg.maxDist - cfg.minDist);
+    const maxIndex = { aperture: 8, shutter: 12, iso: 7 }[triangleDragTarget.control];
+    const index = Math.round(ratio * maxIndex);
+    positionTriangleVertex(triangleDragTarget.control, index);
+    update();
+  });
+
+  document.addEventListener('mouseup', () => {
+    triangleDragTarget = null;
+  });
+
   // Init
   positionWheelHandle('aperture', REF_A);
   positionWheelHandle('shutter', REF_S);
   positionWheelHandle('iso', SENSITIVITY[mode].ref);
+  positionTriangleVertex('aperture', REF_A);
+  positionTriangleVertex('shutter', REF_S);
+  positionTriangleVertex('iso', SENSITIVITY[mode].ref);
   update();
 </script>
 
