@@ -403,28 +403,26 @@
       margin-top: 0.2rem;
     }
 
-    /* Aperture: left edge midpoint is at x=30%, y=42% of the SVG.
-       Box right edge sits ~3% to the left of the line for comfortable gap. */
+    /* Aperture: left edge midpoint x=30%, y=42%. Offset outward ~15px further. */
     .tri-overlay-aperture {
-      right: 73%;
-      top: 42%;
+      right: 75%;
+      top: 41%;
       transform: translateY(-50%);
     }
 
-    /* ISO: right edge midpoint is at x=70%, y=42%.
-       Box left edge sits ~3% to the right of the line. */
+    /* ISO: right edge midpoint x=70%, y=42%. Offset outward ~15px further. */
     .tri-overlay-iso {
-      left: 73%;
-      top: 42%;
+      left: 75%;
+      top: 41%;
       transform: translateY(-50%);
     }
 
-    /* Shutter: bottom edge midpoint is at x=50%, y=78.6%.
-       Box centered horizontally, top sits ~4% below the line. */
+    /* Shutter: bottom edge midpoint x=50%, y=78.6%. Offset ~15px further down. */
     .tri-overlay-shutter {
       left: 50%;
-      top: 83%;
+      top: 85%;
       transform: translateX(-50%);
+      text-align: center;
     }
 
     /* ── Visual view ───────────────────────────────── */
