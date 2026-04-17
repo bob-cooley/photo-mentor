@@ -4,27 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Faucet &amp; Bucket — Photo Mentor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     html, body {
       min-height: 100%;
-      background: #111;
-      color: #ddd;
-      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      background: #f0e8d4;
+      color: #1e2035;
+      font-family: 'Architects Daughter', cursive;
     }
+
+    /* Paper texture overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.055;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 300px 300px;
+    }
+
+    /* All real content above the texture */
+    header, main { position: relative; z-index: 1; }
 
     header {
       padding: 1.25rem 2rem;
-      border-bottom: 1px solid #222;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
       display: flex;
       align-items: center;
       gap: 0.75rem;
+      background: transparent;
     }
-    .back-link { color: #888; text-decoration: none; font-size: 1rem; letter-spacing: 0.05em; }
-    .back-link:hover { color: #ddd; }
-    .breadcrumb-sep { color: #666; }
-    header h1 { font-size: 1.1rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: #bbb; }
+    .back-link { color: #7a7060; text-decoration: none; font-size: 1rem; letter-spacing: 0.05em; }
+    .back-link:hover { color: #1e2035; }
+    .breadcrumb-sep { color: #a09080; }
+    header h1 { font-size: 1.1rem; font-weight: 400; letter-spacing: 0.08em; text-transform: uppercase; color: #3a3d55; }
 
     main {
       max-width: 1000px;
@@ -34,48 +53,81 @@
 
     .scene-wrapper {
       width: 100%;
-      background: #0a0c10;
       border-radius: 3px;
       overflow: hidden;
       margin-bottom: 1.25rem;
+      border: 1px solid rgba(0,0,0,0.08);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     }
     #scene { width: 100%; height: auto; display: block; }
 
+    /* ── Blueprint ruled line title ──────────────────────────────────── */
+    /* Wraps any section title; lines show through around the text */
+    .ruled-title {
+      display: inline-block;
+      position: relative;
+      padding: 5px 0 4px;
+      width: 100%;
+      /* The lines */
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 21px,
+        rgba(70, 110, 195, 0.22) 21px,
+        rgba(70, 110, 195, 0.22) 22px
+      );
+      background-size: 100% 22px;
+      background-position: 0 0;
+      margin-bottom: 0.6rem;
+    }
+    .ruled-title .label-text {
+      display: inline-block;
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #7a2020;
+      background: transparent;
+      padding: 0 2px;
+      line-height: 22px;
+    }
+
     /* Meter */
     .meter-section { margin-bottom: 1.25rem; }
-    .section-label { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #983333; margin-bottom: 0.6rem; }
     .meter { position: relative; height: 28px; display: flex; align-items: center; }
-    .meter-track { position: relative; width: 100%; height: 4px; background: #222; border-radius: 2px; }
+    .meter-track { position: relative; width: 100%; height: 4px; background: #c8bda4; border-radius: 2px; }
     .meter-fill { position: absolute; top: 0; height: 100%; border-radius: 2px; transition: left 0.2s, width 0.2s, background-color 0.2s; }
-    .meter-center-tick { position: absolute; top: -6px; left: 50%; width: 1px; height: 16px; background: #3a3a3a; transform: translateX(-50%); }
-    .meter-needle { position: absolute; top: -8px; width: 3px; height: 20px; background: #fff; border-radius: 1.5px; transform: translateX(-50%); transition: left 0.2s; }
+    .meter-center-tick { position: absolute; top: -6px; left: 50%; width: 1px; height: 16px; background: #a09080; transform: translateX(-50%); }
+    .meter-needle { position: absolute; top: -8px; width: 3px; height: 20px; background: #1e2035; border-radius: 1.5px; transform: translateX(-50%); transition: left 0.2s; }
     .meter-tick-row { display: grid; grid-template-columns: repeat(9, 1fr); margin-top: 6px; }
-    .meter-tick-row span { font-size: 0.8rem; color: #555; text-align: center; }
+    .meter-tick-row span { font-size: 0.75rem; color: #8a8070; text-align: center; font-family: 'Architects Daughter', cursive; }
     .meter-readout { display: flex; align-items: baseline; gap: 1rem; margin-top: 0.6rem; }
-    .level-value { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.02em; transition: color 0.2s; }
-    .level-desc { font-size: 0.95rem; color: #aaa; }
+    .level-value { font-size: 1.8rem; font-weight: 400; letter-spacing: 0.02em; transition: color 0.2s; font-family: 'Architects Daughter', cursive; }
+    .level-desc { font-size: 0.95rem; color: #7a7060; font-family: 'Architects Daughter', cursive; }
 
     /* Controls row */
     .controls-row {
       display: flex; align-items: center; justify-content: space-between;
-      gap: 1rem; margin-bottom: 0.75rem; padding-top: 0.5rem; border-top: 1px solid #1e1e1e;
+      gap: 1rem; margin-bottom: 0.75rem; padding-top: 0.5rem;
+      border-top: 1px solid rgba(0,0,0,0.1);
     }
     .mode-toggle { display: flex; }
     .mode-btn {
-      padding: 0.35rem 0.9rem; background: transparent; border: 1px solid #444;
-      color: #999; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 0.35rem 0.9rem; background: transparent; border: 1px solid #b0a898;
+      color: #7a7060; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
       cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s;
+      font-family: 'Architects Daughter', cursive;
     }
     .mode-btn:first-child { border-radius: 2px 0 0 2px; }
     .mode-btn:last-child  { border-radius: 0 2px 2px 0; border-left: none; }
-    .mode-btn.active { background: #2a2a2a; color: #eee; border-color: #983333; }
-    .mode-btn:last-child.active { border-left: 1px solid #983333; }
+    .mode-btn.active { background: rgba(122,32,32,0.08); color: #5a1515; border-color: #7a2020; }
+    .mode-btn:last-child.active { border-left: 1px solid #7a2020; }
     .reset-btn {
-      padding: 0.35rem 1rem; background: transparent; border: 1px solid #444;
-      color: #999; font-size: 0.9rem; letter-spacing: 0.12em; text-transform: uppercase;
+      padding: 0.35rem 1rem; background: transparent; border: 1px solid #b0a898;
+      color: #7a7060; font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
       cursor: pointer; border-radius: 2px; transition: border-color 0.15s, color 0.15s;
+      font-family: 'Architects Daughter', cursive;
     }
-    .reset-btn:hover { border-color: #999; color: #eee; }
+    .reset-btn:hover { border-color: #5a5040; color: #1e2035; }
 
     /* Controls */
     .controls {
@@ -83,22 +135,41 @@
       user-select: none; -webkit-user-select: none;
     }
     .control { display: flex; flex-direction: column; gap: 0.4rem; }
-    .control-metaphor { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: #983333; }
-    .control-photo    { font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: #444; }
-    .control-value    { font-size: 2rem; font-weight: 300; color: #fff; line-height: 1; }
-    .control-delta    { font-size: 0.85rem; color: #aaa; min-height: 1em; }
+    .control-metaphor-wrap {
+      /* Each control metaphor title gets the ruled line treatment */
+      display: block;
+      position: relative;
+      padding: 4px 0 3px;
+      background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 20px,
+        rgba(70, 110, 195, 0.2) 20px,
+        rgba(70, 110, 195, 0.2) 21px
+      );
+      background-size: 100% 21px;
+      margin-bottom: 0.1rem;
+    }
+    .control-metaphor {
+      font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase;
+      color: #7a2020; line-height: 21px; display: block;
+      font-family: 'Architects Daughter', cursive;
+    }
+    .control-photo    { font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: #9a9080; font-family: 'Architects Daughter', cursive; }
+    .control-value    { font-size: 2rem; font-weight: 400; color: #1e2035; line-height: 1; font-family: 'Architects Daughter', cursive; }
+    .control-delta    { font-size: 0.8rem; color: #8a8070; min-height: 1em; font-family: 'Architects Daughter', cursive; }
 
     input[type="range"] {
-      -webkit-appearance: none; width: 100%; height: 4px;
-      background: #2e2e2e; border-radius: 2px; outline: none; cursor: pointer; margin: 0.3rem 0;
+      -webkit-appearance: none; width: 100%; height: 3px;
+      background: #c0b49c; border-radius: 2px; outline: none; cursor: pointer; margin: 0.3rem 0;
     }
     input[type="range"]::-webkit-slider-thumb {
       -webkit-appearance: none; width: 16px; height: 16px;
-      background: #fff; border-radius: 50%; cursor: pointer; transition: transform 0.1s;
+      background: #3a3d55; border-radius: 50%; cursor: pointer; transition: transform 0.1s;
     }
     input[type="range"]:active::-webkit-slider-thumb { transform: scale(1.25); }
     input[type="range"]::-moz-range-thumb {
-      width: 16px; height: 16px; background: #fff; border-radius: 50%; border: none; cursor: pointer;
+      width: 16px; height: 16px; background: #3a3d55; border-radius: 50%; border: none; cursor: pointer;
     }
   </style>
 </head>
@@ -117,7 +188,9 @@
   </div>
 
   <div class="meter-section">
-    <div class="section-label">Water Level</div>
+    <div class="ruled-title">
+      <span class="label-text">Water Level</span>
+    </div>
     <div class="meter">
       <div class="meter-track">
         <div class="meter-fill"   id="meterFill"></div>
@@ -146,21 +219,27 @@
 
   <div class="controls">
     <div class="control">
-      <div class="control-metaphor">Faucet Size</div>
+      <div class="control-metaphor-wrap">
+        <span class="control-metaphor">Faucet Size</span>
+      </div>
       <div class="control-photo">Aperture</div>
       <div class="control-value" id="faucetVal">f/5.6</div>
       <div class="control-delta" id="faucetDelta">Reference</div>
       <input type="range" id="aSlider" min="0" max="8" step="1" value="4">
     </div>
     <div class="control">
-      <div class="control-metaphor">Handle Turn</div>
+      <div class="control-metaphor-wrap">
+        <span class="control-metaphor">Handle Turn</span>
+      </div>
       <div class="control-photo">Shutter Speed</div>
       <div class="control-value" id="handleVal">1/125</div>
       <div class="control-delta" id="handleDelta">Reference</div>
       <input type="range" id="sSlider" min="0" max="12" step="1" value="4">
     </div>
     <div class="control">
-      <div class="control-metaphor">Bucket Size</div>
+      <div class="control-metaphor-wrap">
+        <span class="control-metaphor">Bucket Size</span>
+      </div>
       <div class="control-photo" id="sensitivityLabel">ISO</div>
       <div class="control-value" id="bucketVal">400</div>
       <div class="control-delta" id="bucketDelta">Reference</div>
@@ -191,6 +270,9 @@
   let drops = [];
   let lastDropTime = 0;
 
+  // Load Architects Daughter into canvas font
+  document.fonts.ready.then(() => { /* font available for canvas */ });
+
   function lerp(v, a, b, c, d) {
     return c + (d - c) * Math.max(0, Math.min(1, (v - a) / (b - a)));
   }
@@ -198,16 +280,14 @@
   // ── Scene geometry helpers ──────────────────────────────────────────
   function getBucketGeometry(iI) {
     const maxI = SENSITIVITY[mode].values.length - 1;
-    // Bucket width: ISO 100 = narrow, ISO 12800 = wide
     const bW = lerp(iI, 0, maxI, 80, 240);
     const bH = lerp(iI, 0, maxI, 120, 260);
-    const bX = W / 2;          // centered
-    const bY = H - 60;         // rests on ground
+    const bX = W / 2;
+    const bY = H - 60;
     return { bX, bY, bW, bH };
   }
 
   function getFaucetGeometry(aI) {
-    // Pipe radius: f/1.4 = wide, f/22 = narrow
     const pipeR = lerp(aI, 0, 8, 28, 4);
     const pipeX = W / 2;
     const pipeTopY = 40;
@@ -218,21 +298,16 @@
   // ── Water drop spawning ─────────────────────────────────────────────
   function spawnDrops(aI, sI, totalEV, pipeX, pipeR, pipeBottomY) {
     const now = performance.now();
-    // Flow rate: based on aperture (pipe size) and shutter (open duration)
-    // High aperture index = small pipe = slow flow
-    // High shutter index = long open = more frequent drops
-    const flowRate = lerp(aI, 0, 8, 3, 30);   // ms between drops: f/1.4 = fast, f/22 = slow
-    const shutterOpen = lerp(sI, 0, 12, 0.02, 1); // fraction of time open
-
-    if (pipeR < 2) return; // virtually closed
-
+    const flowRate = lerp(aI, 0, 8, 3, 30);
+    const shutterOpen = lerp(sI, 0, 12, 0.02, 1);
+    if (pipeR < 2) return;
     const interval = flowRate / shutterOpen;
     if (now - lastDropTime > interval) {
       const spread = pipeR * 0.6;
       drops.push({
         x: pipeX + (Math.random() - 0.5) * spread,
         y: pipeBottomY,
-        vy: lerp(aI, 0, 8, 5, 2),   // wider pipe = faster stream
+        vy: lerp(aI, 0, 8, 5, 2),
         r: Math.max(1.5, pipeR * 0.28),
         alpha: 0.75
       });
@@ -244,21 +319,38 @@
   function drawScene(aI, sI, iI, totalEV) {
     ctx.clearRect(0, 0, W, H);
 
-    // Background
-    ctx.fillStyle = '#0a0c10';
+    // ── Drafting paper background ─────────────────────────────────────
+    // Base warm tan
+    ctx.fillStyle = '#ede3cb';
     ctx.fillRect(0, 0, W, H);
 
-    // Subtle tile grid on wall behind
-    ctx.strokeStyle = '#0e1016';
-    ctx.lineWidth = 1;
-    for (let x = 0; x < W; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H - 50); ctx.stroke(); }
-    for (let y = 0; y < H - 50; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+    // Subtle paper grain via tiny noise dots
+    // (approximated with very faint random stippling — skip heavy SVG, use simple CSS class)
 
-    // Floor
-    ctx.fillStyle = '#0d0f14';
-    ctx.fillRect(0, H - 55, W, 55);
-    ctx.strokeStyle = '#161820';
+    // Blueprint grid lines — light blue, matching the CSS lines
+    ctx.strokeStyle = 'rgba(70, 110, 195, 0.13)';
     ctx.lineWidth = 1;
+    const gridSize = 40;
+    for (let x = 0; x <= W; x += gridSize) {
+      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke();
+    }
+    for (let y = 0; y <= H; y += gridSize) {
+      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+    }
+
+    // Slightly stronger every 4th line (major grid)
+    ctx.strokeStyle = 'rgba(70, 110, 195, 0.22)';
+    ctx.lineWidth = 1;
+    for (let x = 0; x <= W; x += gridSize * 4) {
+      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke();
+    }
+    for (let y = 0; y <= H; y += gridSize * 4) {
+      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+    }
+
+    // Floor line (subtle separation)
+    ctx.strokeStyle = 'rgba(0,0,0,0.06)';
+    ctx.lineWidth = 1.5;
     ctx.beginPath(); ctx.moveTo(0, H - 55); ctx.lineTo(W, H - 55); ctx.stroke();
 
     const { bX, bY, bW, bH } = getBucketGeometry(iI);
@@ -266,10 +358,12 @@
 
     // ── Pipe / faucet ─────────────────────────────────────────────────
     // Wall mount bracket
-    ctx.fillStyle = '#1e2128';
+    ctx.fillStyle = '#c8bea8';
+    ctx.strokeStyle = '#9a9082';
+    ctx.lineWidth = 1.5;
     ctx.beginPath();
     ctx.roundRect(pipeX - 22, pipeTopY - 10, 44, 18, 3);
-    ctx.fill();
+    ctx.fill(); ctx.stroke();
 
     // Handle (shutter) — rotation based on sI
     const handleAngle = lerp(sI, 0, 12, -Math.PI * 0.1, Math.PI * 0.55);
@@ -278,47 +372,46 @@
     ctx.translate(hX, hY);
     ctx.rotate(handleAngle);
     // Handle body
-    ctx.fillStyle = '#2a2d35';
-    ctx.strokeStyle = '#3a3d48';
+    ctx.fillStyle = '#b8b0a0';
+    ctx.strokeStyle = '#7a7268';
     ctx.lineWidth = 1.5;
     ctx.beginPath();
     ctx.roundRect(-6, -26, 12, 30, 3);
     ctx.fill(); ctx.stroke();
     // Handle grip
-    ctx.fillStyle = '#35383f';
+    ctx.fillStyle = '#a8a090';
     ctx.beginPath();
     ctx.roundRect(-10, -30, 20, 10, 4);
     ctx.fill(); ctx.stroke();
     ctx.restore();
 
-    // Pipe body (vertical)
-    ctx.fillStyle = '#252830';
-    ctx.strokeStyle = '#32353f';
-    ctx.lineWidth = 1.5;
+    // Pipe body (vertical) — charcoal ink style
+    ctx.fillStyle = '#d0c8b4';
+    ctx.strokeStyle = '#5a5545';
+    ctx.lineWidth = 2;
     const pw = Math.max(pipeR * 2 + 8, 14);
     ctx.beginPath();
     ctx.roundRect(pipeX - pw / 2, pipeTopY + 30, pw, pipeBottomY - pipeTopY - 30, 4);
     ctx.fill(); ctx.stroke();
 
-    // Pipe opening / nozzle
-    ctx.fillStyle = '#1e2028';
-    ctx.strokeStyle = '#3a3d48';
-    ctx.lineWidth = 1.5;
+    // Nozzle
+    ctx.fillStyle = '#c8bfa8';
+    ctx.strokeStyle = '#5a5545';
+    ctx.lineWidth = 2;
     ctx.beginPath();
     ctx.roundRect(pipeX - pipeR - 6, pipeBottomY - 12, (pipeR + 6) * 2, 16, 3);
     ctx.fill(); ctx.stroke();
 
     // Pipe bore (the actual hole)
     if (pipeR > 1.5) {
-      ctx.fillStyle = '#080a0d';
+      ctx.fillStyle = 'rgba(60,50,35,0.5)';
       ctx.beginPath();
       ctx.ellipse(pipeX, pipeBottomY + 2, pipeR, pipeR * 0.4, 0, 0, Math.PI * 2);
       ctx.fill();
     }
 
     // ── Bucket ────────────────────────────────────────────────────────
-    // Slight taper: bucket is wider at top than bottom
-    const taper = bW * 0.08;
+    const taper  = bW * 0.08;
     const bLeft  = bX - bW / 2 - taper;
     const bRight = bX + bW / 2 + taper;
     const bTop   = bY - bH;
@@ -326,24 +419,33 @@
     const bLeftB = bX - bW / 2;
     const bRightB= bX + bW / 2;
 
-    // Correct fill level = 75% from bottom of bucket
     const fillRatio = Math.max(0, Math.min(1.15, 0.75 * Math.pow(2, totalEV)));
     const waterTop  = bBot - fillRatio * bH;
     const overflowing = fillRatio > 1.0;
     const overflow    = Math.max(0, fillRatio - 1.0);
 
-    // Water color: correct = clear blue, under = darker, over = lighter/spilling
     function waterColor(alpha) {
-      if (overflowing) return `rgba(140, 200, 255, ${alpha})`;
-      if (totalEV < -1) return `rgba(40, 80, 140, ${alpha})`;
-      if (totalEV < 0)  return `rgba(70, 130, 200, ${alpha})`;
-      return `rgba(90, 160, 230, ${alpha})`;
+      if (overflowing) return `rgba(100, 175, 240, ${alpha})`;
+      if (totalEV < -1) return `rgba(60, 110, 185, ${alpha})`;
+      if (totalEV <  0) return `rgba(75, 140, 210, ${alpha})`;
+      return `rgba(85, 155, 225, ${alpha})`;
     }
 
-    // Draw water inside bucket (clipped to bucket shape)
+    // Bucket interior (light background visible behind water)
+    ctx.save();
+    ctx.beginPath();
+    ctx.moveTo(bLeft + taper, bTop + 1);
+    ctx.lineTo(bRight - taper, bTop + 1);
+    ctx.lineTo(bRightB, bBot - 2);
+    ctx.lineTo(bLeftB, bBot - 2);
+    ctx.closePath();
+    ctx.fillStyle = 'rgba(255,250,240,0.6)';
+    ctx.fill();
+    ctx.restore();
+
+    // Water inside bucket
     if (fillRatio > 0.01) {
       ctx.save();
-      // Clip to bucket interior
       ctx.beginPath();
       ctx.moveTo(bLeft + taper, bTop + 1);
       ctx.lineTo(bRight - taper, bTop + 1);
@@ -353,11 +455,11 @@
       ctx.clip();
 
       const clampedWaterTop = Math.max(bTop, waterTop);
-      ctx.fillStyle = waterColor(0.85);
+      ctx.fillStyle = waterColor(0.78);
       ctx.fillRect(bLeft, clampedWaterTop, bRight - bLeft, bBot - clampedWaterTop);
 
       // Water surface shimmer
-      ctx.strokeStyle = waterColor(0.4);
+      ctx.strokeStyle = waterColor(0.5);
       ctx.lineWidth = 1.5;
       ctx.beginPath();
       ctx.moveTo(bLeft + taper * 0.5, clampedWaterTop);
@@ -367,19 +469,17 @@
       ctx.restore();
     }
 
-    // Overflow spill down the sides
+    // Overflow spill
     if (overflowing) {
       const spillW = Math.min(8, overflow * 40);
-      const spillAlpha = Math.min(0.7, overflow * 3);
+      const spillAlpha = Math.min(0.65, overflow * 3);
       ctx.fillStyle = waterColor(spillAlpha);
-      // Left spill
       ctx.beginPath();
       ctx.moveTo(bLeft + taper, bTop);
       ctx.lineTo(bLeft + taper - spillW, bTop + overflow * bH * 2);
       ctx.lineTo(bLeft + taper, bTop + overflow * bH);
       ctx.closePath();
       ctx.fill();
-      // Right spill
       ctx.beginPath();
       ctx.moveTo(bRight - taper, bTop);
       ctx.lineTo(bRight - taper + spillW, bTop + overflow * bH * 2);
@@ -387,9 +487,9 @@
       ctx.closePath();
       ctx.fill();
 
-      // Puddle on floor
+      // Puddle
       const puddle = ctx.createRadialGradient(bX, bBot + 8, 0, bX, bBot + 8, bW * 0.6);
-      puddle.addColorStop(0, waterColor(0.35));
+      puddle.addColorStop(0, waterColor(0.3));
       puddle.addColorStop(1, 'rgba(0,0,0,0)');
       ctx.fillStyle = puddle;
       ctx.beginPath();
@@ -399,7 +499,7 @@
 
     // Correct fill marker line
     const correctLineY = bBot - 0.75 * bH;
-    ctx.strokeStyle = '#983333';
+    ctx.strokeStyle = '#8b2020';
     ctx.lineWidth = 1.5;
     ctx.setLineDash([4, 3]);
     ctx.beginPath();
@@ -408,18 +508,17 @@
     ctx.stroke();
     ctx.setLineDash([]);
 
-    // Correct fill label
-    ctx.fillStyle = '#983333';
-    ctx.font = '10px -apple-system, sans-serif';
+    // "CORRECT" label — use Architects Daughter if loaded
+    ctx.fillStyle = '#8b2020';
+    ctx.font = '13px "Architects Daughter", cursive';
     ctx.letterSpacing = '0.05em';
     ctx.textAlign = 'left';
-    ctx.fillText('CORRECT', bRight - taper + 6, correctLineY + 4);
+    ctx.fillText('CORRECT', bRight - taper + 6, correctLineY + 5);
     ctx.textAlign = 'center';
 
-    // Bucket walls
-    ctx.strokeStyle = '#3a3d48';
-    ctx.fillStyle = 'rgba(30, 32, 40, 0.5)';
-    ctx.lineWidth = 2;
+    // Bucket walls — charcoal ink strokes
+    ctx.strokeStyle = '#4a4535';
+    ctx.lineWidth = 2.5;
     ctx.beginPath();
     ctx.moveTo(bLeft + taper, bTop);
     ctx.lineTo(bLeft, bBot);
@@ -428,37 +527,35 @@
     ctx.stroke();
 
     // Bucket rim
-    ctx.strokeStyle = '#4a4d58';
-    ctx.lineWidth = 3;
+    ctx.strokeStyle = '#3a3528';
+    ctx.lineWidth = 3.5;
     ctx.lineCap = 'round';
     ctx.beginPath();
     ctx.moveTo(bLeft + taper - 4, bTop);
     ctx.lineTo(bRight - taper + 4, bTop);
     ctx.stroke();
 
-    // Bucket handle (arc over top)
-    ctx.strokeStyle = '#2a2d38';
+    // Bucket handle
+    ctx.strokeStyle = '#7a7060';
     ctx.lineWidth = 2.5;
     ctx.beginPath();
     ctx.arc(bX, bTop, bW * 0.35, Math.PI, 0, false);
     ctx.stroke();
 
     // ── Water drops ──────────────────────────────────────────────────
-    const shutterOpen = sI > 0;
     if (pipeR > 1.5) {
       spawnDrops(aI, sI, totalEV, pipeX, pipeR, pipeBottomY);
     }
 
-    // Update and draw drops
     drops = drops.filter(d => d.y < bBot + 20 && d.alpha > 0.05);
     for (const d of drops) {
       d.y  += d.vy;
-      d.vy += 0.4; // gravity
+      d.vy += 0.4;
       d.alpha *= 0.98;
 
       const dropGrd = ctx.createRadialGradient(d.x, d.y, 0, d.x, d.y, d.r);
-      dropGrd.addColorStop(0, `rgba(180, 220, 255, ${d.alpha})`);
-      dropGrd.addColorStop(1, `rgba(80, 160, 230, ${d.alpha * 0.3})`);
+      dropGrd.addColorStop(0, `rgba(120, 180, 240, ${d.alpha})`);
+      dropGrd.addColorStop(1, `rgba(70, 130, 210, ${d.alpha * 0.3})`);
       ctx.fillStyle = dropGrd;
       ctx.beginPath();
       ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
@@ -467,10 +564,10 @@
 
     // ── Stream (continuous flow for wide apertures) ──────────────────
     if (pipeR >= 6 && sI >= 2) {
-      const streamAlpha = lerp(pipeR, 6, 28, 0.1, 0.45);
+      const streamAlpha = lerp(pipeR, 6, 28, 0.1, 0.4);
       const streamGrd = ctx.createLinearGradient(pipeX, pipeBottomY, pipeX, bTop + bH * 0.5);
-      streamGrd.addColorStop(0, `rgba(140, 200, 255, ${streamAlpha})`);
-      streamGrd.addColorStop(1, `rgba(80, 160, 230, ${streamAlpha * 0.3})`);
+      streamGrd.addColorStop(0, `rgba(100, 165, 230, ${streamAlpha})`);
+      streamGrd.addColorStop(1, `rgba(70, 130, 210, ${streamAlpha * 0.3})`);
       ctx.fillStyle = streamGrd;
       ctx.beginPath();
       ctx.moveTo(pipeX - pipeR * 0.5, pipeBottomY + 4);
@@ -502,13 +599,13 @@
   }
 
   function evColor(ev) {
-    if (Math.abs(ev) < 0.5) return '#fff';
-    return ev < 0 ? '#6ab8f7' : '#f7963a';
+    if (Math.abs(ev) < 0.5) return '#1e2035';
+    return ev < 0 ? '#2a6ab0' : '#b06020';
   }
 
   function fillColor(ev) {
-    if (Math.abs(ev) <= 1) return '#983333';
-    return ev < 0 ? '#5aacf5' : '#f5812a';
+    if (Math.abs(ev) <= 1) return '#7a2020';
+    return ev < 0 ? '#3a80c8' : '#c07028';
   }
 
   // ── Update ───────────────────────────────────────────────────────────
