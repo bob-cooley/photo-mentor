@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faucet &amp; Bucket — Photo Mentor</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      min-height: 100%;
+      background: #111;
+      color: #ddd;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    }
+
+    header {
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid #222;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .back-link { color: #888; text-decoration: none; font-size: 1rem; letter-spacing: 0.05em; }
+    .back-link:hover { color: #ddd; }
+    .breadcrumb-sep { color: #666; }
+    header h1 { font-size: 1.1rem; font-weight: 400; letter-spacing: 0.1em; text-transform: uppercase; color: #bbb; }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+    }
+
+    .scene-wrapper {
+      width: 100%;
+      background: #0a0c10;
+      border-radius: 3px;
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+    }
+    #scene { width: 100%; height: auto; display: block; }
+
+    /* Meter */
+    .meter-section { margin-bottom: 1.25rem; }
+    .section-label { font-size: 0.75rem; letter-spacing: 0.14em; text-transform: uppercase; color: #983333; margin-bottom: 0.6rem; }
+    .meter { position: relative; height: 28px; display: flex; align-items: center; }
+    .meter-track { position: relative; width: 100%; height: 4px; background: #222; border-radius: 2px; }
+    .meter-fill { position: absolute; top: 0; height: 100%; border-radius: 2px; transition: left 0.2s, width 0.2s, background-color 0.2s; }
+    .meter-center-tick { position: absolute; top: -6px; left: 50%; width: 1px; height: 16px; background: #3a3a3a; transform: translateX(-50%); }
+    .meter-needle { position: absolute; top: -8px; width: 3px; height: 20px; background: #fff; border-radius: 1.5px; transform: translateX(-50%); transition: left 0.2s; }
+    .meter-tick-row { display: grid; grid-template-columns: repeat(9, 1fr); margin-top: 6px; }
+    .meter-tick-row span { font-size: 0.8rem; color: #555; text-align: center; }
+    .meter-readout { display: flex; align-items: baseline; gap: 1rem; margin-top: 0.6rem; }
+    .level-value { font-size: 1.8rem; font-weight: 300; letter-spacing: 0.02em; transition: color 0.2s; }
+    .level-desc { font-size: 0.95rem; color: #aaa; }
+
+    /* Controls row */
+    .controls-row {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 1rem; margin-bottom: 0.75rem; padding-top: 0.5rem; border-top: 1px solid #1e1e1e;
+    }
+    .mode-toggle { display: flex; }
+    .mode-btn {
+      padding: 0.35rem 0.9rem; background: transparent; border: 1px solid #444;
+      color: #999; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase;
+      cursor: pointer; transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .mode-btn:first-child { border-radius: 2px 0 0 2px; }
+    .mode-btn:last-child  { border-radius: 0 2px 2px 0; border-left: none; }
+    .mode-btn.active { background: #2a2a2a; color: #eee; border-color: #983333; }
+    .mode-btn:last-child.active { border-left: 1px solid #983333; }
+    .reset-btn {
+      padding: 0.35rem 1rem; background: transparent; border: 1px solid #444;
+      color: #999; font-size: 0.9rem; letter-spacing: 0.12em; text-transform: uppercase;
+      cursor: pointer; border-radius: 2px; transition: border-color 0.15s, color 0.15s;
+    }
+    .reset-btn:hover { border-color: #999; color: #eee; }
+
+    /* Controls */
+    .controls {
+      display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem;
+      user-select: none; -webkit-user-select: none;
+    }
+    .control { display: flex; flex-direction: column; gap: 0.4rem; }
+    .control-metaphor { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: #983333; }
+    .control-photo    { font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: #444; }
+    .control-value    { font-size: 2rem; font-weight: 300; color: #fff; line-height: 1; }
+    .control-delta    { font-size: 0.85rem; color: #aaa; min-height: 1em; }
+
+    input[type="range"] {
+      -webkit-appearance: none; width: 100%; height: 4px;
+      background: #2e2e2e; border-radius: 2px; outline: none; cursor: pointer; margin: 0.3rem 0;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none; width: 16px; height: 16px;
+      background: #fff; border-radius: 50%; cursor: pointer; transition: transform 0.1s;
+    }
+    input[type="range"]:active::-webkit-slider-thumb { transform: scale(1.25); }
+    input[type="range"]::-moz-range-thumb {
+      width: 16px; height: 16px; background: #fff; border-radius: 50%; border: none; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="/photo-mentor/">Photo Mentor</a>
+  <span class="breadcrumb-sep">/</span>
+  <h1>Exposure Triangle — Faucet</h1>
+</header>
+
+<main>
+
+  <div class="scene-wrapper">
+    <canvas id="scene" width="900" height="500"></canvas>
+  </div>
+
+  <div class="meter-section">
+    <div class="section-label">Water Level</div>
+    <div class="meter">
+      <div class="meter-track">
+        <div class="meter-fill"   id="meterFill"></div>
+        <div class="meter-center-tick"></div>
+        <div class="meter-needle" id="meterNeedle"></div>
+      </div>
+    </div>
+    <div class="meter-tick-row">
+      <span>−4</span><span>−3</span><span>−2</span><span>−1</span>
+      <span>0</span>
+      <span>+1</span><span>+2</span><span>+3</span><span>+4</span>
+    </div>
+    <div class="meter-readout">
+      <span class="level-value" id="levelValue">0.0 EV</span>
+      <span class="level-desc"  id="levelDesc">Correct fill</span>
+    </div>
+  </div>
+
+  <div class="controls-row">
+    <div class="mode-toggle">
+      <button class="mode-btn" id="filmBtn">Film</button>
+      <button class="mode-btn active" id="digitalBtn">Digital</button>
+    </div>
+    <button class="reset-btn" id="resetBtn">Reset to Reference</button>
+  </div>
+
+  <div class="controls">
+    <div class="control">
+      <div class="control-metaphor">Faucet Size</div>
+      <div class="control-photo">Aperture</div>
+      <div class="control-value" id="faucetVal">f/5.6</div>
+      <div class="control-delta" id="faucetDelta">Reference</div>
+      <input type="range" id="aSlider" min="0" max="8" step="1" value="4">
+    </div>
+    <div class="control">
+      <div class="control-metaphor">Handle Turn</div>
+      <div class="control-photo">Shutter Speed</div>
+      <div class="control-value" id="handleVal">1/125</div>
+      <div class="control-delta" id="handleDelta">Reference</div>
+      <input type="range" id="sSlider" min="0" max="12" step="1" value="4">
+    </div>
+    <div class="control">
+      <div class="control-metaphor">Bucket Size</div>
+      <div class="control-photo" id="sensitivityLabel">ISO</div>
+      <div class="control-value" id="bucketVal">400</div>
+      <div class="control-delta" id="bucketDelta">Reference</div>
+      <input type="range" id="iSlider" min="0" max="7" step="1" value="2">
+    </div>
+  </div>
+
+</main>
+
+<script>
+  const APERTURES    = ['f/1.4','f/2','f/2.8','f/4','f/5.6','f/8','f/11','f/16','f/22'];
+  const SHUTTERS     = ['1/2000','1/1000','1/500','1/250','1/125','1/60','1/30','1/15','1/8','1/4','1/2','1″','2″'];
+  const SHUTTER_SECS = [1/2000,1/1000,1/500,1/250,1/125,1/60,1/30,1/15,1/8,1/4,1/2,1,2];
+
+  const SENSITIVITY = {
+    digital: { label: 'ISO', values: ['100','200','400','800','1600','3200','6400','12800'], ref: 2 },
+    film:    { label: 'ASA', values: ['25','50','100','200','400','800','1600','3200'],      ref: 4 }
+  };
+
+  const REF_A = 4, REF_S = 4;
+  let mode = 'digital';
+
+  const canvas = document.getElementById('scene');
+  const ctx    = canvas.getContext('2d');
+  const W = canvas.width, H = canvas.height;
+
+  // Water drop animation state
+  let drops = [];
+  let lastDropTime = 0;
+
+  function lerp(v, a, b, c, d) {
+    return c + (d - c) * Math.max(0, Math.min(1, (v - a) / (b - a)));
+  }
+
+  // ── Scene geometry helpers ──────────────────────────────────────────
+  function getBucketGeometry(iI) {
+    const maxI = SENSITIVITY[mode].values.length - 1;
+    // Bucket width: ISO 100 = narrow, ISO 12800 = wide
+    const bW = lerp(iI, 0, maxI, 80, 240);
+    const bH = lerp(iI, 0, maxI, 120, 260);
+    const bX = W / 2;          // centered
+    const bY = H - 60;         // rests on ground
+    return { bX, bY, bW, bH };
+  }
+
+  function getFaucetGeometry(aI) {
+    // Pipe radius: f/1.4 = wide, f/22 = narrow
+    const pipeR = lerp(aI, 0, 8, 28, 4);
+    const pipeX = W / 2;
+    const pipeTopY = 40;
+    const pipeBottomY = 180;
+    return { pipeR, pipeX, pipeTopY, pipeBottomY };
+  }
+
+  // ── Water drop spawning ─────────────────────────────────────────────
+  function spawnDrops(aI, sI, totalEV, pipeX, pipeR, pipeBottomY) {
+    const now = performance.now();
+    // Flow rate: based on aperture (pipe size) and shutter (open duration)
+    // High aperture index = small pipe = slow flow
+    // High shutter index = long open = more frequent drops
+    const flowRate = lerp(aI, 0, 8, 3, 30);   // ms between drops: f/1.4 = fast, f/22 = slow
+    const shutterOpen = lerp(sI, 0, 12, 0.02, 1); // fraction of time open
+
+    if (pipeR < 2) return; // virtually closed
+
+    const interval = flowRate / shutterOpen;
+    if (now - lastDropTime > interval) {
+      const spread = pipeR * 0.6;
+      drops.push({
+        x: pipeX + (Math.random() - 0.5) * spread,
+        y: pipeBottomY,
+        vy: lerp(aI, 0, 8, 5, 2),   // wider pipe = faster stream
+        r: Math.max(1.5, pipeR * 0.28),
+        alpha: 0.75
+      });
+      lastDropTime = now;
+    }
+  }
+
+  // ── Draw scene ──────────────────────────────────────────────────────
+  function drawScene(aI, sI, iI, totalEV) {
+    ctx.clearRect(0, 0, W, H);
+
+    // Background
+    ctx.fillStyle = '#0a0c10';
+    ctx.fillRect(0, 0, W, H);
+
+    // Subtle tile grid on wall behind
+    ctx.strokeStyle = '#0e1016';
+    ctx.lineWidth = 1;
+    for (let x = 0; x < W; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H - 50); ctx.stroke(); }
+    for (let y = 0; y < H - 50; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+
+    // Floor
+    ctx.fillStyle = '#0d0f14';
+    ctx.fillRect(0, H - 55, W, 55);
+    ctx.strokeStyle = '#161820';
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(0, H - 55); ctx.lineTo(W, H - 55); ctx.stroke();
+
+    const { bX, bY, bW, bH } = getBucketGeometry(iI);
+    const { pipeR, pipeX, pipeTopY, pipeBottomY } = getFaucetGeometry(aI);
+
+    // ── Pipe / faucet ─────────────────────────────────────────────────
+    // Wall mount bracket
+    ctx.fillStyle = '#1e2128';
+    ctx.beginPath();
+    ctx.roundRect(pipeX - 22, pipeTopY - 10, 44, 18, 3);
+    ctx.fill();
+
+    // Handle (shutter) — rotation based on sI
+    const handleAngle = lerp(sI, 0, 12, -Math.PI * 0.1, Math.PI * 0.55);
+    const hX = pipeX, hY = pipeTopY + 20;
+    ctx.save();
+    ctx.translate(hX, hY);
+    ctx.rotate(handleAngle);
+    // Handle body
+    ctx.fillStyle = '#2a2d35';
+    ctx.strokeStyle = '#3a3d48';
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.roundRect(-6, -26, 12, 30, 3);
+    ctx.fill(); ctx.stroke();
+    // Handle grip
+    ctx.fillStyle = '#35383f';
+    ctx.beginPath();
+    ctx.roundRect(-10, -30, 20, 10, 4);
+    ctx.fill(); ctx.stroke();
+    ctx.restore();
+
+    // Pipe body (vertical)
+    ctx.fillStyle = '#252830';
+    ctx.strokeStyle = '#32353f';
+    ctx.lineWidth = 1.5;
+    const pw = Math.max(pipeR * 2 + 8, 14);
+    ctx.beginPath();
+    ctx.roundRect(pipeX - pw / 2, pipeTopY + 30, pw, pipeBottomY - pipeTopY - 30, 4);
+    ctx.fill(); ctx.stroke();
+
+    // Pipe opening / nozzle
+    ctx.fillStyle = '#1e2028';
+    ctx.strokeStyle = '#3a3d48';
+    ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.roundRect(pipeX - pipeR - 6, pipeBottomY - 12, (pipeR + 6) * 2, 16, 3);
+    ctx.fill(); ctx.stroke();
+
+    // Pipe bore (the actual hole)
+    if (pipeR > 1.5) {
+      ctx.fillStyle = '#080a0d';
+      ctx.beginPath();
+      ctx.ellipse(pipeX, pipeBottomY + 2, pipeR, pipeR * 0.4, 0, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // ── Bucket ────────────────────────────────────────────────────────
+    // Slight taper: bucket is wider at top than bottom
+    const taper = bW * 0.08;
+    const bLeft  = bX - bW / 2 - taper;
+    const bRight = bX + bW / 2 + taper;
+    const bTop   = bY - bH;
+    const bBot   = bY;
+    const bLeftB = bX - bW / 2;
+    const bRightB= bX + bW / 2;
+
+    // Correct fill level = 75% from bottom of bucket
+    const fillRatio = Math.max(0, Math.min(1.15, 0.75 * Math.pow(2, totalEV)));
+    const waterTop  = bBot - fillRatio * bH;
+    const overflowing = fillRatio > 1.0;
+    const overflow    = Math.max(0, fillRatio - 1.0);
+
+    // Water color: correct = clear blue, under = darker, over = lighter/spilling
+    function waterColor(alpha) {
+      if (overflowing) return `rgba(140, 200, 255, ${alpha})`;
+      if (totalEV < -1) return `rgba(40, 80, 140, ${alpha})`;
+      if (totalEV < 0)  return `rgba(70, 130, 200, ${alpha})`;
+      return `rgba(90, 160, 230, ${alpha})`;
+    }
+
+    // Draw water inside bucket (clipped to bucket shape)
+    if (fillRatio > 0.01) {
+      ctx.save();
+      // Clip to bucket interior
+      ctx.beginPath();
+      ctx.moveTo(bLeft + taper, bTop + 1);
+      ctx.lineTo(bRight - taper, bTop + 1);
+      ctx.lineTo(bRightB, bBot - 2);
+      ctx.lineTo(bLeftB, bBot - 2);
+      ctx.closePath();
+      ctx.clip();
+
+      const clampedWaterTop = Math.max(bTop, waterTop);
+      ctx.fillStyle = waterColor(0.85);
+      ctx.fillRect(bLeft, clampedWaterTop, bRight - bLeft, bBot - clampedWaterTop);
+
+      // Water surface shimmer
+      ctx.strokeStyle = waterColor(0.4);
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(bLeft + taper * 0.5, clampedWaterTop);
+      ctx.lineTo(bRight - taper * 0.5, clampedWaterTop);
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    // Overflow spill down the sides
+    if (overflowing) {
+      const spillW = Math.min(8, overflow * 40);
+      const spillAlpha = Math.min(0.7, overflow * 3);
+      ctx.fillStyle = waterColor(spillAlpha);
+      // Left spill
+      ctx.beginPath();
+      ctx.moveTo(bLeft + taper, bTop);
+      ctx.lineTo(bLeft + taper - spillW, bTop + overflow * bH * 2);
+      ctx.lineTo(bLeft + taper, bTop + overflow * bH);
+      ctx.closePath();
+      ctx.fill();
+      // Right spill
+      ctx.beginPath();
+      ctx.moveTo(bRight - taper, bTop);
+      ctx.lineTo(bRight - taper + spillW, bTop + overflow * bH * 2);
+      ctx.lineTo(bRight - taper, bTop + overflow * bH);
+      ctx.closePath();
+      ctx.fill();
+
+      // Puddle on floor
+      const puddle = ctx.createRadialGradient(bX, bBot + 8, 0, bX, bBot + 8, bW * 0.6);
+      puddle.addColorStop(0, waterColor(0.35));
+      puddle.addColorStop(1, 'rgba(0,0,0,0)');
+      ctx.fillStyle = puddle;
+      ctx.beginPath();
+      ctx.ellipse(bX, bBot + 8, bW * 0.6 * Math.min(1, overflow * 5), 10, 0, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // Correct fill marker line
+    const correctLineY = bBot - 0.75 * bH;
+    ctx.strokeStyle = '#983333';
+    ctx.lineWidth = 1.5;
+    ctx.setLineDash([4, 3]);
+    ctx.beginPath();
+    ctx.moveTo(bLeft + taper + 2, correctLineY);
+    ctx.lineTo(bRight - taper - 2, correctLineY);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Correct fill label
+    ctx.fillStyle = '#983333';
+    ctx.font = '10px -apple-system, sans-serif';
+    ctx.letterSpacing = '0.05em';
+    ctx.textAlign = 'left';
+    ctx.fillText('CORRECT', bRight - taper + 6, correctLineY + 4);
+    ctx.textAlign = 'center';
+
+    // Bucket walls
+    ctx.strokeStyle = '#3a3d48';
+    ctx.fillStyle = 'rgba(30, 32, 40, 0.5)';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(bLeft + taper, bTop);
+    ctx.lineTo(bLeft, bBot);
+    ctx.lineTo(bRight, bBot);
+    ctx.lineTo(bRight - taper, bTop);
+    ctx.stroke();
+
+    // Bucket rim
+    ctx.strokeStyle = '#4a4d58';
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(bLeft + taper - 4, bTop);
+    ctx.lineTo(bRight - taper + 4, bTop);
+    ctx.stroke();
+
+    // Bucket handle (arc over top)
+    ctx.strokeStyle = '#2a2d38';
+    ctx.lineWidth = 2.5;
+    ctx.beginPath();
+    ctx.arc(bX, bTop, bW * 0.35, Math.PI, 0, false);
+    ctx.stroke();
+
+    // ── Water drops ──────────────────────────────────────────────────
+    const shutterOpen = sI > 0;
+    if (pipeR > 1.5) {
+      spawnDrops(aI, sI, totalEV, pipeX, pipeR, pipeBottomY);
+    }
+
+    // Update and draw drops
+    drops = drops.filter(d => d.y < bBot + 20 && d.alpha > 0.05);
+    for (const d of drops) {
+      d.y  += d.vy;
+      d.vy += 0.4; // gravity
+      d.alpha *= 0.98;
+
+      const dropGrd = ctx.createRadialGradient(d.x, d.y, 0, d.x, d.y, d.r);
+      dropGrd.addColorStop(0, `rgba(180, 220, 255, ${d.alpha})`);
+      dropGrd.addColorStop(1, `rgba(80, 160, 230, ${d.alpha * 0.3})`);
+      ctx.fillStyle = dropGrd;
+      ctx.beginPath();
+      ctx.arc(d.x, d.y, d.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // ── Stream (continuous flow for wide apertures) ──────────────────
+    if (pipeR >= 6 && sI >= 2) {
+      const streamAlpha = lerp(pipeR, 6, 28, 0.1, 0.45);
+      const streamGrd = ctx.createLinearGradient(pipeX, pipeBottomY, pipeX, bTop + bH * 0.5);
+      streamGrd.addColorStop(0, `rgba(140, 200, 255, ${streamAlpha})`);
+      streamGrd.addColorStop(1, `rgba(80, 160, 230, ${streamAlpha * 0.3})`);
+      ctx.fillStyle = streamGrd;
+      ctx.beginPath();
+      ctx.moveTo(pipeX - pipeR * 0.5, pipeBottomY + 4);
+      ctx.lineTo(pipeX - pipeR * 0.35, bTop + bH * 0.6);
+      ctx.lineTo(pipeX + pipeR * 0.35, bTop + bH * 0.6);
+      ctx.lineTo(pipeX + pipeR * 0.5, pipeBottomY + 4);
+      ctx.closePath();
+      ctx.fill();
+    }
+  }
+
+  // ── Exposure math ────────────────────────────────────────────────────
+  function deltaLabel(stops) {
+    if (stops === 0) return 'Reference';
+    const n    = Math.abs(stops);
+    const word = n === 1 ? 'stop' : 'stops';
+    const dir  = stops > 0 ? 'more light' : 'less light';
+    return `${stops > 0 ? '+' : ''}${stops} ${word} — ${dir}`;
+  }
+
+  function levelDescription(ev) {
+    if (Math.abs(ev) < 0.5) return 'Correct fill';
+    if (ev <= -3) return 'Nearly empty';
+    if (ev <= -2) return 'Too low';
+    if (ev <   0) return 'Slightly low';
+    if (ev >=  3) return 'Overflowing';
+    if (ev >=  2) return 'Too full';
+    return 'Slightly over';
+  }
+
+  function evColor(ev) {
+    if (Math.abs(ev) < 0.5) return '#fff';
+    return ev < 0 ? '#6ab8f7' : '#f7963a';
+  }
+
+  function fillColor(ev) {
+    if (Math.abs(ev) <= 1) return '#983333';
+    return ev < 0 ? '#5aacf5' : '#f5812a';
+  }
+
+  // ── Update ───────────────────────────────────────────────────────────
+  function update() {
+    const cfg    = SENSITIVITY[mode];
+    const aI     = +document.getElementById('aSlider').value;
+    const sI     = +document.getElementById('sSlider').value;
+    const iI     = +document.getElementById('iSlider').value;
+
+    const aDelta  = REF_A - aI;
+    const sDelta  = sI - REF_S;
+    const iDelta  = iI - cfg.ref;
+    const totalEV = aDelta + sDelta + iDelta;
+
+    document.getElementById('faucetVal').textContent  = APERTURES[aI];
+    document.getElementById('handleVal').textContent  = SHUTTERS[sI];
+    document.getElementById('bucketVal').textContent  = cfg.values[iI];
+    document.getElementById('faucetDelta').textContent = deltaLabel(aDelta);
+    document.getElementById('handleDelta').textContent = deltaLabel(sDelta);
+    document.getElementById('bucketDelta').textContent = deltaLabel(iDelta);
+
+    const clamped = Math.max(-4, Math.min(4, totalEV));
+    const pct     = (clamped + 4) / 8 * 100;
+    document.getElementById('meterNeedle').style.left = `${pct}%`;
+
+    const fill   = document.getElementById('meterFill');
+    const center = 50;
+    if (pct >= center) { fill.style.left = `${center}%`; fill.style.width = `${pct - center}%`; }
+    else               { fill.style.left = `${pct}%`;    fill.style.width = `${center - pct}%`; }
+    fill.style.backgroundColor = fillColor(totalEV);
+
+    const sign = totalEV > 0 ? '+' : '';
+    const lv = document.getElementById('levelValue');
+    lv.textContent = `${sign}${totalEV.toFixed(1)} EV`;
+    lv.style.color = evColor(totalEV);
+    document.getElementById('levelDesc').textContent = levelDescription(totalEV);
+
+    drawScene(aI, sI, iI, totalEV);
+  }
+
+  // ── Animation loop ───────────────────────────────────────────────────
+  function tick() {
+    const aI = +document.getElementById('aSlider').value;
+    const sI = +document.getElementById('sSlider').value;
+    const iI = +document.getElementById('iSlider').value;
+    const cfg = SENSITIVITY[mode];
+    const aDelta  = REF_A - aI;
+    const sDelta  = sI - REF_S;
+    const iDelta  = iI - cfg.ref;
+    const totalEV = aDelta + sDelta + iDelta;
+    drawScene(aI, sI, iI, totalEV);
+    requestAnimationFrame(tick);
+  }
+
+  // ── Mode ─────────────────────────────────────────────────────────────
+  function setMode(newMode) {
+    mode = newMode;
+    const cfg = SENSITIVITY[mode];
+    document.getElementById('filmBtn').classList.toggle('active', mode === 'film');
+    document.getElementById('digitalBtn').classList.toggle('active', mode === 'digital');
+    document.getElementById('sensitivityLabel').textContent = cfg.label;
+    document.getElementById('iSlider').value = cfg.ref;
+    update();
+  }
+
+  // ── Events ───────────────────────────────────────────────────────────
+  document.getElementById('filmBtn').addEventListener('click',    () => setMode('film'));
+  document.getElementById('digitalBtn').addEventListener('click', () => setMode('digital'));
+  ['aSlider','sSlider','iSlider'].forEach(id => {
+    document.getElementById(id).addEventListener('input', update);
+  });
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    document.getElementById('aSlider').value = REF_A;
+    document.getElementById('sSlider').value = REF_S;
+    document.getElementById('iSlider').value = SENSITIVITY[mode].ref;
+    drops = [];
+    update();
+  });
+
+  update();
+  tick();
+</script>
+</body>
+</html>
