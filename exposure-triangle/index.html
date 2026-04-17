@@ -416,38 +416,39 @@
     /* Equivalent exposure strip — vertical column on the right */
     .equiv-strip {
       flex-shrink: 0;
-      width: 80px;
+      width: 144px;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
-      gap: 0.5rem;
-      padding-top: 0.25rem;
+      gap: 0.75rem;
+      margin-top: 20px;
+      margin-left: 20px;
     }
     .equiv-label {
       writing-mode: vertical-rl;
       transform: rotate(180deg);
-      font-size: 0.6rem;
+      font-size: 1.08rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: #444;
+      color: #fff;
       white-space: nowrap;
       flex-shrink: 0;
     }
     .equiv-cells {
       display: flex;
       flex-direction: column;
-      gap: 0.3rem;
+      gap: 0.45rem;
     }
     .equiv-cell {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      padding: 0.15rem 0 0.15rem 0.5rem;
+      padding: 0.2rem 0 0.2rem 0.75rem;
       border-left: 2px solid transparent;
     }
     .equiv-cell.active { border-left-color: #983333; }
-    .equiv-f { font-size: 0.82rem; color: #555; }
-    .equiv-s { font-size: 0.72rem; color: #444; }
+    .equiv-f { font-size: 1.48rem; color: #555; }
+    .equiv-s { font-size: 1.3rem; color: #444; }
     .equiv-cell.active .equiv-f { color: #ddd; }
     .equiv-cell.active .equiv-s { color: #aaa; }
 
