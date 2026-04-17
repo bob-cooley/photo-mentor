@@ -327,27 +327,6 @@
     // Subtle paper grain via tiny noise dots
     // (approximated with very faint random stippling — skip heavy SVG, use simple CSS class)
 
-    // Blueprint grid lines — light blue, matching the CSS lines
-    ctx.strokeStyle = 'rgba(70, 110, 195, 0.13)';
-    ctx.lineWidth = 1;
-    const gridSize = 40;
-    for (let x = 0; x <= W; x += gridSize) {
-      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke();
-    }
-    for (let y = 0; y <= H; y += gridSize) {
-      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
-    }
-
-    // Slightly stronger every 4th line (major grid)
-    ctx.strokeStyle = 'rgba(70, 110, 195, 0.22)';
-    ctx.lineWidth = 1;
-    for (let x = 0; x <= W; x += gridSize * 4) {
-      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke();
-    }
-    for (let y = 0; y <= H; y += gridSize * 4) {
-      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
-    }
-
     // Floor line (subtle separation)
     ctx.strokeStyle = 'rgba(0,0,0,0.06)';
     ctx.lineWidth = 1.5;
