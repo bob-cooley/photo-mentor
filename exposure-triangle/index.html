@@ -354,14 +354,17 @@
     }
 
     .triangle-view.active {
-      display: block;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
     }
 
     .triangle-wrapper {
       position: relative;
-      /* Leave room for equiv strip below */
-      width: min(100%, calc(100vh - 380px));
-      margin: 0.5rem auto;
+      flex: 1 1 0;
+      min-width: 0;
+      max-width: calc(100vh - 310px);
       user-select: none;
       -webkit-user-select: none;
     }
@@ -410,35 +413,41 @@
     }
     .tri-hint span { color: #983333; }
 
-    /* Equivalent exposure strip */
+    /* Equivalent exposure strip — vertical column on the right */
     .equiv-strip {
-      width: min(100%, calc(100vh - 380px));
-      margin: 0.25rem auto 0;
+      flex-shrink: 0;
+      width: 80px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 0.5rem;
+      padding-top: 0.25rem;
     }
     .equiv-label {
-      font-size: 0.62rem;
-      letter-spacing: 0.1em;
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-size: 0.6rem;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #444;
-      margin-bottom: 0.35rem;
-      text-align: center;
+      white-space: nowrap;
+      flex-shrink: 0;
     }
     .equiv-cells {
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 0.15rem;
+      flex-direction: column;
+      gap: 0.3rem;
     }
     .equiv-cell {
       display: flex;
       flex-direction: column;
-      align-items: center;
-      padding: 0.2rem 0.45rem;
-      border-bottom: 1px solid transparent;
+      align-items: flex-start;
+      padding: 0.15rem 0 0.15rem 0.5rem;
+      border-left: 2px solid transparent;
     }
-    .equiv-cell.active { border-bottom-color: #983333; }
-    .equiv-f { font-size: 0.68rem; color: #555; }
-    .equiv-s { font-size: 0.62rem; color: #444; }
+    .equiv-cell.active { border-left-color: #983333; }
+    .equiv-f { font-size: 0.82rem; color: #555; }
+    .equiv-s { font-size: 0.72rem; color: #444; }
     .equiv-cell.active .equiv-f { color: #ddd; }
     .equiv-cell.active .equiv-s { color: #aaa; }
 
@@ -724,11 +733,11 @@
 
     </div>
 
-    <!-- Equivalent exposure strip -->
-    <div class="equiv-strip">
-      <div class="equiv-label">Equivalent exposures — <span id="equivIsoLabel">ISO 400</span></div>
-      <div class="equiv-cells" id="equivCells"></div>
-    </div>
+  <!-- Equivalent exposure column: right side -->
+  <div class="equiv-strip">
+    <div class="equiv-label">Equivalent exposures — <span id="equivIsoLabel">ISO 400</span></div>
+    <div class="equiv-cells" id="equivCells"></div>
+  </div>
 
   </div>
 
