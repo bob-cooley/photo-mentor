@@ -359,8 +359,8 @@
 
     .triangle-wrapper {
       position: relative;
-      /* Cap the wrapper so the full triangle fits in one viewport */
-      width: min(100%, calc(100vh - 310px));
+      /* Leave room for equiv strip below */
+      width: min(100%, calc(100vh - 380px));
       margin: 0.5rem auto;
       user-select: none;
       -webkit-user-select: none;
@@ -399,6 +399,48 @@
       color: #888;
       margin-top: 0.2rem;
     }
+
+    /* Compensation hint inside each module */
+    .tri-hint {
+      font-size: 0.62rem;
+      color: #555;
+      margin-top: 0.3rem;
+      line-height: 1.3;
+      min-height: 1em;
+    }
+    .tri-hint span { color: #983333; }
+
+    /* Equivalent exposure strip */
+    .equiv-strip {
+      width: min(100%, calc(100vh - 380px));
+      margin: 0.25rem auto 0;
+    }
+    .equiv-label {
+      font-size: 0.62rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #444;
+      margin-bottom: 0.35rem;
+      text-align: center;
+    }
+    .equiv-cells {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.15rem;
+    }
+    .equiv-cell {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.2rem 0.45rem;
+      border-bottom: 1px solid transparent;
+    }
+    .equiv-cell.active { border-bottom-color: #983333; }
+    .equiv-f { font-size: 0.68rem; color: #555; }
+    .equiv-s { font-size: 0.62rem; color: #444; }
+    .equiv-cell.active .equiv-f { color: #ddd; }
+    .equiv-cell.active .equiv-s { color: #aaa; }
 
     /* Aperture: left edge midpoint x=30%, y=42%. Offset outward ~15px further. */
     .tri-overlay-aperture {
@@ -661,6 +703,7 @@
         <div class="tri-label">Aperture</div>
         <div class="tri-value" id="triangleAVal">f/5.6</div>
         <div class="tri-delta" id="triangleADelta">Reference</div>
+        <div class="tri-hint" id="triangleAHint"></div>
       </div>
 
       <!-- ISO overlay: right side -->
@@ -668,6 +711,7 @@
         <div class="tri-label" id="triangleSensLabel">ISO</div>
         <div class="tri-value" id="triangleIVal">400</div>
         <div class="tri-delta" id="triangleIDelta">Reference</div>
+        <div class="tri-hint" id="triangleIHint"></div>
       </div>
 
       <!-- Shutter Speed overlay: bottom center -->
@@ -675,9 +719,17 @@
         <div class="tri-label">Shutter Speed</div>
         <div class="tri-value" id="triangleSVal">1/125</div>
         <div class="tri-delta" id="triangleSDelta">Reference</div>
+        <div class="tri-hint" id="triangleSHint"></div>
       </div>
 
     </div>
+
+    <!-- Equivalent exposure strip -->
+    <div class="equiv-strip">
+      <div class="equiv-label">Equivalent exposures — <span id="equivIsoLabel">ISO 400</span></div>
+      <div class="equiv-cells" id="equivCells"></div>
+    </div>
+
   </div>
 
   <!-- ── Visual view ───────────────────────────── -->
@@ -1133,6 +1185,9 @@
 
   function updateTriangleDisplay(aI, sI, iI, aDelta, sDelta, iDelta) {
     const cfg = SENSITIVITY[mode];
+    const totalEV = aDelta + sDelta + iDelta;
+
+    // Current values
     document.getElementById('triangleAVal').textContent = APERTURES[aI];
     document.getElementById('triangleSVal').textContent = SHUTTERS[sI];
     document.getElementById('triangleIVal').textContent = cfg.values[iI];
@@ -1142,6 +1197,47 @@
     document.getElementById('aTriangleLabel').textContent = APERTURES[aI];
     document.getElementById('sTriangleLabel').textContent = SHUTTERS[sI];
     document.getElementById('iTriangleLabel').textContent = cfg.values[iI];
+
+    // Compensation hints — what would each single setting need to be to restore 0 EV?
+    const aHint = document.getElementById('triangleAHint');
+    const sHint = document.getElementById('triangleSHint');
+    const iHint = document.getElementById('triangleIHint');
+
+    if (Math.abs(totalEV) >= 0.5) {
+      const aFix = REF_A + sDelta + iDelta;
+      aHint.innerHTML = (aFix >= 0 && aFix <= 8 && Math.round(aFix) !== aI)
+        ? `→ <span>${APERTURES[Math.round(aFix)]}</span> corrects`  : '';
+
+      const sFix = REF_S - aDelta - iDelta;
+      sHint.innerHTML = (sFix >= 0 && sFix <= 12 && Math.round(sFix) !== sI)
+        ? `→ <span>${SHUTTERS[Math.round(sFix)]}</span> corrects` : '';
+
+      const iFix = cfg.ref - aDelta - sDelta;
+      iHint.innerHTML = (iFix >= 0 && iFix <= 7 && Math.round(iFix) !== iI)
+        ? `→ <span>${cfg.values[Math.round(iFix)]}</span> corrects` : '';
+    } else {
+      aHint.innerHTML = '';
+      sHint.innerHTML = '';
+      iHint.innerHTML = '';
+    }
+
+    // Equivalent exposure strip — all (aperture, shutter) pairs at current ISO giving same EV
+    const targetASDelta = totalEV - iDelta;
+    const cells = [];
+    for (let a = 0; a <= 8; a++) {
+      const s = REF_S - REF_A + a + targetASDelta;
+      if (s >= 0 && s <= 12) {
+        cells.push({ a, s: Math.round(s), active: a === aI && Math.round(s) === sI });
+      }
+    }
+    document.getElementById('equivCells').innerHTML = cells.map(c =>
+      `<div class="equiv-cell${c.active ? ' active' : ''}">
+        <span class="equiv-f">${APERTURES[c.a]}</span>
+        <span class="equiv-s">${SHUTTERS[c.s]}</span>
+      </div>`
+    ).join('');
+    document.getElementById('equivIsoLabel').textContent =
+      `${cfg.label} ${cfg.values[iI]}`;
   }
 
   // Schema
