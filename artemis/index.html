@@ -290,7 +290,8 @@ scene.add(moon);
     color: 0x334444, transparent: true, opacity: 0.3, side: THREE.DoubleSide
   });
   const mOrbitMesh = new THREE.Mesh(mOrbit, mOrbitMat);
-  mOrbitMesh.rotation.x = Math.PI / 2;
+  // Tilt ring into spacecraft's orbital plane (INC from equatorial)
+  mOrbitMesh.rotation.x = INC - Math.PI / 2;
   scene.add(mOrbitMesh);
 }
 
@@ -348,17 +349,19 @@ function perifocalToScene(r, nu, aop, inc) {
   return new THREE.Vector3(xi * KM, zi * KM, -yi * KM);
 }
 
-// Moon position at mission time t (seconds). Moon is placed so that
-// at t = T_FLYBY it is in the +X direction of the scene.
+// Pre-compute FRT true anomaly at flyby so Moon is placed in the exact
+// direction the spacecraft will be at T_FLYBY.
+const FRT_NU_FLYBY = (() => {
+  const { nu } = keplerState(FRT_A, FRT_E, FRT_T, T_FLYBY - T_TLI);
+  return nu;
+})();
+
+// Moon orbits in the same inclined plane as the spacecraft trajectory.
+// At T_FLYBY the Moon is at FRT_NU_FLYBY — same direction as the spacecraft.
 function moonPosAtTime(t) {
   const omega = 2 * Math.PI / MOON_PERIOD;
-  // At T_FLYBY: angle = 0 (Moon at +X)
-  const angle = omega * (t - T_FLYBY);
-  return new THREE.Vector3(
-    MOON_SMA * KM * Math.cos(angle),
-    0,
-    MOON_SMA * KM * Math.sin(angle)
-  );
+  const nu_moon = FRT_NU_FLYBY + omega * (t - T_FLYBY);
+  return perifocalToScene(MOON_SMA, nu_moon, Math.PI, INC);
 }
 
 // Spacecraft position at mission time t
