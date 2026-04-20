@@ -433,7 +433,7 @@ function makeLine(pts, color, opacity = 1.0, linewidth = 1) {
     const t = (i / N) * loops * period;
     pts.push(spacecraftPosAtTime(t));
   }
-  scene.add(makeLine(pts, 0x1a4a7a, 0.5));
+  scene.add(makeLine(pts, 0x4488ff, 0.9));
 }
 
 // HEO trace (2 full loops)
@@ -447,7 +447,7 @@ function makeLine(pts, color, opacity = 1.0, linewidth = 1) {
     const { nu, r } = keplerState(HEO_A, HEO_E, HEO_T, t_heo);
     pts.push(perifocalToScene(r, nu, Math.PI, INC));
   }
-  scene.add(makeLine(pts, 0x2266aa, 0.6));
+  scene.add(makeLine(pts, 0x55aaff, 0.95));
 }
 
 // FRT outbound path (TLI → flyby)
@@ -460,7 +460,7 @@ function makeLine(pts, color, opacity = 1.0, linewidth = 1) {
     const { nu, r } = keplerState(FRT_A, FRT_E, FRT_T, t);
     pts.push(perifocalToScene(r, nu, Math.PI, INC));
   }
-  scene.add(makeLine(pts, 0x33bb55, 0.7));
+  scene.add(makeLine(pts, 0x44ff88, 0.95));
 }
 
 // FRT return path (flyby → splashdown)
@@ -474,7 +474,7 @@ function makeLine(pts, color, opacity = 1.0, linewidth = 1) {
     const { nu, r } = keplerState(FRT_A, FRT_E, FRT_T, t);
     pts.push(perifocalToScene(r, nu, Math.PI, INC));
   }
-  scene.add(makeLine(pts, 0xaa44cc, 0.7));
+  scene.add(makeLine(pts, 0xdd55ff, 0.95));
 }
 
 // Full FRT ellipse ghost (full orbit, dim)
@@ -486,7 +486,7 @@ function makeLine(pts, color, opacity = 1.0, linewidth = 1) {
     const r = FRT_A * (1 - FRT_E * FRT_E) / (1 + FRT_E * Math.cos(nu));
     pts.push(perifocalToScene(r, nu, Math.PI, INC));
   }
-  scene.add(makeLine(pts, 0x334444, 0.25));
+  scene.add(makeLine(pts, 0x446666, 0.35));
 }
 
 // ─── "TRAVELED" PATH (dynamic, updated each frame) ─────────────────────────
