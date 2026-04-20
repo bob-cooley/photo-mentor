@@ -551,7 +551,7 @@ function updateLabels() {
 }
 
 // ─── ANIMATION STATE ───────────────────────────────────────────────────────
-let missionT = 0;         // current mission time in seconds
+let missionT = T_FLYBY;   // start at flyby so Moon is visible on the trajectory
 let playing = false;
 let playbackSpeed = 100;  // real seconds per sim second
 let lastRealTime = null;
