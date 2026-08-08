@@ -231,22 +231,29 @@ body.template-_password .particle-orbit-wrap{
 
 /* 404 page complete takeover: large logo-adjacent "404" with each digit flickering
    independently, like a failing neon tube (reference: defunkt.com's "k" flicker - short
-   bursts of 2-5 rapid dim/bright flashes, then a long steady stretch, repeat - not a
-   smooth continuous pulse). Pure CSS approximation of that JS-driven random behavior:
-   each digit gets its own @keyframes with a different cycle length (9s/13s/7s) so they
-   drift out of phase with each other instead of flickering in unison.
+   bursts of 2-5 rapid dim/bright flashes, then a long steady stretch, repeat, all on
+   genuinely random timing - not a smooth continuous pulse). The earlier pure-CSS
+   @keyframes version (fixed repeating loops) is replaced here by real randomness:
+   companion script code-injection.js (see photo-mentor/injections/) toggles one of
+   3 "dim" classes on/off at random intervals per digit, using the same burst-then-
+   pause algorithm as defunkt.com's actual scheduleKFlicker(). This CSS just defines
+   what each dim class looks like; all timing/randomness lives in the JS.
 
-   No new HTML elements (CSS-only for now) - instead spreads the 3 digits + subtitle
-   across the pseudo-element slots of the 3 elements IO200 already renders here (main,
-   the hidden h1, the hidden p), flattened into one flex row via display:contents so
-   main::before/h1::before/p::before/p::after all act like direct flex children of main:
+   No new HTML elements - the 3 digits + subtitle are spread across the pseudo-element
+   slots of the 3 elements IO200 already renders here (main, the hidden h1, the hidden
+   p), flattened into one flex row via display:contents so main::before/h1::before/
+   p::before/p::after all act like direct flex children of main:
      main::before = "4"   (digit 1)
      h1::before   = "0"   (digit 2)
      p::before    = "4"   (digit 3)
      p::after     = subtitle, flex-basis:100% forces it onto its own line below
    h1/p's own hardcoded text is hidden via font-size:0 rather than display:none, so
    IO200's original "return to home page" link stays screen-reader/keyboard accessible
-   even though invisible. */
+   even though invisible. JS toggles flicker classes on main/h1/p themselves (not on
+   the pseudo-elements, which JS can't target directly) - the compound selectors below
+   (e.g. "main.template-error404 h1.flicker-dim-1::before") select each digit's own
+   pseudo-element off the back of that class, which works fine even though h1/p use
+   display:contents (that only removes h1/p's own box, not its pseudo-elements' boxes). */
 main.template-error404{
   display: flex;
   flex-wrap: wrap;
@@ -270,18 +277,16 @@ main.template-error404 p::before{
   letter-spacing: 0.02em;
   color: #990000;
   text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4);
+  transition: opacity 0.03s linear, text-shadow 0.03s linear;
 }
 main.template-error404::before{
   content: "4";
-  animation: flicker-404-1 9s linear infinite;
 }
 main.template-error404 h1::before{
   content: "0";
-  animation: flicker-404-2 13s linear infinite;
 }
 main.template-error404 p::before{
   content: "4";
-  animation: flicker-404-3 7s linear infinite;
 }
 main.template-error404 p::after{
   content: "these aren't the droids you're looking for...";
@@ -293,31 +298,23 @@ main.template-error404 p::after{
   color: #bdbdbd;
 }
 
-@keyframes flicker-404-1{
-  0%, 100%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  1%{ opacity:0.2; text-shadow: 0 0 0.02em #990000; }
-  1.5%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  2.2%{ opacity:0.15; text-shadow: 0 0 0.02em #990000; }
-  2.8%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  3.3%{ opacity:0.3; text-shadow: 0 0 0.03em #990000; }
-  3.6%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+/* Flicker "dim" states - JS toggles one of these 3 on/off per flash for a bit of
+   variety (not every dip in a real neon tube looks equally dim). */
+main.template-error404.flicker-dim-1::before,
+main.template-error404 h1.flicker-dim-1::before,
+main.template-error404 p.flicker-dim-1::before{
+  opacity: 0.15;
+  text-shadow: 0 0 0.02em #990000;
 }
-@keyframes flicker-404-2{
-  0%, 100%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  38%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  38.6%{ opacity:0.1; text-shadow: 0 0 0.02em #990000; }
-  39.1%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  39.8%{ opacity:0.25; text-shadow: 0 0 0.03em #990000; }
-  40.3%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+main.template-error404.flicker-dim-2::before,
+main.template-error404 h1.flicker-dim-2::before,
+main.template-error404 p.flicker-dim-2::before{
+  opacity: 0.32;
+  text-shadow: 0 0 0.03em #990000;
 }
-@keyframes flicker-404-3{
-  0%, 100%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  5%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  5.4%{ opacity:0.15; text-shadow: 0 0 0.02em #990000; }
-  5.9%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  70%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  70.5%{ opacity:0.2; text-shadow: 0 0 0.03em #990000; }
-  71%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
-  71.6%{ opacity:0.35; text-shadow: 0 0 0.04em #990000; }
-  72%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+main.template-error404.flicker-dim-3::before,
+main.template-error404 h1.flicker-dim-3::before,
+main.template-error404 p.flicker-dim-3::before{
+  opacity: 0.04;
+  text-shadow: none;
 }
