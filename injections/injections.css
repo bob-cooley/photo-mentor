@@ -229,10 +229,27 @@ body.template-_password .particle-orbit-wrap{
 @keyframes glitch-flicker-d{ 0%,10%{opacity:1;} 11%,15%{opacity:0;} 16%,40%{opacity:1;} 41%,44%{opacity:0;} 45%,100%{opacity:1;} }
 @keyframes glitch-flicker-e{ 0%,90%{opacity:0.15;} 92%{opacity:1;} 94%{opacity:0.1;} 96%{opacity:1;} 98%{opacity:0;} 100%{opacity:0.15;} }
 
-/* 404 page complete takeover: large logo-adjacent "404" + subtitle, replacing platform's default text */
+/* 404 page complete takeover: large logo-adjacent "404" with each digit flickering
+   independently, like a failing neon tube (reference: defunkt.com's "k" flicker - short
+   bursts of 2-5 rapid dim/bright flashes, then a long steady stretch, repeat - not a
+   smooth continuous pulse). Pure CSS approximation of that JS-driven random behavior:
+   each digit gets its own @keyframes with a different cycle length (9s/13s/7s) so they
+   drift out of phase with each other instead of flickering in unison.
+
+   No new HTML elements (CSS-only for now) - instead spreads the 3 digits + subtitle
+   across the pseudo-element slots of the 3 elements IO200 already renders here (main,
+   the hidden h1, the hidden p), flattened into one flex row via display:contents so
+   main::before/h1::before/p::before/p::after all act like direct flex children of main:
+     main::before = "4"   (digit 1)
+     h1::before   = "0"   (digit 2)
+     p::before    = "4"   (digit 3)
+     p::after     = subtitle, flex-basis:100% forces it onto its own line below
+   h1/p's own hardcoded text is hidden via font-size:0 rather than display:none, so
+   IO200's original "return to home page" link stays screen-reader/keyboard accessible
+   even though invisible. */
 main.template-error404{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   min-height: 60vh;
@@ -240,23 +257,67 @@ main.template-error404{
 }
 main.template-error404 h1,
 main.template-error404 p{
-  display: none;
+  display: contents;
+  font-size: 0;
 }
-main.template-error404::before{
-  content: "404";
-  display: block;
+main.template-error404::before,
+main.template-error404 h1::before,
+main.template-error404 p::before{
   font-family: "Century Gothic", "Avant Garde", "ITC Avant Garde Gothic", "Urbanist", sans-serif;
   font-weight: 200;
   font-size: clamp(150px, 30vw, 480px);
   line-height: 0.9;
   letter-spacing: 0.02em;
   color: #990000;
+  text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4);
 }
-main.template-error404::after{
+main.template-error404::before{
+  content: "4";
+  animation: flicker-404-1 9s linear infinite;
+}
+main.template-error404 h1::before{
+  content: "0";
+  animation: flicker-404-2 13s linear infinite;
+}
+main.template-error404 p::before{
+  content: "4";
+  animation: flicker-404-3 7s linear infinite;
+}
+main.template-error404 p::after{
   content: "these aren't the droids you're looking for...";
   display: block;
+  flex-basis: 100%;
   margin-top: 1rem;
   font-size: 1.1rem;
   text-transform: none;
   color: #bdbdbd;
+}
+
+@keyframes flicker-404-1{
+  0%, 100%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  1%{ opacity:0.2; text-shadow: 0 0 0.02em #990000; }
+  1.5%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  2.2%{ opacity:0.15; text-shadow: 0 0 0.02em #990000; }
+  2.8%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  3.3%{ opacity:0.3; text-shadow: 0 0 0.03em #990000; }
+  3.6%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+}
+@keyframes flicker-404-2{
+  0%, 100%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  38%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  38.6%{ opacity:0.1; text-shadow: 0 0 0.02em #990000; }
+  39.1%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  39.8%{ opacity:0.25; text-shadow: 0 0 0.03em #990000; }
+  40.3%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+}
+@keyframes flicker-404-3{
+  0%, 100%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  5%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  5.4%{ opacity:0.15; text-shadow: 0 0 0.02em #990000; }
+  5.9%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  70%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  70.5%{ opacity:0.2; text-shadow: 0 0 0.03em #990000; }
+  71%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
+  71.6%{ opacity:0.35; text-shadow: 0 0 0.04em #990000; }
+  72%{ opacity:1; text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4); }
 }
