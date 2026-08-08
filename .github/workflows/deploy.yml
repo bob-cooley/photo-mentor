@@ -25,6 +25,25 @@ jobs:
             **/.git*/**
             **/node_modules/**
             .github/**
+            injections/**
+
+  deploy-injections:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy injections.css to bobcooleyphoto.com root
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/bobcooleyphoto/
+          local-dir: ./injections/
+          exclude: |
+            **/.git*
+            **/.git*/**
 
   deploy-artemis:
     runs-on: ubuntu-latest

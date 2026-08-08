@@ -1,0 +1,262 @@
+/* Split-header: stack logo above nav, both right-aligned (desktop) */
+@media (min-width:1000px){
+  header{
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:flex-start;
+    gap:0.75rem;
+  }
+}
+
+/* Site max-width: 1300px instead of theme default 1400px */
+@media (min-width:1000px){
+  div#container{max-width:1300px;}
+}
+
+/* Mobile wordmark was rendering at 90% width (theme default) - way too large; reduced ~40% */
+@media (max-width:999px){
+  header span.website-title, header h1.website-title{
+    width:54%;
+  }
+}
+
+/* Nav lowercase - overrides theme's uppercase flavor on desktop/submenus */
+header nav > ul > li > .nav-item-title{text-transform:lowercase;}
+header nav > ul ul li{text-transform:lowercase;}
+
+/* Force lowercase everywhere else too, in case entered text is mixed-case */
+nav .nav-item-title{text-transform:lowercase;}
+
+/* Global hover color -> #990000 (nav, footer, content links; social icons are PNG-based, left untouched) */
+header nav li a:hover{
+  color:#990000;
+}
+header nav > ul > li:hover > .nav-item-title,
+header nav > ul ul a:hover{
+  color:#990000;
+}
+header nav > ul > li > a:last-child:hover{
+  border-color:#990000;
+}
+footer nav ul.secondary li a:hover,
+footer p.footer-info a:hover{
+  color:#990000;
+}
+main a:not(.button):not(.sitelink):hover{
+  color:#990000;
+}
+article .article-title a:hover,
+aside.blog-sidebar a:hover,
+div.backlink a:hover{
+  color:#990000;
+}
+ul.tags.tags-linked li:hover,
+ul.tags.tags-linked li:hover a{
+  color:#990000;
+}
+ul.pagination li:hover a{
+  color:#990000;
+}
+
+/* Center footer social icons on desktop - theme's LAYOUT_RIGHT flavor shrinks footer nav
+   to fit-content (flex-basis:initial), leaving it flush left with nothing to center against */
+@media (min-width:1000px){
+  footer nav:has(ul.socialmedia){
+    margin-inline:auto;
+  }
+}
+
+/* Thinner, more elegant nav underline (covers hover + active state, same element) -
+   theme sets border-bottom:1px, which renders as 2 device px on Retina; 0.5px renders
+   as a true 1px hairline on HiDPI screens */
+header nav > ul > li > .nav-item-title{
+  border-bottom-width: 0.5px;
+}
+
+/* Contact page: match Bio page's 900px reading width */
+main.template-contact div.custom-html,
+main.template-contact form.form-background{
+  max-width:900px;
+  margin:0 auto;
+}
+
+/* Tighter body text line-height, site-wide (Bio page has its own hardcoded
+   line-height in its per-page injection, kept in sync separately) */
+main p, main blockquote{
+  line-height:1.5;
+}
+
+/* Footer bottom spacing halved (gap to the footer-info copyright injection below it) */
+@media (min-width:1000px){
+  div#container{margin-bottom:20px;}
+}
+@media (max-width:999px){
+  footer{margin-bottom:16px;}
+}
+
+/* Header vertical rhythm halved on desktop only - mobile already looked right.
+   A: #container margin-top 48->24, B: header gap 12->6.
+   C (main margin-top, nav to body content) was also halved 32->16 but reverted
+   back to the theme default (32px) - felt too tight, so no override here anymore. */
+@media (min-width:1000px){
+  div#container{margin-top:24px;}
+  header{gap:6px;}
+}
+
+/* Tighten gap between homepage rotator and footer to match footer->copyright spacing (20px) */
+main > br:last-child{
+  display:none;
+}
+main > ul.gallery:last-of-type{
+  margin-bottom:0;
+}
+main{margin-bottom:20px;}
+
+/* Contact page: add one line-height of space between intro text and form */
+main.template-contact div.custom-html{
+  margin-bottom: 26px;
+}
+
+main.template-contact div.custom-html p{
+  text-align: left;
+}
+
+@media (min-width:1000px){
+  body{
+    padding-bottom: 48px;
+  }
+}
+
+@media (min-width:1000px){
+  main.template-_password{
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* PARTICLE-ORBIT-V2 — CSS — paste into Custom CSS (replaces V1's particle rules) */
+.particle-orbit-wrap{
+  display:none;
+}
+body.template-_password .particle-orbit-wrap{
+  display:block;
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:0;
+  height:0;
+  perspective:900px;
+  z-index:1;
+  pointer-events:none;
+}
+.particle-orbit-tilt{
+  position:relative;
+  width:0;
+  height:0;
+  transform-style:preserve-3d;
+  transform:rotateX(78deg);
+}
+.particle-orbit-spin{
+  position:relative;
+  width:0;
+  height:0;
+  transform-style:preserve-3d;
+  animation:particle-orbit-spin 14s linear infinite;
+}
+@keyframes particle-orbit-spin{
+  from{ transform:rotateY(0deg); }
+  to{ transform:rotateY(360deg); }
+}
+
+/* base dot - steady, most common */
+.particle-orbit-dot{
+  position:absolute;
+  top:0;
+  left:0;
+  width:4px;
+  height:4px;
+  margin:-2px 0 0 -2px;
+  border-radius:50%;
+  background:#990000;
+  box-shadow:0 0 6px 1px rgba(153,0,0,0.6);
+  animation:glitch-flicker-a calc(2s + (var(--i) * 0.03s)) ease-in-out infinite;
+  animation-delay: calc(var(--i) * -0.13s);
+}
+/* v2 - small, dim, erratic (weak signal) */
+.particle-orbit-dot.v2{
+  width:3px;
+  height:3px;
+  margin:-1.5px 0 0 -1.5px;
+  background:#5c0000;
+  box-shadow:0 0 4px 1px rgba(153,0,0,0.4);
+  animation-name:glitch-flicker-b;
+}
+/* v3 - large, bright, hot spark */
+.particle-orbit-dot.v3{
+  width:7px;
+  height:7px;
+  margin:-3.5px 0 0 -3.5px;
+  background:#ff4d4d;
+  box-shadow:0 0 12px 3px rgba(255,77,77,0.75);
+  animation-name:glitch-flicker-c;
+}
+/* v4 - rectangular code-fragment, hard on/off snap */
+.particle-orbit-dot.v4{
+  width:3px;
+  height:9px;
+  margin:-4.5px 0 0 -1.5px;
+  border-radius:1px;
+  background:#e8e8e8;
+  box-shadow:0 0 6px 1px rgba(232,232,232,0.5);
+  animation-name:glitch-flicker-d;
+}
+/* v5 - rare bright flash, most "broken" */
+.particle-orbit-dot.v5{
+  width:5px;
+  height:5px;
+  margin:-2.5px 0 0 -2.5px;
+  background:#ffffff;
+  box-shadow:0 0 14px 4px rgba(255,255,255,0.85);
+  animation-name:glitch-flicker-e;
+}
+
+@keyframes glitch-flicker-a{ 0%,100%{opacity:0.75;} 50%{opacity:1;} }
+@keyframes glitch-flicker-b{ 0%{opacity:0.55;} 20%{opacity:0.1;} 35%{opacity:0.5;} 50%{opacity:0.05;} 70%{opacity:0.4;} 85%{opacity:0.15;} 100%{opacity:0.55;} }
+@keyframes glitch-flicker-c{ 0%,100%{opacity:0.9;} 50%{opacity:0.45;} }
+@keyframes glitch-flicker-d{ 0%,10%{opacity:1;} 11%,15%{opacity:0;} 16%,40%{opacity:1;} 41%,44%{opacity:0;} 45%,100%{opacity:1;} }
+@keyframes glitch-flicker-e{ 0%,90%{opacity:0.15;} 92%{opacity:1;} 94%{opacity:0.1;} 96%{opacity:1;} 98%{opacity:0;} 100%{opacity:0.15;} }
+
+/* 404 page complete takeover: large logo-adjacent "404" + subtitle, replacing platform's default text */
+main.template-error404{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+main.template-error404 h1,
+main.template-error404 p{
+  display: none;
+}
+main.template-error404::before{
+  content: "404";
+  display: block;
+  font-family: "Century Gothic", "Avant Garde", "ITC Avant Garde Gothic", "Urbanist", sans-serif;
+  font-weight: 200;
+  font-size: clamp(150px, 30vw, 480px);
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: #990000;
+}
+main.template-error404::after{
+  content: "these aren't the droids you're looking for...";
+  display: block;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  text-transform: none;
+  color: #bdbdbd;
+}
