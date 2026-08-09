@@ -273,7 +273,7 @@ main.template-error404 p::before{
   font-family: "Century Gothic", "Avant Garde", "ITC Avant Garde Gothic", "Urbanist", sans-serif;
   font-weight: 200;
   font-size: clamp(150px, 30vw, 480px);
-  line-height: 0.9;
+  line-height: 0.75;
   letter-spacing: 0.02em;
   color: #990000;
   text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4);
@@ -297,7 +297,7 @@ main.template-error404 p::after{
   content: "these aren't the droids you're looking for...";
   display: block;
   flex-basis: 100%;
-  margin-top: 0.5rem;
+  margin-top: -40px;
   font-size: 1.1rem;
   text-transform: none;
   text-align: center;
