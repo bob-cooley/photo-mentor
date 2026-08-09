@@ -278,6 +278,11 @@ main.template-error404 p::before{
   color: #990000;
   text-shadow: 0 0 0.06em #990000, 0 0 0.18em rgba(153,0,0,0.7), 0 0 0.4em rgba(153,0,0,0.4);
   transition: opacity 0.03s linear, text-shadow 0.03s linear;
+  /* theme's main p{text-align:justify} flavor rule directly targets the real <p> element
+     (a direct match beats inheritance regardless of specificity), and justify defaults
+     a single line to left-aligned - set explicitly here rather than relying on inheriting
+     center from main.template-error404 */
+  text-align: center;
 }
 main.template-error404::before{
   content: "4";
@@ -295,6 +300,7 @@ main.template-error404 p::after{
   margin-top: 1rem;
   font-size: 1.1rem;
   text-transform: none;
+  text-align: center;
   color: #bdbdbd;
 }
 
