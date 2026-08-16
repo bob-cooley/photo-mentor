@@ -19,7 +19,7 @@ export default function AnalystConsensusCard({
       {loading && <div className="skeleton" style={{ height: 64 }} />}
       {!loading && !analyst && <p className="empty-state">No consensus data available.</p>}
       {!loading && analyst && (
-        <>
+        <div className="consensus-body">
           <div className="consensus-big" style={{ color: RATING_COLOR[analyst.consensus] }}>
             {analyst.consensus}
           </div>
@@ -39,7 +39,7 @@ export default function AnalystConsensusCard({
               Avg target ${analyst.priceTarget.average.toFixed(2)}
             </div>
           )}
-        </>
+        </div>
       )}
     </div>
   );
