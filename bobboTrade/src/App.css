@@ -1,0 +1,391 @@
+.app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--card-border);
+  position: sticky;
+  top: 0;
+  background: rgba(11, 13, 16, 0.75);
+  backdrop-filter: blur(16px);
+  z-index: 10;
+}
+
+.app-header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.app-title {
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+}
+
+.app-ticker {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 8px;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+}
+
+.app-header-right {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.app-stock-name {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.app-quote {
+  font-size: 20px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.app-quote.up {
+  color: var(--up);
+}
+
+.app-quote.down {
+  color: var(--down);
+}
+
+.app-quote-change {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.dashboard {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  gap: 20px;
+  padding: 24px 32px 40px;
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  margin: 0 0 14px;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 25%, rgba(255, 255, 255, 0.09) 37%, rgba(255, 255, 255, 0.04) 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.6s ease infinite;
+  border-radius: var(--radius-sm);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@media (max-width: 1180px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* News column */
+
+.news-card {
+  flex: 1;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.news-item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.news-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.news-headline {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 6px;
+  letter-spacing: -0.01em;
+}
+
+.news-summary {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.news-meta {
+  font-size: 11.5px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.news-source {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.news-dot {
+  margin: 0 6px;
+}
+
+.empty-state {
+  color: var(--text-tertiary);
+  font-size: 13px;
+  margin: 0;
+}
+
+/* Chart column */
+
+.chart-card {
+  display: flex;
+  flex-direction: column;
+  height: 620px;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.timeframe-picker {
+  display: flex;
+  gap: 2px;
+  background: var(--bg-elevated);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.timeframe-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.timeframe-btn.active {
+  background: var(--card);
+  color: var(--text-primary);
+}
+
+.chart-container {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+/* Analyst consensus */
+
+.consensus-big {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+
+.consensus-breakdown {
+  display: flex;
+  gap: 16px;
+  font-size: 12.5px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.consensus-target {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+}
+
+/* Two-week movement */
+
+.movement-card {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.movement-visual {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.movement-arrow {
+  width: 72px;
+  height: 72px;
+  stroke-width: 9;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.movement-visual.up .movement-arrow {
+  stroke: var(--up);
+}
+
+.movement-visual.down .movement-arrow {
+  stroke: var(--down);
+}
+
+.movement-label {
+  font-size: 20px;
+  font-weight: 800;
+  stroke: none;
+  fill: var(--bg);
+  paint-order: stroke;
+  stroke-width: 3px;
+}
+
+.movement-pct {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.movement-visual.up .movement-pct {
+  color: var(--up);
+}
+
+.movement-visual.down .movement-pct {
+  color: var(--down);
+}
+
+/* Energy indicators */
+
+.energy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.energy-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.energy-label {
+  color: var(--text-secondary);
+}
+
+.energy-value {
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* AI placeholder */
+
+.ai-placeholder {
+  border-style: dashed;
+  opacity: 0.7;
+}
+
+.ai-placeholder-text {
+  font-size: 12.5px;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Portfolio */
+
+.portfolio-input {
+  width: 100%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 13px;
+  padding: 8px 10px;
+}
+
+.portfolio-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.portfolio-trim {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.portfolio-trim-label {
+  font-size: 11.5px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
