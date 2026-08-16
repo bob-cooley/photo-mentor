@@ -29,9 +29,18 @@ DEFAULT_TIMEOUT = 20
 MAX_ATTEMPTS = 3
 RETRY_BACKOFF_SECONDS = 2
 
-# A descriptive UA rather than the "python-requests/x.x" default — SEC
-# requires this outright, and it's good practice generally.
-DEFAULT_HEADERS = {"User-Agent": "bobboTrade-data-pipeline/1.0 (bob@bobcooleyphoto.com)"}
+# EIA's Akamai front 403s the default "python-requests/x.x" UA (and a
+# plain custom one) specifically from GitHub Actions' runner IP ranges —
+# confirmed by comparing identical requests from a residential IP (200)
+# against three straight CI runs (403 every time). A browser-shaped
+# header set clears it. SEC EDGAR still gets its own compliant UA via a
+# per-call override in news.py, which takes precedence over this default.
+DEFAULT_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
 
 def utc_now_iso() -> str:
