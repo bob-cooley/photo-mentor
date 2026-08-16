@@ -18,6 +18,9 @@ const DAILY_TIMEFRAME_DAYS: Partial<Record<Timeframe, number>> = {
 // even on a short/holiday-adjacent week.
 const ONE_WEEK_BAR_COUNT = 78 * 5;
 
+const UP_COLOR = "#34c759";
+const DOWN_COLOR = "#ff453a";
+
 function nyLocalDateKey(unixSeconds: number): string {
   return new Date(unixSeconds * 1000).toLocaleDateString("en-CA", { timeZone: "America/New_York" });
 }
@@ -35,8 +38,7 @@ export default function ChartColumn({
 }) {
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<IChartApi | null>(null);
-  const seriesRef = useRef<ISeriesApi<"Candlestick"> | null>(null);
-  const volumeSeriesRef = useRef<ISeriesApi<"Histogram"> | null>(null);
+  const seriesRef = useRef<ISeriesApi<"Area"> | null>(null);
   const [timeframe, setTimeframe] = useState<Timeframe>("1D");
 
   useEffect(() => {
@@ -49,35 +51,24 @@ export default function ChartColumn({
         fontFamily: "Inter, -apple-system, sans-serif",
       },
       grid: {
-        vertLines: { color: "rgba(255,255,255,0.04)" },
-        horzLines: { color: "rgba(255,255,255,0.04)" },
+        vertLines: { visible: false },
+        horzLines: { color: "rgba(255,255,255,0.05)" },
       },
-      rightPriceScale: { borderColor: "rgba(255,255,255,0.08)" },
-      timeScale: { borderColor: "rgba(255,255,255,0.08)" },
+      rightPriceScale: { borderVisible: false },
+      timeScale: { borderVisible: false },
       crosshair: { mode: 0 },
       autoSize: true,
     });
 
-    const series = chart.addCandlestickSeries({
-      upColor: "#34c759",
-      downColor: "#ff453a",
-      borderVisible: false,
-      wickUpColor: "#34c759",
-      wickDownColor: "#ff453a",
-    });
-
-    const volumeSeries = chart.addHistogramSeries({
-      priceFormat: { type: "volume" },
-      priceScaleId: "volume",
-      color: "rgba(120,140,180,0.35)",
-    });
-    chart.priceScale("volume").applyOptions({
-      scaleMargins: { top: 0.82, bottom: 0 },
+    const series = chart.addAreaSeries({
+      lineWidth: 2,
+      priceLineVisible: true,
+      lastValueVisible: true,
+      crosshairMarkerRadius: 4,
     });
 
     chartRef.current = chart;
     seriesRef.current = series;
-    volumeSeriesRef.current = volumeSeries;
 
     return () => {
       chart.remove();
@@ -86,7 +77,9 @@ export default function ChartColumn({
   }, []);
 
   useEffect(() => {
-    if (!seriesRef.current || !volumeSeriesRef.current) return;
+    if (!seriesRef.current) return;
+
+    let points: { time: UTCTimestamp | string; value: number }[];
 
     if (INTRADAY_TIMEFRAMES.has(timeframe)) {
       if (!intraday || intraday.bars.length === 0) return;
@@ -98,39 +91,27 @@ export default function ChartColumn({
               return bars.filter((b) => nyLocalDateKey(b.time) === latestDay);
             })()
           : bars.slice(-ONE_WEEK_BAR_COUNT);
-
-      seriesRef.current.setData(
-        sliced.map((b) => ({
-          time: b.time as UTCTimestamp,
-          open: b.open,
-          high: b.high,
-          low: b.low,
-          close: b.close,
-        })),
-      );
-      volumeSeriesRef.current.setData(
-        sliced.map((b) => ({
-          time: b.time as UTCTimestamp,
-          value: b.volume,
-          color: b.close >= b.open ? "rgba(52,199,89,0.35)" : "rgba(255,69,58,0.35)",
-        })),
-      );
+      points = sliced.map((b) => ({ time: b.time as UTCTimestamp, value: b.close }));
     } else {
       if (!market) return;
       const days = DAILY_TIMEFRAME_DAYS[timeframe] ?? 365;
       const sliced = market.history.slice(-days);
-
-      seriesRef.current.setData(
-        sliced.map((p) => ({ time: p.time, open: p.open, high: p.high, low: p.low, close: p.close })),
-      );
-      volumeSeriesRef.current.setData(
-        sliced.map((p) => ({
-          time: p.time,
-          value: p.volume,
-          color: p.close >= p.open ? "rgba(52,199,89,0.35)" : "rgba(255,69,58,0.35)",
-        })),
-      );
+      points = sliced.map((p) => ({ time: p.time, value: p.close }));
     }
+
+    if (points.length === 0) return;
+
+    // Apple Stocks-style: the whole line's color reflects net direction
+    // over the visible period, not a per-point up/down flicker.
+    const isUp = points[points.length - 1].value >= points[0].value;
+    const color = isUp ? UP_COLOR : DOWN_COLOR;
+    seriesRef.current.applyOptions({
+      lineColor: color,
+      topColor: isUp ? "rgba(52,199,89,0.32)" : "rgba(255,69,58,0.32)",
+      bottomColor: isUp ? "rgba(52,199,89,0.01)" : "rgba(255,69,58,0.01)",
+    });
+
+    seriesRef.current.setData(points);
     chartRef.current?.timeScale().fitContent();
   }, [market, intraday, timeframe]);
 
