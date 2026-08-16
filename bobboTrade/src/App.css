@@ -279,8 +279,8 @@
 }
 
 .movement-arrow {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
   stroke-width: 22;
   fill: none;
   stroke-linecap: round;
