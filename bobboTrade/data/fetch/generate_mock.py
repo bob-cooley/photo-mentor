@@ -6,6 +6,7 @@ files with real data on every run.
 import random
 import sys
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 from common import load_stock_config, utc_now_iso, write_json
 
@@ -109,6 +110,50 @@ def generate_news(ticker: str) -> dict:
     return {"ticker": ticker, "fetchedAt": utc_now_iso(), "articles": articles}
 
 
+def generate_intraday(ticker: str, start_price: float) -> dict:
+    exchange_tz = ZoneInfo("America/New_York")
+    bars = []
+    price = start_price
+    today = datetime.now(exchange_tz).date()
+
+    trading_days: list = []
+    day = today
+    while len(trading_days) < 7:
+        if day.weekday() < 5:
+            trading_days.append(day)
+        day -= timedelta(days=1)
+    trading_days.reverse()
+
+    for day in trading_days:
+        session_start = datetime.combine(day, datetime.min.time(), tzinfo=exchange_tz).replace(hour=9, minute=30)
+        for step in range(78):  # 6.5hr session / 5min bars
+            bar_time = session_start + timedelta(minutes=5 * step)
+            drift = random.uniform(-0.004, 0.004)
+            open_p = price
+            close_p = round(open_p * (1 + drift), 2)
+            high = round(max(open_p, close_p) * (1 + random.uniform(0, 0.002)), 2)
+            low = round(min(open_p, close_p) * (1 - random.uniform(0, 0.002)), 2)
+            bars.append(
+                {
+                    "time": int(bar_time.timestamp()),
+                    "open": open_p,
+                    "high": high,
+                    "low": low,
+                    "close": close_p,
+                    "volume": random.randint(5_000, 60_000),
+                }
+            )
+            price = close_p
+
+    return {
+        "ticker": ticker,
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "interval": "5min",
+        "bars": bars,
+    }
+
+
 def generate_analyst(ticker: str) -> dict:
     return {
         "ticker": ticker,
@@ -121,7 +166,9 @@ def generate_analyst(ticker: str) -> dict:
 
 
 def main(ticker: str) -> None:
-    write_json(ticker, "market.json", generate_market(ticker))
+    market = generate_market(ticker)
+    write_json(ticker, "market.json", market)
+    write_json(ticker, "intraday.json", generate_intraday(ticker, market["quote"]["price"]))
     write_json(ticker, "energy.json", generate_energy(ticker))
     write_json(ticker, "news.json", generate_news(ticker))
     write_json(ticker, "analyst.json", generate_analyst(ticker))

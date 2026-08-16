@@ -5,8 +5,12 @@ on:
     branches:
       - main
   schedule:
-    # Refresh bobboTrade's market/energy/analyst data hourly.
+    # Baseline hourly refresh (nights/weekends/pre-open catch-up).
     - cron: "0 * * * *"
+    # Tighter cadence during NYSE hours for the 1D/1W intraday chart —
+    # 13:00-21:59 UTC covers 9:30am-4pm ET across both EDT and EST with
+    # margin, since cron itself isn't DST-aware.
+    - cron: "*/5 13-21 * * 1-5"
   workflow_dispatch: {}
 
 jobs:

@@ -43,6 +43,23 @@ export interface MarketData {
   twoWeekChangePercent: number;
 }
 
+export interface IntradayBar {
+  time: number; // Unix seconds (UTC)
+  open: number;
+  high: number;
+  low: number;
+  close: number;
+  volume: number;
+}
+
+export interface IntradayData {
+  ticker: string;
+  fetchedAt: string;
+  source: string;
+  interval: string;
+  bars: IntradayBar[];
+}
+
 export interface EnergyIndicatorValue {
   id: string;
   label: string;

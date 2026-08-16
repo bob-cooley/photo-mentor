@@ -1,10 +1,12 @@
 import { useEffect, useRef, useState } from "react";
-import { createChart, ColorType, type IChartApi, type ISeriesApi } from "lightweight-charts";
-import type { MarketData } from "../types";
+import { createChart, ColorType, type IChartApi, type ISeriesApi, type UTCTimestamp } from "lightweight-charts";
+import type { IntradayData, MarketData } from "../types";
 
-type Timeframe = "1M" | "3M" | "6M" | "1Y" | "5Y";
+type Timeframe = "1D" | "1W" | "1M" | "3M" | "6M" | "1Y" | "5Y";
 
-const TIMEFRAME_DAYS: Record<Timeframe, number> = {
+const TIMEFRAMES: Timeframe[] = ["1D", "1W", "1M", "3M", "6M", "1Y", "5Y"];
+const INTRADAY_TIMEFRAMES = new Set<Timeframe>(["1D", "1W"]);
+const DAILY_TIMEFRAME_DAYS: Partial<Record<Timeframe, number>> = {
   "1M": 30,
   "3M": 90,
   "6M": 182,
@@ -12,12 +14,22 @@ const TIMEFRAME_DAYS: Record<Timeframe, number> = {
   "5Y": 365 * 5,
 };
 
+// 5-minute bars during a ~6.5hr NYSE session, times over to cover 1W
+// even on a short/holiday-adjacent week.
+const ONE_WEEK_BAR_COUNT = 78 * 5;
+
+function nyLocalDateKey(unixSeconds: number): string {
+  return new Date(unixSeconds * 1000).toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+}
+
 export default function ChartColumn({
   market,
+  intraday,
   loading,
   ticker,
 }: {
   market: MarketData | null;
+  intraday: IntradayData | null;
   loading: boolean;
   ticker: string;
 }) {
@@ -25,7 +37,7 @@ export default function ChartColumn({
   const chartRef = useRef<IChartApi | null>(null);
   const seriesRef = useRef<ISeriesApi<"Candlestick"> | null>(null);
   const volumeSeriesRef = useRef<ISeriesApi<"Histogram"> | null>(null);
-  const [timeframe, setTimeframe] = useState<Timeframe>("1Y");
+  const [timeframe, setTimeframe] = useState<Timeframe>("1D");
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -74,22 +86,53 @@ export default function ChartColumn({
   }, []);
 
   useEffect(() => {
-    if (!market || !seriesRef.current || !volumeSeriesRef.current) return;
-    const days = TIMEFRAME_DAYS[timeframe];
-    const sliced = market.history.slice(-days);
+    if (!seriesRef.current || !volumeSeriesRef.current) return;
 
-    seriesRef.current.setData(
-      sliced.map((p) => ({ time: p.time, open: p.open, high: p.high, low: p.low, close: p.close })),
-    );
-    volumeSeriesRef.current.setData(
-      sliced.map((p) => ({
-        time: p.time,
-        value: p.volume,
-        color: p.close >= p.open ? "rgba(52,199,89,0.35)" : "rgba(255,69,58,0.35)",
-      })),
-    );
+    if (INTRADAY_TIMEFRAMES.has(timeframe)) {
+      if (!intraday || intraday.bars.length === 0) return;
+      const bars = intraday.bars;
+      const sliced =
+        timeframe === "1D"
+          ? (() => {
+              const latestDay = nyLocalDateKey(bars[bars.length - 1].time);
+              return bars.filter((b) => nyLocalDateKey(b.time) === latestDay);
+            })()
+          : bars.slice(-ONE_WEEK_BAR_COUNT);
+
+      seriesRef.current.setData(
+        sliced.map((b) => ({
+          time: b.time as UTCTimestamp,
+          open: b.open,
+          high: b.high,
+          low: b.low,
+          close: b.close,
+        })),
+      );
+      volumeSeriesRef.current.setData(
+        sliced.map((b) => ({
+          time: b.time as UTCTimestamp,
+          value: b.volume,
+          color: b.close >= b.open ? "rgba(52,199,89,0.35)" : "rgba(255,69,58,0.35)",
+        })),
+      );
+    } else {
+      if (!market) return;
+      const days = DAILY_TIMEFRAME_DAYS[timeframe] ?? 365;
+      const sliced = market.history.slice(-days);
+
+      seriesRef.current.setData(
+        sliced.map((p) => ({ time: p.time, open: p.open, high: p.high, low: p.low, close: p.close })),
+      );
+      volumeSeriesRef.current.setData(
+        sliced.map((p) => ({
+          time: p.time,
+          value: p.volume,
+          color: p.close >= p.open ? "rgba(52,199,89,0.35)" : "rgba(255,69,58,0.35)",
+        })),
+      );
+    }
     chartRef.current?.timeScale().fitContent();
-  }, [market, timeframe]);
+  }, [market, intraday, timeframe]);
 
   return (
     <div className="card chart-card">
@@ -98,7 +141,7 @@ export default function ChartColumn({
           {ticker} Price
         </h2>
         <div className="timeframe-picker">
-          {(Object.keys(TIMEFRAME_DAYS) as Timeframe[]).map((tf) => (
+          {TIMEFRAMES.map((tf) => (
             <button
               key={tf}
               className={`timeframe-btn ${timeframe === tf ? "active" : ""}`}

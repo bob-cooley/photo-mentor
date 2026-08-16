@@ -3,11 +3,12 @@ import { DEFAULT_TICKER, getStockConfig } from "./config/stocks";
 import {
   loadAnalystData,
   loadEnergyData,
+  loadIntradayData,
   loadMarketData,
   loadNewsData,
   loadPortfolioConfig,
 } from "./lib/dataLoader";
-import type { AnalystData, EnergyData, MarketData, NewsData, PortfolioConfig } from "./types";
+import type { AnalystData, EnergyData, IntradayData, MarketData, NewsData, PortfolioConfig } from "./types";
 import NewsColumn from "./components/NewsColumn";
 import ChartColumn from "./components/ChartColumn";
 import AnalystConsensusCard from "./components/AnalystConsensusCard";
@@ -17,11 +18,18 @@ import PortfolioCard from "./components/PortfolioCard";
 import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
 import "./App.css";
 
+// The data pipeline itself only refreshes every 5-60 min (see
+// data/fetch/), so polling the static JSON more often than that just
+// re-fetches the same file — this cadence keeps an open tab reasonably
+// current without hammering the host for no reason.
+const REFRESH_INTERVAL_MS = 2 * 60 * 1000;
+
 export default function App() {
   const ticker = DEFAULT_TICKER;
   const stock = getStockConfig(ticker);
 
   const [market, setMarket] = useState<MarketData | null>(null);
+  const [intraday, setIntraday] = useState<IntradayData | null>(null);
   const [energy, setEnergy] = useState<EnergyData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
@@ -30,23 +38,32 @@ export default function App() {
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([
-      loadMarketData(ticker),
-      loadEnergyData(ticker),
-      loadNewsData(ticker),
-      loadAnalystData(ticker),
-      loadPortfolioConfig(),
-    ]).then(([m, e, n, a, p]) => {
-      if (cancelled) return;
-      setMarket(m);
-      setEnergy(e);
-      setNews(n);
-      setAnalyst(a);
-      setPortfolio(p);
-      setLoading(false);
-    });
+
+    const load = () => {
+      Promise.all([
+        loadMarketData(ticker),
+        loadIntradayData(ticker),
+        loadEnergyData(ticker),
+        loadNewsData(ticker),
+        loadAnalystData(ticker),
+        loadPortfolioConfig(),
+      ]).then(([m, i, e, n, a, p]) => {
+        if (cancelled) return;
+        setMarket(m);
+        setIntraday(i);
+        setEnergy(e);
+        setNews(n);
+        setAnalyst(a);
+        setPortfolio(p);
+        setLoading(false);
+      });
+    };
+
+    load();
+    const intervalId = window.setInterval(load, REFRESH_INTERVAL_MS);
     return () => {
       cancelled = true;
+      window.clearInterval(intervalId);
     };
   }, [ticker]);
 
@@ -77,7 +94,7 @@ export default function App() {
         </section>
 
         <section className="col col-chart">
-          <ChartColumn market={market} loading={loading} ticker={stock.ticker} />
+          <ChartColumn market={market} intraday={intraday} loading={loading} ticker={stock.ticker} />
         </section>
 
         <section className="col col-right">
