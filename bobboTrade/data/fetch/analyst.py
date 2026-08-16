@@ -1,16 +1,20 @@
-"""Fetch analyst rating consensus and price target from Financial
-Modeling Prep, and write public/data/<TICKER>/analyst.json.
+"""Fetch analyst rating consensus from Finnhub, and write
+public/data/<TICKER>/analyst.json.
 
 Display-only: this module must never be combined with news interpretation
 or AI commentary (see build spec) — it's the raw consensus, nothing else.
 
-Requires env var FMP_API_KEY.
+Requires env var FINNHUB_API_KEY. (FMP and Twelve Data were tried first —
+both dead ends: FMP's free tier 402s on MPC entirely, and Twelve Data
+gates /recommendations and /price_target to paid plans. Finnhub's free
+tier includes recommendation trends but not price targets, so
+priceTarget is always null here.)
 """
 import sys
 
 from common import get, get_required_env, utc_now_iso, write_json
 
-FMP_BASE = "https://financialmodelingprep.com/api/v3"
+FINNHUB_BASE = "https://finnhub.io/api/v1"
 
 
 def consensus_from_counts(buy: int, hold: int, sell: int) -> str:
@@ -22,28 +26,25 @@ def consensus_from_counts(buy: int, hold: int, sell: int) -> str:
 
 
 def fetch_analyst(ticker: str) -> dict:
-    api_key = get_required_env("FMP_API_KEY")
+    api_key = get_required_env("FINNHUB_API_KEY")
 
-    grades_resp = get(f"{FMP_BASE}/grade-consensus/{ticker}", params={"apikey": api_key}).json()
-    grades = grades_resp[0] if grades_resp else {}
-    buy = (grades.get("strongBuy", 0) or 0) + (grades.get("buy", 0) or 0)
-    hold = grades.get("hold", 0) or 0
-    sell = (grades.get("strongSell", 0) or 0) + (grades.get("sell", 0) or 0)
+    trends = get(f"{FINNHUB_BASE}/stock/recommendation", params={"symbol": ticker, "token": api_key}).json()
+    if not trends:
+        raise RuntimeError(f"Finnhub returned no recommendation trends for {ticker}")
 
-    target_resp = get(f"{FMP_BASE}/price-target-consensus", params={"symbol": ticker, "apikey": api_key}).json()
-    target = target_resp[0] if target_resp else {}
+    # Trends are ordered newest-period-first.
+    latest = trends[0]
+    buy = (latest.get("strongBuy", 0) or 0) + (latest.get("buy", 0) or 0)
+    hold = latest.get("hold", 0) or 0
+    sell = (latest.get("strongSell", 0) or 0) + (latest.get("sell", 0) or 0)
 
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
-        "source": "financialmodelingprep.com",
+        "source": "finnhub.io",
         "consensus": consensus_from_counts(buy, hold, sell),
         "counts": {"buy": buy, "hold": hold, "sell": sell},
-        "priceTarget": {
-            "average": target.get("targetConsensus"),
-            "high": target.get("targetHigh"),
-            "low": target.get("targetLow"),
-        },
+        "priceTarget": {"average": None, "high": None, "low": None},
     }
 
 
