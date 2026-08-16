@@ -281,27 +281,21 @@
 .movement-arrow {
   width: 160px;
   height: 160px;
-  stroke-width: 22;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
 }
 
 .movement-visual.up .movement-arrow {
-  stroke: var(--up);
+  fill: var(--up);
 }
 
 .movement-visual.down .movement-arrow {
-  stroke: var(--down);
+  fill: var(--down);
 }
 
 .movement-label {
-  font-size: 20px;
+  font-size: 9.5px;
   font-weight: 800;
-  stroke: none;
+  letter-spacing: 0.01em;
   fill: var(--bg);
-  paint-order: stroke;
-  stroke-width: 3px;
 }
 
 .movement-pct {

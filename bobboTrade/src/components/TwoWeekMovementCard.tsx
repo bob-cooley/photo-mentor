@@ -12,11 +12,23 @@ export default function TwoWeekMovementCard({ market, loading }: { market: Marke
         <div className={`movement-visual ${up ? "up" : "down"}`}>
           <svg viewBox="0 0 100 100" className="movement-arrow" aria-hidden="true">
             {up ? (
-              <path d="M50 90 L50 10 M50 10 L28 34 M50 10 L72 34" />
+              <>
+                <rect x="31" y="38" width="38" height="54" rx="6" />
+                <path d="M50 8 L22 38 L78 38 Z" />
+              </>
             ) : (
-              <path d="M50 10 L50 90 M50 90 L28 66 M50 90 L72 66" />
+              <>
+                <rect x="31" y="8" width="38" height="54" rx="6" />
+                <path d="M50 92 L22 62 L78 62 Z" />
+              </>
             )}
-            <text x="50" y="56" textAnchor="middle" className="movement-label">
+            <text
+              x="50"
+              y={up ? 65 : 35}
+              textAnchor="middle"
+              dominantBaseline="central"
+              className="movement-label"
+            >
               {up ? "UP" : "DOWN"}
             </text>
           </svg>
