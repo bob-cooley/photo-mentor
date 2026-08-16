@@ -10,7 +10,6 @@ export interface StockConfig {
   name: string;
   sector: string;
   cik: string;
-  irFeedUrl: string;
   dataSources: {
     market: string;
     energy: string;

@@ -3,7 +3,6 @@
   "name": "Marathon Petroleum Corporation",
   "sector": "Energy — Refining & Marketing",
   "cik": "0001510295",
-  "irFeedUrl": "https://ir.marathonpetroleum.com/rss/news-releases.xml",
   "dataSources": {
     "market": "market",
     "energy": "energy",
