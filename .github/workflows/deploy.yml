@@ -103,8 +103,9 @@ jobs:
       - name: Fetch market/energy/analyst/news data
         working-directory: bobboTrade/data/fetch
         env:
-          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
         run: python run_all.py
 
       - name: Build frontend

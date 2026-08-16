@@ -1,40 +1,44 @@
-"""Fetch price/volume history and the current quote from Financial
-Modeling Prep, and write public/data/<TICKER>/market.json.
+"""Fetch price/volume history and the current quote from Twelve Data,
+and write public/data/<TICKER>/market.json.
 
-Requires env var FMP_API_KEY.
+Requires env var TWELVEDATA_API_KEY. (Financial Modeling Prep was the
+original choice here, but its free tier turned out to whitelist only
+mega-cap tickers — MPC/VLO/PSX all 402 on quote, history, and analyst
+endpoints. Twelve Data's free tier covers all US equities instead.)
 """
 import sys
 
 from common import get, get_required_env, utc_now_iso, write_json
 
-FMP_BASE = "https://financialmodelingprep.com/api/v3"
+TWELVEDATA_BASE = "https://api.twelvedata.com"
 
 
 def fetch_market(ticker: str) -> dict:
-    api_key = get_required_env("FMP_API_KEY")
+    api_key = get_required_env("TWELVEDATA_API_KEY")
 
-    quote_resp = get(f"{FMP_BASE}/quote/{ticker}", params={"apikey": api_key}).json()
-    if not quote_resp:
-        raise RuntimeError(f"FMP returned no quote data for {ticker}")
-    quote = quote_resp[0]
+    quote = get(f"{TWELVEDATA_BASE}/quote", params={"symbol": ticker, "apikey": api_key}).json()
+    if quote.get("status") == "error":
+        raise RuntimeError(f"Twelve Data quote error for {ticker}: {quote.get('message')}")
 
-    hist_resp = get(
-        f"{FMP_BASE}/historical-price-full/{ticker}",
-        params={"apikey": api_key, "timeseries": 1825},
+    series = get(
+        f"{TWELVEDATA_BASE}/time_series",
+        params={"symbol": ticker, "interval": "1day", "outputsize": 1825, "apikey": api_key},
     ).json()
-    raw_history = hist_resp.get("historical", [])
-    # FMP returns newest-first; the chart wants ascending chronological order.
+    if series.get("status") == "error":
+        raise RuntimeError(f"Twelve Data time_series error for {ticker}: {series.get('message')}")
+
+    # Twelve Data returns newest-first; the chart wants ascending order.
     history = sorted(
         (
             {
-                "time": row["date"],
-                "open": row["open"],
-                "high": row["high"],
-                "low": row["low"],
-                "close": row["close"],
-                "volume": row["volume"],
+                "time": row["datetime"],
+                "open": float(row["open"]),
+                "high": float(row["high"]),
+                "low": float(row["low"]),
+                "close": float(row["close"]),
+                "volume": int(row["volume"]),
             }
-            for row in raw_history
+            for row in series.get("values", [])
         ),
         key=lambda p: p["time"],
     )
@@ -49,13 +53,13 @@ def fetch_market(ticker: str) -> dict:
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
-        "source": "financialmodelingprep.com",
+        "source": "twelvedata.com",
         "quote": {
-            "price": quote.get("price"),
-            "change": quote.get("change"),
-            "changePercent": quote.get("changesPercentage"),
-            "previousClose": quote.get("previousClose"),
-            "marketCap": quote.get("marketCap"),
+            "price": float(quote["close"]),
+            "change": float(quote["change"]),
+            "changePercent": float(quote["percent_change"]),
+            "previousClose": float(quote["previous_close"]),
+            "marketCap": None,
         },
         "history": history,
         "twoWeekChangePercent": round(two_week_change_percent, 2),

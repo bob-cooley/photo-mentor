@@ -5,22 +5,26 @@ Requires env var EIA_API_KEY. Indicator definitions (which EIA series map
 to which stock) live in src/config/stocks/<TICKER>/config.json so this
 script stays generic across future tickers.
 """
+from __future__ import annotations
+
 import sys
 
 from common import get, get_required_env, load_stock_config, utc_now_iso, write_json
 
 EIA_BASE = "https://api.eia.gov/v2"
 
-# EIA series IDs map to a v2 route + facet, not a flat lookup — this table
-# translates the dotted "PET.XXXX.D" style IDs used in stock configs into
-# the v2 API's route/series-id shape.
+# EIA series IDs map to a v2 route + facet + frequency, not a flat lookup —
+# this table translates the dotted "PET.XXXX.D" style IDs used in stock
+# configs into the v2 API's route/series-id/frequency shape. The v2 API
+# times out if frequency is omitted for a route with multiple frequencies,
+# so it must always be passed explicitly.
 EIA_ROUTES = {
-    "PET.RWTC.D": ("petroleum/pri/spt/data", "RWTC"),
-    "PET.RBRTE.D": ("petroleum/pri/spt/data", "RBRTE"),
-    "PET.WPULEUS3.W": ("petroleum/pnp/wiup/data", "WPULEUS3"),
-    "PET.WCRSTUS1.W": ("petroleum/stoc/wstk/data", "WCRSTUS1"),
-    "PET.WGTSTUS1.W": ("petroleum/stoc/wstk/data", "WGTSTUS1"),
-    "PET.WDISTUS1.W": ("petroleum/stoc/wstk/data", "WDISTUS1"),
+    "PET.RWTC.D": ("petroleum/pri/spt/data", "RWTC", "daily"),
+    "PET.RBRTE.D": ("petroleum/pri/spt/data", "RBRTE", "daily"),
+    "PET.WPULEUS3.W": ("petroleum/pnp/wiup/data", "WPULEUS3", "weekly"),
+    "PET.WCRSTUS1.W": ("petroleum/stoc/wstk/data", "WCRSTUS1", "weekly"),
+    "PET.WGTSTUS1.W": ("petroleum/stoc/wstk/data", "WGTSTUS1", "weekly"),
+    "PET.WDISTUS1.W": ("petroleum/stoc/wstk/data", "WDISTUS1", "weekly"),
 }
 
 UNITS = {
@@ -34,11 +38,13 @@ UNITS = {
 
 
 def fetch_series(api_key: str, series_id: str) -> tuple[float | None, str | None]:
-    route, series = EIA_ROUTES[series_id]
+    route, series, frequency = EIA_ROUTES[series_id]
     resp = get(
         f"{EIA_BASE}/{route}",
         params={
             "api_key": api_key,
+            "frequency": frequency,
+            "data[0]": "value",
             "facets[series][]": series,
             "sort[0][column]": "period",
             "sort[0][direction]": "desc",
@@ -49,7 +55,8 @@ def fetch_series(api_key: str, series_id: str) -> tuple[float | None, str | None
     if not rows:
         return None, None
     row = rows[0]
-    return row.get("value"), row.get("period")
+    value = row.get("value")
+    return (float(value) if value is not None else None), row.get("period")
 
 
 def fetch_energy(ticker: str) -> dict:

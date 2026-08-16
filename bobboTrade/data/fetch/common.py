@@ -5,9 +5,12 @@ public/data/<TICKER>/<name>.json, which the frontend loads at runtime
 and the FTP deploy job ships as-is. Nothing here talks to the frontend
 directly — the JSON file is the entire contract.
 """
+from __future__ import annotations
+
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -23,6 +26,12 @@ def load_stock_config(ticker: str) -> dict:
     return json.loads(config_path.read_text())
 
 DEFAULT_TIMEOUT = 20
+MAX_ATTEMPTS = 3
+RETRY_BACKOFF_SECONDS = 2
+
+# A descriptive UA rather than the "python-requests/x.x" default — SEC
+# requires this outright, and it's good practice generally.
+DEFAULT_HEADERS = {"User-Agent": "bobboTrade-data-pipeline/1.0 (bob@bobcooleyphoto.com)"}
 
 
 def utc_now_iso() -> str:
@@ -47,7 +56,23 @@ def write_json(ticker: str, filename: str, payload: dict) -> Path:
 
 
 def get(url: str, **kwargs) -> requests.Response:
+    """GET with a couple of retries — free-tier data providers are prone to
+    transient timeouts and 5xx responses, which would otherwise take down
+    an entire scheduled run over a single flaky request."""
     kwargs.setdefault("timeout", DEFAULT_TIMEOUT)
-    resp = requests.get(url, **kwargs)
-    resp.raise_for_status()
-    return resp
+    headers = {**DEFAULT_HEADERS, **kwargs.pop("headers", {})}
+
+    last_error: Exception | None = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            resp = requests.get(url, headers=headers, **kwargs)
+            if resp.status_code in (429, 500, 502, 503, 504) and attempt < MAX_ATTEMPTS:
+                time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+                continue
+            resp.raise_for_status()
+            return resp
+        except requests.exceptions.RequestException as exc:
+            last_error = exc
+            if attempt < MAX_ATTEMPTS:
+                time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+    raise last_error
