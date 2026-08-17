@@ -104,12 +104,13 @@ jobs:
         working-directory: bobboTrade/data/fetch
         run: pip install -r requirements.txt
 
-      - name: Fetch market/energy/analyst/news data
+      - name: Fetch market/energy/analyst/news/insight data
         working-directory: bobboTrade/data/fetch
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python run_all.py
 
       - name: Build frontend

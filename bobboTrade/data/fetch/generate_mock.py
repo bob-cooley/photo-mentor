@@ -165,6 +165,16 @@ def generate_analyst(ticker: str) -> dict:
     }
 
 
+def generate_insight(ticker: str) -> dict:
+    return {
+        "ticker": ticker,
+        "fetchedAt": utc_now_iso(),
+        "text": "Mock insight text — this is only shown during local development.",
+        "status": "ok",
+        "usage": {"month": datetime.now(timezone.utc).strftime("%Y-%m"), "callsThisMonth": 3, "inputTokens": 2400, "outputTokens": 210, "estimatedCostUsd": 0.0034},
+    }
+
+
 def main(ticker: str) -> None:
     market = generate_market(ticker)
     write_json(ticker, "market.json", market)
@@ -172,6 +182,7 @@ def main(ticker: str) -> None:
     write_json(ticker, "energy.json", generate_energy(ticker))
     write_json(ticker, "news.json", generate_news(ticker))
     write_json(ticker, "analyst.json", generate_analyst(ticker))
+    write_json(ticker, "insight.json", generate_insight(ticker))
 
 
 if __name__ == "__main__":

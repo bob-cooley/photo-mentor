@@ -23,6 +23,7 @@ bobboTrade/
     energy.py                crude/refinery/inventory data       → EIA
     analyst.py                analyst rating consensus            → Finnhub
     news.py                   SEC filings (Item-coded)             (no key)
+    ai_insight.py              "why did it move" narrative          → Claude (Haiku 4.5)
     run_all.py                orchestrator, runs every module × ticker
     generate_mock.py          local-dev fallback data, never deployed
   public/data/<TICKER>/*.json   pipeline output frontend fetches at runtime
@@ -82,6 +83,41 @@ If a required key is missing, that module renders its empty state
 rather than fake numbers — never silently substitutes mock data in a
 real deploy.
 
+## AI insight ("Why MPC Moved")
+
+The one module in the build spec that was always deferred as a future
+AI reasoning layer. Implemented as a single Claude API call (Haiku
+4.5, `ANTHROPIC_API_KEY`) fed only data this pipeline already fetched
+that same run — today's price move, recent closes, energy indicators,
+recent SEC filings — no separate extraction stage, since the inputs
+are already small structured JSON, not large unstructured text that
+would need summarizing first. The system prompt explicitly forbids
+buy/sell/hold language; it explains, it doesn't advise, and stays
+grounded — if the data doesn't clearly explain the move, it says so
+rather than inventing a reason.
+
+**Cost control, layered:**
+1. **The Anthropic Console spend cap is the real backstop** — set a
+   hard monthly limit at console.anthropic.com → Settings → Billing.
+   Nothing below substitutes for this.
+2. **Structural**: one non-agentic call per hour (gated on
+   `minute() == 0`, even though the rest of the pipeline runs every
+   5 min during market hours) — never a loop, so there's a hard
+   ceiling on call volume (≤720/month) regardless of any bug.
+3. **A self-imposed circuit breaker** in `ai_insight.py`: tracks
+   cumulative estimated spend for the current calendar month and
+   refuses to call the API once `AI_MONTHLY_BUDGET_USD` (default
+   $3.00) is reached, writing a `"paused_budget"` state instead of
+   calling anyway. State persists across CI runs with no database —
+   each run reads back the usage summary it deployed live last time
+   (`public/data/<TICKER>/ai_usage.json`) rather than committing
+   anything to git.
+
+The dashboard shows month-to-date estimated cost and call count as a
+small footer line under the insight text — real per-call cost is
+roughly $0.001, so the display uses 4 decimal places rather than
+rounding to a reassurance-defeating "$0.00".
+
 ## Local development
 
 ```bash
@@ -108,11 +144,9 @@ FTP-deploys `dist/` to `public_html/bobcooleyphoto/bobboTrade/`.
 
 Required repository secrets: `FTP_HOST`, `FTP_USER`, `FTP_PASS`
 (already configured for this repo), plus `TWELVEDATA_API_KEY`,
-`EIA_API_KEY`, and `FINNHUB_API_KEY` for live data.
+`EIA_API_KEY`, `FINNHUB_API_KEY`, and `ANTHROPIC_API_KEY` for live
+data.
 
 ## Not yet implemented
 
-- The "Why MPC Moved" module is an architectural placeholder only —
-  the planned AI reasoning layer (data collection → local extraction →
-  Claude reasoning) is intentionally deferred per the build spec.
 - Live energy/refinery data — see the EIA limitation above.

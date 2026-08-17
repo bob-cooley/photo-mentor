@@ -7,6 +7,7 @@ the whole run — other modules and other tickers still get updated.
 """
 import sys
 
+import ai_insight
 import analyst
 import energy
 import market
@@ -18,6 +19,7 @@ MODULES = [
     ("energy", energy.main),
     ("analyst", analyst.main),
     ("news", news.main),
+    ("ai_insight", ai_insight.main),
 ]
 
 
@@ -39,7 +41,7 @@ def main() -> None:
                 fn(ticker)
             except SystemExit as exc:
                 if exc.code == 78:
-                    print(f"[bobboTrade] Skipped {name} for {ticker} (missing config).")
+                    print(f"[bobboTrade] Skipped {name} for {ticker} (missing config or not due yet).")
                 else:
                     raise
             except Exception as exc:  # noqa: BLE001 — one module failing shouldn't block the rest

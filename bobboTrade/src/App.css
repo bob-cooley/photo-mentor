@@ -350,11 +350,29 @@
   opacity: 0.7;
 }
 
+.ai-placeholder.ai-insight-active {
+  border-style: solid;
+  opacity: 1;
+}
+
 .ai-placeholder-text {
   font-size: 15px;
   color: var(--text-tertiary);
   line-height: 1.5;
   margin: 0;
+}
+
+.ai-insight-text {
+  color: var(--text-primary);
+  font-size: 16px;
+}
+
+.ai-usage-footer {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin: 12px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--card-border);
 }
 
 /* Portfolio */

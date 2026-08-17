@@ -114,3 +114,19 @@ export interface PortfolioConfig {
   shares: number;
   costBasis?: number;
 }
+
+export interface AIUsageSummary {
+  month: string; // YYYY-MM
+  callsThisMonth: number;
+  inputTokens: number;
+  outputTokens: number;
+  estimatedCostUsd: number;
+}
+
+export interface InsightData {
+  ticker: string;
+  fetchedAt: string;
+  text: string | null;
+  status: "ok" | "paused_budget";
+  usage: AIUsageSummary;
+}

@@ -64,17 +64,17 @@ def write_json(ticker: str, filename: str, payload: dict) -> Path:
     return out_path
 
 
-def get(url: str, **kwargs) -> requests.Response:
-    """GET with a couple of retries — free-tier data providers are prone to
-    transient timeouts and 5xx responses, which would otherwise take down
-    an entire scheduled run over a single flaky request."""
+def _request(method: str, url: str, **kwargs) -> requests.Response:
+    """Shared retry loop — free-tier data providers (and the Claude API) are
+    prone to transient timeouts and 5xx responses, which would otherwise
+    take down an entire scheduled run over a single flaky request."""
     kwargs.setdefault("timeout", DEFAULT_TIMEOUT)
     headers = {**DEFAULT_HEADERS, **kwargs.pop("headers", {})}
 
     last_error: Exception | None = None
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
-            resp = requests.get(url, headers=headers, **kwargs)
+            resp = requests.request(method, url, headers=headers, **kwargs)
             if resp.status_code in (429, 500, 502, 503, 504) and attempt < MAX_ATTEMPTS:
                 time.sleep(RETRY_BACKOFF_SECONDS * attempt)
                 continue
@@ -85,3 +85,11 @@ def get(url: str, **kwargs) -> requests.Response:
             if attempt < MAX_ATTEMPTS:
                 time.sleep(RETRY_BACKOFF_SECONDS * attempt)
     raise last_error
+
+
+def get(url: str, **kwargs) -> requests.Response:
+    return _request("GET", url, **kwargs)
+
+
+def post(url: str, **kwargs) -> requests.Response:
+    return _request("POST", url, **kwargs)

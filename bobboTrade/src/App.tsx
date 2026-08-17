@@ -3,17 +3,26 @@ import { DEFAULT_TICKER, getStockConfig } from "./config/stocks";
 import {
   loadAnalystData,
   loadEnergyData,
+  loadInsightData,
   loadIntradayData,
   loadMarketData,
   loadNewsData,
   loadPortfolioConfig,
 } from "./lib/dataLoader";
-import type { AnalystData, EnergyData, IntradayData, MarketData, NewsData, PortfolioConfig } from "./types";
+import type {
+  AnalystData,
+  EnergyData,
+  InsightData,
+  IntradayData,
+  MarketData,
+  NewsData,
+  PortfolioConfig,
+} from "./types";
 import NewsColumn from "./components/NewsColumn";
 import ChartColumn from "./components/ChartColumn";
 import AnalystConsensusCard from "./components/AnalystConsensusCard";
 import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
-import AIInsightPlaceholder from "./components/AIInsightPlaceholder";
+import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
 import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
 import "./App.css";
@@ -33,6 +42,7 @@ export default function App() {
   const [energy, setEnergy] = useState<EnergyData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
+  const [insight, setInsight] = useState<InsightData | null>(null);
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -46,14 +56,16 @@ export default function App() {
         loadEnergyData(ticker),
         loadNewsData(ticker),
         loadAnalystData(ticker),
+        loadInsightData(ticker),
         loadPortfolioConfig(),
-      ]).then(([m, i, e, n, a, p]) => {
+      ]).then(([m, i, e, n, a, ins, p]) => {
         if (cancelled) return;
         setMarket(m);
         setIntraday(i);
         setEnergy(e);
         setNews(n);
         setAnalyst(a);
+        setInsight(ins);
         setPortfolio(p);
         setLoading(false);
       });
@@ -102,7 +114,7 @@ export default function App() {
           <TwoWeekMovementCard market={market} loading={loading} />
           <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
           <PortfolioCard market={market} portfolio={portfolio} />
-          <AIInsightPlaceholder />
+          <InsightCard insight={insight} ticker={stock.ticker} />
         </section>
       </main>
     </div>
