@@ -12,6 +12,19 @@ export function formatPercent(value: number, digits = 2): string {
   return `${sign}${value.toFixed(digits)}%`;
 }
 
+export function formatEnergyValue(value: number, unit: string): string {
+  switch (unit) {
+    case "usd_per_barrel":
+      return `$${value.toFixed(2)} per barrel`;
+    case "percent":
+      return `${value.toFixed(1)}%`;
+    case "million_barrels":
+      return `${value.toFixed(1)} million barrels`;
+    default:
+      return `${value.toLocaleString()} ${unit}`;
+  }
+}
+
 export function formatCompactNumber(value: number): string {
   return new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 }).format(value);
 }

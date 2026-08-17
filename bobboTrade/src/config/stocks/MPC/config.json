@@ -10,12 +10,11 @@
     "analyst": "analyst"
   },
   "energyIndicators": [
-    { "id": "wti", "label": "WTI Crude", "eiaSeries": "PET.RWTC.D" },
-    { "id": "brent", "label": "Brent Crude", "eiaSeries": "PET.RBRTE.D" },
-    { "id": "crack_spread_321", "label": "3-2-1 Crack Spread", "derived": true },
-    { "id": "refinery_utilization", "label": "Refinery Utilization", "eiaSeries": "PET.WPULEUS3.W" },
-    { "id": "crude_inventories", "label": "Crude Inventories", "eiaSeries": "PET.WCRSTUS1.W" },
-    { "id": "gasoline_inventories", "label": "Gasoline Inventories", "eiaSeries": "PET.WGTSTUS1.W" },
-    { "id": "distillate_inventories", "label": "Distillate Inventories", "eiaSeries": "PET.WDISTUS1.W" }
+    { "id": "wti", "label": "US Oil Price", "eiaSeries": "PET.RWTC.D" },
+    { "id": "brent", "label": "World Oil Price", "eiaSeries": "PET.RBRTE.D" },
+    { "id": "refinery_utilization", "label": "Refineries Running At", "eiaSeries": "PET.WPULEUS3.W" },
+    { "id": "crude_inventories", "label": "Oil in Storage", "eiaSeries": "PET.WCRSTUS1.W" },
+    { "id": "gasoline_inventories", "label": "Gasoline in Storage", "eiaSeries": "PET.WGTSTUS1.W" },
+    { "id": "distillate_inventories", "label": "Diesel & Heating Oil in Storage", "eiaSeries": "PET.WDISTUS1.W" }
   ]
 }

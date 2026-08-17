@@ -67,11 +67,11 @@ def generate_energy(ticker: str) -> dict:
         if ind.get("derived"):
             continue
         if "utilization" in ind["id"]:
-            value, unit = round(random.uniform(70, 90), 1), "%"
+            value, unit = round(random.uniform(70, 90), 1), "percent"
         elif "inventories" in ind["id"]:
-            value, unit = round(random.uniform(20_000, 250_000), 0), "kbbl"
+            value, unit = round(random.uniform(20, 250), 1), "million_barrels"
         else:
-            value, unit = round(random.uniform(60, 85), 2), "$/bbl"
+            value, unit = round(random.uniform(60, 85), 2), "usd_per_barrel"
         indicators.append(
             {
                 "id": ind["id"],
@@ -90,8 +90,8 @@ def generate_news(ticker: str) -> dict:
     articles = [
         {
             "id": "mock-1",
-            "headline": f"{config['name']} files quarterly report",
-            "summary": "Routine 10-Q filing covering the most recent fiscal quarter.",
+            "headline": f"{config['name']}: Quarterly Report",
+            "summary": "Quarterly report for the period ended 2026-06-30.",
             "source": "SEC EDGAR",
             "url": "https://www.sec.gov/",
             "publishedAt": (now - timedelta(days=2)).isoformat(),
@@ -99,12 +99,12 @@ def generate_news(ticker: str) -> dict:
         },
         {
             "id": "mock-2",
-            "headline": f"{config['name']} announces refinery maintenance schedule",
-            "summary": "Company outlines planned turnaround activity for the upcoming quarter.",
-            "source": "Investor Relations",
-            "url": "https://ir.marathonpetroleum.com/",
+            "headline": f"{config['name']}: Announced quarterly earnings",
+            "summary": "",
+            "source": "SEC EDGAR",
+            "url": "https://www.sec.gov/",
             "publishedAt": (now - timedelta(days=5)).isoformat(),
-            "relevance": 0.85,
+            "relevance": 0.9,
         },
     ]
     return {"ticker": ticker, "fetchedAt": utc_now_iso(), "articles": articles}

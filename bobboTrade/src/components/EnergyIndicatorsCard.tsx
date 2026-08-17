@@ -1,4 +1,5 @@
 import type { EnergyData, EnergyIndicatorDef } from "../types";
+import { formatEnergyValue } from "../lib/format";
 
 export default function EnergyIndicatorsCard({
   energy,
@@ -22,7 +23,7 @@ export default function EnergyIndicatorsCard({
               <div key={def.id} className="energy-row">
                 <span className="energy-label">{def.label}</span>
                 <span className="energy-value">
-                  {value?.value != null ? `${value.value.toLocaleString()} ${value.unit}` : "—"}
+                  {value?.value != null ? formatEnergyValue(value.value, value.unit) : "—"}
                 </span>
               </div>
             );

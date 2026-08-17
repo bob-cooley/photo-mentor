@@ -23,52 +23,59 @@ SEC_USER_AGENT = "bobboTrade dashboard (bob@bobcooleyphoto.com)"
 MATERIAL_FORMS = {"8-K", "10-Q", "10-K"}
 MAX_ARTICLES = 10
 
-# Standard SEC Form 8-K item taxonomy (17 CFR 249.308) — the codes MPC's
-# filings actually report, mapped to a human-readable event description
-# so each filing reads as distinct content instead of a repeated "8-K
-# filed" placeholder.
-ITEM_DESCRIPTIONS = {
-    "1.01": "Entry into a Material Definitive Agreement",
-    "1.02": "Termination of a Material Definitive Agreement",
-    "2.01": "Completion of Acquisition or Disposition of Assets",
-    "2.02": "Results of Operations and Financial Condition",
-    "2.03": "Creation of a Direct Financial Obligation",
-    "2.05": "Costs Associated with Exit or Disposal Activities",
-    "2.06": "Material Impairments",
-    "3.01": "Notice of Delisting or Failure to Satisfy a Listing Rule",
-    "3.02": "Unregistered Sales of Equity Securities",
-    "3.03": "Material Modification to Rights of Security Holders",
-    "4.01": "Change in Certifying Accountant",
-    "4.02": "Non-Reliance on Previously Issued Financial Statements",
-    "5.01": "Change in Control of Registrant",
-    "5.02": "Departure/Election of Directors or Officers",
-    "5.03": "Amendment to Articles of Incorporation or Bylaws",
-    "5.07": "Submission of Matters to a Vote of Security Holders",
-    "5.08": "Shareholder Director Nominations",
-    "7.01": "Regulation FD Disclosure",
-    "8.01": "Other Events",
-    "9.01": "Financial Statements and Exhibits",
+# Standard SEC Form 8-K item taxonomy (17 CFR 249.308), in plain
+# language rather than the official legal phrasing — the target reader
+# is a hobbyist following the stock, not a securities lawyer. "9.01"
+# (Financial Statements and Exhibits) is deliberately excluded: it's
+# boilerplate that tags along on nearly every 8-K and never carries
+# meaning on its own.
+PLAIN_ITEM_DESCRIPTIONS = {
+    "1.01": "Signed a major new business agreement",
+    "1.02": "Ended a major business agreement",
+    "2.01": "Completed buying or selling a major asset",
+    "2.02": "Announced quarterly earnings",
+    "2.03": "Took on new debt",
+    "2.05": "Announced costs from closing part of the business",
+    "2.06": "Wrote down the value of some assets",
+    "3.01": "Received a stock exchange compliance notice",
+    "3.02": "Sold stock in a private transaction",
+    "3.03": "Changed shareholder rights",
+    "4.01": "Changed accounting firms",
+    "4.02": "Corrected an earlier financial report",
+    "5.01": "Changed who controls the company",
+    "5.02": "Changed company leadership",
+    "5.03": "Updated company bylaws",
+    "5.07": "Held a shareholder vote",
+    "5.08": "Received shareholder board nominations",
+    "7.01": "Made a public announcement to investors",
+    "8.01": "Announced a company update",
 }
+BOILERPLATE_ITEMS = {"9.01"}
 
 
 def describe_items(items_field: str) -> list[str]:
     codes = [c.strip() for c in items_field.split(",") if c.strip()]
-    return [ITEM_DESCRIPTIONS.get(c, f"Item {c}") for c in codes]
+    meaningful = [c for c in codes if c not in BOILERPLATE_ITEMS] or codes
+    return [PLAIN_ITEM_DESCRIPTIONS.get(c, f"Filed an update (Item {c})") for c in meaningful]
 
 
 def headline_and_summary(company: str, form: str, items_field: str, report_date: str) -> tuple[str, str]:
     if form == "8-K":
         descriptions = describe_items(items_field)
         if descriptions:
-            return f"{company}: {descriptions[0]}", "; ".join(descriptions)
-        return f"{company}: 8-K filed", "Current report — item(s) not further specified."
+            headline = f"{company}: {descriptions[0]}"
+            # A single item would just repeat the headline verbatim as
+            # the summary — better to show nothing than restate it.
+            summary = "Also: " + "; ".join(descriptions[1:]) if len(descriptions) > 1 else ""
+            return headline, summary
+        return f"{company}: Filed an update with regulators", "Details not further specified."
     if form == "10-Q":
         period = f" for the period ended {report_date}" if report_date else ""
-        return f"{company}: Quarterly Report (10-Q)", f"Quarterly report{period}."
+        return f"{company}: Quarterly Report", f"Quarterly financial report{period}."
     if form == "10-K":
         period = f" for the fiscal year ended {report_date}" if report_date else ""
-        return f"{company}: Annual Report (10-K)", f"Annual report{period}."
-    return f"{company}: {form} filed", form
+        return f"{company}: Annual Report", f"Full-year financial report{period}."
+    return f"{company}: Filed an update with regulators", form
 
 
 def fetch_sec_filings(cik: str) -> list[dict]:

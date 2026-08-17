@@ -27,14 +27,20 @@ EIA_ROUTES = {
     "PET.WDISTUS1.W": ("petroleum/stoc/wstk/data", "WDISTUS1", "weekly"),
 }
 
+# Unit is a semantic type, not a display string — the frontend decides
+# how to phrase each one in plain language (formatEnergyValue in
+# src/lib/format.ts). Inventory series arrive from EIA in thousands of
+# barrels; scaled to millions here since "723,104 kbbl" means nothing to
+# a non-trader but "723.1 million barrels" does.
 UNITS = {
-    "PET.RWTC.D": "$/bbl",
-    "PET.RBRTE.D": "$/bbl",
-    "PET.WPULEUS3.W": "%",
-    "PET.WCRSTUS1.W": "kbbl",
-    "PET.WGTSTUS1.W": "kbbl",
-    "PET.WDISTUS1.W": "kbbl",
+    "PET.RWTC.D": "usd_per_barrel",
+    "PET.RBRTE.D": "usd_per_barrel",
+    "PET.WPULEUS3.W": "percent",
+    "PET.WCRSTUS1.W": "million_barrels",
+    "PET.WGTSTUS1.W": "million_barrels",
+    "PET.WDISTUS1.W": "million_barrels",
 }
+THOUSAND_TO_MILLION_BARRELS = {"PET.WCRSTUS1.W", "PET.WGTSTUS1.W", "PET.WDISTUS1.W"}
 
 
 def fetch_series(api_key: str, series_id: str) -> tuple[float | None, str | None]:
@@ -56,7 +62,12 @@ def fetch_series(api_key: str, series_id: str) -> tuple[float | None, str | None
         return None, None
     row = rows[0]
     value = row.get("value")
-    return (float(value) if value is not None else None), row.get("period")
+    if value is None:
+        return None, row.get("period")
+    value = float(value)
+    if series_id in THOUSAND_TO_MILLION_BARRELS:
+        value = value / 1000
+    return value, row.get("period")
 
 
 def fetch_energy(ticker: str) -> dict:
