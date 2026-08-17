@@ -291,13 +291,6 @@
   fill: var(--down);
 }
 
-.movement-label {
-  font-size: 5.5px;
-  font-weight: 800;
-  letter-spacing: 0;
-  fill: var(--bg);
-}
-
 .movement-pct {
   font-size: 16px;
   font-weight: 700;

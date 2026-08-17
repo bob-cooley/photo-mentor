@@ -22,15 +22,6 @@ export default function TwoWeekMovementCard({ market, loading }: { market: Marke
                 <path d="M50 92 L22 62 L78 62 Z" />
               </>
             )}
-            <text
-              x="50"
-              y={up ? 65 : 35}
-              textAnchor="middle"
-              dominantBaseline="central"
-              className="movement-label"
-            >
-              {up ? "UP" : "DOWN"}
-            </text>
           </svg>
           <div className="movement-pct">
             {Math.abs(pct).toFixed(1)}% {up ? "increase" : "decrease"}
