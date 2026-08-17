@@ -13,12 +13,12 @@ export default function TwoWeekMovementCard({ market, loading }: { market: Marke
           <svg viewBox="0 0 100 100" className="movement-arrow" aria-hidden="true">
             {up ? (
               <>
-                <rect x="31" y="38" width="38" height="54" rx="6" />
+                <rect x="39" y="38" width="22" height="54" rx="4" />
                 <path d="M50 8 L22 38 L78 38 Z" />
               </>
             ) : (
               <>
-                <rect x="31" y="8" width="38" height="54" rx="6" />
+                <rect x="39" y="8" width="22" height="54" rx="4" />
                 <path d="M50 92 L22 62 L78 62 Z" />
               </>
             )}
