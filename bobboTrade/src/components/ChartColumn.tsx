@@ -19,7 +19,7 @@ const DAILY_TIMEFRAME_DAYS: Partial<Record<Timeframe, number>> = {
 const ONE_WEEK_BAR_COUNT = 78 * 5;
 
 const UP_COLOR = "#34c759";
-const DOWN_COLOR = "#ff453a";
+const DOWN_COLOR = "#ff6e64"; // matches --down in index.css (6.11:1 contrast, up from 4.91:1)
 
 function nyLocalDateKey(unixSeconds: number): string {
   return new Date(unixSeconds * 1000).toLocaleDateString("en-CA", { timeZone: "America/New_York" });
@@ -102,13 +102,21 @@ export default function ChartColumn({
     if (points.length === 0) return;
 
     // Apple Stocks-style: the whole line's color reflects net direction
-    // over the visible period, not a per-point up/down flicker.
-    const isUp = points[points.length - 1].value >= points[0].value;
+    // over the visible period, not a per-point up/down flicker. For 1D
+    // specifically, "direction" means vs. yesterday's close (what
+    // "the stock is up/down today" actually means) -- comparing against
+    // today's own first bar is wrong on gap days: a stock can open well
+    // below yesterday's close, drift up slightly during the day, and
+    // read as a green "up" day here while every other reference (the
+    // header quote, any other app) correctly shows it red.
+    const referenceValue =
+      timeframe === "1D" && market?.quote.previousClose != null ? market.quote.previousClose : points[0].value;
+    const isUp = points[points.length - 1].value >= referenceValue;
     const color = isUp ? UP_COLOR : DOWN_COLOR;
     seriesRef.current.applyOptions({
       lineColor: color,
-      topColor: isUp ? "rgba(52,199,89,0.32)" : "rgba(255,69,58,0.32)",
-      bottomColor: isUp ? "rgba(52,199,89,0.01)" : "rgba(255,69,58,0.01)",
+      topColor: isUp ? "rgba(52,199,89,0.32)" : "rgba(255,110,100,0.32)",
+      bottomColor: isUp ? "rgba(52,199,89,0.01)" : "rgba(255,110,100,0.01)",
     });
 
     seriesRef.current.setData(points);

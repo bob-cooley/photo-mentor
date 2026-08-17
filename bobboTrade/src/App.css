@@ -81,6 +81,18 @@
   align-items: start;
 }
 
+/* iPad landscape is the primary target (mini 1133 / base+Air 1180 /
+   Pro 11" 1194 / Pro 12.9" 1366) -- horizontal 3-column stays intact
+   through this whole range, just tighter, instead of collapsing to a
+   vertical stack the way desktop-only breakpoints would. */
+@media (max-width: 1400px) {
+  .dashboard {
+    grid-template-columns: 29% 44% 27%;
+    gap: 14px;
+    padding: 16px 16px 28px;
+  }
+}
+
 .col {
   display: flex;
   flex-direction: column;
@@ -121,7 +133,9 @@
   }
 }
 
-@media (max-width: 1180px) {
+/* Below this: iPad portrait (mini 744 / base+Air 820 / Pro 11" 834)
+   and phones. Every iPad landscape width stays 3-column above. */
+@media (max-width: 1023px) {
   .dashboard {
     grid-template-columns: 1fr;
   }
