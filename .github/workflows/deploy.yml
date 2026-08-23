@@ -86,6 +86,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: light-detective/package-lock.json
+
+      - name: Install dependencies
+        working-directory: light-detective
+        run: npm ci
+
+      - name: Build (fetches self-hosted MediaPipe assets, then vite build)
+        working-directory: light-detective
+        run: npm run build
+
       - name: Deploy light-detective to bobcooleyphoto.com/light-detective/
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -93,7 +108,7 @@ jobs:
           username: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASS }}
           server-dir: public_html/bobcooleyphoto/light-detective/
-          local-dir: ./light-detective/
+          local-dir: ./light-detective/dist/
           exclude: |
             **/.git*
             **/.git*/**

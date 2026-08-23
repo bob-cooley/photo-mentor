@@ -1,0 +1,187 @@
+:root {
+  --bg: #07070a;
+  --ink: #e9e6e2;
+  --dim: #8a8680;
+  --accent: #990000;
+  --line: #2a2828;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Century Gothic", "Avant Garde", "ITC Avant Garde Gothic", "Urbanist", sans-serif;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---- Upload screen ---- */
+
+.upload-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.upload-badge {
+  letter-spacing: 0.35em;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1.4rem;
+}
+
+.upload-title {
+  font-size: clamp(2rem, 6vw, 3.4rem);
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  margin: 0 0 2.5rem;
+}
+
+.dropzone {
+  width: min(90vw, 32rem);
+  padding: 3.5rem 2rem;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.dropzone:hover,
+.dropzone.dragover {
+  border-color: var(--accent);
+}
+
+.dropzone p {
+  margin: 0;
+  color: var(--dim);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+.dropzone input[type="file"] {
+  display: none;
+}
+
+.upload-hint {
+  margin-top: 1.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  color: var(--dim);
+  opacity: 0.6;
+  max-width: 28rem;
+}
+
+/* ---- Analysis / results screen ---- */
+
+.stage {
+  flex: 1;
+  position: relative;
+  display: none;
+}
+
+.stage.active {
+  display: block;
+}
+
+.stage canvas {
+  display: block;
+}
+
+.status-line {
+  position: fixed;
+  top: 1.6rem;
+  left: 1.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--dim);
+  max-width: min(22rem, calc(100vw - 8rem));
+  line-height: 1.6;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.status-line .accent {
+  color: var(--accent);
+}
+
+.facts-panel {
+  position: fixed;
+  bottom: 1.6rem;
+  left: 1.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--dim);
+  max-width: min(22rem, calc(100vw - 3.2rem));
+  line-height: 1.7;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.facts-panel dt {
+  color: var(--ink);
+  opacity: 0.85;
+}
+
+.facts-panel dd {
+  margin: 0 0 0.6rem;
+  opacity: 0.7;
+}
+
+.legend {
+  position: fixed;
+  bottom: 1.6rem;
+  right: 1.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: var(--dim);
+  text-align: right;
+  line-height: 1.9;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Below this width facts-panel + legend, both bottom-anchored, are wide
+   enough as single-column blocks to collide — give each a fixed share of
+   the viewport instead of letting content width decide. */
+@media (max-width: 640px) {
+  .facts-panel {
+    max-width: 56vw;
+  }
+
+  .legend {
+    max-width: 36vw;
+  }
+}
+
+.legend .swatch {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+.reset-link {
+  position: fixed;
+  top: 1.6rem;
+  right: 1.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dim);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.reset-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
