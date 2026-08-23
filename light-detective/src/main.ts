@@ -7,10 +7,9 @@ import { detectFaceLandmarks } from "./lib/faceDetection";
 import { estimateFromCatchlights } from "./estimators/catchlight";
 import { estimateFromHighlights } from "./estimators/highlight";
 import { estimateFromShadow } from "./estimators/shadow";
-import { estimateFromExif, getTrueSunFact } from "./estimators/exifFastPath";
+import { estimateFromExif } from "./estimators/exifFastPath";
 import { buildEnsemble } from "./estimators/ensemble";
 import { createLightDetectiveScene, type LightDetectiveScene } from "./viewer/scene";
-import { METHOD_COLORS, METHOD_LABELS, CONSENSUS_COLOR } from "./viewer/colors";
 import type { EstimatorResult } from "./types";
 
 const app = document.getElementById("app")!;
@@ -31,8 +30,7 @@ app.innerHTML = `
   <div class="stage" id="stage">
     <a href="#" class="reset-link" id="reset-link">New photo</a>
     <div class="status-line" id="status-line"></div>
-    <dl class="facts-panel" id="facts-panel"></dl>
-    <div class="legend" id="legend"></div>
+    <div class="distance-note" id="distance-note"></div>
   </div>
 `;
 
@@ -41,8 +39,7 @@ const dropzone = document.getElementById("dropzone")!;
 const fileInput = document.getElementById("file-input") as HTMLInputElement;
 const stage = document.getElementById("stage")!;
 const statusLine = document.getElementById("status-line")!;
-const factsPanel = document.getElementById("facts-panel")!;
-const legend = document.getElementById("legend")!;
+const distanceNote = document.getElementById("distance-note")!;
 const resetLink = document.getElementById("reset-link")!;
 
 let scene: LightDetectiveScene | null = null;
@@ -74,6 +71,7 @@ function setStatus(text: string) {
 async function handleFile(file: File) {
   uploadScreen.style.display = "none";
   stage.classList.add("active");
+  distanceNote.textContent = "";
   setStatus("Reading photo&hellip;");
 
   try {
@@ -91,84 +89,32 @@ async function handleFile(file: File) {
     const segResult = imageSegmenter.segment(loaded.canvas);
     const imageData = loaded.ctx.getImageData(0, 0, loaded.width, loaded.height);
 
+    // Every signal below feeds one combined sun position — none of it is
+    // shown individually. The diagram is the answer, not the working.
     const results: EstimatorResult[] = [
       estimateFromCatchlights(faceLandmarks, imageData, loaded.width, loaded.height),
       estimateFromHighlights(faceLandmarks, imageData, loaded.width, loaded.height),
       estimateFromShadow(segResult, imageData, loaded.width, loaded.height, exifFacts.focalLength35mm),
       estimateFromExif(exifFacts),
     ];
-
     const ensemble = buildEnsemble(results);
     const distance = estimateSubjectDistance(faceLandmarks, loaded.width, exifFacts.focalLength35mm);
-    const trueSunFact = getTrueSunFact(exifFacts);
 
     if (!scene) {
       scene = createLightDetectiveScene(stage);
     }
-    scene.setResult(ensemble, distance.meters ?? 3);
-
-    renderFacts(ensemble, distance, trueSunFact, exifFacts.cameraHeadingDeg !== null);
-    renderLegend(ensemble);
+    scene.setResult(ensemble.consensus, distance.meters ?? 3);
 
     if (ensemble.consensus) {
-      setStatus(
-        `<span class="accent">${ensemble.estimates.length}</span> method${
-          ensemble.estimates.length === 1 ? "" : "s"
-        } weighed in &mdash; drag to rotate the case file`,
-      );
+      setStatus("Drag to rotate");
+      if (distance.meters !== null) {
+        distanceNote.textContent = `Subject ~${distance.meters.toFixed(1)} m from photographer`;
+      }
     } else {
-      setStatus("No method could read a confident light direction from this photo.");
+      setStatus("Couldn&rsquo;t find a clear enough light direction in this photo &mdash; try another.");
     }
   } catch (err) {
     console.error(err);
     setStatus("Something went wrong analyzing this photo. Try a different one.");
   }
-}
-
-function renderFacts(
-  ensemble: ReturnType<typeof buildEnsemble>,
-  distance: ReturnType<typeof estimateSubjectDistance>,
-  trueSunFact: { azimuthDeg: number; elevationDeg: number } | null,
-  hasHeading: boolean,
-) {
-  const rows: string[] = [];
-
-  if (ensemble.consensus) {
-    rows.push(
-      `<dt>Consensus sun direction</dt><dd>azimuth ${ensemble.consensus.azimuthDeg.toFixed(
-        0,
-      )}&deg;, elevation ${ensemble.consensus.elevationDeg.toFixed(0)}&deg; (confidence ${(
-        ensemble.consensus.confidence * 100
-      ).toFixed(0)}%)</dd>`,
-    );
-  }
-
-  rows.push(
-    `<dt>Subject distance</dt><dd>${
-      distance.meters !== null ? `~${distance.meters.toFixed(1)} m` : "unknown"
-    } &mdash; ${distance.note}</dd>`,
-  );
-
-  if (trueSunFact) {
-    rows.push(
-      `<dt>True compass sun position (EXIF)</dt><dd>azimuth ${trueSunFact.azimuthDeg.toFixed(
-        0,
-      )}&deg; from North, elevation ${trueSunFact.elevationDeg.toFixed(0)}&deg;${
-        hasHeading ? "" : " &mdash; camera heading not in EXIF, so not folded into the consensus above"
-      }</dd>`,
-    );
-  }
-
-  factsPanel.innerHTML = rows.join("");
-}
-
-function renderLegend(ensemble: ReturnType<typeof buildEnsemble>) {
-  const rows = ensemble.estimates.map(
-    (e) =>
-      `${METHOD_LABELS[e.method]}<span class="swatch" style="background:${METHOD_COLORS[e.method]}"></span><br>`,
-  );
-  if (ensemble.consensus) {
-    rows.push(`Consensus<span class="swatch" style="background:${CONSENSUS_COLOR}"></span>`);
-  }
-  legend.innerHTML = rows.join("");
 }
