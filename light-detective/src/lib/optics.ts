@@ -23,10 +23,17 @@ export function estimateFovDeg(focalLength35mm: number | null | undefined): {
 
 /**
  * Maps a normalized image-plane offset (dxNorm, dyNorm each roughly -1..1,
- * relative to a reference point, image-y-down) to an azimuth/elevation
- * offset from "straight ahead," by linearly scaling across the camera's
- * field of view. This is an approximation (true perspective projection is
- * not linear in angle), acceptable for the modest offsets involved here.
+ * relative to a reference point, image-y-down) to an azimuth/elevation,
+ * by linearly scaling across the camera's field of view. This is an
+ * approximation (true perspective projection is not linear in angle),
+ * acceptable for the modest offsets involved here.
+ *
+ * Baseline is 180deg (behind the photographer), not 0deg. Zero offset
+ * means the light source is roughly coincident with the camera - flat,
+ * frontal lighting, sun-over-the-photographer's-shoulder - which in our
+ * convention (0deg = same direction as the subject, i.e. backlit) is the
+ * far side of the circle, not the near side. Getting this backwards
+ * silently flips every azimuth reading front-for-back.
  */
 export function pixelOffsetToAzimuthElevation(
   dxNorm: number,
@@ -34,7 +41,7 @@ export function pixelOffsetToAzimuthElevation(
   hFovDeg: number,
   vFovDeg: number,
 ): { azimuthDeg: number; elevationDeg: number } {
-  const azimuthDeg = (((dxNorm * hFovDeg) / 2) % 360 + 360) % 360;
+  const azimuthDeg = (((180 + (dxNorm * hFovDeg) / 2) % 360) + 360) % 360;
   const elevationDeg = (-dyNorm * vFovDeg) / 2;
   return { azimuthDeg, elevationDeg };
 }
@@ -45,6 +52,12 @@ export function pixelOffsetToAzimuthElevation(
  * that deviation measured from "up" rotating toward "right") into our
  * azimuth/elevation convention. See catchlight.ts for where theta/phi
  * come from.
+ *
+ * theta=0 (catchlight dead-center in the iris) means the light is
+ * essentially at the camera - by the mirror-sphere half-angle rule, a
+ * centered highlight only occurs when the light and the view direction
+ * coincide. That's azimuth 180deg in our convention (behind the
+ * photographer), so the baseline direction here is -Z, not +Z.
  */
 export function directionFromConeAngles(
   thetaRad: number,
@@ -52,7 +65,7 @@ export function directionFromConeAngles(
 ): { azimuthDeg: number; elevationDeg: number } {
   const x = Math.sin(thetaRad) * Math.sin(phiRad);
   const y = Math.sin(thetaRad) * Math.cos(phiRad);
-  const z = Math.cos(thetaRad);
+  const z = -Math.cos(thetaRad);
   const elevationDeg = Math.asin(Math.max(-1, Math.min(1, y))) * (180 / Math.PI);
   const azimuthDeg = (((Math.atan2(x, z) * 180) / Math.PI) + 360) % 360;
   return { azimuthDeg, elevationDeg };
