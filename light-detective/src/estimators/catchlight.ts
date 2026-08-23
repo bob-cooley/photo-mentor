@@ -1,4 +1,4 @@
-import type { FaceLandmarkerResult, NormalizedLandmark } from "@mediapipe/tasks-vision";
+import type { NormalizedLandmark } from "@mediapipe/tasks-vision";
 import type { EstimatorResult } from "../types";
 import { weightedCircularMeanDeg, weightedMean } from "../lib/circularMean";
 import { directionFromConeAngles } from "../lib/optics";
@@ -42,7 +42,14 @@ function estimateEye(
     radiusSum += Math.hypot(p.x - center.x, p.y - center.y);
   }
   const irisRadiusPx = radiusSum / group.boundary.length;
-  if (irisRadiusPx < 1.5) return null; // face too small in frame to resolve a catchlight
+  // Below this, "brightest pixel in the iris" is just JPEG-block/pixel
+  // noise, not a resolvable highlight — confirmed empirically: a ~2.7px
+  // iris radius (small/distant face) produced a confident-looking but
+  // physically implausible result (-45deg elevation) driven entirely by
+  // compression noise. This threshold is provisional, set from that one
+  // observed failure — expect to retune as more real photos come in.
+  const MIN_IRIS_RADIUS_PX = 6;
+  if (irisRadiusPx < MIN_IRIS_RADIUS_PX) return null;
 
   const searchRadius = irisRadiusPx * 0.9;
   const brightest = findBrightestPixel(imageData, center.x, center.y, searchRadius);
@@ -68,12 +75,11 @@ function estimateEye(
 }
 
 export function estimateFromCatchlights(
-  faceResult: FaceLandmarkerResult,
+  landmarks: NormalizedLandmark[] | null,
   imageData: ImageData,
   width: number,
   height: number,
 ): EstimatorResult {
-  const landmarks = faceResult.faceLandmarks?.[0];
   if (!landmarks || landmarks.length < 478) {
     return null; // model didn't resolve iris refinement landmarks for this face
   }

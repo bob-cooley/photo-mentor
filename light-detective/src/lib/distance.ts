@@ -1,4 +1,4 @@
-import type { FaceLandmarkerResult } from "@mediapipe/tasks-vision";
+import type { NormalizedLandmark } from "@mediapipe/tasks-vision";
 import type { DistanceEstimate } from "../types";
 
 const AVERAGE_ADULT_FACE_WIDTH_M = 0.14; // cheekbone-to-cheekbone, rough population average
@@ -6,11 +6,10 @@ const FULL_FRAME_SENSOR_WIDTH_MM = 36; // by definition of "35mm-equivalent" foc
 const FALLBACK_SCHEMATIC_METERS = 3;
 
 export function estimateSubjectDistance(
-  faceResult: FaceLandmarkerResult,
+  landmarks: NormalizedLandmark[] | null,
   imageWidthPx: number,
   focalLength35mm: number | null,
 ): DistanceEstimate {
-  const landmarks = faceResult.faceLandmarks?.[0];
   if (!landmarks || landmarks.length === 0 || !focalLength35mm || focalLength35mm <= 0) {
     return {
       meters: FALLBACK_SCHEMATIC_METERS,

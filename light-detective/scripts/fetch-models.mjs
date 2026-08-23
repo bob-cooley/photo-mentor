@@ -22,6 +22,15 @@ const MODELS = [
     name: "selfie_segmenter.tflite",
     url: "https://storage.googleapis.com/mediapipe-models/image_segmenter/selfie_segmenter/float16/latest/selfie_segmenter.tflite",
   },
+  {
+    // FaceLandmarker's bundled detector is short-range (selfie-camera
+    // style) and misses faces in ordinary photographic framing even when
+    // large and well-lit — confirmed against real test photos. This
+    // full-range detector is used as a fallback: find the face, crop to
+    // it, then re-run FaceLandmarker on the crop. See lib/faceDetection.ts.
+    name: "blaze_face_full_range.tflite",
+    url: "https://storage.googleapis.com/mediapipe-models/face_detector/blaze_face_full_range/float16/latest/blaze_face_full_range.tflite",
+  },
 ];
 
 async function download(url, destPath) {

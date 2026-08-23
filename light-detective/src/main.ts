@@ -2,7 +2,8 @@ import "./style.css";
 import { loadImageToCanvas } from "./lib/imageCanvas";
 import { readExifFacts } from "./lib/exif";
 import { estimateSubjectDistance } from "./lib/distance";
-import { getFaceLandmarker, getImageSegmenter } from "./lib/mediapipeModels";
+import { getFaceLandmarker, getFaceDetector, getImageSegmenter } from "./lib/mediapipeModels";
+import { detectFaceLandmarks } from "./lib/faceDetection";
 import { estimateFromCatchlights } from "./estimators/catchlight";
 import { estimateFromHighlights } from "./estimators/highlight";
 import { estimateFromShadow } from "./estimators/shadow";
@@ -79,25 +80,26 @@ async function handleFile(file: File) {
     const [loaded, exifFacts] = await Promise.all([loadImageToCanvas(file), readExifFacts(file)]);
 
     setStatus("Loading analysis models&hellip;<br>(first run only, a few MB)");
-    const [faceLandmarker, imageSegmenter] = await Promise.all([
+    const [faceLandmarker, faceDetector, imageSegmenter] = await Promise.all([
       getFaceLandmarker(),
+      getFaceDetector(),
       getImageSegmenter(),
     ]);
 
     setStatus("Analyzing lighting&hellip;");
-    const faceResult = faceLandmarker.detect(loaded.canvas);
+    const faceLandmarks = detectFaceLandmarks(faceDetector, faceLandmarker, loaded.canvas);
     const segResult = imageSegmenter.segment(loaded.canvas);
     const imageData = loaded.ctx.getImageData(0, 0, loaded.width, loaded.height);
 
     const results: EstimatorResult[] = [
-      estimateFromCatchlights(faceResult, imageData, loaded.width, loaded.height),
-      estimateFromHighlights(faceResult, imageData, loaded.width, loaded.height),
+      estimateFromCatchlights(faceLandmarks, imageData, loaded.width, loaded.height),
+      estimateFromHighlights(faceLandmarks, imageData, loaded.width, loaded.height),
       estimateFromShadow(segResult, imageData, loaded.width, loaded.height, exifFacts.focalLength35mm),
       estimateFromExif(exifFacts),
     ];
 
     const ensemble = buildEnsemble(results);
-    const distance = estimateSubjectDistance(faceResult, loaded.width, exifFacts.focalLength35mm);
+    const distance = estimateSubjectDistance(faceLandmarks, loaded.width, exifFacts.focalLength35mm);
     const trueSunFact = getTrueSunFact(exifFacts);
 
     if (!scene) {

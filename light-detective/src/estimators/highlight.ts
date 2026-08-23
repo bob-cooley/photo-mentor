@@ -1,4 +1,4 @@
-import type { FaceLandmarkerResult, NormalizedLandmark } from "@mediapipe/tasks-vision";
+import type { NormalizedLandmark } from "@mediapipe/tasks-vision";
 import type { EstimatorResult } from "../types";
 import { averageLuminanceInWindow } from "../lib/imageCanvas";
 
@@ -19,12 +19,11 @@ function toPixel(lm: NormalizedLandmark, width: number, height: number) {
 }
 
 export function estimateFromHighlights(
-  faceResult: FaceLandmarkerResult,
+  landmarks: NormalizedLandmark[] | null,
   imageData: ImageData,
   width: number,
   height: number,
 ): EstimatorResult {
-  const landmarks = faceResult.faceLandmarks?.[0];
   if (!landmarks) return null;
 
   const cheekALm = landmarks[CHEEK_A];
