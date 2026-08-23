@@ -1,0 +1,12 @@
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>
+
+# Pair's default Apache config doesn't map these extensions, which leaves
+# WebAssembly.instantiateStreaming() failing its MIME check in production
+# (it requires exactly application/wasm) even though everything works
+# fine locally against a dev server that does set it correctly.
+<IfModule mod_mime.c>
+  AddType application/wasm .wasm
+  AddType application/octet-stream .task .tflite
+</IfModule>
