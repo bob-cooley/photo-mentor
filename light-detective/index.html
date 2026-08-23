@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Light Detective</title>
+<style>
+  :root{
+    --bg:#07070a;
+    --ink:#e9e6e2;
+    --dim:#8a8680;
+    --accent:#990000;
+  }
+  html,body{
+    margin:0;
+    height:100%;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Century Gothic","Avant Garde","ITC Avant Garde Gothic","Urbanist",sans-serif;
+    overflow:hidden;
+  }
+  canvas#bg{
+    position:fixed;
+    inset:0;
+    display:block;
+    z-index:0;
+  }
+  .vignette{
+    position:fixed;
+    inset:0;
+    z-index:1;
+    pointer-events:none;
+    background:radial-gradient(ellipse at center, rgba(0,0,0,0) 45%, rgba(0,0,0,0.55) 100%);
+  }
+  .grain{
+    position:fixed;
+    inset:0;
+    z-index:2;
+    pointer-events:none;
+    opacity:0.05;
+    mix-blend-mode:overlay;
+  }
+  .hero{
+    position:relative;
+    z-index:3;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 1.5rem;
+    pointer-events:none;
+  }
+  .badge{
+    letter-spacing:0.35em;
+    font-size:0.7rem;
+    text-transform:uppercase;
+    color:var(--accent);
+    text-shadow:0 0 0.06em var(--accent), 0 0 0.4em rgba(153,0,0,0.5);
+    margin-bottom:1.4rem;
+  }
+  h1{
+    font-size:clamp(2.4rem, 8vw, 5.5rem);
+    letter-spacing:0.06em;
+    line-height:1.05;
+    margin:0;
+    font-weight:400;
+    color:var(--ink);
+  }
+  h1 span{
+    display:block;
+    color:var(--accent);
+    text-shadow:0 0 0.05em var(--accent), 0 0 0.3em rgba(153,0,0,0.6), 0 0 0.7em rgba(153,0,0,0.3);
+  }
+  .tagline{
+    margin-top:1.6rem;
+    max-width:34em;
+    font-size:1rem;
+    color:var(--dim);
+    letter-spacing:0.02em;
+  }
+  .status{
+    margin-top:2.5rem;
+    font-size:0.75rem;
+    letter-spacing:0.2em;
+    text-transform:uppercase;
+    color:var(--dim);
+    opacity:0.7;
+  }
+  .hint{
+    position:fixed;
+    bottom:1.6rem;
+    left:0; right:0;
+    z-index:3;
+    text-align:center;
+    font-size:0.7rem;
+    letter-spacing:0.15em;
+    text-transform:uppercase;
+    color:var(--dim);
+    opacity:0.55;
+    pointer-events:none;
+  }
+</style>
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div class="vignette"></div>
+<svg class="grain" xmlns="http://www.w3.org/2000/svg">
+  <filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/></filter>
+  <rect width="100%" height="100%" filter="url(#n)"/>
+</svg>
+
+<main class="hero">
+  <div class="badge">Case File // Open</div>
+  <h1>LIGHT<span>DETECTIVE</span></h1>
+  <p class="tagline">Every photograph hides a clue about how it was lit. This is the tool built to find it.</p>
+  <p class="status">Investigation underway &mdash; full site coming soon.</p>
+</main>
+<p class="hint">Move the glass</p>
+
+<script>
+(function(){
+  var canvas = document.getElementById('bg');
+  var ctx = canvas.getContext('2d');
+  var W, H, DPR;
+
+  function resize(){
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    W = innerWidth; H = innerHeight;
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+  }
+  resize();
+  window.addEventListener('resize', resize);
+
+  var COUNT = Math.max(60, Math.min(240, Math.floor((innerWidth*innerHeight)/9000)));
+  var particles = [];
+  for(var i=0;i<COUNT;i++){
+    particles.push({
+      x: Math.random()*innerWidth,
+      y: Math.random()*innerHeight,
+      z: Math.random(),
+      vx: (Math.random()-0.5)*0.12,
+      vy: (Math.random()-0.5)*0.10 - 0.04,
+      r: 0.6 + Math.random()*1.7,
+      flicker: Math.random()*Math.PI*2
+    });
+  }
+
+  var targetX = innerWidth/2, targetY = innerHeight/2;
+  var beamX = targetX, beamY = targetY;
+  var hasPointer = false;
+  var lastMove = Date.now();
+
+  function setTarget(x,y){
+    targetX = x; targetY = y;
+    hasPointer = true;
+    lastMove = Date.now();
+  }
+  window.addEventListener('pointermove', function(e){ setTarget(e.clientX, e.clientY); });
+  window.addEventListener('touchmove', function(e){
+    if(e.touches && e.touches[0]) setTarget(e.touches[0].clientX, e.touches[0].clientY);
+  }, {passive:true});
+
+  function idlePath(time){
+    var cx = innerWidth/2, cy = innerHeight/2;
+    var rx = innerWidth*0.30, ry = innerHeight*0.26;
+    var x = cx + Math.sin(time*0.00021)*rx;
+    var y = cy + Math.sin(time*0.00029 + 1.3)*ry;
+    return [x,y];
+  }
+
+  var t = 0;
+
+  function frame(){
+    t += 16;
+    var idle = (Date.now()-lastMove) > 2200 || !hasPointer;
+    if(idle){
+      var p = idlePath(performance.now());
+      beamX += (p[0]-beamX)*0.02;
+      beamY += (p[1]-beamY)*0.02;
+    } else {
+      beamX += (targetX-beamX)*0.09;
+      beamY += (targetY-beamY)*0.09;
+    }
+
+    ctx.setTransform(DPR,0,0,DPR,0,0);
+    ctx.fillStyle = '#07070a';
+    ctx.fillRect(0,0,W,H);
+
+    var beamRadius = Math.max(W,H) * 0.17;
+
+    for(var i=0;i<particles.length;i++){
+      var pt = particles[i];
+      pt.x += pt.vx + Math.sin(t*0.0006 + pt.flicker)*0.02;
+      pt.y += pt.vy;
+      if(pt.y < -10) pt.y = H+10;
+      if(pt.y > H+10) pt.y = -10;
+      if(pt.x < -10) pt.x = W+10;
+      if(pt.x > W+10) pt.x = -10;
+
+      var dx = pt.x-beamX, dy = pt.y-beamY;
+      var dist = Math.sqrt(dx*dx+dy*dy);
+      var inBeam = Math.max(0, 1 - dist/beamRadius);
+      var ambient = 0.04 + 0.05*Math.sin(t*0.002 + pt.flicker);
+      var brightness = Math.min(1, ambient + inBeam*1.5);
+      var size = pt.r * (0.7 + pt.z*0.8) * (1 + inBeam*1.3);
+
+      ctx.beginPath();
+      if(inBeam > 0.4){
+        ctx.fillStyle = 'rgba(255,238,228,' + (brightness*0.95) + ')';
+      } else {
+        ctx.fillStyle = 'rgba(190,120,110,' + (brightness*0.8) + ')';
+      }
+      ctx.arc(pt.x, pt.y, size, 0, Math.PI*2);
+      ctx.fill();
+    }
+
+    var grad = ctx.createRadialGradient(beamX,beamY,0,beamX,beamY,beamRadius);
+    grad.addColorStop(0, 'rgba(255,236,226,0.12)');
+    grad.addColorStop(0.4, 'rgba(153,0,0,0.07)');
+    grad.addColorStop(1, 'rgba(153,0,0,0)');
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.arc(beamX,beamY,beamRadius,0,Math.PI*2);
+    ctx.fill();
+
+    var rimR = beamRadius*0.6;
+    ctx.beginPath();
+    ctx.arc(beamX,beamY,rimR,0,Math.PI*2);
+    ctx.strokeStyle = 'rgba(153,0,0,0.4)';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    var angle = Math.PI/4;
+    var hx1 = beamX + Math.cos(angle)*rimR;
+    var hy1 = beamY + Math.sin(angle)*rimR;
+    var hx2 = beamX + Math.cos(angle)*(rimR + beamRadius*0.32);
+    var hy2 = beamY + Math.sin(angle)*(rimR + beamRadius*0.32);
+    ctx.beginPath();
+    ctx.moveTo(hx1,hy1);
+    ctx.lineTo(hx2,hy2);
+    ctx.strokeStyle = 'rgba(153,0,0,0.55)';
+    ctx.lineWidth = 4;
+    ctx.lineCap = 'round';
+    ctx.stroke();
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
