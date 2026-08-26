@@ -165,6 +165,17 @@ SEC_MAX_ARTICLES = 3
 CNBC_ENERGY_RSS = "https://www.cnbc.com/id/19836768/device/rss/rss.html"
 ENERGY_NEWS_LOOKBACK_DAYS = 5
 
+# A story that directly names the company is more relevant to "why did
+# *this* stock move" than a same-day sector story that doesn't — but only
+# while it's still current. Bumped to the top of a recent-mention window;
+# outside that window it's just sorted by date like everything else, so an
+# old company-specific filing doesn't permanently outrank fresh sector news.
+DIRECT_MENTION_WINDOW_DAYS = 7
+CORPORATE_SUFFIX_PATTERN = re.compile(
+    r"\s+(Corporation|Corp\.?|Incorporated|Inc\.?|Company|Co\.?|Ltd\.?|LLC|L\.P\.|LP|plc)\s*$",
+    re.IGNORECASE,
+)
+
 # Standard SEC Form 8-K item taxonomy (17 CFR 249.308), in plain
 # language rather than the official legal phrasing — the target reader
 # is a hobbyist following the stock, not a securities lawyer. "9.01"
@@ -451,6 +462,25 @@ def fetch_sec_filings(cik: str) -> list[dict]:
     return articles
 
 
+def is_recent_direct_mention(article: dict, ticker: str, company_phrase: str, now: datetime) -> bool:
+    published_raw = article.get("publishedAt", "")
+    try:
+        published = datetime.fromisoformat(published_raw)
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=timezone.utc)
+    except ValueError:
+        return False
+    if now - published > timedelta(days=DIRECT_MENTION_WINDOW_DAYS):
+        return False
+
+    text = f"{article.get('headline', '')} {article.get('summary', '')} {article.get('fullText') or ''}"
+    if re.search(rf"\b{re.escape(ticker)}\b", text):
+        return True
+    if company_phrase and company_phrase.lower() in text.lower():
+        return True
+    return False
+
+
 def fetch_news(ticker: str) -> dict:
     config = load_stock_config(ticker)
 
@@ -489,7 +519,15 @@ def fetch_news(ticker: str) -> dict:
         seen_headlines.add(key)
         deduped.append(article)
 
+    # Sort by recency first, then a second stable pass moves direct,
+    # still-current mentions of the ticker/company name to the top —
+    # stable sort preserves each group's existing recency order rather
+    # than re-sorting within it.
+    company_phrase = CORPORATE_SUFFIX_PATTERN.sub("", config.get("name", "")).strip()
+    now = datetime.now(timezone.utc)
     deduped.sort(key=lambda a: a["publishedAt"], reverse=True)
+    deduped.sort(key=lambda a: not is_recent_direct_mention(a, ticker, company_phrase, now))
+
     kept = deduped[:MAX_ARTICLES]
     kept_sources = sorted({a["source"] for a in kept})
     print(
