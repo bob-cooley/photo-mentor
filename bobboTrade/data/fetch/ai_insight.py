@@ -8,10 +8,17 @@ fetched (price move, energy indicators, recent filings) — no separate
 extraction stage, since the inputs are already small structured JSON,
 not large unstructured text that would need summarizing first.
 
-Requires env var ANTHROPIC_API_KEY. Runs only once per hour (gated on
-minute==0) even though the rest of the pipeline runs every 5 minutes
-during market hours — the narrative doesn't need to update that often,
-and Claude API calls cost money unlike every other data source here.
+Requires env var ANTHROPIC_API_KEY. Runs only once per calendar hour
+even though the rest of the pipeline runs every 5 minutes during
+market hours — the narrative doesn't need to update that often, and
+Claude API calls cost money unlike every other data source here.
+
+The hourly gate is based on the last successful call's timestamp
+(persisted in ai_usage.json), not on wall-clock minute==0: the cron
+fires at :00, but by the time this script actually runs — after
+checkout, npm ci, pip install — the clock has usually already ticked
+past :00. A minute==0 check would skip literally every run. Comparing
+against the last call's hour is robust to that startup delay.
 
 Cost control, in order of how much they actually protect you:
 1. A hard monthly spend cap set in the Anthropic Console — see README.
@@ -68,13 +75,21 @@ def load_usage_summary(ticker: str) -> dict:
 
     current_month = datetime.now(timezone.utc).strftime("%Y-%m")
     if data.get("month") != current_month:
-        return {"month": current_month, "callsThisMonth": 0, "inputTokens": 0, "outputTokens": 0, "estimatedCostUsd": 0.0}
+        return {
+            "month": current_month,
+            "callsThisMonth": 0,
+            "inputTokens": 0,
+            "outputTokens": 0,
+            "estimatedCostUsd": 0.0,
+            "lastCallHour": None,
+        }
     return {
         "month": current_month,
         "callsThisMonth": data.get("callsThisMonth", 0),
         "inputTokens": data.get("inputTokens", 0),
         "outputTokens": data.get("outputTokens", 0),
         "estimatedCostUsd": data.get("estimatedCostUsd", 0.0),
+        "lastCallHour": data.get("lastCallHour"),
     }
 
 
@@ -147,15 +162,16 @@ def fetch_insight(ticker: str) -> dict:
     api_key = get_required_env("ANTHROPIC_API_KEY")
     config = load_stock_config(ticker)
 
-    if datetime.now(timezone.utc).minute != 0:
-        print(f"[bobboTrade] Skipping AI insight for {ticker} — only runs on the hourly slot.")
+    usage = load_usage_summary(ticker)
+    current_hour = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H")
+    if usage.get("lastCallHour") == current_hour:
+        print(f"[bobboTrade] Skipping AI insight for {ticker} — already called this hour ({current_hour}).")
         raise SystemExit(78)
 
     market_data = read_local_json(ticker, "market.json")
     energy_data = read_local_json(ticker, "energy.json")
     news_data = read_local_json(ticker, "news.json")
 
-    usage = load_usage_summary(ticker)
     if usage["estimatedCostUsd"] >= DEFAULT_MONTHLY_BUDGET_USD:
         print(
             f"[bobboTrade] AI insight paused for {ticker}: this month's spend "
@@ -176,6 +192,7 @@ def fetch_insight(ticker: str) -> dict:
     usage["inputTokens"] += input_tokens
     usage["outputTokens"] += output_tokens
     usage["estimatedCostUsd"] = round(usage["estimatedCostUsd"] + estimate_cost_usd(input_tokens, output_tokens), 6)
+    usage["lastCallHour"] = current_hour
     write_json(ticker, "ai_usage.json", usage)
 
     return {

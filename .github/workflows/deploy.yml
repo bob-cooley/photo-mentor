@@ -115,6 +115,15 @@ jobs:
 
   deploy-bobbotrade:
     runs-on: ubuntu-latest
+    # The hourly baseline and 5-min market-hours schedules can both fire at
+    # :00 simultaneously. Without this, two parallel runs could both see
+    # "no AI insight call yet this hour" before either writes the updated
+    # usage summary, and both call the API. Queuing (not canceling) the
+    # second run means it sees the first run's already-written usage
+    # summary and correctly skips.
+    concurrency:
+      group: deploy-bobbotrade
+      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
