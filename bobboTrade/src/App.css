@@ -174,6 +174,26 @@
   padding-bottom: 0;
 }
 
+.news-item-button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--card-border);
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease;
+}
+
+.news-item-button:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.news-item-button:last-child {
+  border-bottom: none;
+}
+
 .news-headline {
   font-size: 19px;
   font-weight: 700;
@@ -437,4 +457,105 @@
   color: var(--text-tertiary);
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+
+/* Article modal — full story text, no ads, read in-app */
+
+.article-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+}
+
+.article-modal {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  max-width: 640px;
+  width: 100%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  overflow: hidden;
+}
+
+.article-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.article-modal-meta {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.article-modal-source {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.article-modal-close {
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  color: var(--text-secondary);
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.article-modal-headline {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0 0 16px;
+}
+
+.article-modal-body {
+  overflow-y: auto;
+  padding-right: 4px;
+  margin-bottom: 16px;
+}
+
+.article-modal-body p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0 0 16px;
+}
+
+.article-modal-body p:last-child {
+  margin-bottom: 0;
+}
+
+.article-modal-source-link {
+  display: block;
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid var(--card-border);
+  color: var(--up);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.article-modal-source-link:hover {
+  text-decoration: underline;
 }

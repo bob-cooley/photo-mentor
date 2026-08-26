@@ -81,6 +81,7 @@ export interface NewsArticle {
   summary: string;
   source: string;
   url: string;
+  fullText: string | null;
   publishedAt: string;
   relevance: number; // 0-1
 }

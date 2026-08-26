@@ -1,7 +1,11 @@
-import type { NewsData } from "../types";
+import { useState } from "react";
+import type { NewsArticle, NewsData } from "../types";
 import { timeAgo } from "../lib/format";
+import ArticleModal from "./ArticleModal";
 
 export default function NewsColumn({ news, loading }: { news: NewsData | null; loading: boolean }) {
+  const [selected, setSelected] = useState<NewsArticle | null>(null);
+
   return (
     <div className="card news-card">
       <h2 className="card-title">Company News</h2>
@@ -21,19 +25,32 @@ export default function NewsColumn({ news, loading }: { news: NewsData | null; l
       )}
       {!loading && news && news.articles.length > 0 && (
         <div className="news-list">
-          {news.articles.map((article) => (
-            <a key={article.id} className="news-item" href={article.url} target="_blank" rel="noreferrer">
-              <div className="news-headline">{article.headline}</div>
-              {article.summary && <div className="news-summary">{article.summary}</div>}
-              <div className="news-meta">
-                <span className="news-source">{article.source}</span>
-                <span className="news-dot">·</span>
-                <span>{timeAgo(article.publishedAt)}</span>
-              </div>
-            </a>
-          ))}
+          {news.articles.map((article) =>
+            article.fullText ? (
+              <button key={article.id} className="news-item news-item-button" onClick={() => setSelected(article)}>
+                <div className="news-headline">{article.headline}</div>
+                {article.summary && <div className="news-summary">{article.summary}</div>}
+                <div className="news-meta">
+                  <span className="news-source">{article.source}</span>
+                  <span className="news-dot">·</span>
+                  <span>{timeAgo(article.publishedAt)}</span>
+                </div>
+              </button>
+            ) : (
+              <a key={article.id} className="news-item" href={article.url} target="_blank" rel="noreferrer">
+                <div className="news-headline">{article.headline}</div>
+                {article.summary && <div className="news-summary">{article.summary}</div>}
+                <div className="news-meta">
+                  <span className="news-source">{article.source}</span>
+                  <span className="news-dot">·</span>
+                  <span>{timeAgo(article.publishedAt)}</span>
+                </div>
+              </a>
+            )
+          )}
         </div>
       )}
+      {selected && <ArticleModal article={selected} onClose={() => setSelected(null)} />}
     </div>
   );
 }

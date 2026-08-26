@@ -48,6 +48,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 import requests
+import trafilatura
 
 from common import get, load_stock_config, utc_now_iso, write_json
 
@@ -187,6 +188,27 @@ def detect_wire_partner(url: str) -> tuple[str | None, str]:
     return None, url
 
 
+FULL_TEXT_TIMEOUT = 10
+MAX_FULL_TEXT_FETCHES_PER_RUN = 8
+
+
+def fetch_full_text(url: str) -> str | None:
+    """Best-effort, single-attempt: fetch the article and extract clean
+    body text (no ads/nav/boilerplate — trafilatura strips all of that),
+    so the News card can show the story itself instead of just a link
+    out. Only ever called for articles that already passed the Tier-1
+    filter — this doesn't second-guess sourcing, just fetches the body
+    once the source is already trusted."""
+    try:
+        resp = requests.get(url, headers={"User-Agent": WIRE_PROBE_USER_AGENT}, timeout=FULL_TEXT_TIMEOUT)
+        if resp.status_code != 200:
+            return None
+        text = trafilatura.extract(resp.text, include_comments=False, include_tables=False)
+        return text.strip() if text else None
+    except requests.exceptions.RequestException:
+        return None
+
+
 def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     today = datetime.now(timezone.utc).date()
     from_date = today - timedelta(days=NEWS_LOOKBACK_DAYS)
@@ -198,6 +220,8 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     articles = []
     wire_probes_used = 0
     reclassified = 0
+    full_text_fetches = 0
+    full_text_hits = 0
     for item in items:
         headline = item.get("headline")
         published = item.get("datetime")
@@ -218,6 +242,13 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
         else:
             continue
 
+        full_text = None
+        if url and full_text_fetches < MAX_FULL_TEXT_FETCHES_PER_RUN:
+            full_text_fetches += 1
+            full_text = fetch_full_text(url)
+            if full_text:
+                full_text_hits += 1
+
         articles.append(
             {
                 "id": f"finnhub-{item.get('id', published)}",
@@ -225,6 +256,7 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
                 "summary": (item.get("summary") or "")[:280],
                 "source": source,
                 "url": url,
+                "fullText": full_text,
                 "publishedAt": datetime.fromtimestamp(published, tz=timezone.utc).isoformat(),
                 "relevance": 1.0,
             }
@@ -236,7 +268,8 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     print(
         f"[bobboTrade] Finnhub company-news for {ticker}: {len(items)} raw articles, "
         f"{len(articles)} passed ({reclassified} reclassified via byline detection out of "
-        f"{wire_probes_used} probes). Raw sources seen: {raw_sources}"
+        f"{wire_probes_used} probes, {full_text_hits}/{full_text_fetches} full-text extractions "
+        f"succeeded). Raw sources seen: {raw_sources}"
     )
     return articles
 
@@ -272,6 +305,7 @@ def fetch_sec_filings(cik: str) -> list[dict]:
                 "summary": summary,
                 "source": "SEC EDGAR",
                 "url": url,
+                "fullText": None,
                 "publishedAt": dates[i],
                 "relevance": 0.9 if form == "8-K" else 0.7,
             }

@@ -89,11 +89,29 @@ def generate_news(ticker: str) -> dict:
     now = datetime.now(timezone.utc)
     articles = [
         {
+            "id": "mock-0",
+            "headline": f"Refiner stocks climb as {config['name']} leads sector gains",
+            "summary": "Shares of major refiners rose Tuesday as crack spreads widened.",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/",
+            "fullText": (
+                "Shares of major refiners rose Tuesday as crack spreads widened on tighter "
+                "gasoline supply heading into the fall.\n\n"
+                f"{config['name']} led the sector, up more than 2% in afternoon trading, as "
+                "analysts pointed to strong refining margins and resilient demand.\n\n"
+                "This is placeholder mock text for local development — the real pipeline "
+                "extracts genuine article text via trafilatura from CNBC/wire-service URLs."
+            ),
+            "publishedAt": (now - timedelta(hours=6)).isoformat(),
+            "relevance": 1.0,
+        },
+        {
             "id": "mock-1",
             "headline": f"{config['name']}: Quarterly Report",
             "summary": "Quarterly report for the period ended 2026-06-30.",
             "source": "SEC EDGAR",
             "url": "https://www.sec.gov/",
+            "fullText": None,
             "publishedAt": (now - timedelta(days=2)).isoformat(),
             "relevance": 0.7,
         },
@@ -103,6 +121,7 @@ def generate_news(ticker: str) -> dict:
             "summary": "",
             "source": "SEC EDGAR",
             "url": "https://www.sec.gov/",
+            "fullText": None,
             "publishedAt": (now - timedelta(days=5)).isoformat(),
             "relevance": 0.9,
         },
