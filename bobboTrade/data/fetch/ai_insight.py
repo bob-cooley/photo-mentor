@@ -135,6 +135,39 @@ def write_usage_state(ticker: str, usage: dict) -> None:
     usage_state_path(ticker).write_text(json.dumps(usage, indent=2))
 
 
+def insight_state_path(ticker: str) -> Path:
+    return STATE_DIR / f"insight_{ticker}.json"
+
+
+def write_insight_state(ticker: str, payload: dict) -> None:
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    insight_state_path(ticker).write_text(json.dumps(payload, indent=2))
+
+
+def load_last_insight(ticker: str, usage: dict) -> dict:
+    """The FTP deploy step does an incremental sync: it deletes any
+    remote file that was part of a previous deploy but is missing from
+    the current local build. Skipped runs (the hourly gate correctly
+    firing — the normal case now, 4 out of 5 runs during market hours)
+    used to write nothing at all, so the live insight.json/ai_usage.json
+    got deleted almost as often as they were written. This reuses the
+    last real insight text/status from git state so a skipped run still
+    deploys a valid file — just not a freshly-generated one — instead of
+    deploying nothing."""
+    path = insight_state_path(ticker)
+    if path.exists():
+        try:
+            payload = json.loads(path.read_text())
+            payload["usage"] = usage
+            return payload
+        except (json.JSONDecodeError, OSError):
+            pass
+    # No prior state at all — only reachable if the gate fires before any
+    # real call has ever succeeded, which shouldn't happen in practice
+    # (lastCallHour starts as None, so the first run always calls).
+    return {"ticker": ticker, "fetchedAt": utc_now_iso(), "text": None, "status": "ok", "usage": usage}
+
+
 def build_user_message(ticker: str, config: dict, market: dict | None, energy: dict | None, news: dict | None) -> str:
     lines = [f"Ticker: {ticker} ({config.get('name', ticker)})"]
 
@@ -218,8 +251,8 @@ def fetch_insight(ticker: str) -> dict:
     usage = load_usage_summary(ticker)
     current_hour = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H")
     if usage.get("lastCallHour") == current_hour:
-        print(f"[bobboTrade] Skipping AI insight for {ticker} — already called this hour ({current_hour}).")
-        raise SystemExit(78)
+        print(f"[bobboTrade] Already called this hour ({current_hour}) for {ticker} — reusing last insight.")
+        return load_last_insight(ticker, usage)
 
     market_data = read_local_json(ticker, "market.json")
     energy_data = read_local_json(ticker, "energy.json")
@@ -230,13 +263,15 @@ def fetch_insight(ticker: str) -> dict:
             f"[bobboTrade] AI insight paused for {ticker}: this month's spend "
             f"(${usage['estimatedCostUsd']:.4f}) has reached the ${DEFAULT_MONTHLY_BUDGET_USD:.2f} budget."
         )
-        return {
+        payload = {
             "ticker": ticker,
             "fetchedAt": utc_now_iso(),
             "text": None,
             "status": "paused_budget",
             "usage": usage,
         }
+        write_insight_state(ticker, payload)
+        return payload
 
     user_message = build_user_message(ticker, config, market_data, energy_data, news_data)
     text, input_tokens, output_tokens = call_claude(api_key, user_message)
@@ -246,20 +281,22 @@ def fetch_insight(ticker: str) -> dict:
     usage["outputTokens"] += output_tokens
     usage["estimatedCostUsd"] = round(usage["estimatedCostUsd"] + estimate_cost_usd(input_tokens, output_tokens), 6)
     usage["lastCallHour"] = current_hour
-    write_json(ticker, "ai_usage.json", usage)
     write_usage_state(ticker, usage)
 
-    return {
+    payload = {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
         "text": text,
         "status": "ok",
         "usage": usage,
     }
+    write_insight_state(ticker, payload)
+    return payload
 
 
 def main(ticker: str) -> None:
     payload = fetch_insight(ticker)
+    write_json(ticker, "ai_usage.json", payload["usage"])
     write_json(ticker, "insight.json", payload)
 
 
