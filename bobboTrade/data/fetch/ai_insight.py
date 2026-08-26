@@ -43,7 +43,7 @@ MODEL = "claude-haiku-4-5"
 MAX_OUTPUT_TOKENS = 500
 INPUT_PRICE_PER_MTOK = 1.00
 OUTPUT_PRICE_PER_MTOK = 5.00
-DEFAULT_MONTHLY_BUDGET_USD = 3.00
+DEFAULT_MONTHLY_BUDGET_USD = 5.00
 
 # Cross-run persistence for the usage/rate-limit state — see
 # load_usage_summary()'s docstring for why this is a plain git-committed

@@ -141,8 +141,9 @@ rather than inventing a reason.
    volume (≤720/month) regardless of any bug.
 3. **A self-imposed circuit breaker** in `ai_insight.py`: tracks
    cumulative estimated spend for the current calendar month and
-   refuses to call the API once `AI_MONTHLY_BUDGET_USD` (default
-   $3.00) is reached, writing a `"paused_budget"` state instead of
+   refuses to call the API once `DEFAULT_MONTHLY_BUDGET_USD` (default
+   $5.00, matching the actual Anthropic Console spend cap) is reached,
+   writing a `"paused_budget"` state instead of
    calling anyway. State (call count, token counts, estimated cost)
    persists as a small git-committed file
    (`data/fetch/state/ai_usage_<TICKER>.json`, committed by the

@@ -8,7 +8,7 @@ function formatUsageCost(usd: number): string {
   return usd > 0 && usd < 0.01 ? `$${usd.toFixed(4)}` : `$${usd.toFixed(2)}`;
 }
 
-const MONTHLY_BUDGET_USD = 3.0;
+const MONTHLY_BUDGET_USD = 5.0;
 
 export default function UsagePopup({ insight, onClose }: { insight: InsightData | null; onClose: () => void }) {
   useEffect(() => {
