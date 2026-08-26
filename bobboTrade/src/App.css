@@ -328,13 +328,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  padding: 12px 0;
+  gap: 6px;
+  padding: 8px 0;
 }
 
 .movement-arrow {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 84px;
 }
 
 .movement-visual.up .movement-arrow {
