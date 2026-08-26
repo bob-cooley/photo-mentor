@@ -158,9 +158,12 @@ rather than inventing a reason.
    sidesteps all of that — no network call, no credentials, just a
    file already sitting in the checkout the job is running from.
 
-Usage isn't shown on the main dashboard — clicking the "bobboTrade"
-title in the header opens a small popup with month-to-date estimated
-cost, budget, call count, and when it last updated.
+Usage isn't surfaced in the UI at all — the self-tracked cost/call
+numbers can't be reconciled against Anthropic's own records without an
+Admin API key, which requires an Organization account (this one is
+personal, so that's unavailable). The tracking above still exists
+purely to drive the hourly gate and budget cap; check
+platform.claude.com/usage and /cost directly for the real numbers.
 
 ## Access control
 

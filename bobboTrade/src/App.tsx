@@ -26,7 +26,6 @@ import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
 import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
 import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
-import UsagePopup from "./components/UsagePopup";
 import "./App.css";
 
 // The data pipeline itself only refreshes every 5-60 min (see
@@ -47,7 +46,6 @@ export default function App() {
   const [insight, setInsight] = useState<InsightData | null>(null);
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
   const [loading, setLoading] = useState(true);
-  const [showUsage, setShowUsage] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -93,9 +91,7 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <div className="app-header-left">
-          <span className="app-title" onClick={() => setShowUsage(true)}>
-            bobboTrade
-          </span>
+          <span className="app-title">bobboTrade</span>
           <span className="app-ticker">{stock.ticker}</span>
         </div>
         <div className="app-header-right">
@@ -129,7 +125,6 @@ export default function App() {
           <InsightCard insight={insight} ticker={stock.ticker} market={market} />
         </section>
       </main>
-      {showUsage && <UsagePopup insight={insight} onClose={() => setShowUsage(false)} />}
     </div>
   );
 }
