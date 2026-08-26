@@ -24,6 +24,16 @@ means many days will have zero or few Finnhub items and the feed leans
 on the SEC-filings supplement — that's the correct tradeoff per the
 spec's own priority order (reliability over completeness), not a bug.
 
+CNBC was added to the allowlist on 2026-08-26 despite not being named
+in the spec's Tier-1 list: it's staff-reported network journalism (not
+syndicated/aggregated content), has no subscription-newsletter funnel
+biasing article framing the way Motley Fool does, and is rated by
+media-bias trackers as factually solid on straight news specifically
+(its TV commentary segments lean hype/entertainment, but that's not
+what a news API surfaces). It was also, empirically, one of only four
+sources Finnhub's free tier ever actually returns for MPC — the
+others (Benzinga, SeekingAlpha, Yahoo) stayed excluded.
+
 No API key required for SEC. SEC requests a descriptive User-Agent
 identifying the requester (see
 https://www.sec.gov/os/webmaster-faq#developers). Finnhub news requires
@@ -77,12 +87,13 @@ TIER_1_SOURCES = {
     "associated press",
     "ap",
     "ap news",
+    "cnbc",
 }
 # Long, distinctive names are also matched as a prefix (e.g. Finnhub
 # returning "Reuters.com" or "Bloomberg News") — short acronyms like
 # "wsj"/"ap" are exact-match only, since prefix-matching those would
 # false-positive on unrelated source names.
-TIER_1_PREFIXES = ("reuters", "bloomberg", "financial times", "wall street journal", "associated press")
+TIER_1_PREFIXES = ("reuters", "bloomberg", "financial times", "wall street journal", "associated press", "cnbc")
 
 
 def is_tier_1_source(source: str) -> bool:

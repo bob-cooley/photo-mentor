@@ -69,19 +69,29 @@ backend — not true streaming, but close during market hours.
   so that field is always null). Twelve Data gates its own
   `/recommendations` and `/price_target` to paid plans.
 - **News** — merged from two sources: Finnhub `/company-news`
-  (`FINNHUB_API_KEY`, free tier) filtered to Tier-1 sources only
-  (Reuters, Bloomberg, Financial Times, Wall Street Journal, Associated
-  Press — the build spec's explicit "ONLY use highly reliable sources"
-  rule, which excludes Yahoo Finance, Motley Fool, and generic
-  aggregators by name), and SEC EDGAR filings (no key required) as a
-  factual regulatory-event supplement. Finnhub's raw feed mixes Tier-1
-  wire content with exactly the sources the spec excludes, so every
-  item is checked against an allowlist (`is_tier_1_source()` in
-  `news.py`) before being kept — an unrecognized source is dropped by
-  default, not assumed acceptable. In practice this means many days
-  surface few or zero Finnhub items and the feed leans on the SEC
-  supplement; that's the intended tradeoff (reliability over
-  completeness), not a bug. Filing headlines/summaries are built from
+  (`FINNHUB_API_KEY`, free tier) filtered to an allowlist of Tier-1
+  sources (Reuters, Bloomberg, Financial Times, Wall Street Journal,
+  Associated Press — the build spec's explicit "ONLY use highly
+  reliable sources" rule, which excludes Yahoo Finance, Motley Fool, and
+  generic aggregators by name — plus CNBC, added despite not being
+  named in the spec since it's staff-reported network journalism, not
+  syndicated/aggregated content), and SEC EDGAR filings (no key
+  required) as a factual regulatory-event supplement. Finnhub's raw feed
+  mixes Tier-1 wire content with exactly the sources the spec excludes,
+  so every item is checked against an allowlist (`is_tier_1_source()`
+  in `news.py`) before being kept — an unrecognized source is dropped
+  by default, not assumed acceptable. Finnhub also tags real
+  Reuters/AP wire stories syndicated onto Yahoo's domain as plain
+  "Yahoo," so `detect_wire_partner()` does a one-shot best-effort fetch
+  of "Yahoo"-tagged articles (capped at 6/run) and checks for
+  Yahoo's own `yContentPartner` metadata or the classic wire dateline
+  ("(Reuters) -") to reclassify genuine wire content Finnhub mislabels.
+  In practice Reuters/Bloomberg/FT/WSJ/AP essentially never appear for
+  MPC even after that check (verified via a diagnostic log Finnhub
+  prints on every run), so most days the feed still leans on CNBC when
+  available or the SEC supplement; that's the intended tradeoff
+  (reliability over completeness), not a bug. Filing headlines/summaries
+  are built from
   each 8-K's actual `items` field (SEC's own event-type taxonomy)
   rather than a generic "8-K filed" placeholder. An Investor Relations
   RSS feed was tried as a second source early on; dropped after
