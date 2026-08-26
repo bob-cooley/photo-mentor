@@ -25,19 +25,17 @@ Cost control, in order of how much they actually protect you:
    Nothing below is a substitute for that; it's the real backstop.
 2. Structural: one non-agentic call per hour, never a loop.
 3. This script's own circuit breaker: tracks cumulative estimated
-   spend for the current calendar month (persisted by reading it back
-   from the live deployed site, since nothing else here persists
-   across CI runs) and refuses to call the API once AI_MONTHLY_BUDGET_USD
-   is reached, writing a "paused" state instead of calling anyway.
+   spend for the current calendar month (persisted as a small git-
+   committed state file, see load_usage_summary/write_usage_state) and
+   refuses to call the API once AI_MONTHLY_BUDGET_USD is reached,
+   writing a "paused" state instead of calling anyway.
 """
 from __future__ import annotations
 
 import json
-import os
 import sys
 from datetime import datetime, timezone
-
-import requests
+from pathlib import Path
 
 from common import OUTPUT_ROOT, get_required_env, load_stock_config, post, utc_now_iso, write_json
 
@@ -47,8 +45,10 @@ INPUT_PRICE_PER_MTOK = 1.00
 OUTPUT_PRICE_PER_MTOK = 5.00
 DEFAULT_MONTHLY_BUDGET_USD = 3.00
 
-LIVE_SITE_ROOT = "https://bobcooleyphoto.com/bobboTrade/"
-LIVE_SITE_BASE = LIVE_SITE_ROOT + "data"
+# Cross-run persistence for the usage/rate-limit state — see
+# load_usage_summary()'s docstring for why this is a plain git-committed
+# file rather than reading it back from the live site.
+STATE_DIR = Path(__file__).resolve().parent / "state"
 
 SYSTEM_PROMPT = """You help a non-trader understand why a stock they hold moved, in plain \
 language. You are given the day's price move, recent price history, energy/refinery \
@@ -77,67 +77,40 @@ def estimate_cost_usd(input_tokens: int, output_tokens: int) -> float:
     return (input_tokens / 1_000_000) * INPUT_PRICE_PER_MTOK + (output_tokens / 1_000_000) * OUTPUT_PRICE_PER_MTOK
 
 
-def load_usage_summary(ticker: str) -> dict:
-    """Cross-run persistence with no database: read back the usage summary
-    this same pipeline deployed last time, from the live site itself.
+def usage_state_path(ticker: str) -> Path:
+    return STATE_DIR / f"ai_usage_{ticker}.json"
 
-    The site is password-gated (see bobboTrade/public/gate.php) — without
-    a valid session cookie this fetch gets the login page's HTML back
-    instead of JSON. That happened silently for a while: `.json()` failed,
-    the broad except caught it, and every single run fell back to a fresh
-    zero state. That's worse than just a wrong displayed number — a reset
-    count means `lastCallHour` is also always None, so it never matches
-    the current hour, so the hourly gate in fetch_insight() never fires
-    either. Confirmed directly: three separate deploys inside the same
-    UTC hour each made a real, separate Claude API call. Logging in first
-    (BOBBOTRADE_SITE_PASSWORD) fixes both the display and the rate limit
-    at once, since they're read from the same value."""
+
+def load_usage_summary(ticker: str) -> dict:
+    """Cross-run persistence with no database. Two earlier approaches
+    both failed for real, not hypothetical, reasons: reading it back
+    from the live site required logging in over HTTP, and Cloudflare's
+    Bot Fight Mode blocks GitHub Actions' runner IPs with a JavaScript
+    challenge ("Just a moment...") that no header spoofing can pass
+    (confirmed directly — 3 separate deploys inside the same UTC hour
+    each made a real Claude call before this was caught). A direct-to-
+    origin bypass (skipping Cloudflare via Pair's own server hostname)
+    doesn't reach the real site either — Pair's plain-HTTP vhost for
+    this account serves a generic parking page, not bobboTrade's
+    content, even with the correct Host header.
+
+    So: no network call at all. This data (call count, token counts,
+    estimated cost) isn't sensitive — unlike the portfolio share count,
+    which deliberately stays off git entirely — so it's tracked as an
+    ordinary small file in this same repo checkout, committed back to
+    git at the end of a run that makes a real API call (see the
+    "Commit AI usage state" step in deploy.yml). Reading it is just a
+    local file read, no different from read_local_json() below."""
+    current_month = datetime.now(timezone.utc).strftime("%Y-%m")
+    path = usage_state_path(ticker)
     data = {}
-    site_password = os.environ.get("BOBBOTRADE_SITE_PASSWORD")
-    if not site_password:
-        print(
-            "[bobboTrade] BOBBOTRADE_SITE_PASSWORD not set — cannot read back prior AI usage. "
-            "The hourly gate and budget cap are BOTH effectively disabled until this is set.",
-            file=sys.stderr,
-        )
-    else:
-        # Cloudflare's Bot Fight Mode blocks this login from GitHub
-        # Actions' runner IPs (confirmed: 403 "Just a moment..." challenge
-        # page). CF_BYPASS_TOKEN is a dedicated secret (not the site
-        # password) matched by a Cloudflare Configuration Rule that skips
-        # Bot Fight Mode specifically for requests to /bobboTrade/ carrying
-        # this header — everything else on the site stays fully protected.
-        cf_bypass_token = os.environ.get("CF_BYPASS_TOKEN")
-        bypass_headers = {"X-Pipeline-Secret": cf_bypass_token} if cf_bypass_token else {}
+    if path.exists():
         try:
-            session = requests.Session()
-            session.headers.update(bypass_headers)
-            login_resp = session.post(LIVE_SITE_ROOT, data={"password": site_password}, timeout=10)
-            resp = session.get(f"{LIVE_SITE_BASE}/{ticker}/ai_usage.json", timeout=10)
-            data = resp.json()
-        except Exception as exc:  # noqa: BLE001 — fall back to zero rather than kill the run
-            # Diagnostic: this exact fetch works from a residential IP
-            # (verified manually) but failed from CI on the first deploy
-            # after adding it — print enough to tell a Cloudflare
-            # bot-detection block (matches the EIA-blocking precedent
-            # elsewhere in this pipeline) apart from a real login/logic
-            # bug before guessing at a fix.
-            print(f"[bobboTrade] Failed to read back prior AI usage, falling back to zero: {exc}", file=sys.stderr)
-            try:
-                print(
-                    f"[bobboTrade]   login POST: status={login_resp.status_code} "
-                    f"body[:200]={login_resp.text[:200]!r}",
-                    file=sys.stderr,
-                )
-                print(
-                    f"[bobboTrade]   usage GET: status={resp.status_code} body[:200]={resp.text[:200]!r}",
-                    file=sys.stderr,
-                )
-            except NameError:
-                print("[bobboTrade]   (request itself never completed — see exception above)", file=sys.stderr)
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"[bobboTrade] Failed to read AI usage state ({path}), falling back to zero: {exc}", file=sys.stderr)
             data = {}
 
-    current_month = datetime.now(timezone.utc).strftime("%Y-%m")
     if data.get("month") != current_month:
         return {
             "month": current_month,
@@ -155,6 +128,11 @@ def load_usage_summary(ticker: str) -> dict:
         "estimatedCostUsd": data.get("estimatedCostUsd", 0.0),
         "lastCallHour": data.get("lastCallHour"),
     }
+
+
+def write_usage_state(ticker: str, usage: dict) -> None:
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    usage_state_path(ticker).write_text(json.dumps(usage, indent=2))
 
 
 def build_user_message(ticker: str, config: dict, market: dict | None, energy: dict | None, news: dict | None) -> str:
@@ -269,6 +247,7 @@ def fetch_insight(ticker: str) -> dict:
     usage["estimatedCostUsd"] = round(usage["estimatedCostUsd"] + estimate_cost_usd(input_tokens, output_tokens), 6)
     usage["lastCallHour"] = current_hour
     write_json(ticker, "ai_usage.json", usage)
+    write_usage_state(ticker, usage)
 
     return {
         "ticker": ticker,

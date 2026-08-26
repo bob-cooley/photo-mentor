@@ -132,23 +132,34 @@ rather than inventing a reason.
 1. **The Anthropic Console spend cap is the real backstop** — set a
    hard monthly limit at console.anthropic.com → Settings → Billing.
    Nothing below substitutes for this.
-2. **Structural**: one non-agentic call per hour (gated on
-   `minute() == 0`, even though the rest of the pipeline runs every
-   5 min during market hours) — never a loop, so there's a hard
-   ceiling on call volume (≤720/month) regardless of any bug.
+2. **Structural**: one non-agentic call per hour (gated by comparing
+   the current hour against the last successful call's hour, not
+   wall-clock `minute() == 0` — the cron fires at `:00` but job
+   startup overhead means the script itself usually runs a bit past
+   that), even though the rest of the pipeline runs every 5 min during
+   market hours — never a loop, so there's a hard ceiling on call
+   volume (≤720/month) regardless of any bug.
 3. **A self-imposed circuit breaker** in `ai_insight.py`: tracks
    cumulative estimated spend for the current calendar month and
    refuses to call the API once `AI_MONTHLY_BUDGET_USD` (default
    $3.00) is reached, writing a `"paused_budget"` state instead of
-   calling anyway. State persists across CI runs with no database —
-   each run reads back the usage summary it deployed live last time
-   (`public/data/<TICKER>/ai_usage.json`) rather than committing
-   anything to git.
+   calling anyway. State (call count, token counts, estimated cost)
+   persists as a small git-committed file
+   (`data/fetch/state/ai_usage_<TICKER>.json`, committed by the
+   "Commit AI usage state" step in `deploy.yml` with `[skip ci]` so it
+   doesn't re-trigger the workflow) rather than a database. Two earlier
+   approaches — reading it back from the live site over HTTP, and a
+   direct-to-origin bypass around Cloudflare — both failed for real
+   reasons specific to this host (Bot Fight Mode's JS challenge can't
+   be passed by a script; Pair's plain-HTTP vhost for this account
+   doesn't serve the real site). This data isn't sensitive the way the
+   portfolio share count is, so tracking it as an ordinary git file
+   sidesteps all of that — no network call, no credentials, just a
+   file already sitting in the checkout the job is running from.
 
-The dashboard shows month-to-date estimated cost and call count as a
-small footer line under the insight text — real per-call cost is
-roughly $0.001, so the display uses 4 decimal places rather than
-rounding to a reassurance-defeating "$0.00".
+Usage isn't shown on the main dashboard — clicking the "bobboTrade"
+title in the header opens a small popup with month-to-date estimated
+cost, budget, call count, and when it last updated.
 
 ## Access control
 
@@ -170,13 +181,11 @@ Basic Auth's browser-native dialog can't be restyled and has no page
 content behind it (the server returns 401 before sending anything) —
 neither the show/hide toggle nor a background animation is possible
 with it. To change the login password: `htpasswd -nbBC 12 <user>
-<new-password>`, paste the resulting hash into `PASSWORD_HASH` in
-`gate.php`, **and** update the `BOBBOTRADE_SITE_PASSWORD` GitHub secret
-to match — `ai_insight.py` logs into the site with that secret to read
-back its own prior usage (see "AI insight" above); if the two fall out
-of sync, the hourly rate limit and the budget cap both silently stop
-working rather than erroring loudly (this happened for real once —
-worth checking after any password change).
+<new-password>` and paste the resulting hash into `PASSWORD_HASH` in
+`gate.php`. (`ai_insight.py` used to log into the site to read back its
+own prior usage and needed a matching secret kept in sync with this
+password — that approach was abandoned, see "AI insight" above, so
+there's no longer a second place to update.)
 
 ## Portfolio persistence
 
