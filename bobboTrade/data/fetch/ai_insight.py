@@ -103,11 +103,29 @@ def load_usage_summary(ticker: str) -> dict:
     else:
         try:
             session = requests.Session()
-            session.post(LIVE_SITE_ROOT, data={"password": site_password}, timeout=10)
+            login_resp = session.post(LIVE_SITE_ROOT, data={"password": site_password}, timeout=10)
             resp = session.get(f"{LIVE_SITE_BASE}/{ticker}/ai_usage.json", timeout=10)
             data = resp.json()
         except Exception as exc:  # noqa: BLE001 — fall back to zero rather than kill the run
+            # Diagnostic: this exact fetch works from a residential IP
+            # (verified manually) but failed from CI on the first deploy
+            # after adding it — print enough to tell a Cloudflare
+            # bot-detection block (matches the EIA-blocking precedent
+            # elsewhere in this pipeline) apart from a real login/logic
+            # bug before guessing at a fix.
             print(f"[bobboTrade] Failed to read back prior AI usage, falling back to zero: {exc}", file=sys.stderr)
+            try:
+                print(
+                    f"[bobboTrade]   login POST: status={login_resp.status_code} "
+                    f"body[:200]={login_resp.text[:200]!r}",
+                    file=sys.stderr,
+                )
+                print(
+                    f"[bobboTrade]   usage GET: status={resp.status_code} body[:200]={resp.text[:200]!r}",
+                    file=sys.stderr,
+                )
+            except NameError:
+                print("[bobboTrade]   (request itself never completed — see exception above)", file=sys.stderr)
             data = {}
 
     current_month = datetime.now(timezone.utc).strftime("%Y-%m")
