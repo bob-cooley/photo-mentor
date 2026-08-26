@@ -106,6 +106,23 @@ def generate_news(ticker: str) -> dict:
             "relevance": 1.0,
         },
         {
+            "id": "mock-energy-0",
+            "headline": "Oil prices dip as traders weigh supply outlook",
+            "summary": "Crude futures slipped Tuesday amid mixed signals on global supply.",
+            "source": "CNBC",
+            "url": "https://www.cnbc.com/",
+            "fullText": (
+                "Crude oil futures slipped Tuesday as traders weighed mixed signals on global "
+                "supply, with West Texas Intermediate down about 1.5% in afternoon trading.\n\n"
+                "This is placeholder mock text for local development — the real pipeline pulls "
+                "genuine energy-sector reporting from CNBC's public Energy RSS feed, which isn't "
+                "ticker-scoped: it covers crude prices, OPEC, and geopolitical events that move a "
+                "refiner's stock without ever mentioning the company by name."
+            ),
+            "publishedAt": (now - timedelta(hours=14)).isoformat(),
+            "relevance": 0.85,
+        },
+        {
             "id": "mock-1",
             "headline": f"{config['name']}: Quarterly Report",
             "summary": "Quarterly report for the period ended 2026-06-30.",

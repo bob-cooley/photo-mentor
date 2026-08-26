@@ -8,7 +8,7 @@ export default function NewsColumn({ news, loading }: { news: NewsData | null; l
 
   return (
     <div className="card news-card">
-      <h2 className="card-title">Company News</h2>
+      <h2 className="card-title">Market News</h2>
       {loading && (
         <div className="news-list">
           {[0, 1, 2, 3].map((i) => (

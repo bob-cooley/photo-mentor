@@ -47,18 +47,36 @@ else (see below) — if a MarketWatch- or CNBC-hosted piece turns out to
 actually be a Reuters/AP wire dispatch, the wire service is credited
 as the source, not the hosting outlet.
 
-No API key required for SEC. SEC requests a descriptive User-Agent
-identifying the requester (see
+This module was originally scoped to ticker-specific news only
+(Finnhub's `company-news` endpoint only returns articles that mention
+MPC by name), which quietly narrowed the original ask: "articles that
+relate to why the market is for the day, and why they influence the
+stock behaviour." A refiner's stock moves on crude price/OPEC/
+geopolitical events that never mention "Marathon Petroleum" — a real
+example that surfaced this gap: a CNBC story about Iran-Oman Hormuz
+revenue-sharing talks moving oil prices, with zero MPC-specific
+mention, that a ticker-scoped feed would never have shown. Added
+`fetch_energy_sector_news()`, pulling CNBC's public Energy topic RSS
+feed (`CNBC_ENERGY_RSS`, no key, no login) alongside the ticker-scoped
+Finnhub feed — same Tier-1/full-text/wire-detection treatment, just not
+limited to headlines that happen to say "MPC."
+
+No API key required for SEC or the CNBC RSS feed. SEC requests a
+descriptive User-Agent identifying the requester (see
 https://www.sec.gov/os/webmaster-faq#developers). Finnhub news requires
 FINNHUB_API_KEY (already configured for analyst.py); if missing, this
-module falls back to SEC filings only rather than failing outright.
+module falls back to SEC filings and energy-sector news only rather
+than failing outright.
 """
 from __future__ import annotations
 
+import hashlib
 import os
 import re
 import sys
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from xml.etree import ElementTree
 
 import requests
 import trafilatura
@@ -138,6 +156,14 @@ MAX_ARTICLES = 10
 # or years ago just because Tier-1 news coverage is thin that day. A
 # shorter, genuinely-recent list reads better than a long stale one.
 SEC_MAX_ARTICLES = 3
+
+# CNBC's public Energy topic feed — real reporting, no key, no login.
+# Finnhub's company-news is ticker-scoped and only returns articles that
+# mention MPC by name; it will never surface a crude-price/OPEC/
+# geopolitical story that actually explains a refiner's price move just
+# because the story never says "Marathon Petroleum." This fills that gap.
+CNBC_ENERGY_RSS = "https://www.cnbc.com/id/19836768/device/rss/rss.html"
+ENERGY_NEWS_LOOKBACK_DAYS = 5
 
 # Standard SEC Form 8-K item taxonomy (17 CFR 249.308), in plain
 # language rather than the official legal phrasing — the target reader
@@ -314,6 +340,77 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     return articles
 
 
+def fetch_energy_sector_news() -> list[dict]:
+    """CNBC's public Energy topic RSS — real crude-price/OPEC/geopolitical
+    reporting that explains refiner-sector price movement even when it
+    never mentions MPC by name. Not ticker-scoped, so no `symbol` param —
+    same feed regardless of which stock this pipeline is running for.
+    Items already come from a Tier-1 outlet (CNBC), but still run through
+    detect_wire_partner() for the same reason ticker-scoped CNBC items do:
+    a wire dispatch republished on CNBC's own energy desk should still be
+    credited to Reuters/AP, not CNBC, if that's genuinely who wrote it."""
+    try:
+        resp = requests.get(CNBC_ENERGY_RSS, headers={"User-Agent": WIRE_PROBE_USER_AGENT}, timeout=WIRE_PROBE_TIMEOUT)
+        resp.raise_for_status()
+        root = ElementTree.fromstring(resp.content)
+    except (requests.exceptions.RequestException, ElementTree.ParseError) as exc:
+        print(f"[bobboTrade] CNBC Energy RSS fetch failed: {exc}", file=sys.stderr)
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=ENERGY_NEWS_LOOKBACK_DAYS)
+    raw_items = []
+    for item in root.findall(".//item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date_raw = item.findtext("pubDate")
+        description = (item.findtext("description") or "").strip()
+        if not title or not link or not pub_date_raw:
+            continue
+        try:
+            pub_date = parsedate_to_datetime(pub_date_raw)
+            if pub_date.tzinfo is None:
+                pub_date = pub_date.replace(tzinfo=timezone.utc)
+        except (TypeError, ValueError):
+            continue
+        if pub_date < cutoff:
+            continue
+        raw_items.append((title, link, pub_date.astimezone(timezone.utc), description))
+
+    articles = []
+    wire_probes_used = 0
+    full_text_fetches = 0
+    for title, link, pub_date, description in raw_items:
+        source = "CNBC"
+        url = link
+        if wire_probes_used < MAX_WIRE_PROBES_PER_RUN:
+            wire_probes_used += 1
+            partner, resolved_url = detect_wire_partner(url)
+            if partner is not None and partner.strip().lower() != "cnbc":
+                source = partner
+                url = resolved_url
+
+        full_text = None
+        if url and full_text_fetches < MAX_FULL_TEXT_FETCHES_PER_RUN:
+            full_text_fetches += 1
+            full_text = fetch_full_text(url)
+
+        articles.append(
+            {
+                "id": f"cnbc-energy-{hashlib.sha1(link.encode()).hexdigest()[:12]}",
+                "headline": title,
+                "summary": description[:280],
+                "source": source,
+                "url": url,
+                "fullText": full_text,
+                "publishedAt": pub_date.isoformat(),
+                "relevance": 0.85,
+            }
+        )
+
+    print(f"[bobboTrade] CNBC Energy RSS: {len(raw_items)} items within {ENERGY_NEWS_LOOKBACK_DAYS}d window kept.")
+    return articles
+
+
 def fetch_sec_filings(cik: str) -> list[dict]:
     resp = get(
         f"https://data.sec.gov/submissions/CIK{cik}.json",
@@ -367,7 +464,12 @@ def fetch_news(ticker: str) -> dict:
         except Exception as exc:  # noqa: BLE001 — one source failing shouldn't kill the module
             print(f"[bobboTrade] Finnhub company news fetch failed for {ticker}: {exc}", file=sys.stderr)
     else:
-        print(f"[bobboTrade] FINNHUB_API_KEY not set — news falling back to SEC filings only.", file=sys.stderr)
+        print(f"[bobboTrade] FINNHUB_API_KEY not set — skipping ticker-scoped news.", file=sys.stderr)
+
+    try:
+        articles += fetch_energy_sector_news()
+    except Exception as exc:  # noqa: BLE001 — one source failing shouldn't kill the module
+        print(f"[bobboTrade] CNBC Energy RSS fetch failed for {ticker}: {exc}", file=sys.stderr)
 
     try:
         articles += fetch_sec_filings(config["cik"])
@@ -375,11 +477,14 @@ def fetch_news(ticker: str) -> dict:
         print(f"[bobboTrade] SEC EDGAR fetch failed for {ticker}: {exc}", file=sys.stderr)
 
     articles.sort(key=lambda a: a["publishedAt"], reverse=True)
+    kept = articles[:MAX_ARTICLES]
+    kept_sources = sorted({a["source"] for a in kept})
+    print(f"[bobboTrade] News for {ticker}: {len(kept)} total kept ({kept_sources}).")
 
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
-        "articles": articles[:MAX_ARTICLES],
+        "articles": kept,
     }
 
 

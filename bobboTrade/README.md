@@ -68,32 +68,39 @@ backend — not true streaming, but close during market hours.
   (recommendation trends only; price target is paid-tier on Finnhub,
   so that field is always null). Twelve Data gates its own
   `/recommendations` and `/price_target` to paid plans.
-- **News** — merged from two sources: Finnhub `/company-news`
-  (`FINNHUB_API_KEY`, free tier) filtered to an allowlist of Tier-1
-  sources (Reuters, Bloomberg, Financial Times, Wall Street Journal,
-  Associated Press — the build spec's explicit "ONLY use highly
-  reliable sources" rule, which excludes Yahoo Finance, Motley Fool, and
-  generic aggregators by name — plus CNBC and MarketWatch, added despite
+- **News** ("Market News" card) — merged from three sources: Finnhub
+  `/company-news` (`FINNHUB_API_KEY`, free tier, ticker-scoped), CNBC's
+  public Energy topic RSS (no key, not ticker-scoped), and SEC EDGAR
+  filings (no key required) as a factual regulatory-event supplement.
+  The Finnhub feed alone quietly narrowed this module's actual goal —
+  "articles that relate to why the market is for the day, and why they
+  influence the stock behaviour" — to only stories that mention MPC by
+  name, which misses the crude-price/OPEC/geopolitical stories that
+  actually move a refiner's stock without ever saying "Marathon
+  Petroleum." `fetch_energy_sector_news()` closes that gap.
+  Both news sources are filtered to an allowlist of Tier-1 sources
+  (Reuters, Bloomberg, Financial Times, Wall Street Journal, Associated
+  Press — the build spec's explicit "ONLY use highly reliable sources"
+  rule, which excludes Yahoo Finance, Motley Fool, and generic
+  aggregators by name — plus CNBC and MarketWatch, added despite
   not being named in the spec since both are staff-reported newsrooms
   with no subscription-newsletter funnel biasing article framing, unlike
-  Benzinga/SeekingAlpha which stayed excluded), and SEC EDGAR filings
-  (no key required) as a factual regulatory-event supplement. Finnhub's
-  raw feed mixes Tier-1 wire content with exactly the sources the spec
-  excludes, so every item is checked against an allowlist
-  (`is_tier_1_source()` in `news.py`) before being kept — an
-  unrecognized source is dropped by default, not assumed acceptable.
-  Finnhub also tags real Reuters/AP wire stories syndicated onto another
-  outlet's domain (Yahoo especially, but any outlet can run a wire
-  dispatch) with that domain's name, so `detect_wire_partner()` does a
-  one-shot best-effort fetch of every Tier-1 candidate (capped at
-  10/run) and checks for Yahoo's own `yContentPartner` metadata or the
-  classic wire dateline ("(Reuters) -") to credit the real primary
-  source instead of the hosting outlet. In practice Reuters/Bloomberg/
-  FT/WSJ/AP essentially never appear for MPC even after that check
-  (verified via a diagnostic log Finnhub prints on every run), so most
-  days the feed leans on CNBC/MarketWatch when available or the SEC
-  supplement; that's the intended tradeoff (reliability over
-  completeness), not a bug. SEC filings are capped at
+  Benzinga/SeekingAlpha which stayed excluded). Finnhub's raw feed mixes
+  Tier-1 wire content with exactly the sources the spec excludes, so
+  every item is checked against an allowlist (`is_tier_1_source()` in
+  `news.py`) before being kept — an unrecognized source is dropped by
+  default, not assumed acceptable. Both sources also tag real Reuters/AP
+  wire stories syndicated onto another outlet's domain (Yahoo
+  especially, but any outlet can run a wire dispatch) with that domain's
+  name, so `detect_wire_partner()` does a one-shot best-effort fetch of
+  every Tier-1 candidate (capped at 10/run) and checks for Yahoo's own
+  `yContentPartner` metadata or the classic wire dateline ("(Reuters)
+  -") to credit the real primary source instead of the hosting outlet.
+  In practice Reuters/Bloomberg/FT/WSJ/AP essentially never appear for
+  MPC specifically even after that check (verified via a diagnostic log
+  Finnhub prints on every run), so ticker-scoped news mostly leans on
+  CNBC/MarketWatch when available; the energy-sector feed fills in the
+  rest most days. SEC filings are capped at
   `SEC_MAX_ARTICLES` (3) — a much lower limit than the card's overall
   cap — so the feed doesn't pad itself out with filings from months or
   years ago just because Tier-1 news is thin that day; a short,
