@@ -34,6 +34,19 @@ what a news API surfaces). It was also, empirically, one of only four
 sources Finnhub's free tier ever actually returns for MPC — the
 others (Benzinga, SeekingAlpha, Yahoo) stayed excluded.
 
+MarketWatch was added the same day on the same reasoning: Dow Jones-
+owned (same parent as WSJ), staff-reported, no newsletter-funnel bias.
+Benzinga and SeekingAlpha were deliberately left out even though they
+show up constantly in the raw feed — Benzinga leans high-volume
+press-release/reactive-headline wire rather than a newsroom, and
+SeekingAlpha is contributor-opinion, not staff journalism; both are
+closer in kind to what the spec's "clickbait"/"generic aggregator"
+language is aimed at than to CNBC or MarketWatch. Both new sources go
+through the exact same `detect_wire_partner()` check as everything
+else (see below) — if a MarketWatch- or CNBC-hosted piece turns out to
+actually be a Reuters/AP wire dispatch, the wire service is credited
+as the source, not the hosting outlet.
+
 No API key required for SEC. SEC requests a descriptive User-Agent
 identifying the requester (see
 https://www.sec.gov/os/webmaster-faq#developers). Finnhub news requires
@@ -95,12 +108,21 @@ TIER_1_SOURCES = {
     "ap",
     "ap news",
     "cnbc",
+    "marketwatch",
 }
 # Long, distinctive names are also matched as a prefix (e.g. Finnhub
 # returning "Reuters.com" or "Bloomberg News") — short acronyms like
 # "wsj"/"ap" are exact-match only, since prefix-matching those would
 # false-positive on unrelated source names.
-TIER_1_PREFIXES = ("reuters", "bloomberg", "financial times", "wall street journal", "associated press", "cnbc")
+TIER_1_PREFIXES = (
+    "reuters",
+    "bloomberg",
+    "financial times",
+    "wall street journal",
+    "associated press",
+    "cnbc",
+    "marketwatch",
+)
 
 
 def is_tier_1_source(source: str) -> bool:

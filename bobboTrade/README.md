@@ -73,24 +73,27 @@ backend — not true streaming, but close during market hours.
   sources (Reuters, Bloomberg, Financial Times, Wall Street Journal,
   Associated Press — the build spec's explicit "ONLY use highly
   reliable sources" rule, which excludes Yahoo Finance, Motley Fool, and
-  generic aggregators by name — plus CNBC, added despite not being
-  named in the spec since it's staff-reported network journalism, not
-  syndicated/aggregated content), and SEC EDGAR filings (no key
-  required) as a factual regulatory-event supplement. Finnhub's raw feed
-  mixes Tier-1 wire content with exactly the sources the spec excludes,
-  so every item is checked against an allowlist (`is_tier_1_source()`
-  in `news.py`) before being kept — an unrecognized source is dropped
-  by default, not assumed acceptable. Finnhub also tags real
-  Reuters/AP wire stories syndicated onto Yahoo's domain as plain
-  "Yahoo," so `detect_wire_partner()` does a one-shot best-effort fetch
-  of "Yahoo"-tagged articles (capped at 6/run) and checks for
-  Yahoo's own `yContentPartner` metadata or the classic wire dateline
-  ("(Reuters) -") to reclassify genuine wire content Finnhub mislabels.
-  In practice Reuters/Bloomberg/FT/WSJ/AP essentially never appear for
-  MPC even after that check (verified via a diagnostic log Finnhub
-  prints on every run), so most days the feed leans on CNBC when
-  available or the SEC supplement; that's the intended tradeoff
-  (reliability over completeness), not a bug. SEC filings are capped at
+  generic aggregators by name — plus CNBC and MarketWatch, added despite
+  not being named in the spec since both are staff-reported newsrooms
+  with no subscription-newsletter funnel biasing article framing, unlike
+  Benzinga/SeekingAlpha which stayed excluded), and SEC EDGAR filings
+  (no key required) as a factual regulatory-event supplement. Finnhub's
+  raw feed mixes Tier-1 wire content with exactly the sources the spec
+  excludes, so every item is checked against an allowlist
+  (`is_tier_1_source()` in `news.py`) before being kept — an
+  unrecognized source is dropped by default, not assumed acceptable.
+  Finnhub also tags real Reuters/AP wire stories syndicated onto another
+  outlet's domain (Yahoo especially, but any outlet can run a wire
+  dispatch) with that domain's name, so `detect_wire_partner()` does a
+  one-shot best-effort fetch of every Tier-1 candidate (capped at
+  10/run) and checks for Yahoo's own `yContentPartner` metadata or the
+  classic wire dateline ("(Reuters) -") to credit the real primary
+  source instead of the hosting outlet. In practice Reuters/Bloomberg/
+  FT/WSJ/AP essentially never appear for MPC even after that check
+  (verified via a diagnostic log Finnhub prints on every run), so most
+  days the feed leans on CNBC/MarketWatch when available or the SEC
+  supplement; that's the intended tradeoff (reliability over
+  completeness), not a bug. SEC filings are capped at
   `SEC_MAX_ARTICLES` (3) — a much lower limit than the card's overall
   cap — so the feed doesn't pad itself out with filings from months or
   years ago just because Tier-1 news is thin that day; a short,
