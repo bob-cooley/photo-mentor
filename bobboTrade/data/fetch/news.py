@@ -1,5 +1,6 @@
-"""Build the news module from real aggregated news (Finnhub company-news)
-plus SEC EDGAR filings as a factual regulatory-event supplement.
+"""Build the news module from real aggregated news (Finnhub company-news,
+filtered to Tier-1 sources) plus SEC EDGAR filings as a factual
+regulatory-event supplement.
 
 v1 of this module was SEC-only: an Investor Relations RSS feed was the
 original second source, but MPC's IR site (and most companies' IR
@@ -7,11 +8,21 @@ sites, generally) sits behind a Cloudflare bot challenge that returns a
 JS interstitial to any scripted client, key or no key. That got dropped,
 and at the time no free wire-service aggregation API seemed to exist —
 but that survey missed Finnhub's own `/company-news` endpoint, which is
-free-tier and already in use here for analyst.py. It returns real
-articles (headline, publisher, URL) aggregated from actual news
-sources, which is what actually explains a given day's price move —
-SEC filings alone don't. Both sources are merged and sorted by
-publish time; SEC filings no longer carry the whole feed.
+free-tier and already in use here for analyst.py.
+
+The build spec's News Requirements are a hard, explicit rule: "ONLY use
+highly reliable sources," naming Reuters/Bloomberg/Financial
+Times/Wall Street Journal/Associated Press as Tier 1 and explicitly
+excluding Yahoo Finance, Motley Fool, generic aggregators, and clickbait
+financial sites. Finnhub's raw feed mixes both — real wire content next
+to exactly the sources the spec excludes — so every Finnhub item is
+filtered through `is_tier_1_source()` before it's kept. This is an
+allowlist, not just a blocklist of the four named examples: an
+unrecognized source (Benzinga, Zacks, a press-release wire, etc.) is
+dropped by default rather than assumed acceptable. In practice this
+means many days will have zero or few Finnhub items and the feed leans
+on the SEC-filings supplement — that's the correct tradeoff per the
+spec's own priority order (reliability over completeness), not a bug.
 
 No API key required for SEC. SEC requests a descriptive User-Agent
 identifying the requester (see
@@ -28,6 +39,33 @@ from common import get, load_stock_config, utc_now_iso, write_json
 SEC_USER_AGENT = "bobboTrade dashboard (bob@bobcooleyphoto.com)"
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 NEWS_LOOKBACK_DAYS = 10
+
+# Spec's Tier-1 preferred sources (News Requirements section), normalized
+# to lowercase for matching against whatever casing/punctuation Finnhub
+# happens to return in its "source" field.
+TIER_1_SOURCES = {
+    "reuters",
+    "bloomberg",
+    "financial times",
+    "wall street journal",
+    "the wall street journal",
+    "wsj",
+    "associated press",
+    "ap",
+    "ap news",
+}
+# Long, distinctive names are also matched as a prefix (e.g. Finnhub
+# returning "Reuters.com" or "Bloomberg News") — short acronyms like
+# "wsj"/"ap" are exact-match only, since prefix-matching those would
+# false-positive on unrelated source names.
+TIER_1_PREFIXES = ("reuters", "bloomberg", "financial times", "wall street journal", "associated press")
+
+
+def is_tier_1_source(source: str) -> bool:
+    normalized = source.strip().lower()
+    if normalized in TIER_1_SOURCES:
+        return True
+    return any(normalized.startswith(prefix) for prefix in TIER_1_PREFIXES)
 
 MATERIAL_FORMS = {"8-K", "10-Q", "10-K"}
 MAX_ARTICLES = 10
@@ -99,14 +137,15 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     for item in items:
         headline = item.get("headline")
         published = item.get("datetime")
-        if not headline or not published:
+        source = item.get("source") or ""
+        if not headline or not published or not is_tier_1_source(source):
             continue
         articles.append(
             {
                 "id": f"finnhub-{item.get('id', published)}",
                 "headline": headline,
                 "summary": (item.get("summary") or "")[:280],
-                "source": item.get("source") or "News",
+                "source": source,
                 "url": item.get("url", ""),
                 "publishedAt": datetime.fromtimestamp(published, tz=timezone.utc).isoformat(),
                 "relevance": 1.0,
