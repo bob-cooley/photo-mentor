@@ -127,6 +127,26 @@ small footer line under the insight text — real per-call cost is
 roughly $0.001, so the display uses 4 decimal places rather than
 rounding to a reassurance-defeating "$0.00".
 
+## Access control
+
+This is a private 2-person tool (portfolio share count, and eventually
+scraped article text), not a public app, but it's deployed to a real
+public URL with no built-in host-level access control. `public/gate.php`
+is a PHP front controller that every request under `/bobboTrade/` is
+routed through (see the `RewriteRule` in `public/.htaccess`) — it gates
+the app shell, the JS/CSS bundle, and the static JSON data underneath
+it, not just an HTML landing page. Unauthenticated requests get a
+custom login page (password field with a show/hide toggle, an animated
+background chart); a correct password sets a 90-day session cookie.
+
+This replaced an earlier HTTP Basic Auth version specifically because
+Basic Auth's browser-native dialog can't be restyled and has no page
+content behind it (the server returns 401 before sending anything) —
+neither the show/hide toggle nor a background animation is possible
+with it. To change the login password: `htpasswd -nbBC 12 <user>
+<new-password>` and paste the resulting hash into `PASSWORD_HASH` in
+`gate.php`.
+
 ## Local development
 
 ```bash

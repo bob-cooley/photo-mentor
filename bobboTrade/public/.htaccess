@@ -2,22 +2,13 @@
   Header set X-Robots-Tag "noindex, nofollow, noarchive"
 </IfModule>
 
-# Private family dashboard — protects the app AND the static JSON data
-# (portfolio share count, scraped article text) sitting under this same
-# path, not just the HTML shell.
-AuthType Basic
-AuthName "bobboTrade"
-AuthUserFile /usr/home/bobcooley/public_html/bobcooleyphoto/bobboTrade/.htpasswd
-Require valid-user
-
-# Belt-and-suspenders: most Apache configs already deny dotfiles by
-# default, but don't rely on that being true on every host.
-<FilesMatch "^\.(htaccess|htpasswd)$">
-  <IfModule mod_authz_core.c>
-    Require all denied
-  </IfModule>
-  <IfModule !mod_authz_core.c>
-    Order allow,deny
-    Deny from all
-  </IfModule>
-</FilesMatch>
+# Private family dashboard — every request (app shell, JS/CSS bundle,
+# and the static JSON data underneath) is routed through gate.php's PHP
+# session check before anything is served. Replaces HTTP Basic Auth,
+# which couldn't support a custom login page (browser-native auth
+# dialogs can't be restyled, and nothing renders behind them since the
+# server returns 401 before any page content is sent).
+RewriteEngine On
+RewriteBase /bobboTrade/
+RewriteCond %{REQUEST_URI} !^/bobboTrade/gate\.php$
+RewriteRule ^(.*)$ /bobboTrade/gate.php [L,QSA]
