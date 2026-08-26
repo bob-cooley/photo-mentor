@@ -153,6 +153,12 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
         )
         if len(articles) >= MAX_ARTICLES:
             break
+
+    raw_sources = sorted({item.get("source") or "?" for item in items})
+    print(
+        f"[bobboTrade] Finnhub company-news for {ticker}: {len(items)} raw articles, "
+        f"{len(articles)} passed Tier-1 filter. Raw sources seen: {raw_sources}"
+    )
     return articles
 
 
