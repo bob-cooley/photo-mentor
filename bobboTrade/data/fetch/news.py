@@ -244,7 +244,7 @@ def detect_wire_partner(url: str) -> tuple[str | None, str]:
     if match:
         return match.group(1), resolved_url
 
-    return None, url
+    return None, resolved_url
 
 
 FULL_TEXT_TIMEOUT = 10
@@ -296,15 +296,14 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
         if url and wire_probes_used < MAX_WIRE_PROBES_PER_RUN:
             wire_probes_used += 1
             partner, resolved_url = detect_wire_partner(url)
-            if partner is not None:
-                if partner.strip().lower() != source.strip().lower():
-                    reclassified += 1
+            if partner is not None and partner.strip().lower() != source.strip().lower():
+                reclassified += 1
                 source = partner
-                url = resolved_url
-            elif not already_tier1:
+            elif partner is None and not already_tier1:
                 continue  # Yahoo item with no detected primary source — drop, don't guess
-            # else: already Tier-1 (e.g. CNBC) with no wire byline found — the outlet
-            # itself is the primary source, keep its own label.
+            # else: already Tier-1 (e.g. CNBC) with no more-primary wire byline found — the
+            # outlet itself is the primary source, keep its own label.
+            url = resolved_url  # always take the resolved URL, not Finnhub's redirect link
         elif not already_tier1:
             continue  # Yahoo item but probe budget exhausted — can't verify, don't guess
 
@@ -476,10 +475,27 @@ def fetch_news(ticker: str) -> dict:
     except Exception as exc:  # noqa: BLE001 — one source failing shouldn't kill the module
         print(f"[bobboTrade] SEC EDGAR fetch failed for {ticker}: {exc}", file=sys.stderr)
 
-    articles.sort(key=lambda a: a["publishedAt"], reverse=True)
-    kept = articles[:MAX_ARTICLES]
+    # The ticker-scoped and energy-sector feeds can both independently pick
+    # up the same real story (e.g. a piece that's both about MPC and about
+    # the broader oil market) — dedupe by normalized headline before
+    # sorting, since the two copies can carry different URLs (a Finnhub
+    # redirect vs. a direct link) even though it's the same article.
+    seen_headlines = set()
+    deduped = []
+    for article in articles:
+        key = re.sub(r"\s+", " ", article["headline"].strip().lower())
+        if key in seen_headlines:
+            continue
+        seen_headlines.add(key)
+        deduped.append(article)
+
+    deduped.sort(key=lambda a: a["publishedAt"], reverse=True)
+    kept = deduped[:MAX_ARTICLES]
     kept_sources = sorted({a["source"] for a in kept})
-    print(f"[bobboTrade] News for {ticker}: {len(kept)} total kept ({kept_sources}).")
+    print(
+        f"[bobboTrade] News for {ticker}: {len(articles)} candidates, "
+        f"{len(articles) - len(deduped)} duplicate(s) dropped, {len(kept)} kept ({kept_sources})."
+    )
 
     return {
         "ticker": ticker,
