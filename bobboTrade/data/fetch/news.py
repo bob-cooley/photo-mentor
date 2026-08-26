@@ -56,22 +56,28 @@ SEC_USER_AGENT = "bobboTrade dashboard (bob@bobcooleyphoto.com)"
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 NEWS_LOOKBACK_DAYS = 10
 
-# Yahoo Finance genuinely syndicates real Reuters/AP wire content — Finnhub's
-# `source` field just says "Yahoo" regardless, since that's the hosting
-# domain, not who actually wrote it. Confirmed empirically (2026-08-26)
-# against a live Yahoo Finance article: the page embeds
-# `"yContentPartner":"Reuters"` in its hydration JSON, and the article body
-# opens with the classic wire dateline convention ("NEW YORK, Aug 25
-# (Reuters) - ..."). This only ever reads the page to answer "who wrote
+# Any outlet — Yahoo especially, but CNBC and others too — can run a wire
+# dispatch under its own domain. Finnhub's `source` field just says which
+# domain hosted the article, not who actually wrote it. So every candidate
+# article (Yahoo, or an already-Tier-1 source like CNBC) gets this check:
+# if the page shows evidence of being a Reuters/AP/etc. wire piece, the
+# wire service is the real primary source and gets used as the label
+# instead. Two signals, confirmed empirically (2026-08-26) against real
+# pages: Yahoo embeds `"yContentPartner":"Reuters"` in its hydration JSON;
+# wire dispatches everywhere else still carry the classic dateline
+# convention in the body text ("NEW YORK, Aug 25 (Reuters) - ..."). No
+# match found (e.g. a real CNBC reporter byline, confirmed via CNBC's own
+# author metadata) means the outlet itself is the primary source — keep
+# its own label. This only ever reads the page to answer "who wrote
 # this" — the matched text is never stored or displayed, only the
-# resulting source label and the original headline/summary Finnhub already
-# gave us.
+# resulting source label and the original headline/summary Finnhub
+# already gave us.
 WIRE_PROBE_USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 )
 WIRE_PROBE_TIMEOUT = 8
-MAX_WIRE_PROBES_PER_RUN = 6
+MAX_WIRE_PROBES_PER_RUN = 10
 CONTENT_PARTNER_PATTERN = re.compile(r'"yContentPartner"\s*:\s*"([^"]+)"')
 WIRE_LEDE_PATTERN = re.compile(r"\((Reuters|AP|Associated Press)\)\s*[-–]")
 
@@ -230,17 +236,24 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
         if not headline or not published:
             continue
 
-        if is_tier_1_source(source):
-            pass  # already a recognized Tier-1 source, keep as-is
-        elif source.strip().lower() == "yahoo" and url and wire_probes_used < MAX_WIRE_PROBES_PER_RUN:
+        already_tier1 = is_tier_1_source(source)
+        if not already_tier1 and source.strip().lower() != "yahoo":
+            continue  # not a Tier-1 outlet and not a candidate for wire-syndication detection
+
+        if url and wire_probes_used < MAX_WIRE_PROBES_PER_RUN:
             wire_probes_used += 1
-            partner, url = detect_wire_partner(url)
-            if partner is None:
-                continue
-            source = partner
-            reclassified += 1
-        else:
-            continue
+            partner, resolved_url = detect_wire_partner(url)
+            if partner is not None:
+                if partner.strip().lower() != source.strip().lower():
+                    reclassified += 1
+                source = partner
+                url = resolved_url
+            elif not already_tier1:
+                continue  # Yahoo item with no detected primary source — drop, don't guess
+            # else: already Tier-1 (e.g. CNBC) with no wire byline found — the outlet
+            # itself is the primary source, keep its own label.
+        elif not already_tier1:
+            continue  # Yahoo item but probe budget exhausted — can't verify, don't guess
 
         full_text = None
         if url and full_text_fetches < MAX_FULL_TEXT_FETCHES_PER_RUN:
