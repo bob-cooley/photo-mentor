@@ -101,8 +101,17 @@ def load_usage_summary(ticker: str) -> dict:
             file=sys.stderr,
         )
     else:
+        # Cloudflare's Bot Fight Mode blocks this login from GitHub
+        # Actions' runner IPs (confirmed: 403 "Just a moment..." challenge
+        # page). CF_BYPASS_TOKEN is a dedicated secret (not the site
+        # password) matched by a Cloudflare Configuration Rule that skips
+        # Bot Fight Mode specifically for requests to /bobboTrade/ carrying
+        # this header — everything else on the site stays fully protected.
+        cf_bypass_token = os.environ.get("CF_BYPASS_TOKEN")
+        bypass_headers = {"X-Pipeline-Secret": cf_bypass_token} if cf_bypass_token else {}
         try:
             session = requests.Session()
+            session.headers.update(bypass_headers)
             login_resp = session.post(LIVE_SITE_ROOT, data={"password": site_password}, timeout=10)
             resp = session.get(f"{LIVE_SITE_BASE}/{ticker}/ai_usage.json", timeout=10)
             data = resp.json()

@@ -156,6 +156,7 @@ jobs:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BOBBOTRADE_SITE_PASSWORD: ${{ secrets.BOBBOTRADE_SITE_PASSWORD }}
+          CF_BYPASS_TOKEN: ${{ secrets.CF_BYPASS_TOKEN }}
         run: python run_all.py
 
       - name: Build frontend
