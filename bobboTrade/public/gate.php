@@ -170,11 +170,11 @@ function render_login_page(bool $error): void
   <div class="login-wrap">
     <div class="login-card">
       <h1>bobboTrade</h1>
-      <p class="tagline">Marathon Petroleum &amp; ConocoPhillips</p>
+      <p class="tagline">Private dashboard</p>
       <?php if ($error): ?><p class="error">Incorrect password. Try again.</p><?php endif; ?>
       <form method="post">
         <div class="password-field">
-          <input type="password" name="password" id="password" autocomplete="current-password" autofocus required>
+          <input type="password" name="password" id="password" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" autofocus required>
           <button type="button" id="toggle-password" aria-label="Show password" aria-pressed="false">&#128065;</button>
         </div>
         <button type="submit">Enter</button>
