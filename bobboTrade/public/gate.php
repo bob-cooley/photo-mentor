@@ -19,6 +19,14 @@ const PASSWORD_HASH = '$2y$12$xBXXPizlFlfnzlmdqq9QLu1bsOkil0tmuDDCYJnJHqCd3/.80p
 const SESSION_COOKIE_DAYS = 90;
 const APP_ROOT = __DIR__;
 const BASE_PATH = '/bobboTrade/';
+// Runtime-only file, never in git — a portfolio share count is real
+// financial data and this repo is public. Written/read only through
+// handle_portfolio_api() below, which is itself behind the session
+// check. Deploys never touch it: it isn't part of the built dist/
+// output, so the FTP sync (which only pushes/updates files present
+// locally, never deletes extras) leaves it alone across releases —
+// same pattern already used for ai_usage.json/insight.json.
+const PORTFOLIO_FILE = APP_ROOT . '/portfolio-data.json';
 
 session_name('bobbotrade_session');
 session_set_cookie_params([
@@ -44,6 +52,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password'])) {
 
 if (empty($_SESSION['bobbotrade_authed'])) {
     render_login_page($loginError);
+    exit;
+}
+
+if (parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH) === BASE_PATH . 'api/portfolio') {
+    handle_portfolio_api();
     exit;
 }
 
@@ -362,4 +375,53 @@ function mime_for(string $path): string
         case 'txt': return 'text/plain';
         default: return 'application/octet-stream';
     }
+}
+
+/**
+ * Server-side portfolio persistence — GET returns the current share
+ * count, POST updates it. Both mom and the user see the same value from
+ * any device, unlike the old browser-localStorage-only fallback. Gated
+ * by the same session check as everything else in this file (the caller
+ * already verified $_SESSION['bobbotrade_authed'] before reaching here).
+ */
+function handle_portfolio_api(): void
+{
+    header('Content-Type: application/json');
+    header('Cache-Control: no-store');
+
+    if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+        echo read_portfolio_json();
+        return;
+    }
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $body = json_decode(file_get_contents('php://input'), true);
+        $shares = is_array($body) ? ($body['shares'] ?? null) : null;
+
+        if ($shares !== null && (!is_numeric($shares) || $shares < 0 || $shares > 100000000)) {
+            http_response_code(400);
+            echo json_encode(['error' => 'Invalid share count']);
+            return;
+        }
+
+        $data = [
+            'shares' => $shares !== null ? (float) $shares : null,
+            'updatedAt' => gmdate('c'),
+        ];
+        file_put_contents(PORTFOLIO_FILE, json_encode($data), LOCK_EX);
+        echo json_encode($data);
+        return;
+    }
+
+    http_response_code(405);
+    echo json_encode(['error' => 'Method not allowed']);
+}
+
+function read_portfolio_json(): string
+{
+    if (!is_file(PORTFOLIO_FILE)) {
+        return json_encode(['shares' => null, 'updatedAt' => null]);
+    }
+    $contents = file_get_contents(PORTFOLIO_FILE);
+    return $contents !== false ? $contents : json_encode(['shares' => null, 'updatedAt' => null]);
 }

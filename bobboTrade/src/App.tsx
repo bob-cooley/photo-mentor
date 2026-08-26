@@ -8,6 +8,7 @@ import {
   loadMarketData,
   loadNewsData,
   loadPortfolioConfig,
+  savePortfolioConfig,
 } from "./lib/dataLoader";
 import type {
   AnalystData,
@@ -25,6 +26,7 @@ import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
 import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
 import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
+import UsagePopup from "./components/UsagePopup";
 import "./App.css";
 
 // The data pipeline itself only refreshes every 5-60 min (see
@@ -45,6 +47,7 @@ export default function App() {
   const [insight, setInsight] = useState<InsightData | null>(null);
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
   const [loading, setLoading] = useState(true);
+  const [showUsage, setShowUsage] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
@@ -79,11 +82,20 @@ export default function App() {
     };
   }, [ticker]);
 
+  async function handleSaveShares(shares: number | null): Promise<boolean> {
+    const result = await savePortfolioConfig(shares);
+    if (result === null) return false;
+    setPortfolio(result);
+    return true;
+  }
+
   return (
     <div className="app">
       <header className="app-header">
         <div className="app-header-left">
-          <span className="app-title">bobboTrade</span>
+          <span className="app-title" onClick={() => setShowUsage(true)}>
+            bobboTrade
+          </span>
           <span className="app-ticker">{stock.ticker}</span>
         </div>
         <div className="app-header-right">
@@ -113,10 +125,11 @@ export default function App() {
           <AnalystConsensusCard analyst={analyst} loading={loading} />
           <TwoWeekMovementCard market={market} loading={loading} />
           <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
-          <PortfolioCard market={market} portfolio={portfolio} />
+          <PortfolioCard market={market} portfolio={portfolio} onSaveShares={handleSaveShares} />
           <InsightCard insight={insight} ticker={stock.ticker} market={market} />
         </section>
       </main>
+      {showUsage && <UsagePopup insight={insight} onClose={() => setShowUsage(false)} />}
     </div>
   );
 }

@@ -205,7 +205,12 @@ def generate_insight(ticker: str) -> dict:
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
-        "text": "Mock insight text — this is only shown during local development.",
+        "text": (
+            "Mock insight text, paragraph one — this is only shown during local development, "
+            "standing in for what Claude actually writes from real price/news/energy data.\n\n"
+            "Mock insight text, paragraph two — the real output is 3-5 sentences across two "
+            "short paragraphs like this one, not a single run-on line."
+        ),
         "status": "ok",
         "usage": {"month": datetime.now(timezone.utc).strftime("%Y-%m"), "callsThisMonth": 3, "inputTokens": 2400, "outputTokens": 210, "estimatedCostUsd": 0.0034},
     }

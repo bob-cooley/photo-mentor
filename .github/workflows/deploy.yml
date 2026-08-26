@@ -155,6 +155,7 @@ jobs:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BOBBOTRADE_SITE_PASSWORD: ${{ secrets.BOBBOTRADE_SITE_PASSWORD }}
         run: python run_all.py
 
       - name: Build frontend

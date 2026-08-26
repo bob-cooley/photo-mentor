@@ -152,23 +152,43 @@ rounding to a reassurance-defeating "$0.00".
 
 ## Access control
 
-This is a private 2-person tool (portfolio share count, and eventually
-scraped article text), not a public app, but it's deployed to a real
-public URL with no built-in host-level access control. `public/gate.php`
-is a PHP front controller that every request under `/bobboTrade/` is
-routed through (see the `RewriteRule` in `public/.htaccess`) — it gates
-the app shell, the JS/CSS bundle, and the static JSON data underneath
-it, not just an HTML landing page. Unauthenticated requests get a
-custom login page (password field with a show/hide toggle, an animated
-background chart); a correct password sets a 90-day session cookie.
+This is a private 2-person tool (portfolio share count, extracted
+article text), not a public app, but it's deployed to a real public URL
+with no built-in host-level access control. `public/gate.php` is a PHP
+front controller that every request under `/bobboTrade/` is routed
+through (see the `RewriteRule` in `public/.htaccess`) — it gates the app
+shell, the JS/CSS bundle, and the static JSON data underneath it, not
+just an HTML landing page. Unauthenticated requests get a custom login
+page (password field with a show/hide toggle, an animated background
+chart); a correct password sets a 90-day session cookie. It also serves
+a small JSON API (`GET`/`POST /bobboTrade/api/portfolio`, see
+`handle_portfolio_api()` in `gate.php`) for the portfolio share count —
+see "Portfolio persistence" below.
 
 This replaced an earlier HTTP Basic Auth version specifically because
 Basic Auth's browser-native dialog can't be restyled and has no page
 content behind it (the server returns 401 before sending anything) —
 neither the show/hide toggle nor a background animation is possible
 with it. To change the login password: `htpasswd -nbBC 12 <user>
-<new-password>` and paste the resulting hash into `PASSWORD_HASH` in
-`gate.php`.
+<new-password>`, paste the resulting hash into `PASSWORD_HASH` in
+`gate.php`, **and** update the `BOBBOTRADE_SITE_PASSWORD` GitHub secret
+to match — `ai_insight.py` logs into the site with that secret to read
+back its own prior usage (see "AI insight" above); if the two fall out
+of sync, the hourly rate limit and the budget cap both silently stop
+working rather than erroring loudly (this happened for real once —
+worth checking after any password change).
+
+## Portfolio persistence
+
+Share count is entered once and persists server-side
+(`public/portfolio-data.json`, written by `gate.php`'s `/api/portfolio`
+endpoint) so both household members see the same value from any
+device — not the old per-browser-only fallback. Real financial data, so
+this file is never committed to git (same pattern as `ai_usage.json`/
+`insight.json`: pipeline- or runtime-written, gitignored, survives
+deploys since the FTP sync only pushes/updates files present locally
+and never deletes extras). An "Edit" link next to the share count
+updates it in place for buys/sells.
 
 ## Local development
 
@@ -182,10 +202,10 @@ python3 data/fetch/generate_mock.py MPC   # or run_all.py with real keys set
 npm run dev
 ```
 
-Portfolio share count is never committed (public repo). Copy
-`public/portfolio.example.json` to `public/portfolio.json` locally to
-see a populated Portfolio module; otherwise it falls back to a
-manual, non-persisted input field.
+The Portfolio module's `/api/portfolio` endpoint is PHP-backed (see
+"Portfolio persistence" above), so it 404s under `npm run dev` (no PHP
+server locally) — the module just shows its empty "enter a share
+count" state, same as any other missing data file in local dev.
 
 ## Deployment
 

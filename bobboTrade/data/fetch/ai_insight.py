@@ -33,28 +33,41 @@ Cost control, in order of how much they actually protect you:
 from __future__ import annotations
 
 import json
+import os
 import sys
 from datetime import datetime, timezone
 
-from common import OUTPUT_ROOT, get, get_required_env, load_stock_config, post, utc_now_iso, write_json
+import requests
+
+from common import OUTPUT_ROOT, get_required_env, load_stock_config, post, utc_now_iso, write_json
 
 MODEL = "claude-haiku-4-5"
-MAX_OUTPUT_TOKENS = 300
+MAX_OUTPUT_TOKENS = 500
 INPUT_PRICE_PER_MTOK = 1.00
 OUTPUT_PRICE_PER_MTOK = 5.00
 DEFAULT_MONTHLY_BUDGET_USD = 3.00
 
-LIVE_SITE_BASE = "https://bobcooleyphoto.com/bobboTrade/data"
+LIVE_SITE_ROOT = "https://bobcooleyphoto.com/bobboTrade/"
+LIVE_SITE_BASE = LIVE_SITE_ROOT + "data"
 
 SYSTEM_PROMPT = """You help a non-trader understand why a stock they hold moved, in plain \
 language. You are given the day's price move, recent price history, energy/refinery \
-indicators (if the company is an oil refiner), and recent regulatory filings — nothing else.
+indicators (if the company is an oil refiner), and recent real-world news — both company-\
+specific stories and broader market/sector stories (oil prices, geopolitical events, industry \
+trends) that can move the stock without ever naming the company — nothing else.
 
 Rules:
-- 1-2 short sentences. Plain English, no jargon (no "crack spread", "basis points", etc.)
+- Write 3-5 sentences as two short paragraphs, separated by a blank line. First paragraph: \
+what the price did and the most concrete, real-world reason from the data — a specific news \
+event, price move, or indicator, not a vague gesture at "market conditions". Second paragraph: \
+one more layer of real context if the data supports it — a contributing factor, or the \
+broader trend this fits into. Only write the second paragraph if you have something real to \
+add; don't pad it out.
+- Plain English, no unexplained jargon — if a term like "crack spread" or "basis points" is \
+genuinely necessary, explain it in a few plain words right there rather than using it bare.
 - Ground every claim in the data you were given. If the data doesn't clearly explain the \
-move, say so plainly ("Nothing in the data here explains today's move clearly") rather than \
-inventing a reason.
+move, say so plainly in the first paragraph ("Nothing in the data here explains today's move \
+clearly") rather than inventing a reason.
 - Never recommend buying, selling, or holding. Never say "should". You are explaining, not \
 advising. A separate module already shows analyst consensus — do not duplicate or reference it.
 - Do not mention that you are an AI or that this is a generated summary."""
@@ -66,12 +79,36 @@ def estimate_cost_usd(input_tokens: int, output_tokens: int) -> float:
 
 def load_usage_summary(ticker: str) -> dict:
     """Cross-run persistence with no database: read back the usage summary
-    this same pipeline deployed last time, from the live site itself."""
-    try:
-        resp = get(f"{LIVE_SITE_BASE}/{ticker}/ai_usage.json", timeout=10)
-        data = resp.json()
-    except Exception:
-        data = {}
+    this same pipeline deployed last time, from the live site itself.
+
+    The site is password-gated (see bobboTrade/public/gate.php) — without
+    a valid session cookie this fetch gets the login page's HTML back
+    instead of JSON. That happened silently for a while: `.json()` failed,
+    the broad except caught it, and every single run fell back to a fresh
+    zero state. That's worse than just a wrong displayed number — a reset
+    count means `lastCallHour` is also always None, so it never matches
+    the current hour, so the hourly gate in fetch_insight() never fires
+    either. Confirmed directly: three separate deploys inside the same
+    UTC hour each made a real, separate Claude API call. Logging in first
+    (BOBBOTRADE_SITE_PASSWORD) fixes both the display and the rate limit
+    at once, since they're read from the same value."""
+    data = {}
+    site_password = os.environ.get("BOBBOTRADE_SITE_PASSWORD")
+    if not site_password:
+        print(
+            "[bobboTrade] BOBBOTRADE_SITE_PASSWORD not set — cannot read back prior AI usage. "
+            "The hourly gate and budget cap are BOTH effectively disabled until this is set.",
+            file=sys.stderr,
+        )
+    else:
+        try:
+            session = requests.Session()
+            session.post(LIVE_SITE_ROOT, data={"password": site_password}, timeout=10)
+            resp = session.get(f"{LIVE_SITE_BASE}/{ticker}/ai_usage.json", timeout=10)
+            data = resp.json()
+        except Exception as exc:  # noqa: BLE001 — fall back to zero rather than kill the run
+            print(f"[bobboTrade] Failed to read back prior AI usage, falling back to zero: {exc}", file=sys.stderr)
+            data = {}
 
     current_month = datetime.now(timezone.utc).strftime("%Y-%m")
     if data.get("month") != current_month:
@@ -114,11 +151,22 @@ def build_user_message(ticker: str, config: dict, market: dict | None, energy: d
         lines.append("Energy indicators: unavailable")
 
     if news and news.get("articles"):
-        recent = news["articles"][:3]
-        parts = [f"{a['publishedAt']}: {a['headline']}" for a in recent]
-        lines.append(f"Most recent filings: {'; '.join(parts)}")
+        # news.json now mixes ticker-specific stories with broader
+        # market/sector news (see news.py) and is already sorted with
+        # direct company mentions bumped to the top within the last
+        # week — take more than just the top couple, and include each
+        # article's summary/lede, not just the headline, so the model
+        # has real substance to ground a longer explanation in.
+        recent = news["articles"][:5]
+        parts = []
+        for a in recent:
+            snippet = f"{a['publishedAt'][:10]} ({a['source']}): {a['headline']}"
+            if a.get("summary"):
+                snippet += f" — {a['summary']}"
+            parts.append(snippet)
+        lines.append("Recent news (company-specific and broader market/sector):\n" + "\n".join(f"- {p}" for p in parts))
     else:
-        lines.append("Recent filings: none available")
+        lines.append("Recent news: none available")
 
     return "\n".join(lines)
 

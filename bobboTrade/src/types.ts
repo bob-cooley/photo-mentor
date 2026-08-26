@@ -112,8 +112,8 @@ export interface AnalystData {
 }
 
 export interface PortfolioConfig {
-  shares: number;
-  costBasis?: number;
+  shares: number | null;
+  updatedAt: string | null;
 }
 
 export interface AIUsageSummary {
