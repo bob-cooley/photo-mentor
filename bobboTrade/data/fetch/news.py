@@ -30,15 +30,39 @@ https://www.sec.gov/os/webmaster-faq#developers). Finnhub news requires
 FINNHUB_API_KEY (already configured for analyst.py); if missing, this
 module falls back to SEC filings only rather than failing outright.
 """
+from __future__ import annotations
+
 import os
+import re
 import sys
 from datetime import datetime, timedelta, timezone
+
+import requests
 
 from common import get, load_stock_config, utc_now_iso, write_json
 
 SEC_USER_AGENT = "bobboTrade dashboard (bob@bobcooleyphoto.com)"
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 NEWS_LOOKBACK_DAYS = 10
+
+# Yahoo Finance genuinely syndicates real Reuters/AP wire content — Finnhub's
+# `source` field just says "Yahoo" regardless, since that's the hosting
+# domain, not who actually wrote it. Confirmed empirically (2026-08-26)
+# against a live Yahoo Finance article: the page embeds
+# `"yContentPartner":"Reuters"` in its hydration JSON, and the article body
+# opens with the classic wire dateline convention ("NEW YORK, Aug 25
+# (Reuters) - ..."). This only ever reads the page to answer "who wrote
+# this" — the matched text is never stored or displayed, only the
+# resulting source label and the original headline/summary Finnhub already
+# gave us.
+WIRE_PROBE_USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+WIRE_PROBE_TIMEOUT = 8
+MAX_WIRE_PROBES_PER_RUN = 6
+CONTENT_PARTNER_PATTERN = re.compile(r'"yContentPartner"\s*:\s*"([^"]+)"')
+WIRE_LEDE_PATTERN = re.compile(r"\((Reuters|AP|Associated Press)\)\s*[-–]")
 
 # Spec's Tier-1 preferred sources (News Requirements section), normalized
 # to lowercase for matching against whatever casing/punctuation Finnhub
@@ -125,6 +149,33 @@ def headline_and_summary(company: str, form: str, items_field: str, report_date:
     return f"{company}: Filed an update with regulators", form
 
 
+def detect_wire_partner(url: str) -> tuple[str | None, str]:
+    """Best-effort, single-attempt (no retries — this is a nice-to-have
+    probe, not a critical API call, and retrying a slow/bot-defensive
+    site 3x would add real latency to a job that runs every 5 minutes
+    during market hours). Returns (partner_name_or_None, resolved_url) —
+    resolved_url follows Finnhub's redirect link to the real article URL
+    so the News card links straight to the source, not through Finnhub."""
+    try:
+        resp = requests.get(url, headers={"User-Agent": WIRE_PROBE_USER_AGENT}, timeout=WIRE_PROBE_TIMEOUT)
+        if resp.status_code != 200:
+            return None, url
+        html = resp.text
+        resolved_url = resp.url
+    except requests.exceptions.RequestException:
+        return None, url
+
+    match = CONTENT_PARTNER_PATTERN.search(html)
+    if match and is_tier_1_source(match.group(1)):
+        return match.group(1), resolved_url
+
+    match = WIRE_LEDE_PATTERN.search(html)
+    if match:
+        return match.group(1), resolved_url
+
+    return None, url
+
+
 def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     today = datetime.now(timezone.utc).date()
     from_date = today - timedelta(days=NEWS_LOOKBACK_DAYS)
@@ -134,19 +185,35 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     ).json()
 
     articles = []
+    wire_probes_used = 0
+    reclassified = 0
     for item in items:
         headline = item.get("headline")
         published = item.get("datetime")
         source = item.get("source") or ""
-        if not headline or not published or not is_tier_1_source(source):
+        url = item.get("url", "")
+        if not headline or not published:
             continue
+
+        if is_tier_1_source(source):
+            pass  # already a recognized Tier-1 source, keep as-is
+        elif source.strip().lower() == "yahoo" and url and wire_probes_used < MAX_WIRE_PROBES_PER_RUN:
+            wire_probes_used += 1
+            partner, url = detect_wire_partner(url)
+            if partner is None:
+                continue
+            source = partner
+            reclassified += 1
+        else:
+            continue
+
         articles.append(
             {
                 "id": f"finnhub-{item.get('id', published)}",
                 "headline": headline,
                 "summary": (item.get("summary") or "")[:280],
                 "source": source,
-                "url": item.get("url", ""),
+                "url": url,
                 "publishedAt": datetime.fromtimestamp(published, tz=timezone.utc).isoformat(),
                 "relevance": 1.0,
             }
@@ -157,7 +224,8 @@ def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
     raw_sources = sorted({item.get("source") or "?" for item in items})
     print(
         f"[bobboTrade] Finnhub company-news for {ticker}: {len(items)} raw articles, "
-        f"{len(articles)} passed Tier-1 filter. Raw sources seen: {raw_sources}"
+        f"{len(articles)} passed ({reclassified} reclassified via byline detection out of "
+        f"{wire_probes_used} probes). Raw sources seen: {raw_sources}"
     )
     return articles
 
