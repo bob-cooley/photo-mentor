@@ -111,6 +111,11 @@ def is_tier_1_source(source: str) -> bool:
 
 MATERIAL_FORMS = {"8-K", "10-Q", "10-K"}
 MAX_ARTICLES = 10
+# SEC filings are a supplement, not the main feed — capped much lower than
+# MAX_ARTICLES so the card doesn't pad itself out with filings from months
+# or years ago just because Tier-1 news coverage is thin that day. A
+# shorter, genuinely-recent list reads better than a long stale one.
+SEC_MAX_ARTICLES = 3
 
 # Standard SEC Form 8-K item taxonomy (17 CFR 249.308), in plain
 # language rather than the official legal phrasing — the target reader
@@ -323,7 +328,7 @@ def fetch_sec_filings(cik: str) -> list[dict]:
                 "relevance": 0.9 if form == "8-K" else 0.7,
             }
         )
-        if len(articles) >= MAX_ARTICLES:
+        if len(articles) >= SEC_MAX_ARTICLES:
             break
     return articles
 

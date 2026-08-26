@@ -88,13 +88,16 @@ backend — not true streaming, but close during market hours.
   ("(Reuters) -") to reclassify genuine wire content Finnhub mislabels.
   In practice Reuters/Bloomberg/FT/WSJ/AP essentially never appear for
   MPC even after that check (verified via a diagnostic log Finnhub
-  prints on every run), so most days the feed still leans on CNBC when
+  prints on every run), so most days the feed leans on CNBC when
   available or the SEC supplement; that's the intended tradeoff
-  (reliability over completeness), not a bug. Filing headlines/summaries
-  are built from
-  each 8-K's actual `items` field (SEC's own event-type taxonomy)
-  rather than a generic "8-K filed" placeholder. An Investor Relations
-  RSS feed was tried as a second source early on; dropped after
+  (reliability over completeness), not a bug. SEC filings are capped at
+  `SEC_MAX_ARTICLES` (3) — a much lower limit than the card's overall
+  cap — so the feed doesn't pad itself out with filings from months or
+  years ago just because Tier-1 news is thin that day; a short,
+  genuinely-recent list beats a long stale one. Filing headlines/summaries
+  are built from each 8-K's actual `items` field (SEC's own event-type
+  taxonomy) rather than a generic "8-K filed" placeholder. An Investor
+  Relations RSS feed was tried as a second source early on; dropped after
   confirming MPC's IR site (and IR sites generally) sits behind a
   Cloudflare bot challenge that blocks any scripted client outright.
 
