@@ -1,3 +1,23 @@
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow, noarchive"
 </IfModule>
+
+# Private family dashboard — protects the app AND the static JSON data
+# (portfolio share count, scraped article text) sitting under this same
+# path, not just the HTML shell.
+AuthType Basic
+AuthName "bobboTrade"
+AuthUserFile /usr/home/bobcooley/public_html/bobcooleyphoto/bobboTrade/.htpasswd
+Require valid-user
+
+# Belt-and-suspenders: most Apache configs already deny dotfiles by
+# default, but don't rely on that being true on every host.
+<FilesMatch "^\.(htaccess|htpasswd)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
