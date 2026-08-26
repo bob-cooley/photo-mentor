@@ -49,6 +49,10 @@ export default function ChartColumn({
         background: { type: ColorType.Solid, color: "transparent" },
         textColor: "#9a9fa6",
         fontFamily: "Inter, -apple-system, sans-serif",
+        // The library's Apache-2.0 license requires either this logo or an
+        // equivalent visible attribution + link to tradingview.com elsewhere
+        // on the page — see the text credit below the chart, which covers it.
+        attributionLogo: false,
       },
       grid: {
         vertLines: { visible: false },
@@ -144,6 +148,9 @@ export default function ChartColumn({
       <div className="chart-container" ref={containerRef}>
         {loading && <div className="skeleton" style={{ position: "absolute", inset: 0 }} />}
       </div>
+      <a className="chart-attribution" href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">
+        Charts by TradingView Lightweight Charts
+      </a>
     </div>
   );
 }

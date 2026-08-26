@@ -1,24 +1,33 @@
-"""Build the news module from SEC EDGAR filings — primary-source only.
-No wire-service aggregation (Reuters/Bloomberg/AP) — none of those offer
-a free public API, so v1 deliberately limits itself to primary-source
-material. See the build spec's news requirements and the "primary
-sources only" call.
+"""Build the news module from real aggregated news (Finnhub company-news)
+plus SEC EDGAR filings as a factual regulatory-event supplement.
 
-An Investor Relations RSS feed was the original second source, but
-MPC's IR site (and most companies' IR sites, generally) sits behind a
-Cloudflare bot challenge that returns a JS interstitial to any scripted
-client, key or no key — confirmed by testing multiple plausible feed
-paths, all either 403 or the challenge page itself. Dropped rather than
-left in as a silently-failing dead call.
+v1 of this module was SEC-only: an Investor Relations RSS feed was the
+original second source, but MPC's IR site (and most companies' IR
+sites, generally) sits behind a Cloudflare bot challenge that returns a
+JS interstitial to any scripted client, key or no key. That got dropped,
+and at the time no free wire-service aggregation API seemed to exist —
+but that survey missed Finnhub's own `/company-news` endpoint, which is
+free-tier and already in use here for analyst.py. It returns real
+articles (headline, publisher, URL) aggregated from actual news
+sources, which is what actually explains a given day's price move —
+SEC filings alone don't. Both sources are merged and sorted by
+publish time; SEC filings no longer carry the whole feed.
 
-No API key required. SEC requests a descriptive User-Agent identifying
-the requester (see https://www.sec.gov/os/webmaster-faq#developers).
+No API key required for SEC. SEC requests a descriptive User-Agent
+identifying the requester (see
+https://www.sec.gov/os/webmaster-faq#developers). Finnhub news requires
+FINNHUB_API_KEY (already configured for analyst.py); if missing, this
+module falls back to SEC filings only rather than failing outright.
 """
+import os
 import sys
+from datetime import datetime, timedelta, timezone
 
 from common import get, load_stock_config, utc_now_iso, write_json
 
 SEC_USER_AGENT = "bobboTrade dashboard (bob@bobcooleyphoto.com)"
+FINNHUB_BASE = "https://finnhub.io/api/v1"
+NEWS_LOOKBACK_DAYS = 10
 
 MATERIAL_FORMS = {"8-K", "10-Q", "10-K"}
 MAX_ARTICLES = 10
@@ -78,6 +87,36 @@ def headline_and_summary(company: str, form: str, items_field: str, report_date:
     return f"{company}: Filed an update with regulators", form
 
 
+def fetch_company_news(ticker: str, api_key: str) -> list[dict]:
+    today = datetime.now(timezone.utc).date()
+    from_date = today - timedelta(days=NEWS_LOOKBACK_DAYS)
+    items = get(
+        f"{FINNHUB_BASE}/company-news",
+        params={"symbol": ticker, "from": from_date.isoformat(), "to": today.isoformat(), "token": api_key},
+    ).json()
+
+    articles = []
+    for item in items:
+        headline = item.get("headline")
+        published = item.get("datetime")
+        if not headline or not published:
+            continue
+        articles.append(
+            {
+                "id": f"finnhub-{item.get('id', published)}",
+                "headline": headline,
+                "summary": (item.get("summary") or "")[:280],
+                "source": item.get("source") or "News",
+                "url": item.get("url", ""),
+                "publishedAt": datetime.fromtimestamp(published, tz=timezone.utc).isoformat(),
+                "relevance": 1.0,
+            }
+        )
+        if len(articles) >= MAX_ARTICLES:
+            break
+    return articles
+
+
 def fetch_sec_filings(cik: str) -> list[dict]:
     resp = get(
         f"https://data.sec.gov/submissions/CIK{cik}.json",
@@ -122,6 +161,16 @@ def fetch_news(ticker: str) -> dict:
     config = load_stock_config(ticker)
 
     articles: list[dict] = []
+
+    finnhub_key = os.environ.get("FINNHUB_API_KEY")
+    if finnhub_key:
+        try:
+            articles += fetch_company_news(ticker, finnhub_key)
+        except Exception as exc:  # noqa: BLE001 — one source failing shouldn't kill the module
+            print(f"[bobboTrade] Finnhub company news fetch failed for {ticker}: {exc}", file=sys.stderr)
+    else:
+        print(f"[bobboTrade] FINNHUB_API_KEY not set — news falling back to SEC filings only.", file=sys.stderr)
+
     try:
         articles += fetch_sec_filings(config["cik"])
     except Exception as exc:  # noqa: BLE001 — one source failing shouldn't kill the module

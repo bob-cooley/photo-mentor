@@ -68,16 +68,18 @@ backend — not true streaming, but close during market hours.
   (recommendation trends only; price target is paid-tier on Finnhub,
   so that field is always null). Twelve Data gates its own
   `/recommendations` and `/price_target` to paid plans.
-- **News** — SEC EDGAR filings only, no key required. Headlines/
-  summaries are built from each 8-K's actual `items` field (SEC's own
-  event-type taxonomy — earnings, director changes, material
-  agreements, etc.) rather than a generic "8-K filed" placeholder. An
-  Investor Relations RSS feed was the original second source; dropped
-  after confirming MPC's IR site (and IR sites generally) sits behind
-  a Cloudflare bot challenge that blocks any scripted client outright.
-  Deliberately excludes wire-service aggregation (Reuters/Bloomberg/
-  AP/etc.) since none offer a free public API — see the build spec's
-  news requirements.
+- **News** — merged from two sources: Finnhub `/company-news`
+  (`FINNHUB_API_KEY`, free tier, real articles aggregated from actual
+  publishers) and SEC EDGAR filings (no key required) as a factual
+  regulatory-event supplement. Filing headlines/summaries are built
+  from each 8-K's actual `items` field (SEC's own event-type taxonomy)
+  rather than a generic "8-K filed" placeholder. An Investor Relations
+  RSS feed was tried as a second source early on; dropped after
+  confirming MPC's IR site (and IR sites generally) sits behind a
+  Cloudflare bot challenge that blocks any scripted client outright.
+  v1 of this module was SEC-only on the assumption that no free
+  wire-service aggregation API existed — that survey missed Finnhub's
+  own news endpoint, already in hand for analyst data.
 
 If a required key is missing, that module renders its empty state
 rather than fake numbers — never silently substitutes mock data in a

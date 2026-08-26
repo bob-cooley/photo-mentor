@@ -114,7 +114,7 @@ export default function App() {
           <TwoWeekMovementCard market={market} loading={loading} />
           <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
           <PortfolioCard market={market} portfolio={portfolio} />
-          <InsightCard insight={insight} ticker={stock.ticker} />
+          <InsightCard insight={insight} ticker={stock.ticker} market={market} />
         </section>
       </main>
     </div>
