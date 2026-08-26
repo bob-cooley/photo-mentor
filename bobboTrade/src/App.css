@@ -443,6 +443,14 @@
   font-size: 16px;
 }
 
+.portfolio-value-change.up {
+  color: var(--up);
+}
+
+.portfolio-value-change.down {
+  color: var(--down);
+}
+
 .portfolio-trim {
   margin-top: 16px;
   padding-top: 16px;

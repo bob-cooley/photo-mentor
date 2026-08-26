@@ -20,6 +20,7 @@ export default function PortfolioCard({
   const shares = portfolio?.shares ?? null;
   const price = market?.quote.price ?? null;
   const value = shares != null && price != null ? shares * price : null;
+  const valueChange = shares != null && market ? shares * market.quote.change : null;
 
   const trimCount = trimShares ? Number(trimShares) : null;
   const trimProceeds = trimCount != null && price != null ? trimCount * price : null;
@@ -91,6 +92,15 @@ export default function PortfolioCard({
             <span>Value</span>
             <strong>{formatCurrency(value, 0)}</strong>
           </div>
+          {valueChange != null && (
+            <div className="portfolio-row">
+              <span>Value Change</span>
+              <strong className={`portfolio-value-change ${valueChange >= 0 ? "up" : "down"}`}>
+                {valueChange >= 0 ? "+" : "-"}
+                {formatCurrency(Math.abs(valueChange), 0)}
+              </strong>
+            </div>
+          )}
         </div>
       )}
 
