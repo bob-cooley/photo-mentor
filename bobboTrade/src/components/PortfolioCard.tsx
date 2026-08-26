@@ -97,9 +97,11 @@ export default function PortfolioCard({
       {!editing && shares == null && (
         <>
           <p className="empty-state">Enter a share count to see position value.</p>
-          <button className="portfolio-btn portfolio-btn-primary" onClick={startEdit}>
-            Enter share count
-          </button>
+          <div className="portfolio-actions-right">
+            <button className="portfolio-btn portfolio-btn-primary" onClick={startEdit}>
+              Enter share count
+            </button>
+          </div>
         </>
       )}
 

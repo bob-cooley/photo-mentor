@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { DEFAULT_TICKER, getStockConfig } from "./config/stocks";
 import {
   loadAnalystData,
-  loadEnergyData,
   loadInsightData,
   loadIntradayData,
   loadMarketData,
@@ -12,7 +11,6 @@ import {
 } from "./lib/dataLoader";
 import type {
   AnalystData,
-  EnergyData,
   InsightData,
   IntradayData,
   MarketData,
@@ -25,7 +23,6 @@ import AnalystConsensusCard from "./components/AnalystConsensusCard";
 import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
 import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
-import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
 import "./App.css";
 
 // The data pipeline itself only refreshes every 5-60 min (see
@@ -40,7 +37,6 @@ export default function App() {
 
   const [market, setMarket] = useState<MarketData | null>(null);
   const [intraday, setIntraday] = useState<IntradayData | null>(null);
-  const [energy, setEnergy] = useState<EnergyData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
   const [insight, setInsight] = useState<InsightData | null>(null);
@@ -54,16 +50,14 @@ export default function App() {
       Promise.all([
         loadMarketData(ticker),
         loadIntradayData(ticker),
-        loadEnergyData(ticker),
         loadNewsData(ticker),
         loadAnalystData(ticker),
         loadInsightData(ticker),
         loadPortfolioConfig(),
-      ]).then(([m, i, e, n, a, ins, p]) => {
+      ]).then(([m, i, n, a, ins, p]) => {
         if (cancelled) return;
         setMarket(m);
         setIntraday(i);
-        setEnergy(e);
         setNews(n);
         setAnalyst(a);
         setInsight(ins);
@@ -119,9 +113,8 @@ export default function App() {
 
         <section className="col col-right">
           <AnalystConsensusCard analyst={analyst} loading={loading} />
-          <TwoWeekMovementCard market={market} loading={loading} />
-          <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
           <PortfolioCard market={market} portfolio={portfolio} onSaveShares={handleSaveShares} />
+          <TwoWeekMovementCard market={market} loading={loading} />
           <InsightCard insight={insight} ticker={stock.ticker} market={market} />
         </section>
       </main>
