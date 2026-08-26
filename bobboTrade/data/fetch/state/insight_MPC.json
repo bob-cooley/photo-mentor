@@ -1,0 +1,14 @@
+{
+  "ticker": "MPC",
+  "fetchedAt": "2026-08-26T23:09:59.030293+00:00",
+  "text": "Marathon Petroleum stock rose 2.1% today after oil prices stabilized following several days of sharp declines. Earlier in the week, crude fell more than 3% as the U.S. shifted away from military confrontation with Iran toward economic pressure, easing concerns about disruption to Middle Eastern oil supplies. Today's modest recovery in oil prices\u2014after that initial selloff calmed market nerves\u2014appears to have lifted the refiner's shares.\n\nThe stock had dropped 1.6% yesterday before today's bounce, reflecting the whipsaw of geopolitical headlines around Iran and the Strait of Hormuz. Refiners like Marathon benefit when crude prices fall because they buy oil as an input, so the earlier decline should have helped margins, but the uncertainty around Iran's negotiations with Oman over shipping routes may have kept investors cautious until the market settled enough to price in the lower-price scenario.",
+  "status": "ok",
+  "usage": {
+    "month": "2026-08",
+    "callsThisMonth": 2,
+    "inputTokens": 1650,
+    "outputTokens": 389,
+    "estimatedCostUsd": 0.003595,
+    "lastCallHour": "2026-08-26T23"
+  }
+}
