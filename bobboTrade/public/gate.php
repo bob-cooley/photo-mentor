@@ -248,8 +248,8 @@ function render_login_page(bool $error): void
       var MEAN_REVERSION = 0.09; // how hard local noise gets pulled back toward the current regime's target each step
       var NOISE_SCALE = 3;
       var BASELINE_DRIFT_PER_STEP = 0.035; // the slow secular uptrend — deliberately tiny next to VIEW_AMPLITUDE
-      var VOLATILITY_RAMP_STEPS = 650; // steps for local chop/regimes to ramp from calm to full strength
-      var RAMP_MIN_FACTOR = 0.12; // chop never goes fully flat, even at age 0
+      var VOLATILITY_RAMP_STEPS = 3000; // steps for local chop/regimes/drift to ramp from calm to full strength — must stay well above any realistic prefillSteps (see below) or the calm period gets silently eaten by the prefill before the first frame ever renders
+      var RAMP_MIN_FACTOR = 0.03; // how calm/slow the very start is (3% of full chop and growth rate)
 
       // Local price action is a mean-reverting oscillator (bounded, so
       // chop always stays a constant size on screen), not an unbounded
@@ -316,12 +316,16 @@ function render_login_page(bool $error): void
       function step() {
         maybeTransition();
         var r = REGIMES[regime];
-        // Chop and regime pull both ramp in from RAMP_MIN_FACTOR up to
-        // full strength over the first VOLATILITY_RAMP_STEPS — a fresh
-        // page load starts calm (small peaks/valleys) and gradually
-        // gets livelier, rather than being fully volatile immediately.
-        // Baseline drift is NOT ramped, so the gentle incline is
-        // present at a steady rate throughout.
+        // Noise, regime target size, AND the baseline climb rate all
+        // ramp in from RAMP_MIN_FACTOR up to full strength over the
+        // first VOLATILITY_RAMP_STEPS — a fresh page load starts
+        // nearly flat and only gradually turns into the normal chart.
+        // Mean reversion itself is NOT ramped (always full-strength) —
+        // scaling it down too would only slow how fast the oscillator
+        // settles, not shrink how far it wanders, which barely damps
+        // the visible amplitude at all. Keeping reversion constant and
+        // only shrinking the noise/target it's chasing is what
+        // actually makes the calm period look calm.
         age++;
         var t = Math.min(1, age / VOLATILITY_RAMP_STEPS);
         var ramp = RAMP_MIN_FACTOR + (1 - RAMP_MIN_FACTOR) * (t * t * (3 - 2 * t));
@@ -329,10 +333,10 @@ function render_login_page(bool $error): void
         // Sum of uniforms approximates a bell curve, so most ticks are
         // small with occasional larger swings — reads as more natural
         // up/down chatter than a flat uniform random walk.
-        var noise = (Math.random() + Math.random() + Math.random() - 1.5) * r.vol * NOISE_SCALE;
-        var pull = (r.target - localOffset) * MEAN_REVERSION;
-        localOffset += (pull + noise) * ramp;
-        baseline += BASELINE_DRIFT_PER_STEP;
+        var noise = (Math.random() + Math.random() + Math.random() - 1.5) * r.vol * NOISE_SCALE * ramp;
+        var pull = (r.target * ramp - localOffset) * MEAN_REVERSION;
+        localOffset += pull + noise;
+        baseline += BASELINE_DRIFT_PER_STEP * ramp;
         value = baseline + localOffset;
         values.push(value);
 
