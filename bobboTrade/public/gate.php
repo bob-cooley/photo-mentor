@@ -75,6 +75,10 @@ function render_login_page(bool $error): void
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive">
 <title>bobboTrade</title>
+<link rel="apple-touch-icon" href="/bobboTrade/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="bobboTrade">
 <style>
   :root {
     --up: #34c759;
