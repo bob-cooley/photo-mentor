@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-26T23:09:59.030293+00:00",
-  "text": "Marathon Petroleum stock rose 2.1% today after oil prices stabilized following several days of sharp declines. Earlier in the week, crude fell more than 3% as the U.S. shifted away from military confrontation with Iran toward economic pressure, easing concerns about disruption to Middle Eastern oil supplies. Today's modest recovery in oil prices\u2014after that initial selloff calmed market nerves\u2014appears to have lifted the refiner's shares.\n\nThe stock had dropped 1.6% yesterday before today's bounce, reflecting the whipsaw of geopolitical headlines around Iran and the Strait of Hormuz. Refiners like Marathon benefit when crude prices fall because they buy oil as an input, so the earlier decline should have helped margins, but the uncertainty around Iran's negotiations with Oman over shipping routes may have kept investors cautious until the market settled enough to price in the lower-price scenario.",
+  "fetchedAt": "2026-08-27T00:13:28.953949+00:00",
+  "text": "Marathon Petroleum rose 2.1% today, recovering most of yesterday's 1.9% drop and reaching its highest price in the two-week span. The rebound follows news that oil prices stabilized after falling sharply on August 26th\u2014when markets initially sold off on reports of a potential Iran-Oman deal to secure safer passage through the Strait of Hormuz, reducing perceived geopolitical risk to crude supplies. With oil prices no longer falling, refiners like Marathon benefit from more predictable input costs and the ability to lock in margins between crude purchases and refined product sales.\n\nThe broader context here is ongoing tension around Hormuz, a chokepoint through which roughly a third of the world's seaborne oil passes. While the Iran-Oman discussions suggest a possible de-escalation, the U.S. position remains unsettled, keeping energy markets on edge\u2014exactly the kind of uncertainty that can whipsaw refiner stocks day-to-day as traders weigh whether crude will stay scarce or abundant.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 2,
-    "inputTokens": 1650,
-    "outputTokens": 389,
-    "estimatedCostUsd": 0.003595,
-    "lastCallHour": "2026-08-26T23"
+    "callsThisMonth": 3,
+    "inputTokens": 2476,
+    "outputTokens": 614,
+    "estimatedCostUsd": 0.005546,
+    "lastCallHour": "2026-08-27T00"
   }
 }

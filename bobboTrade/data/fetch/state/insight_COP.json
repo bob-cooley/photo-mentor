@@ -1,0 +1,14 @@
+{
+  "ticker": "COP",
+  "fetchedAt": "2026-08-27T00:13:06.589632+00:00",
+  "text": "ConocoPhillips fell 0.93% today to $130.61, continuing a decline that began after crude oil dropped sharply on August 25th when the U.S. signaled it would use economic pressure rather than military action against Iran. Oil prices had spiked on geopolitical tensions, but that fear premium evaporated once the military threat receded\u2014and energy stocks like COP followed crude lower. The stock has given back most of its two-week gains over the past three trading days as those tensions unwound.\n\nThe ongoing negotiations between Iran and Oman over shipping routes through the Strait of Hormuz add another layer of uncertainty; a stable arrangement there could further ease supply-shock concerns that had been supporting oil and refiner valuations, keeping downward pressure on the stock in the near term.",
+  "status": "ok",
+  "usage": {
+    "month": "2026-08",
+    "callsThisMonth": 1,
+    "inputTokens": 824,
+    "outputTokens": 179,
+    "estimatedCostUsd": 0.001719,
+    "lastCallHour": "2026-08-27T00"
+  }
+}
