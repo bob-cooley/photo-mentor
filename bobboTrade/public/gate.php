@@ -241,13 +241,15 @@ function render_login_page(bool $error): void
       var POINT_SPACING = 4;
       var STEP_INTERVAL_MS = 150;
       var DOT_RADIUS = 5;
-      var MARGIN_RATIO = 0.2; // pen sits 20% in from the right edge
+      var MARGIN_RATIO = 0.1; // pen sits 10% in from the right edge
       var ERASE_MARGIN = 40; // px past the left edge before a point is dropped
       var VIEW_AMPLITUDE = 50; // fixed vertical span shown, in abstract value units — never auto-zooms
       var CENTER_EASE = 0.004; // how slowly the window pans to follow the baseline (must be slow relative to a regime's duration, or it cancels out peaks/valleys as they happen)
       var MEAN_REVERSION = 0.09; // how hard local noise gets pulled back toward the current regime's target each step
       var NOISE_SCALE = 3;
       var BASELINE_DRIFT_PER_STEP = 0.035; // the slow secular uptrend — deliberately tiny next to VIEW_AMPLITUDE
+      var VOLATILITY_RAMP_STEPS = 650; // steps for local chop/regimes to ramp from calm to full strength
+      var RAMP_MIN_FACTOR = 0.12; // chop never goes fully flat, even at age 0
 
       // Local price action is a mean-reverting oscillator (bounded, so
       // chop always stays a constant size on screen), not an unbounded
@@ -271,7 +273,7 @@ function render_login_page(bool $error): void
       var NEXT_AFTER = { shock: 'choppy', choppy: 'recovery', recovery: 'normal', rally: 'normal', correction: 'normal' };
 
       var values = [];
-      var value, baseline, localOffset, regime, regimeStepsLeft;
+      var value, baseline, localOffset, regime, regimeStepsLeft, age;
       var displayCenter, displayMin, displayMax;
       var tipX;
 
@@ -289,6 +291,7 @@ function render_login_page(bool $error): void
         localOffset = 0;
         value = 0;
         values = [];
+        age = 0;
         // The window starts centered above 0, so the line begins below
         // the visible frame and climbs into view rather than snapping
         // in at the bottom edge immediately.
@@ -313,11 +316,22 @@ function render_login_page(bool $error): void
       function step() {
         maybeTransition();
         var r = REGIMES[regime];
+        // Chop and regime pull both ramp in from RAMP_MIN_FACTOR up to
+        // full strength over the first VOLATILITY_RAMP_STEPS — a fresh
+        // page load starts calm (small peaks/valleys) and gradually
+        // gets livelier, rather than being fully volatile immediately.
+        // Baseline drift is NOT ramped, so the gentle incline is
+        // present at a steady rate throughout.
+        age++;
+        var t = Math.min(1, age / VOLATILITY_RAMP_STEPS);
+        var ramp = RAMP_MIN_FACTOR + (1 - RAMP_MIN_FACTOR) * (t * t * (3 - 2 * t));
+
         // Sum of uniforms approximates a bell curve, so most ticks are
         // small with occasional larger swings — reads as more natural
         // up/down chatter than a flat uniform random walk.
         var noise = (Math.random() + Math.random() + Math.random() - 1.5) * r.vol * NOISE_SCALE;
-        localOffset += (r.target - localOffset) * MEAN_REVERSION + noise;
+        var pull = (r.target - localOffset) * MEAN_REVERSION;
+        localOffset += (pull + noise) * ramp;
         baseline += BASELINE_DRIFT_PER_STEP;
         value = baseline + localOffset;
         values.push(value);
@@ -381,7 +395,7 @@ function render_login_page(bool $error): void
           ctx.stroke();
         }
 
-        // The stylus tip — pinned 20% in from the right edge, only
+        // The stylus tip — pinned 10% in from the right edge, only
         // ever moving vertically as it rides the newest value, like a
         // seismograph needle with the paper (the trace) feeding left
         // beneath it and erasing once it scrolls off-screen.
@@ -421,6 +435,15 @@ function render_login_page(bool $error): void
 
       resize();
       resetState();
+      // Silently fast-forward past the flat true origin (age 0) before
+      // the first frame, so the erase boundary — where the buffer runs
+      // out of history — is already off-screen from the start instead
+      // of appearing as a hard vertical wall partway across the page.
+      // The window stays centered high (see resetState), so none of
+      // this pre-fill is actually visible; it only sets up what's
+      // already "behind" the pen once real-time rendering begins.
+      var prefillSteps = Math.ceil((tipX + ERASE_MARGIN) / POINT_SPACING) + 40;
+      for (var p = 0; p < prefillSteps; p++) step();
       requestAnimationFrame(loop);
     })();
   </script>
