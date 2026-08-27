@@ -6,12 +6,14 @@ import {
   loadIntradayData,
   loadMarketData,
   loadNewsData,
+  loadCrackSpreadData,
   loadPortfolioConfig,
   loadRSIData,
   savePortfolioConfig,
 } from "./lib/dataLoader";
 import type {
   AnalystData,
+  CrackSpreadData,
   InsightData,
   IntradayData,
   MarketData,
@@ -22,6 +24,7 @@ import type {
 import NewsColumn from "./components/NewsColumn";
 import ChartColumn from "./components/ChartColumn";
 import RSICard from "./components/RSICard";
+import CrackSpreadCard from "./components/CrackSpreadCard";
 import AnalystConsensusCard from "./components/AnalystConsensusCard";
 import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
 import InsightCard from "./components/InsightCard";
@@ -48,6 +51,7 @@ export default function App() {
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
   const [rsi, setRsi] = useState<RSIData | null>(null);
+  const [crackSpread, setCrackSpread] = useState<CrackSpreadData | null>(null);
   const [insight, setInsight] = useState<InsightData | null>(null);
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
   const [loading, setLoading] = useState(true);
@@ -86,14 +90,16 @@ export default function App() {
         loadNewsData(ticker),
         loadAnalystData(ticker),
         loadRSIData(ticker),
+        loadCrackSpreadData(ticker),
         loadInsightData(ticker),
         loadPortfolioConfig(ticker),
-      ]).then(([i, n, a, r, ins, p]) => {
+      ]).then(([i, n, a, r, cs, ins, p]) => {
         if (cancelled) return;
         setIntraday(i);
         setNews(n);
         setAnalyst(a);
         setRsi(r);
+        setCrackSpread(cs);
         setInsight(ins);
         setPortfolio(p);
         setLoading(false);
@@ -156,6 +162,7 @@ export default function App() {
         <section className="col col-chart">
           <ChartColumn market={market} intraday={intraday} loading={loading} ticker={stock.ticker} />
           <RSICard rsi={rsi} loading={loading} ticker={stock.ticker} />
+          <CrackSpreadCard crackSpread={crackSpread} loading={loading} ticker={stock.ticker} />
         </section>
 
         <section className="col col-right">

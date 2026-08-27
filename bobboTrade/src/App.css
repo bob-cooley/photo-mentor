@@ -926,3 +926,59 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* Crack Spread card — center column, below RSI. */
+
+.crack-value {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.crack-unit {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  margin-left: 4px;
+}
+
+.crack-change {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.crack-change.up {
+  color: var(--up);
+}
+
+.crack-change.down {
+  color: var(--down);
+}
+
+.crack-trend {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
+
+.crack-trend-expanding {
+  color: var(--up);
+}
+
+.crack-trend-compressing {
+  color: var(--down);
+}
+
+.crack-trend-stable {
+  color: var(--text-tertiary);
+}
+

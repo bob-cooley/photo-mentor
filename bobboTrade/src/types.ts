@@ -134,6 +134,18 @@ export interface RSIData {
   zone: RSIZone;
 }
 
+export type CrackSpreadTrend = "expanding" | "compressing" | "stable";
+
+export interface CrackSpreadData {
+  fetchedAt: string;
+  source: string;
+  value: number; // $/barrel
+  unit: string; // "$/barrel"
+  trend: CrackSpreadTrend;
+  changeWeekly: number; // $/barrel vs prior week
+  asOf: string | null;
+}
+
 export interface PortfolioConfig {
   shares: number | null;
   updatedAt: string | null;

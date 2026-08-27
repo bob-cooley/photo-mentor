@@ -240,6 +240,23 @@ def generate_rsi(ticker: str) -> dict:
     }
 
 
+def generate_crack_spread(ticker: str) -> dict:
+    # Compressing, ~$18/bbl — exercises the CrackSpreadCard's "margins
+    # are tightening / early warning" copy. The real pipeline derives
+    # this from EIA Gulf Coast spot prices.
+    value = 18.4
+    change = -2.1
+    return {
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "value": value,
+        "unit": "$/barrel",
+        "trend": "compressing",
+        "changeWeekly": change,
+        "asOf": (datetime.now(timezone.utc).date() - timedelta(days=3)).isoformat(),
+    }
+
+
 def generate_insight(ticker: str) -> dict:
     return {
         "ticker": ticker,
@@ -263,6 +280,7 @@ def main(ticker: str) -> None:
     write_json(ticker, "news.json", generate_news(ticker))
     write_json(ticker, "analyst.json", generate_analyst(ticker))
     write_json(ticker, "rsi.json", generate_rsi(ticker))
+    write_json(ticker, "crack_spread.json", generate_crack_spread(ticker))
     write_json(ticker, "insight.json", generate_insight(ticker))
 
 
