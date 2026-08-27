@@ -217,6 +217,29 @@ def generate_analyst(ticker: str) -> dict:
     }
 
 
+def generate_rsi(ticker: str) -> dict:
+    # Fixed in the overbought zone so local dev exercises the RSICard's
+    # "may be due for a pullback" copy — the real pipeline pulls the live
+    # value from Twelve Data.
+    rsi_value = 74.2
+    if rsi_value >= 70:
+        zone = "overbought"
+    elif rsi_value <= 30:
+        zone = "oversold"
+    else:
+        zone = "neutral"
+    return {
+        "ticker": ticker,
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "period": 14,
+        "interval": "1day",
+        "asOf": datetime.now(timezone.utc).date().isoformat(),
+        "rsi": rsi_value,
+        "zone": zone,
+    }
+
+
 def generate_insight(ticker: str) -> dict:
     return {
         "ticker": ticker,
@@ -239,6 +262,7 @@ def main(ticker: str) -> None:
     write_json(ticker, "energy.json", generate_energy(ticker))
     write_json(ticker, "news.json", generate_news(ticker))
     write_json(ticker, "analyst.json", generate_analyst(ticker))
+    write_json(ticker, "rsi.json", generate_rsi(ticker))
     write_json(ticker, "insight.json", generate_insight(ticker))
 
 

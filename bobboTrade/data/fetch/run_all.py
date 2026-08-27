@@ -12,10 +12,12 @@ import analyst
 import energy
 import market
 import news
+import rsi
 from common import STOCKS_CONFIG_ROOT
 
 MODULES = [
     ("market", market.main),
+    ("rsi", rsi.main),
     ("energy", energy.main),
     ("analyst", analyst.main),
     ("news", news.main),

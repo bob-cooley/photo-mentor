@@ -121,6 +121,19 @@ export interface AnalystData {
   };
 }
 
+export type RSIZone = "overbought" | "neutral" | "oversold";
+
+export interface RSIData {
+  ticker: string;
+  fetchedAt: string;
+  source: string;
+  period: number; // 14
+  interval: string; // "1day"
+  asOf: string | null;
+  rsi: number; // 0-100
+  zone: RSIZone;
+}
+
 export interface PortfolioConfig {
   shares: number | null;
   updatedAt: string | null;

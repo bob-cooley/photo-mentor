@@ -153,6 +153,18 @@
   color: var(--down);
 }
 
+/* Card header with an inline info (ⓘ) button next to the title. */
+.card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.card-title-row .card-title {
+  margin: 0;
+}
+
 .skeleton {
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 25%, rgba(255, 255, 255, 0.09) 37%, rgba(255, 255, 255, 0.04) 63%);
   background-size: 400% 100%;
@@ -735,5 +747,182 @@
 
 .article-modal-source-link:hover {
   text-decoration: underline;
+}
+
+/* Info popup (ⓘ) — trigger button + centered explainer modal.
+   Shares the backdrop/card treatment with .article-modal above. */
+
+.info-popup-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* 6px padding + negative margin keeps a ~30px tap target without
+     nudging the title baseline. */
+  padding: 6px;
+  margin: -6px -6px -6px 0;
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 999px;
+  transition: color 0.15s ease;
+}
+
+.info-popup-trigger:hover {
+  color: var(--text-secondary);
+}
+
+.info-popup-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+}
+
+.info-popup {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  max-width: 420px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.info-popup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.info-popup-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.info-popup-close {
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  color: var(--text-secondary);
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 999px;
+  font-size: 15px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.info-popup-section {
+  margin-bottom: 18px;
+}
+
+.info-popup-section:last-child {
+  margin-bottom: 0;
+}
+
+.info-popup-section-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-tertiary);
+  margin-bottom: 6px;
+}
+
+.info-popup-section p {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* RSI card — center column, below the price chart. */
+
+.rsi-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.rsi-big {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.rsi-zone-label {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.rsi-zone-overbought,
+.rsi-zone-oversold {
+  color: var(--down);
+}
+
+.rsi-zone-neutral {
+  color: var(--up);
+}
+
+.rsi-scale {
+  margin-top: 18px;
+}
+
+.rsi-track {
+  position: relative;
+  height: 12px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 110, 100, 0.45) 0%,
+    rgba(255, 110, 100, 0.45) 30%,
+    rgba(52, 199, 89, 0.45) 30%,
+    rgba(52, 199, 89, 0.45) 70%,
+    rgba(255, 110, 100, 0.45) 70%,
+    rgba(255, 110, 100, 0.45) 100%
+  );
+}
+
+.rsi-marker {
+  position: absolute;
+  top: -3px;
+  width: 4px;
+  height: 18px;
+  border-radius: 2px;
+  background: var(--text-primary);
+  box-shadow: 0 0 0 2px var(--card);
+  transform: translateX(-50%);
+}
+
+.rsi-scale-ticks {
+  position: relative;
+  height: 16px;
+  margin-top: 6px;
+}
+
+.rsi-scale-ticks span {
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
 }
 
