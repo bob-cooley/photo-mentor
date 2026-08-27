@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T01:01:51.545544+00:00",
-  "text": "Marathon Petroleum stock rose 2.1% today, recovering most of yesterday's 1.9% drop. The bounce follows a volatile week tied to shifting geopolitical risk in the Middle East\u2014specifically, reports that Iran and Oman are negotiating a deal to jointly manage shipping through the Strait of Hormuz, a critical global oil chokepoint. When those deal talks gained credibility over the past few days, oil prices fell sharply (down more than 3% at one point on August 26), suggesting lower fuel demand or supply concerns easing, which initially hurt refining stocks like MPC. Today's rebound suggests the market is pricing in either skepticism about the deal's durability, recognition that tensions remain elevated, or simply a technical bounce after oversold conditions.\n\nThe broader context matters: geopolitical turmoil in the Middle East typically supports oil refiners because it drives crude prices higher and tightens supply. The fact that MPC is trading near a two-week high despite a week of whipsaw moves reflects how dependent the stock is on these regional risk dynamics rather than company fundamentals.",
+  "fetchedAt": "2026-08-27T02:37:29.188359+00:00",
+  "text": "Marathon Petroleum stock rose 2.1% today after oil prices stabilized following earlier session weakness. On August 26, crude fell over 3% when news broke that Iran and Oman were negotiating a deal to share revenue from the Strait of Hormuz\u2014a critical chokepoint for global oil supply\u2014which initially spooked the market as it suggested de-escalation of regional tensions. However, oil recovered later in the day as that deal remained uncertain and the U.S. continued relying on economic rather than military pressure against Iran. For a refiner like Marathon, stable oil prices are more valuable than volatile ones; the rebound and subsequent steadiness helped the stock recover from Monday's 1.8% dip.\n\nThe past two weeks have also seen broader energy sector strength tied to geopolitical risk premiums\u2014the extra price investors demand for oil when supply is threatened. The August 24 news of Trump's oil and gas holdings gaining amid Iran tensions, combined with ongoing U.S.-Russia competition for influence in India's energy markets, reflect investor concern about future supply disruptions, which supports refiner margins and stock prices.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 4,
-    "inputTokens": 3302,
-    "outputTokens": 854,
-    "estimatedCostUsd": 0.007572,
-    "lastCallHour": "2026-08-27T01"
+    "callsThisMonth": 5,
+    "inputTokens": 4128,
+    "outputTokens": 1098,
+    "estimatedCostUsd": 0.009618,
+    "lastCallHour": "2026-08-27T02"
   }
 }
