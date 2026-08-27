@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T00:13:06.589632+00:00",
-  "text": "ConocoPhillips fell 0.93% today to $130.61, continuing a decline that began after crude oil dropped sharply on August 25th when the U.S. signaled it would use economic pressure rather than military action against Iran. Oil prices had spiked on geopolitical tensions, but that fear premium evaporated once the military threat receded\u2014and energy stocks like COP followed crude lower. The stock has given back most of its two-week gains over the past three trading days as those tensions unwound.\n\nThe ongoing negotiations between Iran and Oman over shipping routes through the Strait of Hormuz add another layer of uncertainty; a stable arrangement there could further ease supply-shock concerns that had been supporting oil and refiner valuations, keeping downward pressure on the stock in the near term.",
+  "fetchedAt": "2026-08-27T01:01:18.050203+00:00",
+  "text": "ConocoPhillips fell 0.93% today, extending a downward move over the past few days after reaching $134.89 on August 20th. The decline reflects broader weakness in oil prices, which dropped more than 3% on August 25th when the U.S. signaled it would pursue economic pressure against Iran rather than military action\u2014a development that reduced immediate concerns about disruption to Middle Eastern energy supplies. Recent talks between Iran and Oman about managing a joint shipping route through the Strait of Hormuz have also eased tension around one of the world's most critical chokepoints for oil transit.\n\nWith geopolitical risk in the Middle East appearing to ease rather than escalate, the pressure that had lifted energy stocks earlier in the month has reversed. Oil refiners and producers benefit from uncertainty and supply constraints, so a shift toward diplomatic resolution and reduced military risk typically weighs on their valuations.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 1,
-    "inputTokens": 824,
-    "outputTokens": 179,
-    "estimatedCostUsd": 0.001719,
-    "lastCallHour": "2026-08-27T00"
+    "callsThisMonth": 2,
+    "inputTokens": 1648,
+    "outputTokens": 379,
+    "estimatedCostUsd": 0.003543,
+    "lastCallHour": "2026-08-27T01"
   }
 }

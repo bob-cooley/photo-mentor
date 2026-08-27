@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T00:13:28.953949+00:00",
-  "text": "Marathon Petroleum rose 2.1% today, recovering most of yesterday's 1.9% drop and reaching its highest price in the two-week span. The rebound follows news that oil prices stabilized after falling sharply on August 26th\u2014when markets initially sold off on reports of a potential Iran-Oman deal to secure safer passage through the Strait of Hormuz, reducing perceived geopolitical risk to crude supplies. With oil prices no longer falling, refiners like Marathon benefit from more predictable input costs and the ability to lock in margins between crude purchases and refined product sales.\n\nThe broader context here is ongoing tension around Hormuz, a chokepoint through which roughly a third of the world's seaborne oil passes. While the Iran-Oman discussions suggest a possible de-escalation, the U.S. position remains unsettled, keeping energy markets on edge\u2014exactly the kind of uncertainty that can whipsaw refiner stocks day-to-day as traders weigh whether crude will stay scarce or abundant.",
+  "fetchedAt": "2026-08-27T01:01:51.545544+00:00",
+  "text": "Marathon Petroleum stock rose 2.1% today, recovering most of yesterday's 1.9% drop. The bounce follows a volatile week tied to shifting geopolitical risk in the Middle East\u2014specifically, reports that Iran and Oman are negotiating a deal to jointly manage shipping through the Strait of Hormuz, a critical global oil chokepoint. When those deal talks gained credibility over the past few days, oil prices fell sharply (down more than 3% at one point on August 26), suggesting lower fuel demand or supply concerns easing, which initially hurt refining stocks like MPC. Today's rebound suggests the market is pricing in either skepticism about the deal's durability, recognition that tensions remain elevated, or simply a technical bounce after oversold conditions.\n\nThe broader context matters: geopolitical turmoil in the Middle East typically supports oil refiners because it drives crude prices higher and tightens supply. The fact that MPC is trading near a two-week high despite a week of whipsaw moves reflects how dependent the stock is on these regional risk dynamics rather than company fundamentals.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 3,
-    "inputTokens": 2476,
-    "outputTokens": 614,
-    "estimatedCostUsd": 0.005546,
-    "lastCallHour": "2026-08-27T00"
+    "callsThisMonth": 4,
+    "inputTokens": 3302,
+    "outputTokens": 854,
+    "estimatedCostUsd": 0.007572,
+    "lastCallHour": "2026-08-27T01"
   }
 }
