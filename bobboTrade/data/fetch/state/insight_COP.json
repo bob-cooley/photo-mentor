@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T14:32:34.749382+00:00",
-  "text": "ConocoPhillips fell 1.3% today to $128.93, extending a losing streak that's seen the stock drop about 3.4% over the past week. The decline reflects growing signs of de-escalation in Middle East tensions\u2014Qatar's Prime Minister traveled to Iran on Thursday to reduce U.S.-Iran friction, and earlier this week oil prices dropped more than 3% after Iran signaled a potential revenue-sharing deal with Oman over the Strait of Hormuz. For an oil major like ConocoPhillips, lower geopolitical risk means lower crude prices and reduced upside to refining margins, which pressures valuations even if supplies become more stable.\n\nThe broader backdrop remains mixed: European gas storage is at historic lows heading into winter, which could support energy prices overall, and global demand competition between the U.S. and Russia in India suggests steady long-term consumption. However, the immediate market reaction has focused on the risk-off story\u2014fewer tensions mean less panic premium in oil, and that's been enough to override longer-term supply tightness concerns.",
+  "fetchedAt": "2026-08-27T16:12:39.478477+00:00",
+  "text": "ConocoPhillips fell 1.5% today, continuing a five-day decline that has erased all of the stock's gains from the past two weeks. The drop follows news that Qatar is mediating de-escalation talks between Iran and the U.S., and that Iran may be negotiating a deal with Oman over the Strait of Hormuz\u2014the world's critical chokepoint for oil shipping. When geopolitical tension that was supporting oil prices eases, investors worry less about supply disruptions, which pressures energy stocks even if oil prices themselves move only modestly.\n\nThe broader picture is mixed for the sector. While Europe's historically low gas storage is raising winter price risks, and the U.S. is competing with Russia for energy dominance in India, the immediate momentum today is toward reduced Middle East conflict risk, which has weighed on the entire stock over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 7,
-    "inputTokens": 5813,
-    "outputTokens": 1554,
-    "estimatedCostUsd": 0.013583,
-    "lastCallHour": "2026-08-27T14"
+    "callsThisMonth": 8,
+    "inputTokens": 6659,
+    "outputTokens": 1749,
+    "estimatedCostUsd": 0.015404,
+    "lastCallHour": "2026-08-27T16"
   }
 }
