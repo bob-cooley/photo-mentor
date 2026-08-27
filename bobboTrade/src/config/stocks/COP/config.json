@@ -1,0 +1,16 @@
+{
+  "ticker": "COP",
+  "name": "ConocoPhillips",
+  "sector": "Energy — Exploration & Production",
+  "cik": "0001163165",
+  "dataSources": {
+    "market": "market",
+    "energy": "energy",
+    "news": "news",
+    "analyst": "analyst"
+  },
+  "energyIndicators": [
+    { "id": "wti", "label": "US Oil Price", "eiaSeries": "PET.RWTC.D" },
+    { "id": "brent", "label": "World Oil Price", "eiaSeries": "PET.RBRTE.D" }
+  ]
+}

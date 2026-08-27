@@ -38,10 +38,33 @@
   border-radius: 999px;
 }
 
-.app-header-right {
+.ticker-switcher {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ticker-toggle {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  gap: 10px;
+  padding: 8px 16px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.ticker-toggle:hover {
+  border-color: var(--text-secondary);
+}
+
+.ticker-toggle.active {
+  border-color: var(--accent);
+  background: rgba(61, 139, 253, 0.1);
 }
 
 .app-stock-name {
@@ -50,7 +73,7 @@
 }
 
 .app-quote {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }

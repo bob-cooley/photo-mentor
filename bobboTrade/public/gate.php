@@ -379,18 +379,34 @@ function mime_for(string $path): string
 
 /**
  * Server-side portfolio persistence — GET returns the current share
- * count, POST updates it. Both mom and the user see the same value from
- * any device, unlike the old browser-localStorage-only fallback. Gated
- * by the same session check as everything else in this file (the caller
- * already verified $_SESSION['bobbotrade_authed'] before reaching here).
+ * count for a ticker, POST updates it. Both mom and the user see the
+ * same value from any device, unlike the old browser-localStorage-only
+ * fallback. Gated by the same session check as everything else in this
+ * file (the caller already verified $_SESSION['bobbotrade_authed']
+ * before reaching here).
+ *
+ * The store is keyed by ticker so each holding (MPC, COP, ...) has its
+ * own share count. load_portfolio_store() transparently migrates the
+ * original single-ticker file shape (a bare {"shares": ..., "updatedAt":
+ * ...} object, from before multi-ticker support) into the new
+ * {"MPC": {"shares": ..., "updatedAt": ...}} shape, attributing that
+ * legacy value to MPC since it was the only ticker tracked at the time.
  */
 function handle_portfolio_api(): void
 {
     header('Content-Type: application/json');
     header('Cache-Control: no-store');
 
+    $ticker = strtoupper((string) ($_GET['ticker'] ?? ''));
+    if (!preg_match('/^[A-Z]{1,10}$/', $ticker)) {
+        http_response_code(400);
+        echo json_encode(['error' => 'Invalid or missing ticker']);
+        return;
+    }
+
     if ($_SERVER['REQUEST_METHOD'] === 'GET') {
-        echo read_portfolio_json();
+        $store = load_portfolio_store();
+        echo json_encode($store[$ticker] ?? ['shares' => null, 'updatedAt' => null]);
         return;
     }
 
@@ -404,12 +420,15 @@ function handle_portfolio_api(): void
             return;
         }
 
-        $data = [
+        $entry = [
             'shares' => $shares !== null ? (float) $shares : null,
             'updatedAt' => gmdate('c'),
         ];
-        file_put_contents(PORTFOLIO_FILE, json_encode($data), LOCK_EX);
-        echo json_encode($data);
+
+        $store = load_portfolio_store();
+        $store[$ticker] = $entry;
+        file_put_contents(PORTFOLIO_FILE, json_encode($store), LOCK_EX);
+        echo json_encode($entry);
         return;
     }
 
@@ -417,11 +436,19 @@ function handle_portfolio_api(): void
     echo json_encode(['error' => 'Method not allowed']);
 }
 
-function read_portfolio_json(): string
+function load_portfolio_store(): array
 {
     if (!is_file(PORTFOLIO_FILE)) {
-        return json_encode(['shares' => null, 'updatedAt' => null]);
+        return [];
     }
     $contents = file_get_contents(PORTFOLIO_FILE);
-    return $contents !== false ? $contents : json_encode(['shares' => null, 'updatedAt' => null]);
+    $decoded = $contents !== false ? json_decode($contents, true) : null;
+    if (!is_array($decoded)) {
+        return [];
+    }
+    if (array_key_exists('shares', $decoded)) {
+        // Legacy single-ticker shape — migrate to MPC.
+        return ['MPC' => $decoded];
+    }
+    return $decoded;
 }

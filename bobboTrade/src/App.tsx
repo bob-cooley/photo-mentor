@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { DEFAULT_TICKER, getStockConfig } from "./config/stocks";
+import { DEFAULT_TICKER, STOCKS, getStockConfig } from "./config/stocks";
 import {
   loadAnalystData,
   loadInsightData,
@@ -31,11 +31,16 @@ import "./App.css";
 // current without hammering the host for no reason.
 const REFRESH_INTERVAL_MS = 2 * 60 * 1000;
 
+const TICKERS = Object.keys(STOCKS);
+
 export default function App() {
-  const ticker = DEFAULT_TICKER;
+  const [ticker, setTicker] = useState(DEFAULT_TICKER);
   const stock = getStockConfig(ticker);
 
-  const [market, setMarket] = useState<MarketData | null>(null);
+  // Quotes for every tracked ticker, independent of which one is active —
+  // this drives the always-visible header price for both MPC and COP so
+  // switching tabs doesn't need a fetch to show the other one's price.
+  const [quotes, setQuotes] = useState<Record<string, MarketData | null>>({});
   const [intraday, setIntraday] = useState<IntradayData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
@@ -43,20 +48,43 @@ export default function App() {
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
   const [loading, setLoading] = useState(true);
 
+  const market = quotes[ticker] ?? null;
+
   useEffect(() => {
     let cancelled = false;
 
     const load = () => {
+      Promise.all(TICKERS.map((t) => loadMarketData(t))).then((results) => {
+        if (cancelled) return;
+        const next: Record<string, MarketData | null> = {};
+        TICKERS.forEach((t, i) => {
+          next[t] = results[i];
+        });
+        setQuotes(next);
+      });
+    };
+
+    load();
+    const intervalId = window.setInterval(load, REFRESH_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+
+    const load = () => {
       Promise.all([
-        loadMarketData(ticker),
         loadIntradayData(ticker),
         loadNewsData(ticker),
         loadAnalystData(ticker),
         loadInsightData(ticker),
-        loadPortfolioConfig(),
-      ]).then(([m, i, n, a, ins, p]) => {
+        loadPortfolioConfig(ticker),
+      ]).then(([i, n, a, ins, p]) => {
         if (cancelled) return;
-        setMarket(m);
         setIntraday(i);
         setNews(n);
         setAnalyst(a);
@@ -75,7 +103,7 @@ export default function App() {
   }, [ticker]);
 
   async function handleSaveShares(shares: number | null): Promise<boolean> {
-    const result = await savePortfolioConfig(shares);
+    const result = await savePortfolioConfig(ticker, shares);
     if (result === null) return false;
     setPortfolio(result);
     return true;
@@ -88,17 +116,29 @@ export default function App() {
           <span className="app-title">bobboTrade</span>
           <span className="app-ticker">{stock.ticker}</span>
         </div>
-        <div className="app-header-right">
-          <span className="app-stock-name">{stock.name}</span>
-          {market && (
-            <span className={`app-quote ${market.quote.change >= 0 ? "up" : "down"}`}>
-              ${market.quote.price.toFixed(2)}
-              <span className="app-quote-change">
-                {market.quote.change >= 0 ? "+" : ""}
-                {market.quote.change.toFixed(2)} ({market.quote.changePercent.toFixed(2)}%)
-              </span>
-            </span>
-          )}
+        <div className="ticker-switcher">
+          {TICKERS.map((t) => {
+            const config = getStockConfig(t);
+            const quote = quotes[t];
+            return (
+              <button
+                key={t}
+                className={`ticker-toggle ${t === ticker ? "active" : ""}`}
+                onClick={() => setTicker(t)}
+              >
+                <span className="app-stock-name">{config.name}</span>
+                {quote && (
+                  <span className={`app-quote ${quote.quote.change >= 0 ? "up" : "down"}`}>
+                    ${quote.quote.price.toFixed(2)}
+                    <span className="app-quote-change">
+                      {quote.quote.change >= 0 ? "+" : ""}
+                      {quote.quote.change.toFixed(2)} ({quote.quote.changePercent.toFixed(2)}%)
+                    </span>
+                  </span>
+                )}
+              </button>
+            );
+          })}
         </div>
       </header>
 

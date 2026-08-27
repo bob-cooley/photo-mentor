@@ -1,10 +1,11 @@
 # bobboTrade
 
-Personal financial intelligence dashboard for a long-term concentrated
-holding. Prototype covers **MPC** (Marathon Petroleum). Not a trading
-app — no execution capability, just an early-warning/understanding
-layer: price, refinery/energy conditions, primary-source news, and
-analyst consensus in one view.
+Personal financial intelligence dashboard for a small set of long-term
+concentrated holdings — currently **MPC** (Marathon Petroleum) and
+**COP** (ConocoPhillips), switchable via the two outline buttons in the
+header. Not a trading app — no execution capability, just an
+early-warning/understanding layer: price, refinery/energy conditions,
+primary-source news, and analyst consensus in one view.
 
 Live at `bobcooleyphoto.com/bobboTrade/`. Noindexed (`robots.txt`, meta
 tag, `X-Robots-Tag` header) — accessible by direct URL only.
@@ -40,11 +41,22 @@ backend — not true streaming, but close during market hours.
 
 ## Adding a new ticker
 
-1. Create `src/config/stocks/<TICKER>/config.json` (copy MPC's as a
-   template — ticker, name, CIK, energy indicators).
-2. Register it in `src/config/stocks.ts`.
+1. Create `src/config/stocks/<TICKER>/config.json` (copy MPC's or
+   COP's as a template — ticker, name, real SEC CIK, energy
+   indicators; look the CIK up against SEC's own
+   `files/company_tickers.json`, don't guess it).
+2. Register it in `src/config/stocks.ts` (`STOCKS` — this is also what
+   drives the header's ticker-switcher buttons; every entry gets one
+   automatically, in registration order).
 3. `run_all.py` auto-discovers every ticker under `src/config/stocks/`,
    so no pipeline changes are needed.
+
+Every ticker gets its own portfolio share count (see "Portfolio
+persistence" below) and its own set of data files
+(`public/data/<TICKER>/*.json`) — switching the header toggle re-fetches
+news/chart/analyst/insight for whichever ticker is active, while the
+header's own price line for every ticker loads independently so both
+stay visible at once.
 
 ## Data sources
 
@@ -193,15 +205,19 @@ there's no longer a second place to update.)
 
 ## Portfolio persistence
 
-Share count is entered once and persists server-side
+Share count is entered once per ticker and persists server-side
 (`public/portfolio-data.json`, written by `gate.php`'s `/api/portfolio`
-endpoint) so both household members see the same value from any
-device — not the old per-browser-only fallback. Real financial data, so
-this file is never committed to git (same pattern as `ai_usage.json`/
-`insight.json`: pipeline- or runtime-written, gitignored, survives
-deploys since the FTP sync only pushes/updates files present locally
-and never deletes extras). An "Edit" link next to the share count
-updates it in place for buys/sells.
+endpoint, keyed by ticker — `?ticker=MPC` / `?ticker=COP`) so both
+household members see the same value from any device — not the old
+per-browser-only fallback. Real financial data, so this file is never
+committed to git (same pattern as `ai_usage.json`/`insight.json`:
+pipeline- or runtime-written, gitignored, survives deploys since the
+FTP sync only pushes/updates files present locally and never deletes
+extras). An "Edit" link next to the share count updates it in place for
+buys/sells. `load_portfolio_store()` in `gate.php` transparently
+migrates the original single-ticker file shape (a bare `{"shares":
+...}` object, from before COP was added) into the per-ticker shape,
+attributing that legacy value to MPC.
 
 ## Local development
 

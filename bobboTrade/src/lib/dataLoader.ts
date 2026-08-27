@@ -40,19 +40,20 @@ export function loadInsightData(ticker: string) {
 
 // Portfolio share count is real financial data and this repo is public,
 // so it's never committed to git — persisted server-side instead, via
-// gate.php's /api/portfolio endpoint (see public/gate.php), so both
+// gate.php's /api/portfolio endpoint (see public/gate.php), keyed by
+// ticker so each holding (MPC, COP, ...) has its own share count. Both
 // household members see the same value from any device. In local dev
 // (no PHP server) this 404s and loadJson returns null, same as any
 // other missing data file — the UI falls back to its empty state.
 const PORTFOLIO_API = `${import.meta.env.BASE_URL}api/portfolio`;
 
-export function loadPortfolioConfig() {
-  return loadJson<PortfolioConfig>(PORTFOLIO_API);
+export function loadPortfolioConfig(ticker: string) {
+  return loadJson<PortfolioConfig>(`${PORTFOLIO_API}?ticker=${ticker}`);
 }
 
-export async function savePortfolioConfig(shares: number | null): Promise<PortfolioConfig | null> {
+export async function savePortfolioConfig(ticker: string, shares: number | null): Promise<PortfolioConfig | null> {
   try {
-    const res = await fetch(PORTFOLIO_API, {
+    const res = await fetch(`${PORTFOLIO_API}?ticker=${ticker}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ shares }),
