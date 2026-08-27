@@ -25,6 +25,23 @@ def consensus_from_counts(buy: int, hold: int, sell: int) -> str:
     return "HOLD"
 
 
+def summarize_trend(row: dict) -> dict:
+    """Collapse one Finnhub recommendation-trend row into the same
+    buy/hold/sell/consensus shape used for the current period. Finnhub's
+    `period` is the first-of-month date ("2026-08-01"); the card only
+    needs the month, so it's truncated to "YYYY-MM"."""
+    buy = (row.get("strongBuy", 0) or 0) + (row.get("buy", 0) or 0)
+    hold = row.get("hold", 0) or 0
+    sell = (row.get("strongSell", 0) or 0) + (row.get("sell", 0) or 0)
+    return {
+        "period": (row.get("period") or "")[:7],
+        "buy": buy,
+        "hold": hold,
+        "sell": sell,
+        "consensus": consensus_from_counts(buy, hold, sell),
+    }
+
+
 def fetch_analyst(ticker: str) -> dict:
     api_key = get_required_env("FINNHUB_API_KEY")
 
@@ -32,18 +49,20 @@ def fetch_analyst(ticker: str) -> dict:
     if not trends:
         raise RuntimeError(f"Finnhub returned no recommendation trends for {ticker}")
 
-    # Trends are ordered newest-period-first.
-    latest = trends[0]
-    buy = (latest.get("strongBuy", 0) or 0) + (latest.get("buy", 0) or 0)
-    hold = latest.get("hold", 0) or 0
-    sell = (latest.get("strongSell", 0) or 0) + (latest.get("sell", 0) or 0)
+    # Trends are ordered newest-period-first. Finnhub's free tier returns
+    # roughly the last 4 monthly snapshots; keep the current one as the
+    # top-level fields and the prior 3 as `history` so the card can show
+    # a month-over-month trend (a falling Buy count is the warning signal).
+    current = summarize_trend(trends[0])
+    history = [summarize_trend(row) for row in trends[1:4]]
 
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
         "source": "finnhub.io",
-        "consensus": consensus_from_counts(buy, hold, sell),
-        "counts": {"buy": buy, "hold": hold, "sell": sell},
+        "consensus": current["consensus"],
+        "counts": {"buy": current["buy"], "hold": current["hold"], "sell": current["sell"]},
+        "history": history,
         "priceTarget": {"average": None, "high": None, "low": None},
     }
 

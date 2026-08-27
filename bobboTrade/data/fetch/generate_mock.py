@@ -191,12 +191,28 @@ def generate_intraday(ticker: str, start_price: float) -> dict:
 
 
 def generate_analyst(ticker: str) -> dict:
+    now = datetime.now(timezone.utc)
+
+    def month_ago(n: int) -> str:
+        y, m = now.year, now.month - n
+        while m <= 0:
+            m += 12
+            y -= 1
+        return f"{y:04d}-{m:02d}"
+
+    # Falling Buy count across the prior 3 months into the current one —
+    # exercises the "Buy ratings declining" warning path in the card.
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
         "source": "mock",
         "consensus": "HOLD",
         "counts": {"buy": 8, "hold": 11, "sell": 2},
+        "history": [
+            {"period": month_ago(1), "buy": 10, "hold": 10, "sell": 1, "consensus": "BUY"},
+            {"period": month_ago(2), "buy": 11, "hold": 9, "sell": 1, "consensus": "BUY"},
+            {"period": month_ago(3), "buy": 12, "hold": 8, "sell": 1, "consensus": "BUY"},
+        ],
         "priceTarget": {"average": 178.5, "high": 210.0, "low": 150.0},
     }
 

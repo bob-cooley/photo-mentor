@@ -104,6 +104,16 @@ export interface AnalystData {
     hold: number;
     sell: number;
   };
+  // Prior monthly recommendation snapshots, newest first (up to 3
+  // months back). Absent on older data files and the local mock's
+  // earlier shape, so always guard before reading.
+  history?: Array<{
+    period: string; // "2026-08"
+    buy: number;
+    hold: number;
+    sell: number;
+    consensus: string;
+  }>;
   priceTarget: {
     average: number | null;
     high: number | null;

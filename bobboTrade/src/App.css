@@ -344,6 +344,67 @@
   color: var(--text-tertiary);
 }
 
+.consensus-trend {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--card-border);
+  text-align: left;
+}
+
+.consensus-trend-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-tertiary);
+  margin-bottom: 8px;
+}
+
+.consensus-trend-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.consensus-trend-table th {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-tertiary);
+  text-align: right;
+  padding: 2px 0;
+}
+
+.consensus-trend-table th:first-child {
+  text-align: left;
+}
+
+.consensus-trend-table td {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: right;
+  padding: 3px 0;
+}
+
+.consensus-trend-table td:first-child {
+  text-align: left;
+  color: var(--text-tertiary);
+}
+
+.consensus-trend-current td {
+  color: var(--text-primary);
+  font-weight: 700;
+  border-top: 1px solid var(--card-border);
+}
+
+.consensus-trend-warning {
+  margin: 8px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--down);
+}
+
 /* Two-week movement */
 
 .movement-card {
