@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T17:02:21.055634+00:00",
-  "text": "Marathon Petroleum edged up just 0.08% today to $362.55, a negligible move that reflects the stock's broader flatness over the past week\u2014it's been bouncing in a narrow range between $354 and $362 since August 25th. The lack of meaningful movement today squares with mixed signals in the energy markets: while European gas prices are spiking due to low storage and Middle East supply disruptions, oil prices themselves have stabilized after falling more than 3% on news that Iran reached a revenue-sharing deal with Oman, suggesting some de-escalation of immediate tensions in the region.\n\nThe stock's small uptick comes amid a week where geopolitical risk in the Middle East\u2014which can significantly affect oil prices and refining economics\u2014has been on a seesaw, and crude has found a floor after its earlier decline. Over the past two weeks, Marathon is up 1.73%, a modest gain that appears tied more to that earlier volatility spike than to any single recent catalyst.",
+  "fetchedAt": "2026-08-27T18:08:44.214220+00:00",
+  "text": "Marathon Petroleum's stock ticked up 0.74% today to $364.94, extending a two-week gain of 2.4%. The move reflects ongoing geopolitical tension in the Middle East\u2014specifically around the Strait of Hormuz, a critical chokepoint for global oil shipments\u2014combined with strong refinery utilization at 97.4% and tightening energy supplies globally, particularly in Europe. These conditions typically support refined product margins and fuel demand for refiners.\n\nThe broader backdrop matters: U.S. oil is trading at $83.90 per barrel while world oil sits higher at $88.24, signaling supply concerns abroad. With European gas storage historically low heading into winter and Middle East LNG flows disrupted, global energy markets remain tight, which tends to lift margins for U.S. refiners who can sell refined products into those constrained markets. The de-escalation talk from Qatar and ongoing geopolitical uncertainty keep the risk premium in energy prices intact.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 11,
-    "inputTokens": 9131,
-    "outputTokens": 2323,
-    "estimatedCostUsd": 0.020746,
-    "lastCallHour": "2026-08-27T17"
+    "callsThisMonth": 12,
+    "inputTokens": 10072,
+    "outputTokens": 2539,
+    "estimatedCostUsd": 0.022767,
+    "lastCallHour": "2026-08-27T18"
   }
 }

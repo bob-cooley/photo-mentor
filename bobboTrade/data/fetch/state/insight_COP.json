@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T17:01:36.272952+00:00",
-  "text": "ConocoPhillips fell 1.4% today to $128.74, continuing a decline that's seen the stock drop nearly $6 in six trading days. The timing tracks with de-escalation talks in the Middle East: Qatar's Prime Minister visited Iran on Thursday to reduce tensions, and reports emerged of potential deals between Iran and Oman over control of the Strait of Hormuz\u2014a critical chokepoint for global oil shipping. When geopolitical risk in the region eases, the \"risk premium\" that oil prices carry shrinks, and energy stocks tend to weaken alongside crude.\n\nThe broader picture is mixed for energy companies like this one. While Middle East tensions are cooling, Europe's natural gas storage is at historic lows heading into winter, which could support energy prices. But the shift away from immediate military conflict removes the supply-shock threat that had been supporting oil prices, and that's what investors are pricing in today.",
+  "fetchedAt": "2026-08-27T18:08:17.038402+00:00",
+  "text": "ConocoPhillips fell slightly today, continuing a weeklong decline that has shed roughly 4% from its peak. The stock's weakness reflects a broader pullback in oil prices \u2014 U.S. crude is trading around $84 per barrel, down from recent highs \u2014 driven by easing geopolitical tension in the Middle East. Reports that Qatar is mediating talks between Iran and the U.S., and that Iran has reached a revenue-sharing deal with Oman over the Strait of Hormuz, have reduced fears of supply disruptions that had been supporting energy prices earlier this week.\n\nThe longer backdrop matters too: while tensions remain real, the market has shifted from expecting military escalation to betting on diplomatic de-escalation, which typically pressures oil stocks. For a major producer like ConocoPhillips, lower crude prices directly reduce cash flow and earnings potential, explaining why the stock has drifted down alongside the barrel price over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 9,
-    "inputTokens": 7505,
-    "outputTokens": 1952,
-    "estimatedCostUsd": 0.017265,
-    "lastCallHour": "2026-08-27T17"
+    "callsThisMonth": 10,
+    "inputTokens": 8387,
+    "outputTokens": 2160,
+    "estimatedCostUsd": 0.019187,
+    "lastCallHour": "2026-08-27T18"
   }
 }
