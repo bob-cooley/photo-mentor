@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T04:07:00.605209+00:00",
-  "text": "ConocoPhillips fell 0.93% today to $130.61, continuing a three-day decline after hitting $134.89 on August 20th. The pullback aligns with a broader easing of Middle East tension: oil prices dropped over 3% on August 25th when the U.S. signaled it would pursue economic pressure against Iran rather than military action, and subsequent news showed Iran and Oman moving toward a deal to secure safe passage through the Strait of Hormuz. With military conflict fears receding, the geopolitical risk premium that had pushed energy stocks higher earlier in the week has deflated.\n\nThis fits a pattern where oil and integrated energy companies like ConocoPhillips benefit from uncertainty and conflict risk\u2014higher perceived danger tends to push crude prices up. As that risk priced out of the market, the stock gave back some of its gains. The longer two-week uptrend (up 2.6%) suggests the company still sits higher than it was, but today's move reflects traders stepping back from the most anxious pricing.",
+  "fetchedAt": "2026-08-27T13:42:17.830722+00:00",
+  "text": "ConocoPhillips fell nearly 1% today as oil markets continued to digest de-escalation signals from the Middle East. Over the past week, the stock has dropped 4.1% from $134.89 to $129.36\u2014a sharp reversal from earlier this month's 3.88% gain. The main driver appears to be easing geopolitical tensions: on August 26, oil prices fell more than 3% when Iran signaled a potential deal with Oman over Strait of Hormuz transit, and today Qatar's Prime Minister traveled to Tehran for further \"de-escalation\" talks. When the risk of conflict in a critical oil chokepoint recedes, the energy upside that had been pricing in supply disruptions gets repriced lower.\n\nThe broader context is mixed for refiners and oil majors. While lower geopolitical risk is a headwind now, Europe's historically low gas inventories and forecasts for prices potentially topping 100 euros this winter suggest tighter fundamentals ahead\u2014especially if Middle East tensions resurface. For now though, the immediate momentum is toward a less volatile oil market, which has pulled ConocoPhillips down with it.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 5,
-    "inputTokens": 4120,
-    "outputTokens": 1054,
-    "estimatedCostUsd": 0.00939,
-    "lastCallHour": "2026-08-27T04"
+    "callsThisMonth": 6,
+    "inputTokens": 4967,
+    "outputTokens": 1314,
+    "estimatedCostUsd": 0.011537,
+    "lastCallHour": "2026-08-27T13"
   }
 }
