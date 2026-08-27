@@ -4,13 +4,17 @@ import InfoPopup from "./InfoPopup";
 
 // Plain-language read of current conditions, built from whichever of the
 // crude-price / refinery-utilization indicators are present.
-function interpret(energy: EnergyData): string {
+function interpret(energy: EnergyData): { rightNow: string; bottomLine: string } {
   const valueOf = (id: string) => energy.indicators.find((i) => i.id === id)?.value ?? null;
   const crude = valueOf("brent") ?? valueOf("wti");
   const utilization = valueOf("refinery_utilization");
 
   if (crude == null && utilization == null) {
-    return "The live energy prices haven't loaded yet. Once they do, this will explain in plain terms whether conditions are helping or hurting MPC's profits.";
+    return {
+      rightNow: "The live energy prices haven't loaded yet.",
+      bottomLine:
+        "Once they load, this will tell you plainly whether conditions favor MPC's profits or work against them.",
+    };
   }
 
   const sentences: string[] = [];
@@ -32,19 +36,18 @@ function interpret(energy: EnergyData): string {
     sentences.push(`Refineries across the country are ${desc}.`);
   }
 
-  let bottom: string;
+  let bottomLine: string;
   if (crude != null && crude < 75 && utilization != null && utilization >= 88) {
-    bottom =
-      "Bottom line: cheap oil plus busy refineries is a favorable mix for MPC's profits.";
+    bottomLine = "Cheap oil plus busy refineries is a favorable mix for MPC's profits.";
   } else if ((crude != null && crude > 90) || (utilization != null && utilization < 83)) {
-    bottom =
-      "Bottom line: this is an unfavorable mix for MPC's profits — either the raw material costs too much or demand for fuel is soft.";
+    bottomLine =
+      "An unfavorable mix for MPC's profits — either the raw material costs too much or demand for fuel is soft.";
   } else {
-    bottom =
-      "Bottom line: conditions are middle-of-the-road for MPC's profits right now — nothing helping or hurting much.";
+    bottomLine =
+      "Conditions are middle-of-the-road for MPC's profits right now — nothing helping or hurting much.";
   }
 
-  return `${sentences.join(" ")} ${bottom}`;
+  return { rightNow: sentences.join(" "), bottomLine };
 }
 
 export default function EnergyIndicatorsCard({
@@ -56,15 +59,18 @@ export default function EnergyIndicatorsCard({
   indicatorDefs: EnergyIndicatorDef[];
   loading: boolean;
 }) {
+  const explain = energy ? interpret(energy) : null;
+
   return (
     <div className="card">
       <div className="card-title-row">
         <h2 className="card-title">Refinery &amp; Energy</h2>
-        {energy && (
+        {explain && (
           <InfoPopup
             label="Refinery & Energy Prices"
             whatIsThis="These are key energy market prices that directly affect refinery profits. When crude is cheap and refined products are expensive, refineries make more money."
-            rightNow={interpret(energy)}
+            rightNow={explain.rightNow}
+            bottomLine={explain.bottomLine}
           />
         )}
       </div>

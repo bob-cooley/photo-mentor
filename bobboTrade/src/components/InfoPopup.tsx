@@ -1,18 +1,21 @@
 import { useEffect, useState, type ReactNode } from "react";
 
-// Small inline ⓘ button that opens a centered explainer modal. Two fixed
-// sections: a general "what is this" (same every time) and a
-// value-specific "what does this mean right now" (caller passes text
-// derived from the current reading). Closes on backdrop click, the X
-// button, or Escape. Modal styling mirrors .article-modal in App.css.
+// Small inline ⓘ button that opens a centered explainer modal. Up to
+// three labelled sections: a general "what is this" (same every time), a
+// value-specific "what does this mean right now", and a one-line
+// "bottom line" takeaway — the last two derived from the current
+// reading by the caller. Closes on backdrop click, the X button, or
+// Escape. Modal styling mirrors .article-modal in App.css.
 export default function InfoPopup({
   label,
   whatIsThis,
   rightNow,
+  bottomLine,
 }: {
   label: string;
   whatIsThis: ReactNode;
   rightNow: ReactNode;
+  bottomLine?: ReactNode;
 }) {
   const [open, setOpen] = useState(false);
 
@@ -72,6 +75,12 @@ export default function InfoPopup({
               <div className="info-popup-section-label">What does this mean right now?</div>
               <p>{rightNow}</p>
             </div>
+            {bottomLine != null && bottomLine !== "" && (
+              <div className="info-popup-section">
+                <div className="info-popup-section-label">Bottom line</div>
+                <p>{bottomLine}</p>
+              </div>
+            )}
           </div>
         </div>
       )}

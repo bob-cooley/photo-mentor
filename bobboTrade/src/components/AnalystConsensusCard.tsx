@@ -7,30 +7,33 @@ const RATING_COLOR: Record<string, string> = {
   SELL: "var(--down)",
 };
 
-function interpret(analyst: AnalystData): string {
+function interpret(analyst: AnalystData): { rightNow: string; bottomLine: string } {
   const { buy, hold, sell } = analyst.counts;
   const total = buy + hold + sell;
   const tally = `Right now, out of ${total} analysts, ${buy} say Buy, ${hold} say Hold, and ${sell} say Sell`;
 
   if (analyst.consensus === "BUY") {
-    return (
-      `${tally} — so the group leans toward Buy. ` +
-      `In plain terms, most of the experts who follow this company closely think the stock is more likely to rise than fall. ` +
-      `Bottom line: a positive sign — though analysts are often wrong, and this is just one opinion among many.`
-    );
+    return {
+      rightNow:
+        `${tally} — so the group leans toward Buy. ` +
+        `In plain terms, most of the experts who follow this company closely think the stock is more likely to rise than fall.`,
+      bottomLine: `A positive sign — though analysts are often wrong, and this is just one opinion among many.`,
+    };
   }
   if (analyst.consensus === "SELL") {
-    return (
-      `${tally} — so the group leans toward Sell. ` +
-      `In plain terms, more of the experts who follow this company closely think the stock is likely to fall than rise. ` +
-      `Bottom line: a cautious sign — though analysts are often wrong, and this is just one thing to weigh.`
-    );
+    return {
+      rightNow:
+        `${tally} — so the group leans toward Sell. ` +
+        `In plain terms, more of the experts who follow this company closely think the stock is likely to fall than rise.`,
+      bottomLine: `A cautious sign — though analysts are often wrong, and this is just one thing to weigh.`,
+    };
   }
-  return (
-    `${tally} — so the group lands on Hold. ` +
-    `In plain terms, the experts who follow this company closely are split, or think the stock is priced about right — no strong push either way. ` +
-    `Bottom line: no clear signal here; the analysts don't see an obvious bargain or an obvious problem.`
-  );
+  return {
+    rightNow:
+      `${tally} — so the group lands on Hold. ` +
+      `In plain terms, the experts who follow this company closely are split, or think the stock is priced about right — no strong push either way.`,
+    bottomLine: `No clear signal here; the analysts don't see an obvious bargain or an obvious problem.`,
+  };
 }
 
 function monthLabel(period: string): string {
@@ -69,16 +72,18 @@ export default function AnalystConsensusCard({
     buySeries.length >= 2 &&
     buySeries.every((value, i) => i === 0 || value <= buySeries[i - 1]) &&
     buySeries[buySeries.length - 1] < buySeries[0];
+  const explain = analyst ? interpret(analyst) : null;
 
   return (
     <div className="card">
       <div className="card-title-row">
         <h2 className="card-title">Analyst Consensus</h2>
-        {analyst && (
+        {explain && (
           <InfoPopup
             label="Analyst Consensus"
             whatIsThis="Wall Street analysts who study this company for a living vote on whether they think you should buy, hold, or sell the stock. This shows how that vote is split, and the average of their price predictions."
-            rightNow={interpret(analyst)}
+            rightNow={explain.rightNow}
+            bottomLine={explain.bottomLine}
           />
         )}
       </div>

@@ -9,45 +9,53 @@ const ZONE_LABEL: Record<string, string> = {
 
 // Plain-language read of the current value. Kept deliberately hedged —
 // RSI is a "worth watching" signal, not a trade instruction.
-function interpret(rsi: number, ticker: string): string {
+const CALM_BOTTOM_LINE = "Nothing unusual here, and no signal to act on.";
+const EXTREME_BOTTOM_LINE = "A yellow flag — worth watching, not worth reacting to on its own.";
+
+function interpret(rsi: number, ticker: string): { rightNow: string; bottomLine: string } {
   const v = Math.round(rsi);
   if (rsi >= 70) {
-    return (
-      `At ${v}, ${ticker} is in what's called overbought territory. ` +
-      `In plain terms, the stock has been rising quickly over the past couple of weeks — faster than its usual pace. ` +
-      `When a stock climbs this fast, it can sometimes get ahead of itself and slip back down a bit before settling. ` +
-      `That's not a sure thing, and it doesn't mean you should sell. ` +
-      `Bottom line: a yellow flag — worth watching, not worth reacting to on its own.`
-    );
+    return {
+      rightNow:
+        `At ${v}, ${ticker} is in what's called overbought territory. ` +
+        `In plain terms, the stock has been rising quickly over the past couple of weeks — faster than its usual pace. ` +
+        `When a stock climbs this fast, it can sometimes get ahead of itself and slip back down a bit before settling. ` +
+        `That's not a sure thing, and it doesn't mean you should sell.`,
+      bottomLine: EXTREME_BOTTOM_LINE,
+    };
   }
   if (rsi <= 30) {
-    return (
-      `At ${v}, ${ticker} is in what's called oversold territory. ` +
-      `In plain terms, the stock has been falling quickly over the past couple of weeks — faster than its usual pace. ` +
-      `When a stock drops this fast, it sometimes bounces back up a bit before settling. ` +
-      `That's not a sure thing, and it doesn't mean you should buy. ` +
-      `Bottom line: a yellow flag — worth watching, not worth reacting to on its own.`
-    );
+    return {
+      rightNow:
+        `At ${v}, ${ticker} is in what's called oversold territory. ` +
+        `In plain terms, the stock has been falling quickly over the past couple of weeks — faster than its usual pace. ` +
+        `When a stock drops this fast, it sometimes bounces back up a bit before settling. ` +
+        `That's not a sure thing, and it doesn't mean you should buy.`,
+      bottomLine: EXTREME_BOTTOM_LINE,
+    };
   }
   if (rsi >= 55) {
-    return (
-      `At ${v}, ${ticker} is in the calm middle range, leaning slightly to the strong side. ` +
-      `In plain terms, the stock has drifted up a little lately, but nothing dramatic — its recent ups and downs are within a normal range. ` +
-      `Bottom line: nothing unusual here, and no signal to act on.`
-    );
+    return {
+      rightNow:
+        `At ${v}, ${ticker} is in the calm middle range, leaning slightly to the strong side. ` +
+        `In plain terms, the stock has drifted up a little lately, but nothing dramatic — its recent ups and downs are within a normal range.`,
+      bottomLine: CALM_BOTTOM_LINE,
+    };
   }
   if (rsi <= 45) {
-    return (
-      `At ${v}, ${ticker} is in the calm middle range, leaning slightly to the weak side. ` +
-      `In plain terms, the stock has drifted down a little lately, but nothing dramatic — its recent ups and downs are within a normal range. ` +
-      `Bottom line: nothing unusual here, and no signal to act on.`
-    );
+    return {
+      rightNow:
+        `At ${v}, ${ticker} is in the calm middle range, leaning slightly to the weak side. ` +
+        `In plain terms, the stock has drifted down a little lately, but nothing dramatic — its recent ups and downs are within a normal range.`,
+      bottomLine: CALM_BOTTOM_LINE,
+    };
   }
-  return (
-    `At ${v}, ${ticker} is right in the calm middle range. ` +
-    `In plain terms, its recent gains and losses have roughly balanced out — the stock is neither racing up nor sliding down. ` +
-    `Bottom line: nothing unusual here, and no signal to act on.`
-  );
+  return {
+    rightNow:
+      `At ${v}, ${ticker} is right in the calm middle range. ` +
+      `In plain terms, its recent gains and losses have roughly balanced out — the stock is neither racing up nor sliding down.`,
+    bottomLine: CALM_BOTTOM_LINE,
+  };
 }
 
 export default function RSICard({
@@ -62,16 +70,18 @@ export default function RSICard({
   const value = rsi?.rsi ?? null;
   const zone = rsi?.zone ?? "neutral";
   const markerPct = value != null ? Math.max(0, Math.min(100, value)) : 0;
+  const explain = value != null ? interpret(value, ticker) : null;
 
   return (
     <div className="card rsi-card">
       <div className="card-title-row">
         <h2 className="card-title">Relative Strength (RSI)</h2>
-        {value != null && (
+        {explain && (
           <InfoPopup
             label="Relative Strength Index (RSI)"
             whatIsThis="RSI measures how fast a stock's price has been moving. It runs from 0 to 100. Readings above 70 suggest the stock has been climbing unusually fast (overbought); below 30 suggests it has been falling unusually fast (oversold); in between is considered normal."
-            rightNow={interpret(value, ticker)}
+            rightNow={explain.rightNow}
+            bottomLine={explain.bottomLine}
           />
         )}
       </div>
