@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T18:08:44.214220+00:00",
-  "text": "Marathon Petroleum's stock ticked up 0.74% today to $364.94, extending a two-week gain of 2.4%. The move reflects ongoing geopolitical tension in the Middle East\u2014specifically around the Strait of Hormuz, a critical chokepoint for global oil shipments\u2014combined with strong refinery utilization at 97.4% and tightening energy supplies globally, particularly in Europe. These conditions typically support refined product margins and fuel demand for refiners.\n\nThe broader backdrop matters: U.S. oil is trading at $83.90 per barrel while world oil sits higher at $88.24, signaling supply concerns abroad. With European gas storage historically low heading into winter and Middle East LNG flows disrupted, global energy markets remain tight, which tends to lift margins for U.S. refiners who can sell refined products into those constrained markets. The de-escalation talk from Qatar and ongoing geopolitical uncertainty keep the risk premium in energy prices intact.",
+  "fetchedAt": "2026-08-27T22:45:40.922419+00:00",
+  "text": "Marathon Petroleum's stock gained a fraction today, holding near $363.54 after bouncing back yesterday from a sharp dip. The modest move reflects a stabilization in energy markets following days of geopolitical turbulence\u2014U.S. oil prices sit at $83.90 a barrel while refineries are running at a very high 97.4% capacity, which supports refiner margins. With gasoline and diesel inventories at comfortable levels (206.8 and 103.4 million barrels respectively), there's no supply crunch pressuring margins downward at the moment.\n\nThe broader picture is one of elevated but uncertain energy demand: Middle East tensions (Iranian negotiations, tanker attacks, and Strait of Hormuz concerns) have kept oil prices elevated, and Europe's low gas storage ahead of winter could sustain global energy prices higher. A refiner like Marathon benefits from this sustained price environment when capacity utilization stays this high, though geopolitical de-escalation efforts\u2014like Qatar's talks with Iran today\u2014could just as easily ease tensions and moderate crude prices downward.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 12,
-    "inputTokens": 10072,
-    "outputTokens": 2539,
-    "estimatedCostUsd": 0.022767,
-    "lastCallHour": "2026-08-27T18"
+    "callsThisMonth": 13,
+    "inputTokens": 11015,
+    "outputTokens": 2774,
+    "estimatedCostUsd": 0.024885,
+    "lastCallHour": "2026-08-27T22"
   }
 }

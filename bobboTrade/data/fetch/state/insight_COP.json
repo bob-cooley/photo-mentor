@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T18:08:17.038402+00:00",
-  "text": "ConocoPhillips fell slightly today, continuing a weeklong decline that has shed roughly 4% from its peak. The stock's weakness reflects a broader pullback in oil prices \u2014 U.S. crude is trading around $84 per barrel, down from recent highs \u2014 driven by easing geopolitical tension in the Middle East. Reports that Qatar is mediating talks between Iran and the U.S., and that Iran has reached a revenue-sharing deal with Oman over the Strait of Hormuz, have reduced fears of supply disruptions that had been supporting energy prices earlier this week.\n\nThe longer backdrop matters too: while tensions remain real, the market has shifted from expecting military escalation to betting on diplomatic de-escalation, which typically pressures oil stocks. For a major producer like ConocoPhillips, lower crude prices directly reduce cash flow and earnings potential, explaining why the stock has drifted down alongside the barrel price over the past week.",
+  "fetchedAt": "2026-08-27T22:45:12.955139+00:00",
+  "text": "ConocoPhillips fell 0.83% today as oil prices retreated across the board\u2014US crude dropped to $83.90 per barrel, down from higher levels earlier in the week. This decline came amid diplomatic developments in the Middle East, where Qatar's prime minister visited Iran for de-escalation talks and Iran announced a revenue-sharing deal with Oman over the Strait of Hormuz. These moves suggest reduced immediate tension in one of the world's most critical oil chokepoints, easing near-term concerns about supply disruptions that had supported prices earlier.\n\nThe broader pullback also reflects investor reassessment after earlier fears around tanker attacks and geopolitical risk proved less severe than initially priced in. At the same time, Europe's historically low gas storage heading into winter could support longer-term energy demand, though that hasn't offset today's focus on the diplomatic shift reducing short-term supply anxiety.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 10,
-    "inputTokens": 8387,
-    "outputTokens": 2160,
-    "estimatedCostUsd": 0.019187,
-    "lastCallHour": "2026-08-27T18"
+    "callsThisMonth": 11,
+    "inputTokens": 9269,
+    "outputTokens": 2359,
+    "estimatedCostUsd": 0.021064,
+    "lastCallHour": "2026-08-27T22"
   }
 }
