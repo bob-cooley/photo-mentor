@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T22:45:40.922419+00:00",
-  "text": "Marathon Petroleum's stock gained a fraction today, holding near $363.54 after bouncing back yesterday from a sharp dip. The modest move reflects a stabilization in energy markets following days of geopolitical turbulence\u2014U.S. oil prices sit at $83.90 a barrel while refineries are running at a very high 97.4% capacity, which supports refiner margins. With gasoline and diesel inventories at comfortable levels (206.8 and 103.4 million barrels respectively), there's no supply crunch pressuring margins downward at the moment.\n\nThe broader picture is one of elevated but uncertain energy demand: Middle East tensions (Iranian negotiations, tanker attacks, and Strait of Hormuz concerns) have kept oil prices elevated, and Europe's low gas storage ahead of winter could sustain global energy prices higher. A refiner like Marathon benefits from this sustained price environment when capacity utilization stays this high, though geopolitical de-escalation efforts\u2014like Qatar's talks with Iran today\u2014could just as easily ease tensions and moderate crude prices downward.",
+  "fetchedAt": "2026-08-27T23:33:10.756907+00:00",
+  "text": "Marathon Petroleum edged up 0.35% today as refinery utilization hit 97.4%, near maximum capacity, while U.S. crude held steady around $84 a barrel. High refinery runs and tight inventory levels\u2014particularly low gasoline and diesel stocks\u2014support the economics of converting crude into fuel, which underpins refiner margins and profitability.\n\nThe stock's modest gain sits within a volatile two-week pattern marked by geopolitical uncertainty in the Middle East. Ongoing Iran-U.S. tensions and tanker attacks near the Strait of Hormuz (a critical chokepoint for global oil flows) have created both upside risk from supply disruptions and downside risk from de-escalation talks; Europe's historically low gas stores add another layer of supply-demand tightness that could support energy prices, though the outcome remains unclear.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 13,
-    "inputTokens": 11015,
-    "outputTokens": 2774,
-    "estimatedCostUsd": 0.024885,
-    "lastCallHour": "2026-08-27T22"
+    "callsThisMonth": 14,
+    "inputTokens": 11958,
+    "outputTokens": 2963,
+    "estimatedCostUsd": 0.026773,
+    "lastCallHour": "2026-08-27T23"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T22:45:12.955139+00:00",
-  "text": "ConocoPhillips fell 0.83% today as oil prices retreated across the board\u2014US crude dropped to $83.90 per barrel, down from higher levels earlier in the week. This decline came amid diplomatic developments in the Middle East, where Qatar's prime minister visited Iran for de-escalation talks and Iran announced a revenue-sharing deal with Oman over the Strait of Hormuz. These moves suggest reduced immediate tension in one of the world's most critical oil chokepoints, easing near-term concerns about supply disruptions that had supported prices earlier.\n\nThe broader pullback also reflects investor reassessment after earlier fears around tanker attacks and geopolitical risk proved less severe than initially priced in. At the same time, Europe's historically low gas storage heading into winter could support longer-term energy demand, though that hasn't offset today's focus on the diplomatic shift reducing short-term supply anxiety.",
+  "fetchedAt": "2026-08-27T23:32:39.491376+00:00",
+  "text": "ConocoPhillips fell 0.83% today to $129.52, continuing a downward drift that's seen the stock lose about 3.8% since August 20th. The trigger appears to be cooling geopolitical tension in the Middle East: Qatar's Prime Minister traveled to Iran for de-escalation talks on Thursday, and earlier reports suggested the U.S. is relying on economic pressure rather than military action. When geopolitical risk recedes, oil prices tend to fall\u2014and crude did drop more than 3% earlier this week after Iran reportedly reached a revenue-sharing deal with Oman over the Strait of Hormuz. Oil refiners and producers like ConocoPhillips are sensitive to these moves because lower crude prices compress their margins.\n\nThe stock's weakness also reflects softer oil fundamentals more broadly. U.S. crude is trading at $83.90 per barrel and world prices at $88.24\u2014both modest levels\u2014while European gas storage is historically low, which could support LNG demand this winter but isn't moving markets today. With Middle East tensions easing rather than escalating, the near-term tailwind for energy prices has faded.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 11,
-    "inputTokens": 9269,
-    "outputTokens": 2359,
-    "estimatedCostUsd": 0.021064,
-    "lastCallHour": "2026-08-27T22"
+    "callsThisMonth": 12,
+    "inputTokens": 10151,
+    "outputTokens": 2618,
+    "estimatedCostUsd": 0.023241,
+    "lastCallHour": "2026-08-27T23"
   }
 }
