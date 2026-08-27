@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T13:42:44.271026+00:00",
-  "text": "Marathon Petroleum rose modestly today as geopolitical tensions in the Middle East showed signs of easing. Qatar's Prime Minister traveled to Iran for de-escalation talks on Thursday, and oil prices stabilized after falling more than 3% earlier in the session when reports emerged of a potential revenue-sharing deal between Iran and Oman. The stock has recovered from a sharp dip yesterday (down to $354.88) and is now near its recent highs, reflecting a pullback from worst-case war scenario pricing.\n\nThe broader backdrop for refiners remains supportive: Europe's natural gas stores are at historically low levels heading into winter, which could lift energy prices more broadly, while U.S. and Russian competition for energy markets signals sustained global demand. However, the immediate direction for oil and refinery stocks will likely hinge on whether these de-escalation efforts hold or if Middle East tensions flare again.",
+  "fetchedAt": "2026-08-27T14:33:11.504881+00:00",
+  "text": "Marathon Petroleum fell 1.2% today as oil prices stabilized following de-escalation signals in the Iran-U.S. tension that had boosted energy stocks earlier in the week. On August 26, oil dropped more than 3% when Iran announced a revenue-sharing deal with Oman, suggesting the conflict might not escalate militarily\u2014a shift from the previous day's geopolitical premium that had pushed the stock up sharply on August 24-26.\n\nThe broader backdrop remains complex: Europe's historically low gas storage and potential winter price spikes could help refiners' margins in the longer term, but the immediate move reflects traders scaling back the \"war premium\" that had inflated energy stocks. With Qatar now mediating de-escalation talks in Iran, the acute geopolitical risk that had driven the recent rally appears to be easing.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 8,
-    "inputTokens": 6618,
-    "outputTokens": 1716,
-    "estimatedCostUsd": 0.015198,
-    "lastCallHour": "2026-08-27T13"
+    "callsThisMonth": 9,
+    "inputTokens": 7455,
+    "outputTokens": 1902,
+    "estimatedCostUsd": 0.016965,
+    "lastCallHour": "2026-08-27T14"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T13:42:17.830722+00:00",
-  "text": "ConocoPhillips fell nearly 1% today as oil markets continued to digest de-escalation signals from the Middle East. Over the past week, the stock has dropped 4.1% from $134.89 to $129.36\u2014a sharp reversal from earlier this month's 3.88% gain. The main driver appears to be easing geopolitical tensions: on August 26, oil prices fell more than 3% when Iran signaled a potential deal with Oman over Strait of Hormuz transit, and today Qatar's Prime Minister traveled to Tehran for further \"de-escalation\" talks. When the risk of conflict in a critical oil chokepoint recedes, the energy upside that had been pricing in supply disruptions gets repriced lower.\n\nThe broader context is mixed for refiners and oil majors. While lower geopolitical risk is a headwind now, Europe's historically low gas inventories and forecasts for prices potentially topping 100 euros this winter suggest tighter fundamentals ahead\u2014especially if Middle East tensions resurface. For now though, the immediate momentum is toward a less volatile oil market, which has pulled ConocoPhillips down with it.",
+  "fetchedAt": "2026-08-27T14:32:34.749382+00:00",
+  "text": "ConocoPhillips fell 1.3% today to $128.93, extending a losing streak that's seen the stock drop about 3.4% over the past week. The decline reflects growing signs of de-escalation in Middle East tensions\u2014Qatar's Prime Minister traveled to Iran on Thursday to reduce U.S.-Iran friction, and earlier this week oil prices dropped more than 3% after Iran signaled a potential revenue-sharing deal with Oman over the Strait of Hormuz. For an oil major like ConocoPhillips, lower geopolitical risk means lower crude prices and reduced upside to refining margins, which pressures valuations even if supplies become more stable.\n\nThe broader backdrop remains mixed: European gas storage is at historic lows heading into winter, which could support energy prices overall, and global demand competition between the U.S. and Russia in India suggests steady long-term consumption. However, the immediate market reaction has focused on the risk-off story\u2014fewer tensions mean less panic premium in oil, and that's been enough to override longer-term supply tightness concerns.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 6,
-    "inputTokens": 4967,
-    "outputTokens": 1314,
-    "estimatedCostUsd": 0.011537,
-    "lastCallHour": "2026-08-27T13"
+    "callsThisMonth": 7,
+    "inputTokens": 5813,
+    "outputTokens": 1554,
+    "estimatedCostUsd": 0.013583,
+    "lastCallHour": "2026-08-27T14"
   }
 }
