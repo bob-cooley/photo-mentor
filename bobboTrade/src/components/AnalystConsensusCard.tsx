@@ -1,10 +1,37 @@
 import type { AnalystData } from "../types";
+import InfoPopup from "./InfoPopup";
 
 const RATING_COLOR: Record<string, string> = {
   BUY: "var(--up)",
   HOLD: "var(--hold)",
   SELL: "var(--down)",
 };
+
+function interpret(analyst: AnalystData): string {
+  const { buy, hold, sell } = analyst.counts;
+  const total = buy + hold + sell;
+  const tally = `Right now, out of ${total} analysts, ${buy} say Buy, ${hold} say Hold, and ${sell} say Sell`;
+
+  if (analyst.consensus === "BUY") {
+    return (
+      `${tally} — so the group leans toward Buy. ` +
+      `In plain terms, most of the experts who follow this company closely think the stock is more likely to rise than fall. ` +
+      `Bottom line: a positive sign — though analysts are often wrong, and this is just one opinion among many.`
+    );
+  }
+  if (analyst.consensus === "SELL") {
+    return (
+      `${tally} — so the group leans toward Sell. ` +
+      `In plain terms, more of the experts who follow this company closely think the stock is likely to fall than rise. ` +
+      `Bottom line: a cautious sign — though analysts are often wrong, and this is just one thing to weigh.`
+    );
+  }
+  return (
+    `${tally} — so the group lands on Hold. ` +
+    `In plain terms, the experts who follow this company closely are split, or think the stock is priced about right — no strong push either way. ` +
+    `Bottom line: no clear signal here; the analysts don't see an obvious bargain or an obvious problem.`
+  );
+}
 
 function monthLabel(period: string): string {
   const [year, month] = period.split("-");
@@ -45,7 +72,16 @@ export default function AnalystConsensusCard({
 
   return (
     <div className="card">
-      <h2 className="card-title">Analyst Consensus</h2>
+      <div className="card-title-row">
+        <h2 className="card-title">Analyst Consensus</h2>
+        {analyst && (
+          <InfoPopup
+            label="Analyst Consensus"
+            whatIsThis="Wall Street analysts who study this company for a living vote on whether they think you should buy, hold, or sell the stock. This shows how that vote is split, and the average of their price predictions."
+            rightNow={interpret(analyst)}
+          />
+        )}
+      </div>
       {loading && <div className="skeleton" style={{ height: 64 }} />}
       {!loading && !analyst && <p className="empty-state">No consensus data available.</p>}
       {!loading && analyst && (

@@ -12,18 +12,42 @@ const ZONE_LABEL: Record<string, string> = {
 function interpret(rsi: number, ticker: string): string {
   const v = Math.round(rsi);
   if (rsi >= 70) {
-    return `At ${v}, ${ticker} is in overbought territory — it has risen faster than usual recently and may be due for a pullback. This doesn't mean sell immediately, but it's worth watching closely.`;
+    return (
+      `At ${v}, ${ticker} is in what's called overbought territory. ` +
+      `In plain terms, the stock has been rising quickly over the past couple of weeks — faster than its usual pace. ` +
+      `When a stock climbs this fast, it can sometimes get ahead of itself and slip back down a bit before settling. ` +
+      `That's not a sure thing, and it doesn't mean you should sell. ` +
+      `Bottom line: a yellow flag — worth watching, not worth reacting to on its own.`
+    );
   }
   if (rsi <= 30) {
-    return `At ${v}, ${ticker} is in oversold territory — it has fallen faster than usual recently and may be due for a bounce. This doesn't mean buy immediately, but it's worth watching closely.`;
+    return (
+      `At ${v}, ${ticker} is in what's called oversold territory. ` +
+      `In plain terms, the stock has been falling quickly over the past couple of weeks — faster than its usual pace. ` +
+      `When a stock drops this fast, it sometimes bounces back up a bit before settling. ` +
+      `That's not a sure thing, and it doesn't mean you should buy. ` +
+      `Bottom line: a yellow flag — worth watching, not worth reacting to on its own.`
+    );
   }
   if (rsi >= 55) {
-    return `At ${v}, ${ticker} sits in the upper half of the neutral range — some upward momentum, nothing extreme.`;
+    return (
+      `At ${v}, ${ticker} is in the calm middle range, leaning slightly to the strong side. ` +
+      `In plain terms, the stock has drifted up a little lately, but nothing dramatic — its recent ups and downs are within a normal range. ` +
+      `Bottom line: nothing unusual here, and no signal to act on.`
+    );
   }
   if (rsi <= 45) {
-    return `At ${v}, ${ticker} sits in the lower half of the neutral range — some downward momentum, nothing extreme.`;
+    return (
+      `At ${v}, ${ticker} is in the calm middle range, leaning slightly to the weak side. ` +
+      `In plain terms, the stock has drifted down a little lately, but nothing dramatic — its recent ups and downs are within a normal range. ` +
+      `Bottom line: nothing unusual here, and no signal to act on.`
+    );
   }
-  return `At ${v}, ${ticker} is squarely neutral — recent gains and losses have been roughly balanced, with no momentum extreme in either direction.`;
+  return (
+    `At ${v}, ${ticker} is right in the calm middle range. ` +
+    `In plain terms, its recent gains and losses have roughly balanced out — the stock is neither racing up nor sliding down. ` +
+    `Bottom line: nothing unusual here, and no signal to act on.`
+  );
 }
 
 export default function RSICard({

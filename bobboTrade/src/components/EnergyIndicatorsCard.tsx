@@ -9,34 +9,42 @@ function interpret(energy: EnergyData): string {
   const crude = valueOf("brent") ?? valueOf("wti");
   const utilization = valueOf("refinery_utilization");
 
-  const parts: string[] = [];
+  if (crude == null && utilization == null) {
+    return "The live energy prices haven't loaded yet. Once they do, this will explain in plain terms whether conditions are helping or hurting MPC's profits.";
+  }
+
+  const sentences: string[] = [];
   if (crude != null) {
-    const level = crude < 70 ? "relatively cheap" : crude > 90 ? "expensive" : "middling";
-    parts.push(`crude oil is around $${crude.toFixed(0)}/barrel (${level})`);
+    const desc =
+      crude < 70 ? "cheap right now" : crude > 90 ? "expensive right now" : "around its normal price";
+    sentences.push(
+      `Crude oil — the raw material refineries buy — is ${desc}, at about $${crude.toFixed(0)} a barrel.`
+    );
   }
   if (utilization != null) {
-    const pace =
-      utilization >= 90 ? "running hard" : utilization >= 85 ? "at a normal pace" : "running below normal";
-    parts.push(`US refineries are ${pace}, at ${utilization.toFixed(0)}% of capacity`);
+    const pct = `${utilization.toFixed(0)}% of what they could produce`;
+    const desc =
+      utilization >= 90
+        ? `running near full capacity, at ${pct} — usually a sign of strong demand for fuel`
+        : utilization >= 85
+          ? `running at a normal pace, at ${pct}`
+          : `running lighter than usual, at ${pct} — which often points to softer demand for fuel`;
+    sentences.push(`Refineries across the country are ${desc}.`);
   }
 
-  if (parts.length === 0) {
-    return "Live energy-market prices aren't available right now. When they load, this will read the balance between crude costs and refined-product demand.";
-  }
-
-  let outlook: string;
+  let bottom: string;
   if (crude != null && crude < 75 && utilization != null && utilization >= 88) {
-    outlook = "That combination — cheaper crude and busy refineries — is favorable for refining profits.";
+    bottom =
+      "Bottom line: cheap oil plus busy refineries is a favorable mix for MPC's profits.";
   } else if ((crude != null && crude > 90) || (utilization != null && utilization < 83)) {
-    outlook =
-      "That leans unfavorable for refining profits — either crude is pricey or refineries are running light.";
+    bottom =
+      "Bottom line: this is an unfavorable mix for MPC's profits — either the raw material costs too much or demand for fuel is soft.";
   } else {
-    outlook =
-      "Conditions are roughly middle-of-the-road for refining profits — no strong tailwind or headwind from these numbers.";
+    bottom =
+      "Bottom line: conditions are middle-of-the-road for MPC's profits right now — nothing helping or hurting much.";
   }
 
-  const lead = parts.join(", and ");
-  return `${lead.charAt(0).toUpperCase()}${lead.slice(1)}. ${outlook}`;
+  return `${sentences.join(" ")} ${bottom}`;
 }
 
 export default function EnergyIndicatorsCard({

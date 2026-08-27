@@ -10,12 +10,28 @@ const TREND_META: Record<string, { label: string; className: string }> = {
 function interpret(value: number, trend: string, ticker: string): string {
   const v = Math.round(value);
   if (trend === "compressing") {
-    return `At $${v}/barrel and compressing, refinery margins are tightening. This can be an early warning that ${ticker}'s earnings will soften in the coming weeks — worth watching if the trend continues.`;
+    return (
+      `At $${v}/barrel and compressing, the gap between what crude oil costs and what gasoline and diesel sell for is shrinking. ` +
+      `That means refineries like ${ticker} are making less profit on every barrel of oil they turn into fuel. ` +
+      `Think of it like a store whose wholesale costs are creeping up toward what it can charge at the register — the thinner that gap gets, the less money it keeps. ` +
+      `A shrinking gap can be an early sign that ${ticker}'s profits will weaken in the weeks ahead. ` +
+      `Bottom line: this is a caution sign — worth keeping an eye on if the gap keeps narrowing, but not something to act on today.`
+    );
   }
   if (trend === "expanding") {
-    return `At $${v}/barrel and expanding, refinery margins are widening — a tailwind for ${ticker}'s earnings, since refiners make more on every barrel they process.`;
+    return (
+      `At $${v}/barrel and expanding, the gap between what crude oil costs and what gasoline and diesel sell for is getting bigger. ` +
+      `That means refineries like ${ticker} are making more profit on every barrel of oil they turn into fuel. ` +
+      `Think of it like a store buying goods wholesale for far less than it charges at the register — the wider that gap, the more money it keeps. ` +
+      `Right now that gap is growing. ` +
+      `Bottom line: this is good news for the stock, as long as the trend holds.`
+    );
   }
-  return `At $${v}/barrel and roughly flat week-over-week, refinery margins are holding steady. No near-term pressure on ${ticker}'s earnings from this in either direction.`;
+  return (
+    `At $${v}/barrel and about the same as last week, the gap between what crude oil costs and what gasoline and diesel sell for is holding steady. ` +
+    `That gap is the profit refineries like ${ticker} make turning oil into fuel, and right now it's neither growing nor shrinking. ` +
+    `Bottom line: nothing to react to here — this measure isn't pushing the stock up or down at the moment.`
+  );
 }
 
 export default function CrackSpreadCard({
