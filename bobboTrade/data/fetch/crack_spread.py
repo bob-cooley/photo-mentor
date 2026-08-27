@@ -1,7 +1,7 @@
 """Derive the US Gulf Coast 3-2-1 crack spread from EIA weekly spot
 prices and write public/data/<TICKER>/crack_spread.json.
 
-Requires env var EIA_API_KEY (already used by energy.py). EIA has no
+Requires env var EIA_API_KEY (same key energy.py uses). EIA has no
 single pre-calculated 3-2-1 series, so it's built here from three spot
 prices, all Gulf Coast (PADD 3), the pricing point most relevant to a
 Gulf Coast refiner like MPC:
@@ -10,6 +10,15 @@ Gulf Coast refiner like MPC:
 
 Gasoline and diesel come from EIA in $/gallon and are converted to
 $/barrel (x42) before the arithmetic; Brent is already $/barrel.
+
+Series-ID notes (verified against EIA's v2 API):
+  - EER_EPMRU_PF4_RGC_DPG — Gulf Coast *conventional* regular gasoline
+    spot. There is NO RBOB Gulf Coast spot series (RBOB spot exists only
+    for NY Harbor and Los Angeles), so conventional is the standard
+    Gulf Coast 3-2-1 gasoline proxy — the earlier EER_EPMRR_*_RGC_* id
+    returned zero rows.
+  - EER_EPD2DXL0_PF4_RGC_DPG — Gulf Coast ultra-low-sulfur No. 2 diesel.
+  - RBRTE — Europe Brent spot (daily; same series energy.py uses).
 
 The crack spread is a market-wide number — the same for every ticker on
 the dashboard — so the EIA fetch runs once per pipeline run (memoized
@@ -22,13 +31,15 @@ from __future__ import annotations
 import sys
 from datetime import datetime, timedelta
 
+import requests
+
 from common import get, get_required_env, utc_now_iso, write_json
 
 EIA_BASE = "https://api.eia.gov/v2"
 GALLONS_PER_BARREL = 42
 
 # EIA v2 spot-price series: (route, facets[series][], frequency).
-GASOLINE_GC = ("petroleum/pri/spt/data", "EER_EPMRR_PF4_RGC_DPG", "weekly")  # RBOB regular, Gulf Coast, $/gal
+GASOLINE_GC = ("petroleum/pri/spt/data", "EER_EPMRU_PF4_RGC_DPG", "weekly")  # conventional regular, Gulf Coast, $/gal
 DIESEL_GC = ("petroleum/pri/spt/data", "EER_EPD2DXL0_PF4_RGC_DPG", "weekly")  # ULSD, Gulf Coast, $/gal
 BRENT = ("petroleum/pri/spt/data", "RBRTE", "daily")  # Brent, $/bbl
 
@@ -40,19 +51,28 @@ STABLE_BAND = 0.25
 
 def _fetch_rows(api_key: str, series: tuple[str, str, str], length: int) -> list[dict]:
     route, series_id, frequency = series
-    resp = get(
-        f"{EIA_BASE}/{route}",
-        params={
-            "api_key": api_key,
-            "frequency": frequency,
-            "data[0]": "value",
-            "facets[series][]": series_id,
-            "sort[0][column]": "period",
-            "sort[0][direction]": "desc",
-            "length": length,
-        },
-    ).json()
-    rows = resp.get("response", {}).get("data", [])
+    try:
+        resp = get(
+            f"{EIA_BASE}/{route}",
+            params={
+                "api_key": api_key,
+                "frequency": frequency,
+                "data[0]": "value",
+                "facets[series][]": series_id,
+                "sort[0][column]": "period",
+                "sort[0][direction]": "desc",
+                "length": length,
+            },
+        )
+    except requests.exceptions.HTTPError as exc:
+        # EIA returns 403 with a JSON {"error": {"code": ...}} body for an
+        # invalid/expired key (API_KEY_INVALID) — surface that instead of
+        # the bare "403 Forbidden", since it's the usual cause here.
+        body = exc.response.text[:300] if exc.response is not None else ""
+        raise RuntimeError(f"EIA request for {series_id} failed: {exc} — {body}") from exc
+
+    payload = resp.json()
+    rows = payload.get("response", {}).get("data", [])
     return [r for r in rows if r.get("value") is not None]
 
 
