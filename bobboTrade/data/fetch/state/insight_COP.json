@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T16:12:39.478477+00:00",
-  "text": "ConocoPhillips fell 1.5% today, continuing a five-day decline that has erased all of the stock's gains from the past two weeks. The drop follows news that Qatar is mediating de-escalation talks between Iran and the U.S., and that Iran may be negotiating a deal with Oman over the Strait of Hormuz\u2014the world's critical chokepoint for oil shipping. When geopolitical tension that was supporting oil prices eases, investors worry less about supply disruptions, which pressures energy stocks even if oil prices themselves move only modestly.\n\nThe broader picture is mixed for the sector. While Europe's historically low gas storage is raising winter price risks, and the U.S. is competing with Russia for energy dominance in India, the immediate momentum today is toward reduced Middle East conflict risk, which has weighed on the entire stock over the past week.",
+  "fetchedAt": "2026-08-27T17:01:36.272952+00:00",
+  "text": "ConocoPhillips fell 1.4% today to $128.74, continuing a decline that's seen the stock drop nearly $6 in six trading days. The timing tracks with de-escalation talks in the Middle East: Qatar's Prime Minister visited Iran on Thursday to reduce tensions, and reports emerged of potential deals between Iran and Oman over control of the Strait of Hormuz\u2014a critical chokepoint for global oil shipping. When geopolitical risk in the region eases, the \"risk premium\" that oil prices carry shrinks, and energy stocks tend to weaken alongside crude.\n\nThe broader picture is mixed for energy companies like this one. While Middle East tensions are cooling, Europe's natural gas storage is at historic lows heading into winter, which could support energy prices. But the shift away from immediate military conflict removes the supply-shock threat that had been supporting oil prices, and that's what investors are pricing in today.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 8,
-    "inputTokens": 6659,
-    "outputTokens": 1749,
-    "estimatedCostUsd": 0.015404,
-    "lastCallHour": "2026-08-27T16"
+    "callsThisMonth": 9,
+    "inputTokens": 7505,
+    "outputTokens": 1952,
+    "estimatedCostUsd": 0.017265,
+    "lastCallHour": "2026-08-27T17"
   }
 }

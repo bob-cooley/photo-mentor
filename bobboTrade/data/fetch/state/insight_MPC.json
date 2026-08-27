@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T16:13:11.932857+00:00",
-  "text": "Marathon Petroleum dropped 0.47% today, continuing a volatile week where the stock has swung between gains and losses. The most concrete trigger appears to be yesterday's news that Iran and Oman reached a revenue-sharing deal over the Hormuz Strait, which sent oil prices down more than 3% in early trading \u2014 that suggests reduced geopolitical risk around Middle East shipping, which had boosted energy stocks earlier in the week when Iran tensions looked sharper.\n\nThe broader context: this stock moves in lockstep with oil price swings and geopolitical risk premiums. Earlier in the week, Trump administration officials' rhetoric around Iran conflict had lifted energy stocks noticeably, but as diplomacy signals (Qatar heading to Iran, the Oman deal) have emerged, some of that risk premium has evaporated. That's typical behavior for a refiner whose margins and crude costs track global oil prices and regional stability.",
+  "fetchedAt": "2026-08-27T17:02:21.055634+00:00",
+  "text": "Marathon Petroleum edged up just 0.08% today to $362.55, a negligible move that reflects the stock's broader flatness over the past week\u2014it's been bouncing in a narrow range between $354 and $362 since August 25th. The lack of meaningful movement today squares with mixed signals in the energy markets: while European gas prices are spiking due to low storage and Middle East supply disruptions, oil prices themselves have stabilized after falling more than 3% on news that Iran reached a revenue-sharing deal with Oman, suggesting some de-escalation of immediate tensions in the region.\n\nThe stock's small uptick comes amid a week where geopolitical risk in the Middle East\u2014which can significantly affect oil prices and refining economics\u2014has been on a seesaw, and crude has found a floor after its earlier decline. Over the past two weeks, Marathon is up 1.73%, a modest gain that appears tied more to that earlier volatility spike than to any single recent catalyst.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 10,
-    "inputTokens": 8293,
-    "outputTokens": 2101,
-    "estimatedCostUsd": 0.018798,
-    "lastCallHour": "2026-08-27T16"
+    "callsThisMonth": 11,
+    "inputTokens": 9131,
+    "outputTokens": 2323,
+    "estimatedCostUsd": 0.020746,
+    "lastCallHour": "2026-08-27T17"
   }
 }
