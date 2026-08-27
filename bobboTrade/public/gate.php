@@ -239,33 +239,40 @@ function render_login_page(bool $error): void
       var UP_COLOR = '#34c759';
       var DOWN_COLOR = '#ff6e64';
       var POINT_SPACING = 4;
-      var STEP_INTERVAL_MS = 90;
+      var STEP_INTERVAL_MS = 150;
       var DOT_RADIUS = 5;
       var MARGIN_RATIO = 0.2; // pen sits 20% in from the right edge
       var ERASE_MARGIN = 40; // px past the left edge before a point is dropped
-      var VIEW_PADDING_RATIO = 0.18; // headroom above/below the visible range
-      var VIEW_EASE = 0.05; // how fast the view window pans/zooms to fit
+      var VIEW_AMPLITUDE = 50; // fixed vertical span shown, in abstract value units — never auto-zooms
+      var CENTER_EASE = 0.004; // how slowly the window pans to follow the baseline (must be slow relative to a regime's duration, or it cancels out peaks/valleys as they happen)
+      var MEAN_REVERSION = 0.09; // how hard local noise gets pulled back toward the current regime's target each step
+      var NOISE_SCALE = 3;
+      var BASELINE_DRIFT_PER_STEP = 0.035; // the slow secular uptrend — deliberately tiny next to VIEW_AMPLITUDE
 
-      // A small regime-based random walk: mostly a gentle uptrend
-      // (like stocks over months/years), occasionally interrupted by a
-      // rally, a correction, or real turmoil — a sharp shock, a choppy
-      // stretch, then a slow grind back to normal. The value is
-      // unbounded (starts at 0 and drifts up over the long run); the
-      // view window (see updateViewWindow) auto-scales to whatever
-      // range is currently on screen, so it never needs clamping.
+      // Local price action is a mean-reverting oscillator (bounded, so
+      // chop always stays a constant size on screen), not an unbounded
+      // random walk — that was the actual bug last round: an unbounded
+      // walk plus a view that auto-fits the whole visible history makes
+      // the chop shrink relative to the frame as soon as any trend
+      // accumulates, which reads as "just a climb" no matter how the
+      // regimes are tuned. A separate, much slower baseline provides
+      // the gentle long-term uptrend on top of that bounded chop.
+      // Regimes bias the oscillator's reversion TARGET (a temporary
+      // peak or valley to chase and settle back from) and volatility,
+      // rather than adding permanent drift.
       var REGIMES = {
-        normal:     { drift: 1,    vol: 1.0,  min: 70,  max: 170 },
-        rally:      { drift: 4.5,  vol: 1.15, min: 40,  max: 90  },
-        correction: { drift: -3.5, vol: 1.3,  min: 30,  max: 70  },
-        shock:      { drift: -15,  vol: 2.8,  min: 4,   max: 9   },
-        choppy:     { drift: 0,    vol: 2.3,  min: 20,  max: 45  },
-        recovery:   { drift: 3.2,  vol: 1.5,  min: 50,  max: 110 }
+        normal:     { target: 0,                    vol: 1.0, min: 25, max: 55 },
+        rally:      { target: VIEW_AMPLITUDE * 0.5,  vol: 1.1, min: 18, max: 34 },
+        correction: { target: -VIEW_AMPLITUDE * 0.42, vol: 1.2, min: 15, max: 30 },
+        shock:      { target: -VIEW_AMPLITUDE * 0.9, vol: 2.4, min: 3,  max: 6  },
+        choppy:     { target: 0,                    vol: 2.0, min: 10, max: 22 },
+        recovery:   { target: 0,                    vol: 1.3, min: 18, max: 34 }
       };
       var NEXT_AFTER = { shock: 'choppy', choppy: 'recovery', recovery: 'normal', rally: 'normal', correction: 'normal' };
 
       var values = [];
-      var value, regime, regimeStepsLeft;
-      var displayMin, displayMax;
+      var value, baseline, localOffset, regime, regimeStepsLeft;
+      var displayCenter, displayMin, displayMax;
       var tipX;
 
       function randRange(min, max) {
@@ -278,10 +285,14 @@ function render_login_page(bool $error): void
       }
 
       function resetState() {
+        baseline = 0;
+        localOffset = 0;
         value = 0;
         values = [];
-        displayMin = 0;
-        displayMax = 120;
+        // The window starts centered above 0, so the line begins below
+        // the visible frame and climbs into view rather than snapping
+        // in at the bottom edge immediately.
+        displayCenter = VIEW_AMPLITUDE * 0.55;
         enterRegime('normal');
       }
 
@@ -290,9 +301,9 @@ function render_login_page(bool $error): void
         if (regimeStepsLeft > 0) return;
         if (regime === 'normal') {
           var roll = Math.random();
-          if (roll < 0.035) enterRegime('shock');
-          else if (roll < 0.22) enterRegime('rally');
-          else if (roll < 0.38) enterRegime('correction');
+          if (roll < 0.05) enterRegime('shock');
+          else if (roll < 0.32) enterRegime('rally');
+          else if (roll < 0.58) enterRegime('correction');
           else enterRegime('normal');
         } else {
           enterRegime(NEXT_AFTER[regime] || 'normal');
@@ -305,8 +316,10 @@ function render_login_page(bool $error): void
         // Sum of uniforms approximates a bell curve, so most ticks are
         // small with occasional larger swings — reads as more natural
         // up/down chatter than a flat uniform random walk.
-        var noise = (Math.random() + Math.random() + Math.random() - 1.5) * r.vol;
-        value += r.drift + noise;
+        var noise = (Math.random() + Math.random() + Math.random() - 1.5) * r.vol * NOISE_SCALE;
+        localOffset += (r.target - localOffset) * MEAN_REVERSION + noise;
+        baseline += BASELINE_DRIFT_PER_STEP;
+        value = baseline + localOffset;
         values.push(value);
 
         var maxPoints = Math.ceil((tipX + ERASE_MARGIN) / POINT_SPACING) + 2;
@@ -314,25 +327,13 @@ function render_login_page(bool $error): void
       }
 
       function updateViewWindow() {
-        var trueMin = Infinity, trueMax = -Infinity;
-        for (var i = 0; i < values.length; i++) {
-          if (values[i] < trueMin) trueMin = values[i];
-          if (values[i] > trueMax) trueMax = values[i];
-        }
-        var range = Math.max(trueMax - trueMin, 1);
-        var pad = range * VIEW_PADDING_RATIO;
-        displayMin += (trueMin - pad - displayMin) * VIEW_EASE;
-        displayMax += (trueMax + pad - displayMax) * VIEW_EASE;
-        // Never let the actual line clip off-screen if the eased
-        // pan/zoom hasn't caught up yet (e.g. a fast rally) — snap the
-        // window out just enough to keep the true range in frame.
-        if (displayMax < trueMax) displayMax = trueMax + pad * 0.5;
-        if (displayMin > trueMin) displayMin = trueMin - pad * 0.5;
+        displayCenter += (value - displayCenter) * CENTER_EASE;
+        displayMin = displayCenter - VIEW_AMPLITUDE / 2;
+        displayMax = displayCenter + VIEW_AMPLITUDE / 2;
       }
 
       function valueToY(v) {
-        var span = displayMax - displayMin || 1;
-        return height - ((v - displayMin) / span) * height;
+        return height - ((v - displayMin) / VIEW_AMPLITUDE) * height;
       }
 
       function drawGrid() {
