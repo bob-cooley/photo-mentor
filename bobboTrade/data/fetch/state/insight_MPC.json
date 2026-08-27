@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T03:33:37.264348+00:00",
-  "text": "Marathon Petroleum stock rose 2.08% today after falling sharply yesterday, recovering some ground as oil-market uncertainty eased. The main driver appears to be relief around Iran tensions: yesterday oil prices fell over 3% after the U.S. signaled it would use economic pressure rather than military strikes, but today's reports suggest Iran and Oman are moving toward a deal on safe shipping through the Strait of Hormuz\u2014a critical chokepoint for global oil supply. When geopolitical risk to oil flows decreases, refiner stocks often bounce back because refiners profit when they can reliably source crude.\n\nThe broader pattern here reflects how refining companies are caught between competing forces: war risk premiums tend to boost oil prices (which can squeeze refiner margins), while resolution of supply-chain threats can calm the market and sometimes ease margins in the other direction. The 2-week gain of 4% suggests investors have been rotating into energy plays amid this geopolitical turbulence, with yesterday's dip now partially reversed.",
+  "fetchedAt": "2026-08-27T04:07:23.538748+00:00",
+  "text": "Marathon Petroleum rose 2.08% today after oil prices stabilized following earlier geopolitical uncertainty. Over the past few days, crude fell sharply on August 25th when the market feared military escalation with Iran, but recovered when it became clear the U.S. is pursuing economic pressure rather than direct military action \u2014 and as Iran and Oman began negotiating a deal to keep the crucial Strait of Hormuz open for shipping. That de-escalation lifted crude back up, which benefits refiners like Marathon by improving margins on fuel production.\n\nThe stock's bounce today also reflects a broader two-week gain (up 4% since mid-August) as energy markets have priced in reduced geopolitical risk to Middle Eastern oil supplies. A refiner's profitability depends heavily on the spread between crude oil input costs and refined product prices \u2014 when supply disruption fears fade, that spread typically improves and shares recover.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 6,
-    "inputTokens": 4954,
-    "outputTokens": 1321,
-    "estimatedCostUsd": 0.011559,
-    "lastCallHour": "2026-08-27T03"
+    "callsThisMonth": 7,
+    "inputTokens": 5780,
+    "outputTokens": 1521,
+    "estimatedCostUsd": 0.013385,
+    "lastCallHour": "2026-08-27T04"
   }
 }
