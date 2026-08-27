@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-27T02:37:29.188359+00:00",
-  "text": "Marathon Petroleum stock rose 2.1% today after oil prices stabilized following earlier session weakness. On August 26, crude fell over 3% when news broke that Iran and Oman were negotiating a deal to share revenue from the Strait of Hormuz\u2014a critical chokepoint for global oil supply\u2014which initially spooked the market as it suggested de-escalation of regional tensions. However, oil recovered later in the day as that deal remained uncertain and the U.S. continued relying on economic rather than military pressure against Iran. For a refiner like Marathon, stable oil prices are more valuable than volatile ones; the rebound and subsequent steadiness helped the stock recover from Monday's 1.8% dip.\n\nThe past two weeks have also seen broader energy sector strength tied to geopolitical risk premiums\u2014the extra price investors demand for oil when supply is threatened. The August 24 news of Trump's oil and gas holdings gaining amid Iran tensions, combined with ongoing U.S.-Russia competition for influence in India's energy markets, reflect investor concern about future supply disruptions, which supports refiner margins and stock prices.",
+  "fetchedAt": "2026-08-27T03:33:37.264348+00:00",
+  "text": "Marathon Petroleum stock rose 2.08% today after falling sharply yesterday, recovering some ground as oil-market uncertainty eased. The main driver appears to be relief around Iran tensions: yesterday oil prices fell over 3% after the U.S. signaled it would use economic pressure rather than military strikes, but today's reports suggest Iran and Oman are moving toward a deal on safe shipping through the Strait of Hormuz\u2014a critical chokepoint for global oil supply. When geopolitical risk to oil flows decreases, refiner stocks often bounce back because refiners profit when they can reliably source crude.\n\nThe broader pattern here reflects how refining companies are caught between competing forces: war risk premiums tend to boost oil prices (which can squeeze refiner margins), while resolution of supply-chain threats can calm the market and sometimes ease margins in the other direction. The 2-week gain of 4% suggests investors have been rotating into energy plays amid this geopolitical turbulence, with yesterday's dip now partially reversed.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 5,
-    "inputTokens": 4128,
-    "outputTokens": 1098,
-    "estimatedCostUsd": 0.009618,
-    "lastCallHour": "2026-08-27T02"
+    "callsThisMonth": 6,
+    "inputTokens": 4954,
+    "outputTokens": 1321,
+    "estimatedCostUsd": 0.011559,
+    "lastCallHour": "2026-08-27T03"
   }
 }

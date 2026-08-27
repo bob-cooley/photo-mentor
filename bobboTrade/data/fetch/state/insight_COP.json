@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T02:37:09.576774+00:00",
-  "text": "ConocoPhillips fell 0.93% today to $130.61, continuing a three-day slide from its peak of $134.89 on August 20th. The decline tracks the broader oil market weakness over the past few days\u2014crude dropped more than 3% on August 25th as the U.S. shifted away from military confrontation with Iran toward economic pressure instead, easing immediate concerns about supply disruptions through the Strait of Hormuz. As negotiations between Iran and Oman progress on joint administration of that crucial shipping corridor, market anxiety about geopolitical conflict in the region has cooled, taking some of the risk premium out of oil prices.\n\nThe stock has still gained 2.6% over two weeks, so today's pullback is a modest retreat from recent highs rather than a reversal of the broader trend. The easing of war fears removes one of the factors that had supported energy prices earlier this month.",
+  "fetchedAt": "2026-08-27T03:33:12.150333+00:00",
+  "text": "ConocoPhillips stock fell 0.93% today to $130.61, continuing a downward drift over the past few days after hitting a peak of $134.89 on August 20th. The decline tracks closely with oil price weakness: crude dropped more than 3% on August 25th when the U.S. signaled it would use economic pressure rather than military action against Iran, reducing near-term geopolitical risk to global energy supplies. As tensions over the Strait of Hormuz\u2014a critical chokepoint for oil shipments\u2014have eased with talks between Iran and Oman progressing toward a revenue-sharing deal, the premium that investors were paying for oil and energy stocks has compressed.\n\nThe stock remains up 2.6% over two weeks, suggesting the recent pullback is modest profit-taking after the sharp rally earlier in the week rather than a fundamental shift in outlook. Broader competition between the U.S. and Russia for market share in major energy-importing regions like India also reflects a normalizing energy landscape where supply concerns are receding.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 3,
-    "inputTokens": 2472,
-    "outputTokens": 585,
-    "estimatedCostUsd": 0.005397,
-    "lastCallHour": "2026-08-27T02"
+    "callsThisMonth": 4,
+    "inputTokens": 3296,
+    "outputTokens": 819,
+    "estimatedCostUsd": 0.007391,
+    "lastCallHour": "2026-08-27T03"
   }
 }
