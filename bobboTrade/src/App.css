@@ -187,6 +187,21 @@
   .dashboard {
     grid-template-columns: 1fr;
   }
+
+  /* Single-column stack: lead with the price chart and the at-a-glance
+     right-column cards; push the newsfeed (long, scroll-heavy) to the
+     bottom. DOM order stays news / chart / right for the desktop grid. */
+  .col-chart {
+    order: 1;
+  }
+
+  .col-right {
+    order: 2;
+  }
+
+  .col-news {
+    order: 3;
+  }
 }
 
 /* News column */
