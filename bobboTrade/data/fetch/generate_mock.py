@@ -257,6 +257,39 @@ def generate_crack_spread(ticker: str) -> dict:
     }
 
 
+def generate_insider(ticker: str) -> dict:
+    # Net selling over the window — exercises the InsiderCard's
+    # "bearish / caution" copy. The real pipeline derives this from
+    # Finnhub Form 4 filings.
+    return {
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "sentiment": "bearish",
+        "buyCount": 1,
+        "sellCount": 4,
+        "netShares": -82000,
+        "netValue": -10600000,
+        "period": "90d",
+        "asOf": (datetime.now(timezone.utc).date() - timedelta(days=5)).isoformat(),
+    }
+
+
+def generate_volume(ticker: str) -> dict:
+    # Elevated day (~1.8x average) — exercises the VolumeCard's "high"
+    # classification and copy.
+    vol = 4_200_000
+    avg = 2_350_000
+    return {
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "volume": vol,
+        "avgVolume": avg,
+        "ratio": round(vol / avg, 2),
+        "classification": "high",
+        "asOf": datetime.now(timezone.utc).date().isoformat(),
+    }
+
+
 def generate_insight(ticker: str) -> dict:
     return {
         "ticker": ticker,
@@ -281,6 +314,8 @@ def main(ticker: str) -> None:
     write_json(ticker, "analyst.json", generate_analyst(ticker))
     write_json(ticker, "rsi.json", generate_rsi(ticker))
     write_json(ticker, "crack_spread.json", generate_crack_spread(ticker))
+    write_json(ticker, "insider.json", generate_insider(ticker))
+    write_json(ticker, "volume.json", generate_volume(ticker))
     write_json(ticker, "insight.json", generate_insight(ticker))
 
 

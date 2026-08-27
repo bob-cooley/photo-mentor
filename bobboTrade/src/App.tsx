@@ -8,6 +8,8 @@ import {
   loadMarketData,
   loadNewsData,
   loadCrackSpreadData,
+  loadInsiderData,
+  loadVolumeData,
   loadPortfolioConfig,
   loadRSIData,
   savePortfolioConfig,
@@ -16,17 +18,21 @@ import type {
   AnalystData,
   CrackSpreadData,
   EnergyData,
+  InsiderData,
   InsightData,
   IntradayData,
   MarketData,
   NewsData,
   PortfolioConfig,
   RSIData,
+  VolumeData,
 } from "./types";
 import NewsColumn from "./components/NewsColumn";
 import ChartColumn from "./components/ChartColumn";
 import RSICard from "./components/RSICard";
 import CrackSpreadCard from "./components/CrackSpreadCard";
+import InsiderCard from "./components/InsiderCard";
+import VolumeCard from "./components/VolumeCard";
 import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
 import AnalystConsensusCard from "./components/AnalystConsensusCard";
 import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
@@ -56,6 +62,8 @@ export default function App() {
   const [energy, setEnergy] = useState<EnergyData | null>(null);
   const [rsi, setRsi] = useState<RSIData | null>(null);
   const [crackSpread, setCrackSpread] = useState<CrackSpreadData | null>(null);
+  const [insider, setInsider] = useState<InsiderData | null>(null);
+  const [volume, setVolume] = useState<VolumeData | null>(null);
   const [insight, setInsight] = useState<InsightData | null>(null);
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
   const [loading, setLoading] = useState(true);
@@ -96,9 +104,11 @@ export default function App() {
         loadEnergyData(ticker),
         loadRSIData(ticker),
         loadCrackSpreadData(ticker),
+        loadInsiderData(ticker),
+        loadVolumeData(ticker),
         loadInsightData(ticker),
         loadPortfolioConfig(ticker),
-      ]).then(([i, n, a, e, r, cs, ins, p]) => {
+      ]).then(([i, n, a, e, r, cs, ins, vol, insightData, p]) => {
         if (cancelled) return;
         setIntraday(i);
         setNews(n);
@@ -106,7 +116,9 @@ export default function App() {
         setEnergy(e);
         setRsi(r);
         setCrackSpread(cs);
-        setInsight(ins);
+        setInsider(ins);
+        setVolume(vol);
+        setInsight(insightData);
         setPortfolio(p);
         setLoading(false);
       });
@@ -169,6 +181,8 @@ export default function App() {
           <ChartColumn market={market} intraday={intraday} loading={loading} ticker={stock.ticker} />
           <RSICard rsi={rsi} loading={loading} ticker={stock.ticker} />
           <CrackSpreadCard crackSpread={crackSpread} loading={loading} ticker={stock.ticker} />
+          <InsiderCard insider={insider} loading={loading} ticker={stock.ticker} />
+          <VolumeCard volume={volume} loading={loading} ticker={stock.ticker} />
         </section>
 
         <section className="col col-right">

@@ -11,17 +11,21 @@ import ai_insight
 import analyst
 import crack_spread
 import energy
+import insider
 import market
 import news
 import rsi
+import volume
 from common import STOCKS_CONFIG_ROOT
 
 MODULES = [
     ("market", market.main),
     ("rsi", rsi.main),
+    ("volume", volume.main),
     ("energy", energy.main),
     ("crack_spread", crack_spread.main),
     ("analyst", analyst.main),
+    ("insider", insider.main),
     ("news", news.main),
     ("ai_insight", ai_insight.main),
 ]

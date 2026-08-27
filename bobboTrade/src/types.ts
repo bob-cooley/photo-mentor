@@ -146,6 +146,32 @@ export interface CrackSpreadData {
   asOf: string | null;
 }
 
+export type InsiderSentiment = "bullish" | "bearish" | "neutral";
+
+export interface InsiderData {
+  fetchedAt: string;
+  source: string;
+  sentiment: InsiderSentiment;
+  buyCount: number;
+  sellCount: number;
+  netShares: number; // buys - sells; negative = net selling
+  netValue: number; // dollars; negative = net selling
+  period: string; // "90d"
+  asOf: string | null;
+}
+
+export type VolumeClassification = "high" | "normal" | "low";
+
+export interface VolumeData {
+  fetchedAt: string;
+  source: string;
+  volume: number;
+  avgVolume: number;
+  ratio: number; // volume / avgVolume
+  classification: VolumeClassification;
+  asOf: string | null;
+}
+
 export interface PortfolioConfig {
   shares: number | null;
   updatedAt: string | null;
