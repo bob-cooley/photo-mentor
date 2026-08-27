@@ -242,9 +242,18 @@ function render_login_page(bool $error): void
       var LOOKBACK_STEPS = 40;
       var MIN_TREND_STEPS_RANGE = [90, 180];
       var REVERSAL_CHANCE_PER_STEP = 0.04;
+      var PAUSE_WHEN_FULL_MS = 1400;
+      var DOT_RADIUS = 5;
 
+      // The pen stays pinned at the right edge and only ever moves
+      // vertically — like a seismograph needle — while the trace grows
+      // leftward behind it, point by point, until it fills the width.
+      // Then it pauses briefly and starts over from empty, so the "a
+      // chart is being drawn" moment repeats instead of happening once
+      // at load and settling into an undifferentiated infinite scroll.
       var points = [];
       var price, trend, stepsSinceReversal, minTrendSteps;
+      var fullSince = null;
 
       function randRange(min, max) {
         return min + Math.random() * (max - min);
@@ -256,6 +265,7 @@ function render_login_page(bool $error): void
         stepsSinceReversal = 0;
         minTrendSteps = randRange(MIN_TREND_STEPS_RANGE[0], MIN_TREND_STEPS_RANGE[1]);
         points = [];
+        fullSince = null;
       }
 
       function step() {
@@ -322,6 +332,23 @@ function render_login_page(bool $error): void
         gradient.addColorStop(1, color + '00');
         ctx.fillStyle = gradient;
         ctx.fill();
+
+        // The stylus tip — pinned at the right edge, riding the
+        // newest point's y so it visibly bobs up/down as it "draws."
+        var tipY = points[points.length - 1];
+        var tipX = width - DOT_RADIUS - 1;
+        ctx.save();
+        ctx.shadowColor = color;
+        ctx.shadowBlur = 10;
+        ctx.beginPath();
+        ctx.arc(tipX, tipY, DOT_RADIUS, 0, Math.PI * 2);
+        ctx.fillStyle = color;
+        ctx.fill();
+        ctx.restore();
+        ctx.beginPath();
+        ctx.arc(tipX, tipY, DOT_RADIUS * 0.4, 0, Math.PI * 2);
+        ctx.fillStyle = '#0b0d10';
+        ctx.fill();
       }
 
       var lastTime = null;
@@ -331,10 +358,17 @@ function render_login_page(bool $error): void
         if (lastTime === null) lastTime = time;
         var dt = time - lastTime;
         lastTime = time;
-        accumulator += dt;
-        while (accumulator > STEP_INTERVAL_MS) {
-          step();
-          accumulator -= STEP_INTERVAL_MS;
+
+        var maxPoints = Math.ceil(width / POINT_SPACING) + 2;
+        if (points.length >= maxPoints) {
+          if (fullSince === null) fullSince = time;
+          if (time - fullSince > PAUSE_WHEN_FULL_MS) resetState();
+        } else {
+          accumulator += dt;
+          while (accumulator > STEP_INTERVAL_MS && points.length < maxPoints) {
+            step();
+            accumulator -= STEP_INTERVAL_MS;
+          }
         }
         draw();
         requestAnimationFrame(loop);
@@ -342,8 +376,6 @@ function render_login_page(bool $error): void
 
       resize();
       resetState();
-      var seedCount = Math.ceil(width / POINT_SPACING);
-      for (var i = 0; i < seedCount; i++) step();
       requestAnimationFrame(loop);
     })();
   </script>
