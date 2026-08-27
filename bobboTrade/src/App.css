@@ -95,7 +95,12 @@
 .dashboard {
   flex: 1;
   display: grid;
-  grid-template-columns: 30% 50% 20%;
+  /* fr tracks divide the space that's LEFT after the gaps, so the three
+     columns + 2 gaps + horizontal padding always sum to exactly the
+     viewport width — no overflow, no clipped right edge. Percentage
+     tracks (used to be 30/50/20) don't subtract the gap and overflowed
+     by gap+padding, which is what clipped the right column on iPad. */
+  grid-template-columns: minmax(0, 3fr) minmax(0, 5fr) minmax(0, 2fr);
   gap: 20px;
   padding: 24px 32px 40px;
   max-width: 1680px;
@@ -110,7 +115,7 @@
    vertical stack the way desktop-only breakpoints would. */
 @media (max-width: 1400px) {
   .dashboard {
-    grid-template-columns: 29% 44% 27%;
+    grid-template-columns: minmax(0, 29fr) minmax(0, 44fr) minmax(0, 27fr);
     gap: 14px;
     padding: 16px 16px 28px;
   }
