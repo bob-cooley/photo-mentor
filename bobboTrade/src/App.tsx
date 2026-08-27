@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { DEFAULT_TICKER, STOCKS, getStockConfig } from "./config/stocks";
 import {
   loadAnalystData,
+  loadEnergyData,
   loadInsightData,
   loadIntradayData,
   loadMarketData,
@@ -14,6 +15,7 @@ import {
 import type {
   AnalystData,
   CrackSpreadData,
+  EnergyData,
   InsightData,
   IntradayData,
   MarketData,
@@ -25,6 +27,7 @@ import NewsColumn from "./components/NewsColumn";
 import ChartColumn from "./components/ChartColumn";
 import RSICard from "./components/RSICard";
 import CrackSpreadCard from "./components/CrackSpreadCard";
+import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
 import AnalystConsensusCard from "./components/AnalystConsensusCard";
 import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
 import InsightCard from "./components/InsightCard";
@@ -50,6 +53,7 @@ export default function App() {
   const [intraday, setIntraday] = useState<IntradayData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
+  const [energy, setEnergy] = useState<EnergyData | null>(null);
   const [rsi, setRsi] = useState<RSIData | null>(null);
   const [crackSpread, setCrackSpread] = useState<CrackSpreadData | null>(null);
   const [insight, setInsight] = useState<InsightData | null>(null);
@@ -89,15 +93,17 @@ export default function App() {
         loadIntradayData(ticker),
         loadNewsData(ticker),
         loadAnalystData(ticker),
+        loadEnergyData(ticker),
         loadRSIData(ticker),
         loadCrackSpreadData(ticker),
         loadInsightData(ticker),
         loadPortfolioConfig(ticker),
-      ]).then(([i, n, a, r, cs, ins, p]) => {
+      ]).then(([i, n, a, e, r, cs, ins, p]) => {
         if (cancelled) return;
         setIntraday(i);
         setNews(n);
         setAnalyst(a);
+        setEnergy(e);
         setRsi(r);
         setCrackSpread(cs);
         setInsight(ins);
@@ -167,6 +173,7 @@ export default function App() {
 
         <section className="col col-right">
           <AnalystConsensusCard analyst={analyst} loading={loading} />
+          <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
           <PortfolioCard market={market} portfolio={portfolio} onSaveShares={handleSaveShares} />
           <TwoWeekMovementCard market={market} loading={loading} />
           <InsightCard insight={insight} ticker={stock.ticker} market={market} />
