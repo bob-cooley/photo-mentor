@@ -232,6 +232,7 @@ function render_login_page(bool $error): void
         canvas.style.width = width + 'px';
         canvas.style.height = height + 'px';
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        tipX = width * (1 - MARGIN_RATIO);
       }
       window.addEventListener('resize', resize);
 
@@ -239,54 +240,99 @@ function render_login_page(bool $error): void
       var DOWN_COLOR = '#ff6e64';
       var POINT_SPACING = 4;
       var STEP_INTERVAL_MS = 90;
-      var LOOKBACK_STEPS = 40;
-      var MIN_TREND_STEPS_RANGE = [90, 180];
-      var REVERSAL_CHANCE_PER_STEP = 0.04;
-      var PAUSE_WHEN_FULL_MS = 1400;
       var DOT_RADIUS = 5;
+      var MARGIN_RATIO = 0.2; // pen sits 20% in from the right edge
+      var ERASE_MARGIN = 40; // px past the left edge before a point is dropped
+      var VIEW_PADDING_RATIO = 0.18; // headroom above/below the visible range
+      var VIEW_EASE = 0.05; // how fast the view window pans/zooms to fit
 
-      // The pen stays pinned at the right edge and only ever moves
-      // vertically — like a seismograph needle — while the trace grows
-      // leftward behind it, point by point, until it fills the width.
-      // Then it pauses briefly and starts over from empty, so the "a
-      // chart is being drawn" moment repeats instead of happening once
-      // at load and settling into an undifferentiated infinite scroll.
-      var points = [];
-      var price, trend, stepsSinceReversal, minTrendSteps;
-      var fullSince = null;
+      // A small regime-based random walk: mostly a gentle uptrend
+      // (like stocks over months/years), occasionally interrupted by a
+      // rally, a correction, or real turmoil — a sharp shock, a choppy
+      // stretch, then a slow grind back to normal. The value is
+      // unbounded (starts at 0 and drifts up over the long run); the
+      // view window (see updateViewWindow) auto-scales to whatever
+      // range is currently on screen, so it never needs clamping.
+      var REGIMES = {
+        normal:     { drift: 1,    vol: 1.0,  min: 70,  max: 170 },
+        rally:      { drift: 4.5,  vol: 1.15, min: 40,  max: 90  },
+        correction: { drift: -3.5, vol: 1.3,  min: 30,  max: 70  },
+        shock:      { drift: -15,  vol: 2.8,  min: 4,   max: 9   },
+        choppy:     { drift: 0,    vol: 2.3,  min: 20,  max: 45  },
+        recovery:   { drift: 3.2,  vol: 1.5,  min: 50,  max: 110 }
+      };
+      var NEXT_AFTER = { shock: 'choppy', choppy: 'recovery', recovery: 'normal', rally: 'normal', correction: 'normal' };
+
+      var values = [];
+      var value, regime, regimeStepsLeft;
+      var displayMin, displayMax;
+      var tipX;
 
       function randRange(min, max) {
         return min + Math.random() * (max - min);
       }
 
+      function enterRegime(name) {
+        regime = name;
+        regimeStepsLeft = Math.round(randRange(REGIMES[name].min, REGIMES[name].max));
+      }
+
       function resetState() {
-        price = height * 0.55;
-        trend = Math.random() < 0.5 ? 1 : -1;
-        stepsSinceReversal = 0;
-        minTrendSteps = randRange(MIN_TREND_STEPS_RANGE[0], MIN_TREND_STEPS_RANGE[1]);
-        points = [];
-        fullSince = null;
+        value = 0;
+        values = [];
+        displayMin = 0;
+        displayMax = 120;
+        enterRegime('normal');
+      }
+
+      function maybeTransition() {
+        regimeStepsLeft--;
+        if (regimeStepsLeft > 0) return;
+        if (regime === 'normal') {
+          var roll = Math.random();
+          if (roll < 0.035) enterRegime('shock');
+          else if (roll < 0.22) enterRegime('rally');
+          else if (roll < 0.38) enterRegime('correction');
+          else enterRegime('normal');
+        } else {
+          enterRegime(NEXT_AFTER[regime] || 'normal');
+        }
       }
 
       function step() {
-        stepsSinceReversal++;
-        var noise = (Math.random() - 0.5) * height * 0.02;
-        var bias = trend * height * 0.004;
-        price += bias + noise;
+        maybeTransition();
+        var r = REGIMES[regime];
+        // Sum of uniforms approximates a bell curve, so most ticks are
+        // small with occasional larger swings — reads as more natural
+        // up/down chatter than a flat uniform random walk.
+        var noise = (Math.random() + Math.random() + Math.random() - 1.5) * r.vol;
+        value += r.drift + noise;
+        values.push(value);
 
-        var min = height * 0.15, max = height * 0.85;
-        if (price < min) { price = min; trend = 1; stepsSinceReversal = 0; }
-        if (price > max) { price = max; trend = -1; stepsSinceReversal = 0; }
+        var maxPoints = Math.ceil((tipX + ERASE_MARGIN) / POINT_SPACING) + 2;
+        while (values.length > maxPoints) values.shift();
+      }
 
-        if (stepsSinceReversal > minTrendSteps && Math.random() < REVERSAL_CHANCE_PER_STEP) {
-          trend *= -1;
-          stepsSinceReversal = 0;
-          minTrendSteps = randRange(MIN_TREND_STEPS_RANGE[0], MIN_TREND_STEPS_RANGE[1]);
+      function updateViewWindow() {
+        var trueMin = Infinity, trueMax = -Infinity;
+        for (var i = 0; i < values.length; i++) {
+          if (values[i] < trueMin) trueMin = values[i];
+          if (values[i] > trueMax) trueMax = values[i];
         }
+        var range = Math.max(trueMax - trueMin, 1);
+        var pad = range * VIEW_PADDING_RATIO;
+        displayMin += (trueMin - pad - displayMin) * VIEW_EASE;
+        displayMax += (trueMax + pad - displayMax) * VIEW_EASE;
+        // Never let the actual line clip off-screen if the eased
+        // pan/zoom hasn't caught up yet (e.g. a fast rally) — snap the
+        // window out just enough to keep the true range in frame.
+        if (displayMax < trueMax) displayMax = trueMax + pad * 0.5;
+        if (displayMin > trueMin) displayMin = trueMin - pad * 0.5;
+      }
 
-        points.push(price);
-        var maxPoints = Math.ceil(width / POINT_SPACING) + 2;
-        while (points.length > maxPoints) points.shift();
+      function valueToY(v) {
+        var span = displayMax - displayMin || 1;
+        return height - ((v - displayMin) / span) * height;
       }
 
       function drawGrid() {
@@ -305,44 +351,48 @@ function render_login_page(bool $error): void
       function draw() {
         ctx.clearRect(0, 0, width, height);
         drawGrid();
-        if (points.length < 2) return;
+        if (values.length < 2) return;
+        updateViewWindow();
 
-        var lookback = Math.min(points.length - 1, LOOKBACK_STEPS);
-        var trendUp = points[points.length - 1] <= points[points.length - 1 - lookback];
-        var color = trendUp ? UP_COLOR : DOWN_COLOR;
+        for (var i = 0; i < values.length - 1; i++) {
+          var x0 = tipX - (values.length - 1 - i) * POINT_SPACING;
+          var x1 = tipX - (values.length - 2 - i) * POINT_SPACING;
+          var y0 = valueToY(values[i]);
+          var y1 = valueToY(values[i + 1]);
+          var color = values[i + 1] >= values[i] ? UP_COLOR : DOWN_COLOR;
 
-        ctx.beginPath();
-        var firstX = width - (points.length - 1) * POINT_SPACING;
-        points.forEach(function (y, i) {
-          var x = width - (points.length - 1 - i) * POINT_SPACING;
-          if (i === 0) ctx.moveTo(x, y);
-          else ctx.lineTo(x, y);
-        });
-        ctx.lineJoin = 'round';
-        ctx.lineCap = 'round';
-        ctx.lineWidth = 2.5;
-        ctx.strokeStyle = color;
-        ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(x0, y0);
+          ctx.lineTo(x1, y1);
+          ctx.lineTo(x1, height);
+          ctx.lineTo(x0, height);
+          ctx.closePath();
+          ctx.fillStyle = color + '22';
+          ctx.fill();
 
-        ctx.lineTo(width, height);
-        ctx.lineTo(firstX, height);
-        ctx.closePath();
-        var gradient = ctx.createLinearGradient(0, 0, 0, height);
-        gradient.addColorStop(0, color + '55');
-        gradient.addColorStop(1, color + '00');
-        ctx.fillStyle = gradient;
-        ctx.fill();
+          ctx.beginPath();
+          ctx.moveTo(x0, y0);
+          ctx.lineTo(x1, y1);
+          ctx.lineJoin = 'round';
+          ctx.lineCap = 'round';
+          ctx.lineWidth = 2.5;
+          ctx.strokeStyle = color;
+          ctx.stroke();
+        }
 
-        // The stylus tip — pinned at the right edge, riding the
-        // newest point's y so it visibly bobs up/down as it "draws."
-        var tipY = points[points.length - 1];
-        var tipX = width - DOT_RADIUS - 1;
+        // The stylus tip — pinned 20% in from the right edge, only
+        // ever moving vertically as it rides the newest value, like a
+        // seismograph needle with the paper (the trace) feeding left
+        // beneath it and erasing once it scrolls off-screen.
+        var last = values.length - 1;
+        var tipY = valueToY(values[last]);
+        var tipColor = values[last] >= values[last - 1] ? UP_COLOR : DOWN_COLOR;
         ctx.save();
-        ctx.shadowColor = color;
+        ctx.shadowColor = tipColor;
         ctx.shadowBlur = 10;
         ctx.beginPath();
         ctx.arc(tipX, tipY, DOT_RADIUS, 0, Math.PI * 2);
-        ctx.fillStyle = color;
+        ctx.fillStyle = tipColor;
         ctx.fill();
         ctx.restore();
         ctx.beginPath();
@@ -359,16 +409,10 @@ function render_login_page(bool $error): void
         var dt = time - lastTime;
         lastTime = time;
 
-        var maxPoints = Math.ceil(width / POINT_SPACING) + 2;
-        if (points.length >= maxPoints) {
-          if (fullSince === null) fullSince = time;
-          if (time - fullSince > PAUSE_WHEN_FULL_MS) resetState();
-        } else {
-          accumulator += dt;
-          while (accumulator > STEP_INTERVAL_MS && points.length < maxPoints) {
-            step();
-            accumulator -= STEP_INTERVAL_MS;
-          }
+        accumulator += dt;
+        while (accumulator > STEP_INTERVAL_MS) {
+          step();
+          accumulator -= STEP_INTERVAL_MS;
         }
         draw();
         requestAnimationFrame(loop);
