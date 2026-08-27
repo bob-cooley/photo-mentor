@@ -173,10 +173,10 @@ export default function App() {
 
         <section className="col col-right">
           <AnalystConsensusCard analyst={analyst} loading={loading} />
-          <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
           <PortfolioCard market={market} portfolio={portfolio} onSaveShares={handleSaveShares} />
           <TwoWeekMovementCard market={market} loading={loading} />
           <InsightCard insight={insight} ticker={stock.ticker} market={market} />
+          <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
         </section>
       </main>
     </div>
