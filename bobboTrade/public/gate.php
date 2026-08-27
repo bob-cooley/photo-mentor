@@ -244,12 +244,12 @@ function render_login_page(bool $error): void
       var MARGIN_RATIO = 0.1; // pen sits 10% in from the right edge
       var ERASE_MARGIN = 40; // px past the left edge before a point is dropped
       var VIEW_AMPLITUDE = 50; // fixed vertical span shown, in abstract value units — never auto-zooms
-      var CENTER_EASE = 0.004; // how slowly the window pans to follow the baseline (must be slow relative to a regime's duration, or it cancels out peaks/valleys as they happen)
+      var CENTER_EASE = 0.015; // how fast the window pans to follow the baseline — needs to close the gap and reveal the line within a few seconds, not minutes
       var MEAN_REVERSION = 0.09; // how hard local noise gets pulled back toward the current regime's target each step
       var NOISE_SCALE = 3;
       var BASELINE_DRIFT_PER_STEP = 0.035; // the slow secular uptrend — deliberately tiny next to VIEW_AMPLITUDE
-      var VOLATILITY_RAMP_STEPS = 3000; // steps for local chop/regimes/drift to ramp from calm to full strength — must stay well above any realistic prefillSteps (see below) or the calm period gets silently eaten by the prefill before the first frame ever renders
-      var RAMP_MIN_FACTOR = 0.03; // how calm/slow the very start is (3% of full chop and growth rate)
+      var VOLATILITY_RAMP_STEPS = 35; // steps for local chop/regimes/drift to ramp from calm to full strength — short on purpose: real volatility should be visible within a few seconds of the line entering frame, not build up over minutes
+      var RAMP_MIN_FACTOR = 0.05; // how calm the very first instant is (irrelevant beyond the first few steps)
 
       // Local price action is a mean-reverting oscillator (bounded, so
       // chop always stays a constant size on screen), not an unbounded
