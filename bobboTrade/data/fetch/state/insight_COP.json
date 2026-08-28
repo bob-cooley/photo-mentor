@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-28T00:41:06.139507+00:00",
-  "text": "ConocoPhillips fell 0.83% today as crude oil prices dipped, with U.S. oil trading at $83.90 per barrel. The decline caps a longer-term pullback over the past week\u2014the stock has given back about 3.8% from its August 20 peak of $134.89\u2014following a broader retreat in energy prices. While geopolitical tensions around the Strait of Hormuz (where a tanker was recently attacked) briefly supported oil earlier this week, today's slight softening suggests markets are pricing in de-escalation efforts between Iran and Washington, with Qatar's mediation talks reducing the immediate fear premium.\n\nThe broader context matters: even as Middle East tensions remain unresolved, oil hasn't spiked decisively higher, and Europe's tight gas supplies haven't translated into the kind of energy crisis that would drive crude sharply upward. For a major integrated oil company like ConocoPhillips, today's move reflects the simple math that lower oil prices compress both refining margins and upstream cash generation.",
+  "fetchedAt": "2026-08-28T01:40:44.447090+00:00",
+  "text": "ConocoPhillips fell 0.83% today to $129.52, extending a four-day decline that has erased nearly all of the stock's two-week gains. The drop reflects broader pressure on oil prices and geopolitical uncertainty: crude hit $83.90 a barrel in the U.S. today, down from the mid-$130s earlier this month, and headlines about tanker attacks in the Strait of Hormuz and ongoing U.S.-Iran tensions have created a risk premium that's now deflating as diplomatic efforts (Qatar's mediation in Tehran) suggest potential de-escalation rather than military confrontation.\n\nThe weakness also ties into softer energy demand signals globally. Europe's gas stores are running unusually low heading into winter, which might normally support prices, but the broader picture\u2014competition heating up for market share in India, disrupted Middle East LNG flows, and oil drifting lower despite geopolitical friction\u2014suggests traders are pricing in slowing global energy consumption rather than bracing for supply shocks.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 13,
-    "inputTokens": 11033,
-    "outputTokens": 2849,
-    "estimatedCostUsd": 0.025278,
-    "lastCallHour": "2026-08-28T00"
+    "callsThisMonth": 14,
+    "inputTokens": 11915,
+    "outputTokens": 3075,
+    "estimatedCostUsd": 0.02729,
+    "lastCallHour": "2026-08-28T01"
   }
 }
