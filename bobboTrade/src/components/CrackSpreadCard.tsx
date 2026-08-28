@@ -14,7 +14,8 @@ function interpret(value: number, trend: string, ticker: string): { rightNow: st
       rightNow:
         `At $${v}/barrel and compressing, the gap between what crude oil costs and what gasoline and diesel sell for is shrinking. ` +
         `That means refineries like ${ticker} are making less profit on every barrel of oil they turn into fuel. ` +
-        `Think of it like a store whose wholesale costs are creeping up toward what it can charge at the register — the thinner that gap gets, the less money it keeps. ` +
+        `Think of a gardener who buys small starter plants — bare-root roses, tiny hosta divisions — for just a few dollars each, grows them into full, healthy plants, and sells them at a plant sale for much more; the difference between what the starter plant cost and what the grown plant sells for is the profit. ` +
+        `Right now, what refineries pay for their raw material (crude oil) is creeping closer to what they sell the finished product for (gasoline and diesel), so less is left over. ` +
         `A shrinking gap can be an early sign that ${ticker}'s profits will weaken in the weeks ahead.`,
       bottomLine:
         `A caution sign — worth keeping an eye on if the gap keeps narrowing, but not something to act on today.`,
@@ -25,15 +26,15 @@ function interpret(value: number, trend: string, ticker: string): { rightNow: st
       rightNow:
         `At $${v}/barrel and expanding, the gap between what crude oil costs and what gasoline and diesel sell for is getting bigger. ` +
         `That means refineries like ${ticker} are making more profit on every barrel of oil they turn into fuel. ` +
-        `Think of it like a store buying goods wholesale for far less than it charges at the register — the wider that gap, the more money it keeps. ` +
-        `Right now that gap is growing.`,
+        `Think of a gardener who buys small starter plants — bare-root roses, tiny hosta divisions — for just a few dollars each, grows them into full, healthy plants, and sells them at a plant sale for much more; the difference between what the starter plant cost and what the grown plant sells for is the profit. ` +
+        `Right now, what refineries pay for their raw material (crude oil) is staying low while what they sell the finished product for (gasoline and diesel) is climbing, so more is left over.`,
       bottomLine: `Good news for the stock, as long as the trend holds.`,
     };
   }
   return {
     rightNow:
       `At $${v}/barrel and about the same as last week, the gap between what crude oil costs and what gasoline and diesel sell for is holding steady. ` +
-      `That gap is the profit refineries like ${ticker} make turning oil into fuel, and right now it's neither growing nor shrinking.`,
+      `Think of a gardener who buys small starter plants — bare-root roses, tiny hosta divisions — for just a few dollars each, grows them into full, healthy plants, and sells them at a plant sale for much more; that difference is the profit refineries like ${ticker} make turning oil into fuel, and right now it's neither growing nor shrinking.`,
     bottomLine: `Nothing to react to here — this measure isn't pushing the stock up or down at the moment.`,
   };
 }
