@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-28T08:51:57.771686+00:00",
-  "text": "Marathon Petroleum edged up 0.35% today to $363.54, recovering from yesterday's sharp 3.9% drop. The modest gain comes as refineries across the US are running at 97.4% capacity\u2014near maximum utilization\u2014which supports margins for refiners like Marathon. Oil prices remain elevated (US crude at $83.90/barrel), though geopolitical tensions that had been driving energy prices higher appear to be slightly cooling: Iran signaled today that a return to diplomacy \"isn't impossible,\" and Qatar's prime minister is in Tehran for de-escalation talks.\n\nThe bigger picture here is that the Iran conflict has dragged on far longer than expected with no clear resolution, which had boosted crude prices and refiner profits through most of August. Today's small recovery and the diplomatic signals suggest investors may be pricing in slightly less extreme geopolitical risk, though the standoff remains unresolved and refinery utilization stays exceptionally high\u2014both factors that have supported Marathon's stock over the past two weeks despite daily volatility.",
+  "fetchedAt": "2026-08-28T20:40:43.587717+00:00",
+  "text": "Marathon Petroleum rose 1.45% today, continuing a bounce that's added 3.76% over two weeks. The immediate catalyst appears to be escalating U.S. economic pressure on Iran \u2014 the Navy has now imposed a blockade cutting Iran's oil exports, and the Treasury sanctioned a UAE bank branch for processing Iranian shadow banking transactions. A tighter global oil supply from Iran's reduced exports can support refinery margins, especially with U.S. refineries already running at 97.4% capacity, leaving little room to ramp up further if crude becomes scarcer.\n\nThe broader context is that the market has settled into expecting a prolonged Iran conflict with no clear end, which is creating a sustained premium in oil prices and potentially steadier demand for refining capacity. With crude trading at $83.90 domestically and $88.24 globally, and storage levels relatively modest, refiners benefit from both the price environment and the structural tightness that geopolitical disruption is creating.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 17,
-    "inputTokens": 14791,
-    "outputTokens": 3593,
-    "estimatedCostUsd": 0.032756,
-    "lastCallHour": "2026-08-28T08"
+    "callsThisMonth": 18,
+    "inputTokens": 15719,
+    "outputTokens": 3807,
+    "estimatedCostUsd": 0.034754,
+    "lastCallHour": "2026-08-28T20"
   }
 }
