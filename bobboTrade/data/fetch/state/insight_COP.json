@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-28T20:40:28.582252+00:00",
-  "text": "ConocoPhillips ticked up 0.64% today, recovering slightly from a steep four-day slide that saw the stock fall nearly 3.2% from last Thursday. The modest rebound comes as oil prices stabilized\u2014US crude held around $83.90 per barrel\u2014but the broader trend this week reflects escalating geopolitical tension in the Middle East. A prolonged U.S. Navy blockade is now constraining Iran's oil exports as part of an economic campaign, and the conflict shows no signs of quick resolution despite initial expectations it would wrap up within weeks.\n\nThe stock's weakness over the past few days aligns with market unease about how long this standoff will last and its unpredictable effects on global energy flows. While a tighter Iran supply normally supports oil prices, the uncertainty about when or how this resolves\u2014combined with the administration's shift away from military action toward economic sanctions\u2014appears to be weighing on energy stocks as traders price in a prolonged stalemate rather than a near-term conclusion.",
+  "fetchedAt": "2026-08-28T22:52:21.777874+00:00",
+  "text": "ConocoPhillips rose 0.64% today to $130.35, continuing a modest recovery after dropping nearly $5 over the prior week. The stock's gain came as oil prices ticked slightly higher\u2014US crude at $83.90 per barrel and global Brent at $88.24\u2014but the bigger driver appears to be settling expectations around Iran tensions. After months of escalating conflict and a U.S. Navy blockade that had threatened to severely disrupt Middle Eastern oil supplies, markets are now pricing in a prolonged stalemate rather than catastrophic supply disruption, which removes some of the downside risk that had weighed on the stock.\n\nThe prior week's $5 drop likely reflected peak anxiety about geopolitical disruption to the Strait of Hormuz and Iran's oil exports, but with no near-term resolution in sight and the Trump administration shifting toward extended economic sanctions rather than kinetic action, energy markets are adjusting to a \"new normal\" of tighter but not broken supplies\u2014a scenario that supports stable but not runaway oil prices, which is supporting the stock's recovery.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 16,
-    "inputTokens": 13681,
-    "outputTokens": 3518,
-    "estimatedCostUsd": 0.031271,
-    "lastCallHour": "2026-08-28T20"
+    "callsThisMonth": 17,
+    "inputTokens": 14561,
+    "outputTokens": 3760,
+    "estimatedCostUsd": 0.033361,
+    "lastCallHour": "2026-08-28T22"
   }
 }

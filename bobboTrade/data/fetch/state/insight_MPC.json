@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-28T20:40:43.587717+00:00",
-  "text": "Marathon Petroleum rose 1.45% today, continuing a bounce that's added 3.76% over two weeks. The immediate catalyst appears to be escalating U.S. economic pressure on Iran \u2014 the Navy has now imposed a blockade cutting Iran's oil exports, and the Treasury sanctioned a UAE bank branch for processing Iranian shadow banking transactions. A tighter global oil supply from Iran's reduced exports can support refinery margins, especially with U.S. refineries already running at 97.4% capacity, leaving little room to ramp up further if crude becomes scarcer.\n\nThe broader context is that the market has settled into expecting a prolonged Iran conflict with no clear end, which is creating a sustained premium in oil prices and potentially steadier demand for refining capacity. With crude trading at $83.90 domestically and $88.24 globally, and storage levels relatively modest, refiners benefit from both the price environment and the structural tightness that geopolitical disruption is creating.",
+  "fetchedAt": "2026-08-28T22:52:37.329118+00:00",
+  "text": "Marathon Petroleum gained 1.5% today as oil refining indicators remained tight and geopolitical tensions around Iran continued to support energy prices. US crude is holding at $83.90 per barrel while refineries are running at 97.4% capacity\u2014near maximum\u2014which keeps margins healthy for refiners like MPC. The U.S. Navy blockade of Iran's oil exports, described as a shift to economic warfare after months of military strikes, removes barrels from global supply and supports the price floor that refiners depend on.\n\nThe stock has climbed 3.8% over two weeks as the conflict in the region has dragged on longer than initially expected, keeping geopolitical risk premiums baked into oil prices. With storage levels moderate (718 million barrels of oil, 206 million of gasoline), tight refining capacity, and no near-term resolution to the Iran situation, the structural conditions that favor refiner profitability remain in place.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 18,
-    "inputTokens": 15719,
-    "outputTokens": 3807,
-    "estimatedCostUsd": 0.034754,
-    "lastCallHour": "2026-08-28T20"
+    "callsThisMonth": 19,
+    "inputTokens": 16649,
+    "outputTokens": 4016,
+    "estimatedCostUsd": 0.036729,
+    "lastCallHour": "2026-08-28T22"
   }
 }
