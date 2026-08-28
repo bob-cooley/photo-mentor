@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-27T23:32:39.491376+00:00",
-  "text": "ConocoPhillips fell 0.83% today to $129.52, continuing a downward drift that's seen the stock lose about 3.8% since August 20th. The trigger appears to be cooling geopolitical tension in the Middle East: Qatar's Prime Minister traveled to Iran for de-escalation talks on Thursday, and earlier reports suggested the U.S. is relying on economic pressure rather than military action. When geopolitical risk recedes, oil prices tend to fall\u2014and crude did drop more than 3% earlier this week after Iran reportedly reached a revenue-sharing deal with Oman over the Strait of Hormuz. Oil refiners and producers like ConocoPhillips are sensitive to these moves because lower crude prices compress their margins.\n\nThe stock's weakness also reflects softer oil fundamentals more broadly. U.S. crude is trading at $83.90 per barrel and world prices at $88.24\u2014both modest levels\u2014while European gas storage is historically low, which could support LNG demand this winter but isn't moving markets today. With Middle East tensions easing rather than escalating, the near-term tailwind for energy prices has faded.",
+  "fetchedAt": "2026-08-28T00:41:06.139507+00:00",
+  "text": "ConocoPhillips fell 0.83% today as crude oil prices dipped, with U.S. oil trading at $83.90 per barrel. The decline caps a longer-term pullback over the past week\u2014the stock has given back about 3.8% from its August 20 peak of $134.89\u2014following a broader retreat in energy prices. While geopolitical tensions around the Strait of Hormuz (where a tanker was recently attacked) briefly supported oil earlier this week, today's slight softening suggests markets are pricing in de-escalation efforts between Iran and Washington, with Qatar's mediation talks reducing the immediate fear premium.\n\nThe broader context matters: even as Middle East tensions remain unresolved, oil hasn't spiked decisively higher, and Europe's tight gas supplies haven't translated into the kind of energy crisis that would drive crude sharply upward. For a major integrated oil company like ConocoPhillips, today's move reflects the simple math that lower oil prices compress both refining margins and upstream cash generation.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 12,
-    "inputTokens": 10151,
-    "outputTokens": 2618,
-    "estimatedCostUsd": 0.023241,
-    "lastCallHour": "2026-08-27T23"
+    "callsThisMonth": 13,
+    "inputTokens": 11033,
+    "outputTokens": 2849,
+    "estimatedCostUsd": 0.025278,
+    "lastCallHour": "2026-08-28T00"
   }
 }
