@@ -1,18 +1,24 @@
-"""Fetch the 14-period daily RSI from Twelve Data and write
-public/data/<TICKER>/rsi.json.
+"""Compute the 14-period daily RSI locally from the price history
+market.py already fetched (public/data/<TICKER>/market.json), and
+write public/data/<TICKER>/rsi.json.
 
-Requires env var TWELVEDATA_API_KEY (the same key market.py already uses).
-RSI (Relative Strength Index) is a bounded 0-100 momentum oscillator;
-the dashboard shows the latest completed daily value plus a plain-
-language zone (overbought / neutral / oversold). Twelve Data's free
-tier includes the /rsi technical-indicator endpoint.
+Used to call Twelve Data's own /rsi technical-indicator endpoint
+directly — a second Twelve Data call on top of the daily history
+market.py already pulls. With two tickers sharing one free-tier
+per-minute rate limit, that redundant call (plus volume.py's, see
+that file) was enough to tip runs into 429s, which then meant the
+FTP deploy step DELETED the previous run's still-good rsi.json (files
+missing from the local build get removed, not skipped) — so an
+intermittent rate limit was actually taking the card down entirely
+between successful runs, not just leaving it stale. RSI is fully
+derivable from the closing-price history already on disk, so no
+extra API call is needed at all.
 """
+import json
 import sys
 
-from common import get, get_required_env, utc_now_iso, write_json
+from common import OUTPUT_ROOT, utc_now_iso, write_json
 
-TWELVEDATA_BASE = "https://api.twelvedata.com"
-RSI_INTERVAL = "1day"
 RSI_TIME_PERIOD = 14
 
 # Conventional RSI thresholds. Kept here (not the frontend) so the stored
@@ -29,37 +35,48 @@ def zone_for(rsi: float) -> str:
     return "neutral"
 
 
+def load_history(ticker: str) -> list[dict]:
+    market_path = OUTPUT_ROOT / ticker / "market.json"
+    if not market_path.exists():
+        raise RuntimeError(f"No local market.json for {ticker} — market.py must run before rsi.py")
+    payload = json.loads(market_path.read_text())
+    history = payload.get("history") or []
+    if len(history) < RSI_TIME_PERIOD + 1:
+        raise RuntimeError(f"Not enough price history for {ticker} to compute RSI ({len(history)} days)")
+    return history
+
+
+def compute_rsi(closes: list[float], period: int = RSI_TIME_PERIOD) -> float:
+    """Wilder's smoothed RSI — the standard formula (and what Twelve
+    Data's own /rsi endpoint computes), not a naive unsmoothed average."""
+    deltas = [closes[i] - closes[i - 1] for i in range(1, len(closes))]
+    gains = [d if d > 0 else 0.0 for d in deltas]
+    losses = [-d if d < 0 else 0.0 for d in deltas]
+
+    avg_gain = sum(gains[:period]) / period
+    avg_loss = sum(losses[:period]) / period
+    for i in range(period, len(gains)):
+        avg_gain = (avg_gain * (period - 1) + gains[i]) / period
+        avg_loss = (avg_loss * (period - 1) + losses[i]) / period
+
+    if avg_loss == 0:
+        return 100.0
+    rs = avg_gain / avg_loss
+    return 100 - (100 / (1 + rs))
+
+
 def fetch_rsi(ticker: str) -> dict:
-    api_key = get_required_env("TWELVEDATA_API_KEY")
-
-    data = get(
-        f"{TWELVEDATA_BASE}/rsi",
-        params={
-            "symbol": ticker,
-            "interval": RSI_INTERVAL,
-            "time_period": RSI_TIME_PERIOD,
-            "series_type": "close",
-            "apikey": api_key,
-        },
-    ).json()
-    if data.get("status") == "error":
-        raise RuntimeError(f"Twelve Data RSI error for {ticker}: {data.get('message')}")
-
-    values = data.get("values") or []
-    if not values:
-        raise RuntimeError(f"Twelve Data returned no RSI values for {ticker}")
-
-    # Twelve Data returns newest-first; take the latest completed period.
-    latest = values[0]
-    rsi = round(float(latest["rsi"]), 2)
+    history = load_history(ticker)
+    closes = [row["close"] for row in history]
+    rsi = round(compute_rsi(closes), 2)
 
     return {
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
-        "source": "twelvedata.com",
+        "source": "computed from twelvedata.com daily history",
         "period": RSI_TIME_PERIOD,
-        "interval": RSI_INTERVAL,
-        "asOf": latest.get("datetime"),
+        "interval": "1day",
+        "asOf": history[-1]["time"],
         "rsi": rsi,
         "zone": zone_for(rsi),
     }
