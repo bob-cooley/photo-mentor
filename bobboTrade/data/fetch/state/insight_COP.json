@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-28T01:40:44.447090+00:00",
-  "text": "ConocoPhillips fell 0.83% today to $129.52, extending a four-day decline that has erased nearly all of the stock's two-week gains. The drop reflects broader pressure on oil prices and geopolitical uncertainty: crude hit $83.90 a barrel in the U.S. today, down from the mid-$130s earlier this month, and headlines about tanker attacks in the Strait of Hormuz and ongoing U.S.-Iran tensions have created a risk premium that's now deflating as diplomatic efforts (Qatar's mediation in Tehran) suggest potential de-escalation rather than military confrontation.\n\nThe weakness also ties into softer energy demand signals globally. Europe's gas stores are running unusually low heading into winter, which might normally support prices, but the broader picture\u2014competition heating up for market share in India, disrupted Middle East LNG flows, and oil drifting lower despite geopolitical friction\u2014suggests traders are pricing in slowing global energy consumption rather than bracing for supply shocks.",
+  "fetchedAt": "2026-08-28T08:51:39.156628+00:00",
+  "text": "ConocoPhillips fell 0.83% today, continuing a decline that has knocked the stock down $5.37 over the past week. The immediate driver appears to be softening oil prices: US crude dropped to $83.90 per barrel, down from the mid-$130s range when the stock was at $134, suggesting weaker energy demand or supply concerns easing. This follows a broader retreat after a brief rally earlier in the month.\n\nThe backdrop for this weakness is a shift in geopolitical risk perception around the Strait of Hormuz\u2014a critical chokepoint for global oil. While an Iran-US conflict has dragged on longer than expected, recent diplomatic moves (Qatar's mediation, Iran's signals about returning to talks) appear to have reduced immediate fears of a major supply disruption. That lowered tension likely contributed to oil prices easing off their highs, even as Europe's gas shortage and lingering Middle East uncertainty keep energy costs elevated enough to support prices above $80.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 14,
-    "inputTokens": 11915,
-    "outputTokens": 3075,
-    "estimatedCostUsd": 0.02729,
-    "lastCallHour": "2026-08-28T01"
+    "callsThisMonth": 15,
+    "inputTokens": 12803,
+    "outputTokens": 3293,
+    "estimatedCostUsd": 0.029268,
+    "lastCallHour": "2026-08-28T08"
   }
 }
