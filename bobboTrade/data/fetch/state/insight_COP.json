@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-29T10:43:48.028021+00:00",
-  "text": "ConocoPhillips rose slightly today after a week of losses, though oil prices remained soft. The stock has fallen 3.7% since last Thursday as U.S. crude dipped from $87 to under $84 per barrel\u2014a meaningful drop for an oil major whose profits depend heavily on price levels. Today's modest gain suggests some stabilization, but the underlying trend remains pressure from weaker oil demand or supply concerns easing geopolitical risk.\n\nThe broader context here is a stalemate in the Iran conflict that has now stretched six months without the quick resolution the Trump administration initially expected. While that prolonged uncertainty had supported higher oil prices earlier, markets appear to be settling into a new baseline where neither a major escalation nor a sudden resolution seems imminent. The Navy blockade on Iran's exports continues, but the economic warfare campaign hasn't triggered the sharp supply shock that might have sent crude prices\u2014and energy stocks\u2014significantly higher.",
+  "fetchedAt": "2026-08-29T15:27:18.409589+00:00",
+  "text": "ConocoPhillips edged up 0.64% today after falling steadily for a week, as oil prices stabilized. US crude held at $83.90 per barrel after dropping sharply in recent days\u2014the stock had slid roughly 4% from August 21st through yesterday as crude declined. The slight recovery today reflects a modest steadying in the oil market rather than new company-specific news.\n\nThe broader context is geopolitical tension around Iran and the Strait of Hormuz, a critical chokepoint for global oil supply. The U.S. has escalated economic sanctions on Iran's banking and oil sectors, which theoretically could tighten oil supply and support prices\u2014but so far the week's price action suggests traders are skeptical that these measures will meaningfully disrupt flows, or are more focused on recession concerns outweighing supply-side support.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 19,
-    "inputTokens": 16319,
-    "outputTokens": 4163,
-    "estimatedCostUsd": 0.037134,
-    "lastCallHour": "2026-08-29T10"
+    "callsThisMonth": 20,
+    "inputTokens": 17204,
+    "outputTokens": 4355,
+    "estimatedCostUsd": 0.038979,
+    "lastCallHour": "2026-08-29T15"
   }
 }
