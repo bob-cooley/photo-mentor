@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-28T22:52:37.329118+00:00",
-  "text": "Marathon Petroleum gained 1.5% today as oil refining indicators remained tight and geopolitical tensions around Iran continued to support energy prices. US crude is holding at $83.90 per barrel while refineries are running at 97.4% capacity\u2014near maximum\u2014which keeps margins healthy for refiners like MPC. The U.S. Navy blockade of Iran's oil exports, described as a shift to economic warfare after months of military strikes, removes barrels from global supply and supports the price floor that refiners depend on.\n\nThe stock has climbed 3.8% over two weeks as the conflict in the region has dragged on longer than initially expected, keeping geopolitical risk premiums baked into oil prices. With storage levels moderate (718 million barrels of oil, 206 million of gasoline), tight refining capacity, and no near-term resolution to the Iran situation, the structural conditions that favor refiner profitability remain in place.",
+  "fetchedAt": "2026-08-29T03:04:24.710201+00:00",
+  "text": "Marathon Petroleum rose 1.46% today as oil refining fundamentals tightened further. U.S. refineries are running at 97.4% capacity\u2014near maximum utilization\u2014while storage levels for gasoline and diesel remain modest. This combination supports refiner margins because tight capacity means refineries can't easily increase output if demand holds, and lower inventories leave less cushion against supply disruptions.\n\nThe broader backdrop is sustained geopolitical tension: the U.S. Navy blockade is slashing Iran's oil exports as part of an economic pressure campaign, and six months into the conflict, markets are treating it as an indefinite stalemate rather than an imminent resolution. That persistence in regional risk, combined with tight U.S. refining capacity, is supporting the refiner sector even though crude prices remain modest by recent standards.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 19,
-    "inputTokens": 16649,
-    "outputTokens": 4016,
-    "estimatedCostUsd": 0.036729,
-    "lastCallHour": "2026-08-28T22"
+    "callsThisMonth": 20,
+    "inputTokens": 17579,
+    "outputTokens": 4198,
+    "estimatedCostUsd": 0.038569,
+    "lastCallHour": "2026-08-29T03"
   }
 }

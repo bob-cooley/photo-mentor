@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-28T22:52:21.777874+00:00",
-  "text": "ConocoPhillips rose 0.64% today to $130.35, continuing a modest recovery after dropping nearly $5 over the prior week. The stock's gain came as oil prices ticked slightly higher\u2014US crude at $83.90 per barrel and global Brent at $88.24\u2014but the bigger driver appears to be settling expectations around Iran tensions. After months of escalating conflict and a U.S. Navy blockade that had threatened to severely disrupt Middle Eastern oil supplies, markets are now pricing in a prolonged stalemate rather than catastrophic supply disruption, which removes some of the downside risk that had weighed on the stock.\n\nThe prior week's $5 drop likely reflected peak anxiety about geopolitical disruption to the Strait of Hormuz and Iran's oil exports, but with no near-term resolution in sight and the Trump administration shifting toward extended economic sanctions rather than kinetic action, energy markets are adjusting to a \"new normal\" of tighter but not broken supplies\u2014a scenario that supports stable but not runaway oil prices, which is supporting the stock's recovery.",
+  "fetchedAt": "2026-08-29T03:04:02.221372+00:00",
+  "text": "ConocoPhillips gained 0.64% today as oil prices steadied, but the stock has declined 3.5% over two weeks as crude has weakened\u2014US oil fell from above $134 to $83.90 per barrel. The sharp drop reflects the market's growing skepticism about the severity of Middle East supply disruptions. A U.S. Navy blockade is cutting Iranian exports, but six months into the conflict, markets are treating the stalemate as a permanent fixture rather than an acute crisis, which removes the price-support premium crude enjoyed earlier.\n\nFor refiners and integrated producers like ConocoPhillips, cheaper oil is a mixed blessing. Lower crude costs help profitability if margins hold, but the collapse in prices over two weeks signals that investors no longer expect sustained supply tightness from the Iran conflict\u2014the opposite of what energy stocks bet on when geopolitical tension first spiked.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 17,
-    "inputTokens": 14561,
-    "outputTokens": 3760,
-    "estimatedCostUsd": 0.033361,
-    "lastCallHour": "2026-08-28T22"
+    "callsThisMonth": 18,
+    "inputTokens": 15441,
+    "outputTokens": 3961,
+    "estimatedCostUsd": 0.035246,
+    "lastCallHour": "2026-08-29T03"
   }
 }
