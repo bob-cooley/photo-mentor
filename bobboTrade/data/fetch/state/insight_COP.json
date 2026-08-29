@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-29T03:04:02.221372+00:00",
-  "text": "ConocoPhillips gained 0.64% today as oil prices steadied, but the stock has declined 3.5% over two weeks as crude has weakened\u2014US oil fell from above $134 to $83.90 per barrel. The sharp drop reflects the market's growing skepticism about the severity of Middle East supply disruptions. A U.S. Navy blockade is cutting Iranian exports, but six months into the conflict, markets are treating the stalemate as a permanent fixture rather than an acute crisis, which removes the price-support premium crude enjoyed earlier.\n\nFor refiners and integrated producers like ConocoPhillips, cheaper oil is a mixed blessing. Lower crude costs help profitability if margins hold, but the collapse in prices over two weeks signals that investors no longer expect sustained supply tightness from the Iran conflict\u2014the opposite of what energy stocks bet on when geopolitical tension first spiked.",
+  "fetchedAt": "2026-08-29T10:43:48.028021+00:00",
+  "text": "ConocoPhillips rose slightly today after a week of losses, though oil prices remained soft. The stock has fallen 3.7% since last Thursday as U.S. crude dipped from $87 to under $84 per barrel\u2014a meaningful drop for an oil major whose profits depend heavily on price levels. Today's modest gain suggests some stabilization, but the underlying trend remains pressure from weaker oil demand or supply concerns easing geopolitical risk.\n\nThe broader context here is a stalemate in the Iran conflict that has now stretched six months without the quick resolution the Trump administration initially expected. While that prolonged uncertainty had supported higher oil prices earlier, markets appear to be settling into a new baseline where neither a major escalation nor a sudden resolution seems imminent. The Navy blockade on Iran's exports continues, but the economic warfare campaign hasn't triggered the sharp supply shock that might have sent crude prices\u2014and energy stocks\u2014significantly higher.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 18,
-    "inputTokens": 15441,
-    "outputTokens": 3961,
-    "estimatedCostUsd": 0.035246,
-    "lastCallHour": "2026-08-29T03"
+    "callsThisMonth": 19,
+    "inputTokens": 16319,
+    "outputTokens": 4163,
+    "estimatedCostUsd": 0.037134,
+    "lastCallHour": "2026-08-29T10"
   }
 }
