@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-29T15:27:18.409589+00:00",
-  "text": "ConocoPhillips edged up 0.64% today after falling steadily for a week, as oil prices stabilized. US crude held at $83.90 per barrel after dropping sharply in recent days\u2014the stock had slid roughly 4% from August 21st through yesterday as crude declined. The slight recovery today reflects a modest steadying in the oil market rather than new company-specific news.\n\nThe broader context is geopolitical tension around Iran and the Strait of Hormuz, a critical chokepoint for global oil supply. The U.S. has escalated economic sanctions on Iran's banking and oil sectors, which theoretically could tighten oil supply and support prices\u2014but so far the week's price action suggests traders are skeptical that these measures will meaningfully disrupt flows, or are more focused on recession concerns outweighing supply-side support.",
+  "fetchedAt": "2026-08-29T19:08:57.635672+00:00",
+  "text": "ConocoPhillips edged up 0.64% today to $130.35, a modest recovery after sliding nearly 1% yesterday. The stock has fallen about 3.5% from its level two weeks ago, tracking a broad retreat in oil prices\u2014US crude is now trading at $83.90 per barrel, down from recent highs. The recent news flow has been dominated by escalating U.S. economic pressure on Iran, including new sanctions on financial channels and a reported Navy blockade on Iranian oil exports, which could theoretically tighten global oil supply and support prices. However, today's small gain suggests these geopolitical developments aren't yet translating into a meaningful rally for the energy sector.\n\nThe broader picture is one of competing pressures: tighter supply from Iran sanctions work against softer demand signals and global economic caution that have dragged oil prices lower over the past two weeks. For a major oil producer like ConocoPhillips, lower crude prices directly compress margins, which likely explains why even supply-positive geopolitical news hasn't reversed the recent decline.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 20,
-    "inputTokens": 17204,
-    "outputTokens": 4355,
-    "estimatedCostUsd": 0.038979,
-    "lastCallHour": "2026-08-29T15"
+    "callsThisMonth": 21,
+    "inputTokens": 18089,
+    "outputTokens": 4591,
+    "estimatedCostUsd": 0.041044,
+    "lastCallHour": "2026-08-29T19"
   }
 }

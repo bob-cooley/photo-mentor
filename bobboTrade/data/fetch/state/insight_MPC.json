@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-29T15:27:35.876399+00:00",
-  "text": "Marathon Petroleum gained 1.47% today, extending a two-week climb of 3.79%. The gain reflects heightened geopolitical tension in the Middle East\u2014specifically, a U.S. Navy blockade of Iran that is sharply reducing Iran's oil exports. When a major oil producer loses export capacity, global oil supplies tighten, which typically supports refining margins and boosts demand for U.S. refiners like Marathon, especially one running at near-peak capacity (97.4% utilization).\n\nThe stock's steady climb over the past week aligns with escalating Iran sanctions news, which has accumulated as the Trump administration intensified economic pressure through the blockade. Refinery margins improve when crude supply becomes constrained while domestic fuel demand remains steady\u2014and with U.S. refineries already running hot and fuel inventories relatively modest, the blockade creates the conditions refiners profit from.",
+  "fetchedAt": "2026-08-29T19:09:13.623329+00:00",
+  "text": "MPC gained 1.47% today, continuing a strong week that's seen the stock up nearly 4% over two weeks. The driver is geopolitical tension in the Middle East: the U.S. Navy blockade of Iran has sharply cut Iran's oil exports, tightening global crude supply. With U.S. refineries running at 97.4% capacity\u2014near maximum\u2014tighter supply supports both crude prices (up to $83.90/barrel domestically) and refinery margins, which improve when crude becomes scarcer relative to refined products like gasoline and diesel that refineries sell.\n\nThe blockade represents an escalation from earlier military strikes that failed to achieve their aims, and is now being framed as sustained economic pressure rather than temporary conflict. For a refiner like MPC, this creates a favorable backdrop: constrained crude supply typically strengthens the spread between what they pay for oil and what they receive for the refined fuel they produce, directly boosting profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 22,
-    "inputTokens": 19440,
-    "outputTokens": 4575,
-    "estimatedCostUsd": 0.042315,
-    "lastCallHour": "2026-08-29T15"
+    "callsThisMonth": 23,
+    "inputTokens": 20373,
+    "outputTokens": 4789,
+    "estimatedCostUsd": 0.044318,
+    "lastCallHour": "2026-08-29T19"
   }
 }
