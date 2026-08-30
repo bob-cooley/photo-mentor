@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-30T12:34:21.329946+00:00",
-  "text": "ConocoPhillips edged up 0.64% today, reversing a sharp four-day slide that had cost the stock 3% since last Thursday. The bounce came as oil prices stabilized\u2014U.S. crude held at $83.90 per barrel\u2014after a week dominated by escalating Iran sanctions and concerns about the Strait of Hormuz chokepoint. The U.S. Navy's blockade of Iranian oil exports and Treasury action against banks facilitating Iran trade had earlier weighed on the stock, likely on worry that economic sanctions could destabilize the region or trigger retaliatory disruption of the critical shipping lane through which roughly one-third of global seaborne oil passes.\n\nThe modest recovery reflects oil prices finding a floor despite the geopolitical friction. A refiner and producer like ConocoPhillips benefits when crude prices stabilize, even if at lower levels than earlier in the month\u2014and the news cycle shifted slightly toward diplomatic overtures (Iran saying diplomacy \"isn't impossible\") rather than imminent military action, which may have eased the immediate risk premium that drove the recent selloff.",
+  "fetchedAt": "2026-08-30T17:11:13.606273+00:00",
+  "text": "ConocoPhillips edged up 0.64% today to $130.35, halting a five-day slide but staying down 3.4% from where it was a week ago. The modest recovery came as oil prices steadied\u2014U.S. crude holding at $83.90 per barrel\u2014after escalating geopolitical tensions over Iran's control of the Strait of Hormuz had weighed on the stock. The U.S. Navy's blockade of Iranian oil exports and new Treasury sanctions on financial channels supporting Iran's trade suggest Washington is intensifying economic pressure rather than military action, which may have eased some near-term anxiety about a broader regional conflict.\n\nThe bigger picture is that major energy companies like this one are caught between conflicting signals: tighter Iranian supply could theoretically support oil prices, but the week's heavy sell-off reflects concern that geopolitical brinkmanship and potential economic disruption could dampen global demand. Today's small bounce doesn't signal confidence\u2014the stock remains down 2-3% over two weeks, and the flat-to-down trend suggests investors are still nervous about where this standoff leads.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 25,
-    "inputTokens": 21629,
-    "outputTokens": 5560,
-    "estimatedCostUsd": 0.049429,
-    "lastCallHour": "2026-08-30T12"
+    "callsThisMonth": 26,
+    "inputTokens": 22514,
+    "outputTokens": 5811,
+    "estimatedCostUsd": 0.051569,
+    "lastCallHour": "2026-08-30T17"
   }
 }
