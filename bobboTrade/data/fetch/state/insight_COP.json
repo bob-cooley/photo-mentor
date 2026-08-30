@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-30T00:59:51.786441+00:00",
-  "text": "ConocoPhillips rose slightly today, but the stock has actually drifted lower over the past week\u2014down about 3.6% from August 21. The main headwind appears to be oil prices themselves: US crude is trading at $83.90 per barrel, down from levels that would have supported higher energy stocks earlier this month. While geopolitical tension around Iran and the Strait of Hormuz might seem like it should push prices higher, the market is pricing in actual oil supply flows, not just risk\u2014and those flows remain constrained by weak global demand signals.\n\nThe broader picture is that energy stocks are caught between two conflicting forces. Escalating US sanctions on Iran and its financial networks, plus renewed Navy enforcement in the Strait of Hormuz, do tighten global oil supply. But this week's news has been tilted toward diplomatic positioning (Iran calling for talks, Gulf nations resisting toll schemes) rather than a genuine supply crisis, so traders aren't rushing to bid up oil or refiners\u2014yet.",
+  "fetchedAt": "2026-08-30T06:29:03.117731+00:00",
+  "text": "ConocoPhillips rose slightly today as oil prices stabilized after a steep week-long decline. The stock fell from $134.87 to $129.52 between August 21 and 27\u2014a drop of about 3.8%\u2014as global oil prices weakened amid broader market pressures. Today's modest 0.64% gain reflects a floor in that selloff, with U.S. crude holding around $83.90 per barrel. The recent news on Iran sanctions and U.S. Navy actions in the Strait of Hormuz has created geopolitical uncertainty but hasn't yet triggered a sustained price recovery.\n\nThe two-week picture shows the stock is still down despite today's bounce, caught between competing forces: economic concerns pressuring energy demand, and supply-side risk from escalating U.S. actions against Iranian oil exports. Tighter sanctions and naval blockades typically support oil prices by reducing supply, but those gains have been outweighed by worries about global economic slowdown and oversupply elsewhere\u2014leaving energy stocks in a holding pattern.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 23,
-    "inputTokens": 19859,
-    "outputTokens": 5082,
-    "estimatedCostUsd": 0.045269,
-    "lastCallHour": "2026-08-30T00"
+    "callsThisMonth": 24,
+    "inputTokens": 20744,
+    "outputTokens": 5316,
+    "estimatedCostUsd": 0.047324,
+    "lastCallHour": "2026-08-30T06"
   }
 }
