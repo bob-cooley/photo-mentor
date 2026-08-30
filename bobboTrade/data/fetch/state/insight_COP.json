@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-30T17:11:13.606273+00:00",
-  "text": "ConocoPhillips edged up 0.64% today to $130.35, halting a five-day slide but staying down 3.4% from where it was a week ago. The modest recovery came as oil prices steadied\u2014U.S. crude holding at $83.90 per barrel\u2014after escalating geopolitical tensions over Iran's control of the Strait of Hormuz had weighed on the stock. The U.S. Navy's blockade of Iranian oil exports and new Treasury sanctions on financial channels supporting Iran's trade suggest Washington is intensifying economic pressure rather than military action, which may have eased some near-term anxiety about a broader regional conflict.\n\nThe bigger picture is that major energy companies like this one are caught between conflicting signals: tighter Iranian supply could theoretically support oil prices, but the week's heavy sell-off reflects concern that geopolitical brinkmanship and potential economic disruption could dampen global demand. Today's small bounce doesn't signal confidence\u2014the stock remains down 2-3% over two weeks, and the flat-to-down trend suggests investors are still nervous about where this standoff leads.",
+  "fetchedAt": "2026-08-30T20:29:51.629404+00:00",
+  "text": "ConocoPhillips fell 0.64% today to $130.35, continuing a slide that has erased gains from earlier in the month. The stock has declined about 3.5% over the past week as oil prices have weakened\u2014US crude sits at $83.90 per barrel, down from higher levels weeks ago\u2014and geopolitical tensions that could support energy prices have shifted rather than intensified. Recent headlines about Iran sanctions and tensions in the Middle East haven't translated into the kind of supply disruption concerns that typically lift oil stocks.\n\nThe broader picture reflects uncertainty about Middle East risk premiums. While news about US sanctions on entities tied to Iran's shadow banking network and tensions over the Strait of Hormuz might seem bullish for oil prices, the market appears unconvinced these will meaningfully disrupt global supply in the near term, leaving energy stocks to track the underlying crude price downward.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 26,
-    "inputTokens": 22514,
-    "outputTokens": 5811,
-    "estimatedCostUsd": 0.051569,
-    "lastCallHour": "2026-08-30T17"
+    "callsThisMonth": 27,
+    "inputTokens": 23397,
+    "outputTokens": 6008,
+    "estimatedCostUsd": 0.053437,
+    "lastCallHour": "2026-08-30T20"
   }
 }
