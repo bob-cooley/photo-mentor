@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-30T06:29:03.117731+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices stabilized after a steep week-long decline. The stock fell from $134.87 to $129.52 between August 21 and 27\u2014a drop of about 3.8%\u2014as global oil prices weakened amid broader market pressures. Today's modest 0.64% gain reflects a floor in that selloff, with U.S. crude holding around $83.90 per barrel. The recent news on Iran sanctions and U.S. Navy actions in the Strait of Hormuz has created geopolitical uncertainty but hasn't yet triggered a sustained price recovery.\n\nThe two-week picture shows the stock is still down despite today's bounce, caught between competing forces: economic concerns pressuring energy demand, and supply-side risk from escalating U.S. actions against Iranian oil exports. Tighter sanctions and naval blockades typically support oil prices by reducing supply, but those gains have been outweighed by worries about global economic slowdown and oversupply elsewhere\u2014leaving energy stocks in a holding pattern.",
+  "fetchedAt": "2026-08-30T12:34:21.329946+00:00",
+  "text": "ConocoPhillips edged up 0.64% today, reversing a sharp four-day slide that had cost the stock 3% since last Thursday. The bounce came as oil prices stabilized\u2014U.S. crude held at $83.90 per barrel\u2014after a week dominated by escalating Iran sanctions and concerns about the Strait of Hormuz chokepoint. The U.S. Navy's blockade of Iranian oil exports and Treasury action against banks facilitating Iran trade had earlier weighed on the stock, likely on worry that economic sanctions could destabilize the region or trigger retaliatory disruption of the critical shipping lane through which roughly one-third of global seaborne oil passes.\n\nThe modest recovery reflects oil prices finding a floor despite the geopolitical friction. A refiner and producer like ConocoPhillips benefits when crude prices stabilize, even if at lower levels than earlier in the month\u2014and the news cycle shifted slightly toward diplomatic overtures (Iran saying diplomacy \"isn't impossible\") rather than imminent military action, which may have eased the immediate risk premium that drove the recent selloff.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 24,
-    "inputTokens": 20744,
-    "outputTokens": 5316,
-    "estimatedCostUsd": 0.047324,
-    "lastCallHour": "2026-08-30T06"
+    "callsThisMonth": 25,
+    "inputTokens": 21629,
+    "outputTokens": 5560,
+    "estimatedCostUsd": 0.049429,
+    "lastCallHour": "2026-08-30T12"
   }
 }

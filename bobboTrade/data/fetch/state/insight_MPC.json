@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-30T06:29:25.047857+00:00",
-  "text": "Marathon Petroleum rose 1.45% today as oil prices held firm and U.S. refineries operated at 97.4% capacity\u2014near maximum levels. The stock gained ground as crude stayed around $84 per barrel domestically, with tighter refinery utilization supporting margins for a major processor. This move extends the stock's 3.77% climb over two weeks.\n\nThe broader tailwind here is geopolitical: escalating U.S. economic pressure on Iran, including a naval blockade of its oil exports announced this week, tightens global oil supply and keeps prices elevated. Higher crude prices and high refinery utilization both support Marathon's profitability, which is why refiners have been lifted amid Middle East tension over the past month.",
+  "fetchedAt": "2026-08-30T12:34:36.970866+00:00",
+  "text": "Marathon Petroleum gained 1.46% today as oil prices held steady and U.S. refineries operated at 97.4% capacity\u2014near maximum utilization. The company benefits when refineries run hot like this, since they convert crude into higher-margin products like gasoline and diesel. Over the past week, the stock has climbed 3.77%, tracking alongside steady crude prices around $84 a barrel domestically.\n\nThe broader backdrop is tightening oil supply. A U.S. Navy blockade has cut Iranian oil exports significantly as the administration pursues economic pressure rather than military action, which reduces competing crude flowing into global markets. With refineries already running near capacity and storage inventories moderate, tighter supply keeps prices elevated\u2014a tailwind for refiners turning barrels into fuel.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 26,
-    "inputTokens": 23178,
-    "outputTokens": 5321,
-    "estimatedCostUsd": 0.049783,
-    "lastCallHour": "2026-08-30T06"
+    "callsThisMonth": 27,
+    "inputTokens": 24113,
+    "outputTokens": 5493,
+    "estimatedCostUsd": 0.051578,
+    "lastCallHour": "2026-08-30T12"
   }
 }
