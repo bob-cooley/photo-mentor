@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-29T22:17:14.305165+00:00",
-  "text": "ConocoPhillips fell 0.6% today, extending a four-day slide that's wiped out 2.8% since late last week. The immediate driver appears to be escalating U.S. economic pressure on Iran\u2014the Treasury sanctioned a UAE bank branch for Iran-tied transactions, and the Navy is now conducting a blockade of Iranian oil exports. These moves typically tighten global oil supplies and should support prices, but instead crude has drifted lower (U.S. oil at $83.90, down from recent highs), suggesting markets are pricing in either weakening demand or skepticism that the sanctions will hold. For an oil major like ConocoPhillips, that mismatch between tightening supply and falling prices is a headwind.\n\nThe longer context is mounting geopolitical friction without clear resolution. Iran is calling for diplomacy even as it's being squeezed economically, and Gulf nations are resisting any formal toll scheme for the Strait of Hormuz\u2014a chokepoint through which much of global oil flows. This creates uncertainty rather than the kind of clean supply shock that typically lifts oil stocks; traders may be waiting to see whether sanctions actually constrain supplies or whether negotiations emerge instead.",
+  "fetchedAt": "2026-08-30T00:59:51.786441+00:00",
+  "text": "ConocoPhillips rose slightly today, but the stock has actually drifted lower over the past week\u2014down about 3.6% from August 21. The main headwind appears to be oil prices themselves: US crude is trading at $83.90 per barrel, down from levels that would have supported higher energy stocks earlier this month. While geopolitical tension around Iran and the Strait of Hormuz might seem like it should push prices higher, the market is pricing in actual oil supply flows, not just risk\u2014and those flows remain constrained by weak global demand signals.\n\nThe broader picture is that energy stocks are caught between two conflicting forces. Escalating US sanctions on Iran and its financial networks, plus renewed Navy enforcement in the Strait of Hormuz, do tighten global oil supply. But this week's news has been tilted toward diplomatic positioning (Iran calling for talks, Gulf nations resisting toll schemes) rather than a genuine supply crisis, so traders aren't rushing to bid up oil or refiners\u2014yet.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 22,
-    "inputTokens": 18974,
-    "outputTokens": 4859,
-    "estimatedCostUsd": 0.043269,
-    "lastCallHour": "2026-08-29T22"
+    "callsThisMonth": 23,
+    "inputTokens": 19859,
+    "outputTokens": 5082,
+    "estimatedCostUsd": 0.045269,
+    "lastCallHour": "2026-08-30T00"
   }
 }

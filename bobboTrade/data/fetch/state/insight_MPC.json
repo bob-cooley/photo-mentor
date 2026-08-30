@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-29T22:17:28.980191+00:00",
-  "text": "Marathon Petroleum rose 1.46% today as U.S. oil prices held firm at $83.90 a barrel and U.S. refinery utilization stayed elevated at 97.4%, supporting margins for crude processing. The stock has climbed 3.77% over two weeks, tracking a broader recovery in energy stocks tied to geopolitical tensions around Iran\u2014a major oil producer whose exports are now heavily restricted by U.S. Navy blockade operations, tightening global supply.\n\nThe tightness in oil markets is real: Iran's crude sales are being squeezed by economic sanctions and military blockade, and global oil stocks remain moderate while U.S. refineries are running near capacity. These conditions support the strong refining margins that companies like Marathon depend on to turn crude into gasoline and diesel profitably.",
+  "fetchedAt": "2026-08-30T01:00:03.917500+00:00",
+  "text": "Marathon Petroleum gained 1.46% today, continuing a modest upward trend over the past two weeks (+3.77%). The stock's strength reflects tightening conditions in global oil markets: U.S. refineries are running at 97.4% capacity\u2014near maximum operational levels\u2014while a U.S. Navy blockade of Iran has sharply reduced Iranian oil exports. With crude prices holding firm (U.S. oil at $83.90/barrel), refiners like Marathon benefit from sustained demand and constrained supply that supports margins.\n\nThe broader backdrop is a shift toward economic pressure on Iran rather than military action, which stabilizes the geopolitical risk premium in energy prices. This removes some of the volatility that characterized earlier in the month, allowing the refining sector to operate at high utilization without the shock risk that had weighed on sentiment before late August.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 24,
-    "inputTokens": 21308,
-    "outputTokens": 4969,
-    "estimatedCostUsd": 0.046153,
-    "lastCallHour": "2026-08-29T22"
+    "callsThisMonth": 25,
+    "inputTokens": 22243,
+    "outputTokens": 5157,
+    "estimatedCostUsd": 0.048028,
+    "lastCallHour": "2026-08-30T01"
   }
 }
