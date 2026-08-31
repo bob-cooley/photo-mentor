@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-31T10:28:02.263201+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices jumped 3% to above $90 a barrel following U.S. military strikes on Iranian targets\u2014the first such action in weeks. Since the stock has fallen roughly 4% over the past week despite this morning's oil price spike, the small gain today suggests the market is cautiously testing whether geopolitical tension will sustain higher crude prices, which directly improves the economics of oil producers like ConocoPhillips.\n\nThe broader backdrop matters: tensions between the U.S. and Iran, plus Russian threats to strike Ukrainian energy infrastructure, have created genuine supply-risk premiums in global oil markets (world crude is trading $88.24 versus U.S. crude at $83.90). These geopolitical flare-ups tend to be volatile and unpredictable, which may explain why the stock has been drifting lower even as headline risks have mounted\u2014investors are uncertain whether the price bump will last or fade as quickly as the last crisis.",
+  "fetchedAt": "2026-08-31T17:51:09.817083+00:00",
+  "text": "ConocoPhillips rose 1.6% today to $132.46, recovering from a four-day slide that had knocked the stock down nearly 3% through Thursday. The bounce came as oil prices spiked\u2014Brent crude jumped 3% to above $90 a barrel after the U.S. struck Iranian targets, the first such military action in weeks. Since ConocoPhillips is a major oil producer, higher crude prices directly improve its earnings prospects and cash flow.\n\nThe stock also benefited from a broader tailwind in the energy sector: the White House announced it will meet with U.S. oil refiners to discuss boosting refining capacity, signaling political support for the industry at a time when gas prices are a concern heading into the midterm election. Meanwhile, geopolitical tensions\u2014U.S.-Iran strikes and Russia's threatened strikes on Ukraine's energy infrastructure\u2014are creating uncertainty around global oil supply, which typically pushes prices higher and favors producers.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 30,
-    "inputTokens": 26033,
-    "outputTokens": 6653,
-    "estimatedCostUsd": 0.059298,
-    "lastCallHour": "2026-08-31T10"
+    "callsThisMonth": 31,
+    "inputTokens": 26895,
+    "outputTokens": 6868,
+    "estimatedCostUsd": 0.061235,
+    "lastCallHour": "2026-08-31T17"
   }
 }

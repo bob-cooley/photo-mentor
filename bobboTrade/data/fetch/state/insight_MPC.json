@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-31T10:28:47.316768+00:00",
-  "text": "Marathon Petroleum rose 1.5% today as oil prices jumped 3% to above $90 a barrel following U.S. military strikes on Iranian targets. Refiners like Marathon benefit when crude prices move higher because they buy oil at one price and sell refined products (gasoline, diesel) at another; a spike in geopolitical tension that pushes oil up can widen that profit margin, especially when refinery utilization is already running high at 97.4%.\n\nThe move fits a broader pattern this month\u2014the stock is up 3.77% over two weeks as oil market volatility from U.S.-Iran escalation and Russian threats to Ukrainian energy infrastructure has pushed crude higher and kept refineries operating near full capacity, the conditions that tend to favor refiner earnings.",
+  "fetchedAt": "2026-08-31T17:51:50.429008+00:00",
+  "text": "Marathon Petroleum stock rose 0.8% today to close at $371.81, extending a solid two-week gain of 3.8%. The move reflects multiple tailwinds for refiners: oil prices jumped overnight after U.S. strikes on Iranian targets pushed Brent crude above $90 a barrel, geopolitical tensions in Ukraine threaten Russian energy supplies, and refineries are already running at 97.4% capacity \u2014 near maximum \u2014 which tightens the supply of refined products like gasoline and diesel. When crude gets expensive and refinery capacity is scarce, refiners typically capture wider margins on what they produce.\n\nThe White House's signal that it plans to work with U.S. refiners on boosting capacity also signals potential political support for the industry, which may have encouraged buying by investors who see tailwinds ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 32,
-    "inputTokens": 28778,
-    "outputTokens": 6441,
-    "estimatedCostUsd": 0.060983,
-    "lastCallHour": "2026-08-31T10"
+    "callsThisMonth": 33,
+    "inputTokens": 29703,
+    "outputTokens": 6624,
+    "estimatedCostUsd": 0.062823,
+    "lastCallHour": "2026-08-31T17"
   }
 }
