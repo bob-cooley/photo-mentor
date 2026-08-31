@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-30T23:07:11.677334+00:00",
-  "text": "ConocoPhillips fell slightly today, continuing a downward drift over the past week after hitting $134.87 on August 21st. The modest decline fits into broader energy sector pressure: crude oil prices have softened, with U.S. oil at $83.90 and world oil at $88.24 per barrel, and Middle Eastern geopolitical tensions\u2014including tightened U.S. sanctions on Iran-linked banking networks and ongoing diplomatic friction\u2014have created uncertainty without triggering the supply shock that would prop up prices.\n\nThe stock's 2.82% decline over two weeks reflects a typical oil major's sensitivity to both crude prices and geopolitical risk. When tensions in the Middle East don't translate into actual disruptions to oil flow through critical chokepoints like the Strait of Hormuz (as analysts noted is unlikely), and crude prices remain in a modest range rather than spiking, large integrated oil companies tend to trade sideways to slightly downward\u2014balancing steady dividend appeal against slowing upstream upside.",
+  "fetchedAt": "2026-08-31T03:21:31.913386+00:00",
+  "text": "COP rose modestly today, continuing a choppy week that started with a steeper decline. The stock has recovered slightly after dropping to $129.52 on August 27th, likely supported by oil prices holding above $83 per barrel and by geopolitical tension in the Middle East \u2014 specifically U.S. military strikes on Iranian positions over the weekend, which heightened concerns about potential supply disruptions through the Strait of Hormuz and pushed global oil prices up more than 1% on Monday.\n\nThe broader backdrop matters here: escalating U.S.-Iran tensions and tightening financial sanctions on Iran-linked entities (Treasury moving against Egyptian bank branches, new restrictions on dollar use) create genuine uncertainty about crude supplies flowing through one of the world's most critical shipping chokepoints. For an oil producer like ConocoPhillips, geopolitical risk that threatens global supply typically supports prices, even as it adds volatility.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 28,
-    "inputTokens": 24280,
-    "outputTokens": 6233,
-    "estimatedCostUsd": 0.055445,
-    "lastCallHour": "2026-08-30T23"
+    "callsThisMonth": 29,
+    "inputTokens": 25170,
+    "outputTokens": 6434,
+    "estimatedCostUsd": 0.05734,
+    "lastCallHour": "2026-08-31T03"
   }
 }
