@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-08-31T03:21:31.913386+00:00",
-  "text": "COP rose modestly today, continuing a choppy week that started with a steeper decline. The stock has recovered slightly after dropping to $129.52 on August 27th, likely supported by oil prices holding above $83 per barrel and by geopolitical tension in the Middle East \u2014 specifically U.S. military strikes on Iranian positions over the weekend, which heightened concerns about potential supply disruptions through the Strait of Hormuz and pushed global oil prices up more than 1% on Monday.\n\nThe broader backdrop matters here: escalating U.S.-Iran tensions and tightening financial sanctions on Iran-linked entities (Treasury moving against Egyptian bank branches, new restrictions on dollar use) create genuine uncertainty about crude supplies flowing through one of the world's most critical shipping chokepoints. For an oil producer like ConocoPhillips, geopolitical risk that threatens global supply typically supports prices, even as it adds volatility.",
+  "fetchedAt": "2026-08-31T10:28:02.263201+00:00",
+  "text": "ConocoPhillips rose slightly today as oil prices jumped 3% to above $90 a barrel following U.S. military strikes on Iranian targets\u2014the first such action in weeks. Since the stock has fallen roughly 4% over the past week despite this morning's oil price spike, the small gain today suggests the market is cautiously testing whether geopolitical tension will sustain higher crude prices, which directly improves the economics of oil producers like ConocoPhillips.\n\nThe broader backdrop matters: tensions between the U.S. and Iran, plus Russian threats to strike Ukrainian energy infrastructure, have created genuine supply-risk premiums in global oil markets (world crude is trading $88.24 versus U.S. crude at $83.90). These geopolitical flare-ups tend to be volatile and unpredictable, which may explain why the stock has been drifting lower even as headline risks have mounted\u2014investors are uncertain whether the price bump will last or fade as quickly as the last crisis.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 29,
-    "inputTokens": 25170,
-    "outputTokens": 6434,
-    "estimatedCostUsd": 0.05734,
-    "lastCallHour": "2026-08-31T03"
+    "callsThisMonth": 30,
+    "inputTokens": 26033,
+    "outputTokens": 6653,
+    "estimatedCostUsd": 0.059298,
+    "lastCallHour": "2026-08-31T10"
   }
 }
