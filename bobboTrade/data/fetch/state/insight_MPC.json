@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-31T17:51:50.429008+00:00",
-  "text": "Marathon Petroleum stock rose 0.8% today to close at $371.81, extending a solid two-week gain of 3.8%. The move reflects multiple tailwinds for refiners: oil prices jumped overnight after U.S. strikes on Iranian targets pushed Brent crude above $90 a barrel, geopolitical tensions in Ukraine threaten Russian energy supplies, and refineries are already running at 97.4% capacity \u2014 near maximum \u2014 which tightens the supply of refined products like gasoline and diesel. When crude gets expensive and refinery capacity is scarce, refiners typically capture wider margins on what they produce.\n\nThe White House's signal that it plans to work with U.S. refiners on boosting capacity also signals potential political support for the industry, which may have encouraged buying by investors who see tailwinds ahead.",
+  "fetchedAt": "2026-08-31T19:24:12.097449+00:00",
+  "text": "Marathon Petroleum rose 1.4% today, capping a strong week that's up 4.4% overall. The move reflects broad positive momentum for refiners: crude oil climbed above $88 a barrel globally after U.S. strikes on Iranian targets, refineries are operating near full capacity at 97.4%, and the White House announced it's meeting with oil refiners to discuss boosting capacity. With oil prices higher and refineries running hot, refining margins \u2014 the profit refiners make by turning crude into fuel \u2014 should remain healthy.\n\nThe broader backdrop adds tailwinds: geopolitical tensions in the Middle East and ongoing disruptions to Ukraine's energy infrastructure are keeping oil prices elevated, while the Trump administration's focus on refining capacity plays directly to Marathon's core business. Even the announced Venezuela oil deal suggests longer-term crude supply availability, which could support stable refining operations.",
   "status": "ok",
   "usage": {
     "month": "2026-08",
-    "callsThisMonth": 33,
-    "inputTokens": 29703,
-    "outputTokens": 6624,
-    "estimatedCostUsd": 0.062823,
-    "lastCallHour": "2026-08-31T17"
+    "callsThisMonth": 34,
+    "inputTokens": 30620,
+    "outputTokens": 6816,
+    "estimatedCostUsd": 0.0647,
+    "lastCallHour": "2026-08-31T19"
   }
 }
