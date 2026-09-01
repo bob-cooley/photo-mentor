@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-01T13:02:52.791096+00:00",
-  "text": "ConocoPhillips rose 1.6% today to $132.49, recovering from three consecutive days of declines and climbing back toward where it started the week. The bounce aligns with rising oil prices driven by geopolitical tension\u2014Iran's attack on U.S. bases in Jordan prompted Trump's threat of a harder response, and concerns about disruptions to global oil supply pushed prices higher. Brent crude rose to $88.24 a barrel, up from the $83.90 range for U.S. crude, giving oil producers like ConocoPhillips a tailwind after they'd sold off late last week.\n\nThe recovery also fits a broader positive shift in oil market sentiment over the past few days. News of Venezuela granting long-term oil concessions to a U.S.-backed firm, combined with Trump's earlier announcement of secured access to Venezuelan reserves, suggests a potential increase in oil supply to the U.S.\u2014which could stabilize prices and reduce uncertainty around future production. Fewer concerns about supply tightness can support energy stocks even as traders digest the conflicting signals from geopolitics.",
+  "fetchedAt": "2026-09-01T17:08:46.206667+00:00",
+  "text": "ConocoPhillips rose 2.1% today as oil prices climbed on escalating Middle East tensions\u2014WTI crude hit its highest level since July following fresh U.S. strikes against Iran. The stock has also gained 4.3% over the past two weeks, tracking alongside broader crude strength and the unfolding geopolitical situation that's lifted prices from around $130 at the end of August to nearly $84 per barrel today.\n\nThe Venezuela oil deal announced this week\u2014securing U.S. access to 65 billion barrels through a new concession agreement\u2014adds a longer-term tailwind for large oil producers. While the near-term impact remains uncertain, the combination of tighter Middle East supply concerns and the prospect of additional crude reserves moving into Western hands is supporting crude prices and, by extension, energy stocks like this one.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 3,
-    "inputTokens": 2617,
-    "outputTokens": 628,
-    "estimatedCostUsd": 0.005757,
-    "lastCallHour": "2026-09-01T13"
+    "callsThisMonth": 4,
+    "inputTokens": 3531,
+    "outputTokens": 814,
+    "estimatedCostUsd": 0.007601,
+    "lastCallHour": "2026-09-01T17"
   }
 }
