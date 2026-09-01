@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-01T20:29:38.172725+00:00",
-  "text": "Marathon Petroleum stock jumped 2.6% today to $383, continuing a steep six-day rally that's added 8% since late August. The timing matches escalating geopolitical tensions: U.S. strikes against Iran pushed crude oil above $90 per barrel today, and refiners are now running at 97.4% capacity\u2014near maximum utilization\u2014which means higher refining margins (the profit spread between crude input costs and finished fuel sales). When oil prices spike on supply concerns while refineries are already running flat-out, refiners typically capture outsized profits on each barrel they process.\n\nThe underlying tailwind is broader: oil prices have climbed steadily as Middle East conflict risks mount, and U.S. refineries have little room to increase output, so they're selling fuel into a tighter market. The recent Trump meeting with refining executives on fuel prices, combined with news of Venezuelan oil field concessions and continued Ukraine tensions, suggests energy market uncertainty remains elevated\u2014conditions that historically benefit integrated refiners like Marathon with significant downstream (fuel sales) operations.",
+  "fetchedAt": "2026-09-01T22:20:40.917763+00:00",
+  "text": "Marathon Petroleum is up 2.6% today, continuing a rally that's added 4.6% over the past two weeks. The immediate catalyst is the escalation in Middle East tensions\u2014U.S. strikes against Iran pushed crude oil to $90 per barrel today, and with refineries already running at 97.4% capacity, higher oil prices typically widen the profit margins that refiners earn by processing crude into gasoline and diesel. The company also benefits from tight fuel inventories: gasoline and diesel storage are both relatively lean, which supports pricing power for the refined products refineries produce.\n\nThe broader tailwind is that geopolitical risk is pushing energy higher across the board. The war in Iran and ongoing Ukraine tension are keeping oil expensive, and refiners profit most when crude is costly but they can still move product. That said, the Trump administration's upcoming meetings with refining executives about high fuel prices suggest political pressure to boost supply\u2014if that leads to actions that increase refinery output or lower margins, it could cap further gains.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 6,
-    "inputTokens": 5575,
-    "outputTokens": 1233,
-    "estimatedCostUsd": 0.01174,
-    "lastCallHour": "2026-09-01T20"
+    "callsThisMonth": 7,
+    "inputTokens": 6502,
+    "outputTokens": 1455,
+    "estimatedCostUsd": 0.013777,
+    "lastCallHour": "2026-09-01T22"
   }
 }
