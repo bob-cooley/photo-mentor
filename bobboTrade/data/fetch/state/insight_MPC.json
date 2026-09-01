@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-08-31T23:16:05.893925+00:00",
-  "text": "Marathon Petroleum rose 1.2% today as oil prices climbed following U.S. military strikes against Iranian targets, with Brent crude jumping above $90 a barrel. Refineries are running near full capacity at 97.4%, and the company benefits directly when crude prices rise \u2014 higher oil prices typically improve refinery margins (the difference between what they pay for crude and what they can sell refined products for), even as global crude inventories remain elevated at 718.6 million barrels.\n\nThe stock's gains over the past two weeks (4.2%) also reflect the broader support refiners are getting from geopolitical tension. Meanwhile, the White House is meeting with U.S. oil refiners this week about boosting capacity, which signals potential tailwinds for the sector \u2014 though the announced Venezuela oil deal and near-term output increases could eventually pressure prices if they materialize, offsetting some of these near-term gains.",
+  "fetchedAt": "2026-09-01T01:36:10.178538+00:00",
+  "text": "Marathon Petroleum stock rose 1.2% today, continuing a week-long uptrend that's gained 4.2% since late August. The stock's climb mirrors a broader shift in oil market dynamics: Brent crude jumped above $90 per barrel following U.S.-Iran military tensions, while U.S. oil sits at $83.90. With refineries already running at 97.4% capacity\u2014near maximum utilization\u2014any tighter global supply pushes margins higher for refiners like this one, making crude more expensive but refining it into fuel more profitable.\n\nThe White House's push to meet with oil refiners about boosting capacity, combined with talk of securing Venezuelan oil reserves, suggests the administration views refining as central to energy policy. For a large refiner operating at near-peak efficiency, this political attention and the underlying supply tightness create favorable conditions for margins\u2014the difference between what they pay for crude and what they earn from selling gasoline and diesel.",
   "status": "ok",
   "usage": {
-    "month": "2026-08",
-    "callsThisMonth": 36,
-    "inputTokens": 32458,
-    "outputTokens": 7208,
-    "estimatedCostUsd": 0.068498,
-    "lastCallHour": "2026-08-31T23"
+    "month": "2026-09",
+    "callsThisMonth": 1,
+    "inputTokens": 935,
+    "outputTokens": 213,
+    "estimatedCostUsd": 0.002,
+    "lastCallHour": "2026-09-01T01"
   }
 }
