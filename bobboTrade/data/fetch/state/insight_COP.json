@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-01T07:11:24.108836+00:00",
-  "text": "ConocoPhillips rose 1.64% today, climbing back toward its late-August highs as oil prices ticked up on geopolitical tension. Iran launched attacks on U.S. bases in Jordan over the weekend, prompting Trump to threaten a strong response\u2014a dynamic that typically supports crude prices by raising supply concerns. US oil is trading at $83.90 per barrel today, up from the lows seen mid-week, which directly benefits an integrated oil producer like COP that profits when crude strengthens.\n\nThe stock's broader two-week gain of 3.86% reflects a recovery from late-week weakness and sits within the context of shifting Middle East risk and new supply deals\u2014including Trump's Venezuela oil concession announcement. While those Venezuelan reserves are massive on paper, they take years to develop, so near-term oil prices remain the main driver of COP's near-term movement.",
+  "fetchedAt": "2026-09-01T13:02:52.791096+00:00",
+  "text": "ConocoPhillips rose 1.6% today to $132.49, recovering from three consecutive days of declines and climbing back toward where it started the week. The bounce aligns with rising oil prices driven by geopolitical tension\u2014Iran's attack on U.S. bases in Jordan prompted Trump's threat of a harder response, and concerns about disruptions to global oil supply pushed prices higher. Brent crude rose to $88.24 a barrel, up from the $83.90 range for U.S. crude, giving oil producers like ConocoPhillips a tailwind after they'd sold off late last week.\n\nThe recovery also fits a broader positive shift in oil market sentiment over the past few days. News of Venezuela granting long-term oil concessions to a U.S.-backed firm, combined with Trump's earlier announcement of secured access to Venezuelan reserves, suggests a potential increase in oil supply to the U.S.\u2014which could stabilize prices and reduce uncertainty around future production. Fewer concerns about supply tightness can support energy stocks even as traders digest the conflicting signals from geopolitics.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 2,
-    "inputTokens": 1745,
-    "outputTokens": 385,
-    "estimatedCostUsd": 0.00367,
-    "lastCallHour": "2026-09-01T07"
+    "callsThisMonth": 3,
+    "inputTokens": 2617,
+    "outputTokens": 628,
+    "estimatedCostUsd": 0.005757,
+    "lastCallHour": "2026-09-01T13"
   }
 }
