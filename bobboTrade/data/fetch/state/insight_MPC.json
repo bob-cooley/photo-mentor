@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-01T19:56:33.298238+00:00",
-  "text": "Marathon Petroleum stock rose 2.1% today, continuing a steady climb over the past week as crude oil prices pushed higher following U.S. military strikes against Iran. The price of crude hit $90 per barrel, and with refineries running at 97.4% capacity, tight supply conditions are supporting margins for refiners like Marathon\u2014the company profits when it can buy crude and sell refined products like gasoline at a favorable spread.\n\nThe broader backdrop matters too: Middle East tensions are driving oil prices up, while geopolitical moves like Venezuela opening new oil fields to U.S. firms add uncertainty to global supply. For a refiner, higher crude prices can cut both ways, but when refineries are running near full capacity as they are now, the company has pricing power on the products it sells, which appears to be supporting the stock's upward trend this week.",
+  "fetchedAt": "2026-09-01T20:29:38.172725+00:00",
+  "text": "Marathon Petroleum stock jumped 2.6% today to $383, continuing a steep six-day rally that's added 8% since late August. The timing matches escalating geopolitical tensions: U.S. strikes against Iran pushed crude oil above $90 per barrel today, and refiners are now running at 97.4% capacity\u2014near maximum utilization\u2014which means higher refining margins (the profit spread between crude input costs and finished fuel sales). When oil prices spike on supply concerns while refineries are already running flat-out, refiners typically capture outsized profits on each barrel they process.\n\nThe underlying tailwind is broader: oil prices have climbed steadily as Middle East conflict risks mount, and U.S. refineries have little room to increase output, so they're selling fuel into a tighter market. The recent Trump meeting with refining executives on fuel prices, combined with news of Venezuelan oil field concessions and continued Ukraine tensions, suggests energy market uncertainty remains elevated\u2014conditions that historically benefit integrated refiners like Marathon with significant downstream (fuel sales) operations.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 5,
-    "inputTokens": 4650,
-    "outputTokens": 1004,
-    "estimatedCostUsd": 0.00967,
-    "lastCallHour": "2026-09-01T19"
+    "callsThisMonth": 6,
+    "inputTokens": 5575,
+    "outputTokens": 1233,
+    "estimatedCostUsd": 0.01174,
+    "lastCallHour": "2026-09-01T20"
   }
 }
