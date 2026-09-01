@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-01T01:35:58.046407+00:00",
-  "text": "ConocoPhillips climbed 1.64% today to $132.49, recovering most of the ground lost over the prior four trading days. The bounce reflects broader oil market strength: Brent crude jumped above $90 a barrel following U.S. strikes on Iranian targets, and West Texas Intermediate sits at $83.90\u2014both prices that matter directly to an oil major's earnings. Oil explorers and producers benefit when crude prices rise, since they sell oil at higher prices and their reserves become more valuable.\n\nThe past week's volatility and today's recovery also fit into a larger shift in the energy sector's outlook. Major announcements about Venezuela's oil reserves and the White House's focus on boosting U.S. refining capacity suggest renewed political and economic attention on domestic energy supplies, which tends to underpin longer-term confidence in oil companies' prospects.",
+  "fetchedAt": "2026-09-01T07:11:24.108836+00:00",
+  "text": "ConocoPhillips rose 1.64% today, climbing back toward its late-August highs as oil prices ticked up on geopolitical tension. Iran launched attacks on U.S. bases in Jordan over the weekend, prompting Trump to threaten a strong response\u2014a dynamic that typically supports crude prices by raising supply concerns. US oil is trading at $83.90 per barrel today, up from the lows seen mid-week, which directly benefits an integrated oil producer like COP that profits when crude strengthens.\n\nThe stock's broader two-week gain of 3.86% reflects a recovery from late-week weakness and sits within the context of shifting Middle East risk and new supply deals\u2014including Trump's Venezuela oil concession announcement. While those Venezuelan reserves are massive on paper, they take years to develop, so near-term oil prices remain the main driver of COP's near-term movement.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 1,
-    "inputTokens": 873,
-    "outputTokens": 188,
-    "estimatedCostUsd": 0.001813,
-    "lastCallHour": "2026-09-01T01"
+    "callsThisMonth": 2,
+    "inputTokens": 1745,
+    "outputTokens": 385,
+    "estimatedCostUsd": 0.00367,
+    "lastCallHour": "2026-09-01T07"
   }
 }
