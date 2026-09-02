@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-01T22:20:26.597648+00:00",
-  "text": "ConocoPhillips jumped 2.8% today as U.S. crude oil prices surged past $90 per barrel following American military strikes against Iran, escalating Middle East tensions. Oil majors like ConocoPhillips benefit directly from higher crude prices\u2014the company's profits rise when it can sell its oil production at a premium. The stock has climbed 5% over the past two weeks as geopolitical risk has pushed the oil market higher.\n\nThe broader backdrop includes multiple supply-side pressures working in the company's favor: potential access to Venezuelan reserves through the Trump administration's deal, ongoing U.S.-Russia tensions tied to Ukraine, and now acute Middle East friction. When crude prices move up $5\u201310 per barrel on news like today's Iran strikes, large oil producers see immediate improvement in their cash flow and earnings outlook.",
+  "fetchedAt": "2026-09-02T00:54:24.323954+00:00",
+  "text": "ConocoPhillips rose 2.8% today to $136.19, extending a 5% gain over the past two weeks. The immediate trigger was escalating U.S. military strikes against Iran on September 1st and 2nd, which drove crude oil prices up toward $90 per barrel\u2014a meaningful move that benefits oil producers like ConocoPhillips by increasing the value of their output. Oil companies profit directly when crude prices climb, and geopolitical tension in the Middle East has historically supported higher energy prices by creating supply uncertainty.\n\nThe stock's broader upward momentum over two weeks also reflects tightening global oil markets amid ongoing geopolitical friction\u2014the Ukraine war tensions with Russia, now compounded by escalating U.S.-Iran conflict. While the Trump administration's deal for Venezuelan oil reserves is framed as a long-term supply boost, it remains uncertain and distant, making current Middle East tensions the more concrete near-term driver of higher prices and stronger demand for established producers.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 7,
-    "inputTokens": 6219,
-    "outputTokens": 1383,
-    "estimatedCostUsd": 0.013134,
-    "lastCallHour": "2026-09-01T22"
+    "callsThisMonth": 8,
+    "inputTokens": 7106,
+    "outputTokens": 1600,
+    "estimatedCostUsd": 0.015106,
+    "lastCallHour": "2026-09-02T00"
   }
 }

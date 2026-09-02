@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-01T22:20:40.917763+00:00",
-  "text": "Marathon Petroleum is up 2.6% today, continuing a rally that's added 4.6% over the past two weeks. The immediate catalyst is the escalation in Middle East tensions\u2014U.S. strikes against Iran pushed crude oil to $90 per barrel today, and with refineries already running at 97.4% capacity, higher oil prices typically widen the profit margins that refiners earn by processing crude into gasoline and diesel. The company also benefits from tight fuel inventories: gasoline and diesel storage are both relatively lean, which supports pricing power for the refined products refineries produce.\n\nThe broader tailwind is that geopolitical risk is pushing energy higher across the board. The war in Iran and ongoing Ukraine tension are keeping oil expensive, and refiners profit most when crude is costly but they can still move product. That said, the Trump administration's upcoming meetings with refining executives about high fuel prices suggest political pressure to boost supply\u2014if that leads to actions that increase refinery output or lower margins, it could cap further gains.",
+  "fetchedAt": "2026-09-02T00:54:40.914480+00:00",
+  "text": "Marathon Petroleum gained 2.6% today to $383, continuing a sharp five-day rally that's added 8% since August 25. The move is directly tied to oil prices hitting $90 per barrel following U.S. military strikes against Iran on September 1st\u2014geopolitical tension in the Middle East is pushing crude higher, which improves refining margins (the profit refiners make by converting crude into gasoline and diesel). With U.S. refineries already running at 97.4% capacity, higher oil prices mean Marathon can sell finished fuel products at prices that have risen even faster than its raw material costs.\n\nThe broader context here is a collision of tight supply and political risk. The U.S. meeting with refining executives about high fuel prices (announced August 28) underscores how much geopolitical disruption in the Middle East is reshaping energy markets\u2014and refiners like Marathon are positioned to benefit from the price spread between crude and products when Middle East tensions keep prices elevated. Combined with strong refinery utilization rates, this is a favorable environment for Marathon's core business.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 7,
-    "inputTokens": 6502,
-    "outputTokens": 1455,
-    "estimatedCostUsd": 0.013777,
-    "lastCallHour": "2026-09-01T22"
+    "callsThisMonth": 8,
+    "inputTokens": 7418,
+    "outputTokens": 1693,
+    "estimatedCostUsd": 0.015883,
+    "lastCallHour": "2026-09-02T00"
   }
 }
