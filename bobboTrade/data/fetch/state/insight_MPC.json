@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T14:56:58.670824+00:00",
-  "text": "Marathon Petroleum climbed 0.51% today to close at $384.97, extending a sharp 6.71% rally over the past two weeks. The move reflects a combination of rising crude prices\u2014U.S. oil touched near $90 a barrel on Middle East tensions\u2014and exceptionally tight refinery conditions, with U.S. refineries running at 97.4% capacity. When refineries are operating at peak utilization against strong crude prices, refiners' profit margins tend to widen because they can run fuel output continuously while converting cheaper crude into more valuable products.\n\nThe geopolitical risks driving oil higher are real and ongoing: Iran struck targets in Kuwait, Jordan, and Bahrain in retaliation for U.S. strikes on Iranian military sites, while tankers were damaged near the Strait of Hormuz\u2014a critical chokepoint where 17 million barrels transit daily. These supply-side risks support sustained crude prices, which benefit a large independent refiner like Marathon Petroleum as long as refinery utilization stays high.",
+  "fetchedAt": "2026-09-02T16:59:11.960203+00:00",
+  "text": "Marathon Petroleum stock rose 1.34% today to close at $388.15, extending a sharp rally over the past week as oil prices spiked on Middle East tensions. Brent crude climbed near $96 a barrel Wednesday after Iran struck back at U.S. allies in retaliation for American attacks, with tanker incidents reported near the Hormuz Strait raising concerns about supply disruption. Refiners like Marathon benefit when crude prices rise faster than finished fuel prices fall, improving their margins\u2014and the company is running refineries at 97.4% capacity, positioned to capture that spread.\n\nThe stock's momentum also reflects broader optimism in U.S. energy policy: the Trump administration announced a major oil deal with Venezuela and pledged investments to boost production there, signaling sustained demand for refining and petroleum products. With oil in storage at relatively modest levels (718.6 million barrels) and refiners operating near flat-out, the market appears confident in both near-term margins and longer-term refining demand.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 11,
-    "inputTokens": 10224,
-    "outputTokens": 2350,
-    "estimatedCostUsd": 0.021974,
-    "lastCallHour": "2026-09-02T14"
+    "callsThisMonth": 12,
+    "inputTokens": 11167,
+    "outputTokens": 2575,
+    "estimatedCostUsd": 0.024042,
+    "lastCallHour": "2026-09-02T16"
   }
 }
