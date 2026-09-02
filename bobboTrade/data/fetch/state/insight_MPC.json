@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T18:27:01.513128+00:00",
-  "text": "Marathon Petroleum stock rose 1.6% today, extending a sharp week-long rally that has gained nearly 8% since late August. The move reflects escalating geopolitical tension in the Middle East\u2014Iran and the U.S. have traded military strikes around the Strait of Hormuz, a chokepoint through which 17 million barrels of oil pass daily. With Brent crude near $96 a barrel and U.S. refineries already running at 98% capacity, supply concerns and higher input costs are supporting energy stocks, including refiners like Marathon that benefit from elevated crude prices.\n\nThe broader backdrop adds momentum: the U.S. is simultaneously pushing to expand oil production in Venezuela through new concessions and partnerships, signaling intent to manage global supply amid Middle East volatility. Refineries sitting near full utilization with modest inventories of gasoline and diesel mean the market is pricing in tight conditions ahead\u2014a scenario where Marathon's refining margin improves as crude stays elevated and downstream fuel demand holds steady.",
+  "fetchedAt": "2026-09-02T19:40:24.225916+00:00",
+  "text": "Marathon Petroleum rose 1.87% today, continuing a sharp rally that's gained 8.15% over the past two weeks. The immediate driver is escalating Middle East tensions: Iran retaliated against U.S. strikes on Wednesday, and there are reports of mines hitting tankers in the Hormuz Strait\u2014one of the world's critical oil chokepoints through which 17 million barrels transit daily. With Brent crude above $95 and U.S. oil at $91.48, higher crude prices improve refinery margins (the profit refiners make by turning raw oil into gasoline and diesel).\n\nThe broader tailwind is U.S. energy policy shifting toward increased oil production: Venezuela is opening new concessions to American operators, and Chevron is investing $7 billion to double production there. These moves signal a tighter global oil market and sustained crude pricing support, which benefits refiners with the capacity to process more barrels. U.S. refineries are already running at 98% capacity, so there's little room to expand operations\u2014but sustained higher oil prices and tight supply conditions typically support refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 13,
-    "inputTokens": 12103,
-    "outputTokens": 2797,
-    "estimatedCostUsd": 0.026088,
-    "lastCallHour": "2026-09-02T18"
+    "callsThisMonth": 14,
+    "inputTokens": 13039,
+    "outputTokens": 3046,
+    "estimatedCostUsd": 0.028269,
+    "lastCallHour": "2026-09-02T19"
   }
 }
