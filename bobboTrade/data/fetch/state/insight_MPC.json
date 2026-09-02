@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T19:40:24.225916+00:00",
-  "text": "Marathon Petroleum rose 1.87% today, continuing a sharp rally that's gained 8.15% over the past two weeks. The immediate driver is escalating Middle East tensions: Iran retaliated against U.S. strikes on Wednesday, and there are reports of mines hitting tankers in the Hormuz Strait\u2014one of the world's critical oil chokepoints through which 17 million barrels transit daily. With Brent crude above $95 and U.S. oil at $91.48, higher crude prices improve refinery margins (the profit refiners make by turning raw oil into gasoline and diesel).\n\nThe broader tailwind is U.S. energy policy shifting toward increased oil production: Venezuela is opening new concessions to American operators, and Chevron is investing $7 billion to double production there. These moves signal a tighter global oil market and sustained crude pricing support, which benefits refiners with the capacity to process more barrels. U.S. refineries are already running at 98% capacity, so there's little room to expand operations\u2014but sustained higher oil prices and tight supply conditions typically support refiner profitability.",
+  "fetchedAt": "2026-09-02T21:34:02.423396+00:00",
+  "text": "Marathon Petroleum is up 1% today, continuing a sharp rally that's gained 7.3% over the past two weeks. The immediate driver is escalating Middle East tensions\u2014Iran struck back at U.S. allies on Tuesday, pushing Brent crude above $95 a barrel and creating supply uncertainty around the critical Strait of Hormuz, through which 17 million barrels of oil flow daily. For a major U.S. refiner like Marathon, higher crude prices typically compress margins (the gap between what they pay for oil and what they earn selling refined products), but geopolitical risk premiums in oil tend to lift refiner stocks on fears of tighter supply and potential supply disruptions that would drive up refined fuel prices.\n\nThe broader picture reinforcing this move is a shift toward securing U.S. oil supply closer to home. The Trump administration is simultaneously pushing major U.S. oil deals with Venezuela, and refineries are running at 98% capacity\u2014near maximum utilization\u2014while gasoline and diesel inventories remain moderate. This combination of tight refining capacity, higher crude costs, and supply diversification away from Middle Eastern risk suggests the market is pricing in sustained or even rising fuel margins ahead, which benefits refiners even as raw oil costs climb.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 14,
-    "inputTokens": 13039,
-    "outputTokens": 3046,
-    "estimatedCostUsd": 0.028269,
-    "lastCallHour": "2026-09-02T19"
+    "callsThisMonth": 15,
+    "inputTokens": 13975,
+    "outputTokens": 3317,
+    "estimatedCostUsd": 0.03056,
+    "lastCallHour": "2026-09-02T21"
   }
 }
