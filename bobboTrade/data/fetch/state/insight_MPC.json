@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T21:34:02.423396+00:00",
-  "text": "Marathon Petroleum is up 1% today, continuing a sharp rally that's gained 7.3% over the past two weeks. The immediate driver is escalating Middle East tensions\u2014Iran struck back at U.S. allies on Tuesday, pushing Brent crude above $95 a barrel and creating supply uncertainty around the critical Strait of Hormuz, through which 17 million barrels of oil flow daily. For a major U.S. refiner like Marathon, higher crude prices typically compress margins (the gap between what they pay for oil and what they earn selling refined products), but geopolitical risk premiums in oil tend to lift refiner stocks on fears of tighter supply and potential supply disruptions that would drive up refined fuel prices.\n\nThe broader picture reinforcing this move is a shift toward securing U.S. oil supply closer to home. The Trump administration is simultaneously pushing major U.S. oil deals with Venezuela, and refineries are running at 98% capacity\u2014near maximum utilization\u2014while gasoline and diesel inventories remain moderate. This combination of tight refining capacity, higher crude costs, and supply diversification away from Middle Eastern risk suggests the market is pricing in sustained or even rising fuel margins ahead, which benefits refiners even as raw oil costs climb.",
+  "fetchedAt": "2026-09-02T23:49:44.271215+00:00",
+  "text": "Marathon Petroleum rose 1% today as oil prices climbed on Middle East tensions and geopolitical risk. Brent crude traded above $95 a barrel amid Iran-U.S. escalation, including strikes and disputed mine incidents near the Strait of Hormuz\u2014a critical chokepoint for global oil shipments. Refineries are running at 98% capacity, so higher crude prices directly lift the margins refiners earn on turning oil into gasoline and diesel.\n\nThe stock's strong run over the past two weeks (up 7.3%) reflects both tighter supply concerns from geopolitical conflict and robust refining demand, with gasoline and diesel inventories at relatively modest levels. U.S. production moves like Chevron's Venezuela expansion could eventually ease supply pressures, but near-term risk premiums on oil from Mideast instability are supporting refiner economics.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 15,
-    "inputTokens": 13975,
-    "outputTokens": 3317,
-    "estimatedCostUsd": 0.03056,
-    "lastCallHour": "2026-09-02T21"
+    "callsThisMonth": 16,
+    "inputTokens": 14915,
+    "outputTokens": 3509,
+    "estimatedCostUsd": 0.03246,
+    "lastCallHour": "2026-09-02T23"
   }
 }

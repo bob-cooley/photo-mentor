@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-02T21:33:42.345900+00:00",
-  "text": "ConocoPhillips rose 0.76% today, continuing a sharp five-day rally that has pushed the stock up 5.1% since late August. The gain reflects a spike in oil prices\u2014Brent crude is now above $95 per barrel\u2014driven by escalating military tensions in the Middle East. Iran has retaliated against U.S. strikes with attacks on Gulf allies, and there are claims of tanker damage near the Strait of Hormuz, a critical chokepoint through which 17 million barrels of oil transit daily. For an oil producer, higher crude prices directly boost profits.\n\nThe broader energy backdrop is also shifting in favor of producers. The U.S. is simultaneously pushing to expand oil supply from Venezuela through major new concessions and investment commitments, signaling policy support for increased global oil production. This combination\u2014geopolitical supply risk pushing prices up in the near term, plus longer-term production deals coming online\u2014creates a favorable environment for established oil companies like ConocoPhillips.",
+  "fetchedAt": "2026-09-02T23:49:24.507351+00:00",
+  "text": "ConocoPhillips rose 0.74% today to $137.20, continuing a strong five-day rally (+5% since August 26) driven by escalating geopolitical tensions in the Middle East. Iran retaliated against U.S. strikes with attacks on Gulf allies, and there are reports of tanker incidents near the Hormuz Strait\u2014a critical chokepoint where over 17 million barrels of oil passed through on a single day this week. With Brent crude holding above $95 per barrel and U.S. oil at $91.48, supply concerns from potential disruptions in one of the world's most important shipping lanes are lifting the entire energy sector, benefiting major oil producers like ConocoPhillips.\n\nThe move also reflects broader momentum in oil stocks tied to production growth. A major competitor just announced a $7 billion expansion in Venezuela that will double production there, signaling industry confidence in higher oil prices and renewed investment in supply. These geopolitical and production dynamics are creating a favorable environment for integrated oil companies with global portfolios.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 15,
-    "inputTokens": 13233,
-    "outputTokens": 3120,
-    "estimatedCostUsd": 0.028833,
-    "lastCallHour": "2026-09-02T21"
+    "callsThisMonth": 16,
+    "inputTokens": 14112,
+    "outputTokens": 3355,
+    "estimatedCostUsd": 0.030887,
+    "lastCallHour": "2026-09-02T23"
   }
 }
