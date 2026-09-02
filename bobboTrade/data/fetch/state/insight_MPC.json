@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T10:33:40.169422+00:00",
-  "text": "Marathon Petroleum's stock jumped 2.6% today, continuing a sharp rally that's added nearly 4.6% over the past two weeks. The driver is clear: crude oil prices have surged to $90 per barrel (U.S.) following escalating military tensions between the U.S. and Iran in the Middle East\u2014including tanker incidents near the Strait of Hormuz, Iranian retaliation strikes, and ongoing U.S. military operations. For a refiner like Marathon, higher oil prices generally boost profitability when refineries can process crude into finished fuels at favorable margins, especially with U.S. refineries currently running at near-capacity (97.4%).\n\nThe timing matters: oil broke through $90 just yesterday, and the stock has been climbing steadily since late August as geopolitical risk premium built into prices. With refinery utilization already maxed out and fuel inventories relatively tight (particularly diesel), the combination of higher crude costs and steady demand creates conditions where refiners can pass those costs through to customers.",
+  "fetchedAt": "2026-09-02T14:56:58.670824+00:00",
+  "text": "Marathon Petroleum climbed 0.51% today to close at $384.97, extending a sharp 6.71% rally over the past two weeks. The move reflects a combination of rising crude prices\u2014U.S. oil touched near $90 a barrel on Middle East tensions\u2014and exceptionally tight refinery conditions, with U.S. refineries running at 97.4% capacity. When refineries are operating at peak utilization against strong crude prices, refiners' profit margins tend to widen because they can run fuel output continuously while converting cheaper crude into more valuable products.\n\nThe geopolitical risks driving oil higher are real and ongoing: Iran struck targets in Kuwait, Jordan, and Bahrain in retaliation for U.S. strikes on Iranian military sites, while tankers were damaged near the Strait of Hormuz\u2014a critical chokepoint where 17 million barrels transit daily. These supply-side risks support sustained crude prices, which benefit a large independent refiner like Marathon Petroleum as long as refinery utilization stays high.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 10,
-    "inputTokens": 9280,
-    "outputTokens": 2122,
-    "estimatedCostUsd": 0.01989,
-    "lastCallHour": "2026-09-02T10"
+    "callsThisMonth": 11,
+    "inputTokens": 10224,
+    "outputTokens": 2350,
+    "estimatedCostUsd": 0.021974,
+    "lastCallHour": "2026-09-02T14"
   }
 }

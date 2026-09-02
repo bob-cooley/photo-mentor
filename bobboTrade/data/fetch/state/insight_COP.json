@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-02T10:33:09.987306+00:00",
-  "text": "ConocoPhillips stock jumped 2.8% today as crude oil prices surged past $90 a barrel following escalating U.S.-Iran military tensions in the Middle East. Iran's retaliatory strikes on U.S. allies in Kuwait, Jordan, and Bahrain, combined with reported tanker attacks near the Strait of Hormuz, have disrupted regional stability and spooked oil markets\u2014a critical dynamic for an oil major like ConocoPhillips, whose profits rise when crude prices climb.\n\nThe stock has now gained nearly 5% over the past two weeks as geopolitical risk has accumulated. Higher oil prices directly boost the earnings potential of integrated oil companies, and the combination of U.S. military action, Iranian retaliation, and threats to chokepoint shipping routes has investors pricing in sustained crude above $88\u201390 per barrel.",
+  "fetchedAt": "2026-09-02T14:56:39.129043+00:00",
+  "text": "ConocoPhillips fell slightly today despite oil prices holding firm around $84 a barrel domestically, after climbing nearly 4% over the past two weeks on Middle East tensions. The tiny decline came a day after the stock jumped to $136.19 on September 1st\u2014likely as geopolitical risk pushed oil higher\u2014and today's retreat reflects profit-taking at those elevated levels rather than any new negative catalyst in the energy market itself.\n\nThe broader backdrop remains supportive for the company. Escalating Iran-U.S. conflict, attacks on tankers transiting the Strait of Hormuz, and Iranian retaliation strikes on U.S. allies have kept crude prices elevated and created the kind of supply-risk premium that typically benefits major oil producers. At the same time, a large U.S. push into Venezuelan oil production\u2014including Chevron's $7 billion expansion and new concessions granted to other American firms\u2014signals sustained American focus on boosting oil supply, which could moderate longer-term price pressure even as near-term geopolitical risk remains high.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 10,
-    "inputTokens": 8844,
-    "outputTokens": 1998,
-    "estimatedCostUsd": 0.018834,
-    "lastCallHour": "2026-09-02T10"
+    "callsThisMonth": 11,
+    "inputTokens": 9726,
+    "outputTokens": 2232,
+    "estimatedCostUsd": 0.020886,
+    "lastCallHour": "2026-09-02T14"
   }
 }
