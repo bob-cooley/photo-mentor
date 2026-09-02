@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-02T16:58:38.920293+00:00",
-  "text": "ConocoPhillips rose 0.24% today to $136.52, capping a strong four-day rally that's added 4.5% since late August. The immediate driver is escalating geopolitical tension in the Middle East\u2014Iran's retaliatory strikes on U.S. Gulf allies and reports of mines hitting tankers in the Strait of Hormuz have pushed Brent crude near $96 a barrel (world oil is trading at $88.24), creating supply concerns that benefit oil producers like ConocoPhillips, which profit from higher crude prices.\n\nBeyond today's headline risk, the broader energy landscape is shifting in the sector's favor: the U.S. administration is aggressively pursuing new oil production deals, including a massive Venezuela expansion and new concessions, which signal sustained demand and political support for oil development. This combination of near-term price support from geopolitical disruption and longer-term tailwinds from policy shifts helps explain why the stock has climbed steadily over the past week.",
+  "fetchedAt": "2026-09-02T18:26:38.170273+00:00",
+  "text": "ConocoPhillips rose 0.78% today to $137.25, continuing a strong five-day rally (up 5% since August 26) driven by escalating geopolitical tensions in the Middle East. Iran's reported mine strikes on tankers in the Strait of Hormuz and retaliatory U.S. military strikes on Iranian Revolutionary Guard sites have raised the risk that a major global oil chokepoint could be disrupted\u201417 million barrels of oil transit through Hormuz daily. With Brent crude near $96 and U.S. crude at $91.48, oil majors like ConocoPhillips benefit directly when geopolitical risk pushes energy prices higher.\n\nThe rally has also coincided with the Trump administration's major push to expand U.S. and allied oil production, including Chevron's $7 billion investment to double Venezuela operations and new concessions granted to other U.S.-backed firms. For a large independent producer like ConocoPhillips, a higher oil price environment and reduced long-term supply risk from friendly sources both reinforce near-term strength.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 12,
-    "inputTokens": 10608,
-    "outputTokens": 2457,
-    "estimatedCostUsd": 0.022893,
-    "lastCallHour": "2026-09-02T16"
+    "callsThisMonth": 13,
+    "inputTokens": 11483,
+    "outputTokens": 2704,
+    "estimatedCostUsd": 0.025003,
+    "lastCallHour": "2026-09-02T18"
   }
 }

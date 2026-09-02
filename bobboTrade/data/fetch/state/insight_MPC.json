@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T16:59:11.960203+00:00",
-  "text": "Marathon Petroleum stock rose 1.34% today to close at $388.15, extending a sharp rally over the past week as oil prices spiked on Middle East tensions. Brent crude climbed near $96 a barrel Wednesday after Iran struck back at U.S. allies in retaliation for American attacks, with tanker incidents reported near the Hormuz Strait raising concerns about supply disruption. Refiners like Marathon benefit when crude prices rise faster than finished fuel prices fall, improving their margins\u2014and the company is running refineries at 97.4% capacity, positioned to capture that spread.\n\nThe stock's momentum also reflects broader optimism in U.S. energy policy: the Trump administration announced a major oil deal with Venezuela and pledged investments to boost production there, signaling sustained demand for refining and petroleum products. With oil in storage at relatively modest levels (718.6 million barrels) and refiners operating near flat-out, the market appears confident in both near-term margins and longer-term refining demand.",
+  "fetchedAt": "2026-09-02T18:27:01.513128+00:00",
+  "text": "Marathon Petroleum stock rose 1.6% today, extending a sharp week-long rally that has gained nearly 8% since late August. The move reflects escalating geopolitical tension in the Middle East\u2014Iran and the U.S. have traded military strikes around the Strait of Hormuz, a chokepoint through which 17 million barrels of oil pass daily. With Brent crude near $96 a barrel and U.S. refineries already running at 98% capacity, supply concerns and higher input costs are supporting energy stocks, including refiners like Marathon that benefit from elevated crude prices.\n\nThe broader backdrop adds momentum: the U.S. is simultaneously pushing to expand oil production in Venezuela through new concessions and partnerships, signaling intent to manage global supply amid Middle East volatility. Refineries sitting near full utilization with modest inventories of gasoline and diesel mean the market is pricing in tight conditions ahead\u2014a scenario where Marathon's refining margin improves as crude stays elevated and downstream fuel demand holds steady.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 12,
-    "inputTokens": 11167,
-    "outputTokens": 2575,
-    "estimatedCostUsd": 0.024042,
-    "lastCallHour": "2026-09-02T16"
+    "callsThisMonth": 13,
+    "inputTokens": 12103,
+    "outputTokens": 2797,
+    "estimatedCostUsd": 0.026088,
+    "lastCallHour": "2026-09-02T18"
   }
 }
