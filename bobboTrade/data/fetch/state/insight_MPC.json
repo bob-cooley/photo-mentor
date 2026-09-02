@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-02T05:25:12.463938+00:00",
-  "text": "Marathon Petroleum's stock jumped 2.6% today to $383, continuing a sharp six-day rally that's seen it gain 7.8% since August 25. The immediate driver is escalating U.S.-Iran military tensions \u2014 oil prices spiked to $90 a barrel on fresh American strikes against Iranian targets on Tuesday, with Wednesday bringing another round of tit-for-tat strikes that pushed crude higher still. Refineries are running at 97.4% capacity, near maximum utilization, so when oil prices rise, refiners like Marathon profit from the wider spread between their input costs and output \u2014 they're essentially converting more expensive crude into fuel at favorable margins.\n\nThe move fits a broader trend: geopolitical risk in the Middle East is tightening global oil markets at a moment when U.S. refinery capacity is already maxed out. That combination amplifies refiners' advantage when crude rallies.",
+  "fetchedAt": "2026-09-02T10:33:40.169422+00:00",
+  "text": "Marathon Petroleum's stock jumped 2.6% today, continuing a sharp rally that's added nearly 4.6% over the past two weeks. The driver is clear: crude oil prices have surged to $90 per barrel (U.S.) following escalating military tensions between the U.S. and Iran in the Middle East\u2014including tanker incidents near the Strait of Hormuz, Iranian retaliation strikes, and ongoing U.S. military operations. For a refiner like Marathon, higher oil prices generally boost profitability when refineries can process crude into finished fuels at favorable margins, especially with U.S. refineries currently running at near-capacity (97.4%).\n\nThe timing matters: oil broke through $90 just yesterday, and the stock has been climbing steadily since late August as geopolitical risk premium built into prices. With refinery utilization already maxed out and fuel inventories relatively tight (particularly diesel), the combination of higher crude costs and steady demand creates conditions where refiners can pass those costs through to customers.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 9,
-    "inputTokens": 8341,
-    "outputTokens": 1895,
-    "estimatedCostUsd": 0.017816,
-    "lastCallHour": "2026-09-02T05"
+    "callsThisMonth": 10,
+    "inputTokens": 9280,
+    "outputTokens": 2122,
+    "estimatedCostUsd": 0.01989,
+    "lastCallHour": "2026-09-02T10"
   }
 }
