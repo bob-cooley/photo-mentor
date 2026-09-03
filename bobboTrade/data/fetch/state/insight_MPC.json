@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T16:55:11.468954+00:00",
-  "text": "Marathon Petroleum's stock rose nearly 1% today to close at $390.78, capping a strong two-week rally of over 9%. The gain reflects escalating geopolitical tension in the Middle East\u2014Iran struck Kuwait on Thursday, pushing Brent crude above $96 per barrel and U.S. oil to $91.48\u2014combined with U.S. refineries running at 98% capacity utilization. For a refiner, higher oil prices and tight refinery operations both drive profitability: refineries earn more when they're fully utilized, and geopolitical premium in crude prices can widen margins if product demand stays strong.\n\nThe broader momentum fits a clear pattern: oil prices have gained more than 7% this week alone as military escalation between the U.S. and Iran continues. With storage levels moderate (gasoline and diesel inventories neither depleted nor bloated) and refineries already maxed out, the market is pricing in sustained tight conditions, which benefits refiners' bottom lines as long as crude prices stay elevated and geopolitical risk keeps buyers nervous.",
+  "fetchedAt": "2026-09-03T18:17:52.416213+00:00",
+  "text": "Marathon Petroleum shares gained 1.15% today, continuing a sharp rally that has added nearly 9.3% over the past two weeks. The immediate driver is escalating geopolitical tension in the Middle East\u2014Iran launched missile and drone attacks on Kuwait and U.S. allies this week, pushing Brent crude above $96 per barrel and adding roughly 7% to oil prices just this week. Refineries are running at 98% capacity with tight inventory levels across gasoline and diesel, which amplifies the benefit of higher crude prices for a refiner like Marathon.\n\nThis move fits a broader pattern: as oil supply risks rise from regional conflict, refinery margins improve because refiners benefit from the spread between crude costs and fuel prices they can sell. With U.S. refineries already running near full capacity and storage inventories lean, tighter global supply pushes that spread wider.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 20,
-    "inputTokens": 18693,
-    "outputTokens": 4447,
-    "estimatedCostUsd": 0.040928,
-    "lastCallHour": "2026-09-03T16"
+    "callsThisMonth": 21,
+    "inputTokens": 19640,
+    "outputTokens": 4639,
+    "estimatedCostUsd": 0.042835,
+    "lastCallHour": "2026-09-03T18"
   }
 }
