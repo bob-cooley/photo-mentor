@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T02:47:00.640716+00:00",
-  "text": "Marathon Petroleum rose 1.04% today to $387, continuing a strong week-long rally that's added 7.3% since late August. The primary driver is geopolitical tension in the Middle East: Iran has launched retaliatory strikes against U.S. Gulf allies including Kuwait, pushing crude oil prices higher (Brent above $95, U.S. crude at $91.48). For a refiner like Marathon, higher oil prices typically improve profit margins when combined with strong refinery utilization\u2014the sector is running at 98% capacity right now\u2014because the company can sell refined products (gasoline, diesel) at prices that don't fall in line with crude cost increases.\n\nThe rally also reflects genuine tightness in energy markets heading into this escalation. With over 17 million barrels of oil transiting the Hormuz Strait daily and concerns about potential supply disruption, the inventory picture matters: gasoline and diesel stocks are moderate (205.7 million and 104.2 million barrels respectively), leaving little cushion if Middle East supply shocks worsen. Refiners benefit from the combination of higher prices and the operational leverage of running flat-out to meet demand.",
+  "fetchedAt": "2026-09-03T07:44:16.514983+00:00",
+  "text": "Marathon Petroleum's stock rose 1% today and has climbed 7.3% over the past two weeks, driven largely by escalating geopolitical tension in the Middle East that has pushed crude oil prices higher and kept refineries running at 98% capacity. Iran's strikes on Kuwait and U.S. allies, combined with reports of mines near the Hormuz Strait\u2014a critical passage for global oil shipments\u2014have created supply uncertainty that lifts the value of refined products like gasoline and diesel, boosting refiner margins.\n\nThe company is also benefiting from tighter fuel supplies: US oil storage sits at 711 million barrels (relatively low) while gasoline inventory is just over 205 million barrels, meaning refiners can sell what they produce at stronger prices. With refineries running flat-out and Middle East tensions keeping the market on edge, the refining business has become more profitable.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 17,
-    "inputTokens": 15859,
-    "outputTokens": 3770,
-    "estimatedCostUsd": 0.034709,
-    "lastCallHour": "2026-09-03T02"
+    "callsThisMonth": 18,
+    "inputTokens": 16800,
+    "outputTokens": 3967,
+    "estimatedCostUsd": 0.036635,
+    "lastCallHour": "2026-09-03T07"
   }
 }
