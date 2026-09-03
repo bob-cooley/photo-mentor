@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-03T22:16:59.081588+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $135.72, giving back gains from the prior two sessions despite oil prices holding steady around $91\u201396 per barrel. The stock had rallied sharply on September 1st and 2nd as tensions between Iran and Kuwait escalated\u2014driving U.S. crude up more than 9% for the week\u2014but today's pullback suggests that initial geopolitical premium is cooling slightly now that the immediate headline risk has passed without dramatic expansion of the conflict.\n\nThe broader backdrop remains supportive for the oil sector: crude is still up meaningfully week-over-week, and Middle East supply risks haven't fully resolved. However, the momentum stalled today, likely because markets are digesting Trump's comment that renewed hostilities won't last \"too long,\" which may have eased near-term supply disruption fears that had driven the earlier rally.",
+  "fetchedAt": "2026-09-03T23:36:01.963988+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $135.72, giving back some of yesterday's sharp 0.8% gain. The decline came despite oil prices holding relatively steady\u2014U.S. crude at $91.48 and global crude at $96.02\u2014suggesting the move was driven more by profit-taking after a three-day rally (the stock jumped from $132.49 to $137.20 between August 31 and September 2) than by fresh negative news in the energy market itself.\n\nThe broader oil market remains supported by geopolitical tension: Iran's missile strikes on Kuwait this week have pushed U.S. oil prices up more than 9% for the week, a tailwind for oil producers. However, today's retreat likely reflects normal consolidation after a quick run-up, and possibly some caution as markets assess President Trump's statement that renewed Mideast hostilities won't last \"too long\"\u2014suggesting possible near-term de-escalation.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 24,
-    "inputTokens": 21140,
-    "outputTokens": 5051,
-    "estimatedCostUsd": 0.046395,
-    "lastCallHour": "2026-09-03T22"
+    "callsThisMonth": 25,
+    "inputTokens": 22003,
+    "outputTokens": 5270,
+    "estimatedCostUsd": 0.048353,
+    "lastCallHour": "2026-09-03T23"
   }
 }
