@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-03T19:31:27.369813+00:00",
-  "text": "ConocoPhillips fell 0.98% today to $135.86, giving back some of the sharp gains from the past two days despite oil prices holding relatively steady. The stock had surged nearly $4 on Tuesday and Wednesday as U.S. oil climbed above $91 a barrel on escalating Iran-Kuwait tensions and direct military strikes between Washington and Tehran. Today's pullback came even as geopolitical risk remained elevated\u2014suggesting investors may be taking profits after the week's 9% oil rally, or reassessing the durability of those gains after Trump indicated the conflict won't last long.\n\nThe oil market itself has been volatile but supportive: U.S. crude at $91.48 and global Brent at $96.02 are still meaningfully higher than where the week started, which should help an integrated producer like ConocoPhillips. The pause in upward momentum today likely reflects uncertainty about whether Middle East tensions will sustain oil's recent strength or fade quickly as the Trump administration suggests.",
+  "fetchedAt": "2026-09-03T21:52:08.993278+00:00",
+  "text": "ConocoPhillips fell 1.1% today after climbing sharply yesterday to $137.20, giving back some of those gains. The pullback comes as oil prices stabilized following a volatile week\u2014U.S. crude sits at $91.48 a barrel, up about 9% over the week on escalating Iran-Kuwait military strikes, but those tensions appear to have plateaued rather than intensified further today. The stock had benefited from the week's oil rally, but without fresh geopolitical escalation to push prices higher, some of that momentum eased.\n\nThe broader context is that energy stocks like ConocoPhillips are sensitive to both crude prices and market sentiment about conflict duration. While the Iran-Kuwait situation added a supply-risk premium to oil earlier in the week, Trump's comment that renewed hostilities won't last \"too long\" may have signaled to traders that the acute geopolitical upside for oil prices could be limited, taking some wind out of the energy sector's sails.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 22,
-    "inputTokens": 19412,
-    "outputTokens": 4633,
-    "estimatedCostUsd": 0.042577,
-    "lastCallHour": "2026-09-03T19"
+    "callsThisMonth": 23,
+    "inputTokens": 20277,
+    "outputTokens": 4855,
+    "estimatedCostUsd": 0.044552,
+    "lastCallHour": "2026-09-03T21"
   }
 }

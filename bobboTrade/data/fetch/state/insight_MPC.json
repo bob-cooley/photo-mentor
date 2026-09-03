@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T19:31:59.831317+00:00",
-  "text": "Marathon Petroleum gained 0.71% today, continuing a strong run that has seen the stock climb nearly 9% over two weeks. The gain sits squarely within the broader oil refining tailwind: U.S. crude has jumped more than 9% this week alone as Iran and the U.S. have traded military strikes, pushing oil prices higher and driving refineries to run at 98% capacity \u2014 near maximum utilization. For a refiner like Marathon, higher crude prices and fuller refinery operations translate directly to wider profit margins and stronger throughput.\n\nThe setup remains favorable for refiners more broadly. Geopolitical tensions in the Middle East continue to support oil prices well above $90 per barrel, while gasoline and diesel inventories are at moderate levels \u2014 tightness that benefits processors. The stock's gains this week reflect the market pricing in sustained demand and refinery profitability amid ongoing regional instability.",
+  "fetchedAt": "2026-09-03T21:52:39.630053+00:00",
+  "text": "Marathon Petroleum's stock edged up 0.19% today to close at $387.74, capping a strong two-week rally of 8.24%. The modest daily gain reflects steady conditions for refining: U.S. crude oil at $91.48 per barrel and refineries running at 98% capacity, which supports solid margins for a major refiner converting crude into gasoline and diesel. Oil prices also gained over 9% this week amid escalating U.S.-Iran tensions, with Iran firing missiles at Kuwait on Thursday \u2014 a geopolitical risk premium that lifts crude valuations and benefits refiners' bottom line.\n\nThe two-week surge sits within the context of a tighter energy market. Oil storage remains moderate at 711 million barrels, and high refinery utilization suggests strong demand absorption for refined products. While news about Trump-backed discount gas retailers and ongoing Mideast tensions could create longer-term headwinds or tailwinds depending on how they evolve, the data today points mainly to refining-favorable conditions \u2014 tight supply relative to capacity and crude prices elevated by geopolitical risk.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 22,
-    "inputTokens": 20580,
-    "outputTokens": 4838,
-    "estimatedCostUsd": 0.04477,
-    "lastCallHour": "2026-09-03T19"
+    "callsThisMonth": 23,
+    "inputTokens": 21507,
+    "outputTokens": 5082,
+    "estimatedCostUsd": 0.046917,
+    "lastCallHour": "2026-09-03T21"
   }
 }
