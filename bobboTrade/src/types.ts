@@ -16,6 +16,10 @@ export interface StockConfig {
     news: string;
     analyst: string;
   };
+  dividends?: {
+    paymentDay: number;
+    note?: string;
+  };
   energyIndicators: EnergyIndicatorDef[];
 }
 
@@ -175,6 +179,27 @@ export interface VolumeData {
 export interface PortfolioConfig {
   shares: number | null;
   updatedAt: string | null;
+}
+
+export interface DividendPayment {
+  quarter: string; // "2026 Q3"
+  year: number;
+  q: number; // 1-4
+  perShare: number;
+  exDate: string | null;
+  payDate: string | null;
+}
+
+export interface DividendData {
+  ticker: string;
+  fetchedAt: string;
+  source: string;
+  currency: string;
+  // The payment for the current (or next upcoming) quarter — null only
+  // if the feed returned nothing at all.
+  current: (DividendPayment & { status: "upcoming" | "paid" }) | null;
+  // Trailing quarters, newest first (~5 years).
+  history: DividendPayment[];
 }
 
 export interface AIUsageSummary {

@@ -120,12 +120,12 @@ jobs:
     # "no AI insight call yet this hour" before either writes the updated
     # usage summary, and both call the API. Queuing (not canceling) the
     # second run means it sees the first run's already-written usage
-    # summary and correctly skips. Also needed so the "Commit AI usage
+    # summary and correctly skips. Also needed so the "Commit pipeline
     # state" step below doesn't race with itself across parallel runs.
     concurrency:
       group: deploy-bobbotrade
       cancel-in-progress: false
-    # Needed for the "Commit AI usage state" step to push back to main.
+    # Needed for the "Commit pipeline state" step to push back to main.
     permissions:
       contents: write
     steps:
@@ -152,7 +152,7 @@ jobs:
         working-directory: bobboTrade/data/fetch
         run: pip install -r requirements.txt
 
-      - name: Fetch market/energy/analyst/news/insight data
+      - name: Fetch market/energy/analyst/news/dividend/insight data
         working-directory: bobboTrade/data/fetch
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
@@ -177,24 +177,23 @@ jobs:
             **/.git*
             **/.git*/**
 
-      # Cross-run persistence for ai_insight.py's hourly gate/budget
-      # tracking — see load_usage_summary()'s docstring in ai_insight.py
-      # for why this is a plain git-committed file instead of reading it
-      # back from the live site (two network-based approaches were tried
-      # and both failed against this host's Cloudflare/Pair setup).
-      # [skip ci] keeps this push from re-triggering the whole workflow.
-      # continue-on-error so a git hiccup here never fails the actual
-      # site deploy, which already succeeded above.
-      - name: Commit AI usage state
+      # Cross-run persistence for the pipeline's git-committed state
+      # files: ai_insight.py's hourly gate/budget tracking (see
+      # load_usage_summary()'s docstring for why it's a committed file
+      # rather than a read-back from the live site) and dividends.py's
+      # ~20h fetch cache. [skip ci] keeps this push from re-triggering
+      # the whole workflow. continue-on-error so a git hiccup here never
+      # fails the actual site deploy, which already succeeded above.
+      - name: Commit pipeline state
         continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -z "$(git status --porcelain -- bobboTrade/data/fetch/state/)" ]; then
-            echo "No AI usage state changes to commit."
+            echo "No pipeline state changes to commit."
           else
             git add bobboTrade/data/fetch/state/
-            git commit -m "bobboTrade: update AI usage state [skip ci]"
+            git commit -m "bobboTrade: update pipeline state [skip ci]"
             git pull --rebase origin main
             git push origin main
           fi

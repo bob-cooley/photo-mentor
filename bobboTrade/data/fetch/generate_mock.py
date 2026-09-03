@@ -290,6 +290,50 @@ def generate_volume(ticker: str) -> dict:
     }
 
 
+def generate_dividends(ticker: str) -> dict:
+    # ~5.5 years of a steadily-rising quarterly dividend, so the
+    # DividendsCard shows an upcoming payment and the history popup's
+    # 5-year table is fully populated. The real pipeline pulls ex-dates
+    # and amounts from Twelve Data's /dividends endpoint.
+    today = datetime.now(timezone.utc).date()
+    per_share = 1.02
+    history: list[dict] = []
+    # Walk backwards one quarter at a time from the current quarter.
+    q_month = ((today.month - 1) // 3) * 3 + 3
+    q_year = today.year
+    for i in range(20):
+        pay = datetime(q_year, q_month, 10).date()
+        ex = pay - timedelta(days=28)
+        q = (q_month - 1) // 3 + 1
+        history.append(
+            {
+                "quarter": f"{q_year} Q{q}",
+                "year": q_year,
+                "q": q,
+                "perShare": round(per_share, 4),
+                "exDate": ex.isoformat(),
+                "payDate": pay.isoformat(),
+            }
+        )
+        per_share -= 0.02 if i % 4 == 0 else 0.0
+        per_share = max(per_share, 0.46)
+        q_month -= 3
+        if q_month <= 0:
+            q_month += 12
+            q_year -= 1
+
+    upcoming = next((e for e in reversed(history) if e["payDate"] >= today.isoformat()), None)
+    current = {**upcoming, "status": "upcoming"} if upcoming else {**history[0], "status": "paid"}
+    return {
+        "ticker": ticker,
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "currency": "USD",
+        "current": current,
+        "history": history,
+    }
+
+
 def generate_insight(ticker: str) -> dict:
     return {
         "ticker": ticker,
@@ -316,6 +360,7 @@ def main(ticker: str) -> None:
     write_json(ticker, "crack_spread.json", generate_crack_spread(ticker))
     write_json(ticker, "insider.json", generate_insider(ticker))
     write_json(ticker, "volume.json", generate_volume(ticker))
+    write_json(ticker, "dividends.json", generate_dividends(ticker))
     write_json(ticker, "insight.json", generate_insight(ticker))
 
 

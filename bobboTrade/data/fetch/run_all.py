@@ -10,6 +10,7 @@ import sys
 import ai_insight
 import analyst
 import crack_spread
+import dividends
 import energy
 import insider
 import market
@@ -22,6 +23,7 @@ MODULES = [
     ("market", market.main),
     ("rsi", rsi.main),
     ("volume", volume.main),
+    ("dividends", dividends.main),
     ("energy", energy.main),
     ("crack_spread", crack_spread.main),
     ("analyst", analyst.main),

@@ -1092,3 +1092,103 @@
   color: var(--text-tertiary);
 }
 
+/* Dividends card — center column, below Trading Volume. */
+
+.dividend-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dividend-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 16px;
+}
+
+.dividend-row span {
+  color: var(--text-secondary);
+}
+
+.dividend-row strong {
+  font-variant-numeric: tabular-nums;
+}
+
+.dividend-pershare {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.dividend-hint {
+  font-size: 14px;
+  color: var(--text-tertiary);
+}
+
+.dividend-basis {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.dividend-history-btn {
+  width: 100%;
+  margin-top: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.dividend-history-btn:hover {
+  border-color: var(--text-secondary);
+}
+
+.dividend-history-modal {
+  max-width: 460px;
+}
+
+.dividend-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.dividend-history-table th {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-tertiary);
+  text-align: right;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.dividend-history-table th:first-child {
+  text-align: left;
+}
+
+.dividend-history-table td {
+  font-size: 15px;
+  color: var(--text-primary);
+  text-align: right;
+  padding: 7px 0;
+}
+
+.dividend-history-table td:first-child {
+  text-align: left;
+  color: var(--text-tertiary);
+}
+
+.dividend-history-table tbody tr + tr td {
+  border-top: 1px solid var(--card-border);
+}
+

@@ -35,6 +35,16 @@ export function formatDate(iso: string): string {
   return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 }
 
+// A bare calendar date ("2026-09-10") formatted as local time. Using
+// `new Date("2026-09-10")` would parse it as UTC midnight and render as
+// the day before in any US timezone — fine for a fuzzy "2d ago" but not
+// for an exact dividend payment date.
+export function formatYmd(ymd: string): string {
+  const [y, m, d] = ymd.split("-").map(Number);
+  if (!y || !m || !d) return ymd;
+  return new Date(y, m - 1, d).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
 export function timeAgo(iso: string): string {
   const d = new Date(iso).getTime();
   if (Number.isNaN(d)) return "";
