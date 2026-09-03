@@ -1,0 +1,179 @@
+{
+  "payload": {
+    "ticker": "MPC",
+    "fetchedAt": "2026-09-03T18:23:33.611692+00:00",
+    "source": "SEC XBRL company facts (data.sec.gov)",
+    "currency": "USD",
+    "current": {
+      "quarter": "2026 Q3",
+      "year": 2026,
+      "q": 3,
+      "perShare": 1.0,
+      "exDate": null,
+      "payDate": "2026-09-10",
+      "status": "upcoming"
+    },
+    "history": [
+      {
+        "quarter": "2026 Q3",
+        "year": 2026,
+        "q": 3,
+        "perShare": 1.0,
+        "exDate": null,
+        "payDate": "2026-09-10"
+      },
+      {
+        "quarter": "2026 Q2",
+        "year": 2026,
+        "q": 2,
+        "perShare": 1.0,
+        "exDate": null,
+        "payDate": "2026-06-10"
+      },
+      {
+        "quarter": "2026 Q1",
+        "year": 2026,
+        "q": 1,
+        "perShare": 1.0,
+        "exDate": null,
+        "payDate": "2026-03-10"
+      },
+      {
+        "quarter": "2025 Q4",
+        "year": 2025,
+        "q": 4,
+        "perShare": 1.0,
+        "exDate": null,
+        "payDate": "2025-12-10"
+      },
+      {
+        "quarter": "2025 Q3",
+        "year": 2025,
+        "q": 3,
+        "perShare": 0.91,
+        "exDate": null,
+        "payDate": "2025-09-10"
+      },
+      {
+        "quarter": "2025 Q2",
+        "year": 2025,
+        "q": 2,
+        "perShare": 0.91,
+        "exDate": null,
+        "payDate": "2025-06-10"
+      },
+      {
+        "quarter": "2025 Q1",
+        "year": 2025,
+        "q": 1,
+        "perShare": 0.91,
+        "exDate": null,
+        "payDate": "2025-03-10"
+      },
+      {
+        "quarter": "2024 Q4",
+        "year": 2024,
+        "q": 4,
+        "perShare": 0.91,
+        "exDate": null,
+        "payDate": "2024-12-10"
+      },
+      {
+        "quarter": "2024 Q3",
+        "year": 2024,
+        "q": 3,
+        "perShare": 0.825,
+        "exDate": null,
+        "payDate": "2024-09-10"
+      },
+      {
+        "quarter": "2024 Q2",
+        "year": 2024,
+        "q": 2,
+        "perShare": 0.825,
+        "exDate": null,
+        "payDate": "2024-06-10"
+      },
+      {
+        "quarter": "2024 Q1",
+        "year": 2024,
+        "q": 1,
+        "perShare": 0.825,
+        "exDate": null,
+        "payDate": "2024-03-10"
+      },
+      {
+        "quarter": "2023 Q4",
+        "year": 2023,
+        "q": 4,
+        "perShare": 0.825,
+        "exDate": null,
+        "payDate": "2023-12-10"
+      },
+      {
+        "quarter": "2023 Q3",
+        "year": 2023,
+        "q": 3,
+        "perShare": 0.75,
+        "exDate": null,
+        "payDate": "2023-09-10"
+      },
+      {
+        "quarter": "2023 Q2",
+        "year": 2023,
+        "q": 2,
+        "perShare": 0.75,
+        "exDate": null,
+        "payDate": "2023-06-10"
+      },
+      {
+        "quarter": "2023 Q1",
+        "year": 2023,
+        "q": 1,
+        "perShare": 0.75,
+        "exDate": null,
+        "payDate": "2023-03-10"
+      },
+      {
+        "quarter": "2022 Q4",
+        "year": 2022,
+        "q": 4,
+        "perShare": 0.75,
+        "exDate": null,
+        "payDate": "2022-12-10"
+      },
+      {
+        "quarter": "2022 Q3",
+        "year": 2022,
+        "q": 3,
+        "perShare": 0.58,
+        "exDate": null,
+        "payDate": "2022-09-10"
+      },
+      {
+        "quarter": "2022 Q2",
+        "year": 2022,
+        "q": 2,
+        "perShare": 0.58,
+        "exDate": null,
+        "payDate": "2022-06-10"
+      },
+      {
+        "quarter": "2022 Q1",
+        "year": 2022,
+        "q": 1,
+        "perShare": 0.58,
+        "exDate": null,
+        "payDate": "2022-03-10"
+      },
+      {
+        "quarter": "2021 Q4",
+        "year": 2021,
+        "q": 4,
+        "perShare": 0.58,
+        "exDate": null,
+        "payDate": "2021-12-10"
+      }
+    ]
+  }
+}

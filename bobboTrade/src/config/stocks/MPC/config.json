@@ -11,7 +11,7 @@
   },
   "dividends": {
     "paymentDay": 10,
-    "note": "MPC pays quarterly, ~the 10th of March, June, September and December. Twelve Data's /dividends feed carries ex-date + amount only, so the payment date is derived from this day; adjust if the schedule ever shifts."
+    "note": "MPC pays quarterly, ~the 10th of March, June, September and December. Dividend amounts come from SEC XBRL filings; payment dates aren't in that data, so they're derived from this day. Adjust if the schedule ever shifts."
   },
   "energyIndicators": [
     { "id": "wti", "label": "US Oil Price", "eiaSeries": "PET.RWTC.D" },

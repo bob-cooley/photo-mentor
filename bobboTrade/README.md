@@ -23,7 +23,7 @@ bobboTrade/
     market.py               daily history + quote + 5min intraday → Twelve Data
     energy.py                crude/refinery/inventory data       → EIA
     analyst.py                analyst rating consensus            → Finnhub
-    dividends.py              quarterly dividend history          → Twelve Data (cached ~20h)
+    dividends.py              quarterly dividend history          → SEC XBRL (no key, cached ~20h)
     news.py                   SEC filings (Item-coded)             (no key)
     ai_insight.py              "why did it move" narrative          → Claude (Haiku 4.5)
     run_all.py                orchestrator, runs every module × ticker
@@ -81,21 +81,27 @@ stay visible at once.
   (recommendation trends only; price target is paid-tier on Finnhub,
   so that field is always null). Twelve Data gates its own
   `/recommendations` and `/price_target` to paid plans.
-- **Dividends** ("Dividends" card, center column) — Twelve Data
-  `/dividends` (`TWELVEDATA_API_KEY`, same key as market data). Returns
-  ex-date + per-share amount per payment; the payment date isn't in
-  that feed, so it's derived from each ticker's fixed quarterly
-  schedule (`dividends.paymentDay` in `config.json` — MPC pays ~the
-  10th of Mar/Jun/Sep/Dec, COP ~the 1st). `dividends.py` refreshes the
-  API at most once per ~20h and caches the full payload in a
-  git-committed state file (`state/dividends_<TICKER>.json`), the same
-  cross-run persistence pattern `ai_insight.py` uses — so the
-  every-5-minute market-hours runs reuse the cache rather than spend a
-  Twelve Data credit against the tight free-tier per-minute budget. The
-  card shows the current/next quarter's per-share amount, the expected
-  payment (that amount × the Portfolio module's share count), and the
-  payment date; a button opens a five-year, per-quarter reference
-  table.
+- **Dividends** ("Dividends" card, center column) — SEC XBRL company
+  facts (`data.sec.gov/api/xbrl/companyconcept/.../CommonStockDividends\
+  PerShareDeclared`), no API key. Twelve Data's `/dividends` was the
+  first choice but 403s on the free tier for MPC/COP (same paid-tier
+  gate as its `/recommendations`), so the numbers come straight from
+  each company's own filings instead — authoritative and not
+  rate-limited. Two wrinkles: the 10-K reports only a full-year figure,
+  so Q4 is derived as FY − (Q1+Q2+Q3); and SEC data lags ~a quarter, so
+  any quarter up to the current one that isn't filed yet carries the
+  latest known rate forward (MPC and COP have held-or-raised every
+  quarter for years and publish the next dividend by press release
+  before the 10-Q). Payment dates aren't in XBRL, so they're derived
+  from each ticker's fixed schedule (`dividends.paymentDay` in
+  `config.json` — MPC the 10th, COP the 1st of the quarter's last
+  month). `dividends.py` refreshes from SEC at most once per ~20h and
+  caches the full payload in a git-committed state file
+  (`state/dividends_<TICKER>.json`), the same cross-run persistence
+  pattern `ai_insight.py` uses. The card shows the current quarter's
+  per-share amount, the expected payment (that amount × the Portfolio
+  module's share count), and the payment date; a button opens a
+  five-year, per-quarter reference table.
 - **News** ("Market News" card) — merged from three sources: Finnhub
   `/company-news` (`FINNHUB_API_KEY`, free tier, ticker-scoped), CNBC's
   public Energy topic RSS (no key, not ticker-scoped), and SEC EDGAR
