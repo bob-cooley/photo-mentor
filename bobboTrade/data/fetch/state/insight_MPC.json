@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T07:44:16.514983+00:00",
-  "text": "Marathon Petroleum's stock rose 1% today and has climbed 7.3% over the past two weeks, driven largely by escalating geopolitical tension in the Middle East that has pushed crude oil prices higher and kept refineries running at 98% capacity. Iran's strikes on Kuwait and U.S. allies, combined with reports of mines near the Hormuz Strait\u2014a critical passage for global oil shipments\u2014have created supply uncertainty that lifts the value of refined products like gasoline and diesel, boosting refiner margins.\n\nThe company is also benefiting from tighter fuel supplies: US oil storage sits at 711 million barrels (relatively low) while gasoline inventory is just over 205 million barrels, meaning refiners can sell what they produce at stronger prices. With refineries running flat-out and Middle East tensions keeping the market on edge, the refining business has become more profitable.",
+  "fetchedAt": "2026-09-03T12:33:31.087995+00:00",
+  "text": "Marathon Petroleum rose 1% today to $387, continuing a sharp five-day rally that's added 7% to the stock since late August. The move reflects a spike in crude oil prices driven by escalating geopolitical tension in the Middle East\u2014Iran's retaliatory strikes on U.S. Gulf allies and reports of mines in the Hormuz Strait have pushed Brent crude above $95 a barrel and U.S. crude to $91.48. For a refiner like Marathon, higher oil prices and tighter global supply conditions are a tailwind: refineries are running at 98% capacity with lean inventory levels (gasoline and diesel stockpiles are both relatively low), meaning the company is running flat-out to meet demand at margins improved by the oil-price spike.\n\nThis rally fits into a broader pattern where Middle East disruptions have consistently boosted energy stocks over the past week. The combination of full refinery utilization and constrained product supplies means Marathon can pass through input cost increases while benefiting from the wider spread between crude and finished products\u2014essentially locking in stronger profits as long as tensions keep oil elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 18,
-    "inputTokens": 16800,
-    "outputTokens": 3967,
-    "estimatedCostUsd": 0.036635,
-    "lastCallHour": "2026-09-03T07"
+    "callsThisMonth": 19,
+    "inputTokens": 17745,
+    "outputTokens": 4212,
+    "estimatedCostUsd": 0.038805,
+    "lastCallHour": "2026-09-03T12"
   }
 }
