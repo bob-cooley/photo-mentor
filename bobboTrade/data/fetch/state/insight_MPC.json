@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T21:52:39.630053+00:00",
-  "text": "Marathon Petroleum's stock edged up 0.19% today to close at $387.74, capping a strong two-week rally of 8.24%. The modest daily gain reflects steady conditions for refining: U.S. crude oil at $91.48 per barrel and refineries running at 98% capacity, which supports solid margins for a major refiner converting crude into gasoline and diesel. Oil prices also gained over 9% this week amid escalating U.S.-Iran tensions, with Iran firing missiles at Kuwait on Thursday \u2014 a geopolitical risk premium that lifts crude valuations and benefits refiners' bottom line.\n\nThe two-week surge sits within the context of a tighter energy market. Oil storage remains moderate at 711 million barrels, and high refinery utilization suggests strong demand absorption for refined products. While news about Trump-backed discount gas retailers and ongoing Mideast tensions could create longer-term headwinds or tailwinds depending on how they evolve, the data today points mainly to refining-favorable conditions \u2014 tight supply relative to capacity and crude prices elevated by geopolitical risk.",
+  "fetchedAt": "2026-09-03T22:17:14.531704+00:00",
+  "text": "Marathon Petroleum is up a fraction today, but the real story is the 8% surge over the past two weeks\u2014driven by a sharp climb in oil prices that's benefiting refiners. U.S. crude has gained more than 9% this week alone after Iran fired missiles at Kuwait and the U.S. responded with strikes, marking the first direct military exchange between the two countries since July. Refineries are already running at 98% capacity, so higher oil prices translate directly into stronger margins for a major refiner like Marathon.\n\nThe geopolitical tension in the Middle East is creating uncertainty that typically supports crude prices, and Trump's comments that renewed hostilities won't last \"too long\" haven't calmed markets yet. With refineries near full utilization and storage levels relatively tight (especially for gasoline at 205.7 million barrels), the refining industry is well-positioned to capture value from the current price environment.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 23,
-    "inputTokens": 21507,
-    "outputTokens": 5082,
-    "estimatedCostUsd": 0.046917,
-    "lastCallHour": "2026-09-03T21"
+    "callsThisMonth": 24,
+    "inputTokens": 22434,
+    "outputTokens": 5283,
+    "estimatedCostUsd": 0.048849,
+    "lastCallHour": "2026-09-03T22"
   }
 }
