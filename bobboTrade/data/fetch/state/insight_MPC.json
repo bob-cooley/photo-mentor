@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T12:33:31.087995+00:00",
-  "text": "Marathon Petroleum rose 1% today to $387, continuing a sharp five-day rally that's added 7% to the stock since late August. The move reflects a spike in crude oil prices driven by escalating geopolitical tension in the Middle East\u2014Iran's retaliatory strikes on U.S. Gulf allies and reports of mines in the Hormuz Strait have pushed Brent crude above $95 a barrel and U.S. crude to $91.48. For a refiner like Marathon, higher oil prices and tighter global supply conditions are a tailwind: refineries are running at 98% capacity with lean inventory levels (gasoline and diesel stockpiles are both relatively low), meaning the company is running flat-out to meet demand at margins improved by the oil-price spike.\n\nThis rally fits into a broader pattern where Middle East disruptions have consistently boosted energy stocks over the past week. The combination of full refinery utilization and constrained product supplies means Marathon can pass through input cost increases while benefiting from the wider spread between crude and finished products\u2014essentially locking in stronger profits as long as tensions keep oil elevated.",
+  "fetchedAt": "2026-09-03T16:55:11.468954+00:00",
+  "text": "Marathon Petroleum's stock rose nearly 1% today to close at $390.78, capping a strong two-week rally of over 9%. The gain reflects escalating geopolitical tension in the Middle East\u2014Iran struck Kuwait on Thursday, pushing Brent crude above $96 per barrel and U.S. oil to $91.48\u2014combined with U.S. refineries running at 98% capacity utilization. For a refiner, higher oil prices and tight refinery operations both drive profitability: refineries earn more when they're fully utilized, and geopolitical premium in crude prices can widen margins if product demand stays strong.\n\nThe broader momentum fits a clear pattern: oil prices have gained more than 7% this week alone as military escalation between the U.S. and Iran continues. With storage levels moderate (gasoline and diesel inventories neither depleted nor bloated) and refineries already maxed out, the market is pricing in sustained tight conditions, which benefits refiners' bottom lines as long as crude prices stay elevated and geopolitical risk keeps buyers nervous.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 19,
-    "inputTokens": 17745,
-    "outputTokens": 4212,
-    "estimatedCostUsd": 0.038805,
-    "lastCallHour": "2026-09-03T12"
+    "callsThisMonth": 20,
+    "inputTokens": 18693,
+    "outputTokens": 4447,
+    "estimatedCostUsd": 0.040928,
+    "lastCallHour": "2026-09-03T16"
   }
 }
