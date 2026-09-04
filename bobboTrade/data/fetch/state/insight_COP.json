@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T05:29:26.186681+00:00",
-  "text": "ConocoPhillips fell 1.1% today after climbing sharply yesterday on Middle East tensions. The decline came as oil prices steadied rather than continued climbing\u2014U.S. crude sits at $91.48, down from yesterday's spike driven by Iran's missile strikes on Kuwait and drone attacks. The stock had jumped 0.7% just the day before on the back of those geopolitical risks pushing prices higher, but today's pullback suggests traders are taking profits now that the immediate shock has worn off.\n\nThe broader picture shows oil prices still up significantly this week despite today's dip, with U.S. crude gaining over 9% from the start of the week's hostilities. ConocoPhillips remains up 0.6% over the past two weeks, reflecting how energy companies benefit when geopolitical risk pushes crude higher\u2014but individual days' moves hinge on whether those risks are still escalating or stabilizing.",
+  "fetchedAt": "2026-09-04T10:35:43.704226+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $135.72, giving back some of yesterday's sharp 0.8% gain. The pullback came as oil prices softened slightly\u2014U.S. crude dipped to $91.48 a barrel from around $93\u2013$94 earlier in the week\u2014even as Middle East tensions remain elevated with Iran striking targets in Kuwait and the EU now formally joining U.S. sanctions against Iran. The stock had jumped hard on September 1\u20132 when oil was climbing on those geopolitical risks, so today's modest retreat likely reflects a pause as traders reassess whether the current price level already reflects the conflict risk.\n\nThe broader backdrop remains supportive for oil majors: the Strait of Hormuz\u2014a chokepoint for roughly 20% of global oil supply\u2014is under renewed threat from Iranian military action, and South Korea is weighing military involvement to keep it open. Even with today's dip, the stock is up 0.6% over the past two weeks, tracking the underlying volatility in crude rather than deteriorating fundamentals.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 27,
-    "inputTokens": 23721,
-    "outputTokens": 5693,
-    "estimatedCostUsd": 0.052186,
-    "lastCallHour": "2026-09-04T05"
+    "callsThisMonth": 28,
+    "inputTokens": 24580,
+    "outputTokens": 5934,
+    "estimatedCostUsd": 0.05425,
+    "lastCallHour": "2026-09-04T10"
   }
 }
