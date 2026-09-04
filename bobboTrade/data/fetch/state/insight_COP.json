@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T21:12:25.386625+00:00",
-  "text": "ConocoPhillips dropped 1.1% today to $134.28, falling back after a sharp three-day rally that peaked at $137.20 on September 2nd. The decline comes as oil prices have pulled back slightly\u2014U.S. crude is at $91.48 per barrel after a volatile week of geopolitical escalation between Iran and the U.S. that had pushed prices higher earlier this week. The stock has now given up most of those gains, suggesting investors are taking profits or reassessing the durability of the energy price surge.\n\nThe broader context is mixed for energy stocks. While refinery disruptions in Russia and Ukraine are keeping diesel prices at record highs\u2014which can boost refiner and integrated producer margins\u2014the Iran-U.S. conflict appears to have de-escalated enough to ease immediate oil-price panic. At the same time, new geopolitical risks from the Falklands dispute and Iran's growing isolation under EU sanctions add longer-term unpredictability to global energy flows and could constrain future demand growth.",
+  "fetchedAt": "2026-09-04T23:11:28.484385+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, extending a pullback from its peak earlier this week at $137.20. The decline came as U.S. crude oil prices dropped to $91.48 per barrel\u2014down sharply from the geopolitical premium that had pushed the stock higher over the past few days. Though Middle East tensions remain acute (Iran fired missiles at Kuwait yesterday, and the U.S. is escalating sanctions with EU and South Korean backing), the immediate momentum has stalled, and with no fresh crisis breaking today, oil prices gave back some of their war-premium gains.\n\nThe broader refining environment remains supportive: diesel has hit record highs due to refineries in Ukraine and Russia being knocked offline, which typically benefits U.S. producers. However, that structural advantage isn't enough to prop up the stock when crude prices slip and geopolitical headlines stop generating fresh fear.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 32,
-    "inputTokens": 28011,
-    "outputTokens": 6862,
-    "estimatedCostUsd": 0.062321,
-    "lastCallHour": "2026-09-04T21"
+    "callsThisMonth": 33,
+    "inputTokens": 28870,
+    "outputTokens": 7064,
+    "estimatedCostUsd": 0.06419,
+    "lastCallHour": "2026-09-04T23"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-04T21:12:40.131449+00:00",
-  "text": "Marathon Petroleum stock rose 0.31% today to close at $388.90, extending a strong two-week rally of 7.81%. The gain reflects tightening diesel markets: diesel hit a record high as geopolitical turmoil in Ukraine and Iran has knocked offline refinery capacity in Russia and the Middle East, while U.S. refineries are running at 98% capacity with limited room to increase output. This supply crunch supports margins for refiners like Marathon, which benefit when fuel scarcity drives prices higher relative to crude oil costs.\n\nThe broader backdrop amplifies this dynamic\u2014U.S. oil prices have climbed over 9% this week alone as military tensions between the U.S. and Iran escalate, and the EU has now formally joined sanctions against Iran that threaten to tighten global oil supply further. With diesel storage at just 104 million barrels and refineries already running near maximum, any additional disruption to offshore or refinery production would put further upward pressure on fuel prices, which is exactly the environment where refiner profits expand.",
+  "fetchedAt": "2026-09-04T23:11:42.279739+00:00",
+  "text": "Marathon Petroleum stock gained 0.31% today to $388.90, continuing a strong week-long rally that's now up 7.8% since late August. The immediate backdrop is a tightening global refining market: refineries are running at 98% capacity while diesel inventories sit at their lowest levels shown in the data, and today's news highlighted record-high diesel prices driven by geopolitical disruptions\u2014Ukraine's strikes on Russian refineries and Iran-related sanctions that are removing supply from the market. For a major U.S. refiner, this environment means stronger margins on the fuel it produces and sells.\n\nThis move fits into a broader surge for the sector. Oil prices themselves have climbed sharply (up more than 9% this week as tensions between the U.S. and Iran have escalated), and with refineries already running flat-out and inventories tight, refiners benefit from the spread between crude costs and the premium prices they can charge for finished fuels like diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 32,
-    "inputTokens": 29808,
-    "outputTokens": 7008,
-    "estimatedCostUsd": 0.064848,
-    "lastCallHour": "2026-09-04T21"
+    "callsThisMonth": 33,
+    "inputTokens": 30729,
+    "outputTokens": 7225,
+    "estimatedCostUsd": 0.066854,
+    "lastCallHour": "2026-09-04T23"
   }
 }
