@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-03T23:36:40.613444+00:00",
-  "text": "MPC rose 0.18% today to close at $387.71, capping a strong two-week rally of 8.23%. The gain reflects broad momentum in refining stocks driven by tight energy markets: U.S. crude has climbed more than 9% this week amid escalating Iran-Kuwait military tensions, while U.S. refineries are running at 98% capacity with relatively lean inventories of gasoline and diesel. Higher oil prices and full-capacity operations support refiner margins\u2014the spread between what they pay for crude and what they earn selling finished fuel.\n\nThe two-week surge also sits within a longer trend of strength for energy stocks as geopolitical risk in the Middle East persists and there's little sign of supply relief. This week's Iran-Kuwait strikes and ongoing U.S.-Iran tensions have kept crude elevated, which, combined with strong refining utilization, creates conditions where refiners convert crude into products more profitably.",
+  "fetchedAt": "2026-09-04T00:47:51.916330+00:00",
+  "text": "The stock rose 0.18% today on the back of a sharp two-week rally\u2014up 8.23% since late August\u2014driven primarily by geopolitical tension in the Middle East and tight U.S. refining conditions. Iran's missile attacks on Kuwait this week pushed crude oil prices up more than 9% for the week, and U.S. refineries are currently running at 98% capacity with relatively lean inventory levels, a combination that typically improves profit margins for refiners like Marathon. The company has benefited from both the price floor created by rising crude costs and the operational squeeze that comes when refineries run hot and fuel supplies tighten.\n\nThe rally also reflects a broader shift in energy markets away from oversupply concerns\u2014oil storage remains moderate at 711 million barrels\u2014while geopolitical risk keeps buyers nervous. Gasoline and diesel inventories are also on the lower end of normal ranges, meaning any disruption to supply flows would strain the market further, which historically favors refiner margins.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 25,
-    "inputTokens": 23361,
-    "outputTokens": 5490,
-    "estimatedCostUsd": 0.050811,
-    "lastCallHour": "2026-09-03T23"
+    "callsThisMonth": 26,
+    "inputTokens": 24288,
+    "outputTokens": 5711,
+    "estimatedCostUsd": 0.052843,
+    "lastCallHour": "2026-09-04T00"
   }
 }
