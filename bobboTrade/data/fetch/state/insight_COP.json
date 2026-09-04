@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T19:09:35.908074+00:00",
-  "text": "ConocoPhillips fell 0.76% today to $134.69, giving back some of the sharp gains it posted over the past week as oil prices pulled back slightly. U.S. crude dropped to $91.48 a barrel today after climbing more than 9% this week on escalating Iran-U.S. military tensions; the stock had climbed from $130 just a week ago on those geopolitical risks, and today's modest retreat reflects some cooling of that immediate conflict premium.\n\nThe broader energy backdrop remains supportive for refiners and oil producers, though. Diesel prices hit record highs as Ukraine continues destroying Russian refineries and Russia banned diesel exports, while the EU formally joined U.S. sanctions on Iran\u2014both of which reduce global refining capacity and keep crude prices elevated despite today's dip. These supply-side pressures from geopolitical conflict are structural headwinds that could continue supporting energy prices even as daily volatility settles.",
+  "fetchedAt": "2026-09-04T21:12:25.386625+00:00",
+  "text": "ConocoPhillips dropped 1.1% today to $134.28, falling back after a sharp three-day rally that peaked at $137.20 on September 2nd. The decline comes as oil prices have pulled back slightly\u2014U.S. crude is at $91.48 per barrel after a volatile week of geopolitical escalation between Iran and the U.S. that had pushed prices higher earlier this week. The stock has now given up most of those gains, suggesting investors are taking profits or reassessing the durability of the energy price surge.\n\nThe broader context is mixed for energy stocks. While refinery disruptions in Russia and Ukraine are keeping diesel prices at record highs\u2014which can boost refiner and integrated producer margins\u2014the Iran-U.S. conflict appears to have de-escalated enough to ease immediate oil-price panic. At the same time, new geopolitical risks from the Falklands dispute and Iran's growing isolation under EU sanctions add longer-term unpredictability to global energy flows and could constrain future demand growth.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 31,
-    "inputTokens": 27154,
-    "outputTokens": 6630,
-    "estimatedCostUsd": 0.060304,
-    "lastCallHour": "2026-09-04T19"
+    "callsThisMonth": 32,
+    "inputTokens": 28011,
+    "outputTokens": 6862,
+    "estimatedCostUsd": 0.062321,
+    "lastCallHour": "2026-09-04T21"
   }
 }

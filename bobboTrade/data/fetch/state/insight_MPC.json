@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-04T19:10:00.339506+00:00",
-  "text": "Marathon Petroleum's stock gained 7.6% over two weeks and added another 0.12% today in a narrow move. The company operates in an exceptionally tight refining environment right now: U.S. refineries are running at 98% capacity, and diesel inventories have fallen to just 104 million barrels while geopolitical disruptions\u2014Ukraine hitting Russian refineries and Iran-U.S. military escalation\u2014are pushing diesel to record highs. This creates a favorable margin environment for U.S. refiners like Marathon, which can process crude into high-priced products at full throttle.\n\nThe broader momentum reflects sustained oil market tension. U.S. crude has gained over 9% this week as military exchanges between Washington and Tehran continue, and the EU's formal entry into Iran sanctions this week narrows global refining capacity further. With storage at these levels and demand still intact, refiners face weeks or months of wide profit spreads before the situation normalizes.",
+  "fetchedAt": "2026-09-04T21:12:40.131449+00:00",
+  "text": "Marathon Petroleum stock rose 0.31% today to close at $388.90, extending a strong two-week rally of 7.81%. The gain reflects tightening diesel markets: diesel hit a record high as geopolitical turmoil in Ukraine and Iran has knocked offline refinery capacity in Russia and the Middle East, while U.S. refineries are running at 98% capacity with limited room to increase output. This supply crunch supports margins for refiners like Marathon, which benefit when fuel scarcity drives prices higher relative to crude oil costs.\n\nThe broader backdrop amplifies this dynamic\u2014U.S. oil prices have climbed over 9% this week alone as military tensions between the U.S. and Iran escalate, and the EU has now formally joined sanctions against Iran that threaten to tighten global oil supply further. With diesel storage at just 104 million barrels and refineries already running near maximum, any additional disruption to offshore or refinery production would put further upward pressure on fuel prices, which is exactly the environment where refiner profits expand.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 31,
-    "inputTokens": 28887,
-    "outputTokens": 6775,
-    "estimatedCostUsd": 0.062762,
-    "lastCallHour": "2026-09-04T19"
+    "callsThisMonth": 32,
+    "inputTokens": 29808,
+    "outputTokens": 7008,
+    "estimatedCostUsd": 0.064848,
+    "lastCallHour": "2026-09-04T21"
   }
 }
