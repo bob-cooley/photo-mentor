@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T10:35:43.704226+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $135.72, giving back some of yesterday's sharp 0.8% gain. The pullback came as oil prices softened slightly\u2014U.S. crude dipped to $91.48 a barrel from around $93\u2013$94 earlier in the week\u2014even as Middle East tensions remain elevated with Iran striking targets in Kuwait and the EU now formally joining U.S. sanctions against Iran. The stock had jumped hard on September 1\u20132 when oil was climbing on those geopolitical risks, so today's modest retreat likely reflects a pause as traders reassess whether the current price level already reflects the conflict risk.\n\nThe broader backdrop remains supportive for oil majors: the Strait of Hormuz\u2014a chokepoint for roughly 20% of global oil supply\u2014is under renewed threat from Iranian military action, and South Korea is weighing military involvement to keep it open. Even with today's dip, the stock is up 0.6% over the past two weeks, tracking the underlying volatility in crude rather than deteriorating fundamentals.",
+  "fetchedAt": "2026-09-04T14:45:03.038138+00:00",
+  "text": "ConocoPhillips fell 0.95% today to $134.43, giving back some of last week's strong gains after hitting $137.20 on September 2nd. The decline came as U.S. crude oil prices softened to $91.48 a barrel, down from the elevated levels that had supported energy stocks through geopolitical tensions in the Middle East and disruptions to Russian refinery capacity. Despite headline risks from ongoing Ukraine-Iran conflicts and refinery outages worldwide, the immediate move down reflects profit-taking after a multi-day rally rather than any new negative development.\n\nThe broader picture remains mixed: diesel prices are at record highs due to refinery shutdowns in Russia and potential Iran disruptions, which typically benefits a large crude producer like ConocoPhillips by supporting energy prices. However, the U.S. oil price holding in the $91 range\u2014well below the $96 world price\u2014suggests domestic supply-demand balance hasn't tightened as much as the headlines might imply, limiting upside fuel for the stock right now.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 28,
-    "inputTokens": 24580,
-    "outputTokens": 5934,
-    "estimatedCostUsd": 0.05425,
-    "lastCallHour": "2026-09-04T10"
+    "callsThisMonth": 29,
+    "inputTokens": 25438,
+    "outputTokens": 6168,
+    "estimatedCostUsd": 0.056278,
+    "lastCallHour": "2026-09-04T14"
   }
 }

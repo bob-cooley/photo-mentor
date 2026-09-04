@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-04T10:36:00.437213+00:00",
-  "text": "Marathon Petroleum has climbed 8.23% over two weeks and gained another 0.18% today in a refining environment that's working in its favor. U.S. refineries are running at 98% capacity while oil inventories remain elevated at 711 million barrels\u2014this tight utilization means refiner margins (the spread between what they pay for crude and what they earn from selling gasoline and diesel) tend to stay healthy. The backdrop has been escalating U.S.-Iran military tensions that have spiked crude prices 9% this week, with ongoing EU sanctions on Iranian oil tightening global supply.\n\nThe combination of high refinery utilization, elevated crude prices, and geopolitical friction over Iranian oil supply creates a favorable short-term environment for refiners like MPC. Even as broader economic uncertainty swirls\u2014Argentina's renewed Falklands saber-rattling and U.S. sanctions expansion\u2014oil remains scarce and refining capacity is running flat-out, which historically supports refiner profitability.",
+  "fetchedAt": "2026-09-04T14:47:05.735761+00:00",
+  "text": "Marathon Petroleum stock is essentially flat today, but it's up 7.6% over the past two weeks as refining conditions have tightened sharply. U.S. refineries are running at 98% capacity\u2014near peak output\u2014while diesel inventories have fallen to 104 million barrels, a historically tight level. Meanwhile, geopolitical disruptions are pushing global oil prices higher: Ukraine is hitting Russian refineries, Iran faces expanding sanctions from the EU and U.S., and military tensions in the Middle East are creating supply uncertainty. For a major refiner, this environment is favorable\u2014tight product supplies and elevated crude prices can widen profit margins.\n\nThe backdrop is a global energy squeeze rather than a single event today. Diesel in particular has hit record prices due to refinery outages in Russia and Iran, meaning U.S. refiners like Marathon are better positioned to capture value as domestic and global demand outpaces available supply.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 28,
-    "inputTokens": 26130,
-    "outputTokens": 6133,
-    "estimatedCostUsd": 0.056795,
-    "lastCallHour": "2026-09-04T10"
+    "callsThisMonth": 29,
+    "inputTokens": 27049,
+    "outputTokens": 6336,
+    "estimatedCostUsd": 0.058729,
+    "lastCallHour": "2026-09-04T14"
   }
 }
