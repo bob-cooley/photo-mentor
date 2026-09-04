@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T18:03:49.051088+00:00",
-  "text": "ConocoPhillips fell 0.68% today to $134.80, continuing a pullback from its recent peak of $137.20 two days ago. The decline came even as global oil prices remained elevated\u2014U.S. crude at $91.48 and world oil at $96.02 per barrel\u2014suggesting the move was company-specific rather than driven by broader energy markets. With refineries across Ukraine and Russia knocked offline by military action and Iran-U.S. tensions simmering, diesel has hit record highs, which typically benefits refiners; the lack of a strong rally despite these tailwinds points to profit-taking after a sharp three-day climb earlier in the week.\n\nThe stock is caught between conflicting forces. Geopolitical disruptions to global refinery capacity should support crude and refined product prices, and ConocoPhillips benefits as both a crude producer and downstream operator. However, the recent sharp gains\u2014up 5% from August 28 to September 2\u2014may have priced in some of that upside already, leaving room for consolidation or caution as Middle East tensions remain unpredictable.",
+  "fetchedAt": "2026-09-04T19:09:35.908074+00:00",
+  "text": "ConocoPhillips fell 0.76% today to $134.69, giving back some of the sharp gains it posted over the past week as oil prices pulled back slightly. U.S. crude dropped to $91.48 a barrel today after climbing more than 9% this week on escalating Iran-U.S. military tensions; the stock had climbed from $130 just a week ago on those geopolitical risks, and today's modest retreat reflects some cooling of that immediate conflict premium.\n\nThe broader energy backdrop remains supportive for refiners and oil producers, though. Diesel prices hit record highs as Ukraine continues destroying Russian refineries and Russia banned diesel exports, while the EU formally joined U.S. sanctions on Iran\u2014both of which reduce global refining capacity and keep crude prices elevated despite today's dip. These supply-side pressures from geopolitical conflict are structural headwinds that could continue supporting energy prices even as daily volatility settles.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 30,
-    "inputTokens": 26296,
-    "outputTokens": 6419,
-    "estimatedCostUsd": 0.058391,
-    "lastCallHour": "2026-09-04T18"
+    "callsThisMonth": 31,
+    "inputTokens": 27154,
+    "outputTokens": 6630,
+    "estimatedCostUsd": 0.060304,
+    "lastCallHour": "2026-09-04T19"
   }
 }
