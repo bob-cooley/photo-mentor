@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-04T00:47:51.916330+00:00",
-  "text": "The stock rose 0.18% today on the back of a sharp two-week rally\u2014up 8.23% since late August\u2014driven primarily by geopolitical tension in the Middle East and tight U.S. refining conditions. Iran's missile attacks on Kuwait this week pushed crude oil prices up more than 9% for the week, and U.S. refineries are currently running at 98% capacity with relatively lean inventory levels, a combination that typically improves profit margins for refiners like Marathon. The company has benefited from both the price floor created by rising crude costs and the operational squeeze that comes when refineries run hot and fuel supplies tighten.\n\nThe rally also reflects a broader shift in energy markets away from oversupply concerns\u2014oil storage remains moderate at 711 million barrels\u2014while geopolitical risk keeps buyers nervous. Gasoline and diesel inventories are also on the lower end of normal ranges, meaning any disruption to supply flows would strain the market further, which historically favors refiner margins.",
+  "fetchedAt": "2026-09-04T05:29:41.606861+00:00",
+  "text": "Marathon Petroleum has climbed 8.23% over two weeks, with today's modest 0.18% gain capping a four-day rally that pushed the stock from $363.54 to $387.71. The sharp move reflects a combination of rising oil prices\u2014U.S. crude has gained more than 9% this week amid escalating U.S.-Iran military tensions, including Iranian missile strikes on Kuwait this week\u2014and near-maximum refinery utilization at 98%, which boosts margins for refiners when crude costs rise and fuel demand remains strong.\n\nThe geopolitical flare-up in the Middle East, particularly around the strategic Hormuz Strait region, has created supply uncertainty that typically lifts energy prices and benefits refiners. With refineries running hot and oil storage relatively contained at 711 million barrels, the refining business is operating in a tight, profitable window.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 26,
-    "inputTokens": 24288,
-    "outputTokens": 5711,
-    "estimatedCostUsd": 0.052843,
-    "lastCallHour": "2026-09-04T00"
+    "callsThisMonth": 27,
+    "inputTokens": 25207,
+    "outputTokens": 5907,
+    "estimatedCostUsd": 0.054742,
+    "lastCallHour": "2026-09-04T05"
   }
 }
