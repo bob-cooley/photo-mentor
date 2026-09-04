@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-04T14:47:05.735761+00:00",
-  "text": "Marathon Petroleum stock is essentially flat today, but it's up 7.6% over the past two weeks as refining conditions have tightened sharply. U.S. refineries are running at 98% capacity\u2014near peak output\u2014while diesel inventories have fallen to 104 million barrels, a historically tight level. Meanwhile, geopolitical disruptions are pushing global oil prices higher: Ukraine is hitting Russian refineries, Iran faces expanding sanctions from the EU and U.S., and military tensions in the Middle East are creating supply uncertainty. For a major refiner, this environment is favorable\u2014tight product supplies and elevated crude prices can widen profit margins.\n\nThe backdrop is a global energy squeeze rather than a single event today. Diesel in particular has hit record prices due to refinery outages in Russia and Iran, meaning U.S. refiners like Marathon are better positioned to capture value as domestic and global demand outpaces available supply.",
+  "fetchedAt": "2026-09-04T18:04:32.815061+00:00",
+  "text": "Marathon Petroleum stock rose 0.6% today to close at $390.03, continuing a strong run that's now up 8% over two weeks. The move reflects tightening refinery supplies worldwide: diesel is hitting record highs as Ukraine's strikes on Russian refineries and Iran sanctions have knocked significant processing capacity offline, while U.S. refineries are running flat-out at 98% capacity with diesel inventories falling to 104 million barrels. For a refiner like Marathon, tight supply and elevated product prices mean wider margins on every gallon sold.\n\nThe geopolitical escalation is real \u2014 the EU just formally joined U.S. sanctions on Iran, and there's active military conflict disrupting both Russian and Middle Eastern refining. That supply crunch is pushing crude prices higher (U.S. oil at $91, global Brent at $96), but more importantly for refiners, it's pushing the price gap between crude and finished fuels even wider, which is the actual profit driver for companies turning one into the other.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 29,
-    "inputTokens": 27049,
-    "outputTokens": 6336,
-    "estimatedCostUsd": 0.058729,
-    "lastCallHour": "2026-09-04T14"
+    "callsThisMonth": 30,
+    "inputTokens": 27968,
+    "outputTokens": 6562,
+    "estimatedCostUsd": 0.060778,
+    "lastCallHour": "2026-09-04T18"
   }
 }

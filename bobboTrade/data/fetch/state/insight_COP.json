@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T14:45:03.038138+00:00",
-  "text": "ConocoPhillips fell 0.95% today to $134.43, giving back some of last week's strong gains after hitting $137.20 on September 2nd. The decline came as U.S. crude oil prices softened to $91.48 a barrel, down from the elevated levels that had supported energy stocks through geopolitical tensions in the Middle East and disruptions to Russian refinery capacity. Despite headline risks from ongoing Ukraine-Iran conflicts and refinery outages worldwide, the immediate move down reflects profit-taking after a multi-day rally rather than any new negative development.\n\nThe broader picture remains mixed: diesel prices are at record highs due to refinery shutdowns in Russia and potential Iran disruptions, which typically benefits a large crude producer like ConocoPhillips by supporting energy prices. However, the U.S. oil price holding in the $91 range\u2014well below the $96 world price\u2014suggests domestic supply-demand balance hasn't tightened as much as the headlines might imply, limiting upside fuel for the stock right now.",
+  "fetchedAt": "2026-09-04T18:03:49.051088+00:00",
+  "text": "ConocoPhillips fell 0.68% today to $134.80, continuing a pullback from its recent peak of $137.20 two days ago. The decline came even as global oil prices remained elevated\u2014U.S. crude at $91.48 and world oil at $96.02 per barrel\u2014suggesting the move was company-specific rather than driven by broader energy markets. With refineries across Ukraine and Russia knocked offline by military action and Iran-U.S. tensions simmering, diesel has hit record highs, which typically benefits refiners; the lack of a strong rally despite these tailwinds points to profit-taking after a sharp three-day climb earlier in the week.\n\nThe stock is caught between conflicting forces. Geopolitical disruptions to global refinery capacity should support crude and refined product prices, and ConocoPhillips benefits as both a crude producer and downstream operator. However, the recent sharp gains\u2014up 5% from August 28 to September 2\u2014may have priced in some of that upside already, leaving room for consolidation or caution as Middle East tensions remain unpredictable.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 29,
-    "inputTokens": 25438,
-    "outputTokens": 6168,
-    "estimatedCostUsd": 0.056278,
-    "lastCallHour": "2026-09-04T14"
+    "callsThisMonth": 30,
+    "inputTokens": 26296,
+    "outputTokens": 6419,
+    "estimatedCostUsd": 0.058391,
+    "lastCallHour": "2026-09-04T18"
   }
 }
