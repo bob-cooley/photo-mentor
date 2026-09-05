@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-04T23:11:28.484385+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, extending a pullback from its peak earlier this week at $137.20. The decline came as U.S. crude oil prices dropped to $91.48 per barrel\u2014down sharply from the geopolitical premium that had pushed the stock higher over the past few days. Though Middle East tensions remain acute (Iran fired missiles at Kuwait yesterday, and the U.S. is escalating sanctions with EU and South Korean backing), the immediate momentum has stalled, and with no fresh crisis breaking today, oil prices gave back some of their war-premium gains.\n\nThe broader refining environment remains supportive: diesel has hit record highs due to refineries in Ukraine and Russia being knocked offline, which typically benefits U.S. producers. However, that structural advantage isn't enough to prop up the stock when crude prices slip and geopolitical headlines stop generating fresh fear.",
+  "fetchedAt": "2026-09-05T02:46:06.058265+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, continuing a pullback from its peak earlier this week at $137.20. The decline comes as U.S. oil prices dipped slightly to $91.48 per barrel, after rising sharply through the week on geopolitical tensions between the U.S. and Iran\u2014tensions that briefly seemed contained after yesterday's Iranian missile strike on Kuwait. The stock's weakness suggests investors may be pricing in some relief from acute supply fears, even as refinery disruptions from conflicts in Ukraine and Russia keep global oil prices elevated at $96 per barrel.\n\nThe broader backdrop remains supportive for an oil company, but today's move fits a pattern of consolidation after a volatile week. With diesel at record highs due to refinery outages and the EU formally joining sanctions against Iran, the fundamental environment for oil producers remains strong\u2014yet the stock has retreated roughly $3 from Wednesday's high, suggesting caution about how much of this geopolitical premium is already priced in.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 33,
-    "inputTokens": 28870,
-    "outputTokens": 7064,
-    "estimatedCostUsd": 0.06419,
-    "lastCallHour": "2026-09-04T23"
+    "callsThisMonth": 34,
+    "inputTokens": 29729,
+    "outputTokens": 7290,
+    "estimatedCostUsd": 0.066179,
+    "lastCallHour": "2026-09-05T02"
   }
 }
