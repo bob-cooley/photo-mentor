@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-05T11:35:55.944184+00:00",
-  "text": "Marathon Petroleum has climbed 7.81% over two weeks and added another 0.31% today, riding a sharp rally since late August. The driver is clear: global refinery disruptions are tightening diesel and fuel supplies. Ukraine's strikes on Russian refineries and escalating Iran sanctions (which the EU formally joined today) are knocking out refining capacity worldwide, while U.S. refineries are already running flat-out at 98% capacity. This forces up the value of fuel that American refineries can produce, which directly benefits a major refiner's margins.\n\nDiesel prices have hit records as a result, and with oil storage steady around 711 million barrels and gasoline stockpiles moderate, there's little buffer to absorb supply shocks. The geopolitical backdrop\u2014Iran missile strikes, potential Strait of Hormuz disruptions, and export bans from Russia\u2014keeps the market tight and supports refiner profits.",
+  "fetchedAt": "2026-09-05T14:30:34.380407+00:00",
+  "text": "Marathon Petroleum is up 0.31% today, extending a strong two-week rally of 7.81%. The gains reflect tightening refinery dynamics: refineries are running at 98% capacity while diesel inventories sit at historically low levels, and recent news confirms diesel prices hit record highs as Ukrainian attacks on Russian refineries and Iranian sanctions have knocked major competitors offline. For a company that profits from processing crude into fuel, higher fuel prices and tight supply create favorable margins.\n\nThe broader picture adds another tailwind \u2014 geopolitical turmoil is keeping oil prices elevated (US crude at $91.48, global at $96.02), and the U.S. deal with Venezuela could eventually increase crude supply but only over time, meaning near-term refinery economics remain tight. With capacity maxed out and competing refineries offline due to war and sanctions, Marathon's ability to produce and sell fuel at strong margins is supporting the stock's momentum.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 36,
-    "inputTokens": 33492,
-    "outputTokens": 7897,
-    "estimatedCostUsd": 0.072977,
-    "lastCallHour": "2026-09-05T11"
+    "callsThisMonth": 37,
+    "inputTokens": 34427,
+    "outputTokens": 8100,
+    "estimatedCostUsd": 0.074927,
+    "lastCallHour": "2026-09-05T14"
   }
 }

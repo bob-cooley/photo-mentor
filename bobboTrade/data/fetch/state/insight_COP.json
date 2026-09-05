@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-05T11:35:36.056542+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, reversing most of the gains it posted over the prior three trading days. The decline came despite a supportive backdrop for oil refiners: diesel prices hit record highs due to refinery outages in Russia and Ukraine, while crude oil itself held firm around $91\u201396 per barrel depending on location. This kind of move\u2014pullback even as underlying fuel costs spike\u2014often reflects profit-taking after a sharp three-day rally rather than deteriorating fundamentals.\n\nThe broader geopolitical picture remains volatile but ultimately supportive for refiners. Sanctions on Iran and Russia are constraining global refinery capacity, and the EU's formal entry into U.S.-led sanctions adds structural pressure on fuel supply. However, the stock's near-flat performance over two weeks suggests investors are weighing the refinery tailwind against uncertainty over how long these supply disruptions will persist and whether crude prices themselves can sustain gains if economic growth slows.",
+  "fetchedAt": "2026-09-05T14:30:15.992148+00:00",
+  "text": "ConocoPhillips fell 1.08% today after climbing sharply over the prior three trading days. The pullback follows record-high diesel prices driven by refinery outages in Ukraine and Russia, which initially boosted oil majors\u2014but today's news of a Trump administration deal to bring Venezuelan oil back onto the U.S. market signals a potential supply increase that could ease global crude and fuel prices, pressuring margins for producers and refiners.\n\nThe broader geopolitical backdrop remains volatile: fresh EU sanctions on Iran and South Korea's potential military involvement in the Strait of Hormuz are keeping crude prices elevated (U.S. oil at $91.48/barrel), but the Venezuela opening could eventually undercut these prices if production ramps up meaningfully. This supply-side uncertainty after several days of gains may explain the modest retreat.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 36,
-    "inputTokens": 31447,
-    "outputTokens": 7724,
-    "estimatedCostUsd": 0.070067,
-    "lastCallHour": "2026-09-05T11"
+    "callsThisMonth": 37,
+    "inputTokens": 32320,
+    "outputTokens": 7906,
+    "estimatedCostUsd": 0.07185,
+    "lastCallHour": "2026-09-05T14"
   }
 }
