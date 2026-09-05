@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-05T14:30:34.380407+00:00",
-  "text": "Marathon Petroleum is up 0.31% today, extending a strong two-week rally of 7.81%. The gains reflect tightening refinery dynamics: refineries are running at 98% capacity while diesel inventories sit at historically low levels, and recent news confirms diesel prices hit record highs as Ukrainian attacks on Russian refineries and Iranian sanctions have knocked major competitors offline. For a company that profits from processing crude into fuel, higher fuel prices and tight supply create favorable margins.\n\nThe broader picture adds another tailwind \u2014 geopolitical turmoil is keeping oil prices elevated (US crude at $91.48, global at $96.02), and the U.S. deal with Venezuela could eventually increase crude supply but only over time, meaning near-term refinery economics remain tight. With capacity maxed out and competing refineries offline due to war and sanctions, Marathon's ability to produce and sell fuel at strong margins is supporting the stock's momentum.",
+  "fetchedAt": "2026-09-05T17:06:40.598021+00:00",
+  "text": "Marathon Petroleum's stock rose 0.31% today to close at $388.90, continuing a strong two-week rally of 7.8%. The gains reflect tightening global refinery capacity: diesel prices hit record highs this week as Ukraine's strikes on Russian refineries and Iran sanctions have knocked major suppliers offline, while U.S. refineries are running at 98% capacity with constrained product storage. For a major U.S. refiner like Marathon, tight markets and elevated fuel prices directly boost margins on the fuel they produce and sell.\n\nThe broader geopolitical backdrop supports this rally. News of a Trump administration deal with Venezuela, combined with escalating sanctions on Iran and Russia's refining sector, is removing crude oil supplies and refining capacity from global markets at the same time \u2014 pushing crude prices up to $91 domestically and $96 globally. This kind of supply disruption in refining typically translates into stronger profits for U.S. refiners positioned to fill the gap.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 37,
-    "inputTokens": 34427,
-    "outputTokens": 8100,
-    "estimatedCostUsd": 0.074927,
-    "lastCallHour": "2026-09-05T14"
+    "callsThisMonth": 38,
+    "inputTokens": 35362,
+    "outputTokens": 8316,
+    "estimatedCostUsd": 0.076942,
+    "lastCallHour": "2026-09-05T17"
   }
 }

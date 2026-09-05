@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-05T14:30:15.992148+00:00",
-  "text": "ConocoPhillips fell 1.08% today after climbing sharply over the prior three trading days. The pullback follows record-high diesel prices driven by refinery outages in Ukraine and Russia, which initially boosted oil majors\u2014but today's news of a Trump administration deal to bring Venezuelan oil back onto the U.S. market signals a potential supply increase that could ease global crude and fuel prices, pressuring margins for producers and refiners.\n\nThe broader geopolitical backdrop remains volatile: fresh EU sanctions on Iran and South Korea's potential military involvement in the Strait of Hormuz are keeping crude prices elevated (U.S. oil at $91.48/barrel), but the Venezuela opening could eventually undercut these prices if production ramps up meaningfully. This supply-side uncertainty after several days of gains may explain the modest retreat.",
+  "fetchedAt": "2026-09-05T17:06:24.375496+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, continuing a slide from its $137.20 peak two days ago. The immediate pressure comes from a sharp drop in U.S. crude oil prices\u2014down to $91.48 per barrel from recent highs\u2014even as global oil remains elevated at $96.02. That gap between U.S. and world prices suggests a supply glut building domestically, which weighs on the economics of U.S. oil producers like ConocoPhillips.\n\nThe broader headwind is political: Trump's reported deal to restore Venezuelan oil supplies to U.S. markets would increase crude available to refineries and dampen prices further, while simultaneous sanctions escalation against Iran (the EU formally joining the campaign) muddles longer-term supply dynamics. For an oil producer, near-term price pressure from potential Venezuelan supply overwhelms any benefit from tighter Iranian supplies down the line.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 37,
-    "inputTokens": 32320,
-    "outputTokens": 7906,
-    "estimatedCostUsd": 0.07185,
-    "lastCallHour": "2026-09-05T14"
+    "callsThisMonth": 38,
+    "inputTokens": 33193,
+    "outputTokens": 8113,
+    "estimatedCostUsd": 0.073758,
+    "lastCallHour": "2026-09-05T17"
   }
 }
