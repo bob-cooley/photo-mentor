@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-05T02:46:25.668298+00:00",
-  "text": "Marathon Petroleum has climbed 7.81% over two weeks and edged up another 0.3% today as global refinery disruptions tighten diesel supplies and push prices higher. Ukraine's attacks on Russian refineries and Iran sanctions are knocking offline major production capacity worldwide, while U.S. refineries are running at 98% utilization\u2014near maximum\u2014leaving little room to absorb supply shocks. Diesel has hit record highs as a result, which benefits refiners like Marathon by widening the margin between crude oil costs and the refined products they sell.\n\nThe broader picture is one of constrained supply meeting steady demand: crude inventories sit at 711 million barrels while diesel stocks have fallen to 104 million, signaling tight conditions. With geopolitical conflict disrupting refining capacity in Russia, Iran, and elsewhere, and the Strait of Hormuz (a critical oil chokepoint) potentially at risk, refiners have pricing power in the near term\u2014exactly the environment that drives their profits higher.",
+  "fetchedAt": "2026-09-05T07:22:23.833334+00:00",
+  "text": "Marathon Petroleum closed essentially flat today, but the stock has climbed 7.8% over the past two weeks as global refinery disruptions tighten fuel supplies and boost margins for U.S. producers. Diesel prices hit record highs this week after Russian and Iranian refineries were knocked offline by military conflict in Ukraine and the Middle East, while the EU joined U.S. sanctions on Iran\u2014shrinking global refining capacity just as U.S. refineries are running at 98% utilization. For a refiner like Marathon, fewer competitors producing fuel means stronger prices for what it does make.\n\nThe underlying dynamics remain favorable: U.S. crude sits at $91.50 a barrel while world prices are at $96, giving domestic refiners a cost advantage, and diesel and heating oil inventories are lean at 104 million barrels, leaving little cushion if supply tightens further. The week's geopolitical escalations\u2014including South Korea weighing military involvement to keep the Strait of Hormuz open for oil shipments\u2014suggest energy markets expect sustained supply pressure, which historically supports refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 34,
-    "inputTokens": 31650,
-    "outputTokens": 7448,
-    "estimatedCostUsd": 0.06889,
-    "lastCallHour": "2026-09-05T02"
+    "callsThisMonth": 35,
+    "inputTokens": 32571,
+    "outputTokens": 7692,
+    "estimatedCostUsd": 0.071031,
+    "lastCallHour": "2026-09-05T07"
   }
 }
