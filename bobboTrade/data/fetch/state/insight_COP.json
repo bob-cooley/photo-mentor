@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-05T07:22:09.314496+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, reversing a multi-day rally that had pushed the stock up nearly $7 from late August. The decline came despite oil prices remaining elevated\u2014U.S. crude at $91.48 and world oil at $96.02\u2014and despite geopolitical tensions (Ukraine, Iran, and now Argentina's threats against oil operators) that typically support energy stocks. The pullback suggests profit-taking after the stock's sharp four-day climb from $130 to $137, rather than new negative news about the company or the sector itself.\n\nThe broader energy backdrop remains supportive: diesel has hit record highs due to refinery outages in Ukraine and Russia, and military tensions in the Middle East continue to create supply uncertainty. However, the stock's timing\u2014peaking yesterday at $137.20 and declining today\u2014points to a technical correction within an otherwise bullish setup rather than a fundamental break in the oil market's strength.",
+  "fetchedAt": "2026-09-05T11:35:36.056542+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, reversing most of the gains it posted over the prior three trading days. The decline came despite a supportive backdrop for oil refiners: diesel prices hit record highs due to refinery outages in Russia and Ukraine, while crude oil itself held firm around $91\u201396 per barrel depending on location. This kind of move\u2014pullback even as underlying fuel costs spike\u2014often reflects profit-taking after a sharp three-day rally rather than deteriorating fundamentals.\n\nThe broader geopolitical picture remains volatile but ultimately supportive for refiners. Sanctions on Iran and Russia are constraining global refinery capacity, and the EU's formal entry into U.S.-led sanctions adds structural pressure on fuel supply. However, the stock's near-flat performance over two weeks suggests investors are weighing the refinery tailwind against uncertainty over how long these supply disruptions will persist and whether crude prices themselves can sustain gains if economic growth slows.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 35,
-    "inputTokens": 30588,
-    "outputTokens": 7507,
-    "estimatedCostUsd": 0.068123,
-    "lastCallHour": "2026-09-05T07"
+    "callsThisMonth": 36,
+    "inputTokens": 31447,
+    "outputTokens": 7724,
+    "estimatedCostUsd": 0.070067,
+    "lastCallHour": "2026-09-05T11"
   }
 }
