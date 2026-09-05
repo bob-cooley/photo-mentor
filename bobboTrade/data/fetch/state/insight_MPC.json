@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-05T19:53:20.713408+00:00",
-  "text": "Marathon Petroleum stock rose 0.31% today to close at $388.90, extending a strong two-week rally of 7.81%. The gain reflects sustained strength in refining conditions: U.S. refineries are running at 98% capacity utilization, and diesel prices have hit record highs as Ukraine continues bombing Russian refineries and Russia restricts diesel exports. For a major U.S. refiner like Marathon, tight global diesel supply and full-capacity operations mean stronger margins on the fuel they produce.\n\nThe broader geopolitical backdrop is amplifying this. The recent Trump administration deal with Venezuela, combined with EU and South Korea escalating sanctions against Iran and threatening to reopen the Strait of Hormuz, creates supply uncertainties that support higher crude prices (Brent at $96, WTI at $91.48). Higher crude prices and constrained global refining capacity\u2014especially with Russian refinery disruptions\u2014push refined product prices higher and favor U.S. refiners operating at near-peak rates.",
+  "fetchedAt": "2026-09-05T21:53:39.949773+00:00",
+  "text": "Marathon Petroleum stock rose 0.31% today to close at $388.90, capping a strong week-long rally of 7.81% since late August. The gains reflect a tightening global refining market: diesel prices hit record highs this week as Ukraine's strikes on Russian refineries knock those facilities offline and Russia bans diesel exports, while U.S. refineries are running at 98% capacity utilization. For a major U.S. refiner, this supply crunch translates directly into wider profit margins on fuel production\u2014the refiner earns more per barrel of crude oil it processes when refined products become scarcer and more valuable.\n\nThe broader geopolitical backdrop amplifies the tailwind. This week brought news of escalating sanctions on Iran (from the EU joining a U.S.-led campaign) and military efforts to reopen the Strait of Hormuz, along with Trump's new Venezuela oil deal\u2014all moves that could reshape global crude supplies in ways that favor domestic U.S. refiners. Against this backdrop of tighter global refining capacity and higher fuel prices, Marathon's stock momentum reflects investor confidence that refining margins will remain elevated in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 39,
-    "inputTokens": 36297,
-    "outputTokens": 8538,
-    "estimatedCostUsd": 0.078987,
-    "lastCallHour": "2026-09-05T19"
+    "callsThisMonth": 40,
+    "inputTokens": 37232,
+    "outputTokens": 8795,
+    "estimatedCostUsd": 0.081207,
+    "lastCallHour": "2026-09-05T21"
   }
 }
