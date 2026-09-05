@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-05T21:53:39.949773+00:00",
-  "text": "Marathon Petroleum stock rose 0.31% today to close at $388.90, capping a strong week-long rally of 7.81% since late August. The gains reflect a tightening global refining market: diesel prices hit record highs this week as Ukraine's strikes on Russian refineries knock those facilities offline and Russia bans diesel exports, while U.S. refineries are running at 98% capacity utilization. For a major U.S. refiner, this supply crunch translates directly into wider profit margins on fuel production\u2014the refiner earns more per barrel of crude oil it processes when refined products become scarcer and more valuable.\n\nThe broader geopolitical backdrop amplifies the tailwind. This week brought news of escalating sanctions on Iran (from the EU joining a U.S.-led campaign) and military efforts to reopen the Strait of Hormuz, along with Trump's new Venezuela oil deal\u2014all moves that could reshape global crude supplies in ways that favor domestic U.S. refiners. Against this backdrop of tighter global refining capacity and higher fuel prices, Marathon's stock momentum reflects investor confidence that refining margins will remain elevated in the near term.",
+  "fetchedAt": "2026-09-05T23:32:01.302085+00:00",
+  "text": "Marathon Petroleum's stock rose 0.3% today to close at $388.90, continuing a sharp 7.8% climb over the past two weeks. The gains follow a jump in global diesel prices to record highs, driven by geopolitical disruptions to refinery capacity in Ukraine and Russia \u2014 exactly the kind of tight supply environment that benefits a major U.S. refiner. U.S. refineries are running at 98% capacity right now, leaving little room to ramp up production, which means higher margins on every barrel processed as demand stays strong and supply from competitors dries up.\n\nThe broader backdrop amplifies this advantage: sanctions on Iran are expanding with EU backing, and supply chains for crude are being reshuffled following a U.S. deal with Venezuela, while diesel storage remains lean at 104 million barrels. These geopolitical headwinds are lifting refining margins globally, and MPC's domestic footprint shields it from some of the chaos hitting European and Asian refiners.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 40,
-    "inputTokens": 37232,
-    "outputTokens": 8795,
-    "estimatedCostUsd": 0.081207,
-    "lastCallHour": "2026-09-05T21"
+    "callsThisMonth": 41,
+    "inputTokens": 38167,
+    "outputTokens": 9012,
+    "estimatedCostUsd": 0.083227,
+    "lastCallHour": "2026-09-05T23"
   }
 }

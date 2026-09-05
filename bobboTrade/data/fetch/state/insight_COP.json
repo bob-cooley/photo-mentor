@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-05T21:53:26.474395+00:00",
-  "text": "ConocoPhillips fell 1.1% today after climbing strongly over the past week, pulling back from a $137 high just yesterday. The decline comes as oil prices retreated slightly\u2014U.S. crude dropped to $91.48 per barrel\u2014and reflects profit-taking after the stock had gained over 5% in five trading days. This pullback is modest and fits a normal trading pattern following a sharp run-up.\n\nThe broader backdrop remains mixed for oil majors. While refinery disruptions in Ukraine and Russia have pushed diesel to record highs, boosting margins for refiners in the short term, today's geopolitical news\u2014including Argentina's threats against oil companies over the Falklands and continued sanctions on Iran\u2014hasn't created the kind of supply shock that would sustain oil prices higher. The gains ConocoPhillips saw earlier this week may have reflected optimism about constrained refining capacity; today's pullback suggests that optimism has hit a ceiling as investors weigh competing forces.",
+  "fetchedAt": "2026-09-05T23:31:48.001414+00:00",
+  "text": "ConocoPhillips fell 1.08% today after climbing steeply over the prior three trading days. The decline follows a record diesel price spike driven by refinery shutdowns in Ukraine and Russia, combined with escalating geopolitical tension in the Middle East\u2014specifically EU sanctions on Iran and South Korea weighing military involvement to keep the Strait of Hormuz open. While higher oil prices typically benefit producers like COP, the refinery disruptions and geopolitical friction appear to have triggered a pullback in energy stocks today, and the stock has given back some of its recent gains.\n\nCrude prices remain elevated (US oil at $91.48/barrel), but the situation is mixed for an integrated oil company: refinery constraints abroad support margins on the crude they pump, yet Middle East tensions and sanctions create unpredictability that can spook investors seeking stability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 40,
-    "inputTokens": 34939,
-    "outputTokens": 8531,
-    "estimatedCostUsd": 0.077594,
-    "lastCallHour": "2026-09-05T21"
+    "callsThisMonth": 41,
+    "inputTokens": 35812,
+    "outputTokens": 8718,
+    "estimatedCostUsd": 0.079402,
+    "lastCallHour": "2026-09-05T23"
   }
 }
