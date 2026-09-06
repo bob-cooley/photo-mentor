@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-06T17:29:40.899412+00:00",
-  "text": "Marathon Petroleum stock rose 0.31% today in a market shaped by tightening global refinery capacity and elevated oil prices. U.S. crude is trading at $91.48 per barrel\u2014well above historical norms\u2014while diesel reached record highs this week as the Ukraine and Iran conflicts have knocked refineries offline, particularly in Russia. Refineries in the U.S. are running at 98% capacity, near their practical limit, which means tight supplies and strong prices for refined products like gasoline and diesel that Marathon produces and sells.\n\nThe broader backdrop has tightened significantly over the past two weeks: geopolitical escalation in the Middle East (with Iran sanctions intensifying and the U.S. pursuing a deal in Venezuela for oil supplies) has removed refining capacity from the global market, driving the 7.81% run-up in the stock since August 28th. For a refiner, this environment\u2014constrained supply, high crude prices, and refineries running flat out\u2014typically improves profit margins on the fuel they crack from crude oil.",
+  "fetchedAt": "2026-09-06T19:57:09.709178+00:00",
+  "text": "Marathon Petroleum has climbed 7.8% over two weeks, with today's modest gain continuing a steady uptrend since late August. The rally is rooted in tightening refinery margins: diesel prices have hit record highs as the Ukraine and Iran conflicts have knocked refineries offline globally, Ukraine is pounding Russian refineries forcing Moscow to ban diesel exports, and the U.S. has just brokered a Venezuela oil deal that shifts the geopolitical landscape. Refineries are running at 98% capacity domestically, meaning U.S. refiners like MPC can push margins wider when fuel supply is constrained abroad.\n\nThe broader context is one of sustained geopolitical disruption to global oil supply. Iran faces escalating tensions with the U.S., Russia's refinery capacity is under direct military pressure, and these shocks are keeping crude prices elevated\u2014Brent at $96 and WTI at $91\u2014while driving specific fuels like diesel to historic highs, which directly boosts refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 46,
-    "inputTokens": 42830,
-    "outputTokens": 10160,
-    "estimatedCostUsd": 0.09363,
-    "lastCallHour": "2026-09-06T17"
+    "callsThisMonth": 47,
+    "inputTokens": 43756,
+    "outputTokens": 10385,
+    "estimatedCostUsd": 0.095681,
+    "lastCallHour": "2026-09-06T19"
   }
 }

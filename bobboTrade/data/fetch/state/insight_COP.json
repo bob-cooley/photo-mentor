@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T17:29:25.142459+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, reversing most of the sharp gains it made over the prior three trading days. The pullback came as oil prices eased slightly (U.S. crude at $91.48/barrel, down from the $137+ range the stock hit earlier this week), suggesting investors are taking profits after a strong run fueled by geopolitical supply concerns \u2014 particularly the diesel shortage driven by damaged refineries in Russia and Ukraine, and escalating U.S. sanctions pressure on Iran.\n\nThe broader context: major oil and energy companies like ConocoPhillips have benefited substantially from Middle East and Eastern Europe tensions that tighten global fuel supply, but today's modest pullback shows that benefit has limits. The Trump administration's Venezuela oil deal and ongoing efforts to choke Iranian exports are genuinely supportive for oil prices long-term, but the market digested those headlines earlier this week; today's retreat reflects a short-term consolidation rather than a reversal of the geopolitical tailwinds.",
+  "fetchedAt": "2026-09-06T19:56:51.940504+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, extending a slide from its early-September peak of $137.20. The decline comes despite crude oil prices holding relatively firm (US crude at $91.48/barrel), suggesting the move reflects company-specific or refining-sector headwinds rather than a broad oil price collapse. The timing aligns with reports of diesel hitting record highs due to Ukrainian strikes on Russian refineries and geopolitical disruptions to Iran\u2014a potential signal that refining margins are tightening even as crude supplies face constraint.\n\nThe stock's retreat also tracks a week of modest volatility after Trump's Venezuela deal announcement and escalating Iran sanctions, which create conflicting signals for oil producers: potential new crude supply from Venezuela could weigh on prices, while tighter Iran sanctions and refinery disruptions elsewhere could support margins. For a major integrated producer like ConocoPhillips, these cross-currents leave near-term direction uncertain.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 46,
-    "inputTokens": 40165,
-    "outputTokens": 9816,
-    "estimatedCostUsd": 0.089245,
-    "lastCallHour": "2026-09-06T17"
+    "callsThisMonth": 47,
+    "inputTokens": 41029,
+    "outputTokens": 10030,
+    "estimatedCostUsd": 0.091179,
+    "lastCallHour": "2026-09-06T19"
   }
 }
