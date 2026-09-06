@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-06T02:44:02.112743+00:00",
-  "text": "Marathon Petroleum edged up 0.31% today to close at $388.90, capping a strong two-week rally of 7.81%. The stock has benefited from a combination of tight refining conditions: refineries are running at 98% capacity, diesel prices hit record highs this week as Ukraine and Iran conflicts knocked refineries offline, and U.S. crude is trading at $91.48 per barrel. These constraints tighten margins for refiners that can keep running, rewarding companies like this one with higher profits on fuel sales.\n\nThe broader tailwind is a tightening global energy market. Russia's ban on diesel exports, the closure of refineries due to ongoing conflicts, and now coordination between the U.S., EU, and South Korea on sanctions against Iran all point to sustained pressure on energy supply. A major new oil supply source from Venezuela under the Trump administration (announced yesterday) could eventually ease some of this pressure, but for now the refining sector faces sustained demand with constrained supply \u2014 a profitable backdrop for U.S. refiner margins over the coming months.",
+  "fetchedAt": "2026-09-06T07:35:25.684141+00:00",
+  "text": "Marathon Petroleum is up 0.31% today and has gained 7.81% over the past two weeks\u2014a climb that tracks closely with rising oil prices and tightening global refining capacity. US crude hit $91.48 a barrel and refineries are running at 98% utilization, their highest operating rate, while diesel prices have hit record highs as Ukraine's strikes on Russian refineries and Iran sanctions have knocked out competing capacity. For a refiner like Marathon, higher crude prices and constrained competition mean wider profit margins on every gallon of fuel produced.\n\nThe geopolitical backdrop has shifted sharply in the refiner's favor. The U.S. deal with Venezuela, new EU sanctions on Iran, and military efforts to reopen the Strait of Hormuz all point toward sustained supply tightness\u2014conditions that benefit domestic U.S. refiners by reducing global competition and pushing product prices higher relative to crude costs. With storage inventories still modest (diesel particularly tight), the sector is priced for continued scarcity.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 42,
-    "inputTokens": 39102,
-    "outputTokens": 9248,
-    "estimatedCostUsd": 0.085342,
-    "lastCallHour": "2026-09-06T02"
+    "callsThisMonth": 43,
+    "inputTokens": 40037,
+    "outputTokens": 9472,
+    "estimatedCostUsd": 0.087397,
+    "lastCallHour": "2026-09-06T07"
   }
 }

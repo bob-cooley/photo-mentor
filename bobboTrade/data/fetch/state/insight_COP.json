@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T02:43:48.357384+00:00",
-  "text": "ConocoPhillips fell 1.1% today, erasing gains from the past two days and retreating from last week's peak. The decline comes as crude oil prices eased slightly (US crude at $91.48/barrel, down from the $136+ levels that boosted the stock early in the week), even as geopolitical tensions in the Middle East and Eastern Europe remain acute. A major Trump administration deal to increase Venezuelan oil production could add supply to the market over time, which may be weighing on near-term prices and investor sentiment toward U.S. oil majors.\n\nThe longer backdrop matters here: while refinery disruptions from wars in Ukraine and Iran are pushing diesel to record highs, increased Venezuelan supply\u2014combined with the potential for more crude flowing to global markets\u2014creates conflicting pressures on oil majors' stock prices. ConocoPhillips benefits from higher crude prices, but sustained supply growth could moderate the upside.",
+  "fetchedAt": "2026-09-06T07:35:08.434117+00:00",
+  "text": "ConocoPhillips fell 1.1% today after climbing sharply over the prior three trading days, as oil prices pulled back modestly and geopolitical tensions\u2014particularly around refinery disruptions in Ukraine and Iran\u2014began to price in differently. US crude dropped slightly to $91.48 per barrel, and while diesel remains elevated due to Russian refinery outages, the immediate upside from that shock may be cooling as markets adjust.\n\nThe broader context is a tug-of-war: Trump's new Venezuela oil deal and the ongoing sanctions on Iran and Russia create both supply uncertainty and potential long-term crude availability that could ease energy markets, which works against oil majors in the near term. Conversely, the actual disruptions to refining capacity right now are real and support margins, but today's pullback suggests investors are weighing whether geopolitical supply relief outweighs near-term refining pressures.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 42,
-    "inputTokens": 36685,
-    "outputTokens": 8924,
-    "estimatedCostUsd": 0.081305,
-    "lastCallHour": "2026-09-06T02"
+    "callsThisMonth": 43,
+    "inputTokens": 37558,
+    "outputTokens": 9124,
+    "estimatedCostUsd": 0.083178,
+    "lastCallHour": "2026-09-06T07"
   }
 }
