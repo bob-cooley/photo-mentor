@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T07:35:08.434117+00:00",
-  "text": "ConocoPhillips fell 1.1% today after climbing sharply over the prior three trading days, as oil prices pulled back modestly and geopolitical tensions\u2014particularly around refinery disruptions in Ukraine and Iran\u2014began to price in differently. US crude dropped slightly to $91.48 per barrel, and while diesel remains elevated due to Russian refinery outages, the immediate upside from that shock may be cooling as markets adjust.\n\nThe broader context is a tug-of-war: Trump's new Venezuela oil deal and the ongoing sanctions on Iran and Russia create both supply uncertainty and potential long-term crude availability that could ease energy markets, which works against oil majors in the near term. Conversely, the actual disruptions to refining capacity right now are real and support margins, but today's pullback suggests investors are weighing whether geopolitical supply relief outweighs near-term refining pressures.",
+  "fetchedAt": "2026-09-06T11:55:23.321774+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, pulling back from yesterday's high of $137.20 after a week of gains. The decline came as crude oil prices softened slightly (US oil at $91.48/barrel, down from recent strength), and broader geopolitical tensions\u2014while supportive of energy prices overall\u2014appear to have created some uncertainty. Yesterday's diesel shortage story, driven by damaged refineries in Ukraine and Russia, had boosted the stock, but today's pullback suggests that short-term trade momentum reversed as the market digested those moves.\n\nThe longer-running backdrop remains mixed for oil majors: conflicts in Ukraine and the Middle East are disrupting refinery capacity and shipping routes (potentially supporting prices and refining margins), but Trump's newly announced Venezuela oil deal and the push toward geothermal alternatives hint at shifting energy policy that could reshape oil demand. Over two weeks, ConocoPhillips has been essentially flat, caught between these countervailing pressures.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 43,
-    "inputTokens": 37558,
-    "outputTokens": 9124,
-    "estimatedCostUsd": 0.083178,
-    "lastCallHour": "2026-09-06T07"
+    "callsThisMonth": 44,
+    "inputTokens": 38431,
+    "outputTokens": 9345,
+    "estimatedCostUsd": 0.085156,
+    "lastCallHour": "2026-09-06T11"
   }
 }

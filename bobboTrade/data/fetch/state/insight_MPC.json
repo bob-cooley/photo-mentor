@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-06T07:35:25.684141+00:00",
-  "text": "Marathon Petroleum is up 0.31% today and has gained 7.81% over the past two weeks\u2014a climb that tracks closely with rising oil prices and tightening global refining capacity. US crude hit $91.48 a barrel and refineries are running at 98% utilization, their highest operating rate, while diesel prices have hit record highs as Ukraine's strikes on Russian refineries and Iran sanctions have knocked out competing capacity. For a refiner like Marathon, higher crude prices and constrained competition mean wider profit margins on every gallon of fuel produced.\n\nThe geopolitical backdrop has shifted sharply in the refiner's favor. The U.S. deal with Venezuela, new EU sanctions on Iran, and military efforts to reopen the Strait of Hormuz all point toward sustained supply tightness\u2014conditions that benefit domestic U.S. refiners by reducing global competition and pushing product prices higher relative to crude costs. With storage inventories still modest (diesel particularly tight), the sector is priced for continued scarcity.",
+  "fetchedAt": "2026-09-06T11:55:39.170350+00:00",
+  "text": "Marathon Petroleum edged up 0.31% today to close at $388.90, extending a strong two-week rally of 7.8%. The gains reflect tightening global refining conditions: diesel has hit record highs due to Ukrainian strikes on Russian refineries and Iranian sanctions cutting off supply, while U.S. refineries are running at 98% capacity. For a major refiner like Marathon, this creates a favorable margin environment\u2014refineries make money by processing crude into products like diesel, and when product prices spike relative to crude costs, margins widen.\n\nThe broader geopolitical backdrop amplifies this benefit. Fresh sanctions on Iran (formalized by the EU and backed by military posturing to secure the Strait of Hormuz) and ongoing destruction of Russian refining capacity are removing competitive supply from global markets, pushing up refined product prices precisely when U.S. refiners can run at near-maximum rates to capture those higher margins.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 43,
-    "inputTokens": 40037,
-    "outputTokens": 9472,
-    "estimatedCostUsd": 0.087397,
-    "lastCallHour": "2026-09-06T07"
+    "callsThisMonth": 44,
+    "inputTokens": 40972,
+    "outputTokens": 9676,
+    "estimatedCostUsd": 0.089352,
+    "lastCallHour": "2026-09-06T11"
   }
 }
