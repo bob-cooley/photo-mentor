@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T11:55:23.321774+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, pulling back from yesterday's high of $137.20 after a week of gains. The decline came as crude oil prices softened slightly (US oil at $91.48/barrel, down from recent strength), and broader geopolitical tensions\u2014while supportive of energy prices overall\u2014appear to have created some uncertainty. Yesterday's diesel shortage story, driven by damaged refineries in Ukraine and Russia, had boosted the stock, but today's pullback suggests that short-term trade momentum reversed as the market digested those moves.\n\nThe longer-running backdrop remains mixed for oil majors: conflicts in Ukraine and the Middle East are disrupting refinery capacity and shipping routes (potentially supporting prices and refining margins), but Trump's newly announced Venezuela oil deal and the push toward geothermal alternatives hint at shifting energy policy that could reshape oil demand. Over two weeks, ConocoPhillips has been essentially flat, caught between these countervailing pressures.",
+  "fetchedAt": "2026-09-06T14:51:55.081189+00:00",
+  "text": "COP fell 1.1% today to $134.26, pulling back from a three-day rally that had lifted it to $137.20. The decline follows a sharp reversal in oil fundamentals: crude prices retreated this week even as diesel hit record highs due to refinery disruptions in Ukraine and Russia. With U.S. oil now trading around $91 per barrel\u2014down from the highs implied by the stock's recent peak\u2014the immediate tailwind from supply disruptions is fading, and the stock is correcting accordingly.\n\nThe longer arc here reflects real tension in energy markets right now. While ongoing warfare in Ukraine and Iran is genuinely knocking refineries offline and pushing fuel prices higher, a competing dynamic is emerging: the Trump administration's new Venezuela deal and a coordinated international squeeze on Iranian oil supply could increase global crude production over time, which would eventually weigh on prices. Oil refiners and producers are caught between near-term scarcity (driving profits now) and longer-term supply relief (which could hurt margins later). Today's pullback suggests investors are beginning to price in that second scenario.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 44,
-    "inputTokens": 38431,
-    "outputTokens": 9345,
-    "estimatedCostUsd": 0.085156,
-    "lastCallHour": "2026-09-06T11"
+    "callsThisMonth": 45,
+    "inputTokens": 39301,
+    "outputTokens": 9586,
+    "estimatedCostUsd": 0.087231,
+    "lastCallHour": "2026-09-06T14"
   }
 }

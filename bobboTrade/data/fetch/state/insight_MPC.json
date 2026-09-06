@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-06T11:55:39.170350+00:00",
-  "text": "Marathon Petroleum edged up 0.31% today to close at $388.90, extending a strong two-week rally of 7.8%. The gains reflect tightening global refining conditions: diesel has hit record highs due to Ukrainian strikes on Russian refineries and Iranian sanctions cutting off supply, while U.S. refineries are running at 98% capacity. For a major refiner like Marathon, this creates a favorable margin environment\u2014refineries make money by processing crude into products like diesel, and when product prices spike relative to crude costs, margins widen.\n\nThe broader geopolitical backdrop amplifies this benefit. Fresh sanctions on Iran (formalized by the EU and backed by military posturing to secure the Strait of Hormuz) and ongoing destruction of Russian refining capacity are removing competitive supply from global markets, pushing up refined product prices precisely when U.S. refiners can run at near-maximum rates to capture those higher margins.",
+  "fetchedAt": "2026-09-06T14:52:10.627199+00:00",
+  "text": "Marathon Petroleum is up modestly today as the stock continues a strong two-week rally\u2014jumping 7.81% since late August. The immediate driver is tightening global refining conditions: diesel prices hit record highs this week after Ukraine damaged Russian refineries and Russia banned diesel exports, while Iran tensions are escalating with new U.S. sanctions and threats of Iranian retaliation. For a refiner like Marathon, this scarcity pushes up the margins they earn on every barrel processed, especially on high-value diesel. U.S. refineries are already running at 98% capacity, leaving little room to ramp up production and capitalizing on these elevated prices.\n\nThe broader context amplifies this: the Strait of Hormuz\u2014through which roughly a third of the world's seaborne oil passes\u2014is under fresh geopolitical strain, and a major Venezuelan oil deal announced this week signals a shift in U.S. energy strategy that could reshape global supply dynamics. These structural tightnesses in the market, combined with oil prices holding firm above $91 per barrel domestically, are sustaining the kind of refining environment refiners have benefited from for weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 44,
-    "inputTokens": 40972,
-    "outputTokens": 9676,
-    "estimatedCostUsd": 0.089352,
-    "lastCallHour": "2026-09-06T11"
+    "callsThisMonth": 45,
+    "inputTokens": 41904,
+    "outputTokens": 9929,
+    "estimatedCostUsd": 0.091549,
+    "lastCallHour": "2026-09-06T14"
   }
 }
