@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T19:56:51.940504+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, extending a slide from its early-September peak of $137.20. The decline comes despite crude oil prices holding relatively firm (US crude at $91.48/barrel), suggesting the move reflects company-specific or refining-sector headwinds rather than a broad oil price collapse. The timing aligns with reports of diesel hitting record highs due to Ukrainian strikes on Russian refineries and geopolitical disruptions to Iran\u2014a potential signal that refining margins are tightening even as crude supplies face constraint.\n\nThe stock's retreat also tracks a week of modest volatility after Trump's Venezuela deal announcement and escalating Iran sanctions, which create conflicting signals for oil producers: potential new crude supply from Venezuela could weigh on prices, while tighter Iran sanctions and refinery disruptions elsewhere could support margins. For a major integrated producer like ConocoPhillips, these cross-currents leave near-term direction uncertain.",
+  "fetchedAt": "2026-09-06T21:58:03.726376+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, giving back some of Friday's gains after hitting a three-week high of $137.20 on Tuesday. The pullback reflects mixed signals in oil markets: while U.S. crude held steady around $91.50, global crude prices edged higher to $96, but the company faced headwinds from geopolitical developments that could actually weaken near-term oil demand\u2014specifically the new Trump administration deal to restore Venezuelan oil production, which would add supply to global markets over time and potentially cap price gains that have benefited the stock.\n\nThe broader energy sector is caught between two opposing forces. On one hand, refinery disruptions in Russia and Ukraine, plus the EU's formal entry into Iran sanctions and U.S. military efforts to secure shipping lanes, have pushed diesel to record highs and kept crude relatively firm. On the other hand, the Venezuela supply agreement signals a shift toward pragmatism over geopolitical conflict, which could mean more stable but lower-priced oil ahead\u2014a scenario that pressures integrated oil companies like ConocoPhillips even as it stabilizes energy markets.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 47,
-    "inputTokens": 41029,
-    "outputTokens": 10030,
-    "estimatedCostUsd": 0.091179,
-    "lastCallHour": "2026-09-06T19"
+    "callsThisMonth": 48,
+    "inputTokens": 41893,
+    "outputTokens": 10282,
+    "estimatedCostUsd": 0.093303,
+    "lastCallHour": "2026-09-06T21"
   }
 }

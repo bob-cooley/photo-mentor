@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-06T19:57:09.709178+00:00",
-  "text": "Marathon Petroleum has climbed 7.8% over two weeks, with today's modest gain continuing a steady uptrend since late August. The rally is rooted in tightening refinery margins: diesel prices have hit record highs as the Ukraine and Iran conflicts have knocked refineries offline globally, Ukraine is pounding Russian refineries forcing Moscow to ban diesel exports, and the U.S. has just brokered a Venezuela oil deal that shifts the geopolitical landscape. Refineries are running at 98% capacity domestically, meaning U.S. refiners like MPC can push margins wider when fuel supply is constrained abroad.\n\nThe broader context is one of sustained geopolitical disruption to global oil supply. Iran faces escalating tensions with the U.S., Russia's refinery capacity is under direct military pressure, and these shocks are keeping crude prices elevated\u2014Brent at $96 and WTI at $91\u2014while driving specific fuels like diesel to historic highs, which directly boosts refiner profitability.",
+  "fetchedAt": "2026-09-06T21:58:18.547058+00:00",
+  "text": "Marathon Petroleum stock gained nearly 8% over two weeks and added another 0.3% today, riding a sharp upward move since August 28th. The immediate backdrop is tightening refinery conditions: U.S. refineries are running at 98% capacity, and diesel prices hit record highs this week as Ukraine and Iran conflicts have knocked refineries offline globally\u2014including Russian facilities forced to halt exports. For a major U.S. refiner like this company, constrained supply and higher refined product prices translate directly to wider profit margins on what they produce and sell.\n\nGeopolitical escalation in the Middle East adds upside pressure. Intensifying sanctions on Iran, EU backing for these measures, and military positioning around the Strait of Hormuz all narrow the window for crude supply, keeping oil prices elevated (U.S. crude at $91/barrel, world crude at $96/barrel). Higher crude combined with refinery bottlenecks means refiners can charge more for gasoline and diesel relative to their input costs\u2014the engine of refining profits.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 47,
-    "inputTokens": 43756,
-    "outputTokens": 10385,
-    "estimatedCostUsd": 0.095681,
-    "lastCallHour": "2026-09-06T19"
+    "callsThisMonth": 48,
+    "inputTokens": 44682,
+    "outputTokens": 10616,
+    "estimatedCostUsd": 0.097762,
+    "lastCallHour": "2026-09-06T21"
   }
 }
