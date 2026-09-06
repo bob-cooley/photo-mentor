@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T21:58:03.726376+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, giving back some of Friday's gains after hitting a three-week high of $137.20 on Tuesday. The pullback reflects mixed signals in oil markets: while U.S. crude held steady around $91.50, global crude prices edged higher to $96, but the company faced headwinds from geopolitical developments that could actually weaken near-term oil demand\u2014specifically the new Trump administration deal to restore Venezuelan oil production, which would add supply to global markets over time and potentially cap price gains that have benefited the stock.\n\nThe broader energy sector is caught between two opposing forces. On one hand, refinery disruptions in Russia and Ukraine, plus the EU's formal entry into Iran sanctions and U.S. military efforts to secure shipping lanes, have pushed diesel to record highs and kept crude relatively firm. On the other hand, the Venezuela supply agreement signals a shift toward pragmatism over geopolitical conflict, which could mean more stable but lower-priced oil ahead\u2014a scenario that pressures integrated oil companies like ConocoPhillips even as it stabilizes energy markets.",
+  "fetchedAt": "2026-09-06T23:36:31.187588+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, pulling back after a four-day rally that had pushed the stock up nearly $7. The decline came as crude prices softened\u2014U.S. oil dropped to $91.48 per barrel\u2014even as geopolitical tensions remain elevated. News that the U.S. Energy Secretary says an Iran nuclear deal may not happen, combined with ongoing sanctions and military posturing around the Strait of Hormuz, sets a conflicted backdrop: tighter supply and higher risk premiums battle against near-term demand concerns.\n\nThe broader oil market is caught between two forces right now. Refinery disruptions in Ukraine and Russia have pushed diesel to record highs and tightened global fuel supply, which normally supports crude prices and integrated producers like ConocoPhillips. But sustained supply uncertainty and talk of possible U.S. intervention in Venezuela's oil sector\u2014a potential wildcard for supply\u2014may have tempered trader appetite for energy stocks today, especially after the stock had run hard in recent days.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 48,
-    "inputTokens": 41893,
-    "outputTokens": 10282,
-    "estimatedCostUsd": 0.093303,
-    "lastCallHour": "2026-09-06T21"
+    "callsThisMonth": 49,
+    "inputTokens": 42757,
+    "outputTokens": 10513,
+    "estimatedCostUsd": 0.095322,
+    "lastCallHour": "2026-09-06T23"
   }
 }
