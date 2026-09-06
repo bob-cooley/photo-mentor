@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T14:51:55.081189+00:00",
-  "text": "COP fell 1.1% today to $134.26, pulling back from a three-day rally that had lifted it to $137.20. The decline follows a sharp reversal in oil fundamentals: crude prices retreated this week even as diesel hit record highs due to refinery disruptions in Ukraine and Russia. With U.S. oil now trading around $91 per barrel\u2014down from the highs implied by the stock's recent peak\u2014the immediate tailwind from supply disruptions is fading, and the stock is correcting accordingly.\n\nThe longer arc here reflects real tension in energy markets right now. While ongoing warfare in Ukraine and Iran is genuinely knocking refineries offline and pushing fuel prices higher, a competing dynamic is emerging: the Trump administration's new Venezuela deal and a coordinated international squeeze on Iranian oil supply could increase global crude production over time, which would eventually weigh on prices. Oil refiners and producers are caught between near-term scarcity (driving profits now) and longer-term supply relief (which could hurt margins later). Today's pullback suggests investors are beginning to price in that second scenario.",
+  "fetchedAt": "2026-09-06T17:29:25.142459+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, reversing most of the sharp gains it made over the prior three trading days. The pullback came as oil prices eased slightly (U.S. crude at $91.48/barrel, down from the $137+ range the stock hit earlier this week), suggesting investors are taking profits after a strong run fueled by geopolitical supply concerns \u2014 particularly the diesel shortage driven by damaged refineries in Russia and Ukraine, and escalating U.S. sanctions pressure on Iran.\n\nThe broader context: major oil and energy companies like ConocoPhillips have benefited substantially from Middle East and Eastern Europe tensions that tighten global fuel supply, but today's modest pullback shows that benefit has limits. The Trump administration's Venezuela oil deal and ongoing efforts to choke Iranian exports are genuinely supportive for oil prices long-term, but the market digested those headlines earlier this week; today's retreat reflects a short-term consolidation rather than a reversal of the geopolitical tailwinds.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 45,
-    "inputTokens": 39301,
-    "outputTokens": 9586,
-    "estimatedCostUsd": 0.087231,
-    "lastCallHour": "2026-09-06T14"
+    "callsThisMonth": 46,
+    "inputTokens": 40165,
+    "outputTokens": 9816,
+    "estimatedCostUsd": 0.089245,
+    "lastCallHour": "2026-09-06T17"
   }
 }

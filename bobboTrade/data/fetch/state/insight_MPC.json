@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-06T14:52:10.627199+00:00",
-  "text": "Marathon Petroleum is up modestly today as the stock continues a strong two-week rally\u2014jumping 7.81% since late August. The immediate driver is tightening global refining conditions: diesel prices hit record highs this week after Ukraine damaged Russian refineries and Russia banned diesel exports, while Iran tensions are escalating with new U.S. sanctions and threats of Iranian retaliation. For a refiner like Marathon, this scarcity pushes up the margins they earn on every barrel processed, especially on high-value diesel. U.S. refineries are already running at 98% capacity, leaving little room to ramp up production and capitalizing on these elevated prices.\n\nThe broader context amplifies this: the Strait of Hormuz\u2014through which roughly a third of the world's seaborne oil passes\u2014is under fresh geopolitical strain, and a major Venezuelan oil deal announced this week signals a shift in U.S. energy strategy that could reshape global supply dynamics. These structural tightnesses in the market, combined with oil prices holding firm above $91 per barrel domestically, are sustaining the kind of refining environment refiners have benefited from for weeks.",
+  "fetchedAt": "2026-09-06T17:29:40.899412+00:00",
+  "text": "Marathon Petroleum stock rose 0.31% today in a market shaped by tightening global refinery capacity and elevated oil prices. U.S. crude is trading at $91.48 per barrel\u2014well above historical norms\u2014while diesel reached record highs this week as the Ukraine and Iran conflicts have knocked refineries offline, particularly in Russia. Refineries in the U.S. are running at 98% capacity, near their practical limit, which means tight supplies and strong prices for refined products like gasoline and diesel that Marathon produces and sells.\n\nThe broader backdrop has tightened significantly over the past two weeks: geopolitical escalation in the Middle East (with Iran sanctions intensifying and the U.S. pursuing a deal in Venezuela for oil supplies) has removed refining capacity from the global market, driving the 7.81% run-up in the stock since August 28th. For a refiner, this environment\u2014constrained supply, high crude prices, and refineries running flat out\u2014typically improves profit margins on the fuel they crack from crude oil.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 45,
-    "inputTokens": 41904,
-    "outputTokens": 9929,
-    "estimatedCostUsd": 0.091549,
-    "lastCallHour": "2026-09-06T14"
+    "callsThisMonth": 46,
+    "inputTokens": 42830,
+    "outputTokens": 10160,
+    "estimatedCostUsd": 0.09363,
+    "lastCallHour": "2026-09-06T17"
   }
 }
