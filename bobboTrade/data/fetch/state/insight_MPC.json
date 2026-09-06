@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-05T23:32:01.302085+00:00",
-  "text": "Marathon Petroleum's stock rose 0.3% today to close at $388.90, continuing a sharp 7.8% climb over the past two weeks. The gains follow a jump in global diesel prices to record highs, driven by geopolitical disruptions to refinery capacity in Ukraine and Russia \u2014 exactly the kind of tight supply environment that benefits a major U.S. refiner. U.S. refineries are running at 98% capacity right now, leaving little room to ramp up production, which means higher margins on every barrel processed as demand stays strong and supply from competitors dries up.\n\nThe broader backdrop amplifies this advantage: sanctions on Iran are expanding with EU backing, and supply chains for crude are being reshuffled following a U.S. deal with Venezuela, while diesel storage remains lean at 104 million barrels. These geopolitical headwinds are lifting refining margins globally, and MPC's domestic footprint shields it from some of the chaos hitting European and Asian refiners.",
+  "fetchedAt": "2026-09-06T02:44:02.112743+00:00",
+  "text": "Marathon Petroleum edged up 0.31% today to close at $388.90, capping a strong two-week rally of 7.81%. The stock has benefited from a combination of tight refining conditions: refineries are running at 98% capacity, diesel prices hit record highs this week as Ukraine and Iran conflicts knocked refineries offline, and U.S. crude is trading at $91.48 per barrel. These constraints tighten margins for refiners that can keep running, rewarding companies like this one with higher profits on fuel sales.\n\nThe broader tailwind is a tightening global energy market. Russia's ban on diesel exports, the closure of refineries due to ongoing conflicts, and now coordination between the U.S., EU, and South Korea on sanctions against Iran all point to sustained pressure on energy supply. A major new oil supply source from Venezuela under the Trump administration (announced yesterday) could eventually ease some of this pressure, but for now the refining sector faces sustained demand with constrained supply \u2014 a profitable backdrop for U.S. refiner margins over the coming months.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 41,
-    "inputTokens": 38167,
-    "outputTokens": 9012,
-    "estimatedCostUsd": 0.083227,
-    "lastCallHour": "2026-09-05T23"
+    "callsThisMonth": 42,
+    "inputTokens": 39102,
+    "outputTokens": 9248,
+    "estimatedCostUsd": 0.085342,
+    "lastCallHour": "2026-09-06T02"
   }
 }

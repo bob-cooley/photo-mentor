@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-05T23:31:48.001414+00:00",
-  "text": "ConocoPhillips fell 1.08% today after climbing steeply over the prior three trading days. The decline follows a record diesel price spike driven by refinery shutdowns in Ukraine and Russia, combined with escalating geopolitical tension in the Middle East\u2014specifically EU sanctions on Iran and South Korea weighing military involvement to keep the Strait of Hormuz open. While higher oil prices typically benefit producers like COP, the refinery disruptions and geopolitical friction appear to have triggered a pullback in energy stocks today, and the stock has given back some of its recent gains.\n\nCrude prices remain elevated (US oil at $91.48/barrel), but the situation is mixed for an integrated oil company: refinery constraints abroad support margins on the crude they pump, yet Middle East tensions and sanctions create unpredictability that can spook investors seeking stability.",
+  "fetchedAt": "2026-09-06T02:43:48.357384+00:00",
+  "text": "ConocoPhillips fell 1.1% today, erasing gains from the past two days and retreating from last week's peak. The decline comes as crude oil prices eased slightly (US crude at $91.48/barrel, down from the $136+ levels that boosted the stock early in the week), even as geopolitical tensions in the Middle East and Eastern Europe remain acute. A major Trump administration deal to increase Venezuelan oil production could add supply to the market over time, which may be weighing on near-term prices and investor sentiment toward U.S. oil majors.\n\nThe longer backdrop matters here: while refinery disruptions from wars in Ukraine and Iran are pushing diesel to record highs, increased Venezuelan supply\u2014combined with the potential for more crude flowing to global markets\u2014creates conflicting pressures on oil majors' stock prices. ConocoPhillips benefits from higher crude prices, but sustained supply growth could moderate the upside.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 41,
-    "inputTokens": 35812,
-    "outputTokens": 8718,
-    "estimatedCostUsd": 0.079402,
-    "lastCallHour": "2026-09-05T23"
+    "callsThisMonth": 42,
+    "inputTokens": 36685,
+    "outputTokens": 8924,
+    "estimatedCostUsd": 0.081305,
+    "lastCallHour": "2026-09-06T02"
   }
 }
