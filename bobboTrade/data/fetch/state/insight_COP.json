@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-07T21:27:52.756155+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, giving back some of the sharp gains it posted earlier this week when oil prices spiked to six-week highs following renewed Iran-U.S. military tensions. The stock had climbed nearly $7 from last Thursday through Tuesday as crude rose, but pulled back today even though oil remains elevated\u2014suggesting some profit-taking after a strong run rather than a fresh negative catalyst.\n\nThe broader oil market remains supported by geopolitical risk (Iran-Saudi tensions, U.S. military involvement), and the Trump administration's Venezuela deal could eventually boost crude supply; but the stock's retreat after a four-day rally is a normal consolidation pattern when energy gains have been steep and fast.",
+  "fetchedAt": "2026-09-07T23:40:27.800027+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, giving back some of last week's gains after hitting $137.20 on September 2nd. The decline comes despite oil prices holding firm\u2014US crude at $91.48 and world oil at $96.02\u2014suggesting the stock move reflects profit-taking rather than a broad energy selloff. Over the past week, the stock has been volatile, climbing sharply early in the week before pulling back the last two trading days.\n\nThe backdrop of escalating Iran-U.S. tensions and record gasoline prices\u2014over $4 per gallon for Labor Day\u2014had lifted energy stocks earlier this week, but today's pullback may reflect investors locking in gains after that rally, or caution ahead of the Labor Day holiday week when trading volumes often thin out.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 54,
-    "inputTokens": 47054,
-    "outputTokens": 11597,
-    "estimatedCostUsd": 0.105039,
-    "lastCallHour": "2026-09-07T21"
+    "callsThisMonth": 55,
+    "inputTokens": 47913,
+    "outputTokens": 11780,
+    "estimatedCostUsd": 0.106813,
+    "lastCallHour": "2026-09-07T23"
   }
 }
