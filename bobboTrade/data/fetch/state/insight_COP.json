@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-07T13:56:50.717689+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, extending a decline from its peak of $137.20 just two trading days ago. The pullback comes as crude oil prices have softened slightly\u2014U.S. oil dropped to $91.48 per barrel from around $96 globally\u2014suggesting some retreat from the geopolitical premium that had driven the stock higher earlier in the week. While gasoline and diesel prices remain at record levels due to refinery disruptions from the Ukraine and Iran conflicts, the stabilization in crude prices has eased some of the immediate supply shock that was lifting energy stocks.\n\nThe broader picture shows oil markets caught between competing forces: real refinery outages and war-driven supply losses supporting fuel prices, but also new U.S. diplomatic moves (the Venezuela deal) and talk of renewable alternatives (geothermal projects) that may be capping how high crude can go. For an integrated oil company like ConocoPhillips, higher crude generally helps refining margins, but investor sentiment can shift quickly when geopolitical headlines suggest long-term structural changes to global energy supply.",
+  "fetchedAt": "2026-09-07T18:04:36.969620+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, continuing a pullback from its recent peak of $137.20 two days ago. The decline comes despite oil prices holding firm\u2014US crude at $91.48 and world oil at $96.02\u2014suggesting the stock's weakness reflects profit-taking after a sharp rally rather than deteriorating fundamentals in the energy market itself. Over the past week, the stock has swung between gains and losses as traders weigh competing signals.\n\nThe broader context is mixed for oil majors. While geopolitical tensions between Iran and the U.S. have pushed crude prices to six-week highs and gasoline has hit record levels above $4 per gallon, those same elevated pump prices fuel political pressure and consumer pushback\u2014forces that can weigh on energy stocks over time. The Trump administration's new Venezuela oil deal and ongoing Middle East friction keep crude supported, but the stock's recent volatility suggests investors are uncertain whether these price gains will stick or whether energy demand might soften.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 52,
-    "inputTokens": 45336,
-    "outputTokens": 11205,
-    "estimatedCostUsd": 0.101361,
-    "lastCallHour": "2026-09-07T13"
+    "callsThisMonth": 53,
+    "inputTokens": 46195,
+    "outputTokens": 11432,
+    "estimatedCostUsd": 0.103355,
+    "lastCallHour": "2026-09-07T18"
   }
 }
