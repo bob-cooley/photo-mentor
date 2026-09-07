@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-07T07:52:38.526838+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, continuing a pullback from last week's peak of $137.20. The decline comes as crude oil prices softened\u2014U.S. oil dropped to $91.48 per barrel\u2014suggesting weaker near-term demand or supply relief concerns, even as diesel prices remain elevated due to ongoing refinery disruptions from the Ukraine and Iran conflicts. The stock has given back about $3 per share over the past three trading sessions after climbing sharply earlier in the week.\n\nThe broader geopolitical backdrop remains supportive for oil producers in the longer run: new U.S. sanctions on Iran, potential supply constraints from Russian refinery damage, and efforts to stabilize the Strait of Hormuz all underpin tighter crude markets. Today's modest pullback appears more tactical\u2014a natural correction after a strong rally\u2014rather than a shift in the structural factors that have kept energy prices elevated.",
+  "fetchedAt": "2026-09-07T13:56:50.717689+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, extending a decline from its peak of $137.20 just two trading days ago. The pullback comes as crude oil prices have softened slightly\u2014U.S. oil dropped to $91.48 per barrel from around $96 globally\u2014suggesting some retreat from the geopolitical premium that had driven the stock higher earlier in the week. While gasoline and diesel prices remain at record levels due to refinery disruptions from the Ukraine and Iran conflicts, the stabilization in crude prices has eased some of the immediate supply shock that was lifting energy stocks.\n\nThe broader picture shows oil markets caught between competing forces: real refinery outages and war-driven supply losses supporting fuel prices, but also new U.S. diplomatic moves (the Venezuela deal) and talk of renewable alternatives (geothermal projects) that may be capping how high crude can go. For an integrated oil company like ConocoPhillips, higher crude generally helps refining margins, but investor sentiment can shift quickly when geopolitical headlines suggest long-term structural changes to global energy supply.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 51,
-    "inputTokens": 44485,
-    "outputTokens": 10960,
-    "estimatedCostUsd": 0.099285,
-    "lastCallHour": "2026-09-07T07"
+    "callsThisMonth": 52,
+    "inputTokens": 45336,
+    "outputTokens": 11205,
+    "estimatedCostUsd": 0.101361,
+    "lastCallHour": "2026-09-07T13"
   }
 }
