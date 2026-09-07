@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-07T02:42:08.140827+00:00",
-  "text": "Marathon Petroleum stock rose 0.31% today to close at $388.90, extending a strong two-week run of nearly 8%. The gains reflect a tightening refining environment: refineries are running at 98% capacity, diesel inventories are at historically low levels, and diesel prices have hit record highs as conflicts in Ukraine and Iran have knocked Russian refineries offline. For a U.S. refiner, constrained global supply and high product prices mean stronger margins on fuel they produce and sell.\n\nThe broader backdrop amplifies this. Geopolitical escalation \u2014 Iran sanctions intensifying, the war in Ukraine worsening, and moves to control the Strait of Hormuz \u2014 is crimping global oil refining capacity precisely when U.S. refiners have the room to run hard. With oil at $91\u201396 a barrel and storage levels relatively balanced, the refining sector is positioned to benefit from the supply-demand mismatch in refined products.",
+  "fetchedAt": "2026-09-07T07:52:55.624313+00:00",
+  "text": "MPC gained about 0.3% today, extending a strong two-week rally of 7.8%. The stock has risen steadily as diesel prices hit record highs due to refinery disruptions from the Ukraine and Iran conflicts, while U.S. refineries are running at 98% capacity\u2014near maximum utilization. For a refiner like MPC, higher diesel prices and tight supply mean wider profit margins on fuel production, which directly boosts earnings.\n\nThe broader backdrop strengthens this tailwind: geopolitical tensions are knocking refineries offline globally (Ukraine hitting Russian facilities, Iran sanctions limiting output), and the U.S. has just secured a Venezuela oil deal that could reshape hemispheric energy flows. These supply constraints keep refineries profitable even as crude oil sits around $91\u201396 per barrel, because the gap between crude costs and finished fuel prices\u2014the margin refiners pocket\u2014has widened sharply.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 50,
-    "inputTokens": 46534,
-    "outputTokens": 11039,
-    "estimatedCostUsd": 0.101729,
-    "lastCallHour": "2026-09-07T02"
+    "callsThisMonth": 51,
+    "inputTokens": 47460,
+    "outputTokens": 11238,
+    "estimatedCostUsd": 0.10365,
+    "lastCallHour": "2026-09-07T07"
   }
 }

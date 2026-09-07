@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-07T02:41:48.036767+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, giving back some of the gains from earlier in the week. The decline comes as crude oil prices pulled back\u2014U.S. oil dropped to $91.48 per barrel from the $96+ range seen globally\u2014and broader geopolitical headlines shifted focus. While conflicts in Ukraine and Iran continue to disrupt refinery capacity and push diesel prices higher, the immediate driver today appears to be profit-taking after the stock rallied over 4% from late August through early September.\n\nThe longer context here is tension between two forces: supply-side pressures from refinery shutdowns in Russia and potential Iran production losses that support energy prices, versus signs that escalating sanctions and military involvement (South Korea now weighing action at the Strait of Hormuz) may be pricing in either resolution of those conflicts or hedging bets on oil demand if regional instability deepens further. For a refiner and upstream producer like ConocoPhillips, the benefit of higher crude prices can be offset by uncertainty about where geopolitical risk resolves.",
+  "fetchedAt": "2026-09-07T07:52:38.526838+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, continuing a pullback from last week's peak of $137.20. The decline comes as crude oil prices softened\u2014U.S. oil dropped to $91.48 per barrel\u2014suggesting weaker near-term demand or supply relief concerns, even as diesel prices remain elevated due to ongoing refinery disruptions from the Ukraine and Iran conflicts. The stock has given back about $3 per share over the past three trading sessions after climbing sharply earlier in the week.\n\nThe broader geopolitical backdrop remains supportive for oil producers in the longer run: new U.S. sanctions on Iran, potential supply constraints from Russian refinery damage, and efforts to stabilize the Strait of Hormuz all underpin tighter crude markets. Today's modest pullback appears more tactical\u2014a natural correction after a strong rally\u2014rather than a shift in the structural factors that have kept energy prices elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 50,
-    "inputTokens": 43621,
-    "outputTokens": 10752,
-    "estimatedCostUsd": 0.097381,
-    "lastCallHour": "2026-09-07T02"
+    "callsThisMonth": 51,
+    "inputTokens": 44485,
+    "outputTokens": 10960,
+    "estimatedCostUsd": 0.099285,
+    "lastCallHour": "2026-09-07T07"
   }
 }
