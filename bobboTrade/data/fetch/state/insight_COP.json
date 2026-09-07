@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-06T23:36:31.187588+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $134.26, pulling back after a four-day rally that had pushed the stock up nearly $7. The decline came as crude prices softened\u2014U.S. oil dropped to $91.48 per barrel\u2014even as geopolitical tensions remain elevated. News that the U.S. Energy Secretary says an Iran nuclear deal may not happen, combined with ongoing sanctions and military posturing around the Strait of Hormuz, sets a conflicted backdrop: tighter supply and higher risk premiums battle against near-term demand concerns.\n\nThe broader oil market is caught between two forces right now. Refinery disruptions in Ukraine and Russia have pushed diesel to record highs and tightened global fuel supply, which normally supports crude prices and integrated producers like ConocoPhillips. But sustained supply uncertainty and talk of possible U.S. intervention in Venezuela's oil sector\u2014a potential wildcard for supply\u2014may have tempered trader appetite for energy stocks today, especially after the stock had run hard in recent days.",
+  "fetchedAt": "2026-09-07T02:41:48.036767+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $134.26, giving back some of the gains from earlier in the week. The decline comes as crude oil prices pulled back\u2014U.S. oil dropped to $91.48 per barrel from the $96+ range seen globally\u2014and broader geopolitical headlines shifted focus. While conflicts in Ukraine and Iran continue to disrupt refinery capacity and push diesel prices higher, the immediate driver today appears to be profit-taking after the stock rallied over 4% from late August through early September.\n\nThe longer context here is tension between two forces: supply-side pressures from refinery shutdowns in Russia and potential Iran production losses that support energy prices, versus signs that escalating sanctions and military involvement (South Korea now weighing action at the Strait of Hormuz) may be pricing in either resolution of those conflicts or hedging bets on oil demand if regional instability deepens further. For a refiner and upstream producer like ConocoPhillips, the benefit of higher crude prices can be offset by uncertainty about where geopolitical risk resolves.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 49,
-    "inputTokens": 42757,
-    "outputTokens": 10513,
-    "estimatedCostUsd": 0.095322,
-    "lastCallHour": "2026-09-06T23"
+    "callsThisMonth": 50,
+    "inputTokens": 43621,
+    "outputTokens": 10752,
+    "estimatedCostUsd": 0.097381,
+    "lastCallHour": "2026-09-07T02"
   }
 }
