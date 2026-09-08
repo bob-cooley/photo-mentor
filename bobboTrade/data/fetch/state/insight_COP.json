@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-08T20:39:51.413232+00:00",
-  "text": "ConocoPhillips ticked up 0.59% to $135.05 today as oil prices surged on escalating U.S.-Iran tensions in the Middle East. Reports of Iranian attacks on U.S. Navy ships pushed crude oil toward $99 a barrel\u2014a 6-week high\u2014and energy companies like ConocoPhillips benefit when oil prices rise, since higher crude translates directly to stronger margins and revenue for producers.\n\nThe stock remains up modestly over two weeks despite the volatility of the last few trading days, reflecting how geopolitical risk in the Middle East supports energy sector strength. With the Strait of Hormuz\u2014a critical chokepoint for global oil shipping\u2014at the center of U.S.-Iran tensions, any disruption to supply keeps upward pressure on prices and supports oil majors' profitability.",
+  "fetchedAt": "2026-09-08T22:04:12.271653+00:00",
+  "text": "ConocoPhillips edged up 0.58% today as oil prices climbed to a 6-week high following escalating military tensions between the U.S. and Iran in the Middle East over the weekend. Global crude hit $96 per barrel, driven by reports of Iranian attacks on U.S. Navy ships and strikes on Saudi Aramco facilities \u2014 events that tighten supply concerns and lift the outlook for oil producers' profits.\n\nThe stock has gained 1.27% over the past two weeks as these geopolitical risks have accumulated. Energy companies typically benefit when oil prices rise because higher crude values translate directly to stronger margins and cash flow, especially for integrated producers like ConocoPhillips that both drill and refine.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 60,
-    "inputTokens": 52231,
-    "outputTokens": 12809,
-    "estimatedCostUsd": 0.116276,
-    "lastCallHour": "2026-09-08T20"
+    "callsThisMonth": 61,
+    "inputTokens": 53100,
+    "outputTokens": 12971,
+    "estimatedCostUsd": 0.117955,
+    "lastCallHour": "2026-09-08T22"
   }
 }

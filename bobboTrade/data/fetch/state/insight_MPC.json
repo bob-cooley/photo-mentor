@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-08T20:40:05.748554+00:00",
-  "text": "Marathon Petroleum shares rose 2.3% today as oil prices climbed to a 6-week high following escalating military tensions between Iran and the U.S. in the Middle East. Reports of Iranian attacks on U.S. Navy ships pushed crude oil toward $99 per barrel, and with U.S. refineries already running at 98% capacity, higher oil prices translate directly into stronger margins for refiners\u2014the profit they make by turning crude into gasoline and diesel.\n\nThis move extends a sharp week-long rally; the stock is up nearly 10% since late August. Geopolitical risk premiums in oil prices, combined with tight refinery utilization rates and lean fuel inventories, create the conditions where refiner profits tend to expand\u2014a dynamic that's been rewarding MPC shareholders as the conflict risks keep energy markets on edge.",
+  "fetchedAt": "2026-09-08T22:04:31.391823+00:00",
+  "text": "Marathon Petroleum stock rose 2.3% today as oil prices climbed to a 6-week high following escalating tensions between Iran and the U.S. in the Middle East. Crude jumped above $99 a barrel after reports of Iranian attacks on U.S. Navy ships, and refineries across the country are running at 98% capacity \u2014 near maximum utilization. For a refiner like Marathon, higher oil prices combined with full-throttle operations mean stronger profit margins on the fuel they produce and sell.\n\nThe stock has gained nearly 10% over the past two weeks as these geopolitical risks have built up and energy markets have tightened. With oil storage levels relatively modest and demand steady, the refining sector benefits when crude gets more expensive and production constraints limit supply.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 60,
-    "inputTokens": 55778,
-    "outputTokens": 12991,
-    "estimatedCostUsd": 0.120733,
-    "lastCallHour": "2026-09-08T20"
+    "callsThisMonth": 61,
+    "inputTokens": 56707,
+    "outputTokens": 13161,
+    "estimatedCostUsd": 0.122512,
+    "lastCallHour": "2026-09-08T22"
   }
 }
