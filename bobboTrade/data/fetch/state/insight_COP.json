@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-08T22:04:12.271653+00:00",
-  "text": "ConocoPhillips edged up 0.58% today as oil prices climbed to a 6-week high following escalating military tensions between the U.S. and Iran in the Middle East over the weekend. Global crude hit $96 per barrel, driven by reports of Iranian attacks on U.S. Navy ships and strikes on Saudi Aramco facilities \u2014 events that tighten supply concerns and lift the outlook for oil producers' profits.\n\nThe stock has gained 1.27% over the past two weeks as these geopolitical risks have accumulated. Energy companies typically benefit when oil prices rise because higher crude values translate directly to stronger margins and cash flow, especially for integrated producers like ConocoPhillips that both drill and refine.",
+  "fetchedAt": "2026-09-08T23:09:55.768717+00:00",
+  "text": "ConocoPhillips edged up 0.58% today as oil prices climbed on escalating U.S.-Iran tensions in the Middle East. Reports of Iran launching a second undisclosed attack on U.S. Navy ships and tit-for-tat strikes over the weekend pushed crude toward a 6-week high, with world oil prices at $96.02 per barrel\u2014up significantly from earlier in the week when the stock was trading lower.\n\nThe stock has recovered most of its losses from earlier this week, gaining 1.27% over two weeks as geopolitical risk to Middle East oil supplies has built a floor under energy prices. However, today's modest gain suggests the market is already pricing in most of the risk premium from these tensions; oil would need to climb substantially higher or the conflict would need to directly disrupt major production to drive a stronger rally for the company.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 61,
-    "inputTokens": 53100,
-    "outputTokens": 12971,
-    "estimatedCostUsd": 0.117955,
-    "lastCallHour": "2026-09-08T22"
+    "callsThisMonth": 62,
+    "inputTokens": 53969,
+    "outputTokens": 13164,
+    "estimatedCostUsd": 0.119789,
+    "lastCallHour": "2026-09-08T23"
   }
 }
