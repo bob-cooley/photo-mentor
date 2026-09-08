@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-08T03:26:42.571726+00:00",
-  "text": "Marathon Petroleum edged up 0.31% today to close at $388.90, continuing a strong two-week rally that has seen the stock climb 7.81%. The gains reflect escalating Middle East tensions\u2014specifically renewed military exchanges between the U.S. and Iran over the past few days that have pushed crude oil prices to six-week highs and sent gasoline to record levels for Labor Day. For a refiner like Marathon, higher crude and product prices typically expand refining margins, and U.S. refineries are running at 98% capacity, leaving little room to boost output but plenty of room to benefit from elevated pricing.\n\nThe broader tailwind is straightforward: geopolitical risk premiums are building into oil prices as the conflict heats up, and refiners are positioned to profit when crude rises faster than they can pass costs through to customers. With oil inventories moderate and gasoline prices already at historic highs, the market is pricing in sustained demand and margin strength for companies that turn crude into fuel.",
+  "fetchedAt": "2026-09-08T13:17:23.712788+00:00",
+  "text": "Marathon Petroleum's stock has drifted up 0.31% today, capping a strong two-week gain of 7.81%. The move reflects a broader rally driven by Middle East tensions \u2014 escalating strikes between the U.S. and Iran have pushed crude oil prices to six-week highs, with Brent nearing $100 per barrel. For a refiner like Marathon, higher crude prices often support margins when refineries are running near capacity, which they are at 98%, and the company can pass costs through to gasoline and diesel sales already hitting record prices at the pump.\n\nThe refiner's sustained momentum over the past week aligns with tightening oil markets and strong refinery utilization. With crude inventories at 711 million barrels and gasoline storage relatively tight at 206 million barrels, the supply-demand dynamic favors active refiners converting expensive crude into finished products consumers need to buy regardless of price.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 56,
-    "inputTokens": 52056,
-    "outputTokens": 12220,
-    "estimatedCostUsd": 0.113156,
-    "lastCallHour": "2026-09-08T03"
+    "callsThisMonth": 57,
+    "inputTokens": 52993,
+    "outputTokens": 12425,
+    "estimatedCostUsd": 0.115118,
+    "lastCallHour": "2026-09-08T13"
   }
 }
