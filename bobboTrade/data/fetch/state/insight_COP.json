@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-08T17:03:18.713574+00:00",
-  "text": "ConocoPhillips edged up 0.22% today in a flat-to-down session, even as oil prices spiked to six-week highs on escalating Middle East tensions\u2014Iran's Houthi allies attacked Saudi energy facilities, pushing Brent crude above $98 a barrel. For an oil producer, this should typically be a tailwind, but the stock gave back most of yesterday's $1.48 jump, suggesting investors may have already priced in the supply-shock premium over the past few trading days.\n\nThe broader move higher over the past two weeks (+0.91%) aligns with the oil price climb and geopolitical anxiety in the region, which tends to support commodity-linked equities. However, today's muted reaction despite the news headlines hints that markets may be weighing competing factors\u2014perhaps caution about how sustained these tensions will remain, or how quickly they could de-escalate.",
+  "fetchedAt": "2026-09-08T19:52:37.294481+00:00",
+  "text": "ConocoPhillips edged up 0.59% today to $135.05, holding most of last week's gains despite a small pullback from Friday's $137.20 high. The modest move reflects a crosscurrent: oil prices spiked to six-week highs on escalating U.S.-Iran tensions and reported attacks on Saudi energy facilities, pushing Brent crude toward $98 a barrel, which should support an oil producer's earnings outlook. However, that positive news appears already largely priced in from earlier in the week, when the stock jumped 3.7% from Sunday's open through Tuesday.\n\nThe geopolitical risk premium that drove oil higher\u2014repeated strikes between the U.S. and Iran over the weekend, plus Houthi attacks on Saudi facilities\u2014remains in place and could keep crude elevated. For a major oil producer, higher oil prices are directly bullish, though today's flat finish suggests the market is waiting to see whether these tensions escalate further or de-escalate.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 58,
-    "inputTokens": 50495,
-    "outputTokens": 12400,
-    "estimatedCostUsd": 0.112495,
-    "lastCallHour": "2026-09-08T17"
+    "callsThisMonth": 59,
+    "inputTokens": 51364,
+    "outputTokens": 12621,
+    "estimatedCostUsd": 0.114469,
+    "lastCallHour": "2026-09-08T19"
   }
 }
