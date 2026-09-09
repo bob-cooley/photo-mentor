@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-09T07:51:02.847960+00:00",
-  "text": "Marathon Petroleum stock gained 2.3% today as oil prices approached $100 per barrel amid escalating U.S.-Iran tensions in the Middle East. The geopolitical flare-up has stoked concerns about potential supply disruptions, and refineries are running at 98% capacity \u2014 near maximum \u2014 which means higher crude costs feed more directly into refinery margins and profits. The stock is up nearly 10% over the past two weeks as this crisis has unfolded.\n\nRefinery operators like Marathon benefit when crude oil prices rise in a supply-constrained environment because they can still sell gasoline and diesel at premium prices. With refineries already running flat-out and crude becoming scarcer and pricier due to Middle East risk, the margin between what they pay for oil and what they get for refined products widens \u2014 a straightforward tailwind for the business.",
+  "fetchedAt": "2026-09-09T17:03:23.779311+00:00",
+  "text": "Marathon Petroleum stock rose 0.4% today to $399.41, continuing a strong two-week rally of over 12%. The move reflects crude oil prices climbing sharply\u2014Brent crude topped $101 per barrel for the first time since July as escalating U.S.-Iran tensions and military strikes in the Persian Gulf sparked concern over potential disruptions to Middle East energy supplies. Refineries are running at 98% capacity with tight inventory levels across gasoline and diesel, which amplifies the benefit to refiners when crude costs rise faster than product prices.\n\nThe broader tailwind here is that oil refining operates on the spread between what they pay for crude and what they sell refined products for\u2014when crude prices spike on geopolitical risk but refined product demand and pricing don't fall equally fast, refiners' profit margins expand. With refineries already running near full capacity and storage levels lean, MPC is positioned to capture more of these margin gains as the region remains unstable.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 64,
-    "inputTokens": 59503,
-    "outputTokens": 13777,
-    "estimatedCostUsd": 0.128388,
-    "lastCallHour": "2026-09-09T07"
+    "callsThisMonth": 65,
+    "inputTokens": 60429,
+    "outputTokens": 13988,
+    "estimatedCostUsd": 0.130369,
+    "lastCallHour": "2026-09-09T17"
   }
 }
