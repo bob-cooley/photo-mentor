@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-09T21:58:11.562337+00:00",
-  "text": "Marathon Petroleum's stock rose 0.4% today and has climbed 12.5% over two weeks as oil prices have surged on escalating U.S.-Iran tensions in the Persian Gulf. Brent crude topped $101 a barrel today\u2014its highest since May\u2014driven by concerns that the conflict could disrupt Middle East energy supplies. For a refiner like Marathon, higher crude prices typically compress profit margins (the difference between what it costs to buy oil and what it can sell refined products for), but refineries running at 98% capacity mean strong demand for fuel, which helps offset that pressure.\n\nThe broader environment is working in Marathon's favor right now: U.S. oil storage remains relatively stable at 711 million barrels, and gasoline in storage is moderate at 206 million barrels, suggesting steady consumption without a glut that would depress prices further. The geopolitical premium built into oil prices\u2014with no resolution in sight until after midterm elections, according to recent political commentary\u2014may keep crude elevated enough to sustain refinery utilization at these high levels.",
+  "fetchedAt": "2026-09-09T22:14:36.222201+00:00",
+  "text": "Marathon Petroleum gained 0.42% today as oil prices climbed to their highest levels since May, with Brent crude topping $101 a barrel. The rally reflects escalating U.S.-Iran tensions in the Persian Gulf, which have sparked fears of supply disruptions\u2014a major tailwind for refiners, since higher crude prices typically boost their margins when they can process that oil into products like gasoline and diesel. U.S. refineries are already running at 98% capacity, positioning the company to benefit from the tighter energy market.\n\nThe stock's 12.56% gain over two weeks mirrors the broader oil rally tied to geopolitical friction, not company-specific news. Refinery utilization at near-maximum levels and relatively low inventory across crude, gasoline, and diesel all point to a tight market where a refiner's ability to turn crude into sellable products becomes more valuable in a higher-price environment.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 67,
-    "inputTokens": 62267,
-    "outputTokens": 14426,
-    "estimatedCostUsd": 0.134397,
-    "lastCallHour": "2026-09-09T21"
+    "callsThisMonth": 68,
+    "inputTokens": 63185,
+    "outputTokens": 14628,
+    "estimatedCostUsd": 0.136325,
+    "lastCallHour": "2026-09-09T22"
   }
 }
