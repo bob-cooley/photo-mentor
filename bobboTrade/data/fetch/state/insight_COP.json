@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-09T19:41:40.780320+00:00",
-  "text": "ConocoPhillips rose 1.5% today as crude oil prices climbed to their highest levels since May, with Brent crude topping $101 a barrel. The driver was escalating military tensions between the U.S. and Iran in the Persian Gulf, which has raised concerns about disruptions to Middle East oil supplies \u2014 a direct tailwind for an oil producer whose profits rise when crude prices rise.\n\nThe stock's 4% gain over the past two weeks reflects this same geopolitical backdrop. With Trump publicly stating that energy prices won't fall until after the midterm elections, markets are pricing in an extended period of elevated oil costs, which supports both the crude price and producers' cash flows from selling it.",
+  "fetchedAt": "2026-09-09T21:57:56.484487+00:00",
+  "text": "ConocoPhillips rose 1.13% today as global oil prices climbed to their highest levels in months on escalating geopolitical tensions in the Middle East. Brent crude topped $101 per barrel\u2014the highest since May\u2014driven by reports of intensifying conflict between the U.S. and Iran, including allegations of Iranian attacks on U.S. Navy ships and strikes on Saudi energy infrastructure. Higher oil prices directly support the earnings outlook for major oil producers like ConocoPhillips.\n\nThe stock's 3.6% gain over the past two weeks reflects a broader rally in the energy sector tied to these supply concerns. President Trump's comments today that oil prices won't ease until after the midterm elections add another layer of support to the narrative that elevated energy prices may persist in the near term, underpinning demand for the company's output.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 66,
-    "inputTokens": 57438,
-    "outputTokens": 13894,
-    "estimatedCostUsd": 0.126908,
-    "lastCallHour": "2026-09-09T19"
+    "callsThisMonth": 67,
+    "inputTokens": 58298,
+    "outputTokens": 14081,
+    "estimatedCostUsd": 0.128703,
+    "lastCallHour": "2026-09-09T21"
   }
 }

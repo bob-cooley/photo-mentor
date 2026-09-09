@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-09T19:42:06.111257+00:00",
-  "text": "Marathon Petroleum climbed 0.7% today to $400.59, extending a nearly 13% surge over two weeks as oil prices spiked on Middle East tensions. Brent crude topped $101 a barrel today\u2014its highest since May\u2014driven by escalating U.S.-Iran conflict and fears of supply disruptions. For a refiner like Marathon, higher crude prices can initially squeeze margins, but the company benefits when oil stays elevated because it locks in higher prices for the refined products (gasoline and diesel) it sells, and U.S. refineries are running at 98% capacity with relatively tight fuel inventories, limiting spare production to absorb price swings.\n\nThe broader geopolitical risk is supporting the entire energy complex right now. With President Trump publicly stating energy prices won't fall until after the midterm elections, markets are pricing in sustained elevated crude levels, which keeps refiners' margins healthy even as input costs rise.",
+  "fetchedAt": "2026-09-09T21:58:11.562337+00:00",
+  "text": "Marathon Petroleum's stock rose 0.4% today and has climbed 12.5% over two weeks as oil prices have surged on escalating U.S.-Iran tensions in the Persian Gulf. Brent crude topped $101 a barrel today\u2014its highest since May\u2014driven by concerns that the conflict could disrupt Middle East energy supplies. For a refiner like Marathon, higher crude prices typically compress profit margins (the difference between what it costs to buy oil and what it can sell refined products for), but refineries running at 98% capacity mean strong demand for fuel, which helps offset that pressure.\n\nThe broader environment is working in Marathon's favor right now: U.S. oil storage remains relatively stable at 711 million barrels, and gasoline in storage is moderate at 206 million barrels, suggesting steady consumption without a glut that would depress prices further. The geopolitical premium built into oil prices\u2014with no resolution in sight until after midterm elections, according to recent political commentary\u2014may keep crude elevated enough to sustain refinery utilization at these high levels.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 66,
-    "inputTokens": 61348,
-    "outputTokens": 14191,
-    "estimatedCostUsd": 0.132303,
-    "lastCallHour": "2026-09-09T19"
+    "callsThisMonth": 67,
+    "inputTokens": 62267,
+    "outputTokens": 14426,
+    "estimatedCostUsd": 0.134397,
+    "lastCallHour": "2026-09-09T21"
   }
 }
