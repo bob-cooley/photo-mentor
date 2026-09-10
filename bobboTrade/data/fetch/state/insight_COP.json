@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-09T22:14:16.902527+00:00",
-  "text": "ConocoPhillips rose 1.1% today as oil prices climbed to their highest levels in months amid escalating U.S.-Iran tensions. Brent crude topped $101 a barrel\u2014the strongest close since May\u2014driven by concerns that fighting in the Persian Gulf could disrupt Middle East energy supplies. As an oil producer, ConocoPhillips benefits directly when crude prices rise, since higher oil commands better margins and revenue.\n\nThe stock's 3.6% gain over two weeks mirrors the broader rally in energy prices as geopolitical risk has mounted. With political uncertainty expected to keep energy elevated through the midterm elections, oil-dependent companies like this one remain supported by the price environment\u2014though that same political backdrop also adds unpredictability to the outlook.",
+  "fetchedAt": "2026-09-10T00:49:00.994459+00:00",
+  "text": "ConocoPhillips rose 1.1% today as oil prices climbed on escalating Middle East tensions. Brent crude topped $101 a barrel\u2014its highest level since May\u2014after reports of U.S.-Iranian military clashes and concerns that the conflict could disrupt regional energy supplies. When crude prices rise, integrated oil companies like ConocoPhillips benefit from higher margins on both production and refining.\n\nThe stock has gained 3.6% over the past two weeks as geopolitical risk has pushed crude steadily upward. The market is pricing in the possibility that tensions in the Persian Gulf, a critical chokepoint for global oil shipments, could tighten supplies further, keeping energy prices elevated through the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 68,
-    "inputTokens": 59156,
-    "outputTokens": 14250,
-    "estimatedCostUsd": 0.130406,
-    "lastCallHour": "2026-09-09T22"
+    "callsThisMonth": 69,
+    "inputTokens": 60017,
+    "outputTokens": 14413,
+    "estimatedCostUsd": 0.132082,
+    "lastCallHour": "2026-09-10T00"
   }
 }
