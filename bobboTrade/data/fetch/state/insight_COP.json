@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-10T21:22:31.568000+00:00",
-  "text": "ConocoPhillips rose 0.37% today as U.S. crude oil climbed back above $97 per barrel, driven by escalating Iran-U.S. tensions in the Persian Gulf that threaten Middle East oil supplies. The stock has gained nearly 5% over the past two weeks as oil prices have remained elevated on these geopolitical worries, with Brent crude now above $101\u2014the highest since May.\n\nFor a major U.S. oil and gas producer like ConocoPhillips, higher crude prices directly boost earnings and cash flow, which is why the stock has tracked the upward oil trend closely over the past fortnight. The market is pricing in a sustained period of elevated energy costs as long as the Iran conflict persists, which creates a tailwind for energy companies' profitability in the near term.",
+  "fetchedAt": "2026-09-10T23:25:22.422890+00:00",
+  "text": "ConocoPhillips rose slightly today as oil prices climbed back above $97 per barrel, driven by escalating Iran-U.S. tensions in the Persian Gulf. Brent crude has topped $101 for the first time since May, and the market is pricing in ongoing supply risk from Middle East conflict, which typically benefits integrated oil producers like ConocoPhillips that profit from higher crude prices.\n\nThe stock's 4.92% gain over two weeks mirrors the broader oil price recovery during this period of geopolitical friction. Wealthy investors are actively seeking exposure to oil and gas assets right now, and tight supply concerns from potential disruptions mean energy prices are unlikely to ease in the near term \u2014 creating a supportive environment for the company's earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 76,
-    "inputTokens": 66013,
-    "outputTokens": 15707,
-    "estimatedCostUsd": 0.144548,
-    "lastCallHour": "2026-09-10T21"
+    "callsThisMonth": 77,
+    "inputTokens": 66870,
+    "outputTokens": 15872,
+    "estimatedCostUsd": 0.14623,
+    "lastCallHour": "2026-09-10T23"
   }
 }

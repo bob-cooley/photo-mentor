@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-10T21:22:46.350211+00:00",
-  "text": "Marathon Petroleum stock fell 1.76% today after climbing nearly 8% over the past two weeks, giving back some gains as crude oil prices pulled back slightly. US crude sits at $97.26\u2014still elevated from the Iran war tensions that have dominated energy markets\u2014but the stock's retreat suggests investors are taking profits after the recent rally. Refineries are running at 97.8% capacity, near maximum, which typically supports refiner margins, but today's move reflects broader caution rather than any operational shift.\n\nThe recent run-up was fueled by geopolitical premium from escalating Middle East tensions pushing oil prices above $100 per barrel, which benefits refiners by widening their profit margins (the difference between crude costs and refined product prices). With oil still well above pre-crisis levels and the market bracing for a prolonged conflict, the near-term backdrop for refiners remains constructive\u2014but today's pullback shows the gains had gotten ahead of themselves on the news alone.",
+  "fetchedAt": "2026-09-10T23:25:43.657044+00:00",
+  "text": "Marathon Petroleum fell 1.76% today after climbing 8.3% over the past two weeks, giving back some of yesterday's 0.4% gain. The immediate driver appears to be profit-taking: the stock ran up sharply to $399.44 yesterday amid an Iran war scare that pushed crude oil above $100 per barrel for the first time since May, and traders sold into that strength today. Refineries are running at 97.8% capacity with robust crude supplies (709 million barrels in storage), which limits how much the refiner can benefit from elevated oil prices\u2014they're already operating near maximum and can't ramp up production to capture margin gains.\n\nThe broader picture is that while headline oil prices have jumped on geopolitical risk, the refining environment itself isn't tightening enough to sustain a multi-day rally. Gasoline and diesel inventories remain ample at 206.9 million and 106.3 million barrels respectively, and U.S. crude at $97.26 sits well below the world price of $109.51, suggesting the U.S. refining sector isn't facing a supply crunch\u2014just elevated feedstock costs and political uncertainty about how long the tensions will last.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 76,
-    "inputTokens": 70506,
-    "outputTokens": 16237,
-    "estimatedCostUsd": 0.151691,
-    "lastCallHour": "2026-09-10T21"
+    "callsThisMonth": 77,
+    "inputTokens": 71419,
+    "outputTokens": 16510,
+    "estimatedCostUsd": 0.153969,
+    "lastCallHour": "2026-09-10T23"
   }
 }
