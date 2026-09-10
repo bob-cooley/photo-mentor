@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-10T10:32:04.900468+00:00",
-  "text": "Marathon Petroleum edged up 0.42% today to $399.44, continuing a sharp nine-day rally that has now gained 12.6% since early September. The move reflects sustained strength in crude oil prices, which hit $101 per barrel (Brent) on escalating U.S.-Iran tensions and Middle East supply concerns. Refineries are running at 98% capacity\u2014near maximum\u2014which means Marathon and peers capture more profit margin when oil and fuel prices stay elevated; the company also benefits directly from higher crude as it moves through the refining system.\n\nThe broader context here is geopolitical. Fears of supply disruptions from Persian Gulf conflict have kept oil prices well above $90 (U.S. crude at $91.48), and that elevated price floor appears to be holding the refining sector higher even as the stock has already moved significantly in two weeks. Storage levels for gasoline and diesel remain moderate, which leaves less downward pressure on fuel prices and supports refiner margins.",
+  "fetchedAt": "2026-09-10T14:48:57.523221+00:00",
+  "text": "Marathon Petroleum edged down 0.39% today despite oil prices climbing above $100 a barrel\u2014the highest level since May\u2014driven by escalating Iran war tensions and fears of Middle East supply disruptions. Refineries are running at 98% capacity with robust demand signals, yet the stock gave back a fraction of its strong two-week gain (up 9.83% since early September), suggesting investors may be taking profits after the recent rally or rotating away from refiner equities despite the oil price tailwind.\n\nThe disconnect hints at a broader market dynamic: while higher crude prices typically boost refiners' margins, the current spike is tied explicitly to geopolitical risk and potential supply destruction rather than fundamental demand strength. Investors appear cautious about betting further on energy assets in an environment where political rhetoric\u2014including statements that prices won't fall until after midterm elections\u2014is driving volatility and may be creating uncertainty about the durability of current energy market conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 71,
-    "inputTokens": 65945,
-    "outputTokens": 15245,
-    "estimatedCostUsd": 0.14217,
-    "lastCallHour": "2026-09-10T10"
+    "callsThisMonth": 72,
+    "inputTokens": 66857,
+    "outputTokens": 15450,
+    "estimatedCostUsd": 0.144107,
+    "lastCallHour": "2026-09-10T14"
   }
 }
