@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-10T00:49:48.474929+00:00",
-  "text": "Marathon Petroleum rose 0.42% today as oil prices continued climbing on Middle East tensions. Brent crude broke above $101 per barrel\u2014the highest since May\u2014driven by escalating U.S.-Iran conflict and concerns that supply disruptions could worsen. With refineries running at 98% capacity and oil storage at relatively lean levels, refiners like Marathon benefit when crude prices rise faster than they can pass costs to customers, improving their profit margins on each barrel processed.\n\nThe stock's 12.5% gain over two weeks tracks directly with the oil rally: Brent has surged roughly 10% in that span as geopolitical risk premium has built into energy markets. Refinery utilization staying near maximum suggests the industry is running hard to meet demand, and with Middle East tensions keeping a floor under crude prices, that elevated profitability environment is likely supporting the sector broadly.",
+  "fetchedAt": "2026-09-10T05:33:15.306018+00:00",
+  "text": "Marathon Petroleum is up slightly today as oil prices extended their climb on Middle East tensions. Brent crude topped $101 a barrel\u2014the highest since May\u2014after U.S. forces destroyed Iranian oil tankers, raising fears of further supply disruptions from the Persian Gulf. Refineries are running at 98 percent capacity, so higher crude prices flow directly into the company's costs, but the jump in fuel demand concerns and tight supply from geopolitical risk has supported energy sector valuations broadly.\n\nThe two-week rally of 12.5 percent reflects the sharp run-up in oil prices over the same window, driven by escalating U.S.-Iran conflict. With Brent now above $101 and U.S. crude at $91.50, refining margins remain supported by the supply uncertainty, even as storage levels remain elevated\u2014refineries are already operating at near-maximum rates, limiting their ability to capture additional margin from price spikes.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 69,
-    "inputTokens": 64106,
-    "outputTokens": 14820,
-    "estimatedCostUsd": 0.138206,
-    "lastCallHour": "2026-09-10T00"
+    "callsThisMonth": 70,
+    "inputTokens": 65027,
+    "outputTokens": 15027,
+    "estimatedCostUsd": 0.140162,
+    "lastCallHour": "2026-09-10T05"
   }
 }
