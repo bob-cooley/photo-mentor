@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-10T16:53:36.856562+00:00",
-  "text": "Marathon Petroleum's stock gained 10.32% over two weeks and is essentially flat today, but that flatness masks a rally that's been running since early September. The driver is crude oil prices\u2014US crude jumped above $100 per barrel today for the first time since May, and Brent crude hit $101, both on escalating Iran war concerns and fears of supply disruptions in the Persian Gulf. For a refiner like Marathon, higher crude prices can cut into profits on the refining side (the spread between what they pay for oil and what they sell finished fuel for narrows), but the market is betting that elevated energy prices and tight supplies will keep demand and overall energy wealth strong\u2014refineries are running at 98% capacity, a sign of brisk activity.\n\nThe broader tailwind here is geopolitical: investors are rotating into energy assets amid the Iran conflict and the supply risk it creates, and the news that wealthy investors are actively seeking oil and gas holdings suggests sector-wide momentum is lifting the entire energy patch. Marathon has ridden that wave upward over the past week.",
+  "fetchedAt": "2026-09-10T18:04:46.957628+00:00",
+  "text": "Marathon Petroleum stock fell slightly today despite oil prices surging above $100 a barrel\u2014the first time since May\u2014driven by escalating Iran war tensions. The company is running refineries at 98% capacity with healthy product inventories, so the small decline appears to be profit-taking after the stock jumped nearly 10% over two weeks riding the oil rally, rather than a sign of weakness in the underlying business.\n\nThe broader context is that refining margins are being supported by elevated crude prices and strong demand signals (storage levels are moderate, not bloated), but the geopolitical premium in oil markets may be reaching a point where investors are pausing before the midterm elections, which some expect could shift energy policy.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 73,
-    "inputTokens": 67769,
-    "outputTokens": 15681,
-    "estimatedCostUsd": 0.146174,
-    "lastCallHour": "2026-09-10T16"
+    "callsThisMonth": 74,
+    "inputTokens": 68681,
+    "outputTokens": 15834,
+    "estimatedCostUsd": 0.147851,
+    "lastCallHour": "2026-09-10T18"
   }
 }
