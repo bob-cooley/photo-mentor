@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-10T05:33:02.340228+00:00",
-  "text": "ConocoPhillips rose 1.1% today as oil prices climbed sharply following escalating U.S.-Iran tensions in the Middle East. Brent crude topped $101 per barrel\u2014its highest level since May\u2014after reports that the U.S. destroyed Iranian oil tankers, raising concerns that the conflict could disrupt oil supply flows from the Persian Gulf. As an oil producer, ConocoPhillips benefits directly when crude prices move higher, since the company sells oil at those elevated prices.\n\nThe stock's 3.6% gain over the past two weeks reflects an even broader rally tied to these geopolitical risks. Oil has climbed steadily as the U.S.-Iran conflict has escalated, and investors are pricing in the likelihood that energy prices will remain elevated through the midterm elections, limiting the downside relief that might normally come from seasonal demand patterns.",
+  "fetchedAt": "2026-09-10T10:31:48.513901+00:00",
+  "text": "ConocoPhillips rose 1.1% today as oil prices pushed higher on Middle East tensions. Brent crude closed above $101 a barrel\u2014the highest level since May\u2014driven by escalating U.S.-Iran conflict and concerns that fighting in the Persian Gulf could disrupt energy supplies. As an oil major, ConocoPhillips benefits directly when crude prices climb, since higher oil prices translate to stronger profits on its production.\n\nThe stock has gained 3.6% over the past two weeks as this geopolitical risk premium has built into energy markets. The broader pattern is clear: each new report of military escalation or supply-risk pushes oil higher, and integrated oil companies like this one move in lockstep with those gains.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 70,
-    "inputTokens": 60878,
-    "outputTokens": 14605,
-    "estimatedCostUsd": 0.133903,
-    "lastCallHour": "2026-09-10T05"
+    "callsThisMonth": 71,
+    "inputTokens": 61736,
+    "outputTokens": 14769,
+    "estimatedCostUsd": 0.135581,
+    "lastCallHour": "2026-09-10T10"
   }
 }

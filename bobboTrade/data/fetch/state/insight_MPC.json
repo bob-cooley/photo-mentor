@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-10T05:33:15.306018+00:00",
-  "text": "Marathon Petroleum is up slightly today as oil prices extended their climb on Middle East tensions. Brent crude topped $101 a barrel\u2014the highest since May\u2014after U.S. forces destroyed Iranian oil tankers, raising fears of further supply disruptions from the Persian Gulf. Refineries are running at 98 percent capacity, so higher crude prices flow directly into the company's costs, but the jump in fuel demand concerns and tight supply from geopolitical risk has supported energy sector valuations broadly.\n\nThe two-week rally of 12.5 percent reflects the sharp run-up in oil prices over the same window, driven by escalating U.S.-Iran conflict. With Brent now above $101 and U.S. crude at $91.50, refining margins remain supported by the supply uncertainty, even as storage levels remain elevated\u2014refineries are already operating at near-maximum rates, limiting their ability to capture additional margin from price spikes.",
+  "fetchedAt": "2026-09-10T10:32:04.900468+00:00",
+  "text": "Marathon Petroleum edged up 0.42% today to $399.44, continuing a sharp nine-day rally that has now gained 12.6% since early September. The move reflects sustained strength in crude oil prices, which hit $101 per barrel (Brent) on escalating U.S.-Iran tensions and Middle East supply concerns. Refineries are running at 98% capacity\u2014near maximum\u2014which means Marathon and peers capture more profit margin when oil and fuel prices stay elevated; the company also benefits directly from higher crude as it moves through the refining system.\n\nThe broader context here is geopolitical. Fears of supply disruptions from Persian Gulf conflict have kept oil prices well above $90 (U.S. crude at $91.48), and that elevated price floor appears to be holding the refining sector higher even as the stock has already moved significantly in two weeks. Storage levels for gasoline and diesel remain moderate, which leaves less downward pressure on fuel prices and supports refiner margins.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 70,
-    "inputTokens": 65027,
-    "outputTokens": 15027,
-    "estimatedCostUsd": 0.140162,
-    "lastCallHour": "2026-09-10T05"
+    "callsThisMonth": 71,
+    "inputTokens": 65945,
+    "outputTokens": 15245,
+    "estimatedCostUsd": 0.14217,
+    "lastCallHour": "2026-09-10T10"
   }
 }
