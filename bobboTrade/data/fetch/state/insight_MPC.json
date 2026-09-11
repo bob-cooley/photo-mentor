@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-11T02:49:25.808449+00:00",
-  "text": "Marathon Petroleum fell 1.76% today after hitting a two-week high of $399.44 yesterday, giving back some of a strong 8.32% run-up over the past two weeks. The pullback comes as oil prices remain elevated around $97\u2013$110 per barrel due to Iran war tensions, but the stock appears to be consolidating rather than reversing\u2014refineries are running near capacity at 97.8%, and the company has benefited from the geopolitical premium that pushed crude above $100 this week. The move looks like profit-taking after a sharp climb, not a fundamental deterioration.\n\nThe broader refining environment remains supportive: inventories of crude oil, gasoline, and diesel remain moderate, and continued Middle East tensions suggest oil prices may stay elevated through the midterm elections, according to recent comments. This backdrop has powered the stock's recent gains, even if today's decline interrupts the momentum.",
+  "fetchedAt": "2026-09-11T07:45:36.153707+00:00",
+  "text": "Marathon Petroleum fell 1.76% today after climbing nearly 2% yesterday to hit $399.44. The pullback comes as oil prices have retreated slightly from their recent highs\u2014U.S. crude dipped to $97.26 a barrel today from above $100 just yesterday\u2014while refineries continue running at 97.8% capacity. The near-term spike in oil prices drove the stock up over two weeks, but today's modest profit-taking and oil price easing reversed some of those gains.\n\nThe broader context matters here: refiners like Marathon benefit when crude and refined product prices rise, especially when they can run at high utilization rates like now. The Iran war has kept oil elevated and volatility high, which created the two-week rally, but energy markets are also pricing in political statements suggesting prices may stay elevated through the midterm elections\u2014creating uncertainty about whether this price environment is sustainable.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 78,
-    "inputTokens": 72328,
-    "outputTokens": 16713,
-    "estimatedCostUsd": 0.155893,
-    "lastCallHour": "2026-09-11T02"
+    "callsThisMonth": 79,
+    "inputTokens": 73237,
+    "outputTokens": 16911,
+    "estimatedCostUsd": 0.157792,
+    "lastCallHour": "2026-09-11T07"
   }
 }
