@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-11T21:47:46.818766+00:00",
-  "text": "ConocoPhillips edged up 0.23% today to close at $137.35, continuing a steady climb over the past two weeks (+6.05%) as oil market tensions support energy stocks. The immediate driver was geopolitical disruption in the Middle East: Saudi Arabia shut down a critical East-West pipeline after drone attacks, and Houthi militants advanced on a key Red Sea island threatening the Bab el-Mandeb Strait\u2014a vital chokepoint for global oil shipments. These events kept crude prices elevated, with US oil holding at $97.26/barrel and global Brent at $109.51/barrel despite a modest pullback on Friday.\n\nThe broader picture is that oil majors like ConocoPhillips benefit when supply risks rise and prices stay firm. The combination of direct pipeline damage, escalating Red Sea threats, and U.S. rhetoric around Iran creates an environment where near-term crude demand remains supported. The stock's steady climb this month reflects investors pricing in both higher oil prices and the durability of these supply concerns.",
+  "fetchedAt": "2026-09-11T22:12:42.790345+00:00",
+  "text": "ConocoPhillips edged up 0.23% today to $137.35, capping a strong two-week rally of 6% that accelerated over the past few days. The modest daily gain reflects the oil market itself: while U.S. crude fell slightly Friday, it remains elevated at $97 a barrel, supported by a week of geopolitical shocks in the Middle East\u2014Saudi Arabia's shutdown of its East-West pipeline after drone attacks, and Houthi advances toward the Bab el-Mandeb Strait, a critical chokepoint for global oil shipments. As a major oil and gas producer, ConocoPhillips benefits when crude prices stay high and supply concerns mount.\n\nThe two-week rally has coincided with escalating Middle East tensions that keep oil prices well above their summer levels, even as short-term volatility and profit-taking pull prices back on individual days like today. The company's steady climb reflects investor expectations that geopolitical risk premiums will persist in the oil market.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 83,
-    "inputTokens": 72023,
-    "outputTokens": 17150,
-    "estimatedCostUsd": 0.157773,
-    "lastCallHour": "2026-09-11T21"
+    "callsThisMonth": 84,
+    "inputTokens": 72881,
+    "outputTokens": 17376,
+    "estimatedCostUsd": 0.159761,
+    "lastCallHour": "2026-09-11T22"
   }
 }
