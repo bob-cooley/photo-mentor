@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-11T16:52:59.322299+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, continuing a strong two-week rally that has lifted the stock 11%. The immediate catalyst appears to be oil market volatility\u2014U.S. crude fell below $100 a barrel today after a multiday run higher, but refineries are running at 97.8% capacity with tight fuel inventories (gasoline and diesel storage both well below historical norms), which supports margins for companies turning crude into fuel. The geopolitical backdrop of the Iran war and Houthi threats to Red Sea shipping have kept crude prices elevated and volatile even as they dip intraday.\n\nThe broader context here is that refiner profitability depends on the gap between crude costs and fuel prices\u2014and right now that spread is being supported by constrained supply chains and strong refining demand despite lower crude prices. The combination of high capacity utilization, tight product inventories, and ongoing energy disruptions from Middle East tensions has kept conditions favorable for refiners over the past two weeks.",
+  "fetchedAt": "2026-09-11T19:21:56.161238+00:00",
+  "text": "Marathon Petroleum rose 1.2% today to $397.25, continuing a strong two-week rally that has gained 9.3%. The move comes as U.S. crude oil pulled back below $100 a barrel after a multiday rally, but refineries across the country are running at 97.8% capacity\u2014near maximum levels\u2014while gasoline and diesel inventories remain relatively lean. This tight operating environment supports margins for refiners like Marathon, even as crude prices moderate.\n\nThe backdrop remains volatile: Saudi Arabia shut down its East-West pipeline following multiple attacks, and Houthis have advanced toward the Bab el-Mandeb Strait, a critical chokepoint for global oil shipments. These geopolitical pressures have kept crude prices elevated (Brent at $109.51), and the Iran war has injected further uncertainty into energy markets. With refineries maxed out and supplies constrained, Marathon benefits from the wider spread between what it pays for crude and what it sells refined products for\u2014a dynamic that can persist even if raw crude prices fluctuate day to day.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 81,
-    "inputTokens": 75087,
-    "outputTokens": 17357,
-    "estimatedCostUsd": 0.161872,
-    "lastCallHour": "2026-09-11T16"
+    "callsThisMonth": 82,
+    "inputTokens": 75971,
+    "outputTokens": 17596,
+    "estimatedCostUsd": 0.163951,
+    "lastCallHour": "2026-09-11T19"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-11T16:52:44.355482+00:00",
-  "text": "ConocoPhillips fell slightly today despite a strong two-week rally, as U.S. crude oil prices dipped below $100 per barrel\u2014snapping a multiday winning streak. The company, a major oil producer, typically moves with crude prices, and today's modest pullback reflects this broader retreat in the energy market even as the stock remains up 5.6% over the past two weeks.\n\nThe underlying backdrop remains volatile and supportive for oil producers. Geopolitical tensions in the Middle East (Iran war escalation) and the Red Sea (Houthis threatening shipping routes) continue to underpin crude prices, while a reported U.S.-Venezuela oil deal and record-high diesel prices signal ongoing supply constraints. The gap between U.S. crude ($97) and global crude ($109) also suggests international supply tightness is sustaining elevated prices\u2014even as short-term profit-taking pulled today's price down slightly.",
+  "fetchedAt": "2026-09-11T19:21:38.383006+00:00",
+  "text": "ConocoPhillips fell slightly today even as crude oil prices remain elevated, caught between competing forces. Geopolitical tensions\u2014Saudi pipeline shutdowns, Houthi advances threatening the Red Sea shipping lane, and escalating U.S. pressure on Iran\u2014have pushed global crude to $109.51 a barrel, yet U.S. crude slipped below $100 today after a multiday rally. The stock's modest decline suggests the market is taking a cautious view on oil supply disruption news, or profit-taking after the stock gained 5.67% over two weeks.\n\nThe gap between U.S. crude ($97.26) and global crude ($109.51) reflects real supply concerns abroad, but U.S.-focused energy companies like ConocoPhillips benefit more from domestic pricing; the pullback in WTI crude today appears to be weighing more than the geopolitical premium baked into Brent.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 81,
-    "inputTokens": 70335,
-    "outputTokens": 16710,
-    "estimatedCostUsd": 0.153885,
-    "lastCallHour": "2026-09-11T16"
+    "callsThisMonth": 82,
+    "inputTokens": 71165,
+    "outputTokens": 16916,
+    "estimatedCostUsd": 0.155745,
+    "lastCallHour": "2026-09-11T19"
   }
 }
