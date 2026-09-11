@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-09-10T14:48:36.622740+00:00",
+    "fetchedAt": "2026-09-11T12:33:58.475715+00:00",
     "source": "SEC XBRL company facts (data.sec.gov)",
     "currency": "USD",
     "current": {
@@ -11,7 +11,7 @@
       "perShare": 1.0,
       "exDate": null,
       "payDate": "2026-09-10",
-      "status": "upcoming"
+      "status": "paid"
     },
     "history": [
       {

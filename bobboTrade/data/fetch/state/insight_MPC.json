@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-11T07:45:36.153707+00:00",
-  "text": "Marathon Petroleum fell 1.76% today after climbing nearly 2% yesterday to hit $399.44. The pullback comes as oil prices have retreated slightly from their recent highs\u2014U.S. crude dipped to $97.26 a barrel today from above $100 just yesterday\u2014while refineries continue running at 97.8% capacity. The near-term spike in oil prices drove the stock up over two weeks, but today's modest profit-taking and oil price easing reversed some of those gains.\n\nThe broader context matters here: refiners like Marathon benefit when crude and refined product prices rise, especially when they can run at high utilization rates like now. The Iran war has kept oil elevated and volatility high, which created the two-week rally, but energy markets are also pricing in political statements suggesting prices may stay elevated through the midterm elections\u2014creating uncertainty about whether this price environment is sustainable.",
+  "fetchedAt": "2026-09-11T12:34:12.697227+00:00",
+  "text": "Marathon Petroleum's stock fell 1.76% today after climbing nearly 2% yesterday to $399.44, pulling back from a strong two-week rally of 8.32%. The immediate trigger appears to be oil prices falling sharply today\u2014crude dropped from above $100 per barrel in recent sessions to $97.26\u2014which typically pressures refiner margins and stock valuations. This reversal followed several days of gains driven by supply disruption concerns from the Iran and Ukraine wars, which had pushed both crude prices and refined product costs higher.\n\nThe broader backdrop remains tight but mixed for refiners. U.S. diesel hit a record $6 per gallon due to war-related supply fears, and the International Energy Agency warned the global refining system is \"stretched to the limit\" with low inventories. However, today's sharp oil price decline suggests some of those war-premium gains are being reversed, at least temporarily\u2014refineries running at 97.8% capacity are at peak utilization, but the immediate margin tailwind from crude volatility has eased.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 79,
-    "inputTokens": 73237,
-    "outputTokens": 16911,
-    "estimatedCostUsd": 0.157792,
-    "lastCallHour": "2026-09-11T07"
+    "callsThisMonth": 80,
+    "inputTokens": 74165,
+    "outputTokens": 17141,
+    "estimatedCostUsd": 0.15987,
+    "lastCallHour": "2026-09-11T12"
   }
 }

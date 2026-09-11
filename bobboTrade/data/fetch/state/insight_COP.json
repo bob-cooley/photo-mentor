@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-11T07:45:18.838116+00:00",
-  "text": "ConocoPhillips gained 0.37% today, continuing a strong two-week rally of nearly 5%. The move reflects the broader surge in oil prices driven by escalating U.S.-Iran tensions: world oil prices hit $109.51 per barrel and Brent crude topped $101, the highest level since May, as markets worry about supply disruptions from Middle East conflict. For a major oil producer like ConocoPhillips, higher crude prices directly lift revenue and cash flow, which is why the stock has climbed steadily over the past ten days.\n\nThe stock's gains are anchored in real geopolitical risk. Trump's recent statements confirming he has no regrets about initiating the Iran war, and his prediction that energy prices will stay elevated until after the midterm elections, have signaled to investors that oil supply concerns are unlikely to ease soon. This environment is particularly favorable for established energy producers with production already in place.",
+  "fetchedAt": "2026-09-11T12:33:55.962020+00:00",
+  "text": "COP ticked up 0.37% today to $137.04, extending a four-day climb that's added nearly 3% since last Tuesday. The move reflects the pull-and-tug in crude markets: while oil prices fell sharply today after weeks above $100 a barrel, the underlying tightness in global energy supply\u2014diesel hitting record highs, refineries running at capacity, and Houthi advances threatening shipping through the Bab el-Mandeb Strait\u2014keeps the longer-term backdrop supportive for an integrated oil and gas company like this one. ConocoPhillips benefits when crude stays elevated and refining margins stay fat, which the strained global refining system suggests they will for now.\n\nThe gap between U.S. crude ($97.26/barrel) and world crude ($109.51/barrel) is unusually wide\u2014a sign that global supply chains are genuinely constrained and that U.S. producers with access to export markets or downstream refining stand to gain. That structural tightness, driven by the Iran and Ukraine conflicts, has cushioned the stock even as prices pulled back today.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 79,
-    "inputTokens": 68588,
-    "outputTokens": 16257,
-    "estimatedCostUsd": 0.149873,
-    "lastCallHour": "2026-09-11T07"
+    "callsThisMonth": 80,
+    "inputTokens": 69462,
+    "outputTokens": 16506,
+    "estimatedCostUsd": 0.151992,
+    "lastCallHour": "2026-09-11T12"
   }
 }
