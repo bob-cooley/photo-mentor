@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-10T23:25:22.422890+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices climbed back above $97 per barrel, driven by escalating Iran-U.S. tensions in the Persian Gulf. Brent crude has topped $101 for the first time since May, and the market is pricing in ongoing supply risk from Middle East conflict, which typically benefits integrated oil producers like ConocoPhillips that profit from higher crude prices.\n\nThe stock's 4.92% gain over two weeks mirrors the broader oil price recovery during this period of geopolitical friction. Wealthy investors are actively seeking exposure to oil and gas assets right now, and tight supply concerns from potential disruptions mean energy prices are unlikely to ease in the near term \u2014 creating a supportive environment for the company's earnings.",
+  "fetchedAt": "2026-09-11T02:49:13.479675+00:00",
+  "text": "ConocoPhillips gained 0.37% today, continuing a modest upward drift over the past week as oil prices have climbed sharply. U.S. crude hit $97.26 a barrel today\u2014above $100 earlier this week\u2014driven by escalating U.S.-Iran tensions that threaten Middle East supply. As a major oil producer, ConocoPhillips benefits when crude prices rise, since higher oil fetches more revenue per barrel pumped and sold.\n\nThe stock's 4.92% gain over two weeks reflects the broader market repricing of energy as geopolitical risk keeps crude elevated. Market participants are betting that Middle East supply disruptions will persist through at least the midterm elections, according to recent commentary, which means sustained pricing power for established oil producers like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 77,
-    "inputTokens": 66870,
-    "outputTokens": 15872,
-    "estimatedCostUsd": 0.14623,
-    "lastCallHour": "2026-09-10T23"
+    "callsThisMonth": 78,
+    "inputTokens": 67729,
+    "outputTokens": 16052,
+    "estimatedCostUsd": 0.147989,
+    "lastCallHour": "2026-09-11T02"
   }
 }

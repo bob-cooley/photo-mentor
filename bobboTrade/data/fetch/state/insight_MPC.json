@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-10T23:25:43.657044+00:00",
-  "text": "Marathon Petroleum fell 1.76% today after climbing 8.3% over the past two weeks, giving back some of yesterday's 0.4% gain. The immediate driver appears to be profit-taking: the stock ran up sharply to $399.44 yesterday amid an Iran war scare that pushed crude oil above $100 per barrel for the first time since May, and traders sold into that strength today. Refineries are running at 97.8% capacity with robust crude supplies (709 million barrels in storage), which limits how much the refiner can benefit from elevated oil prices\u2014they're already operating near maximum and can't ramp up production to capture margin gains.\n\nThe broader picture is that while headline oil prices have jumped on geopolitical risk, the refining environment itself isn't tightening enough to sustain a multi-day rally. Gasoline and diesel inventories remain ample at 206.9 million and 106.3 million barrels respectively, and U.S. crude at $97.26 sits well below the world price of $109.51, suggesting the U.S. refining sector isn't facing a supply crunch\u2014just elevated feedstock costs and political uncertainty about how long the tensions will last.",
+  "fetchedAt": "2026-09-11T02:49:25.808449+00:00",
+  "text": "Marathon Petroleum fell 1.76% today after hitting a two-week high of $399.44 yesterday, giving back some of a strong 8.32% run-up over the past two weeks. The pullback comes as oil prices remain elevated around $97\u2013$110 per barrel due to Iran war tensions, but the stock appears to be consolidating rather than reversing\u2014refineries are running near capacity at 97.8%, and the company has benefited from the geopolitical premium that pushed crude above $100 this week. The move looks like profit-taking after a sharp climb, not a fundamental deterioration.\n\nThe broader refining environment remains supportive: inventories of crude oil, gasoline, and diesel remain moderate, and continued Middle East tensions suggest oil prices may stay elevated through the midterm elections, according to recent comments. This backdrop has powered the stock's recent gains, even if today's decline interrupts the momentum.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 77,
-    "inputTokens": 71419,
-    "outputTokens": 16510,
-    "estimatedCostUsd": 0.153969,
-    "lastCallHour": "2026-09-10T23"
+    "callsThisMonth": 78,
+    "inputTokens": 72328,
+    "outputTokens": 16713,
+    "estimatedCostUsd": 0.155893,
+    "lastCallHour": "2026-09-11T02"
   }
 }
