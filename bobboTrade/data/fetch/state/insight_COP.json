@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-11T12:33:55.962020+00:00",
-  "text": "COP ticked up 0.37% today to $137.04, extending a four-day climb that's added nearly 3% since last Tuesday. The move reflects the pull-and-tug in crude markets: while oil prices fell sharply today after weeks above $100 a barrel, the underlying tightness in global energy supply\u2014diesel hitting record highs, refineries running at capacity, and Houthi advances threatening shipping through the Bab el-Mandeb Strait\u2014keeps the longer-term backdrop supportive for an integrated oil and gas company like this one. ConocoPhillips benefits when crude stays elevated and refining margins stay fat, which the strained global refining system suggests they will for now.\n\nThe gap between U.S. crude ($97.26/barrel) and world crude ($109.51/barrel) is unusually wide\u2014a sign that global supply chains are genuinely constrained and that U.S. producers with access to export markets or downstream refining stand to gain. That structural tightness, driven by the Iran and Ukraine conflicts, has cushioned the stock even as prices pulled back today.",
+  "fetchedAt": "2026-09-11T16:52:44.355482+00:00",
+  "text": "ConocoPhillips fell slightly today despite a strong two-week rally, as U.S. crude oil prices dipped below $100 per barrel\u2014snapping a multiday winning streak. The company, a major oil producer, typically moves with crude prices, and today's modest pullback reflects this broader retreat in the energy market even as the stock remains up 5.6% over the past two weeks.\n\nThe underlying backdrop remains volatile and supportive for oil producers. Geopolitical tensions in the Middle East (Iran war escalation) and the Red Sea (Houthis threatening shipping routes) continue to underpin crude prices, while a reported U.S.-Venezuela oil deal and record-high diesel prices signal ongoing supply constraints. The gap between U.S. crude ($97) and global crude ($109) also suggests international supply tightness is sustaining elevated prices\u2014even as short-term profit-taking pulled today's price down slightly.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 80,
-    "inputTokens": 69462,
-    "outputTokens": 16506,
-    "estimatedCostUsd": 0.151992,
-    "lastCallHour": "2026-09-11T12"
+    "callsThisMonth": 81,
+    "inputTokens": 70335,
+    "outputTokens": 16710,
+    "estimatedCostUsd": 0.153885,
+    "lastCallHour": "2026-09-11T16"
   }
 }

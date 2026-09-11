@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-11T12:34:12.697227+00:00",
-  "text": "Marathon Petroleum's stock fell 1.76% today after climbing nearly 2% yesterday to $399.44, pulling back from a strong two-week rally of 8.32%. The immediate trigger appears to be oil prices falling sharply today\u2014crude dropped from above $100 per barrel in recent sessions to $97.26\u2014which typically pressures refiner margins and stock valuations. This reversal followed several days of gains driven by supply disruption concerns from the Iran and Ukraine wars, which had pushed both crude prices and refined product costs higher.\n\nThe broader backdrop remains tight but mixed for refiners. U.S. diesel hit a record $6 per gallon due to war-related supply fears, and the International Energy Agency warned the global refining system is \"stretched to the limit\" with low inventories. However, today's sharp oil price decline suggests some of those war-premium gains are being reversed, at least temporarily\u2014refineries running at 97.8% capacity are at peak utilization, but the immediate margin tailwind from crude volatility has eased.",
+  "fetchedAt": "2026-09-11T16:52:59.322299+00:00",
+  "text": "Marathon Petroleum rose 2.8% today, continuing a strong two-week rally that has lifted the stock 11%. The immediate catalyst appears to be oil market volatility\u2014U.S. crude fell below $100 a barrel today after a multiday run higher, but refineries are running at 97.8% capacity with tight fuel inventories (gasoline and diesel storage both well below historical norms), which supports margins for companies turning crude into fuel. The geopolitical backdrop of the Iran war and Houthi threats to Red Sea shipping have kept crude prices elevated and volatile even as they dip intraday.\n\nThe broader context here is that refiner profitability depends on the gap between crude costs and fuel prices\u2014and right now that spread is being supported by constrained supply chains and strong refining demand despite lower crude prices. The combination of high capacity utilization, tight product inventories, and ongoing energy disruptions from Middle East tensions has kept conditions favorable for refiners over the past two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 80,
-    "inputTokens": 74165,
-    "outputTokens": 17141,
-    "estimatedCostUsd": 0.15987,
-    "lastCallHour": "2026-09-11T12"
+    "callsThisMonth": 81,
+    "inputTokens": 75087,
+    "outputTokens": 17357,
+    "estimatedCostUsd": 0.161872,
+    "lastCallHour": "2026-09-11T16"
   }
 }
