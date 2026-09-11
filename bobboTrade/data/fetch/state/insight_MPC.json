@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-11T19:21:56.161238+00:00",
-  "text": "Marathon Petroleum rose 1.2% today to $397.25, continuing a strong two-week rally that has gained 9.3%. The move comes as U.S. crude oil pulled back below $100 a barrel after a multiday rally, but refineries across the country are running at 97.8% capacity\u2014near maximum levels\u2014while gasoline and diesel inventories remain relatively lean. This tight operating environment supports margins for refiners like Marathon, even as crude prices moderate.\n\nThe backdrop remains volatile: Saudi Arabia shut down its East-West pipeline following multiple attacks, and Houthis have advanced toward the Bab el-Mandeb Strait, a critical chokepoint for global oil shipments. These geopolitical pressures have kept crude prices elevated (Brent at $109.51), and the Iran war has injected further uncertainty into energy markets. With refineries maxed out and supplies constrained, Marathon benefits from the wider spread between what it pays for crude and what it sells refined products for\u2014a dynamic that can persist even if raw crude prices fluctuate day to day.",
+  "fetchedAt": "2026-09-11T21:47:59.055616+00:00",
+  "text": "Marathon Petroleum gained 0.89% today, extending a strong two-week rally of nearly 9%. The company benefits from the current environment: U.S. crude is trading at $97 per barrel while refineries are running at 97.8% capacity\u2014near maximum utilization\u2014which typically boosts refiner margins (the profit spread between crude input costs and fuel output prices). With gasoline and diesel inventories relatively modest, tight supply conditions favor refiner economics.\n\nThe broader tailwind is Middle East geopolitical tension. Houthi drone attacks have forced Saudi Arabia to shut down its East-West pipeline, Houthis have advanced to a key Red Sea island threatening the Bab el-Mandeb Strait (a critical global oil chokepoint), and Iran tensions remain elevated\u2014all factors that have driven oil prices sharply higher over the past week despite a small pullback today. For a major refiner like this one, higher crude prices combined with strong refining utilization create the conditions for solid profit margins.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 82,
-    "inputTokens": 75971,
-    "outputTokens": 17596,
-    "estimatedCostUsd": 0.163951,
-    "lastCallHour": "2026-09-11T19"
+    "callsThisMonth": 83,
+    "inputTokens": 76884,
+    "outputTokens": 17818,
+    "estimatedCostUsd": 0.165974,
+    "lastCallHour": "2026-09-11T21"
   }
 }
