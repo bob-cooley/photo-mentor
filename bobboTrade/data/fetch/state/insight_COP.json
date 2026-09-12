@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-12T21:10:33.002121+00:00",
-  "text": "ConocoPhillips gained a modest 0.23% today, continuing a stronger two-week rally of 6%. The stock has climbed steadily since early September as oil prices surged above $100 a barrel on Middle East tensions\u2014Saudi Arabia's East-West pipeline was shut down following drone attacks, and Iran-U.S. conflict risks have kept crude elevated. The company benefits directly when crude prices rise, since higher oil prices increase the value of the oil it produces and sells.\n\nToday's small gain reflects some pullback in oil prices on Friday as markets briefly priced in hopes for peace talks, but crude remains well above $95 and the two-week trend shows investors see lasting support from regional instability. The gap between U.S. oil ($97) and global oil prices ($110) also suggests continued tight supply concerns that favor major producers like ConocoPhillips.",
+  "fetchedAt": "2026-09-12T23:41:54.048187+00:00",
+  "text": "ConocoPhillips rose 0.23% today to $137.35, capping a solid 6% two-week gain as oil prices remain elevated above $97 per barrel domestically and $109.50 globally. The stock's steady climb reflects sustained strength in crude markets, which have been driven by Middle East tensions\u2014Saudi Arabia's shutdown of its East-West pipeline after drone attacks from Iran-allied forces this week, combined with ongoing geopolitical friction between the U.S. and Iran, has kept prices well above $100 a barrel despite brief retreats on hopes of diplomatic progress.\n\nThe near-term uncertainty about whether Middle East tensions will ease or escalate is creating the volatility we're seeing in both oil and oil majors' stocks. While Trump has suggested Iran conflict could end post-election and lead to lower prices, Iran's leadership has rejected surrender, and the physical damage to Saudi infrastructure remains real\u2014so markets are staying cautious and keeping crude prices elevated for now.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 92,
-    "inputTokens": 79791,
-    "outputTokens": 19042,
-    "estimatedCostUsd": 0.175001,
-    "lastCallHour": "2026-09-12T21"
+    "callsThisMonth": 93,
+    "inputTokens": 80655,
+    "outputTokens": 19256,
+    "estimatedCostUsd": 0.176935,
+    "lastCallHour": "2026-09-12T23"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-12T21:10:46.641507+00:00",
-  "text": "Marathon Petroleum edged up 0.89% today, continuing a strong two-week rally that's gained nearly 9%. The gain reflects the elevated crude oil environment: U.S. oil is trading near $97 a barrel while global oil sits above $109, and American refineries are running at 97.8% capacity\u2014near maximum utilization. The Iran war and ongoing attacks on Saudi Arabian oil infrastructure have kept energy prices elevated, which benefits refiners like Marathon through wider profit margins on fuel production.\n\nThe broader backdrop is geopolitical uncertainty about how long these oil price premiums will stick around. While Trump predicted the Iran conflict could wind down after midterm elections and oil prices would fall sharply, Iranian leadership has publicly rejected surrender, and India is still calling for negotiations. That tension between hopes for peace (which would lower oil costs and compress refiner profits) and the reality of ongoing conflict (which keeps oil elevated and margins wide) is likely keeping the stock volatile\u2014it jumped to $399 earlier this week before pulling back.",
+  "fetchedAt": "2026-09-12T23:42:05.679943+00:00",
+  "text": "Marathon Petroleum stock rose slightly today, continuing a strong two-week rally that's gained nearly 9% overall. The company benefits directly from refinery utilization running at 97.8%\u2014near maximum capacity\u2014which boosts margins on fuel production. Oil prices remain elevated at $97 per barrel domestically and $109 globally, and Saudi Arabia's shutdown of a major crude pipeline after attacks has kept energy markets tight and prices supported.\n\nThe broader backdrop is geopolitical uncertainty around the Iran conflict. While Trump predicted oil prices will fall sharply after the midterm elections if negotiations resume, the Iranian President said today he won't surrender, and Saudi pipeline attacks show the conflict remains active. This ongoing tension keeps crude prices elevated and refinery operations running hard, which is the core driver supporting the stock's gains over the past two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 92,
-    "inputTokens": 85194,
-    "outputTokens": 19770,
-    "estimatedCostUsd": 0.184044,
-    "lastCallHour": "2026-09-12T21"
+    "callsThisMonth": 93,
+    "inputTokens": 86124,
+    "outputTokens": 19947,
+    "estimatedCostUsd": 0.185859,
+    "lastCallHour": "2026-09-12T23"
   }
 }
