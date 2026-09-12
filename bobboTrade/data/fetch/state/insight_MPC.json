@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-12T16:43:25.581146+00:00",
-  "text": "Marathon Petroleum edged up 0.89% today to close at $395.93, continuing a strong two-week rally of nearly 9%. The move reflects ongoing volatility in oil markets tied to the Iran conflict: U.S. crude hit $97.26 a barrel today after topping $102 just days ago, and Saudi Arabia's shutdown of a major pipeline following Houthi drone attacks has kept refining margins attractive despite the uncertainty. U.S. refineries are running at 97.8% capacity, near peak levels, which benefits large refiners processing higher oil prices into fuel sales.\n\nThe stock's recent strength sits at the intersection of two conflicting signals. Trump's comments about the Iran war ending soon and oil prices falling sharply have triggered profit-taking (the stock dropped $7 on September 10), but geopolitical escalation\u2014Saudi pipeline attacks, Iran's defiant rhetoric\u2014keeps energy markets nervous and supportive of refining stocks that profit when crude prices stay elevated and supply chains are strained.",
+  "fetchedAt": "2026-09-12T18:55:32.217327+00:00",
+  "text": "Marathon Petroleum stock edged up 0.89% today after climbing nearly 9% over the past two weeks, riding a wave of oil price volatility tied to the Iran conflict. US crude has traded above $97 per barrel while refineries operate at near-capacity (97.8%), supporting margins for a refiner like this one. The stock's recent strength accelerated sharply on September 9th when oil prices spiked above $100 following escalating attacks on Saudi infrastructure, though Friday's retreat on peace hopes trimmed some gains.\n\nThe underlying support for refiners right now is the supply disruption premium baked into oil prices \u2014 Saudi Arabia's East-West pipeline shutdown and Houthi missile strikes have tightened crude availability and pushed prices higher, widening the profit spread between crude input costs and refined product sales. Whether that holds depends on whether the geopolitical tensions ease as some officials suggest, or worsen.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 90,
-    "inputTokens": 83334,
-    "outputTokens": 19349,
-    "estimatedCostUsd": 0.180079,
-    "lastCallHour": "2026-09-12T16"
+    "callsThisMonth": 91,
+    "inputTokens": 84264,
+    "outputTokens": 19550,
+    "estimatedCostUsd": 0.182014,
+    "lastCallHour": "2026-09-12T18"
   }
 }
