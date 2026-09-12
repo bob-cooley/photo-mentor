@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-12T13:50:59.266162+00:00",
-  "text": "Marathon Petroleum ticked up 0.89% today after bouncing back from yesterday's 1.5% decline. The recovery sits within a broader two-week rally of nearly 9%, driven by elevated oil prices\u2014US crude is trading at $97.26 per barrel, well above historical norms\u2014and refinery utilization at a robust 97.8%. Higher crude prices expand the profit margins refiners earn by processing oil into gasoline and diesel, directly boosting their bottom line.\n\nThe geopolitical backdrop remains volatile: Saudi Arabia's forced shutdown of a major crude pipeline this week after drone attacks, combined with the Iran conflict keeping crude above $100 in recent sessions, has kept energy prices elevated. While Trump's recent comments suggest oil could fall sharply post-election if tensions ease, the near-term supply constraints and high refinery demand are sustaining the conditions that favor refiner earnings.",
+  "fetchedAt": "2026-09-12T16:43:25.581146+00:00",
+  "text": "Marathon Petroleum edged up 0.89% today to close at $395.93, continuing a strong two-week rally of nearly 9%. The move reflects ongoing volatility in oil markets tied to the Iran conflict: U.S. crude hit $97.26 a barrel today after topping $102 just days ago, and Saudi Arabia's shutdown of a major pipeline following Houthi drone attacks has kept refining margins attractive despite the uncertainty. U.S. refineries are running at 97.8% capacity, near peak levels, which benefits large refiners processing higher oil prices into fuel sales.\n\nThe stock's recent strength sits at the intersection of two conflicting signals. Trump's comments about the Iran war ending soon and oil prices falling sharply have triggered profit-taking (the stock dropped $7 on September 10), but geopolitical escalation\u2014Saudi pipeline attacks, Iran's defiant rhetoric\u2014keeps energy markets nervous and supportive of refining stocks that profit when crude prices stay elevated and supply chains are strained.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 89,
-    "inputTokens": 82403,
-    "outputTokens": 19126,
-    "estimatedCostUsd": 0.178033,
-    "lastCallHour": "2026-09-12T13"
+    "callsThisMonth": 90,
+    "inputTokens": 83334,
+    "outputTokens": 19349,
+    "estimatedCostUsd": 0.180079,
+    "lastCallHour": "2026-09-12T16"
   }
 }
