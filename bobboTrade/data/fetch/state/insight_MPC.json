@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-12T05:22:27.944031+00:00",
-  "text": "Marathon Petroleum stock rose modestly today as oil refining conditions remained favorable for the company's core business. US crude is trading at $97.26 per barrel while refineries are running at 97.8% capacity\u2014near maximum utilization\u2014which typically means strong margins for refiners who convert crude into gasoline and diesel. The stock has climbed 8.91% over the past two weeks as geopolitical tensions in the Middle East, particularly attacks on Saudi oil infrastructure and threats to shipping lanes, have kept crude prices elevated and supported energy sector valuations.\n\nThe broader backdrop is sustained uncertainty in global oil markets: Saudi Arabia's East-West pipeline shutdown, Houthi advances toward the Bab el-Mandeb Strait (a critical chokepoint for oil shipments), and the Iran conflict have all pushed prices higher this week despite a modest pullback on Friday. For a refiner, higher crude prices can cut into profits if retail fuel prices don't keep pace, but the current environment of tight global supply and high refining utilization rates has generally supported the sector.",
+  "fetchedAt": "2026-09-12T10:02:18.262482+00:00",
+  "text": "MPC rose modestly today after climbing 8.9% over the past two weeks, riding gains from Middle East tensions that have kept oil prices elevated and U.S. refineries running near full capacity (97.8%). The refiner benefits directly when crude oil prices rise\u2014the gap between what it pays for oil and what it sells refined products for typically widens\u2014and geopolitical friction in the Middle East, including Saudi pipeline attacks and Houthi advances threatening Red Sea shipping routes, has sustained upward pressure on energy markets despite a slight dip in prices on Friday.\n\nThe two-week rally reflects a broader energy sector move tied to genuine supply concerns: attacks on Saudi infrastructure and threats to a critical chokepoint for global oil shipments have kept investors focused on refining as a hedge against further disruption. With U.S. refineries already maxed out and storage levels moderate, any sustained production loss in the Middle East would tighten margins further.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 87,
-    "inputTokens": 80536,
-    "outputTokens": 18727,
-    "estimatedCostUsd": 0.174171,
-    "lastCallHour": "2026-09-12T05"
+    "callsThisMonth": 88,
+    "inputTokens": 81472,
+    "outputTokens": 18932,
+    "estimatedCostUsd": 0.176132,
+    "lastCallHour": "2026-09-12T10"
   }
 }
