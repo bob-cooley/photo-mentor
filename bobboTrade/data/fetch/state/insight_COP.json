@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-11T23:34:17.073313+00:00",
-  "text": "ConocoPhillips edged up 0.23% today to $137.35, continuing a steady climb over the past two weeks (+6.05%). The gain reflects the broader energy market backdrop: U.S. crude is trading at $97.26 per barrel, and Middle East supply disruptions\u2014Saudi Arabia shutting down its East-West pipeline after drone attacks and Houthi advances threatening the Bab el-Mandeb Strait\u2014are keeping crude prices elevated and supporting oil company valuations, even as prices pulled back modestly on Friday after a strong weekly rally.\n\nThe wider geopolitical tension, particularly escalating Iran-linked militant activity in the Red Sea and Persian Gulf region, creates both uncertainty and a structural support for oil majors like ConocoPhillips. Supply constraints and threats to shipping routes typically sustain higher crude prices, which directly benefits companies with large exploration and production portfolios.",
+  "fetchedAt": "2026-09-12T00:52:50.903559+00:00",
+  "text": "ConocoPhillips gained 0.23% today, continuing a steady climb over the past two weeks (+6.05%) as oil prices remain elevated. The immediate driver is the escalating Middle East crisis: Saudi Arabia shut down a major crude pipeline after drone attacks, and Houthi militants have advanced to a key Red Sea island threatening the Bab el-Mandeb Strait\u2014one of the world's most critical oil shipping chokepoints. These supply concerns keep crude prices firm (U.S. oil at $97.26/barrel, Brent at $109.51), which directly supports the earnings potential of major oil producers like ConocoPhillips.\n\nThe broader backdrop amplifies this: geopolitical tensions in the Middle East have been escalating through the week, supporting oil's strong weekly gains despite today's modest pullback. With U.S. administration rhetoric hardening toward Iran and regional instability spreading, the market is pricing in sustained upside risk to oil supply, which benefits integrated energy companies with significant upstream production.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 85,
-    "inputTokens": 73739,
-    "outputTokens": 17575,
-    "estimatedCostUsd": 0.161614,
-    "lastCallHour": "2026-09-11T23"
+    "callsThisMonth": 86,
+    "inputTokens": 74597,
+    "outputTokens": 17800,
+    "estimatedCostUsd": 0.163597,
+    "lastCallHour": "2026-09-12T00"
   }
 }

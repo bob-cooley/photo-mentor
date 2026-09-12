@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-11T23:34:32.498237+00:00",
-  "text": "MPC edged up 0.89% today, holding near its recent high of $399.44 from two days ago. The modest gain reflects the sharp weekly advance in crude prices driven by Middle East tensions\u2014Saudi Arabia's East-West pipeline shutdown after drone attacks this week, combined with Houthi advances threatening the Red Sea shipping lane, have kept oil elevated despite Friday's pullback. US crude is trading at $97.26 per barrel, well above typical levels, and refineries are running at 97.8% capacity, meaning MPC and peers are processing at near-maximum rates to capture the higher margins this environment creates.\n\nThe stock's 8.91% gain over two weeks underscores how refiner profits track closely to both crude prices and the spread between crude and final products like gasoline and diesel. With inventories of both gasoline and diesel remaining relatively moderate (206.9 million and 106.3 million barrels respectively), the refining sector benefits when geopolitical disruptions keep oil prices elevated and demand remains steady\u2014a dynamic that has held through this week's volatility.",
+  "fetchedAt": "2026-09-12T00:53:08.538072+00:00",
+  "text": "Marathon Petroleum gained less than 1% today, a modest move that fits into a much larger two-week rally of nearly 9%. The stock has been riding waves of Middle East geopolitical tension \u2014 Saudi Arabia's shutdown of its East-West crude pipeline after drone attacks, and Houthi militants advancing toward the Bab el-Mandeb Strait (a critical chokepoint for global oil shipping) have kept crude prices elevated. US refineries are running at 97.8% capacity, near maximum utilization, which means refiners like Marathon benefit when oil prices stay high and regional supply concerns keep crude in demand.\n\nToday's small dip came on the same day oil prices fell slightly, snapping a multi-day winning streak as markets digested the week's Middle East escalation. But the broader backdrop \u2014 geopolitical risk to Middle Eastern supply and near-maximum refinery utilization at home \u2014 continues to support refiner margins, which is why the stock has held most of its two-week gains rather than retreating.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 85,
-    "inputTokens": 78710,
-    "outputTokens": 18274,
-    "estimatedCostUsd": 0.17008,
-    "lastCallHour": "2026-09-11T23"
+    "callsThisMonth": 86,
+    "inputTokens": 79623,
+    "outputTokens": 18496,
+    "estimatedCostUsd": 0.172103,
+    "lastCallHour": "2026-09-12T00"
   }
 }
