@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-12T00:52:50.903559+00:00",
-  "text": "ConocoPhillips gained 0.23% today, continuing a steady climb over the past two weeks (+6.05%) as oil prices remain elevated. The immediate driver is the escalating Middle East crisis: Saudi Arabia shut down a major crude pipeline after drone attacks, and Houthi militants have advanced to a key Red Sea island threatening the Bab el-Mandeb Strait\u2014one of the world's most critical oil shipping chokepoints. These supply concerns keep crude prices firm (U.S. oil at $97.26/barrel, Brent at $109.51), which directly supports the earnings potential of major oil producers like ConocoPhillips.\n\nThe broader backdrop amplifies this: geopolitical tensions in the Middle East have been escalating through the week, supporting oil's strong weekly gains despite today's modest pullback. With U.S. administration rhetoric hardening toward Iran and regional instability spreading, the market is pricing in sustained upside risk to oil supply, which benefits integrated energy companies with significant upstream production.",
+  "fetchedAt": "2026-09-12T05:22:11.586307+00:00",
+  "text": "ConocoPhillips edged up 0.23% today as oil markets absorbed mixed signals from the Middle East. While crude prices fell on Friday after a strong week, the underlying story remains bullish for the company: Saudi Arabia's shutdown of its East-West pipeline following drone attacks, combined with Houthi militants' advance toward the Bab el-Mandeb Strait (a critical chokepoint for global oil shipping), has kept crude prices elevated at $97 a barrel in the US and $109 globally. The stock's 6% gain over two weeks reflects this geopolitical premium, where supply disruption risks support higher energy prices and boost profits for major oil producers.\n\nThe tension is real but fragile. Crude fell slightly on Friday even as these threats mounted, suggesting the market may be digesting the risks rather than pricing in escalation. For ConocoPhillips, the key is whether Middle East disruptions persist and tighten global supply enough to keep prices at these levels\u2014any resolution or shift in US policy toward Iran could flip the equation quickly.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 86,
-    "inputTokens": 74597,
-    "outputTokens": 17800,
-    "estimatedCostUsd": 0.163597,
-    "lastCallHour": "2026-09-12T00"
+    "callsThisMonth": 87,
+    "inputTokens": 75455,
+    "outputTokens": 18033,
+    "estimatedCostUsd": 0.16562,
+    "lastCallHour": "2026-09-12T05"
   }
 }
