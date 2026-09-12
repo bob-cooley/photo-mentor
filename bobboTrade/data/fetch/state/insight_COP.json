@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-12T10:01:38.520877+00:00",
-  "text": "ConocoPhillips rose slightly today as crude oil prices remained elevated despite recent volatility. U.S. oil is trading near $97 per barrel and world oil near $110, supported by escalating Middle East tensions\u2014Saudi Arabia shut down a major pipeline after drone attacks this week, and Houthi militants have advanced to control a key Red Sea island that threatens the Bab el-Mandeb Strait, a critical chokepoint for global oil shipments. Even though oil prices fell on Friday after their multiday rally, the underlying geopolitical risk keeps a floor under energy prices.\n\nThe stock has climbed 6% over two weeks as these supply disruption concerns have built. For an oil producer like ConocoPhillips, higher crude prices directly improve profitability, so the combination of tighter global supply and persistent Middle East instability works in the company's favor even as financial markets digest which way the crisis will ultimately move prices.",
+  "fetchedAt": "2026-09-12T13:50:46.761672+00:00",
+  "text": "ConocoPhillips rose slightly today as oil prices remained elevated amid Middle East tensions, though the move was modest. Over the past two weeks, the stock has climbed 6% in tandem with crude prices\u2014U.S. oil is trading near $97 a barrel, up from around $91 two weeks ago\u2014driven by supply disruptions. Saudi Arabia's shutdown of its East-West pipeline after drone attacks, combined with escalating regional tensions between Iran and Western powers, have kept oil prices well above $100 per barrel at times this week, supporting energy producers' margins.\n\nThe broader picture is one of volatility around geopolitical risk. While Trump has suggested oil prices will fall sharply after mid-term elections if Iran negotiations resume, those negotiations remain uncertain, and markets are pricing in continued supply tightness for now. That uncertainty\u2014along with the gap between U.S. crude ($97) and world prices ($110)\u2014is keeping oil elevated enough to support the sector's recent gains.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 88,
-    "inputTokens": 76333,
-    "outputTokens": 18239,
-    "estimatedCostUsd": 0.167528,
-    "lastCallHour": "2026-09-12T10"
+    "callsThisMonth": 89,
+    "inputTokens": 77198,
+    "outputTokens": 18455,
+    "estimatedCostUsd": 0.169473,
+    "lastCallHour": "2026-09-12T13"
   }
 }
