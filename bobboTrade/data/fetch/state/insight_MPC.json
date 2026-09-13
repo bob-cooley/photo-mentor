@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-13T08:03:28.753606+00:00",
-  "text": "Marathon Petroleum stock rose modestly today, gaining nearly 0.9%, as oil refiners continued to benefit from elevated crude prices and robust refining capacity utilization. U.S. crude was trading at $97.26 per barrel\u2014well above the pre-crisis baseline\u2014and U.S. refineries are running at 97.8% capacity, near maximum levels. This combination of high oil prices and full utilization drives stronger margins for refiners like Marathon, even as the stock pulled back slightly from yesterday's $399.44 peak.\n\nThe broader backdrop is a volatile geopolitical situation: Saudi Arabia shut down a major pipeline after drone attacks this week, and while Trump signaled expectations of a near-term Iran war resolution that could lower oil prices, Iran's leadership rejected surrender, keeping the conflict unresolved and crude elevated. This uncertainty has kept energy markets buoyant over the past two weeks\u2014Marathon is up 8.91% since early September\u2014though intraday volatility remains high as investors weigh competing signals about when (or if) tensions will ease.",
+  "fetchedAt": "2026-09-13T13:37:34.363289+00:00",
+  "text": "Marathon Petroleum rose slightly today as oil refineries operate near full capacity (97.8%) and crude prices remain elevated above $97 per barrel domestically. The modest gain follows a strong two-week rally where the stock jumped nearly 9%, driven by the broader refining sector benefiting from high crude and fuel prices amid Middle East tensions that have pushed global oil near $110 per barrel.\n\nThe recent news around a potential Iran war resolution \u2014 with Trump predicting prices will fall after midterm elections and China pushing for peace negotiations \u2014 created some volatility this week, evidenced by the stock's swings between $392 and $399 in the past few days. For now, refiners remain well-positioned as long as crude stays elevated and storage levels remain moderate, though any de-escalation in the region could eventually pressure both oil prices and refinery margins.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 95,
-    "inputTokens": 87984,
-    "outputTokens": 20364,
-    "estimatedCostUsd": 0.189804,
-    "lastCallHour": "2026-09-13T08"
+    "callsThisMonth": 96,
+    "inputTokens": 88927,
+    "outputTokens": 20548,
+    "estimatedCostUsd": 0.191667,
+    "lastCallHour": "2026-09-13T13"
   }
 }
