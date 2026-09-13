@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-13T02:57:28.860225+00:00",
-  "text": "MPC rose slightly today as oil refiners benefit from the current operating environment: US crude is trading at $97.26 a barrel while refineries are running at 97.8% capacity, near maximum utilization. The stock has climbed 8.91% over two weeks, riding a wave of volatility tied to the Iran war and its impact on global oil supplies\u2014crude briefly topped $102 this week before retreating Friday on hopes of peace negotiations.\n\nThe recent uncertainty around Iran, Houthis attacking Saudi infrastructure, and conflicting signals about whether the conflict will end soon have kept energy markets unstable. Refiners like MPC tend to benefit when crude prices stay elevated and refinery utilization stays high, as they process more oil at higher margins, though the persistent geopolitical tension means these gains could reverse quickly if a ceasefire actually takes hold.",
+  "fetchedAt": "2026-09-13T08:03:28.753606+00:00",
+  "text": "Marathon Petroleum stock rose modestly today, gaining nearly 0.9%, as oil refiners continued to benefit from elevated crude prices and robust refining capacity utilization. U.S. crude was trading at $97.26 per barrel\u2014well above the pre-crisis baseline\u2014and U.S. refineries are running at 97.8% capacity, near maximum levels. This combination of high oil prices and full utilization drives stronger margins for refiners like Marathon, even as the stock pulled back slightly from yesterday's $399.44 peak.\n\nThe broader backdrop is a volatile geopolitical situation: Saudi Arabia shut down a major pipeline after drone attacks this week, and while Trump signaled expectations of a near-term Iran war resolution that could lower oil prices, Iran's leadership rejected surrender, keeping the conflict unresolved and crude elevated. This uncertainty has kept energy markets buoyant over the past two weeks\u2014Marathon is up 8.91% since early September\u2014though intraday volatility remains high as investors weigh competing signals about when (or if) tensions will ease.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 94,
-    "inputTokens": 87054,
-    "outputTokens": 20133,
-    "estimatedCostUsd": 0.187719,
-    "lastCallHour": "2026-09-13T02"
+    "callsThisMonth": 95,
+    "inputTokens": 87984,
+    "outputTokens": 20364,
+    "estimatedCostUsd": 0.189804,
+    "lastCallHour": "2026-09-13T08"
   }
 }
