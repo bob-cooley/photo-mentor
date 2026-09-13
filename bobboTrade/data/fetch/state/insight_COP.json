@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-13T13:37:18.816010+00:00",
-  "text": "ConocoPhillips rose 0.23% today to $137.35, continuing a six-day climb that has added 6% to the stock over two weeks. The driver is the sharp move in oil prices: crude has held above $97 domestically and $109 globally, well above the $100 level it had tested just days earlier. This strength reflects competing pressures \u2014 Saudi Arabia's East-West pipeline was shut down after drone attacks from Iran-allied Houthi militants, tightening supply, while hopes for Middle East peace talks (urged by China and India this week) offered some counterweight.\n\nThe stock's gain sits in a narrow band where geopolitical risk and negotiation signals are wrestling for control of the oil market. As long as crude stays elevated and supply disruptions persist, energy producers like ConocoPhillips benefit from wider profit margins, even as any breakthrough in peace talks could reverse that advantage just as quickly.",
+  "fetchedAt": "2026-09-13T17:13:24.616452+00:00",
+  "text": "ConocoPhillips edged up 0.23% today to $137.35, extending a 6% rally over two weeks as oil prices remain elevated and geopolitical tensions persist. U.S. crude is trading at $97.26 per barrel while global oil sits at $109.51\u2014a wide gap reflecting Middle East supply concerns. Recent shipping strikes in the Strait of Hormuz, a critical passage for oil exports, have kept the market on edge despite diplomatic efforts by China and India to broker peace between Iran and Gulf nations.\n\nThe stock's steady climb reflects oil traders pricing in sustained supply risk. While some traders briefly hoped for a resolution after comments about potential negotiations, Iran's leadership has signaled no surrender, and the latest vessel strike suggests the geopolitical friction remains real enough to support higher oil prices\u2014which directly benefit an oil producer's revenues and earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 96,
-    "inputTokens": 83259,
-    "outputTokens": 19830,
-    "estimatedCostUsd": 0.182409,
-    "lastCallHour": "2026-09-13T13"
+    "callsThisMonth": 97,
+    "inputTokens": 84155,
+    "outputTokens": 20019,
+    "estimatedCostUsd": 0.18425,
+    "lastCallHour": "2026-09-13T17"
   }
 }

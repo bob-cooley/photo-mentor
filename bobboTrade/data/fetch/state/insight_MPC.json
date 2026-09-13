@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-13T13:37:34.363289+00:00",
-  "text": "Marathon Petroleum rose slightly today as oil refineries operate near full capacity (97.8%) and crude prices remain elevated above $97 per barrel domestically. The modest gain follows a strong two-week rally where the stock jumped nearly 9%, driven by the broader refining sector benefiting from high crude and fuel prices amid Middle East tensions that have pushed global oil near $110 per barrel.\n\nThe recent news around a potential Iran war resolution \u2014 with Trump predicting prices will fall after midterm elections and China pushing for peace negotiations \u2014 created some volatility this week, evidenced by the stock's swings between $392 and $399 in the past few days. For now, refiners remain well-positioned as long as crude stays elevated and storage levels remain moderate, though any de-escalation in the region could eventually pressure both oil prices and refinery margins.",
+  "fetchedAt": "2026-09-13T17:13:46.158707+00:00",
+  "text": "MPC rose 0.89% today to close at $395.93, continuing a strong two-week rally of 8.9%. The stock has been climbing on the back of elevated oil prices\u2014US crude is trading at $97.26 per barrel while world oil sits at $109.51\u2014driven by the escalating Iran conflict, which has disrupted shipping routes through the critical Strait of Hormuz. For a refiner like MPC, higher crude prices are a double-edged sword: they raise input costs, but refining capacity is running at 97.8%, near peak levels, meaning the company can turn volume quickly even in a tight market.\n\nThe geopolitical uncertainty remains the key driver here. While there's talk from Trump and India about de-escalation after the midterm elections, Iran's leadership has rejected surrender, and fresh shipping strikes are still happening in the Strait of Hormuz. This uncertainty has kept energy prices elevated and volatile\u2014exactly the kind of environment where a major refiner with full utilization can capitalize on high throughput, even if margins remain pressured by crude costs.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 96,
-    "inputTokens": 88927,
-    "outputTokens": 20548,
-    "estimatedCostUsd": 0.191667,
-    "lastCallHour": "2026-09-13T13"
+    "callsThisMonth": 97,
+    "inputTokens": 89888,
+    "outputTokens": 20788,
+    "estimatedCostUsd": 0.193828,
+    "lastCallHour": "2026-09-13T17"
   }
 }
