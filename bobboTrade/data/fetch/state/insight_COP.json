@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-13T17:13:24.616452+00:00",
-  "text": "ConocoPhillips edged up 0.23% today to $137.35, extending a 6% rally over two weeks as oil prices remain elevated and geopolitical tensions persist. U.S. crude is trading at $97.26 per barrel while global oil sits at $109.51\u2014a wide gap reflecting Middle East supply concerns. Recent shipping strikes in the Strait of Hormuz, a critical passage for oil exports, have kept the market on edge despite diplomatic efforts by China and India to broker peace between Iran and Gulf nations.\n\nThe stock's steady climb reflects oil traders pricing in sustained supply risk. While some traders briefly hoped for a resolution after comments about potential negotiations, Iran's leadership has signaled no surrender, and the latest vessel strike suggests the geopolitical friction remains real enough to support higher oil prices\u2014which directly benefit an oil producer's revenues and earnings.",
+  "fetchedAt": "2026-09-13T20:15:28.571301+00:00",
+  "text": "ConocoPhillips edged up 0.23% today as oil prices held firm amid ongoing geopolitical tensions in the Middle East. A vessel strike in the Strait of Hormuz on September 13th kept crude elevated\u2014U.S. oil at $97.26 and global oil at $109.51 per barrel\u2014even as diplomatic signals (China pushing for BRICS-led peace, Indian appeals for dialogue) suggested some hope for de-escalation. For an oil company, higher crude prices directly support profitability, and the recent climb from $134.26 to $137.35 over the past week reflects this sustained elevation above $100 per barrel.\n\nThe stock has gained 6% in two weeks as the market weighs competing narratives: geopolitical risks that keep oil elevated versus diplomatic efforts that could eventually ease them. Trump's prediction of a sharp oil-price decline after midterm elections created volatility earlier in the week, but the Strait of Hormuz incident appears to have reminded investors that Middle East supply risks remain real and near-term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 97,
-    "inputTokens": 84155,
-    "outputTokens": 20019,
-    "estimatedCostUsd": 0.18425,
-    "lastCallHour": "2026-09-13T17"
+    "callsThisMonth": 98,
+    "inputTokens": 85051,
+    "outputTokens": 20255,
+    "estimatedCostUsd": 0.186326,
+    "lastCallHour": "2026-09-13T20"
   }
 }

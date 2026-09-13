@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-13T17:13:46.158707+00:00",
-  "text": "MPC rose 0.89% today to close at $395.93, continuing a strong two-week rally of 8.9%. The stock has been climbing on the back of elevated oil prices\u2014US crude is trading at $97.26 per barrel while world oil sits at $109.51\u2014driven by the escalating Iran conflict, which has disrupted shipping routes through the critical Strait of Hormuz. For a refiner like MPC, higher crude prices are a double-edged sword: they raise input costs, but refining capacity is running at 97.8%, near peak levels, meaning the company can turn volume quickly even in a tight market.\n\nThe geopolitical uncertainty remains the key driver here. While there's talk from Trump and India about de-escalation after the midterm elections, Iran's leadership has rejected surrender, and fresh shipping strikes are still happening in the Strait of Hormuz. This uncertainty has kept energy prices elevated and volatile\u2014exactly the kind of environment where a major refiner with full utilization can capitalize on high throughput, even if margins remain pressured by crude costs.",
+  "fetchedAt": "2026-09-13T20:15:49.574370+00:00",
+  "text": "Marathon Petroleum edged up 0.89% today, continuing a strong two-week run of nearly 9%. The stock's gains reflect a volatile geopolitical environment around oil markets: crude prices have climbed sharply (US oil at $97.26/barrel, up significantly from recent lows), and refineries are running at 97.8% capacity, suggesting tight supply and strong margins for oil processors like Marathon. Recent headlines about strikes in the Strait of Hormuz, ongoing Iran-U.S. tensions, and competing diplomatic efforts are keeping oil prices elevated and uncertain.\n\nThe broader pattern here is that refiner stocks tend to benefit when crude prices rise but product demand remains steady\u2014and with gasoline and diesel storage levels in normal ranges, refiners can move their output. However, this rally also hinges on geopolitical risk remaining elevated; if diplomacy succeeds and oil prices fall sharply (as Trump suggested they might after midterm elections), refiner margins could compress quickly, which explains why Marathon has seesawed between $387 and $399 over the last two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 97,
-    "inputTokens": 89888,
-    "outputTokens": 20788,
-    "estimatedCostUsd": 0.193828,
-    "lastCallHour": "2026-09-13T17"
+    "callsThisMonth": 98,
+    "inputTokens": 90849,
+    "outputTokens": 21023,
+    "estimatedCostUsd": 0.195964,
+    "lastCallHour": "2026-09-13T20"
   }
 }
