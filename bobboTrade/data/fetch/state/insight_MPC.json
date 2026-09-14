@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-14T05:44:18.027965+00:00",
-  "text": "Marathon Petroleum ticked up less than 1% today, extending a strong two-week rally of nearly 9%. The modest gain follows a sharp pullback yesterday from a peak of $399.44, suggesting consolidation after this recent surge. The driver is clear: oil prices jumped on news that Saudi Arabia shut down a critical pipeline to bypass the Strait of Hormuz after escalating attacks from Iran-allied groups, raising concerns about supply disruptions in one of the world's most important oil chokepoints. Refiners like Marathon benefit when crude oil prices rise relative to the products they sell (gasoline and diesel), and with US oil now at $97.26 per barrel and refinery utilization running at 97.8%, the company is positioned to capture higher margins on that tighter supply backdrop.\n\nThe broader context is the escalating Iran-Gulf tensions, which have created sustained upward pressure on energy prices over the past week despite no actual supply loss yet. As long as the geopolitical risk premium persists and refineries run near full capacity, refiners have pricing power \u2014 though any actual pipeline repairs or diplomatic breakthrough could reverse these gains quickly.",
+  "fetchedAt": "2026-09-14T11:41:20.480344+00:00",
+  "text": "Marathon Petroleum gained 0.89% today, continuing a strong two-week rally of 8.91%. The move reflects tightening global oil supplies: Saudi Arabia shut down a critical pipeline bypass today after Iranian attacks, pushing Brent crude above $108 per barrel, while U.S. refineries are running at 97.8% capacity\u2014near maximum\u2014and diesel prices just hit record highs above $6 a gallon. For a refiner like this, higher crude prices and constrained fuel supplies mean stronger profit margins on the fuel they produce and sell.\n\nThe escalating Middle East conflict\u2014Iran downing a U.S. drone over the Strait of Hormuz and Saudi pipeline damage\u2014has created sustained upward pressure on oil markets, with the gap between U.S. crude ($97.26) and global Brent ($109.51) widening. This geopolitical risk premium, combined with U.S. diesel scarcity driving record prices, has positioned refiners favorably for the near term, even as inflation concerns persist globally.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 101,
-    "inputTokens": 93607,
-    "outputTokens": 21701,
-    "estimatedCostUsd": 0.202112,
-    "lastCallHour": "2026-09-14T05"
+    "callsThisMonth": 102,
+    "inputTokens": 94541,
+    "outputTokens": 21932,
+    "estimatedCostUsd": 0.204201,
+    "lastCallHour": "2026-09-14T11"
   }
 }
