@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-14T17:36:40.084617+00:00",
-  "text": "Marathon Petroleum fell 0.97% today to $392.09, a small pullback after a strong two-week run of 6.31%. The decline came despite oil prices rising sharply on news that Saudi Arabia shut down a critical pipeline bypassing the Strait of Hormuz due to Iranian attacks, and despite U.S. refineries running at 97.8% capacity. The stock appears to have given back some recent gains after climbing nearly $11 over the past week \u2014 a common pattern when a rally faces resistance.\n\nThe broader refining environment remains supportive: oil is trading near $97 domestically and $110 globally, diesel is hitting record highs above $6 a gallon, and refineries are running flat-out. These conditions normally favor refiners like Marathon. The pullback may simply reflect profit-taking after the stock's recent jump, or a pause before the next move \u2014 the underlying supply tightness from the Iran and Ukraine conflicts that drove this week's gains is still in place.",
+  "fetchedAt": "2026-09-14T18:20:10.776038+00:00",
+  "text": "Marathon Petroleum fell slightly today despite a sharp rally over the past two weeks, as crude oil prices pulled back modestly and refinery operations remained steady at near-capacity levels. The small decline likely reflects profit-taking after the stock gained 6.8% since early September, when geopolitical tensions (Iran conflict, Ukraine energy attacks, Saudi pipeline shutdown) pushed oil prices above $100 a barrel and diesel to record highs.\n\nThe underlying conditions for a refiner remain supportive: U.S. crude sits at $97.26 and global crude at $109.51, refineries are running at 97.8% capacity, and storage levels across oil and products are tight\u2014all factors that typically strengthen refining margins. However, the recent political developments (Trump's reported negotiations to halt Ukraine attacks on Russian energy) introduce uncertainty about whether crude supply pressures will ease, which could weigh on the stock near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 103,
-    "inputTokens": 95458,
-    "outputTokens": 22152,
-    "estimatedCostUsd": 0.206218,
-    "lastCallHour": "2026-09-14T17"
+    "callsThisMonth": 104,
+    "inputTokens": 96375,
+    "outputTokens": 22349,
+    "estimatedCostUsd": 0.20812,
+    "lastCallHour": "2026-09-14T18"
   }
 }
