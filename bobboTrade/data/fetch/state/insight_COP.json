@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-14T00:40:38.578198+00:00",
-  "text": "ConocoPhillips edged up 0.23% today to $137.35, continuing a steady climb over the past two weeks (+6.05%). The gain reflects ongoing strength in oil prices driven by Middle East supply disruptions \u2014 Saudi Arabia shut down a critical pipeline bypass after attacks from Iran-aligned groups, and a vessel was struck in the Strait of Hormuz, a major chokepoint for global oil flows. US crude is trading at $97.26 per barrel, up sharply from earlier in the week, which directly supports earnings for oil producers like ConocoPhillips.\n\nThe stock's broader two-week rally sits atop conflicting signals about how long these disruptions will last. While Trump has suggested oil prices could fall sharply after midterm elections if Iran tensions ease, Iranian leadership is taking a harder line, and diplomatic talks remain uncertain. For now, elevated oil prices are the dominant driver \u2014 every dollar per barrel matters significantly to ConocoPhillips' profitability \u2014 but the durability of this rally depends on whether Middle East tensions escalate or de-escalate in coming weeks.",
+  "fetchedAt": "2026-09-14T05:44:02.980605+00:00",
+  "text": "ConocoPhillips rose 0.23% today to $137.35, extending a two-week gain of 6%. The move reflects underlying strength in oil prices driven by geopolitical tension: Saudi Arabia shut down a critical pipeline that bypasses the Strait of Hormuz after escalating attacks from Iran-allied groups, and a vessel was struck in the strait itself. US crude is trading at $97.26 per barrel, supporting the energy sector broadly.\n\nThe bigger picture is that major oil supply chokepoints in the Middle East are under active threat, which typically boosts prices for producers like ConocoPhillips regardless of near-term diplomatic efforts. Meanwhile, energy companies are seeing sustained investment demand for LNG projects despite higher borrowing costs, which signals underlying confidence in future energy demand.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 100,
-    "inputTokens": 86835,
-    "outputTokens": 20735,
-    "estimatedCostUsd": 0.19051,
-    "lastCallHour": "2026-09-14T00"
+    "callsThisMonth": 101,
+    "inputTokens": 87685,
+    "outputTokens": 20909,
+    "estimatedCostUsd": 0.19223,
+    "lastCallHour": "2026-09-14T05"
   }
 }

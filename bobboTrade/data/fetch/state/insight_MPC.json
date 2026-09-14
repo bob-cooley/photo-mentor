@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-14T00:40:54.811565+00:00",
-  "text": "Marathon Petroleum rose today on the back of a sharp two-week rally driven by Middle East tensions and tighter oil supply. Saudi Arabia shut down a critical pipeline bypass on September 13th amid escalating Iran-allied attacks, and a vessel was struck in the Strait of Hormuz\u2014both events that tighten crude supply and support refiner margins. US oil is trading at $97.26 per barrel, up substantially from levels two weeks ago, while US refineries are running at 97.8% capacity, meaning they're capturing strong profits on each barrel they process.\n\nThe gains also reflect broader geopolitical uncertainty: while Trump predicted an Iran war resolution after midterm elections could send oil prices falling, diplomatic prospects remain unclear, and China is pushing for Middle East peace talks. Until those talks produce results\u2014or until supply disruptions reverse\u2014refiners like Marathon stand to benefit from elevated crude prices and full-capacity operations.",
+  "fetchedAt": "2026-09-14T05:44:18.027965+00:00",
+  "text": "Marathon Petroleum ticked up less than 1% today, extending a strong two-week rally of nearly 9%. The modest gain follows a sharp pullback yesterday from a peak of $399.44, suggesting consolidation after this recent surge. The driver is clear: oil prices jumped on news that Saudi Arabia shut down a critical pipeline to bypass the Strait of Hormuz after escalating attacks from Iran-allied groups, raising concerns about supply disruptions in one of the world's most important oil chokepoints. Refiners like Marathon benefit when crude oil prices rise relative to the products they sell (gasoline and diesel), and with US oil now at $97.26 per barrel and refinery utilization running at 97.8%, the company is positioned to capture higher margins on that tighter supply backdrop.\n\nThe broader context is the escalating Iran-Gulf tensions, which have created sustained upward pressure on energy prices over the past week despite no actual supply loss yet. As long as the geopolitical risk premium persists and refineries run near full capacity, refiners have pricing power \u2014 though any actual pipeline repairs or diplomatic breakthrough could reverse these gains quickly.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 100,
-    "inputTokens": 92703,
-    "outputTokens": 21455,
-    "estimatedCostUsd": 0.199978,
-    "lastCallHour": "2026-09-14T00"
+    "callsThisMonth": 101,
+    "inputTokens": 93607,
+    "outputTokens": 21701,
+    "estimatedCostUsd": 0.202112,
+    "lastCallHour": "2026-09-14T05"
   }
 }
