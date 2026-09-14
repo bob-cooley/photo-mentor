@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-14T11:41:01.274626+00:00",
-  "text": "ConocoPhillips edged up 0.23% today to $137.35, continuing a steady climb over the past two weeks (+6.05%). The move reflects tightening global oil supplies: Saudi Arabia shut down a critical pipeline bypassing the Strait of Hormuz following attacks, Brent crude jumped above $108 per barrel, and U.S. diesel prices hit record highs above $6 per gallon. Iran's downing of a U.S. drone and escalating Middle East tensions add further upward pressure on crude prices, which benefit oil majors like ConocoPhillips.\n\nThe broader energy supply shock\u2014compounded by Ukraine's strikes on Russian refineries and India's persistent inflation from rising fuel costs\u2014is sustaining strong crude prices (Brent at $109.51) that make ConocoPhillips' production more valuable. The stock's two-week rally reflects accumulating concern about oil tightness rather than today's small move alone.",
+  "fetchedAt": "2026-09-14T17:35:58.257610+00:00",
+  "text": "ConocoPhillips rose 0.21% today to $137.64, continuing a steady climb over the past two weeks (+5.59%). The immediate driver is today's news that Saudi Arabia shut down a critical pipeline bypassing the Strait of Hormuz after attacks from Iran-allied groups, which pushed oil prices higher \u2014 US crude is trading at $97.26/barrel and global oil at $109.51. For an oil producer like ConocoPhillips, higher crude prices directly lift earnings potential and stock value.\n\nThe broader backdrop amplifies this move: US diesel prices have hit record levels above $6 per gallon due to combined supply pressures from the Russia-Ukraine war and escalating Iran tensions, keeping energy markets tight and supportive of oil prices well above $100/barrel. These geopolitical shocks to global supply have traders betting gas prices will keep rising, which benefits integrated energy companies with production and refining operations.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 102,
-    "inputTokens": 88563,
-    "outputTokens": 21126,
-    "estimatedCostUsd": 0.194193,
-    "lastCallHour": "2026-09-14T11"
+    "callsThisMonth": 103,
+    "inputTokens": 89425,
+    "outputTokens": 21331,
+    "estimatedCostUsd": 0.19608,
+    "lastCallHour": "2026-09-14T17"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-14T11:41:20.480344+00:00",
-  "text": "Marathon Petroleum gained 0.89% today, continuing a strong two-week rally of 8.91%. The move reflects tightening global oil supplies: Saudi Arabia shut down a critical pipeline bypass today after Iranian attacks, pushing Brent crude above $108 per barrel, while U.S. refineries are running at 97.8% capacity\u2014near maximum\u2014and diesel prices just hit record highs above $6 a gallon. For a refiner like this, higher crude prices and constrained fuel supplies mean stronger profit margins on the fuel they produce and sell.\n\nThe escalating Middle East conflict\u2014Iran downing a U.S. drone over the Strait of Hormuz and Saudi pipeline damage\u2014has created sustained upward pressure on oil markets, with the gap between U.S. crude ($97.26) and global Brent ($109.51) widening. This geopolitical risk premium, combined with U.S. diesel scarcity driving record prices, has positioned refiners favorably for the near term, even as inflation concerns persist globally.",
+  "fetchedAt": "2026-09-14T17:36:40.084617+00:00",
+  "text": "Marathon Petroleum fell 0.97% today to $392.09, a small pullback after a strong two-week run of 6.31%. The decline came despite oil prices rising sharply on news that Saudi Arabia shut down a critical pipeline bypassing the Strait of Hormuz due to Iranian attacks, and despite U.S. refineries running at 97.8% capacity. The stock appears to have given back some recent gains after climbing nearly $11 over the past week \u2014 a common pattern when a rally faces resistance.\n\nThe broader refining environment remains supportive: oil is trading near $97 domestically and $110 globally, diesel is hitting record highs above $6 a gallon, and refineries are running flat-out. These conditions normally favor refiners like Marathon. The pullback may simply reflect profit-taking after the stock's recent jump, or a pause before the next move \u2014 the underlying supply tightness from the Iran and Ukraine conflicts that drove this week's gains is still in place.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 102,
-    "inputTokens": 94541,
-    "outputTokens": 21932,
-    "estimatedCostUsd": 0.204201,
-    "lastCallHour": "2026-09-14T11"
+    "callsThisMonth": 103,
+    "inputTokens": 95458,
+    "outputTokens": 22152,
+    "estimatedCostUsd": 0.206218,
+    "lastCallHour": "2026-09-14T17"
   }
 }
