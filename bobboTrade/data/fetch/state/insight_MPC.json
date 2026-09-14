@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-14T18:20:10.776038+00:00",
-  "text": "Marathon Petroleum fell slightly today despite a sharp rally over the past two weeks, as crude oil prices pulled back modestly and refinery operations remained steady at near-capacity levels. The small decline likely reflects profit-taking after the stock gained 6.8% since early September, when geopolitical tensions (Iran conflict, Ukraine energy attacks, Saudi pipeline shutdown) pushed oil prices above $100 a barrel and diesel to record highs.\n\nThe underlying conditions for a refiner remain supportive: U.S. crude sits at $97.26 and global crude at $109.51, refineries are running at 97.8% capacity, and storage levels across oil and products are tight\u2014all factors that typically strengthen refining margins. However, the recent political developments (Trump's reported negotiations to halt Ukraine attacks on Russian energy) introduce uncertainty about whether crude supply pressures will ease, which could weigh on the stock near term.",
+  "fetchedAt": "2026-09-14T21:25:20.387307+00:00",
+  "text": "Marathon Petroleum stock edged up 0.15% today to close at $396.52, continuing a two-week rally of 7.5% that reflects rising oil prices and tightening energy markets. Oil has climbed above $100 per barrel (now at $97.26 domestically, $109.51 globally) due to geopolitical tensions \u2014 Saudi Arabia shut a key pipeline bypassing the Strait of Hormuz after Iranian attacks, and U.S.-Iran hostilities have escalated. Refineries are running at 97.8% capacity, near maximum, which means the company benefits from both higher crude costs that it processes into refined products and tight supply conditions that support margins.\n\nThe regulatory environment has also shifted in the company's favor: the Trump administration repealed Obama and Biden-era greenhouse gas requirements for power plants on September 14, removing a headwind for fossil fuel producers. With prediction market traders now betting gas prices will hit new yearly highs, the refining sector is positioned to capture strong margins as long as crude remains elevated and demand stays firm.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 104,
-    "inputTokens": 96375,
-    "outputTokens": 22349,
-    "estimatedCostUsd": 0.20812,
-    "lastCallHour": "2026-09-14T18"
+    "callsThisMonth": 105,
+    "inputTokens": 97274,
+    "outputTokens": 22582,
+    "estimatedCostUsd": 0.210184,
+    "lastCallHour": "2026-09-14T21"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-14T18:19:54.435737+00:00",
-  "text": "ConocoPhillips gained roughly 0.08% today to close at $137.46, continuing a strong two-week rally of 5.45% driven by escalating geopolitical tensions that are tightening global oil supplies. A critical Saudi Arabian pipeline bypassing the Strait of Hormuz was shut down after attacks from Iran-allied groups, and Ukraine-Russia conflict continues disrupting Russian energy infrastructure\u2014both events push crude prices higher (US oil at $97.26/barrel, world oil at $109.51/barrel), which directly benefits oil producers like ConocoPhillips.\n\nThese supply fears are compounding: traders are now betting gas prices will hit yearly highs, and U.S. diesel has already reached record levels above $6 per gallon. For an oil producer, a tighter supply environment and higher prices translate to stronger margins and higher revenues, which explains why the stock has steadily climbed over the past two weeks even as today's specific move was modest.",
+  "fetchedAt": "2026-09-14T21:24:49.893867+00:00",
+  "text": "ConocoPhillips fell 0.5% today despite a backdrop of geopolitical moves that typically support oil prices\u2014Saudi Arabia shut down a critical pipeline today after Iranian militant attacks, and U.S. diesel prices hit record highs at over $6 a gallon. The stock had rallied 4.85% over the past two weeks on these very supply concerns, so today's small pullback looks like modest profit-taking after a strong run, particularly given that crude prices remain elevated above $97 domestically and $109 globally.\n\nThe broader energy picture remains supportive: deepening tensions in the Middle East and ongoing damage to Russian refining capacity are keeping oil and diesel in tight supply, which typically benefits a major producer like ConocoPhillips. The Trump administration's rollback of climate regulations announced today could also be a tailwind for oil demand longer term, but the market appears to be pricing that in gradually rather than as a shock.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 104,
-    "inputTokens": 90287,
-    "outputTokens": 21547,
-    "estimatedCostUsd": 0.198022,
-    "lastCallHour": "2026-09-14T18"
+    "callsThisMonth": 105,
+    "inputTokens": 91137,
+    "outputTokens": 21753,
+    "estimatedCostUsd": 0.199902,
+    "lastCallHour": "2026-09-14T21"
   }
 }
