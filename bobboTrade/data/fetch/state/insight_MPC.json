@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-13T22:50:52.230486+00:00",
-  "text": "Marathon Petroleum rose 0.89% today to close at $395.93, staying within a volatile range as the refiner battles conflicting signals. Oil prices ticked up to $97.26 per barrel domestically on Friday's news that Saudi Arabia shut down a critical pipeline bypass following Iranian attacks on infrastructure\u2014a geopolitical squeeze that typically boosts refiner margins by making crude harder to access. At the same time, U.S. refineries are running at 97.8% capacity with gasoline and diesel inventories building, which can pressure margins if demand weakens.\n\nThe stock's 8.91% gain over two weeks reflects the broader whipsaw in energy markets: oil briefly crossed $100 a barrel earlier in the week on Middle East tensions, but retreated when Trump signaled the Iran conflict could wind down after midterms and oil prices would fall. Refiners like Marathon profit when the spread between crude prices and refined product prices widens, so they tend to benefit from supply disruptions\u2014but lose ground if peace talk rumors resurface and crude retreats sharply.",
+  "fetchedAt": "2026-09-14T00:40:54.811565+00:00",
+  "text": "Marathon Petroleum rose today on the back of a sharp two-week rally driven by Middle East tensions and tighter oil supply. Saudi Arabia shut down a critical pipeline bypass on September 13th amid escalating Iran-allied attacks, and a vessel was struck in the Strait of Hormuz\u2014both events that tighten crude supply and support refiner margins. US oil is trading at $97.26 per barrel, up substantially from levels two weeks ago, while US refineries are running at 97.8% capacity, meaning they're capturing strong profits on each barrel they process.\n\nThe gains also reflect broader geopolitical uncertainty: while Trump predicted an Iran war resolution after midterm elections could send oil prices falling, diplomatic prospects remain unclear, and China is pushing for Middle East peace talks. Until those talks produce results\u2014or until supply disruptions reverse\u2014refiners like Marathon stand to benefit from elevated crude prices and full-capacity operations.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 99,
-    "inputTokens": 91776,
-    "outputTokens": 21257,
-    "estimatedCostUsd": 0.198061,
-    "lastCallHour": "2026-09-13T22"
+    "callsThisMonth": 100,
+    "inputTokens": 92703,
+    "outputTokens": 21455,
+    "estimatedCostUsd": 0.199978,
+    "lastCallHour": "2026-09-14T00"
   }
 }

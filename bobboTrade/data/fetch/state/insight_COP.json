@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-13T22:50:30.661166+00:00",
-  "text": "ConocoPhillips edged up 0.23% today to $137.35, capping a strong two-week run of +6.05%. The move reflects ongoing support from oil prices, which remain elevated: US crude is trading at $97.26 per barrel, well above historical norms, driven by Saudi Arabia's shutdown of a critical pipeline that bypasses the Strait of Hormuz in response to recent Iranian-allied attacks on their infrastructure. This supply-side disruption, combined with reports of a vessel strike in the Strait itself, has kept energy markets on edge and prices supported.\n\nThe broader backdrop is geopolitical tension in the Middle East without a clear near-term resolution\u2014despite hopes for diplomacy (Iran's president has held firm against surrenders, negotiations remain stalled, and a shipping agreement signing is still pending), the risk of further disruption persists. For an oil major like ConocoPhillips, elevated crude prices directly improve margins and cash flow, which is why the stock has drifted steadily higher over the past two weeks even as headlines have remained turbulent.",
+  "fetchedAt": "2026-09-14T00:40:38.578198+00:00",
+  "text": "ConocoPhillips edged up 0.23% today to $137.35, continuing a steady climb over the past two weeks (+6.05%). The gain reflects ongoing strength in oil prices driven by Middle East supply disruptions \u2014 Saudi Arabia shut down a critical pipeline bypass after attacks from Iran-aligned groups, and a vessel was struck in the Strait of Hormuz, a major chokepoint for global oil flows. US crude is trading at $97.26 per barrel, up sharply from earlier in the week, which directly supports earnings for oil producers like ConocoPhillips.\n\nThe stock's broader two-week rally sits atop conflicting signals about how long these disruptions will last. While Trump has suggested oil prices could fall sharply after midterm elections if Iran tensions ease, Iranian leadership is taking a harder line, and diplomatic talks remain uncertain. For now, elevated oil prices are the dominant driver \u2014 every dollar per barrel matters significantly to ConocoPhillips' profitability \u2014 but the durability of this rally depends on whether Middle East tensions escalate or de-escalate in coming weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 99,
-    "inputTokens": 85943,
-    "outputTokens": 20494,
-    "estimatedCostUsd": 0.188413,
-    "lastCallHour": "2026-09-13T22"
+    "callsThisMonth": 100,
+    "inputTokens": 86835,
+    "outputTokens": 20735,
+    "estimatedCostUsd": 0.19051,
+    "lastCallHour": "2026-09-14T00"
   }
 }
