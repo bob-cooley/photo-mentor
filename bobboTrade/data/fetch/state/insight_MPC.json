@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T15:30:11.596871+00:00",
-  "text": "Marathon Petroleum jumped 2.5% today, extending a broader two-week rally as crude oil climbed back above $104 per barrel following Houthi strikes on Saudi Arabia's key pipeline infrastructure. The outage has tightened global oil supply\u2014analysts warn that if the pipeline stays offline beyond five to seven days, inventories could tighten sharply and push prices higher. For a refiner like Marathon, higher crude prices typically compress margins in the short run, but the real driver here appears to be market conviction that a supply crunch is coming, which boosts the value of refining capacity itself.\n\nThe refining sector is running at 97.8% capacity utilization, leaving almost no slack to absorb further supply disruptions. Combined with the geopolitical tensions in the Middle East\u2014Iran-backed militants attacking Saudi infrastructure while Iranian officials negotiate with China\u2014the market is pricing in sustained tightness and upside risk to energy prices, which shifts investor focus away from margin pressure and toward supply-side leverage.",
+  "fetchedAt": "2026-09-15T17:28:00.277637+00:00",
+  "text": "Marathon Petroleum stock jumped 3.7% today as oil prices spiked on geopolitical tension in the Middle East. A Saudi Arabian pipeline that moves crude internally was damaged in a drone attack, and while U.S. officials said repairs would take only days, analysts warned that if the shutdown lasts longer than a week, oil prices could rally sharply\u2014which would boost refiner margins. The stock has now climbed 10% in two weeks as these regional risks have built; U.S. crude is trading at $97 per barrel and world crude at $109, well above typical levels.\n\nRefineries are running at 97.8% capacity, meaning the industry is operating near maximum and can capture more profit from each barrel processed when crude costs more relative to finished fuel prices. With limited spare production capacity globally and uncertainty about how long the Saudi pipeline outage will last, the market is pricing in the possibility of sustained high energy costs\u2014exactly the environment where a major refiner like this one tends to perform well.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 109,
-    "inputTokens": 100901,
-    "outputTokens": 23435,
-    "estimatedCostUsd": 0.218076,
-    "lastCallHour": "2026-09-15T15"
+    "callsThisMonth": 110,
+    "inputTokens": 101803,
+    "outputTokens": 23653,
+    "estimatedCostUsd": 0.220068,
+    "lastCallHour": "2026-09-15T17"
   }
 }
