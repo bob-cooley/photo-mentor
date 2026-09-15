@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-14T21:25:20.387307+00:00",
-  "text": "Marathon Petroleum stock edged up 0.15% today to close at $396.52, continuing a two-week rally of 7.5% that reflects rising oil prices and tightening energy markets. Oil has climbed above $100 per barrel (now at $97.26 domestically, $109.51 globally) due to geopolitical tensions \u2014 Saudi Arabia shut a key pipeline bypassing the Strait of Hormuz after Iranian attacks, and U.S.-Iran hostilities have escalated. Refineries are running at 97.8% capacity, near maximum, which means the company benefits from both higher crude costs that it processes into refined products and tight supply conditions that support margins.\n\nThe regulatory environment has also shifted in the company's favor: the Trump administration repealed Obama and Biden-era greenhouse gas requirements for power plants on September 14, removing a headwind for fossil fuel producers. With prediction market traders now betting gas prices will hit new yearly highs, the refining sector is positioned to capture strong margins as long as crude remains elevated and demand stays firm.",
+  "fetchedAt": "2026-09-15T00:11:53.550841+00:00",
+  "text": "Marathon Petroleum stock rose slightly today in a market shaped by geopolitical oil supply concerns. The Saudi pipeline shutdown announced over the weekend, combined with ongoing tensions in the Iran war and Russia-Ukraine conflict, has kept crude prices elevated (US oil at $97/barrel, world oil at $109/barrel) and US refineries running at near-full capacity (97.8%). With refineries operating near their limits and crude supplies constrained by regional conflicts, refiners like Marathon benefit from wider profit margins on each barrel processed.\n\nThe broader tailwind for the sector comes from the Trump administration's rollback of climate regulations on power plants, which removes a regulatory headwind for fossil fuel operations. Over the past two weeks, the stock has climbed 7.5%, reflecting investor confidence that geopolitical turmoil and lighter regulation will sustain high refining activity and energy demand.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 105,
-    "inputTokens": 97274,
-    "outputTokens": 22582,
-    "estimatedCostUsd": 0.210184,
-    "lastCallHour": "2026-09-14T21"
+    "callsThisMonth": 106,
+    "inputTokens": 98167,
+    "outputTokens": 22768,
+    "estimatedCostUsd": 0.212007,
+    "lastCallHour": "2026-09-15T00"
   }
 }
