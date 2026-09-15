@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T17:28:00.277637+00:00",
-  "text": "Marathon Petroleum stock jumped 3.7% today as oil prices spiked on geopolitical tension in the Middle East. A Saudi Arabian pipeline that moves crude internally was damaged in a drone attack, and while U.S. officials said repairs would take only days, analysts warned that if the shutdown lasts longer than a week, oil prices could rally sharply\u2014which would boost refiner margins. The stock has now climbed 10% in two weeks as these regional risks have built; U.S. crude is trading at $97 per barrel and world crude at $109, well above typical levels.\n\nRefineries are running at 97.8% capacity, meaning the industry is operating near maximum and can capture more profit from each barrel processed when crude costs more relative to finished fuel prices. With limited spare production capacity globally and uncertainty about how long the Saudi pipeline outage will last, the market is pricing in the possibility of sustained high energy costs\u2014exactly the environment where a major refiner like this one tends to perform well.",
+  "fetchedAt": "2026-09-15T19:31:41.816096+00:00",
+  "text": "Marathon Petroleum jumped 3.7% today as crude oil prices spiked following Saudi Arabia's pipeline closure. The East-West pipeline was damaged in a drone attack and temporarily shut down, pushing U.S. oil to over $105 a barrel\u2014the highest level in recent weeks. When global crude prices rise, refiners like Marathon benefit because they can sell refined products (gasoline, diesel) at higher margins relative to their input costs, especially when refineries are operating at high capacity as they currently are at 97.8%.\n\nThe broader Iran-related geopolitical tensions are keeping oil markets elevated. Houthi militants and Iraqi-backed drone strikes on Saudi oil infrastructure have created genuine supply concerns, which is why the U.S. price ($97) remains meaningfully lower than the world price ($109)\u2014the gap reflects fear that more disruptions could hit global supply. This two-week gain of 10% fits the pattern of a refiner benefiting from sustained crude strength driven by Middle East friction rather than any company-specific news.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 110,
-    "inputTokens": 101803,
-    "outputTokens": 23653,
-    "estimatedCostUsd": 0.220068,
-    "lastCallHour": "2026-09-15T17"
+    "callsThisMonth": 111,
+    "inputTokens": 102698,
+    "outputTokens": 23877,
+    "estimatedCostUsd": 0.222083,
+    "lastCallHour": "2026-09-15T19"
   }
 }

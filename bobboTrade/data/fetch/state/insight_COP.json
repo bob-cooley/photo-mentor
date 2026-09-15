@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-15T17:27:39.348976+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as crude oil prices surged on concerns about Saudi Arabia's pipeline closure. The East-West pipeline was damaged in a drone attack and shut down, with U.S. crude rallying to $106 and Brent crude hitting $109.51 per barrel. While Saudi officials say the closure will last only days, analysts warn that if the outage extends beyond five to seven days, oil prices could spike sharply as inventory buffers get depleted\u2014a scenario that would directly boost revenues for a major oil producer like ConocoPhillips.\n\nThe two-week rally of 6.7% reflects a broader shift toward geopolitical risk in oil markets. Attacks from Iran-backed Houthi militants and the resulting uncertainty about Saudi infrastructure have rattled energy traders, and with oil and Treasury yields now moving in lockstep\u2014their tightest correlation in seven years\u2014crude has become tied to macroeconomic uncertainty as much as supply concerns.",
+  "fetchedAt": "2026-09-15T19:31:12.386689+00:00",
+  "text": "ConocoPhillips rose 2.9% today to $140.62, driven by a sharp jump in oil prices following Saudi Arabia's pipeline closure after a drone attack. U.S. crude topped $105 a barrel\u2014well above today's closing price of $97.26, suggesting the market is pricing in near-term supply disruption. The Saudi energy minister said the outage would last only days, but analysts are flagging risk: if the pipeline stays offline longer than five to seven days, oil inventories could tighten significantly and prices could spike further.\n\nOil majors like ConocoPhillips benefit directly when crude prices rise, since they produce more barrels and sell them at higher prices. The jump also fits into a broader trend where oil prices and broader market yields are moving in lockstep\u2014a seven-year correlation high that suggests geopolitical oil shocks are dominating market sentiment right now.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 110,
-    "inputTokens": 95366,
-    "outputTokens": 22743,
-    "estimatedCostUsd": 0.209081,
-    "lastCallHour": "2026-09-15T17"
+    "callsThisMonth": 111,
+    "inputTokens": 96212,
+    "outputTokens": 22942,
+    "estimatedCostUsd": 0.210922,
+    "lastCallHour": "2026-09-15T19"
   }
 }
