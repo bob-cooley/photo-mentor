@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-15T19:31:12.386689+00:00",
-  "text": "ConocoPhillips rose 2.9% today to $140.62, driven by a sharp jump in oil prices following Saudi Arabia's pipeline closure after a drone attack. U.S. crude topped $105 a barrel\u2014well above today's closing price of $97.26, suggesting the market is pricing in near-term supply disruption. The Saudi energy minister said the outage would last only days, but analysts are flagging risk: if the pipeline stays offline longer than five to seven days, oil inventories could tighten significantly and prices could spike further.\n\nOil majors like ConocoPhillips benefit directly when crude prices rise, since they produce more barrels and sell them at higher prices. The jump also fits into a broader trend where oil prices and broader market yields are moving in lockstep\u2014a seven-year correlation high that suggests geopolitical oil shocks are dominating market sentiment right now.",
+  "fetchedAt": "2026-09-15T20:23:43.768243+00:00",
+  "text": "ConocoPhillips jumped 3.3% today to $141.22, driven by a sharp spike in crude oil prices following Saudi Arabia's closure of its East-West pipeline after a drone attack. U.S. oil climbed to over $105 a barrel, and with the global benchmark at $109.51, higher oil prices directly boost the revenues and profits of major oil producers like ConocoPhillips. The stock has now risen 6.6% over two weeks as geopolitical tensions in the Middle East have tightened oil supply.\n\nThe pipeline closure creates real near-term supply concerns: analysts warn that if the outage stretches beyond five to seven days, oil prices could spike much further as Saudi Arabia's inventory cushion runs thin. Even though the U.S. Energy Secretary said the shutdown should last only days, the uncertainty itself is supporting crude prices\u2014and with them, the stock of a large-scale producer with significant exposure to higher oil markets.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 111,
-    "inputTokens": 96212,
-    "outputTokens": 22942,
-    "estimatedCostUsd": 0.210922,
-    "lastCallHour": "2026-09-15T19"
+    "callsThisMonth": 112,
+    "inputTokens": 97058,
+    "outputTokens": 23153,
+    "estimatedCostUsd": 0.212823,
+    "lastCallHour": "2026-09-15T20"
   }
 }
