@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T10:59:10.953813+00:00",
-  "text": "Marathon Petroleum stock was essentially flat today\u2014up just 0.13%\u2014but sits 7.5% higher over two weeks as refiners benefit from sustained elevated crude prices and tight refinery capacity. US oil is trading at $97.26 per barrel while Brent (the global benchmark) has climbed near $108, driven by ongoing Houthi strikes on Saudi Arabia and Iranian attacks in the Gulf, which have kept investors worried about supply disruptions. Refineries are running at 97.8% capacity, close to maximum, which means Marathon and peers can push margins wider when crude prices stay elevated and global demand remains strong.\n\nThe geopolitical tension in the Middle East\u2014particularly the Iran war backdrop and pipeline disruptions in Saudi Arabia\u2014has kept oil prices firm for weeks. That's the real engine behind the refiner's steady climb: when crude stays expensive and refineries can't run much harder, the difference between what crude costs and what refined products sell for becomes the key lever for profit, and that spread has been favorable.",
+  "fetchedAt": "2026-09-15T15:30:11.596871+00:00",
+  "text": "Marathon Petroleum jumped 2.5% today, extending a broader two-week rally as crude oil climbed back above $104 per barrel following Houthi strikes on Saudi Arabia's key pipeline infrastructure. The outage has tightened global oil supply\u2014analysts warn that if the pipeline stays offline beyond five to seven days, inventories could tighten sharply and push prices higher. For a refiner like Marathon, higher crude prices typically compress margins in the short run, but the real driver here appears to be market conviction that a supply crunch is coming, which boosts the value of refining capacity itself.\n\nThe refining sector is running at 97.8% capacity utilization, leaving almost no slack to absorb further supply disruptions. Combined with the geopolitical tensions in the Middle East\u2014Iran-backed militants attacking Saudi infrastructure while Iranian officials negotiate with China\u2014the market is pricing in sustained tightness and upside risk to energy prices, which shifts investor focus away from margin pressure and toward supply-side leverage.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 108,
-    "inputTokens": 99997,
-    "outputTokens": 23216,
-    "estimatedCostUsd": 0.216077,
-    "lastCallHour": "2026-09-15T10"
+    "callsThisMonth": 109,
+    "inputTokens": 100901,
+    "outputTokens": 23435,
+    "estimatedCostUsd": 0.218076,
+    "lastCallHour": "2026-09-15T15"
   }
 }
