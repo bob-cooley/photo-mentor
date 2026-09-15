@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-15T20:23:43.768243+00:00",
-  "text": "ConocoPhillips jumped 3.3% today to $141.22, driven by a sharp spike in crude oil prices following Saudi Arabia's closure of its East-West pipeline after a drone attack. U.S. oil climbed to over $105 a barrel, and with the global benchmark at $109.51, higher oil prices directly boost the revenues and profits of major oil producers like ConocoPhillips. The stock has now risen 6.6% over two weeks as geopolitical tensions in the Middle East have tightened oil supply.\n\nThe pipeline closure creates real near-term supply concerns: analysts warn that if the outage stretches beyond five to seven days, oil prices could spike much further as Saudi Arabia's inventory cushion runs thin. Even though the U.S. Energy Secretary said the shutdown should last only days, the uncertainty itself is supporting crude prices\u2014and with them, the stock of a large-scale producer with significant exposure to higher oil markets.",
+  "fetchedAt": "2026-09-15T22:41:52.153856+00:00",
+  "text": "ConocoPhillips jumped 3.3% today to $141.22, driven by a sharp rise in oil prices following Saudi Arabia's closure of a major pipeline after a drone attack. U.S. crude spiked above $105 a barrel, and the gap between U.S. and world oil prices has widened to over $12 per barrel\u2014a spread that typically benefits refiners and integrated producers like ConocoPhillips. The U.S. Energy Secretary suggested the closure will last only days, but analysts are warning that if the pipeline stays offline longer than five to seven days, prices could rally further as inventory cushions shrink.\n\nThis move fits into a broader pattern: oil prices have climbed steadily over the past two weeks as geopolitical tensions in the Middle East create supply uncertainty, with the Houthi strikes and Iranian diplomatic activity adding to the regional instability. ConocoPhillips benefits directly when crude prices rise, particularly when global oil sits meaningfully higher than U.S. oil\u2014a sign of tight supply that rewards producers with access to global markets.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 112,
-    "inputTokens": 97058,
-    "outputTokens": 23153,
-    "estimatedCostUsd": 0.212823,
-    "lastCallHour": "2026-09-15T20"
+    "callsThisMonth": 113,
+    "inputTokens": 97904,
+    "outputTokens": 23390,
+    "estimatedCostUsd": 0.214854,
+    "lastCallHour": "2026-09-15T22"
   }
 }

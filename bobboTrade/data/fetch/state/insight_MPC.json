@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T20:24:12.305592+00:00",
-  "text": "Marathon Petroleum jumped 3.6% today, reaching $410.74, driven by a sharp spike in crude oil prices following Saudi Arabia's pipeline closure from a drone attack. U.S. oil broke past $105 a barrel (up from the $97.26 level in today's data), and global crude topped $109.51, tightening energy supplies and boosting refiner margins\u2014the profit spread between what refiners pay for crude and what they earn selling gasoline and diesel. With U.S. refineries already running near capacity at 97.8%, higher crude prices typically improve refiner profitability when they can pass costs through to end users.\n\nThe broader context is an escalating regional conflict: Houthi militants struck Saudi infrastructure again this week, and Iran's foreign minister is heading to China for talks, keeping geopolitical risk elevated. Refinery stocks like Marathon have climbed 10% over two weeks as the Iran-related supply tensions push oil prices higher, a trend that benefits crude processors more than it hurts them.",
+  "fetchedAt": "2026-09-15T22:42:07.332744+00:00",
+  "text": "Marathon Petroleum jumped 3.6% today after U.S. oil prices topped $105 a barrel\u2014their highest level in weeks\u2014following news that Saudi Arabia closed a major pipeline after a drone attack. The closure is disrupting global crude supply, which tightens the market for refiners like Marathon that profit from the spread between cheap crude input and refined product sales. Refineries are already running at 97.8% capacity, meaning there's strong demand for their output even as crude gets more expensive.\n\nThe broader Iran-related geopolitical tensions\u2014Houthi strikes on Saudi infrastructure, Iranian diplomatic moves, and the ongoing regional conflict\u2014have been steadily pushing oil prices higher over the past week. That aligns with Marathon's two-week gain of 10%, suggesting the stock has been climbing as energy markets price in sustained supply disruption risk.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 112,
-    "inputTokens": 103593,
-    "outputTokens": 24104,
-    "estimatedCostUsd": 0.224113,
-    "lastCallHour": "2026-09-15T20"
+    "callsThisMonth": 113,
+    "inputTokens": 104488,
+    "outputTokens": 24288,
+    "estimatedCostUsd": 0.225928,
+    "lastCallHour": "2026-09-15T22"
   }
 }
