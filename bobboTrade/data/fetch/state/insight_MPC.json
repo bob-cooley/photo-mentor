@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T05:45:55.423842+00:00",
-  "text": "Marathon Petroleum's stock barely moved today, up just 0.13%, but it's riding a strong two-week rally of 7.5% that reflects a sharp climb in oil prices. US crude is trading at $97.26 a barrel while international oil has reached $109.51\u2014a gap driven by fresh Houthi strikes on Saudi Arabia and Iranian attacks in the Gulf, which have extended energy market gains. Refineries are running at 97.8% capacity, near full utilization, so the company benefits directly when crude prices rise and demand stays strong.\n\nThe broader market backdrop is adding fuel to the move: geopolitical tensions in the Middle East are proving durable, and oil and Treasury yields are now moving in lockstep at their tightest correlation since 2019, suggesting oil price swings are having outsized effects on market sentiment. For a refiner, higher crude prices can cut into margins unless they can pass costs along to customers, but the high utilization rate and global supply concerns are currently supporting the energy complex.",
+  "fetchedAt": "2026-09-15T10:59:10.953813+00:00",
+  "text": "Marathon Petroleum stock was essentially flat today\u2014up just 0.13%\u2014but sits 7.5% higher over two weeks as refiners benefit from sustained elevated crude prices and tight refinery capacity. US oil is trading at $97.26 per barrel while Brent (the global benchmark) has climbed near $108, driven by ongoing Houthi strikes on Saudi Arabia and Iranian attacks in the Gulf, which have kept investors worried about supply disruptions. Refineries are running at 97.8% capacity, close to maximum, which means Marathon and peers can push margins wider when crude prices stay elevated and global demand remains strong.\n\nThe geopolitical tension in the Middle East\u2014particularly the Iran war backdrop and pipeline disruptions in Saudi Arabia\u2014has kept oil prices firm for weeks. That's the real engine behind the refiner's steady climb: when crude stays expensive and refineries can't run much harder, the difference between what crude costs and what refined products sell for becomes the key lever for profit, and that spread has been favorable.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 107,
-    "inputTokens": 99088,
-    "outputTokens": 22993,
-    "estimatedCostUsd": 0.214053,
-    "lastCallHour": "2026-09-15T05"
+    "callsThisMonth": 108,
+    "inputTokens": 99997,
+    "outputTokens": 23216,
+    "estimatedCostUsd": 0.216077,
+    "lastCallHour": "2026-09-15T10"
   }
 }
