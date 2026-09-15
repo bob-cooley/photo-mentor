@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T00:11:53.550841+00:00",
-  "text": "Marathon Petroleum stock rose slightly today in a market shaped by geopolitical oil supply concerns. The Saudi pipeline shutdown announced over the weekend, combined with ongoing tensions in the Iran war and Russia-Ukraine conflict, has kept crude prices elevated (US oil at $97/barrel, world oil at $109/barrel) and US refineries running at near-full capacity (97.8%). With refineries operating near their limits and crude supplies constrained by regional conflicts, refiners like Marathon benefit from wider profit margins on each barrel processed.\n\nThe broader tailwind for the sector comes from the Trump administration's rollback of climate regulations on power plants, which removes a regulatory headwind for fossil fuel operations. Over the past two weeks, the stock has climbed 7.5%, reflecting investor confidence that geopolitical turmoil and lighter regulation will sustain high refining activity and energy demand.",
+  "fetchedAt": "2026-09-15T05:45:55.423842+00:00",
+  "text": "Marathon Petroleum's stock barely moved today, up just 0.13%, but it's riding a strong two-week rally of 7.5% that reflects a sharp climb in oil prices. US crude is trading at $97.26 a barrel while international oil has reached $109.51\u2014a gap driven by fresh Houthi strikes on Saudi Arabia and Iranian attacks in the Gulf, which have extended energy market gains. Refineries are running at 97.8% capacity, near full utilization, so the company benefits directly when crude prices rise and demand stays strong.\n\nThe broader market backdrop is adding fuel to the move: geopolitical tensions in the Middle East are proving durable, and oil and Treasury yields are now moving in lockstep at their tightest correlation since 2019, suggesting oil price swings are having outsized effects on market sentiment. For a refiner, higher crude prices can cut into margins unless they can pass costs along to customers, but the high utilization rate and global supply concerns are currently supporting the energy complex.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 106,
-    "inputTokens": 98167,
-    "outputTokens": 22768,
-    "estimatedCostUsd": 0.212007,
-    "lastCallHour": "2026-09-15T00"
+    "callsThisMonth": 107,
+    "inputTokens": 99088,
+    "outputTokens": 22993,
+    "estimatedCostUsd": 0.214053,
+    "lastCallHour": "2026-09-15T05"
   }
 }
