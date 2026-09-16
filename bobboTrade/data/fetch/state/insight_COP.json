@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-16T17:27:06.095015+00:00",
-  "text": "ConocoPhillips fell 4.7% today after oil prices dropped on news that a damaged Saudi pipeline will restart operations within days. The U.S. had said the pipeline was disabled, forcing Saudi Arabia to route exports through the Red Sea; its reopening reduces the near-term supply tightness that had been supporting prices. Brent crude sits at $109.51 per barrel versus WTI at $97.26, and that softening hit the stock hard despite diesel fuel hitting record highs of $6.31 per gallon \u2014 a sign that refining margins may tighten even as crude weakens.\n\nThe broader geopolitical backdrop \u2014 including a Houthi drone strike on Mecca and ongoing tensions over the Strait of Hormuz \u2014 had been underpinning crude values, but the pipeline restart announcement shifted the risk calculus. Meanwhile, a new Venezuelan oil development by a rival explorer could add supply pressure longer term, compounding today's immediate crude-price headwind.",
+  "fetchedAt": "2026-09-16T20:21:09.362961+00:00",
+  "text": "ConocoPhillips fell 6.1% today, wiping out most of its gains from yesterday's rally. The drop follows news that Saudi Arabia's damaged pipeline will restart in days, easing concerns about oil supply disruptions\u2014and oil prices fell sharply on that news. The company also faces headwinds from the dramatic gap between U.S. crude ($107) and world crude ($131), a widening spread that typically pressures U.S. oil producers' margins and suggests global demand concerns are outweighing supply relief.\n\nThe broader context is mixed for energy companies right now. While diesel prices hitting all-time highs ($6.31/gallon) normally benefit refiners and producers, the geopolitical volatility in the Middle East and the UK's inflation jump underscore persistent economic uncertainty. Continental Resources' move into Venezuela development suggests some operators see opportunity in new regions, but ConocoPhillips' pullback today reflects the market reassessing energy stocks once immediate supply fears eased.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 117,
-    "inputTokens": 101336,
-    "outputTokens": 24253,
-    "estimatedCostUsd": 0.222601,
-    "lastCallHour": "2026-09-16T17"
+    "callsThisMonth": 118,
+    "inputTokens": 102194,
+    "outputTokens": 24470,
+    "estimatedCostUsd": 0.224544,
+    "lastCallHour": "2026-09-16T20"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-16T17:27:23.677504+00:00",
-  "text": "Marathon Petroleum climbed 1.95% today to $418.84, continuing a strong two-week rally that's now up 9.4%. The move follows a report that a damaged Saudi pipeline will restart operations within days, which eased immediate concerns about oil supply disruption\u2014crude prices fell on the news, and U.S. oil is trading at $97.26 per barrel. With U.S. refineries running at 97.8% capacity and diesel hitting an all-time high of $6.31 per gallon, refiners like Marathon are benefiting from tight fuel supply and high refining margins (the profit spread between crude input and finished fuel output).\n\nThe broader context is a refining environment caught between rising fuel demand and constrained supply. While geopolitical tensions in the Middle East had threatened to tighten oil markets further, the Saudi pipeline restart reduces that immediate risk\u2014but diesel scarcity remains acute, keeping pressure on prices and refiners' profitability high.",
+  "fetchedAt": "2026-09-16T20:21:32.221221+00:00",
+  "text": "Marathon Petroleum rose 0.78% today, extending a strong two-week rally of 8.1%, as oil refining fundamentals tightened further. U.S. crude prices held steady above $107 per barrel while refineries ran at 96.8% capacity\u2014near maximum utilization\u2014and diesel inventories fell to historically low levels at 107.9 million barrels. This combination of high refinery utilization and tight product supply typically widens the margin refiners earn on each barrel processed, which directly boosts profitability for companies like Marathon.\n\nThe broader backdrop of geopolitical risk and supply concerns also supports the energy sector. News of drone strikes targeting Mecca, competing claims over the Suez and Hormuz shipping corridors, and moves by major oil producers to develop new regions all underscore persistent tension over global oil supplies. Even as Saudi Arabia announced a damaged pipeline would restart soon\u2014which briefly weighed on crude prices today\u2014the underlying reality of stretched refinery capacity and historically tight diesel markets keeps the environment favorable for refiners.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 118,
-    "inputTokens": 109027,
-    "outputTokens": 25251,
-    "estimatedCostUsd": 0.235282,
-    "lastCallHour": "2026-09-16T17"
+    "callsThisMonth": 119,
+    "inputTokens": 109951,
+    "outputTokens": 25480,
+    "estimatedCostUsd": 0.237351,
+    "lastCallHour": "2026-09-16T20"
   }
 }
