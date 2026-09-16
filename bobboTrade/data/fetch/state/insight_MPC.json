@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-16T20:21:32.221221+00:00",
-  "text": "Marathon Petroleum rose 0.78% today, extending a strong two-week rally of 8.1%, as oil refining fundamentals tightened further. U.S. crude prices held steady above $107 per barrel while refineries ran at 96.8% capacity\u2014near maximum utilization\u2014and diesel inventories fell to historically low levels at 107.9 million barrels. This combination of high refinery utilization and tight product supply typically widens the margin refiners earn on each barrel processed, which directly boosts profitability for companies like Marathon.\n\nThe broader backdrop of geopolitical risk and supply concerns also supports the energy sector. News of drone strikes targeting Mecca, competing claims over the Suez and Hormuz shipping corridors, and moves by major oil producers to develop new regions all underscore persistent tension over global oil supplies. Even as Saudi Arabia announced a damaged pipeline would restart soon\u2014which briefly weighed on crude prices today\u2014the underlying reality of stretched refinery capacity and historically tight diesel markets keeps the environment favorable for refiners.",
+  "fetchedAt": "2026-09-16T23:03:45.170365+00:00",
+  "text": "Marathon Petroleum rose 0.75% today to close at $413.92, continuing a sharp upward run that's seen the stock climb 8% over the past two weeks. The immediate catalyst appears to be oil price volatility and refining conditions: while crude fell slightly today after news that a damaged Saudi pipeline will restart soon, U.S. oil sits at $107 per barrel and refineries nationwide are running at 96.8% capacity \u2014 near their operational maximum. That combination of tight refinery operations and persistent fuel demand (diesel hit an all-time high of $6.31 per gallon this week) has been pushing refiner margins higher, which directly benefits Marathon's bottom line.\n\nThe broader backdrop is tightening global oil supply underpinned by geopolitical risk. A Houthi drone strike on Mecca and ongoing tensions around the Strait of Hormuz have kept crude elevated, while new reports of U.S. oil companies potentially developing Venezuelan reserves signal longer-term supply uncertainty. For a major refiner like Marathon, these conditions \u2014 scarce refined products, tight capacity, and elevated crude costs that it can pass through to customers \u2014 create a favorable margin environment that has driven the stock's two-week rally.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 119,
-    "inputTokens": 109951,
-    "outputTokens": 25480,
-    "estimatedCostUsd": 0.237351,
-    "lastCallHour": "2026-09-16T20"
+    "callsThisMonth": 120,
+    "inputTokens": 110877,
+    "outputTokens": 25747,
+    "estimatedCostUsd": 0.239612,
+    "lastCallHour": "2026-09-16T23"
   }
 }

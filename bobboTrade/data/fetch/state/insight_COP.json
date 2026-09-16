@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-16T20:21:09.362961+00:00",
-  "text": "ConocoPhillips fell 6.1% today, wiping out most of its gains from yesterday's rally. The drop follows news that Saudi Arabia's damaged pipeline will restart in days, easing concerns about oil supply disruptions\u2014and oil prices fell sharply on that news. The company also faces headwinds from the dramatic gap between U.S. crude ($107) and world crude ($131), a widening spread that typically pressures U.S. oil producers' margins and suggests global demand concerns are outweighing supply relief.\n\nThe broader context is mixed for energy companies right now. While diesel prices hitting all-time highs ($6.31/gallon) normally benefit refiners and producers, the geopolitical volatility in the Middle East and the UK's inflation jump underscore persistent economic uncertainty. Continental Resources' move into Venezuela development suggests some operators see opportunity in new regions, but ConocoPhillips' pullback today reflects the market reassessing energy stocks once immediate supply fears eased.",
+  "fetchedAt": "2026-09-16T23:03:23.830425+00:00",
+  "text": "ConocoPhillips fell 6.1% today after oil prices dropped on news that a damaged Saudi pipeline will restart operations within days. That pipeline has been crucial as a workaround while the Strait of Hormuz remains contested between the U.S. and Iran; its return to service reduces the supply-shortage premium that had been supporting crude prices. US oil dropped to $107 per barrel today, a sharp pullback from the spike that had driven the stock up $4.55 yesterday.\n\nThe broader market context adds complexity: diesel prices hit an all-time high of $6.31 per gallon, which normally supports energy stocks, but the immediate catalyst was geopolitical relief\u2014the easing of one critical chokepoint. ConocoPhillips also sits amid a widening gap between US crude ($107) and global crude ($130.80), suggesting regional supply dynamics are shifting as alternative routes come back online.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 118,
-    "inputTokens": 102194,
-    "outputTokens": 24470,
-    "estimatedCostUsd": 0.224544,
-    "lastCallHour": "2026-09-16T20"
+    "callsThisMonth": 119,
+    "inputTokens": 103054,
+    "outputTokens": 24672,
+    "estimatedCostUsd": 0.226414,
+    "lastCallHour": "2026-09-16T23"
   }
 }
