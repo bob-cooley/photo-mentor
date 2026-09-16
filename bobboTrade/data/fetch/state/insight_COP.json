@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-16T07:09:45.180189+00:00",
-  "text": "ConocoPhillips jumped 3.3% today to $141.22, driven by a sharp rise in global oil prices following geopolitical tension in the Middle East. Over the weekend, Iran-backed Houthi militants attacked Saudi Arabia's East-West pipeline, forcing a temporary closure and prompting Saudi Arabia to cancel some crude shipments. Though world oil prices have eased slightly from yesterday's spike above $105, they remain elevated at $109.51 per barrel\u2014well above the U.S. benchmark of $97.26\u2014creating a favorable pricing environment for a major oil producer like ConocoPhillips.\n\nThe stock has climbed 6.6% over the past two weeks as these supply concerns have mounted, offsetting some headwinds from rising U.S. crude inventories reported today. Energy stocks tend to benefit when geopolitical risk pushes global oil prices higher, even if the disruptions are expected to be temporary; the wider gap between world and U.S. oil prices also typically benefits exporters.",
+  "fetchedAt": "2026-09-16T13:04:42.305060+00:00",
+  "text": "ConocoPhillips jumped 3.3% today as oil prices remained elevated following geopolitical tensions in the Middle East. Over the past week, a Houthi drone attack damaged Saudi Arabia's critical East-West pipeline, temporarily disrupting crude exports and pushing U.S. oil prices above $105 per barrel on September 15th. Though the U.S. Energy Secretary indicated the pipeline would restart within days (which appears to have happened, as prices fell back to $97.26 today), the uncertainty around supply disruptions kept prices well above their pre-attack levels and supported energy stocks like ConocoPhillips.\n\nThe company also benefits from the wider gap between U.S. and global oil prices\u2014U.S. crude at $97.26 versus Brent at $109.51\u2014which reflects ongoing supply pressures and geopolitical risk premiums. For an integrated oil producer with international operations and refining capacity, higher crude prices and elevated price spreads both improve margins and profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 115,
-    "inputTokens": 99615,
-    "outputTokens": 23812,
-    "estimatedCostUsd": 0.218675,
-    "lastCallHour": "2026-09-16T07"
+    "callsThisMonth": 116,
+    "inputTokens": 100471,
+    "outputTokens": 24034,
+    "estimatedCostUsd": 0.220641,
+    "lastCallHour": "2026-09-16T13"
   }
 }
