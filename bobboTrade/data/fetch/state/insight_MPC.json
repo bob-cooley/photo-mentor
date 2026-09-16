@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-16T13:05:03.412197+00:00",
-  "text": "Marathon Petroleum rose 3.6% today, climbing to $410.84, as oil prices stabilized following news that a damaged Saudi Arabian pipeline will restart operations within days. The closure had briefly pushed U.S. crude above $105 per barrel earlier in the week, but today's announcement of the pipeline's imminent return eased supply concerns\u2014U.S. oil is now trading at $97.26, down from those highs. Refineries are running at 97.8% capacity with healthy product inventories, positioning the company to benefit from the current crude environment without acute supply disruptions.\n\nThis move fits a broader week of volatility tied to Middle Eastern tensions. Earlier this week, Houthi attacks on Saudi oil infrastructure had spiked prices and raised geopolitical risk premiums; today's pipeline restart signal suggests those supply fears are receding, which typically pressures oil prices but can actually improve refiner margins by lowering their crude input costs while refined product demand remains stable.",
+  "fetchedAt": "2026-09-16T17:27:23.677504+00:00",
+  "text": "Marathon Petroleum climbed 1.95% today to $418.84, continuing a strong two-week rally that's now up 9.4%. The move follows a report that a damaged Saudi pipeline will restart operations within days, which eased immediate concerns about oil supply disruption\u2014crude prices fell on the news, and U.S. oil is trading at $97.26 per barrel. With U.S. refineries running at 97.8% capacity and diesel hitting an all-time high of $6.31 per gallon, refiners like Marathon are benefiting from tight fuel supply and high refining margins (the profit spread between crude input and finished fuel output).\n\nThe broader context is a refining environment caught between rising fuel demand and constrained supply. While geopolitical tensions in the Middle East had threatened to tighten oil markets further, the Saudi pipeline restart reduces that immediate risk\u2014but diesel scarcity remains acute, keeping pressure on prices and refiners' profitability high.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 117,
-    "inputTokens": 108097,
-    "outputTokens": 25035,
-    "estimatedCostUsd": 0.233272,
-    "lastCallHour": "2026-09-16T13"
+    "callsThisMonth": 118,
+    "inputTokens": 109027,
+    "outputTokens": 25251,
+    "estimatedCostUsd": 0.235282,
+    "lastCallHour": "2026-09-16T17"
   }
 }

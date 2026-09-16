@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-16T13:04:42.305060+00:00",
-  "text": "ConocoPhillips jumped 3.3% today as oil prices remained elevated following geopolitical tensions in the Middle East. Over the past week, a Houthi drone attack damaged Saudi Arabia's critical East-West pipeline, temporarily disrupting crude exports and pushing U.S. oil prices above $105 per barrel on September 15th. Though the U.S. Energy Secretary indicated the pipeline would restart within days (which appears to have happened, as prices fell back to $97.26 today), the uncertainty around supply disruptions kept prices well above their pre-attack levels and supported energy stocks like ConocoPhillips.\n\nThe company also benefits from the wider gap between U.S. and global oil prices\u2014U.S. crude at $97.26 versus Brent at $109.51\u2014which reflects ongoing supply pressures and geopolitical risk premiums. For an integrated oil producer with international operations and refining capacity, higher crude prices and elevated price spreads both improve margins and profitability.",
+  "fetchedAt": "2026-09-16T17:27:06.095015+00:00",
+  "text": "ConocoPhillips fell 4.7% today after oil prices dropped on news that a damaged Saudi pipeline will restart operations within days. The U.S. had said the pipeline was disabled, forcing Saudi Arabia to route exports through the Red Sea; its reopening reduces the near-term supply tightness that had been supporting prices. Brent crude sits at $109.51 per barrel versus WTI at $97.26, and that softening hit the stock hard despite diesel fuel hitting record highs of $6.31 per gallon \u2014 a sign that refining margins may tighten even as crude weakens.\n\nThe broader geopolitical backdrop \u2014 including a Houthi drone strike on Mecca and ongoing tensions over the Strait of Hormuz \u2014 had been underpinning crude values, but the pipeline restart announcement shifted the risk calculus. Meanwhile, a new Venezuelan oil development by a rival explorer could add supply pressure longer term, compounding today's immediate crude-price headwind.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 116,
-    "inputTokens": 100471,
-    "outputTokens": 24034,
-    "estimatedCostUsd": 0.220641,
-    "lastCallHour": "2026-09-16T13"
+    "callsThisMonth": 117,
+    "inputTokens": 101336,
+    "outputTokens": 24253,
+    "estimatedCostUsd": 0.222601,
+    "lastCallHour": "2026-09-16T17"
   }
 }
