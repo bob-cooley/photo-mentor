@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-15T23:00:23.414556+00:00",
-  "text": "Marathon Petroleum rose 3.6% today as crude oil prices spiked to over $105 per barrel following reports that Saudi Arabia closed a major pipeline after a drone attack. Refineries are running at near-full capacity (97.8%), which means the company benefits when oil prices rise and margins improve \u2014 they can process more barrels at higher-margin spreads between crude input costs and refined product sales.\n\nThe broader backdrop amplifies the move: geopolitical tensions in the Middle East are tightening global oil supply, and analysts warn that if Saudi Arabia's East-West pipeline stays offline beyond the next week, prices could rally even further. A refiner holding a full order book at high utilization rates stands to gain from this supply squeeze.",
+  "fetchedAt": "2026-09-16T01:02:51.632284+00:00",
+  "text": "Marathon Petroleum jumped 3.63% today as crude oil prices spiked above $105 per barrel following news that Saudi Arabia closed a major pipeline after a drone attack. Refinery utilization is running at 97.8%, near capacity, meaning the refiner benefits immediately when crude supplies tighten and prices rise \u2014 higher oil prices typically improve refinery margins (the profit spread between what they buy crude for and what they sell refined products for) when they're operating at full throttle like this.\n\nThe stock has climbed 10% over two weeks as Middle East tensions have escalated, pushing both U.S. and global oil prices sharply higher. With storage inventories at normal levels and refineries already maxed out, any supply disruption translates directly into stronger economics for refiners who can convert that more expensive crude into gasoline and diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 114,
-    "inputTokens": 105383,
-    "outputTokens": 24449,
-    "estimatedCostUsd": 0.227628,
-    "lastCallHour": "2026-09-15T23"
+    "callsThisMonth": 115,
+    "inputTokens": 106278,
+    "outputTokens": 24633,
+    "estimatedCostUsd": 0.229443,
+    "lastCallHour": "2026-09-16T01"
   }
 }
