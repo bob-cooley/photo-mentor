@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-16T01:02:51.632284+00:00",
-  "text": "Marathon Petroleum jumped 3.63% today as crude oil prices spiked above $105 per barrel following news that Saudi Arabia closed a major pipeline after a drone attack. Refinery utilization is running at 97.8%, near capacity, meaning the refiner benefits immediately when crude supplies tighten and prices rise \u2014 higher oil prices typically improve refinery margins (the profit spread between what they buy crude for and what they sell refined products for) when they're operating at full throttle like this.\n\nThe stock has climbed 10% over two weeks as Middle East tensions have escalated, pushing both U.S. and global oil prices sharply higher. With storage inventories at normal levels and refineries already maxed out, any supply disruption translates directly into stronger economics for refiners who can convert that more expensive crude into gasoline and diesel.",
+  "fetchedAt": "2026-09-16T07:10:03.383558+00:00",
+  "text": "Marathon Petroleum jumped 3.6% today as oil prices and refining conditions remain supportive. U.S. crude is trading at $97.26 per barrel\u2014down from recent peaks above $105 but still elevated\u2014while refineries are running at 97.8% capacity, one of the highest utilization rates. This combination of strong demand for refinery output and decent crude prices keeps margins healthy for a major refiner like MPC.\n\nThe stock's 10% gain over two weeks reflects a broader shift in the energy market: Middle Eastern supply disruptions from recent Houthi attacks on Saudi pipelines initially spiked oil prices, and even though crude has retreated slightly as U.S. inventories rose unexpectedly, the market is still pricing in real supply constraints and persistent global energy demand pressure\u2014particularly as UK inflation readings show energy costs remain elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 115,
-    "inputTokens": 106278,
-    "outputTokens": 24633,
-    "estimatedCostUsd": 0.229443,
-    "lastCallHour": "2026-09-16T01"
+    "callsThisMonth": 116,
+    "inputTokens": 107192,
+    "outputTokens": 24821,
+    "estimatedCostUsd": 0.231297,
+    "lastCallHour": "2026-09-16T07"
   }
 }
