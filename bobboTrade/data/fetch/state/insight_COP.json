@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T18:48:14.618165+00:00",
-  "text": "ConocoPhillips rose slightly today, but the bigger story is the sharp 4.7% drop from its peak on September 15th. Oil prices fell sharply on September 17th after Saudi Arabia signaled it would increase crude exports through the Hormuz Strait following a pipeline attack, easing supply concerns that had driven prices higher. Additionally, comments from Trump suggesting the U.S. may be nearing an end to its Iran conflict reduced geopolitical risk premium in oil markets, further pressuring prices downward. The stock has been caught in this reversal\u2014trading at $132.97 today versus $141.22 just two days ago.\n\nThe weakness also reflects broader concern about what sustained high energy costs mean for the U.S. economy; reports on September 17th highlighted how record diesel prices are already hitting transportation and could spread pain through other sectors if they persist. For an oil company, the worry is that recession fears from runaway energy costs could ultimately hurt energy demand, offsetting any near-term benefit from higher prices.",
+  "fetchedAt": "2026-09-17T20:28:59.739022+00:00",
+  "text": "ConocoPhillips rose slightly today as oil prices stabilized following news that Saudi Arabia would increase crude exports through the Strait of Hormuz after a pipeline attack. The stock had plummeted 6.4% yesterday on geopolitical tensions, but the Saudi supply announcement eased immediate concerns about a major disruption to global oil flows\u2014a critical factor for an oil producer's earnings.\n\nThe company remains down 2.9% over two weeks amid a volatile period marked by Middle East conflict, sharp swings in crude prices, and policy uncertainty around tariffs and Iran. While today's modest gain reflects relief that a supply crisis may be averted, longer-term direction for the stock depends heavily on whether oil prices stabilize around current levels and how U.S.-Iran tensions ultimately resolve.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 124,
-    "inputTokens": 107355,
-    "outputTokens": 25712,
-    "estimatedCostUsd": 0.235915,
-    "lastCallHour": "2026-09-17T18"
+    "callsThisMonth": 125,
+    "inputTokens": 108218,
+    "outputTokens": 25882,
+    "estimatedCostUsd": 0.237628,
+    "lastCallHour": "2026-09-17T20"
   }
 }

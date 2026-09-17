@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T18:48:51.383061+00:00",
-  "text": "Marathon Petroleum rose 1.9% today to close at $421.85, continuing a strong two-week rally that has gained 9% overall. The main driver appears to be relief in crude oil markets: while US oil prices remain elevated at $107 per barrel, Saudi Arabia signaled it would increase crude exports following a pipeline attack, easing supply concerns that had driven prices higher. At the same time, refineries are running at 96.8% capacity\u2014near maximum utilization\u2014which means MPC benefits from both tighter crude supplies (supporting margins) and strong demand for refined products like diesel, which has hit record prices and is squeezing the broader economy.\n\nThe bigger picture is that geopolitical risk around Iran and the Middle East appears to be receding. Trump's comments about winding down Iran tensions, combined with Saudi Arabia's willingness to release more oil, have reduced the threat of severe supply disruptions that would have benefited refiners in the short term but signaled economic stress. Paradoxically, refiners like MPC thrive when they can run full capacity with healthy margins\u2014which is where the market sits now\u2014rather than when energy chaos creates temporary windfalls.",
+  "fetchedAt": "2026-09-17T20:29:16.485567+00:00",
+  "text": "Marathon Petroleum rose 2.0% today as oil refineries operated at exceptionally high capacity (96.8%), supporting strong margins for processors like MPC. The gain caps a remarkable two-week run of nearly 9%, driven by tight supply conditions\u2014US oil at $107/barrel and global oil at $130.80/barrel\u2014that boost the value of refined products like gasoline and diesel. Refineries running near full tilt while inventories of gasoline and diesel remain relatively modest create favorable conditions for refiner profitability.\n\nThe broader backdrop includes geopolitical uncertainty around Middle Eastern oil that had pushed prices higher, though today's news of Saudi Arabia offering additional crude supplies via the Strait of Hormuz actually eased some supply-disruption fears. That said, the record diesel prices cited in today's coverage and the persistent gap between US and global oil prices suggest the refining environment remains supportive for a company converting crude into fuel.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 125,
-    "inputTokens": 115396,
-    "outputTokens": 26879,
-    "estimatedCostUsd": 0.249791,
-    "lastCallHour": "2026-09-17T18"
+    "callsThisMonth": 126,
+    "inputTokens": 116297,
+    "outputTokens": 27082,
+    "estimatedCostUsd": 0.251707,
+    "lastCallHour": "2026-09-17T20"
   }
 }
