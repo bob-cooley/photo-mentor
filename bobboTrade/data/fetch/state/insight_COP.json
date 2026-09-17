@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T21:54:04.321440+00:00",
-  "text": "ConocoPhillips rose 0.49% today, a modest gain that came as oil prices fell sharply\u2014US crude dropped to $107 per barrel and global crude to $130.80\u2014after Saudi Arabia signaled it would release more crude supplies into the market following a pipeline attack. The stock had plunged $8.69 (6.1%) just yesterday, so today's bounce is a partial recovery from that sell-off, not a sign of broader strength.\n\nThe backdrop here is mixed geopolitical news: while reports of a potential end to the Iran conflict and Saudi willingness to stabilize supplies eased immediate disruption fears and pressed prices lower, longer-term energy supply could shift with new US policy toward Venezuelan oil development and potential tariffs on countries buying Russian crude. These competing forces\u2014near-term relief in global oil markets offset by uncertainty over policy-driven supply changes\u2014help explain why ConocoPhillips is still down nearly 3% over the past two weeks despite today's small gain.",
+  "fetchedAt": "2026-09-17T23:00:48.531840+00:00",
+  "text": "ConocoPhillips rose slightly today, but the stock is down sharply over the past two weeks\u2014falling 2.92% from early September through today. The near-term catalyst was mixed: oil prices fell on September 17 as Saudi Arabia signaled it would supply more crude after a pipeline attack, easing supply-disruption fears, but U.S. oil is still trading around $107 per barrel while global crude is at $130.80. The bigger driver of the two-week decline appears to be the geopolitical shift: news that the Trump administration may be winding down tensions with Iran and pursuing de-escalation with Saudi Arabia and the Houthis reduces the premium investors were paying for oil scarcity risk\u2014a risk that had supported energy prices and oil stocks earlier in the month.\n\nThe supply picture has tilted in a way that weighs on producers' near-term outlook. While new U.S. tariff powers against countries buying Russian oil could tighten global supplies, the immediate signals from Saudi Arabia's willingness to export more crude and potential Iran deal progress suggest less immediate constraint. For a large-cap producer like ConocoPhillips, that translates to lower expected prices for the oil it pumps over the next several quarters, even though the stock remains sensitive to any escalation in Middle East tensions.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 126,
-    "inputTokens": 109081,
-    "outputTokens": 26102,
-    "estimatedCostUsd": 0.239591,
-    "lastCallHour": "2026-09-17T21"
+    "callsThisMonth": 127,
+    "inputTokens": 109944,
+    "outputTokens": 26391,
+    "estimatedCostUsd": 0.241899,
+    "lastCallHour": "2026-09-17T23"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T21:54:29.074177+00:00",
-  "text": "Marathon Petroleum rose 1.94% today, continuing a strong two-week rally that has added 9% to the stock price. The move follows a significant dip in oil prices yesterday when Saudi Arabia signaled it would release more crude supplies after a pipeline attack, easing supply concerns that had been pushing crude higher. For a refiner like Marathon, lower oil prices directly improve profitability on the fuel they produce and sell \u2014 when the cost of their raw material (crude oil) drops while refined product prices hold relatively steady, their margins widen.\n\nThe broader context here is geopolitical stability and easing supply risk. News that the U.S. may be nearing an end to its conflict with Iran, combined with Saudi Arabia's willingness to boost exports, has reduced the premium investors were paying for oil due to Middle East tensions. At the same time, refineries are running at 96.8% capacity with healthy product inventories, meaning the industry is well-positioned to process crude and convert lower input costs into stronger earnings.",
+  "fetchedAt": "2026-09-17T23:01:36.636753+00:00",
+  "text": "Marathon Petroleum rose 1.94% today to close at $421.96, continuing a strong two-week rally up 9%. The jump reflects easing geopolitical risk in oil markets: Saudi Arabia signaled it will increase crude exports through the Strait of Hormuz after a pipeline attack, and Trump indicated the U.S. may be nearing the end of its conflict with Iran. Lower oil price uncertainty\u2014Brent crude is down while refineries run at 96.8% capacity and diesel inventories remain tight\u2014removes a headwind that had previously clouded demand and margins for refiners.\n\nThe broader tailwind for the refining sector comes from the tension between record diesel prices (which squeeze transportation costs across the economy) and the potential for more stable crude supplies ahead. A de-escalation in Middle East tensions, combined with signals that the U.S. is opening doors to Venezuelan oil development, could gradually ease the tight energy backdrop that's been both a risk and an opportunity for refiners over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 127,
-    "inputTokens": 117200,
-    "outputTokens": 27302,
-    "estimatedCostUsd": 0.25371,
-    "lastCallHour": "2026-09-17T21"
+    "callsThisMonth": 128,
+    "inputTokens": 118103,
+    "outputTokens": 27522,
+    "estimatedCostUsd": 0.255713,
+    "lastCallHour": "2026-09-17T23"
   }
 }
