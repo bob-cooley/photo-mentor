@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T14:39:57.677326+00:00",
-  "text": "ConocoPhillips fell 0.69% today to $131.62, extending a steep four-day slide that saw the stock drop nearly $9 from its peak on September 15th. The immediate trigger was a drop in crude prices: after a pipeline attack spooked markets, Saudi Arabia announced it would release additional crude supplies to offset any disruption, sending oil prices lower and easing the supply-shock premium that had driven prices up earlier in the week. With US oil trading around $107 per barrel today versus highs of $141+ earlier this week, the reversal in oil prices directly pressured the stock.\n\nThe broader backdrop for oil and energy stocks has also shifted toward easing geopolitical tension. Reports that the Trump administration believes the Iran conflict may be winding down, and signals that Tehran is open to a deal, have reduced the fear premium that was pushing crude higher. While new US leverage over China and India via tariffs on Russian oil could support prices longer-term, today's immediate narrative\u2014more Saudi supply, less acute geopolitical risk\u2014favors lower oil prices in the near term.",
+  "fetchedAt": "2026-09-17T17:27:31.806226+00:00",
+  "text": "ConocoPhillips fell sharply yesterday (dropping $8.69 or 6.1% from $141.22 to $132.54) and has stayed near those lows today, likely driven by oil price weakness after Saudi Arabia signaled it would increase crude supplies via the Strait of Hormuz following a pipeline attack. The move eased supply-disruption fears that had pushed prices higher earlier in the week\u2014US oil fell to $107/barrel today from levels that had supported the stock's brief rally to $141 on September 15th.\n\nThe broader geopolitical backdrop also shifted in a way that pressured prices: Trump signaled the U.S. may be nearing an end to its Iran conflict, and reports of potential peace talks with Tehran reduce the premium investors had been paying for the risk of Middle Eastern supply disruptions. While new U.S. oil development deals in Venezuela and tariff leverage against countries buying Russian oil could support energy supply long-term, the immediate driver was relief that the near-term supply crisis appears contained.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 122,
-    "inputTokens": 105630,
-    "outputTokens": 25259,
-    "estimatedCostUsd": 0.231925,
-    "lastCallHour": "2026-09-17T14"
+    "callsThisMonth": 123,
+    "inputTokens": 106493,
+    "outputTokens": 25487,
+    "estimatedCostUsd": 0.233928,
+    "lastCallHour": "2026-09-17T17"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T14:42:16.077517+00:00",
-  "text": "Marathon Petroleum rose 0.38% today, continuing a sharp two-week rally that's now up 7.4%. The stock's momentum comes primarily from falling oil prices\u2014crude dropped on September 17th after Saudi Arabia signaled it would release more supply following pipeline disruptions, easing the supply crunch that had pushed prices higher. For a refiner like Marathon, lower oil prices (the main input cost) and stable refinery utilization at 96.8% create better margins on the fuel they produce and sell.\n\nThe broader rally also reflects reduced geopolitical risk premiums. News that the U.S. may be nearing the end of its conflict with Iran, combined with Saudi Arabia's willingness to boost exports, has calmed the supply-shock concerns that had been driving oil volatility upward. Refiner stocks tend to benefit when crude prices stabilize at lower levels because they lock in better profits per barrel processed.",
+  "fetchedAt": "2026-09-17T17:27:58.620895+00:00",
+  "text": "MPC climbed 2.05% today to $422.41, extending a strong two-week rally of 9.15%. The stock is riding a wave of elevated oil refining economics: crude prices are holding firm (US oil at $107/barrel, world prices at $130.80), refineries are running at 96.8% capacity, and diesel supplies are tight enough to command record prices. Today's move likely reflects the market digesting that these high energy costs\u2014which squeeze most industries\u2014actually boost refiner margins, the profit spread between what they pay for crude and what they sell refined products for.\n\nThe broader geopolitical backdrop is also tilting refiner-friendly right now. News that Saudi Arabia is offering more crude through the Strait of Hormuz after a pipeline attack, and signals from Trump that the US may be nearing the end of its Iran tensions, have eased some of the acute supply-disruption fears that spiked prices higher in recent weeks. That stability at elevated price levels\u2014rather than a crash back down\u2014is the sweet spot for refiners: strong margins without the chaos of war-driven volatility.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 123,
-    "inputTokens": 113594,
-    "outputTokens": 26377,
-    "estimatedCostUsd": 0.245479,
-    "lastCallHour": "2026-09-17T14"
+    "callsThisMonth": 124,
+    "inputTokens": 114495,
+    "outputTokens": 26623,
+    "estimatedCostUsd": 0.24761,
+    "lastCallHour": "2026-09-17T17"
   }
 }
