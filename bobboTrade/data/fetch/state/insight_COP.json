@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T17:27:31.806226+00:00",
-  "text": "ConocoPhillips fell sharply yesterday (dropping $8.69 or 6.1% from $141.22 to $132.54) and has stayed near those lows today, likely driven by oil price weakness after Saudi Arabia signaled it would increase crude supplies via the Strait of Hormuz following a pipeline attack. The move eased supply-disruption fears that had pushed prices higher earlier in the week\u2014US oil fell to $107/barrel today from levels that had supported the stock's brief rally to $141 on September 15th.\n\nThe broader geopolitical backdrop also shifted in a way that pressured prices: Trump signaled the U.S. may be nearing an end to its Iran conflict, and reports of potential peace talks with Tehran reduce the premium investors had been paying for the risk of Middle Eastern supply disruptions. While new U.S. oil development deals in Venezuela and tariff leverage against countries buying Russian oil could support energy supply long-term, the immediate driver was relief that the near-term supply crisis appears contained.",
+  "fetchedAt": "2026-09-17T18:48:14.618165+00:00",
+  "text": "ConocoPhillips rose slightly today, but the bigger story is the sharp 4.7% drop from its peak on September 15th. Oil prices fell sharply on September 17th after Saudi Arabia signaled it would increase crude exports through the Hormuz Strait following a pipeline attack, easing supply concerns that had driven prices higher. Additionally, comments from Trump suggesting the U.S. may be nearing an end to its Iran conflict reduced geopolitical risk premium in oil markets, further pressuring prices downward. The stock has been caught in this reversal\u2014trading at $132.97 today versus $141.22 just two days ago.\n\nThe weakness also reflects broader concern about what sustained high energy costs mean for the U.S. economy; reports on September 17th highlighted how record diesel prices are already hitting transportation and could spread pain through other sectors if they persist. For an oil company, the worry is that recession fears from runaway energy costs could ultimately hurt energy demand, offsetting any near-term benefit from higher prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 123,
-    "inputTokens": 106493,
-    "outputTokens": 25487,
-    "estimatedCostUsd": 0.233928,
-    "lastCallHour": "2026-09-17T17"
+    "callsThisMonth": 124,
+    "inputTokens": 107355,
+    "outputTokens": 25712,
+    "estimatedCostUsd": 0.235915,
+    "lastCallHour": "2026-09-17T18"
   }
 }

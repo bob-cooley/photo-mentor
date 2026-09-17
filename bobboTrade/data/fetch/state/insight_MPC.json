@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T17:27:58.620895+00:00",
-  "text": "MPC climbed 2.05% today to $422.41, extending a strong two-week rally of 9.15%. The stock is riding a wave of elevated oil refining economics: crude prices are holding firm (US oil at $107/barrel, world prices at $130.80), refineries are running at 96.8% capacity, and diesel supplies are tight enough to command record prices. Today's move likely reflects the market digesting that these high energy costs\u2014which squeeze most industries\u2014actually boost refiner margins, the profit spread between what they pay for crude and what they sell refined products for.\n\nThe broader geopolitical backdrop is also tilting refiner-friendly right now. News that Saudi Arabia is offering more crude through the Strait of Hormuz after a pipeline attack, and signals from Trump that the US may be nearing the end of its Iran tensions, have eased some of the acute supply-disruption fears that spiked prices higher in recent weeks. That stability at elevated price levels\u2014rather than a crash back down\u2014is the sweet spot for refiners: strong margins without the chaos of war-driven volatility.",
+  "fetchedAt": "2026-09-17T18:48:51.383061+00:00",
+  "text": "Marathon Petroleum rose 1.9% today to close at $421.85, continuing a strong two-week rally that has gained 9% overall. The main driver appears to be relief in crude oil markets: while US oil prices remain elevated at $107 per barrel, Saudi Arabia signaled it would increase crude exports following a pipeline attack, easing supply concerns that had driven prices higher. At the same time, refineries are running at 96.8% capacity\u2014near maximum utilization\u2014which means MPC benefits from both tighter crude supplies (supporting margins) and strong demand for refined products like diesel, which has hit record prices and is squeezing the broader economy.\n\nThe bigger picture is that geopolitical risk around Iran and the Middle East appears to be receding. Trump's comments about winding down Iran tensions, combined with Saudi Arabia's willingness to release more oil, have reduced the threat of severe supply disruptions that would have benefited refiners in the short term but signaled economic stress. Paradoxically, refiners like MPC thrive when they can run full capacity with healthy margins\u2014which is where the market sits now\u2014rather than when energy chaos creates temporary windfalls.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 124,
-    "inputTokens": 114495,
-    "outputTokens": 26623,
-    "estimatedCostUsd": 0.24761,
-    "lastCallHour": "2026-09-17T17"
+    "callsThisMonth": 125,
+    "inputTokens": 115396,
+    "outputTokens": 26879,
+    "estimatedCostUsd": 0.249791,
+    "lastCallHour": "2026-09-17T18"
   }
 }
