@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T09:09:51.489034+00:00",
-  "text": "Marathon Petroleum rose 0.75% today, capping a strong two-week rally of 8.07%. The immediate driver appears to be easing geopolitical oil supply concerns: Saudi Arabia announced ship-to-ship crude transfers to replace pipeline damage, which calmed fears of export disruptions and sent oil prices lower globally (Brent crude at $130.80/barrel). For a refiner, lower crude costs typically improve margins\u2014the spread between what they pay for oil and what they sell refined products for widens. Meanwhile, U.S. refineries are running at 96.8% capacity, close to full utilization, which means the company can process more barrels at better margins.\n\nThe broader backdrop supporting this two-week move is the retreat of acute Middle East supply shocks. Signals that the U.S. may be nearing an end to its Iran conflict, combined with Saudi Arabia's quick action to stabilize oil flows after pipeline damage, have reduced the tail-risk premium that was pushing crude prices higher earlier in September. For a refiner, a stable or declining crude price environment\u2014especially when demand remains steady\u2014is favorable territory.",
+  "fetchedAt": "2026-09-17T14:42:16.077517+00:00",
+  "text": "Marathon Petroleum rose 0.38% today, continuing a sharp two-week rally that's now up 7.4%. The stock's momentum comes primarily from falling oil prices\u2014crude dropped on September 17th after Saudi Arabia signaled it would release more supply following pipeline disruptions, easing the supply crunch that had pushed prices higher. For a refiner like Marathon, lower oil prices (the main input cost) and stable refinery utilization at 96.8% create better margins on the fuel they produce and sell.\n\nThe broader rally also reflects reduced geopolitical risk premiums. News that the U.S. may be nearing the end of its conflict with Iran, combined with Saudi Arabia's willingness to boost exports, has calmed the supply-shock concerns that had been driving oil volatility upward. Refiner stocks tend to benefit when crude prices stabilize at lower levels because they lock in better profits per barrel processed.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 122,
-    "inputTokens": 112683,
-    "outputTokens": 26176,
-    "estimatedCostUsd": 0.243563,
-    "lastCallHour": "2026-09-17T09"
+    "callsThisMonth": 123,
+    "inputTokens": 113594,
+    "outputTokens": 26377,
+    "estimatedCostUsd": 0.245479,
+    "lastCallHour": "2026-09-17T14"
   }
 }

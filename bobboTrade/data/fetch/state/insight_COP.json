@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T09:09:38.083237+00:00",
-  "text": "ConocoPhillips fell 6.1% today after oil prices dropped sharply on news that Saudi Arabia is restoring crude supply through ship-to-ship transfers following pipeline damage. The stock had jumped 3.6% yesterday on geopolitical tensions, but that premium evaporated as the immediate supply concern eased. U.S. crude is trading at $107 per barrel, down from recent highs, which directly pressures the profitability of oil producers like ConocoPhillips.\n\nThe broader backdrop remains mixed for the energy sector. While comments from Trump about potentially ending the Iran conflict and reports of high diesel prices suggest continued demand pressures, the key driver today was relief in the oil market itself\u2014fewer disruptions means less upward pressure on crude prices, and less upside for producers.",
+  "fetchedAt": "2026-09-17T14:39:57.677326+00:00",
+  "text": "ConocoPhillips fell 0.69% today to $131.62, extending a steep four-day slide that saw the stock drop nearly $9 from its peak on September 15th. The immediate trigger was a drop in crude prices: after a pipeline attack spooked markets, Saudi Arabia announced it would release additional crude supplies to offset any disruption, sending oil prices lower and easing the supply-shock premium that had driven prices up earlier in the week. With US oil trading around $107 per barrel today versus highs of $141+ earlier this week, the reversal in oil prices directly pressured the stock.\n\nThe broader backdrop for oil and energy stocks has also shifted toward easing geopolitical tension. Reports that the Trump administration believes the Iran conflict may be winding down, and signals that Tehran is open to a deal, have reduced the fear premium that was pushing crude higher. While new US leverage over China and India via tariffs on Russian oil could support prices longer-term, today's immediate narrative\u2014more Saudi supply, less acute geopolitical risk\u2014favors lower oil prices in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 121,
-    "inputTokens": 104784,
-    "outputTokens": 25020,
-    "estimatedCostUsd": 0.229884,
-    "lastCallHour": "2026-09-17T09"
+    "callsThisMonth": 122,
+    "inputTokens": 105630,
+    "outputTokens": 25259,
+    "estimatedCostUsd": 0.231925,
+    "lastCallHour": "2026-09-17T14"
   }
 }
