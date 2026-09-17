@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T03:13:46.644448+00:00",
-  "text": "ConocoPhillips dropped 6.1% today after oil prices fell sharply on news that Saudi Arabia will resume pipeline operations within days and is offering additional crude supplies through ship-to-ship transfers. The broader energy sector sold off as these developments eased concerns about supply disruptions from recent attacks on Saudi infrastructure, removing a key prop that had supported prices\u2014US crude fell to $107 per barrel from around $141 just yesterday.\n\nThe stock's sharp reversal also reflects a widening gap between US and global oil prices (US at $107 vs. world crude at $131), which can squeeze refining and integrated oil company profits. Major producers like ConocoPhillips benefit when supply fears keep prices elevated; when those fears ease and supplies look adequate, the premium evaporates.",
+  "fetchedAt": "2026-09-17T09:09:38.083237+00:00",
+  "text": "ConocoPhillips fell 6.1% today after oil prices dropped sharply on news that Saudi Arabia is restoring crude supply through ship-to-ship transfers following pipeline damage. The stock had jumped 3.6% yesterday on geopolitical tensions, but that premium evaporated as the immediate supply concern eased. U.S. crude is trading at $107 per barrel, down from recent highs, which directly pressures the profitability of oil producers like ConocoPhillips.\n\nThe broader backdrop remains mixed for the energy sector. While comments from Trump about potentially ending the Iran conflict and reports of high diesel prices suggest continued demand pressures, the key driver today was relief in the oil market itself\u2014fewer disruptions means less upward pressure on crude prices, and less upside for producers.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 120,
-    "inputTokens": 103922,
-    "outputTokens": 24844,
-    "estimatedCostUsd": 0.228142,
-    "lastCallHour": "2026-09-17T03"
+    "callsThisMonth": 121,
+    "inputTokens": 104784,
+    "outputTokens": 25020,
+    "estimatedCostUsd": 0.229884,
+    "lastCallHour": "2026-09-17T09"
   }
 }

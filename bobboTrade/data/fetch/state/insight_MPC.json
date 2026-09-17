@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T03:14:03.483954+00:00",
-  "text": "Marathon Petroleum stock gained 0.75% today, continuing a strong two-week rally of 8%. The immediate driver appears to be falling oil prices\u2014a Saudi pipeline damaged earlier is restarting soon, and Saudi Arabia is offering additional ship-to-ship crude transfers, both easing supply concerns that had pushed prices higher. Crude fell to $107 per barrel (down from earlier highs), which helps refiners' input costs while they continue running at nearly 97% capacity.\n\nThe broader tailwind is that refineries are operating at high utilization rates with tight fuel inventories (gasoline and diesel supplies remain lean), allowing them to profit from the spread between crude costs and refined product prices even as oil prices pull back. This combination\u2014lower input costs meeting strong refining demand\u2014has supported the sector's gains over the past two weeks.",
+  "fetchedAt": "2026-09-17T09:09:51.489034+00:00",
+  "text": "Marathon Petroleum rose 0.75% today, capping a strong two-week rally of 8.07%. The immediate driver appears to be easing geopolitical oil supply concerns: Saudi Arabia announced ship-to-ship crude transfers to replace pipeline damage, which calmed fears of export disruptions and sent oil prices lower globally (Brent crude at $130.80/barrel). For a refiner, lower crude costs typically improve margins\u2014the spread between what they pay for oil and what they sell refined products for widens. Meanwhile, U.S. refineries are running at 96.8% capacity, close to full utilization, which means the company can process more barrels at better margins.\n\nThe broader backdrop supporting this two-week move is the retreat of acute Middle East supply shocks. Signals that the U.S. may be nearing an end to its Iran conflict, combined with Saudi Arabia's quick action to stabilize oil flows after pipeline damage, have reduced the tail-risk premium that was pushing crude prices higher earlier in September. For a refiner, a stable or declining crude price environment\u2014especially when demand remains steady\u2014is favorable territory.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 121,
-    "inputTokens": 111780,
-    "outputTokens": 25928,
-    "estimatedCostUsd": 0.24142,
-    "lastCallHour": "2026-09-17T03"
+    "callsThisMonth": 122,
+    "inputTokens": 112683,
+    "outputTokens": 26176,
+    "estimatedCostUsd": 0.243563,
+    "lastCallHour": "2026-09-17T09"
   }
 }
