@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T20:29:16.485567+00:00",
-  "text": "Marathon Petroleum rose 2.0% today as oil refineries operated at exceptionally high capacity (96.8%), supporting strong margins for processors like MPC. The gain caps a remarkable two-week run of nearly 9%, driven by tight supply conditions\u2014US oil at $107/barrel and global oil at $130.80/barrel\u2014that boost the value of refined products like gasoline and diesel. Refineries running near full tilt while inventories of gasoline and diesel remain relatively modest create favorable conditions for refiner profitability.\n\nThe broader backdrop includes geopolitical uncertainty around Middle Eastern oil that had pushed prices higher, though today's news of Saudi Arabia offering additional crude supplies via the Strait of Hormuz actually eased some supply-disruption fears. That said, the record diesel prices cited in today's coverage and the persistent gap between US and global oil prices suggest the refining environment remains supportive for a company converting crude into fuel.",
+  "fetchedAt": "2026-09-17T21:54:29.074177+00:00",
+  "text": "Marathon Petroleum rose 1.94% today, continuing a strong two-week rally that has added 9% to the stock price. The move follows a significant dip in oil prices yesterday when Saudi Arabia signaled it would release more crude supplies after a pipeline attack, easing supply concerns that had been pushing crude higher. For a refiner like Marathon, lower oil prices directly improve profitability on the fuel they produce and sell \u2014 when the cost of their raw material (crude oil) drops while refined product prices hold relatively steady, their margins widen.\n\nThe broader context here is geopolitical stability and easing supply risk. News that the U.S. may be nearing an end to its conflict with Iran, combined with Saudi Arabia's willingness to boost exports, has reduced the premium investors were paying for oil due to Middle East tensions. At the same time, refineries are running at 96.8% capacity with healthy product inventories, meaning the industry is well-positioned to process crude and convert lower input costs into stronger earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 126,
-    "inputTokens": 116297,
-    "outputTokens": 27082,
-    "estimatedCostUsd": 0.251707,
-    "lastCallHour": "2026-09-17T20"
+    "callsThisMonth": 127,
+    "inputTokens": 117200,
+    "outputTokens": 27302,
+    "estimatedCostUsd": 0.25371,
+    "lastCallHour": "2026-09-17T21"
   }
 }

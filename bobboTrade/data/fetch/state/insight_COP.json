@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T20:28:59.739022+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices stabilized following news that Saudi Arabia would increase crude exports through the Strait of Hormuz after a pipeline attack. The stock had plummeted 6.4% yesterday on geopolitical tensions, but the Saudi supply announcement eased immediate concerns about a major disruption to global oil flows\u2014a critical factor for an oil producer's earnings.\n\nThe company remains down 2.9% over two weeks amid a volatile period marked by Middle East conflict, sharp swings in crude prices, and policy uncertainty around tariffs and Iran. While today's modest gain reflects relief that a supply crisis may be averted, longer-term direction for the stock depends heavily on whether oil prices stabilize around current levels and how U.S.-Iran tensions ultimately resolve.",
+  "fetchedAt": "2026-09-17T21:54:04.321440+00:00",
+  "text": "ConocoPhillips rose 0.49% today, a modest gain that came as oil prices fell sharply\u2014US crude dropped to $107 per barrel and global crude to $130.80\u2014after Saudi Arabia signaled it would release more crude supplies into the market following a pipeline attack. The stock had plunged $8.69 (6.1%) just yesterday, so today's bounce is a partial recovery from that sell-off, not a sign of broader strength.\n\nThe backdrop here is mixed geopolitical news: while reports of a potential end to the Iran conflict and Saudi willingness to stabilize supplies eased immediate disruption fears and pressed prices lower, longer-term energy supply could shift with new US policy toward Venezuelan oil development and potential tariffs on countries buying Russian crude. These competing forces\u2014near-term relief in global oil markets offset by uncertainty over policy-driven supply changes\u2014help explain why ConocoPhillips is still down nearly 3% over the past two weeks despite today's small gain.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 125,
-    "inputTokens": 108218,
-    "outputTokens": 25882,
-    "estimatedCostUsd": 0.237628,
-    "lastCallHour": "2026-09-17T20"
+    "callsThisMonth": 126,
+    "inputTokens": 109081,
+    "outputTokens": 26102,
+    "estimatedCostUsd": 0.239591,
+    "lastCallHour": "2026-09-17T21"
   }
 }
