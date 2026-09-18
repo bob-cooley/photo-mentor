@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T17:27:11.393951+00:00",
-  "text": "ConocoPhillips fell 0.97% today to close at $131.90, continuing a sharp decline from its peak of $141.22 just three days ago. The immediate trigger was oil prices holding relatively steady despite Middle East tensions\u2014Saudi Arabia signaled it would increase crude supplies through the Strait of Hormuz after a pipeline attack, which eased immediate fears of a major supply disruption. With crude around $107 per barrel domestically, the market is pricing in that the conflict risk, while real, won't severely crimp global oil flows in the near term.\n\nThe broader backdrop is mixed for energy companies: while record diesel prices are rippling through the U.S. economy, signals that the U.S.-Iran conflict may be winding down and that Saudi output can be maintained are tempering the upside for oil stocks. Over the past week, ConocoPhillips has swung sharply as headlines have oscillated between \"disruption fears\" and \"supply reassurance,\" leaving the stock down 2.8% since early September despite the underlying geopolitical complexity.",
+  "fetchedAt": "2026-09-18T19:25:37.064887+00:00",
+  "text": "ConocoPhillips fell nearly 1% today to close at $131.86, continuing a sharp decline from its peak of $141.22 just three days ago. The immediate trigger appears to be oil prices stabilizing this week despite Middle East tensions\u2014Saudi Arabia signaled it would increase crude exports through the Strait of Hormuz after a pipeline attack, which eased supply-disruption fears that had briefly supported prices. With U.S. crude sitting at $107/barrel and global crude at $130.80/barrel, the market is pricing in less scarcity than it feared earlier in the week.\n\nThe broader context is that energy stocks have pulled back as geopolitical risk premiums deflate. While record diesel prices and ongoing U.S.-Iran tensions remain real economic headwinds, the market's working assumption\u2014based on Trump's comments about winding down the Iran conflict and Saudi reassurances on supply\u2014is shifting from escalation risk to a more stable baseline. That's a headwind for an oil major's share price even if the fundamentals of their business remain sound.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 132,
-    "inputTokens": 114219,
-    "outputTokens": 27548,
-    "estimatedCostUsd": 0.251959,
-    "lastCallHour": "2026-09-18T17"
+    "callsThisMonth": 133,
+    "inputTokens": 115089,
+    "outputTokens": 27783,
+    "estimatedCostUsd": 0.254004,
+    "lastCallHour": "2026-09-18T19"
   }
 }

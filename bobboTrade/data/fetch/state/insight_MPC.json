@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T17:27:26.641740+00:00",
-  "text": "Marathon Petroleum rose 0.19% today to close at $422.78, continuing a strong two-week rally that's now up 9.05%. The move reflects an environment where US oil has climbed to $107 a barrel amid Middle East tensions\u2014a Saudi pipeline closure and Houthi attacks have created genuine supply concerns\u2014while US refineries are running at 96.8% capacity, meaning tight supply conditions benefit refining margins. The company benefits directly when crude prices are elevated and refineries operate at high utilization rates, both of which are currently in place.\n\nThe broader backdrop matters: record diesel prices are beginning to ripple through transportation costs across the economy, which typically supports sustained energy demand and refining spreads. Diesel and heating oil storage sits at 107.9 million barrels\u2014relatively low\u2014which further supports the case for refinery operations to stay strong in the near term.",
+  "fetchedAt": "2026-09-18T19:25:55.520157+00:00",
+  "text": "Marathon Petroleum gained nearly half a percent today to $424.02, continuing a strong two-week rally that has lifted the stock 9.4% since early September. The timing aligns with a sharp rebound in oil prices: U.S. crude has climbed to $107 per barrel, and refineries are running at 96.8% capacity\u2014near-maximum utilization. Higher oil prices typically benefit refiners by expanding the margin between what they pay for crude and what they earn selling refined products like gasoline and diesel.\n\nThe broader rally reflects easing supply concerns in a tense geopolitical environment. Though Saudi Arabia faced a pipeline outage from Houthi attacks and the Middle East conflict has escalated, the market has largely shrugged off worst-case disruption scenarios after Saudi Arabia signaled it would supply more crude through alternative routes. With diesel prices at record levels and refineries running hot, the refining sector is capturing strong demand and pricing power across the economy.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 133,
-    "inputTokens": 122584,
-    "outputTokens": 28598,
-    "estimatedCostUsd": 0.265574,
-    "lastCallHour": "2026-09-18T17"
+    "callsThisMonth": 134,
+    "inputTokens": 123491,
+    "outputTokens": 28810,
+    "estimatedCostUsd": 0.267541,
+    "lastCallHour": "2026-09-18T19"
   }
 }
