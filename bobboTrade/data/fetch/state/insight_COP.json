@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T19:25:37.064887+00:00",
-  "text": "ConocoPhillips fell nearly 1% today to close at $131.86, continuing a sharp decline from its peak of $141.22 just three days ago. The immediate trigger appears to be oil prices stabilizing this week despite Middle East tensions\u2014Saudi Arabia signaled it would increase crude exports through the Strait of Hormuz after a pipeline attack, which eased supply-disruption fears that had briefly supported prices. With U.S. crude sitting at $107/barrel and global crude at $130.80/barrel, the market is pricing in less scarcity than it feared earlier in the week.\n\nThe broader context is that energy stocks have pulled back as geopolitical risk premiums deflate. While record diesel prices and ongoing U.S.-Iran tensions remain real economic headwinds, the market's working assumption\u2014based on Trump's comments about winding down the Iran conflict and Saudi reassurances on supply\u2014is shifting from escalation risk to a more stable baseline. That's a headwind for an oil major's share price even if the fundamentals of their business remain sound.",
+  "fetchedAt": "2026-09-18T20:20:49.560544+00:00",
+  "text": "ConocoPhillips fell 1% today, extending a sharp two-week decline that intensified dramatically yesterday when the stock dropped nearly 4% in a single day. The sharp drop yesterday coincided with news that Saudi Arabia would release more crude oil into the market following a pipeline attack, which eased supply-disruption concerns \u2014 lower expected scarcity typically pressures oil majors' stock prices. Today's continued weakness reflects the same dynamic: oil prices remained flat on the day as markets priced in that the feared supply crunch from the Saudi pipeline outage was less severe than initially feared, removing upside support for energy stocks.\n\nThe broader backdrop adds weight to this near-term pressure. While geopolitical risks in the Middle East remain elevated (Saudi-Houthi clashes, U.S. involvement in the Iran conflict), signs of diplomatic progress toward a deal have emerged alongside the supply reassurance, suggesting the acute crisis premium is fading from the market. Diesel prices hitting records could support demand for fuel in coming weeks, but for now, the stock is reacting to the near-term relief in supply anxiety that was priced into energy stocks earlier this week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 133,
-    "inputTokens": 115089,
-    "outputTokens": 27783,
-    "estimatedCostUsd": 0.254004,
-    "lastCallHour": "2026-09-18T19"
+    "callsThisMonth": 134,
+    "inputTokens": 115958,
+    "outputTokens": 28033,
+    "estimatedCostUsd": 0.256123,
+    "lastCallHour": "2026-09-18T20"
   }
 }
