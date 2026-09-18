@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T21:46:48.989615+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp two-week decline that's largely reflected in the underlying oil market. The trigger: on September 17th, oil prices dropped after Saudi Arabia signaled it would boost crude exports through the Strait of Hormuz following a pipeline attack, easing supply concerns that had been supporting prices. That relief trade has persisted, with crude finishing the week essentially flat despite Middle East tensions, which means the immediate supply-shock premium has evaporated.\n\nThe broader backdrop is a shift in how the market is pricing geopolitical risk. A week ago, concerns about widening Saudi-Houthi conflict and U.S. military action in Iran pushed oil higher; now, signs of potential de-escalation (Trump saying the U.S. may be nearing an end to its Iran war) and Saudi assurances of steady supply have flipped that dynamic. For an integrated oil company like this one, lower oil prices directly compress margins and earnings power, which is why the stock has slid alongside crude.",
+  "fetchedAt": "2026-09-18T22:59:41.302862+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, capping a sharp three-day decline of about 8.70% from its September 15th peak of $141.22. The driver was oil price weakness: crude dropped significantly on September 17th after Saudi Arabia signaled it would release more crude supplies following a pipeline attack, easing market fears about a major supply disruption. That relief carried into today, with oil holding relatively flat even as Middle East tensions persist between Saudi Arabia and the Houthis.\n\nThe broader headwind for oil majors like ConocoPhillips is the mixed geopolitical picture \u2014 while peace talks between the U.S. and Iran are reportedly advancing, which could further stabilize supplies and weigh on prices, the underlying cost pressures from record diesel prices are real and will eventually ripple through the broader economy. For now, the market is pricing in a less disruptive scenario than it feared a few days ago, which has taken pressure off energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 135,
-    "inputTokens": 116827,
-    "outputTokens": 28265,
-    "estimatedCostUsd": 0.258152,
-    "lastCallHour": "2026-09-18T21"
+    "callsThisMonth": 136,
+    "inputTokens": 117696,
+    "outputTokens": 28486,
+    "estimatedCostUsd": 0.260126,
+    "lastCallHour": "2026-09-18T22"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T21:47:12.149914+00:00",
-  "text": "Marathon Petroleum stock gained 0.7% today, extending a strong two-week rally of 9.6%. The refining sector is benefiting from tight supply conditions: refineries are running at 96.8% capacity, diesel and heating oil inventories are relatively lean at 108 million barrels, and the company is operating in a world where crude trades at $130.80 per barrel globally while US domestic oil sits at $107. These elevated prices and high utilization rates boost refinery margins\u2014the profit refiners make by converting crude into finished products.\n\nThe broader context is a tightening energy market despite recent headlines. Early last week, Saudi Arabia's pipeline damage from Houthi attacks sparked supply fears, but those worries eased when Saudi officials signaled they'd boost exports through alternative routes. Yet the actual supply cushion remains thin, keeping crude prices elevated and refineries running hot. Record diesel prices in particular are straining the transportation sector, which creates both inflationary pressure and sustained demand for refined fuels that keeps margins favorable for refiners like Marathon.",
+  "fetchedAt": "2026-09-18T23:00:04.220581+00:00",
+  "text": "Marathon Petroleum rose 0.69% today, continuing a strong two-week rally that has lifted the stock nearly 10% since early September. The gain reflects improving conditions for oil refiners: US crude has climbed to $107 per barrel, diesel and heating oil inventories remain tight at just 107.9 million barrels, and refineries are running at 96.8% capacity\u2014near maximum utilization. These conditions allow refiners to earn wider margins by processing oil into fuel products that are in tight supply.\n\nThe broader backdrop has also turned supportive for the sector. While Middle East tensions have kept global crude prices elevated at $130.80 per barrel, the immediate supply fears have eased after Saudi Arabia signaled it would release additional crude following a pipeline attack, avoiding the worst-case disruption scenario. This combination of tight product supplies, high refinery utilization, and stable crude availability creates favorable economics for companies like Marathon that convert crude into gasoline and diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 136,
-    "inputTokens": 125309,
-    "outputTokens": 29261,
-    "estimatedCostUsd": 0.271614,
-    "lastCallHour": "2026-09-18T21"
+    "callsThisMonth": 137,
+    "inputTokens": 126218,
+    "outputTokens": 29471,
+    "estimatedCostUsd": 0.273573,
+    "lastCallHour": "2026-09-18T23"
   }
 }
