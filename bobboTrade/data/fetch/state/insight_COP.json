@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T20:20:49.560544+00:00",
-  "text": "ConocoPhillips fell 1% today, extending a sharp two-week decline that intensified dramatically yesterday when the stock dropped nearly 4% in a single day. The sharp drop yesterday coincided with news that Saudi Arabia would release more crude oil into the market following a pipeline attack, which eased supply-disruption concerns \u2014 lower expected scarcity typically pressures oil majors' stock prices. Today's continued weakness reflects the same dynamic: oil prices remained flat on the day as markets priced in that the feared supply crunch from the Saudi pipeline outage was less severe than initially feared, removing upside support for energy stocks.\n\nThe broader backdrop adds weight to this near-term pressure. While geopolitical risks in the Middle East remain elevated (Saudi-Houthi clashes, U.S. involvement in the Iran conflict), signs of diplomatic progress toward a deal have emerged alongside the supply reassurance, suggesting the acute crisis premium is fading from the market. Diesel prices hitting records could support demand for fuel in coming weeks, but for now, the stock is reacting to the near-term relief in supply anxiety that was priced into energy stocks earlier this week.",
+  "fetchedAt": "2026-09-18T21:46:48.989615+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp two-week decline that's largely reflected in the underlying oil market. The trigger: on September 17th, oil prices dropped after Saudi Arabia signaled it would boost crude exports through the Strait of Hormuz following a pipeline attack, easing supply concerns that had been supporting prices. That relief trade has persisted, with crude finishing the week essentially flat despite Middle East tensions, which means the immediate supply-shock premium has evaporated.\n\nThe broader backdrop is a shift in how the market is pricing geopolitical risk. A week ago, concerns about widening Saudi-Houthi conflict and U.S. military action in Iran pushed oil higher; now, signs of potential de-escalation (Trump saying the U.S. may be nearing an end to its Iran war) and Saudi assurances of steady supply have flipped that dynamic. For an integrated oil company like this one, lower oil prices directly compress margins and earnings power, which is why the stock has slid alongside crude.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 134,
-    "inputTokens": 115958,
-    "outputTokens": 28033,
-    "estimatedCostUsd": 0.256123,
-    "lastCallHour": "2026-09-18T20"
+    "callsThisMonth": 135,
+    "inputTokens": 116827,
+    "outputTokens": 28265,
+    "estimatedCostUsd": 0.258152,
+    "lastCallHour": "2026-09-18T21"
   }
 }

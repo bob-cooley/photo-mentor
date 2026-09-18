@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T20:21:12.925387+00:00",
-  "text": "Marathon Petroleum stock climbed 0.57% today to $424.36, continuing a strong two-week rally of 9.45%. The gains reflect a combination of tight refinery conditions and rising diesel demand: US refineries are running at 96.8% capacity, gasoline and diesel inventories remain lean, and diesel prices have hit record levels. While crude oil prices moved sideways this week\u2014Saudi Arabia's offer of additional supplies via an alternative route eased fears over the pipeline attack\u2014the real money for a refiner is the spread between what crude costs and what finished fuels sell for, which widens when refining capacity is maxed out and products are scarce.\n\nThe longer backdrop is supply tightness in diesel and heating oil, which are flowing into the transportation and logistics economy at historically high prices. A refiner that can push product out at full capacity into that environment is profitable\u2014and that's why the stock has gained nearly 10% in two weeks despite oil prices themselves remaining volatile and geopolitically uncertain.",
+  "fetchedAt": "2026-09-18T21:47:12.149914+00:00",
+  "text": "Marathon Petroleum stock gained 0.7% today, extending a strong two-week rally of 9.6%. The refining sector is benefiting from tight supply conditions: refineries are running at 96.8% capacity, diesel and heating oil inventories are relatively lean at 108 million barrels, and the company is operating in a world where crude trades at $130.80 per barrel globally while US domestic oil sits at $107. These elevated prices and high utilization rates boost refinery margins\u2014the profit refiners make by converting crude into finished products.\n\nThe broader context is a tightening energy market despite recent headlines. Early last week, Saudi Arabia's pipeline damage from Houthi attacks sparked supply fears, but those worries eased when Saudi officials signaled they'd boost exports through alternative routes. Yet the actual supply cushion remains thin, keeping crude prices elevated and refineries running hot. Record diesel prices in particular are straining the transportation sector, which creates both inflationary pressure and sustained demand for refined fuels that keeps margins favorable for refiners like Marathon.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 135,
-    "inputTokens": 124400,
-    "outputTokens": 29030,
-    "estimatedCostUsd": 0.26955,
-    "lastCallHour": "2026-09-18T20"
+    "callsThisMonth": 136,
+    "inputTokens": 125309,
+    "outputTokens": 29261,
+    "estimatedCostUsd": 0.271614,
+    "lastCallHour": "2026-09-18T21"
   }
 }
