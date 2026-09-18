@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T16:55:54.978425+00:00",
-  "text": "Marathon Petroleum's stock rose 0.33% today to $423.37, continuing a sharp nine-day rally that's gained 6.8% since mid-September. The climb reflects tightening refinery economics: US oil trades at $107 per barrel while world oil sits at $130.80\u2014a widening gap that benefits refiners who buy cheaper domestic crude and sell into global markets. Simultaneously, US refineries are running at 96.8% capacity with diesel and heating oil inventories at their lowest levels in the data shown, supporting margins on refined products.\n\nThe broader backdrop is a Middle East supply scare that's kept energy markets elevated. While Saudi Arabia offered to increase crude supplies through the Hormuz Strait after the pipeline attack, concerns about regional escalation persist. High diesel prices are already cascading through transportation costs nationwide, which creates economic headwinds but doesn't immediately dent refiner profits\u2014it actually pushes up what refiners can charge for their products in the near term.",
+  "fetchedAt": "2026-09-18T17:27:26.641740+00:00",
+  "text": "Marathon Petroleum rose 0.19% today to close at $422.78, continuing a strong two-week rally that's now up 9.05%. The move reflects an environment where US oil has climbed to $107 a barrel amid Middle East tensions\u2014a Saudi pipeline closure and Houthi attacks have created genuine supply concerns\u2014while US refineries are running at 96.8% capacity, meaning tight supply conditions benefit refining margins. The company benefits directly when crude prices are elevated and refineries operate at high utilization rates, both of which are currently in place.\n\nThe broader backdrop matters: record diesel prices are beginning to ripple through transportation costs across the economy, which typically supports sustained energy demand and refining spreads. Diesel and heating oil storage sits at 107.9 million barrels\u2014relatively low\u2014which further supports the case for refinery operations to stay strong in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 132,
-    "inputTokens": 121684,
-    "outputTokens": 28403,
-    "estimatedCostUsd": 0.263699,
-    "lastCallHour": "2026-09-18T16"
+    "callsThisMonth": 133,
+    "inputTokens": 122584,
+    "outputTokens": 28598,
+    "estimatedCostUsd": 0.265574,
+    "lastCallHour": "2026-09-18T17"
   }
 }
