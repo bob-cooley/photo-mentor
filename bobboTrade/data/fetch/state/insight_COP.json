@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T13:21:21.204879+00:00",
-  "text": "ConocoPhillips rose slightly today as oil markets stabilized following three days of declines. The main driver was news that Saudi Arabia is releasing additional crude supplies to offset disruptions, which eased fears of a prolonged supply crunch. U.S. crude prices have fallen sharply\u2014dipping below $100 per barrel on Friday\u2014but the stock held up reasonably well, suggesting investors see the stabilization as positive for the company's medium-term outlook.\n\nThe broader context here is geopolitical: an ongoing U.S.-Iran conflict and Houthi attacks have threatened Middle Eastern oil supplies, but signals of a potential diplomatic resolution (Trump indicated the U.S. may be nearing an end to the conflict) combined with Saudi output increases have reduced immediate supply panic. With crude still trading above $130 globally, the worst-case scenario for oil producers appears to have been avoided\u2014at least for now.",
+  "fetchedAt": "2026-09-18T16:55:33.934285+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $131.77, extending a two-week slide of nearly 3%. The immediate trigger was yesterday's news that Saudi Arabia is releasing more crude oil into the market through the Strait of Hormuz after a pipeline attack disrupted some exports\u2014additional supply typically pressures oil prices downward, and crude has indeed stayed flat to weak despite ongoing Middle East tensions. The stock's slide accelerated on September 16th when it dropped $8.70 in a single day, coinciding with that Saudi supply announcement.\n\nThe broader context is that while geopolitical risks in the Middle East remain real\u2014the UN report on civilian casualties and ongoing Saudi-Houthi clashes create real disruption fears\u2014markets are increasingly focused on supply solutions rather than supply shocks. If major producers can offset losses and keep crude flowing, the upside from geopolitical fear tends to fade, which is working against energy stocks like this one in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 130,
-    "inputTokens": 112495,
-    "outputTokens": 27098,
-    "estimatedCostUsd": 0.247985,
-    "lastCallHour": "2026-09-18T13"
+    "callsThisMonth": 131,
+    "inputTokens": 113357,
+    "outputTokens": 27312,
+    "estimatedCostUsd": 0.249917,
+    "lastCallHour": "2026-09-18T16"
   }
 }

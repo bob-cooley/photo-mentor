@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T13:21:38.559013+00:00",
-  "text": "Marathon Petroleum rose 1.9% today, continuing a strong two-week rally that's added 9% to the stock price. The immediate driver appears to be oil market dynamics: U.S. crude is trading at $107 per barrel while global crude sits at $130.80, creating a significant price gap that typically benefits refiners who buy cheaper domestic oil and sell refined products into higher-priced global markets. Refineries are running at 96.8% capacity, near maximum utilization, which means the company is maximizing profit from that spread.\n\nThe broader context here is that oil prices have been volatile but supported. Though crude fell earlier this week on Saudi Arabia's pledges to increase supply, prices remain elevated\u2014well above $100 domestically and $130 globally\u2014which keeps refining margins attractive. The two-week climb in MPC's stock reflects this refiner-friendly environment where high global oil prices and tight capacity utilization combine to boost profitability.",
+  "fetchedAt": "2026-09-18T16:55:54.978425+00:00",
+  "text": "Marathon Petroleum's stock rose 0.33% today to $423.37, continuing a sharp nine-day rally that's gained 6.8% since mid-September. The climb reflects tightening refinery economics: US oil trades at $107 per barrel while world oil sits at $130.80\u2014a widening gap that benefits refiners who buy cheaper domestic crude and sell into global markets. Simultaneously, US refineries are running at 96.8% capacity with diesel and heating oil inventories at their lowest levels in the data shown, supporting margins on refined products.\n\nThe broader backdrop is a Middle East supply scare that's kept energy markets elevated. While Saudi Arabia offered to increase crude supplies through the Hormuz Strait after the pipeline attack, concerns about regional escalation persist. High diesel prices are already cascading through transportation costs nationwide, which creates economic headwinds but doesn't immediately dent refiner profits\u2014it actually pushes up what refiners can charge for their products in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 131,
-    "inputTokens": 120784,
-    "outputTokens": 28186,
-    "estimatedCostUsd": 0.261714,
-    "lastCallHour": "2026-09-18T13"
+    "callsThisMonth": 132,
+    "inputTokens": 121684,
+    "outputTokens": 28403,
+    "estimatedCostUsd": 0.263699,
+    "lastCallHour": "2026-09-18T16"
   }
 }
