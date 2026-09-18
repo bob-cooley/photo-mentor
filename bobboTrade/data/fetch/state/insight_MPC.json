@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T03:00:45.561762+00:00",
-  "text": "Marathon Petroleum stock rose 1.94% today, continuing a strong two-week rally that's up 9% overall. The climb reflects tightening refinery economics: U.S. refineries are running at 96.8% capacity with oil prices at $107 per barrel domestically but $130.80 globally\u2014that spread between domestic and world crude prices expands refiner margins, making it more profitable to process oil into gasoline and diesel. The jump accelerated over the past four days as news of Saudi Arabia releasing additional crude supplies onto the market eased geopolitical disruption fears that had briefly spiked prices upward.\n\nA refiner's core profit engine depends on buying cheap crude and selling expensive fuel. When global oil sits well above U.S. prices (as it does now by $24 per barrel), and refineries are running near full throttle, those profit margins widen considerably. The broader market narrative\u2014that Middle East tensions may be cooling and fresh crude is flowing\u2014removes a overhang that could have constricted supply and benefited refiners selectively.",
+  "fetchedAt": "2026-09-18T08:09:59.335881+00:00",
+  "text": "Marathon Petroleum rose 1.94% today to close at $421.96, extending a sharp nine-day rally that has lifted the stock nearly 9% since early September. The immediate driver appears to be a broader energy market dynamic: while oil prices fell on Friday as Saudi Arabia signaled increased crude supply to offset Houthi disruptions and regional tensions, U.S. refineries are running at 96.8% capacity utilization with gasoline and diesel inventories remaining lean. For a refiner, tighter product supplies relative to crude availability can improve profit margins on fuel production, even as crude prices moderate.\n\nThe stock's sustained momentum over the past week also reflects the backdrop of elevated energy prices \u2014 U.S. crude is trading at $107 per barrel while global crude sits at $130.80 \u2014 alongside real operational stress on the transportation sector from record diesel costs. A refiner benefits when fuel demand remains firm despite price spikes, particularly when their own inventory positions are tight relative to the broader market.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 129,
-    "inputTokens": 118998,
-    "outputTokens": 27758,
-    "estimatedCostUsd": 0.257788,
-    "lastCallHour": "2026-09-18T03"
+    "callsThisMonth": 130,
+    "inputTokens": 119887,
+    "outputTokens": 27975,
+    "estimatedCostUsd": 0.259762,
+    "lastCallHour": "2026-09-18T08"
   }
 }

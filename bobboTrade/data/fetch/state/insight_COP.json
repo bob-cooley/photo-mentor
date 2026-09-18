@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T03:00:17.175016+00:00",
-  "text": "ConocoPhillips rose slightly today, but it's part of a sharp pullback from a $141.22 peak two days ago. The immediate driver is the fall in oil prices over the past two days: US crude dropped from levels that supported that peak, now sitting at $107.02 per barrel, as Saudi Arabia signaled it would release additional crude supplies to offset supply disruptions from the recent Houthi strikes and pipeline attack. When oil prices fall, exploration and production companies like ConocoPhillips typically see their stock decline because their revenue depends on selling oil at higher prices.\n\nThe broader context is a shift in near-term supply anxiety: geopolitical tensions in the Middle East have eased slightly with hints of a potential deal with Iran and Saudi willingness to stabilize markets, reducing the \"supply shock premium\" that had pushed oil higher. This is also playing out across the sector \u2014 the news about other oil companies' expansion plans (like Continental Resources moving into Venezuela) reflects the industry's confidence that prices, while volatile, remain elevated enough to support investment, but today's move reflects the reality that when immediate supply fears recede, prices and oil stocks correct.",
+  "fetchedAt": "2026-09-18T08:09:42.137185+00:00",
+  "text": "ConocoPhillips edged up just under 0.5% today to $133.19, but the stock is still down 2.9% over the past two weeks\u2014a decline that tracks closely with the falling oil prices that have dominated this week. Oil fell sharply on news that Saudi Arabia is releasing additional crude supplies to offset disruptions from Houthi strikes, easing the market's fear of a prolonged shortage; U.S. crude is trading at $107 per barrel, well below the $130+ range seen earlier in the period. For an oil major like ConocoPhillips, lower crude prices directly cut into profits on the barrels it produces, which is why the stock has drifted lower despite today's modest bounce.\n\nThe sharp reversal on Tuesday\u2014a $4.55 jump from $136.67 to $141.22\u2014suggests briefly heightened concern about supply disruptions in the Middle East, but that optimism reversed hard on Wednesday when the Saudi supply news hit. With geopolitical tensions still high but supplies stabilizing, crude prices are unlikely to spike higher anytime soon, keeping downward pressure on exploration and production companies in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 128,
-    "inputTokens": 110783,
-    "outputTokens": 26642,
-    "estimatedCostUsd": 0.243993,
-    "lastCallHour": "2026-09-18T03"
+    "callsThisMonth": 129,
+    "inputTokens": 111635,
+    "outputTokens": 26900,
+    "estimatedCostUsd": 0.246135,
+    "lastCallHour": "2026-09-18T08"
   }
 }
