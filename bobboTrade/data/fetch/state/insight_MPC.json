@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T08:09:59.335881+00:00",
-  "text": "Marathon Petroleum rose 1.94% today to close at $421.96, extending a sharp nine-day rally that has lifted the stock nearly 9% since early September. The immediate driver appears to be a broader energy market dynamic: while oil prices fell on Friday as Saudi Arabia signaled increased crude supply to offset Houthi disruptions and regional tensions, U.S. refineries are running at 96.8% capacity utilization with gasoline and diesel inventories remaining lean. For a refiner, tighter product supplies relative to crude availability can improve profit margins on fuel production, even as crude prices moderate.\n\nThe stock's sustained momentum over the past week also reflects the backdrop of elevated energy prices \u2014 U.S. crude is trading at $107 per barrel while global crude sits at $130.80 \u2014 alongside real operational stress on the transportation sector from record diesel costs. A refiner benefits when fuel demand remains firm despite price spikes, particularly when their own inventory positions are tight relative to the broader market.",
+  "fetchedAt": "2026-09-18T13:21:38.559013+00:00",
+  "text": "Marathon Petroleum rose 1.9% today, continuing a strong two-week rally that's added 9% to the stock price. The immediate driver appears to be oil market dynamics: U.S. crude is trading at $107 per barrel while global crude sits at $130.80, creating a significant price gap that typically benefits refiners who buy cheaper domestic oil and sell refined products into higher-priced global markets. Refineries are running at 96.8% capacity, near maximum utilization, which means the company is maximizing profit from that spread.\n\nThe broader context here is that oil prices have been volatile but supported. Though crude fell earlier this week on Saudi Arabia's pledges to increase supply, prices remain elevated\u2014well above $100 domestically and $130 globally\u2014which keeps refining margins attractive. The two-week climb in MPC's stock reflects this refiner-friendly environment where high global oil prices and tight capacity utilization combine to boost profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 130,
-    "inputTokens": 119887,
-    "outputTokens": 27975,
-    "estimatedCostUsd": 0.259762,
-    "lastCallHour": "2026-09-18T08"
+    "callsThisMonth": 131,
+    "inputTokens": 120784,
+    "outputTokens": 28186,
+    "estimatedCostUsd": 0.261714,
+    "lastCallHour": "2026-09-18T13"
   }
 }
