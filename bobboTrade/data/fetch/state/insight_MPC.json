@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-17T23:01:36.636753+00:00",
-  "text": "Marathon Petroleum rose 1.94% today to close at $421.96, continuing a strong two-week rally up 9%. The jump reflects easing geopolitical risk in oil markets: Saudi Arabia signaled it will increase crude exports through the Strait of Hormuz after a pipeline attack, and Trump indicated the U.S. may be nearing the end of its conflict with Iran. Lower oil price uncertainty\u2014Brent crude is down while refineries run at 96.8% capacity and diesel inventories remain tight\u2014removes a headwind that had previously clouded demand and margins for refiners.\n\nThe broader tailwind for the refining sector comes from the tension between record diesel prices (which squeeze transportation costs across the economy) and the potential for more stable crude supplies ahead. A de-escalation in Middle East tensions, combined with signals that the U.S. is opening doors to Venezuelan oil development, could gradually ease the tight energy backdrop that's been both a risk and an opportunity for refiners over the past week.",
+  "fetchedAt": "2026-09-18T03:00:45.561762+00:00",
+  "text": "Marathon Petroleum stock rose 1.94% today, continuing a strong two-week rally that's up 9% overall. The climb reflects tightening refinery economics: U.S. refineries are running at 96.8% capacity with oil prices at $107 per barrel domestically but $130.80 globally\u2014that spread between domestic and world crude prices expands refiner margins, making it more profitable to process oil into gasoline and diesel. The jump accelerated over the past four days as news of Saudi Arabia releasing additional crude supplies onto the market eased geopolitical disruption fears that had briefly spiked prices upward.\n\nA refiner's core profit engine depends on buying cheap crude and selling expensive fuel. When global oil sits well above U.S. prices (as it does now by $24 per barrel), and refineries are running near full throttle, those profit margins widen considerably. The broader market narrative\u2014that Middle East tensions may be cooling and fresh crude is flowing\u2014removes a overhang that could have constricted supply and benefited refiners selectively.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 128,
-    "inputTokens": 118103,
-    "outputTokens": 27522,
-    "estimatedCostUsd": 0.255713,
-    "lastCallHour": "2026-09-17T23"
+    "callsThisMonth": 129,
+    "inputTokens": 118998,
+    "outputTokens": 27758,
+    "estimatedCostUsd": 0.257788,
+    "lastCallHour": "2026-09-18T03"
   }
 }

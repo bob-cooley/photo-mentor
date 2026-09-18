@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-17T23:00:48.531840+00:00",
-  "text": "ConocoPhillips rose slightly today, but the stock is down sharply over the past two weeks\u2014falling 2.92% from early September through today. The near-term catalyst was mixed: oil prices fell on September 17 as Saudi Arabia signaled it would supply more crude after a pipeline attack, easing supply-disruption fears, but U.S. oil is still trading around $107 per barrel while global crude is at $130.80. The bigger driver of the two-week decline appears to be the geopolitical shift: news that the Trump administration may be winding down tensions with Iran and pursuing de-escalation with Saudi Arabia and the Houthis reduces the premium investors were paying for oil scarcity risk\u2014a risk that had supported energy prices and oil stocks earlier in the month.\n\nThe supply picture has tilted in a way that weighs on producers' near-term outlook. While new U.S. tariff powers against countries buying Russian oil could tighten global supplies, the immediate signals from Saudi Arabia's willingness to export more crude and potential Iran deal progress suggest less immediate constraint. For a large-cap producer like ConocoPhillips, that translates to lower expected prices for the oil it pumps over the next several quarters, even though the stock remains sensitive to any escalation in Middle East tensions.",
+  "fetchedAt": "2026-09-18T03:00:17.175016+00:00",
+  "text": "ConocoPhillips rose slightly today, but it's part of a sharp pullback from a $141.22 peak two days ago. The immediate driver is the fall in oil prices over the past two days: US crude dropped from levels that supported that peak, now sitting at $107.02 per barrel, as Saudi Arabia signaled it would release additional crude supplies to offset supply disruptions from the recent Houthi strikes and pipeline attack. When oil prices fall, exploration and production companies like ConocoPhillips typically see their stock decline because their revenue depends on selling oil at higher prices.\n\nThe broader context is a shift in near-term supply anxiety: geopolitical tensions in the Middle East have eased slightly with hints of a potential deal with Iran and Saudi willingness to stabilize markets, reducing the \"supply shock premium\" that had pushed oil higher. This is also playing out across the sector \u2014 the news about other oil companies' expansion plans (like Continental Resources moving into Venezuela) reflects the industry's confidence that prices, while volatile, remain elevated enough to support investment, but today's move reflects the reality that when immediate supply fears recede, prices and oil stocks correct.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 127,
-    "inputTokens": 109944,
-    "outputTokens": 26391,
-    "estimatedCostUsd": 0.241899,
-    "lastCallHour": "2026-09-17T23"
+    "callsThisMonth": 128,
+    "inputTokens": 110783,
+    "outputTokens": 26642,
+    "estimatedCostUsd": 0.243993,
+    "lastCallHour": "2026-09-18T03"
   }
 }
