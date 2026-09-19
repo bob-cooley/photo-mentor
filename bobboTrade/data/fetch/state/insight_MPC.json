@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-19T15:17:23.619788+00:00",
-  "text": "Marathon Petroleum is up 0.7% today, continuing a sharp nine-day rally that's pushed the stock up 9.6% since September 11th. The timing and magnitude of this move track closely with oil prices and refinery conditions: US crude has climbed to $107 a barrel, global oil hit $130.80, and refineries are running at 96.8% capacity\u2014near maximum utilization. When refineries run hot like this and crude prices rise, refining margins (the profit spread between what a refiner buys crude for and what it sells gasoline and diesel for) tend to widen, which directly boosts earnings for a major refiner like Marathon.\n\nThe broader energy-market backdrop reinforces this. Geopolitical tension around the Middle East\u2014fires near Saudi Arabia's main airport and ongoing Houthi attacks\u2014has kept oil prices elevated despite initial fears that a Saudi pipeline outage would be more severe than it turned out to be. Record diesel prices in particular are creating strong demand and pricing power across the refining sector. All of this creates a favorable environment for refiner profitability right now.",
+  "fetchedAt": "2026-09-19T18:23:16.999514+00:00",
+  "text": "Marathon Petroleum is up 0.7% today as crude oil prices remain elevated and U.S. refineries are running at near-capacity (96.8%). The stock has climbed 9.6% over two weeks as oil has stayed above $107 per barrel\u2014higher prices generally benefit refiners, who profit from the difference between what they pay for crude and what they sell refined products for. Today's move fits a steady uptrend since mid-September as geopolitical tensions in the Middle East (Saudi pipeline concerns, Pakistan-Iran energy disputes, and broader conflict escalation) have kept global oil prices firm at $130.80 per barrel.\n\nThe refining sector is also seeing tailwinds from tight inventory levels: gasoline and diesel stockpiles are relatively lean, which typically supports margins for refiners. Record diesel prices mentioned in recent reports signal strong demand and pricing power across fuel products, which feeds directly into refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 141,
-    "inputTokens": 129864,
-    "outputTokens": 30405,
-    "estimatedCostUsd": 0.281889,
-    "lastCallHour": "2026-09-19T15"
+    "callsThisMonth": 142,
+    "inputTokens": 130783,
+    "outputTokens": 30609,
+    "estimatedCostUsd": 0.283828,
+    "lastCallHour": "2026-09-19T18"
   }
 }

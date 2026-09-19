@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-19T15:17:06.115074+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp three-day slide that began after the stock jumped to $141.22 on September 15th. The immediate driver appears to be easing concerns over Middle East supply disruptions: Saudi Arabia has signaled it can route more crude through the Strait of Hormuz to compensate for pipeline damage, which calmed market fears of a prolonged shortage. That relief, combined with oil markets finishing the prior week flat despite regional tensions, has taken some of the urgency out of energy stocks.\n\nThe broader picture is more mixed. While the near-term geopolitical risk has moderated slightly, the region remains volatile\u2014fires near Riyadh airport and ongoing Saudi-Houthi clashes mean disruption could flare up again quickly. Additionally, record diesel prices and persistent global oil pricing (Brent crude at $130.80 per barrel versus US crude at $107) suggest structural tightness in energy markets hasn't disappeared, only that this particular scare has eased for now.",
+  "fetchedAt": "2026-09-19T18:23:01.751144+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, extending a slide that's seen the stock down nearly 3% over two weeks. The immediate pressure comes from conflicting Middle East signals: while Saudi Arabia is reportedly increasing crude supplies through the Strait of Hormuz to offset pipeline damage, fresh reports of flames near Riyadh's airport on the 19th have reignited supply-disruption concerns. Oil prices themselves remain volatile\u2014US crude at $107 is well above pre-conflict levels but has given back gains as markets weigh whether new Saudi supplies will actually flow without further interruption.\n\nThe broader drag reflects a classic oil-market tension: energy companies benefit from higher prices, but only if those prices stick. The whipsaw between \"supply will be disrupted\" and \"supply will be restored\" means traders are unwilling to commit strongly in either direction, leaving refiners and producers like ConocoPhillips vulnerable to daily headline shifts rather than sustained conviction about fundamentals.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 141,
-    "inputTokens": 122029,
-    "outputTokens": 29587,
-    "estimatedCostUsd": 0.269964,
-    "lastCallHour": "2026-09-19T15"
+    "callsThisMonth": 142,
+    "inputTokens": 122886,
+    "outputTokens": 29804,
+    "estimatedCostUsd": 0.271906,
+    "lastCallHour": "2026-09-19T18"
   }
 }
