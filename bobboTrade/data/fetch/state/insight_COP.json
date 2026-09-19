@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-18T23:38:17.737666+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp decline from its September 15 peak of $141.22. The main driver is oil prices cooling this week as Saudi Arabia signaled it would release more crude through the Strait of Hormuz following a pipeline attack, easing supply concerns that had briefly pushed prices higher. With global oil trading at $130.80 per barrel and U.S. crude at $107.02, the market is betting that Middle East disruptions won't be as severe as initially feared\u2014which removes one of the bullish props supporting energy stocks.\n\nThe broader context is that oil prices have been volatile but ultimately restrained by uncertainty over how long the conflict will persist. While geopolitical risk in the Middle East remains real (Saudi-Houthi clashes and reported U.S. military actions continue), market signals from both Saudi officials and the U.S. administration suggest moves toward de-escalation, which has taken pressure off the supply premium that benefits refiners and producers.",
+  "fetchedAt": "2026-09-19T01:05:27.452885+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, capping a steep two-week decline of nearly 3%. The main driver appears to be a sharp drop on September 16th (down $8.70 in one day) that followed Saudi Arabia's announcement it would release more crude oil via the Strait of Hormuz after a pipeline attack\u2014a move that eased supply-disruption fears and pulled oil prices lower. Today's modest additional decline fits into that broader energy-market pullback, as the market priced in that Middle East risks look less immediately threatening than feared earlier in the week.\n\nThe backdrop remains genuinely uncertain: the U.S. and Iran have been in active military conflict, and the Houthis continue attacking Saudi infrastructure, yet prices have stabilized because Saudi Arabia signaled it can offset losses with alternative exports. If the geopolitical situation stays contained or Trump's signals of a potential Iran deal materialize, energy prices could remain under pressure\u2014a headwind for crude producers even if their operations are unaffected.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 137,
-    "inputTokens": 118565,
-    "outputTokens": 28711,
-    "estimatedCostUsd": 0.26212,
-    "lastCallHour": "2026-09-18T23"
+    "callsThisMonth": 138,
+    "inputTokens": 119434,
+    "outputTokens": 28941,
+    "estimatedCostUsd": 0.264139,
+    "lastCallHour": "2026-09-19T01"
   }
 }

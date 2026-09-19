@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-18T23:00:04.220581+00:00",
-  "text": "Marathon Petroleum rose 0.69% today, continuing a strong two-week rally that has lifted the stock nearly 10% since early September. The gain reflects improving conditions for oil refiners: US crude has climbed to $107 per barrel, diesel and heating oil inventories remain tight at just 107.9 million barrels, and refineries are running at 96.8% capacity\u2014near maximum utilization. These conditions allow refiners to earn wider margins by processing oil into fuel products that are in tight supply.\n\nThe broader backdrop has also turned supportive for the sector. While Middle East tensions have kept global crude prices elevated at $130.80 per barrel, the immediate supply fears have eased after Saudi Arabia signaled it would release additional crude following a pipeline attack, avoiding the worst-case disruption scenario. This combination of tight product supplies, high refinery utilization, and stable crude availability creates favorable economics for companies like Marathon that convert crude into gasoline and diesel.",
+  "fetchedAt": "2026-09-19T01:05:52.669779+00:00",
+  "text": "Marathon Petroleum rose 0.69% today to close at $424.89, extending a strong two-week rally of nearly 10%. The stock has climbed steadily since mid-September as oil prices have remained elevated\u2014U.S. crude is trading at $107 per barrel while global oil sits at $130.80\u2014and refineries are running at 96.8% capacity. With diesel and heating oil inventories at historically tight levels (107.9 million barrels) and record diesel prices pushing through the U.S. transportation system, refinery operators like Marathon benefit from both higher crude values and strong margins on fuel products they process and sell.\n\nThe Middle East tensions that earlier in the week had threatened supply disruptions have been largely priced in after Saudi Arabia signaled it would increase exports to offset pipeline damage, calming immediate supply-shock fears. This has allowed the oil market to stabilize at elevated levels rather than spike further\u2014a scenario that actually favors refiners, who profit most when crude and product prices find a sustainable middle ground rather than when volatility spikes in either direction.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 137,
-    "inputTokens": 126218,
-    "outputTokens": 29471,
-    "estimatedCostUsd": 0.273573,
-    "lastCallHour": "2026-09-18T23"
+    "callsThisMonth": 138,
+    "inputTokens": 127127,
+    "outputTokens": 29707,
+    "estimatedCostUsd": 0.275662,
+    "lastCallHour": "2026-09-19T01"
   }
 }
