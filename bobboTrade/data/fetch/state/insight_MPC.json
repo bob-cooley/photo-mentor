@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-19T01:05:52.669779+00:00",
-  "text": "Marathon Petroleum rose 0.69% today to close at $424.89, extending a strong two-week rally of nearly 10%. The stock has climbed steadily since mid-September as oil prices have remained elevated\u2014U.S. crude is trading at $107 per barrel while global oil sits at $130.80\u2014and refineries are running at 96.8% capacity. With diesel and heating oil inventories at historically tight levels (107.9 million barrels) and record diesel prices pushing through the U.S. transportation system, refinery operators like Marathon benefit from both higher crude values and strong margins on fuel products they process and sell.\n\nThe Middle East tensions that earlier in the week had threatened supply disruptions have been largely priced in after Saudi Arabia signaled it would increase exports to offset pipeline damage, calming immediate supply-shock fears. This has allowed the oil market to stabilize at elevated levels rather than spike further\u2014a scenario that actually favors refiners, who profit most when crude and product prices find a sustainable middle ground rather than when volatility spikes in either direction.",
+  "fetchedAt": "2026-09-19T06:59:13.786917+00:00",
+  "text": "Marathon Petroleum rose 0.69% today to close at $424.89, continuing a sharp nine-day rally that's added nearly 10% to the stock price. The climb reflects a combination of tight refining conditions and elevated crude prices: US oil is trading at $107 a barrel while refineries are running at 96.8% capacity, and diesel inventories have fallen to just 107.9 million barrels. These conditions support higher margins for refiners, which buy crude and sell refined products like gasoline and diesel at the pump and to commercial buyers.\n\nThe broader Middle East conflict\u2014including Saudi pipeline disruptions and the Houthi-Saudi exchange of attacks this week\u2014has kept oil prices elevated despite Saudi Arabia's efforts to reassure markets by offering additional crude exports. Diesel prices reaching record highs are particularly meaningful for Marathon because diesel commands premium prices relative to gasoline in high-cost environments, bolstering refiner profitability even as the company's stock has already run up significantly in recent days.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 138,
-    "inputTokens": 127127,
-    "outputTokens": 29707,
-    "estimatedCostUsd": 0.275662,
-    "lastCallHour": "2026-09-19T01"
+    "callsThisMonth": 139,
+    "inputTokens": 128036,
+    "outputTokens": 29927,
+    "estimatedCostUsd": 0.277671,
+    "lastCallHour": "2026-09-19T06"
   }
 }

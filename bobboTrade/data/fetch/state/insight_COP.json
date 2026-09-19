@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-19T01:05:27.452885+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, capping a steep two-week decline of nearly 3%. The main driver appears to be a sharp drop on September 16th (down $8.70 in one day) that followed Saudi Arabia's announcement it would release more crude oil via the Strait of Hormuz after a pipeline attack\u2014a move that eased supply-disruption fears and pulled oil prices lower. Today's modest additional decline fits into that broader energy-market pullback, as the market priced in that Middle East risks look less immediately threatening than feared earlier in the week.\n\nThe backdrop remains genuinely uncertain: the U.S. and Iran have been in active military conflict, and the Houthis continue attacking Saudi infrastructure, yet prices have stabilized because Saudi Arabia signaled it can offset losses with alternative exports. If the geopolitical situation stays contained or Trump's signals of a potential Iran deal materialize, energy prices could remain under pressure\u2014a headwind for crude producers even if their operations are unaffected.",
+  "fetchedAt": "2026-09-19T06:58:59.152110+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, extending a broader two-week decline of nearly 3%. The immediate pressure came from oil prices settling flat for the week despite Middle East tensions\u2014specifically, markets grew less concerned about supply disruption after Saudi Arabia signaled it could boost crude exports via the Strait of Hormuz to compensate for a pipeline attack. When traders see geopolitical risk as manageable and additional supply as available, oil prices stabilize or drift lower, which weighs on exploration and production companies like ConocoPhillips.\n\nThe weakness also reflects a shift in how markets are pricing the conflict: signals that the U.S. war with Iran may be winding down and that deal-making is possible have reduced the urgency premium in crude prices. This comes as record diesel prices are already straining the broader economy, potentially signaling softer energy demand ahead if transportation and logistics costs squeeze consumer spending.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 138,
-    "inputTokens": 119434,
-    "outputTokens": 28941,
-    "estimatedCostUsd": 0.264139,
-    "lastCallHour": "2026-09-19T01"
+    "callsThisMonth": 139,
+    "inputTokens": 120303,
+    "outputTokens": 29146,
+    "estimatedCostUsd": 0.266033,
+    "lastCallHour": "2026-09-19T06"
   }
 }
