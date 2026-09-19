@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-19T06:59:13.786917+00:00",
-  "text": "Marathon Petroleum rose 0.69% today to close at $424.89, continuing a sharp nine-day rally that's added nearly 10% to the stock price. The climb reflects a combination of tight refining conditions and elevated crude prices: US oil is trading at $107 a barrel while refineries are running at 96.8% capacity, and diesel inventories have fallen to just 107.9 million barrels. These conditions support higher margins for refiners, which buy crude and sell refined products like gasoline and diesel at the pump and to commercial buyers.\n\nThe broader Middle East conflict\u2014including Saudi pipeline disruptions and the Houthi-Saudi exchange of attacks this week\u2014has kept oil prices elevated despite Saudi Arabia's efforts to reassure markets by offering additional crude exports. Diesel prices reaching record highs are particularly meaningful for Marathon because diesel commands premium prices relative to gasoline in high-cost environments, bolstering refiner profitability even as the company's stock has already run up significantly in recent days.",
+  "fetchedAt": "2026-09-19T11:52:44.726302+00:00",
+  "text": "Marathon Petroleum has climbed nearly 10% over two weeks, with today's modest gain continuing a sharp uptrend that accelerated through this week. The stock's rise reflects tightening refining margins driven by high oil prices \u2014 US crude at $107 and global crude at $130.80 per barrel \u2014 combined with refineries running at 96.8% capacity utilization, which leaves little room for supply disruptions and keeps refining demand strong. Despite Middle East tensions and a Saudi pipeline outage, oil markets stabilized this week after initial fears proved overblown, but the elevated price environment and tight refinery operations remain supportive for a major refiner's profitability.\n\nDiesel prices hitting record levels adds another tailwind: refiners make fuel from crude, and diesel scarcity is pushing margins wider even as transportation costs ripple through the broader economy. With gasoline and diesel stockpiles relatively lean (207.7 million and 107.9 million barrels respectively), supply constraints should keep refiners operating at high utilization and high margins for the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 139,
-    "inputTokens": 128036,
-    "outputTokens": 29927,
-    "estimatedCostUsd": 0.277671,
-    "lastCallHour": "2026-09-19T06"
+    "callsThisMonth": 140,
+    "inputTokens": 128945,
+    "outputTokens": 30160,
+    "estimatedCostUsd": 0.279745,
+    "lastCallHour": "2026-09-19T11"
   }
 }

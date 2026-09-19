@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-19T06:58:59.152110+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, extending a broader two-week decline of nearly 3%. The immediate pressure came from oil prices settling flat for the week despite Middle East tensions\u2014specifically, markets grew less concerned about supply disruption after Saudi Arabia signaled it could boost crude exports via the Strait of Hormuz to compensate for a pipeline attack. When traders see geopolitical risk as manageable and additional supply as available, oil prices stabilize or drift lower, which weighs on exploration and production companies like ConocoPhillips.\n\nThe weakness also reflects a shift in how markets are pricing the conflict: signals that the U.S. war with Iran may be winding down and that deal-making is possible have reduced the urgency premium in crude prices. This comes as record diesel prices are already straining the broader economy, potentially signaling softer energy demand ahead if transportation and logistics costs squeeze consumer spending.",
+  "fetchedAt": "2026-09-19T11:52:22.583145+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, extending a broader two-week decline. The immediate driver appears to be oil prices stabilizing rather than surging: after Saudi Arabia announced it would release additional crude supplies following a pipeline attack, crude concerns eased on September 17th, and oil finished flat on September 18th despite ongoing Middle East tensions. When supply disruption fears fade, energy stocks typically pull back even if geopolitical risk remains present.\n\nThe stock's weakness over the past week also reflects a broader pattern\u2014the market is increasingly pricing in that Middle East conflict may not cause sustained oil shortages. Comments from Trump about nearing the end of the Iran war, combined with Saudi Arabia's willingness to offset pipeline losses with extra exports, have shifted trader expectations away from a tight supply picture. For an oil major like ConocoPhillips, that means lower odds of a significant rally from supply-driven price spikes.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 139,
-    "inputTokens": 120303,
-    "outputTokens": 29146,
-    "estimatedCostUsd": 0.266033,
-    "lastCallHour": "2026-09-19T06"
+    "callsThisMonth": 140,
+    "inputTokens": 121172,
+    "outputTokens": 29352,
+    "estimatedCostUsd": 0.267932,
+    "lastCallHour": "2026-09-19T11"
   }
 }
