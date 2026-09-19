@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-19T18:23:16.999514+00:00",
-  "text": "Marathon Petroleum is up 0.7% today as crude oil prices remain elevated and U.S. refineries are running at near-capacity (96.8%). The stock has climbed 9.6% over two weeks as oil has stayed above $107 per barrel\u2014higher prices generally benefit refiners, who profit from the difference between what they pay for crude and what they sell refined products for. Today's move fits a steady uptrend since mid-September as geopolitical tensions in the Middle East (Saudi pipeline concerns, Pakistan-Iran energy disputes, and broader conflict escalation) have kept global oil prices firm at $130.80 per barrel.\n\nThe refining sector is also seeing tailwinds from tight inventory levels: gasoline and diesel stockpiles are relatively lean, which typically supports margins for refiners. Record diesel prices mentioned in recent reports signal strong demand and pricing power across fuel products, which feeds directly into refiner profitability.",
+  "fetchedAt": "2026-09-19T21:16:03.818172+00:00",
+  "text": "Marathon Petroleum stock rose 0.69% today, continuing a strong nine-day rally that has gained 9.6% since mid-September. The rally tracks closely with U.S. oil prices climbing from the mid-$90s to $107 per barrel, and refineries running at 96.8% capacity\u2014near maximum utilization. Higher crude oil prices and tight refinery capacity both improve margins for refiners, who profit from the spread between what they pay for crude and what they collect for selling gasoline and diesel.\n\nGeopolitical tension in the Middle East\u2014including reported incidents near Saudi Arabia's main airport and ongoing Houthi attacks\u2014has kept oil prices elevated and markets wary of supply disruptions. At the same time, record diesel prices are straining the transportation sector, which raises long-term questions about demand, but for now the combination of high oil prices and constrained refinery capacity supports refiner profitability in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 142,
-    "inputTokens": 130783,
-    "outputTokens": 30609,
-    "estimatedCostUsd": 0.283828,
-    "lastCallHour": "2026-09-19T18"
+    "callsThisMonth": 143,
+    "inputTokens": 131702,
+    "outputTokens": 30817,
+    "estimatedCostUsd": 0.285787,
+    "lastCallHour": "2026-09-19T21"
   }
 }
