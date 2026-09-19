@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-19T11:52:44.726302+00:00",
-  "text": "Marathon Petroleum has climbed nearly 10% over two weeks, with today's modest gain continuing a sharp uptrend that accelerated through this week. The stock's rise reflects tightening refining margins driven by high oil prices \u2014 US crude at $107 and global crude at $130.80 per barrel \u2014 combined with refineries running at 96.8% capacity utilization, which leaves little room for supply disruptions and keeps refining demand strong. Despite Middle East tensions and a Saudi pipeline outage, oil markets stabilized this week after initial fears proved overblown, but the elevated price environment and tight refinery operations remain supportive for a major refiner's profitability.\n\nDiesel prices hitting record levels adds another tailwind: refiners make fuel from crude, and diesel scarcity is pushing margins wider even as transportation costs ripple through the broader economy. With gasoline and diesel stockpiles relatively lean (207.7 million and 107.9 million barrels respectively), supply constraints should keep refiners operating at high utilization and high margins for the near term.",
+  "fetchedAt": "2026-09-19T15:17:23.619788+00:00",
+  "text": "Marathon Petroleum is up 0.7% today, continuing a sharp nine-day rally that's pushed the stock up 9.6% since September 11th. The timing and magnitude of this move track closely with oil prices and refinery conditions: US crude has climbed to $107 a barrel, global oil hit $130.80, and refineries are running at 96.8% capacity\u2014near maximum utilization. When refineries run hot like this and crude prices rise, refining margins (the profit spread between what a refiner buys crude for and what it sells gasoline and diesel for) tend to widen, which directly boosts earnings for a major refiner like Marathon.\n\nThe broader energy-market backdrop reinforces this. Geopolitical tension around the Middle East\u2014fires near Saudi Arabia's main airport and ongoing Houthi attacks\u2014has kept oil prices elevated despite initial fears that a Saudi pipeline outage would be more severe than it turned out to be. Record diesel prices in particular are creating strong demand and pricing power across the refining sector. All of this creates a favorable environment for refiner profitability right now.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 140,
-    "inputTokens": 128945,
-    "outputTokens": 30160,
-    "estimatedCostUsd": 0.279745,
-    "lastCallHour": "2026-09-19T11"
+    "callsThisMonth": 141,
+    "inputTokens": 129864,
+    "outputTokens": 30405,
+    "estimatedCostUsd": 0.281889,
+    "lastCallHour": "2026-09-19T15"
   }
 }

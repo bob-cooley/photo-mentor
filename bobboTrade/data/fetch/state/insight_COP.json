@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-19T11:52:22.583145+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, extending a broader two-week decline. The immediate driver appears to be oil prices stabilizing rather than surging: after Saudi Arabia announced it would release additional crude supplies following a pipeline attack, crude concerns eased on September 17th, and oil finished flat on September 18th despite ongoing Middle East tensions. When supply disruption fears fade, energy stocks typically pull back even if geopolitical risk remains present.\n\nThe stock's weakness over the past week also reflects a broader pattern\u2014the market is increasingly pricing in that Middle East conflict may not cause sustained oil shortages. Comments from Trump about nearing the end of the Iran war, combined with Saudi Arabia's willingness to offset pipeline losses with extra exports, have shifted trader expectations away from a tight supply picture. For an oil major like ConocoPhillips, that means lower odds of a significant rally from supply-driven price spikes.",
+  "fetchedAt": "2026-09-19T15:17:06.115074+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp three-day slide that began after the stock jumped to $141.22 on September 15th. The immediate driver appears to be easing concerns over Middle East supply disruptions: Saudi Arabia has signaled it can route more crude through the Strait of Hormuz to compensate for pipeline damage, which calmed market fears of a prolonged shortage. That relief, combined with oil markets finishing the prior week flat despite regional tensions, has taken some of the urgency out of energy stocks.\n\nThe broader picture is more mixed. While the near-term geopolitical risk has moderated slightly, the region remains volatile\u2014fires near Riyadh airport and ongoing Saudi-Houthi clashes mean disruption could flare up again quickly. Additionally, record diesel prices and persistent global oil pricing (Brent crude at $130.80 per barrel versus US crude at $107) suggest structural tightness in energy markets hasn't disappeared, only that this particular scare has eased for now.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 140,
-    "inputTokens": 121172,
-    "outputTokens": 29352,
-    "estimatedCostUsd": 0.267932,
-    "lastCallHour": "2026-09-19T11"
+    "callsThisMonth": 141,
+    "inputTokens": 122029,
+    "outputTokens": 29587,
+    "estimatedCostUsd": 0.269964,
+    "lastCallHour": "2026-09-19T15"
   }
 }
