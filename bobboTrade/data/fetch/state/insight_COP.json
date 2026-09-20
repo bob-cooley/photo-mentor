@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-20T09:02:14.529180+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, extending a sharp two-week decline of nearly 3%. The immediate driver is an easing in Middle East supply fears: after Saudi Arabia was hit with attacks on its pipeline infrastructure this week, the kingdom signaled it would boost crude exports through the Strait of Hormuz to compensate, which calmed market anxiety about a major supply disruption. Oil prices reflected this relief\u2014US crude sits at $107 per barrel, down from earlier highs\u2014and the stock has retreated accordingly over the past few days as geopolitical risk premiums came out of the market.\n\nThe broader context is that while Middle East tensions remain real (fresh Saudi-Houthi clashes and now reports of incidents near Riyadh airport), the market is now pricing in Saudi production staying online rather than being knocked offline. For an oil major like ConocoPhillips, lower oil prices and reduced volatility typically mean lower near-term earnings potential, even though stable supplies are generally better for long-term business than crisis scenarios.",
+  "fetchedAt": "2026-09-20T13:55:08.387302+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp decline from its peak of $141.22 just three days ago on September 15th. The stock has been hit hard by a reversal in oil market dynamics: while crude oil prices remain elevated globally at $130.80 per barrel, U.S. crude has dropped to $107.02\u2014a significant gap that suggests the market is pricing in less supply disruption from Middle East tensions than it feared earlier in the week. On September 18th, oil markets actually finished flat as traders concluded that a Saudi pipeline outage would be less disruptive than initially worried, which undercut the geopolitical premium that had lifted the stock.\n\nThe broader picture is one of receding crisis premium. Although Iran-linked tensions persist\u2014with Houthi attacks, airport incidents near Riyadh, and the Strait of Hormuz still a flashpoint\u2014the market has already digested these risks and is moving on. For a major oil producer like ConocoPhillips, this shift from \"supply shock\" to \"managed disruption\" removes the tailwind that had driven prices up earlier in the week, making the recent sell-off a correction rather than a response to fresh bad news.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 145,
-    "inputTokens": 125457,
-    "outputTokens": 30461,
-    "estimatedCostUsd": 0.277762,
-    "lastCallHour": "2026-09-20T09"
+    "callsThisMonth": 146,
+    "inputTokens": 126327,
+    "outputTokens": 30737,
+    "estimatedCostUsd": 0.280012,
+    "lastCallHour": "2026-09-20T13"
   }
 }
