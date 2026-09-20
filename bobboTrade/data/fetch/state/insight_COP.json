@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-20T17:16:31.289423+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp decline from last week's peak of $141.22. The drop reflects a broader sell-off in oil stocks tied to growing Middle East tensions\u2014Iran has closed the Strait of Hormuz, Houthi attacks have intensified, and there are fresh strikes near Saudi Arabia's main airport. While these events typically support oil prices, the market's actual reaction has been cautious: crude oil finished flat earlier this week as traders judged that a key Saudi pipeline outage would be less disruptive than feared, meaning the geopolitical risk premium didn't stick.\n\nThe stock's two-week slide of 2.87% also fits into a wider economic concern. Record diesel prices are rippling through the U.S. transportation sector, and sustained high energy costs could slow economic growth\u2014a headwind that weighs on energy stocks even when crude itself holds steady. With U.S. oil at $107 and global oil at $130.80 per barrel, the price gap suggests supply disruptions are priced in, but recession fears appear to be outweighing near-term supply concerns.",
+  "fetchedAt": "2026-09-20T20:16:16.623642+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp pullback from last week's $141 peak. The stock has been pressured by conflicting signals in oil markets: while global crude sits elevated at $130.80 per barrel due to Middle East tensions (Iranian strait closures, Houthi attacks, and airport incidents near Riyadh), U.S. crude is trading at only $107\u2014a gap that limits upside for domestic refiners and producers. The market's initial fear of supply disruptions from Saudi pipeline damage appears to have faded by week's end, removing some of the rally support from earlier in the week.\n\nThe broader pressure on energy stocks may also reflect growing economic headwinds: record diesel prices are already straining the transportation sector, and if high energy costs persist, consumer spending and economic growth could weaken\u2014ultimately reducing long-term demand for oil and refined products.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 148,
-    "inputTokens": 128067,
-    "outputTokens": 31204,
-    "estimatedCostUsd": 0.284087,
-    "lastCallHour": "2026-09-20T17"
+    "callsThisMonth": 149,
+    "inputTokens": 128937,
+    "outputTokens": 31408,
+    "estimatedCostUsd": 0.285977,
+    "lastCallHour": "2026-09-20T20"
   }
 }

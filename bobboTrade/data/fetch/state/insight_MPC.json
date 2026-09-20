@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-20T17:16:58.942041+00:00",
-  "text": "Marathon Petroleum's stock has climbed 0.69% today and 9.6% over the past two weeks, driven primarily by a sharp rally since mid-September tied to Middle East supply disruptions. Iran has closed the Strait of Hormuz, Saudi Arabia's energy infrastructure has come under attack, and geopolitical tensions have escalated \u2014 all of which raise concerns about global oil supply. This backdrop, combined with U.S. crude trading at $107 per barrel and refineries running at 96.8% capacity, supports higher margins for refiners like Marathon, which profit when crude costs rise but they can still move product.\n\nThe two-week move also reflects broad market relief that initial fears about Saudi pipeline damage proved less severe than expected, suggesting the market is pricing in elevated but manageable supply risks rather than a catastrophic disruption. With gasoline and diesel inventories relatively lean and refineries already running at near-full tilt, any sustained supply squeeze would further tighten margins in refiners' favor.",
+  "fetchedAt": "2026-09-20T20:16:55.260278+00:00",
+  "text": "Marathon Petroleum has climbed 9.6% over two weeks, with today's modest 0.7% gain capping a sharp four-day rally that started around September 14th. The timing lines up with escalating Middle East tensions\u2014Houthi attacks, reports of strikes near Saudi airports, and Iran closing the Strait of Hormuz\u2014which typically tighten global oil supplies and support refiner margins. US crude has held around $107 per barrel while global crude sits at $130, and refineries are running near capacity at 96.8%, a posture that benefits processors when crude costs rise and demand stays steady.\n\nThis rally reflects the refining sector's sweet spot when geopolitical risk pushes oil prices higher but doesn't collapse demand; the gap between the world price and US price suggests supply tightness abroad, which can improve the value of US refinery output. With storage levels moderate (708 million barrels of oil, 208 million of gasoline), the market is pricing in continued strength from both elevated crude costs and the structural advantage of operating at full capacity during supply-constrained periods.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 148,
-    "inputTokens": 136306,
-    "outputTokens": 31941,
-    "estimatedCostUsd": 0.296011,
-    "lastCallHour": "2026-09-20T17"
+    "callsThisMonth": 149,
+    "inputTokens": 137228,
+    "outputTokens": 32183,
+    "estimatedCostUsd": 0.298143,
+    "lastCallHour": "2026-09-20T20"
   }
 }
