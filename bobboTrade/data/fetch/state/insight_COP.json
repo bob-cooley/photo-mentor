@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-20T20:16:16.623642+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp pullback from last week's $141 peak. The stock has been pressured by conflicting signals in oil markets: while global crude sits elevated at $130.80 per barrel due to Middle East tensions (Iranian strait closures, Houthi attacks, and airport incidents near Riyadh), U.S. crude is trading at only $107\u2014a gap that limits upside for domestic refiners and producers. The market's initial fear of supply disruptions from Saudi pipeline damage appears to have faded by week's end, removing some of the rally support from earlier in the week.\n\nThe broader pressure on energy stocks may also reflect growing economic headwinds: record diesel prices are already straining the transportation sector, and if high energy costs persist, consumer spending and economic growth could weaken\u2014ultimately reducing long-term demand for oil and refined products.",
+  "fetchedAt": "2026-09-20T22:56:29.010233+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp two-week decline that accelerated sharply on September 16th when the stock dropped over $8 in a single day. While crude oil prices remain elevated globally (Brent at $130.80/barrel), the broader energy sector appears to be pricing in recession risk from sustained high fuel costs\u2014record diesel prices are already hammering transportation, a sign that prolonged energy inflation could slow economic growth and reduce overall fuel demand.\n\nThe Middle East escalation (Iran closing the Strait of Hormuz, Houthi attacks, incidents near Saudi airports) created supply-shock headlines that initially pushed oil higher, but markets seem to have concluded the disruption is manageable or that any short-term supply tightness will be offset by weaker economic demand if energy costs remain this high. The stock's decline from $141 down to $131 over three trading days suggests investors are weighing the demand destruction from high prices more heavily than the supply-disruption upside.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 149,
-    "inputTokens": 128937,
-    "outputTokens": 31408,
-    "estimatedCostUsd": 0.285977,
-    "lastCallHour": "2026-09-20T20"
+    "callsThisMonth": 150,
+    "inputTokens": 129807,
+    "outputTokens": 31637,
+    "estimatedCostUsd": 0.287992,
+    "lastCallHour": "2026-09-20T22"
   }
 }

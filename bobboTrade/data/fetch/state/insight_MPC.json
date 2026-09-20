@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-20T20:16:55.260278+00:00",
-  "text": "Marathon Petroleum has climbed 9.6% over two weeks, with today's modest 0.7% gain capping a sharp four-day rally that started around September 14th. The timing lines up with escalating Middle East tensions\u2014Houthi attacks, reports of strikes near Saudi airports, and Iran closing the Strait of Hormuz\u2014which typically tighten global oil supplies and support refiner margins. US crude has held around $107 per barrel while global crude sits at $130, and refineries are running near capacity at 96.8%, a posture that benefits processors when crude costs rise and demand stays steady.\n\nThis rally reflects the refining sector's sweet spot when geopolitical risk pushes oil prices higher but doesn't collapse demand; the gap between the world price and US price suggests supply tightness abroad, which can improve the value of US refinery output. With storage levels moderate (708 million barrels of oil, 208 million of gasoline), the market is pricing in continued strength from both elevated crude costs and the structural advantage of operating at full capacity during supply-constrained periods.",
+  "fetchedAt": "2026-09-20T22:56:48.382640+00:00",
+  "text": "Marathon Petroleum stock gained 0.7% today to close at $424.89, continuing a sharp nine-day rally that has added nearly 10% to its price. The core driver is the escalating Middle East conflict: Iran has closed the Strait of Hormuz, Houthi attacks on Saudi infrastructure are intensifying, and the State Department warned Americans against travel to the region. These geopolitical risks are tightening global oil supplies, pushing world crude to $130.80 per barrel\u2014well above the U.S. price of $107\u2014and refineries are running at 96.8% capacity, a very high utilization rate that amplifies refinery profits when oil supplies feel constrained.\n\nThe timing matters: U.S. refiners like Marathon benefit directly when Middle East turmoil disrupts supply flows, because they can process available crude at wider profit margins. The market's concern that Saudi pipeline damage \"is less disruptive than feared\" (from September 18) briefly capped the rally, but ongoing Strait closure and fresh attacks around Riyadh's airport have kept energy prices elevated, supporting the refiner's stock push higher through the week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 149,
-    "inputTokens": 137228,
-    "outputTokens": 32183,
-    "estimatedCostUsd": 0.298143,
-    "lastCallHour": "2026-09-20T20"
+    "callsThisMonth": 150,
+    "inputTokens": 138150,
+    "outputTokens": 32437,
+    "estimatedCostUsd": 0.300335,
+    "lastCallHour": "2026-09-20T22"
   }
 }
