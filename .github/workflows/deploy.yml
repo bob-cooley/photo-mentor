@@ -100,6 +100,9 @@ jobs:
             **/.git*/**
             **/.gitkeep
             **/*.md
+            **/tools/**
+            **/tests/**
+            **/config.local.php
 
   deploy-light-detective:
     if: github.event_name != 'schedule'
