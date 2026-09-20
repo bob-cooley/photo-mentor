@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-20T13:55:08.387302+00:00",
-  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp decline from its peak of $141.22 just three days ago on September 15th. The stock has been hit hard by a reversal in oil market dynamics: while crude oil prices remain elevated globally at $130.80 per barrel, U.S. crude has dropped to $107.02\u2014a significant gap that suggests the market is pricing in less supply disruption from Middle East tensions than it feared earlier in the week. On September 18th, oil markets actually finished flat as traders concluded that a Saudi pipeline outage would be less disruptive than initially worried, which undercut the geopolitical premium that had lifted the stock.\n\nThe broader picture is one of receding crisis premium. Although Iran-linked tensions persist\u2014with Houthi attacks, airport incidents near Riyadh, and the Strait of Hormuz still a flashpoint\u2014the market has already digested these risks and is moving on. For a major oil producer like ConocoPhillips, this shift from \"supply shock\" to \"managed disruption\" removes the tailwind that had driven prices up earlier in the week, making the recent sell-off a correction rather than a response to fresh bad news.",
+  "fetchedAt": "2026-09-20T16:25:17.925488+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, extending a two-week decline of nearly 3%. The immediate backdrop is a sharp pullback from last Tuesday's spike to $141\u2014a reversal driven by easing Middle East concerns. While Iran has closed the Strait of Hormuz and Houthi attacks continue, markets interpreted a Saudi pipeline outage as less disruptive than initially feared, taking pressure off oil prices. US crude has settled at $107 a barrel, down from the spike that lifted energy stocks earlier in the week.\n\nThe company remains caught between conflicting signals. Geopolitical tensions in the Middle East are genuinely serious\u2014attacks near Riyadh's airport and warnings for Americans to reconsider travel suggest real risk to regional energy infrastructure. However, the record diesel prices and economic headwinds flagged in recent reporting could ultimately weigh on oil demand, especially if high energy costs crimp broader economic activity and reduce transportation fuel consumption.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 146,
-    "inputTokens": 126327,
-    "outputTokens": 30737,
-    "estimatedCostUsd": 0.280012,
-    "lastCallHour": "2026-09-20T13"
+    "callsThisMonth": 147,
+    "inputTokens": 127197,
+    "outputTokens": 30950,
+    "estimatedCostUsd": 0.281947,
+    "lastCallHour": "2026-09-20T16"
   }
 }

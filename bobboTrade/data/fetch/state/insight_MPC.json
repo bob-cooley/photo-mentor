@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-20T13:55:22.617295+00:00",
-  "text": "Marathon Petroleum's stock has risen 9.6% over two weeks and gained 0.7% today as oil refineries operate near full capacity (96.8%) amid elevated global oil prices. The world crude price sits at $130.80 per barrel\u2014nearly $24 above U.S. oil at $107\u2014creating a wider price spread that generally benefits refiners, who buy crude and sell refined products like gasoline and diesel. Escalating tensions in the Middle East, including Houthi attacks, Iranian actions around the Strait of Hormuz, and incidents near Saudi Arabia's infrastructure, have sustained concerns about supply disruptions and kept crude prices elevated.\n\nThe sustained run-up since mid-September reflects the combination of tight refining capacity and geopolitical risk premiums on oil. With gasoline and diesel inventories relatively low (207.7 million and 107.9 million barrels respectively) and refiners running flat-out, the market appears to be pricing in continued strong demand for refined fuel and limited ability to expand output quickly if supplies tighten further.",
+  "fetchedAt": "2026-09-20T16:25:42.836625+00:00",
+  "text": "Marathon Petroleum has climbed 9.6% over two weeks, with today's modest gain of 0.7% continuing a steady upward trend since mid-September. The driver is escalating Middle East instability\u2014Iran has closed the Strait of Hormuz, Houthi attacks on Saudi infrastructure have intensified, and fresh attacks near Riyadh's airport were reported this week. These supply disruptions push global oil prices sharply higher (Brent crude at $130.80/barrel versus WTI at $107), which benefits refiners like Marathon by widening the margin between what they pay for crude and what they earn selling refined products like gasoline and diesel.\n\nThe backdrop amplifies this effect: U.S. refineries are running at 96.8% capacity, meaning they're near peak output and well-positioned to capitalize on higher product prices. With geopolitical tensions looking entrenched rather than fleeting, the market is pricing in sustained strength for refining margins, which is why the stock has momentum rather than a one-day pop.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 146,
-    "inputTokens": 134462,
-    "outputTokens": 31491,
-    "estimatedCostUsd": 0.291917,
-    "lastCallHour": "2026-09-20T13"
+    "callsThisMonth": 147,
+    "inputTokens": 135384,
+    "outputTokens": 31722,
+    "estimatedCostUsd": 0.293994,
+    "lastCallHour": "2026-09-20T16"
   }
 }
