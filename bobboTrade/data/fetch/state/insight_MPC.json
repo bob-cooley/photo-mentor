@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-19T21:16:03.818172+00:00",
-  "text": "Marathon Petroleum stock rose 0.69% today, continuing a strong nine-day rally that has gained 9.6% since mid-September. The rally tracks closely with U.S. oil prices climbing from the mid-$90s to $107 per barrel, and refineries running at 96.8% capacity\u2014near maximum utilization. Higher crude oil prices and tight refinery capacity both improve margins for refiners, who profit from the spread between what they pay for crude and what they collect for selling gasoline and diesel.\n\nGeopolitical tension in the Middle East\u2014including reported incidents near Saudi Arabia's main airport and ongoing Houthi attacks\u2014has kept oil prices elevated and markets wary of supply disruptions. At the same time, record diesel prices are straining the transportation sector, which raises long-term questions about demand, but for now the combination of high oil prices and constrained refinery capacity supports refiner profitability in the near term.",
+  "fetchedAt": "2026-09-20T03:11:51.548292+00:00",
+  "text": "Marathon Petroleum stock has climbed 0.69% today and 9.59% over the past two weeks, riding a sharp rally that accelerated from September 14th onward. The immediate driver is the tight energy market: US crude oil is trading at $107 per barrel, global crude has spiked to $130, and US refineries are running flat-out at 96.8% capacity. With diesel and heating oil inventories sitting at just 107.9 million barrels\u2014well below comfortable levels\u2014refiners like Marathon are processing crude at maximum rates and earning strong margins on every barrel they turn into fuel.\n\nGeopolitical tensions in the Middle East are keeping crude elevated and supply concerns alive. Recent reports of attacks near Saudi Arabia's main airport and exchanges with the Houthis have spooked the market, even though the initial Saudi pipeline damage proved less disruptive than feared. Combined with record diesel prices already squeezing the transportation sector and the broader economy, this environment rewards refiners with strong operational leverage: they buy crude at high prices but sell finished products into an even tighter market.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 143,
-    "inputTokens": 131702,
-    "outputTokens": 30817,
-    "estimatedCostUsd": 0.285787,
-    "lastCallHour": "2026-09-19T21"
+    "callsThisMonth": 144,
+    "inputTokens": 132621,
+    "outputTokens": 31056,
+    "estimatedCostUsd": 0.287901,
+    "lastCallHour": "2026-09-20T03"
   }
 }

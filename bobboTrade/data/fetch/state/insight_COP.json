@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-19T21:15:49.268050+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp slide that began on September 16th when the stock dropped nearly $9 in a single day. The immediate trigger appears to be easing concerns about Middle East supply disruptions: on September 17th, Saudi Arabia reportedly offered additional crude exports through the Strait of Hormuz after a pipeline attack, which calmed oil market fears and pulled prices lower. That relief has persisted even as fresh tensions flared near Riyadh's airport yesterday, suggesting the market is pricing in the damage as manageable rather than catastrophic.\n\nThe broader context is that oil refiners like ConocoPhillips benefit when crude prices spike due to supply fears, but lose that advantage when those fears ease. Over the past week, the market cycled from worry about Saudi pipeline disruptions to confidence that alternate export routes and additional supply would fill any gap\u2014a narrative shift that directly pressures a major refiner's margins.",
+  "fetchedAt": "2026-09-20T03:11:36.505009+00:00",
+  "text": "ConocoPhillips fell 1% today to close at $131.83, continuing a sharp two-week decline that's now totaled nearly 3%. The immediate driver is a retreat in oil prices: crude dropped significantly on September 17th after Saudi Arabia announced it would release additional supplies through the Strait of Hormuz to offset a pipeline attack, easing supply-disruption fears. Even though geopolitical tensions remain high\u2014with fresh attacks between Saudi Arabia and Houthis reported this week and smoke and flames near Riyadh's airport on September 19th\u2014the market is pricing in less actual supply loss than it initially feared.\n\nThe broader context here is a widening gap between physical oil supply risk and actual price impact. While Middle East conflict continues to generate headlines, traders are focusing on the concrete reality that key producers can reroute exports and offset disruptions, which takes the edge off panic-driven rallies in oil prices that would normally lift energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 143,
-    "inputTokens": 123743,
-    "outputTokens": 30016,
-    "estimatedCostUsd": 0.273823,
-    "lastCallHour": "2026-09-19T21"
+    "callsThisMonth": 144,
+    "inputTokens": 124600,
+    "outputTokens": 30226,
+    "estimatedCostUsd": 0.27573,
+    "lastCallHour": "2026-09-20T03"
   }
 }
