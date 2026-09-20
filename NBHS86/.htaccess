@@ -15,3 +15,6 @@ RewriteEngine Off
 <Files ".ftp-deploy-sync-state.json">
   Require all denied
 </Files>
+
+# Local-only helper dirs that older deploys left on the server (CI now excludes them)
+RedirectMatch 404 ^/NBHS86/(tools|tests)(/|$)

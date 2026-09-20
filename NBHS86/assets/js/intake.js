@@ -1,4 +1,4 @@
-import { Uppy, Dashboard, Tus } from '../vendor/uppy/uppy.min.mjs';
+import { Uppy, Dashboard, Tus } from '../vendor/uppy/uppy.min.js';
 
 const BASE = window.NBHS.base;
 const MAX_BYTES = 2 * 1024 * 1024 * 1024;

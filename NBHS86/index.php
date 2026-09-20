@@ -87,7 +87,7 @@ if (!nb_configured()) {
   <footer class="foot">Something not working? Try reloading the page and uploading again &mdash; partial uploads pick up where they left off.</footer>
 </div>
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=2"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=3"></script>
 <?php endif; ?>
 </body>
 </html>
