@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-20T16:25:42.836625+00:00",
-  "text": "Marathon Petroleum has climbed 9.6% over two weeks, with today's modest gain of 0.7% continuing a steady upward trend since mid-September. The driver is escalating Middle East instability\u2014Iran has closed the Strait of Hormuz, Houthi attacks on Saudi infrastructure have intensified, and fresh attacks near Riyadh's airport were reported this week. These supply disruptions push global oil prices sharply higher (Brent crude at $130.80/barrel versus WTI at $107), which benefits refiners like Marathon by widening the margin between what they pay for crude and what they earn selling refined products like gasoline and diesel.\n\nThe backdrop amplifies this effect: U.S. refineries are running at 96.8% capacity, meaning they're near peak output and well-positioned to capitalize on higher product prices. With geopolitical tensions looking entrenched rather than fleeting, the market is pricing in sustained strength for refining margins, which is why the stock has momentum rather than a one-day pop.",
+  "fetchedAt": "2026-09-20T17:16:58.942041+00:00",
+  "text": "Marathon Petroleum's stock has climbed 0.69% today and 9.6% over the past two weeks, driven primarily by a sharp rally since mid-September tied to Middle East supply disruptions. Iran has closed the Strait of Hormuz, Saudi Arabia's energy infrastructure has come under attack, and geopolitical tensions have escalated \u2014 all of which raise concerns about global oil supply. This backdrop, combined with U.S. crude trading at $107 per barrel and refineries running at 96.8% capacity, supports higher margins for refiners like Marathon, which profit when crude costs rise but they can still move product.\n\nThe two-week move also reflects broad market relief that initial fears about Saudi pipeline damage proved less severe than expected, suggesting the market is pricing in elevated but manageable supply risks rather than a catastrophic disruption. With gasoline and diesel inventories relatively lean and refineries already running at near-full tilt, any sustained supply squeeze would further tighten margins in refiners' favor.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 147,
-    "inputTokens": 135384,
-    "outputTokens": 31722,
-    "estimatedCostUsd": 0.293994,
-    "lastCallHour": "2026-09-20T16"
+    "callsThisMonth": 148,
+    "inputTokens": 136306,
+    "outputTokens": 31941,
+    "estimatedCostUsd": 0.296011,
+    "lastCallHour": "2026-09-20T17"
   }
 }
