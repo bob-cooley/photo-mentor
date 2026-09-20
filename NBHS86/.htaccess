@@ -1,0 +1,3 @@
+# Serve files directly, bypassing IO200 CMS rewrite rules (same as repo root)
+Options -Indexes
+RewriteEngine Off

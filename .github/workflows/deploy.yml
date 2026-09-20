@@ -40,6 +40,7 @@ jobs:
             injections/**
             bobboTrade/**
             light-detective/**
+            NBHS86/**
 
   deploy-injections:
     if: github.event_name != 'schedule'
@@ -78,6 +79,27 @@ jobs:
           exclude: |
             **/.git*
             **/.git*/**
+
+  deploy-nbhs86:
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy NBHS86 to bobcooleyphoto.com/NBHS86/
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/bobcooleyphoto/NBHS86/
+          local-dir: ./NBHS86/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.gitkeep
+            **/*.md
 
   deploy-light-detective:
     if: github.event_name != 'schedule'
