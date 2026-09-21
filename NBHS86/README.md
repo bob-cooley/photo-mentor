@@ -49,6 +49,9 @@ NBHS86/
 - Media, thumbnails, SQLite and partial uploads live in `/usr/home/bobcooley/nbhs86-data/` (outside web root, created on first use). Override with `data_dir` in the config for local testing.
 - Passcode is case-insensitive and ignores spaces.
 
+## Deploy gotcha: never delete a folder
+FTP-Deploy-Action cannot remove folders on this host: the folder-removal step fails with `550 ... No such file or directory`, which aborts the whole deploy before it saves its state, so every later deploy fails the same way. Deleting single files works. To retire a folder, delete its files and leave a stub `index.php` in it (see `_test/`, `upload/`).
+
 ## Behavior notes
 - Search engines: `X-Robots-Tag: noindex, nofollow, noarchive, nosnippet` from `.htaccess` and PHP, plus a robots meta tag. There is deliberately no `robots.txt` Disallow (it would advertise the path and stop crawlers seeing noindex).
 - Accepted types are an extension whitelist (images incl. HEIC, common video, PDF, zip) plus a content sniff. Zip contents get the same checks; entry names are never used as paths.
