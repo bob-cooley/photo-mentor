@@ -80,7 +80,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
     <label for="uploader">Your name</label>
     <input id="uploader" type="text" autocomplete="name" maxlength="60" placeholder="First and last name">
     <label class="check"><input id="anon" type="checkbox"> <span>Submit anonymously (your &quot;name&quot; will show up as <?= nb_h(NB_ANON_CREDIT) ?>).</span></label>
-    <div class="hint">Photos are credited by first name only.</div>
+    <div class="hint">Photos, Videos, etc. are credited by first name only.</div>
     <div class="err" id="nameErr" role="alert"></div>
   </section>
 
