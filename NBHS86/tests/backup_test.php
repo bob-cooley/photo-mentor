@@ -31,9 +31,11 @@ check('after 24 h a new daily backup is taken', $count('nbhs86-daily-*.sqlite'),
 touch("$dir/backups/.last-daily", time() - 2 * 86400);
 sleep(1);
 $before = $count('nbhs86-daily-*.sqlite');
-$procs = [];
-for ($i = 0; $i < 8; $i++) { $procs[] = proc_open(['php', '-r', "require $boot; nb_db();"], [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $p, null, ['NBHS86_DATA_DIR' => $dir]); }
-foreach ($procs as $pr) { proc_close($pr); }
+$php = trim((string) shell_exec('command -v php')) ?: 'php';
+$env = array_merge(getenv(), ['NBHS86_DATA_DIR' => $dir]); // keep PATH etc.: a bare environment cannot find php on some hosts
+$procs = []; $pipes = [];
+for ($i = 0; $i < 8; $i++) { $procs[$i] = proc_open([$php, '-r', "require $boot; nb_db();"], [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $pipes[$i], null, $env); }
+foreach ($procs as $i => $pr) { stream_get_contents($pipes[$i][1]); proc_close($pr); }
 check('8 simultaneous requests -> exactly one new backup', $count('nbhs86-daily-*.sqlite') - $before, 1);
 
 // retention: 14 daily / 10 pre / 10 manual, each label independent

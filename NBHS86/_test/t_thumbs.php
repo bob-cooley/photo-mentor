@@ -31,8 +31,10 @@ unlink($th($a['id']));
 $boot = var_export(realpath(__DIR__ . '/../lib/ingest.php'), true);
 $id = $a['id'];
 $code = "require $boot; \$r = nb_db()->query(\"select * from media where id='$id'\")->fetch(); \$p = nb_thumb(\$r); echo \$p && getimagesize(\$p) ? 'ok' : 'BAD';";
+$php = trim((string) shell_exec('command -v php')) ?: 'php';
+$env = array_merge(getenv(), ['NBHS86_DATA_DIR' => $tmp]); // keep PATH etc.: a bare environment cannot find php on some hosts
 $procs = [];
-for ($i = 0; $i < 8; $i++) { $procs[$i] = proc_open(['php', '-r', $code], [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $pp[$i], null, ['NBHS86_DATA_DIR' => $tmp]); }
+for ($i = 0; $i < 8; $i++) { $procs[$i] = proc_open([$php, '-r', $code], [1 => ['pipe', 'w'], 2 => ['pipe', 'w']], $pp[$i], null, $env); }
 $res = []; foreach ($procs as $i => $pr) { $res[] = trim(stream_get_contents($pp[$i][1])); proc_close($pr); }
 check('all 8 simultaneous requests got a valid thumbnail', array_unique($res), ['ok']);
 check('final thumbnail is complete', (bool) getimagesize($th($a['id'])), true);
