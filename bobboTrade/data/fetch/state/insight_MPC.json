@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T01:07:30.789756+00:00",
-  "text": "Marathon Petroleum stock has climbed nearly 10% over the past two weeks, with today's modest gain of 0.69% continuing that uptrend. The core driver is geopolitical tension in the Middle East\u2014Iran has closed the Strait of Hormuz, Houthi attacks on Saudi infrastructure have intensified, and flames were reported near Riyadh's airport on September 19th. These disruptions to global oil supplies have pushed world crude prices to $130.80 per barrel, a level high enough to improve refining margins and boost the value of Marathon's operations.\n\nUS refineries are running at 96.8% capacity with strong demand signals, and inventory levels remain moderate\u2014conditions that typically favor margin-friendly operations when crude prices spike due to supply concerns. The market appears to be pricing in sustained elevated oil costs from the Middle East tensions rather than expecting a quick resolution, which benefits refiners that can process crude into fuel and sell it at elevated prices.",
+  "fetchedAt": "2026-09-21T03:07:38.356872+00:00",
+  "text": "Marathon Petroleum stock rose 0.69% today to close at $424.89, continuing a sharp nine-day rally that's now up nearly 10%. The stock has climbed steadily since mid-September as oil prices have spiked\u2014US crude is now trading at $107 per barrel, up sharply from earlier in the month\u2014while US refineries are operating at 96.8% capacity. For a refiner like Marathon, higher crude prices typically lift margins when the company can process and sell refined products (gasoline and diesel) at profitable spreads, especially when refineries are running hot.\n\nThe rally reflects a confluence of supply fears from Middle East tensions: Houthi attacks on Saudi infrastructure, Iranian threats to the Strait of Hormuz, and Pakistani concerns over energy supplies have all weighed on oil markets over the past week. Though oil fell slightly on Monday as traders noted Saudi crude flows remain \"surprisingly strong,\" the geopolitical premium\u2014the extra cost baked into prices due to conflict risk\u2014remains embedded in these prices, supporting refiner economics as long as refineries can keep running full.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 152,
-    "inputTokens": 139994,
-    "outputTokens": 32885,
-    "estimatedCostUsd": 0.304419,
-    "lastCallHour": "2026-09-21T01"
+    "callsThisMonth": 153,
+    "inputTokens": 140903,
+    "outputTokens": 33124,
+    "estimatedCostUsd": 0.306523,
+    "lastCallHour": "2026-09-21T03"
   }
 }

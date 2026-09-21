@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T01:06:40.324016+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, extending a two-week slide of nearly 3%. The stock has tumbled sharply since September 15th amid escalating Middle East tensions\u2014Iran has closed the Strait of Hormuz, the Houthis are intensifying attacks on shipping, and there are reports of strikes near Saudi Arabia's main airport. Despite these geopolitical flashpoints that normally support oil prices, the market appears to be pricing in that disruptions will be contained; the fact that Saudi pipeline damage was seen as \"less disruptive than feared\" suggests traders don't yet expect a sustained supply shock that would lift energy stocks.\n\nThe disconnect between rising geopolitical risk and falling oil stocks hints at deeper economic concern. Record diesel prices are already hitting transportation hard, and if energy costs stay elevated, demand could weaken across the broader economy\u2014which would pressure both crude prices and refiner margins over time. In this environment, the stock may be caught between fear of supply disruption (bullish for prices) and fear of demand destruction (bearish for volumes and profitability).",
+  "fetchedAt": "2026-09-21T03:07:10.850456+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp downward swing from last Tuesday's high of $141.22. The immediate pressure came from oil prices dropping as traders reassessed Middle East supply disruptions\u2014crude fell Monday despite ongoing geopolitical tensions because actual oil flows from Saudi Arabia remained stronger than feared, suggesting the conflict may not crimp global supplies as severely as initially worried. The stock has now given back most of a week's gains in just three trading days.\n\nThe broader backdrop is that oil investors are caught between two opposing forces: geopolitical risk (Iran keeping the Strait of Hormuz closed, Houthi attacks, rising U.S.-Iran tensions) and the reality that supply disruptions so far have proven less severe than the headlines implied. As long as crude can flow and traders see the worst-case scenario as less likely, energy stocks like COP face downward pressure even amid Middle East instability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 152,
-    "inputTokens": 131547,
-    "outputTokens": 32136,
-    "estimatedCostUsd": 0.292227,
-    "lastCallHour": "2026-09-21T01"
+    "callsThisMonth": 153,
+    "inputTokens": 132410,
+    "outputTokens": 32342,
+    "estimatedCostUsd": 0.29412,
+    "lastCallHour": "2026-09-21T03"
   }
 }
