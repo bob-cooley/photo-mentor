@@ -39,7 +39,7 @@ function nb_data_dir(): string
 {
     static $d = null;
     if ($d === null) {
-        $d = rtrim((string) (nb_config()['data_dir'] ?? dirname(NB_ROOT, 3) . '/nbhs86-data'), '/');
+        $d = rtrim((string) (getenv('NBHS86_DATA_DIR') ?: (nb_config()['data_dir'] ?? dirname(NB_ROOT, 3) . '/nbhs86-data')), '/'); // env override is for tests
         foreach (['', '/tus', '/jobs', '/thumbs', '/media', '/media/' . NB_DEFAULT_FOLDER] as $sub) {
             if (!is_dir($d . $sub)) {
                 @mkdir($d . $sub, 0700, true);
@@ -94,8 +94,67 @@ function nb_db(): PDO
             created_at INTEGER NOT NULL
         )");
         $pdo->exec('CREATE TABLE IF NOT EXISTS login_fail (ip TEXT NOT NULL, ts INTEGER NOT NULL)');
+
+        // Permanent reunion numbering: NBHS_reunions_0001.jpg. One counter for all image types,
+        // a separate one for videos. Counters only ever move forward, so numbers are never reused.
+        $cols = array_column($pdo->query('PRAGMA table_info(media)')->fetchAll(), 'name');
+        if (!in_array('seq', $cols, true)) {
+            $pdo->exec('ALTER TABLE media ADD COLUMN seq INTEGER');
+        }
+        $pdo->exec('CREATE TABLE IF NOT EXISTS counters (kind TEXT PRIMARY KEY, next INTEGER NOT NULL)');
+        nb_backfill_seq($pdo);
     }
     return $pdo;
+}
+
+/** Hand out the next number for 'image' or 'video'. Call inside a write transaction. */
+function nb_next_seq(PDO $db, string $kind): int
+{
+    $st = $db->prepare('SELECT next FROM counters WHERE kind = ?');
+    $st->execute([$kind]);
+    $next = (int) ($st->fetchColumn() ?: 1);
+    $db->prepare('INSERT INTO counters (kind, next) VALUES (?, ?) ON CONFLICT(kind) DO UPDATE SET next = excluded.next')
+        ->execute([$kind, $next + 1]);
+    return $next;
+}
+
+/** One-time: number any images/videos that predate the numbering, in upload order. */
+function nb_backfill_seq(PDO $db): void
+{
+    if (!(int) $db->query("SELECT COUNT(*) FROM media WHERE seq IS NULL AND kind IN ('image','video')")->fetchColumn()) {
+        return;
+    }
+    $db->exec('BEGIN IMMEDIATE');
+    try {
+        foreach (['image', 'video'] as $kind) {
+            $ids = $db->query("SELECT id FROM media WHERE kind = '$kind' AND seq IS NULL ORDER BY created_at, rowid")->fetchAll(PDO::FETCH_COLUMN);
+            $up = $db->prepare('UPDATE media SET seq = ? WHERE id = ?');
+            foreach ($ids as $id) {
+                $up->execute([nb_next_seq($db, $kind), $id]);
+            }
+        }
+        $db->exec('COMMIT');
+    } catch (Throwable $e) {
+        $db->exec('ROLLBACK');
+        throw $e;
+    }
+}
+
+/**
+ * The name everyone sees and downloads. Photos/videos: NBHS_reunions_0001.<ext>; anything else keeps its
+ * uploaded name. $converted = the file is being served as a JPEG made from a HEIC.
+ */
+function nb_download_name(array $row, bool $converted = false): string
+{
+    if (!in_array($row['kind'], ['image', 'video'], true) || empty($row['seq'])) {
+        return (string) $row['orig_name'];
+    }
+    $ext = (string) $row['ext'];
+    $ext = ['jpeg' => 'jpg', 'tiff' => 'tif'][$ext] ?? $ext;
+    if ($converted && in_array($ext, ['heic', 'heif'], true)) {
+        $ext = 'jpg';
+    }
+    return sprintf('NBHS_reunions_%04d.%s', (int) $row['seq'], $ext);
 }
 
 // ---------- response headers ----------

@@ -39,8 +39,9 @@ NBHS86/
 ## Behavior notes
 - Search engines: `X-Robots-Tag: noindex, nofollow, noarchive, nosnippet` from `.htaccess` and PHP, plus a robots meta tag. There is deliberately no `robots.txt` Disallow (it would advertise the path and stop crawlers seeing noindex).
 - Accepted types are an extension whitelist (images incl. HEIC, common video, PDF, zip) plus a content sniff. Zip contents get the same checks; entry names are never used as paths.
-- Identical files (by content hash) are stored once.
-- Tests: `php tests/credits_test.php`.
+- Identical files (by content hash) are stored once; the second uploader is pointed at the existing file.
+- **Permanent reunion numbering**: every photo and video gets `NBHS_reunions_0001.<ext>` assigned once, at ingest, in arrival order, so everyone sees and downloads the same name. One counter for all image types, a separate counter for videos, PDFs keep their own names. Extension is the stored type, `jpeg` becomes `jpg`, and HEIC will download as `.jpg` once conversion exists (`nb_download_name($row, $converted)`). Numbers are assigned inside the same write transaction as the insert, so duplicates and rejected files never burn a number, parallel uploads can't collide, and a deleted file's number is never reused (counters only move forward). Existing rows are numbered by upload time on first run. The admin page can reset numbering only while no files are stored (pre-launch).
+- Tests: `php tests/credits_test.php`, `php tests/numbering_test.php` (needs GD and ffmpeg).
 
 ## Server facts
 - Pair.com shared hosting: PHP 8.2.33 (FastCGI, 128M memory, 30 s execution), Apache 2.4. Imagick 7 with HEIC/PDF, ffmpeg, Ghostscript, ZipArchive and SQLite all verified present on 2026-09-20.

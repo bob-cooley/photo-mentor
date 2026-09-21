@@ -87,33 +87,41 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
     $size = (int) filesize($tmpPath);
     $hash = hash_file('xxh128', $tmpPath);
     $db = nb_db();
-    $st = $db->prepare('SELECT id FROM media WHERE hash = ? AND size = ?');
-    $st->execute([$hash, $size]);
-    if ($dup = $st->fetchColumn()) {
-        @unlink($tmpPath);
-        return ['status' => 'duplicate', 'id' => (string) $dup];
-    }
-
     $folder = $meta['folder'] ?? NB_DEFAULT_FOLDER;
     $id = bin2hex(random_bytes(6));
     $dest = nb_media_path($folder, $id, $ext);
-    if (!@rename($tmpPath, $dest)) {
-        if (!@copy($tmpPath, $dest)) {
-            @unlink($tmpPath);
-            return ['status' => 'rejected', 'id' => null];
-        }
-        @unlink($tmpPath);
-    }
-    @chmod($dest, 0600);
-
     $anon = !empty($meta['anonymous']) ? 1 : 0;
-    $db->prepare('INSERT INTO media (id, folder, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at)
-                  VALUES (?,?,?,?,?,?,?,?,?,?,?,?)')
-        ->execute([
-            $id, $folder, $origName, $ext, $kind, $size, $hash,
-            $anon ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
-            $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(),
-        ]);
+
+    // One write transaction covers: duplicate check, number assignment, file move, row insert.
+    // Rejected files and duplicates never burn a number, and two simultaneous uploads can't collide.
+    $db->exec('BEGIN IMMEDIATE');
+    try {
+        $st = $db->prepare('SELECT id FROM media WHERE hash = ? AND size = ?');
+        $st->execute([$hash, $size]);
+        if ($dup = $st->fetchColumn()) {
+            $db->exec('ROLLBACK');
+            @unlink($tmpPath);
+            return ['status' => 'duplicate', 'id' => (string) $dup];
+        }
+        if (!@rename($tmpPath, $dest) && !(@copy($tmpPath, $dest) && @unlink($tmpPath))) {
+            throw new RuntimeException('could not store file');
+        }
+        @chmod($dest, 0600);
+        $seq = in_array($kind, ['image', 'video'], true) ? nb_next_seq($db, $kind) : null;
+        $db->prepare('INSERT INTO media (id, folder, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq)
+                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)')
+            ->execute([
+                $id, $folder, $origName, $ext, $kind, $size, $hash,
+                $anon ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
+                $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(), $seq,
+            ]);
+        $db->exec('COMMIT');
+    } catch (Throwable $e) {
+        $db->exec('ROLLBACK');
+        @unlink($dest);
+        @unlink($tmpPath);
+        return ['status' => 'rejected', 'id' => null];
+    }
     return ['status' => 'added', 'id' => $id];
 }
 

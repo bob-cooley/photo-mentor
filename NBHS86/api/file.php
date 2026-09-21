@@ -41,14 +41,15 @@ if (!empty($_SERVER['HTTP_RANGE']) && preg_match('/^bytes=(\d*)-(\d*)$/', $_SERV
 }
 
 $download = !empty($_GET['dl']);
-$fname = str_replace(['"', '\\', '/'], '_', $row['orig_name']);
+$outName = nb_download_name($row); // HEIC is still served as-is here, so it keeps .heic until conversion exists
+$fname = str_replace(['"', '\\', '/'], '_', $outName);
 nb_headers(false);
 http_response_code($status);
 header('Content-Type: ' . (NB_MIME[$row['ext']] ?? 'application/octet-stream'));
 header('Accept-Ranges: bytes');
 header('Cache-Control: private, max-age=86400');
 header('Content-Disposition: ' . ($download ? 'attachment' : 'inline')
-    . '; filename="' . preg_replace('/[^\x20-\x7E]/', '_', $fname) . '"; filename*=UTF-8\'\'' . rawurlencode($row['orig_name']));
+    . '; filename="' . preg_replace('/[^\x20-\x7E]/', '_', $fname) . '"; filename*=UTF-8\'\'' . rawurlencode($outName));
 if ($status === 206) {
     header("Content-Range: bytes $start-$end/$size");
 }

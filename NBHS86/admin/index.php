@@ -58,6 +58,14 @@ if ($isAdmin && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])
             }
             $notice = "Deleted $n file" . ($n === 1 ? '' : 's') . '.';
             break;
+        case 'reset_numbering':
+            if ((int) nb_db()->query('SELECT COUNT(*) FROM media')->fetchColumn() === 0 && ($_POST['confirm'] ?? '') === 'RESET') {
+                nb_db()->exec('DELETE FROM counters');
+                $notice = 'Numbering reset. The next photo and video will be 0001.';
+            } else {
+                $notice = 'Numbering can only be reset while no files are stored.';
+            }
+            break;
         case 'run_jobs':
             $left = nb_run_jobs(20);
             $notice = $left ? "$left zip job(s) still pending; run again." : 'All zip jobs finished.';
@@ -124,12 +132,13 @@ function fmt_bytes(int $b): string
     <input type="hidden" name="csrf" value="<?= nb_h($csrf) ?>">
     <section class="card" style="overflow-x:auto">
       <table class="grid">
-        <thead><tr><th><input type="checkbox" onclick="document.querySelectorAll('.pick').forEach(c=>c.checked=this.checked)" aria-label="Select all"></th><th></th><th>File</th><th>Credit</th><th>Entered as</th><th>Size</th><th>When</th></tr></thead>
+        <thead><tr><th><input type="checkbox" onclick="document.querySelectorAll('.pick').forEach(c=>c.checked=this.checked)" aria-label="Select all"></th><th></th><th>Name</th><th>Original file</th><th>Credit</th><th>Entered as</th><th>Size</th><th>When</th></tr></thead>
         <tbody>
         <?php foreach ($rows as $r): ?>
           <tr>
             <td><input class="pick" type="checkbox" name="ids[]" value="<?= nb_h($r['id']) ?>"></td>
             <td><a href="<?= NB_BASE ?>/api/file.php?id=<?= nb_h($r['id']) ?>" target="_blank" rel="noopener"><img loading="lazy" src="<?= NB_BASE ?>/api/thumb.php?id=<?= nb_h($r['id']) ?>" alt=""></a></td>
+            <td><b><?= nb_h(nb_download_name($r)) ?></b></td>
             <td><?= nb_h($r['orig_name']) ?><div class="hint"><?= nb_h($r['kind']) ?><?= $r['source'] ? ' &middot; from ' . nb_h(substr($r['source'], 4)) : '' ?></div></td>
             <td><?= nb_h(nb_credit_for($r, $labels)) ?></td>
             <td><?= $r['anonymous'] ? '<span class="hint">(anonymous)</span>' : nb_h($r['uploader']) ?></td>
@@ -137,7 +146,7 @@ function fmt_bytes(int $b): string
             <td><?= nb_h(date('M j, g:ia', (int) $r['created_at'])) ?></td>
           </tr>
         <?php endforeach; ?>
-        <?php if (!$rows): ?><tr><td colspan="7" class="hint">Nothing uploaded yet.</td></tr><?php endif; ?>
+        <?php if (!$rows): ?><tr><td colspan="8" class="hint">Nothing uploaded yet.</td></tr><?php endif; ?>
         </tbody>
       </table>
     </section>
@@ -147,6 +156,15 @@ function fmt_bytes(int $b): string
       <button type="submit" name="action" value="logout" class="secondary">Sign out</button>
     </p>
   </form>
+  <?php if ((int) $tot['c'] === 0): ?>
+    <form method="post" action="<?= $self ?>" class="card" onsubmit="return confirm('Restart photo and video numbering at 0001?')">
+      <input type="hidden" name="csrf" value="<?= nb_h($csrf) ?>">
+      <input type="hidden" name="action" value="reset_numbering">
+      <input type="hidden" name="confirm" value="RESET">
+      <span class="hint">No files are stored, so numbering can be restarted (do this only before launch).</span>
+      <button type="submit" class="secondary">Reset numbering to 0001</button>
+    </form>
+  <?php endif; ?>
   <?php if ($pages > 1): ?>
     <p class="hint">Page <?= $page ?> of <?= $pages ?>
       <?php if ($page > 1): ?> &middot; <a href="?p=<?= $page - 1 ?>" style="color:var(--accent)">newer</a><?php endif; ?>
