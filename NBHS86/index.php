@@ -37,7 +37,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=11">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=12">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
@@ -53,7 +53,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
   <form class="card" method="post" action="<?= NB_BASE ?>/" autocomplete="off">
     <div>
       <label for="passcode">Passcode</label>
-      <input id="passcode" name="passcode" type="password" autocapitalize="off" autocorrect="off" spellcheck="false" autofocus required>
+      <input id="passcode" name="passcode" type="password" data-reveal autocapitalize="off" autocorrect="off" spellcheck="false" autofocus required>
       <div class="err" role="alert"><?= nb_h($error) ?></div>
     </div>
     <button type="submit"<?= nb_configured() ? '' : ' disabled' ?>>Continue</button>
@@ -103,5 +103,6 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
 <script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=5"></script>
 <?php endif; ?>
+<script src="<?= NB_BASE ?>/assets/js/reveal.js?v=1"></script>
 </body>
 </html>

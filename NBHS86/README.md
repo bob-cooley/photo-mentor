@@ -64,6 +64,9 @@ NBHS86/
 - **Thumbnails at upload time**: `nb_store_file()` builds the thumbnail (photo, HEIC, video poster, PDF page 1) right after storing, so browsing never waits on it. `api/thumb.php` still builds one on first view as a fallback. Thumbnails and derived copies are written to a unique temp name and renamed, so a concurrent request can never serve a half-written file.
 - **Case-sensitive URLs**: the server treats `/nbhs86/` differently from `/NBHS86/` (404). Fix is a Cloudflare redirect rule, not code (see below). Do NOT add a lowercase `nbhs86/` folder: the Mac mirror is case-insensitive and Dreamweaver would merge the two.
 
+## Show/Hide password
+Both login fields (classmate passcode on `index.php`, admin password on `admin/index.php`) carry `data-reveal`; `assets/js/reveal.js` wraps them and adds a Show/Hide button. Fields always load hidden. Any new password input only needs the `data-reveal` attribute plus the script tag.
+
 ## Header art
 - `assets/img/nbhs86-header.jpg` (1455x600, navy background identical to the page colour #062365, so it blends in) plus `-727.jpg` and `-485.jpg` copies for phones and retina screens (`srcset`). Source art: `~/Desktop/_Upload/nbhs86-header.jpg` (a .psd exists in the local `nusite/NBHS86/` mirror; never upload it, the site is public).
 - `nb_header_image()` in `lib/layout.php` renders it at the top of the upload page (including the "uploads closed" view) and every gallery view. The passcode page does not have it.

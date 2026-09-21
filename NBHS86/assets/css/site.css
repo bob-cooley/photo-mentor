@@ -106,3 +106,13 @@ table.grid input[type=text] { padding: 8px 10px; }
   .wrap { padding-top: 14px; }
   .site-header { margin-bottom: 8px; }
 }
+
+/* Show/Hide button inside password fields (assets/js/reveal.js). */
+.pw { position: relative; }
+.pw input { padding-right: 78px; }
+button.pw-toggle {
+  position: absolute; top: 50%; right: 6px; transform: translateY(-50%);
+  width: auto; min-height: 0; margin: 0; padding: 7px 12px; font-size: .9rem; font-weight: 600;
+  background: transparent; color: var(--accent); border: 1px solid var(--line); border-radius: 8px;
+}
+button.pw-toggle:hover:not(:disabled) { background: color-mix(in srgb, var(--text) 10%, transparent); }

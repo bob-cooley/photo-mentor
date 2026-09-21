@@ -181,7 +181,7 @@ function fmt_bytes(int $b): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=11">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=12">
 <?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7"><?php endif; ?>
 </head>
 <body>
@@ -190,7 +190,7 @@ function fmt_bytes(int $b): string
   <header class="top"><h1>Admin</h1></header>
   <form class="card" method="post" action="<?= $self ?>" autocomplete="off">
     <label for="pw">Admin password</label>
-    <input id="pw" name="admin_password" type="password" autofocus required>
+    <input id="pw" name="admin_password" type="password" data-reveal autofocus required>
     <div class="err" role="alert"><?= nb_h($error) ?></div>
     <button type="submit">Sign in</button>
   </form>
@@ -372,5 +372,6 @@ function fmt_bytes(int $b): string
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
 <script type="module" src="<?= NB_BASE ?>/assets/js/admin-upload.js?v=2"></script>
 <?php endif; ?>
+<script src="<?= NB_BASE ?>/assets/js/reveal.js?v=1"></script>
 </body>
 </html>
