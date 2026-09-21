@@ -170,13 +170,13 @@ function fmt_bytes(int $b): string
     return $b . ' B';
 }
 ?><!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="admin">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=4">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=5">
 <?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><?php endif; ?>
 </head>
 <body>

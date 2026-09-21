@@ -1,16 +1,27 @@
 :root {
-  --bg: #111214;
-  --panel: #1a1c1f;
-  --line: #2b2e33;
-  --text: #eceef0;
-  --muted: #9aa0a6;
-  --accent: #e8b04a;
-  --accent-ink: #1b1305;
-  --bad: #ff8a80;
-  --ok: #7fd18b;
+  /* Palette: primary #102F73 (navy), accent #E5B24B (gold). Every text pair below is WCAG AA or better. */
+  --primary: #102F73;
+  --bg: #102F73;
+  --panel: #0c2662;
+  --panel-2: #081c4b;
+  --line: #2b4a8f;
+  --text: #f4f7ff;
+  --muted: #b8c5e6;
+  --accent: #E5B24B;
+  --accent-hover: #f1c366;
+  --accent-ink: #102F73;
+  --bad: #ff9e94;
+  --ok: #8fe0a0;
+  --overlay: rgba(8, 28, 75, .78);
+  color-scheme: dark;
+}
+/* The admin tool keeps the original neutral palette. */
+html.admin {
+  --primary: #111214; --bg: #111214; --panel: #1a1c1f; --panel-2: #0e0f11; --line: #2b2e33; --text: #eceef0; --muted: #9aa0a6;
+  --accent: #e8b04a; --accent-hover: #f0c066; --accent-ink: #1b1305; --bad: #ff8a80; --ok: #7fd18b; --overlay: rgba(17, 18, 20, .72);
 }
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg); }
 body {
   margin: 0;
   background: var(--bg);
@@ -28,7 +39,7 @@ header.top p { margin: 0 auto; max-width: 34em; color: var(--muted); }
 label { display: block; font-weight: 600; margin-bottom: 6px; }
 input[type=text], input[type=password] {
   width: 100%; padding: 13px 14px; font-size: 1rem; color: var(--text);
-  background: #0e0f11; border: 1px solid var(--line); border-radius: 10px;
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px;
 }
 input[type=text]:focus, input[type=password]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 input:disabled { opacity: .45; }
@@ -43,9 +54,12 @@ button, .btn {
   padding: 13px 22px; border-radius: 10px;
 }
 button.secondary, .btn.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+button:hover:not(:disabled), .btn:hover { background: var(--accent-hover); }
+button.secondary:hover:not(:disabled), .btn.secondary:hover { background: color-mix(in srgb, var(--text) 10%, transparent); }
+button:focus-visible, .btn:focus-visible, a:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 button:disabled { opacity: .5; cursor: default; }
 
-.thanks { display: none; text-align: center; border-color: #2f4a35; }
+.thanks { display: none; text-align: center; border-color: color-mix(in srgb, var(--ok) 45%, transparent); }
 .thanks.show { display: block; }
 .thanks h2 { color: var(--ok); text-transform: none; letter-spacing: 0; font-size: 1.25rem; margin-bottom: 6px; }
 .thanks p { margin: 0 0 14px; color: var(--muted); }
@@ -61,7 +75,7 @@ footer.foot { text-align: center; color: var(--muted); font-size: .85rem; margin
 table.grid { width: 100%; border-collapse: collapse; font-size: .92rem; }
 table.grid th, table.grid td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
 table.grid th { color: var(--muted); font-weight: 600; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
-table.grid img { width: 72px; height: 54px; object-fit: cover; border-radius: 6px; background: #000; display: block; }
+table.grid img { width: 72px; height: 54px; object-fit: cover; border-radius: 6px; background: var(--panel-2); display: block; }
 .stats { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-bottom: 4px; }
 .stats b { font-size: 1.3rem; display: block; }
 .stats span { color: var(--muted); font-size: .85rem; }
@@ -82,5 +96,5 @@ table.grid img { width: 72px; height: 54px; object-fit: cover; border-radius: 6p
 .state.off b { color: var(--bad); }
 .inline { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 10px 0; }
 .inline input[type=text] { width: auto; min-width: 16em; flex: 1 1 16em; }
-.inline select, table.grid select { background: #0e0f11; color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font: inherit; }
+.inline select, table.grid select { background: var(--panel-2); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font: inherit; }
 table.grid input[type=text] { padding: 8px 10px; }

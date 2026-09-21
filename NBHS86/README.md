@@ -49,6 +49,12 @@ NBHS86/
 - Media, thumbnails, SQLite and partial uploads live in `/usr/home/bobcooley/nbhs86-data/` (outside web root, created on first use). Override with `data_dir` in the config for local testing.
 - Passcode is case-insensitive and ignores spaces.
 
+## Look and feel
+- Palette (classmate-facing pages: gate, upload, gallery): primary **#102F73** (page background; panels are darker tints of it) and accent **#E5B24B** (buttons, links, selection, focus rings), with dark navy text-on-gold (#102F73). Defined once as CSS variables at the top of `assets/css/site.css`; contrast checked (all text pairs WCAG AA or better).
+- The admin page opts out with `<html class="admin">` and keeps the original neutral dark palette.
+- Uppy's dashboard is re-coloured by `assets/css/uppy-theme.css` (its dark theme hard-codes blue/green at high specificity, so every override carries `[data-uppy-theme=dark]`). PhotoSwipe's background is set with `body.gallery-page .pswp`.
+- Bump the `?v=` on a stylesheet link whenever it changes (Cloudflare and browsers cache them).
+
 ## Deploy gotcha: never delete a folder
 FTP-Deploy-Action cannot remove folders on this host: the folder-removal step fails with `550 ... No such file or directory`, which aborts the whole deploy before it saves its state, so every later deploy fails the same way. Deleting single files works. To retire a folder, delete its files and leave a stub `index.php` in it (see `_test/`, `upload/`).
 

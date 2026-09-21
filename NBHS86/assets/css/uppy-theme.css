@@ -1,0 +1,45 @@
+/* Re-colours the Uppy dashboard (upload page only) from its default blue/grey to the site palette. */
+[data-uppy-theme=dark] .uppy-Dashboard-inner { background-color: var(--panel-2); border-color: var(--line); }
+[data-uppy-theme=dark] .uppy-StatusBar,
+[data-uppy-theme=dark] .uppy-StatusBar:not([aria-hidden=true]).is-waiting,
+[data-uppy-theme=dark] .uppy-StatusBar.is-waiting .uppy-StatusBar-actions { background-color: var(--panel); }
+[data-uppy-theme=dark] .uppy-StatusBar:not([aria-hidden=true]).is-waiting { border-top-color: var(--line); }
+[data-uppy-theme=dark] .uppy-Dashboard-Item { border-bottom-color: var(--line); }
+[data-uppy-theme=dark] .uppy-DashboardContent-bar { background-color: var(--panel); border-bottom-color: var(--line); }
+[data-uppy-theme=dark] .uppy-Dashboard-AddFilesPanel { background-color: var(--panel-2); }
+[data-uppy-theme=dark] .uppy-Dashboard-FileCard-info,
+[data-uppy-theme=dark] .uppy-Dashboard-FileCard-actions { background-color: var(--panel); border-top-color: var(--line); }
+[data-uppy-theme=dark] .uppy-Dashboard-FileCard-preview { background-color: var(--panel-2); }
+[data-uppy-theme=dark] .uppy-Informer p { background-color: var(--panel); }
+[data-uppy-theme=dark] .uppy-DashboardTab-btn:hover { background-color: var(--panel); }
+
+/* Uppy's dark theme sets its own blue (#02baf2) at higher specificity, so every override carries the theme attribute. */
+[data-uppy-theme=dark] .uppy-c-btn-primary { background-color: var(--accent); color: var(--accent-ink); font-weight: 650; }
+[data-uppy-theme=dark] .uppy-c-btn-primary:hover,
+[data-uppy-theme=dark] .uppy-c-btn-primary:focus { background-color: var(--accent-hover); }
+[data-uppy-theme=dark] .uppy-StatusBar-progress { background-color: var(--accent); }
+[data-uppy-theme=dark] .uppy-StatusBar-actionBtn,
+[data-uppy-theme=dark] .uppy-StatusBar:not(.is-waiting) .uppy-StatusBar-actionBtn--upload,
+[data-uppy-theme=dark] .uppy-StatusBar-actionBtn--done { color: var(--accent); }
+[data-uppy-theme=dark] .uppy-StatusBar-spinner { fill: var(--accent); }
+[data-uppy-theme=dark] .uppy-Dashboard-browse,
+[data-uppy-theme=dark] .uppy-Dashboard-Item-reSelect,
+[data-uppy-theme=dark] .uppy-DashboardContent-addMore,
+[data-uppy-theme=dark] .uppy-DashboardContent-back,
+[data-uppy-theme=dark] .uppy-DashboardContent-save,
+[data-uppy-theme=dark] .uppy-Dashboard-serviceMsg-actionBtn,
+[data-uppy-theme=dark] .uppy-DashboardTab-iconMyDevice { color: var(--accent); }
+[data-uppy-theme=dark] .uppy-Dashboard-browse:hover,
+[data-uppy-theme=dark] .uppy-Dashboard-browse:focus { border-bottom-color: var(--accent); }
+[data-uppy-theme=dark] .uppy-Dashboard-dropFilesHereHint { border-color: var(--accent); }
+[data-uppy-theme=dark] .uppy-Dashboard-AddFiles { border-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+[data-uppy-theme=dark] .uppy-u-reset:focus,
+[data-uppy-theme=dark] .uppy-c-btn:focus,
+[data-uppy-theme=dark] .uppy-Dashboard-browse:focus { outline: none; box-shadow: 0 0 0 3px rgba(229, 178, 75, .45); }
+
+/* The big Upload button (Uppy makes it green) and the file-count badge */
+[data-uppy-theme=dark] .uppy-StatusBar.is-waiting .uppy-StatusBar-actionBtn--upload { background-color: var(--accent); color: var(--accent-ink); font-weight: 650; }
+[data-uppy-theme=dark] .uppy-StatusBar.is-waiting .uppy-StatusBar-actionBtn--upload:hover,
+[data-uppy-theme=dark] .uppy-StatusBar.is-waiting .uppy-StatusBar-actionBtn--upload.uppy-StatusBar-actionBtn--disabled:hover { background-color: var(--accent-hover); }
+[data-uppy-theme=dark] .uppy-Dashboard-uploadCount { background-color: var(--accent); color: var(--accent-ink); }
+[data-uppy-theme=dark] .uppy-StatusBar-actionBtn--uploadNewlyAdded:focus { box-shadow: 0 0 0 2px rgba(229, 178, 75, .85); }

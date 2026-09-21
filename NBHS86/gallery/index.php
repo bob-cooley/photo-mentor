@@ -29,8 +29,8 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=4">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=2">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=5">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=4">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
