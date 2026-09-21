@@ -102,7 +102,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
     'icons' => ['check' => nb_icon('check', 18), 'play' => nb_icon('play', 22), 'download' => nb_icon('download', 22), 'pdf' => nb_icon('file-text', 22)],
     'maxFiles' => NB_ZIP_MAX_FILES,
 ]) ?>;</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=3"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=4"></script>
 <?php endif; ?>
 </body>
 </html>

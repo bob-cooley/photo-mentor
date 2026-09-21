@@ -10,19 +10,15 @@ const KEY = `nbhs86_sel_${folder}`;
 let downloading = false;
 const state = { items: [], byId: new Map(), page: 0, more: true, loading: false, kind: 'all', sort: 'arrival', counts: null, selected: new Set() };
 
+// Every visit starts with nothing ticked. (Only the chosen sort order is remembered for the tab.)
 try {
-  const saved = JSON.parse(sessionStorage.getItem(KEY) || '[]');
-  if (Array.isArray(saved)) saved.forEach((id) => state.selected.add(id));
+  sessionStorage.removeItem(KEY); // an older version saved the ticked files here; discard them
   state.sort = sessionStorage.getItem('nbhs86_sort') || 'arrival';
 } catch (e) { /* storage unavailable */ }
 $('sort').value = state.sort;
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtBytes = (b) => (b >= 1073741824 ? (b / 1073741824).toFixed(1) + ' GB' : b >= 1048576 ? Math.round(b / 1048576) + ' MB' : Math.max(1, Math.round(b / 1024)) + ' KB');
-
-function persist() {
-  try { sessionStorage.setItem(KEY, JSON.stringify([...state.selected])); } catch (e) { /* ignore */ }
-}
 
 // ---------- listing ----------
 
@@ -103,6 +99,11 @@ function updateBar() {
   $('selAll').disabled = !!state.counts && state.counts.all === 0;
   if (n > maxFiles) { setMsg(`A zip can hold up to ${maxFiles} files. Deselect some, or download in groups.`, true); }
 }
+function clearSelection() {
+  state.selected.clear();
+  grid.querySelectorAll('.tile.sel').forEach((t) => { t.classList.remove('sel'); t.querySelector('.pick').setAttribute('aria-pressed', 'false'); });
+  updateBar();
+}
 function setMsg(t, err = false) { selmsg.textContent = t; selmsg.className = 'selmsg' + (err ? ' err' : ''); }
 
 function toggle(id, on) {
@@ -113,7 +114,6 @@ function toggle(id, on) {
     tile.classList.toggle('sel', on);
     tile.querySelector('.pick').setAttribute('aria-pressed', String(on));
   }
-  persist();
   updateBar();
 }
 
@@ -129,11 +129,7 @@ grid.addEventListener('click', (e) => {
   openLightbox(it.id);
 });
 
-$('selClear').addEventListener('click', () => {
-  state.selected.clear();
-  grid.querySelectorAll('.tile.sel').forEach((t) => { t.classList.remove('sel'); t.querySelector('.pick').setAttribute('aria-pressed', 'false'); });
-  persist(); updateBar(); setMsg('');
-});
+$('selClear').addEventListener('click', () => { clearSelection(); setMsg(''); });
 
 $('selAll').addEventListener('click', async () => {
   setMsg('Selecting…');
@@ -141,7 +137,7 @@ $('selAll').addEventListener('click', async () => {
     const r = await fetch(`${base}/api/list.php?f=${encodeURIComponent(folder)}&sort=${state.sort}&kind=${state.kind}&ids=1`, { credentials: 'same-origin' }).then((x) => x.json());
     (r.ids || []).forEach((id) => state.selected.add(id));
     grid.querySelectorAll('.tile').forEach((t) => { const on = state.selected.has(t.dataset.id); t.classList.toggle('sel', on); t.querySelector('.pick').setAttribute('aria-pressed', String(on)); });
-    persist(); updateBar();
+    updateBar();
     setMsg(state.selected.size > maxFiles ? '' : '');
   } catch (e) { setMsg('Could not select everything. Try again.', true); }
 });
@@ -174,7 +170,9 @@ $('selDownload').addEventListener('click', async () => {
     document.body.appendChild(form);
     form.submit();
     form.remove();
-    setMsg(`Your download of ${ids.length} file${ids.length === 1 ? '' : 's'} (${fmtBytes(state.items.filter((i) => state.selected.has(i.id)).reduce((a, i) => a + i.size, 0))}+) is starting. Large zips can take a minute to begin.`);
+    const bytes = state.items.filter((i) => state.selected.has(i.id)).reduce((a, i) => a + i.size, 0);
+    clearSelection(); // the download has started: leave nothing ticked for the next one
+    setMsg(`Your download of ${ids.length} file${ids.length === 1 ? '' : 's'} (${fmtBytes(bytes)}+) is starting. Large zips can take a minute to begin.`);
   } catch (e) {
     setMsg('Connection problem. Please try again.', true);
   } finally {
@@ -250,6 +248,8 @@ function openLightbox(id) {
   lightbox.loadAndOpen(Math.max(0, media.findIndex((i) => i.id === id)));
 }
 lightbox.init();
+
+window.addEventListener('pageshow', (e) => { if (e.persisted) clearSelection(); });
 
 updateBar();
 loadPage();
