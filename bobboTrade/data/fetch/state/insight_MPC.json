@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T18:27:22.716205+00:00",
-  "text": "Marathon Petroleum fell 2.14% today after oil prices tumbled back below $100 per barrel on Monday, driven by Trump's openness to diplomacy with Iran and traders' hopes for a recovery in Saudi Arabian shipments. For a refiner like MPC, lower oil prices directly squeeze profit margins \u2014 the company buys crude at the wholesale price and sells refined products (gasoline, diesel) at retail rates, so when crude falls faster than refined products do, that spread narrows and cuts earnings potential.\n\nThe broader picture is complicated, though. While oil fell sharply today, US refineries are running at 96.8% capacity and gasoline and diesel inventories remain relatively lean, which normally supports prices for refined products. The real headwind appears to be uncertainty: geopolitical tensions around Iran, the Saudi pipeline shutdown, and conflicting signals about whether supplies will actually recover are creating volatility that weighs on the sector even as underlying demand remains solid.",
+  "fetchedAt": "2026-09-21T19:16:16.960448+00:00",
+  "text": "Marathon Petroleum fell 4.2% today after oil prices tumbled below $100 a barrel on signs that diplomatic talks between the U.S. and Iran might ease Middle East tensions. The stock had climbed steadily through mid-week as geopolitical fears drove oil higher, but that momentum reversed when Trump signaled openness to negotiating with Iran, reducing the supply-shock premium that had pushed crude from the mid-$90s to the $420s on the stock price.\n\nRefiners like Marathon profit when they can buy crude cheaply and sell refined products at a wider margin, so a $30 drop in oil prices in a single day cuts into those spreads significantly. Even though U.S. refineries are running near full capacity at 96.8% and storage levels remain relatively tight, the market's sudden shift from \"geopolitical crisis\" to \"possible deal\" erased the fear premium that had been supporting energy stocks all week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 159,
-    "inputTokens": 146447,
-    "outputTokens": 34487,
-    "estimatedCostUsd": 0.318882,
-    "lastCallHour": "2026-09-21T18"
+    "callsThisMonth": 160,
+    "inputTokens": 147374,
+    "outputTokens": 34693,
+    "estimatedCostUsd": 0.320839,
+    "lastCallHour": "2026-09-21T19"
   }
 }

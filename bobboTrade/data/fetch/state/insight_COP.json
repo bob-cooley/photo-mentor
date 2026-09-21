@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T18:27:08.641179+00:00",
-  "text": "ConocoPhillips fell 2.7% today as oil prices tumbled below $100 per barrel, driven by optimism that the U.S. might negotiate with Iran rather than escalate further. While Middle East tensions remain serious\u2014the Strait of Hormuz is closed, the Saudi East-West pipeline is shut down, and attacks continue\u2014the market is pricing in potential relief from diplomatic talks, which would ease the supply squeeze that had been supporting higher prices.\n\nThe stock has now dropped 4.4% over two weeks as the oil market swung from fearing severe supply disruption to hoping for negotiated resolution. Even though real supply constraints persist (Saudi pipeline down, Iranian shipments disrupted), the *possibility* of a deal was enough to shift trader sentiment and pull crude prices lower, directly weighing on a company whose earnings depend on oil price strength.",
+  "fetchedAt": "2026-09-21T19:15:50.650318+00:00",
+  "text": "ConocoPhillips fell 2.6% today as oil prices tumbled below $100 a barrel on growing hopes for diplomatic resolution in the Middle East\u2014specifically, reports that Trump is open to talks with Iran. While geopolitical tensions remain high (Houthi attacks, the Strait of Hormuz still closed, and damage near Saudi infrastructure), the market is pricing in the possibility of reduced conflict and a return to more normal supply flows, which would ease the oil scarcity that has been supporting prices.\n\nThe broader context here is the volatile two-week slide of 4.4%: the stock has been swinging sharply as traders struggle to price in the competing risks\u2014genuine supply disruptions from the Saudi pipeline shutdown and regional instability on one side, but signs of diplomatic off-ramps that could deflate oil prices on the other. For a major oil producer like ConocoPhillips, lower crude prices directly hit revenues and margins, even if those lower prices come from easing crisis risk rather than declining global demand.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 159,
-    "inputTokens": 137604,
-    "outputTokens": 33631,
-    "estimatedCostUsd": 0.305759,
-    "lastCallHour": "2026-09-21T18"
+    "callsThisMonth": 160,
+    "inputTokens": 138468,
+    "outputTokens": 33855,
+    "estimatedCostUsd": 0.307743,
+    "lastCallHour": "2026-09-21T19"
   }
 }
