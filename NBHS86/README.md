@@ -32,7 +32,7 @@ NBHS86/
 ```
 
 ## Config and storage (never in the repo)
-- `NBHS86/config.local.php` holds bcrypt hashes for the passcode and admin password plus the cookie-signing secret. It is gitignored, excluded from the deploy, and uploaded by hand (Dreamweaver sync of `nusite/NBHS86/`). Generate with `php tools/make-config.php --passcode=WORD`.
+- `NBHS86/config.local.php` holds bcrypt hashes for the passcode and admin password plus the cookie-signing secret. It is gitignored and built by the `deploy-nbhs86` job on every deploy from three GitHub secrets: `NBHS86_PASSCODE`, `NBHS86_ADMIN_PASSWORD`, `NBHS86_SECRET` (32+ random chars, keep it stable or everyone is logged out). If the secrets are unset the step is skipped. Local dev: `php tools/make-config.php --passcode=WORD --data-dir=/some/scratch/dir`. Rotate the passcode by editing the secret and pushing (or re-running the workflow).
 - Media, thumbnails, SQLite and partial uploads live in `/usr/home/bobcooley/nbhs86-data/` (outside web root, created on first use). Override with `data_dir` in the config for local testing.
 - Passcode is case-insensitive and ignores spaces.
 

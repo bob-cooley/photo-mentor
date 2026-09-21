@@ -83,9 +83,19 @@ jobs:
   deploy-nbhs86:
     if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
+    env:
+      NBHS86_PASSCODE: ${{ secrets.NBHS86_PASSCODE }}
+      NBHS86_ADMIN_PASSWORD: ${{ secrets.NBHS86_ADMIN_PASSWORD }}
+      NBHS86_SECRET: ${{ secrets.NBHS86_SECRET }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # config.local.php holds only bcrypt hashes + the cookie-signing secret. It is built here from
+      # GitHub secrets (never committed, repo is public). Skipped if the secrets are not set yet.
+      - name: Write NBHS86 config from secrets
+        if: ${{ env.NBHS86_PASSCODE != '' && env.NBHS86_ADMIN_PASSWORD != '' && env.NBHS86_SECRET != '' }}
+        run: php NBHS86/tools/make-config.php --from-env
 
       - name: Deploy NBHS86 to bobcooleyphoto.com/NBHS86/
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -102,7 +112,6 @@ jobs:
             **/*.md
             **/tools/**
             **/tests/**
-            **/config.local.php
 
   deploy-light-detective:
     if: github.event_name != 'schedule'
