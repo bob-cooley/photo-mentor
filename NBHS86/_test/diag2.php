@@ -31,7 +31,7 @@ if (preg_match('/\blibx265\b/m', $enc)) {
 } else { line('HEVC poster test', 'skipped (no libx265 encoder to make a sample)'); }
 
 echo "\n=== where do the 483 MB in the data folder come from? ===\n";
-$cfg = nb_config(); $dir = rtrim((string) ($cfg['data_dir'] ?? dirname(dirname(__DIR__), 2) . '/nbhs86-data'), '/');
+$cfg = nb_config(); $dir = rtrim((string) ($cfg['data_dir'] ?? dirname(__DIR__, 4) . '/nbhs86-data'), '/');
 $db = new PDO('sqlite:' . $dir . '/nbhs86.sqlite', null, null, [PDO::SQLITE_ATTR_OPEN_FLAGS => PDO::SQLITE_OPEN_READONLY, PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC]);
 foreach ($db->query('select kind, count(*) c, sum(size) s, max(size) m from media group by kind') as $r) { line("rows: {$r['kind']}", $r['c'] . ' files, ' . human((float) $r['s']) . ' total, largest ' . human((float) $r['m'])); }
 line('sum of all recorded sizes', human((float) $db->query('select sum(size) from media')->fetchColumn()));
