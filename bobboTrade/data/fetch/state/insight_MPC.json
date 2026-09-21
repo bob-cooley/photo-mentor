@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T11:53:55.962912+00:00",
-  "text": "Marathon Petroleum has climbed 9.6% over two weeks and gained another 0.7% today, riding a sharp rally since September 11th. The move reflects a tightening physical oil market: U.S. crude is trading at $107 per barrel while world crude sits at $130.80\u2014a $23.80 gap that signals regional supply stress\u2014and refineries are running at 96.8% capacity, near maximum. Saudi Arabia's East-West pipeline shutdown, combined with ongoing Houthi attacks and geopolitical tensions in the Middle East, has constrained crude supply globally, which typically boosts margins for U.S. refiners who benefit when crude prices rise relative to refined product values.\n\nThe stock's momentum also reflects that U.S. crude has pulled back from earlier highs (falling below $100 this week on diplomatic signals) while the world price remains elevated, giving American refiners access to cheaper feedstock relative to global competitors. This supply disruption and price divergence is exactly the environment that tends to benefit domestic refining operations.",
+  "fetchedAt": "2026-09-21T12:49:58.562743+00:00",
+  "text": "Marathon Petroleum stock rose 0.69% today to close at $424.89, continuing a strong two-week rally that's gained 9.59% overall. The company has benefited from a tight global oil market: U.S. crude is trading at $107 per barrel while world oil prices sit at $130.80\u2014a $23.80-per-barrel spread that reflects Middle East supply disruptions (Saudi Arabia's East-West pipeline shutdown, Iranian tensions, Houthi attacks) creating real scarcity. U.S. refineries are running at 96.8% capacity, meaning Marathon can process crude at near maximum rates to capture profits from this wide price gap.\n\nThe rally reflects what refiners call the \"crack spread\"\u2014the difference between the price they pay for crude and the price they receive for finished fuel like gasoline and diesel. When global crude prices spike (as they have amid Middle East unrest) while U.S. crude lags behind due to temporary supply relief and diplomatic talk, refiners in America profit from buying cheaper local oil and selling into a world market paying far more. Gasoline and diesel storage levels remain moderate (207.7 million and 107.9 million barrels respectively), suggesting steady demand is draining supplies, which supports fuel prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 156,
-    "inputTokens": 143654,
-    "outputTokens": 33827,
-    "estimatedCostUsd": 0.312789,
-    "lastCallHour": "2026-09-21T11"
+    "callsThisMonth": 157,
+    "inputTokens": 144589,
+    "outputTokens": 34107,
+    "estimatedCostUsd": 0.315124,
+    "lastCallHour": "2026-09-21T12"
   }
 }
