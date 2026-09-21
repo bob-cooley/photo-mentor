@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T19:16:16.960448+00:00",
-  "text": "Marathon Petroleum fell 4.2% today after oil prices tumbled below $100 a barrel on signs that diplomatic talks between the U.S. and Iran might ease Middle East tensions. The stock had climbed steadily through mid-week as geopolitical fears drove oil higher, but that momentum reversed when Trump signaled openness to negotiating with Iran, reducing the supply-shock premium that had pushed crude from the mid-$90s to the $420s on the stock price.\n\nRefiners like Marathon profit when they can buy crude cheaply and sell refined products at a wider margin, so a $30 drop in oil prices in a single day cuts into those spreads significantly. Even though U.S. refineries are running near full capacity at 96.8% and storage levels remain relatively tight, the market's sudden shift from \"geopolitical crisis\" to \"possible deal\" erased the fear premium that had been supporting energy stocks all week.",
+  "fetchedAt": "2026-09-21T20:40:58.268048+00:00",
+  "text": "Marathon Petroleum's stock fell 5.3% today after U.S. crude oil dropped below $100 per barrel\u2014a sharp reversal from the stock's climb to nearly $425 over the prior three days. The oil price decline was driven by signals that diplomacy between the U.S. and Iran might be possible, easing some of the geopolitical premium that had been pushing crude higher. For a refiner, lower oil prices compress the profit margin on turning crude into gasoline and diesel, even though the company benefits from cheaper input costs.\n\nThe broader picture remains volatile: Middle East tensions are still high (Saudi pipeline shutdowns, Houthi attacks, the Strait of Hormuz closed), and refineries are running at 96.8% capacity with healthy fuel inventories, leaving little room for demand surprises. The stock's sharp three-day rally into today suggests traders had been pricing in a wider oil shock; today's pullback reflects a recalibration now that a diplomatic off-ramp has appeared plausible.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 160,
-    "inputTokens": 147374,
-    "outputTokens": 34693,
-    "estimatedCostUsd": 0.320839,
-    "lastCallHour": "2026-09-21T19"
+    "callsThisMonth": 161,
+    "inputTokens": 148307,
+    "outputTokens": 34918,
+    "estimatedCostUsd": 0.322897,
+    "lastCallHour": "2026-09-21T20"
   }
 }

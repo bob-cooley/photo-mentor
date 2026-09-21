@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T19:15:50.650318+00:00",
-  "text": "ConocoPhillips fell 2.6% today as oil prices tumbled below $100 a barrel on growing hopes for diplomatic resolution in the Middle East\u2014specifically, reports that Trump is open to talks with Iran. While geopolitical tensions remain high (Houthi attacks, the Strait of Hormuz still closed, and damage near Saudi infrastructure), the market is pricing in the possibility of reduced conflict and a return to more normal supply flows, which would ease the oil scarcity that has been supporting prices.\n\nThe broader context here is the volatile two-week slide of 4.4%: the stock has been swinging sharply as traders struggle to price in the competing risks\u2014genuine supply disruptions from the Saudi pipeline shutdown and regional instability on one side, but signs of diplomatic off-ramps that could deflate oil prices on the other. For a major oil producer like ConocoPhillips, lower crude prices directly hit revenues and margins, even if those lower prices come from easing crisis risk rather than declining global demand.",
+  "fetchedAt": "2026-09-21T20:40:41.821683+00:00",
+  "text": "ConocoPhillips fell 3.25% today as crude oil prices tumbled below $100 a barrel\u2014a sharp reversal from the geopolitical premium that had pushed prices higher earlier in the week. The drop came after Trump signaled openness to talks with Iran at the UN, easing some of the market's fear about a wider conflict in the Middle East. Even with the Strait of Hormuz effectively closed and Saudi Arabia's East-West pipeline shut down, traders are betting that diplomatic de-escalation could outweigh the supply constraints.\n\nOil majors like ConocoPhillips are sensitive to crude prices because their profits hinge on the spread between what they buy oil for and what they sell products for\u2014and a $30+ drop in global oil prices over two weeks (from the $130s to near $108) directly erodes that margin. The company has given back most of its gains from last week's panic-driven rally.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 160,
-    "inputTokens": 138468,
-    "outputTokens": 33855,
-    "estimatedCostUsd": 0.307743,
-    "lastCallHour": "2026-09-21T19"
+    "callsThisMonth": 161,
+    "inputTokens": 139338,
+    "outputTokens": 34062,
+    "estimatedCostUsd": 0.309648,
+    "lastCallHour": "2026-09-21T20"
   }
 }
