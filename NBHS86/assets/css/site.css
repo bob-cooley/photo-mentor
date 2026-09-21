@@ -1,18 +1,18 @@
 :root {
-  /* Palette: primary #102F73 (navy), accent #E5B24B (gold). Every text pair below is WCAG AA or better. */
-  --primary: #102F73;
-  --bg: #102F73;
-  --panel: #0c2662;
-  --panel-2: #081c4b;
-  --line: #2b4a8f;
+  /* Palette: page background #062365, main blue #083E92 (cards, panels), gold #EFDB7C. All text pairs are WCAG AA or better. */
+  --primary: #083E92;
+  --bg: #062365;
+  --panel: #083E92;
+  --panel-2: #062365;
+  --line: #3e68aa;
   --text: #f4f7ff;
-  --muted: #b8c5e6;
-  --accent: #E5B24B;
-  --accent-hover: #f1c366;
-  --accent-ink: #102F73;
-  --bad: #ff9e94;
+  --muted: #c3d0ec;
+  --accent: #EFDB7C;
+  --accent-hover: #f5e8aa;
+  --accent-ink: #062365;
+  --bad: #ffa89f;
   --ok: #8fe0a0;
-  --overlay: rgba(8, 28, 75, .78);
+  --overlay: rgba(6, 35, 101, .78);
   color-scheme: dark;
 }
 /* The admin tool keeps the original neutral palette. */
