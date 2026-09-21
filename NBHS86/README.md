@@ -38,9 +38,10 @@ NBHS86/
 ## Gallery behavior
 - **Folders** (table `folders`): Photos (camera), Videos (film), Documents (file-text), Slideshows (grid). Icons are Lucide (ISC). New uploads land by type (`NB_ALBUM_BY_KIND`); Slideshows starts empty and Bob moves items into it from the admin page. A file's folder (`album`) is separate from where it sits on disk (`folder`, always `media/classmate-uploads/`, never changes).
 - **Launch switches** (table `settings`): `gallery_open` (default closed) and `intake_open` (default open), toggled in the admin page. Admin always sees both sides.
-- **Sorting**: default is arrival order; shot date (oldest/newest first) is an option. Shot date, width and height are read with exiftool at ingest (and lazily for older files); files with no date sort last.
+- **Sorting** (labels in `gallery/index.php`): "Upload date" (default, = arrival order) and "Creation date, oldest/newest first" (read with exiftool at ingest, and lazily for older files; scans and other files without a date sort last). Width and height are read the same way.
 - **Privacy**: every view and download is served from a GPS-free copy (`derived/<id>-clean.<ext>`, created with exiftool on first use). Originals are only served to the admin (`?raw=1`). If exiftool is missing the admin page warns.
 - **HEIC**: lightbox shows a 2400px JPEG; download is a full-size JPEG named `.jpg`. TIFF gets a 2400px JPEG for the lightbox and downloads as TIFF.
+- **Selection bar**: always visible at the bottom of a folder (so Select all is easy to find); Download is greyed out until at least one file is ticked. On phones it collapses to two short rows. Tile captions show the full file name, wrapping when long.
 - **Zip downloads**: max 500 files and 2 GB. The page first calls `prepare.php` until every derived copy exists, then a plain form POST to `zip.php` streams the archive. Entry names are the NBHS names; identical document names get " (2)".
 - **Schema**: versioned with `PRAGMA user_version`; a snapshot of the database is written to `nbhs86-data/backups/` before any migration (last 10 kept).
 
@@ -52,6 +53,7 @@ NBHS86/
 ## Look and feel
 - Palette (classmate-facing pages: gate, upload, gallery): primary **#102F73** (page background; panels are darker tints of it) and accent **#E5B24B** (buttons, links, selection, focus rings), with dark navy text-on-gold (#102F73). Defined once as CSS variables at the top of `assets/css/site.css`; contrast checked (all text pairs WCAG AA or better).
 - The admin page opts out with `<html class="admin">` and keeps the original neutral dark palette.
+- Upload box: 330 px tall (admin slideshow box: 170 px, inside a collapsed section). File tiles use the site's icons (film strip = video, camera = image, document = PDF/other, grid = zip) on navy; the uploaded-check badge, Complete bar and Upload button are gold with navy ticks. Uppy paints file types in fixed colours, so `uppy-theme.css` recognises a type by the colour Uppy writes on the tile.
 - Uppy's dashboard is re-coloured by `assets/css/uppy-theme.css` (its dark theme hard-codes blue/green at high specificity, so every override carries `[data-uppy-theme=dark]`). PhotoSwipe's background is set with `body.gallery-page .pswp`.
 - Bump the `?v=` on a stylesheet link whenever it changes (Cloudflare and browsers cache them).
 

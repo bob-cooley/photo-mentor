@@ -19,7 +19,7 @@ const uppy = new Uppy({
     inline: true,
     target: '#uppy-slideshow',
     width: '100%',
-    height: 300,
+    height: 170, // compact: this box is used rarely
     theme: 'dark',
     proudlyDisplayPoweredByUppy: false,
     showProgressDetails: true,

@@ -7,6 +7,7 @@ const selbar = $('selbar');
 const selmsg = $('selmsg');
 
 const KEY = `nbhs86_sel_${folder}`;
+let downloading = false;
 const state = { items: [], byId: new Map(), page: 0, more: true, loading: false, kind: 'all', sort: 'arrival', counts: null, selected: new Set() };
 
 try {
@@ -57,7 +58,7 @@ async function loadPage() {
     if (d.error) { selmsg.textContent = d.message || 'Could not load this folder.'; selmsg.className = 'selmsg err'; return; }
     state.page = d.page;
     state.more = d.hasMore;
-    if (!state.counts || d.page === 1) { state.counts = d.counts; renderChips(); }
+    if (!state.counts || d.page === 1) { state.counts = d.counts; renderChips(); updateBar(); }
     d.items.forEach((it) => { state.items.push(it); state.byId.set(it.id, it); });
     grid.insertAdjacentHTML('beforeend', d.items.map(tileHtml).join(''));
     $('empty').hidden = state.items.length > 0;
@@ -93,9 +94,13 @@ $('sort').addEventListener('change', (e) => {
 // ---------- selection ----------
 
 function updateBar() {
+  // The bar is always visible so "Select all" is easy to find; Download stays greyed out until something is ticked.
   const n = state.selected.size;
-  selbar.hidden = n === 0;
-  $('selcount').textContent = `${n} selected`;
+  $('selcount').textContent = n === 0 ? 'Nothing selected yet' : `${n} selected`;
+  $('selDownload').disabled = n === 0 || downloading;
+  $('selDownload').title = n === 0 ? 'Tick one or more files first, or use Select all' : '';
+  $('selClear').disabled = n === 0;
+  $('selAll').disabled = !!state.counts && state.counts.all === 0;
   if (n > maxFiles) { setMsg(`A zip can hold up to ${maxFiles} files. Deselect some, or download in groups.`, true); }
 }
 function setMsg(t, err = false) { selmsg.textContent = t; selmsg.className = 'selmsg' + (err ? ' err' : ''); }
@@ -143,14 +148,13 @@ $('selAll').addEventListener('click', async () => {
 
 // ---------- zip download: prepare in batches, then a plain form POST streams the zip ----------
 
-let downloading = false;
 $('selDownload').addEventListener('click', async () => {
   if (downloading) return;
   const ids = [...state.selected];
   if (!ids.length) return;
   if (ids.length > maxFiles) { setMsg(`A zip can hold up to ${maxFiles} files. You selected ${ids.length}.`, true); return; }
   downloading = true;
-  $('selDownload').disabled = true;
+  updateBar();
   try {
     let r;
     for (;;) {
@@ -175,7 +179,7 @@ $('selDownload').addEventListener('click', async () => {
     setMsg('Connection problem. Please try again.', true);
   } finally {
     downloading = false;
-    $('selDownload').disabled = false;
+    updateBar();
   }
 });
 

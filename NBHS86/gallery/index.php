@@ -29,8 +29,8 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=6">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=4">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=7">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=6">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
@@ -72,9 +72,9 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
     <div class="chips" id="chips" role="group" aria-label="Show"></div>
     <label class="sort">Sort
       <select id="sort">
-        <option value="arrival">Arrival number</option>
-        <option value="date_asc">Shot date, oldest first</option>
-        <option value="date_desc">Shot date, newest first</option>
+        <option value="arrival">Upload date</option>
+        <option value="date_asc">Creation date, oldest first</option>
+        <option value="date_desc">Creation date, newest first</option>
       </select>
     </label>
   </div>
@@ -83,12 +83,12 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   <p id="empty" class="hint" hidden>Nothing here yet.</p>
   <div id="sentinel" aria-hidden="true"></div>
 
-  <div class="selbar" id="selbar" hidden>
-    <span id="selcount">0 selected</span>
+  <div class="selbar" id="selbar">
+    <span id="selcount">Nothing selected yet</span>
     <span class="selactions">
       <button type="button" class="secondary" id="selAll">Select all</button>
       <button type="button" class="secondary" id="selClear">Clear</button>
-      <button type="button" id="selDownload"><?= nb_icon('download', 18) ?> Download selected (.zip)</button>
+      <button type="button" id="selDownload" disabled title="Tick one or more files first, or use Select all"><?= nb_icon('download', 18) ?> Download <span class="hide-sm">selected </span>(.zip)</button>
     </span>
     <span id="selmsg" class="selmsg" role="status"></span>
   </div>
@@ -102,7 +102,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
     'icons' => ['check' => nb_icon('check', 18), 'play' => nb_icon('play', 22), 'download' => nb_icon('download', 22), 'pdf' => nb_icon('file-text', 22)],
     'maxFiles' => NB_ZIP_MAX_FILES,
 ]) ?>;</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=2"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=3"></script>
 <?php endif; ?>
 </body>
 </html>

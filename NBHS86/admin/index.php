@@ -181,8 +181,8 @@ function fmt_bytes(int $b): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=6">
-<?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><?php endif; ?>
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=7">
+<?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=6"><?php endif; ?>
 </head>
 <body>
 <?php if (!$isAdmin): ?>
@@ -269,10 +269,12 @@ function fmt_bytes(int $b): string
   </section>
 
   <section class="card">
-    <h2>Upload slideshows</h2>
-    <p class="hint" style="margin:0 0 10px">Videos added here go straight into Slideshows, numbered <b>NBHS_slideshow_0001</b>, <b>0002</b>&hellip; and credited to <?= nb_h(NB_SLIDESHOW_CREDIT) ?>. Classmates' uploads on the normal page are not affected.</p>
-    <div id="uppy-slideshow"></div>
-    <div id="slideMsg" class="hint" role="status" style="margin-top:10px"></div>
+    <details>
+      <summary><b>Upload slideshows</b> <span class="hint">&mdash; open only when you have slideshow videos to add</span></summary>
+      <p class="hint" style="margin:10px 0">Videos added here go straight into Slideshows, numbered <b>NBHS_slideshow_0001</b>, <b>0002</b>&hellip; and credited to <?= nb_h(NB_SLIDESHOW_CREDIT) ?>. Classmates' uploads on the normal page are not affected.</p>
+      <div id="uppy-slideshow"></div>
+      <div id="slideMsg" class="hint" role="status" style="margin-top:8px"></div>
+    </details>
   </section>
 
   <?php
@@ -368,7 +370,7 @@ function fmt_bytes(int $b): string
   <?php endif; ?>
 </div>
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/admin-upload.js?v=1"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/admin-upload.js?v=2"></script>
 <?php endif; ?>
 </body>
 </html>

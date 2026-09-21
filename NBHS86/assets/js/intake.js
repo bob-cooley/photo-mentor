@@ -62,7 +62,7 @@ const uppy = new Uppy({
     inline: true,
     target: '#uppy',
     width: '100%',
-    height: 440,
+    height: 330, // 75% of the previous 440
     theme: 'dark',
     proudlyDisplayPoweredByUppy: false,
     showProgressDetails: true,
