@@ -25,8 +25,9 @@ $l2 = nb_credit_labels(['Bob', 'Bob Cooley', 'Bob Adams']);
 check('bare first name stays bare when others need initials', $l2['Bob'], 'Bob');
 check('with initial', $l2['Bob Cooley'], 'Bob C.');
 
-check('anonymous row', nb_credit_for(['anonymous' => 1, 'uploader' => 'Bob'], []), 'Anonymous');
-check('empty name row', nb_credit_for(['anonymous' => 0, 'uploader' => ''], []), 'Anonymous');
+check('anonymous row', nb_credit_for(['anonymous' => 1, 'uploader' => 'Bob'], []), 'NBHS Alumni');
+check('empty name row', nb_credit_for(['anonymous' => 0, 'uploader' => ''], []), 'NBHS Alumni');
+check('a credit override wins over anonymous', nb_credit_for(['anonymous' => 1, 'uploader' => '', 'credit_override' => 'Reunion Committee'], []), 'Reunion Committee');
 check('normal row', nb_credit_for(['anonymous' => 0, 'uploader' => 'Mary Jones'], $l), 'Mary');
 
 echo $fail ? "$fail failure(s)\n" : "all credit tests passed\n";

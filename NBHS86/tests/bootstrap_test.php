@@ -21,7 +21,7 @@ $required = [
     'nb_nav', 'nb_icon', 'nb_selected_rows',
 ];
 $missing = array_values(array_filter($required, fn($f) => !function_exists($f)));
-$consts = ['NB_BASE', 'NB_SCHEMA_VERSION', 'NB_ALBUM_BY_KIND', 'NB_SLIDESHOW_ALBUM', 'NB_SLIDESHOW_CREDIT', 'NB_ZIP_MAX_FILES', 'NB_ZIP_MAX_BYTES', 'NB_TYPES', 'NB_MIME', 'NB_ICONS'];
+$consts = ['NB_BASE', 'NB_SCHEMA_VERSION', 'NB_ALBUM_BY_KIND', 'NB_SLIDESHOW_ALBUM', 'NB_SLIDESHOW_CREDIT', 'NB_ZIP_MAX_FILES', 'NB_ZIP_MAX_BYTES', 'NB_TYPES', 'NB_MIME', 'NB_ICONS', 'NB_ANON_CREDIT'];
 $missingC = array_values(array_filter($consts, fn($c) => !defined($c)));
 exec('rm -rf ' . escapeshellarg($tmp));
 if ($missing || $missingC) {

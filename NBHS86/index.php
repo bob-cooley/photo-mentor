@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/lib/layout.php';
+require_once __DIR__ . '/lib/credits.php';
 
 nb_headers();
 
@@ -36,7 +37,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=5">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=6">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=3">
@@ -78,7 +79,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
     <h2>1. Who's sharing?</h2>
     <label for="uploader">Your name</label>
     <input id="uploader" type="text" autocomplete="name" maxlength="60" placeholder="First and last name">
-    <label class="check"><input id="anon" type="checkbox"> Post anonymously</label>
+    <label class="check"><input id="anon" type="checkbox"> <span>Submit anonymously (your &quot;name&quot; will show up as <?= nb_h(NB_ANON_CREDIT) ?>).</span></label>
     <div class="hint">Photos are credited by first name only.</div>
     <div class="err" id="nameErr" role="alert"></div>
   </section>
@@ -98,7 +99,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
   <footer class="foot">Something not working? Try reloading the page and uploading again &mdash; partial uploads pick up where they left off.</footer>
 </div>
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=3"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=4"></script>
 <?php endif; ?>
 </body>
 </html>

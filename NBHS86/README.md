@@ -14,7 +14,7 @@ The two sides launch separately. Intake goes live first for testing.
 - Access: shared class passcode, stored hashed server-side. **The repo is public. Never commit the passcode, admin password, or any config with secrets.**
 - Moderation: none for now. Uploads go straight into the gallery, in the folder for their type (photos to Photos, videos to Videos, PDFs to Documents), mixed in with the committee's own material. There is no separate classmate folder.
 - Build: custom PHP + vanilla JS assembled from MIT parts (Uppy, PhotoSwipe, ZipStream-PHP), with a small in-repo tus server instead of tus-php (which pulled ~2,500 vendor files). Not Piwigo.
-- Uploader credit: name field plus an "Anonymous" checkbox that bypasses it. Credit is first name only; duplicate first names get last initial appended.
+- Uploader credit: name field plus a "Submit anonymously" checkbox that bypasses it; anonymous uploads are credited as **NBHS Alumni** (`NB_ANON_CREDIT` in `lib/credits.php`, used by the upload page label, gallery, lightbox captions and admin). Credit is first name only; duplicate first names get last initial appended.
 
 ## Layout
 ```

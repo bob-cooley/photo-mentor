@@ -43,8 +43,8 @@ input[type=text], input[type=password] {
 }
 input[type=text]:focus, input[type=password]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 input:disabled { opacity: .45; }
-.check { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-weight: 500; cursor: pointer; }
-.check input { width: 22px; height: 22px; accent-color: var(--accent); }
+.check { display: flex; align-items: flex-start; gap: 10px; margin-top: 12px; font-weight: 500; cursor: pointer; }
+.check input { width: 22px; height: 22px; flex: none; margin: 1px 0 0; accent-color: var(--accent); }
 .err { color: var(--bad); margin-top: 8px; min-height: 1.4em; }
 .hint { color: var(--muted); font-size: .92rem; margin-top: 6px; }
 

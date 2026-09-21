@@ -176,7 +176,7 @@ function fmt_bytes(int $b): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=5">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=6">
 <?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><?php endif; ?>
 </head>
 <body>
@@ -295,7 +295,7 @@ function fmt_bytes(int $b): string
             <td><?= nb_h($r['orig_name']) ?><div class="hint"><?= nb_h($r['kind']) ?><?= str_starts_with((string) $r['source'], 'zip:') ? ' &middot; from ' . nb_h(substr($r['source'], 4)) : '' ?></div></td>
             <td><?= nb_h($folderTitles[$r['album'] ?? ''] ?? (string) $r['album']) ?></td>
             <td><?= nb_h(nb_credit_for($r, $labels)) ?><?= !empty($r['credit_override']) ? ' <span class="hint">(override)</span>' : '' ?></td>
-            <td><?= $r['anonymous'] ? '<span class="hint">(anonymous)</span>' : nb_h($r['uploader']) ?></td>
+            <td><?= $r['anonymous'] ? '<span class="hint">(submitted anonymously)</span>' : nb_h($r['uploader']) ?></td>
             <td><?= nb_h(fmt_bytes((int) $r['size'])) ?></td>
             <td><?= nb_h(date('M j, g:ia', (int) $r['created_at'])) ?></td>
           </tr>

@@ -40,7 +40,7 @@ const uppy = new Uppy({
   onBeforeUpload(files) {
     const name = nameInput.value.trim();
     if (!anon.checked && name === '') {
-      nameErr.textContent = 'Please enter your name, or tick "Post anonymously".';
+      nameErr.textContent = 'Please enter your name, or tick "Submit anonymously".';
       nameInput.focus();
       nameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
       return false;

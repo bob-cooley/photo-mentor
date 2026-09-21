@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+/** The credit shown for anyone who submits anonymously (gallery tiles, lightbox captions, admin). */
+const NB_ANON_CREDIT = 'NBHS Alumni';
+
 /**
  * Credit labels: first name only. If two different people share a first name
  * (their last names differ), disambiguate with the shortest last-name prefix
@@ -74,7 +77,7 @@ function nb_credit_for(array $row, array $labels): string
         return $override;
     }
     if ((int) ($row['anonymous'] ?? 0) === 1 || trim((string) ($row['uploader'] ?? '')) === '') {
-        return 'Anonymous';
+        return NB_ANON_CREDIT;
     }
     return $labels[$row['uploader']] ?? nb_title_case(nb_name_parts($row['uploader'])[0]);
 }
