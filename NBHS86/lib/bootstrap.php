@@ -15,6 +15,8 @@ const NB_MAX_FILE = 2147483648; // 2 GB per file
 const NB_DEFAULT_FOLDER = 'classmate-uploads'; // PHYSICAL storage dir under media/ (never changes); not a gallery folder
 /** Logical gallery folder a new upload lands in, by file type. Bob moves things (e.g. into Slideshows) from the admin page. */
 const NB_ALBUM_BY_KIND = ['image' => 'photos', 'video' => 'videos', 'pdf' => 'documents'];
+const NB_SLIDESHOW_ALBUM = 'slideshows';
+const NB_SLIDESHOW_CREDIT = 'Reunion Committee';
 const NB_ZIP_MAX_FILES = 500;
 const NB_ZIP_MAX_BYTES = 2147483648; // 2 GB per zip download
 
@@ -106,8 +108,8 @@ function nb_db(): PDO
             $pdo->exec('ALTER TABLE media ADD COLUMN seq INTEGER');
         }
         $pdo->exec('CREATE TABLE IF NOT EXISTS counters (kind TEXT PRIMARY KEY, next INTEGER NOT NULL)');
-        nb_backfill_seq($pdo);
         nb_migrate($pdo);
+        nb_backfill_seq($pdo);
     }
     return $pdo;
 }
@@ -126,13 +128,15 @@ function nb_next_seq(PDO $db, string $kind): int
 /** One-time: number any images/videos that predate the numbering, in upload order. */
 function nb_backfill_seq(PDO $db): void
 {
-    if (!(int) $db->query("SELECT COUNT(*) FROM media WHERE seq IS NULL AND kind IN ('image','video')")->fetchColumn()) {
+    $cols = array_column($db->query('PRAGMA table_info(media)')->fetchAll(), 'name');
+    $skipSlides = in_array('slideshow_seq', $cols, true) ? ' AND slideshow_seq IS NULL' : '';
+    if (!(int) $db->query("SELECT COUNT(*) FROM media WHERE seq IS NULL AND kind IN ('image','video')" . $skipSlides)->fetchColumn()) {
         return;
     }
     $db->exec('BEGIN IMMEDIATE');
     try {
         foreach (['image', 'video'] as $kind) {
-            $ids = $db->query("SELECT id FROM media WHERE kind = '$kind' AND seq IS NULL ORDER BY created_at, rowid")->fetchAll(PDO::FETCH_COLUMN);
+            $ids = $db->query("SELECT id FROM media WHERE kind = '$kind' AND seq IS NULL" . $skipSlides . " ORDER BY created_at, rowid")->fetchAll(PDO::FETCH_COLUMN);
             $up = $db->prepare('UPDATE media SET seq = ? WHERE id = ?');
             foreach ($ids as $id) {
                 $up->execute([nb_next_seq($db, $kind), $id]);
@@ -151,13 +155,20 @@ function nb_backfill_seq(PDO $db): void
  */
 function nb_download_name(array $row, bool $converted = false): string
 {
-    if (!in_array($row['kind'], ['image', 'video'], true) || empty($row['seq'])) {
+    if (!in_array($row['kind'], ['image', 'video'], true)) {
         return (string) $row['orig_name'];
     }
     $ext = (string) $row['ext'];
     $ext = ['jpeg' => 'jpg', 'tiff' => 'tif'][$ext] ?? $ext;
     if ($converted && in_array($ext, ['heic', 'heif'], true)) {
         $ext = 'jpg';
+    }
+    // Slideshows have their own permanent numbering: NBHS_slideshow_0001.mp4
+    if (!empty($row['slideshow_seq'])) {
+        return sprintf('NBHS_slideshow_%04d.%s', (int) $row['slideshow_seq'], $ext);
+    }
+    if (empty($row['seq'])) {
+        return (string) $row['orig_name'];
     }
     return sprintf('NBHS_reunions_%04d.%s', (int) $row['seq'], $ext);
 }
@@ -283,6 +294,7 @@ function nb_login_failed(): void
     usleep(700000);
 }
 
+
 // ---------- versioned schema migrations ----------
 
 /** Copy the SQLite file before a schema change. VACUUM INTO is a consistent snapshot even mid-write. */
@@ -306,7 +318,7 @@ function nb_backup_db(PDO $db, string $label): void
     }
 }
 
-const NB_SCHEMA_VERSION = 2;
+const NB_SCHEMA_VERSION = 3;
 
 function nb_migrate(PDO $db): void
 {
@@ -352,6 +364,17 @@ function nb_migrate(PDO $db): void
             $db->exec("INSERT OR IGNORE INTO folders (slug, title, icon, sort) VALUES ('slideshows', 'Slideshows', 'grid', 40)");
             $db->exec("UPDATE media SET album = CASE kind WHEN 'image' THEN 'photos' WHEN 'video' THEN 'videos' ELSE 'documents' END WHERE album = 'classmate-uploads'");
             $db->exec("DELETE FROM folders WHERE slug = 'classmate-uploads'");
+        }
+        if ($v < 3) {
+            // v3: slideshows get their own number series (NBHS_slideshow_0001), assigned when the admin uploads them.
+            $mc = array_column($db->query('PRAGMA table_info(media)')->fetchAll(), 'name');
+            if (!in_array('slideshow_seq', $mc, true)) {
+                $db->exec('ALTER TABLE media ADD COLUMN slideshow_seq INTEGER');
+            }
+            $jc = array_column($db->query('PRAGMA table_info(jobs)')->fetchAll(), 'name');
+            if (!in_array('slideshow', $jc, true)) {
+                $db->exec('ALTER TABLE jobs ADD COLUMN slideshow INTEGER NOT NULL DEFAULT 0');
+            }
         }
         $db->exec('PRAGMA user_version = ' . NB_SCHEMA_VERSION);
         $db->exec('COMMIT');

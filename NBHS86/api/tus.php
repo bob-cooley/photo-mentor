@@ -81,6 +81,7 @@ if ($method === 'POST' && $id === '') {
         'filename' => $filename,
         'uploader' => nb_clean_person_name($meta['uploader'] ?? ''),
         'anonymous' => ($meta['anonymous'] ?? '') === '1' ? 1 : 0,
+        'slideshow' => (nb_is_admin() && ($meta['slideshow'] ?? '') === '1') ? 1 : 0, // ignored unless signed in as admin
         'batch' => preg_replace('/[^a-zA-Z0-9_-]/', '', substr($meta['batch'] ?? '', 0, 40)),
         'created' => time(),
     ]));

@@ -177,6 +177,7 @@ function fmt_bytes(int $b): string
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=4">
+<?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><?php endif; ?>
 </head>
 <body>
 <?php if (!$isAdmin): ?>
@@ -263,6 +264,13 @@ function fmt_bytes(int $b): string
   </section>
 
   <section class="card">
+    <h2>Upload slideshows</h2>
+    <p class="hint" style="margin:0 0 10px">Videos added here go straight into Slideshows, numbered <b>NBHS_slideshow_0001</b>, <b>0002</b>&hellip; and credited to <?= nb_h(NB_SLIDESHOW_CREDIT) ?>. Classmates' uploads on the normal page are not affected.</p>
+    <div id="uppy-slideshow"></div>
+    <div id="slideMsg" class="hint" role="status" style="margin-top:10px"></div>
+  </section>
+
+  <section class="card">
     <div class="stats">
       <div><b><?= (int) $tot['c'] ?></b><span>files</span></div>
       <div><b><?= nb_h(fmt_bytes((int) $tot['s'])) ?></b><span>stored</span></div>
@@ -284,7 +292,7 @@ function fmt_bytes(int $b): string
             <td><input class="pick" type="checkbox" name="ids[]" value="<?= nb_h($r['id']) ?>"></td>
             <td><a href="<?= NB_BASE ?>/api/file.php?id=<?= nb_h($r['id']) ?>" target="_blank" rel="noopener"><img loading="lazy" src="<?= NB_BASE ?>/api/thumb.php?id=<?= nb_h($r['id']) ?>" alt=""></a></td>
             <td><b><?= nb_h(nb_download_name($r, in_array($r['ext'], ['heic', 'heif'], true))) ?></b></td>
-            <td><?= nb_h($r['orig_name']) ?><div class="hint"><?= nb_h($r['kind']) ?><?= $r['source'] ? ' &middot; from ' . nb_h(substr($r['source'], 4)) : '' ?></div></td>
+            <td><?= nb_h($r['orig_name']) ?><div class="hint"><?= nb_h($r['kind']) ?><?= str_starts_with((string) $r['source'], 'zip:') ? ' &middot; from ' . nb_h(substr($r['source'], 4)) : '' ?></div></td>
             <td><?= nb_h($folderTitles[$r['album'] ?? ''] ?? (string) $r['album']) ?></td>
             <td><?= nb_h(nb_credit_for($r, $labels)) ?><?= !empty($r['credit_override']) ? ' <span class="hint">(override)</span>' : '' ?></td>
             <td><?= $r['anonymous'] ? '<span class="hint">(anonymous)</span>' : nb_h($r['uploader']) ?></td>
@@ -329,6 +337,8 @@ function fmt_bytes(int $b): string
     </form>
   <?php endif; ?>
 </div>
+<script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/admin-upload.js?v=1"></script>
 <?php endif; ?>
 </body>
 </html>

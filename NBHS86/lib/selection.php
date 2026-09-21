@@ -14,7 +14,7 @@ function nb_selected_rows(): array
         nb_json(['error' => 'too_many', 'message' => 'A zip can hold up to ' . NB_ZIP_MAX_FILES . ' files. You selected ' . count($ids) . ' - please download in smaller groups.'], 413);
     }
     $ph = implode(',', array_fill(0, count($ids), '?'));
-    $st = nb_db()->prepare("SELECT * FROM media WHERE id IN ($ph) ORDER BY CASE kind WHEN 'image' THEN 0 WHEN 'video' THEN 1 ELSE 2 END, seq, created_at, rowid");
+    $st = nb_db()->prepare("SELECT * FROM media WHERE id IN ($ph) ORDER BY CASE kind WHEN 'image' THEN 0 WHEN 'video' THEN 1 ELSE 2 END, slideshow_seq IS NOT NULL, COALESCE(seq, slideshow_seq), created_at, rowid");
     $st->execute($ids);
     $rows = $st->fetchAll();
     $bytes = array_sum(array_column($rows, 'size'));

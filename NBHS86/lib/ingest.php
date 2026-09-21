@@ -88,7 +88,9 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
     $hash = hash_file('xxh128', $tmpPath);
     $db = nb_db();
     $folder = $meta['folder'] ?? NB_DEFAULT_FOLDER;   // physical storage directory
-    $album = NB_ALBUM_BY_KIND[$kind] ?? 'documents';   // gallery folder
+    // Slideshows come only from the admin upload box (tus.php drops the flag for anyone else) and only as video.
+    $isSlideshow = !empty($meta['slideshow']) && $kind === 'video';
+    $album = $isSlideshow ? NB_SLIDESHOW_ALBUM : (NB_ALBUM_BY_KIND[$kind] ?? 'documents');   // gallery folder
     $id = bin2hex(random_bytes(6));
     $dest = nb_media_path($folder, $id, $ext);
     $anon = !empty($meta['anonymous']) ? 1 : 0;
@@ -108,13 +110,16 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
             throw new RuntimeException('could not store file');
         }
         @chmod($dest, 0600);
-        $seq = in_array($kind, ['image', 'video'], true) ? nb_next_seq($db, $kind) : null;
-        $db->prepare('INSERT INTO media (id, folder, album, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq)
-                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)')
+        // A slideshow takes a slideshow number and NO video number, so Videos never gets a gap.
+        $seq = (!$isSlideshow && in_array($kind, ['image', 'video'], true)) ? nb_next_seq($db, $kind) : null;
+        $slideSeq = $isSlideshow ? nb_next_seq($db, 'slideshow') : null;
+        $db->prepare('INSERT INTO media (id, folder, album, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq, slideshow_seq, credit_override)
+                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)')
             ->execute([
                 $id, $folder, $album, $origName, $ext, $kind, $size, $hash,
-                $anon ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
-                $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(), $seq,
+                ($anon || $isSlideshow) ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
+                $isSlideshow ? 0 : $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(), $seq,
+                $slideSeq, $isSlideshow ? NB_SLIDESHOW_CREDIT : null,
             ]);
         $db->exec('COMMIT');
     } catch (Throwable $e) {
@@ -155,13 +160,13 @@ function nb_ingest_upload(string $binPath, array $meta): array
         @unlink($binPath);
         return ['status' => 'rejected'];
     }
-    nb_db()->prepare('INSERT INTO jobs (id, path, orig_name, uploader, anonymous, batch, folder, created_at) VALUES (?,?,?,?,?,?,?,?)')
+    nb_db()->prepare('INSERT INTO jobs (id, path, orig_name, uploader, anonymous, batch, folder, created_at, slideshow) VALUES (?,?,?,?,?,?,?,?,?)')
         ->execute([
             $jobId, $dest, $name,
             !empty($meta['anonymous']) ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
             !empty($meta['anonymous']) ? 1 : 0,
             substr((string) ($meta['batch'] ?? ''), 0, 40),
-            NB_DEFAULT_FOLDER, time(),
+            NB_DEFAULT_FOLDER, time(), !empty($meta['slideshow']) ? 1 : 0,
         ]);
     nb_run_jobs(12);
     return ['status' => 'zip'];
@@ -218,7 +223,7 @@ function nb_run_zip_job(array $job, float $deadline): void
         return;
     }
 
-    $meta = ['uploader' => $job['uploader'], 'anonymous' => (int) $job['anonymous'], 'batch' => $job['batch'], 'folder' => $job['folder']];
+    $meta = ['uploader' => $job['uploader'], 'anonymous' => (int) $job['anonymous'], 'batch' => $job['batch'], 'folder' => $job['folder'], 'slideshow' => (int) ($job['slideshow'] ?? 0)];
     $added = (int) $job['added'];
     $skipped = (int) $job['skipped'];
     $save = $db->prepare('UPDATE jobs SET next_index = ?, added = ?, skipped = ? WHERE id = ?');
