@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-20T22:56:48.382640+00:00",
-  "text": "Marathon Petroleum stock gained 0.7% today to close at $424.89, continuing a sharp nine-day rally that has added nearly 10% to its price. The core driver is the escalating Middle East conflict: Iran has closed the Strait of Hormuz, Houthi attacks on Saudi infrastructure are intensifying, and the State Department warned Americans against travel to the region. These geopolitical risks are tightening global oil supplies, pushing world crude to $130.80 per barrel\u2014well above the U.S. price of $107\u2014and refineries are running at 96.8% capacity, a very high utilization rate that amplifies refinery profits when oil supplies feel constrained.\n\nThe timing matters: U.S. refiners like Marathon benefit directly when Middle East turmoil disrupts supply flows, because they can process available crude at wider profit margins. The market's concern that Saudi pipeline damage \"is less disruptive than feared\" (from September 18) briefly capped the rally, but ongoing Strait closure and fresh attacks around Riyadh's airport have kept energy prices elevated, supporting the refiner's stock push higher through the week.",
+  "fetchedAt": "2026-09-21T00:49:54.355246+00:00",
+  "text": "Marathon Petroleum shares climbed 0.69% today to close at $424.89, extending a sharp nine-day rally that's now up 9.59%. The stock's strength reflects a combination of tight refining conditions and geopolitical supply risk: U.S. refineries are running at 96.8% capacity, close to maximum, while Middle East tensions\u2014Iran closing the Strait of Hormuz, Houthi attacks on Saudi infrastructure near Riyadh airport, and U.S.-Iran military escalation\u2014have pushed global crude to $130.80 per barrel, well above the U.S. price of $107.02. For a refiner like MPC, higher oil prices and full operating rates mean stronger profit margins on the fuel it produces and sells.\n\nThe rally reflects investors pricing in lasting supply disruption risk. Even though this week's market reaction to the Saudi pipeline outage was initially muted, the escalating border clashes and Iran's control of a critical shipping route suggest the conflict could persist\u2014keeping crude expensive and refineries fully booked for weeks to come.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 150,
-    "inputTokens": 138150,
-    "outputTokens": 32437,
-    "estimatedCostUsd": 0.300335,
-    "lastCallHour": "2026-09-20T22"
+    "callsThisMonth": 151,
+    "inputTokens": 139072,
+    "outputTokens": 32675,
+    "estimatedCostUsd": 0.302447,
+    "lastCallHour": "2026-09-21T00"
   }
 }
