@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T22:06:55.099613+00:00",
-  "text": "Marathon Petroleum fell 5.3% today after U.S. crude oil prices dropped sharply Monday, tumbling below $100 per barrel as traders bet on a possible diplomatic opening between the U.S. and Iran at the UN. The stock had climbed steeply over the prior four trading days on Middle East supply fears, but the softening geopolitical risk removed that tailwind. Refiners like Marathon profit from the difference between crude oil costs and finished fuel prices \u2014 when crude falls this quickly, margins compress.\n\nThe broader tension is real: Saudi Arabia's key East-West pipeline remains shut, the Strait of Hormuz is still contested, and Houthi attacks continue. But markets are now pricing in the possibility that negotiations could ease these bottlenecks rather than escalate them. That shift in sentiment, not a change in the underlying supply disruptions themselves, drove the stock down sharply today.",
+  "fetchedAt": "2026-09-21T23:05:08.223869+00:00",
+  "text": "Marathon Petroleum fell 5.3% today after US crude oil prices tumbled below $100 a barrel on news that Trump signaled openness to talks with Iran at the UN. The stock had surged 7.4% over the prior four trading days as geopolitical tensions in the Middle East kept oil prices elevated, but that premium collapsed Monday as traders saw a potential off-ramp to the crisis\u2014lower oil prices mean lower feedstock costs for refineries but also lower margins on refined products.\n\nRefineries are running at 96.8% capacity, near maximum, which usually favors strong margins when crude is expensive; the reversal of that dynamic\u2014falling crude with demand still steady\u2014removes the tailwind that drove the stock higher last week. The shift hinges entirely on whether diplomatic talks actually materialize or whether tensions reignite, making the stock highly sensitive to headlines from the UN meeting and any Saudi production updates.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 163,
-    "inputTokens": 150175,
-    "outputTokens": 35327,
-    "estimatedCostUsd": 0.32681,
-    "lastCallHour": "2026-09-21T22"
+    "callsThisMonth": 164,
+    "inputTokens": 151108,
+    "outputTokens": 35526,
+    "estimatedCostUsd": 0.328738,
+    "lastCallHour": "2026-09-21T23"
   }
 }
