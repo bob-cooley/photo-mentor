@@ -181,7 +181,7 @@ function fmt_bytes(int $b): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=10">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=11">
 <?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7"><?php endif; ?>
 </head>
 <body>

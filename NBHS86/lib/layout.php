@@ -38,5 +38,5 @@ function nb_header_image(): string
     $v = '?v=1'; // bump when the picture is replaced (images are cached for a year)
     return '<header class="site-header"><img class="site-header-img" src="' . $b . 'nbhs86-header-727.jpg' . $v . '"'
         . ' srcset="' . $b . 'nbhs86-header-485.jpg' . $v . ' 485w, ' . $b . 'nbhs86-header-727.jpg' . $v . ' 727w, ' . $b . 'nbhs86-header.jpg' . $v . ' 1455w"'
-        . ' sizes="242px" width="1455" height="600" alt="NB Class of \'86 and friends" decoding="async" fetchpriority="high"></header>';
+        . ' sizes="(max-width: 900px) 242px, 485px" width="1455" height="600" alt="NB Class of \'86 and friends" decoding="async" fetchpriority="high"></header>';
 }

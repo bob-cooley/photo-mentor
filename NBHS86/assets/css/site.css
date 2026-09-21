@@ -94,8 +94,8 @@ table.grid img { width: 72px; height: 54px; object-fit: cover; border-radius: 6p
 .inline select, table.grid select { background: var(--panel-2); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font: inherit; }
 table.grid input[type=text] { padding: 8px 10px; }
 
-/* Header art. --header-h is the picture's height; tablet and phone values below (all 100px to start). */
-:root { --header-h: 100px; }
+/* Header art. --header-h is the picture's height; tablet and phone values below (desktop 200px, tablet and phone 100px). */
+:root { --header-h: 200px; }
 .site-header { display: flex; justify-content: center; margin: 0 0 12px; }
 .site-header-img { display: block; height: var(--header-h); width: auto; max-width: 100%; }
 @media (max-width: 900px) { /* tablet */
