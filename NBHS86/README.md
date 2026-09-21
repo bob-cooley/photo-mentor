@@ -12,7 +12,7 @@ The two sides launch separately. Intake goes live first for testing.
 
 ## Decisions (2026-09-20)
 - Access: shared class passcode, stored hashed server-side. **The repo is public. Never commit the passcode, admin password, or any config with secrets.**
-- Moderation: none for now. Uploads go straight to a public "Classmate uploads" folder.
+- Moderation: none for now. Uploads go straight into the gallery, in the folder for their type (photos to Photos, videos to Videos, PDFs to Documents), mixed in with the committee's own material. There is no separate classmate folder.
 - Build: custom PHP + vanilla JS assembled from MIT parts (Uppy, PhotoSwipe, ZipStream-PHP), with a small in-repo tus server instead of tus-php (which pulled ~2,500 vendor files). Not Piwigo.
 - Uploader credit: name field plus an "Anonymous" checkbox that bypasses it. Credit is first name only; duplicate first names get last initial appended.
 
@@ -36,7 +36,7 @@ NBHS86/
 ```
 
 ## Gallery behavior
-- **Folders** (table `folders`): Photos (camera), Videos/Slideshows (film), Documents (file-text), Classmate uploads (grid). Icons are Lucide (ISC). Intake always lands in Classmate uploads; Bob moves files with the admin page. A file's folder (`album`) is separate from where it sits on disk (`folder`).
+- **Folders** (table `folders`): Photos (camera), Videos (film), Documents (file-text), Slideshows (grid). Icons are Lucide (ISC). New uploads land by type (`NB_ALBUM_BY_KIND`); Slideshows starts empty and Bob moves items into it from the admin page. A file's folder (`album`) is separate from where it sits on disk (`folder`, always `media/classmate-uploads/`, never changes).
 - **Launch switches** (table `settings`): `gallery_open` (default closed) and `intake_open` (default open), toggled in the admin page. Admin always sees both sides.
 - **Sorting**: default is arrival order; shot date (oldest/newest first) is an option. Shot date, width and height are read with exiftool at ingest (and lazily for older files); files with no date sort last.
 - **Privacy**: every view and download is served from a GPS-free copy (`derived/<id>-clean.<ext>`, created with exiftool on first use). Originals are only served to the admin (`?raw=1`). If exiftool is missing the admin page warns.

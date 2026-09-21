@@ -87,7 +87,8 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
     $size = (int) filesize($tmpPath);
     $hash = hash_file('xxh128', $tmpPath);
     $db = nb_db();
-    $folder = $meta['folder'] ?? NB_DEFAULT_FOLDER;
+    $folder = $meta['folder'] ?? NB_DEFAULT_FOLDER;   // physical storage directory
+    $album = NB_ALBUM_BY_KIND[$kind] ?? 'documents';   // gallery folder
     $id = bin2hex(random_bytes(6));
     $dest = nb_media_path($folder, $id, $ext);
     $anon = !empty($meta['anonymous']) ? 1 : 0;
@@ -111,7 +112,7 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
         $db->prepare('INSERT INTO media (id, folder, album, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq)
                       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)')
             ->execute([
-                $id, $folder, $folder, $origName, $ext, $kind, $size, $hash,
+                $id, $folder, $album, $origName, $ext, $kind, $size, $hash,
                 $anon ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
                 $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(), $seq,
             ]);

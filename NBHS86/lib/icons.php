@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 // Icons from Lucide (https://lucide.dev), ISC license. One consistent set: 24px, 2px rounded stroke.
-// camera = Photos, film = Videos/Slideshows, file-text = Documents, grid = Classmate uploads.
+// camera = Photos, film = Videos, file-text = Documents, grid = Slideshows.
 // download / play / check are UI icons from the same set.
 
 const NB_ICONS = [

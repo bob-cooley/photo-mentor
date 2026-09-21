@@ -12,7 +12,9 @@ const NB_BASE = '/NBHS86';
 const NB_MEMBER_COOKIE = 'nbhs86_member';
 const NB_ADMIN_COOKIE = 'nbhs86_admin';
 const NB_MAX_FILE = 2147483648; // 2 GB per file
-const NB_DEFAULT_FOLDER = 'classmate-uploads';
+const NB_DEFAULT_FOLDER = 'classmate-uploads'; // PHYSICAL storage dir under media/ (never changes); not a gallery folder
+/** Logical gallery folder a new upload lands in, by file type. Bob moves things (e.g. into Slideshows) from the admin page. */
+const NB_ALBUM_BY_KIND = ['image' => 'photos', 'video' => 'videos', 'pdf' => 'documents'];
 const NB_ZIP_MAX_FILES = 500;
 const NB_ZIP_MAX_BYTES = 2147483648; // 2 GB per zip download
 
@@ -304,7 +306,7 @@ function nb_backup_db(PDO $db, string $label): void
     }
 }
 
-const NB_SCHEMA_VERSION = 1;
+const NB_SCHEMA_VERSION = 2;
 
 function nb_migrate(PDO $db): void
 {
@@ -317,7 +319,8 @@ function nb_migrate(PDO $db): void
     }
     $db->exec('BEGIN IMMEDIATE');
     try {
-        if ((int) $db->query('PRAGMA user_version')->fetchColumn() < 1) {
+        $v = (int) $db->query('PRAGMA user_version')->fetchColumn();
+        if ($v < 1) {
             // v1: gallery. Logical folders (album) are separate from where a file sits on disk (folder).
             $cols = array_column($db->query('PRAGMA table_info(media)')->fetchAll(), 'name');
             foreach (['album TEXT', 'credit_override TEXT', 'taken_at INTEGER', 'w INTEGER', 'h INTEGER'] as $def) {
@@ -341,6 +344,14 @@ function nb_migrate(PDO $db): void
                       ['documents', 'Documents', 'file-text', 30], [NB_DEFAULT_FOLDER, 'Classmate uploads', 'grid', 40]] as $f) {
                 $ins->execute($f);
             }
+        }
+        if ($v < 2) {
+            // v2: folders are Photos / Videos / Documents / Slideshows. No separate classmate folder: everything
+            // that was in it goes to the folder for its type.
+            $db->exec("UPDATE folders SET title = 'Videos' WHERE slug = 'videos' AND title = 'Videos/Slideshows'");
+            $db->exec("INSERT OR IGNORE INTO folders (slug, title, icon, sort) VALUES ('slideshows', 'Slideshows', 'grid', 40)");
+            $db->exec("UPDATE media SET album = CASE kind WHEN 'image' THEN 'photos' WHEN 'video' THEN 'videos' ELSE 'documents' END WHERE album = 'classmate-uploads'");
+            $db->exec("DELETE FROM folders WHERE slug = 'classmate-uploads'");
         }
         $db->exec('PRAGMA user_version = ' . NB_SCHEMA_VERSION);
         $db->exec('COMMIT');
