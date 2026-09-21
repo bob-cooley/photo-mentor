@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T20:40:41.821683+00:00",
-  "text": "ConocoPhillips fell 3.25% today as crude oil prices tumbled below $100 a barrel\u2014a sharp reversal from the geopolitical premium that had pushed prices higher earlier in the week. The drop came after Trump signaled openness to talks with Iran at the UN, easing some of the market's fear about a wider conflict in the Middle East. Even with the Strait of Hormuz effectively closed and Saudi Arabia's East-West pipeline shut down, traders are betting that diplomatic de-escalation could outweigh the supply constraints.\n\nOil majors like ConocoPhillips are sensitive to crude prices because their profits hinge on the spread between what they buy oil for and what they sell products for\u2014and a $30+ drop in global oil prices over two weeks (from the $130s to near $108) directly erodes that margin. The company has given back most of its gains from last week's panic-driven rally.",
+  "fetchedAt": "2026-09-21T21:06:10.210231+00:00",
+  "text": "ConocoPhillips fell 3.3% today as U.S. crude oil prices tumbled below $100 a barrel\u2014the main driver of the stock's decline over the past week. The drop came after President Trump signaled openness to talks with Iran at the UN, which eased traders' fears of an immediate supply crisis despite ongoing Middle East tensions and the shutdown of Saudi Arabia's East-West pipeline. Oil majors like ConocoPhillips move inversely to crude prices when prices fall sharply, since lower oil undermines their earnings from production and refining.\n\nThe stock has now lost 5% over two weeks even as geopolitical risk remains high in the region. This reflects the market's split focus: while pipeline outages and Houthi attacks create genuine supply risks, the possibility of diplomatic talks has dampened the panic premium that typically keeps crude prices elevated during escalations in the Middle East.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 161,
-    "inputTokens": 139338,
-    "outputTokens": 34062,
-    "estimatedCostUsd": 0.309648,
-    "lastCallHour": "2026-09-21T20"
+    "callsThisMonth": 162,
+    "inputTokens": 140208,
+    "outputTokens": 34261,
+    "estimatedCostUsd": 0.311513,
+    "lastCallHour": "2026-09-21T21"
   }
 }

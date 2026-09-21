@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T20:40:58.268048+00:00",
-  "text": "Marathon Petroleum's stock fell 5.3% today after U.S. crude oil dropped below $100 per barrel\u2014a sharp reversal from the stock's climb to nearly $425 over the prior three days. The oil price decline was driven by signals that diplomacy between the U.S. and Iran might be possible, easing some of the geopolitical premium that had been pushing crude higher. For a refiner, lower oil prices compress the profit margin on turning crude into gasoline and diesel, even though the company benefits from cheaper input costs.\n\nThe broader picture remains volatile: Middle East tensions are still high (Saudi pipeline shutdowns, Houthi attacks, the Strait of Hormuz closed), and refineries are running at 96.8% capacity with healthy fuel inventories, leaving little room for demand surprises. The stock's sharp three-day rally into today suggests traders had been pricing in a wider oil shock; today's pullback reflects a recalibration now that a diplomatic off-ramp has appeared plausible.",
+  "fetchedAt": "2026-09-21T21:06:42.920762+00:00",
+  "text": "Marathon Petroleum fell 5.3% today after crude oil prices tumbled below $100 per barrel\u2014a sharp reversal from the stock's four-day rally that had pushed it up nearly $30. The drop came as traders interpreted Trump's openness to talks with Iran as a sign that geopolitical tensions in the Middle East might ease, reducing the risk of further supply disruptions and the tight market conditions that had been supporting oil prices higher earlier in the week.\n\nThe timing matters: MPC had been riding a wave of escalating Mideast crisis fears\u2014Houthi attacks, the Saudi East-West pipeline shutdown, and the Strait of Hormuz closure all pushed crude up to $130 globally and supported refiner margins. Today's pivot toward potential diplomacy undercut that tailwind, even though refineries are still running near full capacity (96.8%) and U.S. oil storage remains relatively lean, which would normally support prices and refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 161,
-    "inputTokens": 148307,
-    "outputTokens": 34918,
-    "estimatedCostUsd": 0.322897,
-    "lastCallHour": "2026-09-21T20"
+    "callsThisMonth": 162,
+    "inputTokens": 149242,
+    "outputTokens": 35129,
+    "estimatedCostUsd": 0.324887,
+    "lastCallHour": "2026-09-21T21"
   }
 }
