@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T00:49:38.062726+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp two-week decline of nearly 3% that accelerated dramatically on September 16. The recent collapse doesn't match what you'd expect from oil prices alone \u2014 U.S. crude is trading at $107 per barrel, well above historical averages. Instead, the selloff reflects deepening Middle East conflict: Iran has closed the Strait of Hormuz, Houthis are intensifying attacks on Saudi infrastructure (including near Riyadh's airport this week), and the State Department is now urging Americans to reconsider travel to the region. While these tensions typically support oil prices, the market appears to be pricing in growing recession risk from record diesel costs rippling through transportation and the broader economy.\n\nThe stock's weakness also reflects a pessimistic reading of supply disruption risks. Oil markets initially shrugged off Saudi pipeline damage as \"less disruptive than feared,\" but the situation has deteriorated since then with escalating cross-border attacks. When energy stocks fall despite high commodity prices, it often signals that investors are worried about near-term demand destruction from economic slowdown outweighing the benefit of supply constraints.",
+  "fetchedAt": "2026-09-21T01:06:40.324016+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, extending a two-week slide of nearly 3%. The stock has tumbled sharply since September 15th amid escalating Middle East tensions\u2014Iran has closed the Strait of Hormuz, the Houthis are intensifying attacks on shipping, and there are reports of strikes near Saudi Arabia's main airport. Despite these geopolitical flashpoints that normally support oil prices, the market appears to be pricing in that disruptions will be contained; the fact that Saudi pipeline damage was seen as \"less disruptive than feared\" suggests traders don't yet expect a sustained supply shock that would lift energy stocks.\n\nThe disconnect between rising geopolitical risk and falling oil stocks hints at deeper economic concern. Record diesel prices are already hitting transportation hard, and if energy costs stay elevated, demand could weaken across the broader economy\u2014which would pressure both crude prices and refiner margins over time. In this environment, the stock may be caught between fear of supply disruption (bullish for prices) and fear of demand destruction (bearish for volumes and profitability).",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 151,
-    "inputTokens": 130677,
-    "outputTokens": 31897,
-    "estimatedCostUsd": 0.290162,
-    "lastCallHour": "2026-09-21T00"
+    "callsThisMonth": 152,
+    "inputTokens": 131547,
+    "outputTokens": 32136,
+    "estimatedCostUsd": 0.292227,
+    "lastCallHour": "2026-09-21T01"
   }
 }

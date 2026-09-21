@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T00:49:54.355246+00:00",
-  "text": "Marathon Petroleum shares climbed 0.69% today to close at $424.89, extending a sharp nine-day rally that's now up 9.59%. The stock's strength reflects a combination of tight refining conditions and geopolitical supply risk: U.S. refineries are running at 96.8% capacity, close to maximum, while Middle East tensions\u2014Iran closing the Strait of Hormuz, Houthi attacks on Saudi infrastructure near Riyadh airport, and U.S.-Iran military escalation\u2014have pushed global crude to $130.80 per barrel, well above the U.S. price of $107.02. For a refiner like MPC, higher oil prices and full operating rates mean stronger profit margins on the fuel it produces and sells.\n\nThe rally reflects investors pricing in lasting supply disruption risk. Even though this week's market reaction to the Saudi pipeline outage was initially muted, the escalating border clashes and Iran's control of a critical shipping route suggest the conflict could persist\u2014keeping crude expensive and refineries fully booked for weeks to come.",
+  "fetchedAt": "2026-09-21T01:07:30.789756+00:00",
+  "text": "Marathon Petroleum stock has climbed nearly 10% over the past two weeks, with today's modest gain of 0.69% continuing that uptrend. The core driver is geopolitical tension in the Middle East\u2014Iran has closed the Strait of Hormuz, Houthi attacks on Saudi infrastructure have intensified, and flames were reported near Riyadh's airport on September 19th. These disruptions to global oil supplies have pushed world crude prices to $130.80 per barrel, a level high enough to improve refining margins and boost the value of Marathon's operations.\n\nUS refineries are running at 96.8% capacity with strong demand signals, and inventory levels remain moderate\u2014conditions that typically favor margin-friendly operations when crude prices spike due to supply concerns. The market appears to be pricing in sustained elevated oil costs from the Middle East tensions rather than expecting a quick resolution, which benefits refiners that can process crude into fuel and sell it at elevated prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 151,
-    "inputTokens": 139072,
-    "outputTokens": 32675,
-    "estimatedCostUsd": 0.302447,
-    "lastCallHour": "2026-09-21T00"
+    "callsThisMonth": 152,
+    "inputTokens": 139994,
+    "outputTokens": 32885,
+    "estimatedCostUsd": 0.304419,
+    "lastCallHour": "2026-09-21T01"
   }
 }
