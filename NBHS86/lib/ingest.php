@@ -113,13 +113,15 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
         // A slideshow takes a slideshow number and NO video number, so Videos never gets a gap.
         $seq = (!$isSlideshow && in_array($kind, ['image', 'video'], true)) ? nb_next_seq($db, $kind) : null;
         $slideSeq = $isSlideshow ? nb_next_seq($db, 'slideshow') : null;
-        $db->prepare('INSERT INTO media (id, folder, album, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq, slideshow_seq, credit_override)
-                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)')
+        // A classmate's video with a phone-default name (IMG_1234.MOV, PXL_..., VID-...-WA0001) gets NBHS-friends_NNNN.
+        $friendsSeq = (!$isSlideshow && $kind === 'video' && nb_is_phone_video_name($origName)) ? nb_next_seq($db, 'friends') : null;
+        $db->prepare('INSERT INTO media (id, folder, album, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq, slideshow_seq, credit_override, friends_seq)
+                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)')
             ->execute([
                 $id, $folder, $album, $origName, $ext, $kind, $size, $hash,
                 ($anon || $isSlideshow) ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
                 $isSlideshow ? 0 : $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(), $seq,
-                $slideSeq, $isSlideshow ? NB_SLIDESHOW_CREDIT : null,
+                $slideSeq, $isSlideshow ? NB_SLIDESHOW_CREDIT : null, $friendsSeq,
             ]);
         $db->exec('COMMIT');
     } catch (Throwable $e) {

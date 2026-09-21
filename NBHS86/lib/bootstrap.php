@@ -16,6 +16,27 @@ const NB_DEFAULT_FOLDER = 'classmate-uploads'; // PHYSICAL storage dir under med
 /** Logical gallery folder a new upload lands in, by file type. Bob moves things (e.g. into Slideshows) from the admin page. */
 const NB_ALBUM_BY_KIND = ['image' => 'photos', 'video' => 'videos', 'pdf' => 'documents'];
 const NB_SLIDESHOW_ALBUM = 'slideshows';
+const NB_FRIENDS_PREFIX = 'NBHS-friends_';
+
+/**
+ * Default names that phones and their apps give videos. A classmate's video whose whole name matches one of
+ * these is renamed NBHS-friends_0001.<ext>; anything else keeps its own name (spaces as dashes).
+ * Sources: iPhone camera IMG_1234.MOV and edited IMG_E1234.MOV (JEITA DCF standard, Apple Community);
+ * iPhone screen recording RPReplay_Final<number>.MP4 (ReplayKit); Google Pixel PXL_YYYYMMDD_HHMMSSmmm.mp4;
+ * Android/AOSP VID_YYYYMMDD_HHMMSS.mp4 (and older video-YYYY-MM-DD-HH-MM-SS); Samsung YYYYMMDD_HHMMSS.mp4;
+ * WhatsApp VID-YYYYMMDD-WA0001.mp4; Telegram video_YYYY-MM-DD_HH-MM-SS.mp4.
+ * A trailing " (1)" is allowed (browsers and iCloud add it to repeat downloads). The extension is ignored.
+ */
+const NB_PHONE_VIDEO_PATTERNS = [
+    '/^IMG_E?\d{4,}$/i',
+    '/^RPReplay_Final\d+$/i',
+    '/^PXL_\d{8}_\d{6,9}(?:\.[A-Za-z0-9-]+)*$/i',
+    '/^VID_\d{8}_\d{6,9}(?:_\d+)?$/i',
+    '/^video-\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2}$/i',
+    '/^\d{8}_\d{6,9}(?:_\d+)?$/',
+    '/^VID-\d{8}-WA\d{4,}$/i',
+    '/^video_\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}$/i',
+];
 const NB_SLIDESHOW_CREDIT = 'Reunion Committee';
 const NB_ZIP_MAX_FILES = 500;
 const NB_ZIP_MAX_BYTES = 2147483648; // 2 GB per zip download
@@ -151,10 +172,6 @@ function nb_backfill_seq(PDO $db): void
 }
 
 /**
- * The name everyone sees and downloads. Photos/videos: NBHS_reunions_0001.<ext>; anything else keeps its
- * uploaded name. $converted = the file is being served as a JPEG made from a HEIC.
- */
-/**
  * A file's original name with spaces turned into dashes ("Reunion Video 1985.mp4" -> "Reunion-Video-1985.mp4"),
  * so the name is identical everywhere and never shows up as %20. A space next to a dash collapses into it
  * ("Video - 1985" -> "Video-1985"); anything else in the name is left exactly as uploaded.
@@ -172,18 +189,34 @@ function nb_dash_spaces(string $name): string
     return (string) preg_replace("/$sp*-$sp*|$sp+/u", '-', $name) . $ext;
 }
 
+/** True if a video's uploaded file name is one of the phone defaults listed in NB_PHONE_VIDEO_PATTERNS. */
+function nb_is_phone_video_name(string $filename): bool
+{
+    $base = trim((string) preg_replace('/\.[A-Za-z0-9]{2,5}$/', '', trim($filename)));
+    $base = trim((string) preg_replace('/\s*\(\d+\)$/', '', $base)); // "IMG_1234 (1)" -> "IMG_1234"
+    foreach (NB_PHONE_VIDEO_PATTERNS as $re) {
+        if (preg_match($re, $base) === 1) {
+            return true;
+        }
+    }
+    return false;
+}
+
 /**
  * The name everyone sees and downloads.
- *   photos      NBHS_reunions_0001.jpg   (numbered once, at upload; HEIC downloads as .jpg)
- *   slideshows  NBHS_slideshow_0001.mp4  (their own series, added by the admin)
- *   videos, PDFs and anything else keep their own uploaded name, with spaces as dashes
+ *   photos                      NBHS_reunions_0001.jpg    (numbered once, at upload; HEIC downloads as .jpg)
+ *   slideshows                  NBHS_slideshow_0001.mp4   (their own series, added by the admin)
+ *   classmates' phone videos    NBHS-friends_0001.mov     (only when the uploaded name is a phone default)
+ *   every other video, PDFs...  their own uploaded name with spaces as dashes
  * $converted = the file is being served as a JPEG made from a HEIC.
  */
 function nb_download_name(array $row, bool $converted = false): string
 {
     if ($row['kind'] === 'video' && !empty($row['slideshow_seq'])) {
-        $ext = (string) $row['ext'];
-        return sprintf('NBHS_slideshow_%04d.%s', (int) $row['slideshow_seq'], $ext);
+        return sprintf('NBHS_slideshow_%04d.%s', (int) $row['slideshow_seq'], (string) $row['ext']);
+    }
+    if ($row['kind'] === 'video' && !empty($row['friends_seq'])) {
+        return sprintf(NB_FRIENDS_PREFIX . '%04d.%s', (int) $row['friends_seq'], strtolower((string) $row['ext']));
     }
     if ($row['kind'] === 'image' && !empty($row['seq'])) {
         $ext = (string) $row['ext'];
@@ -393,7 +426,7 @@ function nb_list_backups(): array
     return $out;
 }
 
-const NB_SCHEMA_VERSION = 3;
+const NB_SCHEMA_VERSION = 4;
 
 function nb_migrate(PDO $db): void
 {
@@ -449,6 +482,14 @@ function nb_migrate(PDO $db): void
             $jc = array_column($db->query('PRAGMA table_info(jobs)')->fetchAll(), 'name');
             if (!in_array('slideshow', $jc, true)) {
                 $db->exec('ALTER TABLE jobs ADD COLUMN slideshow INTEGER NOT NULL DEFAULT 0');
+            }
+        }
+        if ($v < 4) {
+            // v4: classmates' phone-named videos get their own number series (NBHS-friends_0001). Existing rows are
+            // left alone (they keep their own names); only new uploads are numbered.
+            $mc = array_column($db->query('PRAGMA table_info(media)')->fetchAll(), 'name');
+            if (!in_array('friends_seq', $mc, true)) {
+                $db->exec('ALTER TABLE media ADD COLUMN friends_seq INTEGER');
             }
         }
         $db->exec('PRAGMA user_version = ' . NB_SCHEMA_VERSION);
