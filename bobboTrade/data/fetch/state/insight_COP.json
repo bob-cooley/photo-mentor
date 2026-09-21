@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T05:07:00.700411+00:00",
-  "text": "COP fell 1% today to $131.83, extending a two-week slide of nearly 3%. The main driver is a sharp drop in oil prices: US crude fell to $107 per barrel from $141 just three days ago on September 15th. Traders are reassessing Middle East supply disruptions as less severe than initially feared\u2014Saudi Arabia's key pipeline outage appears manageable, and crude flows remain \"surprisingly strong\" despite ongoing Houthi attacks and Iran tensions. For an oil major like ConocoPhillips, lower crude prices directly cut into near-term earnings and cash flow.\n\nThe broader backdrop remains genuinely unstable\u2014Iran has vowed retaliation, the US has escalated rhetoric, and the Strait of Hormuz remains a flashpoint\u2014but markets are trading on the reality that supplies haven't tightened as much as the headlines might suggest. That disconnect between geopolitical risk and actual supply disruption is what's pushing prices lower and weighing on the stock.",
+  "fetchedAt": "2026-09-21T11:53:36.580237+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp slide from last week's peak of $141.22. The decline reflects a broader pullback in oil prices\u2014U.S. crude has retreated below $100 per barrel as traders bet on near-term supply relief, including expected recovery of Saudi Arabian shipments and tentative diplomatic signals between the U.S. and Iran. Even though Middle East tensions remain high (Iranian leadership threats, Houthi attacks, pipeline damage), the market is pricing in the possibility that some kind of deal or de-escalation could ease the supply squeeze.\n\nThe stock's two-week drop of nearly 3% sits against a backdrop of competing forces: real infrastructure damage in Saudi Arabia and ongoing Strait of Hormuz disruptions that should favor crude prices, but softer oil demand expectations and negotiation hopes that have taken the pressure off. For an oil major like ConocoPhillips, lower crude prices directly reduce both production value and refining margins, which explains why the stock is moving in step with the oil price retreat rather than holding steady despite geopolitical risk.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 155,
-    "inputTokens": 134132,
-    "outputTokens": 32791,
-    "estimatedCostUsd": 0.298087,
-    "lastCallHour": "2026-09-21T05"
+    "callsThisMonth": 156,
+    "inputTokens": 135002,
+    "outputTokens": 33036,
+    "estimatedCostUsd": 0.300182,
+    "lastCallHour": "2026-09-21T11"
   }
 }

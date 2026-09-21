@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T05:07:13.175481+00:00",
-  "text": "Marathon Petroleum has climbed nearly 10% over two weeks, with today's modest gain continuing that streak. The rally is driven by a sharp rise in global crude oil prices\u2014world oil is trading at $130.80 per barrel, up significantly from typical levels\u2014fueled by escalating Middle East tensions. Iran's threats of retaliation against Trump administration pressure, combined with Houthi attacks on shipping and closure of the Strait of Hormuz, have created supply-chain anxiety that pushes crude prices higher and widens refinery profit margins.\n\nRefineries are running at 96.8% capacity while global crude supplies tighten, which means Marathon's plants are operating near full throttle at a time when they can earn more from each barrel they process\u2014the gap between crude costs and refined product prices widens when crude gets expensive and scarce. This is the sweet spot for refiners, and the market is pricing in sustained geopolitical risk keeping oil elevated.",
+  "fetchedAt": "2026-09-21T11:53:55.962912+00:00",
+  "text": "Marathon Petroleum has climbed 9.6% over two weeks and gained another 0.7% today, riding a sharp rally since September 11th. The move reflects a tightening physical oil market: U.S. crude is trading at $107 per barrel while world crude sits at $130.80\u2014a $23.80 gap that signals regional supply stress\u2014and refineries are running at 96.8% capacity, near maximum. Saudi Arabia's East-West pipeline shutdown, combined with ongoing Houthi attacks and geopolitical tensions in the Middle East, has constrained crude supply globally, which typically boosts margins for U.S. refiners who benefit when crude prices rise relative to refined product values.\n\nThe stock's momentum also reflects that U.S. crude has pulled back from earlier highs (falling below $100 this week on diplomatic signals) while the world price remains elevated, giving American refiners access to cheaper feedstock relative to global competitors. This supply disruption and price divergence is exactly the environment that tends to benefit domestic refining operations.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 155,
-    "inputTokens": 142719,
-    "outputTokens": 33595,
-    "estimatedCostUsd": 0.310694,
-    "lastCallHour": "2026-09-21T05"
+    "callsThisMonth": 156,
+    "inputTokens": 143654,
+    "outputTokens": 33827,
+    "estimatedCostUsd": 0.312789,
+    "lastCallHour": "2026-09-21T11"
   }
 }
