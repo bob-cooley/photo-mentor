@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T04:01:56.206424+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp downturn that started after the stock spiked to $141.22 just three days ago on September 15th. The reversal appears tied to oil prices sliding as crude supplies prove more resilient than feared\u2014despite ongoing Middle East tensions including Houthi attacks and Iranian threats to the Strait of Hormuz, traders are pricing in a recovery in Saudi Arabian shipments, which is pulling crude down from earlier spikes. US oil prices currently sit at $107 per barrel, down meaningfully from levels that would have supported the stock's mid-September peak.\n\nThe broader pattern here reflects how oil stocks move in lockstep with crude prices and supply expectations. Even though geopolitical risks\u2014Iranian escalation, attacks near Saudi infrastructure, and shipping threats\u2014remain very real and could disrupt supplies at any moment, the market is currently trading on the assumption that those risks won't fully materialize, weighing down both oil and integrated energy companies like ConocoPhillips.",
+  "fetchedAt": "2026-09-21T05:07:00.700411+00:00",
+  "text": "COP fell 1% today to $131.83, extending a two-week slide of nearly 3%. The main driver is a sharp drop in oil prices: US crude fell to $107 per barrel from $141 just three days ago on September 15th. Traders are reassessing Middle East supply disruptions as less severe than initially feared\u2014Saudi Arabia's key pipeline outage appears manageable, and crude flows remain \"surprisingly strong\" despite ongoing Houthi attacks and Iran tensions. For an oil major like ConocoPhillips, lower crude prices directly cut into near-term earnings and cash flow.\n\nThe broader backdrop remains genuinely unstable\u2014Iran has vowed retaliation, the US has escalated rhetoric, and the Strait of Hormuz remains a flashpoint\u2014but markets are trading on the reality that supplies haven't tightened as much as the headlines might suggest. That disconnect between geopolitical risk and actual supply disruption is what's pushing prices lower and weighing on the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 154,
-    "inputTokens": 133273,
-    "outputTokens": 32572,
-    "estimatedCostUsd": 0.296133,
-    "lastCallHour": "2026-09-21T04"
+    "callsThisMonth": 155,
+    "inputTokens": 134132,
+    "outputTokens": 32791,
+    "estimatedCostUsd": 0.298087,
+    "lastCallHour": "2026-09-21T05"
   }
 }

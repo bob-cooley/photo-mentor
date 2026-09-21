@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T04:02:49.891998+00:00",
-  "text": "Marathon Petroleum's stock has climbed 9.6% over two weeks and ticked up another 0.7% today, riding a sharp four-day rally that started around September 14th. The core driver is the oil price environment: crude hit $107 per barrel domestically and $130.80 globally, and U.S. refineries are running at 96.8% capacity\u2014near maximum output. When oil prices rise and refineries run hot, refining margins widen (the difference between what they pay for crude and what they sell refined products for improves), which directly boosts earnings for a major refiner like MPC.\n\nThe broader backdrop is escalating Middle East tensions: Iran closed the Strait of Hormuz, Houthis attacked Saudi infrastructure including near Riyadh's airport, and the U.S. warned citizens against travel to the region. These events typically tighten oil supplies and push prices higher. That said, the market has also noted that crude flows remain \"surprisingly strong\" and some feared disruptions (like a Saudi pipeline outage) proved less severe than expected\u2014so the rally reflects both genuine geopolitical risk and the market's relief that supply hasn't collapsed entirely.",
+  "fetchedAt": "2026-09-21T05:07:13.175481+00:00",
+  "text": "Marathon Petroleum has climbed nearly 10% over two weeks, with today's modest gain continuing that streak. The rally is driven by a sharp rise in global crude oil prices\u2014world oil is trading at $130.80 per barrel, up significantly from typical levels\u2014fueled by escalating Middle East tensions. Iran's threats of retaliation against Trump administration pressure, combined with Houthi attacks on shipping and closure of the Strait of Hormuz, have created supply-chain anxiety that pushes crude prices higher and widens refinery profit margins.\n\nRefineries are running at 96.8% capacity while global crude supplies tighten, which means Marathon's plants are operating near full throttle at a time when they can earn more from each barrel they process\u2014the gap between crude costs and refined product prices widens when crude gets expensive and scarce. This is the sweet spot for refiners, and the market is pricing in sustained geopolitical risk keeping oil elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 154,
-    "inputTokens": 141812,
-    "outputTokens": 33386,
-    "estimatedCostUsd": 0.308742,
-    "lastCallHour": "2026-09-21T04"
+    "callsThisMonth": 155,
+    "inputTokens": 142719,
+    "outputTokens": 33595,
+    "estimatedCostUsd": 0.310694,
+    "lastCallHour": "2026-09-21T05"
   }
 }
