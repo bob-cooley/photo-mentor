@@ -126,7 +126,7 @@ $probe = '$c=fn($t)=>array_column(nb_db()->query("PRAGMA table_info($t)")->fetch
     . '"seq"=>nb_db()->query("SELECT id, seq FROM media ORDER BY id")->fetchAll(PDO::FETCH_KEY_PAIR),'
     . '"name"=>nb_download_name(nb_db()->query("SELECT * FROM media WHERE id=\'aaaaaaaaaaaa\'")->fetch()),'
     . '"version"=>(int)nb_db()->query("PRAGMA user_version")->fetchColumn(),'
-    . '"backup"=>count(glob(nb_data_dir()."/backups/*.sqlite"))]);';
+    . '"backup"=>count(glob(nb_data_dir()."/backups/nbhs86-pre-*.sqlite"))]);';
 $out = shell_exec('NBHS86_DATA_DIR=' . escapeshellarg($old) . ' php -r ' . escapeshellarg('require ' . var_export(__DIR__ . '/../lib/ingest.php', true) . ';' . $probe));
 $u = json_decode((string) $out, true) ?? [];
 check('v3 columns added', [$u['media'] ?? null, $u['jobs'] ?? null], [true, true]);

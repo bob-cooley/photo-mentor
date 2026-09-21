@@ -128,10 +128,16 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
         @unlink($tmpPath);
         return ['status' => 'rejected', 'id' => null];
     }
+    $stored = ['id' => $id, 'kind' => $kind, 'folder' => $folder, 'ext' => $ext];
     try {
-        nb_extract_meta(['id' => $id, 'kind' => $kind, 'folder' => $folder, 'ext' => $ext]); // dimensions + shot date
+        nb_extract_meta($stored); // dimensions + shot date
     } catch (Throwable) {
         // metadata is best-effort; nb_fill_meta() retries later
+    }
+    try {
+        nb_thumb($stored); // so the gallery never has to build thumbnails while a classmate is waiting
+    } catch (Throwable) {
+        // best effort; api/thumb.php builds it on first view instead
     }
     return ['status' => 'added', 'id' => $id];
 }
@@ -283,3 +289,4 @@ function nb_run_zip_job(array $job, float $deadline): void
 }
 
 require_once __DIR__ . '/derive.php'; // after the definitions above (derive.php includes this file)
+require_once __DIR__ . '/thumbs.php';

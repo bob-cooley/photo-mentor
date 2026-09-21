@@ -104,7 +104,7 @@ function nb_strip_gps(string $path): bool
 /** Write a JPEG copy of an image (HEIC, TIFF, ...). $maxEdge null = full size and keep non-GPS metadata. */
 function nb_make_jpeg(string $src, string $dst, ?int $maxEdge, int $quality): bool
 {
-    $tmp = $dst . '.part.jpg';
+    $tmp = $dst . '.' . bin2hex(random_bytes(4)) . '.part.jpg';
     $ok = false;
     if (class_exists('Imagick')) {
         try {
@@ -188,7 +188,7 @@ function nb_clean_path(array $row, bool $create): ?string
     if (!in_array($row['ext'], NB_STRIPPABLE, true)) {
         return $src; // container exiftool cannot rewrite; GPS in such files is very unlikely
     }
-    $tmp = "$dir/{$row['id']}-tmp.{$row['ext']}";
+    $tmp = "$dir/{$row['id']}-tmp" . bin2hex(random_bytes(4)) . ".{$row['ext']}"; // unique per request (exiftool needs the real extension)
     if (!@copy($src, $tmp)) {
         return null;
     }

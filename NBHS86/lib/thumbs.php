@@ -10,7 +10,11 @@ function nb_thumb_path(string $id): string
     return nb_data_dir() . '/thumbs/' . $id . '.jpg';
 }
 
-/** Returns the cached thumbnail path, generating it on first request. Null if it can't be made. */
+/**
+ * Returns the cached thumbnail path, generating it if needed. Called at upload time (so a folder is instant
+ * to browse) and again on request as a fallback. Written to a private temp name then renamed, so a second
+ * request can never see or serve a half-written file.
+ */
 function nb_thumb(array $row): ?string
 {
     $out = nb_thumb_path($row['id']);
@@ -21,15 +25,16 @@ function nb_thumb(array $row): ?string
     if (!is_file($src)) {
         return null;
     }
+    $tmp = $out . '.' . bin2hex(random_bytes(4)) . '.part.jpg';
     $ok = match ($row['kind']) {
-        'video' => nb_thumb_video($src, $out),
-        default => nb_thumb_image($src, $out, $row['kind'] === 'pdf'),
+        'video' => nb_thumb_video($src, $tmp),
+        default => nb_thumb_image($src, $tmp, $row['kind'] === 'pdf'),
     };
-    if (!$ok) {
-        @unlink($out);
-        return null;
+    if ($ok && is_file($tmp) && filesize($tmp) > 0 && @rename($tmp, $out)) {
+        return $out;
     }
-    return $out;
+    @unlink($tmp);
+    return is_file($out) && filesize($out) > 0 ? $out : null;
 }
 
 function nb_thumb_image(string $src, string $out, bool $isPdf): bool

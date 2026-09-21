@@ -110,6 +110,7 @@ function nb_db(): PDO
         $pdo->exec('CREATE TABLE IF NOT EXISTS counters (kind TEXT PRIMARY KEY, next INTEGER NOT NULL)');
         nb_migrate($pdo);
         nb_backfill_seq($pdo);
+        nb_daily_backup($pdo);
     }
     return $pdo;
 }
@@ -297,7 +298,10 @@ function nb_login_failed(): void
 
 // ---------- versioned schema migrations ----------
 
-/** Copy the SQLite file before a schema change. VACUUM INTO is a consistent snapshot even mid-write. */
+/**
+ * Snapshot the SQLite file. VACUUM INTO is a consistent copy even mid-write. Labels: pre-vN (before a schema
+ * change), daily (automatic), manual (admin button). Each label keeps its own most recent copies.
+ */
 function nb_backup_db(PDO $db, string $label): void
 {
     $dir = nb_data_dir() . '/backups';
@@ -310,12 +314,61 @@ function nb_backup_db(PDO $db, string $label): void
     } catch (Throwable $e) {
         @copy(nb_data_dir() . '/nbhs86.sqlite', $dest);
     }
-    // keep the 10 most recent
-    $files = glob($dir . '/nbhs86-*.sqlite') ?: [];
-    rsort($files);
-    foreach (array_slice($files, 10) as $old) {
-        @unlink($old);
+    @chmod($dest, 0600);
+    $keep = ['pre' => 10, 'daily' => 14, 'manual' => 10];
+    foreach ($keep as $prefix => $n) {
+        $files = glob($dir . '/nbhs86-' . $prefix . '*.sqlite') ?: [];
+        rsort($files);
+        foreach (array_slice($files, $n) as $old) {
+            @unlink($old);
+        }
     }
+}
+
+/**
+ * At most one automatic snapshot per 24 h. There is no cron on this host, so the first request after the
+ * 24 h mark takes it (cheap: the database is a few hundred KB). A lock stops simultaneous requests doubling up.
+ */
+function nb_daily_backup(PDO $db): void
+{
+    $dir = nb_data_dir() . '/backups';
+    if (!is_dir($dir)) {
+        @mkdir($dir, 0700, true);
+    }
+    $marker = $dir . '/.last-daily';
+    if (is_file($marker) && filesize($marker) > 0 && filemtime($marker) > time() - 86400) {
+        return;
+    }
+    $fh = @fopen($marker, 'c');
+    if (!$fh) {
+        return;
+    }
+    if (flock($fh, LOCK_EX | LOCK_NB)) {
+        clearstatcache(true, $marker);
+        if (!(filesize($marker) > 0 && filemtime($marker) > time() - 86400)) { // nobody beat us to it
+            try {
+                nb_backup_db($db, 'daily');
+                ftruncate($fh, 0);
+                fwrite($fh, (string) time());
+                fflush($fh);
+            } catch (Throwable $e) {
+                error_log('nbhs86 daily backup failed: ' . $e->getMessage());
+            }
+        }
+        flock($fh, LOCK_UN);
+    }
+    fclose($fh);
+}
+
+/** @return array{path:string,when:int,size:int,label:string}[] newest first */
+function nb_list_backups(): array
+{
+    $out = [];
+    foreach (glob(nb_data_dir() . '/backups/nbhs86-*.sqlite') ?: [] as $f) {
+        $out[] = ['path' => $f, 'when' => (int) filemtime($f), 'size' => (int) filesize($f), 'label' => preg_replace('/^nbhs86-(.+)-\d{8}-\d{6}\.sqlite$/', '$1', basename($f))];
+    }
+    usort($out, fn($a, $b) => [$b['when'], $b['path']] <=> [$a['when'], $a['path']]); // newest first; name (holds the time) breaks ties
+    return $out;
 }
 
 const NB_SCHEMA_VERSION = 3;
@@ -442,3 +495,44 @@ function nb_h(string $s): string
 {
     return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
+
+// ---------- error logging ----------
+// PHP errors are written to a private file beside the data (never shown to visitors) so a failure that a
+// classmate hits can be diagnosed afterwards. The admin page shows the latest entries. Rotates at 2 MB.
+
+function nb_error_log_path(): string
+{
+    return nb_data_dir() . '/php-errors.log';
+}
+
+/** Last $n log lines with server paths and IP addresses masked. */
+function nb_recent_errors(int $n = 40): array
+{
+    $log = nb_error_log_path();
+    if (!is_file($log) || filesize($log) === 0) {
+        return [];
+    }
+    $fh = fopen($log, 'rb');
+    fseek($fh, max(0, filesize($log) - 65536));
+    $lines = preg_split('/\R/', trim((string) stream_get_contents($fh))) ?: [];
+    fclose($fh);
+    $lines = array_slice($lines, -$n);
+    return array_map(fn($l) => (string) preg_replace(['#/(?:usr/)?home/[^/\s]+#', '/\b\d{1,3}(?:\.\d{1,3}){3}\b/'], ['~', '<ip>'], substr($l, 0, 400)), $lines);
+}
+
+(static function (): void {
+    try {
+        $log = nb_error_log_path();
+        if (is_file($log) && filesize($log) > 2000000) {
+            @rename($log, $log . '.1');
+        }
+        if (!is_file($log) && @touch($log)) {
+            @chmod($log, 0600);
+        }
+        ini_set('log_errors', '1');
+        ini_set('error_log', $log);
+    } catch (Throwable) {
+        // logging is best effort; never let it stop a page
+    }
+})();
+

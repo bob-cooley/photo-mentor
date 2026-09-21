@@ -146,6 +146,11 @@ if ($isAdmin && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])
             }
             break;
 
+        case 'clear_errors':
+            @file_put_contents(nb_error_log_path(), '');
+            $notice = 'Error log cleared.';
+            break;
+
         case 'run_jobs':
             $left = nb_run_jobs(20);
             $notice = $left ? "$left zip job(s) still pending; run again." : 'All zip jobs finished.';
@@ -268,6 +273,31 @@ function fmt_bytes(int $b): string
     <p class="hint" style="margin:0 0 10px">Videos added here go straight into Slideshows, numbered <b>NBHS_slideshow_0001</b>, <b>0002</b>&hellip; and credited to <?= nb_h(NB_SLIDESHOW_CREDIT) ?>. Classmates' uploads on the normal page are not affected.</p>
     <div id="uppy-slideshow"></div>
     <div id="slideMsg" class="hint" role="status" style="margin-top:10px"></div>
+  </section>
+
+  <?php
+    $backups = nb_list_backups();
+    $auto = array_values(array_filter($backups, fn($b) => $b['label'] === 'daily'));
+    $errs = nb_recent_errors(40);
+  ?>
+  <section class="card">
+    <h2>Backups &amp; errors</h2>
+    <p style="margin:0 0 8px">
+      <b>Database:</b>
+      <?php if ($auto): ?>last automatic backup <?= nb_h(date('M j, g:ia', $auto[0]['when'])) ?> (one is taken about every 24 hours; <?= count($backups) ?> kept on the server).
+      <?php else: ?>no automatic backup yet (the first one is taken on the next page load).<?php endif; ?>
+    </p>
+    <div class="inline">
+      <a class="btn secondary" href="<?= NB_BASE ?>/admin/backup.php">Download a fresh database backup (.sqlite)</a>
+    </div>
+    <div class="hint">Backups sit next to the uploads on the same server, so they protect against a bad change or a damaged database, not against losing the hosting account. Download one now and then, and ask Pair whether it keeps its own backups. The uploaded photos and videos themselves are not in this file.</div>
+    <details style="margin-top:14px"<?= $errs ? ' open' : '' ?>>
+      <summary><b>PHP errors:</b> <?= $errs ? '<span class="state off"><b>' . count($errs) . ' recent entr' . (count($errs) === 1 ? 'y' : 'ies') . '</b></span>' : 'none logged' ?></summary>
+      <?php if ($errs): ?>
+        <pre style="white-space:pre-wrap;word-break:break-word;font-size:.8rem;background:var(--panel-2);padding:12px;border-radius:8px;max-height:280px;overflow:auto"><?= nb_h(implode("\n", $errs)) ?></pre>
+        <form method="post" action="<?= $self ?>"><?= $hidden ?><input type="hidden" name="action" value="clear_errors"><button type="submit" class="secondary">Clear the error log</button></form>
+      <?php endif; ?>
+    </details>
   </section>
 
   <section class="card">
