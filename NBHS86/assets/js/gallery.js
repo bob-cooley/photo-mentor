@@ -1,4 +1,4 @@
-import PhotoSwipeLightbox from '../vendor/photoswipe/photoswipe-lightbox.esm.min.js';
+import PhotoSwipeLightbox from '../vendor/photoswipe/photoswipe-lightbox.esm.min.js?v=5.4.4';
 
 const { base, folder, icons, maxFiles } = window.NBHS;
 const $ = (id) => document.getElementById(id);
@@ -182,7 +182,7 @@ $('selDownload').addEventListener('click', async () => {
 // ---------- lightbox (photos and videos) ----------
 
 const lightbox = new PhotoSwipeLightbox({
-  pswpModule: () => import('../vendor/photoswipe/photoswipe.esm.min.js'),
+  pswpModule: () => import('../vendor/photoswipe/photoswipe.esm.min.js?v=5.4.4'),
   bgOpacity: 0.95,
   showHideAnimationType: 'fade',
   preload: [1, 2],
