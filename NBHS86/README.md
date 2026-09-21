@@ -52,7 +52,7 @@ NBHS86/
 
 ## Look and feel
 - Palette (classmate-facing pages: gate, upload, gallery): page background and inputs **#062365**, main blue **#083E92** (cards, tiles, selection bar), gold **#EFDB7C** (buttons, links, selection, focus rings, icons) with #062365 text on gold. Defined once as CSS variables at the top of `assets/css/site.css`; contrast checked (all text pairs WCAG AA or better, lowest 5.4:1). The gold is also written into the file-type icon URLs in `uppy-theme.css`, which cannot use variables: change it there too.
-- The admin page opts out with `<html class="admin">` and keeps the original neutral dark palette.
+- The admin page uses the same palette as the rest of the site (it briefly had its own neutral one; that override was removed).
 - Upload box: 330 px tall (admin slideshow box: 170 px, inside a collapsed section). File tiles use the site's icons (film strip = video, camera = image, document = PDF/other, grid = zip) on navy; the uploaded-check badge, Complete bar and Upload button are gold with navy ticks. Uppy paints file types in fixed colours, so `uppy-theme.css` recognises a type by the colour Uppy writes on the tile.
 - Uppy's dashboard is re-coloured by `assets/css/uppy-theme.css` (its dark theme hard-codes blue/green at high specificity, so every override carries `[data-uppy-theme=dark]`). PhotoSwipe's background is set with `body.gallery-page .pswp`.
 - Bump the `?v=` on a stylesheet link whenever it changes (Cloudflare and browsers cache them).

@@ -15,11 +15,6 @@
   --overlay: rgba(6, 35, 101, .78);
   color-scheme: dark;
 }
-/* The admin tool keeps the original neutral palette. */
-html.admin {
-  --primary: #111214; --bg: #111214; --panel: #1a1c1f; --panel-2: #0e0f11; --line: #2b2e33; --text: #eceef0; --muted: #9aa0a6;
-  --accent: #e8b04a; --accent-hover: #f0c066; --accent-ink: #1b1305; --bad: #ff8a80; --ok: #7fd18b; --overlay: rgba(17, 18, 20, .72);
-}
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; background: var(--bg); }
 body {
