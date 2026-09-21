@@ -1,10 +1,13 @@
 <?php
 declare(strict_types=1);
 
-// Gated file delivery with Range support (video seeking). ?dl=1 forces a download.
-require_once __DIR__ . '/../lib/ingest.php';
+// Gated file delivery with Range support (video seeking).
+//   ?id=X            inline, GPS-free copy (HEIC/TIFF shown as a 2400px JPEG)
+//   ?id=X&dl=1       download under the NBHS name (HEIC as full-size JPEG)
+//   ?id=X&raw=1      the untouched original, admin only
+require_once __DIR__ . '/../lib/derive.php';
 
-nb_require_member();
+nb_require_gallery();
 set_time_limit(0);
 
 $id = (string) ($_GET['id'] ?? '');
@@ -15,10 +18,24 @@ if (!preg_match('/^[a-f0-9]{12}$/', $id)) {
 $st = nb_db()->prepare('SELECT * FROM media WHERE id = ?');
 $st->execute([$id]);
 $row = $st->fetch();
-$path = $row ? nb_media_path($row['folder'], $row['id'], $row['ext']) : '';
-if (!$row || !is_file($path)) {
+if (!$row || !is_file(nb_src_path($row))) {
     http_response_code(404);
     exit;
+}
+
+$download = !empty($_GET['dl']);
+if (!empty($_GET['raw']) && nb_is_admin()) {
+    $path = nb_src_path($row);
+    $mime = NB_MIME[$row['ext']] ?? 'application/octet-stream';
+    $outName = $row['orig_name'];
+} else {
+    $v = nb_variant($row, $download ? 'download' : 'view');
+    if (!$v) {
+        nb_json(['error' => 'unavailable', 'message' => 'This file could not be prepared. Please try again.'], 503);
+    }
+    $path = $v['path'];
+    $mime = $v['mime'];
+    $outName = nb_download_name($row, $v['ext'] === 'jpg' && in_array($row['ext'], ['heic', 'heif'], true));
 }
 
 $size = (int) filesize($path);
@@ -40,12 +57,10 @@ if (!empty($_SERVER['HTTP_RANGE']) && preg_match('/^bytes=(\d*)-(\d*)$/', $_SERV
     $status = 206;
 }
 
-$download = !empty($_GET['dl']);
-$outName = nb_download_name($row); // HEIC is still served as-is here, so it keeps .heic until conversion exists
 $fname = str_replace(['"', '\\', '/'], '_', $outName);
 nb_headers(false);
 http_response_code($status);
-header('Content-Type: ' . (NB_MIME[$row['ext']] ?? 'application/octet-stream'));
+header('Content-Type: ' . $mime);
 header('Accept-Ranges: bytes');
 header('Cache-Control: private, max-age=86400');
 header('Content-Disposition: ' . ($download ? 'attachment' : 'inline')

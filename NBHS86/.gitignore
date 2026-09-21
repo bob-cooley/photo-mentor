@@ -1,2 +1,3 @@
-# Local-only secrets/config. Never commit.
+# Local-only secrets/config and CI-built dependencies. Never commit.
 config.local.php
+vendor/

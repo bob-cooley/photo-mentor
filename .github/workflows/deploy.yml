@@ -97,6 +97,10 @@ jobs:
         if: ${{ env.NBHS86_PASSCODE != '' && env.NBHS86_ADMIN_PASSWORD != '' && env.NBHS86_SECRET != '' }}
         run: php NBHS86/tools/make-config.php --from-env
 
+      # ZipStream-PHP for the gallery's zip downloads. composer.json pins resolution to the server's PHP 8.2.
+      - name: Install NBHS86 PHP dependencies
+        run: composer install --no-dev --optimize-autoloader --no-interaction --working-dir=NBHS86
+
       - name: Deploy NBHS86 to bobcooleyphoto.com/NBHS86/
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:

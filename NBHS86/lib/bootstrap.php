@@ -13,6 +13,8 @@ const NB_MEMBER_COOKIE = 'nbhs86_member';
 const NB_ADMIN_COOKIE = 'nbhs86_admin';
 const NB_MAX_FILE = 2147483648; // 2 GB per file
 const NB_DEFAULT_FOLDER = 'classmate-uploads';
+const NB_ZIP_MAX_FILES = 500;
+const NB_ZIP_MAX_BYTES = 2147483648; // 2 GB per zip download
 
 /** config.local.php lives next to index.php, is never committed, and is not deployed by CI. */
 function nb_config(): array
@@ -103,6 +105,7 @@ function nb_db(): PDO
         }
         $pdo->exec('CREATE TABLE IF NOT EXISTS counters (kind TEXT PRIMARY KEY, next INTEGER NOT NULL)');
         nb_backfill_seq($pdo);
+        nb_migrate($pdo);
     }
     return $pdo;
 }
@@ -276,6 +279,129 @@ function nb_login_failed(): void
 {
     nb_db()->prepare('INSERT INTO login_fail (ip, ts) VALUES (?, ?)')->execute([nb_client_ip(), time()]);
     usleep(700000);
+}
+
+// ---------- versioned schema migrations ----------
+
+/** Copy the SQLite file before a schema change. VACUUM INTO is a consistent snapshot even mid-write. */
+function nb_backup_db(PDO $db, string $label): void
+{
+    $dir = nb_data_dir() . '/backups';
+    if (!is_dir($dir)) {
+        @mkdir($dir, 0700, true);
+    }
+    $dest = $dir . '/nbhs86-' . $label . '-' . date('Ymd-His') . '.sqlite';
+    try {
+        $db->exec("VACUUM INTO '" . str_replace("'", "''", $dest) . "'");
+    } catch (Throwable $e) {
+        @copy(nb_data_dir() . '/nbhs86.sqlite', $dest);
+    }
+    // keep the 10 most recent
+    $files = glob($dir . '/nbhs86-*.sqlite') ?: [];
+    rsort($files);
+    foreach (array_slice($files, 10) as $old) {
+        @unlink($old);
+    }
+}
+
+const NB_SCHEMA_VERSION = 1;
+
+function nb_migrate(PDO $db): void
+{
+    if ((int) $db->query('PRAGMA user_version')->fetchColumn() >= NB_SCHEMA_VERSION) {
+        return;
+    }
+    $hasRows = (int) $db->query('SELECT COUNT(*) FROM media')->fetchColumn() > 0;
+    if ($hasRows) {
+        nb_backup_db($db, 'pre-v' . NB_SCHEMA_VERSION);
+    }
+    $db->exec('BEGIN IMMEDIATE');
+    try {
+        if ((int) $db->query('PRAGMA user_version')->fetchColumn() < 1) {
+            // v1: gallery. Logical folders (album) are separate from where a file sits on disk (folder).
+            $cols = array_column($db->query('PRAGMA table_info(media)')->fetchAll(), 'name');
+            foreach (['album TEXT', 'credit_override TEXT', 'taken_at INTEGER', 'w INTEGER', 'h INTEGER'] as $def) {
+                if (!in_array(explode(' ', $def)[0], $cols, true)) {
+                    $db->exec('ALTER TABLE media ADD COLUMN ' . $def);
+                }
+            }
+            $db->exec("UPDATE media SET album = folder WHERE album IS NULL");
+            $db->exec('CREATE INDEX IF NOT EXISTS media_album ON media(album, seq)');
+            $db->exec('CREATE TABLE IF NOT EXISTS settings (k TEXT PRIMARY KEY, v TEXT NOT NULL)');
+            $db->exec("INSERT OR IGNORE INTO settings (k, v) VALUES ('gallery_open', '0'), ('intake_open', '1')");
+            $db->exec("CREATE TABLE IF NOT EXISTS folders (
+                slug TEXT PRIMARY KEY,
+                title TEXT NOT NULL,
+                icon TEXT NOT NULL DEFAULT 'grid',
+                sort INTEGER NOT NULL DEFAULT 0,
+                description TEXT NOT NULL DEFAULT ''
+            )");
+            $ins = $db->prepare('INSERT OR IGNORE INTO folders (slug, title, icon, sort) VALUES (?,?,?,?)');
+            foreach ([['photos', 'Photos', 'camera', 10], ['videos', 'Videos/Slideshows', 'film', 20],
+                      ['documents', 'Documents', 'file-text', 30], [NB_DEFAULT_FOLDER, 'Classmate uploads', 'grid', 40]] as $f) {
+                $ins->execute($f);
+            }
+        }
+        $db->exec('PRAGMA user_version = ' . NB_SCHEMA_VERSION);
+        $db->exec('COMMIT');
+    } catch (Throwable $e) {
+        $db->exec('ROLLBACK');
+        throw $e;
+    }
+}
+
+// ---------- settings, folders, launch switches ----------
+
+function nb_setting(string $key, string $default = ''): string
+{
+    $st = nb_db()->prepare('SELECT v FROM settings WHERE k = ?');
+    $st->execute([$key]);
+    $v = $st->fetchColumn();
+    return $v === false ? $default : (string) $v;
+}
+
+function nb_set_setting(string $key, string $value): void
+{
+    nb_db()->prepare('INSERT INTO settings (k, v) VALUES (?, ?) ON CONFLICT(k) DO UPDATE SET v = excluded.v')->execute([$key, $value]);
+}
+
+function nb_gallery_open(): bool
+{
+    return nb_setting('gallery_open', '0') === '1';
+}
+
+function nb_intake_open(): bool
+{
+    return nb_setting('intake_open', '1') === '1';
+}
+
+/** Members see the gallery only when it is open; admin always can (to preview before launch). */
+function nb_can_view_gallery(): bool
+{
+    return nb_is_admin() || (nb_is_member() && nb_gallery_open());
+}
+
+function nb_require_gallery(): void
+{
+    if (!nb_is_member()) {
+        nb_json(['error' => 'auth'], 401);
+    }
+    if (!nb_can_view_gallery()) {
+        nb_json(['error' => 'closed', 'message' => 'The gallery is not open yet.'], 403);
+    }
+}
+
+/** @return array<int,array{slug:string,title:string,icon:string,sort:int,description:string}> */
+function nb_folders(): array
+{
+    return nb_db()->query('SELECT * FROM folders ORDER BY sort, title')->fetchAll();
+}
+
+function nb_folder(string $slug): ?array
+{
+    $st = nb_db()->prepare('SELECT * FROM folders WHERE slug = ?');
+    $st->execute([$slug]);
+    return $st->fetch() ?: null;
 }
 
 function nb_h(string $s): string

@@ -7,9 +7,9 @@ RewriteEngine Off
   Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet"
 </IfModule>
 
-<Files "config.local.php">
+<FilesMatch "^(config\.local\.php|composer\.(json|lock))$">
   Require all denied
-</Files>
+</FilesMatch>
 
 # FTP-Deploy bookkeeping file: not for public eyes
 <Files ".ftp-deploy-sync-state.json">
@@ -17,4 +17,4 @@ RewriteEngine Off
 </Files>
 
 # Local-only helper dirs that older deploys left on the server (CI now excludes them)
-RedirectMatch 404 ^/NBHS86/(tools|tests)(/|$)
+RedirectMatch 404 ^/NBHS86/(tools|tests|vendor)(/|$)

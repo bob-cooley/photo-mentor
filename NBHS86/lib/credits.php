@@ -69,6 +69,10 @@ function nb_credit_labels(array $names): array
 /** Label for one row given the precomputed map. */
 function nb_credit_for(array $row, array $labels): string
 {
+    $override = trim((string) ($row['credit_override'] ?? ''));
+    if ($override !== '') {
+        return $override;
+    }
     if ((int) ($row['anonymous'] ?? 0) === 1 || trim((string) ($row['uploader'] ?? '')) === '') {
         return 'Anonymous';
     }

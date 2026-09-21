@@ -28,6 +28,10 @@ if (!nb_is_member()) {
     tus_fail(401, 'Please reload the page and enter the class passcode again.');
 }
 
+if (!nb_intake_open() && !nb_is_admin()) {
+    tus_fail(403, 'Uploads are closed.');
+}
+
 $method = $_SERVER['REQUEST_METHOD'];
 $id = (string) ($_GET['id'] ?? '');
 if ($method === 'POST' && $id !== '' && strtoupper($_SERVER['HTTP_X_HTTP_METHOD_OVERRIDE'] ?? '') === 'PATCH') {

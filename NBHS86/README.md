@@ -19,17 +19,30 @@ The two sides launch separately. Intake goes live first for testing.
 ## Layout
 ```
 NBHS86/
-  index.php            passcode gate + intake page (same URL, no separate /upload/)
-  admin/index.php      Bob-only upload list, delete, finish zips (testing aid until the gallery exists)
+  index.php            passcode gate + intake page (same URL); shows "uploads closed" when switched off
+  gallery/             folder cards, folder grid, lightbox (gallery/.htaccess maps /gallery/<slug>/ to index.php)
+  admin/index.php      launch switches, folders, move/credit/delete (Bob only)
   api/tus.php          minimal tus 1.0 server (routed from /api/tus/<id> by api/.htaccess)
   api/process.php      continues unfinished zip extraction (intake page polls it)
-  api/thumb.php        gated thumbnail, generated on first request (Imagick, GD fallback, ffmpeg for video)
-  api/file.php         gated file delivery with Range support (?dl=1 forces download)
-  lib/                 bootstrap (config, SQLite, cookie auth), ingest, thumbs, credits
-  assets/              css, js, vendor/uppy (Uppy 6.0.1, MIT, self-hosted)
-  gallery/             not built yet (output side)
+  api/list.php         folder listing JSON (sort, kind filter, paging, ids for select-all)
+  api/thumb.php        gated thumbnail, generated on first request
+  api/file.php         gated delivery: inline (GPS-free) / ?dl=1 (NBHS name, HEIC as JPG) / ?raw=1 (admin only)
+  api/prepare.php      step 1 of a zip: builds derived copies in time-boxed batches
+  api/zip.php          step 2: streams the zip (ZipStream-PHP, no compression, no Zip64)
+  lib/                 bootstrap (config, SQLite + migrations, auth, settings), ingest, derive, thumbs, credits, icons, layout, selection
+  assets/              css, js (intake.js, gallery.js), vendor/uppy, vendor/photoswipe (MIT, self-hosted)
   tools/, tests/       local only, excluded from deploy
+  vendor/              Composer output, built by CI (ZipStream-PHP), gitignored
 ```
+
+## Gallery behavior
+- **Folders** (table `folders`): Photos (camera), Videos/Slideshows (film), Documents (file-text), Classmate uploads (grid). Icons are Lucide (ISC). Intake always lands in Classmate uploads; Bob moves files with the admin page. A file's folder (`album`) is separate from where it sits on disk (`folder`).
+- **Launch switches** (table `settings`): `gallery_open` (default closed) and `intake_open` (default open), toggled in the admin page. Admin always sees both sides.
+- **Sorting**: default is arrival order; shot date (oldest/newest first) is an option. Shot date, width and height are read with exiftool at ingest (and lazily for older files); files with no date sort last.
+- **Privacy**: every view and download is served from a GPS-free copy (`derived/<id>-clean.<ext>`, created with exiftool on first use). Originals are only served to the admin (`?raw=1`). If exiftool is missing the admin page warns.
+- **HEIC**: lightbox shows a 2400px JPEG; download is a full-size JPEG named `.jpg`. TIFF gets a 2400px JPEG for the lightbox and downloads as TIFF.
+- **Zip downloads**: max 500 files and 2 GB. The page first calls `prepare.php` until every derived copy exists, then a plain form POST to `zip.php` streams the archive. Entry names are the NBHS names; identical document names get " (2)".
+- **Schema**: versioned with `PRAGMA user_version`; a snapshot of the database is written to `nbhs86-data/backups/` before any migration (last 10 kept).
 
 ## Config and storage (never in the repo)
 - `NBHS86/config.local.php` holds bcrypt hashes for the passcode and admin password plus the cookie-signing secret. It is gitignored and built by the `deploy-nbhs86` job on every deploy from three GitHub secrets: `NBHS86_PASSCODE`, `NBHS86_ADMIN_PASSWORD`, `NBHS86_SECRET` (32+ random chars, keep it stable or everyone is logged out). If the secrets are unset the step is skipped. Local dev: `php tools/make-config.php --passcode=WORD --data-dir=/some/scratch/dir`. Rotate the passcode by editing the secret and pushing (or re-running the workflow).
@@ -41,9 +54,9 @@ NBHS86/
 - Accepted types are an extension whitelist (images incl. HEIC, common video, PDF, zip) plus a content sniff. Zip contents get the same checks; entry names are never used as paths.
 - Identical files (by content hash) are stored once; the second uploader is pointed at the existing file.
 - **Permanent reunion numbering**: every photo and video gets `NBHS_reunions_0001.<ext>` assigned once, at ingest, in arrival order, so everyone sees and downloads the same name. One counter for all image types, a separate counter for videos, PDFs keep their own names. Extension is the stored type, `jpeg` becomes `jpg`, and HEIC will download as `.jpg` once conversion exists (`nb_download_name($row, $converted)`). Numbers are assigned inside the same write transaction as the insert, so duplicates and rejected files never burn a number, parallel uploads can't collide, and a deleted file's number is never reused (counters only move forward). Existing rows are numbered by upload time on first run. The admin page can reset numbering only while no files are stored (pre-launch).
-- Tests: `php tests/credits_test.php`, `php tests/numbering_test.php` (needs GD and ffmpeg).
+- Tests: `php tests/credits_test.php`, `php tests/numbering_test.php`, `php tests/derive_test.php` (need GD, exiftool and ffmpeg).
 
 ## Server facts
 - Pair.com shared hosting: PHP 8.2.33 (FastCGI, 128M memory, 30 s execution), Apache 2.4. Imagick 7 with HEIC/PDF, ffmpeg, Ghostscript, ZipArchive and SQLite all verified present on 2026-09-20.
 - Cloudflare proxies the domain: 100 MB max request body on Free/Pro, so uploads must be chunked.
-- `.htaccess` has `RewriteEngine Off` to bypass IO200's CMS rewrites, same as the repo root.
+- Gallery `.htaccess` files turn rewriting on only for `api/` and `gallery/`. Root `.htaccess` has `RewriteEngine Off` to bypass IO200's CMS rewrites, same as the repo root.

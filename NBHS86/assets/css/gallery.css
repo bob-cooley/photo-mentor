@@ -1,0 +1,62 @@
+.gallery-page .wrap { max-width: 1240px; }
+.folders { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 8px; }
+.folder-card {
+  display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; text-decoration: none; color: var(--text);
+  background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 34px 16px;
+  transition: border-color .15s, transform .15s;
+}
+.folder-card:hover, .folder-card:focus-visible { border-color: var(--accent); transform: translateY(-2px); outline: none; }
+.folder-icon { display: grid; place-items: center; width: 84px; height: 84px; border-radius: 50%; background: #0e0f11; color: var(--accent); border: 1px solid var(--line); }
+.folder-icon.sm { display: inline-grid; width: 42px; height: 42px; vertical-align: middle; margin-right: 6px; }
+.folder-title { font-size: 1.2rem; font-weight: 650; }
+.folder-count { color: var(--muted); font-size: .92rem; }
+
+.folder-head { margin-bottom: 14px; }
+.folder-head h1 { font-size: 1.6rem; margin: 6px 0 0; }
+.back { color: var(--muted); text-decoration: none; font-size: .95rem; }
+.back:hover { color: var(--text); }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin: 12px 0 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { background: transparent; color: var(--text); border: 1px solid var(--line); padding: 8px 14px; border-radius: 999px; font-weight: 600; font-size: .92rem; }
+.chip[aria-pressed=true] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.sort { color: var(--muted); font-size: .92rem; display: flex; align-items: center; gap: 8px; margin: 0; font-weight: 500; }
+.sort select { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; font: inherit; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; padding-bottom: 96px; }
+.tile { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.tile.sel { outline: 3px solid var(--accent); outline-offset: -3px; }
+.tile .thumb { display: block; aspect-ratio: 4 / 3; background: #000; cursor: zoom-in; }
+.tile .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tile .pick {
+  position: absolute; top: 8px; left: 8px; width: 30px; height: 30px; border-radius: 8px; padding: 0; display: grid; place-items: center;
+  background: rgba(17,18,20,.72); border: 2px solid rgba(255,255,255,.75); color: var(--accent-ink);
+}
+.tile .pick svg { opacity: 0; }
+.tile.sel .pick { background: var(--accent); border-color: var(--accent); }
+.tile.sel .pick svg { opacity: 1; }
+.tile .badge { position: absolute; top: 8px; right: 8px; background: rgba(17,18,20,.72); color: #fff; border-radius: 8px; padding: 4px 6px; line-height: 0; pointer-events: none; }
+.tile .cap { padding: 7px 10px 9px; font-size: .8rem; line-height: 1.3; }
+.tile .cap b { display: block; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tile .cap span { color: var(--muted); }
+#sentinel { height: 1px; }
+
+.selbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); background: #1d2024; border-top: 1px solid var(--line);
+  box-shadow: 0 -8px 24px rgba(0,0,0,.4);
+}
+.selbar[hidden] { display: none; }
+.selbar #selcount { font-weight: 650; }
+.selbar .selactions { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+.selbar button { padding: 10px 16px; }
+.selmsg { flex-basis: 100%; color: var(--muted); font-size: .9rem; min-height: 1.2em; }
+.selmsg.err { color: var(--bad); }
+
+/* PhotoSwipe additions */
+.pswp__custom-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); text-align: center; color: #eee; background: linear-gradient(transparent, rgba(0,0,0,.7)); font-size: .95rem; pointer-events: none; }
+.pswp__custom-caption span { color: #bbb; }
+.pswp-video { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.pswp-video video { max-width: 100%; max-height: 100%; background: #000; }
+.pswp__button--download-button { display: flex; align-items: center; justify-content: center; color: #fff; }
+.chips[hidden] { display: none; }

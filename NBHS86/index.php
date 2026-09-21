@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-require_once __DIR__ . '/lib/bootstrap.php';
+require_once __DIR__ . '/lib/layout.php';
 
 nb_headers();
 
@@ -27,6 +27,7 @@ if (!nb_configured()) {
     }
     $member = nb_is_member();
 }
+$intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,8 +36,8 @@ if (!nb_configured()) {
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=1">
-<?php if ($member): ?>
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=4">
+<?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <?php endif; ?>
 </head>
@@ -56,8 +57,17 @@ if (!nb_configured()) {
     <button type="submit"<?= nb_configured() ? '' : ' disabled' ?>>Continue</button>
   </form>
 </div>
+<?php elseif ($intakeClosed): ?>
+<div class="wrap">
+  <?= nb_nav('upload') ?>
+  <header class="top">
+    <h1>Uploads are closed</h1>
+    <p>Thank you to everyone who shared photos and videos.<?= nb_gallery_open() ? '' : ' The gallery will open soon.' ?></p>
+  </header>
+</div>
 <?php else: ?>
 <div class="wrap">
+  <?= nb_nav('upload') ?>
   <header class="top">
     <h1>Share your reunion photos &amp; videos</h1>
     <p>Add photos, videos, or PDFs from the reunion &mdash; one at a time, a whole batch, or a .zip file. Works from your phone or computer.</p>

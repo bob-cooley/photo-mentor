@@ -108,10 +108,10 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
         }
         @chmod($dest, 0600);
         $seq = in_array($kind, ['image', 'video'], true) ? nb_next_seq($db, $kind) : null;
-        $db->prepare('INSERT INTO media (id, folder, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq)
-                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)')
+        $db->prepare('INSERT INTO media (id, folder, album, orig_name, ext, kind, size, hash, uploader, anonymous, batch, source, created_at, seq)
+                      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)')
             ->execute([
-                $id, $folder, $origName, $ext, $kind, $size, $hash,
+                $id, $folder, $folder, $origName, $ext, $kind, $size, $hash,
                 $anon ? '' : nb_clean_person_name((string) ($meta['uploader'] ?? '')),
                 $anon, substr((string) ($meta['batch'] ?? ''), 0, 40), $source, time(), $seq,
             ]);
@@ -121,6 +121,11 @@ function nb_store_file(string $tmpPath, string $origName, array $meta, string $s
         @unlink($dest);
         @unlink($tmpPath);
         return ['status' => 'rejected', 'id' => null];
+    }
+    try {
+        nb_extract_meta(['id' => $id, 'kind' => $kind, 'folder' => $folder, 'ext' => $ext]); // dimensions + shot date
+    } catch (Throwable) {
+        // metadata is best-effort; nb_fill_meta() retries later
     }
     return ['status' => 'added', 'id' => $id];
 }
@@ -270,3 +275,5 @@ function nb_run_zip_job(array $job, float $deadline): void
     $save->execute([$n, $added, $skipped, $job['id']]);
     nb_finish_job($job, 'done');
 }
+
+require_once __DIR__ . '/derive.php'; // after the definitions above (derive.php includes this file)

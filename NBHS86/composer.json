@@ -1,0 +1,15 @@
+{
+  "name": "bobcooleyphoto/nbhs86",
+  "description": "NBHS Class of '86 photo intake + gallery",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.2",
+    "maennchen/zipstream-php": "^3.1"
+  },
+  "config": {
+    "platform": { "php": "8.2.33" },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}

@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../lib/thumbs.php';
 
-nb_require_member();
+nb_require_gallery();
 set_time_limit(60);
 
 $id = (string) ($_GET['id'] ?? '');
