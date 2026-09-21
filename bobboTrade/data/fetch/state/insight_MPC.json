@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T03:07:38.356872+00:00",
-  "text": "Marathon Petroleum stock rose 0.69% today to close at $424.89, continuing a sharp nine-day rally that's now up nearly 10%. The stock has climbed steadily since mid-September as oil prices have spiked\u2014US crude is now trading at $107 per barrel, up sharply from earlier in the month\u2014while US refineries are operating at 96.8% capacity. For a refiner like Marathon, higher crude prices typically lift margins when the company can process and sell refined products (gasoline and diesel) at profitable spreads, especially when refineries are running hot.\n\nThe rally reflects a confluence of supply fears from Middle East tensions: Houthi attacks on Saudi infrastructure, Iranian threats to the Strait of Hormuz, and Pakistani concerns over energy supplies have all weighed on oil markets over the past week. Though oil fell slightly on Monday as traders noted Saudi crude flows remain \"surprisingly strong,\" the geopolitical premium\u2014the extra cost baked into prices due to conflict risk\u2014remains embedded in these prices, supporting refiner economics as long as refineries can keep running full.",
+  "fetchedAt": "2026-09-21T04:02:49.891998+00:00",
+  "text": "Marathon Petroleum's stock has climbed 9.6% over two weeks and ticked up another 0.7% today, riding a sharp four-day rally that started around September 14th. The core driver is the oil price environment: crude hit $107 per barrel domestically and $130.80 globally, and U.S. refineries are running at 96.8% capacity\u2014near maximum output. When oil prices rise and refineries run hot, refining margins widen (the difference between what they pay for crude and what they sell refined products for improves), which directly boosts earnings for a major refiner like MPC.\n\nThe broader backdrop is escalating Middle East tensions: Iran closed the Strait of Hormuz, Houthis attacked Saudi infrastructure including near Riyadh's airport, and the U.S. warned citizens against travel to the region. These events typically tighten oil supplies and push prices higher. That said, the market has also noted that crude flows remain \"surprisingly strong\" and some feared disruptions (like a Saudi pipeline outage) proved less severe than expected\u2014so the rally reflects both genuine geopolitical risk and the market's relief that supply hasn't collapsed entirely.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 153,
-    "inputTokens": 140903,
-    "outputTokens": 33124,
-    "estimatedCostUsd": 0.306523,
-    "lastCallHour": "2026-09-21T03"
+    "callsThisMonth": 154,
+    "inputTokens": 141812,
+    "outputTokens": 33386,
+    "estimatedCostUsd": 0.308742,
+    "lastCallHour": "2026-09-21T04"
   }
 }

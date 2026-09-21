@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T03:07:10.850456+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp downward swing from last Tuesday's high of $141.22. The immediate pressure came from oil prices dropping as traders reassessed Middle East supply disruptions\u2014crude fell Monday despite ongoing geopolitical tensions because actual oil flows from Saudi Arabia remained stronger than feared, suggesting the conflict may not crimp global supplies as severely as initially worried. The stock has now given back most of a week's gains in just three trading days.\n\nThe broader backdrop is that oil investors are caught between two opposing forces: geopolitical risk (Iran keeping the Strait of Hormuz closed, Houthi attacks, rising U.S.-Iran tensions) and the reality that supply disruptions so far have proven less severe than the headlines implied. As long as crude can flow and traders see the worst-case scenario as less likely, energy stocks like COP face downward pressure even amid Middle East instability.",
+  "fetchedAt": "2026-09-21T04:01:56.206424+00:00",
+  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp downturn that started after the stock spiked to $141.22 just three days ago on September 15th. The reversal appears tied to oil prices sliding as crude supplies prove more resilient than feared\u2014despite ongoing Middle East tensions including Houthi attacks and Iranian threats to the Strait of Hormuz, traders are pricing in a recovery in Saudi Arabian shipments, which is pulling crude down from earlier spikes. US oil prices currently sit at $107 per barrel, down meaningfully from levels that would have supported the stock's mid-September peak.\n\nThe broader pattern here reflects how oil stocks move in lockstep with crude prices and supply expectations. Even though geopolitical risks\u2014Iranian escalation, attacks near Saudi infrastructure, and shipping threats\u2014remain very real and could disrupt supplies at any moment, the market is currently trading on the assumption that those risks won't fully materialize, weighing down both oil and integrated energy companies like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 153,
-    "inputTokens": 132410,
-    "outputTokens": 32342,
-    "estimatedCostUsd": 0.29412,
-    "lastCallHour": "2026-09-21T03"
+    "callsThisMonth": 154,
+    "inputTokens": 133273,
+    "outputTokens": 32572,
+    "estimatedCostUsd": 0.296133,
+    "lastCallHour": "2026-09-21T04"
   }
 }
