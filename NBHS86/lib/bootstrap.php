@@ -154,24 +154,46 @@ function nb_backfill_seq(PDO $db): void
  * The name everyone sees and downloads. Photos/videos: NBHS_reunions_0001.<ext>; anything else keeps its
  * uploaded name. $converted = the file is being served as a JPEG made from a HEIC.
  */
+/**
+ * A file's original name with spaces turned into dashes ("Reunion Video 1985.mp4" -> "Reunion-Video-1985.mp4"),
+ * so the name is identical everywhere and never shows up as %20. A space next to a dash collapses into it
+ * ("Video - 1985" -> "Video-1985"); anything else in the name is left exactly as uploaded.
+ */
+function nb_dash_spaces(string $name): string
+{
+    $sp = '[\s\x{00A0}\x{2000}-\x{200B}\x{202F}\x{205F}\x{3000}]';
+    $name = trim($name);
+    $dot = strrpos($name, '.');
+    $ext = '';
+    if ($dot !== false && $dot > 0) {          // set the extension aside so "Name .mov" never becomes "Name-.mov"
+        $ext = substr($name, $dot);
+        $name = rtrim(substr($name, 0, $dot));
+    }
+    return (string) preg_replace("/$sp*-$sp*|$sp+/u", '-', $name) . $ext;
+}
+
+/**
+ * The name everyone sees and downloads.
+ *   photos      NBHS_reunions_0001.jpg   (numbered once, at upload; HEIC downloads as .jpg)
+ *   slideshows  NBHS_slideshow_0001.mp4  (their own series, added by the admin)
+ *   videos, PDFs and anything else keep their own uploaded name, with spaces as dashes
+ * $converted = the file is being served as a JPEG made from a HEIC.
+ */
 function nb_download_name(array $row, bool $converted = false): string
 {
-    if (!in_array($row['kind'], ['image', 'video'], true)) {
-        return (string) $row['orig_name'];
-    }
-    $ext = (string) $row['ext'];
-    $ext = ['jpeg' => 'jpg', 'tiff' => 'tif'][$ext] ?? $ext;
-    if ($converted && in_array($ext, ['heic', 'heif'], true)) {
-        $ext = 'jpg';
-    }
-    // Slideshows have their own permanent numbering: NBHS_slideshow_0001.mp4
-    if (!empty($row['slideshow_seq'])) {
+    if ($row['kind'] === 'video' && !empty($row['slideshow_seq'])) {
+        $ext = (string) $row['ext'];
         return sprintf('NBHS_slideshow_%04d.%s', (int) $row['slideshow_seq'], $ext);
     }
-    if (empty($row['seq'])) {
-        return (string) $row['orig_name'];
+    if ($row['kind'] === 'image' && !empty($row['seq'])) {
+        $ext = (string) $row['ext'];
+        $ext = ['jpeg' => 'jpg', 'tiff' => 'tif'][$ext] ?? $ext;
+        if ($converted && in_array($ext, ['heic', 'heif'], true)) {
+            $ext = 'jpg';
+        }
+        return sprintf('NBHS_reunions_%04d.%s', (int) $row['seq'], $ext);
     }
-    return sprintf('NBHS_reunions_%04d.%s', (int) $row['seq'], $ext);
+    return nb_dash_spaces((string) $row['orig_name']);
 }
 
 // ---------- response headers ----------

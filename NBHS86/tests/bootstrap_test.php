@@ -10,7 +10,7 @@ require_once __DIR__ . '/../lib/credits.php';
 
 $required = [
     // bootstrap: config, storage, db, headers, auth, throttling, naming, migrations, settings, folders
-    'nb_config', 'nb_configured', 'nb_data_dir', 'nb_media_path', 'nb_db', 'nb_next_seq', 'nb_backfill_seq', 'nb_download_name',
+    'nb_config', 'nb_configured', 'nb_data_dir', 'nb_media_path', 'nb_db', 'nb_next_seq', 'nb_backfill_seq', 'nb_download_name', 'nb_dash_spaces',
     'nb_backup_db', 'nb_migrate', 'nb_setting', 'nb_set_setting', 'nb_gallery_open', 'nb_intake_open', 'nb_can_view_gallery',
     'nb_require_gallery', 'nb_folders', 'nb_folder', 'nb_headers', 'nb_json', 'nb_sign', 'nb_https', 'nb_issue_cookie',
     'nb_clear_cookie', 'nb_cookie_valid', 'nb_is_admin', 'nb_is_member', 'nb_require_member', 'nb_normalize_secret_input',

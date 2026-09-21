@@ -71,7 +71,7 @@ $p1 = nb_store_file("$jobs/a.pdf", 'Yearbook.pdf', ['uploader' => 'A']);
 $p2 = nb_store_file("$jobs/b.pdf", 'Yearbook.pdf', ['uploader' => 'B']);
 $names = nb_zip_names([$row, $row2, $row3, row($p1['id']), row($p2['id'])]);
 check('zip names', array_values($names), [
-    'NBHS_reunions_0001.jpg', 'NBHS_reunions_0002.jpg', 'NBHS_reunions_0001.mp4', 'Yearbook.pdf', 'Yearbook (2).pdf',
+    'NBHS_reunions_0001.jpg', 'NBHS_reunions_0002.jpg', 'clip.mp4', 'Yearbook.pdf', 'Yearbook-2.pdf',
 ]);
 check('heic entry is named .jpg', nb_zip_names([['id' => 'x', 'kind' => 'image', 'ext' => 'heic', 'seq' => 9, 'orig_name' => 'a']])['x'], 'NBHS_reunions_0009.jpg');
 

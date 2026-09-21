@@ -31,15 +31,15 @@ $user = ['uploader' => 'Pat Doe', 'anonymous' => 0, 'batch' => 't'];
 $admin = ['uploader' => '', 'anonymous' => 0, 'batch' => 's', 'slideshow' => 1];
 
 // classmate video, two slideshows, another classmate video
-$v1 = nb_store_file(mp4('v1.mp4', 1), 'v1.mp4', $user);
+$v1 = nb_store_file(mp4('v1.mp4', 1), 'Class Picnic Video.mp4', $user);
 $s1 = nb_store_file(mp4('s1.mp4', 2), 'Reunion Slideshow.mp4', $admin);
 $s2 = nb_store_file(mp4('s2.mov', 3), 'Yearbook Slideshow.mov', $admin);
 $v2 = nb_store_file(mp4('v2.mp4', 4), 'v2.mp4', $user);
 $r = fn($x) => row($x['id']);
-check('classmate video 1', nb_download_name($r($v1)), 'NBHS_reunions_0001.mp4');
+check('classmate video keeps its own name (spaces as dashes)', nb_download_name($r($v1)), 'Class-Picnic-Video.mp4');
 check('slideshow 1', nb_download_name($r($s1)), 'NBHS_slideshow_0001.mp4');
 check('slideshow 2 keeps its own extension', nb_download_name($r($s2)), 'NBHS_slideshow_0002.mov');
-check('classmate video 2 is not affected by slideshows', nb_download_name($r($v2)), 'NBHS_reunions_0002.mp4');
+check('other classmate video is not affected by slideshows', nb_download_name($r($v2)), 'v2.mp4');
 check('slideshow lands in Slideshows', $r($s1)['album'], 'slideshows');
 check('slideshow takes no video number', $r($s1)['seq'], null);
 check('slideshow credit', $r($s1)['credit_override'], 'Reunion Committee');
@@ -84,7 +84,7 @@ check('backfill leaves slideshows alone', row($s2['id'])['seq'], null);
 $names = nb_zip_names([$r($v1), $r($s1), $r($s2), $r($v2)]);
 check('zip names unique', count(array_unique(array_map('strtolower', $names))), 4);
 check('backfilled classmate video got the next free number', row($v2['id'])['seq'], 3);
-check('zip names', array_values($names), ['NBHS_reunions_0001.mp4', 'NBHS_slideshow_0001.mp4', 'NBHS_slideshow_0002.mov', 'NBHS_reunions_0003.mp4']);
+check('zip names', array_values($names), ['Class-Picnic-Video.mp4', 'NBHS_slideshow_0001.mp4', 'NBHS_slideshow_0002.mov', 'v2.mp4']);
 
 // a zip uploaded by the admin: videos inside become slideshows, everything else follows the normal rules
 $zip = new ZipArchive();
@@ -131,7 +131,7 @@ $out = shell_exec('NBHS86_DATA_DIR=' . escapeshellarg($old) . ' php -r ' . escap
 $u = json_decode((string) $out, true) ?? [];
 check('v3 columns added', [$u['media'] ?? null, $u['jobs'] ?? null], [true, true]);
 check('existing numbers untouched', $u['seq'] ?? null, ['aaaaaaaaaaaa' => 1, 'bbbbbbbbbbbb' => 2]);
-check('existing names untouched', $u['name'] ?? null, 'NBHS_reunions_0001.mp4');
+check('existing video keeps its own name after the upgrade', $u['name'] ?? null, 'a.mp4');
 check('schema version', $u['version'] ?? null, NB_SCHEMA_VERSION);
 check('database snapshot taken before upgrading', $u['backup'] ?? null, 1);
 

@@ -296,8 +296,8 @@ function nb_fill_meta(int $max = 40, float $budget = 5.0): int
 }
 
 /**
- * Unique names for a zip: NBHS names are already unique; documents keep their own names so identical
- * ones get " (2)", " (3)".
+ * Unique names for a zip. NBHS photo/slideshow names are already unique; videos and PDFs keep their own
+ * names, so identical ones get "-2", "-3" before the extension.
  * @param array<int,array> $rows
  * @return array<string,string> media id => entry name
  */
@@ -311,7 +311,7 @@ function nb_zip_names(array $rows): array
         $i = 2;
         while (isset($used[mb_strtolower($name)])) {
             $dot = strrpos($base, '.');
-            $name = $dot === false ? "$base ($i)" : substr($base, 0, $dot) . " ($i)" . substr($base, $dot);
+            $name = $dot === false ? "$base-$i" : substr($base, 0, $dot) . "-$i" . substr($base, $dot); // no spaces in any name
             $i++;
         }
         $used[mb_strtolower($name)] = true;

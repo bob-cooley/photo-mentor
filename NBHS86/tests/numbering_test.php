@@ -56,9 +56,9 @@ check('pdf unnumbered', row($pdf['id'])['seq'], null);
 // 2. names
 check('name jpg', nb_download_name(row($a['id'])), 'NBHS_reunions_0001.jpg');
 check('name jpeg -> jpg', nb_download_name(row($b['id'])), 'NBHS_reunions_0002.jpg'); // ext is the stored one
-check('name mov keeps ext', nb_download_name(row($v1['id'])), 'NBHS_reunions_0001.mov');
-check('name mp4', nb_download_name(row($v2['id'])), 'NBHS_reunions_0002.mp4');
-check('pdf keeps its name', nb_download_name(row($pdf['id'])), 'Yearbook 1986.pdf');
+check('classmate video keeps its own name', nb_download_name(row($v1['id'])), 'clip.mov');
+check('classmate video 2 keeps its own name', nb_download_name(row($v2['id'])), 'clip.mp4');
+check('pdf keeps its name, spaces as dashes', nb_download_name(row($pdf['id'])), 'Yearbook-1986.pdf');
 check('heic as-is', nb_download_name(['kind' => 'image', 'ext' => 'heic', 'seq' => 7, 'orig_name' => 'x']), 'NBHS_reunions_0007.heic');
 check('heic converted', nb_download_name(['kind' => 'image', 'ext' => 'heic', 'seq' => 7, 'orig_name' => 'x'], true), 'NBHS_reunions_0007.jpg');
 check('5-digit rollover', nb_download_name(['kind' => 'image', 'ext' => 'jpg', 'seq' => 12345, 'orig_name' => 'x']), 'NBHS_reunions_12345.jpg');
