@@ -37,7 +37,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=9">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=10">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
@@ -61,6 +61,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 </div>
 <?php elseif ($intakeClosed): ?>
 <div class="wrap">
+  <?= nb_header_image() ?>
   <?= nb_nav('upload') ?>
   <header class="top">
     <h1>Uploads are closed</h1>
@@ -69,6 +70,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 </div>
 <?php else: ?>
 <div class="wrap">
+  <?= nb_header_image() ?>
   <?= nb_nav('upload') ?>
   <header class="top">
     <h1>Share your reunion photos &amp; videos</h1>

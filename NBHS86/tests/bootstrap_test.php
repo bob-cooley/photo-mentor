@@ -18,7 +18,7 @@ $required = [
     // ingest, derive, thumbs, credits, layout, selection, icons
     'nb_store_file', 'nb_ingest_upload', 'nb_run_jobs', 'nb_pending_jobs', 'nb_variant', 'nb_clean_path', 'nb_has_gps', 'nb_strip_gps',
     'nb_make_jpeg', 'nb_extract_meta', 'nb_fill_meta', 'nb_zip_names', 'nb_thumb', 'nb_credit_labels', 'nb_credit_for',
-    'nb_nav', 'nb_icon', 'nb_selected_rows', 'nb_daily_backup', 'nb_list_backups', 'nb_error_log_path', 'nb_recent_errors', 'nb_thumb_image', 'nb_thumb_video',
+    'nb_nav', 'nb_header_image', 'nb_icon', 'nb_selected_rows', 'nb_daily_backup', 'nb_list_backups', 'nb_error_log_path', 'nb_recent_errors', 'nb_thumb_image', 'nb_thumb_video',
 ];
 $missing = array_values(array_filter($required, fn($f) => !function_exists($f)));
 $consts = ['NB_BASE', 'NB_SCHEMA_VERSION', 'NB_ALBUM_BY_KIND', 'NB_SLIDESHOW_ALBUM', 'NB_SLIDESHOW_CREDIT', 'NB_ZIP_MAX_FILES', 'NB_ZIP_MAX_BYTES', 'NB_TYPES', 'NB_MIME', 'NB_ICONS', 'NB_ANON_CREDIT'];

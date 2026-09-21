@@ -26,3 +26,17 @@ function nb_nav(string $current): string
     }
     return $html . '</nav>';
 }
+
+/**
+ * Header art (upload and gallery pages). The picture is 1455x600 (ratio 2.425); its height is set in
+ * assets/css/site.css (--header-h, with tablet and phone values). `sizes` must equal the rendered width
+ * (height x 2.425 = 242px at 100px tall): if you change the height, change it here too.
+ */
+function nb_header_image(): string
+{
+    $b = NB_BASE . '/assets/img/';
+    $v = '?v=1'; // bump when the picture is replaced (images are cached for a year)
+    return '<header class="site-header"><img class="site-header-img" src="' . $b . 'nbhs86-header-727.jpg' . $v . '"'
+        . ' srcset="' . $b . 'nbhs86-header-485.jpg' . $v . ' 485w, ' . $b . 'nbhs86-header-727.jpg' . $v . ' 727w, ' . $b . 'nbhs86-header.jpg' . $v . ' 1455w"'
+        . ' sizes="242px" width="1455" height="600" alt="NB Class of \'86 and friends" decoding="async" fetchpriority="high"></header>';
+}

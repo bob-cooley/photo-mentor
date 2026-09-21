@@ -64,6 +64,11 @@ NBHS86/
 - **Thumbnails at upload time**: `nb_store_file()` builds the thumbnail (photo, HEIC, video poster, PDF page 1) right after storing, so browsing never waits on it. `api/thumb.php` still builds one on first view as a fallback. Thumbnails and derived copies are written to a unique temp name and renamed, so a concurrent request can never serve a half-written file.
 - **Case-sensitive URLs**: the server treats `/nbhs86/` differently from `/NBHS86/` (404). Fix is a Cloudflare redirect rule, not code (see below). Do NOT add a lowercase `nbhs86/` folder: the Mac mirror is case-insensitive and Dreamweaver would merge the two.
 
+## Header art
+- `assets/img/nbhs86-header.jpg` (1455x600, navy background identical to the page colour #062365, so it blends in) plus `-727.jpg` and `-485.jpg` copies for phones and retina screens (`srcset`). Source art: `~/Desktop/_Upload/nbhs86-header.jpg` (a .psd exists in the local `nusite/NBHS86/` mirror; never upload it, the site is public).
+- `nb_header_image()` in `lib/layout.php` renders it at the top of the upload page (including the "uploads closed" view) and every gallery view. The passcode page does not have it.
+- Height is `--header-h` in `assets/css/site.css`: 100px desktop, tablet (<=900px) and phone (<=560px) values are separate so each can be tuned; on phones the page's top padding is also reduced. The picture is 2.425x wider than tall, so 100px tall = 243px wide. **If you change the height, update `sizes` in `nb_header_image()` (width = height x 2.425)** so phones/retina still pick the right file. Bump `?v=` there when the picture changes (images are cached a year).
+
 ## Deploy gotcha: never delete a folder
 FTP-Deploy-Action cannot remove folders on this host: the folder-removal step fails with `550 ... No such file or directory`, which aborts the whole deploy before it saves its state, so every later deploy fails the same way. Deleting single files works. To retire a folder, delete its files and leave a stub `index.php` in it (see `_test/`, `upload/`).
 
