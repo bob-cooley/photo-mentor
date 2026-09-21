@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T12:49:58.562743+00:00",
-  "text": "Marathon Petroleum stock rose 0.69% today to close at $424.89, continuing a strong two-week rally that's gained 9.59% overall. The company has benefited from a tight global oil market: U.S. crude is trading at $107 per barrel while world oil prices sit at $130.80\u2014a $23.80-per-barrel spread that reflects Middle East supply disruptions (Saudi Arabia's East-West pipeline shutdown, Iranian tensions, Houthi attacks) creating real scarcity. U.S. refineries are running at 96.8% capacity, meaning Marathon can process crude at near maximum rates to capture profits from this wide price gap.\n\nThe rally reflects what refiners call the \"crack spread\"\u2014the difference between the price they pay for crude and the price they receive for finished fuel like gasoline and diesel. When global crude prices spike (as they have amid Middle East unrest) while U.S. crude lags behind due to temporary supply relief and diplomatic talk, refiners in America profit from buying cheaper local oil and selling into a world market paying far more. Gasoline and diesel storage levels remain moderate (207.7 million and 107.9 million barrels respectively), suggesting steady demand is draining supplies, which supports fuel prices.",
+  "fetchedAt": "2026-09-21T17:49:23.101846+00:00",
+  "text": "Marathon Petroleum fell 2.6% today after oil prices tumbled below $100 per barrel on reports that Trump signaled openness to talks with Iran, easing some of the geopolitical premium that had been pushing crude higher. The stock had spiked to $424.89 just three days earlier amid escalating Mideast tensions, but that rally has now reversed as traders price in a potential de-escalation scenario.\n\nThe move reflects the classic refiner's bind: while lower oil prices reduce their cost of crude, they also compress profit margins on refined products like gasoline and diesel. With refineries already running hot at 96.8% capacity and storage levels elevated across gasoline and diesel, cheaper oil doesn't immediately translate to better earnings if the market has already priced in a supply glut.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 157,
-    "inputTokens": 144589,
-    "outputTokens": 34107,
-    "estimatedCostUsd": 0.315124,
-    "lastCallHour": "2026-09-21T12"
+    "callsThisMonth": 158,
+    "inputTokens": 145518,
+    "outputTokens": 34282,
+    "estimatedCostUsd": 0.316928,
+    "lastCallHour": "2026-09-21T17"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-21T12:49:46.082554+00:00",
-  "text": "ConocoPhillips fell 1% today to $131.83, continuing a sharp downward trend that started on September 16th when the stock dropped nearly $9 in a single day. The immediate trigger appears to be easing geopolitical tension: Trump signaled openness to talks with Iran, which caused crude oil prices to pull back below $100 per barrel as traders bet that supplies could normalize and regional conflict might de-escalate. For an oil major, lower crude prices directly compress profit margins on production and refining.\n\nThe broader context is a volatile two-week stretch driven by Middle East uncertainty. Earlier this month, Saudi pipeline shutdowns and Strait of Hormuz closures had tightened global supply and pushed prices higher, but that support evaporated the moment diplomatic signals shifted. The stock's $5.50 decline since mid-September reflects how exposed ConocoPhillips is to crude price swings\u2014when the market reprices the risk of war down toward the risk of negotiation, energy stocks feel it immediately.",
+  "fetchedAt": "2026-09-21T17:49:03.067510+00:00",
+  "text": "ConocoPhillips fell 2.9% today as oil prices tumbled back below $100 per barrel following Trump's statement that he's open to talks with Iran. The drop comes after a volatile week that's seen the stock lose nearly 5% overall. Oil traders are pricing in reduced tension premium \u2014 the extra value built into crude prices when geopolitical risk feels acute \u2014 even though Middle East instability remains real, with Saudi pipeline shutdowns and Houthi attacks ongoing.\n\nThe bigger picture is that oil majors like ConocoPhillips move closely with crude prices, and right now the market is interpreting diplomatic opening as relief from supply concerns that had been supporting prices. If those negotiations stall or tensions flare again, that could reverse quickly \u2014 but for today, the market is betting calmer rhetoric means calmer oil markets.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 157,
-    "inputTokens": 135872,
-    "outputTokens": 33262,
-    "estimatedCostUsd": 0.302182,
-    "lastCallHour": "2026-09-21T12"
+    "callsThisMonth": 158,
+    "inputTokens": 136738,
+    "outputTokens": 33444,
+    "estimatedCostUsd": 0.303958,
+    "lastCallHour": "2026-09-21T17"
   }
 }
