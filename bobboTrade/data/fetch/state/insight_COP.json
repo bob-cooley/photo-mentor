@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T21:41:19.555284+00:00",
-  "text": "ConocoPhillips fell 1.8% today to $125.27, extending a sharp two-week decline as oil prices dropped for a fifth consecutive day on signs of potential U.S.-Iran diplomatic progress. Reports that Iran could reopen the Strait of Hormuz (a critical global oil chokepoint) within a week if the U.S. eases military pressure have eased concerns about immediate supply disruptions, which earlier this month had helped push oil higher. The gap between U.S. crude ($107/barrel) and global prices ($131/barrel) also narrowed, suggesting less urgency about potential shortages.\n\nBeyond today's diplomacy headlines, the stock has been pressured by broader geopolitical uncertainty and political discussion about a potential diesel export ban\u2014moves aimed at lowering fuel costs for farmers and truckers. With Wall Street itself uncertain where oil prices are headed amid shifting Iran negotiations and supply dynamics, energy producers like ConocoPhillips remain caught between hopes for diplomatic resolution (which would weigh on prices) and fears of supply disruption (which would support them).",
+  "fetchedAt": "2026-09-22T22:42:47.644276+00:00",
+  "text": "ConocoPhillips fell 1.8% today as oil prices dropped for the fifth consecutive day, driven by growing optimism that U.S.-Iran diplomatic talks could ease Middle East tensions and reduce the risk of supply disruptions. The company has lost 7.2% over the past two weeks as geopolitical risks that had pushed crude higher have begun to ease; US oil is trading at $107 a barrel, down sharply from levels that supported the earlier rally.\n\nThe decline also reflects broader uncertainty about energy policy: the Trump administration is considering a diesel export ban to help domestic farmers and truckers, which could constrain refining margins and volumes for oil producers. Combined with diplomatic hopes and admitted confusion on Wall Street about where oil is actually headed, investors appear to be reducing bets on sustained high energy prices that would benefit companies like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 177,
-    "inputTokens": 153385,
-    "outputTokens": 37715,
-    "estimatedCostUsd": 0.34196,
-    "lastCallHour": "2026-09-22T21"
+    "callsThisMonth": 178,
+    "inputTokens": 154261,
+    "outputTokens": 37901,
+    "estimatedCostUsd": 0.343766,
+    "lastCallHour": "2026-09-22T22"
   }
 }
