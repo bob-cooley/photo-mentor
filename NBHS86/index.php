@@ -103,7 +103,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
   <section class="card" id="filesCard">
     <h2>2. Choose your files</h2>
     <div id="uppy"></div>
-    <div class="hint">Photos (JPG, HEIC, PNG), videos (MP4, MOV), PDFs, or .zip archives &middot; up to 2 GB per file.</div>
+    <div class="hint">Photos (JPG, HEIC, PNG), videos (MP4, MOV), or .zip archives &middot; up to 2 GB per file.</div>
   </section>
 
   <footer class="foot">
