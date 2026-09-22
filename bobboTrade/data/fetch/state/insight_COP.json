@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T00:33:46.982502+00:00",
-  "text": "ConocoPhillips fell 3.3% today as U.S. crude oil prices dropped sharply, sliding below $100 a barrel after the Trump administration signaled openness to negotiations with Iran at the UN. Oil traders are reassessing geopolitical risk: while Middle East tensions remain elevated\u2014with the Strait of Hormuz still closed, Saudi infrastructure under attack, and the kingdom's key East-West pipeline shut down\u2014the prospect of diplomatic talks has eased immediate fears of supply disruption, at least temporarily. A major oil producer's stock typically moves with the price of the commodity it sells, and a $7-per-barrel decline in U.S. crude in a day is a significant headwind.\n\nThe broader picture shows this stock has given back all its gains from earlier in the month, falling 5% over two weeks as the market grapples with conflicting signals: real supply constraints (Saudi pipeline down, Asian buyers scrambling) weighed against de-escalation hopes that could ease those constraints. For an integrated oil company, lower crude prices directly compress profit margins, which is why the stock has tracked the oil selloff so closely.",
+  "fetchedAt": "2026-09-22T03:32:11.308695+00:00",
+  "text": "ConocoPhillips fell 3.3% today to $127.53, continuing a sharp six-day decline that has wiped out 6.6% of the stock's value since mid-September. The selloff tracks a collapse in U.S. oil prices\u2014crude tumbled from $107 to below $100 per barrel this week as traders bet that escalating U.S.-Iran tensions might actually lead to talks rather than conflict, reducing the threat of supply disruptions. Even as Middle East instability persists (Iranian airliners face shutdown, the Strait of Hormuz remains closed, Saudi pipeline constraints tighten Asian supply), the market's focus has shifted from \"war premium\" to de-escalation hopes, leaving oil prices lower and energy stocks weaker.\n\nThe divergence between U.S. crude ($107) and world oil ($130.80) suggests traders still see regional supply tightness, but that hasn't been enough to hold up COP's stock. For an oil producer, lower crude prices directly compress margins and cash flow, and the absence of a geopolitical \"shock premium\" removes one of the few near-term catalysts that could offset the macro headwind.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 165,
-    "inputTokens": 142818,
-    "outputTokens": 34900,
-    "estimatedCostUsd": 0.317318,
-    "lastCallHour": "2026-09-22T00"
+    "callsThisMonth": 166,
+    "inputTokens": 143676,
+    "outputTokens": 35161,
+    "estimatedCostUsd": 0.319481,
+    "lastCallHour": "2026-09-22T03"
   }
 }

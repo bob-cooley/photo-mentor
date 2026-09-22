@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T00:34:01.763619+00:00",
-  "text": "Marathon Petroleum fell 5.3% today after crude oil prices tumbled below $100 a barrel\u2014down sharply from the $130.80 per barrel global price, driven by Trump's signal that he's open to talks with Iran at the UN. For a refiner like Marathon, lower oil prices directly cut into refining margins (the profit from turning crude into gasoline and diesel), even though the company benefits from cheaper feedstock. The stock had surged for three straight days into Friday as geopolitical tensions threatened supply, but today's diplomatic thaw reversed that momentum.\n\nThe broader pattern here is classic: refiners ride commodity price swings. While refineries are running near full capacity at 96.8%, which is normally healthy, the sudden shift from escalating Middle East conflict to diplomatic possibility pulled the rug out from under the rally that had pushed the stock from $396 to $425 in just four days.",
+  "fetchedAt": "2026-09-22T03:32:26.051828+00:00",
+  "text": "Marathon Petroleum stock dropped 5.3% today after climbing nearly $30 over the prior four trading days. The sharp reversal came as oil prices fell \u2014 U.S. crude tumbled below $100 a barrel on Monday (September 21st) after Trump signaled openness to talks with Iran, easing some of the geopolitical premium that had driven prices higher. For a refiner like Marathon, lower crude prices initially sound good, but the market may be pricing in concern that a de-escalation in Middle East tensions could persist, removing the supply-disruption fears that had lifted energy stocks.\n\nThe broader picture shows refineries are running at 96.8% capacity with healthy storage levels across crude, gasoline, and diesel \u2014 conditions that normally support refiner margins. However, the stock's reversal suggests traders are now focusing on the risk that diplomatic progress could stabilize global oil supply over the near term, which would undercut the margin expansion that benefited refiners last week when geopolitical risk was driving crude toward $130 globally.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 165,
-    "inputTokens": 152041,
-    "outputTokens": 35725,
-    "estimatedCostUsd": 0.330666,
-    "lastCallHour": "2026-09-22T00"
+    "callsThisMonth": 166,
+    "inputTokens": 152962,
+    "outputTokens": 35951,
+    "estimatedCostUsd": 0.332717,
+    "lastCallHour": "2026-09-22T03"
   }
 }
