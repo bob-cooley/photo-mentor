@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T14:59:24.652778+00:00",
-  "text": "ConocoPhillips fell 0.86% today to $126.43, extending a sharp two-week decline of 6.4%. The primary driver is a collapse in oil prices: U.S. crude has tumbled to $107 per barrel from over $141 two weeks ago, a drop of roughly 24%. This crash stems directly from a wave of diplomatic developments\u2014reports that Iran could reopen the Strait of Hormuz (a critical chokepoint for global oil) within a week if the U.S. eases military pressure, combined with hopes that Saudi Arabia will restart a damaged pipeline. These signals have convinced traders that supply disruptions may ease, reducing the scarcity premium that had been pushing oil prices higher.\n\nOil majors like this one live or die on the price per barrel; when crude falls this steeply, their profits shrink immediately. The market is now pricing in a scenario where Middle Eastern tensions de-escalate through diplomacy rather than conflict, fundamentally weakening the bull case for energy stocks that had benefited from geopolitical risk premiums over the past weeks.",
+  "fetchedAt": "2026-09-22T15:24:49.401659+00:00",
+  "text": "ConocoPhillips fell 0.9% today to $126.40, continuing a sharp two-week decline of 6.4% that accelerated over the past week. The immediate trigger is renewed hope for a U.S.-Iran diplomatic deal \u2014 Trump said at the UN that Iran will make a deal after midterm elections, and Iran signaled it could reopen the Strait of Hormuz within 7 days if pressure eases. These developments sent oil prices lower as traders bet that geopolitical tensions will ease, reducing the supply-shock premium that has been supporting crude. U.S. crude fell below $100 a barrel on Monday and sits at $107 today, well off recent highs.\n\nOil majors like ConocoPhillips benefit when crude prices are elevated and volatile; a de-escalation in the Middle East removes that tailwind. The stock's 6.4% drop in two weeks tracks almost directly with the collapse in oil's geopolitical premium as diplomatic signals have improved, making the near-term outlook for energy prices less supportive.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 170,
-    "inputTokens": 147203,
-    "outputTokens": 36127,
-    "estimatedCostUsd": 0.327838,
-    "lastCallHour": "2026-09-22T14"
+    "callsThisMonth": 171,
+    "inputTokens": 148095,
+    "outputTokens": 36362,
+    "estimatedCostUsd": 0.329905,
+    "lastCallHour": "2026-09-22T15"
   }
 }

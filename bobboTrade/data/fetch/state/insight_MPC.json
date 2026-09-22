@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T14:59:50.316453+00:00",
-  "text": "Marathon Petroleum fell 0.9% today as crude oil prices dropped on growing optimism about a potential diplomatic resolution to Middle East tensions. Reports that Iran could reopen the Strait of Hormuz within a week if the U.S. eases military pressure, combined with Saudi Arabia's plan to restart a critical pipeline, sent oil prices lower\u2014U.S. crude fell below $107 per barrel. For a refiner, lower crude costs can improve margins, but traders often sell refiners on the initial fear of falling oil demand, which appears to be what happened here.\n\nThe stock's sharp retreat from its $425 peak on September 17th reflects the market's nervousness about geopolitical de-escalation in the Middle East. When oil prices fall on peace hopes rather than economic weakness, refiners can actually benefit over time; but the immediate reaction tends to be caution, especially after the stock had already run up significantly.",
+  "fetchedAt": "2026-09-22T15:25:12.126925+00:00",
+  "text": "Marathon Petroleum stock fell 0.79% today as oil prices slipped following news that diplomatic talks between the U.S. and Iran may be progressing\u2014specifically reports that Iran could reopen the Strait of Hormuz within a week if military pressure eases. Refiners like MPC profit when oil prices are high and supplies are tight; the prospect of restored Iranian oil shipments and reduced geopolitical risk weakened that tailwind. The stock had surged from $410 to nearly $425 over the prior three trading days on escalating Middle East tensions, so today's pullback reflects traders taking some chips off the table as those risks appear to be thawing.\n\nThe broader pressure comes from a week of whipsaw geopolitics. U.S. oil has already fallen from above $107 to test below $100 as the market prices in the possibility of more stable supply, even though global oil still sits well above that at $130 per barrel. Refineries are running near capacity at 96.8%, so MPC's near-term margins depend heavily on crude costs staying elevated\u2014a de-escalation scenario is headwind for that equation.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 170,
-    "inputTokens": 156740,
-    "outputTokens": 36799,
-    "estimatedCostUsd": 0.340735,
-    "lastCallHour": "2026-09-22T14"
+    "callsThisMonth": 171,
+    "inputTokens": 157694,
+    "outputTokens": 37051,
+    "estimatedCostUsd": 0.342949,
+    "lastCallHour": "2026-09-22T15"
   }
 }
