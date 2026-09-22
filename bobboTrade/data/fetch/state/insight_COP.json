@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T05:49:17.744504+00:00",
-  "text": "ConocoPhillips dropped 3.3% today to $127.53, extending a sharp six-day slide of 5%. The swings reflect wild volatility in oil markets: U.S. crude fell below $100 a barrel on Monday after Trump signaled openness to Iran talks, then rose again Tuesday as Treasury Secretary Bessent announced Iranian airline shutdowns and escalating U.S. pressure. Oil explorers and refiners like ConocoPhillips are highly sensitive to these price swings\u2014lower crude prices compress their margins and future cash flow, while geopolitical uncertainty makes it hard for investors to price the stock confidently.\n\nAdding to the pressure, Saudi Arabia's East-West pipeline shutdown is tightening crude supply for Asian importers, which typically affects global pricing and demand expectations. The company has been whipsawed by conflicting signals: Trump's diplomatic overture pushed oil down, then Bessent's hard line pushed it back up, but apparently not enough to offset Monday's losses. With crude still volatile and regional tensions unresolved, the stock has reflected trader uncertainty about where oil prices\u2014and thus ConocoPhillips' earnings power\u2014will settle.",
+  "fetchedAt": "2026-09-22T10:54:09.193649+00:00",
+  "text": "ConocoPhillips fell 3.3% today as oil prices reversed earlier gains on growing hopes for a U.S.-Iran diplomatic deal. Reports that Iran could reopen the Strait of Hormuz within a week if U.S. military pressure eases have lifted expectations of a negotiated settlement to the U.S.-Iran conflict. Since oil prices had spiked on geopolitical tension, the prospect of de-escalation sent crude lower \u2014 U.S. oil dropped back below $100 per barrel on Monday and hasn't recovered. For an oil company like ConocoPhillips, lower crude prices directly reduce the profit margin on every barrel produced and refined.\n\nThe stock has also been sliding steadily for over a week, down 5% in two weeks as the broader oil market has shifted from pricing in Middle East supply disruptions toward pricing in potential supply normalization. The gap between U.S. crude ($107) and world oil prices ($131) suggests some regional supply uncertainty remains, but the diplomatic momentum is clearly weighing on near-term energy prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 168,
-    "inputTokens": 145422,
-    "outputTokens": 35655,
-    "estimatedCostUsd": 0.323697,
-    "lastCallHour": "2026-09-22T05"
+    "callsThisMonth": 169,
+    "inputTokens": 146314,
+    "outputTokens": 35887,
+    "estimatedCostUsd": 0.325749,
+    "lastCallHour": "2026-09-22T10"
   }
 }

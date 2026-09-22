@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T05:49:32.796854+00:00",
-  "text": "Marathon Petroleum stock fell 5.3% today after surging nearly 7% over the prior three trading days. The sharp reversal follows Treasury Secretary Bessent's announcement on September 22nd that all Iranian airlines will be shut down starting Wednesday\u2014a dramatic escalation in U.S.-Iran tensions that initially pushed oil prices higher on Monday and Tuesday (crude rose amid geopolitical concerns). However, the stock's decline today suggests the market is now pricing in the risk that heightened sanctions and international tensions could disrupt global oil supply chains in ways that hurt refiner margins, or that further diplomatic pressure could provoke a broader regional conflict that destabilizes energy markets unpredictably.\n\nThe volatility reflects the inherent tension in refining stocks during geopolitical shocks: while higher oil prices can boost refiners' input costs, the real driver of profits is the \"crack spread\"\u2014the gap between what they sell refined products for and what crude costs them. With the Saudi East-West pipeline already shut down and Asian demand potentially tightening, uncertainty about which way crude supplies and product demand will move has likely made investors nervous about locking in positions ahead of unclear policy developments.",
+  "fetchedAt": "2026-09-22T10:54:32.575217+00:00",
+  "text": "Marathon Petroleum stock fell 5.3% today after oil prices dropped sharply on news that Iran signaled willingness to reopen the Strait of Hormuz if the U.S. eases military pressure, raising hopes for a diplomatic settlement to U.S.-Iran tensions. Crude oil reversed earlier gains and tumbled below $100 a barrel on this optimism, which is a significant headwind for refiners \u2014 they profit most when oil prices are high and volatile, so a move toward lower, more stable prices reduces their margins.\n\nThe stock's decline extends a broader retreat after hitting a peak of $424.89 on September 18th. Refineries are running at very high utilization (96.8%), and storage levels for gasoline and diesel remain healthy, so the weakness is driven almost entirely by the shift in geopolitical risk and oil pricing rather than operational constraints.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 168,
-    "inputTokens": 154834,
-    "outputTokens": 36408,
-    "estimatedCostUsd": 0.336874,
-    "lastCallHour": "2026-09-22T05"
+    "callsThisMonth": 169,
+    "inputTokens": 155789,
+    "outputTokens": 36599,
+    "estimatedCostUsd": 0.338784,
+    "lastCallHour": "2026-09-22T10"
   }
 }
