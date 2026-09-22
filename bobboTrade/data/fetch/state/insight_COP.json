@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T10:54:09.193649+00:00",
-  "text": "ConocoPhillips fell 3.3% today as oil prices reversed earlier gains on growing hopes for a U.S.-Iran diplomatic deal. Reports that Iran could reopen the Strait of Hormuz within a week if U.S. military pressure eases have lifted expectations of a negotiated settlement to the U.S.-Iran conflict. Since oil prices had spiked on geopolitical tension, the prospect of de-escalation sent crude lower \u2014 U.S. oil dropped back below $100 per barrel on Monday and hasn't recovered. For an oil company like ConocoPhillips, lower crude prices directly reduce the profit margin on every barrel produced and refined.\n\nThe stock has also been sliding steadily for over a week, down 5% in two weeks as the broader oil market has shifted from pricing in Middle East supply disruptions toward pricing in potential supply normalization. The gap between U.S. crude ($107) and world oil prices ($131) suggests some regional supply uncertainty remains, but the diplomatic momentum is clearly weighing on near-term energy prices.",
+  "fetchedAt": "2026-09-22T14:59:24.652778+00:00",
+  "text": "ConocoPhillips fell 0.86% today to $126.43, extending a sharp two-week decline of 6.4%. The primary driver is a collapse in oil prices: U.S. crude has tumbled to $107 per barrel from over $141 two weeks ago, a drop of roughly 24%. This crash stems directly from a wave of diplomatic developments\u2014reports that Iran could reopen the Strait of Hormuz (a critical chokepoint for global oil) within a week if the U.S. eases military pressure, combined with hopes that Saudi Arabia will restart a damaged pipeline. These signals have convinced traders that supply disruptions may ease, reducing the scarcity premium that had been pushing oil prices higher.\n\nOil majors like this one live or die on the price per barrel; when crude falls this steeply, their profits shrink immediately. The market is now pricing in a scenario where Middle Eastern tensions de-escalate through diplomacy rather than conflict, fundamentally weakening the bull case for energy stocks that had benefited from geopolitical risk premiums over the past weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 169,
-    "inputTokens": 146314,
-    "outputTokens": 35887,
-    "estimatedCostUsd": 0.325749,
-    "lastCallHour": "2026-09-22T10"
+    "callsThisMonth": 170,
+    "inputTokens": 147203,
+    "outputTokens": 36127,
+    "estimatedCostUsd": 0.327838,
+    "lastCallHour": "2026-09-22T14"
   }
 }
