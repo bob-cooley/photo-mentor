@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T22:43:41.777750+00:00",
-  "text": "Marathon Petroleum stock fell 3.2% today as oil prices dropped for a fifth consecutive day following reports of potential diplomatic progress between the U.S. and Iran. Earlier this week, the stock had rallied sharply\u2014climbing from $410 to $425\u2014likely on geopolitical tension that typically supports energy prices and refiner margins. Today's reversal reflects investor disappointment as the market repriced that risk: if the U.S. and Iran move toward negotiation, the supply uncertainty that had been supporting crude prices dissipates, and oil has fallen from the $130+ range it touched earlier.\n\nRefiners like Marathon depend on the spread between crude oil input costs and the value of refined products they sell\u2014when crude falls faster than gasoline and diesel prices adjust, margins compress and stock prices typically follow. Adding downward pressure: the Trump administration is actively examining a diesel export ban to address high prices for farmers and truckers, which would further constrain refiner demand and profitability if enacted.",
+  "fetchedAt": "2026-09-22T23:10:37.405336+00:00",
+  "text": "Marathon Petroleum stock fell 3.2% today as oil prices dropped for a fifth consecutive day on optimism that U.S.-Iran diplomatic talks could ease tensions in the Middle East. The price of crude fell sharply after reports that Iran said it could reopen the Strait of Hormuz within a week if the U.S. reduced military pressure\u2014a development that reduced near-term supply-crisis fears that had been supporting higher oil and fuel prices. Refiners like Marathon benefit when crude and refined product prices are elevated; a pullback in those prices directly hits margins.\n\nThe broader headwind for refiners is the growing geopolitical uncertainty itself. Wall Street analysts have openly admitted they don't know where oil prices are headed given the shifting U.S.-Iran dynamics, and the Trump administration is now exploring a diesel export ban to address high prices hitting farmers and truckers\u2014a policy that could further pressure refiner profitability by limiting their ability to export higher-margin products. With refineries already running at 96.8% capacity and diesel inventories relatively tight, the combination of falling crude prices and potential export restrictions creates a murky outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 178,
-    "inputTokens": 164299,
-    "outputTokens": 38615,
-    "estimatedCostUsd": 0.357374,
-    "lastCallHour": "2026-09-22T22"
+    "callsThisMonth": 179,
+    "inputTokens": 165239,
+    "outputTokens": 38859,
+    "estimatedCostUsd": 0.359534,
+    "lastCallHour": "2026-09-22T23"
   }
 }
