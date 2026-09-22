@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T04:42:55.140409+00:00",
-  "text": "ConocoPhillips stock fell 3.3% today to $127.53, continuing a sharp slide over the past week as oil prices have whipsawed on conflicting signals about Iran tensions and Middle East supply. The stock has lost 5% in two weeks, reflecting broader volatility in energy markets: crude swung from below $100 a barrel on Monday (after Trump signaled willingness to negotiate with Iran) back up as Treasury Secretary Bessent announced Iranian airlines would be shut down starting Wednesday, then fell again as traders assessed that Saudi Arabia's East-West pipeline closure would eventually ease supply constraints once it recovers.\n\nThe outsized move in the stock relative to the oil price direction suggests investors are pricing in real uncertainty about both near-term geopolitical risk and longer-term energy supply. With oil prices now split\u2014U.S. crude at $107 versus world crude at $131\u2014there's a wide disparity in what refinery margins (profit from converting crude to products) might be, which affects company fundamentals differently depending on where ConocoPhillips operates and what it produces.",
+  "fetchedAt": "2026-09-22T05:49:17.744504+00:00",
+  "text": "ConocoPhillips dropped 3.3% today to $127.53, extending a sharp six-day slide of 5%. The swings reflect wild volatility in oil markets: U.S. crude fell below $100 a barrel on Monday after Trump signaled openness to Iran talks, then rose again Tuesday as Treasury Secretary Bessent announced Iranian airline shutdowns and escalating U.S. pressure. Oil explorers and refiners like ConocoPhillips are highly sensitive to these price swings\u2014lower crude prices compress their margins and future cash flow, while geopolitical uncertainty makes it hard for investors to price the stock confidently.\n\nAdding to the pressure, Saudi Arabia's East-West pipeline shutdown is tightening crude supply for Asian importers, which typically affects global pricing and demand expectations. The company has been whipsawed by conflicting signals: Trump's diplomatic overture pushed oil down, then Bessent's hard line pushed it back up, but apparently not enough to offset Monday's losses. With crude still volatile and regional tensions unresolved, the stock has reflected trader uncertainty about where oil prices\u2014and thus ConocoPhillips' earnings power\u2014will settle.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 167,
-    "inputTokens": 144549,
-    "outputTokens": 35399,
-    "estimatedCostUsd": 0.321544,
-    "lastCallHour": "2026-09-22T04"
+    "callsThisMonth": 168,
+    "inputTokens": 145422,
+    "outputTokens": 35655,
+    "estimatedCostUsd": 0.323697,
+    "lastCallHour": "2026-09-22T05"
   }
 }

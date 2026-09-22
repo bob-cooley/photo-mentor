@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T04:43:17.604154+00:00",
-  "text": "Marathon Petroleum fell 5.3% today after oil prices surged on escalating Iran-U.S. tensions\u2014crude rose sharply following Treasury Secretary Bessent's announcement that all Iranian airlines will be shut down starting Wednesday. While refiners typically benefit when oil prices rise (they buy crude cheap and sell refined products), this particular oil spike is driven by geopolitical risk rather than demand strength, which can hurt refiner margins if crude rallies faster than gasoline and diesel prices follow.\n\nThe stock's sharp reversal is notable: it had climbed steadily for four straight days through last Thursday, then pulled back sharply over the weekend and today. The messaging from Washington has been mixed\u2014Trump suggested openness to talks with Iran on Friday, which sent oil below $100, but the administration has since tightened its stance, unsettling markets and creating the kind of volatile, supply-shock-driven oil environment that refiners find difficult to navigate profitably.",
+  "fetchedAt": "2026-09-22T05:49:32.796854+00:00",
+  "text": "Marathon Petroleum stock fell 5.3% today after surging nearly 7% over the prior three trading days. The sharp reversal follows Treasury Secretary Bessent's announcement on September 22nd that all Iranian airlines will be shut down starting Wednesday\u2014a dramatic escalation in U.S.-Iran tensions that initially pushed oil prices higher on Monday and Tuesday (crude rose amid geopolitical concerns). However, the stock's decline today suggests the market is now pricing in the risk that heightened sanctions and international tensions could disrupt global oil supply chains in ways that hurt refiner margins, or that further diplomatic pressure could provoke a broader regional conflict that destabilizes energy markets unpredictably.\n\nThe volatility reflects the inherent tension in refining stocks during geopolitical shocks: while higher oil prices can boost refiners' input costs, the real driver of profits is the \"crack spread\"\u2014the gap between what they sell refined products for and what crude costs them. With the Saudi East-West pipeline already shut down and Asian demand potentially tightening, uncertainty about which way crude supplies and product demand will move has likely made investors nervous about locking in positions ahead of unclear policy developments.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 167,
-    "inputTokens": 153898,
-    "outputTokens": 36157,
-    "estimatedCostUsd": 0.334683,
-    "lastCallHour": "2026-09-22T04"
+    "callsThisMonth": 168,
+    "inputTokens": 154834,
+    "outputTokens": 36408,
+    "estimatedCostUsd": 0.336874,
+    "lastCallHour": "2026-09-22T05"
   }
 }
