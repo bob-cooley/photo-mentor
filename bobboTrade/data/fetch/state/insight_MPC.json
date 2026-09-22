@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T18:25:11.513796+00:00",
-  "text": "Marathon Petroleum dropped 0.37% today to close at $400.89, extending a sharp reversal from its peak earlier this week. The stock fell after climbing to $424.89 on September 18th, with today's decline reflecting dimmed optimism around oil prices and refining margins. Crude oil prices weakened on hopes for U.S.-Iran diplomatic talks and potential reopening of the Strait of Hormuz\u2014developments that would ease the supply constraints that have supported refiner profits in recent weeks. At the same time, the Trump administration is examining a possible diesel export ban, which adds regulatory uncertainty for a company heavily exposed to fuel exports and refining margins.\n\nThe broader context is one of genuine uncertainty about where energy markets head from here. Refineries are running at 96.8% capacity with solid fuel inventories, but Wall Street has publicly admitted it doesn't know the trajectory of oil prices given the geopolitical volatility. A diplomatic solution in Iran\u2014which would increase global oil supply and reduce refining premiums\u2014is precisely the kind of outcome that pressures refiner stocks, even if it brings broader economic stability.",
+  "fetchedAt": "2026-09-22T19:33:44.819446+00:00",
+  "text": "Marathon Petroleum fell 2.6% today as oil prices and refiner sentiment deteriorated on mixed geopolitical signals. The stock lost $33 in three trading days after hitting $424.89 on September 18th\u2014a sharp reversal driven by headlines suggesting potential U.S.-Iran diplomatic progress, which eased immediate concerns about supply disruptions and oil prices. Crude fell back below $110 per barrel (U.S. benchmark), undercutting the higher margins refiners had enjoyed when tensions were spiking.\n\nThe uncertainty itself is also weighing on the sector. Wall Street admitted it has no clear forecast for oil prices amid shifting diplomatic developments and the Trump administration's examination of a possible diesel export ban\u2014a policy that could directly constrain refiner operations and profitability. With refineries running at nearly 97% capacity and multiple geopolitical wildcards in play, investors are pulling back from the refiner trade until the direction becomes clearer.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 174,
-    "inputTokens": 160538,
-    "outputTokens": 37771,
-    "estimatedCostUsd": 0.349393,
-    "lastCallHour": "2026-09-22T18"
+    "callsThisMonth": 175,
+    "inputTokens": 161481,
+    "outputTokens": 37979,
+    "estimatedCostUsd": 0.351376,
+    "lastCallHour": "2026-09-22T19"
   }
 }

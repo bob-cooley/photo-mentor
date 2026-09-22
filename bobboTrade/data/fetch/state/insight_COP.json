@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T18:24:47.552244+00:00",
-  "text": "ConocoPhillips fell 1% today to $126.21, extending a two-week slide of 6.5% amid conflicting signals about global oil supply. Oil prices have been volatile: U.S. crude sits at $107/barrel while global crude hit $130.80/barrel, but the bigger driver for the stock appears to be uncertainty over geopolitical developments. News today included reports that Iran could reopen the Strait of Hormuz within a week if the U.S. eases military pressure, and Trump's suggestion that diplomatic progress might come after midterm elections\u2014both signals that global oil supply tensions could ease, which would pressure energy stocks like ConocoPhillips even if crude prices haven't collapsed yet.\n\nAn additional headwind emerged from a potential U.S. diesel export ban being examined by the Trump administration, which would directly constrain U.S. refining and export economics. Wall Street's own commodity analysts publicly acknowledged they don't know where oil prices are headed, reflecting genuine uncertainty rather than a clear directional trade\u2014the kind of uncertainty that tends to weigh on energy stocks until clarity emerges.",
+  "fetchedAt": "2026-09-22T19:32:51.603013+00:00",
+  "text": "ConocoPhillips fell 1.3% today, continuing a sharp two-week decline that's now at nearly 7%. The drop reflects conflicting pressures on oil markets: while a potential U.S.-Iran diplomatic deal and the possibility of reopening the Strait of Hormuz are raising hopes for improved supply (which would lower prices), the Trump administration is simultaneously examining a diesel export ban that could restrict U.S. refining output. For an oil major like ConocoPhillips, lower crude prices (US oil at $107/barrel today) directly hurt profitability, even as supply uncertainty creates confusion about where energy prices head next.\n\nThe broader uncertainty is weighing on the sector. Analysts openly admit they don't know which way oil will break amid shifting geopolitical signals\u2014Iran diplomacy potentially easing supply fears, but also talk of trade restrictions and energy embargoes that could fragment markets. This murky outlook, combined with crude prices sliding from the $141 level two weeks ago, has left investors cautious on energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 174,
-    "inputTokens": 150752,
-    "outputTokens": 37039,
-    "estimatedCostUsd": 0.335947,
-    "lastCallHour": "2026-09-22T18"
+    "callsThisMonth": 175,
+    "inputTokens": 151633,
+    "outputTokens": 37267,
+    "estimatedCostUsd": 0.337968,
+    "lastCallHour": "2026-09-22T19"
   }
 }
