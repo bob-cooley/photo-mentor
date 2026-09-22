@@ -95,6 +95,17 @@ function nb_folder_count_label(string $slug, array $kindCounts): string
     return $parts ? implode(', ', $parts) : '0 items';
 }
 
+/**
+ * Full-screen fade overlay for the gallery/upload transition (assets/js/page-fade.js, .page-fade in site.css).
+ * It starts opaque in CSS alone, so there is never a flash of unstyled content before the script runs, then the
+ * script always clears it on load and re-covers it before following a .cta-btn link out. Only used on the gallery
+ * page and the upload page's two logged-in states; nothing else on the site is scoped into this transition.
+ */
+function nb_page_fade(): string
+{
+    return '<div id="pageFade" class="page-fade" aria-hidden="true"></div>';
+}
+
 /** All media counts, grouped by folder (album) then by kind, for folder-box labels. */
 function nb_media_counts_by_folder(): array
 {

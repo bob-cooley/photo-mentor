@@ -37,13 +37,14 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=15">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=16">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
 <?php endif; ?>
 </head>
 <body<?= $member ? ' class="upload-page"' : '' ?>>
+<?php if ($member): ?><?= nb_page_fade() ?><?php endif; ?>
 <?php if (!$member): ?>
 <div class="wrap gate">
   <?= nb_header_image() ?>
@@ -116,5 +117,6 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <?php endif; ?>
 <script src="<?= NB_BASE ?>/assets/js/reveal.js?v=1"></script>
 <script src="<?= NB_BASE ?>/assets/js/contact.js?v=1"></script>
+<script src="<?= NB_BASE ?>/assets/js/page-fade.js?v=1"></script>
 </body>
 </html>

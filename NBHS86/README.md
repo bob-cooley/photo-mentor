@@ -75,6 +75,11 @@ Every page except admin shows "For questions or problems with the site, contact 
 - New page → call `nb_contact_line()`, wrap it to fit (`<p class="contact-line">` in a footer, or a suitable flex child elsewhere), and load `assets/js/contact.js`.
 - Test: `php tests/contact_line_test.php`.
 
+## Fade transition (2026-09-22)
+Scoped to the two CTA buttons only ("Share your Photos and Videos!" / "Back to Galleries"), 300ms each way, modeled on the mechanism defunkt.com uses between its homepage and /games/. A full-screen overlay (`#pageFade`, `nb_page_fade()` in lib/layout.php) starts opaque in CSS alone, so a fresh load never flashes unstyled content; `assets/js/page-fade.js` always clears it in on load, and re-covers it for 300ms before following a `.cta-btn` link out (a real navigation, not an iframe or SPA). Respects `prefers-reduced-motion`, ignores modifier-key/non-primary clicks so ctrl/cmd-click still opens a new tab. Deliberately not wired into nav, forms, folder links, or downloads. Only on the gallery page and the upload page's two logged-in states, not the passcode gate or admin.
+
+Test: `php tests/page_fade_test.php`.
+
 ## Single-button nav, gallery-as-homepage (2026-09-22)
 Regular members no longer see the old multi-link nav. The gallery page has one button, "Share your Photos and Videos!" (`nb_gallery_cta()`), linking to the upload page. The upload page has one button, "Back to Galleries" (`nb_upload_cta()`), linking back. Both are a normal page navigation, not a JS modal or iframe (`X-Frame-Options: DENY` on every response would have blocked an iframe version anyway). The upload page is styled to read as a modal (a raised card on a darkened backdrop, full-screen on phones) and no longer shows the header art, since visitors will already have seen it on the gallery page a moment earlier. Its "uploads closed" state needs no special handling; the same page already covered that.
 

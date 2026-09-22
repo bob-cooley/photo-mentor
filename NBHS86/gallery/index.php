@@ -29,13 +29,14 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=15">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=16">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=10">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
 </head>
 <body class="gallery-page">
+<?= nb_page_fade() ?>
 <div class="wrap wide">
   <?= nb_header_image() ?>
   <?php if (nb_is_admin()): ?><?= nb_nav('gallery') ?><?php endif; ?>
@@ -128,5 +129,6 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=4"></script>
 <?php endif; ?>
 <script src="<?= NB_BASE ?>/assets/js/contact.js?v=1"></script>
+<script src="<?= NB_BASE ?>/assets/js/page-fade.js?v=1"></script>
 </body>
 </html>

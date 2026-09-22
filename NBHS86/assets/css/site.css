@@ -95,6 +95,12 @@ table.grid img { width: 72px; height: 54px; object-fit: cover; border-radius: 6p
 }
 .nb-icon { vertical-align: -0.2em; }
 
+/* Fade transition between the gallery and upload pages only (assets/js/page-fade.js). Starts opaque so a fresh
+   load never flashes unstyled content; the script clears it on load and re-covers it before a .cta-btn click. */
+.page-fade { position: fixed; inset: 0; z-index: 9999; background: var(--bg); opacity: 1; pointer-events: none; transition: opacity 300ms ease; }
+.page-fade.is-clear { opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .page-fade { transition: none; } }
+
 /* The one call to action on the gallery and upload pages (nb_gallery_cta(), nb_upload_cta()). */
 .cta-wrap { display: flex; justify-content: center; margin: 4px 0 20px; }
 .cta-btn { font-size: 1.05rem; padding: 15px 28px; }
