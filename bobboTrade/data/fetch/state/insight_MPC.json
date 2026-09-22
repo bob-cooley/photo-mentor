@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T20:27:38.415099+00:00",
-  "text": "Marathon Petroleum fell 3.1% today as oil prices dropped for a fifth consecutive day on mounting hopes for a U.S.-Iran diplomatic resolution. Reports that Iran could reopen the Strait of Hormuz within a week if the U.S. eases military pressure, combined with Trump administration statements about ongoing talks, shifted market sentiment away from the supply-disruption fears that had driven oil and refiner stocks higher earlier this month. With crude down sharply, refiners face lower margins on the fuel they produce.\n\nThe broader backdrop adds uncertainty: while refineries are running at near-peak capacity (96.8%) and diesel storage remains relatively tight, the Trump administration is also examining a potential diesel export ban to address high fuel costs ahead of the midterms. For a refiner, that combination\u2014lower crude prices reducing profit per gallon, plus the possibility of export restrictions limiting where they can sell\u2014creates real headwinds regardless of how much oil they can process.",
+  "fetchedAt": "2026-09-22T21:41:37.841875+00:00",
+  "text": "Marathon Petroleum fell 3.2% today as oil prices declined for a fifth consecutive day on growing hopes for a U.S.-Iran diplomatic resolution. Reports that Iran could reopen the Strait of Hormuz within a week if the U.S. eases military pressure fueled optimism for a peaceful settlement, reversing the geopolitical risk premium that had pushed crude higher. With U.S. oil dropping to $107 per barrel, refiners face lower feedstock costs but also compressed margins on the products they sell.\n\nThe uncertainty itself is weighing on the stock. Wall Street's own commodity teams have admitted they don't know which direction oil will move next, making it harder for investors to price in refiner earnings. Meanwhile, the Trump administration is exploring a diesel export ban to address high fuel costs for farmers and truckers\u2014a potential headwind if it limits a major revenue stream for U.S. refiners, even as domestic refineries run at a robust 96.8% capacity.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 176,
-    "inputTokens": 162419,
-    "outputTokens": 38186,
-    "estimatedCostUsd": 0.353349,
-    "lastCallHour": "2026-09-22T20"
+    "callsThisMonth": 177,
+    "inputTokens": 163359,
+    "outputTokens": 38400,
+    "estimatedCostUsd": 0.355359,
+    "lastCallHour": "2026-09-22T21"
   }
 }

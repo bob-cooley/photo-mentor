@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T20:27:08.658461+00:00",
-  "text": "ConocoPhillips fell 1.76% today as oil prices dropped for a fifth straight day on growing hopes for a U.S.-Iran diplomatic settlement. Talks between the Trump administration and Iran, combined with reports that Iran could reopen the Strait of Hormuz within a week if military pressure eases, sparked optimism that the geopolitical tension driving oil higher might be defusing\u2014and that's weighing on energy stocks. The stock is down 7.23% over two weeks as crude has swung sharply on these headline shifts.\n\nThe broader risk for oil companies right now is the uncertainty itself: JPMorgan's commodity team publicly said they don't know where oil prices are headed given the Iran situation. Meanwhile, a potential U.S. diesel export ban is also in the works, which could further pressure fuel prices and refinery margins. When the direction of both crude and refined products becomes genuinely unclear, energy stocks tend to trade lower until the picture clarifies.",
+  "fetchedAt": "2026-09-22T21:41:19.555284+00:00",
+  "text": "ConocoPhillips fell 1.8% today to $125.27, extending a sharp two-week decline as oil prices dropped for a fifth consecutive day on signs of potential U.S.-Iran diplomatic progress. Reports that Iran could reopen the Strait of Hormuz (a critical global oil chokepoint) within a week if the U.S. eases military pressure have eased concerns about immediate supply disruptions, which earlier this month had helped push oil higher. The gap between U.S. crude ($107/barrel) and global prices ($131/barrel) also narrowed, suggesting less urgency about potential shortages.\n\nBeyond today's diplomacy headlines, the stock has been pressured by broader geopolitical uncertainty and political discussion about a potential diesel export ban\u2014moves aimed at lowering fuel costs for farmers and truckers. With Wall Street itself uncertain where oil prices are headed amid shifting Iran negotiations and supply dynamics, energy producers like ConocoPhillips remain caught between hopes for diplomatic resolution (which would weigh on prices) and fears of supply disruption (which would support them).",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 176,
-    "inputTokens": 152509,
-    "outputTokens": 37479,
-    "estimatedCostUsd": 0.339904,
-    "lastCallHour": "2026-09-22T20"
+    "callsThisMonth": 177,
+    "inputTokens": 153385,
+    "outputTokens": 37715,
+    "estimatedCostUsd": 0.34196,
+    "lastCallHour": "2026-09-22T21"
   }
 }
