@@ -116,3 +116,12 @@ button.pw-toggle {
   background: transparent; color: var(--accent); border: 1px solid var(--line); border-radius: 8px;
 }
 button.pw-toggle:hover:not(:disabled) { background: color-mix(in srgb, var(--text) 10%, transparent); }
+
+/* Intake "Who's sharing?" card: first/last side by side, email below. */
+.namerow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.fieldgap { margin-top: 14px; }
+input[type=email] {
+  width: 100%; padding: 13px 14px; font-size: 1rem; color: var(--text);
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px;
+}
+input[type=email]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }

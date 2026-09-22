@@ -18,7 +18,7 @@ $snap = glob("$dir/backups/nbhs86-daily-*.sqlite")[0];
 $pdo = new PDO('sqlite:' . $snap);
 check('snapshot passes integrity_check', $pdo->query('PRAGMA integrity_check')->fetchColumn(), 'ok');
 check('snapshot has the tables', $pdo->query("select count(*) from sqlite_master where name in ('media','folders','settings','counters','jobs')")->fetchColumn(), 5);
-check('snapshot keeps the schema version', (int) $pdo->query('PRAGMA user_version')->fetchColumn(), 4);
+check('snapshot keeps the schema version', (int) $pdo->query('PRAGMA user_version')->fetchColumn(), 5);
 unset($pdo);
 check('snapshot is private', decoct(fileperms($snap) & 0777), '600');
 

@@ -426,7 +426,7 @@ function nb_list_backups(): array
     return $out;
 }
 
-const NB_SCHEMA_VERSION = 4;
+const NB_SCHEMA_VERSION = 5;
 
 function nb_migrate(PDO $db): void
 {
@@ -491,6 +491,16 @@ function nb_migrate(PDO $db): void
             if (!in_array('friends_seq', $mc, true)) {
                 $db->exec('ALTER TABLE media ADD COLUMN friends_seq INTEGER');
             }
+        }
+        if ($v < 5) {
+            // v5: private contact list (first name, last name, email) for the "gallery is open" notice. Never shown publicly.
+            $db->exec('CREATE TABLE IF NOT EXISTS contacts (
+                email TEXT PRIMARY KEY,
+                first TEXT NOT NULL DEFAULT \'\',
+                last TEXT NOT NULL DEFAULT \'\',
+                created_at INTEGER NOT NULL,
+                updated_at INTEGER NOT NULL
+            )');
         }
         $db->exec('PRAGMA user_version = ' . NB_SCHEMA_VERSION);
         $db->exec('COMMIT');

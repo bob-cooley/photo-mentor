@@ -37,7 +37,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=12">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=13">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
@@ -79,8 +79,14 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 
   <section class="card" id="whoCard">
     <h2>1. Who's sharing?</h2>
-    <label for="uploader">Your name</label>
-    <input id="uploader" type="text" autocomplete="name" maxlength="60" placeholder="First and last name">
+    <label for="firstName">Your name</label>
+    <div class="namerow">
+      <input id="firstName" type="text" autocomplete="given-name" maxlength="60" placeholder="First name" aria-label="First name">
+      <input id="lastName" type="text" autocomplete="family-name" maxlength="60" placeholder="Last name" aria-label="Last name">
+    </div>
+    <label for="email" class="fieldgap">Email</label>
+    <input id="email" type="email" autocomplete="email" inputmode="email" maxlength="254" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="you@example.com">
+    <div class="hint">Your email will be used only to notify you when the gallery is open for downloads (soon!). It will be kept private (we promise!)</div>
     <label class="check"><input id="anon" type="checkbox"> <span>Submit anonymously (your &quot;name&quot; will show up as <?= nb_h(NB_ANON_CREDIT) ?>).</span></label>
     <div class="hint">Photos, Videos, etc. are credited by first name only.</div>
     <div class="err" id="nameErr" role="alert"></div>
@@ -101,7 +107,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
   <footer class="foot">Something not working? Try reloading the page and uploading again &mdash; partial uploads pick up where they left off.</footer>
 </div>
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=5"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=7"></script>
 <?php endif; ?>
 <script src="<?= NB_BASE ?>/assets/js/reveal.js?v=1"></script>
 </body>

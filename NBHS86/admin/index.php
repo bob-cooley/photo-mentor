@@ -5,6 +5,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/../lib/layout.php';
 require_once __DIR__ . '/../lib/derive.php';
 require_once __DIR__ . '/../lib/credits.php';
+require_once __DIR__ . '/../lib/contacts.php';
 
 nb_headers();
 set_time_limit(60);
@@ -146,6 +147,10 @@ if ($isAdmin && $_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'])
             }
             break;
 
+        case 'contact_delete':
+            $notice = nb_delete_contact($db, (string) ($_POST['email'] ?? '')) ? 'Contact removed.' : 'That contact was not found.';
+            break;
+
         case 'clear_errors':
             @file_put_contents(nb_error_log_path(), '');
             $notice = 'Error log cleared.';
@@ -181,7 +186,7 @@ function fmt_bytes(int $b): string
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>NBHS86 admin</title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=12">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=13">
 <?php if ($isAdmin): ?><link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1"><link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7"><?php endif; ?>
 </head>
 <body>
@@ -211,6 +216,7 @@ function fmt_bytes(int $b): string
     $pages = max(1, (int) ceil($tot['c'] / $perPage));
     $galleryOpen = nb_gallery_open();
     $intakeOpen = nb_intake_open();
+    $contacts = nb_contacts($db);
     $iconNames = ['camera' => 'Camera (Photos)', 'film' => 'Film (Videos)', 'file-text' => 'Document', 'grid' => 'Grid'];
     $hidden = '<input type="hidden" name="csrf" value="' . nb_h($csrf) . '">';
 ?>
@@ -266,6 +272,40 @@ function fmt_bytes(int $b): string
       <select name="new_icon"><?php foreach ($iconNames as $k => $label): ?><option value="<?= $k ?>"><?= nb_h($label) ?></option><?php endforeach; ?></select>
       <button type="submit" class="secondary">Add folder</button>
     </form>
+  </section>
+
+  <section class="card">
+    <h2>Classmate contacts</h2>
+    <p style="margin:0 0 8px"><b><?= count($contacts) ?></b> email<?= count($contacts) === 1 ? '' : 's' ?> collected from the upload page (everyone who uploaded, including anonymous uploads).</p>
+    <div class="inline">
+      <a class="btn secondary" href="<?= NB_BASE ?>/admin/contacts.php">Download contacts (.csv)</a>
+    </div>
+    <div class="hint">Columns: First name, Last name, Email. Opens in Excel, Numbers or Google Sheets. Private: shown only here, never in the gallery. Test entries stay until you remove them below.</div>
+    <?php if ($contacts): ?>
+    <details style="margin-top:12px">
+      <summary><b>Show the list</b></summary>
+      <div style="overflow-x:auto;max-height:320px;overflow-y:auto;margin-top:8px">
+      <table class="grid">
+        <thead><tr><th>First</th><th>Last</th><th>Email</th><th></th></tr></thead>
+        <tbody>
+        <?php foreach ($contacts as $c): ?>
+          <tr>
+            <td><?= nb_h($c['first']) ?></td>
+            <td><?= nb_h($c['last']) ?></td>
+            <td><?= nb_h($c['email']) ?></td>
+            <td>
+              <form method="post" action="<?= $self ?>" onsubmit="return confirm('Remove this contact from the list?')"><?= $hidden ?>
+                <input type="hidden" name="action" value="contact_delete"><input type="hidden" name="email" value="<?= nb_h($c['email']) ?>">
+                <button type="submit" class="secondary">Remove</button>
+              </form>
+            </td>
+          </tr>
+        <?php endforeach; ?>
+        </tbody>
+      </table>
+      </div>
+    </details>
+    <?php endif; ?>
   </section>
 
   <section class="card">

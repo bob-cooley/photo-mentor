@@ -8,7 +8,7 @@ declare(strict_types=1);
  * Routed from /NBHS86/api/tus/<id> by api/.htaccess.
  */
 
-require_once __DIR__ . '/../lib/ingest.php';
+require_once __DIR__ . '/../lib/contacts.php';
 
 nb_headers();
 header('Tus-Resumable: 1.0.0');
@@ -72,6 +72,16 @@ if ($method === 'POST' && $id === '') {
     $kind = NB_TYPES[nb_ext($filename)] ?? null;
     if ($kind === null) {
         tus_fail(415, '"' . $filename . '" is not a supported file type. Use photos, videos, PDFs, or .zip files.');
+    }
+
+    // The intake form sends first/last/email with every file; keep the private contact list current. An upload never
+    // fails because of it (admin slideshow uploads carry no email and are skipped).
+    if (($meta['email'] ?? '') !== '') {
+        try {
+            nb_save_contact(nb_db(), (string) ($meta['first'] ?? ''), (string) ($meta['last'] ?? ''), (string) $meta['email']);
+        } catch (Throwable $e) {
+            error_log('NBHS86 contact save failed: ' . $e->getMessage());
+        }
     }
 
     $newId = bin2hex(random_bytes(16));

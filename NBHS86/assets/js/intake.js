@@ -4,7 +4,9 @@ const BASE = window.NBHS.base;
 const MAX_BYTES = 2 * 1024 * 1024 * 1024;
 const $ = (id) => document.getElementById(id);
 
-const nameInput = $('uploader');
+const firstInput = $('firstName');
+const lastInput = $('lastName');
+const emailInput = $('email');
 const anon = $('anon');
 const nameErr = $('nameErr');
 const thanks = $('thanks');
@@ -13,18 +15,31 @@ const batchId = () => Date.now().toString(36) + Math.random().toString(36).slice
 let batch = batchId();
 let uploading = false;
 
-// Remember the name on this device (best effort; storage can be unavailable).
+// Remember the details on this device (best effort; storage can be unavailable).
 try {
-  nameInput.value = localStorage.getItem('nbhs86_name') || '';
+  const oldName = (localStorage.getItem('nbhs86_name') || '').trim(); // earlier versions kept one "First Last" box
+  firstInput.value = localStorage.getItem('nbhs86_first') ?? oldName.split(/\s+/)[0] ?? '';
+  lastInput.value = localStorage.getItem('nbhs86_last') ?? oldName.split(/\s+/).slice(1).join(' ');
+  emailInput.value = localStorage.getItem('nbhs86_email') || '';
   anon.checked = localStorage.getItem('nbhs86_anon') === '1';
 } catch (e) { /* ignore */ }
 
+// Anonymous only changes the public credit. Name and email are still collected (privately), the name is just optional.
 function syncAnon() {
-  nameInput.disabled = anon.checked;
-  if (anon.checked) nameErr.textContent = '';
+  firstInput.placeholder = anon.checked ? 'First (optional)' : 'First name';
+  lastInput.placeholder = anon.checked ? 'Last (optional)' : 'Last name';
+  nameErr.textContent = '';
 }
 anon.addEventListener('change', syncAnon);
 syncAnon();
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+function fail(msg, field) {
+  nameErr.textContent = msg;
+  field.focus();
+  field.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  return false;
+}
 
 const uppy = new Uppy({
   autoProceed: false,
@@ -38,20 +53,24 @@ const uppy = new Uppy({
     ],
   },
   onBeforeUpload(files) {
-    const name = nameInput.value.trim();
-    if (!anon.checked && name === '') {
-      nameErr.textContent = 'Please enter your name, or tick "Submit anonymously".';
-      nameInput.focus();
-      nameInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      return false;
-    }
+    const first = firstInput.value.trim();
+    const last = lastInput.value.trim();
+    const email = emailInput.value.trim();
+    if (!anon.checked && first === '') return fail('Please enter your first name, or tick "Submit anonymously".', firstInput);
+    if (!anon.checked && last === '') return fail('Please enter your last name, or tick "Submit anonymously".', lastInput);
+    if (!EMAIL_RE.test(email)) return fail('Please enter a valid email address.', emailInput);
     nameErr.textContent = '';
     try {
-      localStorage.setItem('nbhs86_name', name);
+      localStorage.setItem('nbhs86_first', first);
+      localStorage.setItem('nbhs86_last', last);
+      localStorage.setItem('nbhs86_email', email);
       localStorage.setItem('nbhs86_anon', anon.checked ? '1' : '0');
     } catch (e) { /* ignore */ }
     uppy.setMeta({
-      uploader: anon.checked ? '' : name,
+      uploader: anon.checked ? '' : `${first} ${last}`.trim(), // public credit comes from this (first name only)
+      first,
+      last,
+      email,
       anonymous: anon.checked ? '1' : '0',
       batch,
     });
@@ -80,7 +99,7 @@ const uppy = new Uppy({
     retryDelays: [0, 1000, 3000, 5000, 10000, 20000],
     limit: 3,
     removeFingerprintOnSuccess: true,
-    allowedMetaFields: ['name', 'type', 'uploader', 'anonymous', 'batch'], // Uppy's own file name/type keys
+    allowedMetaFields: ['name', 'type', 'uploader', 'first', 'last', 'email', 'anonymous', 'batch'], // Uppy's own file name/type keys
   });
 
 uppy.on('upload', () => {
@@ -119,7 +138,7 @@ uppy.on('complete', async (result) => {
   if (ok.length === 0) return; // Uppy's own error UI + Retry covers this
 
   const zips = ok.filter((f) => /\.zip$/i.test(f.name)).length;
-  const who = anon.checked || !nameInput.value.trim() ? '' : `, ${nameInput.value.trim().split(/\s+/)[0]}`;
+  const who = anon.checked || !firstInput.value.trim() ? '' : `, ${firstInput.value.trim()}`;
   $('thanksTitle').textContent = bad.length ? 'Some files were uploaded' : `Thank you${who}!`;
   const plain = ok.length - zips;
   const parts = [];

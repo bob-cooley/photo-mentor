@@ -64,6 +64,13 @@ NBHS86/
 - **Thumbnails at upload time**: `nb_store_file()` builds the thumbnail (photo, HEIC, video poster, PDF page 1) right after storing, so browsing never waits on it. `api/thumb.php` still builds one on first view as a fallback. Thumbnails and derived copies are written to a unique temp name and renamed, so a concurrent request can never serve a half-written file.
 - **Case-sensitive URLs**: the server treats `/nbhs86/` differently from `/NBHS86/` (404). Fix is a Cloudflare redirect rule, not code (see below). Do NOT add a lowercase `nbhs86/` folder: the Mac mirror is case-insensitive and Dreamweaver would merge the two.
 
+## Contact list (email for the "gallery is open" notice)
+- The "Who's sharing?" box asks for First name, Last name and Email. Email is required for everyone. Names are required unless "Submit anonymously" is ticked; anonymous only changes the public credit (NBHS Alumni), the name/email are still saved privately and the names may stay blank.
+- `intake.js` sends `first`, `last`, `email` as upload metadata; `api/tus.php` calls `nb_save_contact()` (`lib/contacts.php`) when a file upload starts. Table `contacts` (schema v5): one row per lower-cased email; a new name replaces the old one, a blank name never wipes one; limit 5000 rows. An upload never fails because of this, and admin slideshow uploads (no email) are skipped.
+- Admin page, "Classmate contacts": count, **Download contacts (.csv)** (`admin/contacts.php`, admin only, columns First name, Last name, Email, UTF-8 with BOM for Excel, formula-looking text defused), and a Show the list / Remove table. Nothing about contacts appears on any public page. The database backup download does contain them.
+- Test entries are not cleared by deleting files or "Reset numbering"; remove them in the admin list before launch.
+- Test: `php tests/contacts_test.php`.
+
 ## Show/Hide password
 Both login fields (classmate passcode on `index.php`, admin password on `admin/index.php`) carry `data-reveal`; `assets/js/reveal.js` wraps them and adds a Show/Hide button. Fields always load hidden. Any new password input only needs the `data-reveal` attribute plus the script tag.
 
