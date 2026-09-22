@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-21T23:05:08.223869+00:00",
-  "text": "Marathon Petroleum fell 5.3% today after US crude oil prices tumbled below $100 a barrel on news that Trump signaled openness to talks with Iran at the UN. The stock had surged 7.4% over the prior four trading days as geopolitical tensions in the Middle East kept oil prices elevated, but that premium collapsed Monday as traders saw a potential off-ramp to the crisis\u2014lower oil prices mean lower feedstock costs for refineries but also lower margins on refined products.\n\nRefineries are running at 96.8% capacity, near maximum, which usually favors strong margins when crude is expensive; the reversal of that dynamic\u2014falling crude with demand still steady\u2014removes the tailwind that drove the stock higher last week. The shift hinges entirely on whether diplomatic talks actually materialize or whether tensions reignite, making the stock highly sensitive to headlines from the UN meeting and any Saudi production updates.",
+  "fetchedAt": "2026-09-22T00:34:01.763619+00:00",
+  "text": "Marathon Petroleum fell 5.3% today after crude oil prices tumbled below $100 a barrel\u2014down sharply from the $130.80 per barrel global price, driven by Trump's signal that he's open to talks with Iran at the UN. For a refiner like Marathon, lower oil prices directly cut into refining margins (the profit from turning crude into gasoline and diesel), even though the company benefits from cheaper feedstock. The stock had surged for three straight days into Friday as geopolitical tensions threatened supply, but today's diplomatic thaw reversed that momentum.\n\nThe broader pattern here is classic: refiners ride commodity price swings. While refineries are running near full capacity at 96.8%, which is normally healthy, the sudden shift from escalating Middle East conflict to diplomatic possibility pulled the rug out from under the rally that had pushed the stock from $396 to $425 in just four days.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 164,
-    "inputTokens": 151108,
-    "outputTokens": 35526,
-    "estimatedCostUsd": 0.328738,
-    "lastCallHour": "2026-09-21T23"
+    "callsThisMonth": 165,
+    "inputTokens": 152041,
+    "outputTokens": 35725,
+    "estimatedCostUsd": 0.330666,
+    "lastCallHour": "2026-09-22T00"
   }
 }
