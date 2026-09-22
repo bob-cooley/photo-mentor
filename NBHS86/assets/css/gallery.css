@@ -23,7 +23,7 @@
 .sort { color: var(--muted); font-size: .92rem; display: flex; align-items: center; gap: 8px; margin: 0; font-weight: 500; }
 .sort select { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; font: inherit; }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); gap: 10px; padding-bottom: 96px; } /* wide enough that a standard NBHS name fits on one line */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(225px, 1fr)); gap: 10px; padding-bottom: 122px; } /* wide enough that a standard NBHS name fits on one line; bottom space clears the 3-row selbar (buttons + contact line) */
 .tile { position: relative; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
 .tile.sel { outline: 3px solid var(--accent); outline-offset: -3px; }
 .tile .thumb { display: block; aspect-ratio: 4 / 3; background: var(--panel-2); cursor: zoom-in; }
@@ -54,6 +54,8 @@
 .selmsg { flex-basis: 100%; color: var(--muted); font-size: .9rem; }
 .selmsg:empty { display: none; }
 .selmsg.err { color: var(--bad); }
+/* Contact line as its own row under the buttons, flush right (assets/js/contact.js; lib/layout.php nb_contact_line()). */
+.selbar-contact { flex-basis: 100%; text-align: right; font-size: .8rem; }
 
 /* PhotoSwipe additions */
 .pswp__custom-caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); text-align: center; color: #eee; background: linear-gradient(transparent, rgba(0,0,0,.7)); font-size: .95rem; pointer-events: none; }
@@ -72,13 +74,14 @@ body.gallery-page .pswp { --pswp-bg: #031336; }
 .selbar #selDownload:disabled { background: color-mix(in srgb, var(--muted) 28%, var(--panel)); color: color-mix(in srgb, var(--muted) 75%, var(--panel)); }
 .selbar button.secondary:disabled { color: color-mix(in srgb, var(--muted) 65%, var(--panel)); border-color: color-mix(in srgb, var(--line) 60%, transparent); background: transparent; }
 
-/* phones: keep the always-visible bar to two short rows */
+/* phones: keep the always-visible bar's first two rows short; the contact line is a slim third row */
 @media (max-width: 560px) {
   .selbar { padding: 8px 12px calc(8px + env(safe-area-inset-bottom)); gap: 6px 8px; }
   .selbar #selcount { font-size: .9rem; flex-basis: 100%; }
   .selbar .selactions { width: 100%; margin-left: 0; flex-wrap: nowrap; gap: 6px; }
   .selbar button { padding: 10px 10px; font-size: .9rem; white-space: nowrap; }
   .selbar #selDownload { flex: 1 1 auto; }
+  .selbar-contact { font-size: .72rem; }
   .hide-sm { display: none; }
-  .grid { padding-bottom: 130px; }
+  .grid { padding-bottom: 156px; }
 }

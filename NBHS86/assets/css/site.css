@@ -64,7 +64,13 @@ button:disabled { opacity: .5; cursor: default; }
 
 /* Uppy dashboard sits on a dark surface */
 #uppy .uppy-Dashboard-inner { border-radius: 12px; }
-footer.foot { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 28px; }
+footer.foot { text-align: right; color: var(--muted); font-size: .85rem; margin-top: 28px; }
+footer.foot p { margin: 0 0 6px; }
+footer.foot p:last-child { margin-bottom: 0; }
+
+/* Contact line email (assets/js/contact.js fills in the address; see lib/layout.php nb_contact_line()). */
+.email-link { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+.email-link:hover, .email-link:focus-visible { color: var(--accent-hover); }
 
 /* admin table */
 table.grid { width: 100%; border-collapse: collapse; font-size: .92rem; }

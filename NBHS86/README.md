@@ -64,6 +64,14 @@ NBHS86/
 - **Thumbnails at upload time**: `nb_store_file()` builds the thumbnail (photo, HEIC, video poster, PDF page 1) right after storing, so browsing never waits on it. `api/thumb.php` still builds one on first view as a fallback. Thumbnails and derived copies are written to a unique temp name and renamed, so a concurrent request can never serve a half-written file.
 - **Case-sensitive URLs**: the server treats `/nbhs86/` differently from `/NBHS86/` (404). Fix is a Cloudflare redirect rule, not code (see below). Do NOT add a lowercase `nbhs86/` folder: the Mac mirror is case-insensitive and Dreamweaver would merge the two.
 
+## Contact line (footer email, non-scrapable)
+Every page except admin shows "For questions or problems with the site, contact bob@bobcooleyphoto.com." flush right. The address never sits in the page source as a plain `user@domain` string: `nb_contact_line()` (`lib/layout.php`) emits `<a class="email-link" data-user="bob" data-domain="bobcooleyphoto.com">` with an empty href/text, and `assets/js/contact.js` joins the two attributes into `mailto:` + visible text once the page loads. A scraper reading raw HTML never finds a usable address.
+
+- Passcode gate, "uploads closed", and the upload page: a `<footer class="foot">` (right-aligned). The upload page's footer also has the "Uploads stalled?" reload note above the contact line.
+- Gallery: pages without the folder view (opens-soon, not-found, folder list) get the same `<footer class="foot">`. The folder view (which has the always-visible floating download bar, `.selbar`) instead gets the contact line as a third, slim row inside that bar — `.grid`'s `padding-bottom` was increased (desktop 122px, phone 156px) so the last row of thumbnails still clears the now-taller bar.
+- New page → call `nb_contact_line()`, wrap it to fit (`<p class="contact-line">` in a footer, or a suitable flex child elsewhere), and load `assets/js/contact.js`.
+- Test: `php tests/contact_line_test.php`.
+
 ## Contact list (email for the "gallery is open" notice)
 - The "Who's sharing?" box asks for First name, Last name and Email. Email is required for everyone. Names are required unless "Submit anonymously" is ticked; anonymous only changes the public credit (NBHS Alumni), the name/email are still saved privately and the names may stay blank.
 - `intake.js` sends `first`, `last`, `email` as upload metadata; `api/tus.php` calls `nb_save_contact()` (`lib/contacts.php`) when a file upload starts. Table `contacts` (schema v5): one row per lower-cased email; a new name replaces the old one, a blank name never wipes one; limit 5000 rows. An upload never fails because of this, and admin slideshow uploads (no email) are skipped.

@@ -40,3 +40,15 @@ function nb_header_image(): string
         . ' srcset="' . $b . 'nbhs86-header-485.jpg' . $v . ' 485w, ' . $b . 'nbhs86-header-727.jpg' . $v . ' 727w, ' . $b . 'nbhs86-header.jpg' . $v . ' 1455w"'
         . ' sizes="(max-width: 900px) 242px, 485px" width="1455" height="600" alt="NB Class of \'86 and friends" decoding="async" fetchpriority="high"></header>';
 }
+
+/**
+ * Contact line ("For questions or problems with the site, contact bob@bobcooleyphoto.com."), on every page except
+ * admin. The address itself never appears in the page source: assets/js/contact.js joins data-user + data-domain
+ * into the href/text at runtime, so a scraper reading raw HTML never finds a usable "user@domain" string.
+ * Callers wrap the returned markup in whatever block fits the page (a <p> in a footer, a <div> in the gallery's
+ * floating selection bar).
+ */
+function nb_contact_line(): string
+{
+    return 'For questions or problems with the site, contact <a href="#" class="email-link" data-user="bob" data-domain="bobcooleyphoto.com"></a>.';
+}

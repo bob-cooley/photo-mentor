@@ -37,7 +37,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=13">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=14">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
@@ -58,6 +58,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
     </div>
     <button type="submit"<?= nb_configured() ? '' : ' disabled' ?>>Continue</button>
   </form>
+  <footer class="foot"><p class="contact-line"><?= nb_contact_line() ?></p></footer>
 </div>
 <?php elseif ($intakeClosed): ?>
 <div class="wrap">
@@ -67,6 +68,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
     <h1>Uploads are closed</h1>
     <p>Thank you to everyone who shared photos and videos.<?= nb_gallery_open() ? '' : ' The gallery will open soon.' ?></p>
   </header>
+  <footer class="foot"><p class="contact-line"><?= nb_contact_line() ?></p></footer>
 </div>
 <?php else: ?>
 <div class="wrap">
@@ -104,11 +106,15 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
     <div class="hint">Photos (JPG, HEIC, PNG), videos (MP4, MOV), PDFs, or .zip archives &middot; up to 2 GB per file.</div>
   </section>
 
-  <footer class="foot">Something not working? Try reloading the page and uploading again &mdash; partial uploads pick up where they left off.</footer>
+  <footer class="foot">
+    <p>Uploads stalled? Try reloading the page and uploading again &mdash; partial uploads pick up where they left off.</p>
+    <p class="contact-line"><?= nb_contact_line() ?></p>
+  </footer>
 </div>
 <script>window.NBHS = { base: <?= json_encode(NB_BASE) ?> };</script>
 <script type="module" src="<?= NB_BASE ?>/assets/js/intake.js?v=7"></script>
 <?php endif; ?>
 <script src="<?= NB_BASE ?>/assets/js/reveal.js?v=1"></script>
+<script src="<?= NB_BASE ?>/assets/js/contact.js?v=1"></script>
 </body>
 </html>

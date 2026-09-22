@@ -29,8 +29,8 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=13">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=8">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=14">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=9">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
@@ -91,7 +91,11 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
       <button type="button" id="selDownload" disabled title="Tick one or more files first, or use Select all"><?= nb_icon('download', 18) ?> Download <span class="hide-sm">selected </span>(.zip)</button>
     </span>
     <span id="selmsg" class="selmsg" role="status"></span>
+    <div class="selbar-contact"><?= nb_contact_line() ?></div>
   </div>
+<?php endif; ?>
+<?php if (!$folder): ?>
+  <footer class="foot"><p class="contact-line"><?= nb_contact_line() ?></p></footer>
 <?php endif; ?>
 </div>
 <?php if ($folder): ?>
@@ -104,5 +108,6 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 ]) ?>;</script>
 <script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=4"></script>
 <?php endif; ?>
+<script src="<?= NB_BASE ?>/assets/js/contact.js?v=1"></script>
 </body>
 </html>
