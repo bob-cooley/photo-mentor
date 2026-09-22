@@ -48,7 +48,6 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <div class="wrap gate">
   <?= nb_header_image() ?>
   <header class="top">
-    <h1><?= nb_h($title) ?></h1>
     <p>Enter the class passcode to continue.</p>
   </header>
   <form class="card" method="post" action="<?= NB_BASE ?>/" autocomplete="off">
