@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T15:25:12.126925+00:00",
-  "text": "Marathon Petroleum stock fell 0.79% today as oil prices slipped following news that diplomatic talks between the U.S. and Iran may be progressing\u2014specifically reports that Iran could reopen the Strait of Hormuz within a week if military pressure eases. Refiners like MPC profit when oil prices are high and supplies are tight; the prospect of restored Iranian oil shipments and reduced geopolitical risk weakened that tailwind. The stock had surged from $410 to nearly $425 over the prior three trading days on escalating Middle East tensions, so today's pullback reflects traders taking some chips off the table as those risks appear to be thawing.\n\nThe broader pressure comes from a week of whipsaw geopolitics. U.S. oil has already fallen from above $107 to test below $100 as the market prices in the possibility of more stable supply, even though global oil still sits well above that at $130 per barrel. Refineries are running near capacity at 96.8%, so MPC's near-term margins depend heavily on crude costs staying elevated\u2014a de-escalation scenario is headwind for that equation.",
+  "fetchedAt": "2026-09-22T16:23:27.411384+00:00",
+  "text": "MPC fell about 0.4% today as oil prices remained under pressure amid shifting geopolitical headlines. Over the past two trading days, the stock dropped roughly 5.5% after hitting $425 on September 18th\u2014the steepest decline came Monday (September 21st) when crude tumbled below $100 a barrel on reports that Trump was open to talking with Iran, which eased some fears about supply disruptions from the Middle East. Today the stock continued lower even though oil prices barely moved, suggesting the market is still digesting the possibility of de-escalation in the Iran situation rather than reacting to fresh news.\n\nRefineries are running at a robust 96.8% capacity with healthy product inventories, but that operational strength can't offset what's happening on the price side. With crude swinging between $100 and $107 per barrel depending on the day's geopolitical headlines, and Wall Street openly admitting uncertainty about oil's direction, refiner margins are caught between competing forces: lower crude prices help costs but also weaken the value of refined products, and the lack of clarity on Iran is keeping traders cautious.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 171,
-    "inputTokens": 157694,
-    "outputTokens": 37051,
-    "estimatedCostUsd": 0.342949,
-    "lastCallHour": "2026-09-22T15"
+    "callsThisMonth": 172,
+    "inputTokens": 158644,
+    "outputTokens": 37299,
+    "estimatedCostUsd": 0.345139,
+    "lastCallHour": "2026-09-22T16"
   }
 }
