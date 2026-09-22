@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T03:32:26.051828+00:00",
-  "text": "Marathon Petroleum stock dropped 5.3% today after climbing nearly $30 over the prior four trading days. The sharp reversal came as oil prices fell \u2014 U.S. crude tumbled below $100 a barrel on Monday (September 21st) after Trump signaled openness to talks with Iran, easing some of the geopolitical premium that had driven prices higher. For a refiner like Marathon, lower crude prices initially sound good, but the market may be pricing in concern that a de-escalation in Middle East tensions could persist, removing the supply-disruption fears that had lifted energy stocks.\n\nThe broader picture shows refineries are running at 96.8% capacity with healthy storage levels across crude, gasoline, and diesel \u2014 conditions that normally support refiner margins. However, the stock's reversal suggests traders are now focusing on the risk that diplomatic progress could stabilize global oil supply over the near term, which would undercut the margin expansion that benefited refiners last week when geopolitical risk was driving crude toward $130 globally.",
+  "fetchedAt": "2026-09-22T04:43:17.604154+00:00",
+  "text": "Marathon Petroleum fell 5.3% today after oil prices surged on escalating Iran-U.S. tensions\u2014crude rose sharply following Treasury Secretary Bessent's announcement that all Iranian airlines will be shut down starting Wednesday. While refiners typically benefit when oil prices rise (they buy crude cheap and sell refined products), this particular oil spike is driven by geopolitical risk rather than demand strength, which can hurt refiner margins if crude rallies faster than gasoline and diesel prices follow.\n\nThe stock's sharp reversal is notable: it had climbed steadily for four straight days through last Thursday, then pulled back sharply over the weekend and today. The messaging from Washington has been mixed\u2014Trump suggested openness to talks with Iran on Friday, which sent oil below $100, but the administration has since tightened its stance, unsettling markets and creating the kind of volatile, supply-shock-driven oil environment that refiners find difficult to navigate profitably.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 166,
-    "inputTokens": 152962,
-    "outputTokens": 35951,
-    "estimatedCostUsd": 0.332717,
-    "lastCallHour": "2026-09-22T03"
+    "callsThisMonth": 167,
+    "inputTokens": 153898,
+    "outputTokens": 36157,
+    "estimatedCostUsd": 0.334683,
+    "lastCallHour": "2026-09-22T04"
   }
 }

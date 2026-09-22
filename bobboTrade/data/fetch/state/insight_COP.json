@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T03:32:11.308695+00:00",
-  "text": "ConocoPhillips fell 3.3% today to $127.53, continuing a sharp six-day decline that has wiped out 6.6% of the stock's value since mid-September. The selloff tracks a collapse in U.S. oil prices\u2014crude tumbled from $107 to below $100 per barrel this week as traders bet that escalating U.S.-Iran tensions might actually lead to talks rather than conflict, reducing the threat of supply disruptions. Even as Middle East instability persists (Iranian airliners face shutdown, the Strait of Hormuz remains closed, Saudi pipeline constraints tighten Asian supply), the market's focus has shifted from \"war premium\" to de-escalation hopes, leaving oil prices lower and energy stocks weaker.\n\nThe divergence between U.S. crude ($107) and world oil ($130.80) suggests traders still see regional supply tightness, but that hasn't been enough to hold up COP's stock. For an oil producer, lower crude prices directly compress margins and cash flow, and the absence of a geopolitical \"shock premium\" removes one of the few near-term catalysts that could offset the macro headwind.",
+  "fetchedAt": "2026-09-22T04:42:55.140409+00:00",
+  "text": "ConocoPhillips stock fell 3.3% today to $127.53, continuing a sharp slide over the past week as oil prices have whipsawed on conflicting signals about Iran tensions and Middle East supply. The stock has lost 5% in two weeks, reflecting broader volatility in energy markets: crude swung from below $100 a barrel on Monday (after Trump signaled willingness to negotiate with Iran) back up as Treasury Secretary Bessent announced Iranian airlines would be shut down starting Wednesday, then fell again as traders assessed that Saudi Arabia's East-West pipeline closure would eventually ease supply constraints once it recovers.\n\nThe outsized move in the stock relative to the oil price direction suggests investors are pricing in real uncertainty about both near-term geopolitical risk and longer-term energy supply. With oil prices now split\u2014U.S. crude at $107 versus world crude at $131\u2014there's a wide disparity in what refinery margins (profit from converting crude to products) might be, which affects company fundamentals differently depending on where ConocoPhillips operates and what it produces.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 166,
-    "inputTokens": 143676,
-    "outputTokens": 35161,
-    "estimatedCostUsd": 0.319481,
-    "lastCallHour": "2026-09-22T03"
+    "callsThisMonth": 167,
+    "inputTokens": 144549,
+    "outputTokens": 35399,
+    "estimatedCostUsd": 0.321544,
+    "lastCallHour": "2026-09-22T04"
   }
 }
