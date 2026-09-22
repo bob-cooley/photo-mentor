@@ -6,6 +6,9 @@
   transition: border-color .15s, transform .15s;
 }
 .folder-card:hover, .folder-card:focus-visible { border-color: var(--accent); transform: translateY(-2px); outline: none; }
+/* "gallery opens soon" preview cards: same look, but not links, so no hover lift or pointer cursor */
+.folder-card.folder-preview { cursor: default; }
+.folder-card.folder-preview:hover { border-color: var(--line); transform: none; }
 .folder-icon { display: grid; place-items: center; width: 84px; height: 84px; border-radius: 50%; background: var(--panel-2); color: var(--accent); border: 1px solid var(--line); }
 .folder-icon.sm { display: inline-grid; width: 42px; height: 42px; vertical-align: middle; margin-right: 6px; }
 .folder-title { font-size: 1.2rem; font-weight: 650; }

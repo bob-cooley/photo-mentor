@@ -64,6 +64,9 @@ NBHS86/
 - **Thumbnails at upload time**: `nb_store_file()` builds the thumbnail (photo, HEIC, video poster, PDF page 1) right after storing, so browsing never waits on it. `api/thumb.php` still builds one on first view as a fallback. Thumbnails and derived copies are written to a unique temp name and renamed, so a concurrent request can never serve a half-written file.
 - **Case-sensitive URLs**: the server treats `/nbhs86/` differently from `/NBHS86/` (404). Fix is a Cloudflare redirect rule, not code (see below). Do NOT add a lowercase `nbhs86/` folder: the Mac mirror is case-insensitive and Dreamweaver would merge the two.
 
+## Gallery "not open yet" page is counter-driven
+When the gallery is closed and there is already at least one upload, the page shows a live item count ("N items uploaded so far!") and a preview grid of non-clickable folder cards (`.folder-preview`), each with its own count, empty folders left out. With nothing uploaded yet it falls back to the original generic "The gallery opens soon" message. Point: give classmates a reason to check back instead of a dead end, without granting access before the switch is flipped. The counts come straight from the `media` table, so nothing else needs updating as uploads come in.
+
 ## Contact line (footer email, non-scrapable)
 Every page except admin shows "For questions or problems with the site, contact bob@bobcooleyphoto.com." flush right. The address never sits in the page source as a plain `user@domain` string: `nb_contact_line()` (`lib/layout.php`) emits `<a class="email-link" data-user="bob" data-domain="bobcooleyphoto.com">` with an empty href/text, and `assets/js/contact.js` joins the two attributes into `mailto:` + visible text once the page loads. A scraper reading raw HTML never finds a usable address.
 

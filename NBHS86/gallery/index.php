@@ -30,7 +30,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=14">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=9">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=10">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
@@ -40,10 +40,28 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   <?= nb_header_image() ?>
   <?= nb_nav('gallery') ?>
 <?php if (!$open): ?>
+  <?php
+    $soonCounts = nb_db()->query('SELECT album, COUNT(*) FROM media GROUP BY album')->fetchAll(PDO::FETCH_KEY_PAIR);
+    $soonTotal = (int) array_sum($soonCounts);
+    $soonFolders = array_values(array_filter(nb_folders(), fn($f) => ($soonCounts[$f['slug']] ?? 0) > 0));
+  ?>
   <header class="top">
-    <h1>The gallery opens soon</h1>
-    <p>Photos, videos and documents from the reunion will be here. Check back shortly.</p>
+    <h1><?= $soonTotal > 0 ? number_format($soonTotal) . ' item' . ($soonTotal === 1 ? '' : 's') . ' uploaded so far!' : 'The gallery opens soon' ?></h1>
+    <p><?= $soonTotal > 0
+        ? 'Photos, videos and documents from the reunion are already coming in. The gallery isn&rsquo;t open for browsing and downloads yet, so here&rsquo;s a preview. Check back soon to see it all.'
+        : 'Photos, videos and documents from the reunion will be here. Check back shortly.' ?></p>
   </header>
+  <?php if ($soonFolders): ?>
+  <div class="folders">
+  <?php foreach ($soonFolders as $f): $n = (int) ($soonCounts[$f['slug']] ?? 0); ?>
+    <div class="folder-card folder-preview">
+      <span class="folder-icon"><?= nb_icon($f['icon'], 44) ?></span>
+      <span class="folder-title"><?= nb_h($f['title']) ?></span>
+      <span class="folder-count"><?= $n ?> item<?= $n === 1 ? '' : 's' ?></span>
+    </div>
+  <?php endforeach; ?>
+  </div>
+  <?php endif; ?>
 <?php elseif ($slug !== '' && !$folder): ?>
   <header class="top"><h1>Folder not found</h1><p><a href="<?= $gal ?>">Back to the gallery</a></p></header>
 <?php elseif (!$folder): ?>
