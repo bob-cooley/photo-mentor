@@ -144,7 +144,7 @@ uppy.on('complete', async (result) => {
   const parts = [];
   if (plain) parts.push(`${plain} file${plain === 1 ? '' : 's'}`);
   if (zips) parts.push(`${zips} zip archive${zips === 1 ? '' : 's'}`);
-  $('thanksBody').textContent = `${parts.join(' and ')} uploaded.` + (bad.length ? ` ${bad.length} did not go through — use Retry below.` : '');
+  $('thanksBody').textContent = `${parts.join(' and ')} uploaded.` + (bad.length ? ` ${bad.length} did not go through. Use Retry below.` : '');
   thanks.classList.add('show');
   thanks.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
