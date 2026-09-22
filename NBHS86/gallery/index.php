@@ -84,7 +84,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   </div>
 <?php else: ?>
   <header class="folder-head">
-    <a class="back" href="<?= $gal ?>">&larr; All folders</a>
+    <a class="back" href="<?= $gal ?>">&larr; All Galleries</a>
     <h1><span class="folder-icon sm"><?= nb_icon($folder['icon'], 26) ?></span> <?= nb_h($folder['title']) ?></h1>
   </header>
 
