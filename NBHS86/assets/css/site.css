@@ -23,7 +23,7 @@ body {
   color: var(--text);
   font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.wrap { max-width: 860px; margin: 0 auto; padding: 28px 16px 64px; }
+.wrap { position: relative; max-width: 860px; margin: 0 auto; padding: 28px 16px 64px; }
 header.top { text-align: center; margin-bottom: 22px; }
 header.top h1 { font-size: 1.7rem; line-height: 1.2; margin: 0 0 8px; font-weight: 650; letter-spacing: .01em; }
 header.top p { margin: 0 auto; max-width: 34em; color: var(--muted); }
@@ -82,12 +82,33 @@ table.grid img { width: 72px; height: 54px; object-fit: cover; border-radius: 6p
 .stats span { color: var(--muted); font-size: .85rem; }
 .wide { max-width: 1100px; }
 
-/* section navigation (Upload / Gallery / Admin) */
-.topnav { display: flex; justify-content: center; gap: 6px; margin: 0 0 18px; }
-.topnav a { color: var(--muted); text-decoration: none; padding: 8px 16px; border-radius: 999px; font-weight: 600; font-size: .95rem; }
+/* Admin-only quick nav (Upload / Gallery / Admin), pinned in the corner. Regular members never see it;
+   they get the single big button (.cta-btn) instead. */
+.topnav { position: absolute; top: 18px; right: 16px; display: flex; gap: 6px; margin: 0; z-index: 5; }
+.topnav a { color: var(--muted); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: .8rem; background: var(--panel-2); border: 1px solid var(--line); }
 .topnav a:hover { color: var(--text); }
-.topnav a[aria-current=page] { background: var(--panel); color: var(--text); border: 1px solid var(--line); }
+.topnav a[aria-current=page] { background: var(--panel); color: var(--text); border-color: var(--accent); }
+@media (max-width: 560px) {
+  /* out of the way of the header art on narrow screens: back to a normal centered row */
+  .topnav { position: static; justify-content: center; margin: 0 0 14px; }
+  .topnav a { font-size: .9rem; padding: 8px 14px; }
+}
 .nb-icon { vertical-align: -0.2em; }
+
+/* The one call to action on the gallery and upload pages (nb_gallery_cta(), nb_upload_cta()). */
+.cta-wrap { display: flex; justify-content: center; margin: 4px 0 20px; }
+.cta-btn { font-size: 1.05rem; padding: 15px 28px; }
+
+/* Upload page reads as a modal: a raised card on a dimmed backdrop, full-screen on phones. */
+body.upload-page { background: color-mix(in srgb, var(--bg) 65%, #000); }
+body.upload-page .wrap {
+  background: var(--panel-2); border: 1px solid var(--line); border-radius: 20px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, .5); margin: 4vh auto 40px; max-width: 640px;
+}
+@media (max-width: 560px) {
+  body.upload-page { background: var(--bg); }
+  body.upload-page .wrap { margin: 0; border-radius: 0; box-shadow: none; max-width: none; }
+}
 
 /* admin */
 .switches { display: grid; gap: 12px; }

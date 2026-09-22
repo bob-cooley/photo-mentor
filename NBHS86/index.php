@@ -37,13 +37,13 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=14">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=15">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
 <?php endif; ?>
 </head>
-<body>
+<body<?= $member ? ' class="upload-page"' : '' ?>>
 <?php if (!$member): ?>
 <div class="wrap gate">
   <?= nb_header_image() ?>
@@ -62,8 +62,8 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 </div>
 <?php elseif ($intakeClosed): ?>
 <div class="wrap">
-  <?= nb_header_image() ?>
-  <?= nb_nav('upload') ?>
+  <?php if (nb_is_admin()): ?><?= nb_nav('upload') ?><?php endif; ?>
+  <?= nb_upload_cta() ?>
   <header class="top">
     <h1>Uploads are closed</h1>
     <p>Thank you to everyone who shared photos and videos.<?= nb_gallery_open() ? '' : ' The gallery will open soon.' ?></p>
@@ -72,8 +72,8 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 </div>
 <?php else: ?>
 <div class="wrap">
-  <?= nb_header_image() ?>
-  <?= nb_nav('upload') ?>
+  <?php if (nb_is_admin()): ?><?= nb_nav('upload') ?><?php endif; ?>
+  <?= nb_upload_cta() ?>
   <header class="top">
     <h1>Share your reunion photos &amp; videos</h1>
     <p>Upload and share photos and videos from the reunion and party - one at a time, a whole batch, or in a .zip file. Works from your phone or computer. They will only be available to people who were at the events!</p>

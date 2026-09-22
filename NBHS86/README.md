@@ -75,6 +75,15 @@ Every page except admin shows "For questions or problems with the site, contact 
 - New page → call `nb_contact_line()`, wrap it to fit (`<p class="contact-line">` in a footer, or a suitable flex child elsewhere), and load `assets/js/contact.js`.
 - Test: `php tests/contact_line_test.php`.
 
+## Single-button nav, gallery-as-homepage (2026-09-22)
+Regular members no longer see the old multi-link nav. The gallery page has one button, "Share your Photos and Videos!" (`nb_gallery_cta()`), linking to the upload page. The upload page has one button, "Back to Galleries" (`nb_upload_cta()`), linking back. Both are a normal page navigation, not a JS modal or iframe (`X-Frame-Options: DENY` on every response would have blocked an iframe version anyway). The upload page is styled to read as a modal (a raised card on a darkened backdrop, full-screen on phones) and no longer shows the header art, since visitors will already have seen it on the gallery page a moment earlier. Its "uploads closed" state needs no special handling; the same page already covered that.
+
+Admin keeps the old three-link nav (`nb_nav()`), now pinned to the corner (`.topnav`, `position: absolute`, falls back to a static centered row under 560px) so it doesn't collide with the header art. It's the only way left to reach `/admin/` from the UI; a non-admin visitor never sees it, by design (Bob is the only admin and is fine bookmarking `/admin/` if needed, though the corner link covers that too).
+
+Folder boxes show a type-specific count instead of "N items": the four built-in folders get a fixed word (`nb_folder_count_label()`, `NB_FOLDER_KIND_WORD` in lib/layout.php), any other folder gets a real per-kind breakdown ("5 photos, 2 documents") from `nb_media_counts_by_folder()`.
+
+Test: `php tests/nav_cta_test.php`.
+
 ## Contact list (email for the "gallery is open" notice)
 - The "Who's sharing?" box asks for First name, Last name and Email. Email is required for everyone. Names are required unless "Submit anonymously" is ticked; anonymous only changes the public credit (NBHS Alumni), the name/email are still saved privately and the names may stay blank.
 - `intake.js` sends `first`, `last`, `email` as upload metadata; `api/tus.php` calls `nb_save_contact()` (`lib/contacts.php`) when a file upload starts. Table `contacts` (schema v5): one row per lower-cased email; a new name replaces the old one, a blank name never wipes one; limit 5000 rows. An upload never fails because of this, and admin slideshow uploads (no email) are skipped.

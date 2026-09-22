@@ -4,7 +4,11 @@ declare(strict_types=1);
 require_once __DIR__ . '/bootstrap.php';
 require_once __DIR__ . '/icons.php';
 
-/** Top navigation between the two sides. Only shown when there is somewhere to go (admin sees everything). */
+/**
+ * Admin-only quick nav (Upload / Gallery / Admin), positioned in the corner by .topnav in site.css. Regular
+ * members use the single big button instead (nb_gallery_cta(), nb_upload_cta()); callers gate this behind
+ * nb_is_admin() on the gallery and upload pages. The admin page itself always shows it.
+ */
 function nb_nav(string $current): string
 {
     $links = [];
@@ -51,4 +55,52 @@ function nb_header_image(): string
 function nb_contact_line(): string
 {
     return 'For questions or problems with the site, contact <a href="#" class="email-link" data-user="bob" data-domain="bobcooleyphoto.com"></a>.';
+}
+
+/** The single call to action on the gallery page (its "homepage"): always links to the upload page. */
+function nb_gallery_cta(): string
+{
+    return '<div class="cta-wrap"><a class="btn cta-btn" href="' . nb_h(NB_BASE . '/') . '">Share your Photos and Videos!</a></div>';
+}
+
+/** The single call to action on the upload page: always links back to the gallery. */
+function nb_upload_cta(): string
+{
+    return '<div class="cta-wrap"><a class="btn cta-btn" href="' . nb_h(NB_BASE . '/gallery/') . '">Back to Galleries</a></div>';
+}
+
+/** slug => the one word to use when that folder holds exactly one kind of file. */
+const NB_FOLDER_KIND_WORD = ['photos' => 'photo', 'videos' => 'video', 'documents' => 'document', 'slideshows' => 'slideshow'];
+
+/**
+ * Folder-box count label. The four built-in folders each hold one kind of file, so they get a fixed word
+ * ("71 photos"). Any other folder (an admin-added one that might mix kinds) gets a real breakdown instead
+ * ("5 photos, 2 documents"). $kindCounts is ['image' => n, 'video' => n, 'pdf' => n] for that one folder.
+ */
+function nb_folder_count_label(string $slug, array $kindCounts): string
+{
+    $total = array_sum($kindCounts);
+    if (isset(NB_FOLDER_KIND_WORD[$slug])) {
+        $word = NB_FOLDER_KIND_WORD[$slug];
+        return $total . ' ' . $word . ($total === 1 ? '' : 's');
+    }
+    $words = ['image' => 'photo', 'video' => 'video', 'pdf' => 'document'];
+    $parts = [];
+    foreach ($words as $kind => $word) {
+        $n = $kindCounts[$kind] ?? 0;
+        if ($n > 0) {
+            $parts[] = $n . ' ' . $word . ($n === 1 ? '' : 's');
+        }
+    }
+    return $parts ? implode(', ', $parts) : '0 items';
+}
+
+/** All media counts, grouped by folder (album) then by kind, for folder-box labels. */
+function nb_media_counts_by_folder(): array
+{
+    $byFolder = [];
+    foreach (nb_db()->query('SELECT album, kind, COUNT(*) c FROM media GROUP BY album, kind')->fetchAll() as $r) {
+        $byFolder[$r['album']][$r['kind']] = (int) $r['c'];
+    }
+    return $byFolder;
 }

@@ -29,7 +29,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=14">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=15">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=10">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
@@ -38,12 +38,13 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <body class="gallery-page">
 <div class="wrap wide">
   <?= nb_header_image() ?>
-  <?= nb_nav('gallery') ?>
+  <?php if (nb_is_admin()): ?><?= nb_nav('gallery') ?><?php endif; ?>
+  <?= nb_gallery_cta() ?>
 <?php if (!$open): ?>
   <?php
-    $soonCounts = nb_db()->query('SELECT album, COUNT(*) FROM media GROUP BY album')->fetchAll(PDO::FETCH_KEY_PAIR);
-    $soonTotal = (int) array_sum($soonCounts);
-    $soonFolders = array_values(array_filter(nb_folders(), fn($f) => ($soonCounts[$f['slug']] ?? 0) > 0));
+    $soonByFolder = nb_media_counts_by_folder();
+    $soonTotal = array_sum(array_map('array_sum', $soonByFolder));
+    $soonFolders = array_values(array_filter(nb_folders(), fn($f) => array_sum($soonByFolder[$f['slug']] ?? []) > 0));
   ?>
   <header class="top">
     <h1><?= $soonTotal > 0 ? number_format($soonTotal) . ' item' . ($soonTotal === 1 ? '' : 's') . ' uploaded so far!' : 'The gallery opens soon' ?></h1>
@@ -53,11 +54,11 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   </header>
   <?php if ($soonFolders): ?>
   <div class="folders">
-  <?php foreach ($soonFolders as $f): $n = (int) ($soonCounts[$f['slug']] ?? 0); ?>
+  <?php foreach ($soonFolders as $f): ?>
     <div class="folder-card folder-preview">
       <span class="folder-icon"><?= nb_icon($f['icon'], 44) ?></span>
       <span class="folder-title"><?= nb_h($f['title']) ?></span>
-      <span class="folder-count"><?= $n ?> item<?= $n === 1 ? '' : 's' ?></span>
+      <span class="folder-count"><?= nb_h(nb_folder_count_label($f['slug'], $soonByFolder[$f['slug']] ?? [])) ?></span>
     </div>
   <?php endforeach; ?>
   </div>
@@ -69,14 +70,14 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
     <p>Reunion photos, videos and documents. Open a folder to browse, download single files, or tick several and download them together as a zip.</p>
   </header>
   <?php
-    $counts = nb_db()->query('SELECT album, COUNT(*) FROM media GROUP BY album')->fetchAll(PDO::FETCH_KEY_PAIR);
+    $byFolder = nb_media_counts_by_folder();
   ?>
   <div class="folders">
-  <?php foreach (nb_folders() as $f): $n = (int) ($counts[$f['slug']] ?? 0); ?>
+  <?php foreach (nb_folders() as $f): ?>
     <a class="folder-card" href="<?= $gal . nb_h($f['slug']) ?>/">
       <span class="folder-icon"><?= nb_icon($f['icon'], 44) ?></span>
       <span class="folder-title"><?= nb_h($f['title']) ?></span>
-      <span class="folder-count"><?= $n ?> item<?= $n === 1 ? '' : 's' ?></span>
+      <span class="folder-count"><?= nb_h(nb_folder_count_label($f['slug'], $byFolder[$f['slug']] ?? [])) ?></span>
     </a>
   <?php endforeach; ?>
   </div>
