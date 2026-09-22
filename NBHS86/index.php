@@ -19,7 +19,7 @@ if (!nb_configured()) {
             $error = 'Too many attempts. Please wait a few minutes and try again.';
         } elseif (nb_check_passcode((string) $_POST['passcode'])) {
             nb_issue_cookie(NB_MEMBER_COOKIE, 90 * 86400);
-            header('Location: ' . NB_BASE . '/', true, 303);
+            header('Location: ' . NB_BASE . '/gallery/', true, 303); // gallery is the homepage; the upload page is reached only via its CTA button
             exit;
         } else {
             nb_login_failed();

@@ -28,5 +28,8 @@ check('gallery/index.php: header image still shown (this is the homepage)', subs
 check('gallery/index.php: gallery CTA present', str_contains($src['gallery/index.php'], 'nb_gallery_cta()'), true);
 check('index.php: upload CTA present twice (closed and open states)', substr_count($src['index.php'], 'nb_upload_cta()'), 2);
 
+// Login lands on the gallery (the homepage), not the upload page.
+check('successful passcode login redirects to /gallery/', (bool) preg_match("/nb_issue_cookie\(NB_MEMBER_COOKIE.*?\n\s*header\('Location: ' \. NB_BASE \. '\/gallery\/'/s", $src['index.php']), true);
+
 echo $fail ? "$fail failure(s)\n" : "all nav/CTA tests passed\n";
 exit($fail ? 1 : 0);

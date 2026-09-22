@@ -19,7 +19,7 @@ The two sides launch separately. Intake goes live first for testing.
 ## Layout
 ```
 NBHS86/
-  index.php            passcode gate + intake page (same URL); shows "uploads closed" when switched off
+  index.php            passcode gate + intake page (same URL); shows "uploads closed" when switched off. A correct passcode redirects to /gallery/ (the homepage), not back to this page.
   gallery/             folder cards, folder grid, lightbox (gallery/.htaccess maps /gallery/<slug>/ to index.php)
   admin/index.php      launch switches, folders, slideshow upload box, move/credit/delete (Bob only)
   api/tus.php          minimal tus 1.0 server (routed from /api/tus/<id> by api/.htaccess)
