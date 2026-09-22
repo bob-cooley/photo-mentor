@@ -48,7 +48,6 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   <header class="top"><h1>Folder not found</h1><p><a href="<?= $gal ?>">Back to the gallery</a></p></header>
 <?php elseif (!$folder): ?>
   <header class="top">
-    <h1>NBHS Class of '86</h1>
     <p>Reunion photos, videos and documents. Open a folder to browse, download single files, or tick several and download them together as a zip.</p>
   </header>
   <?php
