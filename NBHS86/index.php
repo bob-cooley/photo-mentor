@@ -76,7 +76,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
   <?= nb_nav('upload') ?>
   <header class="top">
     <h1>Share your reunion photos &amp; videos</h1>
-    <p>Add photos, videos, or PDFs from the reunion &mdash; one at a time, a whole batch, or a .zip file. Works from your phone or computer.</p>
+    <p>Upload and share photos and videos from the reunion and party &mdash; one at a time, a whole batch, or in a .zip file. Works from your phone or computer. They will only be available to people who were at the events!</p>
   </header>
 
   <section class="card" id="whoCard">
