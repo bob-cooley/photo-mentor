@@ -311,15 +311,10 @@ function nb_require_member(): void
     }
 }
 
-function nb_normalize_secret_input(string $s): string
-{
-    return strtolower((string) preg_replace('/\s+/', '', $s));
-}
-
 function nb_check_passcode(string $input): bool
 {
     $h = (string) (nb_config()['passcode_hash'] ?? '');
-    return $h !== '' && password_verify(nb_normalize_secret_input($input), $h);
+    return $h !== '' && password_verify($input, $h);
 }
 
 function nb_check_admin_password(string $input): bool

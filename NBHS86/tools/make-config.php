@@ -42,7 +42,7 @@ if ($secret === null && is_file($out)) {
 $secret ??= bin2hex(random_bytes(32));
 
 $cfg = [
-    'passcode_hash' => password_hash(strtolower(preg_replace('/\s+/', '', $passcode)), PASSWORD_BCRYPT),
+    'passcode_hash' => password_hash($passcode, PASSWORD_BCRYPT),
     'admin_hash' => password_hash($adminPw, PASSWORD_BCRYPT),
     'secret' => $secret,
 ];

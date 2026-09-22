@@ -13,7 +13,7 @@ $required = [
     'nb_config', 'nb_configured', 'nb_data_dir', 'nb_media_path', 'nb_db', 'nb_next_seq', 'nb_backfill_seq', 'nb_download_name', 'nb_dash_spaces', 'nb_is_phone_video_name',
     'nb_backup_db', 'nb_migrate', 'nb_setting', 'nb_set_setting', 'nb_gallery_open', 'nb_intake_open', 'nb_can_view_gallery',
     'nb_require_gallery', 'nb_folders', 'nb_folder', 'nb_headers', 'nb_json', 'nb_sign', 'nb_https', 'nb_issue_cookie',
-    'nb_clear_cookie', 'nb_cookie_valid', 'nb_is_admin', 'nb_is_member', 'nb_require_member', 'nb_normalize_secret_input',
+    'nb_clear_cookie', 'nb_cookie_valid', 'nb_is_admin', 'nb_is_member', 'nb_require_member',
     'nb_check_passcode', 'nb_check_admin_password', 'nb_client_ip', 'nb_login_allowed', 'nb_login_failed', 'nb_h',
     // ingest, derive, thumbs, credits, layout, selection, icons
     'nb_store_file', 'nb_ingest_upload', 'nb_run_jobs', 'nb_pending_jobs', 'nb_variant', 'nb_clean_path', 'nb_has_gps', 'nb_strip_gps',
