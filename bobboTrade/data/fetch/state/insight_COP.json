@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T17:31:07.779203+00:00",
-  "text": "ConocoPhillips fell 0.74% today to $126.59, continuing a sharp two-week decline of 6.26%. The main driver is a sustained drop in oil prices: U.S. crude has tumbled from the $140s range earlier this month to $107 per barrel today, largely on hopes that diplomatic talks between the U.S. and Iran could ease Middle East tensions and restore oil supply to global markets. When oil prices fall, exploration and production companies like ConocoPhillips see their revenues and profits squeezed, which is why the stock has tracked the oil selloff lower day after day.\n\nThe uncertainty itself is also weighing on the sector. Multiple reports on Monday and Tuesday mentioned that Wall Street analysts openly admit they don't know where oil is headed amid shifting diplomatic signals\u2014Trump signaling openness to talks, then Iran offering to reopen the Strait of Hormuz within a week. That kind of whipsaw in expectations (from war risk pushing oil up to peace hopes pushing it down) tends to keep energy stocks under pressure until the situation becomes clearer.",
+  "fetchedAt": "2026-09-22T18:24:47.552244+00:00",
+  "text": "ConocoPhillips fell 1% today to $126.21, extending a two-week slide of 6.5% amid conflicting signals about global oil supply. Oil prices have been volatile: U.S. crude sits at $107/barrel while global crude hit $130.80/barrel, but the bigger driver for the stock appears to be uncertainty over geopolitical developments. News today included reports that Iran could reopen the Strait of Hormuz within a week if the U.S. eases military pressure, and Trump's suggestion that diplomatic progress might come after midterm elections\u2014both signals that global oil supply tensions could ease, which would pressure energy stocks like ConocoPhillips even if crude prices haven't collapsed yet.\n\nAn additional headwind emerged from a potential U.S. diesel export ban being examined by the Trump administration, which would directly constrain U.S. refining and export economics. Wall Street's own commodity analysts publicly acknowledged they don't know where oil prices are headed, reflecting genuine uncertainty rather than a clear directional trade\u2014the kind of uncertainty that tends to weigh on energy stocks until clarity emerges.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 173,
-    "inputTokens": 149871,
-    "outputTokens": 36794,
-    "estimatedCostUsd": 0.333841,
-    "lastCallHour": "2026-09-22T17"
+    "callsThisMonth": 174,
+    "inputTokens": 150752,
+    "outputTokens": 37039,
+    "estimatedCostUsd": 0.335947,
+    "lastCallHour": "2026-09-22T18"
   }
 }

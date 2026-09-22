@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T17:31:43.456269+00:00",
-  "text": "MPC fell slightly today after climbing sharply over the prior three trading days. The stock's decline follows a sharp reversal in oil markets on Monday (Sept. 21), when crude dropped below $100 a barrel on diplomatic optimism around Iran\u2014a move that undercut some of the gains refiners had enjoyed when tensions and prices were higher. Today's continued weakness reflects ongoing uncertainty: while the Strait of Hormuz situation remains a potential supply threat, markets are now pricing in the possibility of de-escalation rather than further disruption, which reduces the urgency that had driven oil and refiner stocks higher.\n\nRefineries are running at 96.8% capacity with robust inventory levels across products, so there's no supply-side constraint supporting prices from that angle. The broader market remains genuinely unsure about oil's direction\u2014as one analyst noted today, Wall Street admits it doesn't know where prices head next given the geopolitical variables at play. That uncertainty is reflected in oil's sideways trading and in MPC's pullback after its recent run-up.",
+  "fetchedAt": "2026-09-22T18:25:11.513796+00:00",
+  "text": "Marathon Petroleum dropped 0.37% today to close at $400.89, extending a sharp reversal from its peak earlier this week. The stock fell after climbing to $424.89 on September 18th, with today's decline reflecting dimmed optimism around oil prices and refining margins. Crude oil prices weakened on hopes for U.S.-Iran diplomatic talks and potential reopening of the Strait of Hormuz\u2014developments that would ease the supply constraints that have supported refiner profits in recent weeks. At the same time, the Trump administration is examining a possible diesel export ban, which adds regulatory uncertainty for a company heavily exposed to fuel exports and refining margins.\n\nThe broader context is one of genuine uncertainty about where energy markets head from here. Refineries are running at 96.8% capacity with solid fuel inventories, but Wall Street has publicly admitted it doesn't know the trajectory of oil prices given the geopolitical volatility. A diplomatic solution in Iran\u2014which would increase global oil supply and reduce refining premiums\u2014is precisely the kind of outcome that pressures refiner stocks, even if it brings broader economic stability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 173,
-    "inputTokens": 159594,
-    "outputTokens": 37527,
-    "estimatedCostUsd": 0.347229,
-    "lastCallHour": "2026-09-22T17"
+    "callsThisMonth": 174,
+    "inputTokens": 160538,
+    "outputTokens": 37771,
+    "estimatedCostUsd": 0.349393,
+    "lastCallHour": "2026-09-22T18"
   }
 }
