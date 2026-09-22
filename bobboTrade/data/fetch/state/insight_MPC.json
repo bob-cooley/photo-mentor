@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T16:23:27.411384+00:00",
-  "text": "MPC fell about 0.4% today as oil prices remained under pressure amid shifting geopolitical headlines. Over the past two trading days, the stock dropped roughly 5.5% after hitting $425 on September 18th\u2014the steepest decline came Monday (September 21st) when crude tumbled below $100 a barrel on reports that Trump was open to talking with Iran, which eased some fears about supply disruptions from the Middle East. Today the stock continued lower even though oil prices barely moved, suggesting the market is still digesting the possibility of de-escalation in the Iran situation rather than reacting to fresh news.\n\nRefineries are running at a robust 96.8% capacity with healthy product inventories, but that operational strength can't offset what's happening on the price side. With crude swinging between $100 and $107 per barrel depending on the day's geopolitical headlines, and Wall Street openly admitting uncertainty about oil's direction, refiner margins are caught between competing forces: lower crude prices help costs but also weaken the value of refined products, and the lack of clarity on Iran is keeping traders cautious.",
+  "fetchedAt": "2026-09-22T17:31:43.456269+00:00",
+  "text": "MPC fell slightly today after climbing sharply over the prior three trading days. The stock's decline follows a sharp reversal in oil markets on Monday (Sept. 21), when crude dropped below $100 a barrel on diplomatic optimism around Iran\u2014a move that undercut some of the gains refiners had enjoyed when tensions and prices were higher. Today's continued weakness reflects ongoing uncertainty: while the Strait of Hormuz situation remains a potential supply threat, markets are now pricing in the possibility of de-escalation rather than further disruption, which reduces the urgency that had driven oil and refiner stocks higher.\n\nRefineries are running at 96.8% capacity with robust inventory levels across products, so there's no supply-side constraint supporting prices from that angle. The broader market remains genuinely unsure about oil's direction\u2014as one analyst noted today, Wall Street admits it doesn't know where prices head next given the geopolitical variables at play. That uncertainty is reflected in oil's sideways trading and in MPC's pullback after its recent run-up.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 172,
-    "inputTokens": 158644,
-    "outputTokens": 37299,
-    "estimatedCostUsd": 0.345139,
-    "lastCallHour": "2026-09-22T16"
+    "callsThisMonth": 173,
+    "inputTokens": 159594,
+    "outputTokens": 37527,
+    "estimatedCostUsd": 0.347229,
+    "lastCallHour": "2026-09-22T17"
   }
 }
