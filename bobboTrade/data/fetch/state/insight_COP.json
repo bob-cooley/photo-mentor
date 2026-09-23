@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-23T04:18:14.091024+00:00",
-  "text": "ConocoPhillips dropped 1.8% today, continuing a steep two-week decline that has erased $16 from its stock price. The immediate driver is news that the U.S. and Iran held extended talks at the UN on Wednesday with hopes for a diplomatic solution to their conflict\u2014oil fell on that optimism, and crude prices remain under pressure. With U.S. oil at $107 and world oil at $130 per barrel, lower prices directly squeeze the earnings outlook for an oil major like ConocoPhillips.\n\nThe stock's 7% loss over two weeks reflects broader uncertainty about oil demand and geopolitical risk. Investors are recalibrating as the threat of Middle East escalation\u2014which had been supporting higher oil prices\u2014appears to ease through diplomacy, leaving the market to focus on softer underlying demand signals rather than supply disruption premium.",
+  "fetchedAt": "2026-09-23T07:16:35.797774+00:00",
+  "text": "ConocoPhillips fell 1.8% today, extending a steep two-week decline that has wiped out roughly 7% of the stock's value. The immediate driver is a sharp drop in oil prices following diplomatic talks between the U.S. and Iran at the UN\u2014investors are betting that an easing of Middle East tensions and a potential reopening of the Strait of Hormuz would increase global oil supply, putting downward pressure on crude prices. With US oil trading around $107 per barrel (down from levels that were much higher just two weeks ago), refiners and oil producers face lower revenues per barrel, and ConocoPhillips is caught in that pullback.\n\nThe bigger picture is that oil markets have shifted on de-escalation hopes. When geopolitical risk premiums disappear\u2014meaning traders no longer add extra money to prices just because of conflict risk\u2014commodity prices tend to fall, and energy stocks follow. The gap between global oil ($130.80) and US oil ($107.02) also hints at supply concerns being priced out, which typically benefits buyers but hurts producers holding inventory at lower realized prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 182,
-    "inputTokens": 157669,
-    "outputTokens": 38693,
-    "estimatedCostUsd": 0.351134,
-    "lastCallHour": "2026-09-23T04"
+    "callsThisMonth": 183,
+    "inputTokens": 158516,
+    "outputTokens": 38939,
+    "estimatedCostUsd": 0.353211,
+    "lastCallHour": "2026-09-23T07"
   }
 }
