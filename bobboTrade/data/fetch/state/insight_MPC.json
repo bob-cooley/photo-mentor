@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-22T23:10:37.405336+00:00",
-  "text": "Marathon Petroleum stock fell 3.2% today as oil prices dropped for a fifth consecutive day on optimism that U.S.-Iran diplomatic talks could ease tensions in the Middle East. The price of crude fell sharply after reports that Iran said it could reopen the Strait of Hormuz within a week if the U.S. reduced military pressure\u2014a development that reduced near-term supply-crisis fears that had been supporting higher oil and fuel prices. Refiners like Marathon benefit when crude and refined product prices are elevated; a pullback in those prices directly hits margins.\n\nThe broader headwind for refiners is the growing geopolitical uncertainty itself. Wall Street analysts have openly admitted they don't know where oil prices are headed given the shifting U.S.-Iran dynamics, and the Trump administration is now exploring a diesel export ban to address high prices hitting farmers and truckers\u2014a policy that could further pressure refiner profitability by limiting their ability to export higher-margin products. With refineries already running at 96.8% capacity and diesel inventories relatively tight, the combination of falling crude prices and potential export restrictions creates a murky outlook.",
+  "fetchedAt": "2026-09-23T01:13:18.262584+00:00",
+  "text": "Marathon Petroleum fell 3.2% today as oil prices dropped on growing hopes for a diplomatic resolution between the U.S. and Iran. The two countries held multi-hour talks at the UN on Wednesday, and reports that Iran could reopen the Strait of Hormuz (a critical chokepoint for global oil shipments) if military pressure eases have eased market fears of a broader supply crisis. Oil fell for a fifth consecutive day on this optimism, undercutting the refining margins that drive profits for companies like this one.\n\nThe timing matters: the stock had surged from $410 to $424 in three days (September 15\u201318) when geopolitical tensions were at their peak and oil looked scarce. Now that a diplomatic path seems possible, that supply-crisis premium has unwound. Refineries are running at a high 96.8% capacity, so the upside from constrained supply is fading.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 179,
-    "inputTokens": 165239,
-    "outputTokens": 38859,
-    "estimatedCostUsd": 0.359534,
-    "lastCallHour": "2026-09-22T23"
+    "callsThisMonth": 180,
+    "inputTokens": 166155,
+    "outputTokens": 39064,
+    "estimatedCostUsd": 0.361475,
+    "lastCallHour": "2026-09-23T01"
   }
 }

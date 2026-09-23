@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-22T23:09:39.374145+00:00",
-  "text": "ConocoPhillips fell 1.8% today to $125.27, extending a sharp two-week decline of 7.2%. The primary driver is a collapse in oil prices on growing optimism about U.S.-Iran diplomacy \u2014 oil has fallen for five consecutive days as reports surfaced that Iran could reopen the Strait of Hormuz within a week if the U.S. reduces military pressure. Lower oil prices directly cut into the earnings outlook for oil producers like ConocoPhillips.\n\nThe broader picture amplifies the uncertainty: the Trump administration is also considering a diesel export ban to address high fuel prices ahead of the midterm elections, which could further constrain the company's refining and export margins. Wall Street itself has admitted it doesn't have a clear read on where oil is headed amid these geopolitical shifts, leaving investors to price in a wider range of risk rather than betting confidently on recovery.",
+  "fetchedAt": "2026-09-23T01:13:05.951491+00:00",
+  "text": "ConocoPhillips fell 1.8% today as oil prices dropped following news of U.S.-Iran diplomatic talks at the UN. The company's stock is down 7.2% over two weeks, directly tracking the collapse in crude prices\u2014U.S. oil has fallen from much higher levels to $107 a barrel. When oil prices fall, integrated oil producers like ConocoPhillips see their profits compressed, since their earnings depend heavily on the price they can sell crude for.\n\nThe broader driver is geopolitical: hopes for a diplomatic solution to the U.S.-Iran conflict have reduced expectations of supply disruptions in the Middle East. Oil traders are pricing in a less severe shortage scenario, which removes the premium that had been built into prices. The uncertainty itself is also pressuring the stock\u2014analysts have publicly acknowledged they don't know where oil prices will settle as the diplomatic situation remains fluid, making it harder for investors to value energy stocks with confidence.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 179,
-    "inputTokens": 155137,
-    "outputTokens": 38101,
-    "estimatedCostUsd": 0.345642,
-    "lastCallHour": "2026-09-22T23"
+    "callsThisMonth": 180,
+    "inputTokens": 155989,
+    "outputTokens": 38308,
+    "estimatedCostUsd": 0.347529,
+    "lastCallHour": "2026-09-23T01"
   }
 }
