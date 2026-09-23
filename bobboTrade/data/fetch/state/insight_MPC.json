@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T14:34:41.906591+00:00",
-  "text": "Stock was flat today, up just 0.7%, after a sharp two-week decline that saw it drop from $424 to $392. The modest bounce comes as refining margins remain supported by tight crude supply \u2014 US crude at $107 per barrel \u2014 but uncertainty about oil direction is weighing heavily on the sector. Wall Street openly admitted on September 22 it doesn't know where oil prices are headed, particularly given tensions around Iran and the Strait of Hormuz, which keeps traders cautious about refiners' near-term outlook.\n\nThe stock's weakness over the past few days reflects confusion in the broader energy market rather than company-specific problems. Diesel storage remains tight at 107.9 million barrels, and refineries are running hot at 96.8% capacity, which normally supports refiner profits \u2014 but talk of a potential US diesel export ban, plus conflicting signals on Iran negotiations and the Ukraine situation, has left investors unsure whether oil prices will trend higher or settle down. Without clarity on geopolitics or policy, refiners face difficult betting conditions.",
+  "fetchedAt": "2026-09-23T15:07:37.172168+00:00",
+  "text": "Marathon Petroleum's stock fell slightly today as oil prices gained but refiners faced headwinds from rising crude costs and uncertainty. US oil rose to $107 a barrel, but the bigger story is geopolitical noise\u2014Iran signaled willingness to reopen the Strait of Hormuz with conditions, and Ukraine floated an \"energy ceasefire\" with Russia. These diplomatic hints suggest the market is pricing in potential supply relief, which would hurt refiner margins. Meanwhile, refineries are running at 96.8% capacity, and storage levels remain elevated, leaving little room for refinery operators to pass higher input costs to customers.\n\nThe stock's three-day slide from $425 to $387 reflects a broader shakeout in energy\u2014Wall Street itself admitted it has no idea where oil is headed amid the Iran situation. Without clear direction on geopolitics or crude supply, refiners like Marathon face margin compression from their main input cost swinging wildly while demand-side dynamics stay murky.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 185,
-    "inputTokens": 170736,
-    "outputTokens": 40098,
-    "estimatedCostUsd": 0.371226,
-    "lastCallHour": "2026-09-23T14"
+    "callsThisMonth": 186,
+    "inputTokens": 171666,
+    "outputTokens": 40312,
+    "estimatedCostUsd": 0.373226,
+    "lastCallHour": "2026-09-23T15"
   }
 }
