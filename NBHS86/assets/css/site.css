@@ -58,6 +58,7 @@ button:disabled { opacity: .5; cursor: default; }
 .thanks.show { display: block; }
 .thanks h2 { color: var(--accent); text-transform: none; letter-spacing: 0; font-size: 1.25rem; margin-bottom: 6px; }
 .thanks p { margin: 0 0 14px; color: var(--muted); }
+.thanks-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
 
 .gate { max-width: 420px; margin: 12vh auto 0; }
 .gate form { display: grid; gap: 12px; }

@@ -102,6 +102,7 @@ Both login fields (classmate passcode on `index.php`, admin password on `admin/i
 ## Header art
 - `assets/img/nbhs86-header.jpg` (1455x600, navy background identical to the page colour #062365, so it blends in) plus `-727.jpg` and `-485.jpg` copies for phones and retina screens (`srcset`). Source art: `~/Desktop/_Upload/nbhs86-header.jpg` (a .psd exists in the local `nusite/NBHS86/` mirror; never upload it, the site is public).
 - `nb_header_image()` in `lib/layout.php` renders it at the top of the upload page (including the "uploads closed" view) and every gallery view. The passcode page does not have it.
+- The upload success panel ("Thank you!") has two actions: "Add more files" (resets the Uppy dashboard, JS only) and "Visit Galleries" (a plain link to /gallery/, deliberately not part of the CTA fade transition).
 - Height is `--header-h` in `assets/css/site.css`: 200px desktop, 100px tablet (<=900px) and phone (<=560px) values are separate so each can be tuned; on phones the page's top padding is also reduced. The picture is 2.425x wider than tall, so 100px tall = 243px wide and 200px tall = 485px wide. **If you change the height, update `sizes` in `nb_header_image()` (width = height x 2.425; it lists the tablet/phone width and the desktop width separately)** so phones/retina still pick the right file. Bump `?v=` there when the picture changes (images are cached a year).
 
 ## Deploy gotcha: never delete a folder

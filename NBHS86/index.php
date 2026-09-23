@@ -37,7 +37,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=16">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=17">
 <?php if ($member && !$intakeClosed): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/uppy/uppy.min.css?v=6.0.1">
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/uppy-theme.css?v=7">
@@ -98,7 +98,10 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
   <section class="card thanks" id="thanks" aria-live="polite">
     <h2 id="thanksTitle">Thank you!</h2>
     <p id="thanksBody"></p>
-    <button type="button" id="moreBtn">Add more files</button>
+    <div class="thanks-actions">
+      <button type="button" id="moreBtn">Add more files</button>
+      <a class="btn secondary" href="<?= NB_BASE ?>/gallery/">Visit Galleries</a>
+    </div>
   </section>
 
   <section class="card" id="filesCard">
