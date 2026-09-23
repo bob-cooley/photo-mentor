@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-23T22:01:05.538489+00:00",
-  "text": "ConocoPhillips rose 2.3% today after oil prices snapped a five-day losing streak, with crude climbing on renewed hopes for a diplomatic resolution to Middle East tensions between Iran and the U.S. The stock has been under pressure all week\u2014down 6.2% over two weeks\u2014but today's move reflects cautious optimism that regional conflict risk may ease, reducing the threat of supply disruptions that would have sharply pushed prices higher.\n\nThe near-term backdrop remains mixed for oil refiners and producers. While today's diplomatic signals from Iran provided a lift, the broader conversation around a potential diesel export ban poses a longer-term headwind: industry experts warn that such a ban, though offering short-term price relief, could ultimately lead refiners to cut production and fuel costs to rise again. That structural uncertainty likely explains why the stock has drifted lower even as the company benefits from current crude prices in the $96\u2013$115 range.",
+  "fetchedAt": "2026-09-23T23:10:11.276876+00:00",
+  "text": "ConocoPhillips bounced back 2.25% today after a rough five-day slide, partly recovering as oil prices snapped a five-day losing streak on hopes for Middle East diplomacy\u2014Iran signaled willingness to negotiate with the U.S., which eased some of the geopolitical tension that had been weighing on energy stocks. The stock had fallen 6.18% over two weeks amid broader oil weakness, so today's uptick reflects renewed optimism in the sector rather than company-specific news.\n\nThe recovery sits within a fraught backdrop: crude is still down sharply from earlier levels, and potential policy headwinds loom, including talk of diesel export restrictions that industry experts warn could ultimately raise fuel prices and squeeze refiner margins. With the U.S. oil price at $96.41 per barrel versus the world price at $114.89\u2014a significant spread\u2014any policy disruption to exports could complicate near-term margins for a major refiner like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 190,
-    "inputTokens": 164561,
-    "outputTokens": 40377,
-    "estimatedCostUsd": 0.366446,
-    "lastCallHour": "2026-09-23T22"
+    "callsThisMonth": 191,
+    "inputTokens": 165430,
+    "outputTokens": 40598,
+    "estimatedCostUsd": 0.36842,
+    "lastCallHour": "2026-09-23T23"
   }
 }

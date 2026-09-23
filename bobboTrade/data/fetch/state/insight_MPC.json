@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T22:01:39.362467+00:00",
-  "text": "Marathon Petroleum's stock fell slightly today, continuing a sharp decline from last week's peaks. The broader catalyst appears to be uncertainty about oil prices and refining margins\u2014crude remains volatile amid Middle East tensions and geopolitical talk, while a potential diesel export ban could squeeze refiner profits by forcing production cuts without providing sustained pricing power. Refineries are running at 94% capacity with adequate inventory levels, so the weakness isn't driven by operational stress, but rather by policy risk and market confusion about where oil heads next.\n\nThe stock's 2.77% drop over two weeks coincides with oil's own wobbles and growing concern among energy investors about what policymakers will do. When political intervention in energy markets becomes a live question\u2014whether export restrictions or responses to Middle East tensions\u2014refiners often trade sideways or down until clarity emerges, regardless of their own operational strength.",
+  "fetchedAt": "2026-09-23T23:10:35.927356+00:00",
+  "text": "Marathon Petroleum shares fell 0.33% today to $388.38, continuing a sharp two-week decline of 2.77% from their mid-September peak. The broader sell-off appears tied to uncertainty over potential diesel export restrictions \u2014 reported today \u2014 which refiners warn would ultimately raise fuel prices as they cut production, dampening near-term refining margins. That regulatory concern arrives alongside mixed signals on geopolitical risk: while oil prices rose today on hopes for Iran-U.S. diplomatic talks, the uncertainty itself has kept investors cautious about refiner stocks that thrive on stable, predictable fuel spreads.\n\nRefinery utilization remains solid at 94%, and the wide gap between US crude ($96.41) and global crude ($114.89) typically favors American refiners by letting them buy cheaper domestic oil. However, the policy risk \u2014 a diesel export ban would restrict their ability to ship profitable products \u2014 has overshadowed that advantage this week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 190,
-    "inputTokens": 175376,
-    "outputTokens": 41197,
-    "estimatedCostUsd": 0.381361,
-    "lastCallHour": "2026-09-23T22"
+    "callsThisMonth": 191,
+    "inputTokens": 176301,
+    "outputTokens": 41406,
+    "estimatedCostUsd": 0.383331,
+    "lastCallHour": "2026-09-23T23"
   }
 }
