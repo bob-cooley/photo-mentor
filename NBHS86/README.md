@@ -82,6 +82,9 @@ Also wired into "Download selected": ticking exactly one file shares/downloads i
 
 Test: `php tests/share_download_test.php`.
 
+## Lightbox prev/next arrows
+Plain red text-symbol arrows (◀ ▶, small, over the image) instead of PhotoSwipe's default icon. Also fixes a real gap: PhotoSwipe hides its arrows entirely on touch devices until a mouse has been used (`.pswp--touch .pswp__button--arrow { visibility: hidden; }`), meaning phones had no visible next/prev arrows at all before this, only swipe. Overridden in `assets/css/gallery.css` with the same `.pswp__button.pswp__button--arrow` extra-qualifier technique used for the download button, needed to out-specificity PhotoSwipe's own stylesheet (loaded after this one).
+
 ## Getting multiple downloaded photos into Photos/Gallery (mobile)
 The zip download button no longer says "(.zip)" in its label, just "Download" (mobile) or "Download selected" (desktop). Right under it, `nb_mobile_zip_hint()` in `lib/layout.php` shows a short, device-detected instruction for the step most people miss: the zip itself downloads fine on a phone, but getting its contents into the actual Photos/Gallery app takes one more manual step, since neither iOS nor Android auto-imports a downloaded zip's contents into the camera roll. Detected from the User-Agent (`iPhone|iPad|iPod` vs `Android`); empty string (nothing shown) on desktop or an unrecognized agent. Known gap: an iPad on Safari's default desktop-site User-Agent isn't detected as mobile. A JS-triggered "download every file individually, no zip" button was considered and rejected: mobile Safari allows only one download per tap and silently blocks the rest of a batch, so it would work worse than the zip, not better.
 

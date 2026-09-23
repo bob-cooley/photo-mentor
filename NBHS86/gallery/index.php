@@ -30,7 +30,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=17">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=15">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=16">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
