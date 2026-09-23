@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T15:07:37.172168+00:00",
-  "text": "Marathon Petroleum's stock fell slightly today as oil prices gained but refiners faced headwinds from rising crude costs and uncertainty. US oil rose to $107 a barrel, but the bigger story is geopolitical noise\u2014Iran signaled willingness to reopen the Strait of Hormuz with conditions, and Ukraine floated an \"energy ceasefire\" with Russia. These diplomatic hints suggest the market is pricing in potential supply relief, which would hurt refiner margins. Meanwhile, refineries are running at 96.8% capacity, and storage levels remain elevated, leaving little room for refinery operators to pass higher input costs to customers.\n\nThe stock's three-day slide from $425 to $387 reflects a broader shakeout in energy\u2014Wall Street itself admitted it has no idea where oil is headed amid the Iran situation. Without clear direction on geopolitics or crude supply, refiners like Marathon face margin compression from their main input cost swinging wildly while demand-side dynamics stay murky.",
+  "fetchedAt": "2026-09-23T17:41:16.579605+00:00",
+  "text": "Marathon Petroleum fell 1.2% today to $385.07, extending a sharp three-day decline from a peak of $424.89 last week. The stock has been hit hard by a collapsing oil price environment: crude has fallen from the mid-$100s to $96.41 per barrel in recent days, which directly cuts into refinery margins \u2014 the profit refiners make by turning cheap crude into gasoline and diesel. While oil prices stabilized slightly today on talk of potential U.S.-Iran diplomatic negotiations, the week's broader selloff reflects deep uncertainty about oil's direction and fears that a Middle East ceasefire could flood markets with more supply.\n\nThe refining backdrop is also turning cautious. U.S. refineries are running at 94% capacity with substantial fuel inventories on hand (206 million barrels of gasoline, 107 million of diesel), meaning any dip in oil prices squeezes margins without the offsetting benefit of tight supply. The activist campaign against Devon Energy and chatter about a possible diplomatic off-ramp in both the Ukraine and Iran situations signal that investors are increasingly pricing in a softer oil market ahead, which would pressure refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 186,
-    "inputTokens": 171666,
-    "outputTokens": 40312,
-    "estimatedCostUsd": 0.373226,
-    "lastCallHour": "2026-09-23T15"
+    "callsThisMonth": 187,
+    "inputTokens": 172595,
+    "outputTokens": 40573,
+    "estimatedCostUsd": 0.37546,
+    "lastCallHour": "2026-09-23T17"
   }
 }
