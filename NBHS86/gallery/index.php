@@ -86,6 +86,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   <header class="folder-head">
     <a class="back" href="<?= $gal ?>">&larr; All Galleries</a>
     <h1><span class="folder-icon sm"><?= nb_icon($folder['icon'], 26) ?></span> <?= nb_h($folder['title']) ?></h1>
+    <?php if ($folder['slug'] === 'photos'): ?><p class="hint">Click on any photo to open it in a scrollable lightbox.</p><?php endif; ?>
   </header>
 
   <div class="toolbar" id="toolbar">
