@@ -30,7 +30,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=17">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=10">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=11">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
@@ -103,13 +103,15 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
   <p id="empty" class="hint" hidden>Nothing here yet.</p>
   <div id="sentinel" aria-hidden="true"></div>
 
+  <?php $zipHint = nb_mobile_zip_hint(); ?>
   <div class="selbar" id="selbar">
     <span id="selcount">Nothing selected yet</span>
     <span class="selactions">
       <button type="button" class="secondary" id="selAll">Select all</button>
       <button type="button" class="secondary" id="selClear">Clear</button>
-      <button type="button" id="selDownload" disabled title="Tick one or more files first, or use Select all"><?= nb_icon('download', 18) ?> Download <span class="hide-sm">selected </span>(.zip)</button>
+      <button type="button" id="selDownload" disabled title="Tick one or more files first, or use Select all"><?= nb_icon('download', 18) ?> Download <span class="hide-sm">selected</span></button>
     </span>
+    <?php if ($zipHint !== ''): ?><span class="selbar-hint"><?= nb_h($zipHint) ?></span><?php endif; ?>
     <span id="selmsg" class="selmsg" role="status"></span>
     <div class="selbar-contact"><?= nb_contact_line() ?></div>
   </div>

@@ -57,6 +57,23 @@ function nb_contact_line(): string
     return 'For questions or problems with the site, contact <a href="#" class="email-link" data-user="bob" data-domain="bobcooleyphoto.com"></a>.';
 }
 
+/**
+ * Short instruction for getting photos out of the downloaded zip and into the phone's own Photos/gallery app,
+ * shown right under the Download button. Detected from the User-Agent; empty on desktop. An iPad using Safari's
+ * default desktop-site User-Agent is not detected as mobile here; that's a known gap, not a bug.
+ */
+function nb_mobile_zip_hint(): string
+{
+    $ua = (string) ($_SERVER['HTTP_USER_AGENT'] ?? '');
+    if (preg_match('/iPhone|iPad|iPod/', $ua)) {
+        return 'iPhone: the zip opens automatically in your Files app. Tap it, then Select All, Share, Save Images to add them all to Photos.';
+    }
+    if (str_contains($ua, 'Android')) {
+        return 'Android: open the zip in your Files app, tap Extract, then select the photos and save them to your gallery.';
+    }
+    return '';
+}
+
 /** The single call to action on the gallery page (its "homepage"): always links to the upload page. */
 function nb_gallery_cta(): string
 {
