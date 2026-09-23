@@ -23,5 +23,7 @@ check('the single-file branch never touches prepare.php/zip.php', (bool) preg_ma
 check('the unzip hint is hidden by default (JS decides when a zip is actually happening)', str_contains(file_get_contents(__DIR__ . '/../gallery/index.php'), 'id="selZipHint" hidden'), true);
 check('the hint only shows for 2+ selected (a real zip)', str_contains($js, 'zipHint.hidden = n < 2'), true);
 
+check('the lightbox download button has a visible "Download" label, not just an icon', str_contains($js, '<span class="pswp-dl-label">Download</span>'), true);
+
 echo $fail ? "$fail failure(s)\n" : "all share/download tests passed\n";
 exit($fail ? 1 : 0);

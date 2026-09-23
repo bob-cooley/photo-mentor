@@ -257,6 +257,7 @@ lightbox.on('uiRegister', () => {
     onInit: (el, pswp) => {
       el.setAttribute('title', 'Download');
       el.setAttribute('aria-label', 'Download');
+      el.insertAdjacentHTML('beforeend', '<span class="pswp-dl-label">Download</span>');
       pswp.on('change', () => { el.href = pswp.currSlide.data.dl; });
       el.addEventListener('click', (e) => {
         const d = pswp.currSlide.data;
