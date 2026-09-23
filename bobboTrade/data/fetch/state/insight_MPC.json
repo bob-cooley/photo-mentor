@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T18:14:09.309234+00:00",
-  "text": "Marathon Petroleum fell 1.14% today to $385.24, continuing a sharp five-day slide that has wiped out 7% of the stock's value since mid-September. The broader refining sector is caught in uncertainty over geopolitical risks: oil prices remain volatile amid unresolved tensions between Iran and the U.S., with Wall Street analysts openly admitting they don't know which way crude will move next. Adding pressure, refining margins are under strain as U.S. crude hovers near $96 per barrel while refineries run at 94% capacity\u2014leaving less room for profitable operations if prices move the wrong way.\n\nThe uncertainty cuts both ways for a refiner like this one. While some headlines suggest potential diplomatic breakthroughs in the Middle East could lower oil prices and help margins, those same breakthroughs could reduce the supply-shock premium built into crude costs, hurting a company that benefits when oil is scarce and expensive. Until clarity emerges on Iran, Ukraine, or global supply, the stock remains caught between competing bullish and bearish scenarios.",
+  "fetchedAt": "2026-09-23T20:41:46.380188+00:00",
+  "text": "Marathon Petroleum stock fell 0.4% today to $388.14, continuing a sharp two-week decline of 2.8% after hitting $424.89 just five trading days earlier. The timing aligns with news on September 23rd that a potential diesel export ban\u2014being weighed by the Trump administration\u2014would actually lead refiners to *cut* production once any initial relief wore off, which directly threatens refinery margins and throughput for a company like this one that makes money by processing crude into fuel.\n\nThe broader backdrop adds uncertainty: oil prices themselves are volatile and hard to predict right now given the Iran situation and Middle East tensions, refineries are running at 94% capacity (fairly high but not maxed out), and diesel storage levels remain elevated at 107 million barrels. That combination of policy risk hitting refining economics, geopolitical fog, and already-soft fuel demand appears to have spooked investors over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 188,
-    "inputTokens": 173524,
-    "outputTokens": 40807,
-    "estimatedCostUsd": 0.377559,
-    "lastCallHour": "2026-09-23T18"
+    "callsThisMonth": 189,
+    "inputTokens": 174451,
+    "outputTokens": 41011,
+    "estimatedCostUsd": 0.379506,
+    "lastCallHour": "2026-09-23T20"
   }
 }

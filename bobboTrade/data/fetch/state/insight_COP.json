@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-23T18:13:40.905360+00:00",
-  "text": "ConocoPhillips rose 2.6% today as oil prices bounced back after a five-day losing streak, with crude jumping on tentative signs of diplomatic progress in the Middle East. Iran's recent signals about potential talks and conditions for reopening the Strait of Hormuz\u2014a critical chokepoint for global oil shipments\u2014eased concerns that regional tensions would keep prices elevated and supply disrupted. For an oil producer like ConocoPhillips, higher oil prices directly improve profitability, so the modest rebound in crude helped lift the stock back above $128 after a rough week that saw it fall nearly 6%.\n\nThe timing matters: over the past few days the stock had fallen sharply as oil slid, but today's diplomatic signals and the oil market's response suggest traders see less downside risk from geopolitical conflict. That said, the company remains down from last week's highs, and the gap between U.S. crude ($96) and global crude ($115) reflects tightness in the market that could reverse quickly if talks stall.",
+  "fetchedAt": "2026-09-23T20:41:26.267205+00:00",
+  "text": "ConocoPhillips rose 2.3% today as oil prices snapped a five-day losing streak, with crude climbing on diplomatic signals from Iran suggesting a possible Middle East de-escalation. The uptick came despite a broader two-week decline\u2014the stock has fallen 6% since mid-September as crude struggled\u2014but today's move reflects renewed optimism that tensions could ease rather than worsen, which would reduce supply-disruption risk.\n\nThe company also operates in an environment where policy uncertainty is rising: news today flagged a potential diesel export ban being weighed by Trump, which could eventually pressure refining margins by cutting production volumes, and activist pressure on competitors like Devon Energy signals consolidation talk in the sector. For an integrated oil producer like ConocoPhillips, the near-term win is simply that oil demand fears eased, though any actual policy restrictions could complicate the picture ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 188,
-    "inputTokens": 162823,
-    "outputTokens": 39975,
-    "estimatedCostUsd": 0.362698,
-    "lastCallHour": "2026-09-23T18"
+    "callsThisMonth": 189,
+    "inputTokens": 163692,
+    "outputTokens": 40170,
+    "estimatedCostUsd": 0.364542,
+    "lastCallHour": "2026-09-23T20"
   }
 }
