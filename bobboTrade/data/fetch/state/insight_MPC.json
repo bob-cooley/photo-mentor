@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T03:15:42.642893+00:00",
-  "text": "Marathon Petroleum fell 3.2% today after oil prices dropped on news of diplomatic talks between the U.S. and Iran at the UN. A refiner's profits depend heavily on the spread between crude oil costs and what they can sell refined products for; when oil prices fall sharply\u2014as they did over the past week amid hopes for a Middle East peace deal\u2014that spread often compresses, reducing margins. The stock is down nearly 3% over two weeks as this geopolitical uncertainty has weighed on energy prices.\n\nThe timing matters: refineries are running at 96.8% capacity and fuel inventories are substantial, which means there's limited room to benefit from lower input costs if demand doesn't strengthen. Add to that the Trump administration's consideration of a diesel export ban, which would further constrain what refiners can sell into overseas markets and potentially cap upside on any margin recovery.",
+  "fetchedAt": "2026-09-23T04:18:26.437814+00:00",
+  "text": "Marathon Petroleum's stock fell 3.2% today, dropping from $424.89 to $389.68 over the past week as oil prices retreated on diplomatic optimism. News that the U.S. and Iran held extended talks at the UN meeting on Wednesday fueled hopes for a peaceful resolution to Middle East tensions, causing crude oil to fall for a fifth consecutive day. For a refiner like Marathon, lower oil prices reduce the cost of their raw materials, but the market often initially sells refiners on the *possibility* of cheaper oil, not the actual benefit\u2014especially when that lower oil price arrives alongside broader uncertainty about where energy markets are headed.\n\nThe timing also matters: at 96.8% refinery utilization and with a divergence between U.S. crude ($107/barrel) and global crude ($130.80/barrel), the company faces a mixed backdrop. The Trump administration's examination of a potential diesel export ban, meant to help domestic farmers and truckers, could further complicate refiner margins if it constrains their ability to sell refined products overseas.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 181,
-    "inputTokens": 167059,
-    "outputTokens": 39255,
-    "estimatedCostUsd": 0.363334,
-    "lastCallHour": "2026-09-23T03"
+    "callsThisMonth": 182,
+    "inputTokens": 167963,
+    "outputTokens": 39485,
+    "estimatedCostUsd": 0.365388,
+    "lastCallHour": "2026-09-23T04"
   }
 }
