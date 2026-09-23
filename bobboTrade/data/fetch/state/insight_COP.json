@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-23T07:16:35.797774+00:00",
-  "text": "ConocoPhillips fell 1.8% today, extending a steep two-week decline that has wiped out roughly 7% of the stock's value. The immediate driver is a sharp drop in oil prices following diplomatic talks between the U.S. and Iran at the UN\u2014investors are betting that an easing of Middle East tensions and a potential reopening of the Strait of Hormuz would increase global oil supply, putting downward pressure on crude prices. With US oil trading around $107 per barrel (down from levels that were much higher just two weeks ago), refiners and oil producers face lower revenues per barrel, and ConocoPhillips is caught in that pullback.\n\nThe bigger picture is that oil markets have shifted on de-escalation hopes. When geopolitical risk premiums disappear\u2014meaning traders no longer add extra money to prices just because of conflict risk\u2014commodity prices tend to fall, and energy stocks follow. The gap between global oil ($130.80) and US oil ($107.02) also hints at supply concerns being priced out, which typically benefits buyers but hurts producers holding inventory at lower realized prices.",
+  "fetchedAt": "2026-09-23T13:19:07.620406+00:00",
+  "text": "ConocoPhillips fell 1.8% today, continuing a steep two-week slide that has seen the stock drop 7.2% since mid-September. The primary driver is the collapse in crude oil prices: U.S. oil has fallen to $107 per barrel while global oil sits at $130\u2014a significant pullback that directly cuts into the earnings power of an oil producer. This weakness accelerated after diplomatic talks between Iran and the U.S. at the UN raised hopes for a potential political settlement in the Middle East, which typically means looser supply constraints and lower oil prices.\n\nThe broader headwind is a shift in energy market sentiment from geopolitical risk premium to peace optimism. When investors believe Middle East tensions might ease or that supply disputes could be resolved, they sell oil futures, which immediately pressures major oil producers' stock valuations even if production fundamentals haven't changed.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 183,
-    "inputTokens": 158516,
-    "outputTokens": 38939,
-    "estimatedCostUsd": 0.353211,
-    "lastCallHour": "2026-09-23T07"
+    "callsThisMonth": 184,
+    "inputTokens": 159376,
+    "outputTokens": 39133,
+    "estimatedCostUsd": 0.355041,
+    "lastCallHour": "2026-09-23T13"
   }
 }
