@@ -28,7 +28,7 @@ $im = imagecreatetruecolor(20, 20); imagefill($im, 0, 0, imagecolorallocate($im,
 $p = nb_store_file("$j/p.jpg", 'IMG_1234.JPG', $user);
 check('a photo called IMG_1234.JPG is a numbered photo', $name($p), 'NBHS_reunions_0001.jpg');
 $s = nb_store_file(vid('s', 5), 'IMG_5555.MOV', $admin);
-check('an admin slideshow named like a phone video is still a slideshow', $name($s), 'NBHS_slideshow_0001.mov');
+check('an admin slideshow keeps its own name (phone-name pattern is ignored for slideshows)', $name($s), 'IMG_5555.MOV');
 check('...and takes no friends number', row($s['id'])['friends_seq'], null);
 
 // duplicates and rejects never burn a number; deleting never frees one

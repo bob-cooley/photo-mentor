@@ -311,7 +311,7 @@ function fmt_bytes(int $b): string
   <section class="card">
     <details>
       <summary><b>Upload slideshows</b> <span class="hint">(open only when you have slideshow videos to add)</span></summary>
-      <p class="hint" style="margin:10px 0">Videos added here go straight into Slideshows, numbered <b>NBHS_slideshow_0001</b>, <b>0002</b>&hellip; and credited to <?= nb_h(NB_SLIDESHOW_CREDIT) ?>. Classmates' uploads on the normal page are not affected.</p>
+      <p class="hint" style="margin:10px 0">Videos added here go straight into Slideshows, keep their own file name, and are credited to <?= nb_h(NB_SLIDESHOW_CREDIT) ?>. Classmates' uploads on the normal page are not affected.</p>
       <div id="uppy-slideshow"></div>
       <div id="slideMsg" class="hint" role="status" style="margin-top:8px"></div>
     </details>

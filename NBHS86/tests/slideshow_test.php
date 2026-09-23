@@ -37,8 +37,8 @@ $s2 = nb_store_file(mp4('s2.mov', 3), 'Yearbook Slideshow.mov', $admin);
 $v2 = nb_store_file(mp4('v2.mp4', 4), 'v2.mp4', $user);
 $r = fn($x) => row($x['id']);
 check('classmate video keeps its own name (spaces as dashes)', nb_download_name($r($v1)), 'Class-Picnic-Video.mp4');
-check('slideshow 1', nb_download_name($r($s1)), 'NBHS_slideshow_0001.mp4');
-check('slideshow 2 keeps its own extension', nb_download_name($r($s2)), 'NBHS_slideshow_0002.mov');
+check('slideshow 1 keeps its own name (Bob names these)', nb_download_name($r($s1)), 'Reunion-Slideshow.mp4');
+check('slideshow 2 keeps its own name and extension', nb_download_name($r($s2)), 'Yearbook-Slideshow.mov');
 check('other classmate video is not affected by slideshows', nb_download_name($r($v2)), 'v2.mp4');
 check('slideshow lands in Slideshows', $r($s1)['album'], 'slideshows');
 check('slideshow takes no video number', $r($s1)['seq'], null);
@@ -84,7 +84,7 @@ check('backfill leaves slideshows alone', row($s2['id'])['seq'], null);
 $names = nb_zip_names([$r($v1), $r($s1), $r($s2), $r($v2)]);
 check('zip names unique', count(array_unique(array_map('strtolower', $names))), 4);
 check('backfilled classmate video got the next free number', row($v2['id'])['seq'], 3);
-check('zip names', array_values($names), ['Class-Picnic-Video.mp4', 'NBHS_slideshow_0001.mp4', 'NBHS_slideshow_0002.mov', 'v2.mp4']);
+check('zip names', array_values($names), ['Class-Picnic-Video.mp4', 'Reunion-Slideshow.mp4', 'Yearbook-Slideshow.mov', 'v2.mp4']);
 
 // a zip uploaded by the admin: videos inside become slideshows, everything else follows the normal rules
 $zip = new ZipArchive();

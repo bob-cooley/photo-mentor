@@ -28,8 +28,8 @@ check('HEIC photo downloads as jpg', nb_download_name(['kind' => 'image', 'ext' 
 $vid = ['kind' => 'video', 'ext' => 'mov', 'seq' => 5, 'slideshow_seq' => null, 'orig_name' => 'Class Trip 1986.MOV'];
 check('classmate video keeps its own name even though it has a video number', nb_download_name($vid), 'Class-Trip-1986.MOV');
 $slide = ['kind' => 'video', 'ext' => 'mp4', 'seq' => null, 'slideshow_seq' => 3, 'orig_name' => 'Homecoming Slideshow.mp4'];
-check('slideshow is numbered', nb_download_name($slide), 'NBHS_slideshow_0003.mp4');
-check('a slideshow that also has an old video number is still a slideshow', nb_download_name($slide + ['seq' => 9]), 'NBHS_slideshow_0003.mp4');
+check('slideshow keeps its own name even though it has a slideshow number', nb_download_name($slide), 'Homecoming-Slideshow.mp4');
+check('an old video number does not change that', nb_download_name($slide + ['seq' => 9]), 'Homecoming-Slideshow.mp4');
 check('pdf keeps its own name', nb_download_name(['kind' => 'pdf', 'ext' => 'pdf', 'seq' => null, 'orig_name' => 'Yearbook 1986 Full Scan.pdf']), 'Yearbook-1986-Full-Scan.pdf');
 check('unnumbered photo falls back to its own name', nb_download_name(['kind' => 'image', 'ext' => 'png', 'seq' => null, 'orig_name' => 'Old Scan 3.png']), 'Old-Scan-3.png');
 check('the stored original name is not modified', $vid['orig_name'], 'Class Trip 1986.MOV');
@@ -44,10 +44,9 @@ $custom = ['MTV First Four Hours Remastered-01-Original Broadcast-12am-Saturday-
 foreach ($phone as $n) { check("phone default recognised: $n", nb_is_phone_video_name($n), true); }
 foreach ($custom as $n) { check("custom name left alone: $n", nb_is_phone_video_name($n), false); }
 
-// naming of the three kinds of video
+// naming of the two kinds of video that get a number (slideshows no longer do; friends still does)
 $row = ['kind' => 'video', 'ext' => 'MOV', 'seq' => 5, 'slideshow_seq' => null, 'friends_seq' => 12, 'orig_name' => 'IMG_1234.MOV'];
 check('phone video is NBHS-friends, 4 digits, lowercase extension', nb_download_name($row), 'NBHS-friends_0012.mov');
-check('a slideshow wins over a friends number', nb_download_name(['slideshow_seq' => 2] + $row), 'NBHS_slideshow_0002.MOV');
 check('custom video with no friends number keeps its name', nb_download_name(['friends_seq' => null, 'orig_name' => 'MTV First Four Hours.mp4', 'ext' => 'mp4'] + $row), 'MTV-First-Four-Hours.mp4');
 
 echo $fail ? "$fail failure(s)\n" : "all naming tests passed\n";

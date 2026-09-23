@@ -212,9 +212,7 @@ function nb_is_phone_video_name(string $filename): bool
  */
 function nb_download_name(array $row, bool $converted = false): string
 {
-    if ($row['kind'] === 'video' && !empty($row['slideshow_seq'])) {
-        return sprintf('NBHS_slideshow_%04d.%s', (int) $row['slideshow_seq'], (string) $row['ext']);
-    }
+    // Slideshows keep their own file name (Bob names these himself); slideshow_seq is tracked but not used here.
     if ($row['kind'] === 'video' && !empty($row['friends_seq'])) {
         return sprintf(NB_FRIENDS_PREFIX . '%04d.%s', (int) $row['friends_seq'], strtolower((string) $row['ext']));
     }
