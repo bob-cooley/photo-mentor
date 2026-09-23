@@ -30,7 +30,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
 <meta name="referrer" content="no-referrer">
 <title><?= nb_h($title) ?></title>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/site.css?v=17">
-<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=12">
+<link rel="stylesheet" href="<?= NB_BASE ?>/assets/css/gallery.css?v=13">
 <?php if ($folder): ?>
 <link rel="stylesheet" href="<?= NB_BASE ?>/assets/vendor/photoswipe/photoswipe.css?v=5.4.4">
 <?php endif; ?>
@@ -111,7 +111,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
       <button type="button" class="secondary" id="selClear">Clear</button>
       <button type="button" id="selDownload" disabled title="Tick one or more files first, or use Select all"><?= nb_icon('download', 18) ?> Download <span class="hide-sm">selected</span></button>
     </span>
-    <?php if ($zipHint !== ''): ?><span class="selbar-hint"><?= nb_h($zipHint) ?></span><?php endif; ?>
+    <?php if ($zipHint !== ''): ?><span class="selbar-hint" id="selZipHint" hidden><?= nb_h($zipHint) ?></span><?php endif; ?>
     <span id="selmsg" class="selmsg" role="status"></span>
     <div class="selbar-contact"><?= nb_contact_line() ?></div>
   </div>
@@ -128,7 +128,7 @@ $title = $folder ? $folder['title'] . " - NBHS Class of '86" : "Gallery - NBHS C
     'icons' => ['check' => nb_icon('check', 18), 'play' => nb_icon('play', 22), 'download' => nb_icon('download', 22), 'pdf' => nb_icon('file-text', 22)],
     'maxFiles' => NB_ZIP_MAX_FILES,
 ]) ?>;</script>
-<script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=5"></script>
+<script type="module" src="<?= NB_BASE ?>/assets/js/gallery.js?v=6"></script>
 <?php endif; ?>
 <script src="<?= NB_BASE ?>/assets/js/contact.js?v=1"></script>
 <script src="<?= NB_BASE ?>/assets/js/page-fade.js?v=1"></script>

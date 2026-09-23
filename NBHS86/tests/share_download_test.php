@@ -15,5 +15,13 @@ check('list.php already sends size per item (no extra request needed for the che
 $css = file_get_contents(__DIR__ . '/../assets/css/gallery.css');
 check('a busy state exists so a slow fetch does not look broken', str_contains($css, 'pswp-dl-busy'), true);
 
+// "Download selected" also branches on count: one file shares/downloads directly, 2+ still zips.
+check('selDownload branches on exactly one file selected', str_contains($js, 'if (ids.length === 1) {'), true);
+check('the single-file branch reuses the same share-then-fallback helper', (bool) preg_match('/ids\.length === 1.*?tryShareFile\(it\.dl, it\.name\)/s', $js), true);
+check('the single-file branch falls back to a plain download too', (bool) preg_match('/ids\.length === 1.*?if \(!shared\) window\.location\.href = it\.dl/s', $js), true);
+check('the single-file branch never touches prepare.php/zip.php', (bool) preg_match('/ids\.length === 1.*?return;\s*\}\s*let r;/s', $js), true);
+check('the unzip hint is hidden by default (JS decides when a zip is actually happening)', str_contains(file_get_contents(__DIR__ . '/../gallery/index.php'), 'id="selZipHint" hidden'), true);
+check('the hint only shows for 2+ selected (a real zip)', str_contains($js, 'zipHint.hidden = n < 2'), true);
+
 echo $fail ? "$fail failure(s)\n" : "all share/download tests passed\n";
 exit($fail ? 1 : 0);

@@ -20,6 +20,29 @@ $('sort').value = state.sort;
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtBytes = (b) => (b >= 1073741824 ? (b / 1073741824).toFixed(1) + ' GB' : b >= 1048576 ? Math.round(b / 1048576) + ' MB' : Math.max(1, Math.round(b / 1024)) + ' KB');
 
+// A single photo or video (from the lightbox's own download button, or "Download selected" with exactly one file
+// ticked): try the OS share sheet ("Save to Photos"/"Save Video") instead of a plain download, so one tap lands it
+// in the phone's own Photos app instead of the Files/Downloads app. Only attempted when the browser supports
+// sharing files at all, and only under SHARE_MAX_BYTES: fetching a large video into memory first is slow and risks
+// Safari deciding the tap's "user activation" expired before navigator.share() runs. Any failure (unsupported,
+// cancelled, fetch error, oversized) falls back to the plain download link, exactly as before this feature existed.
+const SHARE_MAX_BYTES = 25 * 1024 * 1024;
+
+async function tryShareFile(url, name) {
+  if (!navigator.canShare || !navigator.share) return false;
+  try {
+    const res = await fetch(url, { credentials: 'same-origin' });
+    if (!res.ok) return false;
+    const blob = await res.blob();
+    const file = new File([blob], name, { type: blob.type || 'application/octet-stream' });
+    if (!navigator.canShare({ files: [file] })) return false;
+    await navigator.share({ files: [file] });
+    return true;
+  } catch (e) {
+    return false; // unsupported, the user cancelled, or the share failed for any reason: caller falls back
+  }
+}
+
 // ---------- listing ----------
 
 function renderChips() {
@@ -98,6 +121,9 @@ function updateBar() {
   $('selClear').disabled = n === 0;
   $('selAll').disabled = !!state.counts && state.counts.all === 0;
   if (n > maxFiles) { setMsg(`A zip can hold up to ${maxFiles} files. Deselect some, or download in groups.`, true); }
+  // The unzip instructions only apply once a zip is actually going to happen (2+ files); one file shares/downloads directly.
+  const zipHint = $('selZipHint');
+  if (zipHint) zipHint.hidden = n < 2;
 }
 function clearSelection() {
   state.selected.clear();
@@ -142,7 +168,7 @@ $('selAll').addEventListener('click', async () => {
   } catch (e) { setMsg('Could not select everything. Try again.', true); }
 });
 
-// ---------- zip download: prepare in batches, then a plain form POST streams the zip ----------
+// ---------- download: one file shares/downloads directly, 2+ prepare in batches then stream as a zip ----------
 
 $('selDownload').addEventListener('click', async () => {
   if (downloading) return;
@@ -152,6 +178,16 @@ $('selDownload').addEventListener('click', async () => {
   downloading = true;
   updateBar();
   try {
+    if (ids.length === 1) {
+      const it = state.byId.get(ids[0]);
+      setMsg('');
+      const canTry = !!(navigator.canShare && navigator.share) && (!it.size || it.size <= SHARE_MAX_BYTES);
+      const shared = canTry && await tryShareFile(it.dl, it.name);
+      if (!shared) window.location.href = it.dl;
+      clearSelection();
+      if (!shared) setMsg(`${it.name} is downloading.`);
+      return;
+    }
     let r;
     for (;;) {
       r = await fetch(`${base}/api/prepare.php`, { method: 'POST', credentials: 'same-origin', body: new URLSearchParams({ ids: ids.join(',') }) }).then((x) => x.json());
@@ -214,29 +250,6 @@ lightbox.on('contentDestroy', ({ content }) => {
   const v = content.element && content.element.querySelector && content.element.querySelector('video');
   if (v) { v.pause(); v.removeAttribute('src'); v.load(); }
 });
-
-// A single photo or video: try the OS share sheet ("Save to Photos"/"Save Video") instead of a plain download,
-// so one tap lands it in the phone's own Photos app instead of the Files/Downloads app. Only attempted when the
-// browser supports sharing files at all, and only under SHARE_MAX_BYTES: fetching a large video into memory first
-// is slow and risks Safari deciding the tap's "user activation" expired before navigator.share() runs. Any
-// failure (unsupported, cancelled, fetch error, oversized) falls back to the plain download link, unchanged from
-// before this feature existed.
-const SHARE_MAX_BYTES = 25 * 1024 * 1024;
-
-async function tryShareFile(url, name) {
-  if (!navigator.canShare || !navigator.share) return false;
-  try {
-    const res = await fetch(url, { credentials: 'same-origin' });
-    if (!res.ok) return false;
-    const blob = await res.blob();
-    const file = new File([blob], name, { type: blob.type || 'application/octet-stream' });
-    if (!navigator.canShare({ files: [file] })) return false;
-    await navigator.share({ files: [file] });
-    return true;
-  } catch (e) {
-    return false; // unsupported, the user cancelled, or the share failed for any reason: caller falls back
-  }
-}
 
 lightbox.on('uiRegister', () => {
   lightbox.pswp.ui.registerElement({
