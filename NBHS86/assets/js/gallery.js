@@ -215,6 +215,29 @@ lightbox.on('contentDestroy', ({ content }) => {
   if (v) { v.pause(); v.removeAttribute('src'); v.load(); }
 });
 
+// A single photo or video: try the OS share sheet ("Save to Photos"/"Save Video") instead of a plain download,
+// so one tap lands it in the phone's own Photos app instead of the Files/Downloads app. Only attempted when the
+// browser supports sharing files at all, and only under SHARE_MAX_BYTES: fetching a large video into memory first
+// is slow and risks Safari deciding the tap's "user activation" expired before navigator.share() runs. Any
+// failure (unsupported, cancelled, fetch error, oversized) falls back to the plain download link, unchanged from
+// before this feature existed.
+const SHARE_MAX_BYTES = 25 * 1024 * 1024;
+
+async function tryShareFile(url, name) {
+  if (!navigator.canShare || !navigator.share) return false;
+  try {
+    const res = await fetch(url, { credentials: 'same-origin' });
+    if (!res.ok) return false;
+    const blob = await res.blob();
+    const file = new File([blob], name, { type: blob.type || 'application/octet-stream' });
+    if (!navigator.canShare({ files: [file] })) return false;
+    await navigator.share({ files: [file] });
+    return true;
+  } catch (e) {
+    return false; // unsupported, the user cancelled, or the share failed for any reason: caller falls back
+  }
+}
+
 lightbox.on('uiRegister', () => {
   lightbox.pswp.ui.registerElement({
     name: 'download-button', order: 8, isButton: true, tagName: 'a', html: icons.download,
@@ -222,6 +245,16 @@ lightbox.on('uiRegister', () => {
       el.setAttribute('title', 'Download');
       el.setAttribute('aria-label', 'Download');
       pswp.on('change', () => { el.href = pswp.currSlide.data.dl; });
+      el.addEventListener('click', (e) => {
+        const d = pswp.currSlide.data;
+        const canTry = !!(navigator.canShare && navigator.share) && (!d.size || d.size <= SHARE_MAX_BYTES);
+        if (!canTry) return; // plain <a href> download, exactly as before
+        e.preventDefault();
+        el.classList.add('pswp-dl-busy');
+        tryShareFile(d.dl, d.name)
+          .then((shared) => { if (!shared) window.location.href = d.dl; })
+          .finally(() => el.classList.remove('pswp-dl-busy'));
+      });
     },
   });
   lightbox.pswp.ui.registerElement({
@@ -240,7 +273,7 @@ function openLightbox(id) {
   const media = state.items.filter((i) => i.kind !== 'pdf');
   lightbox.options.dataSource = media.map((i) => ({
     type: i.kind === 'video' ? 'video' : 'image',
-    src: i.src, dl: i.dl, name: i.name, credit: i.credit, msrc: i.thumb,
+    src: i.src, dl: i.dl, name: i.name, credit: i.credit, msrc: i.thumb, size: i.size,
     width: i.w || (i.kind === 'video' ? 1280 : 1600),
     height: i.h || (i.kind === 'video' ? 720 : 1200),
     alt: i.name,
