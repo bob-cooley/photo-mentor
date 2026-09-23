@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-23T17:40:59.604706+00:00",
-  "text": "ConocoPhillips rose 2.66% today as oil prices bounced back after a five-day losing streak, with crude climbing on tentative hopes for diplomatic resolution in the Middle East. Iran signaled willingness to negotiate over the Strait of Hormuz, and Ukraine floated an \"energy ceasefire\" proposal \u2014 both developments that could ease geopolitical supply concerns that had weighed on energy stocks over the past week. The stock had fallen 5.8% over the prior two weeks as those tensions mounted.\n\nThe recovery today is modest and partly reflects oil's own rebound rather than company-specific strength. The 18-cent gap between U.S. crude ($96.41) and global prices ($114.89) also hints at tightness in domestic supply \u2014 a situation that could support refiner margins if the diesel export ban proposal gains traction, though that remains uncertain.",
+  "fetchedAt": "2026-09-23T18:13:40.905360+00:00",
+  "text": "ConocoPhillips rose 2.6% today as oil prices bounced back after a five-day losing streak, with crude jumping on tentative signs of diplomatic progress in the Middle East. Iran's recent signals about potential talks and conditions for reopening the Strait of Hormuz\u2014a critical chokepoint for global oil shipments\u2014eased concerns that regional tensions would keep prices elevated and supply disrupted. For an oil producer like ConocoPhillips, higher oil prices directly improve profitability, so the modest rebound in crude helped lift the stock back above $128 after a rough week that saw it fall nearly 6%.\n\nThe timing matters: over the past few days the stock had fallen sharply as oil slid, but today's diplomatic signals and the oil market's response suggest traders see less downside risk from geopolitical conflict. That said, the company remains down from last week's highs, and the gap between U.S. crude ($96) and global crude ($115) reflects tightness in the market that could reverse quickly if talks stall.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 187,
-    "inputTokens": 161963,
-    "outputTokens": 39742,
-    "estimatedCostUsd": 0.360673,
-    "lastCallHour": "2026-09-23T17"
+    "callsThisMonth": 188,
+    "inputTokens": 162823,
+    "outputTokens": 39975,
+    "estimatedCostUsd": 0.362698,
+    "lastCallHour": "2026-09-23T18"
   }
 }
