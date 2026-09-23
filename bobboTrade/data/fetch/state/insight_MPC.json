@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T20:41:46.380188+00:00",
-  "text": "Marathon Petroleum stock fell 0.4% today to $388.14, continuing a sharp two-week decline of 2.8% after hitting $424.89 just five trading days earlier. The timing aligns with news on September 23rd that a potential diesel export ban\u2014being weighed by the Trump administration\u2014would actually lead refiners to *cut* production once any initial relief wore off, which directly threatens refinery margins and throughput for a company like this one that makes money by processing crude into fuel.\n\nThe broader backdrop adds uncertainty: oil prices themselves are volatile and hard to predict right now given the Iran situation and Middle East tensions, refineries are running at 94% capacity (fairly high but not maxed out), and diesel storage levels remain elevated at 107 million barrels. That combination of policy risk hitting refining economics, geopolitical fog, and already-soft fuel demand appears to have spooked investors over the past week.",
+  "fetchedAt": "2026-09-23T22:01:39.362467+00:00",
+  "text": "Marathon Petroleum's stock fell slightly today, continuing a sharp decline from last week's peaks. The broader catalyst appears to be uncertainty about oil prices and refining margins\u2014crude remains volatile amid Middle East tensions and geopolitical talk, while a potential diesel export ban could squeeze refiner profits by forcing production cuts without providing sustained pricing power. Refineries are running at 94% capacity with adequate inventory levels, so the weakness isn't driven by operational stress, but rather by policy risk and market confusion about where oil heads next.\n\nThe stock's 2.77% drop over two weeks coincides with oil's own wobbles and growing concern among energy investors about what policymakers will do. When political intervention in energy markets becomes a live question\u2014whether export restrictions or responses to Middle East tensions\u2014refiners often trade sideways or down until clarity emerges, regardless of their own operational strength.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 189,
-    "inputTokens": 174451,
-    "outputTokens": 41011,
-    "estimatedCostUsd": 0.379506,
-    "lastCallHour": "2026-09-23T20"
+    "callsThisMonth": 190,
+    "inputTokens": 175376,
+    "outputTokens": 41197,
+    "estimatedCostUsd": 0.381361,
+    "lastCallHour": "2026-09-23T22"
   }
 }
