@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T13:19:24.419139+00:00",
-  "text": "Marathon Petroleum fell 3.2% today, closing at $389.68, after climbing sharply through mid-September. The immediate trigger appears to be geopolitical uncertainty around Iran: while diplomatic talks at the UN offered hope for de-escalation and potential reopening of the Strait of Hormuz, Wall Street analysts openly admitted they don't know how the situation will resolve or what oil prices will do next. That uncertainty spooked investors in a refiner that profits from the spread between crude costs and refined product prices.\n\nAdding to the pressure is a potential policy headwind\u2014the Trump administration is examining a diesel export ban to address high fuel costs for farmers and truckers. A ban would restrict Marathon's ability to sell diesel overseas at premium prices, directly hitting refinery margins. With refineries already running at high capacity (96.8%) and storage levels elevated, the company faces both geopolitical fog and the risk of tighter domestic fuel policy.",
+  "fetchedAt": "2026-09-23T14:34:41.906591+00:00",
+  "text": "Stock was flat today, up just 0.7%, after a sharp two-week decline that saw it drop from $424 to $392. The modest bounce comes as refining margins remain supported by tight crude supply \u2014 US crude at $107 per barrel \u2014 but uncertainty about oil direction is weighing heavily on the sector. Wall Street openly admitted on September 22 it doesn't know where oil prices are headed, particularly given tensions around Iran and the Strait of Hormuz, which keeps traders cautious about refiners' near-term outlook.\n\nThe stock's weakness over the past few days reflects confusion in the broader energy market rather than company-specific problems. Diesel storage remains tight at 107.9 million barrels, and refineries are running hot at 96.8% capacity, which normally supports refiner profits \u2014 but talk of a potential US diesel export ban, plus conflicting signals on Iran negotiations and the Ukraine situation, has left investors unsure whether oil prices will trend higher or settle down. Without clarity on geopolitics or policy, refiners face difficult betting conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 184,
-    "inputTokens": 169804,
-    "outputTokens": 39867,
-    "estimatedCostUsd": 0.369139,
-    "lastCallHour": "2026-09-23T13"
+    "callsThisMonth": 185,
+    "inputTokens": 170736,
+    "outputTokens": 40098,
+    "estimatedCostUsd": 0.371226,
+    "lastCallHour": "2026-09-23T14"
   }
 }
