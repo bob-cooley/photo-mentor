@@ -100,7 +100,7 @@ $intakeClosed = $member && !nb_intake_open() && !nb_is_admin();
     <p id="thanksBody"></p>
     <div class="thanks-actions">
       <button type="button" id="moreBtn">Add more files</button>
-      <a class="btn secondary" href="<?= NB_BASE ?>/gallery/">Visit Galleries</a>
+      <a class="btn" href="<?= NB_BASE ?>/gallery/">Visit Galleries</a>
     </div>
   </section>
 
