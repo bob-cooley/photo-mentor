@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-24T20:48:14.588341+00:00",
-  "text": "ConocoPhillips rose nearly 1% today, recovering modestly after a sharp five-day selloff that wiped out 5.6% of its value. The uptick comes as oil markets stabilized following reports of potential negotiations to reopen the Strait of Hormuz\u2014a critical shipping chokepoint that has been disrupted by the U.S.-Iran conflict. Oil prices pulled back from session highs after the report, but the broader geopolitical situation remains in flux, with the Senate voting down a resolution to end the Iran war just hours before today's close, leaving the conflict's duration and impact on global oil supplies uncertain.\n\nThe stock's recovery reflects the inherent tension facing oil producers right now: crude prices are volatile and supply concerns are real, but refining margins are under pressure from soaring diesel costs ($6.51 nationally) that are prompting business groups to push back against potential export restrictions. For a major producer and refiner like ConocoPhillips, higher crude prices help production revenue, but government restrictions on fuel exports or refining decisions could cap downstream profits.",
+  "fetchedAt": "2026-09-24T21:56:16.283806+00:00",
+  "text": "ConocoPhillips rose 0.98% today, extending a partial recovery from a steeper five-day slide. The stock bounced back slightly after hitting lows of $125.27 earlier this week, with oil prices stabilizing around $96.41 per barrel domestically\u2014up from the depths of last week's selloff but still down sharply from two weeks ago. The recovery today aligns with reports of potential talks to reopen the Strait of Hormuz for phased crude imports, which eased some of the supply-constraint fears that had driven prices down, though geopolitical tensions remain high with the ongoing U.S.-Iran conflict and Senate votes on war policy.\n\nThe two-week decline still reflects deep uncertainty around the refining margin impact of a potential diesel export ban being weighed by the Trump administration. Diesel prices have spiked to $6.51 nationally, triggering warnings from big business, but if exports are restricted, refiners would likely cut production rather than sustain high margins\u2014ultimately offering only temporary relief at the pump. For an integrated oil and gas company like this one, the competing pressures of elevated fuel demand pushing crude prices higher against the threat of production cuts on the refining side are keeping the stock volatile.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 197,
-    "inputTokens": 170595,
-    "outputTokens": 41868,
-    "estimatedCostUsd": 0.379935,
-    "lastCallHour": "2026-09-24T20"
+    "callsThisMonth": 198,
+    "inputTokens": 171454,
+    "outputTokens": 42139,
+    "estimatedCostUsd": 0.382149,
+    "lastCallHour": "2026-09-24T21"
   }
 }
