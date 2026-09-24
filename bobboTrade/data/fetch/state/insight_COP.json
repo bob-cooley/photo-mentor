@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-24T18:08:14.088571+00:00",
-  "text": "ConocoPhillips rose 1.3% today, bouncing back after a sharp four-day decline that wiped out 5.3% of its value. The recovery came as oil markets stabilized on news of potential talks to reopen the Strait of Hormuz\u2014a critical chokepoint for global crude shipments\u2014which eased some of the geopolitical tension that had been driving prices down earlier in the week. Crude prices also gained ground as traders assessed reports that Asian imports are climbing to their highest levels since the Iran conflict began, signaling ongoing demand.\n\nThe broader backdrop remains volatile: US oil is trading at $96.41 per barrel while global crude sits much higher at $114.89, reflecting tight supply from the conflict zone. Simultaneously, diesel prices have spiked to $6.51 per gallon nationally, prompting industry warnings against Trump's proposed diesel export ban\u2014a political debate that adds uncertainty for refiners like ConocoPhillips, though higher energy costs can support their margins in the near term.",
+  "fetchedAt": "2026-09-24T20:48:14.588341+00:00",
+  "text": "ConocoPhillips rose nearly 1% today, recovering modestly after a sharp five-day selloff that wiped out 5.6% of its value. The uptick comes as oil markets stabilized following reports of potential negotiations to reopen the Strait of Hormuz\u2014a critical shipping chokepoint that has been disrupted by the U.S.-Iran conflict. Oil prices pulled back from session highs after the report, but the broader geopolitical situation remains in flux, with the Senate voting down a resolution to end the Iran war just hours before today's close, leaving the conflict's duration and impact on global oil supplies uncertain.\n\nThe stock's recovery reflects the inherent tension facing oil producers right now: crude prices are volatile and supply concerns are real, but refining margins are under pressure from soaring diesel costs ($6.51 nationally) that are prompting business groups to push back against potential export restrictions. For a major producer and refiner like ConocoPhillips, higher crude prices help production revenue, but government restrictions on fuel exports or refining decisions could cap downstream profits.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 196,
-    "inputTokens": 169736,
-    "outputTokens": 41632,
-    "estimatedCostUsd": 0.377896,
-    "lastCallHour": "2026-09-24T18"
+    "callsThisMonth": 197,
+    "inputTokens": 170595,
+    "outputTokens": 41868,
+    "estimatedCostUsd": 0.379935,
+    "lastCallHour": "2026-09-24T20"
   }
 }

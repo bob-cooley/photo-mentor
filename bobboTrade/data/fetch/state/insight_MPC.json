@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-24T18:08:29.232156+00:00",
-  "text": "Marathon Petroleum climbed 2.2% today, rebounding after a sharp three-day selloff that had knocked the stock down nearly 8% from mid-September highs. The bounce appears tied to oil price stabilization and tentative signs of geopolitical de-escalation: reports emerged Thursday of potential talks for a phased reopening of the Strait of Hormuz (a critical oil shipping chokepoint) and a Senate vote on ending the Iran conflict, which had sent crude prices higher earlier in the week. US crude sits at $96.41/barrel, down from the spike that preceded these negotiations.\n\nRefineries remain busy at 94% utilization, but the company faces genuine near-term headwinds. Diesel prices have jumped sharply (national average near $6.51/gallon), and the threat of a diesel export ban\u2014which would restrict refiner sales and potentially force production cuts\u2014looms large as a policy risk. For now, the prospect of reduced geopolitical tension and stable refining margins appear to have arrested the recent decline, though the fundamental uncertainty around trade policy and fuel exports persists.",
+  "fetchedAt": "2026-09-24T20:48:28.810711+00:00",
+  "text": "Marathon Petroleum rose modestly today after falling sharply over the prior two trading days, as oil markets stabilized on news of potential talks to reopen the Strait of Hormuz\u2014a critical chokepoint for global crude shipments. US oil prices held steady around $96 per barrel, and refineries continued running at 94% capacity, which supports stable margins for refiners like Marathon even as crude prices remain elevated by historical standards.\n\nThe broader picture remains turbulent: diesel prices have spiked to $6.51 per gallon nationally, and there's active political debate over a potential export ban that could disrupt refinery economics. While the geopolitical uncertainty around Iran and the Middle East has been weighing on the stock (down 0.56% over two weeks despite today's bounce), any concrete shift toward reopening shipping lanes could ease supply concerns and support refiner profitability going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 196,
-    "inputTokens": 180912,
-    "outputTokens": 42543,
-    "estimatedCostUsd": 0.393627,
-    "lastCallHour": "2026-09-24T18"
+    "callsThisMonth": 197,
+    "inputTokens": 181835,
+    "outputTokens": 42738,
+    "estimatedCostUsd": 0.395525,
+    "lastCallHour": "2026-09-24T20"
   }
 }
