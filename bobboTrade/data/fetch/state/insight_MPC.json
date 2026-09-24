@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-24T07:07:23.083450+00:00",
-  "text": "Marathon Petroleum's stock fell slightly today, continuing a sharp decline from its peak two weeks ago. The stock has dropped about 2.8% over the past six trading days, driven primarily by oil price weakness\u2014crude fell Thursday as Asia reported importing record volumes of oil since the Iran conflict began, suggesting oversupply concerns are outweighing geopolitical risk. For a refiner like Marathon, lower oil prices reduce the spread between their input costs and output value, which pressures profitability.\n\nThe broader backdrop has shifted from geopolitical anxiety to supply realities. While Iran tensions had briefly lifted oil prices earlier in the week, the actual trade data showing robust Asian crude imports signaled that markets are moving past conflict fears and pricing in adequate global supply. Additionally, refineries are running at 94% capacity\u2014still healthy but not stretched tight\u2014which means refiners have less pricing power to pass along any margin improvements, especially as potential policy changes like a diesel export ban loom and threaten to disrupt their traditional market outlets.",
+  "fetchedAt": "2026-09-24T13:08:54.774633+00:00",
+  "text": "Marathon Petroleum dropped 0.33% today to $388.38, extending a decline that's seen the stock fall 2.77% over two weeks. The broader pressure comes from conflicting signals in the oil market: while crude prices rose modestly on Thursday as traders assessed potential U.S.-Iran diplomatic progress, refinery margins have compressed over the past week as U.S. oil prices ($96.41/barrel) have lagged sharply behind global oil prices ($114.89/barrel). Refiners like Marathon profit on the difference between what they pay for crude and what they sell refined products for\u2014that gap has narrowed, which directly pressures their earnings outlook.\n\nThe two-week slide also reflects industry headwinds beyond day-to-day oil price swings. Talk of a potential diesel export ban and ongoing Middle East tensions have created uncertainty around refining demand and margins, while refineries are already running at 94% capacity with substantial crude and product inventories on hand\u2014signs that demand may not be growing as fast as supply availability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 193,
-    "inputTokens": 178147,
-    "outputTokens": 41849,
-    "estimatedCostUsd": 0.387392,
-    "lastCallHour": "2026-09-24T07"
+    "callsThisMonth": 194,
+    "inputTokens": 179066,
+    "outputTokens": 42074,
+    "estimatedCostUsd": 0.389436,
+    "lastCallHour": "2026-09-24T13"
   }
 }
