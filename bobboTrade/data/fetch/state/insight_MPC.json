@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-24T17:43:57.001513+00:00",
-  "text": "Marathon Petroleum rose 2.6% today, recovering some ground after a sharp 4-day sell-off that had knocked the stock down nearly 8% from its mid-September peak. The bounce came as oil prices ticked up on September 24th amid reports of potential negotiations around the Hormuz Strait \u2014 a critical chokepoint for global crude supplies \u2014 and as the refining sector digested mixed signals on diesel policy. US crude sitting at $96.41 per barrel and refineries running at 94% capacity suggest the company still has decent operational economics, even if recent volatility has been pronounced.\n\nThe stock's recovery also reflects some relief from the diesel export ban threat that had weighed heavily over the prior days. While a ban would initially support refinery margins by keeping more fuel domestic, industry warnings about long-term price spikes and production cuts appear to have sparked a reassessment \u2014 the move higher today suggests traders are pricing in either a softer policy outcome or simply a reversal of overdone pessimism from the previous session.",
+  "fetchedAt": "2026-09-24T18:08:29.232156+00:00",
+  "text": "Marathon Petroleum climbed 2.2% today, rebounding after a sharp three-day selloff that had knocked the stock down nearly 8% from mid-September highs. The bounce appears tied to oil price stabilization and tentative signs of geopolitical de-escalation: reports emerged Thursday of potential talks for a phased reopening of the Strait of Hormuz (a critical oil shipping chokepoint) and a Senate vote on ending the Iran conflict, which had sent crude prices higher earlier in the week. US crude sits at $96.41/barrel, down from the spike that preceded these negotiations.\n\nRefineries remain busy at 94% utilization, but the company faces genuine near-term headwinds. Diesel prices have jumped sharply (national average near $6.51/gallon), and the threat of a diesel export ban\u2014which would restrict refiner sales and potentially force production cuts\u2014looms large as a policy risk. For now, the prospect of reduced geopolitical tension and stable refining margins appear to have arrested the recent decline, though the fundamental uncertainty around trade policy and fuel exports persists.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 195,
-    "inputTokens": 179989,
-    "outputTokens": 42299,
-    "estimatedCostUsd": 0.391484,
-    "lastCallHour": "2026-09-24T17"
+    "callsThisMonth": 196,
+    "inputTokens": 180912,
+    "outputTokens": 42543,
+    "estimatedCostUsd": 0.393627,
+    "lastCallHour": "2026-09-24T18"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-24T17:43:42.349128+00:00",
-  "text": "ConocoPhillips rose 1.4% today, continuing a recovery from a steep four-day sell-off that had knocked the stock down 5.2% since mid-September. The bounce reflects cautious optimism in oil markets\u2014crude rose Thursday as traders weighed reports that Asia may be importing record volumes of oil and that a phased reopening of the Hormuz Strait (a critical shipping chokepoint) is under discussion, suggesting potential de-escalation in Middle East tensions. However, oil's gains remain capped; the wider geopolitical risk and uncertainty over U.S. policy on diesel exports (which could constrain refiner margins and fuel supply) are keeping investors from betting too heavily on energy stocks right now.\n\nThe stock's recovery is tentative against a backdrop of conflicting pressures. High diesel prices ($6.51 per gallon nationally, nearly triple last year's levels) are drawing warnings from industry and political figures about export restrictions, but any near-term policy clarity remains absent\u2014leaving refiners and oil producers in a holding pattern.",
+  "fetchedAt": "2026-09-24T18:08:14.088571+00:00",
+  "text": "ConocoPhillips rose 1.3% today, bouncing back after a sharp four-day decline that wiped out 5.3% of its value. The recovery came as oil markets stabilized on news of potential talks to reopen the Strait of Hormuz\u2014a critical chokepoint for global crude shipments\u2014which eased some of the geopolitical tension that had been driving prices down earlier in the week. Crude prices also gained ground as traders assessed reports that Asian imports are climbing to their highest levels since the Iran conflict began, signaling ongoing demand.\n\nThe broader backdrop remains volatile: US oil is trading at $96.41 per barrel while global crude sits much higher at $114.89, reflecting tight supply from the conflict zone. Simultaneously, diesel prices have spiked to $6.51 per gallon nationally, prompting industry warnings against Trump's proposed diesel export ban\u2014a political debate that adds uncertainty for refiners like ConocoPhillips, though higher energy costs can support their margins in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 195,
-    "inputTokens": 168876,
-    "outputTokens": 41405,
-    "estimatedCostUsd": 0.375901,
-    "lastCallHour": "2026-09-24T17"
+    "callsThisMonth": 196,
+    "inputTokens": 169736,
+    "outputTokens": 41632,
+    "estimatedCostUsd": 0.377896,
+    "lastCallHour": "2026-09-24T18"
   }
 }
