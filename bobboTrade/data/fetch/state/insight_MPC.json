@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-24T01:01:54.615337+00:00",
-  "text": "Marathon Petroleum fell 0.33% today to $388.38, extending a sharp 2-week decline of 2.77% from highs near $425. The stock has been under pressure as crude oil prices whipsawed\u2014US oil closed today at $96.41 a barrel, down significantly from levels above $100 just days ago\u2014and market uncertainty around Iran's regional conflict and potential US policy responses (including a proposed diesel export ban) has kept energy investors on edge. Refineries are running at 94% capacity with healthy product inventories, so the weakness appears driven by crude price volatility rather than operational stress.\n\nThe broader headwind is simple: refiners like Marathon make money by processing cheap crude into fuel products, so falling oil prices compress those margins. Geopolitical risk remains elevated\u2014Iran talks offer diplomatic hope but also create uncertainty about whether tensions will truly ease or escalate, making it hard for the market to price in a durable direction for crude. This ambiguity has knocked the stock lower over the past week.",
+  "fetchedAt": "2026-09-24T07:07:23.083450+00:00",
+  "text": "Marathon Petroleum's stock fell slightly today, continuing a sharp decline from its peak two weeks ago. The stock has dropped about 2.8% over the past six trading days, driven primarily by oil price weakness\u2014crude fell Thursday as Asia reported importing record volumes of oil since the Iran conflict began, suggesting oversupply concerns are outweighing geopolitical risk. For a refiner like Marathon, lower oil prices reduce the spread between their input costs and output value, which pressures profitability.\n\nThe broader backdrop has shifted from geopolitical anxiety to supply realities. While Iran tensions had briefly lifted oil prices earlier in the week, the actual trade data showing robust Asian crude imports signaled that markets are moving past conflict fears and pricing in adequate global supply. Additionally, refineries are running at 94% capacity\u2014still healthy but not stretched tight\u2014which means refiners have less pricing power to pass along any margin improvements, especially as potential policy changes like a diesel export ban loom and threaten to disrupt their traditional market outlets.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 192,
-    "inputTokens": 177226,
-    "outputTokens": 41631,
-    "estimatedCostUsd": 0.385381,
-    "lastCallHour": "2026-09-24T01"
+    "callsThisMonth": 193,
+    "inputTokens": 178147,
+    "outputTokens": 41849,
+    "estimatedCostUsd": 0.387392,
+    "lastCallHour": "2026-09-24T07"
   }
 }
