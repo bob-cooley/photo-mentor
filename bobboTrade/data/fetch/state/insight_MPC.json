@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-23T23:10:35.927356+00:00",
-  "text": "Marathon Petroleum shares fell 0.33% today to $388.38, continuing a sharp two-week decline of 2.77% from their mid-September peak. The broader sell-off appears tied to uncertainty over potential diesel export restrictions \u2014 reported today \u2014 which refiners warn would ultimately raise fuel prices as they cut production, dampening near-term refining margins. That regulatory concern arrives alongside mixed signals on geopolitical risk: while oil prices rose today on hopes for Iran-U.S. diplomatic talks, the uncertainty itself has kept investors cautious about refiner stocks that thrive on stable, predictable fuel spreads.\n\nRefinery utilization remains solid at 94%, and the wide gap between US crude ($96.41) and global crude ($114.89) typically favors American refiners by letting them buy cheaper domestic oil. However, the policy risk \u2014 a diesel export ban would restrict their ability to ship profitable products \u2014 has overshadowed that advantage this week.",
+  "fetchedAt": "2026-09-24T01:01:54.615337+00:00",
+  "text": "Marathon Petroleum fell 0.33% today to $388.38, extending a sharp 2-week decline of 2.77% from highs near $425. The stock has been under pressure as crude oil prices whipsawed\u2014US oil closed today at $96.41 a barrel, down significantly from levels above $100 just days ago\u2014and market uncertainty around Iran's regional conflict and potential US policy responses (including a proposed diesel export ban) has kept energy investors on edge. Refineries are running at 94% capacity with healthy product inventories, so the weakness appears driven by crude price volatility rather than operational stress.\n\nThe broader headwind is simple: refiners like Marathon make money by processing cheap crude into fuel products, so falling oil prices compress those margins. Geopolitical risk remains elevated\u2014Iran talks offer diplomatic hope but also create uncertainty about whether tensions will truly ease or escalate, making it hard for the market to price in a durable direction for crude. This ambiguity has knocked the stock lower over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 191,
-    "inputTokens": 176301,
-    "outputTokens": 41406,
-    "estimatedCostUsd": 0.383331,
-    "lastCallHour": "2026-09-23T23"
+    "callsThisMonth": 192,
+    "inputTokens": 177226,
+    "outputTokens": 41631,
+    "estimatedCostUsd": 0.385381,
+    "lastCallHour": "2026-09-24T01"
   }
 }

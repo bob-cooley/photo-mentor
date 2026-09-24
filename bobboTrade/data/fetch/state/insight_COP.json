@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-23T23:10:11.276876+00:00",
-  "text": "ConocoPhillips bounced back 2.25% today after a rough five-day slide, partly recovering as oil prices snapped a five-day losing streak on hopes for Middle East diplomacy\u2014Iran signaled willingness to negotiate with the U.S., which eased some of the geopolitical tension that had been weighing on energy stocks. The stock had fallen 6.18% over two weeks amid broader oil weakness, so today's uptick reflects renewed optimism in the sector rather than company-specific news.\n\nThe recovery sits within a fraught backdrop: crude is still down sharply from earlier levels, and potential policy headwinds loom, including talk of diesel export restrictions that industry experts warn could ultimately raise fuel prices and squeeze refiner margins. With the U.S. oil price at $96.41 per barrel versus the world price at $114.89\u2014a significant spread\u2014any policy disruption to exports could complicate near-term margins for a major refiner like ConocoPhillips.",
+  "fetchedAt": "2026-09-24T01:01:35.610147+00:00",
+  "text": "COP jumped 2.25% today as oil prices rebounded\u2014US crude rose to $96.41 a barrel, snapping a five-day losing streak after Iran signaled openness to diplomatic talks with the U.S. over Middle East tensions. The recovery came amid cautious optimism that a deal could ease geopolitical risk and stabilize energy markets, which had been under pressure from escalating conflict concerns.\n\nThe stock's broader two-week decline of 6.18% reflects the volatility around these geopolitical risks and policy uncertainty. Talk of potential diesel export restrictions and broader energy policy shifts under consideration add another layer of unpredictability for refiners and producers like ConocoPhillips, keeping the sector volatile even as today's diplomatic signals provided temporary relief.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 191,
-    "inputTokens": 165430,
-    "outputTokens": 40598,
-    "estimatedCostUsd": 0.36842,
-    "lastCallHour": "2026-09-23T23"
+    "callsThisMonth": 192,
+    "inputTokens": 166299,
+    "outputTokens": 40767,
+    "estimatedCostUsd": 0.370134,
+    "lastCallHour": "2026-09-24T01"
   }
 }
