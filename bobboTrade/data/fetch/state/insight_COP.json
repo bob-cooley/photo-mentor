@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-24T21:56:16.283806+00:00",
-  "text": "ConocoPhillips rose 0.98% today, extending a partial recovery from a steeper five-day slide. The stock bounced back slightly after hitting lows of $125.27 earlier this week, with oil prices stabilizing around $96.41 per barrel domestically\u2014up from the depths of last week's selloff but still down sharply from two weeks ago. The recovery today aligns with reports of potential talks to reopen the Strait of Hormuz for phased crude imports, which eased some of the supply-constraint fears that had driven prices down, though geopolitical tensions remain high with the ongoing U.S.-Iran conflict and Senate votes on war policy.\n\nThe two-week decline still reflects deep uncertainty around the refining margin impact of a potential diesel export ban being weighed by the Trump administration. Diesel prices have spiked to $6.51 nationally, triggering warnings from big business, but if exports are restricted, refiners would likely cut production rather than sustain high margins\u2014ultimately offering only temporary relief at the pump. For an integrated oil and gas company like this one, the competing pressures of elevated fuel demand pushing crude prices higher against the threat of production cuts on the refining side are keeping the stock volatile.",
+  "fetchedAt": "2026-09-24T23:34:01.584164+00:00",
+  "text": "ConocoPhillips rose 0.98% today to $129.34, recovering slightly from a steep four-day slide that wiped out 5.6% of its value since mid-September. The modest gain came as oil prices stabilized\u2014U.S. crude held at $96.41 per barrel\u2014after a volatile week driven by shifting geopolitical risk. A Senate vote against ending the Iran war and reports of potential talks to reopen the Strait of Hormuz (a critical shipping chokepoint for global oil) created conflicting signals: war risk staying elevated, but also hints that supply disruption might ease, which pulled oil prices back from session highs.\n\nThe bigger story behind the recent selloff is the underlying price collapse in oil itself. The stock's 5.6% drop over two weeks tracks directly with crude falling from higher levels earlier in the month. Separately, the industry is pushing back hard against a potential Trump diesel export ban\u2014diesel is now at $6.51 per gallon, nearly triple last year's level\u2014which creates political noise but also signals tight refining conditions that could support margins if policy doesn't shift sharply.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 198,
-    "inputTokens": 171454,
-    "outputTokens": 42139,
-    "estimatedCostUsd": 0.382149,
-    "lastCallHour": "2026-09-24T21"
+    "callsThisMonth": 199,
+    "inputTokens": 172313,
+    "outputTokens": 42391,
+    "estimatedCostUsd": 0.384268,
+    "lastCallHour": "2026-09-24T23"
   }
 }

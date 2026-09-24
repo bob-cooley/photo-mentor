@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-24T21:56:30.421672+00:00",
-  "text": "Marathon Petroleum stock rose modestly today as oil prices pulled back from session highs following reports of potential talks to reopen the Strait of Hormuz. The geopolitical tension that has driven crude prices higher this week \u2014 particularly the U.S.-Iran conflict \u2014 showed signs of easing, which took some upward pressure off energy markets. Refineries are running at 94% capacity with diesel inventories relatively tight at 107 million barrels, so the company benefits from both operational efficiency and tight product supplies.\n\nThe stock's broader picture this week is a sharp decline: it fell roughly 7% from mid-week highs of $424, even as crude oil prices remain elevated above $96. This suggests the market is pricing in real concerns about a potential diesel export ban and its impact on refiner margins \u2014 something industry leaders warned about explicitly on September 23rd and 24th. Refiners make money on the spread between crude costs and refined product sales, so export restrictions would squeeze that profit potential even if crude and fuel prices stay high.",
+  "fetchedAt": "2026-09-24T23:34:16.360794+00:00",
+  "text": "Marathon Petroleum stock ticked up 0.66% today after falling sharply over the prior two trading days. The modest gain came as oil prices pulled back from session highs following reports of potential talks to reopen the Strait of Hormuz, a critical chokepoint for global crude shipments. Meanwhile, U.S. refineries are running at 94% capacity with oil inventories near 711 million barrels \u2014 suggesting steady operational demand even as geopolitical tensions around Iran remain elevated.\n\nThe stock's recent volatility reflects competing pressures on refiners. A proposed diesel export ban is generating significant concern in the industry because it could cut refinery production and ultimately raise fuel prices, which would hurt margins. At the same time, the threat of major supply disruptions from Iran tensions has kept crude prices elevated, which can support refinery economics \u2014 but only if those refineries can actually sell their products, making the export ban debate central to how refiners like Marathon will perform ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 198,
-    "inputTokens": 182758,
-    "outputTokens": 42962,
-    "estimatedCostUsd": 0.397568,
-    "lastCallHour": "2026-09-24T21"
+    "callsThisMonth": 199,
+    "inputTokens": 183681,
+    "outputTokens": 43172,
+    "estimatedCostUsd": 0.399541,
+    "lastCallHour": "2026-09-24T23"
   }
 }
