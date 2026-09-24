@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-24T13:08:54.774633+00:00",
-  "text": "Marathon Petroleum dropped 0.33% today to $388.38, extending a decline that's seen the stock fall 2.77% over two weeks. The broader pressure comes from conflicting signals in the oil market: while crude prices rose modestly on Thursday as traders assessed potential U.S.-Iran diplomatic progress, refinery margins have compressed over the past week as U.S. oil prices ($96.41/barrel) have lagged sharply behind global oil prices ($114.89/barrel). Refiners like Marathon profit on the difference between what they pay for crude and what they sell refined products for\u2014that gap has narrowed, which directly pressures their earnings outlook.\n\nThe two-week slide also reflects industry headwinds beyond day-to-day oil price swings. Talk of a potential diesel export ban and ongoing Middle East tensions have created uncertainty around refining demand and margins, while refineries are already running at 94% capacity with substantial crude and product inventories on hand\u2014signs that demand may not be growing as fast as supply availability.",
+  "fetchedAt": "2026-09-24T17:43:57.001513+00:00",
+  "text": "Marathon Petroleum rose 2.6% today, recovering some ground after a sharp 4-day sell-off that had knocked the stock down nearly 8% from its mid-September peak. The bounce came as oil prices ticked up on September 24th amid reports of potential negotiations around the Hormuz Strait \u2014 a critical chokepoint for global crude supplies \u2014 and as the refining sector digested mixed signals on diesel policy. US crude sitting at $96.41 per barrel and refineries running at 94% capacity suggest the company still has decent operational economics, even if recent volatility has been pronounced.\n\nThe stock's recovery also reflects some relief from the diesel export ban threat that had weighed heavily over the prior days. While a ban would initially support refinery margins by keeping more fuel domestic, industry warnings about long-term price spikes and production cuts appear to have sparked a reassessment \u2014 the move higher today suggests traders are pricing in either a softer policy outcome or simply a reversal of overdone pessimism from the previous session.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 194,
-    "inputTokens": 179066,
-    "outputTokens": 42074,
-    "estimatedCostUsd": 0.389436,
-    "lastCallHour": "2026-09-24T13"
+    "callsThisMonth": 195,
+    "inputTokens": 179989,
+    "outputTokens": 42299,
+    "estimatedCostUsd": 0.391484,
+    "lastCallHour": "2026-09-24T17"
   }
 }
