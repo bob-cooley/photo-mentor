@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-25T11:04:59.555332+00:00",
-  "text": "Marathon Petroleum rose slightly today, but the stock is down sharply from its peak two weeks ago\u2014it fell nearly $34 per share between September 17 and September 22. The main driver of this week's decline is falling oil prices: crude dropped Friday on reports of a potential diplomatic deal between the U.S. and Iran to ease the Persian Gulf standoff, which has been pushing prices higher. When crude falls, refiners typically see tighter margins between what they pay for oil and what they make selling refined products like gasoline and diesel.\n\nThe stock's weakness reflects genuine pressure on refining economics. U.S. oil is trading at $96 per barrel versus $114 for global crude\u2014a wide gap that suggests lower demand for U.S. refined products. Meanwhile, refineries are running near full capacity at 94%, and both gasoline and diesel inventories remain substantial, limiting pricing power. Even if a diesel export ban were enacted to support prices, that benefit would be fleeting as refiners respond by cutting production.",
+  "fetchedAt": "2026-09-25T16:26:52.283067+00:00",
+  "text": "Marathon Petroleum fell 1.4% today as oil prices dropped on geopolitical easing in the Middle East. Iran signaled willingness to return to nuclear talks and reopen the Strait of Hormuz, which reduced immediate concerns about supply disruptions that had been supporting crude prices\u2014US oil fell from recent highs as traders priced in lower conflict risk. The stock has now lost 2.6% over two weeks, tracking the decline from $424.89 on September 18th.\n\nThe timing matters because refiners like Marathon profit most when crude prices are elevated and stable. While refineries are running at a healthy 94% capacity and diesel inventory is relatively tight at 107 million barrels, the easing of Iran tensions removed one of the few near-term props holding oil prices up. The broader risk\u2014a potential diesel export ban\u2014would actually squeeze the refining business long-term, so geopolitical de-escalation that might seem good for consumers is mixed news for a refiner's margins.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 202,
-    "inputTokens": 186416,
-    "outputTokens": 43801,
-    "estimatedCostUsd": 0.405421,
-    "lastCallHour": "2026-09-25T11"
+    "callsThisMonth": 203,
+    "inputTokens": 187328,
+    "outputTokens": 44020,
+    "estimatedCostUsd": 0.407428,
+    "lastCallHour": "2026-09-25T16"
   }
 }

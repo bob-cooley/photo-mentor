@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-25T11:03:50.710820+00:00",
-  "text": "ConocoPhillips rose slightly today, but that modest gain masks a deeper weakness over the past week\u2014the stock has fallen 5.6% since mid-September as oil prices have retreated. The immediate driver is news of potential diplomatic progress between the U.S. and Iran, with reports of talks toward reopening the Strait of Hormuz and restarting nuclear negotiations. When conflict risk falls, oil prices typically fall with it because supply concerns ease; crude has dropped from the $130+ range earlier this week, which directly pressures an oil producer's near-term revenue and outlook.\n\nThe bigger picture is the whipsaw ConocoPhillips has faced all week as geopolitical risk around the Iran conflict has swung back and forth. Traders bid oil and the stock up sharply when tensions looked like they might worsen, then sold hard once diplomacy signals emerged\u2014a pattern typical when a single geopolitical event dominates the market. The wide gap between U.S. oil at $96 and global oil at $115 reflects ongoing regional supply friction, but the trend this week has clearly favored de-escalation expectations over conflict premium.",
+  "fetchedAt": "2026-09-25T16:26:28.965507+00:00",
+  "text": "ConocoPhillips fell 1.4% today to $127.53, continuing a broader slide over the past two weeks (-7.15%). The decline tracks with falling oil prices: US crude dropped to $96.41 per barrel after news that Iran has offered to reopen the Strait of Hormuz within seven days and return to nuclear talks with the U.S. When geopolitical tensions ease and supply fears recede, oil becomes cheaper, which weighs on oil producers' earnings outlook and their stock prices.\n\nThe gap between US and global oil prices\u2014US at $96, world at $115\u2014suggests the market is pricing in relief from the conflict that has disrupted Middle Eastern shipping. Over the past week, ConocoPhillips has swung on each new headline about Iran negotiations or Houthi attacks, reflecting how directly crude producers depend on energy prices for their revenue.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 202,
-    "inputTokens": 174890,
-    "outputTokens": 43126,
-    "estimatedCostUsd": 0.39052,
-    "lastCallHour": "2026-09-25T11"
+    "callsThisMonth": 203,
+    "inputTokens": 175757,
+    "outputTokens": 43320,
+    "estimatedCostUsd": 0.392357,
+    "lastCallHour": "2026-09-25T16"
   }
 }
