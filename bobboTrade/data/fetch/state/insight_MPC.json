@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-25T17:45:42.022187+00:00",
-  "text": "Marathon Petroleum fell 1.3% today, continuing a sharp two-week slide that has erased roughly 9% of the stock's value since mid-September. The immediate trigger appears to be oil price weakness: crude dropped today after Iran signaled willingness to return to nuclear negotiations and reopen the Strait of Hormuz, easing geopolitical tensions that had been supporting prices. With US oil trading at $96.41 per barrel\u2014down sharply from where it was two weeks ago\u2014refiners' ability to turn crude into profitable fuel margins has compressed.\n\nThe broader backdrop adds pressure. Refineries are running at 94% capacity while gasoline and diesel inventories sit at elevated levels, meaning there's less urgency to run hard and less room for margin expansion even if crude prices stabilize. On top of that, ongoing debate over a potential diesel export ban creates regulatory uncertainty that could ultimately reduce refining activity\u2014the opposite of what would help the stock recover.",
+  "fetchedAt": "2026-09-25T20:13:59.316742+00:00",
+  "text": "Marathon Petroleum rose modestly today as crude oil stabilized after a sharp weekly decline. U.S. crude fell nearly 8% this week following diplomatic talks between Iran and the U.S. at the U.N., which eased concerns about supply disruptions in the Middle East. Today's small gain reflects a pause in that selling pressure, though the stock remains down 0.67% over two weeks as refiners face narrower profit margins when oil prices drop faster than refined product prices can adjust.\n\nThe broader refining environment shows conflicting signals: refineries are running at 94% capacity with solid demand, but U.S. crude has fallen to $96.41 per barrel while global crude sits at $114.89\u2014a wide gap suggesting geopolitical uncertainty still persists despite the diplomatic thaw. Saudi Arabia's continued high export levels and Iran's offer to reopen the Strait of Hormuz within days both point toward potential supply normalization, which typically pressures refiner margins by reducing the premium they earn from processing crude into gasoline and diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 204,
-    "inputTokens": 188240,
-    "outputTokens": 44229,
-    "estimatedCostUsd": 0.409385,
-    "lastCallHour": "2026-09-25T17"
+    "callsThisMonth": 205,
+    "inputTokens": 189171,
+    "outputTokens": 44457,
+    "estimatedCostUsd": 0.411456,
+    "lastCallHour": "2026-09-25T20"
   }
 }
