@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-25T00:17:15.308133+00:00",
-  "text": "Marathon Petroleum edged up 0.66% today after falling sharply over the previous two trading days. The modest gain came as oil prices pulled back from session highs on news of potential talks to reopen the Strait of Hormuz, a major chokepoint for global crude shipments; the geopolitical uncertainty that had lifted prices earlier in the week eased slightly. Refineries are running near capacity at 94%, but the conflicting signals\u2014diesel prices at $6.51 per gallon sparking calls for an export ban, yet industry warnings that such a ban would ultimately raise fuel costs\u2014leave the near-term direction of refining margins unclear.\n\nThe stock's sharp 8% decline from September 17 to September 22 reflected real anxiety about policy intervention in diesel markets and ongoing Iran-related geopolitical risk. Today's stabilization suggests some traders are taking a breather as the market digests competing narratives: tighter crude supplies from Middle East tensions versus the possibility of negotiated de-escalation and potential policy headwinds for refiners.",
+  "fetchedAt": "2026-09-25T05:45:14.660094+00:00",
+  "text": "Marathon Petroleum rose slightly today as oil prices stabilized after a Friday decline. The broader oil market fell on news of potential U.S.-Iran diplomatic talks aimed at de-escalating Middle East tensions\u2014a development that eased fears of further supply disruptions from attacks on shipping and Saudi infrastructure. MPC recovered some ground from its steep drop earlier in the week (down nearly $33 from September 17 to September 22), though it remains well below that level.\n\nThe refining backdrop remains supportive: U.S. refineries are running at 94% capacity with diesel and gasoline inventories relatively tight, which typically benefits refiners' margins. However, political uncertainty around a potential diesel export ban\u2014which could cut refiner production but might eventually raise fuel prices\u2014adds an element of unpredictability to the outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 200,
-    "inputTokens": 184604,
-    "outputTokens": 43403,
-    "estimatedCostUsd": 0.401619,
-    "lastCallHour": "2026-09-25T00"
+    "callsThisMonth": 201,
+    "inputTokens": 185510,
+    "outputTokens": 43580,
+    "estimatedCostUsd": 0.40341,
+    "lastCallHour": "2026-09-25T05"
   }
 }

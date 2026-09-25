@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-25T00:16:58.133660+00:00",
-  "text": "ConocoPhillips rose 0.98% today to $129.34, recovering slightly from a steep four-day slide that saw the stock drop nearly $8 (6%) from $133.19 to $125.27. The bounce comes as oil prices stabilized after volatile swings tied to geopolitical uncertainty: Brent crude sits at $114.89 a barrel while US oil is at $96.41, and today's rebound reflects traders cautiously assessing reports that talks may lead to a phased reopening of the Strait of Hormuz\u2014a major choke point for global oil shipments that had tightened supply and pushed prices higher earlier in the week.\n\nThe stock's sharp decline over the past two weeks sits against a backdrop of conflicting pressures on the oil market. A Senate vote against ending the Iran war and threats of a diesel export ban are keeping energy prices elevated and volatile, but the prospect of Hormuz reopening has deflated some of the geopolitical premium that had boosted crude prices. Refiners and oil producers face an uncertain demand picture: high diesel prices ($6.51 nationally) are straining customers, yet export restrictions could constrain refiner profits even as crude supply potentially grows.",
+  "fetchedAt": "2026-09-25T05:45:02.483983+00:00",
+  "text": "ConocoPhillips rose 0.98% today to $129.34, recovering modestly from a four-day selloff that had pushed the stock down 5.6% since mid-September. The bounce came as oil prices steadied after a sharp fall Friday triggered by reports that U.S. and Iranian negotiators are discussing a diplomatic deal to end their standoff in the Persian Gulf\u2014a potential de-escalation that would ease supply concerns that have kept crude prices elevated.\n\nThe stock's recovery is limited, though, because the geopolitical backdrop remains genuinely uncertain. The Houthis launched fresh missile and drone attacks Friday morning even as diplomacy talk circulated, and a Senate vote just yesterday on ending the Iran conflict failed narrowly. With U.S. oil trading at $96.41 per barrel\u2014well below the global price of $114.89\u2014any actual resolution to the conflict could pressure prices further, which would weigh on a large crude producer's earnings outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 200,
-    "inputTokens": 173172,
-    "outputTokens": 42661,
-    "estimatedCostUsd": 0.386477,
-    "lastCallHour": "2026-09-25T00"
+    "callsThisMonth": 201,
+    "inputTokens": 174031,
+    "outputTokens": 42875,
+    "estimatedCostUsd": 0.388406,
+    "lastCallHour": "2026-09-25T05"
   }
 }
