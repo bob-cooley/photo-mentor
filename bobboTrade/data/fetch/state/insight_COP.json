@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-24T23:34:01.584164+00:00",
-  "text": "ConocoPhillips rose 0.98% today to $129.34, recovering slightly from a steep four-day slide that wiped out 5.6% of its value since mid-September. The modest gain came as oil prices stabilized\u2014U.S. crude held at $96.41 per barrel\u2014after a volatile week driven by shifting geopolitical risk. A Senate vote against ending the Iran war and reports of potential talks to reopen the Strait of Hormuz (a critical shipping chokepoint for global oil) created conflicting signals: war risk staying elevated, but also hints that supply disruption might ease, which pulled oil prices back from session highs.\n\nThe bigger story behind the recent selloff is the underlying price collapse in oil itself. The stock's 5.6% drop over two weeks tracks directly with crude falling from higher levels earlier in the month. Separately, the industry is pushing back hard against a potential Trump diesel export ban\u2014diesel is now at $6.51 per gallon, nearly triple last year's level\u2014which creates political noise but also signals tight refining conditions that could support margins if policy doesn't shift sharply.",
+  "fetchedAt": "2026-09-25T00:16:58.133660+00:00",
+  "text": "ConocoPhillips rose 0.98% today to $129.34, recovering slightly from a steep four-day slide that saw the stock drop nearly $8 (6%) from $133.19 to $125.27. The bounce comes as oil prices stabilized after volatile swings tied to geopolitical uncertainty: Brent crude sits at $114.89 a barrel while US oil is at $96.41, and today's rebound reflects traders cautiously assessing reports that talks may lead to a phased reopening of the Strait of Hormuz\u2014a major choke point for global oil shipments that had tightened supply and pushed prices higher earlier in the week.\n\nThe stock's sharp decline over the past two weeks sits against a backdrop of conflicting pressures on the oil market. A Senate vote against ending the Iran war and threats of a diesel export ban are keeping energy prices elevated and volatile, but the prospect of Hormuz reopening has deflated some of the geopolitical premium that had boosted crude prices. Refiners and oil producers face an uncertain demand picture: high diesel prices ($6.51 nationally) are straining customers, yet export restrictions could constrain refiner profits even as crude supply potentially grows.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 199,
-    "inputTokens": 172313,
-    "outputTokens": 42391,
-    "estimatedCostUsd": 0.384268,
-    "lastCallHour": "2026-09-24T23"
+    "callsThisMonth": 200,
+    "inputTokens": 173172,
+    "outputTokens": 42661,
+    "estimatedCostUsd": 0.386477,
+    "lastCallHour": "2026-09-25T00"
   }
 }
