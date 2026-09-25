@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-25T20:13:59.316742+00:00",
-  "text": "Marathon Petroleum rose modestly today as crude oil stabilized after a sharp weekly decline. U.S. crude fell nearly 8% this week following diplomatic talks between Iran and the U.S. at the U.N., which eased concerns about supply disruptions in the Middle East. Today's small gain reflects a pause in that selling pressure, though the stock remains down 0.67% over two weeks as refiners face narrower profit margins when oil prices drop faster than refined product prices can adjust.\n\nThe broader refining environment shows conflicting signals: refineries are running at 94% capacity with solid demand, but U.S. crude has fallen to $96.41 per barrel while global crude sits at $114.89\u2014a wide gap suggesting geopolitical uncertainty still persists despite the diplomatic thaw. Saudi Arabia's continued high export levels and Iran's offer to reopen the Strait of Hormuz within days both point toward potential supply normalization, which typically pressures refiner margins by reducing the premium they earn from processing crude into gasoline and diesel.",
+  "fetchedAt": "2026-09-25T23:37:14.148609+00:00",
+  "text": "Marathon Petroleum stock rose slightly today, gaining 0.66%, as crude oil prices stabilized after falling sharply earlier in the week. U.S. oil dropped nearly 8% last week following diplomatic talks between Tehran and Washington at the U.N., which eased immediate concerns about supply disruption in the Middle East. With refineries running at 94% capacity and crude inventories relatively stable, the modest bounce today reflects a momentary pause in the downward pressure that weighed on energy stocks earlier in the week.\n\nThe broader backdrop remains volatile: while Iran has signaled willingness to reopen the Strait of Hormuz and restart nuclear negotiations, Saudi Arabia is simultaneously ramping up crude exports despite attacks on its infrastructure from Iran-backed militants. This creates genuine uncertainty about whether oil prices will stabilize here or face renewed pressure if diplomatic talks progress\u2014refinery stocks like Marathon tend to benefit from lower input costs (crude oil), so the 8% weekly oil drop has been a headwind despite today's small uptick.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 205,
-    "inputTokens": 189171,
-    "outputTokens": 44457,
-    "estimatedCostUsd": 0.411456,
-    "lastCallHour": "2026-09-25T20"
+    "callsThisMonth": 206,
+    "inputTokens": 190104,
+    "outputTokens": 44675,
+    "estimatedCostUsd": 0.413479,
+    "lastCallHour": "2026-09-25T23"
   }
 }

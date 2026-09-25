@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-25T20:13:22.893486+00:00",
-  "text": "ConocoPhillips fell 1.6% today as U.S. crude oil prices dropped nearly 8% for the week following diplomatic talks between Iran and the U.S. at the United Nations. When oil prices weaken, exploration and production companies like ConocoPhillips see lower revenue on the barrels they pump\u2014even though the company still produces the same volume, it gets paid less per unit. The stock is now down 7.3% over two weeks, tracking closely with the broader oil selloff.\n\nThe price pressure reflects shifting market expectations around Middle Eastern supply. Saudi Arabia is actually increasing crude exports despite infrastructure attacks, and Iran is signaling willingness to reopen the Strait of Hormuz and restart nuclear negotiations. These developments suggest the market is pricing in less geopolitical risk to global oil supply than it was before, which removes one of the key supports for elevated oil prices that had been benefiting energy companies.",
+  "fetchedAt": "2026-09-25T23:36:59.014712+00:00",
+  "text": "ConocoPhillips fell 1.6% today as U.S. crude oil prices dropped nearly 8% over the week following diplomatic talks between Iran and the United States at the U.N. When oil prices weaken, exploration and production companies like ConocoPhillips see less revenue per barrel pumped, pressuring their stock price. The stock is now down 7.3% over two weeks as geopolitical tensions that had supported higher oil costs show signs of easing through negotiation rather than escalation.\n\nThe weakness in U.S. crude is particularly notable because it's trading at $96 a barrel while global oil is at $115\u2014a gap that reflects supply concerns being partially relieved. Even though Saudi Arabia is ramping up exports and Iran is signaling willingness to reopen the Strait of Hormuz and return to nuclear talks, the market is pricing in a shift away from the \"supply shock hedge\" that had been driving energy stocks higher.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 205,
-    "inputTokens": 177492,
-    "outputTokens": 43717,
-    "estimatedCostUsd": 0.396077,
-    "lastCallHour": "2026-09-25T20"
+    "callsThisMonth": 206,
+    "inputTokens": 178360,
+    "outputTokens": 43928,
+    "estimatedCostUsd": 0.398,
+    "lastCallHour": "2026-09-25T23"
   }
 }
