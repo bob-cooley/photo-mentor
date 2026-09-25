@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-25T16:26:28.965507+00:00",
-  "text": "ConocoPhillips fell 1.4% today to $127.53, continuing a broader slide over the past two weeks (-7.15%). The decline tracks with falling oil prices: US crude dropped to $96.41 per barrel after news that Iran has offered to reopen the Strait of Hormuz within seven days and return to nuclear talks with the U.S. When geopolitical tensions ease and supply fears recede, oil becomes cheaper, which weighs on oil producers' earnings outlook and their stock prices.\n\nThe gap between US and global oil prices\u2014US at $96, world at $115\u2014suggests the market is pricing in relief from the conflict that has disrupted Middle Eastern shipping. Over the past week, ConocoPhillips has swung on each new headline about Iran negotiations or Houthi attacks, reflecting how directly crude producers depend on energy prices for their revenue.",
+  "fetchedAt": "2026-09-25T17:45:23.838457+00:00",
+  "text": "ConocoPhillips fell 1.7% today as oil prices retreated on signs that geopolitical tensions in the Middle East may ease. Iran's foreign minister indicated willingness to reopen the Strait of Hormuz\u2014a critical global oil chokepoint\u2014within a week and return to nuclear negotiations, which reduced the risk premium traders had been pricing into crude. US oil dropped to $96.41 per barrel, and the stock has now lost 7.4% over two weeks as these diplomatic signals have accumulated.\n\nThe broader pattern here reflects how heavily oil majors trade on supply-disruption fears: when the threat of conflict recedes, so does the price cushion that had been supporting the sector. Even though global oil remains elevated at $114.89 per barrel, the prospect of Persian Gulf stabilization removes one of the main props that kept energy stocks elevated during weeks of heightened tension.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 203,
-    "inputTokens": 175757,
-    "outputTokens": 43320,
-    "estimatedCostUsd": 0.392357,
-    "lastCallHour": "2026-09-25T16"
+    "callsThisMonth": 204,
+    "inputTokens": 176624,
+    "outputTokens": 43515,
+    "estimatedCostUsd": 0.394199,
+    "lastCallHour": "2026-09-25T17"
   }
 }
