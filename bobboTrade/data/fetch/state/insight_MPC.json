@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-25T05:45:14.660094+00:00",
-  "text": "Marathon Petroleum rose slightly today as oil prices stabilized after a Friday decline. The broader oil market fell on news of potential U.S.-Iran diplomatic talks aimed at de-escalating Middle East tensions\u2014a development that eased fears of further supply disruptions from attacks on shipping and Saudi infrastructure. MPC recovered some ground from its steep drop earlier in the week (down nearly $33 from September 17 to September 22), though it remains well below that level.\n\nThe refining backdrop remains supportive: U.S. refineries are running at 94% capacity with diesel and gasoline inventories relatively tight, which typically benefits refiners' margins. However, political uncertainty around a potential diesel export ban\u2014which could cut refiner production but might eventually raise fuel prices\u2014adds an element of unpredictability to the outlook.",
+  "fetchedAt": "2026-09-25T11:04:59.555332+00:00",
+  "text": "Marathon Petroleum rose slightly today, but the stock is down sharply from its peak two weeks ago\u2014it fell nearly $34 per share between September 17 and September 22. The main driver of this week's decline is falling oil prices: crude dropped Friday on reports of a potential diplomatic deal between the U.S. and Iran to ease the Persian Gulf standoff, which has been pushing prices higher. When crude falls, refiners typically see tighter margins between what they pay for oil and what they make selling refined products like gasoline and diesel.\n\nThe stock's weakness reflects genuine pressure on refining economics. U.S. oil is trading at $96 per barrel versus $114 for global crude\u2014a wide gap that suggests lower demand for U.S. refined products. Meanwhile, refineries are running near full capacity at 94%, and both gasoline and diesel inventories remain substantial, limiting pricing power. Even if a diesel export ban were enacted to support prices, that benefit would be fleeting as refiners respond by cutting production.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 201,
-    "inputTokens": 185510,
-    "outputTokens": 43580,
-    "estimatedCostUsd": 0.40341,
-    "lastCallHour": "2026-09-25T05"
+    "callsThisMonth": 202,
+    "inputTokens": 186416,
+    "outputTokens": 43801,
+    "estimatedCostUsd": 0.405421,
+    "lastCallHour": "2026-09-25T11"
   }
 }

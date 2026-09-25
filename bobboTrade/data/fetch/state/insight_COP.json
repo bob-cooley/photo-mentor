@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-25T05:45:02.483983+00:00",
-  "text": "ConocoPhillips rose 0.98% today to $129.34, recovering modestly from a four-day selloff that had pushed the stock down 5.6% since mid-September. The bounce came as oil prices steadied after a sharp fall Friday triggered by reports that U.S. and Iranian negotiators are discussing a diplomatic deal to end their standoff in the Persian Gulf\u2014a potential de-escalation that would ease supply concerns that have kept crude prices elevated.\n\nThe stock's recovery is limited, though, because the geopolitical backdrop remains genuinely uncertain. The Houthis launched fresh missile and drone attacks Friday morning even as diplomacy talk circulated, and a Senate vote just yesterday on ending the Iran conflict failed narrowly. With U.S. oil trading at $96.41 per barrel\u2014well below the global price of $114.89\u2014any actual resolution to the conflict could pressure prices further, which would weigh on a large crude producer's earnings outlook.",
+  "fetchedAt": "2026-09-25T11:03:50.710820+00:00",
+  "text": "ConocoPhillips rose slightly today, but that modest gain masks a deeper weakness over the past week\u2014the stock has fallen 5.6% since mid-September as oil prices have retreated. The immediate driver is news of potential diplomatic progress between the U.S. and Iran, with reports of talks toward reopening the Strait of Hormuz and restarting nuclear negotiations. When conflict risk falls, oil prices typically fall with it because supply concerns ease; crude has dropped from the $130+ range earlier this week, which directly pressures an oil producer's near-term revenue and outlook.\n\nThe bigger picture is the whipsaw ConocoPhillips has faced all week as geopolitical risk around the Iran conflict has swung back and forth. Traders bid oil and the stock up sharply when tensions looked like they might worsen, then sold hard once diplomacy signals emerged\u2014a pattern typical when a single geopolitical event dominates the market. The wide gap between U.S. oil at $96 and global oil at $115 reflects ongoing regional supply friction, but the trend this week has clearly favored de-escalation expectations over conflict premium.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 201,
-    "inputTokens": 174031,
-    "outputTokens": 42875,
-    "estimatedCostUsd": 0.388406,
-    "lastCallHour": "2026-09-25T05"
+    "callsThisMonth": 202,
+    "inputTokens": 174890,
+    "outputTokens": 43126,
+    "estimatedCostUsd": 0.39052,
+    "lastCallHour": "2026-09-25T11"
   }
 }
