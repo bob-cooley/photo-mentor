@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-26T18:16:54.836631+00:00",
-  "text": "MPC rose modestly today as oil prices stabilized after last week's sharp decline. U.S. crude fell nearly 8% the prior week on hopes of U.S.-Iran talks, but those negotiations collapsed when Trump rejected Iran's ceasefire proposal on September 26th. With renewed tension in the Middle East now expected, oil prices have steadied\u2014U.S. crude is holding at $96.41 per barrel\u2014which supports refiner margins. Refineries are running at 94% capacity, a healthy operating level for a refiner like MPC.\n\nThe stock's modest bounce follows a steeper two-week slide of 0.6%, reflecting the whipsaw from geopolitical uncertainty. Saudi Arabia is ramping crude exports despite ongoing attacks on its infrastructure, which has helped stabilize global supply, but the risk of further U.S.-Iran escalation remains a source of volatility for energy investors.",
+  "fetchedAt": "2026-09-26T21:47:45.426527+00:00",
+  "text": "Marathon Petroleum rose 0.66% today, a modest gain that reverses some of the sharp 4% decline from the prior three trading days. The stock is bouncing after oil prices stabilized\u2014U.S. crude recovered slightly to $96.41 a barrel following last week's 8% plunge when Iran-U.S. diplomatic talks raised hopes for de-escalation. However, that optimism evaporated on September 26 when Trump rejected Iran's conditional ceasefire proposal and signaled renewed military action after midterm elections, removing a near-term peace premium from the market.\n\nThe refiner benefits from moderately tight supply conditions: U.S. refineries are running at 94% capacity, and gasoline and diesel inventories remain at relatively low levels, which supports margins on fuel sales. But the geopolitical overhang\u2014escalating U.S.-Iran tensions and ongoing attacks on Saudi oil infrastructure\u2014keeps crude prices volatile and prevents the kind of sustained recovery that would drive the stock higher.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 210,
-    "inputTokens": 193854,
-    "outputTokens": 45551,
-    "estimatedCostUsd": 0.421609,
-    "lastCallHour": "2026-09-26T18"
+    "callsThisMonth": 211,
+    "inputTokens": 194803,
+    "outputTokens": 45772,
+    "estimatedCostUsd": 0.423663,
+    "lastCallHour": "2026-09-26T21"
   }
 }

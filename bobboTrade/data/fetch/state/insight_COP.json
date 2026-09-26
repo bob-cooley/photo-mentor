@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-26T18:16:36.525929+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $127.30, continuing a weak two-week slide that's now down 7.3%. The immediate pressure comes from geopolitical de-escalation: yesterday the U.S. and Iran held talks at the U.N., and while Trump rejected Iran's ceasefire proposal today, the mere fact of diplomacy had already driven U.S. crude oil down nearly 8% for the week. Crude at $96.41 per barrel (down from higher levels earlier in the week) means less revenue per barrel pumped, which directly weighs on oil company stock prices.\n\nThe broader context is that oil markets have been whipsawed by supply-shock concerns and Middle East tensions, but signs of diplomatic progress\u2014even tentative ones\u2014pull prices down as investors reduce their \"insurance premium\" for conflict. Meanwhile, Saudi Arabia's crude exports keep hitting post-Iran-war highs despite ongoing attacks on its infrastructure, suggesting supply fears may be overblown, which also takes pressure off prices and energy stocks.",
+  "fetchedAt": "2026-09-26T21:47:32.941119+00:00",
+  "text": "ConocoPhillips fell 1.6% today, continuing a steep two-week decline of 7.3%. The drop reflects broader uncertainty around oil prices: U.S. crude is trading at $96.41 per barrel, down sharply this week after initial optimism around Iran-U.S. talks at the U.N. faded when Trump rejected Iran's ceasefire proposal and signaled renewed military action. Lower oil prices directly cut into the earnings potential of oil producers like ConocoPhillips.\n\nThe geopolitical situation creates conflicting pressures. While Trump's hardline stance could tighten global oil supplies and support prices, the market is currently pricing in near-term caution\u2014oil fell nearly 8% last week as peace-talk hopes briefly lifted. Saudi Arabia's rising exports despite infrastructure attacks are also keeping supply more abundant than feared, which weighs on the price outlook that matters most to ConocoPhillips' bottom line.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 210,
-    "inputTokens": 181850,
-    "outputTokens": 44858,
-    "estimatedCostUsd": 0.40614,
-    "lastCallHour": "2026-09-26T18"
+    "callsThisMonth": 211,
+    "inputTokens": 182734,
+    "outputTokens": 45069,
+    "estimatedCostUsd": 0.408079,
+    "lastCallHour": "2026-09-26T21"
   }
 }
