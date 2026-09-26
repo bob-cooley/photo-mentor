@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-26T09:03:53.826807+00:00",
-  "text": "Marathon Petroleum stock rose a fraction of a percent today after a week of sharp losses. The bump comes as U.S. crude oil fell nearly 8% over the week following diplomatic talks between Iran and Washington at the U.N., easing some geopolitical tensions that had been pushing oil prices higher. The stock is still down about 9% since mid-September, reflecting the broader volatility in energy markets driven by Middle East supply concerns and shifting expectations around sanctions.\n\nThe refining backdrop remains supportive for the company's operations: U.S. refineries are running at 94% capacity, and gasoline and diesel inventories are moderate, suggesting steady demand for refined products. However, the wide gap between U.S. crude ($96.41) and world crude ($114.89) \u2014 a sign of tightness in global supplies \u2014 combined with ongoing attacks on Saudi infrastructure and uncertainty about Iran's role in oil markets, means the company faces a volatile landscape where geopolitical de-escalation like this week's talks can shift the entire profit picture.",
+  "fetchedAt": "2026-09-26T14:03:47.111974+00:00",
+  "text": "Marathon Petroleum edged up 0.66% today after a week of sharp declines, as oil markets showed signs of stabilizing following geopolitical tensions in the Middle East. U.S. crude fell nearly 8% last week as Iran and the U.S. held talks at the U.N., but Trump's rejection of Iran's ceasefire proposal on Thursday has shifted expectations back toward escalation and potential supply disruptions, which would support higher oil prices and refinery margins.\n\nThe company operates in a complex moment: U.S. oil is trading at $96.41 per barrel while global crude sits at $114.89, a wide spread that reflects Middle East supply fears. Refineries are running at 94% capacity with ample product in storage, so the near-term calculus hinges on whether geopolitical risk will push oil prices higher or whether the ceasefire talks keep them volatile but contained.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 208,
-    "inputTokens": 191970,
-    "outputTokens": 45152,
-    "estimatedCostUsd": 0.41773,
-    "lastCallHour": "2026-09-26T09"
+    "callsThisMonth": 209,
+    "inputTokens": 192905,
+    "outputTokens": 45352,
+    "estimatedCostUsd": 0.419665,
+    "lastCallHour": "2026-09-26T14"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-26T09:03:29.511756+00:00",
-  "text": "ConocoPhillips fell 1.6% today as U.S. crude oil prices dropped nearly 8% for the week following diplomatic talks between Iran and the U.S. at the United Nations. When crude prices fall, oil companies' revenues and profits typically contract, putting downward pressure on their stock. The oil market's worry about a potential deal\u2014or at least reduced geopolitical tension\u2014outweighed the reality that Saudi Arabia is actually ramping up exports despite regional turmoil.\n\nThe two-week decline of 7.3% reflects a broader shift in investor thinking about oil supply risk. Even though Middle Eastern infrastructure is under attack and threats remain real, the prospect of U.S.-Iran negotiations has eased some of the supply-shock premium that had been baked into prices. For an oil company, lower prices mean lower margins, which is why the stock has tracked the commodity weakness even as global crude (trading at $114.89) remains well above U.S. crude ($96.41).",
+  "fetchedAt": "2026-09-26T14:03:22.006723+00:00",
+  "text": "ConocoPhillips fell 1.6% today, continuing a weak two-week slide that's cost the stock 7.3%. The immediate pressure comes from a sharp drop in U.S. crude prices\u2014oil fell nearly 8% last week after Iran and the U.S. held U.N. talks, signaling a possible de-escalation in Middle East tensions that briefly eased supply fears. Today's decline follows Trump's rejection of Iran's conditional ceasefire proposal, which has reintroduced uncertainty about future conflict and oil supply disruptions in the region, but the market's initial relief from last week's diplomatic signal still dominates the near-term tone. U.S. crude is now trading at $96.41 a barrel, down sharply from where it sat before the week's peace talks began.\n\nThe stock is caught between two conflicting signals. Saudi Arabia is actually exporting crude at its highest levels since the Iran conflict began, despite ongoing attacks on its infrastructure\u2014suggesting supply resilience rather than crisis. But that steadier supply picture, combined with the temporary perception of reduced geopolitical risk, has undermined the supply-shock premium that typically supports oil majors' valuations, leaving COP vulnerable to the broader pullback in energy prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 208,
-    "inputTokens": 180096,
-    "outputTokens": 44354,
-    "estimatedCostUsd": 0.401866,
-    "lastCallHour": "2026-09-26T09"
+    "callsThisMonth": 209,
+    "inputTokens": 180966,
+    "outputTokens": 44627,
+    "estimatedCostUsd": 0.404101,
+    "lastCallHour": "2026-09-26T14"
   }
 }
