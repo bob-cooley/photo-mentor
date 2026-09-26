@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-26T14:03:22.006723+00:00",
-  "text": "ConocoPhillips fell 1.6% today, continuing a weak two-week slide that's cost the stock 7.3%. The immediate pressure comes from a sharp drop in U.S. crude prices\u2014oil fell nearly 8% last week after Iran and the U.S. held U.N. talks, signaling a possible de-escalation in Middle East tensions that briefly eased supply fears. Today's decline follows Trump's rejection of Iran's conditional ceasefire proposal, which has reintroduced uncertainty about future conflict and oil supply disruptions in the region, but the market's initial relief from last week's diplomatic signal still dominates the near-term tone. U.S. crude is now trading at $96.41 a barrel, down sharply from where it sat before the week's peace talks began.\n\nThe stock is caught between two conflicting signals. Saudi Arabia is actually exporting crude at its highest levels since the Iran conflict began, despite ongoing attacks on its infrastructure\u2014suggesting supply resilience rather than crisis. But that steadier supply picture, combined with the temporary perception of reduced geopolitical risk, has undermined the supply-shock premium that typically supports oil majors' valuations, leaving COP vulnerable to the broader pullback in energy prices.",
+  "fetchedAt": "2026-09-26T18:16:36.525929+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $127.30, continuing a weak two-week slide that's now down 7.3%. The immediate pressure comes from geopolitical de-escalation: yesterday the U.S. and Iran held talks at the U.N., and while Trump rejected Iran's ceasefire proposal today, the mere fact of diplomacy had already driven U.S. crude oil down nearly 8% for the week. Crude at $96.41 per barrel (down from higher levels earlier in the week) means less revenue per barrel pumped, which directly weighs on oil company stock prices.\n\nThe broader context is that oil markets have been whipsawed by supply-shock concerns and Middle East tensions, but signs of diplomatic progress\u2014even tentative ones\u2014pull prices down as investors reduce their \"insurance premium\" for conflict. Meanwhile, Saudi Arabia's crude exports keep hitting post-Iran-war highs despite ongoing attacks on its infrastructure, suggesting supply fears may be overblown, which also takes pressure off prices and energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 209,
-    "inputTokens": 180966,
-    "outputTokens": 44627,
-    "estimatedCostUsd": 0.404101,
-    "lastCallHour": "2026-09-26T14"
+    "callsThisMonth": 210,
+    "inputTokens": 181850,
+    "outputTokens": 44858,
+    "estimatedCostUsd": 0.40614,
+    "lastCallHour": "2026-09-26T18"
   }
 }
