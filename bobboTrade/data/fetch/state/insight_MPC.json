@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-25T23:37:14.148609+00:00",
-  "text": "Marathon Petroleum stock rose slightly today, gaining 0.66%, as crude oil prices stabilized after falling sharply earlier in the week. U.S. oil dropped nearly 8% last week following diplomatic talks between Tehran and Washington at the U.N., which eased immediate concerns about supply disruption in the Middle East. With refineries running at 94% capacity and crude inventories relatively stable, the modest bounce today reflects a momentary pause in the downward pressure that weighed on energy stocks earlier in the week.\n\nThe broader backdrop remains volatile: while Iran has signaled willingness to reopen the Strait of Hormuz and restart nuclear negotiations, Saudi Arabia is simultaneously ramping up crude exports despite attacks on its infrastructure from Iran-backed militants. This creates genuine uncertainty about whether oil prices will stabilize here or face renewed pressure if diplomatic talks progress\u2014refinery stocks like Marathon tend to benefit from lower input costs (crude oil), so the 8% weekly oil drop has been a headwind despite today's small uptick.",
+  "fetchedAt": "2026-09-26T03:19:36.950054+00:00",
+  "text": "Marathon Petroleum stock ticked up 0.66% today as crude oil prices fell sharply over the week on geopolitical de-escalation. U.S. crude dropped nearly 8% for the week after Iran and the U.S. held talks at the U.N., with Iran offering to reopen the Strait of Hormuz and restart nuclear negotiations\u2014signals that reduced the risk of supply disruptions that had been priced into oil. For a refiner like this, lower crude costs are a double win: they cut input expenses while refining margins remain supported by strong demand and high utilization (refineries running at 94%).\n\nThe broader backdrop is mixed for refiners this week. Crude remains volatile\u2014U.S. oil at $96/barrel versus world oil at $115 reflects lingering supply concerns\u2014but the easing of Iran tensions has shifted sentiment away from a tight supply \"super-cycle\" hedge. Saudi Arabia is already ramping exports despite attacks on its infrastructure, adding supply. The stock's 2-week decline of 0.61% reflects the market recalibrating from earlier fears of prolonged geopolitical oil tightness.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 206,
-    "inputTokens": 190104,
-    "outputTokens": 44675,
-    "estimatedCostUsd": 0.413479,
-    "lastCallHour": "2026-09-25T23"
+    "callsThisMonth": 207,
+    "inputTokens": 191037,
+    "outputTokens": 44927,
+    "estimatedCostUsd": 0.415672,
+    "lastCallHour": "2026-09-26T03"
   }
 }

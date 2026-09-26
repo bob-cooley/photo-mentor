@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-09-25T05:44:45.963006+00:00",
+    "fetchedAt": "2026-09-26T03:19:07.187865+00:00",
     "source": "SEC XBRL company facts (data.sec.gov)",
     "currency": "USD",
     "current": {
