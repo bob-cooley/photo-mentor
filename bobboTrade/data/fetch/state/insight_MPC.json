@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-27T12:42:39.630640+00:00",
-  "text": "Marathon Petroleum rose 0.66% today to $393.52, a small gain that comes after the stock fell sharply over the prior week\u2014dropping from $424.89 to $389.68 between September 18 and 22. The modest recovery appears tied to a shift in oil-market sentiment: Trump's rejection of Iran's ceasefire proposal on September 26 (reported by WSJ) has raised the prospect of renewed U.S. military action, which typically supports crude prices by increasing supply-disruption risk. U.S. crude sits at $96.41 per barrel after falling nearly 8% the prior week when Iran-U.S. talks looked promising; the geopolitical escalation has likely steadied that decline and supported refiner margins.\n\nThe broader context matters: U.S. refineries are running at 94% capacity with moderate crude inventories at 711 million barrels\u2014refinery utilization is high enough to benefit from any price stability, and the uncertainty around Middle Eastern supply disruptions may have halted the prior week's sharp selloff that hit the stock. However, the stock remains down 8% since mid-September despite today's bounce, suggesting the market still harbors concerns about oil demand or refining economics that go beyond today's geopolitical noise.",
+  "fetchedAt": "2026-09-27T17:26:51.242982+00:00",
+  "text": "Marathon Petroleum recovered modestly today, gaining 0.66%, as U.S. crude oil stabilized after a volatile week driven by U.S.-Iran tensions. The stock fell sharply from $424.89 last week to $389.68 by Wednesday as oil prices collapsed nearly 8% on diplomatic talks at the U.N., but has since bounced back slightly as investors digest conflicting signals: Iran's foreign minister says talks remain possible, while Trump reportedly rejects Iran's ceasefire terms and expects renewed bombing after midterms. For a refiner like MPC, lower oil prices can help margins short-term, but geopolitical uncertainty makes those gains fragile.\n\nThe broader picture reflects deep anxiety about supply disruptions. Refineries are running at 94% capacity with ample crude and product inventories on hand, meaning the refining sector is well-positioned for now \u2014 but these whipsaw moves between war fears and peace hopes are keeping investors on edge about where oil prices (currently $96.41 domestically, $114.89 globally) will ultimately settle.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 215,
-    "inputTokens": 198599,
-    "outputTokens": 46800,
-    "estimatedCostUsd": 0.432599,
-    "lastCallHour": "2026-09-27T12"
+    "callsThisMonth": 216,
+    "inputTokens": 199573,
+    "outputTokens": 47036,
+    "estimatedCostUsd": 0.434753,
+    "lastCallHour": "2026-09-27T17"
   }
 }

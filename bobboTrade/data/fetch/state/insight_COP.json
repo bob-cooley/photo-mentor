@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-27T12:42:19.719679+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $127.30, extending a two-week decline as oil prices remain under pressure from easing geopolitical tension. Earlier in the week, U.S. crude dropped nearly 8% after Iran and the U.S. held talks at the U.N., with Iran proposing a conditional ceasefire\u2014a development that typically weighs on energy stocks because it reduces the risk premium in oil prices. Though Trump's rejection of Iran's proposal on September 26th suggests renewed tension ahead, the market appears to be pricing in the possibility of diplomatic resolution rather than escalation.\n\nThe weakness is also framed by a broader shift in how investors are treating oil as an asset. Rather than a pure play on geopolitical risk, oil is increasingly seen as a hedge against supply shocks and inflation in a resource-constrained world\u2014a more fundamental, less volatile thesis that can coexist with periods of diplomatic calm. With Saudi crude exports hitting their highest level since the Iran conflict began despite pipeline attacks, global supply concerns are easing, which removes some of the upside pressure on prices that would benefit an integrated oil producer like ConocoPhillips.",
+  "fetchedAt": "2026-09-27T17:26:38.924746+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $127.30, extending a week-long decline that has seen the stock drop 7.3% since mid-September. The immediate pressure comes from a shift in geopolitical risk: after U.S. crude oil fell nearly 8% last week on news of Iran-U.S. talks at the U.N., the tone has turned more confrontational again, with Trump rejecting Iran's ceasefire proposal and signaling renewed bombing after midterm elections. Since oil is a major input to ConocoPhillips' profits, the move lower in crude\u2014currently trading at $96.41 per barrel in the U.S. and $114.89 globally\u2014directly undermines the company's earnings outlook.\n\nThe wider context is one of whipsaw volatility in oil markets tied to geopolitical supply shocks. Investors are using oil prices as a hedge against inflation and supply constraints, but the back-and-forth between diplomatic hopes and military escalation with Iran is creating sharp swings that ripple through integrated energy stocks like ConocoPhillips. The recent decline reflects the market's reduced appetite for oil exposure as near-term conflict risk recedes again.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 215,
-    "inputTokens": 186270,
-    "outputTokens": 46019,
-    "estimatedCostUsd": 0.416365,
-    "lastCallHour": "2026-09-27T12"
+    "callsThisMonth": 216,
+    "inputTokens": 187179,
+    "outputTokens": 46287,
+    "estimatedCostUsd": 0.418614,
+    "lastCallHour": "2026-09-27T17"
   }
 }
