@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-27T03:12:04.118264+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $127.30, continuing a week-long slide that has erased 7.3% since mid-September. The timing and magnitude of the decline track closely with shifting geopolitical risk around Iran: last week's U.N. talks between Tehran and Washington sparked an 8% weekly drop in U.S. crude oil (now trading at $96.41 per barrel), and today's move follows Trump's reported rejection of Iran's conditional ceasefire proposal. When oil prices fall sharply, large integrated oil producers like ConocoPhillips see their earnings prospects dim, even if crude remains well above $90.\n\nThe backdrop here is messy geopolitical noise rather than a clean fundamental break. Saudi crude exports are hitting record highs despite infrastructure attacks, and the spread between U.S. and world oil prices remains wide (world crude at $114.89), which normally supports producer valuations\u2014yet the market is clearly nervous about whether U.S.-Iran tensions will ease or escalate, making traders hesitant to hold the stock into that uncertainty.",
+  "fetchedAt": "2026-09-27T06:09:06.386363+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $127.30, extending a week-long decline that has now reached 7.3%. The main driver appears to be oil price weakness: U.S. crude dropped nearly 8% last week after the U.S. and Iran held talks at the United Nations, with Iran proposing conditions for a ceasefire. Even though those talks broke down\u2014Trump rejected Iran's offer and signaled renewed military action\u2014the initial hope for de-escalation had already pressured prices lower, and oil has stayed soft at $96.41 per barrel today, well below the $114.89 price for global crude.\n\nThe broader backdrop is volatile geopolitical risk with conflicting signals. Saudi Arabia is ramping up exports despite ongoing attacks on its infrastructure from Iran-backed groups, which usually tightens supply and supports prices. However, the market seems to be giving more weight right now to the possibility of diplomatic resolution, even a fragile one, over the supply-disruption story. That's kept crude under pressure and dragged down the stock along with it.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 213,
-    "inputTokens": 184502,
-    "outputTokens": 45522,
-    "estimatedCostUsd": 0.412112,
-    "lastCallHour": "2026-09-27T03"
+    "callsThisMonth": 214,
+    "inputTokens": 185386,
+    "outputTokens": 45762,
+    "estimatedCostUsd": 0.414196,
+    "lastCallHour": "2026-09-27T06"
   }
 }

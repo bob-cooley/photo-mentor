@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-27T03:12:18.059792+00:00",
-  "text": "Marathon Petroleum stock rose slightly today, gaining about 0.66%, as crude oil prices stabilized following a week of volatility tied to U.S.-Iran tensions. The stock had fallen sharply earlier in the week\u2014from $424.89 on September 18th to $389.68 by September 22nd\u2014but has recovered modestly over the past two trading days as geopolitical risk receded. U.S. crude sits at $96.41 per barrel, and refineries are running at 94% capacity, which supports refining margins.\n\nThe broader context here is that oil prices swung significantly based on ceasefire negotiations between the U.S. and Iran last week; crude fell nearly 8% for the week as talks progressed, then began recovering when the Trump administration rejected Iran's conditional ceasefire proposal. Refiner stocks like Marathon tend to benefit when crude prices fall (because their input costs drop faster than product prices fall) and stabilize when geopolitical risk becomes clearer\u2014even if that clarity points to renewed tension. The stock's modest bounce today reflects a market settling into the reality of renewed U.S.-Iran friction, rather than a collapse into unknown risk.",
+  "fetchedAt": "2026-09-27T06:09:22.493560+00:00",
+  "text": "Marathon Petroleum edged up 0.66% today to close at $393.52, continuing a recovery from a sharp four-day drop that saw the stock fall nearly 9% from mid-September. The modest gain reflects choppy sentiment around oil markets: crude prices remain volatile as geopolitical tension between the U.S. and Iran swings between escalation (Trump rejecting Iran's ceasefire proposal) and de-escalation (recent UN talks), creating uncertainty for refiners about future energy supply and margins.\n\nThe refining backdrop is mixed. U.S. refineries are running at 94% capacity with healthy fuel stocks (gasoline and diesel both well-stocked), which generally limits upside for refiner profits. However, the 18-point spread between world oil ($114.89/barrel) and U.S. crude ($96.41/barrel) \u2014 a notably wide gap \u2014 could still support margins if Marathon can arbitrage the difference through imports, though geopolitical risk on Middle Eastern supply remains a wildcard keeping investors cautious.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 213,
-    "inputTokens": 196701,
-    "outputTokens": 46289,
-    "estimatedCostUsd": 0.428146,
-    "lastCallHour": "2026-09-27T03"
+    "callsThisMonth": 214,
+    "inputTokens": 197650,
+    "outputTokens": 46517,
+    "estimatedCostUsd": 0.430235,
+    "lastCallHour": "2026-09-27T06"
   }
 }
