@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-27T00:12:45.586379+00:00",
-  "text": "MPC ticked up 0.66% to close at $393.52, continuing a modest recovery after steep losses earlier in the week. The stock fell sharply from September 18 to September 22 (down roughly 8.4%), then stabilized and began recovering over the last three trading days. The driver appears to be oil price volatility tied to geopolitical tension: crude fell nearly 8% last week on Iran-U.S. ceasefire talks, but today's move comes as Trump rejected Iran's conditional ceasefire offer, raising the prospect of renewed conflict and tighter oil supplies. With U.S. crude at $96.41 and world oil at $114.89, refiners benefit from processing spreads, though the 94% utilization rate shows the industry isn't strained yet.\n\nThe underlying story is a shift from de-escalation risk back to supply-shock risk. Saudi Arabia's crude exports have hit their highest level since the Iran conflict began despite attacks on its infrastructure, but any widening of the Middle East conflict threatens those supply lines and could push oil sharply higher \u2014 exactly the kind of supply shock that supports refiner margins and energy prices more broadly.",
+  "fetchedAt": "2026-09-27T03:12:18.059792+00:00",
+  "text": "Marathon Petroleum stock rose slightly today, gaining about 0.66%, as crude oil prices stabilized following a week of volatility tied to U.S.-Iran tensions. The stock had fallen sharply earlier in the week\u2014from $424.89 on September 18th to $389.68 by September 22nd\u2014but has recovered modestly over the past two trading days as geopolitical risk receded. U.S. crude sits at $96.41 per barrel, and refineries are running at 94% capacity, which supports refining margins.\n\nThe broader context here is that oil prices swung significantly based on ceasefire negotiations between the U.S. and Iran last week; crude fell nearly 8% for the week as talks progressed, then began recovering when the Trump administration rejected Iran's conditional ceasefire proposal. Refiner stocks like Marathon tend to benefit when crude prices fall (because their input costs drop faster than product prices fall) and stabilize when geopolitical risk becomes clearer\u2014even if that clarity points to renewed tension. The stock's modest bounce today reflects a market settling into the reality of renewed U.S.-Iran friction, rather than a collapse into unknown risk.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 212,
-    "inputTokens": 195752,
-    "outputTokens": 46030,
-    "estimatedCostUsd": 0.425902,
-    "lastCallHour": "2026-09-27T00"
+    "callsThisMonth": 213,
+    "inputTokens": 196701,
+    "outputTokens": 46289,
+    "estimatedCostUsd": 0.428146,
+    "lastCallHour": "2026-09-27T03"
   }
 }
