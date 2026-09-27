@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-26T21:47:32.941119+00:00",
-  "text": "ConocoPhillips fell 1.6% today, continuing a steep two-week decline of 7.3%. The drop reflects broader uncertainty around oil prices: U.S. crude is trading at $96.41 per barrel, down sharply this week after initial optimism around Iran-U.S. talks at the U.N. faded when Trump rejected Iran's ceasefire proposal and signaled renewed military action. Lower oil prices directly cut into the earnings potential of oil producers like ConocoPhillips.\n\nThe geopolitical situation creates conflicting pressures. While Trump's hardline stance could tighten global oil supplies and support prices, the market is currently pricing in near-term caution\u2014oil fell nearly 8% last week as peace-talk hopes briefly lifted. Saudi Arabia's rising exports despite infrastructure attacks are also keeping supply more abundant than feared, which weighs on the price outlook that matters most to ConocoPhillips' bottom line.",
+  "fetchedAt": "2026-09-27T00:12:32.371254+00:00",
+  "text": "COP fell 1.6% today to $127.30, continuing a sharp week-long slide as geopolitical tensions that had supported oil prices eased. U.S. crude dropped nearly 8% last week after Iran and the U.S. held talks at the UN, with Iran proposing a conditional ceasefire\u2014the opposite direction from what energy stocks need to rally. Though the Trump administration just rejected Iran's offer and signaled renewed military action after midterms, the initial market relief from diplomatic engagement has weighed on oil and refiner valuations already.\n\nThe broader pressure is deeper: U.S. oil sits at $96.41 per barrel while world prices are at $114.89, a wide gap that typically squeezes refiner margins and makes domestic producers less competitive globally. With crude down from higher levels and geopolitical risk temporarily off the table in traders' minds, the sector has given back recent gains despite real supply concerns like attacks on Saudi infrastructure.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 211,
-    "inputTokens": 182734,
-    "outputTokens": 45069,
-    "estimatedCostUsd": 0.408079,
-    "lastCallHour": "2026-09-26T21"
+    "callsThisMonth": 212,
+    "inputTokens": 183618,
+    "outputTokens": 45280,
+    "estimatedCostUsd": 0.410018,
+    "lastCallHour": "2026-09-27T00"
   }
 }
