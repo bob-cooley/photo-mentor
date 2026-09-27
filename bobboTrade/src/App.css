@@ -1205,8 +1205,8 @@
   flex: 1;
   min-height: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 8px;
   align-items: center;
 }
 
@@ -1221,7 +1221,7 @@
 .portfolio-value-pie svg {
   height: 100%;
   max-width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 1.48;
 }
 
 .portfolio-value-list {

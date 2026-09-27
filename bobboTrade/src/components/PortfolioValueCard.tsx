@@ -10,7 +10,7 @@ const SLICE_STYLES = [
 
 const CX = 50;
 const CY = 50;
-const R = 46;
+const R = 38;
 
 function polar(angle: number, radius: number) {
   return [CX + radius * Math.sin(angle), CY - radius * Math.cos(angle)];
@@ -46,8 +46,24 @@ export default function PortfolioValueCard({
       const mid = (start + end) / 2;
       const [x1, y1] = polar(start, R);
       const [x2, y2] = polar(end, R);
-      const [lx, ly] = polar(mid, fraction === 1 ? 0 : R * 0.62);
-      return { ...h, fraction, path: `M ${CX} ${CY} L ${x1} ${y1} A ${R} ${R} 0 ${fraction > 0.5 ? 1 : 0} 1 ${x2} ${y2} Z`, lx, ly };
+      // Leader line: starts just inside the slice edge, angles outward,
+      // then runs a short horizontal to the percentage label.
+      const [ax, ay] = polar(mid, R - 3);
+      const [bx, by] = polar(mid, R + 7);
+      const right = bx >= CX;
+      const cx3 = bx + (right ? 4 : -4);
+      const leader = `${ax},${ay} ${bx},${by} ${cx3},${by}`;
+      return {
+        ...h,
+        fraction,
+        path: `M ${CX} ${CY} L ${x1} ${y1} A ${R} ${R} 0 ${fraction > 0.5 ? 1 : 0} 1 ${x2} ${y2} Z`,
+        leader,
+        tx: cx3 + (right ? 2 : -2),
+        ty: by,
+        anchor: (right ? "start" : "end") as "start" | "end",
+        dotX: ax,
+        dotY: ay,
+      };
     });
 
   return (
@@ -57,7 +73,7 @@ export default function PortfolioValueCard({
       {hasData && (
         <div className="portfolio-value-body">
           <div className="portfolio-value-pie">
-            <svg viewBox="0 0 100 100" role="img" aria-label="Share of portfolio value by stock">
+            <svg viewBox="-24 0 148 100" role="img" aria-label="Share of portfolio value by stock">
               {slices.map((s) =>
                 s.fraction === 1 ? (
                   <circle key={s.ticker} cx={CX} cy={CY} r={R} fill={s.style.fill} />
@@ -66,18 +82,13 @@ export default function PortfolioValueCard({
                 ),
               )}
               {slices.map((s) => (
-                <text
-                  key={`${s.ticker}-label`}
-                  x={s.lx}
-                  y={s.ly}
-                  textAnchor="middle"
-                  fill={s.style.text}
-                  fontSize="7.5"
-                  fontWeight="700"
-                >
-                  <tspan x={s.lx} dy="-1">{s.ticker}</tspan>
-                  <tspan x={s.lx} dy="8.5">{Math.round(s.fraction * 100)}%</tspan>
-                </text>
+                <g key={`${s.ticker}-label`}>
+                  <polyline points={s.leader} fill="none" stroke="#a8acb1" strokeWidth="0.8" />
+                  <circle cx={s.dotX} cy={s.dotY} r="1.2" fill="#a8acb1" />
+                  <text x={s.tx} y={s.ty} textAnchor={s.anchor} dominantBaseline="central" fill="#bec2c7" fontSize="9" fontWeight="600">
+                    {Math.round(s.fraction * 100)}%
+                  </text>
+                </g>
               ))}
             </svg>
           </div>
