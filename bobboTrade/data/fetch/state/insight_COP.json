@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-27T17:26:38.924746+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $127.30, extending a week-long decline that has seen the stock drop 7.3% since mid-September. The immediate pressure comes from a shift in geopolitical risk: after U.S. crude oil fell nearly 8% last week on news of Iran-U.S. talks at the U.N., the tone has turned more confrontational again, with Trump rejecting Iran's ceasefire proposal and signaling renewed bombing after midterm elections. Since oil is a major input to ConocoPhillips' profits, the move lower in crude\u2014currently trading at $96.41 per barrel in the U.S. and $114.89 globally\u2014directly undermines the company's earnings outlook.\n\nThe wider context is one of whipsaw volatility in oil markets tied to geopolitical supply shocks. Investors are using oil prices as a hedge against inflation and supply constraints, but the back-and-forth between diplomatic hopes and military escalation with Iran is creating sharp swings that ripple through integrated energy stocks like ConocoPhillips. The recent decline reflects the market's reduced appetite for oil exposure as near-term conflict risk recedes again.",
+  "fetchedAt": "2026-09-27T20:48:40.706689+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $127.30, continuing a steep two-week decline that has now reached 7.3%. The primary driver appears to be shifting geopolitical risk around Iran: while tensions escalated earlier in the week with Trump rejecting Iran's ceasefire proposal, more recent headlines from September 27 suggest Tehran may be open to diplomacy rather than military confrontation. This reduced perceived risk of supply disruption has eased some of the \"fear premium\" that had buoyed oil prices and energy stocks, despite crude still holding near $96 a barrel domestically and $115 globally.\n\nThe broader context is a whipsaw for oil investors\u2014early-week headlines of potential U.S. bombing campaigns pushed energy stocks higher, but as diplomatic signals improved by week's end, the market repriced downward. Energy companies like ConocoPhillips benefit when geopolitical uncertainty drives oil prices higher, but lose those gains quickly when tensions appear to ease.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 216,
-    "inputTokens": 187179,
-    "outputTokens": 46287,
-    "estimatedCostUsd": 0.418614,
-    "lastCallHour": "2026-09-27T17"
+    "callsThisMonth": 217,
+    "inputTokens": 188088,
+    "outputTokens": 46505,
+    "estimatedCostUsd": 0.420613,
+    "lastCallHour": "2026-09-27T20"
   }
 }
