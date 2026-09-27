@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-27T06:09:22.493560+00:00",
-  "text": "Marathon Petroleum edged up 0.66% today to close at $393.52, continuing a recovery from a sharp four-day drop that saw the stock fall nearly 9% from mid-September. The modest gain reflects choppy sentiment around oil markets: crude prices remain volatile as geopolitical tension between the U.S. and Iran swings between escalation (Trump rejecting Iran's ceasefire proposal) and de-escalation (recent UN talks), creating uncertainty for refiners about future energy supply and margins.\n\nThe refining backdrop is mixed. U.S. refineries are running at 94% capacity with healthy fuel stocks (gasoline and diesel both well-stocked), which generally limits upside for refiner profits. However, the 18-point spread between world oil ($114.89/barrel) and U.S. crude ($96.41/barrel) \u2014 a notably wide gap \u2014 could still support margins if Marathon can arbitrage the difference through imports, though geopolitical risk on Middle Eastern supply remains a wildcard keeping investors cautious.",
+  "fetchedAt": "2026-09-27T12:42:39.630640+00:00",
+  "text": "Marathon Petroleum rose 0.66% today to $393.52, a small gain that comes after the stock fell sharply over the prior week\u2014dropping from $424.89 to $389.68 between September 18 and 22. The modest recovery appears tied to a shift in oil-market sentiment: Trump's rejection of Iran's ceasefire proposal on September 26 (reported by WSJ) has raised the prospect of renewed U.S. military action, which typically supports crude prices by increasing supply-disruption risk. U.S. crude sits at $96.41 per barrel after falling nearly 8% the prior week when Iran-U.S. talks looked promising; the geopolitical escalation has likely steadied that decline and supported refiner margins.\n\nThe broader context matters: U.S. refineries are running at 94% capacity with moderate crude inventories at 711 million barrels\u2014refinery utilization is high enough to benefit from any price stability, and the uncertainty around Middle Eastern supply disruptions may have halted the prior week's sharp selloff that hit the stock. However, the stock remains down 8% since mid-September despite today's bounce, suggesting the market still harbors concerns about oil demand or refining economics that go beyond today's geopolitical noise.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 214,
-    "inputTokens": 197650,
-    "outputTokens": 46517,
-    "estimatedCostUsd": 0.430235,
-    "lastCallHour": "2026-09-27T06"
+    "callsThisMonth": 215,
+    "inputTokens": 198599,
+    "outputTokens": 46800,
+    "estimatedCostUsd": 0.432599,
+    "lastCallHour": "2026-09-27T12"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-27T06:09:06.386363+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $127.30, extending a week-long decline that has now reached 7.3%. The main driver appears to be oil price weakness: U.S. crude dropped nearly 8% last week after the U.S. and Iran held talks at the United Nations, with Iran proposing conditions for a ceasefire. Even though those talks broke down\u2014Trump rejected Iran's offer and signaled renewed military action\u2014the initial hope for de-escalation had already pressured prices lower, and oil has stayed soft at $96.41 per barrel today, well below the $114.89 price for global crude.\n\nThe broader backdrop is volatile geopolitical risk with conflicting signals. Saudi Arabia is ramping up exports despite ongoing attacks on its infrastructure from Iran-backed groups, which usually tightens supply and supports prices. However, the market seems to be giving more weight right now to the possibility of diplomatic resolution, even a fragile one, over the supply-disruption story. That's kept crude under pressure and dragged down the stock along with it.",
+  "fetchedAt": "2026-09-27T12:42:19.719679+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $127.30, extending a two-week decline as oil prices remain under pressure from easing geopolitical tension. Earlier in the week, U.S. crude dropped nearly 8% after Iran and the U.S. held talks at the U.N., with Iran proposing a conditional ceasefire\u2014a development that typically weighs on energy stocks because it reduces the risk premium in oil prices. Though Trump's rejection of Iran's proposal on September 26th suggests renewed tension ahead, the market appears to be pricing in the possibility of diplomatic resolution rather than escalation.\n\nThe weakness is also framed by a broader shift in how investors are treating oil as an asset. Rather than a pure play on geopolitical risk, oil is increasingly seen as a hedge against supply shocks and inflation in a resource-constrained world\u2014a more fundamental, less volatile thesis that can coexist with periods of diplomatic calm. With Saudi crude exports hitting their highest level since the Iran conflict began despite pipeline attacks, global supply concerns are easing, which removes some of the upside pressure on prices that would benefit an integrated oil producer like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 214,
-    "inputTokens": 185386,
-    "outputTokens": 45762,
-    "estimatedCostUsd": 0.414196,
-    "lastCallHour": "2026-09-27T06"
+    "callsThisMonth": 215,
+    "inputTokens": 186270,
+    "outputTokens": 46019,
+    "estimatedCostUsd": 0.416365,
+    "lastCallHour": "2026-09-27T12"
   }
 }
