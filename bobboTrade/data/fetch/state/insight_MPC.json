@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-27T20:48:57.852055+00:00",
-  "text": "Stock price for Marathon Petroleum edged up 0.66% today to close at $393.52, recovering modestly from a sharp three-day sell-off that wiped out 8.5% of the stock's value between September 18 and September 23. The rebound aligns with a slight stabilization in crude oil prices after escalating geopolitical tensions between the U.S. and Iran\u2014a refiner's fortunes hinge heavily on the spread between crude oil input costs and refined product prices (gasoline, diesel), so the uncertainty and volatility in the crude markets over the past week created real pressure on the stock.\n\nThe broader headwind remains the wide gap between U.S. crude at $96.41 and world crude at $114.89 per barrel, which constrains refining margins. Refineries are running at 94% capacity, and storage levels for gasoline and diesel are elevated, both of which suggest demand is tepid relative to supply\u2014exactly the environment where a refiner struggles to convert cheap feedstock into profitable sales.",
+  "fetchedAt": "2026-09-27T23:36:22.717898+00:00",
+  "text": "Marathon Petroleum rose modestly today after a sharp week-long selloff. The stock's recovery is modest and coincides with stabilization in crude oil markets following the back-and-forth on U.S.-Iran tensions\u2014crude fell nearly 8% last week on hopes of diplomatic progress, but today's news of Trump rejecting Iran's ceasefire offer and signaling renewed military action after midterms may have halted further weakness. US crude is holding near $96/barrel, and refineries are running at 94% capacity with healthy product inventories, supporting the company's refining margins.\n\nThe broader picture is one of volatility around geopolitical risk. The stock dropped over 8% from mid-September to just three days ago amid oil price swings tied to Iran-U.S. rhetoric, and today's slight recovery reflects the market's uncertainty\u2014investors are still pricing in conflicting signals of escalation versus diplomacy, which naturally limits any sustained price movement in either direction.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 217,
-    "inputTokens": 200547,
-    "outputTokens": 47267,
-    "estimatedCostUsd": 0.436882,
-    "lastCallHour": "2026-09-27T20"
+    "callsThisMonth": 218,
+    "inputTokens": 201521,
+    "outputTokens": 47479,
+    "estimatedCostUsd": 0.438916,
+    "lastCallHour": "2026-09-27T23"
   }
 }
