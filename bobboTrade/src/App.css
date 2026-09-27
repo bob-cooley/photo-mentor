@@ -1192,3 +1192,69 @@
   border-top: 1px solid var(--card-border);
 }
 
+
+/* Portfolio Value card: fixed 16:8 box, pie on the left, values on the right */
+.portfolio-value-card {
+  aspect-ratio: 16 / 8;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.portfolio-value-body {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: center;
+}
+
+.portfolio-value-pie {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-value-pie svg {
+  height: 100%;
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+
+.portfolio-value-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.portfolio-value-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.portfolio-value-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+}
+
+.portfolio-value-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex: none;
+}
+
+.portfolio-value-total {
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid var(--card-border);
+  font-size: 18px;
+}

@@ -40,6 +40,7 @@ import AnalystConsensusCard from "./components/AnalystConsensusCard";
 import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
 import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
+import PortfolioValueCard from "./components/PortfolioValueCard";
 import DividendsCard from "./components/DividendsCard";
 import "./App.css";
 
@@ -70,6 +71,8 @@ export default function App() {
   const [dividends, setDividends] = useState<DividendData | null>(null);
   const [insight, setInsight] = useState<InsightData | null>(null);
   const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
+  // Share counts for every ticker, for the combined Portfolio Value card.
+  const [portfolios, setPortfolios] = useState<Record<string, PortfolioConfig | null>>({});
   const [loading, setLoading] = useState(true);
 
   const market = quotes[ticker] ?? null;
@@ -85,6 +88,14 @@ export default function App() {
           next[t] = results[i];
         });
         setQuotes(next);
+      });
+      Promise.all(TICKERS.map((t) => loadPortfolioConfig(t))).then((results) => {
+        if (cancelled) return;
+        const next: Record<string, PortfolioConfig | null> = {};
+        TICKERS.forEach((t, i) => {
+          next[t] = results[i];
+        });
+        setPortfolios(next);
       });
     };
 
@@ -142,6 +153,7 @@ export default function App() {
     const result = await savePortfolioConfig(ticker, shares);
     if (result === null) return false;
     setPortfolio(result);
+    setPortfolios((prev) => ({ ...prev, [ticker]: result }));
     return true;
   }
 
@@ -154,7 +166,6 @@ export default function App() {
         </div>
         <div className="ticker-switcher">
           {TICKERS.map((t) => {
-            const config = getStockConfig(t);
             const quote = quotes[t];
             return (
               <button
@@ -162,7 +173,7 @@ export default function App() {
                 className={`ticker-toggle ${t === ticker ? "active" : ""}`}
                 onClick={() => setTicker(t)}
               >
-                <span className="app-stock-name">{config.name}</span>
+                <span className="app-stock-name">{t}</span>
                 {quote && (
                   <span className={`app-quote ${quote.quote.change >= 0 ? "up" : "down"}`}>
                     ${quote.quote.price.toFixed(2)}
@@ -185,6 +196,7 @@ export default function App() {
 
         <section className="col col-chart">
           <ChartColumn market={market} intraday={intraday} loading={loading} ticker={stock.ticker} />
+          <PortfolioValueCard tickers={TICKERS} quotes={quotes} portfolios={portfolios} />
           <RSICard rsi={rsi} loading={loading} ticker={stock.ticker} />
           <CrackSpreadCard crackSpread={crackSpread} loading={loading} ticker={stock.ticker} />
           <InsiderCard insider={insider} loading={loading} ticker={stock.ticker} />
