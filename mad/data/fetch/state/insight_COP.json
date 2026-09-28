@@ -1,0 +1,14 @@
+{
+  "ticker": "COP",
+  "fetchedAt": "2026-09-28T03:46:29.573414+00:00",
+  "text": "ConocoPhillips fell 1.6% today, extending a week-long decline that's brought the stock down 7.3% since mid-September. The underlying driver is crude oil prices: U.S. oil dropped nearly 8% last week after Iran and the U.S. held talks at the U.N., reducing immediate geopolitical risk and easing investor worries about supply disruptions. Even with tentative diplomatic progress, oil remains volatile\u2014U.S. crude sits at $96.41 per barrel today, and broader Middle East tensions (including Trump's reported plans for renewed bombing after the midterms) keep upside pressure limited.\n\nOil majors like ConocoPhillips are highly exposed to the price of crude, so when oil weakens on de-escalation hopes, the stock typically follows. The gap between U.S. and world oil prices ($96 vs. $115) suggests transportation and geopolitical premiums are still baked in, meaning markets aren't fully convinced the Iran situation is resolved\u2014that uncertainty is likely keeping a lid on the stock's recovery.",
+  "status": "ok",
+  "usage": {
+    "month": "2026-09",
+    "callsThisMonth": 1,
+    "inputTokens": 909,
+    "outputTokens": 240,
+    "estimatedCostUsd": 0.002109,
+    "lastCallHour": "2026-09-28T03"
+  }
+}

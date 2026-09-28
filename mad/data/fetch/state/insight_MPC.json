@@ -1,0 +1,14 @@
+{
+  "ticker": "MPC",
+  "fetchedAt": "2026-09-28T03:46:59.348170+00:00",
+  "text": "Marathon Petroleum edged up 0.66% today, recovering slightly after a steep drop over the past week that wiped out 8.5% since mid-September. The rebound follows oil prices stabilizing after falling nearly 8% last week on news of U.S.-Iran diplomatic talks at the U.N., though geopolitical tensions remain unsettled\u2014Trump has reportedly rejected Iran's conditional ceasefire proposal, creating uncertainty about whether oil prices will stay depressed or spike again if conflict escalates.\n\nThe company is operating in a mixed environment for refiners right now. U.S. crude is trading at $96.41 per barrel versus $114.89 globally, and refineries are running at 94% capacity\u2014solid utilization, but the wide gap between domestic and international oil prices limits the profit margins refiners typically capture when they can arbitrage cheaper crude into higher-value products. With gasoline and diesel inventories well-stocked, refiners have less pricing power on the output side either.",
+  "status": "ok",
+  "usage": {
+    "month": "2026-09",
+    "callsThisMonth": 1,
+    "inputTokens": 974,
+    "outputTokens": 220,
+    "estimatedCostUsd": 0.002074,
+    "lastCallHour": "2026-09-28T03"
+  }
+}
