@@ -248,6 +248,13 @@ jobs:
     # own 4 calls, that's 8/min from two tickers alone, right at Twelve
     # Data's free-tier cap).
     if: github.event_name != 'schedule'
+    # On a push, this job and deploy-bobbotrade both trigger and would
+    # otherwise fetch in parallel — confirmed live (429 on MPC intraday,
+    # twice) that this alone re-trips the same shared-key collision the
+    # schedule guard above was meant to prevent. Running after
+    # deploy-bobbotrade finishes (rather than in parallel) puts mad's 4
+    # Twelve Data calls safely outside bobboTrade's per-minute window.
+    needs: deploy-bobbotrade
     runs-on: ubuntu-latest
     # Same reasoning as deploy-bobbotrade: avoid two parallel runs both
     # missing the hourly AI-insight gate, and avoid the commit step
