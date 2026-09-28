@@ -1,0 +1,24 @@
+{
+  "ticker": "MPC",
+  "name": "Marathon Petroleum Corporation",
+  "sector": "Energy — Refining & Marketing",
+  "cik": "0001510295",
+  "dataSources": {
+    "market": "market",
+    "energy": "energy",
+    "news": "news",
+    "analyst": "analyst"
+  },
+  "dividends": {
+    "paymentDay": 10,
+    "note": "MPC pays quarterly, ~the 10th of March, June, September and December. Dividend amounts come from SEC XBRL filings; payment dates aren't in that data, so they're derived from this day. Adjust if the schedule ever shifts."
+  },
+  "energyIndicators": [
+    { "id": "wti", "label": "US Oil Price", "eiaSeries": "PET.RWTC.D" },
+    { "id": "brent", "label": "World Oil Price", "eiaSeries": "PET.RBRTE.D" },
+    { "id": "refinery_utilization", "label": "Refineries Running At", "eiaSeries": "PET.WPULEUS3.W" },
+    { "id": "crude_inventories", "label": "Oil in Storage", "eiaSeries": "PET.WCRSTUS1.W" },
+    { "id": "gasoline_inventories", "label": "Gasoline in Storage", "eiaSeries": "PET.WGTSTUS1.W" },
+    { "id": "distillate_inventories", "label": "Diesel & Heating Oil in Storage", "eiaSeries": "PET.WDISTUS1.W" }
+  ]
+}

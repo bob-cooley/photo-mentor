@@ -39,6 +39,7 @@ jobs:
             .github/**
             injections/**
             bobboTrade/**
+            mad/**
             light-detective/**
             NBHS86/**
 
@@ -232,6 +233,81 @@ jobs:
           else
             git add bobboTrade/data/fetch/state/
             git commit -m "bobboTrade: update pipeline state [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+  deploy-mad:
+    runs-on: ubuntu-latest
+    # Same reasoning as deploy-bobbotrade: avoid two parallel runs both
+    # missing the hourly AI-insight gate, and avoid the commit step
+    # racing itself. Separate group from deploy-bobbotrade — the two
+    # apps' pipelines are independent and shouldn't queue behind each
+    # other.
+    concurrency:
+      group: deploy-mad
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: mad/package-lock.json
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install frontend dependencies
+        working-directory: mad
+        run: npm ci
+
+      - name: Install data pipeline dependencies
+        working-directory: mad/data/fetch
+        run: pip install -r requirements.txt
+
+      - name: Fetch market/energy/analyst/news/dividend/insight data
+        working-directory: mad/data/fetch
+        env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python run_all.py
+
+      - name: Build frontend
+        working-directory: mad
+        run: npm run build
+
+      - name: Deploy mad to bobcooleyphoto.com/mad/
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/bobcooleyphoto/mad/
+          local-dir: ./mad/dist/
+          exclude: |
+            **/.git*
+            **/.git*/**
+
+      - name: Commit pipeline state
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain -- mad/data/fetch/state/)" ]; then
+            echo "No pipeline state changes to commit."
+          else
+            git add mad/data/fetch/state/
+            git commit -m "mad: update pipeline state [skip ci]"
             git pull --rebase origin main
             git push origin main
           fi

@@ -1,0 +1,20 @@
+{
+  "ticker": "COP",
+  "name": "ConocoPhillips",
+  "sector": "Energy — Exploration & Production",
+  "cik": "0001163165",
+  "dataSources": {
+    "market": "market",
+    "energy": "energy",
+    "news": "news",
+    "analyst": "analyst"
+  },
+  "dividends": {
+    "paymentDay": 1,
+    "note": "ConocoPhillips pays quarterly, ~the 1st of March, June, September and December. Dividend amounts come from SEC XBRL filings; payment dates aren't in that data, so they're derived from this day. Adjust if the schedule ever shifts."
+  },
+  "energyIndicators": [
+    { "id": "wti", "label": "US Oil Price", "eiaSeries": "PET.RWTC.D" },
+    { "id": "brent", "label": "World Oil Price", "eiaSeries": "PET.RBRTE.D" }
+  ]
+}

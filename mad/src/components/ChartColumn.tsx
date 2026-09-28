@@ -1,0 +1,156 @@
+import { useEffect, useRef, useState } from "react";
+import { createChart, ColorType, type IChartApi, type ISeriesApi, type UTCTimestamp } from "lightweight-charts";
+import type { IntradayData, MarketData } from "../types";
+
+type Timeframe = "1D" | "1W" | "1M" | "3M" | "6M" | "1Y" | "5Y";
+
+const TIMEFRAMES: Timeframe[] = ["1D", "1W", "1M", "3M", "6M", "1Y", "5Y"];
+const INTRADAY_TIMEFRAMES = new Set<Timeframe>(["1D", "1W"]);
+const DAILY_TIMEFRAME_DAYS: Partial<Record<Timeframe, number>> = {
+  "1M": 30,
+  "3M": 90,
+  "6M": 182,
+  "1Y": 365,
+  "5Y": 365 * 5,
+};
+
+// 5-minute bars during a ~6.5hr NYSE session, times over to cover 1W
+// even on a short/holiday-adjacent week.
+const ONE_WEEK_BAR_COUNT = 78 * 5;
+
+const UP_COLOR = "#34c759";
+const DOWN_COLOR = "#ff6e64"; // matches --down in index.css (6.11:1 contrast, up from 4.91:1)
+
+function nyLocalDateKey(unixSeconds: number): string {
+  return new Date(unixSeconds * 1000).toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+}
+
+export default function ChartColumn({
+  market,
+  intraday,
+  loading,
+  ticker,
+}: {
+  market: MarketData | null;
+  intraday: IntradayData | null;
+  loading: boolean;
+  ticker: string;
+}) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const chartRef = useRef<IChartApi | null>(null);
+  const seriesRef = useRef<ISeriesApi<"Area"> | null>(null);
+  const [timeframe, setTimeframe] = useState<Timeframe>("1D");
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+
+    const chart = createChart(containerRef.current, {
+      layout: {
+        background: { type: ColorType.Solid, color: "transparent" },
+        textColor: "#9a9fa6",
+        fontFamily: "Inter, -apple-system, sans-serif",
+        // The library's Apache-2.0 license requires either this logo or an
+        // equivalent visible attribution + link to tradingview.com elsewhere
+        // on the page — see the text credit below the chart, which covers it.
+        attributionLogo: false,
+      },
+      grid: {
+        vertLines: { visible: false },
+        horzLines: { color: "rgba(255,255,255,0.05)" },
+      },
+      rightPriceScale: { borderVisible: false },
+      timeScale: { borderVisible: false },
+      crosshair: { mode: 0 },
+      autoSize: true,
+    });
+
+    const series = chart.addAreaSeries({
+      lineWidth: 2,
+      priceLineVisible: true,
+      lastValueVisible: true,
+      crosshairMarkerRadius: 4,
+    });
+
+    chartRef.current = chart;
+    seriesRef.current = series;
+
+    return () => {
+      chart.remove();
+      chartRef.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!seriesRef.current) return;
+
+    let points: { time: UTCTimestamp | string; value: number }[];
+
+    if (INTRADAY_TIMEFRAMES.has(timeframe)) {
+      if (!intraday || intraday.bars.length === 0) return;
+      const bars = intraday.bars;
+      const sliced =
+        timeframe === "1D"
+          ? (() => {
+              const latestDay = nyLocalDateKey(bars[bars.length - 1].time);
+              return bars.filter((b) => nyLocalDateKey(b.time) === latestDay);
+            })()
+          : bars.slice(-ONE_WEEK_BAR_COUNT);
+      points = sliced.map((b) => ({ time: b.time as UTCTimestamp, value: b.close }));
+    } else {
+      if (!market) return;
+      const days = DAILY_TIMEFRAME_DAYS[timeframe] ?? 365;
+      const sliced = market.history.slice(-days);
+      points = sliced.map((p) => ({ time: p.time, value: p.close }));
+    }
+
+    if (points.length === 0) return;
+
+    // Apple Stocks-style: the whole line's color reflects net direction
+    // over the visible period, not a per-point up/down flicker. For 1D
+    // specifically, "direction" means vs. yesterday's close (what
+    // "the stock is up/down today" actually means) -- comparing against
+    // today's own first bar is wrong on gap days: a stock can open well
+    // below yesterday's close, drift up slightly during the day, and
+    // read as a green "up" day here while every other reference (the
+    // header quote, any other app) correctly shows it red.
+    const referenceValue =
+      timeframe === "1D" && market?.quote.previousClose != null ? market.quote.previousClose : points[0].value;
+    const isUp = points[points.length - 1].value >= referenceValue;
+    const color = isUp ? UP_COLOR : DOWN_COLOR;
+    seriesRef.current.applyOptions({
+      lineColor: color,
+      topColor: isUp ? "rgba(52,199,89,0.32)" : "rgba(255,110,100,0.32)",
+      bottomColor: isUp ? "rgba(52,199,89,0.01)" : "rgba(255,110,100,0.01)",
+    });
+
+    seriesRef.current.setData(points);
+    chartRef.current?.timeScale().fitContent();
+  }, [market, intraday, timeframe]);
+
+  return (
+    <div className="card chart-card">
+      <div className="chart-header">
+        <h2 className="card-title" style={{ margin: 0 }}>
+          {ticker} Price
+        </h2>
+        <div className="timeframe-picker">
+          {TIMEFRAMES.map((tf) => (
+            <button
+              key={tf}
+              className={`timeframe-btn ${timeframe === tf ? "active" : ""}`}
+              onClick={() => setTimeframe(tf)}
+            >
+              {tf}
+            </button>
+          ))}
+        </div>
+      </div>
+      <div className="chart-container" ref={containerRef}>
+        {loading && <div className="skeleton" style={{ position: "absolute", inset: 0 }} />}
+      </div>
+      <a className="chart-attribution" href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer">
+        Charts by TradingView Lightweight Charts
+      </a>
+    </div>
+  );
+}

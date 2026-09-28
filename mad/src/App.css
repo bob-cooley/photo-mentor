@@ -1,0 +1,1260 @@
+.app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--card-border);
+  position: sticky;
+  top: 0;
+  background: rgba(11, 13, 16, 0.75);
+  backdrop-filter: blur(16px);
+  z-index: 10;
+}
+
+.app-header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.app-title {
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+}
+
+.app-ticker {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-secondary);
+  padding: 3px 8px;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+}
+
+.ticker-switcher {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ticker-toggle {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 8px 16px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.ticker-toggle:hover {
+  border-color: var(--text-secondary);
+}
+
+.ticker-toggle.active {
+  border-color: var(--accent);
+  background: rgba(61, 139, 253, 0.1);
+}
+
+.app-stock-name {
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.app-quote {
+  font-size: 20px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.app-quote.up {
+  color: var(--up);
+}
+
+.app-quote.down {
+  color: var(--down);
+}
+
+.app-quote-change {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.dashboard {
+  flex: 1;
+  display: grid;
+  /* fr tracks divide the space that's LEFT after the gaps, so the three
+     columns + 2 gaps + horizontal padding always sum to exactly the
+     viewport width — no overflow, no clipped right edge. Percentage
+     tracks (used to be 30/50/20) don't subtract the gap and overflowed
+     by gap+padding, which is what clipped the right column on iPad. */
+  grid-template-columns: minmax(0, 3fr) minmax(0, 5fr) minmax(0, 2fr);
+  gap: 20px;
+  padding: 24px 32px 40px;
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* iPad landscape is the primary target (mini 1133 / base+Air 1180 /
+   Pro 11" 1194 / Pro 12.9" 1366) -- horizontal 3-column stays intact
+   through this whole range, just tighter, instead of collapsing to a
+   vertical stack the way desktop-only breakpoints would. */
+@media (max-width: 1400px) {
+  .dashboard {
+    grid-template-columns: minmax(0, 29fr) minmax(0, 44fr) minmax(0, 27fr);
+    gap: 14px;
+    padding: 16px 16px 28px;
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  margin: 0 0 14px;
+}
+
+.card-title.up {
+  color: var(--up);
+}
+
+.card-title.down {
+  color: var(--down);
+}
+
+/* Card header with an inline info (ⓘ) button next to the title. */
+.card-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.card-title-row .card-title {
+  margin: 0;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 25%, rgba(255, 255, 255, 0.09) 37%, rgba(255, 255, 255, 0.04) 63%);
+  background-size: 400% 100%;
+  animation: shimmer 1.6s ease infinite;
+  border-radius: var(--radius-sm);
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+/* Below this: iPad portrait (mini 744 / base+Air 820 / Pro 11" 834)
+   and phones. Every iPad landscape width stays 3-column above. */
+@media (max-width: 1023px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  /* Single-column stack: lead with the price chart and the at-a-glance
+     right-column cards; push the newsfeed (long, scroll-heavy) to the
+     bottom. DOM order stays news / chart / right for the desktop grid. */
+  .col-chart {
+    order: 1;
+  }
+
+  .col-right {
+    order: 2;
+  }
+
+  .col-news {
+    order: 3;
+  }
+}
+
+/* News column */
+
+.news-card {
+  flex: 1;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.news-item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.news-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.news-item-button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--card-border);
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s ease;
+}
+
+.news-item-button:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.news-item-button:last-child {
+  border-bottom: none;
+}
+
+.news-headline {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  letter-spacing: -0.01em;
+}
+
+.news-summary {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 10px;
+}
+
+.news-meta {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.news-source {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.news-dot {
+  margin: 0 6px;
+}
+
+.empty-state {
+  color: var(--text-tertiary);
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Chart column */
+
+.chart-card {
+  display: flex;
+  flex-direction: column;
+  height: 620px;
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.timeframe-picker {
+  display: flex;
+  gap: 2px;
+  background: var(--bg-elevated);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.timeframe-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.timeframe-btn.active {
+  background: var(--card);
+  color: var(--text-primary);
+}
+
+.chart-container {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+}
+
+.chart-attribution {
+  display: block;
+  text-align: right;
+  font-size: 11px;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  margin-top: 8px;
+}
+
+.chart-attribution:hover {
+  text-decoration: underline;
+}
+
+/* Analyst consensus */
+
+.consensus-body {
+  text-align: center;
+}
+
+.consensus-big {
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 14px;
+}
+
+.consensus-breakdown {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 15px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.consensus-target {
+  font-size: 15px;
+  color: var(--text-tertiary);
+}
+
+.consensus-trend {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--card-border);
+  text-align: left;
+}
+
+.consensus-trend-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-tertiary);
+  margin-bottom: 8px;
+}
+
+.consensus-trend-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.consensus-trend-table th {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-tertiary);
+  text-align: right;
+  padding: 2px 0;
+}
+
+.consensus-trend-table th:first-child {
+  text-align: left;
+}
+
+.consensus-trend-table td {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: right;
+  padding: 3px 0;
+}
+
+.consensus-trend-table td:first-child {
+  text-align: left;
+  color: var(--text-tertiary);
+}
+
+.consensus-trend-current td {
+  color: var(--text-primary);
+  font-weight: 700;
+  border-top: 1px solid var(--card-border);
+}
+
+.consensus-trend-warning {
+  margin: 8px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--down);
+}
+
+/* Two-week movement */
+
+.movement-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.movement-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 0;
+}
+
+.movement-arrow {
+  width: 120px;
+  height: 84px;
+}
+
+.movement-visual.up .movement-arrow {
+  fill: var(--up);
+}
+
+.movement-visual.down .movement-arrow {
+  fill: var(--down);
+}
+
+.movement-pct {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.movement-visual.up .movement-pct {
+  color: var(--up);
+}
+
+.movement-visual.down .movement-pct {
+  color: var(--down);
+}
+
+/* Energy indicators */
+
+.energy-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.energy-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.energy-label {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.energy-value {
+  font-size: 18px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* AI placeholder */
+
+.ai-placeholder {
+  border-style: dashed;
+  opacity: 0.7;
+}
+
+.ai-placeholder.ai-insight-active {
+  border-style: solid;
+  opacity: 1;
+}
+
+.ai-insight-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.ai-insight-arrow {
+  height: 1em;
+  width: auto;
+  fill: currentColor;
+}
+
+.ai-placeholder-text {
+  font-size: 15px;
+  color: var(--text-tertiary);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.ai-insight-text {
+  color: var(--text-primary);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.ai-insight-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Portfolio */
+
+.portfolio-input {
+  width: 100%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 16px;
+  padding: 10px 12px;
+}
+
+.portfolio-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.portfolio-value-change.up {
+  color: var(--up);
+}
+
+.portfolio-value-change.down {
+  color: var(--down);
+}
+
+.portfolio-trim {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.portfolio-trim-label {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-row-value {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.portfolio-edit-link {
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
+
+.portfolio-edit-link:hover {
+  color: var(--text-secondary);
+}
+
+.portfolio-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.portfolio-edit-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.portfolio-btn {
+  flex: 1;
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.portfolio-actions-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.portfolio-actions-right .portfolio-btn {
+  flex: none;
+}
+
+.portfolio-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.portfolio-btn-primary {
+  background: var(--up);
+  border-color: var(--up);
+  color: #06240f;
+}
+
+.portfolio-error {
+  color: var(--down);
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Article modal — full story text, no ads, read in-app */
+
+.article-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+}
+
+.article-modal {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  max-width: 640px;
+  width: 100%;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  overflow: hidden;
+}
+
+.article-modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.article-modal-meta {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.article-modal-source {
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.article-modal-close {
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  color: var(--text-secondary);
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.article-modal-headline {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0 0 16px;
+}
+
+.article-modal-body {
+  overflow-y: auto;
+  padding-right: 4px;
+  margin-bottom: 16px;
+}
+
+.article-modal-body p {
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin: 0 0 16px;
+}
+
+.article-modal-body p:last-child {
+  margin-bottom: 0;
+}
+
+.article-modal-source-link {
+  display: block;
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid var(--card-border);
+  color: var(--up);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.article-modal-source-link:hover {
+  text-decoration: underline;
+}
+
+/* Info popup (ⓘ) — trigger button + centered explainer modal.
+   Shares the backdrop/card treatment with .article-modal above. */
+
+.info-popup-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* 6px padding + negative margin keeps a ~30px tap target without
+     nudging the title baseline. */
+  padding: 6px;
+  margin: -6px -6px -6px 0;
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 999px;
+  transition: color 0.15s ease;
+}
+
+.info-popup-trigger:hover {
+  color: var(--text-secondary);
+}
+
+.info-popup-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  z-index: 100;
+}
+
+.info-popup {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  max-width: 420px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.info-popup-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.info-popup-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.info-popup-close {
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  color: var(--text-secondary);
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 999px;
+  font-size: 15px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.info-popup-section {
+  margin-bottom: 18px;
+}
+
+.info-popup-section:last-child {
+  margin-bottom: 0;
+}
+
+.info-popup-section-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-tertiary);
+  margin-bottom: 6px;
+}
+
+.info-popup-section p {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+/* RSI card — center column, below the price chart. */
+
+.rsi-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.rsi-big {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.rsi-zone-label {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.rsi-zone-overbought,
+.rsi-zone-oversold {
+  color: var(--down);
+}
+
+.rsi-zone-neutral {
+  color: var(--up);
+}
+
+.rsi-scale {
+  margin-top: 18px;
+}
+
+.rsi-track {
+  position: relative;
+  height: 12px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 110, 100, 0.45) 0%,
+    rgba(255, 110, 100, 0.45) 30%,
+    rgba(52, 199, 89, 0.45) 30%,
+    rgba(52, 199, 89, 0.45) 70%,
+    rgba(255, 110, 100, 0.45) 70%,
+    rgba(255, 110, 100, 0.45) 100%
+  );
+}
+
+.rsi-marker {
+  position: absolute;
+  top: -3px;
+  width: 4px;
+  height: 18px;
+  border-radius: 2px;
+  background: var(--text-primary);
+  box-shadow: 0 0 0 2px var(--card);
+  transform: translateX(-50%);
+}
+
+.rsi-scale-ticks {
+  position: relative;
+  height: 16px;
+  margin-top: 6px;
+}
+
+.rsi-scale-ticks span {
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Crack Spread card — center column, below RSI. */
+
+.crack-value {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.crack-unit {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  margin-left: 4px;
+}
+
+.crack-change {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.crack-change.up {
+  color: var(--up);
+}
+
+.crack-change.down {
+  color: var(--down);
+}
+
+.crack-trend {
+  display: inline-block;
+  margin-top: 14px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
+
+.crack-trend-expanding {
+  color: var(--up);
+}
+
+.crack-trend-compressing {
+  color: var(--down);
+}
+
+.crack-trend-stable {
+  color: var(--text-tertiary);
+}
+
+/* Insider Activity card — center column. */
+
+.insider-sentiment {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
+
+.insider-sentiment-bullish {
+  color: var(--up);
+}
+
+.insider-sentiment-bearish {
+  color: var(--down);
+}
+
+.insider-sentiment-neutral {
+  color: var(--text-tertiary);
+}
+
+.insider-counts {
+  margin-top: 12px;
+  font-size: 15px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.insider-dot {
+  margin: 0 8px;
+  color: var(--text-tertiary);
+}
+
+.insider-net {
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Trading Volume card — center column. */
+
+.volume-big {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.volume-unit {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-tertiary);
+}
+
+.volume-sub {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.volume-ratio {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.volume-class {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+}
+
+.volume-class-high {
+  color: var(--hold);
+}
+
+.volume-class-normal,
+.volume-class-low {
+  color: var(--text-tertiary);
+}
+
+/* Dividends card — center column, below Trading Volume. */
+
+.dividend-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dividend-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 16px;
+}
+
+.dividend-row span {
+  color: var(--text-secondary);
+}
+
+.dividend-row strong {
+  font-variant-numeric: tabular-nums;
+}
+
+.dividend-pershare {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.dividend-hint {
+  font-size: 14px;
+  color: var(--text-tertiary);
+}
+
+.dividend-basis {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.dividend-history-btn {
+  width: 100%;
+  margin-top: 16px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.dividend-history-btn:hover {
+  border-color: var(--text-secondary);
+}
+
+.dividend-history-modal {
+  max-width: 460px;
+}
+
+.dividend-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.dividend-history-table th {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-tertiary);
+  text-align: right;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.dividend-history-table th:first-child {
+  text-align: left;
+}
+
+.dividend-history-table td {
+  font-size: 15px;
+  color: var(--text-primary);
+  text-align: right;
+  padding: 7px 0;
+}
+
+.dividend-history-table td:first-child {
+  text-align: left;
+  color: var(--text-tertiary);
+}
+
+.dividend-history-table tbody tr + tr td {
+  border-top: 1px solid var(--card-border);
+}
+
+
+/* Portfolio Value card: fixed 16:8 box, pie on the left, values on the right */
+.portfolio-value-card {
+  aspect-ratio: 16 / 8;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.portfolio-value-body {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 8px;
+  align-items: center;
+}
+
+.portfolio-value-pie {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-value-pie svg {
+  height: 100%;
+  max-width: 100%;
+  aspect-ratio: 1.48;
+}
+
+.portfolio-value-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.portfolio-value-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.portfolio-value-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+}
+
+.portfolio-value-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex: none;
+}
+
+.portfolio-value-total {
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid var(--card-border);
+  font-size: 18px;
+}

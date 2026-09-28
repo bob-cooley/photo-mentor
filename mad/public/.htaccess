@@ -1,0 +1,14 @@
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive"
+</IfModule>
+
+# Private family dashboard — every request (app shell, JS/CSS bundle,
+# and the static JSON data underneath) is routed through gate.php's PHP
+# session check before anything is served. Replaces HTTP Basic Auth,
+# which couldn't support a custom login page (browser-native auth
+# dialogs can't be restyled, and nothing renders behind them since the
+# server returns 401 before any page content is sent).
+RewriteEngine On
+RewriteBase /mad/
+RewriteCond %{REQUEST_URI} !^/mad/gate\.php$
+RewriteRule ^(.*)$ /mad/gate.php [L,QSA]

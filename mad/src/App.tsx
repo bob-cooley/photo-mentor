@@ -1,0 +1,222 @@
+import { useEffect, useState } from "react";
+import { DEFAULT_TICKER, STOCKS, getStockConfig } from "./config/stocks";
+import {
+  loadAnalystData,
+  loadEnergyData,
+  loadInsightData,
+  loadIntradayData,
+  loadMarketData,
+  loadNewsData,
+  loadCrackSpreadData,
+  loadInsiderData,
+  loadVolumeData,
+  loadDividendData,
+  loadPortfolioConfig,
+  loadRSIData,
+  savePortfolioConfig,
+} from "./lib/dataLoader";
+import type {
+  AnalystData,
+  CrackSpreadData,
+  DividendData,
+  EnergyData,
+  InsiderData,
+  InsightData,
+  IntradayData,
+  MarketData,
+  NewsData,
+  PortfolioConfig,
+  RSIData,
+  VolumeData,
+} from "./types";
+import NewsColumn from "./components/NewsColumn";
+import ChartColumn from "./components/ChartColumn";
+import RSICard from "./components/RSICard";
+import CrackSpreadCard from "./components/CrackSpreadCard";
+import InsiderCard from "./components/InsiderCard";
+import VolumeCard from "./components/VolumeCard";
+import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
+import AnalystConsensusCard from "./components/AnalystConsensusCard";
+import TwoWeekMovementCard from "./components/TwoWeekMovementCard";
+import InsightCard from "./components/InsightCard";
+import PortfolioCard from "./components/PortfolioCard";
+import PortfolioValueCard from "./components/PortfolioValueCard";
+import DividendsCard from "./components/DividendsCard";
+import "./App.css";
+
+// The data pipeline itself only refreshes every 5-60 min (see
+// data/fetch/), so polling the static JSON more often than that just
+// re-fetches the same file — this cadence keeps an open tab reasonably
+// current without hammering the host for no reason.
+const REFRESH_INTERVAL_MS = 2 * 60 * 1000;
+
+const TICKERS = Object.keys(STOCKS);
+
+export default function App() {
+  const [ticker, setTicker] = useState(DEFAULT_TICKER);
+  const stock = getStockConfig(ticker);
+
+  // Quotes for every tracked ticker, independent of which one is active —
+  // this drives the always-visible header price for both MPC and COP so
+  // switching tabs doesn't need a fetch to show the other one's price.
+  const [quotes, setQuotes] = useState<Record<string, MarketData | null>>({});
+  const [intraday, setIntraday] = useState<IntradayData | null>(null);
+  const [news, setNews] = useState<NewsData | null>(null);
+  const [analyst, setAnalyst] = useState<AnalystData | null>(null);
+  const [energy, setEnergy] = useState<EnergyData | null>(null);
+  const [rsi, setRsi] = useState<RSIData | null>(null);
+  const [crackSpread, setCrackSpread] = useState<CrackSpreadData | null>(null);
+  const [insider, setInsider] = useState<InsiderData | null>(null);
+  const [volume, setVolume] = useState<VolumeData | null>(null);
+  const [dividends, setDividends] = useState<DividendData | null>(null);
+  const [insight, setInsight] = useState<InsightData | null>(null);
+  const [portfolio, setPortfolio] = useState<PortfolioConfig | null>(null);
+  // Share counts for every ticker, for the combined Portfolio Value card.
+  const [portfolios, setPortfolios] = useState<Record<string, PortfolioConfig | null>>({});
+  const [loading, setLoading] = useState(true);
+
+  const market = quotes[ticker] ?? null;
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const load = () => {
+      Promise.all(TICKERS.map((t) => loadMarketData(t))).then((results) => {
+        if (cancelled) return;
+        const next: Record<string, MarketData | null> = {};
+        TICKERS.forEach((t, i) => {
+          next[t] = results[i];
+        });
+        setQuotes(next);
+      });
+      Promise.all(TICKERS.map((t) => loadPortfolioConfig(t))).then((results) => {
+        if (cancelled) return;
+        const next: Record<string, PortfolioConfig | null> = {};
+        TICKERS.forEach((t, i) => {
+          next[t] = results[i];
+        });
+        setPortfolios(next);
+      });
+    };
+
+    load();
+    const intervalId = window.setInterval(load, REFRESH_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
+    };
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+
+    const load = () => {
+      Promise.all([
+        loadIntradayData(ticker),
+        loadNewsData(ticker),
+        loadAnalystData(ticker),
+        loadEnergyData(ticker),
+        loadRSIData(ticker),
+        loadCrackSpreadData(ticker),
+        loadInsiderData(ticker),
+        loadVolumeData(ticker),
+        loadDividendData(ticker),
+        loadInsightData(ticker),
+        loadPortfolioConfig(ticker),
+      ]).then(([i, n, a, e, r, cs, ins, vol, div, insightData, p]) => {
+        if (cancelled) return;
+        setIntraday(i);
+        setNews(n);
+        setAnalyst(a);
+        setEnergy(e);
+        setRsi(r);
+        setCrackSpread(cs);
+        setInsider(ins);
+        setVolume(vol);
+        setDividends(div);
+        setInsight(insightData);
+        setPortfolio(p);
+        setLoading(false);
+      });
+    };
+
+    load();
+    const intervalId = window.setInterval(load, REFRESH_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
+    };
+  }, [ticker]);
+
+  async function handleSaveShares(shares: number | null): Promise<boolean> {
+    const result = await savePortfolioConfig(ticker, shares);
+    if (result === null) return false;
+    setPortfolio(result);
+    setPortfolios((prev) => ({ ...prev, [ticker]: result }));
+    return true;
+  }
+
+  return (
+    <div className="app">
+      <header className="app-header">
+        <div className="app-header-left">
+          <span className="app-title">MAD</span>
+          <span className="app-ticker">{stock.ticker}</span>
+        </div>
+        <div className="ticker-switcher">
+          {TICKERS.map((t) => {
+            const quote = quotes[t];
+            return (
+              <button
+                key={t}
+                className={`ticker-toggle ${t === ticker ? "active" : ""}`}
+                onClick={() => setTicker(t)}
+              >
+                <span className="app-stock-name">{t}</span>
+                {quote && (
+                  <span className={`app-quote ${quote.quote.change >= 0 ? "up" : "down"}`}>
+                    ${quote.quote.price.toFixed(2)}
+                    <span className="app-quote-change">
+                      {quote.quote.change >= 0 ? "+" : ""}
+                      {quote.quote.change.toFixed(2)} ({quote.quote.changePercent.toFixed(2)}%)
+                    </span>
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
+      </header>
+
+      <main className="dashboard">
+        <section className="col col-news">
+          <NewsColumn news={news} loading={loading} />
+        </section>
+
+        <section className="col col-chart">
+          <ChartColumn market={market} intraday={intraday} loading={loading} ticker={stock.ticker} />
+          <PortfolioValueCard tickers={TICKERS} quotes={quotes} portfolios={portfolios} />
+          <RSICard rsi={rsi} loading={loading} ticker={stock.ticker} />
+          <CrackSpreadCard crackSpread={crackSpread} loading={loading} ticker={stock.ticker} />
+          <InsiderCard insider={insider} loading={loading} ticker={stock.ticker} />
+          <VolumeCard volume={volume} loading={loading} ticker={stock.ticker} />
+          <DividendsCard
+            dividends={dividends}
+            portfolio={portfolio}
+            loading={loading}
+            ticker={stock.ticker}
+          />
+        </section>
+
+        <section className="col col-right">
+          <AnalystConsensusCard analyst={analyst} loading={loading} />
+          <PortfolioCard market={market} portfolio={portfolio} onSaveShares={handleSaveShares} />
+          <TwoWeekMovementCard market={market} loading={loading} />
+          <InsightCard insight={insight} ticker={stock.ticker} market={market} />
+          <EnergyIndicatorsCard energy={energy} indicatorDefs={stock.energyIndicators} loading={loading} />
+        </section>
+      </main>
+    </div>
+  );
+}
