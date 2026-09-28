@@ -161,7 +161,11 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <div className="app-header-left">
-          <span className="app-title">MAD</span>
+          <span className="app-title">
+            <span className="app-title-mark">:mad:</span> market analysis dashboard{" "}
+            <span className="app-title-divider">|</span>{" "}
+            <span className="app-title-mirror">pɹɐoqɥsɐp sısʎlɐuɐ ʇǝʞɹɐɯ</span>
+          </span>
           <span className="app-ticker">{stock.ticker}</span>
         </div>
         <div className="ticker-switcher">

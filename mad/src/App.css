@@ -24,9 +24,29 @@
 }
 
 .app-title {
-  font-weight: 700;
-  font-size: 19px;
+  font-family: "Nunito Sans", "Inter", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto,
+    sans-serif;
+  font-weight: 600;
+  font-size: 15px;
   letter-spacing: -0.01em;
+}
+
+.app-title-mark {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.app-title-divider {
+  color: var(--text-tertiary);
+}
+
+/* Nunito Sans has no glyphs for the IPA-extension characters this
+   mirrored text needs (ɹ ɐ ɥ ʎ ʇ ǝ ʞ ɯ), so it silently falls through
+   to whatever system sans is next — visually inconsistent stroke
+   weight against the rest of the title. Pin it to a standard sans
+   stack instead of leaving that to font-fallback chance. */
+.app-title-mirror {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
 }
 
 .app-ticker {
