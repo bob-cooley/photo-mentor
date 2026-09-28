@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T03:25:07.156706+00:00",
-  "text": "ConocoPhillips fell 1.6% today and is down 7.3% over two weeks, tracking a broader pullback in oil prices and shifting geopolitical risk. U.S. crude has weakened to $96.41 per barrel, and the immediate trigger appears to be cautious sentiment around U.S.-Iran negotiations \u2014 despite escalatory rhetoric from Trump this week, the fact that both sides are still talking at the U.N. has reduced the near-term risk premium that had been supporting oil prices.\n\nThe two-week decline also reflects the wider oil market's uncertainty: while prices remain elevated globally ($114.89 for world crude), the U.S. benchmark has fallen nearly 8% in the past week as diplomatic signals have temporarily outweighed war concerns. For an integrated oil company like ConocoPhillips, lower crude prices directly compress margins and reduce the value of reserves in the ground, which is why the stock has tracked the oil weakness despite the company's strong operational position.",
+  "fetchedAt": "2026-09-28T04:03:02.124792+00:00",
+  "text": "ConocoPhillips fell 1.6% today, extending a steeper 7.3% decline over the past two weeks. The most concrete driver appears to be the trajectory of oil prices: U.S. crude is trading at $96.41 per barrel, down significantly from where it stood earlier in the week. The de-escalation narrative around U.S.-Iran tensions\u2014including talks at the U.N. and Iran's foreign minister signaling openness to diplomacy on September 25\u2014initially pushed crude lower. While tensions have since resurfaced with Trump rejecting Iran's ceasefire proposal, the week's pattern shows investors rotating away from oil as a geopolitical hedge once the immediate conflict risk seemed to ease.\n\nOil majors like ConocoPhillips are highly sensitive to crude prices, and the 8% weekly decline in U.S. crude that accompanied diplomatic overtures hit the stock's earnings outlook. The current 18-point gap between U.S. crude ($96.41) and global crude ($114.89) also suggests regional supply pressures may be weighing on North American producer profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 219,
-    "inputTokens": 189906,
-    "outputTokens": 46935,
-    "estimatedCostUsd": 0.424581,
-    "lastCallHour": "2026-09-28T03"
+    "callsThisMonth": 220,
+    "inputTokens": 190815,
+    "outputTokens": 47182,
+    "estimatedCostUsd": 0.426725,
+    "lastCallHour": "2026-09-28T04"
   }
 }
