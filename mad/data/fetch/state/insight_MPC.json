@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-28T03:46:59.348170+00:00",
-  "text": "Marathon Petroleum edged up 0.66% today, recovering slightly after a steep drop over the past week that wiped out 8.5% since mid-September. The rebound follows oil prices stabilizing after falling nearly 8% last week on news of U.S.-Iran diplomatic talks at the U.N., though geopolitical tensions remain unsettled\u2014Trump has reportedly rejected Iran's conditional ceasefire proposal, creating uncertainty about whether oil prices will stay depressed or spike again if conflict escalates.\n\nThe company is operating in a mixed environment for refiners right now. U.S. crude is trading at $96.41 per barrel versus $114.89 globally, and refineries are running at 94% capacity\u2014solid utilization, but the wide gap between domestic and international oil prices limits the profit margins refiners typically capture when they can arbitrage cheaper crude into higher-value products. With gasoline and diesel inventories well-stocked, refiners have less pricing power on the output side either.",
+  "fetchedAt": "2026-09-28T04:03:21.674728+00:00",
+  "text": "Marathon Petroleum rose 0.66% today, a modest gain that fits within a broader two-week decline of 0.61%. The stock has been under pressure since hitting $424.89 on September 18, sliding roughly 8% over that span. The slight rebound today coincides with U.S. crude oil sitting at $96.41 per barrel after falling nearly 8% last week when Iran-U.S. diplomatic talks raised hopes for de-escalation; refineries are running at 94% capacity with healthy inventory levels (710.95 million barrels of crude in storage), suggesting the refining margin environment remains intact even if oil prices have softened.\n\nThe real headwind for the stock has been geopolitical uncertainty and conflicting signals. Last week's optimism from U.N. talks between Iran and the U.S. boosted the market, but Trump's rejection of Iran's conditional ceasefire proposal and reports of expected renewed bombing after the midterm elections have reintroduced risk premiums into crude prices. Refinery stocks like Marathon tend to face a squeeze in this environment\u2014lower oil prices reduce profit margins on fuel production, while geopolitical volatility creates unpredictable swings rather than the stable, high-price regime refiners prefer.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 1,
-    "inputTokens": 974,
-    "outputTokens": 220,
-    "estimatedCostUsd": 0.002074,
-    "lastCallHour": "2026-09-28T03"
+    "callsThisMonth": 2,
+    "inputTokens": 1948,
+    "outputTokens": 498,
+    "estimatedCostUsd": 0.004438,
+    "lastCallHour": "2026-09-28T04"
   }
 }

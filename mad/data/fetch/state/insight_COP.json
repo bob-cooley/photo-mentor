@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T03:46:29.573414+00:00",
-  "text": "ConocoPhillips fell 1.6% today, extending a week-long decline that's brought the stock down 7.3% since mid-September. The underlying driver is crude oil prices: U.S. oil dropped nearly 8% last week after Iran and the U.S. held talks at the U.N., reducing immediate geopolitical risk and easing investor worries about supply disruptions. Even with tentative diplomatic progress, oil remains volatile\u2014U.S. crude sits at $96.41 per barrel today, and broader Middle East tensions (including Trump's reported plans for renewed bombing after the midterms) keep upside pressure limited.\n\nOil majors like ConocoPhillips are highly exposed to the price of crude, so when oil weakens on de-escalation hopes, the stock typically follows. The gap between U.S. and world oil prices ($96 vs. $115) suggests transportation and geopolitical premiums are still baked in, meaning markets aren't fully convinced the Iran situation is resolved\u2014that uncertainty is likely keeping a lid on the stock's recovery.",
+  "fetchedAt": "2026-09-28T04:02:44.697298+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $127.30, continuing a broader slide that's seen the stock down 7.3% over the past two weeks. The immediate pressure comes from easing geopolitical tensions: U.S. crude oil dropped nearly 8% last week after Iran and the U.S. held talks at the U.N., and while rhetoric has heated up again this week with Trump rejecting Iran's ceasefire proposal, the initial relief rally from diplomacy talks has faded. Oil prices remain volatile\u2014U.S. crude at $96.41 per barrel today is still meaningful, but the wider gap between global oil ($114.89) and U.S. crude suggests regional supply concerns are moderating.\n\nThe stock's weakness reflects a broader trend in energy: when geopolitical risk recedes and oil prices soften, refiners and crude producers face tighter margins and lower revenue. ConocoPhillips has been caught in this pattern all week, bouncing up and down as headlines swing between conflict and negotiation, but the net direction has been down as market participants price in a lower-risk, lower-price oil regime.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 1,
-    "inputTokens": 909,
-    "outputTokens": 240,
-    "estimatedCostUsd": 0.002109,
-    "lastCallHour": "2026-09-28T03"
+    "callsThisMonth": 2,
+    "inputTokens": 1818,
+    "outputTokens": 495,
+    "estimatedCostUsd": 0.004293,
+    "lastCallHour": "2026-09-28T04"
   }
 }
