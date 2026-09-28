@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-28T04:03:29.680216+00:00",
-  "text": "Marathon Petroleum rose modestly today as oil prices stabilized after a volatile week. U.S. crude had plummeted nearly 8% last week on hopes of U.S.-Iran diplomatic talks, but those negotiations appear stalled\u2014Trump rejected Iran's ceasefire proposal, and geopolitical tensions remain high. With U.S. oil at $96.41 and refineries operating at 94% capacity, the stock recovered a fraction of its recent losses, though it remains down sharply from $424 two weeks ago.\n\nThe broader backdrop remains uncertain for refiners. The sharp drop from mid-September reflects investor anxiety about oil supply: tensions with Iran could disrupt global crude flows, but they also keep prices elevated and volatile, making refining margins hard to predict. At current oil prices and high refinery utilization, the company isn't obviously cheaper or more profitable than it looked a month ago.",
+  "fetchedAt": "2026-09-28T18:24:47.378795+00:00",
+  "text": "Marathon Petroleum fell slightly today as oil prices held steady but geopolitical risk loomed over the refining sector. The stock is down about 1.2% over two weeks, even as U.S. refineries run at 94% capacity and crude inventories remain relatively lean at 711 million barrels. Today's real trigger appears to be reporting on a potential diesel export ban \u2014 a measure that could reshape refiner margins by forcing domestic product gluts and pricing pressure, directly hitting companies like this one that depend on selling refined fuel at profitable spreads.\n\nThe broader backdrop adds uncertainty: escalating U.S.\u2013Iran tensions and talk of renewed military action after the midterms create volatility in global oil supply and pricing, while the potential export ban itself carries conflicting signals. If imposed, it could backfire by raising global diesel costs and forcing refiners to lower prices domestically \u2014 squeezing the margin refiners earn between buying crude and selling finished fuel.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 220,
-    "inputTokens": 203469,
-    "outputTokens": 47900,
-    "estimatedCostUsd": 0.442969,
-    "lastCallHour": "2026-09-28T04"
+    "callsThisMonth": 221,
+    "inputTokens": 204432,
+    "outputTokens": 48106,
+    "estimatedCostUsd": 0.444962,
+    "lastCallHour": "2026-09-28T18"
   }
 }

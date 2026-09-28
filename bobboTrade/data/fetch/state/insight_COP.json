@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T04:03:02.124792+00:00",
-  "text": "ConocoPhillips fell 1.6% today, extending a steeper 7.3% decline over the past two weeks. The most concrete driver appears to be the trajectory of oil prices: U.S. crude is trading at $96.41 per barrel, down significantly from where it stood earlier in the week. The de-escalation narrative around U.S.-Iran tensions\u2014including talks at the U.N. and Iran's foreign minister signaling openness to diplomacy on September 25\u2014initially pushed crude lower. While tensions have since resurfaced with Trump rejecting Iran's ceasefire proposal, the week's pattern shows investors rotating away from oil as a geopolitical hedge once the immediate conflict risk seemed to ease.\n\nOil majors like ConocoPhillips are highly sensitive to crude prices, and the 8% weekly decline in U.S. crude that accompanied diplomatic overtures hit the stock's earnings outlook. The current 18-point gap between U.S. crude ($96.41) and global crude ($114.89) also suggests regional supply pressures may be weighing on North American producer profitability.",
+  "fetchedAt": "2026-09-28T18:24:22.674907+00:00",
+  "text": "ConocoPhillips fell 0.45% today to $126.73, extending a weak two-week stretch down 7.27%. The stock has been pressured by escalating U.S.-Iran tensions and the prospect of a domestic diesel export ban\u2014both factors that create uncertainty for a major oil producer and refiner. A potential export ban on diesel would constrain U.S. refiner profits (refiners profit from the spread between crude input costs and refined product prices), while heightened geopolitical risk around Iran could tighten global oil supplies, pushing prices higher in ways that may take time to benefit producers or that markets are already pricing in.\n\nThe wider context is a divergence between U.S. and world oil prices: crude is trading at $96.41 per barrel domestically but $114.89 globally, suggesting the market is pricing in both supply uncertainty abroad and tighter margins at home if export restrictions take hold. This kind of policy-driven volatility\u2014where government action constrains the upside even as geopolitical risk should support prices\u2014tends to keep energy stocks on the defensive until the rules become clearer.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 220,
-    "inputTokens": 190815,
-    "outputTokens": 47182,
-    "estimatedCostUsd": 0.426725,
-    "lastCallHour": "2026-09-28T04"
+    "callsThisMonth": 221,
+    "inputTokens": 191716,
+    "outputTokens": 47428,
+    "estimatedCostUsd": 0.428856,
+    "lastCallHour": "2026-09-28T18"
   }
 }
