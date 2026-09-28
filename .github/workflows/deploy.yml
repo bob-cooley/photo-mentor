@@ -290,6 +290,17 @@ jobs:
         working-directory: mad/data/fetch
         run: pip install -r requirements.txt
 
+      # needs: deploy-bobbotrade alone wasn't enough — confirmed live
+      # (twice) that the two jobs still land inside Twelve Data's rolling
+      # 60s window (the gap between one job finishing and the next
+      # starting was under a minute), so mad's calls still 429 against
+      # whichever ticker's request loses the race, and FTP-Deploy-Action
+      # then deletes that ticker's last-good intraday.json since the
+      # failed run's local build doesn't have a replacement. A flat sleep
+      # here guarantees real separation regardless of scheduling jitter.
+      - name: Wait out Twelve Data's per-minute window (shared key with bobboTrade)
+        run: sleep 65
+
       - name: Fetch market/energy/analyst/news/dividend/insight data
         working-directory: mad/data/fetch
         env:
