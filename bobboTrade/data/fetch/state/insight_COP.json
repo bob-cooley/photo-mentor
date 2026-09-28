@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T18:24:22.674907+00:00",
-  "text": "ConocoPhillips fell 0.45% today to $126.73, extending a weak two-week stretch down 7.27%. The stock has been pressured by escalating U.S.-Iran tensions and the prospect of a domestic diesel export ban\u2014both factors that create uncertainty for a major oil producer and refiner. A potential export ban on diesel would constrain U.S. refiner profits (refiners profit from the spread between crude input costs and refined product prices), while heightened geopolitical risk around Iran could tighten global oil supplies, pushing prices higher in ways that may take time to benefit producers or that markets are already pricing in.\n\nThe wider context is a divergence between U.S. and world oil prices: crude is trading at $96.41 per barrel domestically but $114.89 globally, suggesting the market is pricing in both supply uncertainty abroad and tighter margins at home if export restrictions take hold. This kind of policy-driven volatility\u2014where government action constrains the upside even as geopolitical risk should support prices\u2014tends to keep energy stocks on the defensive until the rules become clearer.",
+  "fetchedAt": "2026-09-28T19:59:50.764162+00:00",
+  "text": "ConocoPhillips fell 1.1% today, continuing a weaker two-week stretch that's down 7.85%. The decline reflects a broader oil market headwind: U.S. crude dropped sharply while global crude prices remain elevated, creating a widening gap that pressures domestic refiners and integrated energy companies. Today's move was likely also influenced by news of a potential Trump diesel export ban, which analysts warn could disrupt refinery operations and margins as producers adjust production strategies to navigate new constraints.\n\nThe recent geopolitical tension between the U.S. and Iran adds another layer of uncertainty. While Trump has rejected Iran's ceasefire proposal and signaled renewed military action after the midterms, the outcome remains unpredictable\u2014making it harder for energy investors to price in long-term supply risks or opportunities right now.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 221,
-    "inputTokens": 191716,
-    "outputTokens": 47428,
-    "estimatedCostUsd": 0.428856,
-    "lastCallHour": "2026-09-28T18"
+    "callsThisMonth": 222,
+    "inputTokens": 192616,
+    "outputTokens": 47610,
+    "estimatedCostUsd": 0.430666,
+    "lastCallHour": "2026-09-28T19"
   }
 }
