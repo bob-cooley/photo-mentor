@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T19:59:50.764162+00:00",
-  "text": "ConocoPhillips fell 1.1% today, continuing a weaker two-week stretch that's down 7.85%. The decline reflects a broader oil market headwind: U.S. crude dropped sharply while global crude prices remain elevated, creating a widening gap that pressures domestic refiners and integrated energy companies. Today's move was likely also influenced by news of a potential Trump diesel export ban, which analysts warn could disrupt refinery operations and margins as producers adjust production strategies to navigate new constraints.\n\nThe recent geopolitical tension between the U.S. and Iran adds another layer of uncertainty. While Trump has rejected Iran's ceasefire proposal and signaled renewed military action after the midterms, the outcome remains unpredictable\u2014making it harder for energy investors to price in long-term supply risks or opportunities right now.",
+  "fetchedAt": "2026-09-28T23:39:57.398274+00:00",
+  "text": "ConocoPhillips fell nearly 1% today, continuing a rough two-week slide of nearly 8%. The immediate pressure likely stems from the wide gap between U.S. and global oil prices\u2014crude is trading at $96.41 per barrel domestically but $114.89 globally\u2014which squeezes refinery margins and limits how much a U.S. oil producer can export profitably. Added to that, the Trump administration's consideration of a diesel export ban creates uncertainty for refiners and producers who rely on international sales, potentially dragging down the stock's near-term outlook.\n\nThe broader backdrop is a tense standoff with Iran that's kept energy markets volatile but not consistently supportive of oil prices. Despite geopolitical risk and talk of renewed conflict after the elections, crude prices haven't rallied sharply, suggesting investors aren't pricing in a major supply disruption right now\u2014which leaves energy stocks vulnerable to policy headwinds like export restrictions rather than lifted by war premiums.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 222,
-    "inputTokens": 192616,
-    "outputTokens": 47610,
-    "estimatedCostUsd": 0.430666,
-    "lastCallHour": "2026-09-28T19"
+    "callsThisMonth": 223,
+    "inputTokens": 193504,
+    "outputTokens": 47825,
+    "estimatedCostUsd": 0.432629,
+    "lastCallHour": "2026-09-28T23"
   }
 }

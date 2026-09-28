@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-28T20:00:17.114342+00:00",
-  "text": "Marathon Petroleum fell 1.23% today, extending a two-week decline, as traders grappled with conflicting signals about U.S. refinery margins. The key headwind is news that the Trump administration is \"very seriously\" considering a diesel export ban to address global supply shortages\u2014a move analysts warn could backfire by raising global diesel prices and forcing U.S. refiners to adjust production, potentially squeezing their profit margins on fuel sales. Meanwhile, refineries are already running at 94% capacity with substantial diesel and gasoline inventories on hand, leaving little room for output swings.\n\nThe geopolitical backdrop adds uncertainty: escalating U.S.-Iran tensions could disrupt Middle Eastern crude supplies, which would normally support refiner margins by widening the gap between crude cost and fuel prices. But if an export ban actually passes, it would flip that dynamic by capping what refiners can sell abroad at premium prices, offsetting any benefit from tighter global markets.",
+  "fetchedAt": "2026-09-28T23:40:11.710784+00:00",
+  "text": "Marathon Petroleum fell 1.04% today to $389.44, continuing a choppy two-week decline. The stock has faced headwinds from talk of a potential U.S. diesel export ban\u2014a policy that would likely hurt refiners by forcing them to sell more fuel domestically at lower prices while global diesel shortages push international prices higher, squeezing their margins. Additionally, escalating Iran tensions (with reports of Trump rejecting ceasefire proposals and expecting renewed bombing after midterms) add uncertainty to crude supplies and refining economics.\n\nThe broader refinery backdrop is mixed: U.S. refineries are running at a solid 94% capacity, but oil inventories remain elevated at 711 million barrels while diesel stocks sit at 107 million barrels\u2014suggesting refiners aren't operating under acute supply pressure that would help them command better prices. The geopolitical risk and policy uncertainty appear to be weighing more heavily on the stock than current operational conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 222,
-    "inputTokens": 205394,
-    "outputTokens": 48318,
-    "estimatedCostUsd": 0.446984,
-    "lastCallHour": "2026-09-28T20"
+    "callsThisMonth": 223,
+    "inputTokens": 206341,
+    "outputTokens": 48529,
+    "estimatedCostUsd": 0.448986,
+    "lastCallHour": "2026-09-28T23"
   }
 }
