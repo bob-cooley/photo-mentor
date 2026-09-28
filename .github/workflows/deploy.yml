@@ -238,6 +238,16 @@ jobs:
           fi
 
   deploy-mad:
+    # mad shares bobboTrade's TWELVEDATA_API_KEY (same free-tier per-minute
+    # cap) and has no reason to refresh live market data every 5 minutes —
+    # it's a dev/test instance, not something anyone checks intraday. Only
+    # running it on push/manual dispatch, never on the schedule triggers,
+    # keeps its calls from stacking on top of bobboTrade's and re-tripping
+    # the same 429 that broke RSI/volume there (see market.py's 2 calls/
+    # ticker: daily quote + 5min intraday — concurrent with bobboTrade's
+    # own 4 calls, that's 8/min from two tickers alone, right at Twelve
+    # Data's free-tier cap).
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     # Same reasoning as deploy-bobbotrade: avoid two parallel runs both
     # missing the hourly AI-insight gate, and avoid the commit step
