@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-29T04:01:23.748583+00:00",
-  "text": "ConocoPhillips fell 1% today to $126.04, continuing a seven-day slide that has now wiped out 7.8% from its price. The decline reflects mixed signals in the oil market: while geopolitical tensions in the Middle East have kept global oil prices elevated at $114.89 a barrel, U.S. crude has slumped to $96.41\u2014a sign that markets are pricing in the possibility of a ceasefire between the U.S. and Iran. Since ConocoPhillips is a major producer whose profits rise with oil prices, a narrowing of the risk premium built into global crude weighs on its stock.\n\nAdding to the pressure, a potential diesel export ban under consideration by the Trump administration threatens refining margins\u2014the profit oil companies make when they process crude into fuel. News commentary earlier this week noted that export restrictions could disrupt the market in ways that actually hurt U.S. refiners and ultimately consumers, which has likely dampened investor sentiment around energy stocks broadly.",
+  "fetchedAt": "2026-09-29T11:03:24.356936+00:00",
+  "text": "ConocoPhillips fell 1% today, continuing a week-long drift downward (down 7.8% over two weeks). The immediate driver appears to be oil price weakness: US crude is trading at $96.41 per barrel, significantly below the $114.89 world price, suggesting a widening discount that pressures domestic producers. Meanwhile, news of renewed US-Iran mediation talks and Middle Eastern exports hitting war-time highs signals that regional supply fears\u2014a key support for oil prices in recent weeks\u2014may be easing, removing some upside momentum for energy stocks.\n\nThe broader context is a tightening squeeze on refiners and producers: a potential Trump diesel export ban is being weighed, which could disrupt margins, while Shell's commitment to a major LNG Canada project signals capital is flowing toward long-term energy infrastructure rather than near-term crude plays. These cross-currents\u2014softer crude prices, easing geopolitical risk premiums, and regulatory uncertainty\u2014have weighed on the stock throughout late September.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 225,
-    "inputTokens": 195270,
-    "outputTokens": 48251,
-    "estimatedCostUsd": 0.436525,
-    "lastCallHour": "2026-09-29T04"
+    "callsThisMonth": 226,
+    "inputTokens": 196130,
+    "outputTokens": 48477,
+    "estimatedCostUsd": 0.438515,
+    "lastCallHour": "2026-09-29T11"
   }
 }

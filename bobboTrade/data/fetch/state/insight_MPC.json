@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-29T04:01:40.184051+00:00",
-  "text": "Marathon Petroleum fell 1.04% today to $389.44, extending a two-week slide. The decline comes despite oil prices remaining elevated\u2014U.S. crude at $96.41 per barrel and global oil at $114.89\u2014suggesting the market is pricing in relief from Middle East tensions as diplomatic talks between the U.S. and Iran gain traction. When geopolitical risk recedes, refiners like Marathon typically sell off because the crisis premium on oil prices evaporates, even though the company benefits from higher crude costs in normal times.\n\nThe broader headwind is policy uncertainty around a potential diesel export ban, which analysts warn could disrupt refiner margins and global supply chains. With refineries running at 94% capacity and diesel inventories relatively tight at 107 million barrels, any export restriction would constrain what refiners can sell abroad and potentially lower domestic fuel prices\u2014squeezing profitability even as crude inputs remain costly.",
+  "fetchedAt": "2026-09-29T11:04:29.292834+00:00",
+  "text": "Marathon Petroleum fell 1% today, extending a two-week decline that has now cost the stock about 1.8%. The most concrete headwind is the geopolitical backdrop: while Middle East tensions have kept crude prices elevated (U.S. oil at $96/barrel, global at nearly $115), renewed diplomatic talks between the U.S. and Iran are signaling potential de-escalation, which typically weighs on energy prices and refiner margins. At the same time, refineries are running near full capacity (94%), but gasoline and diesel inventories remain relatively high, limiting the pricing power refiners can extract from processing crude into finished products.\n\nThe broader risk is the policy uncertainty around diesel exports\u2014potential restrictions could disrupt refiner economics by forcing adjustments to production mix and potentially squeezing margins as global supply tightens. Combined with the structural squeeze between high crude costs and moderate product prices, refiners like Marathon face a challenging near-term environment even as utilization remains strong.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 225,
-    "inputTokens": 208225,
-    "outputTokens": 48925,
-    "estimatedCostUsd": 0.45285,
-    "lastCallHour": "2026-09-29T04"
+    "callsThisMonth": 226,
+    "inputTokens": 209144,
+    "outputTokens": 49139,
+    "estimatedCostUsd": 0.454839,
+    "lastCallHour": "2026-09-29T11"
   }
 }
