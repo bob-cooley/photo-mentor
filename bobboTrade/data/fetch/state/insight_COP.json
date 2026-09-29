@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-29T11:03:24.356936+00:00",
-  "text": "ConocoPhillips fell 1% today, continuing a week-long drift downward (down 7.8% over two weeks). The immediate driver appears to be oil price weakness: US crude is trading at $96.41 per barrel, significantly below the $114.89 world price, suggesting a widening discount that pressures domestic producers. Meanwhile, news of renewed US-Iran mediation talks and Middle Eastern exports hitting war-time highs signals that regional supply fears\u2014a key support for oil prices in recent weeks\u2014may be easing, removing some upside momentum for energy stocks.\n\nThe broader context is a tightening squeeze on refiners and producers: a potential Trump diesel export ban is being weighed, which could disrupt margins, while Shell's commitment to a major LNG Canada project signals capital is flowing toward long-term energy infrastructure rather than near-term crude plays. These cross-currents\u2014softer crude prices, easing geopolitical risk premiums, and regulatory uncertainty\u2014have weighed on the stock throughout late September.",
+  "fetchedAt": "2026-09-29T17:33:47.926744+00:00",
+  "text": "ConocoPhillips fell modestly today as oil prices declined\u2014US crude dropped to $96.41 a barrel, down from recent highs as Saudi Arabia restored significant pipeline flows through the Red Sea and Iran ramped exports back toward war-time peaks. When crude supply improves and prices weaken, oil producers like ConocoPhillips face lower revenue per barrel, which typically pressures their stock. The decline extends a two-week slide of nearly 11%, suggesting investors have been repricing the stock downward as geopolitical tensions that had tightened global supply have begun to ease.\n\nThe broader backdrop adds complexity: while near-term oil prices are under pressure from recovering exports, Shell's commitment to a $23 billion LNG expansion in Canada and ongoing U.S.-Iran ceasefire talks both signal longer-term energy security concerns that could eventually support prices. However, those longer-dated supports haven't yet offset the immediate headwind of crude flowing back into markets.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 226,
-    "inputTokens": 196130,
-    "outputTokens": 48477,
-    "estimatedCostUsd": 0.438515,
-    "lastCallHour": "2026-09-29T11"
+    "callsThisMonth": 227,
+    "inputTokens": 196989,
+    "outputTokens": 48688,
+    "estimatedCostUsd": 0.440429,
+    "lastCallHour": "2026-09-29T17"
   }
 }
