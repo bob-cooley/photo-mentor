@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-29T17:34:30.478154+00:00",
-  "text": "Marathon Petroleum climbed 0.82% today to $392.64 after sliding 4.43% over the past two weeks. The modest recovery appears tied to stabilizing crude supply: Saudi Arabia has restored Red Sea pipeline flows to 3.5 million barrels per day, and U.S.-Iran talks have resumed, both easing concerns about near-term oil shortages that had pressured energy stocks. With U.S. crude at $96.41 and refineries running at 94% capacity, the company has room to benefit if supply worries fade.\n\nThe broader picture remains choppy for refiners, though. Diesel export restrictions being considered by policymakers could disrupt refinery margins if they're enacted, while global crude prices remain elevated at $114.89 per barrel\u2014a gap that squeezes refinery profits. The stock's two-week decline reflects these competing tensions between tighter global supply (supporting crude prices) and policy uncertainty (threatening export economics).",
+  "fetchedAt": "2026-09-29T18:27:35.270620+00:00",
+  "text": "Marathon Petroleum edged up 1.05% today to $393.54, recovering from yesterday's dip as crude exports from Saudi Arabia's Red Sea ports ramped back up to around 3.5 million barrels per day. That supply relief\u2014combined with separate U.S.-Iran ceasefire talks\u2014eased near-term fears about Middle East disruptions that had weighed on the stock over the past two weeks, which saw a 4.21% decline.\n\nThe refinery backdrop remains supportive: U.S. refineries are running at 94% capacity with healthy fuel inventories, and while domestic oil trades at $96.41 per barrel versus $114.89 globally, any moves toward a ceasefire or restored supply flow reduce the geopolitical premium that has created volatility for refinery margins. However, talk of a potential diesel export ban by the incoming administration introduces a wild card\u2014such a move could force U.S. refiners to redirect output domestically and potentially compress their ability to export higher-margin products, though analysts note it could also push global diesel prices higher if implemented.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 227,
-    "inputTokens": 210064,
-    "outputTokens": 49353,
-    "estimatedCostUsd": 0.456829,
-    "lastCallHour": "2026-09-29T17"
+    "callsThisMonth": 228,
+    "inputTokens": 210983,
+    "outputTokens": 49594,
+    "estimatedCostUsd": 0.458953,
+    "lastCallHour": "2026-09-29T18"
   }
 }
