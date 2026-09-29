@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-29T00:17:14.898666+00:00",
-  "text": "Marathon Petroleum fell 1.04% today to $389.44, extending a week of weakness that's seen the stock down nearly 2% since late September. The decline comes as crude oil prices remain pressured\u2014U.S. crude is at $96.41 a barrel, down from the $402+ level the stock traded near on September 21\u2014while a potential U.S. diesel export ban announced this week has created uncertainty for refiners, who depend on export margins to boost profits.\n\nThe refining environment remains mixed: refineries are running at a healthy 94% capacity, but the threat of an export ban could squeeze margins if it forces refiners to sell excess diesel into a saturated domestic market rather than abroad. Additionally, geopolitical tensions with Iran remain elevated despite diplomatic rhetoric, which has kept oil prices volatile and investors cautious about energy stocks in the near term.",
+  "fetchedAt": "2026-09-29T04:01:40.184051+00:00",
+  "text": "Marathon Petroleum fell 1.04% today to $389.44, extending a two-week slide. The decline comes despite oil prices remaining elevated\u2014U.S. crude at $96.41 per barrel and global oil at $114.89\u2014suggesting the market is pricing in relief from Middle East tensions as diplomatic talks between the U.S. and Iran gain traction. When geopolitical risk recedes, refiners like Marathon typically sell off because the crisis premium on oil prices evaporates, even though the company benefits from higher crude costs in normal times.\n\nThe broader headwind is policy uncertainty around a potential diesel export ban, which analysts warn could disrupt refiner margins and global supply chains. With refineries running at 94% capacity and diesel inventories relatively tight at 107 million barrels, any export restriction would constrain what refiners can sell abroad and potentially lower domestic fuel prices\u2014squeezing profitability even as crude inputs remain costly.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 224,
-    "inputTokens": 207288,
-    "outputTokens": 48719,
-    "estimatedCostUsd": 0.450883,
-    "lastCallHour": "2026-09-29T00"
+    "callsThisMonth": 225,
+    "inputTokens": 208225,
+    "outputTokens": 48925,
+    "estimatedCostUsd": 0.45285,
+    "lastCallHour": "2026-09-29T04"
   }
 }

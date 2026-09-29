@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-29T00:16:59.320841+00:00",
-  "text": "ConocoPhillips fell nearly 1% today and is down 7.8% over two weeks, weighed down by a widening gap between U.S. and global oil prices. U.S. crude is trading at $96.41 per barrel while international crude sits at $114.89\u2014an 18-dollar spread that reflects supply concerns abroad and potential constraints at home. News that the Trump administration is considering a diesel export ban added pressure, since refiners (a key part of ConocoPhillips' business) would face margin squeezes if they can't sell refined products globally at full value.\n\nThe broader backdrop is geopolitical tension with Iran and uncertainty about U.S. energy policy. Energy stocks got caught between rising interest rates pinching valuations and the Iran conflict creating unpredictable crude supply dynamics\u2014two headwinds that can work against large-cap oil producers even when crude prices themselves remain elevated.",
+  "fetchedAt": "2026-09-29T04:01:23.748583+00:00",
+  "text": "ConocoPhillips fell 1% today to $126.04, continuing a seven-day slide that has now wiped out 7.8% from its price. The decline reflects mixed signals in the oil market: while geopolitical tensions in the Middle East have kept global oil prices elevated at $114.89 a barrel, U.S. crude has slumped to $96.41\u2014a sign that markets are pricing in the possibility of a ceasefire between the U.S. and Iran. Since ConocoPhillips is a major producer whose profits rise with oil prices, a narrowing of the risk premium built into global crude weighs on its stock.\n\nAdding to the pressure, a potential diesel export ban under consideration by the Trump administration threatens refining margins\u2014the profit oil companies make when they process crude into fuel. News commentary earlier this week noted that export restrictions could disrupt the market in ways that actually hurt U.S. refiners and ultimately consumers, which has likely dampened investor sentiment around energy stocks broadly.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 224,
-    "inputTokens": 194392,
-    "outputTokens": 48028,
-    "estimatedCostUsd": 0.434532,
-    "lastCallHour": "2026-09-29T00"
+    "callsThisMonth": 225,
+    "inputTokens": 195270,
+    "outputTokens": 48251,
+    "estimatedCostUsd": 0.436525,
+    "lastCallHour": "2026-09-29T04"
   }
 }
