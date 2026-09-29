@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T23:39:57.398274+00:00",
-  "text": "ConocoPhillips fell nearly 1% today, continuing a rough two-week slide of nearly 8%. The immediate pressure likely stems from the wide gap between U.S. and global oil prices\u2014crude is trading at $96.41 per barrel domestically but $114.89 globally\u2014which squeezes refinery margins and limits how much a U.S. oil producer can export profitably. Added to that, the Trump administration's consideration of a diesel export ban creates uncertainty for refiners and producers who rely on international sales, potentially dragging down the stock's near-term outlook.\n\nThe broader backdrop is a tense standoff with Iran that's kept energy markets volatile but not consistently supportive of oil prices. Despite geopolitical risk and talk of renewed conflict after the elections, crude prices haven't rallied sharply, suggesting investors aren't pricing in a major supply disruption right now\u2014which leaves energy stocks vulnerable to policy headwinds like export restrictions rather than lifted by war premiums.",
+  "fetchedAt": "2026-09-29T00:16:59.320841+00:00",
+  "text": "ConocoPhillips fell nearly 1% today and is down 7.8% over two weeks, weighed down by a widening gap between U.S. and global oil prices. U.S. crude is trading at $96.41 per barrel while international crude sits at $114.89\u2014an 18-dollar spread that reflects supply concerns abroad and potential constraints at home. News that the Trump administration is considering a diesel export ban added pressure, since refiners (a key part of ConocoPhillips' business) would face margin squeezes if they can't sell refined products globally at full value.\n\nThe broader backdrop is geopolitical tension with Iran and uncertainty about U.S. energy policy. Energy stocks got caught between rising interest rates pinching valuations and the Iran conflict creating unpredictable crude supply dynamics\u2014two headwinds that can work against large-cap oil producers even when crude prices themselves remain elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 223,
-    "inputTokens": 193504,
-    "outputTokens": 47825,
-    "estimatedCostUsd": 0.432629,
-    "lastCallHour": "2026-09-28T23"
+    "callsThisMonth": 224,
+    "inputTokens": 194392,
+    "outputTokens": 48028,
+    "estimatedCostUsd": 0.434532,
+    "lastCallHour": "2026-09-29T00"
   }
 }
