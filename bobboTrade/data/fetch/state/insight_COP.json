@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-29T18:27:06.177106+00:00",
-  "text": "ConocoPhillips fell slightly today, but the real story is the sharp 10.8% drop over the past two weeks\u2014and today's move fits into that broader slide. Oil prices have retreated as supply disruptions ease: Saudi Arabia restored Red Sea pipeline flows to 3.5 million barrels per day, and Iranian crude exports hit war-time highs as ceasefire talks progress. With crude supply recovering globally, the upward pressure on oil prices that benefited producers like ConocoPhillips has faded, dragging the stock down.\n\nThe company is caught between headwinds on the energy side and policy uncertainty. While Shell's $23 billion LNG Canada investment signals strong global demand for energy exports, a potential Trump diesel export ban could disrupt U.S. refining margins and dampen the tailwinds for integrated energy companies. Fewer supply worries and mixed signals on policy create a less supportive backdrop for oil majors right now.",
+  "fetchedAt": "2026-09-29T21:48:32.943833+00:00",
+  "text": "ConocoPhillips fell slightly today as oil prices dropped on news that Saudi Arabia has restored crude export flows through the Red Sea to around 3.5 million barrels per day. The stock is also down 11% over the past two weeks, a period that has seen oil prices under pressure as supply concerns ease in the Middle East despite ongoing geopolitical tensions. With U.S. crude trading at $96 per barrel\u2014a meaningful decline from earlier in September\u2014the company faces headwinds from lower energy prices, which directly reduce revenue for oil producers.\n\nThe broader squeeze on energy stocks reflects competing forces: while Middle Eastern exports have rebounded and Canada is expanding LNG capacity (potentially adding more global supply), U.S. policymakers are considering a diesel export ban that could tighten refining margins. For an integrated company like ConocoPhillips, this mix of falling oil prices and uncertain refining conditions has weighed on investor sentiment over the past two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 228,
-    "inputTokens": 197848,
-    "outputTokens": 48898,
-    "estimatedCostUsd": 0.442338,
-    "lastCallHour": "2026-09-29T18"
+    "callsThisMonth": 229,
+    "inputTokens": 198707,
+    "outputTokens": 49109,
+    "estimatedCostUsd": 0.444252,
+    "lastCallHour": "2026-09-29T21"
   }
 }
