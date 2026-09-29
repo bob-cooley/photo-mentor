@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-29T21:48:48.547024+00:00",
-  "text": "Marathon Petroleum gained 0.69% today despite a volatile week, as oil prices fell on improved Saudi crude flows through the Red Sea while U.S. refineries ran at 94% capacity with solid fuel inventories. The competing forces\u2014lower crude costs that reduce input expenses versus stable refinery operations and inventories\u2014roughly balanced each other out in today's modest move.\n\nThe broader backdrop remains mixed for refiners. While oil supply concerns have eased with restored Saudi exports and diplomatic talks progressing, the potential diesel export ban being considered could disrupt refinery margins if it forces plants to shift production and raises global diesel prices. This tail risk, combined with the 4.55% decline over two weeks, suggests the market is pricing in genuine uncertainty about refinery profitability ahead.",
+  "fetchedAt": "2026-09-29T22:31:54.437399+00:00",
+  "text": "Marathon Petroleum ticked up 0.69% today as oil prices recovered slightly and refinery utilization remained solid at 94 percent. The move comes after a two-week decline, with the stock bouncing back from yesterday's $389.44 close \u2014 a rebound that tracks the broader energy sector stabilizing after recent geopolitical and supply-side volatility in Middle Eastern crude flows.\n\nThe backdrop remains mixed for refiners. While Saudi Arabia has restored Red Sea pipeline flows and U.S. refineries are running near full capacity, potential policy headwinds loom: a possible diesel export ban could disrupt refiner margins by forcing them to adjust their product mix, and the ongoing U.S.-Iran tensions that have supported crude prices may not persist if ceasefire talks gain traction. Diesel and gasoline inventories remain relatively healthy (107 and 206 million barrels respectively), offering little tailwind from supply tightness.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 229,
-    "inputTokens": 211903,
-    "outputTokens": 49761,
-    "estimatedCostUsd": 0.460708,
-    "lastCallHour": "2026-09-29T21"
+    "callsThisMonth": 230,
+    "inputTokens": 212823,
+    "outputTokens": 49965,
+    "estimatedCostUsd": 0.462648,
+    "lastCallHour": "2026-09-29T22"
   }
 }
