@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-30T19:47:43.543200+00:00",
-  "text": "Marathon Petroleum climbed 0.95% today, posting its strongest close in the six-day period shown. The gain came as oil prices stabilized after recent weakness\u2014US crude held at $96.16 per barrel, with refineries running at a healthy 92.5% capacity utilization. The bounce follows two days of losses, suggesting investor relief that the sharp pullback from late September may have steadied.\n\nThe broader backdrop remains mixed for refiners. While Saudi Arabia's pipeline restoration toward the Red Sea is easing supply concerns and crude exports are recovering to prewar levels through the Strait of Hormuz, fuel inventories (gasoline and diesel) remain elevated, which can pressure refining margins. The geopolitical noise around Iran sanctions also adds uncertainty\u2014refiners benefit when oil supply tightens, but any negotiated easing of tensions could keep crude prices in check.",
+  "fetchedAt": "2026-09-30T22:21:59.062123+00:00",
+  "text": "Marathon Petroleum rose 0.89% today to close at $395.51, extending a recovery after a weak two-week stretch. The move follows news that crude oil exports through the Strait of Hormuz and Saudi Arabia's Red Sea pipeline have both begun recovering toward pre-disruption levels, which eases supply concerns that had pressured refiner margins. With US crude trading at $96 per barrel and refineries running at 92.5% capacity, a stabilization in global oil flows removes one source of uncertainty that had dragged the stock down 4.45% over the past two weeks.\n\nThe broader backdrop remains mixed for refiners. While the recovery in Middle Eastern crude shipments is positive, geopolitical tensions \u2014 including uncertainty around US-Iran negotiations and the reliance on military protection for tanker traffic through the Hormuz Strait \u2014 create genuine risks to supply continuity. Additionally, Shell's major LNG investment signals a push toward energy security that may eventually compete with refined fuel demand, though that impact plays out over years rather than quarters.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 234,
-    "inputTokens": 216487,
-    "outputTokens": 50861,
-    "estimatedCostUsd": 0.470792,
-    "lastCallHour": "2026-09-30T19"
+    "callsThisMonth": 235,
+    "inputTokens": 217399,
+    "outputTokens": 51087,
+    "estimatedCostUsd": 0.472834,
+    "lastCallHour": "2026-09-30T22"
   }
 }

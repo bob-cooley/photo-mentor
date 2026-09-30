@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-30T19:47:30.797392+00:00",
-  "text": "ConocoPhillips fell slightly today, continuing a five-day decline that's seen the stock drop 5.4% since late September. The weakness reflects a broader pullback in oil prices: US crude has fallen to $96 per barrel, down from highs earlier in the month as Saudi Arabia restored pipeline flows through the Red Sea to 3.5 million barrels per day, easing supply concerns that had supported prices. The stock is moving with the commodity rather than company-specific news.\n\nThe larger backdrop is a shift in oil market focus toward supply recovery and geopolitical risk management. While crude shipments through the Strait of Hormuz have rebounded to pre-conflict levels, the sustainability of that recovery depends on continued U.S. military protection\u2014an uncertainty that's keeping a lid on further price gains. At the same time, major LNG projects like Shell's expansion in Canada are coming online, which could add to global energy supply pressures in the longer term.",
+  "fetchedAt": "2026-09-30T22:21:36.038717+00:00",
+  "text": "ConocoPhillips fell slightly today, continuing a downturn that's lasted two weeks. The main driver appears to be crude oil prices: US oil dropped to $96.16 per barrel, and Saudi Arabia's restoration of pipeline flows through the Red Sea to around 3.5 million barrels per day signals that supply constraints that had tightened markets are now easing. When oil prices fall, producers like ConocoPhillips face lower revenue per barrel, even if they pump the same volume.\n\nThe broader picture is one of improving global energy supply after recent disruptions. News of recovered export flows through both the Strait of Hormuz and Saudi Arabia's Red Sea route, plus Shell's commitment to expand Canadian LNG capacity, suggests markets are pricing in a more stable, plentiful energy picture ahead \u2014 the opposite of the tight supply environment that had supported higher oil prices earlier in the month.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 234,
-    "inputTokens": 202983,
-    "outputTokens": 50108,
-    "estimatedCostUsd": 0.453523,
-    "lastCallHour": "2026-09-30T19"
+    "callsThisMonth": 235,
+    "inputTokens": 203832,
+    "outputTokens": 50303,
+    "estimatedCostUsd": 0.455347,
+    "lastCallHour": "2026-09-30T22"
   }
 }
