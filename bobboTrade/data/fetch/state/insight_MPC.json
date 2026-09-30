@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-30T01:01:32.083075+00:00",
-  "text": "Marathon Petroleum ticked up 0.67% today to $392.03, a modest gain that reflects stabilizing crude supplies after recent geopolitical volatility. Saudi Arabia restored pipeline flows to 3.5 million barrels per day, easing immediate supply concerns that had pushed oil prices higher earlier in the week. The stock is down 4.6% over two weeks, though, as refiners face a squeeze: U.S. crude sits at $96.41 per barrel while global oil is at $114.89, and refineries are running at 94% capacity with elevated fuel inventories (over 206 million barrels of gasoline in storage), leaving limited room for profit expansion.\n\nThe broader backdrop remains unsettled for refiner margins. While crude exports have recovered and the U.S.-Iran ceasefire talks continue, the potential Trump diesel export ban creates uncertainty\u2014analysts warn it could actually spike global diesel prices and force refiners to adjust their operations in ways that could hurt near-term profitability. This mix of easing supply fears but tightening margin pressures helps explain why the stock has drifted down despite today's modest bounce.",
+  "fetchedAt": "2026-09-30T07:54:17.854307+00:00",
+  "text": "Marathon Petroleum rose modestly today after bouncing back from a two-day decline. The gain came as U.S. oil refining utilization held steady at 94 percent, a sign refineries are running near capacity, and Saudi Arabia restored crude flows through Red Sea pipelines to around 3.5 million barrels per day\u2014easing supply concerns that had pressured the stock earlier in the week. This recovery in global oil supply likely reassured investors that tightness in crude availability would not persist.\n\nThe stock remains down 4.6 percent over two weeks despite today's bounce, reflecting the broader volatility in energy markets tied to geopolitical uncertainty. While U.S. oil prices have pulled back to $96 per barrel, the wider spread between U.S. crude and international oil (currently $114.89) suggests traders are still pricing in risks from Middle East tensions, even as direct mediation talks between Iran and the U.S. continue.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 231,
-    "inputTokens": 213745,
-    "outputTokens": 50217,
-    "estimatedCostUsd": 0.46483,
-    "lastCallHour": "2026-09-30T01"
+    "callsThisMonth": 232,
+    "inputTokens": 214661,
+    "outputTokens": 50426,
+    "estimatedCostUsd": 0.466791,
+    "lastCallHour": "2026-09-30T07"
   }
 }
