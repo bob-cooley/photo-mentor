@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-30T07:54:17.854307+00:00",
-  "text": "Marathon Petroleum rose modestly today after bouncing back from a two-day decline. The gain came as U.S. oil refining utilization held steady at 94 percent, a sign refineries are running near capacity, and Saudi Arabia restored crude flows through Red Sea pipelines to around 3.5 million barrels per day\u2014easing supply concerns that had pressured the stock earlier in the week. This recovery in global oil supply likely reassured investors that tightness in crude availability would not persist.\n\nThe stock remains down 4.6 percent over two weeks despite today's bounce, reflecting the broader volatility in energy markets tied to geopolitical uncertainty. While U.S. oil prices have pulled back to $96 per barrel, the wider spread between U.S. crude and international oil (currently $114.89) suggests traders are still pricing in risks from Middle East tensions, even as direct mediation talks between Iran and the U.S. continue.",
+  "fetchedAt": "2026-09-30T14:35:45.894119+00:00",
+  "text": "Marathon Petroleum rose 1.15% today to close at $396.56, marking a rebound after three days of losses that had dragged the stock down 4.2% over the past two weeks. The bounce appears tied to stabilizing crude supplies: Saudi Arabia has restored Red Sea pipeline flows to around 3.5 million barrels per day, easing earlier concerns about Middle Eastern export disruptions, while U.S. refineries are running at a healthy 94% capacity. With West Texas crude holding at $96.41 per barrel and gasoline stocks at comfortable levels, the near-term supply pressure that had pressured the refiner has eased.\n\nThe broader geopolitical backdrop remains fluid but less acutely threatening for refinery margins. U.S.\u2013Iran talks continue through mediators, and Trump has publicly denied offering sanctions relief, which keeps the situation uncertain rather than suddenly resolved\u2014but the absence of escalation has allowed markets to price in more normalized Mideast oil flows. For a refiner, the combination of steady capacity utilization and restored crude availability supports steady operations, even as the larger energy landscape remains volatile.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 232,
-    "inputTokens": 214661,
-    "outputTokens": 50426,
-    "estimatedCostUsd": 0.466791,
-    "lastCallHour": "2026-09-30T07"
+    "callsThisMonth": 233,
+    "inputTokens": 215578,
+    "outputTokens": 50671,
+    "estimatedCostUsd": 0.468933,
+    "lastCallHour": "2026-09-30T14"
   }
 }
