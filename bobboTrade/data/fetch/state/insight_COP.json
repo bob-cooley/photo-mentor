@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-29T22:31:17.285211+00:00",
-  "text": "ConocoPhillips fell 0.5% today after oil prices dropped on news that Saudi Arabia has restored crude flows through its Red Sea pipeline to around 3.5 million barrels per day. The recovery of this supply, combined with broader mediation efforts between the U.S. and Iran that could ease Middle East tensions further, eased concerns about tight global oil markets and knocked crude prices down about 18% from their recent highs (U.S. oil at $96.41 versus the world price at $114.89).\n\nThe stock is down 11% over two weeks as energy markets shift from supply-crisis mode back toward normalcy. While potential policy wildcards\u2014like a U.S. diesel export ban or major LNG expansions in Canada\u2014remain in the news, the immediate driver today was simpler supply recovery reducing the premium oil companies could command.",
+  "fetchedAt": "2026-09-30T01:01:15.213948+00:00",
+  "text": "ConocoPhillips fell slightly today as oil prices dropped on news that Saudi Arabia has restored crude flows through its Red Sea pipeline to around 3.5 million barrels per day. This recovery in supply eased concerns about tight global oil markets, pulling U.S. crude down to $96.41 a barrel. For an oil producer like ConocoPhillips, lower oil prices directly reduce revenue and profit potential, which is the primary driver of today's modest decline.\n\nThe stock is down more substantially over the past two weeks, reflecting a broader shift in energy market sentiment. While Middle Eastern tensions earlier sustained high prices, the combination of restored Saudi exports, ongoing separate U.S.-Iran ceasefire talks, and new supply coming online\u2014like Shell's LNG Canada expansion\u2014has shifted the outlook toward more stable supply and reduced geopolitical risk premiums in oil prices.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 230,
-    "inputTokens": 199566,
-    "outputTokens": 49299,
-    "estimatedCostUsd": 0.446061,
-    "lastCallHour": "2026-09-29T22"
+    "callsThisMonth": 231,
+    "inputTokens": 200425,
+    "outputTokens": 49488,
+    "estimatedCostUsd": 0.447865,
+    "lastCallHour": "2026-09-30T01"
   }
 }

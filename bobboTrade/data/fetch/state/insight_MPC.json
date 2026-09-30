@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-29T22:31:54.437399+00:00",
-  "text": "Marathon Petroleum ticked up 0.69% today as oil prices recovered slightly and refinery utilization remained solid at 94 percent. The move comes after a two-week decline, with the stock bouncing back from yesterday's $389.44 close \u2014 a rebound that tracks the broader energy sector stabilizing after recent geopolitical and supply-side volatility in Middle Eastern crude flows.\n\nThe backdrop remains mixed for refiners. While Saudi Arabia has restored Red Sea pipeline flows and U.S. refineries are running near full capacity, potential policy headwinds loom: a possible diesel export ban could disrupt refiner margins by forcing them to adjust their product mix, and the ongoing U.S.-Iran tensions that have supported crude prices may not persist if ceasefire talks gain traction. Diesel and gasoline inventories remain relatively healthy (107 and 206 million barrels respectively), offering little tailwind from supply tightness.",
+  "fetchedAt": "2026-09-30T01:01:32.083075+00:00",
+  "text": "Marathon Petroleum ticked up 0.67% today to $392.03, a modest gain that reflects stabilizing crude supplies after recent geopolitical volatility. Saudi Arabia restored pipeline flows to 3.5 million barrels per day, easing immediate supply concerns that had pushed oil prices higher earlier in the week. The stock is down 4.6% over two weeks, though, as refiners face a squeeze: U.S. crude sits at $96.41 per barrel while global oil is at $114.89, and refineries are running at 94% capacity with elevated fuel inventories (over 206 million barrels of gasoline in storage), leaving limited room for profit expansion.\n\nThe broader backdrop remains unsettled for refiner margins. While crude exports have recovered and the U.S.-Iran ceasefire talks continue, the potential Trump diesel export ban creates uncertainty\u2014analysts warn it could actually spike global diesel prices and force refiners to adjust their operations in ways that could hurt near-term profitability. This mix of easing supply fears but tightening margin pressures helps explain why the stock has drifted down despite today's modest bounce.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 230,
-    "inputTokens": 212823,
-    "outputTokens": 49965,
-    "estimatedCostUsd": 0.462648,
-    "lastCallHour": "2026-09-29T22"
+    "callsThisMonth": 231,
+    "inputTokens": 213745,
+    "outputTokens": 50217,
+    "estimatedCostUsd": 0.46483,
+    "lastCallHour": "2026-09-30T01"
   }
 }
