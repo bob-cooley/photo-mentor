@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-30T14:34:43.102322+00:00",
-  "text": "ConocoPhillips ticked up slightly today, but the stock has fallen 5% over the past two weeks as oil prices have come under pressure. The main driver appears to be Saudi Arabia's restoration of crude exports through the Red Sea pipeline to 3.5 million barrels per day, which has eased supply concerns that had been supporting prices. Additionally, U.S. oil is trading at $96.41 per barrel\u2014well below the $114.89 global benchmark\u2014suggesting an oversupply situation in domestic markets that weighs on a major U.S. producer's near-term outlook.\n\nThe broader context is shifting energy security dynamics. While geopolitical tensions in the Middle East (including U.S.-Iran talks) had previously tightened global supply, the actual recovery of Saudi exports and Shell's $23 billion LNG Canada investment signal a move toward a more diversified, stable energy supply picture. This reduces the \"risk premium\" that had been pushing oil prices higher, even as major producers like ConocoPhillips continue to benefit from the current commodity prices.",
+  "fetchedAt": "2026-09-30T19:47:30.797392+00:00",
+  "text": "ConocoPhillips fell slightly today, continuing a five-day decline that's seen the stock drop 5.4% since late September. The weakness reflects a broader pullback in oil prices: US crude has fallen to $96 per barrel, down from highs earlier in the month as Saudi Arabia restored pipeline flows through the Red Sea to 3.5 million barrels per day, easing supply concerns that had supported prices. The stock is moving with the commodity rather than company-specific news.\n\nThe larger backdrop is a shift in oil market focus toward supply recovery and geopolitical risk management. While crude shipments through the Strait of Hormuz have rebounded to pre-conflict levels, the sustainability of that recovery depends on continued U.S. military protection\u2014an uncertainty that's keeping a lid on further price gains. At the same time, major LNG projects like Shell's expansion in Canada are coming online, which could add to global energy supply pressures in the longer term.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 233,
-    "inputTokens": 202135,
-    "outputTokens": 49897,
-    "estimatedCostUsd": 0.45162,
-    "lastCallHour": "2026-09-30T14"
+    "callsThisMonth": 234,
+    "inputTokens": 202983,
+    "outputTokens": 50108,
+    "estimatedCostUsd": 0.453523,
+    "lastCallHour": "2026-09-30T19"
   }
 }

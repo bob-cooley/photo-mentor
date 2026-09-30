@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-30T14:35:45.894119+00:00",
-  "text": "Marathon Petroleum rose 1.15% today to close at $396.56, marking a rebound after three days of losses that had dragged the stock down 4.2% over the past two weeks. The bounce appears tied to stabilizing crude supplies: Saudi Arabia has restored Red Sea pipeline flows to around 3.5 million barrels per day, easing earlier concerns about Middle Eastern export disruptions, while U.S. refineries are running at a healthy 94% capacity. With West Texas crude holding at $96.41 per barrel and gasoline stocks at comfortable levels, the near-term supply pressure that had pressured the refiner has eased.\n\nThe broader geopolitical backdrop remains fluid but less acutely threatening for refinery margins. U.S.\u2013Iran talks continue through mediators, and Trump has publicly denied offering sanctions relief, which keeps the situation uncertain rather than suddenly resolved\u2014but the absence of escalation has allowed markets to price in more normalized Mideast oil flows. For a refiner, the combination of steady capacity utilization and restored crude availability supports steady operations, even as the larger energy landscape remains volatile.",
+  "fetchedAt": "2026-09-30T19:47:43.543200+00:00",
+  "text": "Marathon Petroleum climbed 0.95% today, posting its strongest close in the six-day period shown. The gain came as oil prices stabilized after recent weakness\u2014US crude held at $96.16 per barrel, with refineries running at a healthy 92.5% capacity utilization. The bounce follows two days of losses, suggesting investor relief that the sharp pullback from late September may have steadied.\n\nThe broader backdrop remains mixed for refiners. While Saudi Arabia's pipeline restoration toward the Red Sea is easing supply concerns and crude exports are recovering to prewar levels through the Strait of Hormuz, fuel inventories (gasoline and diesel) remain elevated, which can pressure refining margins. The geopolitical noise around Iran sanctions also adds uncertainty\u2014refiners benefit when oil supply tightens, but any negotiated easing of tensions could keep crude prices in check.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 233,
-    "inputTokens": 215578,
-    "outputTokens": 50671,
-    "estimatedCostUsd": 0.468933,
-    "lastCallHour": "2026-09-30T14"
+    "callsThisMonth": 234,
+    "inputTokens": 216487,
+    "outputTokens": 50861,
+    "estimatedCostUsd": 0.470792,
+    "lastCallHour": "2026-09-30T19"
   }
 }
