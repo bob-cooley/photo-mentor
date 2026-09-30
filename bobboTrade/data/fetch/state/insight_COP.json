@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-30T22:21:36.038717+00:00",
-  "text": "ConocoPhillips fell slightly today, continuing a downturn that's lasted two weeks. The main driver appears to be crude oil prices: US oil dropped to $96.16 per barrel, and Saudi Arabia's restoration of pipeline flows through the Red Sea to around 3.5 million barrels per day signals that supply constraints that had tightened markets are now easing. When oil prices fall, producers like ConocoPhillips face lower revenue per barrel, even if they pump the same volume.\n\nThe broader picture is one of improving global energy supply after recent disruptions. News of recovered export flows through both the Strait of Hormuz and Saudi Arabia's Red Sea route, plus Shell's commitment to expand Canadian LNG capacity, suggests markets are pricing in a more stable, plentiful energy picture ahead \u2014 the opposite of the tight supply environment that had supported higher oil prices earlier in the month.",
+  "fetchedAt": "2026-09-30T23:25:10.271291+00:00",
+  "text": "ConocoPhillips fell 0.23% today to $125.15, extending a two-week decline of 5.58%. The move reflects weakness in crude oil prices: US oil fell to $96.16 per barrel, down from the mid-$128 range where the stock was trading less than a week ago. Saudi Arabia's restoration of Red Sea pipeline flows to 3.5 million barrels per day has eased supply concerns, and broader recovery in crude exports through the Strait of Hormuz has reduced the geopolitical premium that had been supporting prices.\n\nThe stock's decline also sits against uncertainty on policy. Trump's recent comments about a potential diesel export ban and ongoing diplomatic signals around Iran sanctions create conflicting signals for energy markets\u2014tighter supply rules could support margins, but near-term policy unpredictability often weighs on large-cap oil stocks until direction becomes clearer.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 235,
-    "inputTokens": 203832,
-    "outputTokens": 50303,
-    "estimatedCostUsd": 0.455347,
-    "lastCallHour": "2026-09-30T22"
+    "callsThisMonth": 236,
+    "inputTokens": 204686,
+    "outputTokens": 50500,
+    "estimatedCostUsd": 0.457186,
+    "lastCallHour": "2026-09-30T23"
   }
 }

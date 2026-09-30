@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-30T22:21:59.062123+00:00",
-  "text": "Marathon Petroleum rose 0.89% today to close at $395.51, extending a recovery after a weak two-week stretch. The move follows news that crude oil exports through the Strait of Hormuz and Saudi Arabia's Red Sea pipeline have both begun recovering toward pre-disruption levels, which eases supply concerns that had pressured refiner margins. With US crude trading at $96 per barrel and refineries running at 92.5% capacity, a stabilization in global oil flows removes one source of uncertainty that had dragged the stock down 4.45% over the past two weeks.\n\nThe broader backdrop remains mixed for refiners. While the recovery in Middle Eastern crude shipments is positive, geopolitical tensions \u2014 including uncertainty around US-Iran negotiations and the reliance on military protection for tanker traffic through the Hormuz Strait \u2014 create genuine risks to supply continuity. Additionally, Shell's major LNG investment signals a push toward energy security that may eventually compete with refined fuel demand, though that impact plays out over years rather than quarters.",
+  "fetchedAt": "2026-09-30T23:25:22.531480+00:00",
+  "text": "Marathon Petroleum stock rose 0.86% today, capping a volatile week that saw a 4.5% dip overall. The modest gain came as U.S. crude held steady around $96/barrel while global crude prices sit significantly higher at $114/barrel\u2014a gap that benefits refiners like MPC, which can buy cheaper domestic oil and sell products into global markets. Refineries are running at 92.5% capacity, reflecting solid operational demand, though gasoline and diesel inventories remain elevated, which can pressure margins.\n\nThe real wildcard for refiners this week has been geopolitical noise: Trump's talk of a diesel export ban, Saudi Arabia's restoration of Red Sea pipeline flows, and shifting U.S.-Iran relations all create uncertainty about future fuel supply costs and export opportunities. For a refiner, a diesel export ban would be deeply negative\u2014it would trap supply domestically and depress refining margins\u2014but Trump's own warning that such a move could raise gasoline prices suggests it may not happen. The recovery in Middle Eastern crude exports and the current wide gap between U.S. and global oil prices are more concrete near-term tailwinds.",
   "status": "ok",
   "usage": {
     "month": "2026-09",
-    "callsThisMonth": 235,
-    "inputTokens": 217399,
-    "outputTokens": 51087,
-    "estimatedCostUsd": 0.472834,
-    "lastCallHour": "2026-09-30T22"
+    "callsThisMonth": 236,
+    "inputTokens": 218316,
+    "outputTokens": 51339,
+    "estimatedCostUsd": 0.475011,
+    "lastCallHour": "2026-09-30T23"
   }
 }
