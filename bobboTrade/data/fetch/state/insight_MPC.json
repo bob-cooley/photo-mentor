@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-01T10:45:06.960790+00:00",
-  "text": "Marathon Petroleum rose 0.86% today as crude oil prices climbed, with Brent crude breaking back above $100 a barrel following reports that Chinese refiners have suspended October fuel exports to protect domestic supplies. This tightening in global fuel availability supports prices for refined products that U.S. refiners like Marathon produce and sell. U.S. refineries are running at 92.5% capacity, so higher oil and product prices flow more directly to the bottom line when utilization is already elevated.\n\nThe move also fits into a broader pattern of geopolitical tightness in energy markets \u2014 with Iran tensions, questions around LNG project financing, and Trump considering a diesel export ban all adding uncertainty. These supply concerns keep crude prices elevated even as U.S. crude trades well below global benchmarks ($96 versus $114 for Brent), which benefits U.S.-based refiners that can buy cheaper domestic oil and sell products at prices set by global markets.",
+  "fetchedAt": "2026-10-01T17:15:40.953517+00:00",
+  "text": "Marathon Petroleum jumped 4.8% today after oil prices spiked on news that Chinese refiners have halted October fuel exports to protect domestic supplies\u2014a move that tightens global fuel availability and supports prices. US crude rose to $96/barrel while Brent jumped above $100, and refineries are running at 92.5% capacity, so higher crude prices directly boost refining margins (the profit refiners make by turning crude into fuel). This follows a week of volatility for the stock, but today's move is clearly tied to the oil price jump linked to China's export suspension.\n\nGeopolitical tensions around Iran and the Strait of Hormuz, plus uncertainty over potential US diesel export restrictions, are adding to the case for elevated energy prices going forward. These supply concerns are supporting the broader backdrop that benefits refiners when crude and fuel prices are elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 2,
-    "inputTokens": 1870,
-    "outputTokens": 402,
-    "estimatedCostUsd": 0.00388,
-    "lastCallHour": "2026-10-01T10"
+    "callsThisMonth": 3,
+    "inputTokens": 2806,
+    "outputTokens": 590,
+    "estimatedCostUsd": 0.005756,
+    "lastCallHour": "2026-10-01T17"
   }
 }

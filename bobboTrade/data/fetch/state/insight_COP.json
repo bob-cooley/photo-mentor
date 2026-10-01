@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-01T10:44:04.472834+00:00",
-  "text": "ConocoPhillips fell slightly today, continuing a five-day downward slide that has erased 2.7% since late September. The stock's weakness reflects mixed signals in the oil market: while Chinese refiners' reported ban on October fuel exports supported crude prices (Brent above $100), the gains remain modest, and uncertainty around U.S. policy is creating headwinds. Trump's recent comments about a potential diesel export ban\u2014which he himself noted could push fuel prices higher\u2014add unpredictability for a major oil producer trying to forecast demand and margins.\n\nThe broader backdrop isn't helping either. While crude production is recovering through critical chokepoints like the Strait of Hormuz, geopolitical tension (Iran incidents, Middle East instability) and the Alaska LNG project's uncertain timeline with South Korea introduce structural questions about long-term investment returns. For an oil major, these policy risks and supply-chain ambiguities appear to be outweighing the near-term price support from Chinese export restrictions.",
+  "fetchedAt": "2026-10-01T17:15:06.046125+00:00",
+  "text": "ConocoPhillips rose 1.1% today as oil prices climbed on news that Chinese refiners are restricting fuel exports to protect domestic supplies, which reduces global fuel availability and supports crude demand. Brent crude moved above $100 a barrel, and the report of the export ban helped lift the stock back from a five-day slide that had dragged it down 5% from late September.\n\nThe energy sector is caught between competing pressures right now: geopolitical tensions in the Middle East and potential U.S. policy shifts (like the threatened diesel export ban) are creating uncertainty, while actual supply constraints\u2014like China's fuel export restrictions and tanker security issues through the Strait of Hormuz\u2014are putting a floor under oil prices. That tension explains why the stock dropped sharply last week but found support today.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 2,
-    "inputTokens": 1744,
-    "outputTokens": 418,
-    "estimatedCostUsd": 0.003834,
-    "lastCallHour": "2026-10-01T10"
+    "callsThisMonth": 3,
+    "inputTokens": 2617,
+    "outputTokens": 598,
+    "estimatedCostUsd": 0.005607,
+    "lastCallHour": "2026-10-01T17"
   }
 }
