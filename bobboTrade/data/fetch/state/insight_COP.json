@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-01T17:15:06.046125+00:00",
-  "text": "ConocoPhillips rose 1.1% today as oil prices climbed on news that Chinese refiners are restricting fuel exports to protect domestic supplies, which reduces global fuel availability and supports crude demand. Brent crude moved above $100 a barrel, and the report of the export ban helped lift the stock back from a five-day slide that had dragged it down 5% from late September.\n\nThe energy sector is caught between competing pressures right now: geopolitical tensions in the Middle East and potential U.S. policy shifts (like the threatened diesel export ban) are creating uncertainty, while actual supply constraints\u2014like China's fuel export restrictions and tanker security issues through the Strait of Hormuz\u2014are putting a floor under oil prices. That tension explains why the stock dropped sharply last week but found support today.",
+  "fetchedAt": "2026-10-01T18:41:16.351631+00:00",
+  "text": "ConocoPhillips rose 1.4% today as oil prices jumped sharply on geopolitical tension in the Middle East. Brent crude\u2014the global oil benchmark\u2014spiked more than 4% after reports that the U.S. is deploying a third aircraft-carrier strike group to the region, and the UK Prime Minister suggested Iran was involved in an incident at a British air base. For an oil producer like ConocoPhillips, higher crude prices directly translate to higher revenue from selling oil.\n\nThe timing matters: the stock had fallen about 4.7% over the prior two weeks amid broader uncertainty, so today's bounce reflects a shift in near-term sentiment driven by this specific geopolitical event rather than a reversal of that downtrend.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 3,
-    "inputTokens": 2617,
-    "outputTokens": 598,
-    "estimatedCostUsd": 0.005607,
-    "lastCallHour": "2026-10-01T17"
+    "callsThisMonth": 4,
+    "inputTokens": 3504,
+    "outputTokens": 767,
+    "estimatedCostUsd": 0.007339,
+    "lastCallHour": "2026-10-01T18"
   }
 }
