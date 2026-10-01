@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-01T18:41:48.785286+00:00",
-  "text": "Marathon Petroleum jumped 5.4% today on a sharp spike in crude oil prices\u2014Brent crude surged more than 4% after reports that the U.S. is deploying a third aircraft-carrier strike group to the Middle East, an escalation tied to tensions involving Iran. For a refiner like Marathon, higher crude prices can initially boost profits if the company can pass costs along to customers through fuel prices, and the geopolitical risk premium being priced into oil today signals tighter global supply conditions that favor refiners.\n\nThe move also reflects a broader energy market tightening: U.S. refineries are running at 92.5% capacity\u2014near maximum utilization\u2014while crude exports through the Strait of Hormuz have recovered to prewar levels, though that recovery depends on continued U.S. military protection of tanker traffic in the Persian Gulf. This combination of tight refining capacity and supply-chain vulnerability means Marathon stands to benefit from the price strength, at least in the near term.",
+  "fetchedAt": "2026-10-01T22:21:19.582239+00:00",
+  "text": "Marathon Petroleum jumped 6.3% today after Brent crude oil surged more than 4% on reports that the U.S. is deploying a third aircraft carrier strike group to the Middle East, amid escalating tensions involving Iran and concerns over regional stability. As a major refiner, Marathon benefits when crude oil prices rise relative to the refined products it sells\u2014higher input costs are more than offset by the premium refiners can capture, especially when geopolitical risk tightens global supply.\n\nThe timing also matters: refineries are running at 92.5% capacity, near full utilization, so the company has limited spare capacity to ramp up production if demand spikes. That means Marathon is well-positioned to profit if crude prices stay elevated and Middle East supply concerns persist, since it can't easily produce more barrels but can sell what it makes at higher margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 4,
-    "inputTokens": 3756,
-    "outputTokens": 808,
-    "estimatedCostUsd": 0.007796,
-    "lastCallHour": "2026-10-01T18"
+    "callsThisMonth": 5,
+    "inputTokens": 4690,
+    "outputTokens": 996,
+    "estimatedCostUsd": 0.00967,
+    "lastCallHour": "2026-10-01T22"
   }
 }

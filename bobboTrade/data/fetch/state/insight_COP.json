@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-01T18:41:16.351631+00:00",
-  "text": "ConocoPhillips rose 1.4% today as oil prices jumped sharply on geopolitical tension in the Middle East. Brent crude\u2014the global oil benchmark\u2014spiked more than 4% after reports that the U.S. is deploying a third aircraft-carrier strike group to the region, and the UK Prime Minister suggested Iran was involved in an incident at a British air base. For an oil producer like ConocoPhillips, higher crude prices directly translate to higher revenue from selling oil.\n\nThe timing matters: the stock had fallen about 4.7% over the prior two weeks amid broader uncertainty, so today's bounce reflects a shift in near-term sentiment driven by this specific geopolitical event rather than a reversal of that downtrend.",
+  "fetchedAt": "2026-10-01T22:19:46.155566+00:00",
+  "text": "ConocoPhillips rose 1.5% today after crude oil prices jumped sharply\u2014Brent crude gained more than 4% on news that the U.S. is deploying a third aircraft carrier strike group to the Middle East, escalating tensions in a region that handles a large share of global oil shipments. As a major oil producer, ConocoPhillips benefits directly when oil prices rise, since higher crude prices mean higher revenue per barrel sold.\n\nThe move fits a broader pattern this week: the stock fell steadily from Tuesday through Thursday as oil remained under pressure, but rebounded today on geopolitical risk. The tension around Middle Eastern shipping lanes and U.S. military involvement creates genuine uncertainty about oil supply, which typically lifts prices and energy stocks even amid broader economic concerns.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 4,
-    "inputTokens": 3504,
-    "outputTokens": 767,
-    "estimatedCostUsd": 0.007339,
-    "lastCallHour": "2026-10-01T18"
+    "callsThisMonth": 5,
+    "inputTokens": 4375,
+    "outputTokens": 940,
+    "estimatedCostUsd": 0.009075,
+    "lastCallHour": "2026-10-01T22"
   }
 }
