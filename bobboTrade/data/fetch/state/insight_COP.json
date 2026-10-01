@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-01T03:55:51.377208+00:00",
-  "text": "ConocoPhillips fell 0.2% today to $125.15, continuing a five-day losing streak that has dragged the stock down 5.6% since late September. The weakness reflects broader energy sector pressure: crude prices have pulled back meaningfully (U.S. oil at $96 per barrel, down from the mid-$100s just days ago), and policy uncertainty around potential diesel export restrictions\u2014which Trump said he was \"very seriously\" considering\u2014threatens to constrain U.S. fuel markets and refiner margins if enacted.\n\nThe stock is also feeling pressure from uncertainty around the Alaska LNG project, a major growth opportunity for the company. South Korea's president pushed back on committing to the venture today, even after the Trump administration announced up to $200 billion in broader Korean investment, signaling that a key financing partner remains noncommittal on this capital-intensive undertaking.",
+  "fetchedAt": "2026-10-01T10:44:04.472834+00:00",
+  "text": "ConocoPhillips fell slightly today, continuing a five-day downward slide that has erased 2.7% since late September. The stock's weakness reflects mixed signals in the oil market: while Chinese refiners' reported ban on October fuel exports supported crude prices (Brent above $100), the gains remain modest, and uncertainty around U.S. policy is creating headwinds. Trump's recent comments about a potential diesel export ban\u2014which he himself noted could push fuel prices higher\u2014add unpredictability for a major oil producer trying to forecast demand and margins.\n\nThe broader backdrop isn't helping either. While crude production is recovering through critical chokepoints like the Strait of Hormuz, geopolitical tension (Iran incidents, Middle East instability) and the Alaska LNG project's uncertain timeline with South Korea introduce structural questions about long-term investment returns. For an oil major, these policy risks and supply-chain ambiguities appear to be outweighing the near-term price support from Chinese export restrictions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 1,
-    "inputTokens": 868,
-    "outputTokens": 197,
-    "estimatedCostUsd": 0.001853,
-    "lastCallHour": "2026-10-01T03"
+    "callsThisMonth": 2,
+    "inputTokens": 1744,
+    "outputTokens": 418,
+    "estimatedCostUsd": 0.003834,
+    "lastCallHour": "2026-10-01T10"
   }
 }

@@ -1,19 +1,27 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-09-30T14:33:48.556872+00:00",
+    "fetchedAt": "2026-10-01T10:42:48.118059+00:00",
     "source": "SEC XBRL company facts (data.sec.gov)",
     "currency": "USD",
     "current": {
-      "quarter": "2026 Q3",
+      "quarter": "2026 Q4",
       "year": 2026,
-      "q": 3,
+      "q": 4,
       "perShare": 0.84,
       "exDate": null,
-      "payDate": "2026-09-01",
-      "status": "paid"
+      "payDate": "2026-12-01",
+      "status": "upcoming"
     },
     "history": [
+      {
+        "quarter": "2026 Q4",
+        "year": 2026,
+        "q": 4,
+        "perShare": 0.84,
+        "exDate": null,
+        "payDate": "2026-12-01"
+      },
       {
         "quarter": "2026 Q3",
         "year": 2026,
@@ -165,14 +173,6 @@
         "perShare": 0.46,
         "exDate": null,
         "payDate": "2022-03-01"
-      },
-      {
-        "quarter": "2021 Q3",
-        "year": 2021,
-        "q": 3,
-        "perShare": 0.89,
-        "exDate": null,
-        "payDate": "2021-09-01"
       }
     ]
   }
