@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-30T23:25:22.531480+00:00",
-  "text": "Marathon Petroleum stock rose 0.86% today, capping a volatile week that saw a 4.5% dip overall. The modest gain came as U.S. crude held steady around $96/barrel while global crude prices sit significantly higher at $114/barrel\u2014a gap that benefits refiners like MPC, which can buy cheaper domestic oil and sell products into global markets. Refineries are running at 92.5% capacity, reflecting solid operational demand, though gasoline and diesel inventories remain elevated, which can pressure margins.\n\nThe real wildcard for refiners this week has been geopolitical noise: Trump's talk of a diesel export ban, Saudi Arabia's restoration of Red Sea pipeline flows, and shifting U.S.-Iran relations all create uncertainty about future fuel supply costs and export opportunities. For a refiner, a diesel export ban would be deeply negative\u2014it would trap supply domestically and depress refining margins\u2014but Trump's own warning that such a move could raise gasoline prices suggests it may not happen. The recovery in Middle Eastern crude exports and the current wide gap between U.S. and global oil prices are more concrete near-term tailwinds.",
+  "fetchedAt": "2026-10-01T03:56:03.494655+00:00",
+  "text": "Marathon Petroleum rose 0.86% today as crude oil prices stabilized and refining conditions remained supportive. U.S. crude held steady around $96 per barrel while domestic refineries ran at a healthy 92.5% utilization rate, providing a steady backdrop for refining margins. The stock has been volatile over the past two weeks (down 4.47%), but today's bounce follows yesterday's gains as oil prices found some footing.\n\nThe broader energy picture offers mixed signals for refiners. Talk of a potential diesel export ban from the Trump administration could tighten U.S. fuel supplies and potentially lift margins on refined products sold domestically, which would be positive for refiners\u2014though the industry has warned such a ban could raise prices. At the same time, geopolitical uncertainty around Iran sanctions and the Strait of Hormuz remains a wild card for crude supply flows.",
   "status": "ok",
   "usage": {
-    "month": "2026-09",
-    "callsThisMonth": 236,
-    "inputTokens": 218316,
-    "outputTokens": 51339,
-    "estimatedCostUsd": 0.475011,
-    "lastCallHour": "2026-09-30T23"
+    "month": "2026-10",
+    "callsThisMonth": 1,
+    "inputTokens": 931,
+    "outputTokens": 192,
+    "estimatedCostUsd": 0.001891,
+    "lastCallHour": "2026-10-01T03"
   }
 }

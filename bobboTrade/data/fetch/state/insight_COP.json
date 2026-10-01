@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-30T23:25:10.271291+00:00",
-  "text": "ConocoPhillips fell 0.23% today to $125.15, extending a two-week decline of 5.58%. The move reflects weakness in crude oil prices: US oil fell to $96.16 per barrel, down from the mid-$128 range where the stock was trading less than a week ago. Saudi Arabia's restoration of Red Sea pipeline flows to 3.5 million barrels per day has eased supply concerns, and broader recovery in crude exports through the Strait of Hormuz has reduced the geopolitical premium that had been supporting prices.\n\nThe stock's decline also sits against uncertainty on policy. Trump's recent comments about a potential diesel export ban and ongoing diplomatic signals around Iran sanctions create conflicting signals for energy markets\u2014tighter supply rules could support margins, but near-term policy unpredictability often weighs on large-cap oil stocks until direction becomes clearer.",
+  "fetchedAt": "2026-10-01T03:55:51.377208+00:00",
+  "text": "ConocoPhillips fell 0.2% today to $125.15, continuing a five-day losing streak that has dragged the stock down 5.6% since late September. The weakness reflects broader energy sector pressure: crude prices have pulled back meaningfully (U.S. oil at $96 per barrel, down from the mid-$100s just days ago), and policy uncertainty around potential diesel export restrictions\u2014which Trump said he was \"very seriously\" considering\u2014threatens to constrain U.S. fuel markets and refiner margins if enacted.\n\nThe stock is also feeling pressure from uncertainty around the Alaska LNG project, a major growth opportunity for the company. South Korea's president pushed back on committing to the venture today, even after the Trump administration announced up to $200 billion in broader Korean investment, signaling that a key financing partner remains noncommittal on this capital-intensive undertaking.",
   "status": "ok",
   "usage": {
-    "month": "2026-09",
-    "callsThisMonth": 236,
-    "inputTokens": 204686,
-    "outputTokens": 50500,
-    "estimatedCostUsd": 0.457186,
-    "lastCallHour": "2026-09-30T23"
+    "month": "2026-10",
+    "callsThisMonth": 1,
+    "inputTokens": 868,
+    "outputTokens": 197,
+    "estimatedCostUsd": 0.001853,
+    "lastCallHour": "2026-10-01T03"
   }
 }
