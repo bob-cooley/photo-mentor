@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-02T15:22:34.559303+00:00",
-  "text": "Marathon Petroleum fell 1.88% today after oil prices dropped sharply on news that G7 nations plan to release diesel reserves to ease supply constraints in Europe and the Middle East. Brent crude fell below $100 a barrel on the report, which pressures refiner margins \u2014 the profit spread between what a refiner pays for crude oil and what it gets for selling refined products like diesel and gasoline. The stock had jumped nearly 7% just yesterday on elevated oil prices, so today's retreat reflects the reversal of that tailwind.\n\nRefining utilization remains strong at 92.5%, and inventories of gasoline and diesel are moderate, so the move is purely tied to crude prices falling. A wider supply of diesel flooding the market would ease one of the key constraints pushing up fuel prices, which had supported refiner profitability over the past week.",
+  "fetchedAt": "2026-10-02T18:12:12.639990+00:00",
+  "text": "Marathon Petroleum rose 0.75% today to $423.30, continuing a sharp four-day rally that has added roughly 8.5% since September 30. The immediate driver appears to be tightening fuel supplies: the G7 announced plans to release 100 million barrels from reserves over four months to address soaring diesel prices amid regional conflicts, while the U.S. is simultaneously pushing back against potential export restrictions that could constrain global supply. For a major refiner like Marathon, this supply squeeze\u2014combined with refineries already running at 92.5% capacity\u2014typically improves margins on fuel output because demand stays firm while production costs don't rise proportionally.\n\nGeopolitical escalation is also supporting energy prices more broadly. Reports of a potential third U.S. carrier group heading to the Middle East and fresh threats toward Iran raise the risk of further production disruptions, which historically lift crude and refined product values. With U.S. oil trading at $96 a barrel and world crude at $114, the widening gap reflects these regional tensions, and refiners benefit when they can access cheaper domestic feedstock while selling into a more expensive global market.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 8,
-    "inputTokens": 7504,
-    "outputTokens": 1589,
-    "estimatedCostUsd": 0.015449,
-    "lastCallHour": "2026-10-02T15"
+    "callsThisMonth": 9,
+    "inputTokens": 8434,
+    "outputTokens": 1841,
+    "estimatedCostUsd": 0.017639,
+    "lastCallHour": "2026-10-02T18"
   }
 }
