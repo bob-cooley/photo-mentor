@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-01T22:21:19.582239+00:00",
-  "text": "Marathon Petroleum jumped 6.3% today after Brent crude oil surged more than 4% on reports that the U.S. is deploying a third aircraft carrier strike group to the Middle East, amid escalating tensions involving Iran and concerns over regional stability. As a major refiner, Marathon benefits when crude oil prices rise relative to the refined products it sells\u2014higher input costs are more than offset by the premium refiners can capture, especially when geopolitical risk tightens global supply.\n\nThe timing also matters: refineries are running at 92.5% capacity, near full utilization, so the company has limited spare capacity to ramp up production if demand spikes. That means Marathon is well-positioned to profit if crude prices stay elevated and Middle East supply concerns persist, since it can't easily produce more barrels but can sell what it makes at higher margins.",
+  "fetchedAt": "2026-10-02T01:58:04.524248+00:00",
+  "text": "Marathon Petroleum shares jumped 6.25% today as crude oil prices surged more than 4% on geopolitical tensions in the Middle East. A report that the U.S. is sending a third aircraft carrier strike group to the region, combined with concerns over Iran's role in a British air base incident, drove Brent crude sharply higher\u2014a direct tailwind for refiners, whose profits depend on the spread between oil input costs and refined product prices. Refinery utilization is already running at 92.5%, so the company is well-positioned to capture gains from higher margins.\n\nThe broader energy market is also tightening heading into winter, with reports of Europe facing a potential energy crunch and BP announcing a major oil discovery. Higher crude prices flowing through a fully-utilized refinery network typically translate into stronger refining margins, which explains the sharp single-day move in a stock that had been essentially flat over the prior two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 5,
-    "inputTokens": 4690,
-    "outputTokens": 996,
-    "estimatedCostUsd": 0.00967,
-    "lastCallHour": "2026-10-01T22"
+    "callsThisMonth": 6,
+    "inputTokens": 5624,
+    "outputTokens": 1199,
+    "estimatedCostUsd": 0.011619,
+    "lastCallHour": "2026-10-02T01"
   }
 }
