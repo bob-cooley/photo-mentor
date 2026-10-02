@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-02T01:58:04.524248+00:00",
-  "text": "Marathon Petroleum shares jumped 6.25% today as crude oil prices surged more than 4% on geopolitical tensions in the Middle East. A report that the U.S. is sending a third aircraft carrier strike group to the region, combined with concerns over Iran's role in a British air base incident, drove Brent crude sharply higher\u2014a direct tailwind for refiners, whose profits depend on the spread between oil input costs and refined product prices. Refinery utilization is already running at 92.5%, so the company is well-positioned to capture gains from higher margins.\n\nThe broader energy market is also tightening heading into winter, with reports of Europe facing a potential energy crunch and BP announcing a major oil discovery. Higher crude prices flowing through a fully-utilized refinery network typically translate into stronger refining margins, which explains the sharp single-day move in a stock that had been essentially flat over the prior two weeks.",
+  "fetchedAt": "2026-10-02T08:06:23.567978+00:00",
+  "text": "Marathon Petroleum jumped 6.3% today as oil prices surged on geopolitical tension\u2014U.S. crude climbed to $96 per barrel while Brent crude hit nearly $114, driven by escalating U.S.-Iran conflict and threats of new strikes in the Middle East. For a major U.S. refiner, higher crude prices can initially boost margins if they can pass costs to consumers, and tightening global supply has refineries running at 92.5% capacity with diesel inventories at historically low levels.\n\nThe backdrop amplifies the move: Europe is facing a diesel crisis and urging the U.S. to release reserves, while tariff threats against countries buying Russian oil are tightening supply further. This supply squeeze\u2014combined with refineries already running near full capacity\u2014creates the conditions where a refiner with U.S. coastal assets benefits from both higher oil prices and stronger demand for refined products like diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 6,
-    "inputTokens": 5624,
-    "outputTokens": 1199,
-    "estimatedCostUsd": 0.011619,
-    "lastCallHour": "2026-10-02T01"
+    "callsThisMonth": 7,
+    "inputTokens": 6573,
+    "outputTokens": 1402,
+    "estimatedCostUsd": 0.013583,
+    "lastCallHour": "2026-10-02T08"
   }
 }
