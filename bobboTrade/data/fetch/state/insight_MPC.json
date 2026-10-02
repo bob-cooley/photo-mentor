@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-02T18:12:12.639990+00:00",
-  "text": "Marathon Petroleum rose 0.75% today to $423.30, continuing a sharp four-day rally that has added roughly 8.5% since September 30. The immediate driver appears to be tightening fuel supplies: the G7 announced plans to release 100 million barrels from reserves over four months to address soaring diesel prices amid regional conflicts, while the U.S. is simultaneously pushing back against potential export restrictions that could constrain global supply. For a major refiner like Marathon, this supply squeeze\u2014combined with refineries already running at 92.5% capacity\u2014typically improves margins on fuel output because demand stays firm while production costs don't rise proportionally.\n\nGeopolitical escalation is also supporting energy prices more broadly. Reports of a potential third U.S. carrier group heading to the Middle East and fresh threats toward Iran raise the risk of further production disruptions, which historically lift crude and refined product values. With U.S. oil trading at $96 a barrel and world crude at $114, the widening gap reflects these regional tensions, and refiners benefit when they can access cheaper domestic feedstock while selling into a more expensive global market.",
+  "fetchedAt": "2026-10-02T20:19:52.923783+00:00",
+  "text": "Marathon Petroleum rose 0.5% today to $422.26, extending a sharp two-day rally that saw the stock jump nearly 8% from Monday's close. The immediate driver appears to be a significant widening in the spread between U.S. and world oil prices\u2014crude is trading at $96.16 domestically but $113.96 globally, the widest gap in the data set. Refiners like Marathon profit when they can buy cheaper crude domestically and sell refined products into global markets; this spread environment is favorable for their margins.\n\nThe broader backdrop reinforces this dynamic: the G7's plan to release 100 million barrels of diesel reserves over four months, while initially sounding bearish for fuel prices, actually underscores tight global supply and the premium refiners can command on exports. Combined with U.S. refineries running at 92.5% capacity and geopolitical tensions (Iran strikes, Houthi conflict) pushing world oil prices higher, refiners have real room to capture value on the gap between cheap domestic crude and expensive global fuel demand.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 9,
-    "inputTokens": 8434,
-    "outputTokens": 1841,
-    "estimatedCostUsd": 0.017639,
-    "lastCallHour": "2026-10-02T18"
+    "callsThisMonth": 10,
+    "inputTokens": 9377,
+    "outputTokens": 2077,
+    "estimatedCostUsd": 0.019762,
+    "lastCallHour": "2026-10-02T20"
   }
 }
