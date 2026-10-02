@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-02T08:06:01.894496+00:00",
-  "text": "ConocoPhillips rose 1.5% today, bouncing back after a four-day decline that had erased $4 per share. The rebound came as geopolitical tension in the Middle East spiked sharply\u2014the U.S. is deploying a third carrier strike group to the region and Trump is signaling potential new strikes on Iran. That conflict risk typically pushes oil prices higher, and you can see it in the data: U.S. crude jumped to $96/barrel while global oil hit $114/barrel, both elevated levels that benefit oil producers like ConocoPhillips.\n\nThe broader backdrop matters too: Europe is facing a diesel shortage severe enough that U.S. officials are calling for emergency reserve releases, and there's active talk of a winter energy crisis. That supply tightness, combined with ongoing friction between the U.S. and India over Russian oil purchases, keeps global crude demand and prices supported\u2014exactly the environment where an oil major's stock tends to stabilize after a recent sell-off.",
+  "fetchedAt": "2026-10-02T15:21:07.877200+00:00",
+  "text": "ConocoPhillips fell 0.44% today to $126.50, pulling back from yesterday's rally. The decline came as oil prices slid on news that the G7 is planning to release diesel reserves to ease fuel shortages tied to conflicts in Europe and the Middle East\u2014a move that typically weighs on crude prices by increasing near-term supply. Brent crude dropped below $100 per barrel on the announcement, signaling reduced near-term demand expectations for refined products.\n\nThe broader context matters here: the stock has lost 4% over two weeks despite significant geopolitical risk to energy supplies (U.S. military buildup in the Middle East, potential Iran strikes, ongoing European conflicts). This suggests markets are pricing in that even crisis-level supply constraints are being offset by policy responses\u2014like strategic reserve releases and the possibility of trade tensions cooling energy demand globally, particularly if U.S. tariff threats reduce economic activity in India and elsewhere.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 7,
-    "inputTokens": 6132,
-    "outputTokens": 1387,
-    "estimatedCostUsd": 0.013067,
-    "lastCallHour": "2026-10-02T08"
+    "callsThisMonth": 8,
+    "inputTokens": 7002,
+    "outputTokens": 1594,
+    "estimatedCostUsd": 0.014972,
+    "lastCallHour": "2026-10-02T15"
   }
 }

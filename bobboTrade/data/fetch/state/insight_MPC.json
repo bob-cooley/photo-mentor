@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-02T08:06:23.567978+00:00",
-  "text": "Marathon Petroleum jumped 6.3% today as oil prices surged on geopolitical tension\u2014U.S. crude climbed to $96 per barrel while Brent crude hit nearly $114, driven by escalating U.S.-Iran conflict and threats of new strikes in the Middle East. For a major U.S. refiner, higher crude prices can initially boost margins if they can pass costs to consumers, and tightening global supply has refineries running at 92.5% capacity with diesel inventories at historically low levels.\n\nThe backdrop amplifies the move: Europe is facing a diesel crisis and urging the U.S. to release reserves, while tariff threats against countries buying Russian oil are tightening supply further. This supply squeeze\u2014combined with refineries already running near full capacity\u2014creates the conditions where a refiner with U.S. coastal assets benefits from both higher oil prices and stronger demand for refined products like diesel.",
+  "fetchedAt": "2026-10-02T15:22:34.559303+00:00",
+  "text": "Marathon Petroleum fell 1.88% today after oil prices dropped sharply on news that G7 nations plan to release diesel reserves to ease supply constraints in Europe and the Middle East. Brent crude fell below $100 a barrel on the report, which pressures refiner margins \u2014 the profit spread between what a refiner pays for crude oil and what it gets for selling refined products like diesel and gasoline. The stock had jumped nearly 7% just yesterday on elevated oil prices, so today's retreat reflects the reversal of that tailwind.\n\nRefining utilization remains strong at 92.5%, and inventories of gasoline and diesel are moderate, so the move is purely tied to crude prices falling. A wider supply of diesel flooding the market would ease one of the key constraints pushing up fuel prices, which had supported refiner profitability over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 7,
-    "inputTokens": 6573,
-    "outputTokens": 1402,
-    "estimatedCostUsd": 0.013583,
-    "lastCallHour": "2026-10-02T08"
+    "callsThisMonth": 8,
+    "inputTokens": 7504,
+    "outputTokens": 1589,
+    "estimatedCostUsd": 0.015449,
+    "lastCallHour": "2026-10-02T15"
   }
 }
