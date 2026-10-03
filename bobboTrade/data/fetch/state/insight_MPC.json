@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-02T22:14:50.151801+00:00",
-  "text": "Marathon Petroleum rose 0.56% today to $422.50, extending a sharp rally from the past two days that has seen the stock climb nearly $30 in just 48 hours. The immediate driver appears to be crude oil prices: WTI jumped from the mid-$80s two weeks ago to $96.16 today, while global crude sits at $113.96\u2014a substantial move that directly improves refiner margins. Refineries are running at 92.5% utilization, a healthy operating rate, and the company benefits when crude costs rise less than refined product prices.\n\nHowever, today's broader oil market is mixed: the G7 announced plans to release 100 million barrels of diesel reserves over four months in response to tight fuel supplies, which typically pressures prices and refiner profits going forward. The geopolitical backdrop\u2014U.S. military posturing in the Middle East and threats toward Iran\u2014likely underpins crude strength despite the reserve release, since supply disruption fears can outweigh inventory announcements in the short term. The stock's strength seems to hinge on oil staying elevated; if crude settles back down or the G7 release accelerates, that tailwind could reverse.",
+  "fetchedAt": "2026-10-03T00:07:45.346863+00:00",
+  "text": "Marathon Petroleum jumped 2.8% in two days (from $395.42 to $422.33), with today's gain coming as oil prices remain elevated and refineries operate at 92.5% capacity. The sharp move follows the G7's announcement to release 100 million barrels of diesel reserves over four months \u2014 a measure that might seem bearish for refiners, but the market appears focused instead on the fact that global diesel supply remains tight despite this intervention, supporting refining margins. US crude sits at $96/barrel while world oil trades at $114, suggesting strong international demand that refiners can capture through exports.\n\nThe broader context: geopolitical tension in the Middle East (US military buildup, potential Iran strikes) and trade friction (India facing tariffs for buying Russian oil) are keeping crude prices elevated and constrained, which supports refinery profitability even as the G7 attempts to manage a diesel crunch. Refineries running near full capacity with robust crude premiums indicate strong operational conditions for Marathon.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 11,
-    "inputTokens": 10320,
-    "outputTokens": 2342,
-    "estimatedCostUsd": 0.02203,
-    "lastCallHour": "2026-10-02T22"
+    "callsThisMonth": 12,
+    "inputTokens": 11265,
+    "outputTokens": 2564,
+    "estimatedCostUsd": 0.024085,
+    "lastCallHour": "2026-10-03T00"
   }
 }
