@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-03T18:58:35.897386+00:00",
-  "text": "Marathon Petroleum climbed 0.52% today to $422.33, continuing a sharp rally that started yesterday when the stock jumped nearly 7%. The jump appears tied to crude oil's strength \u2014 US oil closed near $96 per barrel today, and the gap between world oil prices ($113.96) and US prices has widened significantly, which typically improves refining margins. Refineries are running at 92.5% capacity, near full utilization, so they're positioned to capture those higher margins as crude stays elevated.\n\nThe broader backdrop has shifted toward tighter fuel supplies: the G7 announced it will release 100 million barrels of reserves over four months to combat high diesel prices, and geopolitical risks in the Middle East and Europe remain elevated. These supply constraints and the potential for continued disruptions have kept oil prices firm, which benefits refiners like Marathon that process crude into fuel.",
+  "fetchedAt": "2026-10-03T22:03:31.275413+00:00",
+  "text": "Marathon Petroleum rose 0.5% today, extending a sharp two-day rally that has added 7.5% since September 30th. The climb comes as U.S. crude oil prices hit $96/barrel and refineries operate at 92.5% capacity\u2014near full utilization\u2014while the G7's announced release of 100 million barrels of reserves over four months and threats of U.S. export bans on diesel create conflicting signals. For a refiner, higher crude prices and tight refining capacity can support margins, though the G7's reserve release is meant to cool prices and ease supply concerns.\n\nThe geopolitical backdrop adds volatility: U.S. military buildups in the Middle East and Trump's warnings of potential Iran strikes keep crude prices elevated and global supply uncertain, while India faces tariff pressure over Russian oil purchases that could reshape regional energy flows. These tensions and supply dynamics are keeping refiners focused on near-term utilization gains, even as policy interventions like reserve releases try to moderate costs.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 16,
-    "inputTokens": 15043,
-    "outputTokens": 3454,
-    "estimatedCostUsd": 0.032313,
-    "lastCallHour": "2026-10-03T18"
+    "callsThisMonth": 17,
+    "inputTokens": 15988,
+    "outputTokens": 3678,
+    "estimatedCostUsd": 0.034378,
+    "lastCallHour": "2026-10-03T22"
   }
 }

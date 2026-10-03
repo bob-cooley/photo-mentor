@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-03T18:58:23.817288+00:00",
-  "text": "ConocoPhillips fell 0.24% today to $126.75, extending a three-day decline that started after it bounced yesterday. The main headwind is the G7's announcement that it will release 100 million barrels of oil reserves over the next four months to cool diesel prices \u2014 a direct supply increase that pushes crude prices lower. U.S. oil has dropped to $96 per barrel today, and that downward pressure on the commodity itself weighs on the company's earnings outlook.\n\nThe broader backdrop adds complexity: Middle East tensions (U.S. carrier groups heading to the region, potential Iran strikes) and geopolitical supply risks are real, but they're being offset by the coordinated G7 reserve release. Additionally, India's risk of tariffs for buying Russian oil, and South Korea's caution on expensive LNG projects, suggest demand headwinds elsewhere. For an oil and gas producer, today's move reflects the pull between these forces \u2014 with the near-term supply injection winning out over longer-term risk concerns.",
+  "fetchedAt": "2026-10-03T22:03:05.253471+00:00",
+  "text": "ConocoPhillips fell 0.24% today to close at $126.75, a small move in a stock that's down 3.85% over two weeks. The main headwind is the G7's announcement to release 100 million barrels of diesel reserves over the next four months\u2014a direct supply injection aimed at cooling fuel prices globally. This weighs on oil majors because additional government-controlled barrels flooding the market typically pressure crude prices and margins.\n\nThe broader context shows tension between forces that would normally help an oil company like ConocoPhillips: geopolitical risks in the Middle East (additional U.S. carrier groups, potential Iran strikes) and energy supply constraints (Europe facing a diesel shortage, India potentially facing tariffs on Russian oil purchases) would all support higher oil prices. Yet the G7's coordinated reserve release is a countervailing policy action designed to override those supply fears, and that's the concrete signal the market focused on today.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 16,
-    "inputTokens": 14037,
-    "outputTokens": 3279,
-    "estimatedCostUsd": 0.030432,
-    "lastCallHour": "2026-10-03T18"
+    "callsThisMonth": 17,
+    "inputTokens": 14918,
+    "outputTokens": 3490,
+    "estimatedCostUsd": 0.032368,
+    "lastCallHour": "2026-10-03T22"
   }
 }
