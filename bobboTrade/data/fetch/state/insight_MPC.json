@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-03T15:39:30.598026+00:00",
-  "text": "Marathon Petroleum rose 0.52% today to $422.33, extending a sharp rally that began October 1st\u2014the stock jumped nearly 7% in two days. The driver appears to be the widening gap between U.S. and world oil prices: crude is trading at $96/barrel domestically but $114 globally, a $18 spread that has grown as geopolitical tensions escalate (U.S. military buildup in the Middle East, threats toward Iran) and the G7 announced a 100-million-barrel reserve release over four months. For a refiner, a wider U.S.-global price gap can be profitable if it means cheaper feedstock at home while international demand and pricing remain elevated.\n\nThe rally also reflects tightening fundamentals despite the reserve release. Refineries are running at 92.5% capacity with diesel storage notably lean at 105 million barrels\u2014and the news highlights acute diesel shortages in Europe and supply constraints from Middle East instability. This supports margins for U.S. refiners even as the G7's move aims to ease global pressure on fuel prices.",
+  "fetchedAt": "2026-10-03T18:58:35.897386+00:00",
+  "text": "Marathon Petroleum climbed 0.52% today to $422.33, continuing a sharp rally that started yesterday when the stock jumped nearly 7%. The jump appears tied to crude oil's strength \u2014 US oil closed near $96 per barrel today, and the gap between world oil prices ($113.96) and US prices has widened significantly, which typically improves refining margins. Refineries are running at 92.5% capacity, near full utilization, so they're positioned to capture those higher margins as crude stays elevated.\n\nThe broader backdrop has shifted toward tighter fuel supplies: the G7 announced it will release 100 million barrels of reserves over four months to combat high diesel prices, and geopolitical risks in the Middle East and Europe remain elevated. These supply constraints and the potential for continued disruptions have kept oil prices firm, which benefits refiners like Marathon that process crude into fuel.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 15,
-    "inputTokens": 14098,
-    "outputTokens": 3259,
-    "estimatedCostUsd": 0.030393,
-    "lastCallHour": "2026-10-03T15"
+    "callsThisMonth": 16,
+    "inputTokens": 15043,
+    "outputTokens": 3454,
+    "estimatedCostUsd": 0.032313,
+    "lastCallHour": "2026-10-03T18"
   }
 }
