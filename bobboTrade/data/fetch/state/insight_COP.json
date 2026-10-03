@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-03T11:29:36.265851+00:00",
-  "text": "COP fell 0.24% today to $126.75, continuing a slide that's left it down 3.85% over two weeks. The immediate pressure came from news that the G7 will release 100 million barrels of oil reserves over the next four months to combat high fuel prices\u2014a direct supply increase that pushes crude lower. Today's move also reflects broader oil weakness: U.S. crude dropped to $96 per barrel (down from higher levels earlier in the week), even as geopolitical risks in the Middle East and Europe remain elevated.\n\nThe stock's weakness sits in a real tension: while military buildups in the Middle East and potential U.S. strikes on Iran could tighten oil supplies, the G7's coordinated reserve releases and talk of export restrictions (like potential U.S. bans on oil exports) are pulling the price down right now. For a major oil producer like ConocoPhillips, lower crude prices directly compress margins and cash flow, which is why the stock has drifted lower even as headline risks keep oil from collapsing entirely.",
+  "fetchedAt": "2026-10-03T15:39:15.167757+00:00",
+  "text": "ConocoPhillips fell 0.24% today to close at $126.75, a small move in a stock that's down 3.85% over two weeks. The main driver was a G7 announcement to release 100 million barrels of diesel reserves over the next four months\u2014a direct supply injection that pressured oil prices lower (U.S. crude dropped to $96.16 per barrel). When crude weakens, it reduces the profit outlook for oil producers like ConocoPhillips.\n\nThe broader headwind is that geopolitical tensions, while elevated, haven't been enough to offset the supply release. The U.S. is sending additional military assets to the Middle East and Trump has signaled possible strikes on Iran, yet these threats have been priced in without a sharp rally. Meanwhile, diesel shortage concerns in Europe and cautious international partners on high-cost LNG projects show the market is focused on near-term supply management rather than supply disruption risk.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 14,
-    "inputTokens": 12275,
-    "outputTokens": 2837,
-    "estimatedCostUsd": 0.02646,
-    "lastCallHour": "2026-10-03T11"
+    "callsThisMonth": 15,
+    "inputTokens": 13156,
+    "outputTokens": 3051,
+    "estimatedCostUsd": 0.028411,
+    "lastCallHour": "2026-10-03T15"
   }
 }

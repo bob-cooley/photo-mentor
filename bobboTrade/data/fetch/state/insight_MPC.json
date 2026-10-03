@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-03T11:29:48.923119+00:00",
-  "text": "Marathon Petroleum jumped 2.8% over the last two trading days, with today's small gain capping a sharp rally that began October 1st. The timing aligns with escalating Middle East tensions\u2014the U.S. is deploying a third carrier strike group to the region and Trump is weighing renewed strikes on Iran\u2014which has historically supported crude prices and refining margins. Oil prices remain elevated (U.S. crude at $96, world crude at $114), refineries are running at 92.5% capacity, and fuel inventories are tight, all of which favor refiners' profitability.\n\nThat said, the G7's plan to release 100 million barrels of diesel reserves over four months, announced the same day, is intended to cool prices and may limit upside for refiner margins going forward. The stock's 2-week performance is essentially flat despite these swings, suggesting the market is balancing the short-term refining tailwind against longer-term uncertainty from coordinated reserve releases.",
+  "fetchedAt": "2026-10-03T15:39:30.598026+00:00",
+  "text": "Marathon Petroleum rose 0.52% today to $422.33, extending a sharp rally that began October 1st\u2014the stock jumped nearly 7% in two days. The driver appears to be the widening gap between U.S. and world oil prices: crude is trading at $96/barrel domestically but $114 globally, a $18 spread that has grown as geopolitical tensions escalate (U.S. military buildup in the Middle East, threats toward Iran) and the G7 announced a 100-million-barrel reserve release over four months. For a refiner, a wider U.S.-global price gap can be profitable if it means cheaper feedstock at home while international demand and pricing remain elevated.\n\nThe rally also reflects tightening fundamentals despite the reserve release. Refineries are running at 92.5% capacity with diesel storage notably lean at 105 million barrels\u2014and the news highlights acute diesel shortages in Europe and supply constraints from Middle East instability. This supports margins for U.S. refiners even as the G7's move aims to ease global pressure on fuel prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 14,
-    "inputTokens": 13153,
-    "outputTokens": 3014,
-    "estimatedCostUsd": 0.028223,
-    "lastCallHour": "2026-10-03T11"
+    "callsThisMonth": 15,
+    "inputTokens": 14098,
+    "outputTokens": 3259,
+    "estimatedCostUsd": 0.030393,
+    "lastCallHour": "2026-10-03T15"
   }
 }
