@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-03T00:07:45.346863+00:00",
-  "text": "Marathon Petroleum jumped 2.8% in two days (from $395.42 to $422.33), with today's gain coming as oil prices remain elevated and refineries operate at 92.5% capacity. The sharp move follows the G7's announcement to release 100 million barrels of diesel reserves over four months \u2014 a measure that might seem bearish for refiners, but the market appears focused instead on the fact that global diesel supply remains tight despite this intervention, supporting refining margins. US crude sits at $96/barrel while world oil trades at $114, suggesting strong international demand that refiners can capture through exports.\n\nThe broader context: geopolitical tension in the Middle East (US military buildup, potential Iran strikes) and trade friction (India facing tariffs for buying Russian oil) are keeping crude prices elevated and constrained, which supports refinery profitability even as the G7 attempts to manage a diesel crunch. Refineries running near full capacity with robust crude premiums indicate strong operational conditions for Marathon.",
+  "fetchedAt": "2026-10-03T06:00:11.105273+00:00",
+  "text": "Marathon Petroleum rose 0.56% today to $422.50, building on a sharp 6.8% gain over the past two trading days. The immediate catalyst appears to be oil price strength: crude jumped from around $95 to $96.16 per barrel even as the G7 announced plans to release 100 million barrels of diesel reserves over the next four months. That counterintuitive move\u2014oil prices holding firm despite a large reserve release\u2014likely signals market concern that geopolitical risks (escalating U.S.-Iran tensions, ongoing Middle East conflict) outweigh the supply boost, supporting refinery margins and fuel demand.\n\nThe broader backdrop also supports refiners: U.S. refineries are running at 92.5% capacity utilization, and diesel inventories remain relatively tight at 105 million barrels despite the G7's imminent release. This combination of tight near-term supply and strong crude prices typically benefits Marathon's refining operations, even if the G7 action eventually pushes prices down later in the quarter.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 12,
-    "inputTokens": 11265,
-    "outputTokens": 2564,
-    "estimatedCostUsd": 0.024085,
-    "lastCallHour": "2026-10-03T00"
+    "callsThisMonth": 13,
+    "inputTokens": 12208,
+    "outputTokens": 2793,
+    "estimatedCostUsd": 0.026173,
+    "lastCallHour": "2026-10-03T06"
   }
 }
