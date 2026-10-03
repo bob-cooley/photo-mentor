@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-03T06:00:11.105273+00:00",
-  "text": "Marathon Petroleum rose 0.56% today to $422.50, building on a sharp 6.8% gain over the past two trading days. The immediate catalyst appears to be oil price strength: crude jumped from around $95 to $96.16 per barrel even as the G7 announced plans to release 100 million barrels of diesel reserves over the next four months. That counterintuitive move\u2014oil prices holding firm despite a large reserve release\u2014likely signals market concern that geopolitical risks (escalating U.S.-Iran tensions, ongoing Middle East conflict) outweigh the supply boost, supporting refinery margins and fuel demand.\n\nThe broader backdrop also supports refiners: U.S. refineries are running at 92.5% capacity utilization, and diesel inventories remain relatively tight at 105 million barrels despite the G7's imminent release. This combination of tight near-term supply and strong crude prices typically benefits Marathon's refining operations, even if the G7 action eventually pushes prices down later in the quarter.",
+  "fetchedAt": "2026-10-03T11:29:48.923119+00:00",
+  "text": "Marathon Petroleum jumped 2.8% over the last two trading days, with today's small gain capping a sharp rally that began October 1st. The timing aligns with escalating Middle East tensions\u2014the U.S. is deploying a third carrier strike group to the region and Trump is weighing renewed strikes on Iran\u2014which has historically supported crude prices and refining margins. Oil prices remain elevated (U.S. crude at $96, world crude at $114), refineries are running at 92.5% capacity, and fuel inventories are tight, all of which favor refiners' profitability.\n\nThat said, the G7's plan to release 100 million barrels of diesel reserves over four months, announced the same day, is intended to cool prices and may limit upside for refiner margins going forward. The stock's 2-week performance is essentially flat despite these swings, suggesting the market is balancing the short-term refining tailwind against longer-term uncertainty from coordinated reserve releases.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 13,
-    "inputTokens": 12208,
-    "outputTokens": 2793,
-    "estimatedCostUsd": 0.026173,
-    "lastCallHour": "2026-10-03T06"
+    "callsThisMonth": 14,
+    "inputTokens": 13153,
+    "outputTokens": 3014,
+    "estimatedCostUsd": 0.028223,
+    "lastCallHour": "2026-10-03T11"
   }
 }
