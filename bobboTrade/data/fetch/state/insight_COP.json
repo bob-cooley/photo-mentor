@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-04T15:07:16.587869+00:00",
-  "text": "ConocoPhillips fell slightly today in a market where oil prices are mixed\u2014U.S. crude is trading at $96.16 per barrel, down from recent highs, while global crude sits at $113.96. The decline came after the G7 announced it will release 100 million barrels of oil and diesel reserves over the next four months, a direct supply boost designed to cool prices. This reserve release, announced on October 2nd, pressures the economics of oil producers like ConocoPhillips by increasing available supply.\n\nThe stock's broader two-week decline reflects ongoing geopolitical tension without a clear resolution: Middle East shipping strikes and tanker disruptions continue, but so do government efforts to stabilize supply and prices. The net effect is uncertainty\u2014potential supply shocks from regional conflict are being offset by coordinated government intervention to flood markets with reserves, leaving the direction of oil prices and energy stocks unclear.",
+  "fetchedAt": "2026-10-04T19:02:56.068075+00:00",
+  "text": "COP fell slightly today in a market where oil prices are actually mixed\u2014US crude is around $96 a barrel, but global oil is notably higher at $114, reflecting Middle East supply concerns from Iran-related shipping disruptions and Houthi attacks. The stock's small daily dip comes after a sharper 3.85% decline over two weeks, during which oil markets have been buffeted by conflicting forces: geopolitical risk pushing prices up in some regions, but coordinated G7 releases of 100 million barrels of strategic reserves over the next four months pushing them down.\n\nThe split between US and global oil prices is key here\u2014it shows the market is pricing in real Middle East friction, but major nations are trying to contain the damage by flooding markets with reserves. For an integrated oil company like this one, that's a headwind: while higher global prices help production revenue, the reserve releases dampen the upside, and uncertainty about whether geopolitical tensions will escalate or stabilize (Trump's warnings of new Iran strikes versus ongoing diplomatic posturing) makes the near-term outlook murky.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 20,
-    "inputTokens": 17557,
-    "outputTokens": 4117,
-    "estimatedCostUsd": 0.038142,
-    "lastCallHour": "2026-10-04T15"
+    "callsThisMonth": 21,
+    "inputTokens": 18434,
+    "outputTokens": 4355,
+    "estimatedCostUsd": 0.040209,
+    "lastCallHour": "2026-10-04T19"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-04T15:08:00.759576+00:00",
-  "text": "Marathon Petroleum stock jumped 2.8% over the past two trading days, with today's small gain continuing a sharp recovery that started on October 1st. The surge follows news that the G7 will release 100 million barrels of diesel reserves over the next four months and signals that geopolitical tensions in the Middle East\u2014tanker strikes near the Strait of Hormuz and potential U.S. military action against Iran\u2014are pushing crude oil prices higher (U.S. oil at $96/barrel, global oil at $114/barrel). Refineries are running at 92.5% capacity, and with diesel and heating oil supplies relatively tight at 105 million barrels in storage, higher crude prices combined with constrained fuel supplies can boost refiner margins.\n\nThe broader picture is that oil price swings from Middle East conflict risk are creating volatility, but tighter fuel inventories and strong refinery utilization rates are supporting margins for refiners like Marathon even as crude costs rise.",
+  "fetchedAt": "2026-10-04T19:04:12.188197+00:00",
+  "text": "Marathon Petroleum jumped 2.8% over the last two trading days, capping a sharp reversal from last week's decline. The move tracks a significant widening between U.S. and world oil prices \u2014 the gap has grown to $17.80 per barrel (U.S. at $96.16, world at $113.96) \u2014 reflecting supply disruptions in the Middle East from tanker strikes and the Strait of Hormuz tensions. For a U.S. refiner like Marathon, this gap is valuable: it can buy cheaper domestic crude and sell refined products into a tighter global market, improving margins. Refineries are running at 92.5% capacity, near practical maximums, so the company can capture this advantage at high utilization.\n\nThe broader backdrop is acute: geopolitical risk in the Middle East is pushing world prices higher while the U.S. sits on ample domestic supplies (over 711 million barrels in storage). Although the G7's plan to release diesel stocks could eventually pressure prices, the immediate dynamic\u2014Iran rhetoric, tanker strikes, and naval buildup\u2014keeps the global-to-domestic spread wide enough to support refinery economics.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 20,
-    "inputTokens": 18819,
-    "outputTokens": 4349,
-    "estimatedCostUsd": 0.040564,
-    "lastCallHour": "2026-10-04T15"
+    "callsThisMonth": 21,
+    "inputTokens": 19760,
+    "outputTokens": 4606,
+    "estimatedCostUsd": 0.04279,
+    "lastCallHour": "2026-10-04T19"
   }
 }
