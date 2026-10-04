@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-04T02:21:54.806744+00:00",
-  "text": "ConocoPhillips fell 0.24% today to close at $126.75, marking the fourth down day in five trading sessions. The immediate pressure came from the G7's announcement that it will release 100 million barrels of diesel reserves over the next four months\u2014a direct supply intervention designed to cool fuel prices amid regional conflicts. When governments flood markets with reserves, it typically weighs on crude prices and the profits oil majors can generate, which is why the stock has declined 3.85% over the past two weeks as this supply relief effort has become concrete.\n\nThe broader backdrop remains volatile and mixed for oil producers. Geopolitical tensions\u2014including potential U.S. strikes on Iran and supply disruptions from Middle East conflicts\u2014are supporting crude prices at higher levels (Brent at $113.96/barrel), but government intervention to release reserves and India's risk of tariffs for buying Russian oil are countervailing headwinds. The company is caught between structural support from regional instability and policy-driven pressure to cool energy markets.",
+  "fetchedAt": "2026-10-04T09:17:34.263143+00:00",
+  "text": "ConocoPhillips fell 0.24% today as oil prices moved lower on news that the G7 will release 100 million barrels of diesel reserves over the next four months. Increased supply flowing into markets typically pressures crude prices lower, which directly affects the earnings potential for oil producers like ConocoPhillips. The stock is now down 3.85% over the past two weeks, a period that includes this reserve release announcement and broader uncertainty around geopolitical supply disruptions.\n\nThe divergence between U.S. oil ($96/barrel) and world prices ($114/barrel) highlights that global fuel constraints remain acute\u2014wars in Europe and the Middle East, plus concerns about U.S. export restrictions, are keeping international prices well above domestic levels. That gap can limit how much benefit U.S. producers get from global supply fears, since they're somewhat insulated from the higher world prices themselves.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 18,
-    "inputTokens": 15799,
-    "outputTokens": 3716,
-    "estimatedCostUsd": 0.034379,
-    "lastCallHour": "2026-10-04T02"
+    "callsThisMonth": 19,
+    "inputTokens": 16680,
+    "outputTokens": 3915,
+    "estimatedCostUsd": 0.036255,
+    "lastCallHour": "2026-10-04T09"
   }
 }
