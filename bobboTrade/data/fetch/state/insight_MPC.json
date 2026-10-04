@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-03T22:03:31.275413+00:00",
-  "text": "Marathon Petroleum rose 0.5% today, extending a sharp two-day rally that has added 7.5% since September 30th. The climb comes as U.S. crude oil prices hit $96/barrel and refineries operate at 92.5% capacity\u2014near full utilization\u2014while the G7's announced release of 100 million barrels of reserves over four months and threats of U.S. export bans on diesel create conflicting signals. For a refiner, higher crude prices and tight refining capacity can support margins, though the G7's reserve release is meant to cool prices and ease supply concerns.\n\nThe geopolitical backdrop adds volatility: U.S. military buildups in the Middle East and Trump's warnings of potential Iran strikes keep crude prices elevated and global supply uncertain, while India faces tariff pressure over Russian oil purchases that could reshape regional energy flows. These tensions and supply dynamics are keeping refiners focused on near-term utilization gains, even as policy interventions like reserve releases try to moderate costs.",
+  "fetchedAt": "2026-10-04T02:22:06.518373+00:00",
+  "text": "Marathon Petroleum rose 0.5% today to $422.33, building on a sharp 6.8% jump yesterday as crude oil prices stabilized and refinery utilization remained elevated at 92.5%. The immediate backdrop is geopolitical tension in the Middle East\u2014the U.S. is deploying additional naval forces and threatening Iran strikes, which typically tightens crude supplies and supports refiner margins (the profit they make turning oil into fuel). Yesterday's big move likely reflected relief that oil hadn't collapsed further despite the G7's announced release of 100 million barrels in diesel reserves over the next four months.\n\nRefiners like Marathon benefit when crude and refined products move in their favor: the company is currently running hard to meet demand while global supply concerns persist, even as strategic reserves flood the market. The tension between supply releases from the G7 and supply risks from Middle East conflict creates an uncertain but potentially profitable near-term window for processors.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 17,
-    "inputTokens": 15988,
-    "outputTokens": 3678,
-    "estimatedCostUsd": 0.034378,
-    "lastCallHour": "2026-10-03T22"
+    "callsThisMonth": 18,
+    "inputTokens": 16933,
+    "outputTokens": 3884,
+    "estimatedCostUsd": 0.036353,
+    "lastCallHour": "2026-10-04T02"
   }
 }
