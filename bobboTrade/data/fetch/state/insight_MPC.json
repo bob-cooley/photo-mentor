@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-04T09:17:47.041854+00:00",
-  "text": "Marathon Petroleum rose 0.5% today to $422.33, capping a dramatic two-day surge of over 7.5% since September 30th. The sharp move up follows the G7's announcement to release 100 million barrels of diesel reserves over the next four months\u2014a supply injection that might seem bearish for a refiner, but instead appears to have reassured markets that diesel shortages won't spiral further, reducing the risk of demand destruction and supporting refining margins. With refineries already running at 92.5% capacity and diesel inventories tight, the coordinated reserve release signals policy support for fuel availability rather than a flood that would crater prices.\n\nThe broader context shows tension between supply concerns and geopolitical risks that keep oil prices elevated. U.S. crude sits at $96/barrel while global crude trades at $114/barrel\u2014a significant spread driven by supply disruptions in the Middle East and Europe. Even as the G7 releases reserves to ease diesel pressure, the threat of renewed Iran strikes and ongoing Middle East instability keeps crude prices supported, which can benefit refining profitability when crude and product prices move together.",
+  "fetchedAt": "2026-10-04T15:08:00.759576+00:00",
+  "text": "Marathon Petroleum stock jumped 2.8% over the past two trading days, with today's small gain continuing a sharp recovery that started on October 1st. The surge follows news that the G7 will release 100 million barrels of diesel reserves over the next four months and signals that geopolitical tensions in the Middle East\u2014tanker strikes near the Strait of Hormuz and potential U.S. military action against Iran\u2014are pushing crude oil prices higher (U.S. oil at $96/barrel, global oil at $114/barrel). Refineries are running at 92.5% capacity, and with diesel and heating oil supplies relatively tight at 105 million barrels in storage, higher crude prices combined with constrained fuel supplies can boost refiner margins.\n\nThe broader picture is that oil price swings from Middle East conflict risk are creating volatility, but tighter fuel inventories and strong refinery utilization rates are supporting margins for refiners like Marathon even as crude costs rise.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 19,
-    "inputTokens": 17878,
-    "outputTokens": 4133,
-    "estimatedCostUsd": 0.038543,
-    "lastCallHour": "2026-10-04T09"
+    "callsThisMonth": 20,
+    "inputTokens": 18819,
+    "outputTokens": 4349,
+    "estimatedCostUsd": 0.040564,
+    "lastCallHour": "2026-10-04T15"
   }
 }

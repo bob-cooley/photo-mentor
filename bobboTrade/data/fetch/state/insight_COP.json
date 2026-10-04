@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-04T09:17:34.263143+00:00",
-  "text": "ConocoPhillips fell 0.24% today as oil prices moved lower on news that the G7 will release 100 million barrels of diesel reserves over the next four months. Increased supply flowing into markets typically pressures crude prices lower, which directly affects the earnings potential for oil producers like ConocoPhillips. The stock is now down 3.85% over the past two weeks, a period that includes this reserve release announcement and broader uncertainty around geopolitical supply disruptions.\n\nThe divergence between U.S. oil ($96/barrel) and world prices ($114/barrel) highlights that global fuel constraints remain acute\u2014wars in Europe and the Middle East, plus concerns about U.S. export restrictions, are keeping international prices well above domestic levels. That gap can limit how much benefit U.S. producers get from global supply fears, since they're somewhat insulated from the higher world prices themselves.",
+  "fetchedAt": "2026-10-04T15:07:16.587869+00:00",
+  "text": "ConocoPhillips fell slightly today in a market where oil prices are mixed\u2014U.S. crude is trading at $96.16 per barrel, down from recent highs, while global crude sits at $113.96. The decline came after the G7 announced it will release 100 million barrels of oil and diesel reserves over the next four months, a direct supply boost designed to cool prices. This reserve release, announced on October 2nd, pressures the economics of oil producers like ConocoPhillips by increasing available supply.\n\nThe stock's broader two-week decline reflects ongoing geopolitical tension without a clear resolution: Middle East shipping strikes and tanker disruptions continue, but so do government efforts to stabilize supply and prices. The net effect is uncertainty\u2014potential supply shocks from regional conflict are being offset by coordinated government intervention to flood markets with reserves, leaving the direction of oil prices and energy stocks unclear.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 19,
-    "inputTokens": 16680,
-    "outputTokens": 3915,
-    "estimatedCostUsd": 0.036255,
-    "lastCallHour": "2026-10-04T09"
+    "callsThisMonth": 20,
+    "inputTokens": 17557,
+    "outputTokens": 4117,
+    "estimatedCostUsd": 0.038142,
+    "lastCallHour": "2026-10-04T15"
   }
 }
