@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-05T17:49:19.964961+00:00",
-  "text": "Marathon Petroleum stock surged 3.1% today and has climbed 8.2% over the past two weeks, driven by a tightening global oil supply picture. Crude oil prices have jumped sharply \u2014 U.S. oil is trading at $96/barrel while world oil tops $113/barrel, a gap that reflects geopolitical supply disruptions, particularly the escalating U.S.-Iran conflict and ongoing Middle East tensions that are threatening tanker traffic. Meanwhile, refineries are running at 92.5% capacity with gasoline and diesel inventories relatively lean, which means higher margins for refiners like MPC when crude inputs remain constrained but fuel demand stays firm.\n\nThe longer-term backdrop is also supportive: Saudi Aramco's warning that it could take two years to replenish global oil stockpiles signals that supply tightness will persist, and even though the G7 announced a release of 100 million barrels of diesel reserves, it's spread over four months and unlikely to quickly ease the current squeeze. For a refiner, tight crude and product supplies typically mean stronger profitability on the fuel they can produce and sell.",
+  "fetchedAt": "2026-10-05T20:57:51.545339+00:00",
+  "text": "Marathon Petroleum stock climbed 2.6% today to $433.40, extending a rally that has added nearly 8% over the past two weeks. The move is rooted in tightening fuel supplies: Saudi Aramco's CEO warned that rebuilding global oil inventories could take up to two years given ongoing geopolitical tensions, and the U.S.-Iran conflict continues to disrupt tanker traffic in the Middle East. Meanwhile, refineries are running at 92.5% capacity utilization, leaving little room to increase output, which supports margins for refiners processing crude into gasoline and diesel.\n\nThe broader context reinforces the supply squeeze. Although the G7 announced plans to release 100 million barrels of diesel reserves over four months to ease fuel shortages in Europe, the scale of the problem\u2014compounded by conflicts in Ukraine and the Middle East\u2014suggests those releases won't fully offset supply losses. For a refiner like Marathon, tight fuel inventories and constrained supplies translate to stronger pricing power on the products it sells.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 25,
-    "inputTokens": 23550,
-    "outputTokens": 5562,
-    "estimatedCostUsd": 0.05136,
-    "lastCallHour": "2026-10-05T17"
+    "callsThisMonth": 26,
+    "inputTokens": 24509,
+    "outputTokens": 5787,
+    "estimatedCostUsd": 0.053444,
+    "lastCallHour": "2026-10-05T20"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-05T17:49:06.775880+00:00",
-  "text": "ConocoPhillips rose 1.08% today to $128.12, gaining ground as oil prices firmed and geopolitical tensions in the Middle East kept supply concerns front and center. The spread between U.S. crude ($96.16) and global crude ($113.96) remains wide\u2014a sign of tight supplies globally\u2014while news of a potential U.S.-Iran escalation and continued attacks on tankers near Iran underscored the risk to shipping routes that move a significant portion of the world's oil.\n\nThe stock has recovered from a three-day dip that started late last month, and today's move reflects a broader rally in energy as supply fears outweigh the G7's recent pledge to release diesel reserves. Political pressure on South Korea to invest in Alaska LNG and Saudi Aramco's warning that rebuilding global oil stockpiles could take two years both signal that the market expects oil demand and prices to remain supported for some time.",
+  "fetchedAt": "2026-10-05T20:57:35.677783+00:00",
+  "text": "ConocoPhillips rose 1.28% today to $128.38, bouncing back after three straight days of losses. The move follows news that Trump is pressuring South Korea to invest in the Alaska LNG project\u2014a major liquefied natural gas venture that would directly benefit the company's production and export plans. With global oil inventories still tight (Saudi Aramco's CEO said restocking could take two years), and the Middle East conflict continuing to disrupt supplies, there's underlying support for energy prices and the company's long-term outlook.\n\nThe stock's recovery also reflects the widening gap between U.S. oil ($96/barrel) and world oil prices ($114/barrel), which creates favorable conditions for U.S. producers exporting overseas. The G7's release of 100 million barrels of diesel reserves aims to cool fuel costs near-term, but ongoing geopolitical tension in the Middle East and supply constraints suggest sustained demand for reliable crude production.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 25,
-    "inputTokens": 21970,
-    "outputTokens": 5184,
-    "estimatedCostUsd": 0.04789,
-    "lastCallHour": "2026-10-05T17"
+    "callsThisMonth": 26,
+    "inputTokens": 22867,
+    "outputTokens": 5395,
+    "estimatedCostUsd": 0.049842,
+    "lastCallHour": "2026-10-05T20"
   }
 }
