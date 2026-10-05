@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-04T22:19:11.003496+00:00",
-  "text": "Marathon Petroleum stock rose 0.52% today to $422.33, continuing a sharp rebound from late September lows\u2014the stock jumped nearly 7% just yesterday on October 1st. The timing aligns with escalating geopolitical tension in the Middle East: U.S. tankers have been struck near Iran, the U.S. is deploying a third carrier strike group to the region, and Trump has signaled potential new military action after the midterms. Refinery utilization is running at 92.5%, near full capacity, which means tighter supply dynamics could support refining margins if crude disruptions occur or persist.\n\nThe broader context: while the G7 announced it will release 100 million barrels of reserves and diesel stocks over the next four months to cool prices, the Middle East supply risk\u2014combined with wars constraining fuel supplies in Europe\u2014is pushing crude prices sharply higher (up from $96 to potentially higher levels given the tension). For a refiner like MPC, higher crude prices are a double-edged sword, but geopolitical disruption fears can tighten product markets and support margins, which explains the market's bullish reversal.",
+  "fetchedAt": "2026-10-05T01:33:43.619151+00:00",
+  "text": "Marathon Petroleum jumped 2.8% over the past two trading days, with today's modest gain of 0.52% continuing a sharp reversal that started October 1st. The driver appears to be oil prices: crude spiked to $96.16 domestically and $113.96 globally, a meaningful move that benefits refiners' margins. Refineries are running at 92.5% capacity, near optimal levels, which means MPC can convert that higher-priced crude into fuel products more efficiently when margins widen\u2014and geopolitical tensions in the Middle East (tanker strikes near Iran, U.S. military repositioning) are keeping oil elevated and supplies tight.\n\nThe G7's plan to release 100 million barrels of diesel reserves over four months was announced October 2nd and initially pressured prices downward, but the offsetting supply concerns from regional conflicts appear to have won out. With inventories still moderate (gasoline and diesel/heating oil storage both in normal ranges), the refining sector is positioned to profit from the price structure that's emerged.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 22,
-    "inputTokens": 20705,
-    "outputTokens": 4865,
-    "estimatedCostUsd": 0.04503,
-    "lastCallHour": "2026-10-04T22"
+    "callsThisMonth": 23,
+    "inputTokens": 21648,
+    "outputTokens": 5100,
+    "estimatedCostUsd": 0.047148,
+    "lastCallHour": "2026-10-05T01"
   }
 }
