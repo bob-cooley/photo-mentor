@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-05T08:14:29.378625+00:00",
-  "text": "Marathon Petroleum jumped 2.8% in two days (October 1\u20132), driven by a sharp rally in crude oil prices and refinery utilization hitting 92.5%\u2014near full capacity. The stock has climbed $28.82 from its September 25 low, suggesting investor appetite for refiners when crude is strong and plants are running hot. Refiners profit from the spread between crude costs and finished fuel prices, so tighter refinery capacity and higher oil demand both favor their margins.\n\nThe broader backdrop remains volatile: geopolitical tension in the Middle East (tanker strikes near Iran, U.S. military posture) is keeping crude elevated, while the G7's announced 100 million barrel diesel reserve release could theoretically weigh on fuel prices. Today's modest gain reflects this tug-of-war\u2014the refinery strength and tight capacity are winning out for now, but the risk of oversupply from strategic reserves hangs in the background.",
+  "fetchedAt": "2026-10-05T17:49:19.964961+00:00",
+  "text": "Marathon Petroleum stock surged 3.1% today and has climbed 8.2% over the past two weeks, driven by a tightening global oil supply picture. Crude oil prices have jumped sharply \u2014 U.S. oil is trading at $96/barrel while world oil tops $113/barrel, a gap that reflects geopolitical supply disruptions, particularly the escalating U.S.-Iran conflict and ongoing Middle East tensions that are threatening tanker traffic. Meanwhile, refineries are running at 92.5% capacity with gasoline and diesel inventories relatively lean, which means higher margins for refiners like MPC when crude inputs remain constrained but fuel demand stays firm.\n\nThe longer-term backdrop is also supportive: Saudi Aramco's warning that it could take two years to replenish global oil stockpiles signals that supply tightness will persist, and even though the G7 announced a release of 100 million barrels of diesel reserves, it's spread over four months and unlikely to quickly ease the current squeeze. For a refiner, tight crude and product supplies typically mean stronger profitability on the fuel they can produce and sell.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 24,
-    "inputTokens": 22591,
-    "outputTokens": 5311,
-    "estimatedCostUsd": 0.049146,
-    "lastCallHour": "2026-10-05T08"
+    "callsThisMonth": 25,
+    "inputTokens": 23550,
+    "outputTokens": 5562,
+    "estimatedCostUsd": 0.05136,
+    "lastCallHour": "2026-10-05T17"
   }
 }
