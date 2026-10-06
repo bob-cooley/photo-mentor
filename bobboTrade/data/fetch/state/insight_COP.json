@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-05T23:40:58.263027+00:00",
-  "text": "ConocoPhillips rose 1.3% today to $128.40, bouncing back after three days of decline. The move appears driven by oil market dynamics: while U.S. crude prices remain relatively modest at $96 per barrel, global oil prices jumped to $113.96\u2014a widening gap that benefits integrated oil producers with international operations. The news around potential Alaska LNG deals and warnings from Saudi Aramco's CEO that global oil inventory rebuilding could take two years likely reinforced the view that energy supplies will remain tight and valuable.\n\nThe broader backdrop is one of geopolitical friction constraining supply. Ongoing U.S.-Iran tensions, shipping strikes near Iran, and conflicts affecting diesel availability across Europe and the Middle East all point to a market where crude and refined products face structural pressure. This supports the case for oil majors with production assets, even as some near-term stimulus measures\u2014like the G7's plan to release 100 million barrels of reserves\u2014create temporary headwinds.",
+  "fetchedAt": "2026-10-06T01:40:22.851367+00:00",
+  "text": "ConocoPhillips rose 1.3% today, bouncing back from a three-day dip that had taken the stock down about 1%. The rebound aligns with two major developments: crude prices jumped notably, with global oil hitting $113.96 per barrel (versus the U.S. benchmark at $96.16), and Trump publicly pressured South Korea to invest in the Alaska LNG project, signaling U.S. political will to move forward on major energy infrastructure deals that would benefit large producers like ConocoPhillips.\n\nThe timing also reflects tightening supply conditions despite recent efforts to ease them. While the G7 announced diesel reserves releases earlier in the week, Saudi Aramco's warning that rebuilding global oil stockpiles could take up to two years\u2014worsened by the ongoing U.S.-Iran conflict disrupting Middle East shipping\u2014suggests sustained upward pressure on prices ahead, which supports the stock's recovery over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 27,
-    "inputTokens": 23766,
-    "outputTokens": 5614,
-    "estimatedCostUsd": 0.051836,
-    "lastCallHour": "2026-10-05T23"
+    "callsThisMonth": 28,
+    "inputTokens": 24665,
+    "outputTokens": 5826,
+    "estimatedCostUsd": 0.053795,
+    "lastCallHour": "2026-10-06T01"
   }
 }

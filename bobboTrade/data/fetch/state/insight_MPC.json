@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-05T23:41:16.841534+00:00",
-  "text": "Marathon Petroleum's stock rose 2.64% today, continuing a sharp five-day climb that's seen it gain 7.73% since late September. The immediate catalyst is a widening gap between U.S. and global crude prices\u2014U.S. oil at $96 per barrel versus $113.96 globally\u2014which is highly profitable for refiners like MPC. That $18 spread, combined with refineries running at 92.5% capacity and tight diesel inventories (105 million barrels in storage), means strong margins on fuel production and sales.\n\nThe broader backdrop is geopolitical disruption in the Middle East and pressure on global oil supplies. Saudi Aramco warned it could take two years to rebuild global inventories, and ongoing U.S.-Iran tensions are constraining tanker movements and fuel flows. Meanwhile, while the G7 announced diesel stock releases to ease prices, those 100 million barrels will be deployed over four months\u2014a slow trickle that won't immediately ease the supply squeeze that's boosting refiner margins.",
+  "fetchedAt": "2026-10-06T01:40:35.393024+00:00",
+  "text": "Marathon Petroleum stock surged 2.6% today, extending a roughly 8% rally over two weeks. The move follows major news on oil supply tightness: Saudi Aramco's CEO warned that rebuilding global oil stockpiles could take up to two years, while the U.S.-Iran conflict continues to disrupt Middle Eastern production and shipping. With U.S. refineries running at 92.5% capacity and crude prices climbing\u2014domestic oil at $96/barrel and global crude at nearly $114/barrel\u2014refiners like Marathon stand to capture wider profit margins on fuel sales as supplies remain constrained.\n\nThe broader backdrop amplifies this: the G7's plan to release 100 million barrels from reserves over four months is a drop against the structural supply squeeze. Rising geopolitical tensions, diesel shortages across Europe and the U.S., and the multi-year timeline to restore inventory all point to sustained high fuel prices and strong margins for refiners over the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 27,
-    "inputTokens": 25468,
-    "outputTokens": 6018,
-    "estimatedCostUsd": 0.055558,
-    "lastCallHour": "2026-10-05T23"
+    "callsThisMonth": 28,
+    "inputTokens": 26427,
+    "outputTokens": 6232,
+    "estimatedCostUsd": 0.057587,
+    "lastCallHour": "2026-10-06T01"
   }
 }
