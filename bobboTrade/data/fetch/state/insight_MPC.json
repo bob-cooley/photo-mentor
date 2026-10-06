@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-06T18:45:50.512899+00:00",
-  "text": "Marathon Petroleum ticked up 0.38% today to $435.12, capping a remarkably strong two-week rally of 11.66%. The stock's surge reflects a fundamental shift in refinery economics: crude oil prices have diverged sharply (US oil at $96/barrel versus global Brent at roughly $114), while diesel inventories remain tight and refineries are running at 92.5% capacity. Goldman Sachs signaled yesterday that diesel prices will stay elevated through 2027 due to capacity constraints, which translates directly into fatter profit margins for refiners like Marathon that can produce and sell diesel at premium prices.\n\nThe broader backdrop reinforces the tailwind. Geopolitical tensions in the Middle East\u2014Iranian tanker attacks near the Strait of Hormuz and the strategic contest over Red Sea shipping\u2014are keeping global oil prices elevated and supply uncertainty on edge. Tight refinery capacity and high margins needed to rebuild diesel inventories mean refiners are positioned to capture outsized profits in the near term, even as the crude-to-product price spread widens.",
+  "fetchedAt": "2026-10-06T22:16:50.258722+00:00",
+  "text": "Marathon Petroleum rose nearly 11% over two weeks but essentially flat-lined today, down a quarter of a percent. The stock has already priced in the recent tailwinds\u2014high crude oil prices (Brent at $114, well above the U.S. benchmark at $96), refineries running at 92.5% capacity, and tight diesel supply that Goldman Sachs expects to keep margins elevated through 2027. Today's tiny decline suggests investors are taking a breather after a strong run rather than reacting to new negative news.\n\nThe broader refining backdrop remains supportive: diesel and gasoline inventories remain tight by recent standards, and geopolitical tension in the Middle East (tanker attacks in the Strait of Hormuz, Yemen-Houthi conflict) keeps crude prices elevated. However, the stock may also be digesting that this rally reflects expectations already baked in\u2014refiners benefit most when crude prices rise faster than their product output prices fall, and much of that advantage appears already reflected in MPC's recent gains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 32,
-    "inputTokens": 30214,
-    "outputTokens": 7133,
-    "estimatedCostUsd": 0.065879,
-    "lastCallHour": "2026-10-06T18"
+    "callsThisMonth": 33,
+    "inputTokens": 31148,
+    "outputTokens": 7359,
+    "estimatedCostUsd": 0.067943,
+    "lastCallHour": "2026-10-06T22"
   }
 }

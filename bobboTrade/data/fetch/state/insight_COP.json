@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-06T18:45:27.558111+00:00",
-  "text": "ConocoPhillips rose 0.97% today as oil prices held firm and refining conditions tightened. The spread between world oil (trading at $113.96) and U.S. oil ($96.17) widened to nearly $18 per barrel, creating favorable margins for refiners like COP that process crude into diesel and gasoline. Goldman Sachs's warning that diesel prices will remain high through 2027 due to refinery capacity constraints suggests sustained strong margins for oil majors with refining operations.\n\nGeopolitical tensions in the Middle East are also bolstering oil prices and investor appetite for energy stocks. Attacks on tankers in the Strait of Hormuz and the ongoing conflict in the Red Sea have kept oil markets on edge, with Brent crude hovering around $100 a barrel despite the recent Yemeni forces' tactical win. These supply risks mean refiners and oil producers may benefit from elevated and volatile pricing for months to come.",
+  "fetchedAt": "2026-10-06T22:15:59.406321+00:00",
+  "text": "ConocoPhillips rose 0.74% today to $129.35, extending a 3.26% gain over the past two weeks. The move reflects strength in oil prices\u2014US crude climbed to $96.16 per barrel, while Brent sits around $100\u2014driven by supply concerns from geopolitical tensions. Iranian attacks on tankers transiting the Strait of Hormuz and the ongoing Red Sea conflict are keeping markets on edge about potential disruptions to Middle East oil exports, supporting prices for a major oil producer like ConocoPhillips.\n\nRefining conditions also favor the company: Goldman Sachs flagged that diesel prices will likely stay elevated through 2027 due to tight refinery capacity, which typically means wider profit margins on refined products for integrated energy companies. This combination of higher crude prices and robust refining economics has momentum behind the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 32,
-    "inputTokens": 28207,
-    "outputTokens": 6682,
-    "estimatedCostUsd": 0.061617,
-    "lastCallHour": "2026-10-06T18"
+    "callsThisMonth": 33,
+    "inputTokens": 29079,
+    "outputTokens": 6874,
+    "estimatedCostUsd": 0.063449,
+    "lastCallHour": "2026-10-06T22"
   }
 }
