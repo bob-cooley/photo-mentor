@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-06T11:45:03.235171+00:00",
-  "text": "Marathon Petroleum's stock jumped 2.6% today, extending a seven-week rally that has seen it climb nearly 8% in just two weeks. The core driver is a sharp rise in crude oil prices \u2014 Brent is trading around $100 a barrel \u2014 combined with Goldman Sachs' warning that diesel prices will stay elevated through 2027 due to tight refinery capacity. For a refiner like Marathon, higher diesel margins are directly profitable, and the forecast of sustained tight supply gives visibility to strong margins ahead.\n\nThe broader backdrop amplifies this: Middle East geopolitical tension (the Yemen/Houthi conflict, U.S.-Iran escalation, and tanker strikes) keeps oil prices elevated and supply uncertain, while U.S. refineries are already running at 92.5% capacity with diesel inventories lean at just over 105 million barrels. This combination of tight capacity, constrained global supply, and elevated crack spreads (the profit margin between crude input and refined product output) has created an unusually favorable window for refinery earnings.",
+  "fetchedAt": "2026-10-06T17:52:15.289159+00:00",
+  "text": "Marathon Petroleum rose modestly today, capping a remarkable two-week rally of over 11% that accelerated sharply in the past four trading days. The gains reflect a confluence of tailwinds for refiners: US crude oil prices at $96 a barrel, refineries humming at 92.5% capacity utilization, and forecasts from major banks predicting diesel prices will remain stubbornly high through 2027 due to tight refining capacity. High diesel margins are the lifeblood of refiner profits, and Goldman Sachs's view that this stays locked in for over a year gives the market reason to keep bidding up the stock.\n\nThe broader backdrop amplifies these fundamentals\u2014geopolitical tensions in the Middle East (Iranian tanker attacks, Yemen operations) have kept global oil prices elevated at $114 a barrel, while low storage levels for both gasoline and diesel signal tight market conditions that favor refiners' margins. This is not a one-day story but a multi-month positioning shift as the market prices in sustained refining profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 30,
-    "inputTokens": 28350,
-    "outputTokens": 6663,
-    "estimatedCostUsd": 0.061665,
-    "lastCallHour": "2026-10-06T11"
+    "callsThisMonth": 31,
+    "inputTokens": 29282,
+    "outputTokens": 6896,
+    "estimatedCostUsd": 0.063762,
+    "lastCallHour": "2026-10-06T17"
   }
 }
