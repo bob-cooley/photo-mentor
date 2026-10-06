@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-06T04:40:32.864071+00:00",
-  "text": "Marathon Petroleum rose 2.6% today, continuing a sharp six-day rally that has pushed the stock up nearly 8% since late September. The move reflects tightening fundamentals in oil refining: crude prices have climbed to $96 locally and $114 globally amid ongoing U.S.-Iran conflict and Middle East supply threats, refineries are operating at a high 92.5% capacity, and gasoline and diesel inventories remain lean\u2014conditions that widen the profit margin for refiners who turn crude into finished fuels.\n\nThe broader backdrop is a squeeze on global oil stockpiles that Saudi Aramco's CEO said could take up to two years to resolve, even as the G7 has begun releasing 100 million barrels of reserves to ease pressure. With tankers continuing to face strikes near Iran and military tensions still elevated, the market is pricing in sustained tight supply and strong refining margins ahead.",
+  "fetchedAt": "2026-10-06T11:45:03.235171+00:00",
+  "text": "Marathon Petroleum's stock jumped 2.6% today, extending a seven-week rally that has seen it climb nearly 8% in just two weeks. The core driver is a sharp rise in crude oil prices \u2014 Brent is trading around $100 a barrel \u2014 combined with Goldman Sachs' warning that diesel prices will stay elevated through 2027 due to tight refinery capacity. For a refiner like Marathon, higher diesel margins are directly profitable, and the forecast of sustained tight supply gives visibility to strong margins ahead.\n\nThe broader backdrop amplifies this: Middle East geopolitical tension (the Yemen/Houthi conflict, U.S.-Iran escalation, and tanker strikes) keeps oil prices elevated and supply uncertain, while U.S. refineries are already running at 92.5% capacity with diesel inventories lean at just over 105 million barrels. This combination of tight capacity, constrained global supply, and elevated crack spreads (the profit margin between crude input and refined product output) has created an unusually favorable window for refinery earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 29,
-    "inputTokens": 27386,
-    "outputTokens": 6432,
-    "estimatedCostUsd": 0.059546,
-    "lastCallHour": "2026-10-06T04"
+    "callsThisMonth": 30,
+    "inputTokens": 28350,
+    "outputTokens": 6663,
+    "estimatedCostUsd": 0.061665,
+    "lastCallHour": "2026-10-06T11"
   }
 }
