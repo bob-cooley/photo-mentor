@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-06T17:52:15.289159+00:00",
-  "text": "Marathon Petroleum rose modestly today, capping a remarkable two-week rally of over 11% that accelerated sharply in the past four trading days. The gains reflect a confluence of tailwinds for refiners: US crude oil prices at $96 a barrel, refineries humming at 92.5% capacity utilization, and forecasts from major banks predicting diesel prices will remain stubbornly high through 2027 due to tight refining capacity. High diesel margins are the lifeblood of refiner profits, and Goldman Sachs's view that this stays locked in for over a year gives the market reason to keep bidding up the stock.\n\nThe broader backdrop amplifies these fundamentals\u2014geopolitical tensions in the Middle East (Iranian tanker attacks, Yemen operations) have kept global oil prices elevated at $114 a barrel, while low storage levels for both gasoline and diesel signal tight market conditions that favor refiners' margins. This is not a one-day story but a multi-month positioning shift as the market prices in sustained refining profitability.",
+  "fetchedAt": "2026-10-06T18:45:50.512899+00:00",
+  "text": "Marathon Petroleum ticked up 0.38% today to $435.12, capping a remarkably strong two-week rally of 11.66%. The stock's surge reflects a fundamental shift in refinery economics: crude oil prices have diverged sharply (US oil at $96/barrel versus global Brent at roughly $114), while diesel inventories remain tight and refineries are running at 92.5% capacity. Goldman Sachs signaled yesterday that diesel prices will stay elevated through 2027 due to capacity constraints, which translates directly into fatter profit margins for refiners like Marathon that can produce and sell diesel at premium prices.\n\nThe broader backdrop reinforces the tailwind. Geopolitical tensions in the Middle East\u2014Iranian tanker attacks near the Strait of Hormuz and the strategic contest over Red Sea shipping\u2014are keeping global oil prices elevated and supply uncertainty on edge. Tight refinery capacity and high margins needed to rebuild diesel inventories mean refiners are positioned to capture outsized profits in the near term, even as the crude-to-product price spread widens.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 31,
-    "inputTokens": 29282,
-    "outputTokens": 6896,
-    "estimatedCostUsd": 0.063762,
-    "lastCallHour": "2026-10-06T17"
+    "callsThisMonth": 32,
+    "inputTokens": 30214,
+    "outputTokens": 7133,
+    "estimatedCostUsd": 0.065879,
+    "lastCallHour": "2026-10-06T18"
   }
 }
