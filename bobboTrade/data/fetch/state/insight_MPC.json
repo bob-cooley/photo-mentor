@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-07T22:38:31.755505+00:00",
-  "text": "Marathon Petroleum's stock jumped 2.3% today, continuing a sharp run-up that has gained nearly 14% over the past two weeks. The move reflects surging diesel prices and tight global diesel supplies\u2014refiners like Marathon profit when the spread between crude oil input costs and refined product selling prices widens, and diesel in particular is commanding premium prices due to Middle East supply disruptions and low U.S. diesel inventory (105 million barrels). Political pressure to ease diesel prices through stockpile releases and export restrictions, combined with tanker shortages driving shipping costs to 10 times historical levels, has tightened margins and boosted refiner valuations.\n\nU.S. refineries are running at 92.7% capacity, near full utilization, which means Marathon and peers are operating profitably but with little room to ramp output further. The global supply crunch\u2014especially the attacks on tankers in the Persian Gulf and the shortage of available shipping\u2014is keeping diesel scarce and expensive relative to crude, a dynamic that favors refiners' bottom lines as long as crude prices don't spike further to offset the product gains.",
+  "fetchedAt": "2026-10-07T23:35:35.935973+00:00",
+  "text": "Marathon Petroleum climbed 2.3% today to $442.26, continuing a strong two-week run of nearly 14%. The stock's gains reflect a tightening diesel market: refineries are running at 92.7% capacity, diesel inventories sit at their lowest levels shown in your data, and geopolitical disruptions in the Persian Gulf have sent shipping costs soaring. The White House's attempt to address surging diesel prices through emergency measures, combined with the IEA's coordinated release of stocks, signals how acute the supply crunch has become\u2014creating tailwinds for refiners who can produce and move diesel to high-price markets.\n\nThe wider context here is that diesel scarcity is now a political and economic problem. Heating oil bills are expected to jump 21% this winter in the Northeast, and Middle East tensions are making it genuinely expensive to ship fuel globally. For a refiner like this one, tight supply and elevated prices\u2014both for crude intake and the refined products they sell\u2014can expand profit margins, even as shipping and logistics costs rise. That's the tension playing out in the market right now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 38,
-    "inputTokens": 35676,
-    "outputTokens": 8508,
-    "estimatedCostUsd": 0.078216,
-    "lastCallHour": "2026-10-07T22"
+    "callsThisMonth": 39,
+    "inputTokens": 36598,
+    "outputTokens": 8752,
+    "estimatedCostUsd": 0.080358,
+    "lastCallHour": "2026-10-07T23"
   }
 }

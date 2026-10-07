@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-07T22:38:10.219313+00:00",
-  "text": "ConocoPhillips gained 0.4% today to close at $129.84, continuing a steady climb over the past week as oil prices have found support despite recent volatility. The move reflects a tug-of-war in the oil market: while crude has fallen modestly on news that the IEA and G7 are releasing diesel stockpiles to ease supply pressures, the global diesel shortage remains acute \u2014 with shipping costs to China running 10 times pre-war rates and U.S. heating oil prices up sharply heading into winter. For an integrated oil producer like ConocoPhillips, tighter fuel markets and elevated geopolitical risk (Persian Gulf tanker attacks) still underpin stronger margins, even as politicians and the IEA try to cap prices.\n\nThe stock's 1.4% gain over two weeks sits in a broader context of oil supply anxiety that hasn't really been resolved. The gap between U.S. crude ($96/barrel) and world oil ($125/barrel) is unusually wide, signaling regional supply strains that emergency releases can only partly address \u2014 and that environment typically supports upstream producers' earnings power over the coming months.",
+  "fetchedAt": "2026-10-07T23:35:23.239104+00:00",
+  "text": "ConocoPhillips rose 0.38% today to close at $129.84, continuing a steady climb over the past week that has added 1.37% in two weeks. The immediate catalyst appears to be today's news that IEA member nations agreed to release diesel stocks to ease supply constraints, which pushed crude prices down slightly but signaled relief in a critical bottleneck for energy companies. For a major oil and gas producer like ConocoPhillips, easing diesel supply fears reduces the risk of emergency government interventions (like export restrictions) that could disrupt operations and markets.\n\nThe broader backdrop remains tight: global diesel is scarce, shipping costs are astronomical due to Middle East turmoil, and there's political pressure to act on fuel prices heading into midterms. While today's coordinated stockpile release is a modest negative for crude prices on the surface, it actually benefits established producers by reducing the likelihood of destabilizing policy moves that could have been far more damaging to earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 38,
-    "inputTokens": 33396,
-    "outputTokens": 7991,
-    "estimatedCostUsd": 0.073351,
-    "lastCallHour": "2026-10-07T22"
+    "callsThisMonth": 39,
+    "inputTokens": 34256,
+    "outputTokens": 8208,
+    "estimatedCostUsd": 0.075296,
+    "lastCallHour": "2026-10-07T23"
   }
 }
