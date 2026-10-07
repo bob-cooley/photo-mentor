@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-07T17:13:21.997571+00:00",
-  "text": "ConocoPhillips fell slightly today despite a backdrop of tight energy markets that typically benefit oil producers. The decline came as oil prices themselves moved modestly\u2014US crude at $96.16 and global crude at $113.96\u2014while broader market forces like rising heating oil costs and Middle East supply concerns created mixed signals for the sector. The stock has still gained 0.64% over two weeks, suggesting today's small dip is a pullback in a largely positive period.\n\nThe disconnect between energy headlines and today's price move may reflect investors weighing competing pressures: tighter diesel and heating oil markets could boost refining and upstream margins, but geopolitical risks in the Middle East (Houthi and Iranian threats to shipping) and the possibility of new export restrictions are creating uncertainty that caps gains. The fact that oil itself edged higher on these same supply concerns suggests equity markets are being more cautious than commodity markets right now.",
+  "fetchedAt": "2026-10-07T19:13:35.453145+00:00",
+  "text": "ConocoPhillips rose 0.7% today to $130.26, continuing a steady climb over the past week as oil refining dynamics shifted in the company's favor. A global diesel shortage\u2014driven by Middle East tensions and tanker attacks that have spiked shipping costs tenfold\u2014has tightened fuel supplies and supported prices for refined products that refiners like ConocoPhillips produce. At the same time, while crude oil prices have dipped slightly today (US oil at $96.24/barrel) following news that the IEA and G7 are releasing strategic diesel stocks, the company benefits from the wide gap between crude input costs and the higher-margin refined fuels it can sell into a constrained market.\n\nThe political urgency around diesel shortages\u2014with the midterm elections a month away and the White House under pressure to act\u2014underscores how tight this market remains, even as some relief measures roll out. This supply tension has helped push ConocoPhillips up roughly 1.7% over two weeks, reflecting investor confidence that a refiner's margins will stay resilient as long as diesel demand outpaces available supply.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 36,
-    "inputTokens": 31676,
-    "outputTokens": 7483,
-    "estimatedCostUsd": 0.069091,
-    "lastCallHour": "2026-10-07T17"
+    "callsThisMonth": 37,
+    "inputTokens": 32536,
+    "outputTokens": 7735,
+    "estimatedCostUsd": 0.071211,
+    "lastCallHour": "2026-10-07T19"
   }
 }

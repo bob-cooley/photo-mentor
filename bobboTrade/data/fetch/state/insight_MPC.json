@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-07T17:15:57.778945+00:00",
-  "text": "Marathon Petroleum rose 1.6% today as tight global diesel markets and heating oil supply concerns continued to support refiner margins. The company has climbed 13% over two weeks as diesel and heating oil prices have spiked\u2014a direct tailwind for refiners, since they profit from the spread between the crude oil they buy and the refined products they sell. Today's move reflects ongoing anxiety about diesel supply: the Northeast is bracing for winter heating oil bills up 21%, and geopolitical tensions (Houthi attacks on Saudi Arabia and Iranian tanker threats in the Strait of Hormuz) are keeping global crude prices elevated while diesel stockpiles remain tight.\n\nRefineries are running at 92.5% capacity, which limits how much additional supply can be brought online to ease the shortage. The combination of strong product demand, constrained production, and supply-chain risks from the Middle East creates a favorable environment for refiners' profitability in the near term\u2014though it also means consumers and businesses relying on diesel and heating oil are facing genuine cost pressures heading into winter.",
+  "fetchedAt": "2026-10-07T19:15:43.840706+00:00",
+  "text": "Marathon Petroleum rose 2.1% today as refiners benefited from a day of mixed signals on diesel supply and pricing. Oil prices fell on news that the IEA (the International Energy Agency\u2014a group of major oil-consuming countries) agreed to release diesel from strategic stockpiles to ease a global shortage, which typically helps refiner margins. However, the same day brought evidence that diesel remains genuinely tight: shipping costs from the Gulf to China hit $76 million per tanker (ten times pre-war levels), heating oil prices are soaring with Northeast households facing 21% higher winter bills, and the White House is under political pressure to act on fuel costs ahead of midterm elections in a month.\n\nThe two-week 13.7% surge reflects a broader shift in refiner economics: while oil prices have moderated recently thanks to emergency stockpile releases, the extreme tightness in diesel supply means refiners can still capture strong margins by producing it. The geopolitical backdrop\u2014tanker attacks in the Persian Gulf and Iran's moves to disrupt shipping\u2014keeps upside volatility in place, even as some relief measures (like the G7 release) have started to ease the immediate crisis.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 36,
-    "inputTokens": 33929,
-    "outputTokens": 8005,
-    "estimatedCostUsd": 0.073954,
-    "lastCallHour": "2026-10-07T17"
+    "callsThisMonth": 37,
+    "inputTokens": 34754,
+    "outputTokens": 8264,
+    "estimatedCostUsd": 0.076074,
+    "lastCallHour": "2026-10-07T19"
   }
 }
