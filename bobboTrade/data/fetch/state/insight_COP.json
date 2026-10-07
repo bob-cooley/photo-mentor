@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-07T02:02:37.360340+00:00",
-  "text": "ConocoPhillips rose 0.74% today as oil prices held firm and refining fundamentals showed strength. The company operates both upstream oil production and downstream refining assets, and today's move reflects two supporting tailwinds: Brent crude traded around $100 a barrel amid ongoing Middle East supply risks from Iranian tanker attacks and Houthi activity in the Red Sea, while Goldman Sachs warned that tight refinery capacity will keep diesel prices elevated through 2027, which improves margins for refiners converting crude into fuel.\n\nThe stock's broader 3.26% gain over two weeks fits into a wider refining industry boost \u2014 high diesel prices are creating a structural margin advantage for companies that can convert crude into refined products, and geopolitical friction in major shipping chokepoints has lifted oil prices enough to support both exploration-and-production divisions and refining operations simultaneously.",
+  "fetchedAt": "2026-10-07T09:44:14.582058+00:00",
+  "text": "ConocoPhillips rose 0.74% today to $129.35, extending a two-week gain of 3.26%. The move reflects growing concern about oil supply disruptions: Iran has stepped up attacks on tankers transiting the Strait of Hormuz, and Houthi attacks on Saudi Arabia are also threatening crude exports. These geopolitical risks have pushed global oil prices to $113.96 per barrel (compared to a lower US domestic price of $96.16), and traders are pricing in the risk that a critical chokepoint for energy shipments could tighten supply further.\n\nThe broader context matters here: supply fears had eased earlier in the week thanks to Middle East crude exports and an emergency stockpile release, but the escalation in tanker attacks has reversed that sentiment. For an oil producer like ConocoPhillips, higher global oil prices and renewed supply anxiety generally support the stock, even though US domestic crude is trading at a notable discount to world prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 34,
-    "inputTokens": 29951,
-    "outputTokens": 7066,
-    "estimatedCostUsd": 0.065281,
-    "lastCallHour": "2026-10-07T02"
+    "callsThisMonth": 35,
+    "inputTokens": 30818,
+    "outputTokens": 7283,
+    "estimatedCostUsd": 0.067233,
+    "lastCallHour": "2026-10-07T09"
   }
 }

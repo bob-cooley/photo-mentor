@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-07T02:02:50.107370+00:00",
-  "text": "Marathon Petroleum stock declined slightly today after climbing nearly 11% over two weeks, a pullback that comes as oil prices and refining conditions remain supportive but geopolitical tensions create uncertainty. Refineries are running at 92.5% capacity with robust crack spreads (the profit margin from turning crude into fuel) supported by high diesel prices\u2014Goldman Sachs expects diesel to stay pricey through 2027 due to tight refinery capacity. The modest down day likely reflects profit-taking after a strong run rather than a fundamental shift in the refiner's operating environment.\n\nThe stock's recent strength makes sense given the backdrop: crude oil is well above $96, diesel inventories are lean at 105 million barrels, and Middle East supply risks (tanker attacks in the Strait of Hormuz, Houthi instability) are keeping global oil prices elevated around $114 per barrel. That environment means strong margins for refiners converting crude into diesel and gasoline, which is why the stock has climbed this month despite today's small decline.",
+  "fetchedAt": "2026-10-07T09:44:34.416074+00:00",
+  "text": "Marathon Petroleum fell slightly today despite a strong two-week rally, as oil prices rose on geopolitical tension but the stock appeared to pause after climbing nearly 11% in ten days. The immediate catalyst seems to be profit-taking after a sharp run-up rather than any negative fundamental shift \u2014 crude remains firm at $96 domestically and refineries are running at a healthy 92.5%, which supports refining margins.\n\nThe broader backdrop remains supportive for refiners: Middle East supply fears tied to Houthi and Iranian tanker attacks are keeping crude elevated, diesel inventories are relatively tight, and there's ongoing debate about export policy that could affect fuel availability and pricing. However, after such a rapid gain, the stock's small pullback today is a natural consolidation rather than a reversal of the trend that's driven it up over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 34,
-    "inputTokens": 32082,
-    "outputTokens": 7587,
-    "estimatedCostUsd": 0.070017,
-    "lastCallHour": "2026-10-07T02"
+    "callsThisMonth": 35,
+    "inputTokens": 33011,
+    "outputTokens": 7771,
+    "estimatedCostUsd": 0.071866,
+    "lastCallHour": "2026-10-07T09"
   }
 }
