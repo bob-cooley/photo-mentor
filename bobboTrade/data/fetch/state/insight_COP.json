@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-07T09:44:14.582058+00:00",
-  "text": "ConocoPhillips rose 0.74% today to $129.35, extending a two-week gain of 3.26%. The move reflects growing concern about oil supply disruptions: Iran has stepped up attacks on tankers transiting the Strait of Hormuz, and Houthi attacks on Saudi Arabia are also threatening crude exports. These geopolitical risks have pushed global oil prices to $113.96 per barrel (compared to a lower US domestic price of $96.16), and traders are pricing in the risk that a critical chokepoint for energy shipments could tighten supply further.\n\nThe broader context matters here: supply fears had eased earlier in the week thanks to Middle East crude exports and an emergency stockpile release, but the escalation in tanker attacks has reversed that sentiment. For an oil producer like ConocoPhillips, higher global oil prices and renewed supply anxiety generally support the stock, even though US domestic crude is trading at a notable discount to world prices.",
+  "fetchedAt": "2026-10-07T17:13:21.997571+00:00",
+  "text": "ConocoPhillips fell slightly today despite a backdrop of tight energy markets that typically benefit oil producers. The decline came as oil prices themselves moved modestly\u2014US crude at $96.16 and global crude at $113.96\u2014while broader market forces like rising heating oil costs and Middle East supply concerns created mixed signals for the sector. The stock has still gained 0.64% over two weeks, suggesting today's small dip is a pullback in a largely positive period.\n\nThe disconnect between energy headlines and today's price move may reflect investors weighing competing pressures: tighter diesel and heating oil markets could boost refining and upstream margins, but geopolitical risks in the Middle East (Houthi and Iranian threats to shipping) and the possibility of new export restrictions are creating uncertainty that caps gains. The fact that oil itself edged higher on these same supply concerns suggests equity markets are being more cautious than commodity markets right now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 35,
-    "inputTokens": 30818,
-    "outputTokens": 7283,
-    "estimatedCostUsd": 0.067233,
-    "lastCallHour": "2026-10-07T09"
+    "callsThisMonth": 36,
+    "inputTokens": 31676,
+    "outputTokens": 7483,
+    "estimatedCostUsd": 0.069091,
+    "lastCallHour": "2026-10-07T17"
   }
 }
