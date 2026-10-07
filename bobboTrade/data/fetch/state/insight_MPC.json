@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-07T19:15:43.840706+00:00",
-  "text": "Marathon Petroleum rose 2.1% today as refiners benefited from a day of mixed signals on diesel supply and pricing. Oil prices fell on news that the IEA (the International Energy Agency\u2014a group of major oil-consuming countries) agreed to release diesel from strategic stockpiles to ease a global shortage, which typically helps refiner margins. However, the same day brought evidence that diesel remains genuinely tight: shipping costs from the Gulf to China hit $76 million per tanker (ten times pre-war levels), heating oil prices are soaring with Northeast households facing 21% higher winter bills, and the White House is under political pressure to act on fuel costs ahead of midterm elections in a month.\n\nThe two-week 13.7% surge reflects a broader shift in refiner economics: while oil prices have moderated recently thanks to emergency stockpile releases, the extreme tightness in diesel supply means refiners can still capture strong margins by producing it. The geopolitical backdrop\u2014tanker attacks in the Persian Gulf and Iran's moves to disrupt shipping\u2014keeps upside volatility in place, even as some relief measures (like the G7 release) have started to ease the immediate crisis.",
+  "fetchedAt": "2026-10-07T22:38:31.755505+00:00",
+  "text": "Marathon Petroleum's stock jumped 2.3% today, continuing a sharp run-up that has gained nearly 14% over the past two weeks. The move reflects surging diesel prices and tight global diesel supplies\u2014refiners like Marathon profit when the spread between crude oil input costs and refined product selling prices widens, and diesel in particular is commanding premium prices due to Middle East supply disruptions and low U.S. diesel inventory (105 million barrels). Political pressure to ease diesel prices through stockpile releases and export restrictions, combined with tanker shortages driving shipping costs to 10 times historical levels, has tightened margins and boosted refiner valuations.\n\nU.S. refineries are running at 92.7% capacity, near full utilization, which means Marathon and peers are operating profitably but with little room to ramp output further. The global supply crunch\u2014especially the attacks on tankers in the Persian Gulf and the shortage of available shipping\u2014is keeping diesel scarce and expensive relative to crude, a dynamic that favors refiners' bottom lines as long as crude prices don't spike further to offset the product gains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 37,
-    "inputTokens": 34754,
-    "outputTokens": 8264,
-    "estimatedCostUsd": 0.076074,
-    "lastCallHour": "2026-10-07T19"
+    "callsThisMonth": 38,
+    "inputTokens": 35676,
+    "outputTokens": 8508,
+    "estimatedCostUsd": 0.078216,
+    "lastCallHour": "2026-10-07T22"
   }
 }
