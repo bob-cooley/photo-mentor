@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-08T02:27:13.362863+00:00",
-  "text": "ConocoPhillips edged up 0.38% today to $129.84, continuing a steady climb over the past week as oil prices have remained elevated amid geopolitical tensions in the Middle East. The specific catalyst appears to be renewed concerns about Iran escalating military action\u2014today's news reported that the Trump administration is considering restarting large-scale military operations against Iran in the coming weeks, which would threaten crude supplies flowing through the Strait of Hormuz and underpin prices for producers like ConocoPhillips.\n\nThe company's gains also reflect a tightening global market for diesel in particular, which has driven shipping costs to historic highs (tanker charters up tenfold) and is pushing heating oil prices sharply higher heading into winter. For an oil producer, these supply-chain pressures and elevated demand concerns support crude prices staying firm, even as some recent reports showed the IEA coordinating emergency diesel stock releases to ease the squeeze.",
+  "fetchedAt": "2026-10-08T09:54:36.758030+00:00",
+  "text": "ConocoPhillips rose 0.38% today as oil markets strengthened on geopolitical risk. Brent crude topped $103 a barrel following reports that the U.S. is preparing for possible military operations against Iran, which would disrupt Middle East oil supplies\u2014a major concern for global energy markets. The stock has climbed 1.37% over two weeks as these tensions have mounted, supporting higher crude prices that benefit oil producers.\n\nThe broader picture shows a widening gap between U.S. and global oil prices: domestic crude is trading at $96.24 while Brent (the global benchmark) sits at $125.44, a $29 spread driven partly by shipping bottlenecks in the Persian Gulf\u2014supertanker rates have exploded to 10 times pre-war levels. This regional supply tightness is likely keeping upward pressure on the energy sector even as political pressure mounts domestically to address fuel prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 40,
-    "inputTokens": 35114,
-    "outputTokens": 8417,
-    "estimatedCostUsd": 0.077199,
-    "lastCallHour": "2026-10-08T02"
+    "callsThisMonth": 41,
+    "inputTokens": 35989,
+    "outputTokens": 8626,
+    "estimatedCostUsd": 0.079119,
+    "lastCallHour": "2026-10-08T09"
   }
 }
