@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-08T09:54:51.547287+00:00",
-  "text": "Marathon Petroleum climbed 2.3% today as oil prices surged on geopolitical tension in the Middle East. Brent crude topped $103 a barrel after reports that the U.S. is preparing for possible large-scale military operations in Iran, which raises the risk of supply disruptions. For a refiner, higher crude costs can squeeze margins, but the company is also benefiting from the jump in energy prices themselves and from refineries operating at 92.7% capacity\u2014near full steam\u2014which helps absorb input cost increases.\n\nThe stock's 13.9% rally over two weeks reflects a broader shift in the energy market: oil has climbed sharply amid Middle East risks, and refinery utilization is strong while inventories remain at comfortable levels. This environment tends to support refiner earnings when demand holds steady, even as crude gets pricier.",
+  "fetchedAt": "2026-10-08T17:10:14.972784+00:00",
+  "text": "Marathon Petroleum's stock jumped 4.5% today, capping an 18% surge over the past week, driven by a sharp spike in crude oil prices triggered by Iranian tanker attacks and geopolitical tensions in the Gulf. The global oil price has climbed to $125 per barrel\u2014well above the U.S. price of $96\u2014while U.S. refineries are running at 92.7% capacity with inventory levels that support sustained demand. For a major refiner like Marathon, higher crude prices combined with full refinery utilization and tight product supplies create the conditions for improved margins on both gasoline and diesel sales.\n\nThe broader backdrop amplifies these gains: political pressure over fuel costs, hurricane threats to Gulf production, and discussions of potential U.S. military action in Iran all point to an extended period of elevated energy prices and geopolitical risk premium. That uncertainty and supply tightness, combined with a refiner already operating near capacity, typically benefits margin-heavy integrated oil and fuel producers.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 41,
-    "inputTokens": 38455,
-    "outputTokens": 9143,
-    "estimatedCostUsd": 0.08417,
-    "lastCallHour": "2026-10-08T09"
+    "callsThisMonth": 42,
+    "inputTokens": 39381,
+    "outputTokens": 9360,
+    "estimatedCostUsd": 0.086181,
+    "lastCallHour": "2026-10-08T17"
   }
 }

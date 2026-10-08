@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-10-07T19:13:36.456931+00:00",
+    "fetchedAt": "2026-10-08T17:09:58.291668+00:00",
     "source": "SEC XBRL company facts (data.sec.gov)",
     "currency": "USD",
     "current": {
