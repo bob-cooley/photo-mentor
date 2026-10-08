@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-08T19:09:05.517403+00:00",
-  "text": "Marathon Petroleum's stock jumped 5.2% today, capping a dramatic 19% rally over two weeks, as oil prices spiked on escalating geopolitical tension. Iran's increased tanker attacks, combined with reports of Trump administration plans for potential military operations against Iran and new Treasury sanctions on Iran's shadow fleet, sent crude prices sharply higher\u2014Brent crude hit $125 per barrel. A refinery like Marathon benefits directly when oil prices rise, especially with U.S. refineries currently running at 92.7% capacity, meaning strong demand for refined products and healthy margins on the crude they process.\n\nThe move also reflects a tightening market backdrop: diesel prices are surging enough to draw White House policy attention, gasoline and heating oil inventories remain relatively lean, and geopolitical supply disruption risk is tangible. For a U.S. refiner, this combination of higher crude costs paired with political urgency around fuel affordability and tight product supplies creates a favorable environment for profitability, even if crude-buying pressure weighs on margins in the short term.",
+  "fetchedAt": "2026-10-08T22:49:37.497742+00:00",
+  "text": "Marathon Petroleum's stock jumped 4.8% today, extending a remarkable two-week rally of 18.5%. The immediate catalyst was oil prices surging \u2014 crude hit $96 a barrel domestically and $125 globally \u2014 driven by escalating Iran tensions, tanker attacks, and threats of U.S. military action that could disrupt Middle Eastern supply. For a refiner, higher crude prices paired with strong refinery utilization (92.7%) and tight fuel inventories (especially diesel) create an environment where the company can earn wider margins converting raw oil into finished products like gasoline and diesel.\n\nThe broader context: geopolitical risk and political pressure around fuel costs are forcing the administration to consider policies that could increase refinery activity and fuel demand. With refineries already running near capacity and diesel stockpiles notably low at 105 million barrels, any further supply disruption would tighten the market further, potentially boosting prices and refining profits.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 43,
-    "inputTokens": 40294,
-    "outputTokens": 9595,
-    "estimatedCostUsd": 0.088269,
-    "lastCallHour": "2026-10-08T19"
+    "callsThisMonth": 44,
+    "inputTokens": 41207,
+    "outputTokens": 9803,
+    "estimatedCostUsd": 0.090222,
+    "lastCallHour": "2026-10-08T22"
   }
 }

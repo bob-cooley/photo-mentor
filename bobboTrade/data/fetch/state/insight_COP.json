@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-08T19:07:58.223223+00:00",
-  "text": "ConocoPhillips jumped 3.5% today as oil prices spiked on geopolitical tension in the Middle East. Iran has escalated tanker attacks, and the Trump administration announced new sanctions on Iranian \"shadow fleet\" vessels while reportedly considering large-scale military operations in Iran \u2014 the kind of disruption that can constrain global oil supply and push prices higher. With world oil trading at $125 a barrel (up sharply from earlier in the week), an oil producer like ConocoPhillips benefits directly from the higher price it can sell crude at.\n\nThe stock's broader two-week gain of 4% also reflects a tightening energy market. Refinery capacity constraints and political pressure on fuel prices are keeping downstream margins under pressure, but for upstream producers focused on crude extraction rather than refining, the sharp oil price environment is a tailwind.",
+  "fetchedAt": "2026-10-08T22:49:25.142368+00:00",
+  "text": "ConocoPhillips jumped 3.35% today to $134.19, climbing $4.84 in a single day. The driver is clear: oil prices spiked on geopolitical tension. US crude jumped to $96.24 per barrel, and world oil traded at $125.44\u2014a significant spread reflecting global supply fears. Today's news centered on Iran: the Trump administration announced fresh sanctions on 17 tankers in Iran's shadow fleet, and reported discussions of potentially restarting large-scale military operations against Iran. These developments threaten to disrupt global oil supplies, which pushes prices higher and directly benefits an oil producer like ConocoPhillips.\n\nThe stock has climbed steadily since late September (up 3.75% over two weeks), riding a broader energy rally as geopolitical risks compound. A hurricane also threatens U.S. Gulf production capacity, adding another near-term supply constraint. For a major producer, higher oil prices mean higher revenues and profits\u2014the core reason energy stocks move with crude prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 43,
-    "inputTokens": 37706,
-    "outputTokens": 9003,
-    "estimatedCostUsd": 0.082721,
-    "lastCallHour": "2026-10-08T19"
+    "callsThisMonth": 44,
+    "inputTokens": 38558,
+    "outputTokens": 9231,
+    "estimatedCostUsd": 0.084713,
+    "lastCallHour": "2026-10-08T22"
   }
 }
