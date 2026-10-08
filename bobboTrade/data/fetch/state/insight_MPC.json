@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-07T23:35:35.935973+00:00",
-  "text": "Marathon Petroleum climbed 2.3% today to $442.26, continuing a strong two-week run of nearly 14%. The stock's gains reflect a tightening diesel market: refineries are running at 92.7% capacity, diesel inventories sit at their lowest levels shown in your data, and geopolitical disruptions in the Persian Gulf have sent shipping costs soaring. The White House's attempt to address surging diesel prices through emergency measures, combined with the IEA's coordinated release of stocks, signals how acute the supply crunch has become\u2014creating tailwinds for refiners who can produce and move diesel to high-price markets.\n\nThe wider context here is that diesel scarcity is now a political and economic problem. Heating oil bills are expected to jump 21% this winter in the Northeast, and Middle East tensions are making it genuinely expensive to ship fuel globally. For a refiner like this one, tight supply and elevated prices\u2014both for crude intake and the refined products they sell\u2014can expand profit margins, even as shipping and logistics costs rise. That's the tension playing out in the market right now.",
+  "fetchedAt": "2026-10-08T02:27:27.252547+00:00",
+  "text": "The stock jumped 2.3% today as oil prices surged on Middle East tensions\u2014specifically reports that President Trump's administration is considering large-scale military operations in Iran, which would threaten a major global oil supply source. With U.S. crude at $96 and world oil at $125, refineries are running at 92.7% capacity, meaning Marathon Petroleum has strong margins to turn crude into fuel at a time when fuel prices are exceptionally high and tight.\n\nThe stock's 14% climb over two weeks reflects a broader shift: geopolitical risk in the Persian Gulf, combined with a global diesel shortage driving up both crude prices and the value of refined products, has made refining highly profitable right now. Shipping costs have also exploded (a single tanker charter from the Gulf just cost $76 million, ten times normal rates), which keeps prices elevated across the board and benefits refiners positioned to sell into this tight market.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 39,
-    "inputTokens": 36598,
-    "outputTokens": 8752,
-    "estimatedCostUsd": 0.080358,
-    "lastCallHour": "2026-10-07T23"
+    "callsThisMonth": 40,
+    "inputTokens": 37518,
+    "outputTokens": 8955,
+    "estimatedCostUsd": 0.082293,
+    "lastCallHour": "2026-10-08T02"
   }
 }

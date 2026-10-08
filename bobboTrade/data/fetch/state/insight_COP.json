@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-07T23:35:23.239104+00:00",
-  "text": "ConocoPhillips rose 0.38% today to close at $129.84, continuing a steady climb over the past week that has added 1.37% in two weeks. The immediate catalyst appears to be today's news that IEA member nations agreed to release diesel stocks to ease supply constraints, which pushed crude prices down slightly but signaled relief in a critical bottleneck for energy companies. For a major oil and gas producer like ConocoPhillips, easing diesel supply fears reduces the risk of emergency government interventions (like export restrictions) that could disrupt operations and markets.\n\nThe broader backdrop remains tight: global diesel is scarce, shipping costs are astronomical due to Middle East turmoil, and there's political pressure to act on fuel prices heading into midterms. While today's coordinated stockpile release is a modest negative for crude prices on the surface, it actually benefits established producers by reducing the likelihood of destabilizing policy moves that could have been far more damaging to earnings.",
+  "fetchedAt": "2026-10-08T02:27:13.362863+00:00",
+  "text": "ConocoPhillips edged up 0.38% today to $129.84, continuing a steady climb over the past week as oil prices have remained elevated amid geopolitical tensions in the Middle East. The specific catalyst appears to be renewed concerns about Iran escalating military action\u2014today's news reported that the Trump administration is considering restarting large-scale military operations against Iran in the coming weeks, which would threaten crude supplies flowing through the Strait of Hormuz and underpin prices for producers like ConocoPhillips.\n\nThe company's gains also reflect a tightening global market for diesel in particular, which has driven shipping costs to historic highs (tanker charters up tenfold) and is pushing heating oil prices sharply higher heading into winter. For an oil producer, these supply-chain pressures and elevated demand concerns support crude prices staying firm, even as some recent reports showed the IEA coordinating emergency diesel stock releases to ease the squeeze.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 39,
-    "inputTokens": 34256,
-    "outputTokens": 8208,
-    "estimatedCostUsd": 0.075296,
-    "lastCallHour": "2026-10-07T23"
+    "callsThisMonth": 40,
+    "inputTokens": 35114,
+    "outputTokens": 8417,
+    "estimatedCostUsd": 0.077199,
+    "lastCallHour": "2026-10-08T02"
   }
 }
