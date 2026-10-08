@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-08T17:10:14.972784+00:00",
-  "text": "Marathon Petroleum's stock jumped 4.5% today, capping an 18% surge over the past week, driven by a sharp spike in crude oil prices triggered by Iranian tanker attacks and geopolitical tensions in the Gulf. The global oil price has climbed to $125 per barrel\u2014well above the U.S. price of $96\u2014while U.S. refineries are running at 92.7% capacity with inventory levels that support sustained demand. For a major refiner like Marathon, higher crude prices combined with full refinery utilization and tight product supplies create the conditions for improved margins on both gasoline and diesel sales.\n\nThe broader backdrop amplifies these gains: political pressure over fuel costs, hurricane threats to Gulf production, and discussions of potential U.S. military action in Iran all point to an extended period of elevated energy prices and geopolitical risk premium. That uncertainty and supply tightness, combined with a refiner already operating near capacity, typically benefits margin-heavy integrated oil and fuel producers.",
+  "fetchedAt": "2026-10-08T19:09:05.517403+00:00",
+  "text": "Marathon Petroleum's stock jumped 5.2% today, capping a dramatic 19% rally over two weeks, as oil prices spiked on escalating geopolitical tension. Iran's increased tanker attacks, combined with reports of Trump administration plans for potential military operations against Iran and new Treasury sanctions on Iran's shadow fleet, sent crude prices sharply higher\u2014Brent crude hit $125 per barrel. A refinery like Marathon benefits directly when oil prices rise, especially with U.S. refineries currently running at 92.7% capacity, meaning strong demand for refined products and healthy margins on the crude they process.\n\nThe move also reflects a tightening market backdrop: diesel prices are surging enough to draw White House policy attention, gasoline and heating oil inventories remain relatively lean, and geopolitical supply disruption risk is tangible. For a U.S. refiner, this combination of higher crude costs paired with political urgency around fuel affordability and tight product supplies creates a favorable environment for profitability, even if crude-buying pressure weighs on margins in the short term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 42,
-    "inputTokens": 39381,
-    "outputTokens": 9360,
-    "estimatedCostUsd": 0.086181,
-    "lastCallHour": "2026-10-08T17"
+    "callsThisMonth": 43,
+    "inputTokens": 40294,
+    "outputTokens": 9595,
+    "estimatedCostUsd": 0.088269,
+    "lastCallHour": "2026-10-08T19"
   }
 }
