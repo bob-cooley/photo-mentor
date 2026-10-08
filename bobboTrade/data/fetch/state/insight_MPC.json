@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-08T22:49:37.497742+00:00",
-  "text": "Marathon Petroleum's stock jumped 4.8% today, extending a remarkable two-week rally of 18.5%. The immediate catalyst was oil prices surging \u2014 crude hit $96 a barrel domestically and $125 globally \u2014 driven by escalating Iran tensions, tanker attacks, and threats of U.S. military action that could disrupt Middle Eastern supply. For a refiner, higher crude prices paired with strong refinery utilization (92.7%) and tight fuel inventories (especially diesel) create an environment where the company can earn wider margins converting raw oil into finished products like gasoline and diesel.\n\nThe broader context: geopolitical risk and political pressure around fuel costs are forcing the administration to consider policies that could increase refinery activity and fuel demand. With refineries already running near capacity and diesel stockpiles notably low at 105 million barrels, any further supply disruption would tighten the market further, potentially boosting prices and refining profits.",
+  "fetchedAt": "2026-10-08T23:44:30.412042+00:00",
+  "text": "Marathon Petroleum stock jumped 4.8% today as oil prices spiked on geopolitical tension: Iran escalated tanker attacks on shipping in the Gulf, and the Trump administration simultaneously announced new sanctions on Iran's \"shadow fleet\" and discussed potential military operations. For a refiner like Marathon, higher crude oil prices typically improve profitability on the refining side\u2014they can sell finished products like gasoline and diesel at premium prices when oil costs surge. Refineries are already running at 92.7% capacity, so the company is well-positioned to capitalize on the price premium.\n\nThe two-week rally (up 18.5%) reflects a broader tightening in global oil markets: world crude has climbed sharply, diesel prices are becoming a political flashpoint ahead of midterm elections, and storage levels for both crude and refined products remain relatively tight. This combination of supply concerns and strong demand keeps fuel prices elevated, which works in a large refiner's favor.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 44,
-    "inputTokens": 41207,
-    "outputTokens": 9803,
-    "estimatedCostUsd": 0.090222,
-    "lastCallHour": "2026-10-08T22"
+    "callsThisMonth": 45,
+    "inputTokens": 42120,
+    "outputTokens": 10012,
+    "estimatedCostUsd": 0.09218,
+    "lastCallHour": "2026-10-08T23"
   }
 }
