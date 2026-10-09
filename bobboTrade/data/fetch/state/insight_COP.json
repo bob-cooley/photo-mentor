@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-09T16:53:04.812424+00:00",
-  "text": "ConocoPhillips stock rose 0.26% today to $134.54, continuing a sharp rally that has added 5.69% over two weeks. The immediate driver is a perfect storm for oil producers: Hurricane Isaias is disrupting U.S. Gulf of Mexico production and threatening refineries, while simultaneous geopolitical tension\u2014Iran-backed Houthis attacking Saudi infrastructure and the Trump administration considering military action against Iran\u2014has pushed world oil prices to $125.44 per barrel, up sharply from typical levels. For an integrated oil major like ConocoPhillips, both tighter supply and higher global crude prices expand profit margins.\n\nThe 2-week rally reflects how quickly market conditions have shifted in oil's favor. Just days ago, crude was trading lower; the cascade of production outages, tanker attacks, and escalating U.S.-Iran tensions since October 8th has reversed that, signaling investors expect sustained pressure on global supply into the near term.",
+  "fetchedAt": "2026-10-09T18:38:33.410305+00:00",
+  "text": "ConocoPhillips rose 0.5% today to close at $134.87, continuing a sharp two-week rally up 6%. The immediate driver is the surge in oil prices tied to escalating geopolitical tensions: tanker attacks in the Strait of Hormuz have hit wartime highs as Iran-backed forces target shipping, and Hurricane Isaias is disrupting U.S. Gulf of Mexico oil production and threatening refineries. World oil prices have spiked to $125 per barrel (versus $96 for U.S. crude), reflecting Middle East supply risks, and these tighter market conditions directly boost profits for major oil producers and refiners like ConocoPhillips.\n\nThe stock's momentum reflects a confluence of supply squeezes\u2014foreign tanker attacks threatening Middle Eastern exports, U.S. hurricane damage, and ongoing war disruptions in Eastern Europe\u2014all hitting at once. With oil in tight supply and Trump administration officials reportedly discussing potential military operations against Iran, investors are pricing in a longer period of elevated crude prices, which is the core driver of ConocoPhillips' recent gains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 48,
-    "inputTokens": 41977,
-    "outputTokens": 10040,
-    "estimatedCostUsd": 0.092177,
-    "lastCallHour": "2026-10-09T16"
+    "callsThisMonth": 49,
+    "inputTokens": 42835,
+    "outputTokens": 10284,
+    "estimatedCostUsd": 0.094255,
+    "lastCallHour": "2026-10-09T18"
   }
 }

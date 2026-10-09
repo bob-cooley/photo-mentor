@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-09T16:53:24.171847+00:00",
-  "text": "Marathon Petroleum stock jumped nearly 18% over two weeks and rose another 0.02% today, riding a sharp spike in oil prices driven by geopolitical tension and supply disruptions. Oil prices have climbed as Iran-backed attacks on tankers and Saudi infrastructure threaten global supply routes, while Hurricane Isaias is disrupting U.S. Gulf of Mexico production and threatening refineries. For a refiner like Marathon, this creates a profitable squeeze: crude oil costs more to buy, but the company can pass higher prices to customers and benefits from tighter fuel markets, especially when U.S. refinery utilization is running at 92.7%\u2014well above historical lows.\n\nThe tension has escalated sharply this week as the Trump administration has imposed additional sanctions on Iran's tanker fleet and signaled possible large-scale military operations, pushing crude from under $86 a barrel just days ago to over $96 today while global oil hit $125. When refining margins widen because crude is constrained and fuel is scarce, refiners' profits typically expand\u2014though today's tiny move suggests the market may be pausing after yesterday's big 4.8% rally as investors wait to see how the geopolitical situation unfolds.",
+  "fetchedAt": "2026-10-09T18:39:10.182632+00:00",
+  "text": "The stock fell 1.79% today after surging nearly 16% over the past two weeks, likely pulling back as investors absorbed the escalating geopolitical risks in the Middle East. While tanker attacks in the Strait of Hormuz and Houthi strikes on Saudi infrastructure have driven crude oil prices higher (Brent at $125/barrel), Hurricane Isaias disrupting U.S. Gulf of Mexico production and threatening refineries created a mixed picture for a refiner \u2014 higher oil costs cut into margins even as refinery utilization sits near 93%.\n\nThe stock's sharp two-week rally appears to have been built on expectations that oil supply disruptions would benefit refiners through tighter markets and higher crack spreads (the profit margin between crude input and fuel output). Today's pullback may reflect profit-taking after such a large move, or renewed concern that refinery shutdowns from the hurricane could offset any margin benefits from elevated crude prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 48,
-    "inputTokens": 44870,
-    "outputTokens": 10706,
-    "estimatedCostUsd": 0.0984,
-    "lastCallHour": "2026-10-09T16"
+    "callsThisMonth": 49,
+    "inputTokens": 45788,
+    "outputTokens": 10911,
+    "estimatedCostUsd": 0.100343,
+    "lastCallHour": "2026-10-09T18"
   }
 }
