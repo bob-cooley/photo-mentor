@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-09T21:27:29.643931+00:00",
-  "text": "ConocoPhillips barely moved today, down just 0.07%, but it's up 5.34% over two weeks as crude oil prices have surged. The stock's recent gains reflect a sharp spike in global oil prices \u2014 the world price jumped to $125.44 per barrel \u2014 driven by escalating tanker attacks in the Strait of Hormuz by Iran-backed forces and Hurricane Isaias disrupting U.S. Gulf of Mexico production. These supply disruptions have tightened the fuel market at a time when refineries are already strained from damage caused by wars in Eastern Europe and the Middle East.\n\nThe modest decline today despite ongoing bullish news suggests the market may be pricing in some relief from a Trump-Putin diesel deal, which could ease refinery constraints and global fuel prices over time. However, the persistent geopolitical tensions and production risks keep underlying support for oil prices intact.",
+  "fetchedAt": "2026-10-09T22:53:46.724826+00:00",
+  "text": "ConocoPhillips stock ticked down slightly today despite a turbulent backdrop for oil markets. The stock is essentially flat on the day, but it's up 5.3% over the past two weeks\u2014a move that reflects a sharp spike in oil prices driven by geopolitical tension (Iran-backed tanker attacks in the Strait of Hormuz, military threats against Iranian assets) and a Gulf Coast hurricane disrupting U.S. production. The gap between world oil prices ($125/barrel) and U.S. prices ($96/barrel) suggests constrained supply reaching American refineries.\n\nToday's tiny decline likely reflects profit-taking after the stock's recent strong run, combined with cross-currents: while crude prices remain elevated, news that the U.S. may import Russian diesel to ease fuel shortages signals downward pressure on refining margins\u2014the profit refiners make by converting crude into products. That's a headwind for an integrated producer like ConocoPhillips that depends on refining economics alongside crude production.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 50,
-    "inputTokens": 43704,
-    "outputTokens": 10480,
-    "estimatedCostUsd": 0.096104,
-    "lastCallHour": "2026-10-09T21"
+    "callsThisMonth": 51,
+    "inputTokens": 44573,
+    "outputTokens": 10703,
+    "estimatedCostUsd": 0.098088,
+    "lastCallHour": "2026-10-09T22"
   }
 }

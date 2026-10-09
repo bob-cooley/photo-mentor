@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-09T21:27:51.178715+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after surging 21% over the prior week, as the stock gave back some gains amid conflicting signals for refiners. The biggest headwind is the Trump-Putin diesel deal announced today\u2014Russian diesel flooding U.S. and global markets would directly undercut refiner margins (the profit spread between crude costs and product prices), since refineries like Marathon make money partly by turning crude into diesel. That deal offsets some of the positive momentum from earlier in the week when oil prices jumped on Middle East tensions and Hurricane Isaias threatened Gulf production.\n\nThe broader picture is tangled. Oil prices remain well above $96 per barrel, refineries are running hot at 92.7%, and geopolitical risks from Iran-backed attacks and Saudi tensions should keep crude elevated\u2014all normally supportive for refiners. But the Putin deal is a concrete, near-term margin threat, and it arrived as the stock had already run up sharply, likely prompting some profit-taking or recalibration of the near-term outlook.",
+  "fetchedAt": "2026-10-09T22:54:06.239458+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after surging nearly 16% over two weeks, as the market digested a major shift in the diesel supply outlook. On October 9th, a Trump administration deal to import Russian diesel into U.S. and global markets became public\u2014a direct threat to refiner margins, since refiners like Marathon profit most when they can sell fuel at high prices during tight supply. This announcement reversed the tailwind that had driven the stock up sharply: over the prior week, geopolitical tensions (Iran attacks on tankers, Houthi strikes on Saudi infrastructure, and now Hurricane Isaias threatening Gulf production) had tightened global fuel supplies and pushed crude prices higher, creating a profitable environment for U.S. refiners.\n\nThe longer trend here is colliding supply shocks and policy response. The Middle East and Eastern Europe conflicts have already crippled refinery capacity worldwide, which is why crude and diesel prices have stayed elevated\u2014but that same damage is making Trump willing to circumvent normal trade channels and add Russian supply. U.S. refineries are running at 92.7% capacity, and diesel and gasoline storage are both lean, so new supply entering the market could compress the prices refiners can charge even as global crude remains above $125 a barrel.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 50,
-    "inputTokens": 46715,
-    "outputTokens": 11139,
-    "estimatedCostUsd": 0.10241,
-    "lastCallHour": "2026-10-09T21"
+    "callsThisMonth": 51,
+    "inputTokens": 47644,
+    "outputTokens": 11418,
+    "estimatedCostUsd": 0.104734,
+    "lastCallHour": "2026-10-09T22"
   }
 }
