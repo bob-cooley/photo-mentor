@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-09T18:39:10.182632+00:00",
-  "text": "The stock fell 1.79% today after surging nearly 16% over the past two weeks, likely pulling back as investors absorbed the escalating geopolitical risks in the Middle East. While tanker attacks in the Strait of Hormuz and Houthi strikes on Saudi infrastructure have driven crude oil prices higher (Brent at $125/barrel), Hurricane Isaias disrupting U.S. Gulf of Mexico production and threatening refineries created a mixed picture for a refiner \u2014 higher oil costs cut into margins even as refinery utilization sits near 93%.\n\nThe stock's sharp two-week rally appears to have been built on expectations that oil supply disruptions would benefit refiners through tighter markets and higher crack spreads (the profit margin between crude input and fuel output). Today's pullback may reflect profit-taking after such a large move, or renewed concern that refinery shutdowns from the hurricane could offset any margin benefits from elevated crude prices.",
+  "fetchedAt": "2026-10-09T21:27:51.178715+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after surging 21% over the prior week, as the stock gave back some gains amid conflicting signals for refiners. The biggest headwind is the Trump-Putin diesel deal announced today\u2014Russian diesel flooding U.S. and global markets would directly undercut refiner margins (the profit spread between crude costs and product prices), since refineries like Marathon make money partly by turning crude into diesel. That deal offsets some of the positive momentum from earlier in the week when oil prices jumped on Middle East tensions and Hurricane Isaias threatened Gulf production.\n\nThe broader picture is tangled. Oil prices remain well above $96 per barrel, refineries are running hot at 92.7%, and geopolitical risks from Iran-backed attacks and Saudi tensions should keep crude elevated\u2014all normally supportive for refiners. But the Putin deal is a concrete, near-term margin threat, and it arrived as the stock had already run up sharply, likely prompting some profit-taking or recalibration of the near-term outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 49,
-    "inputTokens": 45788,
-    "outputTokens": 10911,
-    "estimatedCostUsd": 0.100343,
-    "lastCallHour": "2026-10-09T18"
+    "callsThisMonth": 50,
+    "inputTokens": 46715,
+    "outputTokens": 11139,
+    "estimatedCostUsd": 0.10241,
+    "lastCallHour": "2026-10-09T21"
   }
 }

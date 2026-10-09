@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-09T18:38:33.410305+00:00",
-  "text": "ConocoPhillips rose 0.5% today to close at $134.87, continuing a sharp two-week rally up 6%. The immediate driver is the surge in oil prices tied to escalating geopolitical tensions: tanker attacks in the Strait of Hormuz have hit wartime highs as Iran-backed forces target shipping, and Hurricane Isaias is disrupting U.S. Gulf of Mexico oil production and threatening refineries. World oil prices have spiked to $125 per barrel (versus $96 for U.S. crude), reflecting Middle East supply risks, and these tighter market conditions directly boost profits for major oil producers and refiners like ConocoPhillips.\n\nThe stock's momentum reflects a confluence of supply squeezes\u2014foreign tanker attacks threatening Middle Eastern exports, U.S. hurricane damage, and ongoing war disruptions in Eastern Europe\u2014all hitting at once. With oil in tight supply and Trump administration officials reportedly discussing potential military operations against Iran, investors are pricing in a longer period of elevated crude prices, which is the core driver of ConocoPhillips' recent gains.",
+  "fetchedAt": "2026-10-09T21:27:29.643931+00:00",
+  "text": "ConocoPhillips barely moved today, down just 0.07%, but it's up 5.34% over two weeks as crude oil prices have surged. The stock's recent gains reflect a sharp spike in global oil prices \u2014 the world price jumped to $125.44 per barrel \u2014 driven by escalating tanker attacks in the Strait of Hormuz by Iran-backed forces and Hurricane Isaias disrupting U.S. Gulf of Mexico production. These supply disruptions have tightened the fuel market at a time when refineries are already strained from damage caused by wars in Eastern Europe and the Middle East.\n\nThe modest decline today despite ongoing bullish news suggests the market may be pricing in some relief from a Trump-Putin diesel deal, which could ease refinery constraints and global fuel prices over time. However, the persistent geopolitical tensions and production risks keep underlying support for oil prices intact.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 49,
-    "inputTokens": 42835,
-    "outputTokens": 10284,
-    "estimatedCostUsd": 0.094255,
-    "lastCallHour": "2026-10-09T18"
+    "callsThisMonth": 50,
+    "inputTokens": 43704,
+    "outputTokens": 10480,
+    "estimatedCostUsd": 0.096104,
+    "lastCallHour": "2026-10-09T21"
   }
 }
