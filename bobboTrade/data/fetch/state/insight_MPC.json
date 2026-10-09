@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-09T02:44:27.141054+00:00",
-  "text": "Marathon Petroleum stock jumped 4.8% today as oil prices surged on geopolitical risk: news that Iran has escalated tanker attacks and that the Trump administration is considering large-scale military operations against Iran sent crude up sharply, with global oil prices now sitting at $125 per barrel. For a refiner like Marathon, higher oil prices typically boost refining margins\u2014the profit from turning crude into gasoline and diesel\u2014especially when refineries are running near capacity as they are now at 92.7%.\n\nThe stock's 18.5% climb over two weeks reflects a broader shift in the market's view of energy supplies. Global supply concerns from Middle East tensions, combined with a hurricane threat to U.S. Gulf production and Trump administration moves against Iran's shadow tanker fleet, have tightened the market's expectations for crude availability, pushing prices higher in ways that favor refiners who can profit from the spread between raw oil and finished fuels.",
+  "fetchedAt": "2026-10-09T09:58:40.588960+00:00",
+  "text": "Marathon Petroleum's stock jumped nearly 5% today, extending a two-week rally to over 18%, as oil prices spiked on escalating geopolitical tension in the Middle East. News that the Trump administration is considering large-scale military operations against Iran, combined with new sanctions on Iranian tankers, sent crude prices up sharply \u2014 U.S. oil rose to $96 and global oil to $125 per barrel. For a refiner like MPC, higher crude prices tighten margins in the short term, but the stock's sustained climb suggests investors are pricing in the refiner's ability to pass costs forward and benefit from strong fuel demand amid supply concerns.\n\nThe rally has also been fueled by tight refinery conditions: U.S. refineries are running at 92.7% capacity, and both gasoline and diesel inventories are lean. This backdrop of tight supply and geopolitical risk creates an environment where refiners can maintain pricing power on the fuel they produce, offsetting the headwind of higher crude costs.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 46,
-    "inputTokens": 43033,
-    "outputTokens": 10217,
-    "estimatedCostUsd": 0.094118,
-    "lastCallHour": "2026-10-09T02"
+    "callsThisMonth": 47,
+    "inputTokens": 43946,
+    "outputTokens": 10439,
+    "estimatedCostUsd": 0.096141,
+    "lastCallHour": "2026-10-09T09"
   }
 }
