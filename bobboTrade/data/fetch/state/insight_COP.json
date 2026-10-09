@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-08T23:44:14.259374+00:00",
-  "text": "ConocoPhillips jumped 3.35% today to $134.19, capping a four-day climb that's added roughly $7 to the stock. The driver is straightforward: oil prices surged on geopolitical risk. World oil hit $125.44 per barrel today amid reports of Iranian tanker attacks on shipping and escalating U.S. military threats toward Iran\u2014including talk of \"massive bombing\" operations and Treasury sanctions on Iranian oil tankers. For an oil major like ConocoPhillips, higher crude prices directly lift the value of reserves and production.\n\nThe move also reflects tightening global supply. A hurricane threat to U.S. Gulf production combined with disruption to Iranian exports (a major global supplier) creates genuine scarcity concerns that push prices higher across the board\u2014benefiting any large-scale oil producer regardless of where it operates.",
+  "fetchedAt": "2026-10-09T02:44:12.557358+00:00",
+  "text": "ConocoPhillips jumped 3.4% today to $134.19, driven by a sharp spike in oil prices tied to geopolitical tension. Iran escalated tanker attacks in the Middle East, and the Trump administration responded with new sanctions on Iranian \"shadow fleet\" vessels and talk of potential military operations \u2014 raising the risk of supply disruptions. Global oil prices surged to $125.44 a barrel, while U.S. crude hit $96.24, both moving higher on these headlines. For an oil major like ConocoPhillips, higher crude prices directly boost the value of reserves and near-term profits.\n\nThis move is part of a broader four-day rally; the stock has risen nearly 4% since October 1st as geopolitical risk has mounted and energy markets have tightened. The tension also comes amid domestic fuel-price concerns that have put energy policy in the political spotlight ahead of midterm elections, adding another layer of uncertainty to oil markets.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 45,
-    "inputTokens": 39410,
-    "outputTokens": 9422,
-    "estimatedCostUsd": 0.08652,
-    "lastCallHour": "2026-10-08T23"
+    "callsThisMonth": 46,
+    "inputTokens": 40262,
+    "outputTokens": 9635,
+    "estimatedCostUsd": 0.088437,
+    "lastCallHour": "2026-10-09T02"
   }
 }

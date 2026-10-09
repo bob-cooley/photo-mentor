@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-08T23:44:30.412042+00:00",
-  "text": "Marathon Petroleum stock jumped 4.8% today as oil prices spiked on geopolitical tension: Iran escalated tanker attacks on shipping in the Gulf, and the Trump administration simultaneously announced new sanctions on Iran's \"shadow fleet\" and discussed potential military operations. For a refiner like Marathon, higher crude oil prices typically improve profitability on the refining side\u2014they can sell finished products like gasoline and diesel at premium prices when oil costs surge. Refineries are already running at 92.7% capacity, so the company is well-positioned to capitalize on the price premium.\n\nThe two-week rally (up 18.5%) reflects a broader tightening in global oil markets: world crude has climbed sharply, diesel prices are becoming a political flashpoint ahead of midterm elections, and storage levels for both crude and refined products remain relatively tight. This combination of supply concerns and strong demand keeps fuel prices elevated, which works in a large refiner's favor.",
+  "fetchedAt": "2026-10-09T02:44:27.141054+00:00",
+  "text": "Marathon Petroleum stock jumped 4.8% today as oil prices surged on geopolitical risk: news that Iran has escalated tanker attacks and that the Trump administration is considering large-scale military operations against Iran sent crude up sharply, with global oil prices now sitting at $125 per barrel. For a refiner like Marathon, higher oil prices typically boost refining margins\u2014the profit from turning crude into gasoline and diesel\u2014especially when refineries are running near capacity as they are now at 92.7%.\n\nThe stock's 18.5% climb over two weeks reflects a broader shift in the market's view of energy supplies. Global supply concerns from Middle East tensions, combined with a hurricane threat to U.S. Gulf production and Trump administration moves against Iran's shadow tanker fleet, have tightened the market's expectations for crude availability, pushing prices higher in ways that favor refiners who can profit from the spread between raw oil and finished fuels.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 45,
-    "inputTokens": 42120,
-    "outputTokens": 10012,
-    "estimatedCostUsd": 0.09218,
-    "lastCallHour": "2026-10-08T23"
+    "callsThisMonth": 46,
+    "inputTokens": 43033,
+    "outputTokens": 10217,
+    "estimatedCostUsd": 0.094118,
+    "lastCallHour": "2026-10-09T02"
   }
 }
