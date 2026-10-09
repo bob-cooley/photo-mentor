@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-09T09:58:40.588960+00:00",
-  "text": "Marathon Petroleum's stock jumped nearly 5% today, extending a two-week rally to over 18%, as oil prices spiked on escalating geopolitical tension in the Middle East. News that the Trump administration is considering large-scale military operations against Iran, combined with new sanctions on Iranian tankers, sent crude prices up sharply \u2014 U.S. oil rose to $96 and global oil to $125 per barrel. For a refiner like MPC, higher crude prices tighten margins in the short term, but the stock's sustained climb suggests investors are pricing in the refiner's ability to pass costs forward and benefit from strong fuel demand amid supply concerns.\n\nThe rally has also been fueled by tight refinery conditions: U.S. refineries are running at 92.7% capacity, and both gasoline and diesel inventories are lean. This backdrop of tight supply and geopolitical risk creates an environment where refiners can maintain pricing power on the fuel they produce, offsetting the headwind of higher crude costs.",
+  "fetchedAt": "2026-10-09T16:53:24.171847+00:00",
+  "text": "Marathon Petroleum stock jumped nearly 18% over two weeks and rose another 0.02% today, riding a sharp spike in oil prices driven by geopolitical tension and supply disruptions. Oil prices have climbed as Iran-backed attacks on tankers and Saudi infrastructure threaten global supply routes, while Hurricane Isaias is disrupting U.S. Gulf of Mexico production and threatening refineries. For a refiner like Marathon, this creates a profitable squeeze: crude oil costs more to buy, but the company can pass higher prices to customers and benefits from tighter fuel markets, especially when U.S. refinery utilization is running at 92.7%\u2014well above historical lows.\n\nThe tension has escalated sharply this week as the Trump administration has imposed additional sanctions on Iran's tanker fleet and signaled possible large-scale military operations, pushing crude from under $86 a barrel just days ago to over $96 today while global oil hit $125. When refining margins widen because crude is constrained and fuel is scarce, refiners' profits typically expand\u2014though today's tiny move suggests the market may be pausing after yesterday's big 4.8% rally as investors wait to see how the geopolitical situation unfolds.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 47,
-    "inputTokens": 43946,
-    "outputTokens": 10439,
-    "estimatedCostUsd": 0.096141,
-    "lastCallHour": "2026-10-09T09"
+    "callsThisMonth": 48,
+    "inputTokens": 44870,
+    "outputTokens": 10706,
+    "estimatedCostUsd": 0.0984,
+    "lastCallHour": "2026-10-09T16"
   }
 }
