@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-10T08:03:21.876311+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing nearly 16% over the past two weeks, driven largely by a geopolitical shock: Trump's announced deal to import Russian diesel into the U.S. market. This directly threatens refiner margins\u2014the profit spread between crude oil costs and fuel selling prices\u2014because it floods the market with cheap supply precisely when refiners have benefited from tight fuel inventories and high prices caused by Middle East and Eastern Europe conflicts. The company had rallied hard on expectations that these supply disruptions would keep fuel scarce and profitable for U.S. refiners; news of Russian diesel flowing in undercuts that thesis.\n\nThe broader picture is messier, though: even with the Russian diesel deal announced, multiple other supply shocks remain active\u2014Hurricane Isaias is disrupting Gulf production and threatening refineries, tanker attacks in the Strait of Hormuz are creating transport risk, and U.S. refineries are running at 92.7% capacity with global oil trading at a $29 premium to U.S. prices. The stock's retreat is likely profit-taking after a sharp run-up, mixed with disappointment that a major new supply source could relieve the fuel scarcity that had been propping up refiner economics.",
+  "fetchedAt": "2026-10-10T15:01:31.964939+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after hitting a two-week high yesterday, likely pulled back by news that the U.S. has struck a deal to import Russian diesel to help ease fuel prices. The agreement undermines the near-term profit potential for American refiners like Marathon, who have been benefiting from tight fuel supplies and elevated prices caused by war-related disruptions and refinery damage. Even though crude prices remain elevated\u2014U.S. oil at $96 and world oil at $125 per barrel\u2014and U.S. refineries are running at 92.7% capacity, an influx of cheap Russian diesel compresses the margins refiners earn on fuel production.\n\nThe stock's sharp two-week rally (up 15.6%) had priced in a longer period of supply tightness and geopolitical disruption. Today's pullback reflects investors recalibrating as a major supply relief valve has just opened, reducing the scarcity premium that had driven refiner profits higher.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 53,
-    "inputTokens": 49500,
-    "outputTokens": 11948,
-    "estimatedCostUsd": 0.10924,
-    "lastCallHour": "2026-10-10T08"
+    "callsThisMonth": 54,
+    "inputTokens": 50426,
+    "outputTokens": 12166,
+    "estimatedCostUsd": 0.111256,
+    "lastCallHour": "2026-10-10T15"
   }
 }
