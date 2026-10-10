@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-10T15:01:31.964939+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after hitting a two-week high yesterday, likely pulled back by news that the U.S. has struck a deal to import Russian diesel to help ease fuel prices. The agreement undermines the near-term profit potential for American refiners like Marathon, who have been benefiting from tight fuel supplies and elevated prices caused by war-related disruptions and refinery damage. Even though crude prices remain elevated\u2014U.S. oil at $96 and world oil at $125 per barrel\u2014and U.S. refineries are running at 92.7% capacity, an influx of cheap Russian diesel compresses the margins refiners earn on fuel production.\n\nThe stock's sharp two-week rally (up 15.6%) had priced in a longer period of supply tightness and geopolitical disruption. Today's pullback reflects investors recalibrating as a major supply relief valve has just opened, reducing the scarcity premium that had driven refiner profits higher.",
+  "fetchedAt": "2026-10-10T19:14:13.190770+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after climbing nearly 16% over two weeks, largely reversing yesterday's sharp 4.6% gain. The pullback came as news broke that the Trump administration struck a deal to import Russian diesel into the U.S. market\u2014a direct threat to domestic refiners' pricing power and margins. With diesel prices already elevated due to Middle East conflicts and refinery disruptions, an influx of cheaper Russian fuel undercuts the premium that companies like Marathon have been commanding.\n\nThe broader picture shows the refining sector caught between opposing forces: tightening fuel supplies (refineries running at 92.7% capacity, hurricane risks to Gulf operations, tanker attacks in the Strait of Hormuz limiting Middle Eastern exports) that normally support high prices, versus geopolitical moves that could flood the market with alternative supply. Yesterday's rally reflected optimism about tight markets; today's decline reflects trader skepticism that import deals will actually ease the supply crunch enough to justify maintaining current profit margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 54,
-    "inputTokens": 50426,
-    "outputTokens": 12166,
-    "estimatedCostUsd": 0.111256,
-    "lastCallHour": "2026-10-10T15"
+    "callsThisMonth": 55,
+    "inputTokens": 51352,
+    "outputTokens": 12384,
+    "estimatedCostUsd": 0.113272,
+    "lastCallHour": "2026-10-10T19"
   }
 }
