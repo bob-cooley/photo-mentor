@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-10T19:14:13.190770+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing nearly 16% over two weeks, largely reversing yesterday's sharp 4.6% gain. The pullback came as news broke that the Trump administration struck a deal to import Russian diesel into the U.S. market\u2014a direct threat to domestic refiners' pricing power and margins. With diesel prices already elevated due to Middle East conflicts and refinery disruptions, an influx of cheaper Russian fuel undercuts the premium that companies like Marathon have been commanding.\n\nThe broader picture shows the refining sector caught between opposing forces: tightening fuel supplies (refineries running at 92.7% capacity, hurricane risks to Gulf operations, tanker attacks in the Strait of Hormuz limiting Middle Eastern exports) that normally support high prices, versus geopolitical moves that could flood the market with alternative supply. Yesterday's rally reflected optimism about tight markets; today's decline reflects trader skepticism that import deals will actually ease the supply crunch enough to justify maintaining current profit margins.",
+  "fetchedAt": "2026-10-10T23:11:08.317672+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after surging 4.8% yesterday to $463\u2014a pullback from an inflated price following yesterday's news that the U.S. struck a deal with Russia to import diesel. The stock is giving back some of those gains now, likely as investors process the longer-term implications: a flood of cheap Russian diesel into global markets would undercut refiner margins (the profit they make on each barrel processed), which is the core business model for a company like this. Even though U.S. refineries are running hot at 92.7% capacity and diesel inventories are tight, the promise of foreign supply removes the scarcity premium that has been driving profitability.\n\nThe broader backdrop underscores why this deal matters: Middle Eastern conflicts, including tanker attacks in the Strait of Hormuz and Hurricane Isaias disrupting Gulf of Mexico output, had tightened diesel supplies and boosted prices\u2014a windfall for refiners. An influx of Russian fuel short-circuits that advantage, which is likely why the initial euphoria yesterday didn't stick.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 55,
-    "inputTokens": 51352,
-    "outputTokens": 12384,
-    "estimatedCostUsd": 0.113272,
-    "lastCallHour": "2026-10-10T19"
+    "callsThisMonth": 56,
+    "inputTokens": 52278,
+    "outputTokens": 12622,
+    "estimatedCostUsd": 0.115388,
+    "lastCallHour": "2026-10-10T23"
   }
 }

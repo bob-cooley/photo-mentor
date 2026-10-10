@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-10T19:13:54.188999+00:00",
-  "text": "ConocoPhillips fell slightly today after climbing 5.34% over the past two weeks\u2014a move that reflects the oil and gas market's wild swings in recent days. The stock had surged through early October as crude prices climbed on supply fears from hurricane disruptions in the Gulf of Mexico, Iranian tanker attacks in the Strait of Hormuz, and refinery damage from ongoing wars in Eastern Europe and the Middle East. Today's tiny dip came even as oil prices remained elevated (US crude at $96.24/barrel, global crude at $125.44), suggesting the market may be digesting conflicting signals about energy supply and demand ahead.\n\nThe noise around Trump's reported diesel deal with Putin\u2014meant to ease U.S. fuel prices\u2014may be creating uncertainty about the durability of tight energy markets. If that agreement opens supply, or if it raises geopolitical tension that dampens demand, it could pressure oil prices and refiner margins down the line, even if near-term disruptions from hurricanes and regional conflicts are still keeping prices high.",
+  "fetchedAt": "2026-10-10T23:10:49.344660+00:00",
+  "text": "ConocoPhillips dipped less than 0.1% today after climbing 5.34% over the past two weeks, effectively holding near its recent highs. The flat move comes as oil markets remain caught between competing forces: crude prices have pulled back slightly (US oil at $96.24/barrel, down from earlier peaks), but the geopolitical backdrop\u2014tanker attacks in the Strait of Hormuz, hurricane disruptions to Gulf of Mexico production, and Middle East/Eastern Europe conflicts\u2014continues to keep fuel supplies tight and support energy company margins.\n\nThe broader context is that the market has already priced in most of the near-term volatility. The Trump-Putin diesel deal announced yesterday and the Iran escalation are dramatic headlines, but they don't change the fundamental supply squeeze that benefits refiners and crude producers like ConocoPhillips. The stock's 5% rally over two weeks reflects recognition that damaged refinery capacity and supply disruptions are structurally bullish for integrated oil companies, at least in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 55,
-    "inputTokens": 48041,
-    "outputTokens": 11622,
-    "estimatedCostUsd": 0.106151,
-    "lastCallHour": "2026-10-10T19"
+    "callsThisMonth": 56,
+    "inputTokens": 48907,
+    "outputTokens": 11847,
+    "estimatedCostUsd": 0.108142,
+    "lastCallHour": "2026-10-10T23"
   }
 }
