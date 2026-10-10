@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-09T22:54:06.239458+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after surging nearly 16% over two weeks, as the market digested a major shift in the diesel supply outlook. On October 9th, a Trump administration deal to import Russian diesel into U.S. and global markets became public\u2014a direct threat to refiner margins, since refiners like Marathon profit most when they can sell fuel at high prices during tight supply. This announcement reversed the tailwind that had driven the stock up sharply: over the prior week, geopolitical tensions (Iran attacks on tankers, Houthi strikes on Saudi infrastructure, and now Hurricane Isaias threatening Gulf production) had tightened global fuel supplies and pushed crude prices higher, creating a profitable environment for U.S. refiners.\n\nThe longer trend here is colliding supply shocks and policy response. The Middle East and Eastern Europe conflicts have already crippled refinery capacity worldwide, which is why crude and diesel prices have stayed elevated\u2014but that same damage is making Trump willing to circumvent normal trade channels and add Russian supply. U.S. refineries are running at 92.7% capacity, and diesel and gasoline storage are both lean, so new supply entering the market could compress the prices refiners can charge even as global crude remains above $125 a barrel.",
+  "fetchedAt": "2026-10-10T01:29:39.235398+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after surging 15.6% over the past two weeks, giving back some of those gains. The immediate trigger appears to be news of a Trump administration deal to import Russian diesel into U.S. markets\u2014a move designed to ease diesel price pressure. For a refiner like Marathon, this is a headwind: increased foreign diesel supply competes directly with fuel their refineries produce, which could weigh on refining margins and profit per barrel processed.\n\nHowever, the broader environment remains genuinely supportive for refiners. Refinery utilization sits at 92.7%, refineries are running near capacity, and geopolitical chaos is creating real fuel scarcity\u2014Hurricane Isaias is disrupting Gulf of Mexico production, tanker attacks in the Strait of Hormuz are spiking, and the Middle East conflicts have already damaged refining capacity. The Russian diesel deal suggests policymakers see the fuel shortage as serious enough to override sanctions concerns, which underscores how tight refined product markets actually are. That structural tightness likely drove much of the two-week rally and may support refining economics even if imported diesel takes a small slice of demand.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 51,
-    "inputTokens": 47644,
-    "outputTokens": 11418,
-    "estimatedCostUsd": 0.104734,
-    "lastCallHour": "2026-10-09T22"
+    "callsThisMonth": 52,
+    "inputTokens": 48572,
+    "outputTokens": 11675,
+    "estimatedCostUsd": 0.106947,
+    "lastCallHour": "2026-10-10T01"
   }
 }
