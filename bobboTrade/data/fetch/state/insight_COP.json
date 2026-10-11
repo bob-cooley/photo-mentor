@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T03:45:41.681196+00:00",
-  "text": "ConocoPhillips edged down just 0.07% today, but the stock is up 5.34% over the past two weeks\u2014a gain that reflects the spike in oil prices driven by geopolitical instability. The world oil price now sits at $125.44 per barrel, well above the U.S. benchmark of $96.24, as tanker attacks in the Strait of Hormuz have surged to wartime highs and Hurricane Isaias has disrupted Gulf of Mexico production and threatened U.S. refineries. Today's tiny decline is essentially flat noise against that backdrop of upward pressure.\n\nThe broader story is that oil refiners and producers are benefiting from a constrained market: wars in Eastern Europe and the Middle East have damaged refinery capacity, while geopolitical attacks on shipping lanes are tightening supply. Even Trump's reported deal to import Russian diesel is a sign of how tight fuel supplies have become globally. For a major producer like ConocoPhillips, these conditions support higher crude prices and stronger margins, which is why the stock has climbed substantially over the past fortnight despite today's negligible dip.",
+  "fetchedAt": "2026-10-11T04:08:23.958052+00:00",
+  "text": "ConocoPhillips fell almost imperceptibly today after a five-day run-up of 5.3%, closing essentially flat at $134.10. The stock has been rising sharply since October 2nd on the back of crude oil prices climbing \u2014 the global oil price jumped to $125.44 per barrel this week \u2014 fueled by supply disruptions from tanker attacks in the Strait of Hormuz, refinery damage from regional conflicts, and Hurricane Isaias hitting Gulf of Mexico production. Today's tiny decline suggests a pause in that momentum rather than a reversal of the underlying bullish picture.\n\nThe broader setup remains supportive for oil majors: there's a wide gap between U.S. oil prices ($96.24) and world prices ($125.44), reflecting tight supply and refining constraints that typically benefit producers like ConocoPhillips. Even the Trump-Putin diesel deal announced this week, which might eventually ease fuel scarcity, has not yet translated into lower crude prices or dampened the geopolitical risk premium that's been lifting energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 57,
-    "inputTokens": 49773,
-    "outputTokens": 12099,
-    "estimatedCostUsd": 0.110268,
-    "lastCallHour": "2026-10-11T03"
+    "callsThisMonth": 58,
+    "inputTokens": 50639,
+    "outputTokens": 12333,
+    "estimatedCostUsd": 0.112304,
+    "lastCallHour": "2026-10-11T04"
   }
 }

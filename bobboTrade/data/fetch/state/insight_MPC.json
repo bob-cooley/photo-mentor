@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T03:46:01.624590+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing 15.6% over the past two weeks, likely a pullback following the announcement that the Trump administration will import Russian diesel to help ease fuel prices. That deal undercuts the refining margins U.S. refiners like Marathon have been enjoying\u2014while crude oil at $96 per barrel and diesel in storage at just 105 million barrels had created a tight supply picture that boosted refiner profits, an influx of cheaper Russian diesel compresses those gains. The stock rose sharply yesterday on the geopolitical tensions in the Middle East and Eastern Europe, which had been pushing oil and fuel prices higher, but today's retreat reflects reality: increased diesel supply from Russia directly threatens the high-margin environment refiners have been profiting from.\n\nThe broader context is that U.S. refineries are running at 92.7% utilization amid genuine supply constraints\u2014hurricane damage in the Gulf, tanker attacks in the Strait of Hormuz, and war disruptions have kept fuel tight and profitable for refiners. The Russian diesel agreement essentially trades that leverage away to achieve lower consumer prices, which is good for the economy but bad for refining company earnings.",
+  "fetchedAt": "2026-10-11T04:08:43.221266+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after hitting a peak yesterday at $463. The stock has been on a strong two-week rally, up 15.6%, but today's pullback appears tied to news that Trump has struck a deal to import Russian diesel into the U.S. market. This undercuts one of the main tailwinds that has driven refiner stocks higher \u2014 the expectation of sustained high fuel prices and tight global supply due to geopolitical disruptions in the Middle East and Eastern Europe. More Russian diesel supply, even if modest, reduces the scarcity premium that refiners have been capitalizing on.\n\nThe broader context here is that U.S. refineries are running at 92.7% capacity and diesel inventories are lean at 105 million barrels, so refiners like Marathon have been earning strong margins by processing crude into fuel that commands premium prices. An influx of cheaper Russian diesel threatens that pricing power, which is why the market marked the stock down despite crude prices still sitting elevated at $96 per barrel domestically.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 57,
-    "inputTokens": 53204,
-    "outputTokens": 12880,
-    "estimatedCostUsd": 0.117604,
-    "lastCallHour": "2026-10-11T03"
+    "callsThisMonth": 58,
+    "inputTokens": 54130,
+    "outputTokens": 13108,
+    "estimatedCostUsd": 0.11967,
+    "lastCallHour": "2026-10-11T04"
   }
 }
