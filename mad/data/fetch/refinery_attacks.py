@@ -74,6 +74,7 @@ RSS_FEEDS = [
     "https://feeds.bbci.co.uk/news/business/rss.xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
 ]
+MAX_CONSECUTIVE_GDELT_FAILURES = 2
 GDELT_PAUSE_SECONDS = 10  # GDELT throttles bursts well beyond its stated one request per 5 seconds
 GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 GDELT_QUERY = (
@@ -354,13 +355,21 @@ def fetch_gdelt(backfill: bool) -> tuple[list[dict], bool]:
 
     items: list[dict] = []
     all_ok = True
+    consecutive_failures = 0
     for index, (start, end) in enumerate(windows):
         if index:
             time.sleep(GDELT_PAUSE_SECONDS)
         result = fetch_gdelt_window(start, end)
         if result is None:
             all_ok = False
+            consecutive_failures += 1
+            if consecutive_failures >= MAX_CONSECUTIVE_GDELT_FAILURES:
+                # GDELT is throttling this client. Further windows only burn
+                # job time (a full crawl of failing windows took 12 minutes).
+                print("[bobboTrade] Refinery attacks: GDELT is throttling, ending the crawl early.", file=sys.stderr)
+                break
         else:
+            consecutive_failures = 0
             items.extend(result)
     return items, all_ok
 
@@ -525,10 +534,13 @@ def run_discovery(state: dict, events: list[dict], history_start: str, api_key: 
             if merge_event(events, event):
                 added += 1
 
-    # The backfill is complete only once every window answered and nothing
-    # was left over under the per-run cap; otherwise the next run continues.
-    if backfill and gdelt_ok and total_candidates <= len(candidates):
+    # One-shot: a backfill is attempted once. GDELT throttles unpredictably,
+    # and retrying a crawl on every cycle costs job time for little gain.
+    # Anything the backfill missed is covered by the hand-verified seed and
+    # by the daily discovery from here on.
+    if backfill:
         state["backfillDone"] = True
+        state["backfillComplete"] = bool(gdelt_ok and total_candidates <= len(candidates))
 
     print(f"[bobboTrade] Refinery attacks: {added} new event(s) added.")
     return True
