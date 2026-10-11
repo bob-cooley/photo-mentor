@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-10T23:11:08.317672+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after surging 4.8% yesterday to $463\u2014a pullback from an inflated price following yesterday's news that the U.S. struck a deal with Russia to import diesel. The stock is giving back some of those gains now, likely as investors process the longer-term implications: a flood of cheap Russian diesel into global markets would undercut refiner margins (the profit they make on each barrel processed), which is the core business model for a company like this. Even though U.S. refineries are running hot at 92.7% capacity and diesel inventories are tight, the promise of foreign supply removes the scarcity premium that has been driving profitability.\n\nThe broader backdrop underscores why this deal matters: Middle Eastern conflicts, including tanker attacks in the Strait of Hormuz and Hurricane Isaias disrupting Gulf of Mexico output, had tightened diesel supplies and boosted prices\u2014a windfall for refiners. An influx of Russian fuel short-circuits that advantage, which is likely why the initial euphoria yesterday didn't stick.",
+  "fetchedAt": "2026-10-11T03:46:01.624590+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after climbing 15.6% over the past two weeks, likely a pullback following the announcement that the Trump administration will import Russian diesel to help ease fuel prices. That deal undercuts the refining margins U.S. refiners like Marathon have been enjoying\u2014while crude oil at $96 per barrel and diesel in storage at just 105 million barrels had created a tight supply picture that boosted refiner profits, an influx of cheaper Russian diesel compresses those gains. The stock rose sharply yesterday on the geopolitical tensions in the Middle East and Eastern Europe, which had been pushing oil and fuel prices higher, but today's retreat reflects reality: increased diesel supply from Russia directly threatens the high-margin environment refiners have been profiting from.\n\nThe broader context is that U.S. refineries are running at 92.7% utilization amid genuine supply constraints\u2014hurricane damage in the Gulf, tanker attacks in the Strait of Hormuz, and war disruptions have kept fuel tight and profitable for refiners. The Russian diesel agreement essentially trades that leverage away to achieve lower consumer prices, which is good for the economy but bad for refining company earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 56,
-    "inputTokens": 52278,
-    "outputTokens": 12622,
-    "estimatedCostUsd": 0.115388,
-    "lastCallHour": "2026-10-10T23"
+    "callsThisMonth": 57,
+    "inputTokens": 53204,
+    "outputTokens": 12880,
+    "estimatedCostUsd": 0.117604,
+    "lastCallHour": "2026-10-11T03"
   }
 }

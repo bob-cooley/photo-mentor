@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-10T23:10:49.344660+00:00",
-  "text": "ConocoPhillips dipped less than 0.1% today after climbing 5.34% over the past two weeks, effectively holding near its recent highs. The flat move comes as oil markets remain caught between competing forces: crude prices have pulled back slightly (US oil at $96.24/barrel, down from earlier peaks), but the geopolitical backdrop\u2014tanker attacks in the Strait of Hormuz, hurricane disruptions to Gulf of Mexico production, and Middle East/Eastern Europe conflicts\u2014continues to keep fuel supplies tight and support energy company margins.\n\nThe broader context is that the market has already priced in most of the near-term volatility. The Trump-Putin diesel deal announced yesterday and the Iran escalation are dramatic headlines, but they don't change the fundamental supply squeeze that benefits refiners and crude producers like ConocoPhillips. The stock's 5% rally over two weeks reflects recognition that damaged refinery capacity and supply disruptions are structurally bullish for integrated oil companies, at least in the near term.",
+  "fetchedAt": "2026-10-11T03:45:41.681196+00:00",
+  "text": "ConocoPhillips edged down just 0.07% today, but the stock is up 5.34% over the past two weeks\u2014a gain that reflects the spike in oil prices driven by geopolitical instability. The world oil price now sits at $125.44 per barrel, well above the U.S. benchmark of $96.24, as tanker attacks in the Strait of Hormuz have surged to wartime highs and Hurricane Isaias has disrupted Gulf of Mexico production and threatened U.S. refineries. Today's tiny decline is essentially flat noise against that backdrop of upward pressure.\n\nThe broader story is that oil refiners and producers are benefiting from a constrained market: wars in Eastern Europe and the Middle East have damaged refinery capacity, while geopolitical attacks on shipping lanes are tightening supply. Even Trump's reported deal to import Russian diesel is a sign of how tight fuel supplies have become globally. For a major producer like ConocoPhillips, these conditions support higher crude prices and stronger margins, which is why the stock has climbed substantially over the past fortnight despite today's negligible dip.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 56,
-    "inputTokens": 48907,
-    "outputTokens": 11847,
-    "estimatedCostUsd": 0.108142,
-    "lastCallHour": "2026-10-10T23"
+    "callsThisMonth": 57,
+    "inputTokens": 49773,
+    "outputTokens": 12099,
+    "estimatedCostUsd": 0.110268,
+    "lastCallHour": "2026-10-11T03"
   }
 }
