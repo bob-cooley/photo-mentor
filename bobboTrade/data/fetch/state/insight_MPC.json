@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T16:32:00.479563+00:00",
-  "text": "MPC fell 1.8% today after climbing 15% over the prior week, a pullback that tracks the broader oil market's uncertainty as geopolitical tensions shift. The stock had surged on crude climbing above $96/barrel domestically and $125 globally, along with refineries running at 92.7% capacity \u2014 conditions that favor refiner margins. But today's drop reflects investor hesitation following Trump's announced deal to import Russian diesel; cheaper foreign fuel flowing into U.S. markets undercuts the pricing power that refiners like MPC rely on to turn crude into profit.\n\nThe deeper issue is that the U.S. refining market has been tight and profitable precisely because wars in Ukraine and the Middle East damaged global refinery capacity. That scarcity disappears if Russian diesel enters the market in meaningful volumes, eroding the margin expansion that drove last week's rally. Tanker attacks in the Strait of Hormuz and potential U.S. military involvement in Middle East conflict add further unpredictability to oil supply \u2014 creating a mixed picture where crude prices might stay elevated, but the refining advantage that had been MPC's tailwind is now at risk.",
+  "fetchedAt": "2026-10-11T20:46:39.751754+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after climbing 8.5% yesterday to $463, giving back some gains from a strong two-week run. The pullback follows news of geopolitical moves\u2014a reported \"energy ceasefire\" between Russia and Ukraine, and potential U.S. involvement against Iran-backed Houthis\u2014that create uncertainty about oil supply disruptions and refinery demand. Yesterday's spike likely reflected the announcement of a U.S.-Russia diesel deal to ease fuel prices, which would reduce the premium refiners like Marathon could command. Today's move down suggests investors are digesting both the relief that a ceasefire might bring stability, and the risk that easing tensions could lower crude oil prices further.\n\nU.S. oil is trading at $96 per barrel, well below the $125 global price, pointing to a significant supply glut domestically. With refineries already running at 92.7% capacity and gasoline and diesel storage elevated, a deal flooding the market with cheaper Russian fuel and a potential resolution to Middle East conflict could both pressure margins\u2014the profit refiners make by turning crude into products. The two-week rally reflects the volatility of a refiner heavily exposed to geopolitical oil shocks; today's dip shows that shock may be easing.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 61,
-    "inputTokens": 56921,
-    "outputTokens": 13758,
-    "estimatedCostUsd": 0.125711,
-    "lastCallHour": "2026-10-11T16"
+    "callsThisMonth": 62,
+    "inputTokens": 57852,
+    "outputTokens": 14038,
+    "estimatedCostUsd": 0.128042,
+    "lastCallHour": "2026-10-11T20"
   }
 }
