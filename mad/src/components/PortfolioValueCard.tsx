@@ -35,6 +35,27 @@ export default function PortfolioValueCard({
   const total = holdings.reduce((sum, h) => sum + (h.value ?? 0), 0);
   const hasData = total > 0;
 
+  // 2-week movement of the whole portfolio, on the same definition the
+  // 2-Week Movement card uses per stock: price two weeks ago is implied by
+  // today's price and the stock's two-week percent change. Each holding's
+  // value then is shares x that earlier price.
+  let thenTotal = 0;
+  let anyMovement = false;
+  for (const t of tickers) {
+    const shares = portfolios[t]?.shares ?? null;
+    const price = quotes[t]?.quote.price ?? null;
+    const pct = quotes[t]?.twoWeekChangePercent ?? null;
+    if (shares == null || price == null) continue;
+    const now = shares * price;
+    if (pct != null) {
+      thenTotal += now / (1 + pct / 100);
+      anyMovement = true;
+    } else {
+      thenTotal += now;
+    }
+  }
+  const direction = !anyMovement ? "" : total >= thenTotal ? "up" : "down";
+
   let cursor = 0;
   const slices = holdings
     .filter((h) => h.value != null && h.value > 0)
@@ -103,8 +124,8 @@ export default function PortfolioValueCard({
               </div>
             ))}
             <div className="portfolio-value-row portfolio-value-total">
-              <span>Total</span>
-              <strong>{formatCurrency(total, 0)}</strong>
+              <span>Portfolio Value</span>
+              <strong className={`portfolio-value-total-number ${direction}`}>{formatCurrency(total, 0)}</strong>
             </div>
           </div>
         </div>

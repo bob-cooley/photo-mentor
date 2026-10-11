@@ -222,7 +222,6 @@ export default function App() {
           <PortfolioValueCard tickers={TICKERS} quotes={quotes} portfolios={portfolios} />
           <RSICard rsi={rsi} loading={loading} ticker={stock.ticker} />
           <CrackSpreadCard crackSpread={crackSpread} loading={loading} ticker={stock.ticker} />
-          <RefineryAttacksCard data={refineryAttacks} loading={attacksLoading} />
           <InsiderCard insider={insider} loading={loading} ticker={stock.ticker} />
           <VolumeCard volume={volume} loading={loading} ticker={stock.ticker} />
           <DividendsCard
@@ -231,6 +230,7 @@ export default function App() {
             loading={loading}
             ticker={stock.ticker}
           />
+          <RefineryAttacksCard data={refineryAttacks} loading={attacksLoading} />
         </section>
 
         <section className="col col-right">

@@ -1277,6 +1277,22 @@
   padding-top: 10px;
   border-top: 1px solid var(--card-border);
   font-size: 18px;
+  flex-wrap: wrap;
+  row-gap: 2px;
+}
+
+/* One size step above the 18px label; colored by the portfolio's
+   2-week movement (same up/down colors as the 2-Week Movement card). */
+.portfolio-value-total-number {
+  font-size: 20px;
+}
+
+.portfolio-value-total-number.up {
+  color: var(--up);
+}
+
+.portfolio-value-total-number.down {
+  color: var(--down);
 }
 
 /* Refinery Attacks card */
