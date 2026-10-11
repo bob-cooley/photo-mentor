@@ -40,17 +40,19 @@
     "https://aa.com.tr/en/eurasia/drone-crash-sparks-fire-at-russias-tyumen-oil-refinery/4008977": "2026-10-11T04:20:47.155771+00:00",
     "https://www.theguardian.com/world/2026/oct/11/ukraine-war-briefing-zelenskyy-support-people-trump-call-new-president": "2026-10-11T04:58:19.215190+00:00",
     "https://www.france24.com/en/europe/20261010-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-on-ukraine-kill-21-including-children": "2026-10-11T04:58:21.372599+00:00",
-    "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html": "2026-10-11T04:58:23.262738+00:00"
+    "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html": "2026-10-11T04:58:23.262738+00:00",
+    "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says": "2026-10-11T10:36:03.187573+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/10/11/8057443/": "2026-10-11T10:36:04.793576+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 3,
-    "inputTokens": 3127,
-    "outputTokens": 362,
-    "estimatedCostUsd": 0.004937
+    "calls": 5,
+    "inputTokens": 4789,
+    "outputTokens": 550,
+    "estimatedCostUsd": 0.007539
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": false,
-  "lastRunAt": "2026-10-11T04:58:23.263094+00:00"
+  "lastGdeltOk": true,
+  "lastRunAt": "2026-10-11T10:36:04.794021+00:00"
 }

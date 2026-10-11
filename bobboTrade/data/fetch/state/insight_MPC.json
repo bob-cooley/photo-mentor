@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T05:16:36.523940+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after surging 8% yesterday on the Trump-Putin diesel deal announcement. The reversal suggests investors are reassessing the agreement's actual benefits to U.S. refiners\u2014importing Russian diesel directly competes with domestic refinery output, potentially undercutting prices and margins even as crude oil prices remain elevated at $96/barrel domestically and $125 globally. With U.S. refineries already running at 92.7% capacity and facing hurricane disruptions in the Gulf of Mexico, cheaper imported fuel could crimp profitability despite tight fuel stocks.\n\nThe stock's 15.6% gain over two weeks reflects the volatile backdrop: Middle East tensions pushed oil higher, but the diesel import deal signals the Trump administration may prioritize lower consumer fuel prices over supporting domestic refiner margins. For a refiner, that's a mixed signal at best.",
+  "fetchedAt": "2026-10-11T10:35:10.631021+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after rallying hard over the past week, likely on news that the U.S. has struck a deal to import Russian diesel. While this agreement could ease the tight diesel market that has benefited refiners (reflected in today's 92.7% refinery utilization and the spike that drove MPC up 21% in a week), the deal signals supply relief ahead\u2014potentially capping future price gains and margins the company would otherwise capture from the current shortage.\n\nThe timing reveals a tension: refiners have profited from a fuel crisis created by war disruptions in Eastern Europe and the Middle East, plus recent tanker attacks in the Strait of Hormuz that threaten Middle Eastern oil exports. An influx of Russian diesel undercuts that profit opportunity, even as it solves a real supply problem for the economy. Today's pullback likely reflects traders repricing expectations for refiner margins as external supply enters the picture.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 59,
-    "inputTokens": 55056,
-    "outputTokens": 13300,
-    "estimatedCostUsd": 0.121556,
-    "lastCallHour": "2026-10-11T05"
+    "callsThisMonth": 60,
+    "inputTokens": 55982,
+    "outputTokens": 13505,
+    "estimatedCostUsd": 0.123507,
+    "lastCallHour": "2026-10-11T10"
   }
 }

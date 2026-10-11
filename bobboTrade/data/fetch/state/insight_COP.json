@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T05:15:29.670667+00:00",
-  "text": "ConocoPhillips barely moved today, down just 0.07%, but the stock has climbed 5.34% over the past two weeks amid a surge in global oil prices and fuel supply concerns. The company sits at the center of two major market forces right now: crude oil prices have risen sharply (world oil at $125.44/barrel, up significantly), and refinery capacity worldwide has been damaged by wars in Eastern Europe and the Middle East, tightening fuel markets. Today's flat trading likely reflects that most of this positive backdrop is already priced in after yesterday's 3.4% jump.\n\nThe reported Trump-Putin diesel deal announced yesterday may be creating cross-currents for the stock. On one hand, a flood of cheap Russian diesel could ease global fuel prices and reduce the supply-driven demand that's been helping oil companies. On the other hand, U.S. sanctions concerns and the ongoing tanker attacks in the Strait of Hormuz\u2014which just hit wartime highs\u2014mean that global supply disruptions could persist and keep crude prices elevated, benefiting an integrated producer like ConocoPhillips.",
+  "fetchedAt": "2026-10-11T10:34:22.103708+00:00",
+  "text": "ConocoPhillips fell essentially flat today, capping off a strong two-week rally that saw the stock gain 5.34%. The company has benefited from a sharp rise in crude prices over the past fortnight \u2014 global oil is trading at $125.44 a barrel, up sharply from early October \u2014 driven by multiple supply disruptions including tanker attacks in the Strait of Hormuz, refinery damage from regional conflicts, and now Hurricane Isaias threatening U.S. Gulf production. At these elevated price levels, the stock had likely run up as much as the day's headlines could push it.\n\nThat said, today's headlines brought conflicting signals. While Trump's reported deal to import Russian diesel could theoretically ease fuel prices and reduce the tailwinds for oil producers, the immediate concern remains the physical tightness in the global fuel market from war-related refinery damage \u2014 which keeps crude prices elevated despite the geopolitical uncertainty around sanctions enforcement and the Iran situation.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 59,
-    "inputTokens": 51505,
-    "outputTokens": 12578,
-    "estimatedCostUsd": 0.114395,
-    "lastCallHour": "2026-10-11T05"
+    "callsThisMonth": 60,
+    "inputTokens": 52371,
+    "outputTokens": 12790,
+    "estimatedCostUsd": 0.116321,
+    "lastCallHour": "2026-10-11T10"
   }
 }
