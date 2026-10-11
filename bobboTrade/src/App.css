@@ -1258,3 +1258,111 @@
   border-top: 1px solid var(--card-border);
   font-size: 18px;
 }
+
+/* Refinery Attacks card */
+.attack-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.attack-table th:nth-child(1) { width: 32%; }
+.attack-table th:nth-child(2) { width: 18%; }
+.attack-table th:nth-child(3) { width: 28%; }
+.attack-table th:nth-child(4) { width: 22%; }
+
+.attack-table td {
+  overflow-wrap: break-word;
+}
+
+.attack-table th {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-tertiary);
+  text-align: left;
+  padding: 6px 8px 6px 0;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.attack-table td {
+  padding: 10px 8px 10px 0;
+  border-bottom: 1px solid var(--card-border);
+  vertical-align: top;
+  line-height: 1.35;
+}
+
+.attack-table tr:last-child td {
+  border-bottom: none;
+}
+
+.attack-nations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px;
+  font-weight: 600;
+}
+
+.attack-arrow {
+  color: var(--text-tertiary);
+}
+
+.attack-unknown {
+  color: var(--text-tertiary);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.attack-attribution {
+  flex-basis: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.attack-date {
+  color: var(--text-secondary);
+}
+
+.attack-source a {
+  overflow-wrap: break-word;
+  word-break: normal;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.attack-source a:hover {
+  text-decoration: underline;
+}
+
+.attack-source-more {
+  margin-left: 6px;
+  font-size: 12px;
+  color: var(--text-tertiary);
+}
+
+.attack-modal {
+  max-width: 760px;
+}
+
+.attack-all-sources {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--card-border);
+}
+
+.attack-all-sources p {
+  font-size: 14px;
+  margin: 0 0 10px;
+  color: var(--text-secondary);
+}
+
+.attack-all-sources a {
+  color: var(--accent);
+}

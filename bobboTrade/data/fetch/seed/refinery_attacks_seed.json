@@ -1,0 +1,128 @@
+{
+  "historyStart": "2025-02-03",
+  "note": "Hand-verified seed. Each entry was checked against the linked page for date, facility, and how the source words the attribution. The pipeline merges auto-discovered events into this list; it never edits or removes seed entries.",
+  "events": [
+    {
+      "id": "2025-02-03-volgograd-russia",
+      "date": "2025-02-03",
+      "facility": "Volgograd refinery (Lukoil)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2025/02/03/7496520/"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-03-02-ras-tanura-saudi-arabia",
+      "date": "2026-03-02",
+      "facility": "Ras Tanura refinery (Saudi Aramco)",
+      "attacker": "Iran",
+      "attackedNation": "Saudi Arabia",
+      "attribution": "disputed",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-03-05-bapco-sitra-bahrain",
+      "date": "2026-03-05",
+      "facility": "Bapco Energies refinery (Sitra)",
+      "attacker": "Iran",
+      "attackedNation": "Bahrain",
+      "attribution": "reported",
+      "sources": [
+        {
+          "name": "Anadolu",
+          "url": "https://aa.com.tr/en/middle-east/fire-breaks-out-at-bahrain-s-bapco-refinery-after-iranian-missile-attack/3851896"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-03-20-mina-al-ahmadi-kuwait",
+      "date": "2026-03-20",
+      "facility": "Mina Al-Ahmadi refinery",
+      "attacker": null,
+      "attackedNation": "Kuwait",
+      "attribution": "unattributed",
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/gulf/kuwait/174oe4y-kuwait-petroleum-corporation-reports-drone-attacks-1.500480729"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-04-08-lavan-island-iran",
+      "date": "2026-04-08",
+      "facility": "Lavan Island refinery",
+      "attacker": "United Arab Emirates",
+      "attackedNation": "Iran",
+      "attribution": "reported",
+      "sources": [
+        {
+          "name": "Times of Israel",
+          "url": "https://www.timesofisrael.com/uae-secretly-carried-out-strikes-on-iran-including-on-oil-refinery-report/"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-04-28-tuapse-russia",
+      "date": "2026-04-28",
+      "facility": "Tuapse refinery (Rosneft)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "sources": [
+        {
+          "name": "Reuters",
+          "via": "Cyprus Mail",
+          "url": "https://cyprus-mail.com/2026/04/28/drone-attack-causes-fire-at-russias-tuapse-refinery-buildings-nearby-evacuated"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-07-02-kstovo-russia",
+      "date": "2026-07-02",
+      "facility": "Kstovo refinery (Lukoil-Nizhegorodnefteorgsintez)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/ukraine-strikes-major-russian-oil-refinery-in-nizhny-novgorod-targets-in-occupied-territories-general-staff-says/"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-08-13-salavat-russia",
+      "date": "2026-08-13",
+      "facility": "Salavat refinery and petrochemical complex (Gazprom Neftekhim Salavat)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "sources": [
+        {
+          "name": "AP",
+          "via": "PBS NewsHour",
+          "url": "https://pbs.org/newshour/world/ukrainian-drones-strike-major-oil-refinery-deep-inside-russia-setting-it-ablaze"
+        }
+      ],
+      "origin": "seed"
+    }
+  ]
+}

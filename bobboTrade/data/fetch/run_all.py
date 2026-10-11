@@ -15,6 +15,7 @@ import energy
 import insider
 import market
 import news
+import refinery_attacks
 import rsi
 import volume
 from common import STOCKS_CONFIG_ROOT
@@ -56,6 +57,12 @@ def main() -> None:
                     raise
             except Exception as exc:  # noqa: BLE001 — one module failing shouldn't block the rest
                 print(f"[bobboTrade] {name} failed for {ticker}: {exc}", file=sys.stderr)
+
+    # Global (not per-ticker) module: runs once, after every ticker's data is done.
+    try:
+        refinery_attacks.main()
+    except Exception as exc:  # noqa: BLE001 — never fail the whole run over this card
+        print(f"[bobboTrade] refinery_attacks failed: {exc}", file=sys.stderr)
 
 
 if __name__ == "__main__":
