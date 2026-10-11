@@ -1,0 +1,14 @@
+{
+  "events": [],
+  "processedUrls": {},
+  "usage": {
+    "month": "2026-10",
+    "calls": 0,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "estimatedCostUsd": 0.0
+  },
+  "backfillDone": true,
+  "backfillComplete": false,
+  "lastRunAt": "2026-10-11T04:39:16.529870+00:00"
+}
