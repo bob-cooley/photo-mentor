@@ -55,6 +55,7 @@ STATE_PATH = HERE / "state" / "refinery_attacks.json"
 SEED_PATH = HERE / "seed" / "refinery_attacks_seed.json"
 
 REFRESH_AFTER_HOURS = 20
+GDELT_RETRY_AFTER_HOURS = 3  # a cycle that GDELT throttled is retried sooner than a clean one
 FIRST_RUN_BACKFILL_DAYS = 90
 RECURRING_LOOKBACK_DAYS = 3
 MAX_CANDIDATES_PER_RUN = 25
@@ -73,6 +74,15 @@ RSS_FEEDS = [
     "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
     "https://feeds.bbci.co.uk/news/business/rss.xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
+    "https://www.theguardian.com/world/rss",
+    "https://www.theguardian.com/world/ukraine/rss",
+    "https://www.france24.com/en/rss",
+    "https://rss.dw.com/xml/rss-en-world",
+    "https://www.aa.com.tr/en/rss/default?cat=world",
+    "https://www.aa.com.tr/en/rss/default?cat=energy",
+    "https://meduza.io/rss/en/all",
+    "https://www.pravda.com.ua/eng/rss/",
+    "https://www.cnbc.com/id/19836768/device/rss/rss.html",
 ]
 MAX_CONSECUTIVE_GDELT_FAILURES = 2
 GDELT_PAUSE_SECONDS = 10  # GDELT throttles bursts well beyond its stated one request per 5 seconds
@@ -115,6 +125,7 @@ OUTLETS = {
     "rferl.org": "RFE/RL",
     "gulfnews.com": "Gulf News",
     "kuna.net.kw": "KUNA",
+    "meduza.io": "Meduza",
 }
 WIRE_NAMES = {"Reuters", "AP", "Bloomberg"}
 
@@ -485,6 +496,7 @@ def run_discovery(state: dict, events: list[dict], history_start: str, api_key: 
 
     backfill = not state.get("backfillDone")
     candidates, total_candidates, gdelt_ok = gather_candidates(backfill, state["processedUrls"])
+    state["lastGdeltOk"] = gdelt_ok
     print(
         f"[bobboTrade] Refinery attacks: {len(candidates)} of {total_candidates} candidate "
         f"article(s) selected ({'backfill' if backfill else 'daily'})."
@@ -596,7 +608,8 @@ def is_due(state: dict) -> bool:
         return True
     if when.tzinfo is None:
         when = when.replace(tzinfo=timezone.utc)
-    return datetime.now(timezone.utc) - when >= timedelta(hours=REFRESH_AFTER_HOURS)
+    wait_hours = GDELT_RETRY_AFTER_HOURS if state.get("lastGdeltOk") is False else REFRESH_AFTER_HOURS
+    return datetime.now(timezone.utc) - when >= timedelta(hours=wait_hours)
 
 
 def main(ticker: str | None = None) -> None:

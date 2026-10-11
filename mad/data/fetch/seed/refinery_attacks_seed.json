@@ -18,6 +18,21 @@
       "origin": "seed"
     },
     {
+      "id": "2025-10-16-saratov-russia",
+      "date": "2025-10-16",
+      "facility": "Saratov refinery (Rosneft)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "url": "https://kyivindependent.com/drones-reportedly-attack-oil-refinery-in-russias-saratov-oblast-for-2nd-time-in-a-month/"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
       "id": "2026-03-02-ras-tanura-saudi-arabia",
       "date": "2026-03-02",
       "facility": "Ras Tanura refinery (Saudi Aramco)",
@@ -94,6 +109,22 @@
       "origin": "seed"
     },
     {
+      "id": "2026-06-28-slavyansk-na-kubani-russia",
+      "date": "2026-06-28",
+      "facility": "Slavyansk-na-Kubani refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "sources": [
+        {
+          "name": "AP",
+          "via": "PBS NewsHour",
+          "url": "https://pbs.org/newshour/world/ukraines-drone-assault-ignites-major-russian-oil-refinery-as-putin-acknowledges-difficult-period"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
       "id": "2026-07-02-kstovo-russia",
       "date": "2026-07-02",
       "facility": "Kstovo refinery (Lukoil-Nizhegorodnefteorgsintez)",
@@ -120,6 +151,37 @@
           "name": "AP",
           "via": "PBS NewsHour",
           "url": "https://pbs.org/newshour/world/ukrainian-drones-strike-major-oil-refinery-deep-inside-russia-setting-it-ablaze"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-10-08-omsk-russia",
+      "date": "2026-10-08",
+      "facility": "Omsk refinery (Gazpromneft)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "sources": [
+        {
+          "name": "Reuters",
+          "via": "Korea Times",
+          "url": "https://koreatimes.co.kr/world/20261009/ukraine-says-it-hit-russias-largest-oil-refinery"
+        }
+      ],
+      "origin": "seed"
+    },
+    {
+      "id": "2026-10-08-salavat-russia",
+      "date": "2026-10-08",
+      "facility": "Salavat refinery and petrochemical complex (Gazprom Neftekhim Salavat)",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/08/ukrainian-drones-strike-oil-refinery-in-russia-s-bashkortostan"
         }
       ],
       "origin": "seed"
