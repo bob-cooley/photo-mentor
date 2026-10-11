@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-09-28T04:02:44.697298+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $127.30, continuing a broader slide that's seen the stock down 7.3% over the past two weeks. The immediate pressure comes from easing geopolitical tensions: U.S. crude oil dropped nearly 8% last week after Iran and the U.S. held talks at the U.N., and while rhetoric has heated up again this week with Trump rejecting Iran's ceasefire proposal, the initial relief rally from diplomacy talks has faded. Oil prices remain volatile\u2014U.S. crude at $96.41 per barrel today is still meaningful, but the wider gap between global oil ($114.89) and U.S. crude suggests regional supply concerns are moderating.\n\nThe stock's weakness reflects a broader trend in energy: when geopolitical risk recedes and oil prices soften, refiners and crude producers face tighter margins and lower revenue. ConocoPhillips has been caught in this pattern all week, bouncing up and down as headlines swing between conflict and negotiation, but the net direction has been down as market participants price in a lower-risk, lower-price oil regime.",
+  "fetchedAt": "2026-10-11T03:59:51.103703+00:00",
+  "text": "ConocoPhillips stock was essentially flat today despite a volatile backdrop for oil markets. The tiny decline comes after a strong 5.34% rally over two weeks, driven by crude prices climbing sharply\u2014Brent oil is trading at $125.44 per barrel, up significantly from levels earlier in October. That rally reflected real supply concerns: tanker attacks in the Strait of Hormuz are hitting Middle Eastern exports, Hurricane Isaias disrupted Gulf of Mexico production, and geopolitical friction over fuel markets has spiked tensions.\n\nToday's flat close likely reflects conflicting pressures. On one hand, the Trump-Putin diesel deal announced yesterday could ease some U.S. fuel scarcity\u2014good news for refiners facing supply crunches from the Middle East and Eastern Europe wars. On the other hand, that same deal has triggered political backlash and sanctions concerns, creating uncertainty about how durable it will be. The stock appears to be digesting the mixed message: a short-term supply relief offset by medium-term policy risk.",
   "status": "ok",
   "usage": {
-    "month": "2026-09",
-    "callsThisMonth": 2,
-    "inputTokens": 1818,
-    "outputTokens": 495,
-    "estimatedCostUsd": 0.004293,
-    "lastCallHour": "2026-09-28T04"
+    "month": "2026-10",
+    "callsThisMonth": 1,
+    "inputTokens": 866,
+    "outputTokens": 227,
+    "estimatedCostUsd": 0.002001,
+    "lastCallHour": "2026-10-11T03"
   }
 }

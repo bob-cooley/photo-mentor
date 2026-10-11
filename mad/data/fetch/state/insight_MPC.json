@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-09-28T04:03:21.674728+00:00",
-  "text": "Marathon Petroleum rose 0.66% today, a modest gain that fits within a broader two-week decline of 0.61%. The stock has been under pressure since hitting $424.89 on September 18, sliding roughly 8% over that span. The slight rebound today coincides with U.S. crude oil sitting at $96.41 per barrel after falling nearly 8% last week when Iran-U.S. diplomatic talks raised hopes for de-escalation; refineries are running at 94% capacity with healthy inventory levels (710.95 million barrels of crude in storage), suggesting the refining margin environment remains intact even if oil prices have softened.\n\nThe real headwind for the stock has been geopolitical uncertainty and conflicting signals. Last week's optimism from U.N. talks between Iran and the U.S. boosted the market, but Trump's rejection of Iran's conditional ceasefire proposal and reports of expected renewed bombing after the midterm elections have reintroduced risk premiums into crude prices. Refinery stocks like Marathon tend to face a squeeze in this environment\u2014lower oil prices reduce profit margins on fuel production, while geopolitical volatility creates unpredictable swings rather than the stable, high-price regime refiners prefer.",
+  "fetchedAt": "2026-10-11T04:00:07.228177+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after climbing 15.6% over two weeks, giving back some gains as geopolitical diesel supply news shifted. Yesterday the stock hit $463, its peak in this run, as Trump announced a deal with Putin to import Russian diesel into U.S. markets \u2014 a move aimed at easing tight fuel supplies and high prices. Today's pullback likely reflects investors digesting the complications: reports that the deal may contradict existing Russia sanctions law, and Ukraine's public criticism of the arrangement, which introduces uncertainty about whether the agreement will actually hold or face political pushback.\n\nThe underlying picture for refiners remains tight but complicated. U.S. refineries are running near capacity at 92.7%, and diesel stocks are historically low at 105 million barrels, while wars in Eastern Europe and the Middle East have taken offline refining capacity globally. The Trump-Putin diesel deal was framed as a lifeline to ease those constraints \u2014 but legal and geopolitical clouds over it now make that relief less certain, which may explain why the market is taking profits on yesterday's enthusiasm.",
   "status": "ok",
   "usage": {
-    "month": "2026-09",
-    "callsThisMonth": 2,
-    "inputTokens": 1948,
-    "outputTokens": 498,
-    "estimatedCostUsd": 0.004438,
-    "lastCallHour": "2026-09-28T04"
+    "month": "2026-10",
+    "callsThisMonth": 1,
+    "inputTokens": 926,
+    "outputTokens": 237,
+    "estimatedCostUsd": 0.002111,
+    "lastCallHour": "2026-10-11T04"
   }
 }
