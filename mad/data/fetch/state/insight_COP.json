@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T04:10:53.326775+00:00",
-  "text": "ConocoPhillips inched down today after climbing 5.3% over the past two weeks\u2014a move that reflects conflicting pressures on oil and fuel markets. The stock has been buoyed by a sharp rise in crude prices (US oil at $96/barrel, global oil at $125/barrel) driven by ongoing supply disruptions from tanker attacks in the Strait of Hormuz, hurricane damage to Gulf of Mexico production, and refinery losses from wars in Eastern Europe and the Middle East. Today's near-flat close suggests the market is weighing that tailwind against the news that Trump has struck a deal with Putin to supply Russian diesel to U.S. and global markets\u2014a move that could ease the fuel shortage pressuring prices upward, at least modestly.\n\nThe diesel deal introduces uncertainty for integrated oil producers like ConocoPhillips. While higher crude prices support their upstream operations, a flow of Russian diesel into global markets could dampen the refining margins and fuel scarcity premiums that have been a windfall for U.S. refiners facing destruction of capacity abroad. The geopolitical risk remains volatile\u2014tanker attacks and hurricane impacts could quickly overwhelm any relief from the Russian deal.",
+  "fetchedAt": "2026-10-11T05:00:22.237089+00:00",
+  "text": "ConocoPhillips fell just shy of flat today, but the move barely registers against the larger story: the stock is up 5.34% over two weeks on a backdrop of sharply elevated global oil prices and supply disruption. World crude is trading at $125.44 per barrel\u2014a significant premium to U.S. crude at $96.24\u2014driven by tanker attacks in the Strait of Hormuz, refinery damage from regional conflicts, and now Hurricane Isaias disrupting Gulf of Mexico production. For an integrated oil company, these conditions are generally supportive: tighter supply pushes prices higher and widens profit margins.\n\nThe Trump-Putin diesel deal announced yesterday adds complexity. While importing Russian fuel could theoretically ease U.S. fuel prices and reduce refinery margins, the immediate market reaction has favored oil producers over the past week\u2014possibly because the geopolitical tensions underpinning today's high prices are viewed as durable, or because the deal addresses a specific product (diesel) rather than crude itself. Today's negligible decline suggests the stock is holding near these elevated levels as traders digest competing signals about supply and sanctions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 2,
-    "inputTokens": 1732,
-    "outputTokens": 490,
-    "estimatedCostUsd": 0.004182,
-    "lastCallHour": "2026-10-11T04"
+    "callsThisMonth": 3,
+    "inputTokens": 2598,
+    "outputTokens": 738,
+    "estimatedCostUsd": 0.006288,
+    "lastCallHour": "2026-10-11T05"
   }
 }

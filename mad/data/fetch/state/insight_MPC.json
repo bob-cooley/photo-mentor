@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T04:00:07.228177+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing 15.6% over two weeks, giving back some gains as geopolitical diesel supply news shifted. Yesterday the stock hit $463, its peak in this run, as Trump announced a deal with Putin to import Russian diesel into U.S. markets \u2014 a move aimed at easing tight fuel supplies and high prices. Today's pullback likely reflects investors digesting the complications: reports that the deal may contradict existing Russia sanctions law, and Ukraine's public criticism of the arrangement, which introduces uncertainty about whether the agreement will actually hold or face political pushback.\n\nThe underlying picture for refiners remains tight but complicated. U.S. refineries are running near capacity at 92.7%, and diesel stocks are historically low at 105 million barrels, while wars in Eastern Europe and the Middle East have taken offline refining capacity globally. The Trump-Putin diesel deal was framed as a lifeline to ease those constraints \u2014 but legal and geopolitical clouds over it now make that relief less certain, which may explain why the market is taking profits on yesterday's enthusiasm.",
+  "fetchedAt": "2026-10-11T05:00:41.225379+00:00",
+  "text": "MPC fell 1.8% today after hitting a peak yesterday at $463. The decline comes as markets digested the Trump-Putin diesel deal announced yesterday, which aims to bring Russian diesel into U.S. and global markets to ease fuel prices. For a refiner like MPC, a flood of cheaper imported diesel is a double-edged sword: while lower diesel prices help consumers, they compress the profit margins refiners earn by processing crude into finished fuel\u2014a key driver of refiner stocks.\n\nThe stock's two-week rally of 15.6% was built on the opposite dynamic: tight fuel markets from Middle Eastern tanker attacks, Gulf of Mexico hurricane disruptions, and Middle Eastern/Eastern European war damage to global refining capacity created a premium for U.S. refiners' output. Today's retreat reflects the market now pricing in a shift toward supply relief, which erodes that tight-market advantage. Refineries are running at 92.7% capacity with relatively low fuel storage levels, so the relief from Russian diesel imports directly threatens the high-margin environment that fueled the recent rally.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 1,
-    "inputTokens": 926,
-    "outputTokens": 237,
-    "estimatedCostUsd": 0.002111,
-    "lastCallHour": "2026-10-11T04"
+    "callsThisMonth": 2,
+    "inputTokens": 1852,
+    "outputTokens": 473,
+    "estimatedCostUsd": 0.004217,
+    "lastCallHour": "2026-10-11T05"
   }
 }
