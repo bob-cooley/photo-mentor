@@ -12,6 +12,7 @@ import {
   loadVolumeData,
   loadDividendData,
   loadPortfolioConfig,
+  loadRefineryAttacks,
   loadRSIData,
   savePortfolioConfig,
 } from "./lib/dataLoader";
@@ -26,6 +27,7 @@ import type {
   MarketData,
   NewsData,
   PortfolioConfig,
+  RefineryAttacksData,
   RSIData,
   VolumeData,
 } from "./types";
@@ -34,6 +36,7 @@ import ChartColumn from "./components/ChartColumn";
 import RSICard from "./components/RSICard";
 import CrackSpreadCard from "./components/CrackSpreadCard";
 import InsiderCard from "./components/InsiderCard";
+import RefineryAttacksCard from "./components/RefineryAttacksCard";
 import VolumeCard from "./components/VolumeCard";
 import EnergyIndicatorsCard from "./components/EnergyIndicatorsCard";
 import AnalystConsensusCard from "./components/AnalystConsensusCard";
@@ -74,8 +77,28 @@ export default function App() {
   // Share counts for every ticker, for the combined Portfolio Value card.
   const [portfolios, setPortfolios] = useState<Record<string, PortfolioConfig | null>>({});
   const [loading, setLoading] = useState(true);
+  // Global (not per ticker): attacks on refineries anywhere.
+  const [refineryAttacks, setRefineryAttacks] = useState<RefineryAttacksData | null>(null);
+  const [attacksLoading, setAttacksLoading] = useState(true);
 
   const market = quotes[ticker] ?? null;
+
+  useEffect(() => {
+    let cancelled = false;
+    const load = () => {
+      loadRefineryAttacks().then((data) => {
+        if (cancelled) return;
+        setRefineryAttacks(data);
+        setAttacksLoading(false);
+      });
+    };
+    load();
+    const intervalId = window.setInterval(load, REFRESH_INTERVAL_MS);
+    return () => {
+      cancelled = true;
+      window.clearInterval(intervalId);
+    };
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -203,6 +226,7 @@ export default function App() {
           <PortfolioValueCard tickers={TICKERS} quotes={quotes} portfolios={portfolios} />
           <RSICard rsi={rsi} loading={loading} ticker={stock.ticker} />
           <CrackSpreadCard crackSpread={crackSpread} loading={loading} ticker={stock.ticker} />
+          <RefineryAttacksCard data={refineryAttacks} loading={attacksLoading} />
           <InsiderCard insider={insider} loading={loading} ticker={stock.ticker} />
           <VolumeCard volume={volume} loading={loading} ticker={stock.ticker} />
           <DividendsCard

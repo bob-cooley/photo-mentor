@@ -217,3 +217,29 @@ export interface InsightData {
   status: "ok" | "paused_budget";
   usage: AIUsageSummary;
 }
+
+export type AttackAttribution = "claimed" | "reported" | "disputed" | "unattributed";
+
+export interface RefineryAttackSource {
+  name: string;
+  url: string;
+  via?: string;
+}
+
+export interface RefineryAttack {
+  id: string;
+  date: string; // YYYY-MM-DD
+  facility: string;
+  attacker: string | null;
+  attackedNation: string;
+  attribution: AttackAttribution;
+  sources: RefineryAttackSource[];
+}
+
+export interface RefineryAttacksData {
+  fetchedAt: string;
+  lastDiscoveryAt: string | null;
+  historyStart: string;
+  count: number;
+  events: RefineryAttack[];
+}

@@ -3,8 +3,10 @@ frontend can be built and tested before FMP/EIA API keys exist. Never
 used in the deployed build — the scheduled pipeline overwrites these
 files with real data on every run.
 """
+import json
 import random
 import sys
+from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
@@ -349,7 +351,21 @@ def generate_insight(ticker: str) -> dict:
     }
 
 
+def generate_refinery_attacks() -> dict:
+    """Local dev: serve the hand-verified seed as the card's data."""
+    seed = json.loads((Path(__file__).resolve().parent / "seed" / "refinery_attacks_seed.json").read_text())
+    events = sorted(seed["events"], key=lambda e: e["date"], reverse=True)
+    return {
+        "fetchedAt": utc_now_iso(),
+        "lastDiscoveryAt": None,
+        "historyStart": seed["historyStart"],
+        "count": len(events),
+        "events": events,
+    }
+
+
 def main(ticker: str) -> None:
+    write_json("global", "refinery_attacks.json", generate_refinery_attacks())
     market = generate_market(ticker)
     write_json(ticker, "market.json", market)
     write_json(ticker, "intraday.json", generate_intraday(ticker, market["quote"]["price"]))
