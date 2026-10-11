@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T04:08:23.958052+00:00",
-  "text": "ConocoPhillips fell almost imperceptibly today after a five-day run-up of 5.3%, closing essentially flat at $134.10. The stock has been rising sharply since October 2nd on the back of crude oil prices climbing \u2014 the global oil price jumped to $125.44 per barrel this week \u2014 fueled by supply disruptions from tanker attacks in the Strait of Hormuz, refinery damage from regional conflicts, and Hurricane Isaias hitting Gulf of Mexico production. Today's tiny decline suggests a pause in that momentum rather than a reversal of the underlying bullish picture.\n\nThe broader setup remains supportive for oil majors: there's a wide gap between U.S. oil prices ($96.24) and world prices ($125.44), reflecting tight supply and refining constraints that typically benefit producers like ConocoPhillips. Even the Trump-Putin diesel deal announced this week, which might eventually ease fuel scarcity, has not yet translated into lower crude prices or dampened the geopolitical risk premium that's been lifting energy stocks.",
+  "fetchedAt": "2026-10-11T05:15:29.670667+00:00",
+  "text": "ConocoPhillips barely moved today, down just 0.07%, but the stock has climbed 5.34% over the past two weeks amid a surge in global oil prices and fuel supply concerns. The company sits at the center of two major market forces right now: crude oil prices have risen sharply (world oil at $125.44/barrel, up significantly), and refinery capacity worldwide has been damaged by wars in Eastern Europe and the Middle East, tightening fuel markets. Today's flat trading likely reflects that most of this positive backdrop is already priced in after yesterday's 3.4% jump.\n\nThe reported Trump-Putin diesel deal announced yesterday may be creating cross-currents for the stock. On one hand, a flood of cheap Russian diesel could ease global fuel prices and reduce the supply-driven demand that's been helping oil companies. On the other hand, U.S. sanctions concerns and the ongoing tanker attacks in the Strait of Hormuz\u2014which just hit wartime highs\u2014mean that global supply disruptions could persist and keep crude prices elevated, benefiting an integrated producer like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 58,
-    "inputTokens": 50639,
-    "outputTokens": 12333,
-    "estimatedCostUsd": 0.112304,
-    "lastCallHour": "2026-10-11T04"
+    "callsThisMonth": 59,
+    "inputTokens": 51505,
+    "outputTokens": 12578,
+    "estimatedCostUsd": 0.114395,
+    "lastCallHour": "2026-10-11T05"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T04:08:43.221266+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after hitting a peak yesterday at $463. The stock has been on a strong two-week rally, up 15.6%, but today's pullback appears tied to news that Trump has struck a deal to import Russian diesel into the U.S. market. This undercuts one of the main tailwinds that has driven refiner stocks higher \u2014 the expectation of sustained high fuel prices and tight global supply due to geopolitical disruptions in the Middle East and Eastern Europe. More Russian diesel supply, even if modest, reduces the scarcity premium that refiners have been capitalizing on.\n\nThe broader context here is that U.S. refineries are running at 92.7% capacity and diesel inventories are lean at 105 million barrels, so refiners like Marathon have been earning strong margins by processing crude into fuel that commands premium prices. An influx of cheaper Russian diesel threatens that pricing power, which is why the market marked the stock down despite crude prices still sitting elevated at $96 per barrel domestically.",
+  "fetchedAt": "2026-10-11T05:16:36.523940+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after surging 8% yesterday on the Trump-Putin diesel deal announcement. The reversal suggests investors are reassessing the agreement's actual benefits to U.S. refiners\u2014importing Russian diesel directly competes with domestic refinery output, potentially undercutting prices and margins even as crude oil prices remain elevated at $96/barrel domestically and $125 globally. With U.S. refineries already running at 92.7% capacity and facing hurricane disruptions in the Gulf of Mexico, cheaper imported fuel could crimp profitability despite tight fuel stocks.\n\nThe stock's 15.6% gain over two weeks reflects the volatile backdrop: Middle East tensions pushed oil higher, but the diesel import deal signals the Trump administration may prioritize lower consumer fuel prices over supporting domestic refiner margins. For a refiner, that's a mixed signal at best.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 58,
-    "inputTokens": 54130,
-    "outputTokens": 13108,
-    "estimatedCostUsd": 0.11967,
-    "lastCallHour": "2026-10-11T04"
+    "callsThisMonth": 59,
+    "inputTokens": 55056,
+    "outputTokens": 13300,
+    "estimatedCostUsd": 0.121556,
+    "lastCallHour": "2026-10-11T05"
   }
 }
