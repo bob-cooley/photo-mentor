@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T10:34:22.103708+00:00",
-  "text": "ConocoPhillips fell essentially flat today, capping off a strong two-week rally that saw the stock gain 5.34%. The company has benefited from a sharp rise in crude prices over the past fortnight \u2014 global oil is trading at $125.44 a barrel, up sharply from early October \u2014 driven by multiple supply disruptions including tanker attacks in the Strait of Hormuz, refinery damage from regional conflicts, and now Hurricane Isaias threatening U.S. Gulf production. At these elevated price levels, the stock had likely run up as much as the day's headlines could push it.\n\nThat said, today's headlines brought conflicting signals. While Trump's reported deal to import Russian diesel could theoretically ease fuel prices and reduce the tailwinds for oil producers, the immediate concern remains the physical tightness in the global fuel market from war-related refinery damage \u2014 which keeps crude prices elevated despite the geopolitical uncertainty around sanctions enforcement and the Iran situation.",
+  "fetchedAt": "2026-10-11T16:31:20.607963+00:00",
+  "text": "The stock is essentially flat today, down just 0.07%, but it's up 5.34% over the last two weeks\u2014a move driven by rising oil prices and geopolitical tension in the Middle East. Crude jumped from the low $120s to $125.44 globally, while US oil sits at $96.24, and recent news shows escalating attacks on tankers in the Strait of Hormuz, a critical chokepoint for global oil supply. Tighter supply from these disruptions, combined with talk of potential U.S. military involvement against Iran-backed Houthis, has pushed prices higher, which directly benefits an oil explorer and producer like ConocoPhillips.\n\nThe broader backdrop adding urgency: the U.S. is so squeezed on diesel that Trump just struck a deal to buy Russian fuel, a sign of how tight refining capacity has become after wars damaged facilities in Eastern Europe and the Middle East. That supply stress supports higher oil prices, at least in the near term, which is the core driver of the stock's recent climb.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 60,
-    "inputTokens": 52371,
-    "outputTokens": 12790,
-    "estimatedCostUsd": 0.116321,
-    "lastCallHour": "2026-10-11T10"
+    "callsThisMonth": 61,
+    "inputTokens": 53250,
+    "outputTokens": 13025,
+    "estimatedCostUsd": 0.118375,
+    "lastCallHour": "2026-10-11T16"
   }
 }

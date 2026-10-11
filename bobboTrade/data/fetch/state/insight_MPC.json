@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T10:35:10.631021+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after rallying hard over the past week, likely on news that the U.S. has struck a deal to import Russian diesel. While this agreement could ease the tight diesel market that has benefited refiners (reflected in today's 92.7% refinery utilization and the spike that drove MPC up 21% in a week), the deal signals supply relief ahead\u2014potentially capping future price gains and margins the company would otherwise capture from the current shortage.\n\nThe timing reveals a tension: refiners have profited from a fuel crisis created by war disruptions in Eastern Europe and the Middle East, plus recent tanker attacks in the Strait of Hormuz that threaten Middle Eastern oil exports. An influx of Russian diesel undercuts that profit opportunity, even as it solves a real supply problem for the economy. Today's pullback likely reflects traders repricing expectations for refiner margins as external supply enters the picture.",
+  "fetchedAt": "2026-10-11T16:32:00.479563+00:00",
+  "text": "MPC fell 1.8% today after climbing 15% over the prior week, a pullback that tracks the broader oil market's uncertainty as geopolitical tensions shift. The stock had surged on crude climbing above $96/barrel domestically and $125 globally, along with refineries running at 92.7% capacity \u2014 conditions that favor refiner margins. But today's drop reflects investor hesitation following Trump's announced deal to import Russian diesel; cheaper foreign fuel flowing into U.S. markets undercuts the pricing power that refiners like MPC rely on to turn crude into profit.\n\nThe deeper issue is that the U.S. refining market has been tight and profitable precisely because wars in Ukraine and the Middle East damaged global refinery capacity. That scarcity disappears if Russian diesel enters the market in meaningful volumes, eroding the margin expansion that drove last week's rally. Tanker attacks in the Strait of Hormuz and potential U.S. military involvement in Middle East conflict add further unpredictability to oil supply \u2014 creating a mixed picture where crude prices might stay elevated, but the refining advantage that had been MPC's tailwind is now at risk.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 60,
-    "inputTokens": 55982,
-    "outputTokens": 13505,
-    "estimatedCostUsd": 0.123507,
-    "lastCallHour": "2026-10-11T10"
+    "callsThisMonth": 61,
+    "inputTokens": 56921,
+    "outputTokens": 13758,
+    "estimatedCostUsd": 0.125711,
+    "lastCallHour": "2026-10-11T16"
   }
 }
