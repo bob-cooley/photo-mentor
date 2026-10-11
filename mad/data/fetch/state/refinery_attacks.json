@@ -1,14 +1,50 @@
 {
-  "events": [],
+  "events": [
+    {
+      "date": "2026-08-08",
+      "facility": "Zawiya Oil Refining Company",
+      "attacker": null,
+      "attackedNation": "Libya",
+      "attribution": "unattributed",
+      "id": "2026-08-08-zawiya-oil-refining-company-libya",
+      "sources": [
+        {
+          "name": "Anadolu",
+          "url": "https://aa.com.tr/en/africa/drone-strikes-tank-at-libyas-zawiya-refinery-no-injuries-reported/4021638"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-10-11T04:20:43.690761+00:00"
+    },
+    {
+      "date": "2026-07-25",
+      "facility": "Tyumen oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "id": "2026-07-25-tyumen-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Anadolu",
+          "url": "https://aa.com.tr/en/eurasia/drone-crash-sparks-fire-at-russias-tyumen-oil-refinery/4008977"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-10-11T04:20:47.155920+00:00"
+    }
+  ],
   "processedUrls": {
     "https://www.rferl.org/a/iran-oil-exports-hormuz-refinery-market/33867914.html": "2026-10-11T04:00:56.927745+00:00",
-    "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings": "2026-10-11T04:00:58.901057+00:00"
+    "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings": "2026-10-11T04:00:58.901057+00:00",
+    "https://aa.com.tr/en/africa/drone-strikes-tank-at-libyas-zawiya-refinery-no-injuries-reported/4021638": "2026-10-11T04:20:43.690465+00:00",
+    "https://aa.com.tr/en/eurasia/drone-crash-sparks-fire-at-russias-tyumen-oil-refinery/4008977": "2026-10-11T04:20:47.155771+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 2,
-    "inputTokens": 3064,
-    "outputTokens": 280,
-    "estimatedCostUsd": 0.004464
-  }
+    "calls": 4,
+    "inputTokens": 4963,
+    "outputTokens": 522,
+    "estimatedCostUsd": 0.007573
+  },
+  "lastRunAt": "2026-10-11T04:20:47.155932+00:00"
 }

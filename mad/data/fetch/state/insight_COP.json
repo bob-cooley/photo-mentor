@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T03:59:51.103703+00:00",
-  "text": "ConocoPhillips stock was essentially flat today despite a volatile backdrop for oil markets. The tiny decline comes after a strong 5.34% rally over two weeks, driven by crude prices climbing sharply\u2014Brent oil is trading at $125.44 per barrel, up significantly from levels earlier in October. That rally reflected real supply concerns: tanker attacks in the Strait of Hormuz are hitting Middle Eastern exports, Hurricane Isaias disrupted Gulf of Mexico production, and geopolitical friction over fuel markets has spiked tensions.\n\nToday's flat close likely reflects conflicting pressures. On one hand, the Trump-Putin diesel deal announced yesterday could ease some U.S. fuel scarcity\u2014good news for refiners facing supply crunches from the Middle East and Eastern Europe wars. On the other hand, that same deal has triggered political backlash and sanctions concerns, creating uncertainty about how durable it will be. The stock appears to be digesting the mixed message: a short-term supply relief offset by medium-term policy risk.",
+  "fetchedAt": "2026-10-11T04:10:53.326775+00:00",
+  "text": "ConocoPhillips inched down today after climbing 5.3% over the past two weeks\u2014a move that reflects conflicting pressures on oil and fuel markets. The stock has been buoyed by a sharp rise in crude prices (US oil at $96/barrel, global oil at $125/barrel) driven by ongoing supply disruptions from tanker attacks in the Strait of Hormuz, hurricane damage to Gulf of Mexico production, and refinery losses from wars in Eastern Europe and the Middle East. Today's near-flat close suggests the market is weighing that tailwind against the news that Trump has struck a deal with Putin to supply Russian diesel to U.S. and global markets\u2014a move that could ease the fuel shortage pressuring prices upward, at least modestly.\n\nThe diesel deal introduces uncertainty for integrated oil producers like ConocoPhillips. While higher crude prices support their upstream operations, a flow of Russian diesel into global markets could dampen the refining margins and fuel scarcity premiums that have been a windfall for U.S. refiners facing destruction of capacity abroad. The geopolitical risk remains volatile\u2014tanker attacks and hurricane impacts could quickly overwhelm any relief from the Russian deal.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 1,
-    "inputTokens": 866,
-    "outputTokens": 227,
-    "estimatedCostUsd": 0.002001,
-    "lastCallHour": "2026-10-11T03"
+    "callsThisMonth": 2,
+    "inputTokens": 1732,
+    "outputTokens": 490,
+    "estimatedCostUsd": 0.004182,
+    "lastCallHour": "2026-10-11T04"
   }
 }
