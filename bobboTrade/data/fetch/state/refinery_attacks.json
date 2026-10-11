@@ -37,15 +37,20 @@
     "https://www.rferl.org/a/iran-oil-exports-hormuz-refinery-market/33867914.html": "2026-10-11T04:00:56.927745+00:00",
     "https://www.theguardian.com/world/2026/oct/01/ukraine-russian-oil-refinery-strikes-defying-trump-fuel-price-warnings": "2026-10-11T04:00:58.901057+00:00",
     "https://aa.com.tr/en/africa/drone-strikes-tank-at-libyas-zawiya-refinery-no-injuries-reported/4021638": "2026-10-11T04:20:43.690465+00:00",
-    "https://aa.com.tr/en/eurasia/drone-crash-sparks-fire-at-russias-tyumen-oil-refinery/4008977": "2026-10-11T04:20:47.155771+00:00"
+    "https://aa.com.tr/en/eurasia/drone-crash-sparks-fire-at-russias-tyumen-oil-refinery/4008977": "2026-10-11T04:20:47.155771+00:00",
+    "https://www.theguardian.com/world/2026/oct/11/ukraine-war-briefing-zelenskyy-support-people-trump-call-new-president": "2026-10-11T04:58:19.215190+00:00",
+    "https://www.france24.com/en/europe/20261010-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-on-ukraine-kill-21-including-children": "2026-10-11T04:58:21.372599+00:00",
+    "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html": "2026-10-11T04:58:23.262738+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 0,
-    "inputTokens": 0,
-    "outputTokens": 0,
-    "estimatedCostUsd": 0.0
+    "calls": 3,
+    "inputTokens": 3127,
+    "outputTokens": 362,
+    "estimatedCostUsd": 0.004937
   },
   "backfillDone": true,
-  "backfillComplete": false
+  "backfillComplete": false,
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-10-11T04:58:23.263094+00:00"
 }
