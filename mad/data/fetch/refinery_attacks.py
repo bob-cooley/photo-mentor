@@ -35,6 +35,7 @@ Pipeline
 from __future__ import annotations
 
 import json
+import math
 import os
 import re
 import sys
@@ -73,6 +74,7 @@ RSS_FEEDS = [
     "https://feeds.bbci.co.uk/news/business/rss.xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
 ]
+GDELT_PAUSE_SECONDS = 10  # GDELT throttles bursts well beyond its stated one request per 5 seconds
 GDELT_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 GDELT_QUERY = (
     "(refinery OR refineries) "
@@ -295,9 +297,8 @@ def parse_feed(url: str) -> list[dict]:
     return items
 
 
-def fetch_gdelt(first_run: bool) -> list[dict]:
-    now = datetime.now(timezone.utc)
-    start = now - timedelta(days=FIRST_RUN_BACKFILL_DAYS if first_run else RECURRING_LOOKBACK_DAYS)
+def fetch_gdelt_window(start: datetime, end: datetime) -> list[dict] | None:
+    """One GDELT query for [start, end]. None means the window failed."""
     params = {
         "query": GDELT_QUERY,
         "mode": "artlist",
@@ -305,21 +306,21 @@ def fetch_gdelt(first_run: bool) -> list[dict]:
         "maxrecords": 250,
         "sort": "datedesc",
         "startdatetime": start.strftime("%Y%m%d%H%M%S"),
-        "enddatetime": now.strftime("%Y%m%d%H%M%S"),
+        "enddatetime": end.strftime("%Y%m%d%H%M%S"),
     }
     try:
         resp = requests.get(GDELT_URL, params=params, headers={"User-Agent": FEED_USER_AGENT}, timeout=40)
         if resp.status_code == 429:
-            # GDELT allows roughly one request per 5 seconds; one patient retry.
-            time.sleep(8)
+            # GDELT throttles bursts; one patient retry.
+            time.sleep(15)
             resp = requests.get(GDELT_URL, params=params, headers={"User-Agent": FEED_USER_AGENT}, timeout=40)
         if resp.status_code != 200:
-            print(f"[bobboTrade] Refinery attacks: GDELT returned {resp.status_code}, skipping.", file=sys.stderr)
-            return []
+            print(f"[bobboTrade] Refinery attacks: GDELT returned {resp.status_code}, skipping window.", file=sys.stderr)
+            return None
         articles = resp.json().get("articles", [])
     except (requests.exceptions.RequestException, ValueError) as exc:
         print(f"[bobboTrade] Refinery attacks: GDELT failed: {exc}", file=sys.stderr)
-        return []
+        return None
     items = []
     for art in articles:
         seen = art.get("seendate", "")
@@ -338,11 +339,38 @@ def fetch_gdelt(first_run: bool) -> list[dict]:
     return items
 
 
-def gather_candidates(first_run: bool, processed: dict) -> list[dict]:
+def fetch_gdelt(backfill: bool) -> tuple[list[dict], bool]:
+    """A single query returns at most 250 articles, newest first, which only
+    reaches back about a week on a busy topic. A backfill therefore walks
+    the history in weekly windows. Returns (items, every_window_succeeded)."""
+    now = datetime.now(timezone.utc)
+    if backfill:
+        windows = [
+            (now - timedelta(days=7 * (i + 1)), now - timedelta(days=7 * i))
+            for i in range(math.ceil(FIRST_RUN_BACKFILL_DAYS / 7))
+        ]
+    else:
+        windows = [(now - timedelta(days=RECURRING_LOOKBACK_DAYS), now)]
+
+    items: list[dict] = []
+    all_ok = True
+    for index, (start, end) in enumerate(windows):
+        if index:
+            time.sleep(GDELT_PAUSE_SECONDS)
+        result = fetch_gdelt_window(start, end)
+        if result is None:
+            all_ok = False
+        else:
+            items.extend(result)
+    return items, all_ok
+
+
+def gather_candidates(backfill: bool, processed: dict) -> tuple[list[dict], int, bool]:
     raw: list[dict] = []
     for feed in RSS_FEEDS:
         raw.extend(parse_feed(feed))
-    raw.extend(fetch_gdelt(first_run))
+    gdelt_items, gdelt_ok = fetch_gdelt(backfill)
+    raw.extend(gdelt_items)
 
     seen: set[str] = set()
     candidates = []
@@ -360,7 +388,8 @@ def gather_candidates(first_run: bool, processed: dict) -> list[dict]:
 
     far_past = datetime(1970, 1, 1, tzinfo=timezone.utc)
     candidates.sort(key=lambda c: c["published"] or far_past, reverse=True)
-    return candidates[: MAX_CANDIDATES_FIRST_RUN if first_run else MAX_CANDIDATES_PER_RUN]
+    cap = MAX_CANDIDATES_FIRST_RUN if backfill else MAX_CANDIDATES_PER_RUN
+    return candidates[:cap], len(candidates), gdelt_ok
 
 
 # ------------------------------------------------------------ extraction
@@ -414,6 +443,11 @@ def validate_event(raw: dict, article_text_norm: str, history_start: str, today:
         return None
     if norm_text(evidence) not in article_text_norm:
         return None
+    # The quote that proves the attack must itself call the target a
+    # refinery. "An oil facility" or "the plant" is not enough: the model
+    # tends to stretch a headline's "refinery strikes" over a vaguer body.
+    if not REFINERY_RE.search(evidence):
+        return None
     attacker = normalize_nation(raw.get("attacker"))
     attribution = raw.get("attribution") if raw.get("attribution") in ATTRIBUTIONS else "unattributed"
     if not attacker:
@@ -440,9 +474,12 @@ def run_discovery(state: dict, events: list[dict], history_start: str, api_key: 
         usage.clear()
         usage.update({"month": month_key(), "calls": 0, "inputTokens": 0, "outputTokens": 0, "estimatedCostUsd": 0.0})
 
-    first_run = not state.get("lastRunAt")
-    candidates = gather_candidates(first_run, state["processedUrls"])
-    print(f"[bobboTrade] Refinery attacks: {len(candidates)} candidate article(s) after filtering.")
+    backfill = not state.get("backfillDone")
+    candidates, total_candidates, gdelt_ok = gather_candidates(backfill, state["processedUrls"])
+    print(
+        f"[bobboTrade] Refinery attacks: {len(candidates)} of {total_candidates} candidate "
+        f"article(s) selected ({'backfill' if backfill else 'daily'})."
+    )
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     added = 0
@@ -487,6 +524,11 @@ def run_discovery(state: dict, events: list[dict], history_start: str, api_key: 
             event["addedAt"] = utc_now_iso()
             if merge_event(events, event):
                 added += 1
+
+    # The backfill is complete only once every window answered and nothing
+    # was left over under the per-run cap; otherwise the next run continues.
+    if backfill and gdelt_ok and total_candidates <= len(candidates):
+        state["backfillDone"] = True
 
     print(f"[bobboTrade] Refinery attacks: {added} new event(s) added.")
     return True
