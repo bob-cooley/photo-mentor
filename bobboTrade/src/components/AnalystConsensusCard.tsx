@@ -59,7 +59,9 @@ export default function AnalystConsensusCard({
     ? [
         ...priorMonths,
         {
-          period: analyst.fetchedAt.slice(0, 7),
+          // The newest snapshot is whatever month Finnhub last published,
+          // not necessarily the month the page was fetched in.
+          period: analyst.period ?? "",
           buy: analyst.counts.buy,
           hold: analyst.counts.hold,
           sell: analyst.counts.sell,
@@ -128,7 +130,7 @@ export default function AnalystConsensusCard({
                       key={row.period}
                       className={i === trendRows.length - 1 ? "consensus-trend-current" : undefined}
                     >
-                      <td>{i === trendRows.length - 1 ? "Now" : monthLabel(row.period)}</td>
+                      <td>{row.period ? monthLabel(row.period) : "Latest"}</td>
                       <td>{row.buy}</td>
                       <td>{row.hold}</td>
                       <td>{row.sell}</td>

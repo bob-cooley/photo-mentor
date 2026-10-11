@@ -60,6 +60,9 @@ def fetch_analyst(ticker: str) -> dict:
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
         "source": "finnhub.io",
+        # Month of the newest snapshot Finnhub has published. The card labels
+        # the top row with it, so the table never skips a month.
+        "period": current["period"],
         "consensus": current["consensus"],
         "counts": {"buy": current["buy"], "hold": current["hold"], "sell": current["sell"]},
         "history": history,

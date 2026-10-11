@@ -208,6 +208,7 @@ def generate_analyst(ticker: str) -> dict:
         "ticker": ticker,
         "fetchedAt": utc_now_iso(),
         "source": "mock",
+        "period": month_ago(0),
         "consensus": "HOLD",
         "counts": {"buy": 8, "hold": 11, "sell": 2},
         "history": [

@@ -101,6 +101,8 @@ export type AnalystRating = "BUY" | "HOLD" | "SELL";
 export interface AnalystData {
   ticker: string;
   fetchedAt: string;
+  // Month ("2026-09") of the newest snapshot; absent on older data files.
+  period?: string;
   source: string;
   consensus: AnalystRating;
   counts: {
