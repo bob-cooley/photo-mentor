@@ -1,5 +1,6 @@
 import type { MarketData, PortfolioConfig } from "../types";
 import { formatCurrency } from "../lib/format";
+import { portfolioTotals } from "../lib/portfolio";
 
 // Two greys, alternated by holding order. Label text color is chosen per
 // shade so it stays readable on both.
@@ -32,29 +33,8 @@ export default function PortfolioValueCard({
     return { ticker: t, value, style: SLICE_STYLES[i % SLICE_STYLES.length] };
   });
 
-  const total = holdings.reduce((sum, h) => sum + (h.value ?? 0), 0);
+  const { total, direction } = portfolioTotals(tickers, quotes, portfolios);
   const hasData = total > 0;
-
-  // 2-week movement of the whole portfolio, on the same definition the
-  // 2-Week Movement card uses per stock: price two weeks ago is implied by
-  // today's price and the stock's two-week percent change. Each holding's
-  // value then is shares x that earlier price.
-  let thenTotal = 0;
-  let anyMovement = false;
-  for (const t of tickers) {
-    const shares = portfolios[t]?.shares ?? null;
-    const price = quotes[t]?.quote.price ?? null;
-    const pct = quotes[t]?.twoWeekChangePercent ?? null;
-    if (shares == null || price == null) continue;
-    const now = shares * price;
-    if (pct != null) {
-      thenTotal += now / (1 + pct / 100);
-      anyMovement = true;
-    } else {
-      thenTotal += now;
-    }
-  }
-  const direction = !anyMovement ? "" : total >= thenTotal ? "up" : "down";
 
   let cursor = 0;
   const slices = holdings

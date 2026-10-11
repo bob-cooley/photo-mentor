@@ -6,6 +6,8 @@
 
 .app-header {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
   align-items: center;
   justify-content: space-between;
   padding: 20px 32px;
@@ -19,23 +21,14 @@
 
 .app-header-left {
   display: flex;
-  align-items: baseline;
-  gap: 10px;
+  align-items: center;
+  gap: 16px;
 }
 
 .app-title {
   font-weight: 700;
   font-size: 19px;
   letter-spacing: -0.01em;
-}
-
-.app-ticker {
-  font-weight: 600;
-  font-size: 14px;
-  color: var(--text-secondary);
-  padding: 3px 8px;
-  border: 1px solid var(--card-border);
-  border-radius: 999px;
 }
 
 .ticker-switcher {
@@ -1381,4 +1374,38 @@
 
 .attack-all-sources a {
   color: var(--accent);
+}
+
+/* Header callout: whole-portfolio value, colored by 2-week movement */
+.header-portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px 14px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.header-portfolio-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-tertiary);
+}
+
+.header-portfolio-value {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.header-portfolio-value.up {
+  color: var(--up);
+}
+
+.header-portfolio-value.down {
+  color: var(--down);
 }

@@ -45,6 +45,8 @@ import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
 import PortfolioValueCard from "./components/PortfolioValueCard";
 import DividendsCard from "./components/DividendsCard";
+import { formatCurrency } from "./lib/format";
+import { portfolioTotals } from "./lib/portfolio";
 import "./App.css";
 
 // The data pipeline itself only refreshes every 5-60 min (see
@@ -180,12 +182,21 @@ export default function App() {
     return true;
   }
 
+  const portfolioSummary = portfolioTotals(TICKERS, quotes, portfolios);
+
   return (
     <div className="app">
       <header className="app-header">
         <div className="app-header-left">
           <span className="app-title">bobboTrade</span>
-          <span className="app-ticker">{stock.ticker}</span>
+          {portfolioSummary.total > 0 && (
+            <div className="header-portfolio">
+              <span className="header-portfolio-label">Portfolio Value</span>
+              <span className={`header-portfolio-value ${portfolioSummary.direction}`}>
+                {formatCurrency(portfolioSummary.total, 0)}
+              </span>
+            </div>
+          )}
         </div>
         <div className="ticker-switcher">
           {TICKERS.map((t) => {
