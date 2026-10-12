@@ -220,6 +220,31 @@ def generate_analyst(ticker: str) -> dict:
     }
 
 
+def generate_rating_changes(ticker: str) -> dict:
+    now = datetime.now(timezone.utc)
+
+    def days_ago(n: int) -> str:
+        return (now - timedelta(days=n)).strftime("%Y-%m-%d")
+
+    changes = [
+        {"date": days_ago(3), "firm": "Mizuho", "kind": "maintained", "fromGrade": "Neutral", "toGrade": "Neutral", "targetAction": "Raises", "targetFrom": 304.0, "targetTo": 457.0},
+        {"date": days_ago(9), "firm": "Citigroup", "kind": "upgrade", "fromGrade": "Neutral", "toGrade": "Buy", "targetAction": "Raises", "targetFrom": None, "targetTo": 430.0},
+        {"date": days_ago(18), "firm": "Jefferies", "kind": "downgrade", "fromGrade": "Buy", "toGrade": "Hold", "targetAction": "Announces", "targetFrom": None, "targetTo": 413.0},
+        {"date": days_ago(27), "firm": "Seaport Global", "kind": "initiated", "fromGrade": None, "toGrade": "Neutral", "targetAction": None, "targetFrom": None, "targetTo": None},
+        {"date": days_ago(33), "firm": "Barclays", "kind": "maintained", "fromGrade": "Overweight", "toGrade": "Overweight", "targetAction": "Lowers", "targetFrom": 155.0, "targetTo": 150.0},
+        {"date": days_ago(41), "firm": "UBS", "kind": "maintained", "fromGrade": "Buy", "toGrade": "Buy", "targetAction": "Raises", "targetFrom": 143.0, "targetTo": 153.0},
+        {"date": days_ago(52), "firm": "Raymond James", "kind": "upgrade", "fromGrade": "Market Perform", "toGrade": "Outperform", "targetAction": "Raises", "targetFrom": None, "targetTo": 445.0},
+    ]
+    return {
+        "ticker": ticker,
+        "fetchedAt": utc_now_iso(),
+        "source": "mock",
+        "windowDays": 60,
+        "status": "ok",
+        "changes": changes,
+    }
+
+
 def generate_rsi(ticker: str) -> dict:
     # Fixed in the overbought zone so local dev exercises the RSICard's
     # "may be due for a pullback" copy — the real pipeline pulls the live
@@ -373,6 +398,7 @@ def main(ticker: str) -> None:
     write_json(ticker, "energy.json", generate_energy(ticker))
     write_json(ticker, "news.json", generate_news(ticker))
     write_json(ticker, "analyst.json", generate_analyst(ticker))
+    write_json(ticker, "rating_changes.json", generate_rating_changes(ticker))
     write_json(ticker, "rsi.json", generate_rsi(ticker))
     write_json(ticker, "crack_spread.json", generate_crack_spread(ticker))
     write_json(ticker, "insider.json", generate_insider(ticker))

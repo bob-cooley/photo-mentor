@@ -1429,3 +1429,60 @@
 .header-portfolio-value.down {
   color: var(--down);
 }
+
+/* Analyst card: recent rating changes */
+.rating-changes {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--card-border);
+}
+
+.rating-changes-list {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rating-changes-list li {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.rating-change-date {
+  flex: none;
+  width: 48px;
+  color: var(--text-tertiary);
+  font-variant-numeric: tabular-nums;
+}
+
+.rating-change-text.up {
+  color: var(--up);
+}
+
+.rating-change-text.down {
+  color: var(--down);
+}
+
+.rating-changes-more {
+  margin-top: 12px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rating-changes-source {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--text-tertiary);
+}

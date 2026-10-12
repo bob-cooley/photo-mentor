@@ -1,4 +1,5 @@
-import type { AnalystData } from "../types";
+import { useState } from "react";
+import type { AnalystData, RatingChange, RatingChangesData } from "../types";
 import InfoPopup from "./InfoPopup";
 
 const RATING_COLOR: Record<string, string> = {
@@ -43,13 +44,71 @@ function monthLabel(period: string): string {
   return `${date.toLocaleString("en-US", { month: "short" })} '${year.slice(2)}`;
 }
 
+const PREVIEW_CHANGES = 5;
+
+function shortDate(ymd: string): string {
+  const [y, m, d] = ymd.split("-").map(Number);
+  if (!y || !m || !d) return ymd;
+  return new Date(y, m - 1, d).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
+
+function money(n: number): string {
+  return `$${Math.round(n).toLocaleString("en-US")}`;
+}
+
+// One plain-language sentence per event. Grades are shown exactly as the
+// firm worded them (Overweight, Outperform, Neutral...), not forced into
+// Buy/Hold/Sell, since the mapping differs between firms.
+function describeChange(c: RatingChange): { text: string; tone: "up" | "down" | "" } {
+  const target =
+    c.targetTo != null && c.targetFrom != null && c.targetFrom !== c.targetTo
+      ? `${c.targetTo > c.targetFrom ? "raised" : "lowered"} its price target from ${money(c.targetFrom)} to ${money(c.targetTo)}`
+      : c.targetTo != null
+        ? `set a price target of ${money(c.targetTo)}`
+        : null;
+
+  switch (c.kind) {
+    case "upgrade":
+      return { text: `${c.firm} upgraded${c.fromGrade ? ` from ${c.fromGrade}` : ""} to ${c.toGrade ?? "a higher rating"}`, tone: "up" };
+    case "downgrade":
+      return { text: `${c.firm} downgraded${c.fromGrade ? ` from ${c.fromGrade}` : ""} to ${c.toGrade ?? "a lower rating"}`, tone: "down" };
+    case "initiated":
+      return { text: `${c.firm} started coverage${c.toGrade ? ` at ${c.toGrade}` : ""}`, tone: "" };
+    default:
+      return {
+        text: target ? `${c.firm} ${target}${c.toGrade ? ` (${c.toGrade})` : ""}` : `${c.firm} reiterated ${c.toGrade ?? "its rating"}`,
+        tone: c.targetTo != null && c.targetFrom != null ? (c.targetTo > c.targetFrom ? "up" : c.targetTo < c.targetFrom ? "down" : "") : "",
+      };
+  }
+}
+
+function ChangeList({ changes }: { changes: RatingChange[] }) {
+  return (
+    <ul className="rating-changes-list">
+      {changes.map((c, i) => {
+        const { text, tone } = describeChange(c);
+        return (
+          <li key={`${c.date}-${c.firm}-${i}`}>
+            <span className="rating-change-date">{shortDate(c.date)}</span>
+            <span className={`rating-change-text ${tone}`}>{text}</span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export default function AnalystConsensusCard({
   analyst,
+  ratingChanges,
   loading,
 }: {
   analyst: AnalystData | null;
+  ratingChanges: RatingChangesData | null;
   loading: boolean;
 }) {
+  const [allChangesOpen, setAllChangesOpen] = useState(false);
+  const changes = ratingChanges?.changes ?? [];
   // Prior monthly snapshots come newest-first; show them oldest-first so
   // the mini table reads left-to-right in time, ending with the current
   // month. A Buy count that only ever falls across that whole span is
@@ -143,6 +202,37 @@ export default function AnalystConsensusCard({
               )}
             </div>
           )}
+          {changes.length > 0 && (
+            <div className="rating-changes">
+              <div className="consensus-trend-title">Recent changes</div>
+              <ChangeList changes={changes.slice(0, PREVIEW_CHANGES)} />
+              {changes.length > PREVIEW_CHANGES && (
+                <button className="rating-changes-more" onClick={() => setAllChangesOpen(true)}>
+                  Show all {changes.length}
+                </button>
+              )}
+              <p className="rating-changes-source">Last {ratingChanges?.windowDays ?? 60} days. Source: Yahoo Finance.</p>
+            </div>
+          )}
+        </div>
+      )}
+      {allChangesOpen && (
+        <div className="article-modal-backdrop" onClick={() => setAllChangesOpen(false)}>
+          <div className="article-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="article-modal-header">
+              <div className="article-modal-meta">
+                <span className="article-modal-source">Analyst rating changes</span>
+                <span className="news-dot">·</span>
+                <span>Last {ratingChanges?.windowDays ?? 60} days</span>
+              </div>
+              <button className="article-modal-close" onClick={() => setAllChangesOpen(false)} aria-label="Close">
+                &#10005;
+              </button>
+            </div>
+            <div className="article-modal-body">
+              <ChangeList changes={changes} />
+            </div>
+          </div>
         </div>
       )}
     </div>

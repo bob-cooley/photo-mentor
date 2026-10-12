@@ -12,6 +12,7 @@ import {
   loadVolumeData,
   loadDividendData,
   loadPortfolioConfig,
+  loadRatingChanges,
   loadRefineryAttacks,
   loadRSIData,
   savePortfolioConfig,
@@ -27,6 +28,7 @@ import type {
   MarketData,
   NewsData,
   PortfolioConfig,
+  RatingChangesData,
   RefineryAttacksData,
   RSIData,
   VolumeData,
@@ -68,6 +70,7 @@ export default function App() {
   const [intraday, setIntraday] = useState<IntradayData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [analyst, setAnalyst] = useState<AnalystData | null>(null);
+  const [ratingChanges, setRatingChanges] = useState<RatingChangesData | null>(null);
   const [energy, setEnergy] = useState<EnergyData | null>(null);
   const [rsi, setRsi] = useState<RSIData | null>(null);
   const [crackSpread, setCrackSpread] = useState<CrackSpreadData | null>(null);
@@ -141,6 +144,7 @@ export default function App() {
         loadIntradayData(ticker),
         loadNewsData(ticker),
         loadAnalystData(ticker),
+        loadRatingChanges(ticker),
         loadEnergyData(ticker),
         loadRSIData(ticker),
         loadCrackSpreadData(ticker),
@@ -149,11 +153,12 @@ export default function App() {
         loadDividendData(ticker),
         loadInsightData(ticker),
         loadPortfolioConfig(ticker),
-      ]).then(([i, n, a, e, r, cs, ins, vol, div, insightData, p]) => {
+      ]).then(([i, n, a, rc, e, r, cs, ins, vol, div, insightData, p]) => {
         if (cancelled) return;
         setIntraday(i);
         setNews(n);
         setAnalyst(a);
+        setRatingChanges(rc);
         setEnergy(e);
         setRsi(r);
         setCrackSpread(cs);
@@ -249,7 +254,7 @@ export default function App() {
         </section>
 
         <section className="col col-right">
-          <AnalystConsensusCard analyst={analyst} loading={loading} />
+          <AnalystConsensusCard analyst={analyst} ratingChanges={ratingChanges} loading={loading} />
           <PortfolioCard market={market} portfolio={portfolio} onSaveShares={handleSaveShares} />
           <TwoWeekMovementCard market={market} loading={loading} />
           <InsightCard insight={insight} ticker={stock.ticker} market={market} />
