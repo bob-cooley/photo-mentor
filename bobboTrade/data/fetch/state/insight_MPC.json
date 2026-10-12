@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T00:11:21.518678+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after a two-week rally that had pushed the stock up 15.6%. The pullback comes as geopolitical developments\u2014including a reported U.S.-Russia diesel supply deal and talk of potential American military involvement against Iran-backed Houthis in the Red Sea\u2014create uncertainty about global energy supply and refining dynamics. Oil prices remain elevated (U.S. crude at $96/barrel, global at $125), but the conflicting signals about sanctions, supply agreements, and military escalation appear to have taken some wind out of the recent momentum.\n\nRefineries are running at 92.7% capacity with diesel stockpiles at relatively low levels, which had supported the rally. However, if the reported diesel imports from Russia and de-escalation between Russia and Ukraine actually materialize, it could ease the tight supply conditions that have buoyed refining margins in recent weeks\u2014potentially explaining why the stock gave back some gains today despite the fundamental support still being in place.",
+  "fetchedAt": "2026-10-12T01:19:02.800954+00:00",
+  "text": "Marathon Petroleum stock fell 1.8% today, giving back some of yesterday's sharp 4.6% gain after hitting $463 on October 8th. The pullback likely reflects uncertainty around the geopolitical moves announced over the past two days: Trump's \"energy ceasefire\" between Russia and Ukraine and the reported deal to import Russian diesel to ease U.S. fuel prices. For a refiner, a sudden flood of cheaper imported diesel is a potential headwind\u2014it could weaken margins on fuel the company produces domestically, which explains why the stock jumped on October 8th (when energy markets were tighter) but reversed today as the supply implications became clearer.\n\nThe broader context matters here: U.S. refineries are running at 92.7% capacity and diesel inventories are relatively lean at 105 million barrels, so the market had priced in tight supply and strong refiner margins. The Trump-Putin diesel deal undermines that tight-supply story. The stock is still up 15.6% over two weeks, so today's retreat may simply be profit-taking on an outsized rally, but the geopolitical supply shift is the concrete driver of the reversal.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 63,
-    "inputTokens": 58783,
-    "outputTokens": 14257,
-    "estimatedCostUsd": 0.130068,
-    "lastCallHour": "2026-10-12T00"
+    "callsThisMonth": 64,
+    "inputTokens": 59714,
+    "outputTokens": 14517,
+    "estimatedCostUsd": 0.132299,
+    "lastCallHour": "2026-10-12T01"
   }
 }
