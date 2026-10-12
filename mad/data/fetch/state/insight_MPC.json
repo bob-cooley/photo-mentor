@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T01:21:07.122614+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing sharply over the past week, likely pulling back as geopolitical uncertainty tempered investor enthusiasm. The stock had surged 15.6% in two weeks on the back of strong refining margins\u2014U.S. crude at $96 per barrel, refineries running at 92.7% capacity, and tight fuel inventories created ideal conditions for a refiner. Today's dip appears to be profit-taking on that rally rather than a fundamental shift in the underlying data.\n\nThe broader context matters: U.S. diesel and heating oil inventories remain relatively lean at 105 million barrels, and the recent news around Trump's potential deal with Russia to supply diesel, plus escalating Middle East tensions, have been driving volatility. Those dynamics still favor refiners in the near term, but the headlines are shifting toward geopolitical complexity rather than simple supply-demand tightness, which may be creating hesitation among some investors.",
+  "fetchedAt": "2026-10-12T02:01:15.284262+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after surging 7.4% yesterday to a near two-week high. The pullback follows geopolitical headlines about potential U.S. military involvement against Iran-backed Houthis and an \"energy ceasefire\" between Russia and Ukraine\u2014both announced overnight. These developments create uncertainty about Middle East supply disruptions and the trajectory of diesel prices, which had been climbing sharply enough that Trump struck a deal with Putin to import Russian diesel into U.S. markets.\n\nThe stock's reversal is modest given its recent strength; it's still up 7.8% over two weeks as the refining environment has tightened considerably. U.S. crude has fallen to $96 a barrel from recent highs, but refineries are running at 92.7% capacity and gasoline and diesel inventories remain relatively lean\u2014conditions that typically favor refiners' margins. The geopolitical noise today may be profit-taking rather than a fundamental shift in the supply-demand backdrop that drove this rally.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 3,
-    "inputTokens": 2783,
-    "outputTokens": 685,
-    "estimatedCostUsd": 0.006208,
-    "lastCallHour": "2026-10-12T01"
+    "callsThisMonth": 4,
+    "inputTokens": 3714,
+    "outputTokens": 911,
+    "estimatedCostUsd": 0.008269,
+    "lastCallHour": "2026-10-12T02"
   }
 }
