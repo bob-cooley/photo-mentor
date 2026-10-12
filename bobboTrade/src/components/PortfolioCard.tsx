@@ -94,7 +94,7 @@ export default function PortfolioCard({
           </div>
           {valueChange != null && (
             <div className="portfolio-row">
-              <span>Daily Value Change</span>
+              <span>Change Today</span>
               <strong className={`portfolio-value-change ${valueChange >= 0 ? "up" : "down"}`}>
                 {valueChange >= 0 ? "+" : "-"}
                 {formatCurrency(Math.abs(valueChange), 0)}
