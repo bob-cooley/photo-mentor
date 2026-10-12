@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T16:28:37.685881+00:00",
-  "text": "Marathon Petroleum gained 1.2% today as crude oil prices remained elevated\u2014Brent hit $106 after a deadly Saudi airport attack, and U.S. oil stayed near $96 per barrel. The refining sector is running at 92.7% capacity, keeping refineries busy and profitable as they convert crude into fuels like diesel and gasoline. This backdrop of tight supply and higher oil prices supports stronger margins for refiners converting raw crude into sellable products.\n\nThe stock's broader two-week surge of 18% reflects a shift in the energy outlook: geopolitical tensions around Middle East infrastructure and Russia-Ukraine energy flows have tightened global oil supply, while policy moves (sanctions easing, potential U.S. involvement against Houthis) are keeping crude prices elevated rather than allowing them to fall. For a refiner, higher crude prices can be a double-edged sword, but current refinery utilization and fuel storage levels suggest the industry is capturing value from the supply tightness.",
+  "fetchedAt": "2026-10-12T21:33:00.557139+00:00",
+  "text": "Marathon Petroleum ticked up less than 1% today, but the real story is the 18% surge over two weeks\u2014driven by a sharp spike in global oil prices and refinery demand. Brent crude climbed above $106 after a deadly Saudi airport attack, and U.S. refineries are running at 92.7% capacity, near full tilt. The gap between global oil ($125/barrel) and U.S. oil ($96/barrel) has also widened, which improves margins for refiners that process global crude; combined with tight diesel inventories and talk of easing sanctions on Russian fuel, the refining environment has tightened considerably in just two weeks.\n\nThe geopolitical moves\u2014Trump's \"energy ceasefire\" with Russia, potential U.S. military involvement against Houthis, and the Saudi attack itself\u2014have created an unusually volatile supply backdrop. For a major refiner, this kind of chaos typically lifts profitability, though the longer-term impact of Trump's Russia diesel deal and whether it actually brings relief to U.S. energy markets remains unclear.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 67,
-    "inputTokens": 62526,
-    "outputTokens": 15179,
-    "estimatedCostUsd": 0.138421,
-    "lastCallHour": "2026-10-12T16"
+    "callsThisMonth": 68,
+    "inputTokens": 63469,
+    "outputTokens": 15421,
+    "estimatedCostUsd": 0.140574,
+    "lastCallHour": "2026-10-12T21"
   }
 }
