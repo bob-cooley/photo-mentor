@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T06:55:26.374202+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after oil prices dropped on news of a potential Russia-Ukraine ceasefire. Crude oil is down sharply from recent highs\u2014the gap between world oil prices ($125.44) and U.S. prices ($96.24) suggests crude supply concerns have eased\u2014and lower oil prices mean refiners earn less profit on the fuel they produce and sell, even though U.S. refineries are still running near capacity at 92.7%.\n\nThe stock's sharp two-week climb of 15.6% was built on escalating geopolitical tensions that had pushed oil higher; today's dip reflects a reversal of that risk premium as peace negotiations appear to gain traction. While refinery utilization and storage levels remain relatively stable, the market's focus has shifted from supply disruption concerns to the prospect of normalized energy markets if the ceasefire holds.",
+  "fetchedAt": "2026-10-12T16:28:37.685881+00:00",
+  "text": "Marathon Petroleum gained 1.2% today as crude oil prices remained elevated\u2014Brent hit $106 after a deadly Saudi airport attack, and U.S. oil stayed near $96 per barrel. The refining sector is running at 92.7% capacity, keeping refineries busy and profitable as they convert crude into fuels like diesel and gasoline. This backdrop of tight supply and higher oil prices supports stronger margins for refiners converting raw crude into sellable products.\n\nThe stock's broader two-week surge of 18% reflects a shift in the energy outlook: geopolitical tensions around Middle East infrastructure and Russia-Ukraine energy flows have tightened global oil supply, while policy moves (sanctions easing, potential U.S. involvement against Houthis) are keeping crude prices elevated rather than allowing them to fall. For a refiner, higher crude prices can be a double-edged sword, but current refinery utilization and fuel storage levels suggest the industry is capturing value from the supply tightness.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 66,
-    "inputTokens": 61586,
-    "outputTokens": 14960,
-    "estimatedCostUsd": 0.136386,
-    "lastCallHour": "2026-10-12T06"
+    "callsThisMonth": 67,
+    "inputTokens": 62526,
+    "outputTokens": 15179,
+    "estimatedCostUsd": 0.138421,
+    "lastCallHour": "2026-10-12T16"
   }
 }
