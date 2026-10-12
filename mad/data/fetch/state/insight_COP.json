@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-11T05:00:22.237089+00:00",
-  "text": "ConocoPhillips fell just shy of flat today, but the move barely registers against the larger story: the stock is up 5.34% over two weeks on a backdrop of sharply elevated global oil prices and supply disruption. World crude is trading at $125.44 per barrel\u2014a significant premium to U.S. crude at $96.24\u2014driven by tanker attacks in the Strait of Hormuz, refinery damage from regional conflicts, and now Hurricane Isaias disrupting Gulf of Mexico production. For an integrated oil company, these conditions are generally supportive: tighter supply pushes prices higher and widens profit margins.\n\nThe Trump-Putin diesel deal announced yesterday adds complexity. While importing Russian fuel could theoretically ease U.S. fuel prices and reduce refinery margins, the immediate market reaction has favored oil producers over the past week\u2014possibly because the geopolitical tensions underpinning today's high prices are viewed as durable, or because the deal addresses a specific product (diesel) rather than crude itself. Today's negligible decline suggests the stock is holding near these elevated levels as traders digest competing signals about supply and sanctions.",
+  "fetchedAt": "2026-10-12T01:20:50.737580+00:00",
+  "text": "ConocoPhillips barely moved today, but the stock is up 5.3% over two weeks as oil markets have been roiled by geopolitical developments. The company benefits from higher crude prices \u2014 world oil is trading at $125 a barrel, up sharply from earlier in the period \u2014 driven by Middle East tensions (potential U.S. involvement against Iranian-backed Houthis) and supply disruptions from wars in Ukraine and the region. These same conflicts have damaged global refinery capacity, making fuel more scarce and expensive.\n\nThe recent Trump administration moves \u2014 a potential energy ceasefire with Russia and a deal to buy Russian diesel \u2014 add conflicting signals: they could ease fuel prices longer term (reducing the scarcity premium that's helped oil companies), but they also reflect how tight energy markets are right now, which keeps crude values elevated. For an oil producer like ConocoPhillips, the current price environment remains supportive, even if the policy picture remains uncertain.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 3,
-    "inputTokens": 2598,
-    "outputTokens": 738,
-    "estimatedCostUsd": 0.006288,
-    "lastCallHour": "2026-10-11T05"
+    "callsThisMonth": 4,
+    "inputTokens": 3469,
+    "outputTokens": 950,
+    "estimatedCostUsd": 0.008219,
+    "lastCallHour": "2026-10-12T01"
   }
 }

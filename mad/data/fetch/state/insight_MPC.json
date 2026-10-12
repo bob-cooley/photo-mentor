@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T05:00:41.225379+00:00",
-  "text": "MPC fell 1.8% today after hitting a peak yesterday at $463. The decline comes as markets digested the Trump-Putin diesel deal announced yesterday, which aims to bring Russian diesel into U.S. and global markets to ease fuel prices. For a refiner like MPC, a flood of cheaper imported diesel is a double-edged sword: while lower diesel prices help consumers, they compress the profit margins refiners earn by processing crude into finished fuel\u2014a key driver of refiner stocks.\n\nThe stock's two-week rally of 15.6% was built on the opposite dynamic: tight fuel markets from Middle Eastern tanker attacks, Gulf of Mexico hurricane disruptions, and Middle Eastern/Eastern European war damage to global refining capacity created a premium for U.S. refiners' output. Today's retreat reflects the market now pricing in a shift toward supply relief, which erodes that tight-market advantage. Refineries are running at 92.7% capacity with relatively low fuel storage levels, so the relief from Russian diesel imports directly threatens the high-margin environment that fueled the recent rally.",
+  "fetchedAt": "2026-10-12T01:21:07.122614+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after climbing sharply over the past week, likely pulling back as geopolitical uncertainty tempered investor enthusiasm. The stock had surged 15.6% in two weeks on the back of strong refining margins\u2014U.S. crude at $96 per barrel, refineries running at 92.7% capacity, and tight fuel inventories created ideal conditions for a refiner. Today's dip appears to be profit-taking on that rally rather than a fundamental shift in the underlying data.\n\nThe broader context matters: U.S. diesel and heating oil inventories remain relatively lean at 105 million barrels, and the recent news around Trump's potential deal with Russia to supply diesel, plus escalating Middle East tensions, have been driving volatility. Those dynamics still favor refiners in the near term, but the headlines are shifting toward geopolitical complexity rather than simple supply-demand tightness, which may be creating hesitation among some investors.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 2,
-    "inputTokens": 1852,
-    "outputTokens": 473,
-    "estimatedCostUsd": 0.004217,
-    "lastCallHour": "2026-10-11T05"
+    "callsThisMonth": 3,
+    "inputTokens": 2783,
+    "outputTokens": 685,
+    "estimatedCostUsd": 0.006208,
+    "lastCallHour": "2026-10-12T01"
   }
 }
