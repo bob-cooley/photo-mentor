@@ -1,0 +1,81 @@
+{
+  "payload": {
+    "ticker": "COP",
+    "fetchedAt": "2026-10-12T01:58:32.649756+00:00",
+    "source": "finance.yahoo.com",
+    "windowDays": 60,
+    "status": "ok",
+    "changes": [
+      {
+        "date": "2026-10-07",
+        "firm": "Jefferies",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 159.0,
+        "targetTo": 174.0
+      },
+      {
+        "date": "2026-10-07",
+        "firm": "Truist Securities",
+        "kind": "maintained",
+        "fromGrade": "Hold",
+        "toGrade": "Hold",
+        "targetAction": "Raises",
+        "targetFrom": 130.0,
+        "targetTo": 136.0
+      },
+      {
+        "date": "2026-09-14",
+        "firm": "UBS",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 153.0,
+        "targetTo": 169.0
+      },
+      {
+        "date": "2026-09-03",
+        "firm": "Seaport Global",
+        "kind": "initiated",
+        "fromGrade": null,
+        "toGrade": "Neutral",
+        "targetAction": null,
+        "targetFrom": null,
+        "targetTo": null
+      },
+      {
+        "date": "2026-08-19",
+        "firm": "Morgan Stanley",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 147.0,
+        "targetTo": 151.0
+      },
+      {
+        "date": "2026-08-19",
+        "firm": "Argus Research",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 136.0,
+        "targetTo": 153.0
+      },
+      {
+        "date": "2026-08-17",
+        "firm": "Barclays",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Lowers",
+        "targetFrom": 155.0,
+        "targetTo": 150.0
+      }
+    ]
+  }
+}

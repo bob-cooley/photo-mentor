@@ -1,0 +1,101 @@
+{
+  "payload": {
+    "ticker": "MPC",
+    "fetchedAt": "2026-10-12T01:58:44.875155+00:00",
+    "source": "finance.yahoo.com",
+    "windowDays": 60,
+    "status": "ok",
+    "changes": [
+      {
+        "date": "2026-10-08",
+        "firm": "Mizuho",
+        "kind": "maintained",
+        "fromGrade": "Neutral",
+        "toGrade": "Neutral",
+        "targetAction": "Raises",
+        "targetFrom": 304.0,
+        "targetTo": 457.0
+      },
+      {
+        "date": "2026-10-02",
+        "firm": "B of A Securities",
+        "kind": "maintained",
+        "fromGrade": "Neutral",
+        "toGrade": "Neutral",
+        "targetAction": "Raises",
+        "targetFrom": 410.0,
+        "targetTo": 426.0
+      },
+      {
+        "date": "2026-09-22",
+        "firm": "Jefferies",
+        "kind": "downgrade",
+        "fromGrade": "Buy",
+        "toGrade": "Hold",
+        "targetAction": "Announces",
+        "targetFrom": null,
+        "targetTo": 413.0
+      },
+      {
+        "date": "2026-09-21",
+        "firm": "Goldman Sachs",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 376.0,
+        "targetTo": 472.0
+      },
+      {
+        "date": "2026-09-14",
+        "firm": "Raymond James",
+        "kind": "maintained",
+        "fromGrade": "Outperform",
+        "toGrade": "Outperform",
+        "targetAction": "Raises",
+        "targetFrom": 350.0,
+        "targetTo": 445.0
+      },
+      {
+        "date": "2026-09-14",
+        "firm": "Morgan Stanley",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 265.0,
+        "targetTo": 453.0
+      },
+      {
+        "date": "2026-09-08",
+        "firm": "UBS",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 321.0,
+        "targetTo": 450.0
+      },
+      {
+        "date": "2026-09-03",
+        "firm": "Piper Sandler",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 344.0,
+        "targetTo": 462.0
+      },
+      {
+        "date": "2026-09-01",
+        "firm": "Wells Fargo",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 359.0,
+        "targetTo": 400.0
+      }
+    ]
+  }
+}
