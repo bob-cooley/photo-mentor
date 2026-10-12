@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-11T20:46:39.751754+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing 8.5% yesterday to $463, giving back some gains from a strong two-week run. The pullback follows news of geopolitical moves\u2014a reported \"energy ceasefire\" between Russia and Ukraine, and potential U.S. involvement against Iran-backed Houthis\u2014that create uncertainty about oil supply disruptions and refinery demand. Yesterday's spike likely reflected the announcement of a U.S.-Russia diesel deal to ease fuel prices, which would reduce the premium refiners like Marathon could command. Today's move down suggests investors are digesting both the relief that a ceasefire might bring stability, and the risk that easing tensions could lower crude oil prices further.\n\nU.S. oil is trading at $96 per barrel, well below the $125 global price, pointing to a significant supply glut domestically. With refineries already running at 92.7% capacity and gasoline and diesel storage elevated, a deal flooding the market with cheaper Russian fuel and a potential resolution to Middle East conflict could both pressure margins\u2014the profit refiners make by turning crude into products. The two-week rally reflects the volatility of a refiner heavily exposed to geopolitical oil shocks; today's dip shows that shock may be easing.",
+  "fetchedAt": "2026-10-12T00:11:21.518678+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after a two-week rally that had pushed the stock up 15.6%. The pullback comes as geopolitical developments\u2014including a reported U.S.-Russia diesel supply deal and talk of potential American military involvement against Iran-backed Houthis in the Red Sea\u2014create uncertainty about global energy supply and refining dynamics. Oil prices remain elevated (U.S. crude at $96/barrel, global at $125), but the conflicting signals about sanctions, supply agreements, and military escalation appear to have taken some wind out of the recent momentum.\n\nRefineries are running at 92.7% capacity with diesel stockpiles at relatively low levels, which had supported the rally. However, if the reported diesel imports from Russia and de-escalation between Russia and Ukraine actually materialize, it could ease the tight supply conditions that have buoyed refining margins in recent weeks\u2014potentially explaining why the stock gave back some gains today despite the fundamental support still being in place.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 62,
-    "inputTokens": 57852,
-    "outputTokens": 14038,
-    "estimatedCostUsd": 0.128042,
-    "lastCallHour": "2026-10-11T20"
+    "callsThisMonth": 63,
+    "inputTokens": 58783,
+    "outputTokens": 14257,
+    "estimatedCostUsd": 0.130068,
+    "lastCallHour": "2026-10-12T00"
   }
 }
