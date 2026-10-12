@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T21:33:00.557139+00:00",
-  "text": "Marathon Petroleum ticked up less than 1% today, but the real story is the 18% surge over two weeks\u2014driven by a sharp spike in global oil prices and refinery demand. Brent crude climbed above $106 after a deadly Saudi airport attack, and U.S. refineries are running at 92.7% capacity, near full tilt. The gap between global oil ($125/barrel) and U.S. oil ($96/barrel) has also widened, which improves margins for refiners that process global crude; combined with tight diesel inventories and talk of easing sanctions on Russian fuel, the refining environment has tightened considerably in just two weeks.\n\nThe geopolitical moves\u2014Trump's \"energy ceasefire\" with Russia, potential U.S. military involvement against Houthis, and the Saudi attack itself\u2014have created an unusually volatile supply backdrop. For a major refiner, this kind of chaos typically lifts profitability, though the longer-term impact of Trump's Russia diesel deal and whether it actually brings relief to U.S. energy markets remains unclear.",
+  "fetchedAt": "2026-10-12T23:27:48.603794+00:00",
+  "text": "Marathon Petroleum rose 0.83% today, a modest gain in a much larger two-week surge of nearly 18%. The bigger picture is what's driving the stock: crude oil has spiked sharply (US oil at $96.24, up from much lower levels earlier this month), refineries are running at 92.7% capacity, and storage levels for gasoline and diesel remain relatively tight. A deadly Saudi airport attack pushed Brent crude above $106, and geopolitical tensions around a potential U.S. role in Middle East energy security have kept oil prices elevated.\n\nThe two-week rally reflects a shift in the refining outlook. Refiners like Marathon profit when crude prices rise faster than fuel prices fall, and right now the combination of geopolitical risk premiums in oil, high refinery utilization, and tightening product supplies is creating the conditions for strong margins. While talk of easing Russia sanctions and importing Russian diesel suggests some supply relief down the road, near-term energy market stress is working in Marathon's favor.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 68,
-    "inputTokens": 63469,
-    "outputTokens": 15421,
-    "estimatedCostUsd": 0.140574,
-    "lastCallHour": "2026-10-12T21"
+    "callsThisMonth": 69,
+    "inputTokens": 64410,
+    "outputTokens": 15647,
+    "estimatedCostUsd": 0.142645,
+    "lastCallHour": "2026-10-12T23"
   }
 }
