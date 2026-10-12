@@ -15,6 +15,7 @@ import energy
 import insider
 import market
 import news
+import rating_changes
 import refinery_attacks
 import rsi
 import volume
@@ -28,6 +29,7 @@ MODULES = [
     ("energy", energy.main),
     ("crack_spread", crack_spread.main),
     ("analyst", analyst.main),
+    ("rating_changes", rating_changes.main),
     ("insider", insider.main),
     ("news", news.main),
     ("ai_insight", ai_insight.main),

@@ -245,3 +245,25 @@ export interface RefineryAttacksData {
   count: number;
   events: RefineryAttack[];
 }
+
+export type RatingChangeKind = "upgrade" | "downgrade" | "initiated" | "maintained";
+
+export interface RatingChange {
+  date: string; // YYYY-MM-DD
+  firm: string;
+  kind: RatingChangeKind;
+  fromGrade: string | null;
+  toGrade: string | null;
+  targetAction: string | null;
+  targetFrom: number | null;
+  targetTo: number | null;
+}
+
+export interface RatingChangesData {
+  ticker: string;
+  fetchedAt: string;
+  source: string;
+  windowDays: number;
+  status: "ok" | "unavailable";
+  changes: RatingChange[];
+}
