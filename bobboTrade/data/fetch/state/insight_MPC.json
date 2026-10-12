@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T01:19:02.800954+00:00",
-  "text": "Marathon Petroleum stock fell 1.8% today, giving back some of yesterday's sharp 4.6% gain after hitting $463 on October 8th. The pullback likely reflects uncertainty around the geopolitical moves announced over the past two days: Trump's \"energy ceasefire\" between Russia and Ukraine and the reported deal to import Russian diesel to ease U.S. fuel prices. For a refiner, a sudden flood of cheaper imported diesel is a potential headwind\u2014it could weaken margins on fuel the company produces domestically, which explains why the stock jumped on October 8th (when energy markets were tighter) but reversed today as the supply implications became clearer.\n\nThe broader context matters here: U.S. refineries are running at 92.7% capacity and diesel inventories are relatively lean at 105 million barrels, so the market had priced in tight supply and strong refiner margins. The Trump-Putin diesel deal undermines that tight-supply story. The stock is still up 15.6% over two weeks, so today's retreat may simply be profit-taking on an outsized rally, but the geopolitical supply shift is the concrete driver of the reversal.",
+  "fetchedAt": "2026-10-12T02:12:20.152985+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after climbing nearly 16% over two weeks, a pullback that comes as crude oil prices dipped slightly (U.S. crude at $96.24 a barrel today versus higher levels that fueled the recent rally). The stock's sharp two-week gain was driven by tightening fuel supplies and geopolitical risk premiums \u2014 oil refinery incidents in Eastern Europe and Middle East tensions pushed crude higher and boosted refiner margins, which is the profit refineries make by converting cheap crude into expensive gasoline and diesel. Today's modest retreat reflects profit-taking after that strong run, though refineries remain busy at 92.7% capacity.\n\nThe broader picture here is volatile and favorable for refiners despite today's dip. Reports of a potential U.S. deal to import Russian diesel to ease global fuel costs, combined with ongoing Middle East instability (the Houthi strikes and potential U.S. military involvement), keep crude prices elevated and margins attractive. Even with today's pullback, the refiner is well-positioned in an environment where geopolitical disruption and supply constraints support fuel prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 64,
-    "inputTokens": 59714,
-    "outputTokens": 14517,
-    "estimatedCostUsd": 0.132299,
-    "lastCallHour": "2026-10-12T01"
+    "callsThisMonth": 65,
+    "inputTokens": 60645,
+    "outputTokens": 14764,
+    "estimatedCostUsd": 0.134465,
+    "lastCallHour": "2026-10-12T02"
   }
 }
