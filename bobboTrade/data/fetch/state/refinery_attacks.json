@@ -42,17 +42,23 @@
     "https://www.france24.com/en/europe/20261010-trump-zelensky-clash-over-diesel-deal-as-russian-strikes-on-ukraine-kill-21-including-children": "2026-10-11T04:58:21.372599+00:00",
     "https://www.cnbc.com/2026/10/09/trump-putin-russian-diesel-us-global-markets.html": "2026-10-11T04:58:23.262738+00:00",
     "https://www.france24.com/en/europe/20261011-ukraine-ready-halt-refinery-strikes-if-moscow-stops-energy-attacks-zelensky-says": "2026-10-11T10:36:03.187573+00:00",
-    "https://www.pravda.com.ua/eng/news/2026/10/11/8057443/": "2026-10-11T10:36:04.793576+00:00"
+    "https://www.pravda.com.ua/eng/news/2026/10/11/8057443/": "2026-10-11T10:36:04.793576+00:00",
+    "https://www.theguardian.com/world/live/2026/oct/12/ukraine-russia-trump-energy-ceasefire-nato-zelenskyy-nobel-latest-news-updates": "2026-10-12T06:56:15.435895+00:00",
+    "https://www.theguardian.com/money/2026/oct/12/uk-van-drivers-diesel-costs-fuel-duty": "2026-10-12T06:56:17.180637+00:00",
+    "https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim": "2026-10-12T06:56:18.986646+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/10/11/8057517/": "2026-10-12T06:56:20.931169+00:00",
+    "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire": "2026-10-12T06:56:23.188317+00:00",
+    "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy": "2026-10-12T06:56:25.580115+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 5,
-    "inputTokens": 4789,
-    "outputTokens": 550,
-    "estimatedCostUsd": 0.007539
+    "calls": 11,
+    "inputTokens": 14080,
+    "outputTokens": 1352,
+    "estimatedCostUsd": 0.02084
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": true,
-  "lastRunAt": "2026-10-11T10:36:04.794021+00:00"
+  "lastRunAt": "2026-10-12T06:56:25.580413+00:00"
 }

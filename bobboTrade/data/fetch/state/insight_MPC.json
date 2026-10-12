@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T02:12:20.152985+00:00",
-  "text": "Marathon Petroleum fell 1.8% today after climbing nearly 16% over two weeks, a pullback that comes as crude oil prices dipped slightly (U.S. crude at $96.24 a barrel today versus higher levels that fueled the recent rally). The stock's sharp two-week gain was driven by tightening fuel supplies and geopolitical risk premiums \u2014 oil refinery incidents in Eastern Europe and Middle East tensions pushed crude higher and boosted refiner margins, which is the profit refineries make by converting cheap crude into expensive gasoline and diesel. Today's modest retreat reflects profit-taking after that strong run, though refineries remain busy at 92.7% capacity.\n\nThe broader picture here is volatile and favorable for refiners despite today's dip. Reports of a potential U.S. deal to import Russian diesel to ease global fuel costs, combined with ongoing Middle East instability (the Houthi strikes and potential U.S. military involvement), keep crude prices elevated and margins attractive. Even with today's pullback, the refiner is well-positioned in an environment where geopolitical disruption and supply constraints support fuel prices.",
+  "fetchedAt": "2026-10-12T06:55:26.374202+00:00",
+  "text": "Marathon Petroleum fell 1.8% today after oil prices dropped on news of a potential Russia-Ukraine ceasefire. Crude oil is down sharply from recent highs\u2014the gap between world oil prices ($125.44) and U.S. prices ($96.24) suggests crude supply concerns have eased\u2014and lower oil prices mean refiners earn less profit on the fuel they produce and sell, even though U.S. refineries are still running near capacity at 92.7%.\n\nThe stock's sharp two-week climb of 15.6% was built on escalating geopolitical tensions that had pushed oil higher; today's dip reflects a reversal of that risk premium as peace negotiations appear to gain traction. While refinery utilization and storage levels remain relatively stable, the market's focus has shifted from supply disruption concerns to the prospect of normalized energy markets if the ceasefire holds.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 65,
-    "inputTokens": 60645,
-    "outputTokens": 14764,
-    "estimatedCostUsd": 0.134465,
-    "lastCallHour": "2026-10-12T02"
+    "callsThisMonth": 66,
+    "inputTokens": 61586,
+    "outputTokens": 14960,
+    "estimatedCostUsd": 0.136386,
+    "lastCallHour": "2026-10-12T06"
   }
 }
