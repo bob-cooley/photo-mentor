@@ -11,14 +11,22 @@ on:
     # 13:00-21:59 UTC covers 9:30am-4pm ET across both EDT and EST with
     # margin, since cron itself isn't DST-aware.
     - cron: "*/5 13-21 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      # The external scheduler (see ops/refresh-worker) sets this so a
+      # 5-minute data refresh runs ONLY the bobboTrade job, not the
+      # injections/artemis/NBHS86/light-detective/mad deploys.
+      data_only:
+        description: "Refresh bobboTrade data only (skip every other deploy job)"
+        type: boolean
+        default: false
 
 jobs:
   # deploy / deploy-injections / deploy-artemis only need to run when
   # something actually changed (a push), not on bobboTrade's hourly data
   # refresh schedule.
   deploy:
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -40,11 +48,12 @@ jobs:
             injections/**
             bobboTrade/**
             mad/**
+            ops/**
             light-detective/**
             NBHS86/**
 
   deploy-injections:
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -63,7 +72,7 @@ jobs:
             **/.git*/**
 
   deploy-artemis:
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -82,7 +91,7 @@ jobs:
             **/.git*/**
 
   deploy-nbhs86:
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     env:
       NBHS86_PASSCODE: ${{ secrets.NBHS86_PASSCODE }}
@@ -119,7 +128,7 @@ jobs:
             **/tests/**
 
   deploy-light-detective:
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -247,7 +256,7 @@ jobs:
     # ticker: daily quote + 5min intraday — concurrent with bobboTrade's
     # own 4 calls, that's 8/min from two tickers alone, right at Twelve
     # Data's free-tier cap).
-    if: github.event_name != 'schedule'
+    if: github.event_name != 'schedule' && !inputs.data_only
     # On a push, this job and deploy-bobbotrade both trigger and would
     # otherwise fetch in parallel — confirmed live (429 on MPC intraday,
     # twice) that this alone re-trips the same shared-key collision the

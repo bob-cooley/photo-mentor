@@ -47,7 +47,7 @@ import InsightCard from "./components/InsightCard";
 import PortfolioCard from "./components/PortfolioCard";
 import PortfolioValueCard from "./components/PortfolioValueCard";
 import DividendsCard from "./components/DividendsCard";
-import { formatCurrency } from "./lib/format";
+import { formatAsOf, formatCurrency } from "./lib/format";
 import { portfolioTotals } from "./lib/portfolio";
 import "./App.css";
 
@@ -189,6 +189,13 @@ export default function App() {
 
   const portfolioSummary = portfolioTotals(TICKERS, quotes, portfolios);
 
+  // Earliest fetch time across the tracked tickers, so a stale quote is
+  // never presented as fresher than it is.
+  const fetchedTimes = TICKERS.map((t) => quotes[t]?.fetchedAt)
+    .filter((v): v is string => Boolean(v))
+    .sort();
+  const pricesAsOf = fetchedTimes.length > 0 ? formatAsOf(fetchedTimes[0]) : "";
+
   return (
     <div className="app">
       <header className="app-header">
@@ -203,6 +210,7 @@ export default function App() {
             </div>
           )}
         </div>
+        <div className="ticker-switcher-wrap">
         <div className="ticker-switcher">
           {TICKERS.map((t) => {
             const quote = quotes[t];
@@ -225,6 +233,8 @@ export default function App() {
               </button>
             );
           })}
+        </div>
+        {pricesAsOf && <div className="price-asof">Prices as of {pricesAsOf}</div>}
         </div>
       </header>
 

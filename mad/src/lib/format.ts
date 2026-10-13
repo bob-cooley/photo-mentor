@@ -56,3 +56,17 @@ export function timeAgo(iso: string): string {
   if (days < 7) return `${days}d ago`;
   return formatDate(iso);
 }
+
+// "9:29 AM ET" for today, "Oct 12, 3:55 PM ET" for an earlier day. The
+// pipeline fetches in UTC but markets (and the reader) think in New York
+// time, so the label is pinned to it.
+export function formatAsOf(iso: string): string {
+  const when = new Date(iso);
+  if (Number.isNaN(when.getTime())) return "";
+  const timeZone = "America/New_York";
+  const time = when.toLocaleTimeString("en-US", { hour: "numeric", minute: "2-digit", timeZone });
+  const dayKey = (d: Date) => d.toLocaleDateString("en-CA", { timeZone });
+  if (dayKey(when) === dayKey(new Date())) return `${time} ET`;
+  const date = when.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone });
+  return `${date}, ${time} ET`;
+}
