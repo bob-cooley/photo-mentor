@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T20:02:06.985909+00:00",
-  "text": "Marathon Petroleum stock jumped 3.95% today, adding to a sharp 21.7% climb over two weeks. The immediate driver appears to be oil price strength\u2014world crude is trading at $125.44 per barrel, well above US prices at $96.24, and refineries are running at 92.7% capacity, near full utilization. Reports of geopolitical tensions (Iran fortifying nuclear sites, Saudi airport attack, Saudi-Houthi conflict) and supply uncertainty around Russian diesel are keeping crude elevated and supporting refiner margins, since higher oil prices boost the value of refined products relative to crude costs.\n\nThe broader picture is that a refiner benefits when global oil prices stay elevated and regional supply gets tight\u2014even as political pressure mounts to bring fuel prices down. With elections weeks away and Trump negotiating Russian diesel imports, there's real uncertainty about future supply, which keeps the market pricing in scarcity premiums that work in refiners' favor right now.",
+  "fetchedAt": "2026-10-13T21:01:18.943998+00:00",
+  "text": "Marathon Petroleum jumped 3.9% today to $476.87, extending a remarkable two-week rally of over 21%. The stock's surge reflects tightening global oil supply conditions: Brent crude topped $106 after a deadly attack on a Saudi airport, while geopolitical tensions\u2014including a potential U.S. strike on Iranian nuclear sites and ongoing Houthi attacks in the Middle East\u2014are creating concerns about disruptions to oil shipments. U.S. refineries are running at 92.7% capacity, and with global oil prices well above domestic prices ($125 versus $96 per barrel), refiners like Marathon profit from the ability to process cheap domestic crude and sell refined products into a higher-priced global market.\n\nThe broader context here is that crude oil supply fears are outweighing the modest boost from Trump's reported diesel deal with Russia\u2014a deal that analysts note would cover less than two weeks of U.S. demand anyway. Rising geopolitical risk in the Middle East, combined with tight refinery operations and wide price gaps between U.S. and global oil markets, creates the kind of environment where independent refiners typically see margin expansion and stronger profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 77,
-    "inputTokens": 71861,
-    "outputTokens": 17448,
-    "estimatedCostUsd": 0.159101,
-    "lastCallHour": "2026-10-13T20"
+    "callsThisMonth": 78,
+    "inputTokens": 72781,
+    "outputTokens": 17707,
+    "estimatedCostUsd": 0.161316,
+    "lastCallHour": "2026-10-13T21"
   }
 }
