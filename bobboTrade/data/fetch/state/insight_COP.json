@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-13T05:17:23.017308+00:00",
-  "text": "ConocoPhillips rose 2.6% today to $137.56, continuing a sharp six-day rally that's gained 9% overall since October 5th. The immediate driver appears to be oil price momentum: while crude fell slightly today as traders weighed Russian diesel supply prospects against Middle East tensions, the stock is riding a broader surge tied to geopolitical risk premiums \u2014 the deadly Saudi airport attack on October 12th sent Brent crude above $106, and potential U.S. military involvement against Iran-backed Houthis in the Red Sea threatens shipping lanes that matter for global energy flows. For an oil producer like ConocoPhillips, higher crude prices translate directly to higher revenues and cash flow.\n\nThe Trump administration's push to ease Russian diesel sanctions and potential military escalation in the Middle East create crosscurrents \u2014 one adding supply, one potentially disrupting it \u2014 but the net effect so far has been upward pressure on oil prices and the stocks that benefit from them. At $96 per barrel for U.S. crude and $125 for Brent (a $29 gap that partly reflects Middle East risk), producers are capturing significantly higher margins than they would in a calm, well-supplied market.",
+  "fetchedAt": "2026-10-13T13:28:59.582047+00:00",
+  "text": "ConocoPhillips stock rose 2.6% today to $137.56, building on a sharp nine-day rally that's seen the stock climb 9% since October 5. The immediate catalyst appears to be the gap between U.S. and global oil prices: U.S. crude is trading at $96 per barrel while Brent (the global benchmark) sits at $125\u2014a $29-per-barrel spread driven by Middle East tensions, including Iranian nuclear developments and ongoing Saudi-Houthi conflict. For an oil major like ConocoPhillips, higher global crude prices directly boost profits on barrels sold into world markets, especially as geopolitical risk premiums keep prices elevated.\n\nThe broader backdrop is a tug-of-war between supply concerns and relief. While the Trump administration's effort to allow Russian diesel into U.S. markets aims to ease the diesel crunch, traders and analysts have questioned whether it will actually bring meaningful price relief\u2014meaning the geopolitical risk premium (the extra dollars investors pay for oil because of regional instability) looks sticky. That keeps crude prices firm for oil producers, supporting the stock's momentum over the past two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 71,
-    "inputTokens": 62009,
-    "outputTokens": 15221,
-    "estimatedCostUsd": 0.138114,
-    "lastCallHour": "2026-10-13T05"
+    "callsThisMonth": 72,
+    "inputTokens": 62880,
+    "outputTokens": 15478,
+    "estimatedCostUsd": 0.14027,
+    "lastCallHour": "2026-10-13T13"
   }
 }

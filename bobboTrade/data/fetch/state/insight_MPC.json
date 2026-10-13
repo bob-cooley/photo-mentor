@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T05:17:37.250709+00:00",
-  "text": "Marathon Petroleum stock rose 0.83% today after a volatile two-week rally that's pushed it up 17.8%. The modest daily gain comes as oil prices fell\u2014Brent crude dropped below $106 after climbing past it yesterday following a Saudi airport attack\u2014and traders reassess the global oil supply picture. Refineries are running at 92.7% capacity with healthy fuel inventory levels, suggesting the company isn't facing immediate supply or demand shocks that would drive sharper moves.\n\nThe larger story is the two-week surge itself, which reflects swings in geopolitical risk and U.S. energy policy. The Saudi-Houthi conflict, potential Russian diesel entering Western markets via Trump administration sanctions relief, and talk of direct U.S. military involvement in the Middle East have all created uncertainty about where crude prices\u2014and thus refinery margins\u2014are headed. For a refiner like Marathon, those margin swings matter far more than absolute barrel prices, and the sharp run-up likely reflects traders betting on tighter supplies or higher energy costs, though today's small move and falling oil prices suggest some of that enthusiasm is cooling.",
+  "fetchedAt": "2026-10-13T13:29:18.433158+00:00",
+  "text": "MPC rose 0.83% today to close at $458.81, continuing a strong two-week rally that has pushed the stock up 17.81% since early October. The immediate driver is the sharp rebound in oil prices: Brent crude topped $106 this past week after the Saudi airport attack, and with refineries running at 92.7% capacity and diesel inventories relatively tight at 105 million barrels, a refiner like Marathon profits when crude prices rise and refining margins widen. Even though oil prices have pulled back slightly today as traders weigh Russian diesel supply prospects against Middle East tensions, the underlying environment for U.S. refiners remains supportive\u2014global oil at $125 per barrel versus U.S. oil at $96 suggests healthy refining spreads.\n\nThe broader context is geopolitical: Iran's nuclear fortification, the Saudi-Houthi conflict, and uncertainty over Trump's Russian diesel deal have kept energy markets volatile and elevated. Refiners benefit from this uncertainty because it keeps crude prices firm and creates margin opportunities, even if the long-term policy picture around sanctions remains unsettled.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 71,
-    "inputTokens": 66286,
-    "outputTokens": 16120,
-    "estimatedCostUsd": 0.146886,
-    "lastCallHour": "2026-10-13T05"
+    "callsThisMonth": 72,
+    "inputTokens": 67218,
+    "outputTokens": 16368,
+    "estimatedCostUsd": 0.149058,
+    "lastCallHour": "2026-10-13T13"
   }
 }
