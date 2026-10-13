@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T02:42:43.665553+00:00",
-  "text": "Marathon Petroleum rose 0.83% today, extending a sharp two-week rally of nearly 18% that's driven by rising oil prices and geopolitical tension in energy markets. Brent crude topped $106 a barrel after a deadly Saudi airport attack, and broader Middle East instability\u2014including potential U.S. military involvement against Iran-backed Houthis\u2014has kept crude prices elevated. Refineries are running at 92.7% capacity, near full utilization, which means the company benefits from both higher crude input costs and the ability to sell refined products (gasoline and diesel) at stronger margins when oil prices spike.\n\nThe rally also reflects tightening global energy supplies driven by geopolitical disruption; even the Trump administration's push to ease sanctions on Russian diesel to address domestic supply concerns has done little to dampen crude prices, suggesting the market sees lasting supply risk. With oil prices still up sharply over two weeks and refineries operating near capacity, refiners like Marathon are positioned to capture margin gains from processing expensive crude into sellable products.",
+  "fetchedAt": "2026-10-13T05:17:37.250709+00:00",
+  "text": "Marathon Petroleum stock rose 0.83% today after a volatile two-week rally that's pushed it up 17.8%. The modest daily gain comes as oil prices fell\u2014Brent crude dropped below $106 after climbing past it yesterday following a Saudi airport attack\u2014and traders reassess the global oil supply picture. Refineries are running at 92.7% capacity with healthy fuel inventory levels, suggesting the company isn't facing immediate supply or demand shocks that would drive sharper moves.\n\nThe larger story is the two-week surge itself, which reflects swings in geopolitical risk and U.S. energy policy. The Saudi-Houthi conflict, potential Russian diesel entering Western markets via Trump administration sanctions relief, and talk of direct U.S. military involvement in the Middle East have all created uncertainty about where crude prices\u2014and thus refinery margins\u2014are headed. For a refiner like Marathon, those margin swings matter far more than absolute barrel prices, and the sharp run-up likely reflects traders betting on tighter supplies or higher energy costs, though today's small move and falling oil prices suggest some of that enthusiasm is cooling.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 70,
-    "inputTokens": 65351,
-    "outputTokens": 15875,
-    "estimatedCostUsd": 0.144726,
-    "lastCallHour": "2026-10-13T02"
+    "callsThisMonth": 71,
+    "inputTokens": 66286,
+    "outputTokens": 16120,
+    "estimatedCostUsd": 0.146886,
+    "lastCallHour": "2026-10-13T05"
   }
 }

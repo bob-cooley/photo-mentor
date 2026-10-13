@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-13T02:42:24.939901+00:00",
-  "text": "ConocoPhillips rose 2.6% today as oil prices surged on geopolitical tensions in the Middle East and Eastern Europe. A deadly Saudi airport attack pushed Brent crude above $106 a barrel, while uncertainty around a U.S.-brokered energy ceasefire between Russia and Ukraine kept markets on edge. The stock has climbed 9% over two weeks as global oil prices have climbed\u2014Brent is now trading at $125.44 per barrel, well above the $96 level for U.S. crude, signaling tight global supplies.\n\nEnergy companies like ConocoPhillips tend to benefit when oil prices rise, since higher crude translates to stronger margins on their production and refining operations. The ongoing Middle East tensions and questions about whether Russian energy sanctions will fully ease add to the bullish backdrop for oil prices heading into the final stretch before the midterm elections.",
+  "fetchedAt": "2026-10-13T05:17:23.017308+00:00",
+  "text": "ConocoPhillips rose 2.6% today to $137.56, continuing a sharp six-day rally that's gained 9% overall since October 5th. The immediate driver appears to be oil price momentum: while crude fell slightly today as traders weighed Russian diesel supply prospects against Middle East tensions, the stock is riding a broader surge tied to geopolitical risk premiums \u2014 the deadly Saudi airport attack on October 12th sent Brent crude above $106, and potential U.S. military involvement against Iran-backed Houthis in the Red Sea threatens shipping lanes that matter for global energy flows. For an oil producer like ConocoPhillips, higher crude prices translate directly to higher revenues and cash flow.\n\nThe Trump administration's push to ease Russian diesel sanctions and potential military escalation in the Middle East create crosscurrents \u2014 one adding supply, one potentially disrupting it \u2014 but the net effect so far has been upward pressure on oil prices and the stocks that benefit from them. At $96 per barrel for U.S. crude and $125 for Brent (a $29 gap that partly reflects Middle East risk), producers are capturing significantly higher margins than they would in a calm, well-supplied market.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 70,
-    "inputTokens": 61135,
-    "outputTokens": 14953,
-    "estimatedCostUsd": 0.1359,
-    "lastCallHour": "2026-10-13T02"
+    "callsThisMonth": 71,
+    "inputTokens": 62009,
+    "outputTokens": 15221,
+    "estimatedCostUsd": 0.138114,
+    "lastCallHour": "2026-10-13T05"
   }
 }

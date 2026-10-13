@@ -48,17 +48,22 @@
     "https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim": "2026-10-12T06:56:18.986646+00:00",
     "https://www.pravda.com.ua/eng/news/2026/10/11/8057517/": "2026-10-12T06:56:20.931169+00:00",
     "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire": "2026-10-12T06:56:23.188317+00:00",
-    "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy": "2026-10-12T06:56:25.580115+00:00"
+    "https://www.theguardian.com/world/2026/oct/11/houthi-attack-riyadh-airport-donald-trump-strategy": "2026-10-12T06:56:25.580115+00:00",
+    "https://www.theguardian.com/world/2026/oct/13/ukraine-war-briefing-russian-diesel-exports-could-return-to-past-levels-after-trump-deal-moscow-claims": "2026-10-13T05:18:24.709193+00:00",
+    "https://www.theguardian.com/news/video/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest": "2026-10-13T05:18:26.336050+00:00",
+    "https://www.theguardian.com/world/2026/oct/12/zelenskyy-vows-retaliate-russia-strikes-ukraine-power-grid": "2026-10-13T05:18:29.158002+00:00",
+    "https://www.theguardian.com/news/audio/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest": "2026-10-13T05:18:29.833262+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/10/12/8057666/": "2026-10-13T05:18:34.261761+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 11,
-    "inputTokens": 14080,
-    "outputTokens": 1352,
-    "estimatedCostUsd": 0.02084
+    "calls": 16,
+    "inputTokens": 19502,
+    "outputTokens": 2347,
+    "estimatedCostUsd": 0.031237
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-10-12T06:56:25.580413+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-10-13T05:18:34.261868+00:00"
 }
