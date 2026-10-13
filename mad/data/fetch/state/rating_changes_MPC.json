@@ -1,11 +1,31 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-10-12T02:01:00.389981+00:00",
+    "fetchedAt": "2026-10-13T15:52:54.632741+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-10-12",
+        "firm": "Barclays",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 321.0,
+        "targetTo": 488.0
+      },
+      {
+        "date": "2026-10-12",
+        "firm": "Evercore ISI Group",
+        "kind": "maintained",
+        "fromGrade": "In-Line",
+        "toGrade": "In-Line",
+        "targetAction": "Raises",
+        "targetFrom": 330.0,
+        "targetTo": 420.0
+      },
       {
         "date": "2026-10-08",
         "firm": "Mizuho",
