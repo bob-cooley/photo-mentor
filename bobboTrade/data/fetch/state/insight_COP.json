@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-13T13:28:59.582047+00:00",
-  "text": "ConocoPhillips stock rose 2.6% today to $137.56, building on a sharp nine-day rally that's seen the stock climb 9% since October 5. The immediate catalyst appears to be the gap between U.S. and global oil prices: U.S. crude is trading at $96 per barrel while Brent (the global benchmark) sits at $125\u2014a $29-per-barrel spread driven by Middle East tensions, including Iranian nuclear developments and ongoing Saudi-Houthi conflict. For an oil major like ConocoPhillips, higher global crude prices directly boost profits on barrels sold into world markets, especially as geopolitical risk premiums keep prices elevated.\n\nThe broader backdrop is a tug-of-war between supply concerns and relief. While the Trump administration's effort to allow Russian diesel into U.S. markets aims to ease the diesel crunch, traders and analysts have questioned whether it will actually bring meaningful price relief\u2014meaning the geopolitical risk premium (the extra dollars investors pay for oil because of regional instability) looks sticky. That keeps crude prices firm for oil producers, supporting the stock's momentum over the past two weeks.",
+  "fetchedAt": "2026-10-13T15:50:08.813922+00:00",
+  "text": "ConocoPhillips rose 1.8% today to $140.10, continuing a strong two-week rally that's gained nearly 12% since early October. The immediate driver is geopolitical tension in the Middle East: Iran is fortifying nuclear sites amid U.S. strike threats, and Saudi-led forces are intercepting attacks from Iranian-backed Houthis on Riyadh. These escalation risks tighten the oil market's risk premium, especially with world oil prices at $125 per barrel\u2014even though U.S. crude has pulled back to $96 as traders weigh offsetting factors like potential Russian diesel flowing into global supply.\n\nThe broader backdrop helping energy stocks is the tension between supply disruption fears and the reality of easing sanctions on Russian fuel exports. While analysts expect little actual price relief from U.S. deals to import Russian diesel, the ongoing uncertainty\u2014combined with Middle East flashpoints\u2014keeps crude valuations elevated enough to support gains for major oil producers.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 72,
-    "inputTokens": 62880,
-    "outputTokens": 15478,
-    "estimatedCostUsd": 0.14027,
-    "lastCallHour": "2026-10-13T13"
+    "callsThisMonth": 73,
+    "inputTokens": 63750,
+    "outputTokens": 15694,
+    "estimatedCostUsd": 0.14222,
+    "lastCallHour": "2026-10-13T15"
   }
 }
