@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T19:01:29.024774+00:00",
-  "text": "Marathon Petroleum stock jumped 3.2% today to $473.38, capping a remarkable 20.75% rally over two weeks. The surge reflects a sharp rally in oil prices\u2014crude rose from the mid-$80s two weeks ago to $96 per barrel today\u2014which boosts refiner margins and earnings potential. Refineries are running at a healthy 92.7% capacity, meaning the company can process more barrels at higher prices to capture that spread between crude input costs and fuel output prices.\n\nThe near-term backdrop adds to the bullish tilt: uncertainty around a Trump administration diesel deal with Russia has left traders uncertain whether global fuel supplies will actually rise, while geopolitical friction in the Middle East (Saudi attacks, Iran tensions, Houthi strikes on shipping) keeps upside risk in crude prices alive. For a refiner, sustained higher oil prices and tight supply conditions are profitable, even if they pinch consumer wallets heading into midterm elections.",
+  "fetchedAt": "2026-10-13T20:02:06.985909+00:00",
+  "text": "Marathon Petroleum stock jumped 3.95% today, adding to a sharp 21.7% climb over two weeks. The immediate driver appears to be oil price strength\u2014world crude is trading at $125.44 per barrel, well above US prices at $96.24, and refineries are running at 92.7% capacity, near full utilization. Reports of geopolitical tensions (Iran fortifying nuclear sites, Saudi airport attack, Saudi-Houthi conflict) and supply uncertainty around Russian diesel are keeping crude elevated and supporting refiner margins, since higher oil prices boost the value of refined products relative to crude costs.\n\nThe broader picture is that a refiner benefits when global oil prices stay elevated and regional supply gets tight\u2014even as political pressure mounts to bring fuel prices down. With elections weeks away and Trump negotiating Russian diesel imports, there's real uncertainty about future supply, which keeps the market pricing in scarcity premiums that work in refiners' favor right now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 76,
-    "inputTokens": 70941,
-    "outputTokens": 17237,
-    "estimatedCostUsd": 0.157126,
-    "lastCallHour": "2026-10-13T19"
+    "callsThisMonth": 77,
+    "inputTokens": 71861,
+    "outputTokens": 17448,
+    "estimatedCostUsd": 0.159101,
+    "lastCallHour": "2026-10-13T20"
   }
 }
