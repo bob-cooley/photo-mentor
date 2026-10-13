@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T15:53:07.887279+00:00",
-  "text": "Marathon Petroleum gained 2.8% today, climbing to $471.68, as oil prices stabilized after several days of geopolitical anxiety. The stock has surged 20% over two weeks alongside crude\u2014U.S. oil is trading at $96 per barrel today while Brent (global crude) sits around $106, both elevated by conflict risks in the Middle East and uncertainty over Russian sanctions. Refineries are running at 92.7% capacity, a healthy level that means the company can convert higher crude costs into refined products like diesel and gasoline at decent margins.\n\nThe near-term narrative has shifted from pure crisis to cautious calculation: Trump's reported diesel deal with Russia would add supplies but represents less than two weeks of U.S. demand, so it won't crater prices overnight. Meanwhile, the Saudi-Houthi conflict and Iran nuclear tensions remain live risks that could disrupt supplies again, keeping a floor under crude valuations and supporting refinery profitability. For a refiner like this, that combination of decent utilization rates and crude prices elevated by supply anxiety\u2014rather than demand strength\u2014tends to sustain margins without the downside risk of demand collapse.",
+  "fetchedAt": "2026-10-13T17:15:10.146580+00:00",
+  "text": "Marathon Petroleum rose 2.76% today as oil prices stabilized and refining margins stayed supported. U.S. crude held around $96 per barrel while Brent stayed above $106, and with refineries running at 92.7% capacity\u2014near full utilization\u2014the company benefits from both steady throughput and the wider gap between crude costs and refined product prices. The competing narratives about Russian diesel flooding the market versus potential supply disruptions from geopolitical tensions created mixed signals for oil prices, but the net effect was supportive for a major U.S. refiner.\n\nThe stock's broader 20% surge over two weeks reflects a sharp reversal in refining fundamentals. Gasoline and diesel inventories remain relatively lean (204.7 million and 105.1 million barrels respectively), which tightens margins in the refiner's favor\u2014they make money when fuel is scarce relative to crude. Geopolitical risk premiums in crude, particularly around Saudi Arabia and potential Iranian retaliation, continue to underpin oil prices despite the near-term overhang of potential Russian supply coming online.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 5,
-    "inputTokens": 4648,
-    "outputTokens": 1166,
-    "estimatedCostUsd": 0.010478,
-    "lastCallHour": "2026-10-13T15"
+    "callsThisMonth": 6,
+    "inputTokens": 5582,
+    "outputTokens": 1410,
+    "estimatedCostUsd": 0.012632,
+    "lastCallHour": "2026-10-13T17"
   }
 }
