@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-12T23:27:48.603794+00:00",
-  "text": "Marathon Petroleum rose 0.83% today, a modest gain in a much larger two-week surge of nearly 18%. The bigger picture is what's driving the stock: crude oil has spiked sharply (US oil at $96.24, up from much lower levels earlier this month), refineries are running at 92.7% capacity, and storage levels for gasoline and diesel remain relatively tight. A deadly Saudi airport attack pushed Brent crude above $106, and geopolitical tensions around a potential U.S. role in Middle East energy security have kept oil prices elevated.\n\nThe two-week rally reflects a shift in the refining outlook. Refiners like Marathon profit when crude prices rise faster than fuel prices fall, and right now the combination of geopolitical risk premiums in oil, high refinery utilization, and tightening product supplies is creating the conditions for strong margins. While talk of easing Russia sanctions and importing Russian diesel suggests some supply relief down the road, near-term energy market stress is working in Marathon's favor.",
+  "fetchedAt": "2026-10-13T02:42:43.665553+00:00",
+  "text": "Marathon Petroleum rose 0.83% today, extending a sharp two-week rally of nearly 18% that's driven by rising oil prices and geopolitical tension in energy markets. Brent crude topped $106 a barrel after a deadly Saudi airport attack, and broader Middle East instability\u2014including potential U.S. military involvement against Iran-backed Houthis\u2014has kept crude prices elevated. Refineries are running at 92.7% capacity, near full utilization, which means the company benefits from both higher crude input costs and the ability to sell refined products (gasoline and diesel) at stronger margins when oil prices spike.\n\nThe rally also reflects tightening global energy supplies driven by geopolitical disruption; even the Trump administration's push to ease sanctions on Russian diesel to address domestic supply concerns has done little to dampen crude prices, suggesting the market sees lasting supply risk. With oil prices still up sharply over two weeks and refineries operating near capacity, refiners like Marathon are positioned to capture margin gains from processing expensive crude into sellable products.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 69,
-    "inputTokens": 64410,
-    "outputTokens": 15647,
-    "estimatedCostUsd": 0.142645,
-    "lastCallHour": "2026-10-12T23"
+    "callsThisMonth": 70,
+    "inputTokens": 65351,
+    "outputTokens": 15875,
+    "estimatedCostUsd": 0.144726,
+    "lastCallHour": "2026-10-13T02"
   }
 }
