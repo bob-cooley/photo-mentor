@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-13T15:50:08.813922+00:00",
-  "text": "ConocoPhillips rose 1.8% today to $140.10, continuing a strong two-week rally that's gained nearly 12% since early October. The immediate driver is geopolitical tension in the Middle East: Iran is fortifying nuclear sites amid U.S. strike threats, and Saudi-led forces are intercepting attacks from Iranian-backed Houthis on Riyadh. These escalation risks tighten the oil market's risk premium, especially with world oil prices at $125 per barrel\u2014even though U.S. crude has pulled back to $96 as traders weigh offsetting factors like potential Russian diesel flowing into global supply.\n\nThe broader backdrop helping energy stocks is the tension between supply disruption fears and the reality of easing sanctions on Russian fuel exports. While analysts expect little actual price relief from U.S. deals to import Russian diesel, the ongoing uncertainty\u2014combined with Middle East flashpoints\u2014keeps crude valuations elevated enough to support gains for major oil producers.",
+  "fetchedAt": "2026-10-13T17:06:45.522740+00:00",
+  "text": "ConocoPhillips rose 1.83% today to $140.08, continuing a sharp two-week rally that's now up 11.67%. The stock is riding a wave driven by oil price volatility: while U.S. crude sits at $96.24 per barrel, global Brent crude has spiked to $125.44, creating a wide price gap that benefits large integrated oil producers with global operations. Recent geopolitical tensions \u2014 potential U.S. strikes on Iran, Saudi airport attacks, and Houthi attacks on shipping lanes \u2014 have kept crude elevated despite headlines about Russian diesel entering markets, which might otherwise have capped prices.\n\nThe broader context is that energy markets are pricing in real supply-risk premium right now. Disruptions to Middle Eastern oil flows (whether from Iran, Saudi Arabia, or the Houthi threat to Red Sea shipping) matter far more to global prices than the modest volume of Russian diesel the Trump administration is negotiating, so crude has stayed firm enough to support oil-stock gains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 73,
-    "inputTokens": 63750,
-    "outputTokens": 15694,
-    "estimatedCostUsd": 0.14222,
-    "lastCallHour": "2026-10-13T15"
+    "callsThisMonth": 74,
+    "inputTokens": 64623,
+    "outputTokens": 15920,
+    "estimatedCostUsd": 0.144223,
+    "lastCallHour": "2026-10-13T17"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T15:50:37.510935+00:00",
-  "text": "Marathon Petroleum stock rose 2.85% today, continuing a sharp two-week rally that's gained over 20% since early October. The refining industry has been a beneficiary of tightening diesel supplies and elevated global oil prices\u2014Brent crude topped $106 earlier this week after geopolitical disruptions, and U.S. refineries are running at 92.7% capacity to meet strong demand. As a major U.S. refiner, Marathon profits when crude costs less relative to the refined products it sells, especially when diesel commands a premium due to supply constraints.\n\nThe near-term backdrop remains volatile but supportive for refiners. While oil prices have pulled back slightly today as traders weigh competing supply stories\u2014potential Russian diesel entering markets versus ongoing Middle East tensions from the Saudi-Houthi conflict\u2014U.S. refinery utilization stays elevated and diesel storage remains relatively lean at 105 million barrels. That combination of steady run rates and tight product supplies is exactly what keeps refiner margins resilient in an environment of geopolitical uncertainty.",
+  "fetchedAt": "2026-10-13T17:07:14.582431+00:00",
+  "text": "Marathon Petroleum rose 2.65% today as oil refining margins strengthened amid mixed signals in crude markets. Brent crude topped $106 yesterday following a Saudi airport attack, and while oil prices have since pulled back as traders weigh new Russian diesel supply against existing geopolitical tensions, U.S. refineries are running at 92.7% utilization \u2014 near full capacity \u2014 which means any stable or elevated crude prices translate directly into higher profits on the fuel they produce and sell.\n\nThe stock's 20% surge over two weeks reflects a broader tailwind: geopolitical uncertainty in the Middle East (Iran fortifying nuclear sites, Houthi attacks on Saudi infrastructure) is keeping crude prices elevated and volatile, while storage levels for gasoline and diesel remain moderate, supporting refiner margins. Even as traders debate whether new Russian diesel imports will ease global fuel costs, the current tight supply environment and high refinery utilization are working in Marathon's favor.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 73,
-    "inputTokens": 68149,
-    "outputTokens": 16599,
-    "estimatedCostUsd": 0.151144,
-    "lastCallHour": "2026-10-13T15"
+    "callsThisMonth": 74,
+    "inputTokens": 69083,
+    "outputTokens": 16804,
+    "estimatedCostUsd": 0.153103,
+    "lastCallHour": "2026-10-13T17"
   }
 }
