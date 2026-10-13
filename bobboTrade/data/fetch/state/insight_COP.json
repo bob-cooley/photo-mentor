@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-13T17:06:45.522740+00:00",
-  "text": "ConocoPhillips rose 1.83% today to $140.08, continuing a sharp two-week rally that's now up 11.67%. The stock is riding a wave driven by oil price volatility: while U.S. crude sits at $96.24 per barrel, global Brent crude has spiked to $125.44, creating a wide price gap that benefits large integrated oil producers with global operations. Recent geopolitical tensions \u2014 potential U.S. strikes on Iran, Saudi airport attacks, and Houthi attacks on shipping lanes \u2014 have kept crude elevated despite headlines about Russian diesel entering markets, which might otherwise have capped prices.\n\nThe broader context is that energy markets are pricing in real supply-risk premium right now. Disruptions to Middle Eastern oil flows (whether from Iran, Saudi Arabia, or the Houthi threat to Red Sea shipping) matter far more to global prices than the modest volume of Russian diesel the Trump administration is negotiating, so crude has stayed firm enough to support oil-stock gains.",
+  "fetchedAt": "2026-10-13T18:01:15.821483+00:00",
+  "text": "ConocoPhillips rose 2.1% today as oil prices held steady at elevated levels\u2014US crude is trading at $96.24 per barrel while global Brent crude is at $125.44, a wide spread driven by geopolitical supply concerns. The stock has climbed 12% over the past two weeks as a backdrop of Middle East tensions (Saudi airport attack, Houthi strikes on shipping lanes) and Ukraine energy disruptions kept crude prices firm, offsetting some downward pressure from the Trump administration's push to increase Russian diesel supplies to cool fuel prices before the midterm elections.\n\nThe sharp gap between US and global oil prices reflects a key reality for a major oil producer: while supply disruption fears support crude values abroad, political pressure to flood markets with discounted Russian fuel creates cross-currents that keep long-term price direction uncertain heading into the election period.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 74,
-    "inputTokens": 64623,
-    "outputTokens": 15920,
-    "estimatedCostUsd": 0.144223,
-    "lastCallHour": "2026-10-13T17"
+    "callsThisMonth": 75,
+    "inputTokens": 65499,
+    "outputTokens": 16111,
+    "estimatedCostUsd": 0.146054,
+    "lastCallHour": "2026-10-13T18"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T17:07:14.582431+00:00",
-  "text": "Marathon Petroleum rose 2.65% today as oil refining margins strengthened amid mixed signals in crude markets. Brent crude topped $106 yesterday following a Saudi airport attack, and while oil prices have since pulled back as traders weigh new Russian diesel supply against existing geopolitical tensions, U.S. refineries are running at 92.7% utilization \u2014 near full capacity \u2014 which means any stable or elevated crude prices translate directly into higher profits on the fuel they produce and sell.\n\nThe stock's 20% surge over two weeks reflects a broader tailwind: geopolitical uncertainty in the Middle East (Iran fortifying nuclear sites, Houthi attacks on Saudi infrastructure) is keeping crude prices elevated and volatile, while storage levels for gasoline and diesel remain moderate, supporting refiner margins. Even as traders debate whether new Russian diesel imports will ease global fuel costs, the current tight supply environment and high refinery utilization are working in Marathon's favor.",
+  "fetchedAt": "2026-10-13T18:01:28.691938+00:00",
+  "text": "Marathon Petroleum rose 3.26% today as oil prices stabilized amid conflicting supply signals\u2014Russian diesel potentially entering markets could ease fuel costs, but Middle Eastern tensions (Saudi attacks, Iran nuclear fortification, ongoing Houthi strikes) continue to threaten regional supply. U.S. refineries are running at 92.7% capacity with crude inventories at comfortable levels, so the refiner is well-positioned to profit if global oil prices remain elevated while domestic fuel supplies stay ample.\n\nThe stock's 20.85% surge over two weeks reflects a broader tailwind for refiners: Brent crude topped $106 just yesterday on geopolitical risk, and the wide gap between world oil ($125.44/barrel) and U.S. oil ($96.24/barrel) creates favorable margins for companies that process crude and sell refined products into global markets. Even if Trump's Russian diesel deal materializes, it represents only two weeks of U.S. demand, so supply concerns aren't disappearing anytime soon.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 74,
-    "inputTokens": 69083,
-    "outputTokens": 16804,
-    "estimatedCostUsd": 0.153103,
-    "lastCallHour": "2026-10-13T17"
+    "callsThisMonth": 75,
+    "inputTokens": 70020,
+    "outputTokens": 17026,
+    "estimatedCostUsd": 0.15515,
+    "lastCallHour": "2026-10-13T18"
   }
 }
