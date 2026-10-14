@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-10-13T20:07:15.820740+00:00",
+    "fetchedAt": "2026-10-14T00:06:55.361340+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-10-13",
+        "firm": "Citigroup",
+        "kind": "maintained",
+        "fromGrade": "Neutral",
+        "toGrade": "Neutral",
+        "targetAction": "Raises",
+        "targetFrom": 318.0,
+        "targetTo": 518.0
+      },
       {
         "date": "2026-10-12",
         "firm": "Barclays",

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T21:01:18.943998+00:00",
-  "text": "Marathon Petroleum jumped 3.9% today to $476.87, extending a remarkable two-week rally of over 21%. The stock's surge reflects tightening global oil supply conditions: Brent crude topped $106 after a deadly attack on a Saudi airport, while geopolitical tensions\u2014including a potential U.S. strike on Iranian nuclear sites and ongoing Houthi attacks in the Middle East\u2014are creating concerns about disruptions to oil shipments. U.S. refineries are running at 92.7% capacity, and with global oil prices well above domestic prices ($125 versus $96 per barrel), refiners like Marathon profit from the ability to process cheap domestic crude and sell refined products into a higher-priced global market.\n\nThe broader context here is that crude oil supply fears are outweighing the modest boost from Trump's reported diesel deal with Russia\u2014a deal that analysts note would cover less than two weeks of U.S. demand anyway. Rising geopolitical risk in the Middle East, combined with tight refinery operations and wide price gaps between U.S. and global oil markets, creates the kind of environment where independent refiners typically see margin expansion and stronger profitability.",
+  "fetchedAt": "2026-10-14T00:07:05.619041+00:00",
+  "text": "Marathon Petroleum climbed 4% today, continuing a sharp rally that has added over 21% in two weeks. The immediate driver is rising oil prices\u2014Brent crude topped $106 following a deadly attack on a Saudi airport and ongoing conflict concerns\u2014combined with refineries running near capacity (92.7%) and relatively low diesel storage, which creates better margins for refiners to convert crude into saleable products.\n\nThe broader context is geopolitical uncertainty supporting energy prices: the Saudi-Houthi conflict, potential Russian diesel entering (or not entering) global markets depending on U.S. political decisions, and tension around Iran's nuclear sites all create an environment where crude stays elevated and refining capacity becomes more valuable. Refiners like Marathon benefit when oil prices rise faster than they can pass those costs through\u2014a situation that has clearly held over the past two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 78,
-    "inputTokens": 72781,
-    "outputTokens": 17707,
-    "estimatedCostUsd": 0.161316,
-    "lastCallHour": "2026-10-13T21"
+    "callsThisMonth": 79,
+    "inputTokens": 73703,
+    "outputTokens": 17893,
+    "estimatedCostUsd": 0.163168,
+    "lastCallHour": "2026-10-14T00"
   }
 }
