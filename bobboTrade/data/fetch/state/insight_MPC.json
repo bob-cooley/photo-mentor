@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T11:07:53.526335+00:00",
-  "text": "Marathon Petroleum rose 4% today as oil prices climbed on Middle East supply concerns and diesel stayed tight. The IEA warned that diesel shortages will persist into 2027 due to Iran war disruptions and falling inventories, while Saudi officials reported attacks on Aramco facilities\u2014news that pushed crude prices higher. For a refiner like Marathon, tighter diesel supplies and higher crude costs can improve refining margins (the profit from turning crude into finished fuel), especially when diesel commands premium prices due to scarcity.\n\nThe stock's 22% surge over two weeks reflects a broader shift: traders have moved from worrying about Russian diesel flooding the market (which would cheapen fuel) to focusing on Middle East supply risks and sustained tight conditions. With U.S. refineries running at 92.7% capacity and diesel inventories lean at 105 million barrels, the refiner can push higher margins as long as demand holds and supply stays constrained.",
+  "fetchedAt": "2026-10-14T13:03:50.242743+00:00",
+  "text": "Marathon Petroleum jumped nearly 4% today, extending a 22% gain over two weeks, as Middle East tensions escalated the price of crude oil and tightened diesel markets \u2014 exactly the conditions that boost refiner profits. Attacks on Saudi Arabia's Aramco facilities and threats from Iran triggered concerns about global oil supply disruptions, pushing world oil prices to $125 a barrel (the U.S. benchmark sits lower at $96). Refineries are already running at 92.7% capacity, and diesel inventories are unusually lean at 105 million barrels; the IEA warned this squeeze will persist into 2027, meaning refiners can sell fuel at wider profit margins as they process available crude into scarce products.\n\nThis two-week rally reflects the structural advantage refiners face when geopolitical shocks create supply anxiety and inventory tightness simultaneously. The company benefits not just from higher crude prices, but from the gap between crude and refined product prices widening \u2014 diesel in particular is now a premium product with constrained supply and steady demand.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 81,
-    "inputTokens": 75528,
-    "outputTokens": 18308,
-    "estimatedCostUsd": 0.167068,
-    "lastCallHour": "2026-10-14T11"
+    "callsThisMonth": 82,
+    "inputTokens": 76431,
+    "outputTokens": 18536,
+    "estimatedCostUsd": 0.169111,
+    "lastCallHour": "2026-10-14T13"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T11:07:00.711050+00:00",
-  "text": "COP rose 2.4% today to close at $140.90, extending a strong two-week rally (up 12% since October 6th). The move follows news that the IEA warned of a severe diesel squeeze extending into 2027 due to Iran war disruptions and falling inventories, which sent oil prices higher \u2014 world oil is trading at $125.44 per barrel, well above the U.S. benchmark of $96.24. For a major oil producer and refiner like ConocoPhillips, sustained tight diesel markets and elevated global crude prices directly support both production revenue and refining margins.\n\nThe stock's momentum reflects a broader shift in energy market expectations: geopolitical disruption in the Middle East and supply tightness are now seen as structural, not temporary, which favors integrated energy companies positioned to benefit from higher prices and constrained supply over the coming year.",
+  "fetchedAt": "2026-10-14T13:02:34.497714+00:00",
+  "text": "ConocoPhillips rose 2.4% today as oil prices climbed on fresh Middle East supply concerns. Escalating tensions in Iran and Saudi Arabia\u2014including reported attacks on Saudi Aramco facilities and Iranian threats toward U.S. assets\u2014have spooked energy markets and pushed crude prices higher, with world oil now trading at $125 per barrel. The stock has gained 12% over two weeks as these geopolitical risks have compounded.\n\nThe tightness extends beyond crude itself. The International Energy Agency warned that diesel supply will remain constrained well into 2027 due to Iran-related disruptions, falling inventories, and persistent demand\u2014a supply squeeze that benefits refiners and integrated oil producers like ConocoPhillips, which have exposure to both crude and refined products.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 81,
-    "inputTokens": 70643,
-    "outputTokens": 17251,
-    "estimatedCostUsd": 0.156898,
-    "lastCallHour": "2026-10-14T11"
+    "callsThisMonth": 82,
+    "inputTokens": 71485,
+    "outputTokens": 17424,
+    "estimatedCostUsd": 0.158605,
+    "lastCallHour": "2026-10-14T13"
   }
 }
