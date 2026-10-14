@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T18:02:32.838150+00:00",
-  "text": "ConocoPhillips rose 1.0% today as oil prices climbed on escalating Middle East tensions. Iran has intensified attacks on Saudi Arabian facilities and commercial shipping in the Strait of Hormuz, stoking fears of supply disruptions that pushed global crude prices to $125.44 per barrel\u2014a significant jump from the $96 range seen in U.S. markets. For an oil producer like ConocoPhillips, higher crude prices directly boost profit margins on barrels it sells.\n\nThe stock's broader two-week surge of 13.8% reflects a sustained rally as geopolitical risk has mounted. Diesel supply is now expected to remain constrained well into 2027 due to Iran-related disruptions and falling inventories, which reinforces the expectation of elevated energy prices for the foreseeable future\u2014supporting valuations across upstream producers.",
+  "fetchedAt": "2026-10-14T19:01:07.289947+00:00",
+  "text": "ConocoPhillips rose 0.87% today to $142.13, continuing a sharp two-week rally of 13.6%. The move reflects escalating geopolitical tension in the Middle East\u2014container ships are being attacked in the Strait of Hormuz and Saudi Aramco facilities have come under strike, triggering genuine concern about oil supply disruptions. This pushed global oil prices to $125.44 per barrel today, while U.S. crude climbed to $96.24, and oil companies like ConocoPhillips benefit directly when crude prices rise because they sell at these higher rates.\n\nThe broader context: the International Energy Agency has now warned publicly that diesel supply will stay squeezed through 2027 due to Iran-related disruption, falling inventories, and steady demand. That kind of structural supply tightness\u2014not just a temporary price spike\u2014tends to support energy stocks over time, which likely explains why the stock has gained more than 13% in just two weeks as the conflict risks have become clearer.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 87,
-    "inputTokens": 75715,
-    "outputTokens": 18485,
-    "estimatedCostUsd": 0.16814,
-    "lastCallHour": "2026-10-14T18"
+    "callsThisMonth": 88,
+    "inputTokens": 76565,
+    "outputTokens": 18713,
+    "estimatedCostUsd": 0.17013,
+    "lastCallHour": "2026-10-14T19"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T18:03:29.520074+00:00",
-  "text": "Marathon Petroleum rose 0.46% today, adding to a sharp 21% gain over the past two weeks. The move fits a broader rally in refining stocks driven by escalating geopolitical tensions in the Middle East\u2014Iran's attacks on Saudi Aramco facilities and container ships in the Strait of Hormuz have rattled oil markets and pushed crude prices higher (U.S. oil at $96/barrel, global crude at $125), while refineries are running at 92.7% capacity. Higher oil prices and constrained global supply typically lift refiner margins, though this also depends on fuel demand and inventory levels.\n\nThe tight diesel supply outlook through 2027\u2014driven by Iran-related disruptions, falling inventories, and strong demand\u2014is particularly relevant to a refiner's bottom line, since diesel commands premium margins in squeezed markets. Combined with refineries already running near full capacity, the company stands to benefit from sustained pricing pressure on refined products even as crude costs rise.",
+  "fetchedAt": "2026-10-14T19:01:22.802048+00:00",
+  "text": "Marathon Petroleum's stock rose 0.69% today, extending a strong two-week rally of 21.5%, as oil prices climbed on Middle East supply fears. Saudi Aramco facilities came under attack and Iran escalated strikes on commercial ships in the Strait of Hormuz, raising concerns about crude oil supply disruptions\u2014exactly the kind of geopolitical tension that benefits refiners who profit from converting crude into products like diesel and gasoline.\n\nThe broader tailwind here is a diesel shortage expected to persist into 2027. With diesel inventories already tight and global conflicts disrupting supply chains, refiners like Marathon are positioned to capture premium margins on fuel production. U.S. refineries are running at 92.7% capacity, near maximum utilization, which means they're already squeezing every barrel they can into products\u2014and those products are commanding higher prices in a constrained market.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 87,
-    "inputTokens": 80968,
-    "outputTokens": 19707,
-    "estimatedCostUsd": 0.179503,
-    "lastCallHour": "2026-10-14T18"
+    "callsThisMonth": 88,
+    "inputTokens": 81879,
+    "outputTokens": 19901,
+    "estimatedCostUsd": 0.181384,
+    "lastCallHour": "2026-10-14T19"
   }
 }
