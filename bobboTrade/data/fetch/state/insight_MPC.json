@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T21:01:28.581924+00:00",
-  "text": "Marathon Petroleum's stock rose 1.6% today, continuing a sharp two-week rally of 22.6%. The driver is clear: escalating Middle East tensions have pushed global crude oil prices to $125 per barrel (a 30% jump over the US domestic price), while refinery utilization sits at 92.7%\u2014near full capacity. When crude prices spike and refineries are running hard, refiners' profit margins typically widen because they can pass costs through faster than their input expenses rise. News of Iranian attacks on shipping in the Strait of Hormuz and strikes on Saudi Aramco facilities directly threatened global oil supply on today's trading session, lifting the entire sector.\n\nThe tightness is expected to persist: the International Energy Agency warned that diesel supplies will remain constrained well into 2027 due to the Iran conflict, falling inventories, and strong demand. For a refiner like this one, sustained high crude prices coupled with tight product inventories and full utilization rates creates an extended window of favorable economics.",
+  "fetchedAt": "2026-10-14T23:38:58.654077+00:00",
+  "text": "Marathon Petroleum rose 1.66% today, extending a sharp two-week rally of 22.6%. The move reflects an escalation in Middle Eastern tensions: Iran attacked Saudi Aramco facilities and a container ship in the Strait of Hormuz, raising concerns about crude oil supply disruptions. With global oil prices climbing to $125 per barrel (versus $96 domestically), refiners like Marathon benefit from wider profit margins on the fuel they produce and sell.\n\nThe broader tailwind is a diesel shortage expected to persist into 2027 due to the Iran conflict, falling inventories, and strong demand. Refineries are already running at 92.7% capacity, leaving little room to ramp up production\u2014which means tight supply conditions and stronger pricing power for fuel producers over an extended period.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 90,
-    "inputTokens": 83701,
-    "outputTokens": 20317,
-    "estimatedCostUsd": 0.185286,
-    "lastCallHour": "2026-10-14T21"
+    "callsThisMonth": 91,
+    "inputTokens": 84613,
+    "outputTokens": 20491,
+    "estimatedCostUsd": 0.187068,
+    "lastCallHour": "2026-10-14T23"
   }
 }

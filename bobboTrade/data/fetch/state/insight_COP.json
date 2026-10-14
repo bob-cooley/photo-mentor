@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T21:01:13.536299+00:00",
-  "text": "ConocoPhillips rose 1% today to $142.37, continuing a sharp two-week rally that's now up 13.76%. The immediate driver is escalating geopolitical tensions in the Middle East\u2014Iran has intensified attacks on commercial shipping in the Strait of Hormuz and targeted Saudi oil facilities, triggering concerns about global crude supply disruptions. Oil prices jumped on the news, with global crude now trading at $125 per barrel (up sharply from typical levels), and that higher price environment directly benefits ConocoPhillips as a major oil producer.\n\nThe broader context fueling this sustained rally is a genuine tightening in global energy markets: the International Energy Agency has warned of supply constraints, and diesel shortages are expected to persist into 2027 as Iran-related disruptions combine with falling inventories. For an oil and gas major like ConocoPhillips, this means higher realized prices for its production over a longer horizon, not just a one-day spike\u2014which is why the stock has gained nearly 14% in two weeks rather than just bouncing on today's headlines.",
+  "fetchedAt": "2026-10-14T23:38:43.889485+00:00",
+  "text": "ConocoPhillips rose 1% today to $142.34, continuing a sharp two-week rally that's gained nearly 14% since early October. The driver is escalating geopolitical tension in the Middle East \u2014 Iran has intensified attacks on commercial shipping in the Strait of Hormuz and struck Saudi Aramco facilities, raising concerns about potential supply disruptions. These fears pushed global crude oil prices to $125.44 per barrel today, well above the U.S. domestic price of $96.24, which benefits major producers like ConocoPhillips that export and operate internationally.\n\nThe broader context is that supply concerns in the Middle East are persisting into 2027 according to the International Energy Agency, and diesel specifically is expected to remain constrained. For an integrated energy producer, sustained higher global oil prices and the prospect of tighter energy markets ahead create a longer runway for profitable operations, which is why the stock has accelerated higher over the past few days as tensions have escalated.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 90,
-    "inputTokens": 78263,
-    "outputTokens": 19153,
-    "estimatedCostUsd": 0.174028,
-    "lastCallHour": "2026-10-14T21"
+    "callsThisMonth": 91,
+    "inputTokens": 79112,
+    "outputTokens": 19371,
+    "estimatedCostUsd": 0.175967,
+    "lastCallHour": "2026-10-14T23"
   }
 }
