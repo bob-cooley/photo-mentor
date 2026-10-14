@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T16:01:44.325371+00:00",
-  "text": "Marathon Petroleum has climbed nearly 21% over two weeks, with today's modest gain capping a strong rally driven by escalating Middle East tensions and their impact on oil prices. Iran's intensified attacks on shipping and Saudi Aramco facilities\u2014including a container ship sinking in the Strait of Hormuz\u2014have pushed crude oil prices sharply higher (US oil at $96.24/barrel, world crude at $125.44), which improves refiner margins by raising the value of refined products relative to input costs. Refineries are running at 92.7% capacity, and diesel inventories remain tight, putting pressure on supply and supporting prices for the fuel that refiners like Marathon produce.\n\nThe broader rally reflects how geopolitical disruption to Middle East supply translates directly into profitability for U.S. refiners\u2014higher oil prices typically widen their earnings, especially when demand for diesel and gasoline stays strong, which the IEA expects to persist well into 2027 despite supply constraints.",
+  "fetchedAt": "2026-10-14T17:03:00.767325+00:00",
+  "text": "Marathon Petroleum's stock has climbed 0.56% today and surged 21% over two weeks, driven primarily by escalating Middle East tensions that are pushing oil prices sharply higher. Iran's attacks on commercial shipping in the Strait of Hormuz and strikes on Saudi facilities have tightened global oil supply concerns \u2014 world crude is trading at $125.44 per barrel, significantly above the U.S. price of $96.24. For a refiner like Marathon, higher crude costs can pinch margins in the short term, but the real driver here is the supply disruption narrative: refineries are running at 92.7% capacity, and diesel inventories are particularly low at 105 million barrels, setting up potential pricing power if the conflict continues to disrupt supply chains.\n\nThe broader momentum reflects market expectations that tight diesel supply could persist into 2027 \u2014 a scenario that typically benefits refiners who can capture value from the scarcity. With geopolitical risk sustaining elevated oil prices and fuel demand holding up despite the conflict, investors are pricing in extended strength for refining margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 85,
-    "inputTokens": 79146,
-    "outputTokens": 19255,
-    "estimatedCostUsd": 0.175421,
-    "lastCallHour": "2026-10-14T16"
+    "callsThisMonth": 86,
+    "inputTokens": 80057,
+    "outputTokens": 19493,
+    "estimatedCostUsd": 0.177522,
+    "lastCallHour": "2026-10-14T17"
   }
 }

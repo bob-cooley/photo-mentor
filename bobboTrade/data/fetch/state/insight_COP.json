@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T16:01:22.976886+00:00",
-  "text": "ConocoPhillips rose 0.63% today as oil prices climbed on escalating Middle East tensions. Iran's attacks on commercial shipping in the Strait of Hormuz and reported strikes on Saudi Aramco facilities spooked the market about potential supply disruptions, pushing global crude oil prices up to $125.44 per barrel\u2014a significant jump from typical levels. For an oil producer like ConocoPhillips, higher crude prices directly translate to higher revenues and profits, so the stock has tracked this broader energy rally higher.\n\nThis move is part of a much larger two-week run-up of 13.3%, driven by the compounding effect of geopolitical risk premiums layering onto an already-tight energy market. Forecasters are warning that diesel shortages could persist into 2027 due to the Iran conflict, which only reinforces expectations that oil and refined products will stay elevated, supporting sustained strength in producers' margins and stock prices.",
+  "fetchedAt": "2026-10-14T17:01:57.490736+00:00",
+  "text": "ConocoPhillips rose 1.05% today to $142.38, continuing a sharp two-week rally that's added nearly 14% to the stock price. The immediate driver is escalating geopolitical tension in the Middle East\u2014container ships are being attacked in the Strait of Hormuz, Saudi Aramco facilities have been struck, and Iran is stepping up its campaign against commercial shipping. These supply disruptions are pushing crude oil prices higher (world oil at $125.44/barrel, up sharply), which benefits an oil producer like ConocoPhillips.\n\nThe broader backdrop making this move stick is a real supply crunch, not just headline risk. The International Energy Agency warned today that diesel specifically will remain in tight supply well into 2027 due to the Iran conflict, falling inventories, and strong demand\u2014meaning prices for refined products and crude are likely to stay elevated. This transforms the geopolitical crisis from a one-day news spike into a structural headwind for global energy supply, which typically supports producers' margins and stock prices over weeks or months.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 85,
-    "inputTokens": 74017,
-    "outputTokens": 18061,
-    "estimatedCostUsd": 0.164322,
-    "lastCallHour": "2026-10-14T16"
+    "callsThisMonth": 86,
+    "inputTokens": 74866,
+    "outputTokens": 18294,
+    "estimatedCostUsd": 0.166336,
+    "lastCallHour": "2026-10-14T17"
   }
 }
