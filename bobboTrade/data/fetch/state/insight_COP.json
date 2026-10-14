@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T19:01:07.289947+00:00",
-  "text": "ConocoPhillips rose 0.87% today to $142.13, continuing a sharp two-week rally of 13.6%. The move reflects escalating geopolitical tension in the Middle East\u2014container ships are being attacked in the Strait of Hormuz and Saudi Aramco facilities have come under strike, triggering genuine concern about oil supply disruptions. This pushed global oil prices to $125.44 per barrel today, while U.S. crude climbed to $96.24, and oil companies like ConocoPhillips benefit directly when crude prices rise because they sell at these higher rates.\n\nThe broader context: the International Energy Agency has now warned publicly that diesel supply will stay squeezed through 2027 due to Iran-related disruption, falling inventories, and steady demand. That kind of structural supply tightness\u2014not just a temporary price spike\u2014tends to support energy stocks over time, which likely explains why the stock has gained more than 13% in just two weeks as the conflict risks have become clearer.",
+  "fetchedAt": "2026-10-14T20:01:20.346408+00:00",
+  "text": "ConocoPhillips rose 1.04% today as oil prices surged on escalating geopolitical tensions in the Middle East. A container ship sank in the Strait of Hormuz amid Iranian attacks on commercial shipping, and Saudi Aramco facilities came under fresh assault\u2014both events that threaten to disrupt global oil supplies and push crude prices higher. With Brent crude at $125 a barrel (a significant premium to the US price of $96), the market is pricing in real supply risk, which directly benefits an oil producer's margins and revenues.\n\nThe stock's broader two-week surge of nearly 14% reflects months of mounting Middle East tensions finally translating into sustained higher oil prices. Analysts are now warning of diesel supply shortages stretching into 2027, which signals this supply crunch may not be temporary\u2014a structural tailwind for producers who benefit from extended periods of elevated energy costs.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 88,
-    "inputTokens": 76565,
-    "outputTokens": 18713,
-    "estimatedCostUsd": 0.17013,
-    "lastCallHour": "2026-10-14T19"
+    "callsThisMonth": 89,
+    "inputTokens": 77414,
+    "outputTokens": 18911,
+    "estimatedCostUsd": 0.171969,
+    "lastCallHour": "2026-10-14T20"
   }
 }
