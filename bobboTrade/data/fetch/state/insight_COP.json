@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T15:07:06.870794+00:00",
-  "text": "ConocoPhillips rose 0.59% today to $141.73, continuing a sharp two-week climb of 13.25%. The move reflects escalating Middle East tensions: Iran threatened strikes on U.S. warships, Saudi Aramco facilities came under attack, and the International Energy Agency warned of tightening oil supplies\u2014all pushing crude prices higher. With U.S. oil at $96.24 per barrel (up substantially from earlier in the month), refiners and oil producers benefit directly from higher commodity prices and the prospect of sustained demand for fuel.\n\nThe broader picture is a supply crunch expected to stretch into 2027, driven by Iran-related disruptions, falling diesel inventories, and persistent demand. That structural tightness\u2014not just today's headlines, but the IEA's forward guidance on constrained markets\u2014is what's fueling the stock's two-week rally, giving the company visibility into sustained higher energy prices over a longer horizon.",
+  "fetchedAt": "2026-10-14T16:01:22.976886+00:00",
+  "text": "ConocoPhillips rose 0.63% today as oil prices climbed on escalating Middle East tensions. Iran's attacks on commercial shipping in the Strait of Hormuz and reported strikes on Saudi Aramco facilities spooked the market about potential supply disruptions, pushing global crude oil prices up to $125.44 per barrel\u2014a significant jump from typical levels. For an oil producer like ConocoPhillips, higher crude prices directly translate to higher revenues and profits, so the stock has tracked this broader energy rally higher.\n\nThis move is part of a much larger two-week run-up of 13.3%, driven by the compounding effect of geopolitical risk premiums layering onto an already-tight energy market. Forecasters are warning that diesel shortages could persist into 2027 due to the Iran conflict, which only reinforces expectations that oil and refined products will stay elevated, supporting sustained strength in producers' margins and stock prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 84,
-    "inputTokens": 73167,
-    "outputTokens": 17853,
-    "estimatedCostUsd": 0.162432,
-    "lastCallHour": "2026-10-14T15"
+    "callsThisMonth": 85,
+    "inputTokens": 74017,
+    "outputTokens": 18061,
+    "estimatedCostUsd": 0.164322,
+    "lastCallHour": "2026-10-14T16"
   }
 }

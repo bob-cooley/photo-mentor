@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T15:09:05.554479+00:00",
-  "text": "Marathon Petroleum's stock rose 0.07% today and has climbed 20.7% over the past two weeks, driven primarily by a sharp spike in oil and diesel prices amid escalating Middle East tensions. Reports of attacks on Saudi Aramco facilities and Iran's threats against U.S. assets have pushed global crude to $125.44 per barrel (compared to U.S. domestic oil at $96.24), and forecasts of tight diesel supplies into 2027 directly benefit refiners\u2014who profit from the spread between crude input costs and refined product output. With U.S. refineries running at 92.7% capacity and diesel inventories lean at 105.1 million barrels, the company is well-positioned to capture margin gains in a supply-constrained environment.\n\nThe stock's two-week gain reflects the cumulative effect of geopolitical risk premiums layered onto existing supply tightness. Ukraine and Iran conflicts are creating persistent disruptions to global energy flows, and with the IEA warning of structural constraints, refiners' ability to convert crude into high-demand diesel at favorable margins remains a key tailwind for profitability.",
+  "fetchedAt": "2026-10-14T16:01:44.325371+00:00",
+  "text": "Marathon Petroleum has climbed nearly 21% over two weeks, with today's modest gain capping a strong rally driven by escalating Middle East tensions and their impact on oil prices. Iran's intensified attacks on shipping and Saudi Aramco facilities\u2014including a container ship sinking in the Strait of Hormuz\u2014have pushed crude oil prices sharply higher (US oil at $96.24/barrel, world crude at $125.44), which improves refiner margins by raising the value of refined products relative to input costs. Refineries are running at 92.7% capacity, and diesel inventories remain tight, putting pressure on supply and supporting prices for the fuel that refiners like Marathon produce.\n\nThe broader rally reflects how geopolitical disruption to Middle East supply translates directly into profitability for U.S. refiners\u2014higher oil prices typically widen their earnings, especially when demand for diesel and gasoline stays strong, which the IEA expects to persist well into 2027 despite supply constraints.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 84,
-    "inputTokens": 78235,
-    "outputTokens": 19035,
-    "estimatedCostUsd": 0.17341,
-    "lastCallHour": "2026-10-14T15"
+    "callsThisMonth": 85,
+    "inputTokens": 79146,
+    "outputTokens": 19255,
+    "estimatedCostUsd": 0.175421,
+    "lastCallHour": "2026-10-14T16"
   }
 }
