@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T20:01:37.501265+00:00",
-  "text": "Marathon Petroleum rose 1.6% today as crude oil prices climbed on escalating geopolitical tensions in the Middle East. A container ship sank in the Strait of Hormuz amid Iranian attacks on commercial vessels, and Saudi Aramco facilities came under fresh strikes overnight\u2014triggering warnings from the International Energy Agency about supply constraints. These disruptions pushed crude prices higher (US oil at $96.24, world oil at $125.44), which benefits refiners like Marathon by widening their profit margins on fuel production.\n\nThe stock's broader two-week surge of 22.6% reflects growing expectations that Middle East tensions will keep crude and fuel prices elevated for months ahead. Diesel inventories are already low and expected to remain tight into 2027, while refineries are running hard at 92.7% capacity\u2014a setup where fuel producers can capture strong margins on scarce supply.",
+  "fetchedAt": "2026-10-14T21:01:28.581924+00:00",
+  "text": "Marathon Petroleum's stock rose 1.6% today, continuing a sharp two-week rally of 22.6%. The driver is clear: escalating Middle East tensions have pushed global crude oil prices to $125 per barrel (a 30% jump over the US domestic price), while refinery utilization sits at 92.7%\u2014near full capacity. When crude prices spike and refineries are running hard, refiners' profit margins typically widen because they can pass costs through faster than their input expenses rise. News of Iranian attacks on shipping in the Strait of Hormuz and strikes on Saudi Aramco facilities directly threatened global oil supply on today's trading session, lifting the entire sector.\n\nThe tightness is expected to persist: the International Energy Agency warned that diesel supplies will remain constrained well into 2027 due to the Iran conflict, falling inventories, and strong demand. For a refiner like this one, sustained high crude prices coupled with tight product inventories and full utilization rates creates an extended window of favorable economics.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 89,
-    "inputTokens": 82789,
-    "outputTokens": 20094,
-    "estimatedCostUsd": 0.183259,
-    "lastCallHour": "2026-10-14T20"
+    "callsThisMonth": 90,
+    "inputTokens": 83701,
+    "outputTokens": 20317,
+    "estimatedCostUsd": 0.185286,
+    "lastCallHour": "2026-10-14T21"
   }
 }
