@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-14T14:01:55.433631+00:00",
-  "text": "ConocoPhillips rose 0.51% today to $141.62, capping a remarkable 13% climb over two weeks as oil prices have surged on Middle East supply concerns. The immediate trigger is escalating geopolitical tensions: Iran threatened U.S. warships, Saudi Aramco facilities were attacked, and the International Energy Agency warned that diesel supply will remain tight into 2027 due to Iran-related disruptions. With global oil trading at $125 per barrel\u2014well above the U.S. benchmark of $96\u2014refiners and oil producers benefit from both higher crude prices and the premium spread between them.\n\nThe two-week rally reflects a fundamental shift in market expectations: what looked like mixed signals about Russian diesel supply just yesterday has now been overshadowed by tangible Middle East supply losses and inventory declines. For an integrated energy company like ConocoPhillips, sustained high oil prices and tight refined product markets create a favorable backdrop for both upstream production and any downstream operations.",
+  "fetchedAt": "2026-10-14T15:07:06.870794+00:00",
+  "text": "ConocoPhillips rose 0.59% today to $141.73, continuing a sharp two-week climb of 13.25%. The move reflects escalating Middle East tensions: Iran threatened strikes on U.S. warships, Saudi Aramco facilities came under attack, and the International Energy Agency warned of tightening oil supplies\u2014all pushing crude prices higher. With U.S. oil at $96.24 per barrel (up substantially from earlier in the month), refiners and oil producers benefit directly from higher commodity prices and the prospect of sustained demand for fuel.\n\nThe broader picture is a supply crunch expected to stretch into 2027, driven by Iran-related disruptions, falling diesel inventories, and persistent demand. That structural tightness\u2014not just today's headlines, but the IEA's forward guidance on constrained markets\u2014is what's fueling the stock's two-week rally, giving the company visibility into sustained higher energy prices over a longer horizon.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 83,
-    "inputTokens": 72326,
-    "outputTokens": 17641,
-    "estimatedCostUsd": 0.160531,
-    "lastCallHour": "2026-10-14T14"
+    "callsThisMonth": 84,
+    "inputTokens": 73167,
+    "outputTokens": 17853,
+    "estimatedCostUsd": 0.162432,
+    "lastCallHour": "2026-10-14T15"
   }
 }

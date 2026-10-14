@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T14:02:12.367235+00:00",
-  "text": "The stock has barely moved today, up just 0.04%, but it's ridden a sharp two-week rally of over 20% that reflects a dramatic tightening in global refining markets. Geopolitical escalation in the Middle East \u2014 attacks on Saudi Aramco facilities and rising Iran-U.S. tensions \u2014 has pushed world oil prices to $125 a barrel, nearly 30% above U.S. prices, while the International Energy Agency warned that diesel supply will remain constrained into 2027. For a major refiner, this gap between global and domestic crude costs, combined with tight diesel inventories and refineries running at 92.7% capacity, creates a favorable window for selling refined products at strong margins.\n\nThe broader context is that these supply-side shocks are hitting when refineries are already running near maximum capacity with limited product reserves to buffer demand. Diesel inventory sits at just 105 million barrels \u2014 lean by historical standards \u2014 while sustained Middle East tensions keep traders pricing in persistent tightness rather than near-term relief, which extends the period in which a refiner can capture higher margins on every barrel processed.",
+  "fetchedAt": "2026-10-14T15:09:05.554479+00:00",
+  "text": "Marathon Petroleum's stock rose 0.07% today and has climbed 20.7% over the past two weeks, driven primarily by a sharp spike in oil and diesel prices amid escalating Middle East tensions. Reports of attacks on Saudi Aramco facilities and Iran's threats against U.S. assets have pushed global crude to $125.44 per barrel (compared to U.S. domestic oil at $96.24), and forecasts of tight diesel supplies into 2027 directly benefit refiners\u2014who profit from the spread between crude input costs and refined product output. With U.S. refineries running at 92.7% capacity and diesel inventories lean at 105.1 million barrels, the company is well-positioned to capture margin gains in a supply-constrained environment.\n\nThe stock's two-week gain reflects the cumulative effect of geopolitical risk premiums layered onto existing supply tightness. Ukraine and Iran conflicts are creating persistent disruptions to global energy flows, and with the IEA warning of structural constraints, refiners' ability to convert crude into high-demand diesel at favorable margins remains a key tailwind for profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 83,
-    "inputTokens": 77333,
-    "outputTokens": 18783,
-    "estimatedCostUsd": 0.171248,
-    "lastCallHour": "2026-10-14T14"
+    "callsThisMonth": 84,
+    "inputTokens": 78235,
+    "outputTokens": 19035,
+    "estimatedCostUsd": 0.17341,
+    "lastCallHour": "2026-10-14T15"
   }
 }
