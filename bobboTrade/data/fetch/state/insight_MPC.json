@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T05:46:30.829650+00:00",
-  "text": "Marathon Petroleum jumped nearly 4% today, continuing a sharp two-week rally that has lifted the stock 22% off its early-October lows. The immediate catalyst is escalating Middle East tensions between Iran-backed Houthis and Saudi Arabia, which pushed crude oil prices to $96 per barrel domestically and $125 globally\u2014enough to raise refining margins and profit potential for a major U.S. refiner. Refineries are currently running at 92.7% capacity, so MPC is well-positioned to capitalize on higher crude and product prices.\n\nThe broader backdrop amplifies today's move: geopolitical risk in the Middle East is now the dominant theme, overshadowing earlier uncertainty about Russian diesel supply and political pressure to bring down fuel costs. With U.S. elections less than a month away and supply disruption fears mounting, oil price strength and tight refinery utilization are creating a favorable near-term environment for refiners like MPC.",
+  "fetchedAt": "2026-10-14T11:07:53.526335+00:00",
+  "text": "Marathon Petroleum rose 4% today as oil prices climbed on Middle East supply concerns and diesel stayed tight. The IEA warned that diesel shortages will persist into 2027 due to Iran war disruptions and falling inventories, while Saudi officials reported attacks on Aramco facilities\u2014news that pushed crude prices higher. For a refiner like Marathon, tighter diesel supplies and higher crude costs can improve refining margins (the profit from turning crude into finished fuel), especially when diesel commands premium prices due to scarcity.\n\nThe stock's 22% surge over two weeks reflects a broader shift: traders have moved from worrying about Russian diesel flooding the market (which would cheapen fuel) to focusing on Middle East supply risks and sustained tight conditions. With U.S. refineries running at 92.7% capacity and diesel inventories lean at 105 million barrels, the refiner can push higher margins as long as demand holds and supply stays constrained.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 80,
-    "inputTokens": 74613,
-    "outputTokens": 18102,
-    "estimatedCostUsd": 0.165123,
-    "lastCallHour": "2026-10-14T05"
+    "callsThisMonth": 81,
+    "inputTokens": 75528,
+    "outputTokens": 18308,
+    "estimatedCostUsd": 0.167068,
+    "lastCallHour": "2026-10-14T11"
   }
 }
