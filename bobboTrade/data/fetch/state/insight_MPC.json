@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-14T17:03:00.767325+00:00",
-  "text": "Marathon Petroleum's stock has climbed 0.56% today and surged 21% over two weeks, driven primarily by escalating Middle East tensions that are pushing oil prices sharply higher. Iran's attacks on commercial shipping in the Strait of Hormuz and strikes on Saudi facilities have tightened global oil supply concerns \u2014 world crude is trading at $125.44 per barrel, significantly above the U.S. price of $96.24. For a refiner like Marathon, higher crude costs can pinch margins in the short term, but the real driver here is the supply disruption narrative: refineries are running at 92.7% capacity, and diesel inventories are particularly low at 105 million barrels, setting up potential pricing power if the conflict continues to disrupt supply chains.\n\nThe broader momentum reflects market expectations that tight diesel supply could persist into 2027 \u2014 a scenario that typically benefits refiners who can capture value from the scarcity. With geopolitical risk sustaining elevated oil prices and fuel demand holding up despite the conflict, investors are pricing in extended strength for refining margins.",
+  "fetchedAt": "2026-10-14T18:03:29.520074+00:00",
+  "text": "Marathon Petroleum rose 0.46% today, adding to a sharp 21% gain over the past two weeks. The move fits a broader rally in refining stocks driven by escalating geopolitical tensions in the Middle East\u2014Iran's attacks on Saudi Aramco facilities and container ships in the Strait of Hormuz have rattled oil markets and pushed crude prices higher (U.S. oil at $96/barrel, global crude at $125), while refineries are running at 92.7% capacity. Higher oil prices and constrained global supply typically lift refiner margins, though this also depends on fuel demand and inventory levels.\n\nThe tight diesel supply outlook through 2027\u2014driven by Iran-related disruptions, falling inventories, and strong demand\u2014is particularly relevant to a refiner's bottom line, since diesel commands premium margins in squeezed markets. Combined with refineries already running near full capacity, the company stands to benefit from sustained pricing pressure on refined products even as crude costs rise.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 86,
-    "inputTokens": 80057,
-    "outputTokens": 19493,
-    "estimatedCostUsd": 0.177522,
-    "lastCallHour": "2026-10-14T17"
+    "callsThisMonth": 87,
+    "inputTokens": 80968,
+    "outputTokens": 19707,
+    "estimatedCostUsd": 0.179503,
+    "lastCallHour": "2026-10-14T18"
   }
 }
