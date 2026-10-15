@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T03:03:25.614194+00:00",
-  "text": "Marathon Petroleum rose 1.66% today, extending a strong two-week rally of over 22%. The immediate driver was escalating geopolitical tension in the Middle East\u2014container ships attacked in the Strait of Hormuz, Saudi Aramco facilities hit, and Iran threatening U.S. warships\u2014which pushed crude oil prices up sharply (Brent crude hit $125/barrel). Refining margins tend to widen when crude climbs while gasoline and diesel prices lag, and that setup favors refiners like Marathon; the company is also positioned to benefit from the diesel supply crunch the IEA warned is likely to persist into 2027.\n\nThe broader context is that U.S. refineries are running at 92.7% capacity right now, and diesel inventories are already lean at 105 million barrels. When geopolitical risk tightens crude supplies while refineries are already running hard, refiner profits can spike\u2014which is exactly the environment the market is pricing in for Marathon over the past two weeks.",
+  "fetchedAt": "2026-10-15T08:48:18.906385+00:00",
+  "text": "Marathon Petroleum stock rose 1.66% today to close at $484.92, continuing a strong two-week rally of 22.6%. The climb reflects sustained strength in crude oil prices\u2014US oil is trading at $96.24 per barrel, up sharply from early October\u2014driven by Middle East tensions that have threatened shipping through the Strait of Hormuz and disrupted supply. Refineries are running at 92.7% capacity, near full utilization, which means higher oil prices translate directly into better margins for refiners like Marathon.\n\nThe broader picture is that geopolitical risk has kept global oil prices elevated (world crude at $125.44 per barrel), and the International Energy Agency's warnings about market constraints have reinforced trader concerns about supply tightness. For a major refiner, this environment\u2014high oil prices combined with strong refinery utilization\u2014typically means strong profitability, which is what the stock's sustained climb over the past week reflects.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 92,
-    "inputTokens": 85525,
-    "outputTokens": 20718,
-    "estimatedCostUsd": 0.189115,
-    "lastCallHour": "2026-10-15T03"
+    "callsThisMonth": 93,
+    "inputTokens": 86419,
+    "outputTokens": 20929,
+    "estimatedCostUsd": 0.191064,
+    "lastCallHour": "2026-10-15T08"
   }
 }
