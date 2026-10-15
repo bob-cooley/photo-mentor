@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T08:48:07.784035+00:00",
-  "text": "ConocoPhillips rose 1% today to $142.34, extending a remarkable two-week rally of nearly 14%. The stock has climbed steadily as oil prices have surged on Middle East tensions\u2014specifically Iranian attacks on commercial shipping in the Strait of Hormuz and reported strikes on Saudi Arabian oil facilities. These supply disruption fears have pushed crude prices sharply higher, with world oil trading at $125 per barrel (versus $96 domestically), directly benefiting major oil producers like ConocoPhillips.\n\nThe broader backdrop is one of heightened geopolitical risk in a key global oil chokepoint. While today's news showed some pullback in oil prices as traders digested fresh data, the underlying tension\u2014Iran's escalating campaign against shipping and energy infrastructure\u2014remains unresolved, keeping the market on edge and supporting elevated crude valuations that favor upstream producers.",
+  "fetchedAt": "2026-10-15T13:02:42.233785+00:00",
+  "text": "ConocoPhillips rose 1% today to $142.34, continuing a sharp two-week rally that's gained nearly 14%. The climb reflects sustained oil price strength: world crude is trading at $125.44 per barrel, up significantly from earlier this month, driven by escalating attacks on ships and infrastructure in the Middle East. Iran's strikes on commercial vessels in the Strait of Hormuz and reported attacks on Saudi Aramco facilities have kept traders worried about potential supply disruptions, supporting prices even as markets digested the International Energy Agency's latest report on Thursday.\n\nThe stock's momentum over the past week shows how quickly geopolitical risk can reshape energy investing. With Middle East tensions creating genuine uncertainty about oil flows and the U.S.-Iran conflict showing no signs of cooling, investors are pricing in a tighter market \u2014 exactly the environment where major oil producers like ConocoPhillips benefit from both higher prices and the potential for sustained demand.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 93,
-    "inputTokens": 80792,
-    "outputTokens": 19757,
-    "estimatedCostUsd": 0.179577,
-    "lastCallHour": "2026-10-15T08"
+    "callsThisMonth": 94,
+    "inputTokens": 81623,
+    "outputTokens": 19963,
+    "estimatedCostUsd": 0.181438,
+    "lastCallHour": "2026-10-15T13"
   }
 }

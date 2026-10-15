@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T08:48:18.906385+00:00",
-  "text": "Marathon Petroleum stock rose 1.66% today to close at $484.92, continuing a strong two-week rally of 22.6%. The climb reflects sustained strength in crude oil prices\u2014US oil is trading at $96.24 per barrel, up sharply from early October\u2014driven by Middle East tensions that have threatened shipping through the Strait of Hormuz and disrupted supply. Refineries are running at 92.7% capacity, near full utilization, which means higher oil prices translate directly into better margins for refiners like Marathon.\n\nThe broader picture is that geopolitical risk has kept global oil prices elevated (world crude at $125.44 per barrel), and the International Energy Agency's warnings about market constraints have reinforced trader concerns about supply tightness. For a major refiner, this environment\u2014high oil prices combined with strong refinery utilization\u2014typically means strong profitability, which is what the stock's sustained climb over the past week reflects.",
+  "fetchedAt": "2026-10-15T13:03:42.474368+00:00",
+  "text": "Marathon Petroleum is up 1.66% today, continuing a sharp two-week rally of 22.6%. The stock has climbed as oil prices have spiked amid escalating Middle East tensions\u2014container ship attacks in the Strait of Hormuz and strikes on Saudi Aramco facilities have raised concerns about supply disruptions, pushing crude prices higher and widening the profit margins refineries earn by turning cheap oil into expensive fuel. US oil is trading at $96.24 a barrel, up sharply from earlier in the period, and refineries are running at 92.7% utilization, keeping throughput high.\n\nThe broader backdrop is a refiner's near-ideal environment: crude prices have jumped more than $20 a barrel globally (world oil at $125.44), geopolitical risk is supporting those prices, and the company is running at near-full capacity with strong demand. The stock's momentum over the past week suggests investors are pricing in sustained high refining margins as long as Middle East tensions\u2014and therefore the oil price premium\u2014persist.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 93,
-    "inputTokens": 86419,
-    "outputTokens": 20929,
-    "estimatedCostUsd": 0.191064,
-    "lastCallHour": "2026-10-15T08"
+    "callsThisMonth": 94,
+    "inputTokens": 87313,
+    "outputTokens": 21157,
+    "estimatedCostUsd": 0.193098,
+    "lastCallHour": "2026-10-15T13"
   }
 }
