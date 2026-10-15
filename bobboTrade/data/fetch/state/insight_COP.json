@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T18:01:17.128819+00:00",
-  "text": "ConocoPhillips barely moved today, ending essentially flat at $142.33, despite oil prices holding above $96 per barrel. The stock has been rising steadily over the past two weeks\u2014up 12% since October 8\u2014driven by a sharp climb in crude values tied to Iran's escalating attacks on ships in the Strait of Hormuz and threats to Saudi energy infrastructure, which have rattled markets and pushed crude higher as traders worry about supply disruptions.\n\nToday's flat close likely reflects profit-taking after that two-week rally, combined with mixed signals from oil markets: while geopolitical tensions remain elevated, the International Energy Agency's announcement of releasing 20+ million barrels of diesel to ease U.S. prices is a countervailing factor that could keep crude from spiking further in the short term. Oil explorers and refiners like ConocoPhillips benefit when crude rises, but they also face headwinds when strategic reserves are released to cool prices down.",
+  "fetchedAt": "2026-10-15T19:01:23.087769+00:00",
+  "text": "ConocoPhillips fell slightly today despite oil prices staying elevated, as traders digested mixed signals from the Middle East and energy markets. U.S. crude held near $96 a barrel after yesterday's spike to $98, driven by Iranian attacks on shipping in the Strait of Hormuz; however, the International Energy Agency's announcement of a massive diesel release (over 20 million barrels) signaled an attempt to cool fuel prices, which likely tempered enthusiasm for energy stocks after the stock's strong 11.7% run over two weeks.\n\nThe company has been riding a wave of geopolitical risk premium \u2014 supply concerns from attacks on ships and Saudi facilities pushed prices higher over the past two days \u2014 but today's pullback reflects traders stepping back as relief measures come into play. This kind of small daily dip in an otherwise strong uptrend is common when near-term catalysts (the attacks) are balanced against countervailing moves (the strategic diesel release) in real time.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 99,
-    "inputTokens": 85818,
-    "outputTokens": 21068,
-    "estimatedCostUsd": 0.191158,
-    "lastCallHour": "2026-10-15T18"
+    "callsThisMonth": 100,
+    "inputTokens": 86671,
+    "outputTokens": 21281,
+    "estimatedCostUsd": 0.193076,
+    "lastCallHour": "2026-10-15T19"
   }
 }

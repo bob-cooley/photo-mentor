@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T18:01:32.777744+00:00",
-  "text": "Marathon Petroleum's stock fell 1.6% today after jumping sharply over the prior two days, as crude oil prices retreated from their recent highs. U.S. crude dropped back below $98 a barrel on October 15th as traders digested new supply developments\u2014the International Energy Agency announced it would release over 20 million barrels of diesel to ease record-high U.S. prices, which countered the bullish impact of Iran's escalating attacks on ships in the Strait of Hormuz. For a refiner like Marathon, lower crude prices compress profit margins on refined products, even though the company benefits from higher throughput when refineries run at elevated capacity (currently 92.7%).\n\nThe stock's pullback today sits within a broader two-week rally driven by geopolitical risk premiums and tight diesel supplies that had pushed crude and refined product prices higher. With diesel inventories unusually low and Middle East tensions supporting prices through mid-week, the announcement of emergency diesel releases from strategic reserves undercut the supply-crunch story that had fueled the prior gains.",
+  "fetchedAt": "2026-10-15T19:01:41.383990+00:00",
+  "text": "Marathon Petroleum shares fell 3% today after oil prices retreated from their recent peaks, despite the geopolitical tensions in the Middle East that had driven prices higher over the past two days. U.S. crude dropped back below $96.50 a barrel as traders reassessed the actual impact of Iran's attacks on shipping in the Strait of Hormuz\u2014the initial spike in concern appears to have moderated once markets got a clearer picture of the disruptions. For a refiner like Marathon, lower crude prices reduce what they pay for raw material, but the market is also pricing in softer demand or profit margins as energy prices normalize.\n\nThe stock's retreat fits into a volatile two-week pattern: it surged 11.95% overall, with yesterday's jump to $484.92 driven by supply-disruption fears, but today's pullback suggests those fears have cooled. The International Energy Agency's announcement that it would release over 20 million barrels of diesel to ease U.S. fuel prices also signals that supply tightness is being actively managed, reducing the urgency that had lifted energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 99,
-    "inputTokens": 91807,
-    "outputTokens": 22263,
-    "estimatedCostUsd": 0.203122,
-    "lastCallHour": "2026-10-15T18"
+    "callsThisMonth": 100,
+    "inputTokens": 92721,
+    "outputTokens": 22504,
+    "estimatedCostUsd": 0.205241,
+    "lastCallHour": "2026-10-15T19"
   }
 }
