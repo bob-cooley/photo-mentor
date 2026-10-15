@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T20:03:15.438669+00:00",
-  "text": "Marathon Petroleum fell 1.66% today after gaining nearly 2% yesterday, pulling back from a two-week rally that saw the stock climb 13.5%. The pullback came as oil prices retreated slightly\u2014U.S. crude dropped below $100 a barrel\u2014even as geopolitical tensions in the Strait of Hormuz intensified with Iranian attacks on commercial shipping. The refining environment remains strong, with U.S. refineries running at 93.5% capacity and crude prices still elevated near $102, but the day's modest decline suggests profit-taking after a sharp two-day run-up rather than a shift in fundamentals.\n\nThe underlying tailwinds for refiners remain intact: crude and diesel inventories are relatively tight, and the physical cost to move oil has surged roughly $38 per barrel due to high tanker rates, which effectively widens margins for refiners who sell finished products. The International Energy Agency's plan to release over 20 million barrels of diesel could ease some pricing pressure in coming weeks, but that's a forward concern; today's decline appears tactical within an otherwise strong uptrend.",
+  "fetchedAt": "2026-10-15T21:01:22.006727+00:00",
+  "text": "Marathon Petroleum fell 1.69% today after rallying sharply over the past two days, pulling back from a near-term peak. The stock had climbed 5.4% in just two days (October 14\u201315) as crude oil prices surged on Middle East tensions and supply concerns, but today's decline reflects profit-taking and some cooling in oil prices \u2014 U.S. crude dropped to near $98 a barrel as traders reassessed the geopolitical risk after Iran's initial attacks on shipping in the Strait of Hormuz.\n\nThe underlying refining environment remains supportive despite today's pullback. U.S. refineries are running at 93.5% capacity, storage levels for gasoline and diesel remain tight (especially diesel, which hit record high prices in September), and the IEA announcement to release strategic diesel reserves suggests persistent tightness in the market \u2014 all of which typically benefit a major refiner's margins when they can convert crude into products that command premium prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 101,
-    "inputTokens": 93637,
-    "outputTokens": 22751,
-    "estimatedCostUsd": 0.207392,
-    "lastCallHour": "2026-10-15T20"
+    "callsThisMonth": 102,
+    "inputTokens": 94555,
+    "outputTokens": 22967,
+    "estimatedCostUsd": 0.20939,
+    "lastCallHour": "2026-10-15T21"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T20:02:28.577531+00:00",
-  "text": "ConocoPhillips fell slightly today, down 0.42%, after surging 11.55% over the past two weeks. The modest pullback comes as oil prices pulled back slightly\u2014U.S. crude dropped toward $98 a barrel Thursday as traders assessed Iran's escalating attacks on ships in the Strait of Hormuz, though the underlying strength in the stock reflects the jump in oil prices that preceded today, driven by Middle East tensions and tight supply expectations.\n\nThe broader context is a real divergence between crude prices and delivered oil costs: while U.S. crude sits at $102, physical oil delivered can cost $30-40 more per barrel due to surging tanker rates\u2014a real benefit to oil companies like refiners and producers who own or control supply chains. With the International Energy Agency releasing emergency diesel stocks and geopolitical risk still elevated, the 11% two-week gain reflects how energy producers benefit when oil markets tighten, even if spot prices wobble day to day.",
+  "fetchedAt": "2026-10-15T21:01:07.914005+00:00",
+  "text": "ConocoPhillips fell slightly today despite a strong two-week run, giving back just 0.4% after jumping 4.1% yesterday. The modest pullback likely reflects profit-taking rather than bad news: crude prices remain elevated near $102 per barrel, and the company has benefited from geopolitical tensions in the Middle East\u2014Iran's escalating attacks on ships in the Strait of Hormuz have kept supply concerns front and center, supporting the energy sector's rally.\n\nThe broader context matters here: while U.S. crude is trading near $102, physical oil delivered to refineries costs roughly $38 more per barrel due to surging tanker rates caused by the same Middle East disruptions. That's good for a major oil company's profits, and it explains why ConocoPhillips has climbed 11.6% in two weeks despite today's small retreat. The stock is riding both higher prices and supply-risk premiums that show no sign of disappearing soon.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 101,
-    "inputTokens": 87527,
-    "outputTokens": 21499,
-    "estimatedCostUsd": 0.195022,
-    "lastCallHour": "2026-10-15T20"
+    "callsThisMonth": 102,
+    "inputTokens": 88383,
+    "outputTokens": 21716,
+    "estimatedCostUsd": 0.196963,
+    "lastCallHour": "2026-10-15T21"
   }
 }
