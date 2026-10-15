@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T15:02:43.485624+00:00",
-  "text": "Marathon Petroleum stock fell 2.3% today after climbing sharply over the past two days, as crude oil prices retreated on October 15th despite ongoing Middle East tensions. The company benefits when oil prices rise\u2014refiners buy cheap crude and sell refined products like gasoline and diesel at higher margins\u2014but today's pullback in crude (down from recent highs) and the cautious market mood around Hormuz shipping attacks weighed on the stock after yesterday's 1.6% gain.\n\nThe broader context is volatile: over two weeks MPC is still up 12.7%, riding a wave of geopolitical risk premium as Iran escalates attacks on ships and Saudi facilities. That risk premium cooled slightly today as traders digested the real impact of the disruptions, but with refineries running at 92.7% capacity and inventories moderate, the refining sector remains supported by tight supply conditions.",
+  "fetchedAt": "2026-10-15T16:02:18.814462+00:00",
+  "text": "Marathon Petroleum fell 1.95% today after two days of sharp gains that pushed the stock up nearly 5% from Monday's close. The decline came as oil prices retreated: U.S. crude dropped to $96.24 per barrel today after climbing on Middle East supply concerns the previous two days. While refineries are running hot at 92.7% capacity and global crude sits at $125.44 per barrel\u2014a premium that typically favors U.S. refiners' margins\u2014the pullback in prices suggests some of yesterday's geopolitical risk premium evaporated as traders assessed the actual fallout from escalating Iranian attacks on ships in the Strait of Hormuz.\n\nThe stock's two-week surge of 13% reflects the broader volatility energy markets have faced: escalating Middle East tensions initially lifted crude prices sharply, helping refiners' profitability, but today's retreat shows those gains aren't stable as long as the outcome of shipping disruptions remains uncertain. With diesel and gasoline inventories relatively tight (105 and 205 million barrels respectively), any sustained supply disruption would matter more to refining margins than a one-day pullback in crude prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 96,
-    "inputTokens": 89097,
-    "outputTokens": 21544,
-    "estimatedCostUsd": 0.196817,
-    "lastCallHour": "2026-10-15T15"
+    "callsThisMonth": 97,
+    "inputTokens": 89989,
+    "outputTokens": 21803,
+    "estimatedCostUsd": 0.199004,
+    "lastCallHour": "2026-10-15T16"
   }
 }

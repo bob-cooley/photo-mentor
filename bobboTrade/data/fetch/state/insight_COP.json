@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T15:01:54.506081+00:00",
-  "text": "ConocoPhillips fell slightly today despite a backdrop of escalating Middle East tensions that have been pushing oil prices higher over the past two days. The stock had surged 11% in two weeks on mounting concerns about supply disruptions from Iranian attacks on ships in the Strait of Hormuz and strikes on Saudi facilities, but today's small decline suggests those gains may have peaked as traders digested the actual impact: U.S. crude oil sits at $96 per barrel, still well above where it was two weeks ago, but the immediate threat assessment appears to have stabilized.\n\nThe divergence between U.S. and global oil prices\u2014with Brent crude at $125 versus WTI at $96\u2014reflects that most of the disruption risk remains in overseas shipping lanes rather than direct U.S. supply cuts. With the stock already up sharply on geopolitical premium, today's pullback is a natural pause in a volatile rally rather than a sign of deteriorating fundamentals for a major oil producer.",
+  "fetchedAt": "2026-10-15T16:01:49.469916+00:00",
+  "text": "ConocoPhillips inched down 0.14% today to $142.14, essentially flat despite oil prices remaining elevated. The tiny decline came as crude markets digested mixed signals: while Middle East tensions continued\u2014Iran escalated attacks on ships in the Strait of Hormuz and Saudi Aramco facilities came under fire\u2014U.S. oil prices actually eased slightly to $96.24 per barrel as traders processed the latest International Energy Agency report on global supply.\n\nThe stock's real momentum remains the 11.86% gain over the past two weeks, which tracks with the broader oil market's climb driven by geopolitical supply concerns. The gap between U.S. crude ($96) and global oil ($125 per barrel) is wide, reflecting how Middle East tensions are rippling through energy markets unevenly\u2014benefiting oil producers overall, but today's pause suggests investors are waiting to see whether the shipping attacks will actually tighten supplies enough to sustain higher prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 96,
-    "inputTokens": 83287,
-    "outputTokens": 20409,
-    "estimatedCostUsd": 0.185332,
-    "lastCallHour": "2026-10-15T15"
+    "callsThisMonth": 97,
+    "inputTokens": 84119,
+    "outputTokens": 20622,
+    "estimatedCostUsd": 0.187229,
+    "lastCallHour": "2026-10-15T16"
   }
 }
