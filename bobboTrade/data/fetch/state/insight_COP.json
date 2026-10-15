@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T14:01:19.990446+00:00",
-  "text": "ConocoPhillips fell slightly today after climbing 11.5% over the past two weeks on Middle East supply concerns. The small dip came as oil prices themselves retreated on October 15th\u2014traders were digesting news of escalating Iranian attacks on ships in the Strait of Hormuz alongside a fresh International Energy Agency monthly report, creating uncertainty about whether the supply-threat rally had run its course. The stock had surged the day before on fears of disruption to crude exports, but sentiment shifted as the market tried to separate real supply risk from price speculation.\n\nThe stock remains well above where it started the two-week period, reflecting the real underlying shift: geopolitical tensions in the Middle East have created genuine supply uncertainty, pushing crude prices higher (Brent crude at $125/barrel versus West Texas at $96/barrel shows how geography matters for oil costs). For an oil company, higher prices support earnings, but the back-and-forth in the daily move shows how volatile energy stocks become when the primary driver switches from fundamentals to headline risk.",
+  "fetchedAt": "2026-10-15T15:01:54.506081+00:00",
+  "text": "ConocoPhillips fell slightly today despite a backdrop of escalating Middle East tensions that have been pushing oil prices higher over the past two days. The stock had surged 11% in two weeks on mounting concerns about supply disruptions from Iranian attacks on ships in the Strait of Hormuz and strikes on Saudi facilities, but today's small decline suggests those gains may have peaked as traders digested the actual impact: U.S. crude oil sits at $96 per barrel, still well above where it was two weeks ago, but the immediate threat assessment appears to have stabilized.\n\nThe divergence between U.S. and global oil prices\u2014with Brent crude at $125 versus WTI at $96\u2014reflects that most of the disruption risk remains in overseas shipping lanes rather than direct U.S. supply cuts. With the stock already up sharply on geopolitical premium, today's pullback is a natural pause in a volatile rally rather than a sign of deteriorating fundamentals for a major oil producer.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 95,
-    "inputTokens": 82455,
-    "outputTokens": 20190,
-    "estimatedCostUsd": 0.183405,
-    "lastCallHour": "2026-10-15T14"
+    "callsThisMonth": 96,
+    "inputTokens": 83287,
+    "outputTokens": 20409,
+    "estimatedCostUsd": 0.185332,
+    "lastCallHour": "2026-10-15T15"
   }
 }
