@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T17:02:57.891586+00:00",
-  "text": "Marathon Petroleum fell 2.4% today after climbing sharply over the past two days, as crude oil prices pulled back and incoming diesel supplies threatened to ease the tight market that had been driving refiner margins higher. The International Energy Agency announced plans to release more than 20 million barrels of diesel, which directly undercuts the supply shortage that has kept diesel prices elevated\u2014a key source of profit for refiners like Marathon. At the same time, U.S. crude slipped as traders digested these supply developments, even as geopolitical risks in the Middle East remain present.\n\nThe stock's two-week surge of 12.6% had been built on climbing oil prices and the tight diesel situation, but today's news that major supplies are coming to market represents a real shift in the near-term outlook for refinery profits. Refineries running at 92.7% capacity\u2014near their typical high\u2014now face the prospect of wider supply availability, which historically compresses the margin between crude costs and refined product sales that makes the refining business profitable.",
+  "fetchedAt": "2026-10-15T18:01:32.777744+00:00",
+  "text": "Marathon Petroleum's stock fell 1.6% today after jumping sharply over the prior two days, as crude oil prices retreated from their recent highs. U.S. crude dropped back below $98 a barrel on October 15th as traders digested new supply developments\u2014the International Energy Agency announced it would release over 20 million barrels of diesel to ease record-high U.S. prices, which countered the bullish impact of Iran's escalating attacks on ships in the Strait of Hormuz. For a refiner like Marathon, lower crude prices compress profit margins on refined products, even though the company benefits from higher throughput when refineries run at elevated capacity (currently 92.7%).\n\nThe stock's pullback today sits within a broader two-week rally driven by geopolitical risk premiums and tight diesel supplies that had pushed crude and refined product prices higher. With diesel inventories unusually low and Middle East tensions supporting prices through mid-week, the announcement of emergency diesel releases from strategic reserves undercut the supply-crunch story that had fueled the prior gains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 98,
-    "inputTokens": 90894,
-    "outputTokens": 22028,
-    "estimatedCostUsd": 0.201034,
-    "lastCallHour": "2026-10-15T17"
+    "callsThisMonth": 99,
+    "inputTokens": 91807,
+    "outputTokens": 22263,
+    "estimatedCostUsd": 0.203122,
+    "lastCallHour": "2026-10-15T18"
   }
 }
