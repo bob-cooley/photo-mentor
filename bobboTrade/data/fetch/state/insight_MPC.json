@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T19:01:41.383990+00:00",
-  "text": "Marathon Petroleum shares fell 3% today after oil prices retreated from their recent peaks, despite the geopolitical tensions in the Middle East that had driven prices higher over the past two days. U.S. crude dropped back below $96.50 a barrel as traders reassessed the actual impact of Iran's attacks on shipping in the Strait of Hormuz\u2014the initial spike in concern appears to have moderated once markets got a clearer picture of the disruptions. For a refiner like Marathon, lower crude prices reduce what they pay for raw material, but the market is also pricing in softer demand or profit margins as energy prices normalize.\n\nThe stock's retreat fits into a volatile two-week pattern: it surged 11.95% overall, with yesterday's jump to $484.92 driven by supply-disruption fears, but today's pullback suggests those fears have cooled. The International Energy Agency's announcement that it would release over 20 million barrels of diesel to ease U.S. fuel prices also signals that supply tightness is being actively managed, reducing the urgency that had lifted energy stocks.",
+  "fetchedAt": "2026-10-15T20:03:15.438669+00:00",
+  "text": "Marathon Petroleum fell 1.66% today after gaining nearly 2% yesterday, pulling back from a two-week rally that saw the stock climb 13.5%. The pullback came as oil prices retreated slightly\u2014U.S. crude dropped below $100 a barrel\u2014even as geopolitical tensions in the Strait of Hormuz intensified with Iranian attacks on commercial shipping. The refining environment remains strong, with U.S. refineries running at 93.5% capacity and crude prices still elevated near $102, but the day's modest decline suggests profit-taking after a sharp two-day run-up rather than a shift in fundamentals.\n\nThe underlying tailwinds for refiners remain intact: crude and diesel inventories are relatively tight, and the physical cost to move oil has surged roughly $38 per barrel due to high tanker rates, which effectively widens margins for refiners who sell finished products. The International Energy Agency's plan to release over 20 million barrels of diesel could ease some pricing pressure in coming weeks, but that's a forward concern; today's decline appears tactical within an otherwise strong uptrend.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 100,
-    "inputTokens": 92721,
-    "outputTokens": 22504,
-    "estimatedCostUsd": 0.205241,
-    "lastCallHour": "2026-10-15T19"
+    "callsThisMonth": 101,
+    "inputTokens": 93637,
+    "outputTokens": 22751,
+    "estimatedCostUsd": 0.207392,
+    "lastCallHour": "2026-10-15T20"
   }
 }

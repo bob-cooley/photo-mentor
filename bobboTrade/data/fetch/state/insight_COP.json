@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T19:01:23.087769+00:00",
-  "text": "ConocoPhillips fell slightly today despite oil prices staying elevated, as traders digested mixed signals from the Middle East and energy markets. U.S. crude held near $96 a barrel after yesterday's spike to $98, driven by Iranian attacks on shipping in the Strait of Hormuz; however, the International Energy Agency's announcement of a massive diesel release (over 20 million barrels) signaled an attempt to cool fuel prices, which likely tempered enthusiasm for energy stocks after the stock's strong 11.7% run over two weeks.\n\nThe company has been riding a wave of geopolitical risk premium \u2014 supply concerns from attacks on ships and Saudi facilities pushed prices higher over the past two days \u2014 but today's pullback reflects traders stepping back as relief measures come into play. This kind of small daily dip in an otherwise strong uptrend is common when near-term catalysts (the attacks) are balanced against countervailing moves (the strategic diesel release) in real time.",
+  "fetchedAt": "2026-10-15T20:02:28.577531+00:00",
+  "text": "ConocoPhillips fell slightly today, down 0.42%, after surging 11.55% over the past two weeks. The modest pullback comes as oil prices pulled back slightly\u2014U.S. crude dropped toward $98 a barrel Thursday as traders assessed Iran's escalating attacks on ships in the Strait of Hormuz, though the underlying strength in the stock reflects the jump in oil prices that preceded today, driven by Middle East tensions and tight supply expectations.\n\nThe broader context is a real divergence between crude prices and delivered oil costs: while U.S. crude sits at $102, physical oil delivered can cost $30-40 more per barrel due to surging tanker rates\u2014a real benefit to oil companies like refiners and producers who own or control supply chains. With the International Energy Agency releasing emergency diesel stocks and geopolitical risk still elevated, the 11% two-week gain reflects how energy producers benefit when oil markets tighten, even if spot prices wobble day to day.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 100,
-    "inputTokens": 86671,
-    "outputTokens": 21281,
-    "estimatedCostUsd": 0.193076,
-    "lastCallHour": "2026-10-15T19"
+    "callsThisMonth": 101,
+    "inputTokens": 87527,
+    "outputTokens": 21499,
+    "estimatedCostUsd": 0.195022,
+    "lastCallHour": "2026-10-15T20"
   }
 }
