@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T16:02:18.814462+00:00",
-  "text": "Marathon Petroleum fell 1.95% today after two days of sharp gains that pushed the stock up nearly 5% from Monday's close. The decline came as oil prices retreated: U.S. crude dropped to $96.24 per barrel today after climbing on Middle East supply concerns the previous two days. While refineries are running hot at 92.7% capacity and global crude sits at $125.44 per barrel\u2014a premium that typically favors U.S. refiners' margins\u2014the pullback in prices suggests some of yesterday's geopolitical risk premium evaporated as traders assessed the actual fallout from escalating Iranian attacks on ships in the Strait of Hormuz.\n\nThe stock's two-week surge of 13% reflects the broader volatility energy markets have faced: escalating Middle East tensions initially lifted crude prices sharply, helping refiners' profitability, but today's retreat shows those gains aren't stable as long as the outcome of shipping disruptions remains uncertain. With diesel and gasoline inventories relatively tight (105 and 205 million barrels respectively), any sustained supply disruption would matter more to refining margins than a one-day pullback in crude prices.",
+  "fetchedAt": "2026-10-15T17:02:57.891586+00:00",
+  "text": "Marathon Petroleum fell 2.4% today after climbing sharply over the past two days, as crude oil prices pulled back and incoming diesel supplies threatened to ease the tight market that had been driving refiner margins higher. The International Energy Agency announced plans to release more than 20 million barrels of diesel, which directly undercuts the supply shortage that has kept diesel prices elevated\u2014a key source of profit for refiners like Marathon. At the same time, U.S. crude slipped as traders digested these supply developments, even as geopolitical risks in the Middle East remain present.\n\nThe stock's two-week surge of 12.6% had been built on climbing oil prices and the tight diesel situation, but today's news that major supplies are coming to market represents a real shift in the near-term outlook for refinery profits. Refineries running at 92.7% capacity\u2014near their typical high\u2014now face the prospect of wider supply availability, which historically compresses the margin between crude costs and refined product sales that makes the refining business profitable.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 97,
-    "inputTokens": 89989,
-    "outputTokens": 21803,
-    "estimatedCostUsd": 0.199004,
-    "lastCallHour": "2026-10-15T16"
+    "callsThisMonth": 98,
+    "inputTokens": 90894,
+    "outputTokens": 22028,
+    "estimatedCostUsd": 0.201034,
+    "lastCallHour": "2026-10-15T17"
   }
 }

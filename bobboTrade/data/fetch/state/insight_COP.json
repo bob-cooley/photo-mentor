@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T16:01:49.469916+00:00",
-  "text": "ConocoPhillips inched down 0.14% today to $142.14, essentially flat despite oil prices remaining elevated. The tiny decline came as crude markets digested mixed signals: while Middle East tensions continued\u2014Iran escalated attacks on ships in the Strait of Hormuz and Saudi Aramco facilities came under fire\u2014U.S. oil prices actually eased slightly to $96.24 per barrel as traders processed the latest International Energy Agency report on global supply.\n\nThe stock's real momentum remains the 11.86% gain over the past two weeks, which tracks with the broader oil market's climb driven by geopolitical supply concerns. The gap between U.S. crude ($96) and global oil ($125 per barrel) is wide, reflecting how Middle East tensions are rippling through energy markets unevenly\u2014benefiting oil producers overall, but today's pause suggests investors are waiting to see whether the shipping attacks will actually tighten supplies enough to sustain higher prices.",
+  "fetchedAt": "2026-10-15T17:02:13.206855+00:00",
+  "text": "ConocoPhillips barely moved today, falling just 0.15%, after rallying 11.86% over the past two weeks. That two-week surge was driven by surging oil prices\u2014crude has climbed sharply as Middle East tensions escalated, with Iran stepping up attacks on commercial shipping through the Strait of Hormuz and Saudi Aramco facilities coming under fire. Today's flat performance suggests the market has already priced in the near-term supply risk; oil prices dipped slightly as traders digested the IEA's plan to release over 20 million barrels of diesel to help ease record-high U.S. fuel costs.\n\nThe competing forces are clear: geopolitical risk pushes crude higher (good for an oil producer), but coordinated diesel releases by major economies push prices lower (bad for the upside). With U.S. crude at $96 and global crude at $125\u2014a wide gap\u2014the market appears to be balancing the immediate fear of supply cuts against the reality that governments are moving to stabilize fuel markets.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 97,
-    "inputTokens": 84119,
-    "outputTokens": 20622,
-    "estimatedCostUsd": 0.187229,
-    "lastCallHour": "2026-10-15T16"
+    "callsThisMonth": 98,
+    "inputTokens": 84964,
+    "outputTokens": 20853,
+    "estimatedCostUsd": 0.189229,
+    "lastCallHour": "2026-10-15T17"
   }
 }
