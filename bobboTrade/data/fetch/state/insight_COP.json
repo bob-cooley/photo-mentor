@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-15T13:02:42.233785+00:00",
-  "text": "ConocoPhillips rose 1% today to $142.34, continuing a sharp two-week rally that's gained nearly 14%. The climb reflects sustained oil price strength: world crude is trading at $125.44 per barrel, up significantly from earlier this month, driven by escalating attacks on ships and infrastructure in the Middle East. Iran's strikes on commercial vessels in the Strait of Hormuz and reported attacks on Saudi Aramco facilities have kept traders worried about potential supply disruptions, supporting prices even as markets digested the International Energy Agency's latest report on Thursday.\n\nThe stock's momentum over the past week shows how quickly geopolitical risk can reshape energy investing. With Middle East tensions creating genuine uncertainty about oil flows and the U.S.-Iran conflict showing no signs of cooling, investors are pricing in a tighter market \u2014 exactly the environment where major oil producers like ConocoPhillips benefit from both higher prices and the potential for sustained demand.",
+  "fetchedAt": "2026-10-15T14:01:19.990446+00:00",
+  "text": "ConocoPhillips fell slightly today after climbing 11.5% over the past two weeks on Middle East supply concerns. The small dip came as oil prices themselves retreated on October 15th\u2014traders were digesting news of escalating Iranian attacks on ships in the Strait of Hormuz alongside a fresh International Energy Agency monthly report, creating uncertainty about whether the supply-threat rally had run its course. The stock had surged the day before on fears of disruption to crude exports, but sentiment shifted as the market tried to separate real supply risk from price speculation.\n\nThe stock remains well above where it started the two-week period, reflecting the real underlying shift: geopolitical tensions in the Middle East have created genuine supply uncertainty, pushing crude prices higher (Brent crude at $125/barrel versus West Texas at $96/barrel shows how geography matters for oil costs). For an oil company, higher prices support earnings, but the back-and-forth in the daily move shows how volatile energy stocks become when the primary driver switches from fundamentals to headline risk.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 94,
-    "inputTokens": 81623,
-    "outputTokens": 19963,
-    "estimatedCostUsd": 0.181438,
-    "lastCallHour": "2026-10-15T13"
+    "callsThisMonth": 95,
+    "inputTokens": 82455,
+    "outputTokens": 20190,
+    "estimatedCostUsd": 0.183405,
+    "lastCallHour": "2026-10-15T14"
   }
 }

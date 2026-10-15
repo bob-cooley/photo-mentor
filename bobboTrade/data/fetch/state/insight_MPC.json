@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T13:03:42.474368+00:00",
-  "text": "Marathon Petroleum is up 1.66% today, continuing a sharp two-week rally of 22.6%. The stock has climbed as oil prices have spiked amid escalating Middle East tensions\u2014container ship attacks in the Strait of Hormuz and strikes on Saudi Aramco facilities have raised concerns about supply disruptions, pushing crude prices higher and widening the profit margins refineries earn by turning cheap oil into expensive fuel. US oil is trading at $96.24 a barrel, up sharply from earlier in the period, and refineries are running at 92.7% utilization, keeping throughput high.\n\nThe broader backdrop is a refiner's near-ideal environment: crude prices have jumped more than $20 a barrel globally (world oil at $125.44), geopolitical risk is supporting those prices, and the company is running at near-full capacity with strong demand. The stock's momentum over the past week suggests investors are pricing in sustained high refining margins as long as Middle East tensions\u2014and therefore the oil price premium\u2014persist.",
+  "fetchedAt": "2026-10-15T14:02:44.709775+00:00",
+  "text": "Marathon Petroleum fell 1.55% today after oil prices retreated on October 15th, despite the day before's gains driven by Middle East supply worries. The retreat came as traders digested the International Energy Agency's latest report and reassessed the severity of ongoing Iranian attacks on shipping in the Strait of Hormuz\u2014the initial shock and supply-disruption premium faded as the market found its footing. The stock had surged nearly 14% over the past two weeks as geopolitical tensions lifted crude prices and refinery economics improved.\n\nRefineries are currently running at 92.7% capacity with crude prices still elevated\u2014US oil at $96 a barrel\u2014so the underlying business backdrop remains solid. The swings reflect how tightly Marathon's fortunes track both crude price movements and the real-time flow of news from conflict zones that could choke off global oil supply.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 94,
-    "inputTokens": 87313,
-    "outputTokens": 21157,
-    "estimatedCostUsd": 0.193098,
-    "lastCallHour": "2026-10-15T13"
+    "callsThisMonth": 95,
+    "inputTokens": 88205,
+    "outputTokens": 21349,
+    "estimatedCostUsd": 0.19495,
+    "lastCallHour": "2026-10-15T14"
   }
 }
