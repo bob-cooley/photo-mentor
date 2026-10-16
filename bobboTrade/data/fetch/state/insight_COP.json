@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-16T15:10:08.953429+00:00",
-  "text": "ConocoPhillips rose 1.5% today to $143.88, continuing a strong two-week rally that's up 13.5%. The immediate driver is the sharp disconnect between crude oil prices and what the energy sector actually earns: while US oil trades around $102 a barrel, the *real* cost to deliver physical oil to refineries is about $38 higher per barrel because tanker rates have surged\u2014meaning refiners and producers who can actually move oil are capturing outsized profits. The stock has climbed steadily over the past week as this supply-side tightness has become increasingly clear.\n\nThe broader backdrop is acute diesel scarcity and geopolitical risk in the Middle East. Iran's stepped-up attacks near the Strait of Hormuz are raising shipping costs and threatening the world's energy supply lines, while the International Energy Agency is scrambling to release strategic reserves just to meet US demand. This creates a sustained environment where oil producers with infrastructure to export\u2014like ConocoPhillips\u2014benefit from both higher prices and the logistics premium baked into physical delivery.",
+  "fetchedAt": "2026-10-16T19:16:24.832305+00:00",
+  "text": "ConocoPhillips rose 3% today as oil prices jumped on escalating geopolitical tensions in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, sending U.S. crude up sharply and lifting the stock alongside it. The company benefits directly when crude prices rise\u2014higher oil prices mean higher revenues and profits from production and refining operations.\n\nThe rally fits into a broader two-week surge of over 15% that tracks a steep climb in oil prices themselves. Tanker rates have also spiked significantly, which increases the *real* cost to move physical oil globally (adding roughly $38 per barrel to delivered cost), further tightening supply conditions and supporting crude values. For an integrated oil producer and refiner like ConocoPhillips, both higher crude prices and the squeeze on physical supply logistics work in its favor.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 106,
-    "inputTokens": 91848,
-    "outputTokens": 22623,
-    "estimatedCostUsd": 0.204963,
-    "lastCallHour": "2026-10-16T15"
+    "callsThisMonth": 107,
+    "inputTokens": 92731,
+    "outputTokens": 22814,
+    "estimatedCostUsd": 0.206801,
+    "lastCallHour": "2026-10-16T19"
   }
 }

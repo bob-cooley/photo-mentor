@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-16T15:10:39.231945+00:00",
-  "text": "Marathon Petroleum's stock ticked down just 0.13% today despite oil prices holding firm around $102/barrel and U.S. refineries running at 93.5% capacity \u2014 a strong operating environment. The tiny decline suggests the market has already priced in the refiner-friendly backdrop: crude costs are elevated (especially physical delivery, which costs roughly $38 extra per barrel due to surging tanker rates), and diesel shortages are driving urgency to release global stockpiles, which should support refining margins. The stock's real momentum has been the 12.8% surge over two weeks, likely fueled by these same tight supply conditions and geopolitical uncertainty around Iran that keeps oil prices elevated.\n\nThe bigger picture is that refiner profits depend on the gap between what they pay for crude and what they sell refined products for \u2014 and right now that gap is wide. Diesel inventory sits at only 102.6 million barrels while refinery utilization is maxed out near 94%, creating the kind of supply pinch that rewards companies like Marathon that can keep the fuel flowing. Today's flat performance is just a pause after a strong run; the underlying conditions that drove the two-week rally remain in place.",
+  "fetchedAt": "2026-10-16T19:18:10.393807+00:00",
+  "text": "Marathon Petroleum stock edged up 0.26% today to close at $478.14, capping a two-week surge of 13.2% driven by sharp gains in crude oil prices and refinery profitability. U.S. crude rose above $101 per barrel as Iran escalated attacks in the Strait of Hormuz, a critical shipping chokepoint; Brent crude touched $110, widening the gap between U.S. and global oil prices. Refineries are running at 93.5% capacity, near maximum, which means Marathon captures more of the profit margin between buying crude and selling gasoline and diesel\u2014especially valuable when crude prices spike suddenly.\n\nThe two-week rally reflects how geopolitical tension directly benefits U.S. oil refiners. Iran's actions tighten global crude supplies and push shipping costs higher, which makes the physical delivery of oil more expensive; analysts note the true cost to move crude can run $30\u2013$40 per barrel above the spot price. Marathon's refineries benefit from this widening gap\u2014they can buy U.S. crude at $101 but sell products into a global market where Brent trades at $126.55, and refinery utilization near 94% means the company is running flat-out to capture that spread.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 106,
-    "inputTokens": 98269,
-    "outputTokens": 23899,
-    "estimatedCostUsd": 0.217764,
-    "lastCallHour": "2026-10-16T15"
+    "callsThisMonth": 107,
+    "inputTokens": 99215,
+    "outputTokens": 24182,
+    "estimatedCostUsd": 0.220125,
+    "lastCallHour": "2026-10-16T19"
   }
 }
