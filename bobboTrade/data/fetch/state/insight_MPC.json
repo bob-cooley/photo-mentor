@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-15T21:01:22.006727+00:00",
-  "text": "Marathon Petroleum fell 1.69% today after rallying sharply over the past two days, pulling back from a near-term peak. The stock had climbed 5.4% in just two days (October 14\u201315) as crude oil prices surged on Middle East tensions and supply concerns, but today's decline reflects profit-taking and some cooling in oil prices \u2014 U.S. crude dropped to near $98 a barrel as traders reassessed the geopolitical risk after Iran's initial attacks on shipping in the Strait of Hormuz.\n\nThe underlying refining environment remains supportive despite today's pullback. U.S. refineries are running at 93.5% capacity, storage levels for gasoline and diesel remain tight (especially diesel, which hit record high prices in September), and the IEA announcement to release strategic diesel reserves suggests persistent tightness in the market \u2014 all of which typically benefit a major refiner's margins when they can convert crude into products that command premium prices.",
+  "fetchedAt": "2026-10-16T00:03:42.965250+00:00",
+  "text": "Marathon Petroleum fell 1.65% today, giving back some of yesterday's sharp 1.3% gain, even as crude oil prices held relatively steady near $102 a barrel. The decline appears to reflect profit-taking after the stock surged 13.5% over the past two weeks on the back of Middle East tensions and supply concerns\u2014yesterday's pop to $484.92 on escalating Iran attacks in the Strait of Hormuz may have simply been the peak of that rally as traders locked in gains.\n\nThe broader refining backdrop remains supportive: refineries are running at 93.5% capacity, oil storage is moderate, and the recent announcement of a massive 20+ million barrel diesel release from the International Energy Agency suggests demand pressure (and pricing power) that refiners benefit from. But today's pullback signals that even with geopolitical risk priced in, the market is reassessing how much higher the stock can climb from here after its two-week surge.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 102,
-    "inputTokens": 94555,
-    "outputTokens": 22967,
-    "estimatedCostUsd": 0.20939,
-    "lastCallHour": "2026-10-15T21"
+    "callsThisMonth": 103,
+    "inputTokens": 95473,
+    "outputTokens": 23179,
+    "estimatedCostUsd": 0.211368,
+    "lastCallHour": "2026-10-16T00"
   }
 }

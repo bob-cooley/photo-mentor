@@ -98,17 +98,18 @@
     "https://www.france24.com/en/video/20261015-elon-musk-and-donald-trump-what-their-growing-ties-mean-for-ukraine": "2026-10-15T19:47:09.316476+00:00",
     "https://www.france24.com/en/video/20261015-ukraine-s-zelensky-defies-trump-with-russian-refinery-strikes": "2026-10-15T19:47:11.146337+00:00",
     "https://meduza.io/en/news/2026/10/15/ukrainian-drones-strike-ryazan-oil-refinery-prompting-school-and-kindergarten-closures-across-the-city": "2026-10-15T19:47:12.526827+00:00",
-    "https://meduza.io/en/news/2026/10/15/we-re-done-zelensky-says-ukraine-will-resume-strikes-on-russian-oil-refineries": "2026-10-15T19:47:13.478454+00:00"
+    "https://meduza.io/en/news/2026/10/15/we-re-done-zelensky-says-ukraine-will-resume-strikes-on-russian-oil-refineries": "2026-10-15T19:47:13.478454+00:00",
+    "https://www.france24.com/en/europe/20261015-zelensky-rallies-european-allies-as-us-support-for-ukraine-wanes": "2026-10-16T00:04:52.094458+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 33,
-    "inputTokens": 40487,
-    "outputTokens": 3851,
-    "estimatedCostUsd": 0.059742
+    "calls": 34,
+    "inputTokens": 41091,
+    "outputTokens": 3939,
+    "estimatedCostUsd": 0.060786
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-10-15T19:47:13.478833+00:00"
+  "lastRunAt": "2026-10-16T00:04:52.094677+00:00"
 }
