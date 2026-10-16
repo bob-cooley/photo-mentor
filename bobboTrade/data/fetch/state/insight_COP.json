@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-16T19:16:24.832305+00:00",
-  "text": "ConocoPhillips rose 3% today as oil prices jumped on escalating geopolitical tensions in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, sending U.S. crude up sharply and lifting the stock alongside it. The company benefits directly when crude prices rise\u2014higher oil prices mean higher revenues and profits from production and refining operations.\n\nThe rally fits into a broader two-week surge of over 15% that tracks a steep climb in oil prices themselves. Tanker rates have also spiked significantly, which increases the *real* cost to move physical oil globally (adding roughly $38 per barrel to delivered cost), further tightening supply conditions and supporting crude values. For an integrated oil producer and refiner like ConocoPhillips, both higher crude prices and the squeeze on physical supply logistics work in its favor.",
+  "fetchedAt": "2026-10-16T22:30:32.780023+00:00",
+  "text": "ConocoPhillips jumped 3.4% today as oil prices spiked sharply on escalating geopolitical tension in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, a critical chokepoint for global oil supplies, pushing U.S. crude toward $102 a barrel and Brent crude to $110. For an oil producer like ConocoPhillips, higher oil prices directly translate to higher revenues and profits, which is why the stock accelerated higher over the past week alongside the price move \u2014 the stock is up nearly 16% in two weeks as geopolitical risk has pushed crude meaningfully higher.\n\nBeyond the day's headlines, traders are also pricing in a structural mismatch between what oil costs to produce and deliver versus the headline price. Tanker rates have surged so much that the actual cost to physically move crude to market is roughly $38 per barrel higher than the spot price suggests, meaning the real margin for producers is wider than the raw numbers imply. Combined with drone and missile threats to refinery capacity in the region, this creates both upside for producers and potential supply tightness that reinforces the price floor.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 107,
-    "inputTokens": 92731,
-    "outputTokens": 22814,
-    "estimatedCostUsd": 0.206801,
-    "lastCallHour": "2026-10-16T19"
+    "callsThisMonth": 108,
+    "inputTokens": 93614,
+    "outputTokens": 23073,
+    "estimatedCostUsd": 0.208979,
+    "lastCallHour": "2026-10-16T22"
   }
 }

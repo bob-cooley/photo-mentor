@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-16T19:18:10.393807+00:00",
-  "text": "Marathon Petroleum stock edged up 0.26% today to close at $478.14, capping a two-week surge of 13.2% driven by sharp gains in crude oil prices and refinery profitability. U.S. crude rose above $101 per barrel as Iran escalated attacks in the Strait of Hormuz, a critical shipping chokepoint; Brent crude touched $110, widening the gap between U.S. and global oil prices. Refineries are running at 93.5% capacity, near maximum, which means Marathon captures more of the profit margin between buying crude and selling gasoline and diesel\u2014especially valuable when crude prices spike suddenly.\n\nThe two-week rally reflects how geopolitical tension directly benefits U.S. oil refiners. Iran's actions tighten global crude supplies and push shipping costs higher, which makes the physical delivery of oil more expensive; analysts note the true cost to move crude can run $30\u2013$40 per barrel above the spot price. Marathon's refineries benefit from this widening gap\u2014they can buy U.S. crude at $101 but sell products into a global market where Brent trades at $126.55, and refinery utilization near 94% means the company is running flat-out to capture that spread.",
+  "fetchedAt": "2026-10-16T22:32:19.238410+00:00",
+  "text": "Marathon Petroleum edged up 0.24% today in a market where crude oil prices remain elevated following Iran's escalation of attacks in the Strait of Hormuz. U.S. crude is trading near $102 per barrel, and Brent (global benchmark) hit $110 this week \u2014 a significant move that benefits refiners who process crude into gasoline and diesel. The refinery sector is running at 93.5% capacity with strong product demand (diesel in particular is tight enough that traders are paying a steep premium to transport it), which creates favorable conditions for refiners' profit margins.\n\nThe stock's 13% climb over two weeks reflects a broader rally in the refining sector as geopolitical uncertainty around oil chokepoints combines with tight product inventory to support the economics of turning crude into fuel. U.S. oil storage is elevated at 698 million barrels, but gasoline and diesel inventories remain lean, meaning refiners are selling into tight demand rather than working down a glut.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 107,
-    "inputTokens": 99215,
-    "outputTokens": 24182,
-    "estimatedCostUsd": 0.220125,
-    "lastCallHour": "2026-10-16T19"
+    "callsThisMonth": 108,
+    "inputTokens": 100163,
+    "outputTokens": 24400,
+    "estimatedCostUsd": 0.222163,
+    "lastCallHour": "2026-10-16T22"
   }
 }
