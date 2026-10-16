@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-16T00:03:42.965250+00:00",
-  "text": "Marathon Petroleum fell 1.65% today, giving back some of yesterday's sharp 1.3% gain, even as crude oil prices held relatively steady near $102 a barrel. The decline appears to reflect profit-taking after the stock surged 13.5% over the past two weeks on the back of Middle East tensions and supply concerns\u2014yesterday's pop to $484.92 on escalating Iran attacks in the Strait of Hormuz may have simply been the peak of that rally as traders locked in gains.\n\nThe broader refining backdrop remains supportive: refineries are running at 93.5% capacity, oil storage is moderate, and the recent announcement of a massive 20+ million barrel diesel release from the International Energy Agency suggests demand pressure (and pricing power) that refiners benefit from. But today's pullback signals that even with geopolitical risk priced in, the market is reassessing how much higher the stock can climb from here after its two-week surge.",
+  "fetchedAt": "2026-10-16T05:25:33.547172+00:00",
+  "text": "Marathon Petroleum fell 1.65% today after climbing sharply over the previous two days, giving back some of a strong two-week rally. The pullback came as oil prices wavered\u2014U.S. crude dipped toward $98 a barrel after traders weighed Iran's escalating attacks on ships in the Strait of Hormuz against the International Energy Agency's plan to release over 20 million barrels of diesel to cool record-high U.S. prices. The competing forces\u2014supply-chain disruption risk pushing oil higher versus fresh diesel inventory pushing prices lower\u2014created enough uncertainty to trim refiners' gains.\n\nThe bigger picture: refiners have benefited sharply from the wide gap between U.S. crude (now $101.91) and global oil ($125.44), which widens their profit margins on fuel exports. With U.S. refineries running at 93.5% capacity and diesel in particularly tight supply, that spread matters enormously. Today's hesitation reflects traders balancing whether Middle East tensions or the IEA's stabilizing move will dominate oil markets going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 103,
-    "inputTokens": 95473,
-    "outputTokens": 23179,
-    "estimatedCostUsd": 0.211368,
-    "lastCallHour": "2026-10-16T00"
+    "callsThisMonth": 104,
+    "inputTokens": 96391,
+    "outputTokens": 23419,
+    "estimatedCostUsd": 0.213486,
+    "lastCallHour": "2026-10-16T05"
   }
 }
