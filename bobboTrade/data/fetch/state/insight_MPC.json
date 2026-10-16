@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-16T10:39:10.084393+00:00",
-  "text": "Marathon Petroleum fell 1.65% today after climbing sharply over the past week, giving back some of those gains as oil prices and refining conditions stabilized. The stock had surged 13.5% in two weeks partly on geopolitical risk\u2014Iran's escalating attacks in the Strait of Hormuz pushed crude toward $102\u2014but today's pullback coincides with reports that the Trump administration is seeking diplomatic off-ramps rather than military escalation, which reduces the immediate risk premium in oil prices.\n\nThe broader refining backdrop remains supportive: refineries are running at 93.5% capacity with relatively tight diesel and gasoline inventories, suggesting strong demand and margins. However, the announcement that the International Energy Agency will release more than 20 million barrels of diesel to ease U.S. price pressure\u2014a move the administration explicitly pushed for\u2014could weigh on refining spreads going forward if it loosens the supply crunch that has been driving profitability in the sector.",
+  "fetchedAt": "2026-10-16T15:10:39.231945+00:00",
+  "text": "Marathon Petroleum's stock ticked down just 0.13% today despite oil prices holding firm around $102/barrel and U.S. refineries running at 93.5% capacity \u2014 a strong operating environment. The tiny decline suggests the market has already priced in the refiner-friendly backdrop: crude costs are elevated (especially physical delivery, which costs roughly $38 extra per barrel due to surging tanker rates), and diesel shortages are driving urgency to release global stockpiles, which should support refining margins. The stock's real momentum has been the 12.8% surge over two weeks, likely fueled by these same tight supply conditions and geopolitical uncertainty around Iran that keeps oil prices elevated.\n\nThe bigger picture is that refiner profits depend on the gap between what they pay for crude and what they sell refined products for \u2014 and right now that gap is wide. Diesel inventory sits at only 102.6 million barrels while refinery utilization is maxed out near 94%, creating the kind of supply pinch that rewards companies like Marathon that can keep the fuel flowing. Today's flat performance is just a pause after a strong run; the underlying conditions that drove the two-week rally remain in place.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 105,
-    "inputTokens": 97330,
-    "outputTokens": 23636,
-    "estimatedCostUsd": 0.21551,
-    "lastCallHour": "2026-10-16T10"
+    "callsThisMonth": 106,
+    "inputTokens": 98269,
+    "outputTokens": 23899,
+    "estimatedCostUsd": 0.217764,
+    "lastCallHour": "2026-10-16T15"
   }
 }

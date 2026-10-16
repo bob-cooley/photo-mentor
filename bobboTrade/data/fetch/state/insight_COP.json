@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-16T10:38:47.434281+00:00",
-  "text": "ConocoPhillips edged down 0.43% today to $141.73, a small pullback after a strong two-week rally of 11.55%. The decline likely reflects profit-taking following yesterday's jump to $142.34, especially as oil prices softened\u2014U.S. crude fell near $98 on Thursday as traders assessed Iran's attacks on shipping in the Strait of Hormuz and digested new supply data from the International Energy Agency. Even with today's small retreat, the stock remains well above where it started the period, boosted by the broader oil strength that has defined the past two weeks.\n\nThe underlying tailwind for the rally has been a tightening physical oil market: tanker rates have surged enough that the real cost to deliver oil is roughly $38 per barrel higher than benchmark prices suggest, and U.S. diesel prices have hit record highs, drawing attention to global refining bottlenecks. That structural supply tightness has supported oil prices even as geopolitical tensions around Iran have created near-term volatility rather than sustained gains.",
+  "fetchedAt": "2026-10-16T15:10:08.953429+00:00",
+  "text": "ConocoPhillips rose 1.5% today to $143.88, continuing a strong two-week rally that's up 13.5%. The immediate driver is the sharp disconnect between crude oil prices and what the energy sector actually earns: while US oil trades around $102 a barrel, the *real* cost to deliver physical oil to refineries is about $38 higher per barrel because tanker rates have surged\u2014meaning refiners and producers who can actually move oil are capturing outsized profits. The stock has climbed steadily over the past week as this supply-side tightness has become increasingly clear.\n\nThe broader backdrop is acute diesel scarcity and geopolitical risk in the Middle East. Iran's stepped-up attacks near the Strait of Hormuz are raising shipping costs and threatening the world's energy supply lines, while the International Energy Agency is scrambling to release strategic reserves just to meet US demand. This creates a sustained environment where oil producers with infrastructure to export\u2014like ConocoPhillips\u2014benefit from both higher prices and the logistics premium baked into physical delivery.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 105,
-    "inputTokens": 90972,
-    "outputTokens": 22386,
-    "estimatedCostUsd": 0.202902,
-    "lastCallHour": "2026-10-16T10"
+    "callsThisMonth": 106,
+    "inputTokens": 91848,
+    "outputTokens": 22623,
+    "estimatedCostUsd": 0.204963,
+    "lastCallHour": "2026-10-16T15"
   }
 }
