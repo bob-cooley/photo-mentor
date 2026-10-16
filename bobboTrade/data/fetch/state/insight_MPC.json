@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-16T05:25:33.547172+00:00",
-  "text": "Marathon Petroleum fell 1.65% today after climbing sharply over the previous two days, giving back some of a strong two-week rally. The pullback came as oil prices wavered\u2014U.S. crude dipped toward $98 a barrel after traders weighed Iran's escalating attacks on ships in the Strait of Hormuz against the International Energy Agency's plan to release over 20 million barrels of diesel to cool record-high U.S. prices. The competing forces\u2014supply-chain disruption risk pushing oil higher versus fresh diesel inventory pushing prices lower\u2014created enough uncertainty to trim refiners' gains.\n\nThe bigger picture: refiners have benefited sharply from the wide gap between U.S. crude (now $101.91) and global oil ($125.44), which widens their profit margins on fuel exports. With U.S. refineries running at 93.5% capacity and diesel in particularly tight supply, that spread matters enormously. Today's hesitation reflects traders balancing whether Middle East tensions or the IEA's stabilizing move will dominate oil markets going forward.",
+  "fetchedAt": "2026-10-16T10:39:10.084393+00:00",
+  "text": "Marathon Petroleum fell 1.65% today after climbing sharply over the past week, giving back some of those gains as oil prices and refining conditions stabilized. The stock had surged 13.5% in two weeks partly on geopolitical risk\u2014Iran's escalating attacks in the Strait of Hormuz pushed crude toward $102\u2014but today's pullback coincides with reports that the Trump administration is seeking diplomatic off-ramps rather than military escalation, which reduces the immediate risk premium in oil prices.\n\nThe broader refining backdrop remains supportive: refineries are running at 93.5% capacity with relatively tight diesel and gasoline inventories, suggesting strong demand and margins. However, the announcement that the International Energy Agency will release more than 20 million barrels of diesel to ease U.S. price pressure\u2014a move the administration explicitly pushed for\u2014could weigh on refining spreads going forward if it loosens the supply crunch that has been driving profitability in the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 104,
-    "inputTokens": 96391,
-    "outputTokens": 23419,
-    "estimatedCostUsd": 0.213486,
-    "lastCallHour": "2026-10-16T05"
+    "callsThisMonth": 105,
+    "inputTokens": 97330,
+    "outputTokens": 23636,
+    "estimatedCostUsd": 0.21551,
+    "lastCallHour": "2026-10-16T10"
   }
 }

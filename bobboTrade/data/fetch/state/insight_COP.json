@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-16T05:25:02.196800+00:00",
-  "text": "ConocoPhillips fell 0.43% today after climbing 11.55% over the past two weeks. The tiny decline came as oil prices weakened\u2014U.S. crude dropped toward $98 a barrel as traders digested reports of Iranian attacks on ships in the Strait of Hormuz and the International Energy Agency's plan to release over 20 million barrels of diesel to ease record-high U.S. prices. After a strong run-up driven by supply concerns and Middle East tensions, today's pullback looks like a normal pause rather than a reversal of the recent uptrend.\n\nThe broader backdrop remains tight: a container ship sank in Hormuz this week, tanker rates have surged (making delivered oil physically more expensive by around $38 per barrel according to market analysis), and the IEA's diesel release signals real concern about U.S. supply. The stock's recent gains reflect those supply-crunch worries, so today's modest dip appears to be profit-taking or a temporary step back in an otherwise strong environment for oil majors.",
+  "fetchedAt": "2026-10-16T10:38:47.434281+00:00",
+  "text": "ConocoPhillips edged down 0.43% today to $141.73, a small pullback after a strong two-week rally of 11.55%. The decline likely reflects profit-taking following yesterday's jump to $142.34, especially as oil prices softened\u2014U.S. crude fell near $98 on Thursday as traders assessed Iran's attacks on shipping in the Strait of Hormuz and digested new supply data from the International Energy Agency. Even with today's small retreat, the stock remains well above where it started the period, boosted by the broader oil strength that has defined the past two weeks.\n\nThe underlying tailwind for the rally has been a tightening physical oil market: tanker rates have surged enough that the real cost to deliver oil is roughly $38 per barrel higher than benchmark prices suggest, and U.S. diesel prices have hit record highs, drawing attention to global refining bottlenecks. That structural supply tightness has supported oil prices even as geopolitical tensions around Iran have created near-term volatility rather than sustained gains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 104,
-    "inputTokens": 90095,
-    "outputTokens": 22149,
-    "estimatedCostUsd": 0.20084,
-    "lastCallHour": "2026-10-16T05"
+    "callsThisMonth": 105,
+    "inputTokens": 90972,
+    "outputTokens": 22386,
+    "estimatedCostUsd": 0.202902,
+    "lastCallHour": "2026-10-16T10"
   }
 }
