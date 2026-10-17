@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-17T10:08:11.334206+00:00",
-  "text": "Marathon Petroleum edged up 0.24% today to close at $478.07, extending a strong two-week rally of 13.2%. The gain reflects the broader energy backdrop: U.S. crude oil has climbed above $101 per barrel as Iran escalates attacks in the Strait of Hormuz, a critical chokepoint for global oil supply. Refineries across the U.S. are running at 93.5% capacity, and the combination of tighter crude supplies and strong refining demand is supporting margins for companies like Marathon that process crude into fuel.\n\nThe two-week surge reflects deeper market nervousness about oil supply disruptions. Tanker rates have spiked significantly enough that traders are now pricing crude with a $30\u2013$40 premium just to account for the cost and risk of physically delivering it\u2014well above the headline price. This kind of supply tension typically benefits refiners, who can buy crude at one price and sell the finished gasoline and diesel at higher spreads, even as Middle East geopolitical risk keeps crude prices elevated.",
+  "fetchedAt": "2026-10-17T14:05:08.212120+00:00",
+  "text": "Marathon Petroleum rose a modest 0.24% today, but that's really the tail end of a sharp two-week rally up 13.2%. The driver throughout has been crude oil prices: US oil climbed from around $90 to nearly $102 per barrel as Iran escalated attacks on ships in the Strait of Hormuz, a critical chokepoint for global oil supply. Refineries like Marathon benefit directly when crude prices rise because they can sell the refined products (gasoline, diesel) for more than they pay for the raw oil\u2014and with refineries currently running at 93.5%, they're operating near full capacity to capture that margin.\n\nThe broader story fueling this move is geopolitical risk compressing supply expectations. Beyond Iran's attacks, there's talk of Ukraine targeting Russian refineries and uncertainty about U.S. intervention (Trump ruled out nukes and ground troops, leaving military options ambiguous). With tanker rates surging and the \"real\" cost to physically deliver oil running $30\u201340 higher than the headline price, the economics favor refiners who can operate at volume\u2014which is exactly Marathon's business model.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 111,
-    "inputTokens": 103007,
-    "outputTokens": 25138,
-    "estimatedCostUsd": 0.228697,
-    "lastCallHour": "2026-10-17T10"
+    "callsThisMonth": 112,
+    "inputTokens": 103955,
+    "outputTokens": 25385,
+    "estimatedCostUsd": 0.23088,
+    "lastCallHour": "2026-10-17T14"
   }
 }
