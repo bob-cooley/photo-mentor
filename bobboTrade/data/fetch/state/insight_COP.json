@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-16T22:30:32.780023+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil prices spiked sharply on escalating geopolitical tension in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, a critical chokepoint for global oil supplies, pushing U.S. crude toward $102 a barrel and Brent crude to $110. For an oil producer like ConocoPhillips, higher oil prices directly translate to higher revenues and profits, which is why the stock accelerated higher over the past week alongside the price move \u2014 the stock is up nearly 16% in two weeks as geopolitical risk has pushed crude meaningfully higher.\n\nBeyond the day's headlines, traders are also pricing in a structural mismatch between what oil costs to produce and deliver versus the headline price. Tanker rates have surged so much that the actual cost to physically move crude to market is roughly $38 per barrel higher than the spot price suggests, meaning the real margin for producers is wider than the raw numbers imply. Combined with drone and missile threats to refinery capacity in the region, this creates both upside for producers and potential supply tightness that reinforces the price floor.",
+  "fetchedAt": "2026-10-17T01:02:25.435533+00:00",
+  "text": "ConocoPhillips jumped 3.4% today as oil prices spiked on escalating geopolitical tension in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, sending U.S. crude up sharply and pushing Brent crude toward $110 per barrel. For an oil producer like ConocoPhillips, higher oil prices directly translate to higher revenue and profits \u2014 the company benefits immediately when the commodity it extracts becomes more valuable.\n\nThe two-week rally (up 15.6%) reflects a broader shift in oil markets driven by supply concerns and tightening. Beyond the Iran attacks, tanker rates have surged significantly, adding roughly $38 per barrel to the true delivered cost of physical oil; this supply-chain friction, combined with production threats to critical chokepoints like Hormuz, has pushed the real cost of oil well above the headline price, supporting higher valuations for producers across the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 108,
-    "inputTokens": 93614,
-    "outputTokens": 23073,
-    "estimatedCostUsd": 0.208979,
-    "lastCallHour": "2026-10-16T22"
+    "callsThisMonth": 109,
+    "inputTokens": 94499,
+    "outputTokens": 23284,
+    "estimatedCostUsd": 0.210919,
+    "lastCallHour": "2026-10-17T01"
   }
 }

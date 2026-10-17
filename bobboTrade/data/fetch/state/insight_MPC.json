@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-16T22:32:19.238410+00:00",
-  "text": "Marathon Petroleum edged up 0.24% today in a market where crude oil prices remain elevated following Iran's escalation of attacks in the Strait of Hormuz. U.S. crude is trading near $102 per barrel, and Brent (global benchmark) hit $110 this week \u2014 a significant move that benefits refiners who process crude into gasoline and diesel. The refinery sector is running at 93.5% capacity with strong product demand (diesel in particular is tight enough that traders are paying a steep premium to transport it), which creates favorable conditions for refiners' profit margins.\n\nThe stock's 13% climb over two weeks reflects a broader rally in the refining sector as geopolitical uncertainty around oil chokepoints combines with tight product inventory to support the economics of turning crude into fuel. U.S. oil storage is elevated at 698 million barrels, but gasoline and diesel inventories remain lean, meaning refiners are selling into tight demand rather than working down a glut.",
+  "fetchedAt": "2026-10-17T01:03:13.631239+00:00",
+  "text": "Marathon Petroleum edged up 0.24% today, barely moving in what has otherwise been a sharp two-week rally of 13%. The real story is the underlying refinery economics: crude oil has climbed to $101.91 per barrel (with global Brent at $126.55), driven by Iran's escalating attacks on shipping in the Strait of Hormuz that are now spiking tanker costs and making physical oil delivery far more expensive. U.S. refineries are running at 93.5% capacity\u2014a tight operating rate\u2014while storage levels remain moderate, meaning refiners like Marathon can process oil at strong margins as supply tightens and the market tightens further.\n\nThe two-week surge reflects a broader tightening in refining fundamentals: geopolitical risk in the Gulf has pushed crude prices sharply higher, tanker-rate spikes have made actual delivery costs significantly more expensive than the headline oil price suggests, and a U.S. refinery running near-full capacity has less flexibility to adjust volumes if more disruptions occur. This is a refiner's strong environment, even as today's flat price action suggests the market is taking a breath after yesterday's $8 jump.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 108,
-    "inputTokens": 100163,
-    "outputTokens": 24400,
-    "estimatedCostUsd": 0.222163,
-    "lastCallHour": "2026-10-16T22"
+    "callsThisMonth": 109,
+    "inputTokens": 101111,
+    "outputTokens": 24664,
+    "estimatedCostUsd": 0.224431,
+    "lastCallHour": "2026-10-17T01"
   }
 }
