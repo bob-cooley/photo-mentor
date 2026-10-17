@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-17T17:48:42.476475+00:00",
-  "text": "Marathon Petroleum's stock inched up 0.24% today to close at $478.07, capping a remarkable two-week rally of 13.2%. The move reflects the sharp rise in crude oil prices this week \u2014 U.S. oil jumped from around $98 to over $101 per barrel as Iran escalated attacks on shipping in the Strait of Hormuz, a critical chokepoint for global oil supply. Refiners like Marathon profit when crude prices rise relative to the finished products they sell (gasoline and diesel), and with U.S. refineries running at 93.5% capacity, the company is well-positioned to capture margins on higher-priced crude.\n\nThe week's gains also sit against a broader tightening in physical oil markets: analysts note that the true cost to deliver crude is running roughly $30\u2013$40 per barrel higher than posted prices due to surging tanker rates, which compounds supply pressures from the Middle East turmoil and keeps refiners incentivized to run at high utilization rates.",
+  "fetchedAt": "2026-10-17T20:05:31.523050+00:00",
+  "text": "Marathon Petroleum edged up 0.24% today after gaining nearly 13% over the past two weeks, riding a sharp rally in crude oil prices driven by geopolitical tension in the Middle East. Brent crude has spiked above $110 a barrel this week as Iran escalated attacks in the Strait of Hormuz, pushing U.S. crude to around $102\u2014a meaningful move for a refiner whose profitability depends on the spread between crude costs and refined product prices. With refineries running at 93.5% capacity and diesel storage low at 102.6 million barrels, tight supply conditions are working in the refiner's favor.\n\nThe recent rally also reflects tightening physical oil markets\u2014tanker rates have surged enough that the actual cost to deliver crude is running about $38 per barrel higher than the headline price, effectively boosting margins for refiners who can move product. Trump's stated reluctance to use nuclear weapons or ground troops against Iran may have also eased some extreme risk premium out of the market, allowing the recent spike to stabilize rather than climb further.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 113,
-    "inputTokens": 104903,
-    "outputTokens": 25614,
-    "estimatedCostUsd": 0.232973,
-    "lastCallHour": "2026-10-17T17"
+    "callsThisMonth": 114,
+    "inputTokens": 105851,
+    "outputTokens": 25854,
+    "estimatedCostUsd": 0.235121,
+    "lastCallHour": "2026-10-17T20"
   }
 }
