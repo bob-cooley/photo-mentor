@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-17T14:05:08.212120+00:00",
-  "text": "Marathon Petroleum rose a modest 0.24% today, but that's really the tail end of a sharp two-week rally up 13.2%. The driver throughout has been crude oil prices: US oil climbed from around $90 to nearly $102 per barrel as Iran escalated attacks on ships in the Strait of Hormuz, a critical chokepoint for global oil supply. Refineries like Marathon benefit directly when crude prices rise because they can sell the refined products (gasoline, diesel) for more than they pay for the raw oil\u2014and with refineries currently running at 93.5%, they're operating near full capacity to capture that margin.\n\nThe broader story fueling this move is geopolitical risk compressing supply expectations. Beyond Iran's attacks, there's talk of Ukraine targeting Russian refineries and uncertainty about U.S. intervention (Trump ruled out nukes and ground troops, leaving military options ambiguous). With tanker rates surging and the \"real\" cost to physically deliver oil running $30\u201340 higher than the headline price, the economics favor refiners who can operate at volume\u2014which is exactly Marathon's business model.",
+  "fetchedAt": "2026-10-17T17:48:42.476475+00:00",
+  "text": "Marathon Petroleum's stock inched up 0.24% today to close at $478.07, capping a remarkable two-week rally of 13.2%. The move reflects the sharp rise in crude oil prices this week \u2014 U.S. oil jumped from around $98 to over $101 per barrel as Iran escalated attacks on shipping in the Strait of Hormuz, a critical chokepoint for global oil supply. Refiners like Marathon profit when crude prices rise relative to the finished products they sell (gasoline and diesel), and with U.S. refineries running at 93.5% capacity, the company is well-positioned to capture margins on higher-priced crude.\n\nThe week's gains also sit against a broader tightening in physical oil markets: analysts note that the true cost to deliver crude is running roughly $30\u2013$40 per barrel higher than posted prices due to surging tanker rates, which compounds supply pressures from the Middle East turmoil and keeps refiners incentivized to run at high utilization rates.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 112,
-    "inputTokens": 103955,
-    "outputTokens": 25385,
-    "estimatedCostUsd": 0.23088,
-    "lastCallHour": "2026-10-17T14"
+    "callsThisMonth": 113,
+    "inputTokens": 104903,
+    "outputTokens": 25614,
+    "estimatedCostUsd": 0.232973,
+    "lastCallHour": "2026-10-17T17"
   }
 }
