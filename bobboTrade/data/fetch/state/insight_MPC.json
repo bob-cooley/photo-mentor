@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-17T20:05:31.523050+00:00",
-  "text": "Marathon Petroleum edged up 0.24% today after gaining nearly 13% over the past two weeks, riding a sharp rally in crude oil prices driven by geopolitical tension in the Middle East. Brent crude has spiked above $110 a barrel this week as Iran escalated attacks in the Strait of Hormuz, pushing U.S. crude to around $102\u2014a meaningful move for a refiner whose profitability depends on the spread between crude costs and refined product prices. With refineries running at 93.5% capacity and diesel storage low at 102.6 million barrels, tight supply conditions are working in the refiner's favor.\n\nThe recent rally also reflects tightening physical oil markets\u2014tanker rates have surged enough that the actual cost to deliver crude is running about $38 per barrel higher than the headline price, effectively boosting margins for refiners who can move product. Trump's stated reluctance to use nuclear weapons or ground troops against Iran may have also eased some extreme risk premium out of the market, allowing the recent spike to stabilize rather than climb further.",
+  "fetchedAt": "2026-10-17T22:54:48.194035+00:00",
+  "text": "Marathon Petroleum edged up 0.24% today to $478.07, barely moving in what has otherwise been a volatile two-week stretch. The stock is up 13.2% over that span, driven mostly by sharp oil price swings\u2014Brent crude jumped to $110 this week as Iran escalated attacks on shipping in the Strait of Hormuz, a critical chokepoint for global oil supply. With U.S. refineries running at 93.5% capacity and crude prices near $102, refiners benefit from the wider gap between what they pay for oil and what they can sell refined products for.\n\nThe bigger picture is geopolitical risk pushing oil higher across the board. Tanker rates have also surged, adding real physical costs to moving oil globally\u2014one analyst noted that transportation alone can add ~$38 per barrel to the actual cost of delivery. This combination of tight refinery utilization, elevated crude prices, and supply-chain stress from regional conflict creates a favorable environment for U.S. refining margins, which explains the stock's strong run over the past two weeks even as today's action stayed flat.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 114,
-    "inputTokens": 105851,
-    "outputTokens": 25854,
-    "estimatedCostUsd": 0.235121,
-    "lastCallHour": "2026-10-17T20"
+    "callsThisMonth": 115,
+    "inputTokens": 106799,
+    "outputTokens": 26101,
+    "estimatedCostUsd": 0.237304,
+    "lastCallHour": "2026-10-17T22"
   }
 }
