@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-17T05:35:35.190357+00:00",
-  "text": "Marathon Petroleum moved up just 0.24% today, but the real story is the 13.2% gain over two weeks riding a sharp spike in crude oil prices. US crude jumped to $101.91 per barrel\u2014up from around $98 just yesterday\u2014as Iran escalated attacks on shipping in the Strait of Hormuz, a chokepoint that carries roughly a third of global seaborne oil. Refiners like Marathon profit when crude prices rise, especially with the company running at high utilization (93.5% of US refinery capacity online) and able to turn that pricier oil into fuel faster than competitors.\n\nThe broader tailwind here is a tightening global energy market: Brent crude hit $110, tanker costs have surged (adding $38 per barrel to the real cost of moving oil), and diesel storage has tightened to 102.6 million barrels. These dynamics are pushing refining margins higher, even though the stock pulled back slightly on October 15th before recovering this week\u2014suggesting traders are weighing upside profit potential against geopolitical uncertainty.",
+  "fetchedAt": "2026-10-17T10:08:11.334206+00:00",
+  "text": "Marathon Petroleum edged up 0.24% today to close at $478.07, extending a strong two-week rally of 13.2%. The gain reflects the broader energy backdrop: U.S. crude oil has climbed above $101 per barrel as Iran escalates attacks in the Strait of Hormuz, a critical chokepoint for global oil supply. Refineries across the U.S. are running at 93.5% capacity, and the combination of tighter crude supplies and strong refining demand is supporting margins for companies like Marathon that process crude into fuel.\n\nThe two-week surge reflects deeper market nervousness about oil supply disruptions. Tanker rates have spiked significantly enough that traders are now pricing crude with a $30\u2013$40 premium just to account for the cost and risk of physically delivering it\u2014well above the headline price. This kind of supply tension typically benefits refiners, who can buy crude at one price and sell the finished gasoline and diesel at higher spreads, even as Middle East geopolitical risk keeps crude prices elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 110,
-    "inputTokens": 102059,
-    "outputTokens": 24906,
-    "estimatedCostUsd": 0.226589,
-    "lastCallHour": "2026-10-17T05"
+    "callsThisMonth": 111,
+    "inputTokens": 103007,
+    "outputTokens": 25138,
+    "estimatedCostUsd": 0.228697,
+    "lastCallHour": "2026-10-17T10"
   }
 }

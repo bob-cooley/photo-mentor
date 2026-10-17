@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-17T05:32:57.804868+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil prices surged on escalating geopolitical risk in the Middle East. Iran intensified attacks on ships in the Strait of Hormuz on Friday, driving U.S. crude sharply higher to around $102 per barrel\u2014a move that directly boosts the earnings outlook for oil producers like ConocoPhillips. The company benefits immediately when the price it sells oil for rises, and the 15.6% gain over two weeks reflects the cumulative effect of this regional tension pushing crude higher.\n\nThe underlying supply concern is real: tanker rates have spiked significantly as shipping becomes riskier, adding roughly $38 per barrel to the effective cost of moving physical oil globally. For an oil producer, this kind of geopolitical friction\u2014combined with signals that the U.S. won't escalate militarily (which could have caused even more disruption)\u2014creates a environment where crude stays elevated without the risk of a wider conflict that might ultimately constrain demand.",
+  "fetchedAt": "2026-10-17T10:07:44.292345+00:00",
+  "text": "ConocoPhillips jumped 3.4% today as oil prices surged on escalating geopolitical risk in the Middle East. Iran intensified attacks in the Strait of Hormuz on Friday, pushing U.S. crude oil prices sharply higher\u2014Brent crude touched $110 a barrel. For an oil producer like ConocoPhillips, higher crude prices translate directly to higher revenue and profits, which is why the stock has climbed 15.6% over the past two weeks as regional tensions have mounted.\n\nThe move also reflects a growing recognition among traders that the \"true\" cost of oil is higher than the headline price suggests: physical delivery costs have surged due to elevated tanker rates, adding roughly $30\u2013$40 per barrel to the actual cost of getting oil to market. This squeeze on supply logistics, combined with the supply concerns from Middle East instability, has kept upward pressure on crude prices and benefited producers.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 110,
-    "inputTokens": 95384,
-    "outputTokens": 23508,
-    "estimatedCostUsd": 0.212924,
-    "lastCallHour": "2026-10-17T05"
+    "callsThisMonth": 111,
+    "inputTokens": 96269,
+    "outputTokens": 23715,
+    "estimatedCostUsd": 0.214844,
+    "lastCallHour": "2026-10-17T10"
   }
 }
