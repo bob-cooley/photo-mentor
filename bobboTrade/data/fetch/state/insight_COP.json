@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-17T01:02:25.435533+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil prices spiked on escalating geopolitical tension in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, sending U.S. crude up sharply and pushing Brent crude toward $110 per barrel. For an oil producer like ConocoPhillips, higher oil prices directly translate to higher revenue and profits \u2014 the company benefits immediately when the commodity it extracts becomes more valuable.\n\nThe two-week rally (up 15.6%) reflects a broader shift in oil markets driven by supply concerns and tightening. Beyond the Iran attacks, tanker rates have surged significantly, adding roughly $38 per barrel to the true delivered cost of physical oil; this supply-chain friction, combined with production threats to critical chokepoints like Hormuz, has pushed the real cost of oil well above the headline price, supporting higher valuations for producers across the sector.",
+  "fetchedAt": "2026-10-17T05:32:57.804868+00:00",
+  "text": "ConocoPhillips jumped 3.4% today as oil prices surged on escalating geopolitical risk in the Middle East. Iran intensified attacks on ships in the Strait of Hormuz on Friday, driving U.S. crude sharply higher to around $102 per barrel\u2014a move that directly boosts the earnings outlook for oil producers like ConocoPhillips. The company benefits immediately when the price it sells oil for rises, and the 15.6% gain over two weeks reflects the cumulative effect of this regional tension pushing crude higher.\n\nThe underlying supply concern is real: tanker rates have spiked significantly as shipping becomes riskier, adding roughly $38 per barrel to the effective cost of moving physical oil globally. For an oil producer, this kind of geopolitical friction\u2014combined with signals that the U.S. won't escalate militarily (which could have caused even more disruption)\u2014creates a environment where crude stays elevated without the risk of a wider conflict that might ultimately constrain demand.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 109,
-    "inputTokens": 94499,
-    "outputTokens": 23284,
-    "estimatedCostUsd": 0.210919,
-    "lastCallHour": "2026-10-17T01"
+    "callsThisMonth": 110,
+    "inputTokens": 95384,
+    "outputTokens": 23508,
+    "estimatedCostUsd": 0.212924,
+    "lastCallHour": "2026-10-17T05"
   }
 }

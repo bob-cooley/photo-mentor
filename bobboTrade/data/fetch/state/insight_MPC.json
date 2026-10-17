@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-17T01:03:13.631239+00:00",
-  "text": "Marathon Petroleum edged up 0.24% today, barely moving in what has otherwise been a sharp two-week rally of 13%. The real story is the underlying refinery economics: crude oil has climbed to $101.91 per barrel (with global Brent at $126.55), driven by Iran's escalating attacks on shipping in the Strait of Hormuz that are now spiking tanker costs and making physical oil delivery far more expensive. U.S. refineries are running at 93.5% capacity\u2014a tight operating rate\u2014while storage levels remain moderate, meaning refiners like Marathon can process oil at strong margins as supply tightens and the market tightens further.\n\nThe two-week surge reflects a broader tightening in refining fundamentals: geopolitical risk in the Gulf has pushed crude prices sharply higher, tanker-rate spikes have made actual delivery costs significantly more expensive than the headline oil price suggests, and a U.S. refinery running near-full capacity has less flexibility to adjust volumes if more disruptions occur. This is a refiner's strong environment, even as today's flat price action suggests the market is taking a breath after yesterday's $8 jump.",
+  "fetchedAt": "2026-10-17T05:35:35.190357+00:00",
+  "text": "Marathon Petroleum moved up just 0.24% today, but the real story is the 13.2% gain over two weeks riding a sharp spike in crude oil prices. US crude jumped to $101.91 per barrel\u2014up from around $98 just yesterday\u2014as Iran escalated attacks on shipping in the Strait of Hormuz, a chokepoint that carries roughly a third of global seaborne oil. Refiners like Marathon profit when crude prices rise, especially with the company running at high utilization (93.5% of US refinery capacity online) and able to turn that pricier oil into fuel faster than competitors.\n\nThe broader tailwind here is a tightening global energy market: Brent crude hit $110, tanker costs have surged (adding $38 per barrel to the real cost of moving oil), and diesel storage has tightened to 102.6 million barrels. These dynamics are pushing refining margins higher, even though the stock pulled back slightly on October 15th before recovering this week\u2014suggesting traders are weighing upside profit potential against geopolitical uncertainty.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 109,
-    "inputTokens": 101111,
-    "outputTokens": 24664,
-    "estimatedCostUsd": 0.224431,
-    "lastCallHour": "2026-10-17T01"
+    "callsThisMonth": 110,
+    "inputTokens": 102059,
+    "outputTokens": 24906,
+    "estimatedCostUsd": 0.226589,
+    "lastCallHour": "2026-10-17T05"
   }
 }

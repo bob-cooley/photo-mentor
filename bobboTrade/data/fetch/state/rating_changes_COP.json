@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-10-16T22:30:17.754320+00:00",
+    "fetchedAt": "2026-10-17T05:32:46.455750+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -75,16 +75,6 @@
         "targetAction": "Raises",
         "targetFrom": 136.0,
         "targetTo": 153.0
-      },
-      {
-        "date": "2026-08-17",
-        "firm": "Barclays",
-        "kind": "maintained",
-        "fromGrade": "Overweight",
-        "toGrade": "Overweight",
-        "targetAction": "Lowers",
-        "targetFrom": 155.0,
-        "targetTo": 150.0
       }
     ]
   }
