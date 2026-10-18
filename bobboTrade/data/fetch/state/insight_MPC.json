@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T10:24:02.082869+00:00",
-  "text": "Marathon Petroleum stock inched up 0.24% today after rallying 13.2% over two weeks, riding a sharp climb in oil prices. U.S. crude jumped above $101 a barrel today following Iranian escalation in the Strait of Hormuz, a critical shipping chokepoint for global oil \u2014 and Brent crude hit $110, reflecting the added premium buyers pay when supply routes face disruption. For a refiner, higher crude prices can pinch margins in the short term, but the company is also benefiting from elevated fuel prices and refinery utilization at 93.5%, near full capacity, which keeps throughput strong.\n\nThe broader tailwind is that global oil tightness is real: tanker rates have surged enough that the \"true\" cost to deliver physical oil is roughly $38 a barrel above the headline price, and refineries are running hot to meet demand amid geopolitical supply concerns. That structural strength in energy markets\u2014not any company-specific news today\u2014is what's driven the two-week gain.",
+  "fetchedAt": "2026-10-18T13:04:13.863425+00:00",
+  "text": "Marathon Petroleum edged up 0.24% today, barely moving despite a sharp jump in oil prices this week. The real story is what happened before: crude surged about $4 per barrel in recent days (U.S. oil hit $101.91 today, up from near $98 earlier in the week) as Iran escalated attacks in the Strait of Hormuz, and tanker rates have spiked, making physical oil delivery significantly more expensive. For a refiner like Marathon, higher crude costs typically pressure margins, but U.S. refineries are running at 93.5% capacity with tight product inventories (gasoline and diesel stocks are both lean), which supports the ability to pass costs through to customers\u2014that tension left the stock roughly flat today even as oil moved higher.\n\nThe broader backdrop remains volatile: geopolitical risk in the Middle East is keeping crude elevated, and the cost to physically ship oil has widened the gap between paper prices and real-world delivery costs. U.S. refiners are running hard to meet demand, but they're caught between higher input costs and the limits of how much margin they can protect when global supply chains are stressed.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 118,
-    "inputTokens": 109643,
-    "outputTokens": 26802,
-    "estimatedCostUsd": 0.243653,
-    "lastCallHour": "2026-10-18T10"
+    "callsThisMonth": 119,
+    "inputTokens": 110591,
+    "outputTokens": 27056,
+    "estimatedCostUsd": 0.245871,
+    "lastCallHour": "2026-10-18T13"
   }
 }
