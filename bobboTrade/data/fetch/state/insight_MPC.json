@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T20:01:27.271255+00:00",
-  "text": "Marathon's stock dipped slightly today after a volatile week that saw it surge nearly 13% over two weeks. The immediate driver appears to be profit-taking following yesterday's sharp 1.6% gain to $484.92, which came as oil prices spiked on Iran's escalating attacks in the Strait of Hormuz\u2014a critical shipping chokepoint for roughly 20% of global oil. With Brent crude touching $110 and U.S. crude at $101.91, refiners benefit from the wider spread between crude costs and product prices, but that same volatility can prompt traders to lock in gains.\n\nThe underlying strength in the stock reflects real tailwinds for Marathon as a refiner. U.S. refineries are running at 93.5% capacity amid tight diesel supplies (as evidenced by the surge in shipping costs and international focus on diesel-rich refineries), while oil inventories remain relatively lean at 698 million barrels. These conditions favor margin expansion for refiners, even as geopolitical risk keeps oil prices elevated\u2014the physical cost of moving crude has climbed roughly $38 per barrel due to tanker rate spikes, squeezing some competitors but benefiting those with reliable supply chains.",
+  "fetchedAt": "2026-10-18T21:01:24.356642+00:00",
+  "text": "Marathon Petroleum rose slightly today on a backdrop of sharp gains over the past two weeks, driven primarily by the escalating geopolitical tensions in the Middle East. Iran's attacks on shipping in the Strait of Hormuz and threats of further retaliation have pushed crude oil prices sharply higher\u2014Brent crude touched $110 this week\u2014and refineries are running at 93.5% capacity with moderate inventory levels, a combination that typically strengthens refiner margins (the profit spread between crude input costs and finished fuel sales).\n\nThe two-week rally reflects both the tighter supply outlook from Middle East disruption risk and the surge in tanker costs, which has pushed the real delivery cost of physical oil well above the spot price. For a large U.S. refiner like Marathon, higher crude prices and constrained global supply can improve profitability on existing inventory and future production, even as they raise input costs.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 126,
-    "inputTokens": 117276,
-    "outputTokens": 28723,
-    "estimatedCostUsd": 0.260891,
-    "lastCallHour": "2026-10-18T20"
+    "callsThisMonth": 127,
+    "inputTokens": 118231,
+    "outputTokens": 28920,
+    "estimatedCostUsd": 0.262831,
+    "lastCallHour": "2026-10-18T21"
   }
 }

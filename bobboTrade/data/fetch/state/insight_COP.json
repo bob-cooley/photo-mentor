@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T20:01:10.201272+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil markets reacted to escalating geopolitical tension in the Middle East. Iran's threats of retaliation for U.S. strikes, combined with actual attacks on shipping in the Strait of Hormuz this week, pushed crude prices sharply higher\u2014Brent touched $110 a barrel Friday, and the gap between U.S. crude ($101.91) and world oil ($126.55) has widened dramatically. For an oil major like ConocoPhillips, higher crude prices directly lift earnings from production and refining operations.\n\nThe stock's 15.6% gain over two weeks reflects a broader flight to safety as Middle East disruption threatens global oil supply. Even Trump's statement ruling out nuclear weapons and ground troops didn't ease the rally; instead, the market is pricing in the real risk of sustained shipping delays and refinery disruptions\u2014which makes crude scarcer and more expensive, benefiting producers with established reserves and infrastructure.",
+  "fetchedAt": "2026-10-18T21:01:01.112642+00:00",
+  "text": "ConocoPhillips rose 3.4% today as oil prices climbed sharply on escalating geopolitical tensions in the Middle East. Iran escalated attacks in the Strait of Hormuz this week, a critical chokepoint for global oil shipments, pushing U.S. crude toward $102 a barrel and Brent crude to $110. For an oil producer like ConocoPhillips, higher oil prices directly lift profit margins on every barrel they sell.\n\nThe broader backdrop amplifies the pressure: tanker rates have surged so much that the true cost to deliver physical oil is roughly $38 per barrel higher than the spot price suggests, according to recent analysis. This supply-side tension\u2014combined with Trump's stated reluctance to use nuclear weapons or ground troops, which reduces some downside risk to the market\u2014has kept energy investors buying into the sector. The stock's 15.6% gain over two weeks reflects a consistent climb as these geopolitical risks have mounted.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 126,
-    "inputTokens": 109586,
-    "outputTokens": 26949,
-    "estimatedCostUsd": 0.244331,
-    "lastCallHour": "2026-10-18T20"
+    "callsThisMonth": 127,
+    "inputTokens": 110478,
+    "outputTokens": 27165,
+    "estimatedCostUsd": 0.246303,
+    "lastCallHour": "2026-10-18T21"
   }
 }
