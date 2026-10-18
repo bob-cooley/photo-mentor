@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-10-17T22:54:36.497623+00:00",
+    "fetchedAt": "2026-10-18T05:26:27.447989+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
