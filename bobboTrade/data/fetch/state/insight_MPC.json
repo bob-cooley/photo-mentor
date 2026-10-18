@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T13:04:13.863425+00:00",
-  "text": "Marathon Petroleum edged up 0.24% today, barely moving despite a sharp jump in oil prices this week. The real story is what happened before: crude surged about $4 per barrel in recent days (U.S. oil hit $101.91 today, up from near $98 earlier in the week) as Iran escalated attacks in the Strait of Hormuz, and tanker rates have spiked, making physical oil delivery significantly more expensive. For a refiner like Marathon, higher crude costs typically pressure margins, but U.S. refineries are running at 93.5% capacity with tight product inventories (gasoline and diesel stocks are both lean), which supports the ability to pass costs through to customers\u2014that tension left the stock roughly flat today even as oil moved higher.\n\nThe broader backdrop remains volatile: geopolitical risk in the Middle East is keeping crude elevated, and the cost to physically ship oil has widened the gap between paper prices and real-world delivery costs. U.S. refiners are running hard to meet demand, but they're caught between higher input costs and the limits of how much margin they can protect when global supply chains are stressed.",
+  "fetchedAt": "2026-10-18T14:01:02.564934+00:00",
+  "text": "Marathon Petroleum stock rose 0.24% today to close at $478.07, continuing a sharp two-week rally of 13.2%. The underlying driver is crude oil strength: U.S. oil is trading at $101.91 per barrel (up from around $75 two weeks ago), fueled by escalating Iran-related geopolitical risk in the Strait of Hormuz and shipping strikes that have pushed tanker rates dramatically higher. Refineries are running at 93.5% capacity with relatively tight crude and product inventories, which means Marathon can process this higher-priced oil into fuel and benefit from the margin.\n\nThe broader context is that physical oil delivery costs have spiked due to shipping disruptions\u2014analysts note the true cost of delivered crude is roughly $30-40 higher than headline prices\u2014and Middle Eastern supply uncertainty is supporting crude prices even as U.S. inventory levels remain adequate. This is a classic scenario where refiner margins can widen: Marathon buys expensive crude but sells refined products into a market where the delivery premium has made fuel valuable enough to offset the crude cost increase.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 119,
-    "inputTokens": 110591,
-    "outputTokens": 27056,
-    "estimatedCostUsd": 0.245871,
-    "lastCallHour": "2026-10-18T13"
+    "callsThisMonth": 120,
+    "inputTokens": 111546,
+    "outputTokens": 27298,
+    "estimatedCostUsd": 0.248036,
+    "lastCallHour": "2026-10-18T14"
   }
 }

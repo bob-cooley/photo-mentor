@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T13:02:30.482350+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil markets reacted sharply to escalating geopolitical tension in the Middle East. Iran intensified attacks on shipping in the Strait of Hormuz on Friday, sending U.S. crude prices up sharply and Brent crude to $110 per barrel. For a major oil producer like ConocoPhillips, higher oil prices directly boost profitability \u2014 the company benefits when the commodity it extracts and sells commands a higher price.\n\nThe stock's 15.6% surge over two weeks reflects a broader shift in oil market expectations. Analysts have noted that physical delivery costs \u2014 what it actually takes to get oil from wellhead to buyer \u2014 add roughly $38 per barrel on top of the headline price, suggesting the true economic value of oil is well above current market quotes. As geopolitical risk persists and tanker rates remain elevated, investors are repricing energy stocks higher.",
+  "fetchedAt": "2026-10-18T14:00:52.252391+00:00",
+  "text": "ConocoPhillips rose 3.4% today as oil prices spiked on escalating geopolitical tension in the Middle East. Iran intensified attacks in the Strait of Hormuz on Friday, a critical chokepoint for global oil shipments, sending U.S. crude up sharply and pushing the stock higher alongside the broader energy sector. The company benefits directly when crude prices climb\u2014higher oil prices mean higher revenues from its production and sales.\n\nThe move is part of a much larger two-week rally (up 15.6%) that reflects a fundamental tightening in oil supply. Beyond the immediate headlines about Iran, the data shows a significant gap between where crude trades ($102 U.S., $127 world) and its true cost to physically deliver\u2014about $38 per barrel higher when you factor in soaring tanker rates to move the oil. That squeeze between benchmark prices and actual delivery costs is pushing real economic value into oil producers' hands, which is lifting the entire sector.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 119,
-    "inputTokens": 103349,
-    "outputTokens": 25384,
-    "estimatedCostUsd": 0.230269,
-    "lastCallHour": "2026-10-18T13"
+    "callsThisMonth": 120,
+    "inputTokens": 104234,
+    "outputTokens": 25601,
+    "estimatedCostUsd": 0.232239,
+    "lastCallHour": "2026-10-18T14"
   }
 }
