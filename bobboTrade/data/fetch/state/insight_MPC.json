@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T16:03:56.524706+00:00",
-  "text": "Marathon Petroleum's stock edged up 0.24% today after climbing 13.2% over the past two weeks, riding a sharp rise in crude oil prices driven by geopolitical tension in the Middle East. U.S. crude jumped to over $101 a barrel as Iran escalated attacks in the Strait of Hormuz and signaled a \"new operational plan\" in response to potential U.S. strikes\u2014a supply threat that lifts refiner margins by making the oil they process more valuable relative to finished products. Refineries are running at 93.5% capacity, meaning there's strong demand to turn that crude into fuel.\n\nThe broader refining picture shows additional support: tanker rates have surged, adding roughly $38 per barrel to the physical cost of delivering oil, which tightens margins in ways that affect smaller operators but can ultimately flow through to a large integrated refiner like Marathon. Storage levels remain relatively normal, so there's no glut dampening prices\u2014just ongoing Middle East instability keeping crude elevated.",
+  "fetchedAt": "2026-10-18T17:02:31.413557+00:00",
+  "text": "Marathon Petroleum stock has risen 13.2% over two weeks, with today's modest gain capping a sharp rally that accelerated over the past four days. The core driver is crude oil prices: U.S. oil hit $101.91 today, and Brent crude touched $110 last week, lifted by Iran's escalating attacks on shipping in the Strait of Hormuz and threats of further retaliation if the U.S. strikes again. Higher oil prices directly improve refinery margins\u2014the spread between what refiners pay for crude and what they sell refined products for\u2014and U.S. refineries are running at 93.5% capacity to capture that advantage.\n\nThere's a secondary layer adding to margins: tanker costs have surged, meaning the *physical cost* to deliver oil has jumped roughly $38 per barrel on top of crude prices, squeezing competitors who lack flexible supply chains while rewarding large, well-positioned refiners. The geopolitical tension remains unresolved, keeping oil volatility elevated and refinery profitability structurally higher than it was two weeks ago.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 122,
-    "inputTokens": 113456,
-    "outputTokens": 27753,
-    "estimatedCostUsd": 0.252221,
-    "lastCallHour": "2026-10-18T16"
+    "callsThisMonth": 123,
+    "inputTokens": 114411,
+    "outputTokens": 27995,
+    "estimatedCostUsd": 0.254386,
+    "lastCallHour": "2026-10-18T17"
   }
 }
