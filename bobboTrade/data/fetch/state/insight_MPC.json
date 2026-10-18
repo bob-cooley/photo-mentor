@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T17:02:31.413557+00:00",
-  "text": "Marathon Petroleum stock has risen 13.2% over two weeks, with today's modest gain capping a sharp rally that accelerated over the past four days. The core driver is crude oil prices: U.S. oil hit $101.91 today, and Brent crude touched $110 last week, lifted by Iran's escalating attacks on shipping in the Strait of Hormuz and threats of further retaliation if the U.S. strikes again. Higher oil prices directly improve refinery margins\u2014the spread between what refiners pay for crude and what they sell refined products for\u2014and U.S. refineries are running at 93.5% capacity to capture that advantage.\n\nThere's a secondary layer adding to margins: tanker costs have surged, meaning the *physical cost* to deliver oil has jumped roughly $38 per barrel on top of crude prices, squeezing competitors who lack flexible supply chains while rewarding large, well-positioned refiners. The geopolitical tension remains unresolved, keeping oil volatility elevated and refinery profitability structurally higher than it was two weeks ago.",
+  "fetchedAt": "2026-10-18T18:01:27.776587+00:00",
+  "text": "Marathon Petroleum stock rose 0.24% today to close at $478.07, capping a volatile two-week rally of 13.2% that mirrors sharp moves in crude oil prices. The stock has tracked the oil market's response to Iran's escalating military actions in the Strait of Hormuz\u2014world oil prices hit $126.55 per barrel as shipping threats tightened, while U.S. crude climbed toward $102 amid real concerns about regional supply disruption. Refineries are running at 93.5% capacity, which means tighter margins, but higher crude and product prices have more than offset that headwind over the past two weeks.\n\nThe stock's gains also reflect the real squeeze on global refining: tanker rates are surging as vessels avoid the Hormuz route, pushing the true delivered cost of physical oil up $30\u2013$40 per barrel above the headline price. For a major U.S. refiner like Marathon, this means stronger margins on fuel sales even if crude costs more to acquire, since refined products move at premium prices in a tight market. Today's mild move masks the underlying strength that's driven the two-week surge.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 123,
-    "inputTokens": 114411,
-    "outputTokens": 27995,
-    "estimatedCostUsd": 0.254386,
-    "lastCallHour": "2026-10-18T17"
+    "callsThisMonth": 124,
+    "inputTokens": 115366,
+    "outputTokens": 28250,
+    "estimatedCostUsd": 0.256616,
+    "lastCallHour": "2026-10-18T18"
   }
 }

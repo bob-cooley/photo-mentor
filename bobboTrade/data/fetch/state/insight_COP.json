@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T17:01:16.874228+00:00",
-  "text": "ConocoPhillips rose 3.4% today as oil prices spiked on escalating geopolitical tension. Iran intensified attacks on shipping in the Strait of Hormuz this week, a critical chokepoint for global oil supplies, driving U.S. crude up sharply on Friday. The gap between U.S. and world oil prices also widened dramatically\u2014Brent crude hit $110 while U.S. crude sits at $102, with shipping costs adding roughly $38 per barrel to the physical cost of moving oil, all of which boosts margins for oil producers like ConocoPhillips.\n\nThis move is part of a much larger two-week rally: the stock is up 15.6% since early October as geopolitical risk premiums pile onto oil prices. The combination of Iran's military threats and Ukraine's attacks on Russian refineries is tightening global oil supply, while elevated tanker rates mean the delivered price of oil is significantly higher than headline prices suggest\u2014a dynamic that typically benefits large integrated producers with refining assets.",
+  "fetchedAt": "2026-10-18T18:01:16.847067+00:00",
+  "text": "ConocoPhillips climbed 3.4% today to close at $146.51, continuing a strong two-week rally of 15.6%. The immediate driver is the sharp rise in crude oil prices: U.S. oil hit $101.91 a barrel, while global Brent crude touched $110 this week following Iran's escalation of attacks in the Strait of Hormuz. For an oil company like ConocoPhillips, higher oil prices directly translate to stronger profits, since the company sells crude at those higher prices.\n\nBeyond today's geopolitical spike, the rally reflects a broader supply pinch that's squeezing the energy market. Tanker rates have surged so much that physical oil costs roughly $38 more per barrel to deliver than the headline price suggests \u2014 meaning the *real* economic value of crude is significantly higher than spot prices show. Combined with supply concerns from Iran, Ukraine, and Russian refineries, this tightness is lifting not just prices but also the premium for companies with production to sell into a constrained market.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 123,
-    "inputTokens": 106910,
-    "outputTokens": 26296,
-    "estimatedCostUsd": 0.23839,
-    "lastCallHour": "2026-10-18T17"
+    "callsThisMonth": 124,
+    "inputTokens": 107802,
+    "outputTokens": 26529,
+    "estimatedCostUsd": 0.240447,
+    "lastCallHour": "2026-10-18T18"
   }
 }
