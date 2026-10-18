@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T05:26:38.032596+00:00",
-  "text": "Marathon Petroleum rose 0.24% today, capping a volatile two-week rally of 13.2% that reflects surging oil prices and geopolitical tension. Brent crude touched $110 this week as Iran escalated attacks in the Strait of Hormuz, and U.S. crude broke past $101\u2014a sharp move upward. U.S. refineries are running at 93.5% capacity with healthy inventory levels, positioning refiners like Marathon to benefit from wider profit margins when crude spikes while product demand remains steady.\n\nThe broader story here is that oil prices are being pushed higher by shipping disruptions (tanker rates have surged, effectively adding $30\u2013$40 to the real cost of delivering physical oil) and Middle East conflict, while Trump's stated reluctance to escalate militarily into Iran has relieved some tail-risk selling pressure. Refiner stocks like Marathon typically gain when crude rises sharply because they buy cheap feedstock and sell refined products at prices that don't always fall as fast\u2014that margin expansion has driven the recent run-up.",
+  "fetchedAt": "2026-10-18T10:24:02.082869+00:00",
+  "text": "Marathon Petroleum stock inched up 0.24% today after rallying 13.2% over two weeks, riding a sharp climb in oil prices. U.S. crude jumped above $101 a barrel today following Iranian escalation in the Strait of Hormuz, a critical shipping chokepoint for global oil \u2014 and Brent crude hit $110, reflecting the added premium buyers pay when supply routes face disruption. For a refiner, higher crude prices can pinch margins in the short term, but the company is also benefiting from elevated fuel prices and refinery utilization at 93.5%, near full capacity, which keeps throughput strong.\n\nThe broader tailwind is that global oil tightness is real: tanker rates have surged enough that the \"true\" cost to deliver physical oil is roughly $38 a barrel above the headline price, and refineries are running hot to meet demand amid geopolitical supply concerns. That structural strength in energy markets\u2014not any company-specific news today\u2014is what's driven the two-week gain.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 117,
-    "inputTokens": 108695,
-    "outputTokens": 26574,
-    "estimatedCostUsd": 0.241565,
-    "lastCallHour": "2026-10-18T05"
+    "callsThisMonth": 118,
+    "inputTokens": 109643,
+    "outputTokens": 26802,
+    "estimatedCostUsd": 0.243653,
+    "lastCallHour": "2026-10-18T10"
   }
 }
