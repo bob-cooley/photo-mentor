@@ -63,6 +63,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-10-15T19:47:00.754529+00:00"
+    },
+    {
+      "date": "2026-10-17",
+      "facility": "Saint Petersburg refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-10-17-saint-petersburg-refinery-russia",
+      "sources": [
+        {
+          "name": "France 24",
+          "url": "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-10-18T18:59:18.540107+00:00"
     }
   ],
   "processedUrls": {
@@ -111,17 +127,18 @@
     "https://www.theguardian.com/world/2026/oct/17/ukraine-war-briefing-russia-building-non-negotiable-security-zone-inside-ukrainian-border-putin-declares": "2026-10-17T05:36:19.710039+00:00",
     "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html": "2026-10-17T05:36:21.109856+00:00",
     "https://meduza.io/en/feature/2026/10/16/u-s-lawmakers-reportedly-offered-ukraine-starlink-coverage-inside-russia-in-exchange-for-halting-refinery-strikes-zelensky-was-receptive-wsj-says": "2026-10-17T05:36:21.811330+00:00",
-    "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace": "2026-10-17T05:36:23.239875+00:00"
+    "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace": "2026-10-17T05:36:23.239875+00:00",
+    "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack": "2026-10-18T18:59:18.539821+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 42,
-    "inputTokens": 51066,
-    "outputTokens": 4716,
-    "estimatedCostUsd": 0.074646
+    "calls": 43,
+    "inputTokens": 51682,
+    "outputTokens": 4841,
+    "estimatedCostUsd": 0.075887
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-10-17T22:55:32.007802+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-10-18T18:59:18.540123+00:00"
 }
