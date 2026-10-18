@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T19:01:07.561648+00:00",
-  "text": "Marathon Petroleum ticked up slightly today, but the real story is the 13% surge over two weeks\u2014driven by a sharp jump in oil prices tied to Middle East tensions. Iran has escalated attacks on shipping in the Strait of Hormuz and warned of further retaliation if the U.S. strikes again, pushing Brent crude toward $110 a barrel and keeping refiners' input costs elevated. Refineries are running at 93.5% capacity, so Marathon is running hard while margins remain favorable.\n\nThe broader tailwind here is that physical oil delivery costs have ballooned\u2014tanker rates have surged enough that the real cost to move crude is roughly $38 higher per barrel than headline prices suggest. That inflates the value of refined products Marathon sells, even as U.S. crude sits at $101.91. The geopolitical risk premium shows no sign of fading, which supports the refiner's outlook for now.",
+  "fetchedAt": "2026-10-18T20:01:27.271255+00:00",
+  "text": "Marathon's stock dipped slightly today after a volatile week that saw it surge nearly 13% over two weeks. The immediate driver appears to be profit-taking following yesterday's sharp 1.6% gain to $484.92, which came as oil prices spiked on Iran's escalating attacks in the Strait of Hormuz\u2014a critical shipping chokepoint for roughly 20% of global oil. With Brent crude touching $110 and U.S. crude at $101.91, refiners benefit from the wider spread between crude costs and product prices, but that same volatility can prompt traders to lock in gains.\n\nThe underlying strength in the stock reflects real tailwinds for Marathon as a refiner. U.S. refineries are running at 93.5% capacity amid tight diesel supplies (as evidenced by the surge in shipping costs and international focus on diesel-rich refineries), while oil inventories remain relatively lean at 698 million barrels. These conditions favor margin expansion for refiners, even as geopolitical risk keeps oil prices elevated\u2014the physical cost of moving crude has climbed roughly $38 per barrel due to tanker rate spikes, squeezing some competitors but benefiting those with reliable supply chains.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 125,
-    "inputTokens": 116321,
-    "outputTokens": 28456,
-    "estimatedCostUsd": 0.258601,
-    "lastCallHour": "2026-10-18T19"
+    "callsThisMonth": 126,
+    "inputTokens": 117276,
+    "outputTokens": 28723,
+    "estimatedCostUsd": 0.260891,
+    "lastCallHour": "2026-10-18T20"
   }
 }
