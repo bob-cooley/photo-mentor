@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T18:01:16.847067+00:00",
-  "text": "ConocoPhillips climbed 3.4% today to close at $146.51, continuing a strong two-week rally of 15.6%. The immediate driver is the sharp rise in crude oil prices: U.S. oil hit $101.91 a barrel, while global Brent crude touched $110 this week following Iran's escalation of attacks in the Strait of Hormuz. For an oil company like ConocoPhillips, higher oil prices directly translate to stronger profits, since the company sells crude at those higher prices.\n\nBeyond today's geopolitical spike, the rally reflects a broader supply pinch that's squeezing the energy market. Tanker rates have surged so much that physical oil costs roughly $38 more per barrel to deliver than the headline price suggests \u2014 meaning the *real* economic value of crude is significantly higher than spot prices show. Combined with supply concerns from Iran, Ukraine, and Russian refineries, this tightness is lifting not just prices but also the premium for companies with production to sell into a constrained market.",
+  "fetchedAt": "2026-10-18T19:00:54.584013+00:00",
+  "text": "ConocoPhillips jumped 3.4% today as oil prices surged following escalating military tensions in the Middle East. Iran intensified attacks in the Strait of Hormuz this week, a critical chokepoint for global oil shipments, which pushed Brent crude toward $110 a barrel and U.S. oil to over $101. For an integrated oil producer like ConocoPhillips, higher crude prices directly lift both production revenues and the value of reserves in the ground.\n\nThe move fits into a broader two-week rally of 15.6% driven by tightening oil supply fears. Beyond the geopolitical risk premium, physical delivery costs have also climbed sharply \u2014 tanker rates have risen so much that the true economic cost of getting oil to market is roughly $30\u2013$40 above the headline price, which effectively makes crude more scarce and valuable for producers regardless of the barrel price itself.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 124,
-    "inputTokens": 107802,
-    "outputTokens": 26529,
-    "estimatedCostUsd": 0.240447,
-    "lastCallHour": "2026-10-18T18"
+    "callsThisMonth": 125,
+    "inputTokens": 108694,
+    "outputTokens": 26731,
+    "estimatedCostUsd": 0.242349,
+    "lastCallHour": "2026-10-18T19"
   }
 }

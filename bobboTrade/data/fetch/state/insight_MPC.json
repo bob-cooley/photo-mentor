@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T18:01:27.776587+00:00",
-  "text": "Marathon Petroleum stock rose 0.24% today to close at $478.07, capping a volatile two-week rally of 13.2% that mirrors sharp moves in crude oil prices. The stock has tracked the oil market's response to Iran's escalating military actions in the Strait of Hormuz\u2014world oil prices hit $126.55 per barrel as shipping threats tightened, while U.S. crude climbed toward $102 amid real concerns about regional supply disruption. Refineries are running at 93.5% capacity, which means tighter margins, but higher crude and product prices have more than offset that headwind over the past two weeks.\n\nThe stock's gains also reflect the real squeeze on global refining: tanker rates are surging as vessels avoid the Hormuz route, pushing the true delivered cost of physical oil up $30\u2013$40 per barrel above the headline price. For a major U.S. refiner like Marathon, this means stronger margins on fuel sales even if crude costs more to acquire, since refined products move at premium prices in a tight market. Today's mild move masks the underlying strength that's driven the two-week surge.",
+  "fetchedAt": "2026-10-18T19:01:07.561648+00:00",
+  "text": "Marathon Petroleum ticked up slightly today, but the real story is the 13% surge over two weeks\u2014driven by a sharp jump in oil prices tied to Middle East tensions. Iran has escalated attacks on shipping in the Strait of Hormuz and warned of further retaliation if the U.S. strikes again, pushing Brent crude toward $110 a barrel and keeping refiners' input costs elevated. Refineries are running at 93.5% capacity, so Marathon is running hard while margins remain favorable.\n\nThe broader tailwind here is that physical oil delivery costs have ballooned\u2014tanker rates have surged enough that the real cost to move crude is roughly $38 higher per barrel than headline prices suggest. That inflates the value of refined products Marathon sells, even as U.S. crude sits at $101.91. The geopolitical risk premium shows no sign of fading, which supports the refiner's outlook for now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 124,
-    "inputTokens": 115366,
-    "outputTokens": 28250,
-    "estimatedCostUsd": 0.256616,
-    "lastCallHour": "2026-10-18T18"
+    "callsThisMonth": 125,
+    "inputTokens": 116321,
+    "outputTokens": 28456,
+    "estimatedCostUsd": 0.258601,
+    "lastCallHour": "2026-10-18T19"
   }
 }
