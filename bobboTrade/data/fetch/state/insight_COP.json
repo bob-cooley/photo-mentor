@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T15:01:05.522314+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil prices spiked on escalating geopolitical tensions in the Middle East. Iran intensified attacks in the Strait of Hormuz this week, pushing U.S. crude toward $102 a barrel and Brent crude to $110\u2014a meaningful move for an oil producer whose revenue rises directly with the price of oil it sells. The stock has climbed 15.6% over two weeks as these regional risks have mounted.\n\nBeyond today's headline, the broader backdrop matters: tanker rates have surged enough to add roughly $38 per barrel to the true cost of delivering physical oil, according to energy analysts, which can squeeze some competitors while benefiting large integrated producers like ConocoPhillips that manage their own supply chains. Meanwhile, the gap between U.S. oil ($101.91) and world oil ($126.55) has widened considerably, reflecting supply concerns tied to the Strait of Hormuz disruptions\u2014exactly the kind of dislocation that rewards companies with diversified production and refining assets.",
+  "fetchedAt": "2026-10-18T16:01:21.885481+00:00",
+  "text": "ConocoPhillips jumped 3.4% today, continuing a sharp two-week rally that's seen the stock climb 15.6%. The move reflects surging oil prices driven by geopolitical tension\u2014Iran escalated attacks in the Strait of Hormuz this week, a critical shipping chokepoint, which pushed U.S. crude up sharply and created a wider gap between world oil prices ($126.55/barrel) and U.S. prices ($101.91/barrel). As a major oil producer, ConocoPhillips benefits directly when crude rallies, especially in a volatile environment where supply concerns dominate.\n\nBeyond the immediate news, tanker rates have spiked so much that analysts are saying the \"true\" cost of delivered oil is roughly $30\u2013$40 higher than the headline price suggests\u2014a hidden cushion that insulates oil producers' profitability even if prices pull back modestly from current levels. This combination of geopolitical risk and tight physical supply is the engine behind the stock's recent surge.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 121,
-    "inputTokens": 105126,
-    "outputTokens": 25837,
-    "estimatedCostUsd": 0.234311,
-    "lastCallHour": "2026-10-18T15"
+    "callsThisMonth": 122,
+    "inputTokens": 106018,
+    "outputTokens": 26064,
+    "estimatedCostUsd": 0.236338,
+    "lastCallHour": "2026-10-18T16"
   }
 }

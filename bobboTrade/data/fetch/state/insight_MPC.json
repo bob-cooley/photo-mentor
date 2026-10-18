@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T15:01:19.879197+00:00",
-  "text": "Marathon's stock ticked up slightly today after a remarkable two-week rally, riding a wave driven by rising oil prices and geopolitical tension in the Middle East. U.S. crude has climbed sharply as Iran escalates attacks on shipping in the Strait of Hormuz, with Brent crude touching $110 this week \u2014 higher oil prices improve refiner margins (the difference between what they pay for crude and what they sell refined products for). Refineries are running at 93.5% capacity, so the industry is well-positioned to convert that pricier crude into fuel sales, which benefits Marathon's bottom line.\n\nThe broader context amplifies this: physical oil delivery costs have surged due to elevated tanker rates, which means the \"real\" economic value of crude is even higher than the headline price suggests. Combined with ongoing geopolitical risk (Iran's threats of further escalation) keeping markets nervous and supportive of higher oil prices, refiners are operating in an unusually favorable environment \u2014 though that premium could be fleeting if tensions ease or shipping normalizes.",
+  "fetchedAt": "2026-10-18T16:03:56.524706+00:00",
+  "text": "Marathon Petroleum's stock edged up 0.24% today after climbing 13.2% over the past two weeks, riding a sharp rise in crude oil prices driven by geopolitical tension in the Middle East. U.S. crude jumped to over $101 a barrel as Iran escalated attacks in the Strait of Hormuz and signaled a \"new operational plan\" in response to potential U.S. strikes\u2014a supply threat that lifts refiner margins by making the oil they process more valuable relative to finished products. Refineries are running at 93.5% capacity, meaning there's strong demand to turn that crude into fuel.\n\nThe broader refining picture shows additional support: tanker rates have surged, adding roughly $38 per barrel to the physical cost of delivering oil, which tightens margins in ways that affect smaller operators but can ultimately flow through to a large integrated refiner like Marathon. Storage levels remain relatively normal, so there's no glut dampening prices\u2014just ongoing Middle East instability keeping crude elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 121,
-    "inputTokens": 112501,
-    "outputTokens": 27529,
-    "estimatedCostUsd": 0.250146,
-    "lastCallHour": "2026-10-18T15"
+    "callsThisMonth": 122,
+    "inputTokens": 113456,
+    "outputTokens": 27753,
+    "estimatedCostUsd": 0.252221,
+    "lastCallHour": "2026-10-18T16"
   }
 }
