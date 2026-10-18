@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T21:01:24.356642+00:00",
-  "text": "Marathon Petroleum rose slightly today on a backdrop of sharp gains over the past two weeks, driven primarily by the escalating geopolitical tensions in the Middle East. Iran's attacks on shipping in the Strait of Hormuz and threats of further retaliation have pushed crude oil prices sharply higher\u2014Brent crude touched $110 this week\u2014and refineries are running at 93.5% capacity with moderate inventory levels, a combination that typically strengthens refiner margins (the profit spread between crude input costs and finished fuel sales).\n\nThe two-week rally reflects both the tighter supply outlook from Middle East disruption risk and the surge in tanker costs, which has pushed the real delivery cost of physical oil well above the spot price. For a large U.S. refiner like Marathon, higher crude prices and constrained global supply can improve profitability on existing inventory and future production, even as they raise input costs.",
+  "fetchedAt": "2026-10-18T22:50:35.869860+00:00",
+  "text": "Marathon Petroleum stock rose 0.24% today, capping a two-week rally of 13.2% that accelerated sharply from October 13 onward. The climb tracks closely with crude oil prices, which have climbed toward $109\u2013$110 a barrel this week as geopolitical tensions escalated\u2014Ukraine intensified drone strikes on Russian energy infrastructure, Iran signaled new military preparations, and tanker attacks disrupted Middle East shipping. For a major U.S. oil refiner, higher crude prices typically tighten margins in the short run, but the market appears to be betting that tighter global oil supply and sustained prices will support overall energy demand and refining economics.\n\nThe stock's sharp gain from $455 to $478 over two weeks suggests investors are viewing the geopolitical risk premium in oil as a structural support rather than a temporary spike. With U.S. diesel supply tight enough to draw attention to foreign refinery capacity and Trump ruling out nuclear escalation (which reduces tail-risk panic), the market may be settling into an expectation of elevated but stable crude and product prices\u2014conditions that historically reward integrated refiners holding inventory and spare capacity.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 127,
-    "inputTokens": 118231,
-    "outputTokens": 28920,
-    "estimatedCostUsd": 0.262831,
-    "lastCallHour": "2026-10-18T21"
+    "callsThisMonth": 128,
+    "inputTokens": 119096,
+    "outputTokens": 29172,
+    "estimatedCostUsd": 0.264956,
+    "lastCallHour": "2026-10-18T22"
   }
 }
