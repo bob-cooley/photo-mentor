@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T14:01:02.564934+00:00",
-  "text": "Marathon Petroleum stock rose 0.24% today to close at $478.07, continuing a sharp two-week rally of 13.2%. The underlying driver is crude oil strength: U.S. oil is trading at $101.91 per barrel (up from around $75 two weeks ago), fueled by escalating Iran-related geopolitical risk in the Strait of Hormuz and shipping strikes that have pushed tanker rates dramatically higher. Refineries are running at 93.5% capacity with relatively tight crude and product inventories, which means Marathon can process this higher-priced oil into fuel and benefit from the margin.\n\nThe broader context is that physical oil delivery costs have spiked due to shipping disruptions\u2014analysts note the true cost of delivered crude is roughly $30-40 higher than headline prices\u2014and Middle Eastern supply uncertainty is supporting crude prices even as U.S. inventory levels remain adequate. This is a classic scenario where refiner margins can widen: Marathon buys expensive crude but sells refined products into a market where the delivery premium has made fuel valuable enough to offset the crude cost increase.",
+  "fetchedAt": "2026-10-18T15:01:19.879197+00:00",
+  "text": "Marathon's stock ticked up slightly today after a remarkable two-week rally, riding a wave driven by rising oil prices and geopolitical tension in the Middle East. U.S. crude has climbed sharply as Iran escalates attacks on shipping in the Strait of Hormuz, with Brent crude touching $110 this week \u2014 higher oil prices improve refiner margins (the difference between what they pay for crude and what they sell refined products for). Refineries are running at 93.5% capacity, so the industry is well-positioned to convert that pricier crude into fuel sales, which benefits Marathon's bottom line.\n\nThe broader context amplifies this: physical oil delivery costs have surged due to elevated tanker rates, which means the \"real\" economic value of crude is even higher than the headline price suggests. Combined with ongoing geopolitical risk (Iran's threats of further escalation) keeping markets nervous and supportive of higher oil prices, refiners are operating in an unusually favorable environment \u2014 though that premium could be fleeting if tensions ease or shipping normalizes.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 120,
-    "inputTokens": 111546,
-    "outputTokens": 27298,
-    "estimatedCostUsd": 0.248036,
-    "lastCallHour": "2026-10-18T14"
+    "callsThisMonth": 121,
+    "inputTokens": 112501,
+    "outputTokens": 27529,
+    "estimatedCostUsd": 0.250146,
+    "lastCallHour": "2026-10-18T15"
   }
 }

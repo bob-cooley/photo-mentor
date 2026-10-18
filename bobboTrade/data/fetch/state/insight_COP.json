@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T14:00:52.252391+00:00",
-  "text": "ConocoPhillips rose 3.4% today as oil prices spiked on escalating geopolitical tension in the Middle East. Iran intensified attacks in the Strait of Hormuz on Friday, a critical chokepoint for global oil shipments, sending U.S. crude up sharply and pushing the stock higher alongside the broader energy sector. The company benefits directly when crude prices climb\u2014higher oil prices mean higher revenues from its production and sales.\n\nThe move is part of a much larger two-week rally (up 15.6%) that reflects a fundamental tightening in oil supply. Beyond the immediate headlines about Iran, the data shows a significant gap between where crude trades ($102 U.S., $127 world) and its true cost to physically deliver\u2014about $38 per barrel higher when you factor in soaring tanker rates to move the oil. That squeeze between benchmark prices and actual delivery costs is pushing real economic value into oil producers' hands, which is lifting the entire sector.",
+  "fetchedAt": "2026-10-18T15:01:05.522314+00:00",
+  "text": "ConocoPhillips jumped 3.4% today as oil prices spiked on escalating geopolitical tensions in the Middle East. Iran intensified attacks in the Strait of Hormuz this week, pushing U.S. crude toward $102 a barrel and Brent crude to $110\u2014a meaningful move for an oil producer whose revenue rises directly with the price of oil it sells. The stock has climbed 15.6% over two weeks as these regional risks have mounted.\n\nBeyond today's headline, the broader backdrop matters: tanker rates have surged enough to add roughly $38 per barrel to the true cost of delivering physical oil, according to energy analysts, which can squeeze some competitors while benefiting large integrated producers like ConocoPhillips that manage their own supply chains. Meanwhile, the gap between U.S. oil ($101.91) and world oil ($126.55) has widened considerably, reflecting supply concerns tied to the Strait of Hormuz disruptions\u2014exactly the kind of dislocation that rewards companies with diversified production and refining assets.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 120,
-    "inputTokens": 104234,
-    "outputTokens": 25601,
-    "estimatedCostUsd": 0.232239,
-    "lastCallHour": "2026-10-18T14"
+    "callsThisMonth": 121,
+    "inputTokens": 105126,
+    "outputTokens": 25837,
+    "estimatedCostUsd": 0.234311,
+    "lastCallHour": "2026-10-18T15"
   }
 }
