@@ -128,17 +128,18 @@
     "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html": "2026-10-17T05:36:21.109856+00:00",
     "https://meduza.io/en/feature/2026/10/16/u-s-lawmakers-reportedly-offered-ukraine-starlink-coverage-inside-russia-in-exchange-for-halting-refinery-strikes-zelensky-was-receptive-wsj-says": "2026-10-17T05:36:21.811330+00:00",
     "https://www.theguardian.com/world/2026/oct/16/trump-calls-ukraines-resumption-of-strikes-on-russian-oil-refineries-a-disgrace": "2026-10-17T05:36:23.239875+00:00",
-    "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack": "2026-10-18T18:59:18.539821+00:00"
+    "https://www.france24.com/en/europe/20261018-ukraine-sets-saint-petersburg-refinery-ablaze-in-large-scale-drone-attack": "2026-10-18T18:59:18.539821+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/10/19/8058659/": "2026-10-19T05:45:06.170807+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 43,
-    "inputTokens": 51682,
-    "outputTokens": 4841,
-    "estimatedCostUsd": 0.075887
+    "calls": 44,
+    "inputTokens": 52669,
+    "outputTokens": 4945,
+    "estimatedCostUsd": 0.077394
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-10-18T22:51:17.459983+00:00"
+  "lastRunAt": "2026-10-19T05:45:06.170960+00:00"
 }
