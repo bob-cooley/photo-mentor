@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T21:01:40.061329+00:00",
-  "text": "ConocoPhillips fell slightly today after hitting a near two-week high yesterday, as oil prices retreated from their Monday spike. Brent crude had jumped above $109 on Monday following Houthi attacks on Saudi facilities, but that geopolitical premium appears to have cooled somewhat\u2014the stock gained 3.8% yesterday on the news but gave back a small portion of those gains today as immediate market reaction faded.\n\nThe broader backdrop remains supportive for an oil major like this one. The gap between world oil prices ($126.55) and U.S. prices ($101.55) is historically wide, and a recent analysis flagged that physical delivery costs alone add roughly $38 per barrel when accounting for surging tanker rates\u2014meaning the \"real\" cost of oil to refineries and importers is substantially higher than headline prices suggest. This structural tightness in global oil supply and logistics continues to underpin energy stocks despite today's modest pullback.",
+  "fetchedAt": "2026-10-19T22:50:11.137379+00:00",
+  "text": "ConocoPhillips fell slightly today despite oil prices rising sharply\u2014Brent crude jumped above $109 after Houthi militants claimed attacks on Saudi Arabian airports and oil facilities on October 19th. The stock had surged $8.95 over the prior two trading days (through October 16th), so today's pullback appears to be profit-taking after that strong run rather than a reaction to deteriorating fundamentals.\n\nThe geopolitical backdrop remains supportive for oil producers: Iran-backed Houthi attacks on Saudi infrastructure, Iranian threats of retaliation against the U.S., and Ukrainian strikes on Russian oil facilities are all tightening supply. The gap between U.S. crude ($101.91) and Brent ($126.55) also widened further, reflecting the premium buyers pay for oil in tighter physical markets\u2014a setup that generally benefits integrated producers like ConocoPhillips on both production and refining.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 140,
-    "inputTokens": 121790,
-    "outputTokens": 30084,
-    "estimatedCostUsd": 0.27221,
-    "lastCallHour": "2026-10-19T21"
+    "callsThisMonth": 141,
+    "inputTokens": 122672,
+    "outputTokens": 30293,
+    "estimatedCostUsd": 0.274137,
+    "lastCallHour": "2026-10-19T22"
   }
 }
