@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T13:02:53.862248+00:00",
-  "text": "ConocoPhillips jumped 3.4% today to $146.51, extending a sharp two-week rally that's seen the stock climb 15.6%. The driver is oil prices: U.S. crude sits at $101.91 a barrel while global crude has surged to $126.55, a massive gap. That spread widened because of geopolitical supply disruptions\u2014Iran's escalating attacks on shipping in the Strait of Hormuz pushed Brent oil to $110 earlier this week, and tanker rates have spiked so high that the *actual* cost to physically deliver oil is running about $38 per barrel above the headline price. As a major oil producer, ConocoPhillips benefits directly when the price of crude rises and global energy costs spike.\n\nThat said, the recent news about sanctions relief on Russian crude (announced 2026-10-19) ordinarily would have pressured oil prices by raising hopes of more supply hitting the market. But the Iran risk and tight physical supply appear to be overwhelming that effect for now, keeping prices elevated and the stock's momentum intact.",
+  "fetchedAt": "2026-10-19T14:01:01.014367+00:00",
+  "text": "ConocoPhillips fell slightly today after a sharp three-day rally that pushed the stock up 6.7% from Wednesday to Friday. The decline follows news on Sunday that the Trump administration has suspended duties on Russian goods and eased sanctions on Russian energy, which raised expectations of increased Russian crude supply hitting global markets\u2014a headwind for oil prices and exploration-and-production companies like ConocoPhillips. Oil prices themselves slid on the same news, though the sell-off has been modest so far given the stock's substantial two-week gain.\n\nThe broader backdrop remains supportive for oil companies despite today's dip. US crude is still trading around $102 a barrel, and the actual cost to physically deliver oil to end-users is significantly higher due to surging tanker rates\u2014meaning the economics for producers remain strong even if headline prices pull back. The recent three-day surge in the stock reflects earlier this week's sharp rally tied to Iran escalating attacks near the Strait of Hormuz, which had driven Brent crude above $110; today's drop is a partial retreat from those geopolitical premiums rather than a break in underlying fundamentals.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 132,
-    "inputTokens": 114789,
-    "outputTokens": 28299,
-    "estimatedCostUsd": 0.256284,
-    "lastCallHour": "2026-10-19T13"
+    "callsThisMonth": 133,
+    "inputTokens": 115660,
+    "outputTokens": 28550,
+    "estimatedCostUsd": 0.25841,
+    "lastCallHour": "2026-10-19T14"
   }
 }

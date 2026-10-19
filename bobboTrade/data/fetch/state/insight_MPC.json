@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T13:04:28.867901+00:00",
-  "text": "Marathon Petroleum's stock rose 0.24% today, continuing a two-week rally that's gained 13.2% overall. The broader energy sector has been volatile but supported by two opposing forces: oil prices remain elevated (U.S. crude at $101.91/barrel, Brent around $110), but news on October 19th that the Trump administration may suspend duties on Russian energy and seek sanctions relief sent crude sliding as traders bet on more Russian oil entering global markets. That relief news likely capped gains today even as refineries run at 93.5% utilization \u2014 near-full capacity suggests strong refining margins that benefit Marathon.\n\nThe two-week gain reflects the earlier spike when Iran's Hormuz attacks pushed Brent above $110, which temporarily supported both crude prices and refining spreads. However, today's muted move suggests the market is settling into a new equilibrium where potential Russian supply relief is offsetting the geopolitical premium from Middle East tension.",
+  "fetchedAt": "2026-10-19T14:01:15.296851+00:00",
+  "text": "Marathon Petroleum climbed 3% today, capping a two-week rally of nearly 14%. The main driver appears to be oil price relief: U.S. crude fell today as the Trump administration suspended new duties on Russian goods and signaled sanctions relief, which raised hopes of increased global oil supply and eased earlier geopolitical anxiety. This reversal matters because refiners like Marathon profit when crude prices stabilize or fall relative to what they can sell refined products for \u2014 lower input costs improve margins.\n\nThe broader backdrop supports this move. Over the past week, oil had spiked sharply on Iran's Hormuz strait attacks and escalating tensions, but today's diplomatic signal suggesting de-escalation has unwound those fears. Refineries are running at a healthy 93.5% capacity, positioned to capture gains if crude stays moderately priced and margins improve from the supply outlook shift.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 132,
-    "inputTokens": 122799,
-    "outputTokens": 30014,
-    "estimatedCostUsd": 0.272869,
-    "lastCallHour": "2026-10-19T13"
+    "callsThisMonth": 133,
+    "inputTokens": 123726,
+    "outputTokens": 30206,
+    "estimatedCostUsd": 0.274756,
+    "lastCallHour": "2026-10-19T14"
   }
 }
