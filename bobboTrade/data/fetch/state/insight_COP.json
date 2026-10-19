@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T14:01:01.014367+00:00",
-  "text": "ConocoPhillips fell slightly today after a sharp three-day rally that pushed the stock up 6.7% from Wednesday to Friday. The decline follows news on Sunday that the Trump administration has suspended duties on Russian goods and eased sanctions on Russian energy, which raised expectations of increased Russian crude supply hitting global markets\u2014a headwind for oil prices and exploration-and-production companies like ConocoPhillips. Oil prices themselves slid on the same news, though the sell-off has been modest so far given the stock's substantial two-week gain.\n\nThe broader backdrop remains supportive for oil companies despite today's dip. US crude is still trading around $102 a barrel, and the actual cost to physically deliver oil to end-users is significantly higher due to surging tanker rates\u2014meaning the economics for producers remain strong even if headline prices pull back. The recent three-day surge in the stock reflects earlier this week's sharp rally tied to Iran escalating attacks near the Strait of Hormuz, which had driven Brent crude above $110; today's drop is a partial retreat from those geopolitical premiums rather than a break in underlying fundamentals.",
+  "fetchedAt": "2026-10-19T15:00:57.866214+00:00",
+  "text": "ConocoPhillips dropped 1.2% today after jumping 3.1% yesterday, as oil prices retreated on news that the U.S. is considering sanctions relief on Russian crude exports. The market had bid up energy stocks sharply Friday (October 16th) when Iran's attacks on shipping in the Strait of Hormuz pushed crude toward $110 a barrel; today's slide reflects a reversal of that geopolitical premium as potential Russian supply returning to markets could ease the global shortage that had tightened prices.\n\nThe stock's two-week gain of 12.7% still reflects a genuinely tight physical oil market\u2014tanker rates have spiked so much that the true delivered cost of crude is roughly $38 to $40 higher than the headline price suggests\u2014but today's move shows investors are trading on the possibility of near-term relief, not the underlying supply constraint.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 133,
-    "inputTokens": 115660,
-    "outputTokens": 28550,
-    "estimatedCostUsd": 0.25841,
-    "lastCallHour": "2026-10-19T14"
+    "callsThisMonth": 134,
+    "inputTokens": 116530,
+    "outputTokens": 28747,
+    "estimatedCostUsd": 0.260265,
+    "lastCallHour": "2026-10-19T15"
   }
 }
