@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T16:03:06.312886+00:00",
-  "text": "Marathon Petroleum barely moved today, up just 0.2%, but the stock is up 10.5% over two weeks\u2014a run that reflects the underlying volatility in crude oil and refining margins. Today's flatness comes after oil prices slid on news that the U.S. lifted sanctions concerns on Russian crude, which raised hopes of more global supply entering the market and eased some of the geopolitical premium that had driven prices higher earlier in the week. US crude is at $101.91 per barrel, down from the $110+ levels seen when Iran escalated attacks on shipping in the Strait of Hormuz just days ago.\n\nThe two-week rally makes sense in context: refinery utilization is running at a healthy 93.5%, and the company benefits when crude prices spike on supply fears (like Iran's attacks), because refiners make money on the difference between what they pay for oil and what they sell refined products for. Now that oil has retreated on sanctions-relief news, that tailwind has eased, which is why the stock has settled into a holding pattern despite still being well above where it started the month.",
+  "fetchedAt": "2026-10-19T17:01:47.515669+00:00",
+  "text": "The stock fell slightly today despite a strong two-week rally, as oil prices dropped on news that the U.S. suspended new duties on Russian goods, raising expectations that Russian crude will flow back into global markets and ease supply concerns. Brent crude is down sharply from the $110+ spike seen just three days ago when geopolitical tensions in the Middle East were driving prices higher. For a refiner like Marathon, lower oil prices can squeeze profits on the crude they buy and process, even though refineries benefit from the spread between cheap input costs and refined product sales.\n\nThe broader shift reflects a pivot away from geopolitical risk premiums\u2014the extra cost added to oil when conflicts threaten supply. With sanctions relief easing worries about tight Russian crude availability, the immediate supply shock fears that fueled last week's rally have faded, taking some of the momentum out of energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 135,
-    "inputTokens": 125596,
-    "outputTokens": 30670,
-    "estimatedCostUsd": 0.278946,
-    "lastCallHour": "2026-10-19T16"
+    "callsThisMonth": 136,
+    "inputTokens": 126538,
+    "outputTokens": 30859,
+    "estimatedCostUsd": 0.280833,
+    "lastCallHour": "2026-10-19T17"
   }
 }
