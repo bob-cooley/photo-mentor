@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T05:43:11.276553+00:00",
-  "text": "ConocoPhillips jumped 3.4% today as oil prices surged on geopolitical tension in the Middle East. Over the past week, Iran escalated attacks on shipping in the Strait of Hormuz (a critical chokepoint for global oil), which sent Brent crude to $110 a barrel and U.S. crude higher on Friday. Though oil prices slid today on news of potential sanctions relief for Russian crude, the two-week rally of 15.6% reflects the market's underlying concern that regional conflict could tighten global supply.\n\nThe stock's momentum is reinforced by a structural shift in oil transport costs: tanker rates have spiked enough that the \"real\" cost of physically delivering crude is running roughly $38 a barrel above the headline price. For an oil producer like ConocoPhillips, this widens the effective value of what they pump, even as headline prices face downward pressure from potential Russian supply returning to markets.",
+  "fetchedAt": "2026-10-19T12:01:56.561229+00:00",
+  "text": "ConocoPhillips rose 3.4% today to $146.51, continuing a sharp two-week rally that's now up 15.6%. The immediate driver was news on October 19 that the Trump administration suspended new duties on Russian goods under sanctions relief, which sent oil prices sliding as markets priced in potential increased Russian crude supply\u2014but the stock's gain suggests investors are looking past that headline to the bigger picture of where energy prices actually sit. With U.S. crude at $101.91 and Brent at $126.55, the spread between them remains wide, and analysts have noted that physical delivery costs (tanker rates, for example) add roughly $38 a barrel to the real cost of getting oil to market.\n\nThe two-week surge reflects a volatile stretch driven by Iran-related geopolitical risk: Brent touched $110 earlier this week on Iranian attacks in the Strait of Hormuz, and even though Trump signaled restraint (no nuclear weapons, no ground troops), the underlying supply uncertainty kept energy markets elevated. Today's sanctions-relief news eased some near-term geopolitical premium, but crude remains well above where it was at the start of October, keeping the fundamental backdrop supportive for an oil major like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 130,
-    "inputTokens": 113052,
-    "outputTokens": 27775,
-    "estimatedCostUsd": 0.251927,
-    "lastCallHour": "2026-10-19T05"
+    "callsThisMonth": 131,
+    "inputTokens": 113917,
+    "outputTokens": 28055,
+    "estimatedCostUsd": 0.254192,
+    "lastCallHour": "2026-10-19T12"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T05:44:23.009115+00:00",
-  "text": "Marathon Petroleum is up a tiny fraction today, but that move is part of a much larger 13% rally over the past two weeks. The driver has been a sharp reversal in geopolitical risk: oil prices had spiked earlier in October when Iran escalated attacks in the Strait of Hormuz, hitting $110+ for Brent crude, but that rally collapsed on October 19th when Trump announced sanctions relief on Russian energy, raising hopes that more crude would flow into global markets and ease supply tightness. For a refiner like Marathon, lower crude prices and rising supply mean cheaper feedstock and better margins\u2014exactly what the recent surge reflects.\n\nThe refining backdrop supports this narrative: U.S. refineries are running at 93.5% capacity with healthy fuel inventories, so the sector is positioned to benefit when crude costs fall. The shift from geopolitical panic to sanctions relief is a real regime change for energy investors, and Marathon has been along for the ride.",
+  "fetchedAt": "2026-10-19T12:03:41.921737+00:00",
+  "text": "Marathon Petroleum stock rose 0.24% today on minimal daily movement, but the two-week 13.2% surge reflects the rollercoaster in crude oil prices and geopolitical risk. Oil prices have swung wildly \u2014 spiking to $110+ when Iran escalated Strait of Hormuz attacks last week, then sliding this week after Trump announced sanctions relief on Russian crude, which raised hopes of increased global supply. Refineries running at 93.5% utilization mean MPC benefits when oil volatility creates refining spreads (the profit margin between crude costs and finished fuel sales), and the recent churn has kept that spread attractive.\n\nThe oil market is now caught between competing forces: supply fears from Middle East tension versus relief from potential Russian crude returning to markets. For a refiner like MPC, this uncertainty swings both ways \u2014 tighter supplies mean higher crude costs that can pinch margins, but the current elevated prices and high refinery utilization rates remain profitable. The near-term direction hinges on whether sanctions relief actually materializes and how much Russian supply actually reaches markets.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 130,
-    "inputTokens": 120915,
-    "outputTokens": 29564,
-    "estimatedCostUsd": 0.268735,
-    "lastCallHour": "2026-10-19T05"
+    "callsThisMonth": 131,
+    "inputTokens": 121869,
+    "outputTokens": 29801,
+    "estimatedCostUsd": 0.270874,
+    "lastCallHour": "2026-10-19T12"
   }
 }
