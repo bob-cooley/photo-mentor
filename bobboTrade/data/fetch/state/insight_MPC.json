@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T18:01:08.332704+00:00",
-  "text": "MPC fell slightly today despite oil prices rising on geopolitical tensions \u2014 the stock has already captured much of the recent upswing over the past two weeks (up 10%), and a small pullback after that rally is normal. Oil prices climbed today as Ukraine resumed energy strikes and Iran escalated attacks on shipping in the Middle East, but the market appears to be pausing rather than selling off outright.\n\nThe refining backdrop remains supportive for a company like this: refineries are running at 93.5% capacity, which is elevated, and the gap between global oil prices ($126/barrel) and U.S. crude ($102/barrel) is wide\u2014that spread is favorable for refiners who buy U.S. oil and sell refined products into global markets. Today's modest decline looks more like profit-taking on a strong two-week run than a shift in fundamentals.",
+  "fetchedAt": "2026-10-19T19:01:12.602381+00:00",
+  "text": "Marathon Petroleum fell slightly today, giving back a fraction of the strong gains it posted over the past two weeks. The decline came despite oil prices rising again on Monday\u2014U.S. crude moved up to $101.91 a barrel\u2014after Houthi militants claimed attacks on Saudi Arabian airports and energy facilities. The stock's weakness appears to reflect profit-taking after a 9% run-up since early October, rather than any deterioration in the refining environment itself.\n\nRefineries are running at a healthy 93.5%, and geopolitical turmoil in the Middle East continues to support crude prices, which is generally good for refiner margins. However, the modest pullback suggests investors may be consolidating after the recent rally that tracked rising oil prices and escalating regional tensions over the past week.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 137,
-    "inputTokens": 127483,
-    "outputTokens": 31049,
-    "estimatedCostUsd": 0.282728,
-    "lastCallHour": "2026-10-19T18"
+    "callsThisMonth": 138,
+    "inputTokens": 128426,
+    "outputTokens": 31223,
+    "estimatedCostUsd": 0.284541,
+    "lastCallHour": "2026-10-19T19"
   }
 }

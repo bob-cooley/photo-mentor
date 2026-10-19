@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T18:00:54.858057+00:00",
-  "text": "ConocoPhillips fell slightly today, giving back a fraction of the strong two-week rally that carried the stock up 13% since early October. The modest decline came as oil prices pulled back\u2014U.S. crude retreated to $101.91 a barrel from Friday's close near $146.51\u2014despite ongoing geopolitical tension in the Middle East. Iran-backed Houthis have escalated attacks on Saudi Arabia and shipping in the region over the past week, which had earlier supported oil prices, but today's pullback suggests some of that urgency faded from the market.\n\nThe broader picture remains supportive for energy companies like ConocoPhillips: the gap between where oil physically trades and where futures prices sit has widened sharply due to surging tanker costs (as much as $38 per barrel added to delivery), and Middle East tensions\u2014including Iranian strikes on shipping and threats of retaliation\u2014continue to create supply-chain anxiety that keeps crude elevated compared to pre-geopolitical baseline levels.",
+  "fetchedAt": "2026-10-19T19:00:56.480990+00:00",
+  "text": "COP fell 0.66% to $145.55 today, a small pullback after jumping 3.8% on Friday (Oct 16). The timing suggests profit-taking following a strong two-week rally\u2014the stock is up 13.4% since early October, driven largely by the surge in oil prices (US crude sits at $101.91/barrel, up sharply from the $85\u2013$90 range earlier in the month) sparked by Houthi attacks on Saudi oil infrastructure and threats to regional supply announced over the weekend.\n\nThe modest loss today doesn't reverse the underlying tailwind. World oil prices remain elevated at $126.55/barrel, and geopolitical risk in the Middle East\u2014with Iran-backed militant threats continuing and Saudi Arabia postponing its major investor conference\u2014keeps supply uncertainty high. For a major oil producer like this company, that environment is generally positive, even if traders are taking profits on a very strong week.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 137,
-    "inputTokens": 119153,
-    "outputTokens": 29470,
-    "estimatedCostUsd": 0.266503,
-    "lastCallHour": "2026-10-19T18"
+    "callsThisMonth": 138,
+    "inputTokens": 120028,
+    "outputTokens": 29677,
+    "estimatedCostUsd": 0.268413,
+    "lastCallHour": "2026-10-19T19"
   }
 }
