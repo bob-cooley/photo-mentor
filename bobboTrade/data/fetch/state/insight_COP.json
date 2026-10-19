@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T12:01:56.561229+00:00",
-  "text": "ConocoPhillips rose 3.4% today to $146.51, continuing a sharp two-week rally that's now up 15.6%. The immediate driver was news on October 19 that the Trump administration suspended new duties on Russian goods under sanctions relief, which sent oil prices sliding as markets priced in potential increased Russian crude supply\u2014but the stock's gain suggests investors are looking past that headline to the bigger picture of where energy prices actually sit. With U.S. crude at $101.91 and Brent at $126.55, the spread between them remains wide, and analysts have noted that physical delivery costs (tanker rates, for example) add roughly $38 a barrel to the real cost of getting oil to market.\n\nThe two-week surge reflects a volatile stretch driven by Iran-related geopolitical risk: Brent touched $110 earlier this week on Iranian attacks in the Strait of Hormuz, and even though Trump signaled restraint (no nuclear weapons, no ground troops), the underlying supply uncertainty kept energy markets elevated. Today's sanctions-relief news eased some near-term geopolitical premium, but crude remains well above where it was at the start of October, keeping the fundamental backdrop supportive for an oil major like ConocoPhillips.",
+  "fetchedAt": "2026-10-19T13:02:53.862248+00:00",
+  "text": "ConocoPhillips jumped 3.4% today to $146.51, extending a sharp two-week rally that's seen the stock climb 15.6%. The driver is oil prices: U.S. crude sits at $101.91 a barrel while global crude has surged to $126.55, a massive gap. That spread widened because of geopolitical supply disruptions\u2014Iran's escalating attacks on shipping in the Strait of Hormuz pushed Brent oil to $110 earlier this week, and tanker rates have spiked so high that the *actual* cost to physically deliver oil is running about $38 per barrel above the headline price. As a major oil producer, ConocoPhillips benefits directly when the price of crude rises and global energy costs spike.\n\nThat said, the recent news about sanctions relief on Russian crude (announced 2026-10-19) ordinarily would have pressured oil prices by raising hopes of more supply hitting the market. But the Iran risk and tight physical supply appear to be overwhelming that effect for now, keeping prices elevated and the stock's momentum intact.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 131,
-    "inputTokens": 113917,
-    "outputTokens": 28055,
-    "estimatedCostUsd": 0.254192,
-    "lastCallHour": "2026-10-19T12"
+    "callsThisMonth": 132,
+    "inputTokens": 114789,
+    "outputTokens": 28299,
+    "estimatedCostUsd": 0.256284,
+    "lastCallHour": "2026-10-19T13"
   }
 }

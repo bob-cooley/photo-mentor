@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T12:03:41.921737+00:00",
-  "text": "Marathon Petroleum stock rose 0.24% today on minimal daily movement, but the two-week 13.2% surge reflects the rollercoaster in crude oil prices and geopolitical risk. Oil prices have swung wildly \u2014 spiking to $110+ when Iran escalated Strait of Hormuz attacks last week, then sliding this week after Trump announced sanctions relief on Russian crude, which raised hopes of increased global supply. Refineries running at 93.5% utilization mean MPC benefits when oil volatility creates refining spreads (the profit margin between crude costs and finished fuel sales), and the recent churn has kept that spread attractive.\n\nThe oil market is now caught between competing forces: supply fears from Middle East tension versus relief from potential Russian crude returning to markets. For a refiner like MPC, this uncertainty swings both ways \u2014 tighter supplies mean higher crude costs that can pinch margins, but the current elevated prices and high refinery utilization rates remain profitable. The near-term direction hinges on whether sanctions relief actually materializes and how much Russian supply actually reaches markets.",
+  "fetchedAt": "2026-10-19T13:04:28.867901+00:00",
+  "text": "Marathon Petroleum's stock rose 0.24% today, continuing a two-week rally that's gained 13.2% overall. The broader energy sector has been volatile but supported by two opposing forces: oil prices remain elevated (U.S. crude at $101.91/barrel, Brent around $110), but news on October 19th that the Trump administration may suspend duties on Russian energy and seek sanctions relief sent crude sliding as traders bet on more Russian oil entering global markets. That relief news likely capped gains today even as refineries run at 93.5% utilization \u2014 near-full capacity suggests strong refining margins that benefit Marathon.\n\nThe two-week gain reflects the earlier spike when Iran's Hormuz attacks pushed Brent above $110, which temporarily supported both crude prices and refining spreads. However, today's muted move suggests the market is settling into a new equilibrium where potential Russian supply relief is offsetting the geopolitical premium from Middle East tension.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 131,
-    "inputTokens": 121869,
-    "outputTokens": 29801,
-    "estimatedCostUsd": 0.270874,
-    "lastCallHour": "2026-10-19T12"
+    "callsThisMonth": 132,
+    "inputTokens": 122799,
+    "outputTokens": 30014,
+    "estimatedCostUsd": 0.272869,
+    "lastCallHour": "2026-10-19T13"
   }
 }
