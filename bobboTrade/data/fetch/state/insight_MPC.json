@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T15:01:08.249241+00:00",
-  "text": "Marathon Petroleum gained 0.82% today, extending a two-week rally that's added 11.2% to the stock price. The main driver is a sharp reversal in oil market sentiment: crude prices have slid significantly this week after U.S. sanctions relief on Russian energy raised hopes of increased supply hitting the market. Refiners like Marathon benefit when crude input costs fall relative to the value of finished products like gasoline and diesel they produce.\n\nThis move caps a volatile stretch that began with geopolitical risk premium baked in\u2014fears of Iran escalating attacks on shipping and potential U.S. strikes pushed crude sharply higher earlier in the week, which initially pressured refiner margins. The sanctions relief news appears to have broken that tension, sending oil back down and improving the outlook for refinery profitability; at the same time, U.S. refineries are running at a healthy 93.5% utilization rate with ample product inventories on hand, supporting steady demand conditions for their output.",
+  "fetchedAt": "2026-10-19T16:03:06.312886+00:00",
+  "text": "Marathon Petroleum barely moved today, up just 0.2%, but the stock is up 10.5% over two weeks\u2014a run that reflects the underlying volatility in crude oil and refining margins. Today's flatness comes after oil prices slid on news that the U.S. lifted sanctions concerns on Russian crude, which raised hopes of more global supply entering the market and eased some of the geopolitical premium that had driven prices higher earlier in the week. US crude is at $101.91 per barrel, down from the $110+ levels seen when Iran escalated attacks on shipping in the Strait of Hormuz just days ago.\n\nThe two-week rally makes sense in context: refinery utilization is running at a healthy 93.5%, and the company benefits when crude prices spike on supply fears (like Iran's attacks), because refiners make money on the difference between what they pay for oil and what they sell refined products for. Now that oil has retreated on sanctions-relief news, that tailwind has eased, which is why the stock has settled into a holding pattern despite still being well above where it started the month.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 134,
-    "inputTokens": 124654,
-    "outputTokens": 30424,
-    "estimatedCostUsd": 0.276774,
-    "lastCallHour": "2026-10-19T15"
+    "callsThisMonth": 135,
+    "inputTokens": 125596,
+    "outputTokens": 30670,
+    "estimatedCostUsd": 0.278946,
+    "lastCallHour": "2026-10-19T16"
   }
 }

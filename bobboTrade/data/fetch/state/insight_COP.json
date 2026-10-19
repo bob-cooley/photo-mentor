@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T15:00:57.866214+00:00",
-  "text": "ConocoPhillips dropped 1.2% today after jumping 3.1% yesterday, as oil prices retreated on news that the U.S. is considering sanctions relief on Russian crude exports. The market had bid up energy stocks sharply Friday (October 16th) when Iran's attacks on shipping in the Strait of Hormuz pushed crude toward $110 a barrel; today's slide reflects a reversal of that geopolitical premium as potential Russian supply returning to markets could ease the global shortage that had tightened prices.\n\nThe stock's two-week gain of 12.7% still reflects a genuinely tight physical oil market\u2014tanker rates have spiked so much that the true delivered cost of crude is roughly $38 to $40 higher than the headline price suggests\u2014but today's move shows investors are trading on the possibility of near-term relief, not the underlying supply constraint.",
+  "fetchedAt": "2026-10-19T16:01:43.839744+00:00",
+  "text": "ConocoPhillips fell 1.4% today after climbing 12.5% over the past two weeks, giving back some recent gains as oil prices slid on news that the U.S. suspended new duties on Russian energy imports under a national-interest waiver \u2014 a move that raises the prospect of more Russian crude reaching global markets and easing the supply crunch that had been supporting prices. The stock had surged sharply on October 16th (up to $146.51) likely on escalating Middle East tensions and tanker-rate spikes that were making physical oil much more expensive to deliver, but today's geopolitical relief and supply-side news pulled that momentum back.\n\nThe broader context: oil majors like ConocoPhillips have benefited from a widening gap between the official oil price (around $102 for U.S. crude) and what it actually costs to move physical barrels to refineries and buyers\u2014currently running about $38-40 a barrel higher due to surging tanker rates caused by Houthi attacks on shipping. Today's pullback reflects trader concern that sanctions relief on Russian oil could shrink that delivery-cost premium over time, even as geopolitical risks in the Middle East remain live.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 134,
-    "inputTokens": 116530,
-    "outputTokens": 28747,
-    "estimatedCostUsd": 0.260265,
-    "lastCallHour": "2026-10-19T15"
+    "callsThisMonth": 135,
+    "inputTokens": 117403,
+    "outputTokens": 29018,
+    "estimatedCostUsd": 0.262493,
+    "lastCallHour": "2026-10-19T16"
   }
 }
