@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T17:01:06.607783+00:00",
-  "text": "ConocoPhillips fell 0.7% today after climbing 13% over the past two weeks, pulled back by a sharp drop in oil prices. The U.S. benchmark crude fell below $102 a barrel after news that President Trump suspended new duties on Russian goods under a national-interest waiver, raising expectations that Russian oil could flow back into global markets and ease supply concerns that had been driving prices higher. The company had benefited from the recent spike \u2014 US oil had jumped from around $138 to $147 in just four days \u2014 so a pullback in the commodity itself is the most direct explanation for today's decline.\n\nThe broader picture remains mixed. While geopolitical tensions (Houthi attacks on Saudi Arabia, Iranian military posturing) continue to threaten Middle Eastern supply, the possibility of Russian crude returning to the market is offsetting those risks for now. Oil prices are still well above where they stood two weeks ago, so the underlying bullish backdrop for an oil producer remains intact, but today's supply relief story outweighed that tailwind.",
+  "fetchedAt": "2026-10-19T18:00:54.858057+00:00",
+  "text": "ConocoPhillips fell slightly today, giving back a fraction of the strong two-week rally that carried the stock up 13% since early October. The modest decline came as oil prices pulled back\u2014U.S. crude retreated to $101.91 a barrel from Friday's close near $146.51\u2014despite ongoing geopolitical tension in the Middle East. Iran-backed Houthis have escalated attacks on Saudi Arabia and shipping in the region over the past week, which had earlier supported oil prices, but today's pullback suggests some of that urgency faded from the market.\n\nThe broader picture remains supportive for energy companies like ConocoPhillips: the gap between where oil physically trades and where futures prices sit has widened sharply due to surging tanker costs (as much as $38 per barrel added to delivery), and Middle East tensions\u2014including Iranian strikes on shipping and threats of retaliation\u2014continue to create supply-chain anxiety that keeps crude elevated compared to pre-geopolitical baseline levels.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 136,
-    "inputTokens": 118276,
-    "outputTokens": 29247,
-    "estimatedCostUsd": 0.264511,
-    "lastCallHour": "2026-10-19T17"
+    "callsThisMonth": 137,
+    "inputTokens": 119153,
+    "outputTokens": 29470,
+    "estimatedCostUsd": 0.266503,
+    "lastCallHour": "2026-10-19T18"
   }
 }
