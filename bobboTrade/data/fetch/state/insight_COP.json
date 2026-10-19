@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-18T22:48:01.500670+00:00",
-  "text": "ConocoPhillips rose 3.4% today as oil prices climbed on escalating geopolitical tensions in key energy-producing regions. Ukraine intensified drone strikes on Russian oil infrastructure over the weekend, while Iran signaled readiness to respond to potential U.S. attacks and has been escalating strikes in the Strait of Hormuz \u2014 a critical chokepoint for global oil shipments. These developments pushed Brent crude near $109-$110 a barrel, supporting prices for major oil producers like ConocoPhillips.\n\nThe stock's broader two-week rally of 15.6% reflects a sustained tightening in oil markets beyond just today's headlines. Tanker rates have surged significantly, adding roughly $38 per barrel to the cost of physically delivering oil, which means the effective price pressure on global energy supplies is even more acute than the headline crude price suggests \u2014 a dynamic that benefits integrated producers with refining operations.",
+  "fetchedAt": "2026-10-19T00:48:19.940556+00:00",
+  "text": "ConocoPhillips rose 3.4% today as oil prices climbed on escalating geopolitical tensions\u2014Ukraine hit Russian oil infrastructure with drone strikes, Iran threatened new responses to U.S. military action, and tanker attacks in the Middle East continued. Brent crude hovered near $110 a barrel, and the gap between the global oil price ($126.55) and U.S. oil price ($101.91) widened, reflecting supply disruptions and shipping constraints that directly boost refiner and producer margins.\n\nThe two-week 15.6% rally reflects a broader shift: physical oil delivery costs have surged as tanker rates spike, making the \"real\" price of crude substantially higher than headline numbers suggest. For an integrated energy company like ConocoPhillips, tighter supply and elevated shipping costs mean both higher crude values and stronger refining economics.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 128,
-    "inputTokens": 111316,
-    "outputTokens": 27371,
-    "estimatedCostUsd": 0.248171,
-    "lastCallHour": "2026-10-18T22"
+    "callsThisMonth": 129,
+    "inputTokens": 112187,
+    "outputTokens": 27563,
+    "estimatedCostUsd": 0.250002,
+    "lastCallHour": "2026-10-19T00"
   }
 }

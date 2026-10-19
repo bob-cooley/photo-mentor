@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-18T22:50:35.869860+00:00",
-  "text": "Marathon Petroleum stock rose 0.24% today, capping a two-week rally of 13.2% that accelerated sharply from October 13 onward. The climb tracks closely with crude oil prices, which have climbed toward $109\u2013$110 a barrel this week as geopolitical tensions escalated\u2014Ukraine intensified drone strikes on Russian energy infrastructure, Iran signaled new military preparations, and tanker attacks disrupted Middle East shipping. For a major U.S. oil refiner, higher crude prices typically tighten margins in the short run, but the market appears to be betting that tighter global oil supply and sustained prices will support overall energy demand and refining economics.\n\nThe stock's sharp gain from $455 to $478 over two weeks suggests investors are viewing the geopolitical risk premium in oil as a structural support rather than a temporary spike. With U.S. diesel supply tight enough to draw attention to foreign refinery capacity and Trump ruling out nuclear escalation (which reduces tail-risk panic), the market may be settling into an expectation of elevated but stable crude and product prices\u2014conditions that historically reward integrated refiners holding inventory and spare capacity.",
+  "fetchedAt": "2026-10-19T00:50:26.821027+00:00",
+  "text": "Marathon Petroleum ticked up just 0.24% today, a minimal move that reflects the stock's consolidation after a sharp 13% rally over two weeks. That rally was driven by crude oil prices climbing toward $110 a barrel as geopolitical tensions intensified\u2014Ukraine escalated drone strikes on Russian energy infrastructure, Iran ramped up attacks in the Strait of Hormuz, and shipping vessels reported strikes. Higher crude prices improve refinery margins, which is the core earnings driver for refiners like Marathon.\n\nToday's flat price action suggests the market is digesting the previous week's gains rather than reacting to new catalyst. Brent crude remains elevated near $109 as these regional conflicts persist, but without fresh escalation or a sharp price move in the underlying oil market, there's limited new impetus for the stock to move.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 128,
-    "inputTokens": 119096,
-    "outputTokens": 29172,
-    "estimatedCostUsd": 0.264956,
-    "lastCallHour": "2026-10-18T22"
+    "callsThisMonth": 129,
+    "inputTokens": 119961,
+    "outputTokens": 29352,
+    "estimatedCostUsd": 0.266721,
+    "lastCallHour": "2026-10-19T00"
   }
 }
