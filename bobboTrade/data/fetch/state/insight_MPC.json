@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-19T20:01:49.777631+00:00",
-  "text": "Marathon Petroleum fell slightly today, snapping a three-day winning streak, as crude oil prices pulled back from their recent highs. Brent crude had spiked above $109 on Monday amid escalating Middle East tensions\u2014Houthi attacks on Saudi Arabia and threats from Iran\u2014but those geopolitical premiums appear to have cooled somewhat by end-of-week. The stock had surged 9% over the past two weeks riding that oil rally, so today's modest retreat is more of a pause than a reversal.\n\nRefineries are running at 93.5% capacity and oil inventories remain relatively tight, which supports refinery margins when crude prices hold firm. The uncertainty now is whether the Middle East situation will flare up again or stabilize; if tensions ease and oil prices retreat further, refiners like MPC could face margin pressure, whereas another escalation could reignite the rally that drove the stock up so sharply.",
+  "fetchedAt": "2026-10-19T21:03:12.224179+00:00",
+  "text": "Marathon Petroleum fell slightly today despite a strong two-week rally, as crude oil prices pulled back modestly from their recent highs. Brent crude dropped from the $109\u2013$110 range earlier in the week to around $127 globally, while U.S. oil sits at $101.91\u2014still elevated, but no longer accelerating. The stock had climbed nearly 9.5% over the past two weeks on the back of geopolitical tensions (Houthi attacks on Saudi Arabia, Iran's threats in the Strait of Hormuz) pushing crude higher; today's small decline reflects a pause in that momentum rather than any company-specific bad news.\n\nRefineries are running at 93.5% capacity with solid inventory levels, so the operating environment remains favorable for a refiner. The modest pullback today looks like profit-taking after a sharp run-up, especially with oil prices still well above $100 per barrel\u2014the underlying fundamentals that drove the two-week gain haven't reversed.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 139,
-    "inputTokens": 129374,
-    "outputTokens": 31429,
-    "estimatedCostUsd": 0.286519,
-    "lastCallHour": "2026-10-19T20"
+    "callsThisMonth": 140,
+    "inputTokens": 130322,
+    "outputTokens": 31650,
+    "estimatedCostUsd": 0.288572,
+    "lastCallHour": "2026-10-19T21"
   }
 }
