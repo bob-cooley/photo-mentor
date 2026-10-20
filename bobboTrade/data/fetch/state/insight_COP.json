@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T01:33:57.661065+00:00",
-  "text": "ConocoPhillips fell slightly today after climbing 13% over two weeks, likely due to profit-taking following a sharp rally. The stock surged Friday to $146.51 on the back of geopolitical tension in the Middle East\u2014Houthi attacks on Saudi oil facilities and airports sent Brent crude above $109\u2014but gave back a fraction of those gains today as the initial shock wore off.\n\nThe broader context: oil prices remain elevated and volatile. Brent crude is trading at $126.55 globally while US oil is at $101.91, a significant spread partly explained by soaring tanker costs (shipping premiums have pushed the real delivered cost of oil roughly $38 higher per barrel). For an oil producer like ConocoPhillips, higher crude prices are generally favorable, but the stock's two-week surge suggests most of that good news may already be priced in\u2014today's pullback is a normal correction after such a fast move up.",
+  "fetchedAt": "2026-10-20T07:06:26.369928+00:00",
+  "text": "ConocoPhillips fell 0.87% today to $145.24, a modest pullback after a strong two-week rally of 13%. The stock dropped despite oil prices remaining elevated\u2014Brent crude topped $109 today after Houthi militants claimed attacks on Saudi Arabian oil infrastructure and Aramco facilities, and geopolitical tensions involving Iran and U.S. shipping remain high. The pullback appears to be profit-taking after the stock's sharp recent gains rather than a fundamental shift in the oil market that underpins the company's earnings.\n\nThe broader backdrop remains supportive for oil companies. A significant gap persists between the headline U.S. oil price (around $102) and the physical cost of delivering crude globally\u2014one analyst noted physical oil effectively costs $38+ per barrel more when you factor in surging tanker rates\u2014which benefits refiners and integrated producers. This supply-side tension and ongoing Middle East geopolitical risk have driven the recent rally, though today's small decline suggests some investors are taking profits at current levels.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 142,
-    "inputTokens": 123554,
-    "outputTokens": 30506,
-    "estimatedCostUsd": 0.276084,
-    "lastCallHour": "2026-10-20T01"
+    "callsThisMonth": 143,
+    "inputTokens": 124436,
+    "outputTokens": 30734,
+    "estimatedCostUsd": 0.278106,
+    "lastCallHour": "2026-10-20T07"
   }
 }

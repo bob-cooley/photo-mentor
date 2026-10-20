@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T01:36:26.275778+00:00",
-  "text": "Marathon Petroleum fell slightly today despite a strong two-week run, as oil prices retreated from their recent peaks. Brent crude, which had climbed above $109 following Houthi attacks on Saudi facilities earlier this week, has pulled back to around $126 globally and $102 domestically\u2014the kind of modest pullback that can weigh on refiner stocks even when prices remain elevated. The company also faces a headwind from refineries already running near capacity (93.5%), which limits how much additional throughput can boost profits from higher crude costs.\n\nThe broader geopolitical tension that drove oil higher this week\u2014Iranian threats, Houthi missile strikes, and attacks on Russian and Saudi energy infrastructure\u2014appears to have stabilized rather than escalated further, taking some of the urgency out of the market. With refineries operating close to maximum and crude inventories at 698 million barrels (a healthy level), the conditions that powered Marathon's 9% gain over two weeks have plateaued.",
+  "fetchedAt": "2026-10-20T07:06:40.517866+00:00",
+  "text": "Marathon Petroleum's stock fell 0.92% today to close at $473.69, paring back most of a strong two-week rally. The modest decline comes as oil prices have pulled back slightly\u2014U.S. crude sits at $101.91 per barrel, down from the $110+ levels that drove the stock up 9% over the past two weeks on geopolitical supply fears from Houthi attacks on Saudi facilities and Iranian escalation around the Strait of Hormuz. Refineries are running at a healthy 93.5% utilization with crude inventories at 698 million barrels, so there's no structural demand problem; today's move appears to reflect a brief cooling of the geopolitical premium rather than any fundamental shift.\n\nThe broader context is that refiner stocks like Marathon tend to benefit when crude prices spike on supply concerns\u2014those higher oil costs can be passed along through fuel sales\u2014but they're sensitive to every shift in that risk premium. With Saudi Arabia postponing its investor conference and Houthis continuing attacks, the supply threat remains real, which is likely why the stock held onto most of its two-week gains despite today's small pullback.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 142,
-    "inputTokens": 132218,
-    "outputTokens": 32064,
-    "estimatedCostUsd": 0.292538,
-    "lastCallHour": "2026-10-20T01"
+    "callsThisMonth": 143,
+    "inputTokens": 133166,
+    "outputTokens": 32320,
+    "estimatedCostUsd": 0.294766,
+    "lastCallHour": "2026-10-20T07"
   }
 }
