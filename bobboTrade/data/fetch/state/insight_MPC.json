@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T20:01:13.146209+00:00",
-  "text": "Marathon Petroleum's stock ticked up slightly today, gaining about 0.26%, after falling yesterday as oil prices pulled back on hopes for diplomatic progress in the Middle East. Over the past two weeks, the stock has climbed nearly 10%, riding a wave of volatility driven by escalating attacks on shipping and oil infrastructure in the Middle East\u2014Houthi militants have targeted Saudi airports and Aramco facilities, while threats from Iran and strikes on Russian oil assets have kept crude prices elevated and refinery margins attractive.\n\nThe refining environment remains supportive: U.S. crude sits at $102 and Brent at $126, refineries are running at 93.5% capacity, and fuel inventories are relatively lean, all conditions that typically favor a refiner's profitability. Today's small gain reflects the tug-of-war between geopolitical risk premiums pushing oil higher and periodic optimism about talks that could ease tensions and bring prices down.",
+  "fetchedAt": "2026-10-20T21:01:09.890715+00:00",
+  "text": "Marathon's stock edged up 0.28% today, holding near $475 after a volatile two weeks that saw it gain nearly 10% overall. The modest move reflects conflicting signals: crude oil prices fell today as traders bet on diplomatic progress in the Middle East, which typically pressures refiner margins, but the broader geopolitical backdrop\u2014Houthi attacks on Saudi facilities, Iranian warnings, and shipping strikes in the Strait of Hormuz\u2014keeps crude prices elevated enough to stay above $100 per barrel. Refineries are running at 93.5% capacity, near full utilization, which limits upside from higher oil prices but also means the company can't easily adjust throughput if margins tighten.\n\nThe stock's 10% rally over two weeks sits on top of an oil market caught between fear and hope: Brent crude topped $109 earlier in the week after reported attacks on Saudi Arabia, but today's move down on diplomatic optimism shows traders are hedging geopolitical risk rather than fully pricing it in. That uncertainty is typical for refiners during Middle East tension\u2014they benefit from elevated crude prices but face a ceiling if markets start to believe the risk will resolve.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 151,
-    "inputTokens": 140670,
-    "outputTokens": 34083,
-    "estimatedCostUsd": 0.311085,
-    "lastCallHour": "2026-10-20T20"
+    "callsThisMonth": 152,
+    "inputTokens": 141610,
+    "outputTokens": 34340,
+    "estimatedCostUsd": 0.31331,
+    "lastCallHour": "2026-10-20T21"
   }
 }

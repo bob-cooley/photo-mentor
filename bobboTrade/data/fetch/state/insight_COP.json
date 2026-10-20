@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T20:01:01.132731+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices held near elevated levels, though the move was modest. Over the past two weeks, the stock has climbed 12.8%\u2014a much larger gain\u2014driven by a sharp spike in crude prices triggered by escalating attacks on oil infrastructure in the Middle East. Houthi militants claimed strikes on Saudi Arabian airports and Aramco facilities on October 19th, and shipping attacks in the Strait of Hormuz have intensified, pushing Brent crude above $109 per barrel and widening the gap between world oil prices ($126.55) and U.S. oil ($101.91).\n\nThe company benefits directly when crude prices rise, since higher oil prices translate to stronger revenues and profits for major producers. While today's small gain suggests the immediate geopolitical shock has started to fade\u2014news from October 20th mentions hopes for diplomatic progress in the Middle East\u2014the stock remains well above where it started two weeks ago, reflecting the underlying strength in energy prices from ongoing regional tensions.",
+  "fetchedAt": "2026-10-20T21:00:55.217677+00:00",
+  "text": "ConocoPhillips rose 0.5% today, a modest gain in what has been a strong two-week run of nearly 13%. The move reflects the volatile backdrop for oil prices: crude is trading at $101.91 domestically and $126.55 globally, with geopolitical tensions in the Middle East \u2014 particularly Houthi attacks on Saudi facilities and shipping routes \u2014 creating upside pressure on energy stocks even as traders briefly hoped for diplomatic progress today.\n\nOver the past week, the stock has swung with oil market swings, jumping nearly $5 on October 16th when Houthi attacks on Saudi infrastructure drove crude higher, then holding most of those gains through today. As a major oil and gas producer, ConocoPhillips benefits directly when global crude prices rise \u2014 and the $24-a-barrel gap between world and US oil prices reflects supply concerns that support the broader energy sector.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 151,
-    "inputTokens": 131464,
-    "outputTokens": 32406,
-    "estimatedCostUsd": 0.293494,
-    "lastCallHour": "2026-10-20T20"
+    "callsThisMonth": 152,
+    "inputTokens": 132345,
+    "outputTokens": 32606,
+    "estimatedCostUsd": 0.295375,
+    "lastCallHour": "2026-10-20T21"
   }
 }
