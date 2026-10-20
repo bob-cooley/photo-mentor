@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T07:06:40.517866+00:00",
-  "text": "Marathon Petroleum's stock fell 0.92% today to close at $473.69, paring back most of a strong two-week rally. The modest decline comes as oil prices have pulled back slightly\u2014U.S. crude sits at $101.91 per barrel, down from the $110+ levels that drove the stock up 9% over the past two weeks on geopolitical supply fears from Houthi attacks on Saudi facilities and Iranian escalation around the Strait of Hormuz. Refineries are running at a healthy 93.5% utilization with crude inventories at 698 million barrels, so there's no structural demand problem; today's move appears to reflect a brief cooling of the geopolitical premium rather than any fundamental shift.\n\nThe broader context is that refiner stocks like Marathon tend to benefit when crude prices spike on supply concerns\u2014those higher oil costs can be passed along through fuel sales\u2014but they're sensitive to every shift in that risk premium. With Saudi Arabia postponing its investor conference and Houthis continuing attacks, the supply threat remains real, which is likely why the stock held onto most of its two-week gains despite today's small pullback.",
+  "fetchedAt": "2026-10-20T13:01:31.829874+00:00",
+  "text": "Marathon Petroleum fell modestly today despite a sharp rise in crude oil prices, which typically benefits refiners. U.S. crude jumped past $110 a barrel on escalating Middle East tensions\u2014Houthis claimed attacks on Saudi facilities over the weekend, and Iran signaled military readiness\u2014yet MPC closed down 0.9%. The disconnect suggests investors may be pricing in either near-term refining margin pressure (refineries are already running hot at 93.5% capacity with substantial oil and fuel inventories on hand) or taking profits after the stock's strong 9% run over the past two weeks.\n\nThe broader picture is mixed for refiners in this environment. While higher oil prices can eventually lift refining profits as fuel sells at a premium, the immediate effect depends on refinery utilization and inventory levels. At current capacity and storage levels, there's limited room for MPC to benefit from a price spike without demand or production shifts to absorb the increased crude feedstock.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 143,
-    "inputTokens": 133166,
-    "outputTokens": 32320,
-    "estimatedCostUsd": 0.294766,
-    "lastCallHour": "2026-10-20T07"
+    "callsThisMonth": 144,
+    "inputTokens": 134105,
+    "outputTokens": 32530,
+    "estimatedCostUsd": 0.296755,
+    "lastCallHour": "2026-10-20T13"
   }
 }

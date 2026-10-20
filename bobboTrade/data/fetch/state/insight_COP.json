@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T07:06:26.369928+00:00",
-  "text": "ConocoPhillips fell 0.87% today to $145.24, a modest pullback after a strong two-week rally of 13%. The stock dropped despite oil prices remaining elevated\u2014Brent crude topped $109 today after Houthi militants claimed attacks on Saudi Arabian oil infrastructure and Aramco facilities, and geopolitical tensions involving Iran and U.S. shipping remain high. The pullback appears to be profit-taking after the stock's sharp recent gains rather than a fundamental shift in the oil market that underpins the company's earnings.\n\nThe broader backdrop remains supportive for oil companies. A significant gap persists between the headline U.S. oil price (around $102) and the physical cost of delivering crude globally\u2014one analyst noted physical oil effectively costs $38+ per barrel more when you factor in surging tanker rates\u2014which benefits refiners and integrated producers. This supply-side tension and ongoing Middle East geopolitical risk have driven the recent rally, though today's small decline suggests some investors are taking profits at current levels.",
+  "fetchedAt": "2026-10-20T13:01:09.295658+00:00",
+  "text": "ConocoPhillips fell slightly today after jumping nearly 6.5% yesterday, but the stock remains up sharply over the past two weeks as oil prices have surged on Middle East tensions. Brent crude has climbed above $126, driven by Houthi militant attacks on Saudi Arabian oil infrastructure and airports\u2014threats to global oil supply that benefit major oil producers like ConocoPhillips. The small pullback today appears to be profit-taking after a strong run rather than a reversal in the underlying trend.\n\nThe broader rally reflects genuine supply risk: Iran-backed attacks have intensified, and both Saudi Arabia and Iran have signaled potential further escalation, keeping investors focused on potential disruptions to Middle Eastern production. Oil price strength of this magnitude\u2014Brent up roughly 50% since mid-September based on the price data\u2014is the main driver of ConocoPhillips' two-week gain.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 143,
-    "inputTokens": 124436,
-    "outputTokens": 30734,
-    "estimatedCostUsd": 0.278106,
-    "lastCallHour": "2026-10-20T07"
+    "callsThisMonth": 144,
+    "inputTokens": 125315,
+    "outputTokens": 30934,
+    "estimatedCostUsd": 0.279985,
+    "lastCallHour": "2026-10-20T13"
   }
 }

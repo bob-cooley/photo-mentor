@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-10-20T07:06:11.921547+00:00",
+    "fetchedAt": "2026-10-20T13:00:57.737087+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-10-20",
+        "firm": "Susquehanna",
+        "kind": "maintained",
+        "fromGrade": "Positive",
+        "toGrade": "Positive",
+        "targetAction": "Raises",
+        "targetFrom": 161.0,
+        "targetTo": 175.0
+      },
       {
         "date": "2026-10-15",
         "firm": "Morgan Stanley",
