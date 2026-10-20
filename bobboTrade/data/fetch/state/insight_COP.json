@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-19T22:50:11.137379+00:00",
-  "text": "ConocoPhillips fell slightly today despite oil prices rising sharply\u2014Brent crude jumped above $109 after Houthi militants claimed attacks on Saudi Arabian airports and oil facilities on October 19th. The stock had surged $8.95 over the prior two trading days (through October 16th), so today's pullback appears to be profit-taking after that strong run rather than a reaction to deteriorating fundamentals.\n\nThe geopolitical backdrop remains supportive for oil producers: Iran-backed Houthi attacks on Saudi infrastructure, Iranian threats of retaliation against the U.S., and Ukrainian strikes on Russian oil facilities are all tightening supply. The gap between U.S. crude ($101.91) and Brent ($126.55) also widened further, reflecting the premium buyers pay for oil in tighter physical markets\u2014a setup that generally benefits integrated producers like ConocoPhillips on both production and refining.",
+  "fetchedAt": "2026-10-20T01:33:57.661065+00:00",
+  "text": "ConocoPhillips fell slightly today after climbing 13% over two weeks, likely due to profit-taking following a sharp rally. The stock surged Friday to $146.51 on the back of geopolitical tension in the Middle East\u2014Houthi attacks on Saudi oil facilities and airports sent Brent crude above $109\u2014but gave back a fraction of those gains today as the initial shock wore off.\n\nThe broader context: oil prices remain elevated and volatile. Brent crude is trading at $126.55 globally while US oil is at $101.91, a significant spread partly explained by soaring tanker costs (shipping premiums have pushed the real delivered cost of oil roughly $38 higher per barrel). For an oil producer like ConocoPhillips, higher crude prices are generally favorable, but the stock's two-week surge suggests most of that good news may already be priced in\u2014today's pullback is a normal correction after such a fast move up.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 141,
-    "inputTokens": 122672,
-    "outputTokens": 30293,
-    "estimatedCostUsd": 0.274137,
-    "lastCallHour": "2026-10-19T22"
+    "callsThisMonth": 142,
+    "inputTokens": 123554,
+    "outputTokens": 30506,
+    "estimatedCostUsd": 0.276084,
+    "lastCallHour": "2026-10-20T01"
   }
 }
