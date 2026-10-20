@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T18:02:59.978317+00:00",
-  "text": "The stock was essentially flat today, closing just 0.07% higher at $474, but the two-week rally of 9.6% reflects a sharp rebound from lows around $433 in early October. The underlying driver has been oil prices: Brent crude topped $109 per barrel on October 19th after Houthi militants claimed attacks on Saudi Arabian airports and Aramco facilities, and the U.S. oil price now sits at $101.91 per barrel. For a refiner like this, higher crude prices initially pressure margins, but the recent rally suggests markets are pricing in tighter global supply from Middle East disruption risk\u2014and refineries running at 93.5% utilization are positioned to capture value if crude stays elevated while demand holds.\n\nThe escalating geopolitical tension in the Strait of Hormuz and repeated Houthi attacks have created uncertainty, which can cut both ways. Today's modest decline came as traders reportedly grew hopeful about diplomatic progress, which would ease supply concerns and potentially lower oil prices\u2014the opposite of what has driven the recent rally. The stock remains well above early October lows, so the 9.6% gain likely reflects net positioning for a period of tighter global crude supply rather than conviction about where prices settle long-term.",
+  "fetchedAt": "2026-10-20T19:01:30.283406+00:00",
+  "text": "The stock barely moved today, closing nearly flat while oil prices fell on hopes for diplomatic progress in the Middle East conflict. Over the past two weeks, however, MPC has gained 9.64%\u2014a move driven by the sharp spike in crude prices following Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz that pushed Brent oil above $109 per barrel. As a major refiner, MPC benefits when crude prices rise relative to finished fuel prices, widening the margin it makes on turning oil into gasoline and diesel.\n\nThe recent gains also reflect tight refining conditions: US refineries are running at 93.5% capacity with below-average oil in storage (698.56 million barrels), meaning any disruption to crude supply or geopolitical tension that tightens global markets can squeeze margins tighter and boost refiner profits. Today's small decline fits the broader pattern of profit-taking as traders bet that Middle East tensions may ease.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 149,
-    "inputTokens": 138794,
-    "outputTokens": 33664,
-    "estimatedCostUsd": 0.307114,
-    "lastCallHour": "2026-10-20T18"
+    "callsThisMonth": 150,
+    "inputTokens": 139732,
+    "outputTokens": 33875,
+    "estimatedCostUsd": 0.309107,
+    "lastCallHour": "2026-10-20T19"
   }
 }

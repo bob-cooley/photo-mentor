@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T18:02:18.930637+00:00",
-  "text": "ConocoPhillips gained a modest 0.28% today to close at $145.65, holding near recent highs after a strong two-week rally of 12.6%. The stock's strength over the past fortnight reflects surging crude oil prices\u2014US oil has climbed to $101.91 a barrel and Brent crude topped $126.55\u2014driven by escalating attacks on Saudi oil infrastructure and shipping in the Middle East by Iran-backed Houthi militants. These geopolitical tensions have tightened global oil supply concerns, directly boosting the value of major oil producers' reserves and future cash flows.\n\nToday's modest gain came as oil prices eased slightly on optimism about diplomatic progress in the Middle East, which is why COP didn't accelerate further. The longer-term story remains the persistent risk from regional conflict: as long as attacks on Saudi facilities and commercial shipping through the Strait of Hormuz continue, oil prices are likely to stay elevated, supporting valuations for large integrated oil companies.",
+  "fetchedAt": "2026-10-20T19:01:07.626978+00:00",
+  "text": "ConocoPhillips rose 0.5% today to close at $146, continuing a strong two-week rally that has pushed the stock up 12.9%. The gain comes amid a sharp spike in global oil prices \u2014 Brent crude topped $109 per barrel on October 19th after Iran-backed Houthi militants attacked Saudi Arabian airports and oil facilities, triggering missile and drone strikes that rattled supply concerns. Though crude slipped slightly today as traders began hoping for diplomatic progress in the Middle East conflict, the price remains elevated, and oil refiners and producers like ConocoPhillips benefit directly when crude costs more.\n\nThe stock's two-week surge reflects a broader energy sector rally tied to Middle East geopolitical risk. With the Strait of Hormuz \u2014 a critical chokepoint for global oil shipments \u2014 now facing escalating attacks on commercial vessels, the market has repriced energy stocks upward on supply-disruption fears. This tug-of-war between rising prices (good for producers' profits) and eventual peace hopes (which would lower prices again) is likely to keep energy stocks volatile in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 149,
-    "inputTokens": 129702,
-    "outputTokens": 31935,
-    "estimatedCostUsd": 0.289377,
-    "lastCallHour": "2026-10-20T18"
+    "callsThisMonth": 150,
+    "inputTokens": 130583,
+    "outputTokens": 32183,
+    "estimatedCostUsd": 0.291498,
+    "lastCallHour": "2026-10-20T19"
   }
 }
