@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T14:01:18.409980+00:00",
-  "text": "Marathon Petroleum fell slightly today despite oil prices hitting five-month highs, with U.S. crude rising above $101 and Brent crude climbing to $109 as Middle East tensions\u2014including Houthi attacks on Saudi facilities and Iranian military posturing\u2014drove energy markets higher. The stock's small decline today likely reflects profit-taking after a strong two-week rally of 9.2%, rather than any deterioration in the underlying business; refineries are running at a healthy 93.5 percent capacity, positioning the company to benefit from elevated crude prices.\n\nThe mismatch between rising oil and a falling stock price is typical after such a sharp rally\u2014investors were locking in gains ahead of what remains an unpredictable geopolitical situation. While sustained high oil prices and tight refining capacity would normally be tailwinds for a major refiner, the market may also be pricing in that these extreme prices, if they persist, could eventually dampen demand for refined fuels.",
+  "fetchedAt": "2026-10-20T15:01:13.012489+00:00",
+  "text": "Marathon Petroleum fell 0.96% today as oil prices retreated from their recent highs. Crude has dropped from $109+ (mid-October spike driven by Houthi attacks on Saudi facilities) to $101.91 today, easing concerns about immediate supply disruptions in the Middle East. For a refiner, lower oil prices reduce input costs but also compress profit margins \u2014 the benefit depends on how quickly refined product prices adjust, and today's move suggests traders are pricing in a temporary easing of geopolitical tension rather than a bullish demand outlook.\n\nThe stock is still up 8.5% over two weeks, reflecting the volatility baked into oil refining when geopolitical risk flares. U.S. refineries are running at 93.5% capacity with modest crude and product inventories, so the market remains tight, but the sharp pullback from $484 to $469 in the past week shows traders rotating out of the refiner trade as immediate conflict escalation fears fade.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 145,
-    "inputTokens": 135043,
-    "outputTokens": 32743,
-    "estimatedCostUsd": 0.298758,
-    "lastCallHour": "2026-10-20T14"
+    "callsThisMonth": 146,
+    "inputTokens": 135980,
+    "outputTokens": 32962,
+    "estimatedCostUsd": 0.30079,
+    "lastCallHour": "2026-10-20T15"
   }
 }
