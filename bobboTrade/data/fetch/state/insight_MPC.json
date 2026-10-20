@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T17:01:10.197733+00:00",
-  "text": "Marathon Petroleum fell 0.21% today to close at $472.69, but the real story is a reversal after a strong two-week run. Oil prices dropped today on hopes for a diplomatic resolution to Middle East tensions\u2014U.S. crude fell below $102 a barrel\u2014which took some steam out of the refining sector after weeks of geopolitical premium pushed prices higher. Refineries are running at 93.5% capacity with healthy fuel inventories, so there's less tailwind from supply tightness.\n\nThe stock is still up 9.3% over two weeks, a gain built on the escalation of Houthi attacks on shipping and Saudi infrastructure that sent Brent crude above $126. That premium evaporates fast if diplomacy gains traction; traders are betting cooler heads will prevail, which removes the risk premium that had boosted energy stocks earlier this month.",
+  "fetchedAt": "2026-10-20T18:02:59.978317+00:00",
+  "text": "The stock was essentially flat today, closing just 0.07% higher at $474, but the two-week rally of 9.6% reflects a sharp rebound from lows around $433 in early October. The underlying driver has been oil prices: Brent crude topped $109 per barrel on October 19th after Houthi militants claimed attacks on Saudi Arabian airports and Aramco facilities, and the U.S. oil price now sits at $101.91 per barrel. For a refiner like this, higher crude prices initially pressure margins, but the recent rally suggests markets are pricing in tighter global supply from Middle East disruption risk\u2014and refineries running at 93.5% utilization are positioned to capture value if crude stays elevated while demand holds.\n\nThe escalating geopolitical tension in the Strait of Hormuz and repeated Houthi attacks have created uncertainty, which can cut both ways. Today's modest decline came as traders reportedly grew hopeful about diplomatic progress, which would ease supply concerns and potentially lower oil prices\u2014the opposite of what has driven the recent rally. The stock remains well above early October lows, so the 9.6% gain likely reflects net positioning for a period of tighter global crude supply rather than conviction about where prices settle long-term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 148,
-    "inputTokens": 137856,
-    "outputTokens": 33384,
-    "estimatedCostUsd": 0.304776,
-    "lastCallHour": "2026-10-20T17"
+    "callsThisMonth": 149,
+    "inputTokens": 138794,
+    "outputTokens": 33664,
+    "estimatedCostUsd": 0.307114,
+    "lastCallHour": "2026-10-20T18"
   }
 }
