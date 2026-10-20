@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T15:01:13.012489+00:00",
-  "text": "Marathon Petroleum fell 0.96% today as oil prices retreated from their recent highs. Crude has dropped from $109+ (mid-October spike driven by Houthi attacks on Saudi facilities) to $101.91 today, easing concerns about immediate supply disruptions in the Middle East. For a refiner, lower oil prices reduce input costs but also compress profit margins \u2014 the benefit depends on how quickly refined product prices adjust, and today's move suggests traders are pricing in a temporary easing of geopolitical tension rather than a bullish demand outlook.\n\nThe stock is still up 8.5% over two weeks, reflecting the volatility baked into oil refining when geopolitical risk flares. U.S. refineries are running at 93.5% capacity with modest crude and product inventories, so the market remains tight, but the sharp pullback from $484 to $469 in the past week shows traders rotating out of the refiner trade as immediate conflict escalation fears fade.",
+  "fetchedAt": "2026-10-20T16:01:18.221066+00:00",
+  "text": "Marathon Petroleum stock fell 0.97% today as oil prices retreated on hopes for diplomatic progress in the Middle East conflict. Crude had spiked earlier in the week\u2014Brent topped $109 on October 19th after Houthi militants claimed attacks on Saudi facilities\u2014but traders began backing away from those highs on October 20th as optimism about negotiations gained ground. For a refiner like Marathon, lower oil prices compress the margin between what they pay for crude and what they earn selling refined products like gasoline and diesel.\n\nThe broader picture shows refining margins under pressure from mixed signals. U.S. refineries are running at 93.5% capacity and gasoline storage is elevated at 208 million barrels, suggesting adequate supply isn't rewarding the refining industry at the moment. The stock is still up 8.5% over two weeks\u2014a reflection of the volatility and the initial crude spike\u2014but today's pullback tracks the market's recalibration as geopolitical risk premiums fade.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 146,
-    "inputTokens": 135980,
-    "outputTokens": 32962,
-    "estimatedCostUsd": 0.30079,
-    "lastCallHour": "2026-10-20T15"
+    "callsThisMonth": 147,
+    "inputTokens": 136918,
+    "outputTokens": 33187,
+    "estimatedCostUsd": 0.302853,
+    "lastCallHour": "2026-10-20T16"
   }
 }

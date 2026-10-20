@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T15:01:00.674741+00:00",
-  "text": "ConocoPhillips fell 1.2% today as oil prices retreated from earlier highs. US crude dropped back to $101.91 per barrel after spiking on reports of Houthi attacks on Saudi facilities and infrastructure over the past two days\u2014the stock had surged 4.5% on October 16th when those geopolitical tensions first pushed prices up, but traders are now taking profits as the immediate shock fades and the market reassesses the actual risk to global oil supply.\n\nThe stock remains up 10.9% over two weeks, reflecting the broader strength in oil prices driven by Middle East tensions. However, today's pullback shows that without fresh escalation in the Strait of Hormuz or Saudi production, the initial rally is cooling\u2014oil explorers and refiners like ConocoPhillips tend to sell off when crisis premiums unwind, even as prices stay elevated.",
+  "fetchedAt": "2026-10-20T16:01:00.272963+00:00",
+  "text": "ConocoPhillips fell slightly today as oil prices retreated on hopes for diplomatic resolution in the Middle East. Crude prices dropped after days of sharp gains driven by Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz; traders appear to be pricing in a potential de-escalation, which would ease supply concerns that had pushed oil higher. The stock had surged 11.77% over the past two weeks on the back of those geopolitical tensions, so today's small decline is a modest pullback from that rally.\n\nThe gap between U.S. oil ($101.91/barrel) and global oil ($126.55/barrel) remains wide, reflecting ongoing Middle East risk premiums that continue to support energy stocks even as immediate tension eases. Any actual diplomatic breakthrough would likely extend today's downward pressure, while renewed attacks would reverse it quickly.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 146,
-    "inputTokens": 127067,
-    "outputTokens": 31308,
-    "estimatedCostUsd": 0.283607,
-    "lastCallHour": "2026-10-20T15"
+    "callsThisMonth": 147,
+    "inputTokens": 127944,
+    "outputTokens": 31498,
+    "estimatedCostUsd": 0.285434,
+    "lastCallHour": "2026-10-20T16"
   }
 }
