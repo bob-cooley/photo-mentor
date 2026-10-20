@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T19:01:30.283406+00:00",
-  "text": "The stock barely moved today, closing nearly flat while oil prices fell on hopes for diplomatic progress in the Middle East conflict. Over the past two weeks, however, MPC has gained 9.64%\u2014a move driven by the sharp spike in crude prices following Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz that pushed Brent oil above $109 per barrel. As a major refiner, MPC benefits when crude prices rise relative to finished fuel prices, widening the margin it makes on turning oil into gasoline and diesel.\n\nThe recent gains also reflect tight refining conditions: US refineries are running at 93.5% capacity with below-average oil in storage (698.56 million barrels), meaning any disruption to crude supply or geopolitical tension that tightens global markets can squeeze margins tighter and boost refiner profits. Today's small decline fits the broader pattern of profit-taking as traders bet that Middle East tensions may ease.",
+  "fetchedAt": "2026-10-20T20:01:13.146209+00:00",
+  "text": "Marathon Petroleum's stock ticked up slightly today, gaining about 0.26%, after falling yesterday as oil prices pulled back on hopes for diplomatic progress in the Middle East. Over the past two weeks, the stock has climbed nearly 10%, riding a wave of volatility driven by escalating attacks on shipping and oil infrastructure in the Middle East\u2014Houthi militants have targeted Saudi airports and Aramco facilities, while threats from Iran and strikes on Russian oil assets have kept crude prices elevated and refinery margins attractive.\n\nThe refining environment remains supportive: U.S. crude sits at $102 and Brent at $126, refineries are running at 93.5% capacity, and fuel inventories are relatively lean, all conditions that typically favor a refiner's profitability. Today's small gain reflects the tug-of-war between geopolitical risk premiums pushing oil higher and periodic optimism about talks that could ease tensions and bring prices down.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 150,
-    "inputTokens": 139732,
-    "outputTokens": 33875,
-    "estimatedCostUsd": 0.309107,
-    "lastCallHour": "2026-10-20T19"
+    "callsThisMonth": 151,
+    "inputTokens": 140670,
+    "outputTokens": 34083,
+    "estimatedCostUsd": 0.311085,
+    "lastCallHour": "2026-10-20T20"
   }
 }

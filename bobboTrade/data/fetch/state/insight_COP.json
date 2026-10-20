@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T19:01:07.626978+00:00",
-  "text": "ConocoPhillips rose 0.5% today to close at $146, continuing a strong two-week rally that has pushed the stock up 12.9%. The gain comes amid a sharp spike in global oil prices \u2014 Brent crude topped $109 per barrel on October 19th after Iran-backed Houthi militants attacked Saudi Arabian airports and oil facilities, triggering missile and drone strikes that rattled supply concerns. Though crude slipped slightly today as traders began hoping for diplomatic progress in the Middle East conflict, the price remains elevated, and oil refiners and producers like ConocoPhillips benefit directly when crude costs more.\n\nThe stock's two-week surge reflects a broader energy sector rally tied to Middle East geopolitical risk. With the Strait of Hormuz \u2014 a critical chokepoint for global oil shipments \u2014 now facing escalating attacks on commercial vessels, the market has repriced energy stocks upward on supply-disruption fears. This tug-of-war between rising prices (good for producers' profits) and eventual peace hopes (which would lower prices again) is likely to keep energy stocks volatile in the near term.",
+  "fetchedAt": "2026-10-20T20:01:01.132731+00:00",
+  "text": "ConocoPhillips rose slightly today as oil prices held near elevated levels, though the move was modest. Over the past two weeks, the stock has climbed 12.8%\u2014a much larger gain\u2014driven by a sharp spike in crude prices triggered by escalating attacks on oil infrastructure in the Middle East. Houthi militants claimed strikes on Saudi Arabian airports and Aramco facilities on October 19th, and shipping attacks in the Strait of Hormuz have intensified, pushing Brent crude above $109 per barrel and widening the gap between world oil prices ($126.55) and U.S. oil ($101.91).\n\nThe company benefits directly when crude prices rise, since higher oil prices translate to stronger revenues and profits for major producers. While today's small gain suggests the immediate geopolitical shock has started to fade\u2014news from October 20th mentions hopes for diplomatic progress in the Middle East\u2014the stock remains well above where it started two weeks ago, reflecting the underlying strength in energy prices from ongoing regional tensions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 150,
-    "inputTokens": 130583,
-    "outputTokens": 32183,
-    "estimatedCostUsd": 0.291498,
-    "lastCallHour": "2026-10-20T19"
+    "callsThisMonth": 151,
+    "inputTokens": 131464,
+    "outputTokens": 32406,
+    "estimatedCostUsd": 0.293494,
+    "lastCallHour": "2026-10-20T20"
   }
 }
