@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T16:01:18.221066+00:00",
-  "text": "Marathon Petroleum stock fell 0.97% today as oil prices retreated on hopes for diplomatic progress in the Middle East conflict. Crude had spiked earlier in the week\u2014Brent topped $109 on October 19th after Houthi militants claimed attacks on Saudi facilities\u2014but traders began backing away from those highs on October 20th as optimism about negotiations gained ground. For a refiner like Marathon, lower oil prices compress the margin between what they pay for crude and what they earn selling refined products like gasoline and diesel.\n\nThe broader picture shows refining margins under pressure from mixed signals. U.S. refineries are running at 93.5% capacity and gasoline storage is elevated at 208 million barrels, suggesting adequate supply isn't rewarding the refining industry at the moment. The stock is still up 8.5% over two weeks\u2014a reflection of the volatility and the initial crude spike\u2014but today's pullback tracks the market's recalibration as geopolitical risk premiums fade.",
+  "fetchedAt": "2026-10-20T17:01:10.197733+00:00",
+  "text": "Marathon Petroleum fell 0.21% today to close at $472.69, but the real story is a reversal after a strong two-week run. Oil prices dropped today on hopes for a diplomatic resolution to Middle East tensions\u2014U.S. crude fell below $102 a barrel\u2014which took some steam out of the refining sector after weeks of geopolitical premium pushed prices higher. Refineries are running at 93.5% capacity with healthy fuel inventories, so there's less tailwind from supply tightness.\n\nThe stock is still up 9.3% over two weeks, a gain built on the escalation of Houthi attacks on shipping and Saudi infrastructure that sent Brent crude above $126. That premium evaporates fast if diplomacy gains traction; traders are betting cooler heads will prevail, which removes the risk premium that had boosted energy stocks earlier this month.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 147,
-    "inputTokens": 136918,
-    "outputTokens": 33187,
-    "estimatedCostUsd": 0.302853,
-    "lastCallHour": "2026-10-20T16"
+    "callsThisMonth": 148,
+    "inputTokens": 137856,
+    "outputTokens": 33384,
+    "estimatedCostUsd": 0.304776,
+    "lastCallHour": "2026-10-20T17"
   }
 }
