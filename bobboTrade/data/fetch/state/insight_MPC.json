@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T12:55:12.600026+00:00",
-  "text": "Marathon Petroleum's stock rose slightly today (up 0.28%), but the real story is the 9.87% jump over the past two weeks \u2014 driven by a sharp spike in crude oil prices. Brent crude topped $109 per barrel on October 19th after Iran-backed Houthi militants claimed attacks on Saudi Arabian airports and oil facilities, with further escalation in the Strait of Hormuz adding to supply concerns. U.S. crude is now trading at $101.91 per barrel, and refineries are running at 93.5% capacity, meaning higher crude prices translate directly into stronger profit margins for refiners like Marathon.\n\nThe recent uptick reflects how refiner stocks respond to oil price volatility tied to geopolitical risk. While oil prices have wobbled \u2014 falling slightly on October 20th on hopes for Middle East diplomacy \u2014 the underlying supply concerns from Houthi attacks remain unresolved, keeping crude elevated and supporting refiner economics. With U.S. storage levels sitting at normal-to-tight levels (698.56 million barrels of crude, 208 million of gasoline), tight market conditions continue to favor margins.",
+  "fetchedAt": "2026-10-21T13:02:52.398551+00:00",
+  "text": "Marathon Petroleum rose slightly today despite a volatile week driven by conflicting oil market signals. Crude prices have swung sharply based on Middle East tensions\u2014Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz pushed oil higher earlier in the week, but yesterday traders grew hopeful about diplomatic progress, which pulled prices down and weighed on the stock. The company sits in the middle of this tension: higher oil prices can squeeze refinery margins (the profit on each barrel processed), while uncertainty keeps traders cautious.\n\nThe bigger picture shows U.S. refineries running at 93.5% capacity with oil inventories at healthy levels\u2014conditions that normally favor stable operations. However, the geopolitical backdrop remains unsettled, and the news that major Indian refiner Reliance could absorb more Venezuelan crude hints at shifting global refining competition, which could affect demand for U.S. refining capacity over time.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 156,
-    "inputTokens": 145384,
-    "outputTokens": 35226,
-    "estimatedCostUsd": 0.321514,
-    "lastCallHour": "2026-10-21T12"
+    "callsThisMonth": 157,
+    "inputTokens": 146331,
+    "outputTokens": 35427,
+    "estimatedCostUsd": 0.323466,
+    "lastCallHour": "2026-10-21T13"
   }
 }

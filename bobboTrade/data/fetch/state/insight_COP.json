@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-21T12:53:24.185776+00:00",
-  "text": "ConocoPhillips rose slightly today, capping a strong two-week rally that's been driven by oil prices climbing sharply. Brent crude topped $109 last week after Iran-backed Houthi attacks on Saudi Arabian and Russian energy facilities ramped up regional tensions; U.S. crude is now trading at $101.91 per barrel, well above where it was two weeks ago. That's the core fuel for the stock's gains \u2014 higher oil prices directly increase profits for major producers like ConocoPhillips.\n\nThe broader backdrop remains volatile. Hopes for diplomatic progress in the Middle East briefly pulled prices down on October 20th, but the Houthi attacks and escalating ship strikes in the Strait of Hormuz have kept the market nervous about supply disruptions, which props up crude prices and benefits the company's refining and production operations.",
+  "fetchedAt": "2026-10-21T13:02:29.497012+00:00",
+  "text": "ConocoPhillips rose modestly today as crude oil prices held firm in the $100\u2013126 range, supported by ongoing geopolitical tension in the Middle East. Over the past week, attacks by Houthi militants on Saudi Arabian and shipping infrastructure have kept upward pressure on oil prices, and that broader market strength has lifted the stock along with it. The company also benefits from the wide gap between U.S. crude ($101.91/barrel) and global crude ($126.55/barrel), which creates pricing advantages for U.S. refiners and producers with export optionality.\n\nThe two-week rally of nearly 13% fits into a larger pattern where Middle East unrest has been a consistent tailwind for oil and energy stocks. While today's specific move was incremental, it reflects market participants pricing in a sustained period of tighter global oil supplies driven by regional instability.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 156,
-    "inputTokens": 135875,
-    "outputTokens": 33402,
-    "estimatedCostUsd": 0.302885,
-    "lastCallHour": "2026-10-21T12"
+    "callsThisMonth": 157,
+    "inputTokens": 136759,
+    "outputTokens": 33595,
+    "estimatedCostUsd": 0.304734,
+    "lastCallHour": "2026-10-21T13"
   }
 }
