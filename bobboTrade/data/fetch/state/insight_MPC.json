@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T07:01:31.303990+00:00",
-  "text": "Marathon Petroleum rose a modest 0.28% today, essentially flat as the stock drifted after a volatile two-week swing that included a 2% drop yesterday. The lack of clear directional pressure makes sense given mixed signals in the refining environment: U.S. oil fell below $102 as traders grew optimistic about Middle East diplomatic progress, but global crude remained elevated at $126.50, and U.S. refineries are running at a healthy 93.5% utilization with relatively balanced fuel inventory levels.\n\nThe two-week 9.87% gain tells a different story \u2014 that came during a period of escalating geopolitical risk around Saudi Arabia and the Strait of Hormuz, where Houthi attacks on oil infrastructure and shipping pushed Brent crude above $109. As those headlines have cooled slightly and oil prices retreated, the stock has given back some gains, suggesting the refiner benefited from the short-term crude spike but faces headwinds if energy prices normalize further.",
+  "fetchedAt": "2026-10-21T12:55:12.600026+00:00",
+  "text": "Marathon Petroleum's stock rose slightly today (up 0.28%), but the real story is the 9.87% jump over the past two weeks \u2014 driven by a sharp spike in crude oil prices. Brent crude topped $109 per barrel on October 19th after Iran-backed Houthi militants claimed attacks on Saudi Arabian airports and oil facilities, with further escalation in the Strait of Hormuz adding to supply concerns. U.S. crude is now trading at $101.91 per barrel, and refineries are running at 93.5% capacity, meaning higher crude prices translate directly into stronger profit margins for refiners like Marathon.\n\nThe recent uptick reflects how refiner stocks respond to oil price volatility tied to geopolitical risk. While oil prices have wobbled \u2014 falling slightly on October 20th on hopes for Middle East diplomacy \u2014 the underlying supply concerns from Houthi attacks remain unresolved, keeping crude elevated and supporting refiner economics. With U.S. storage levels sitting at normal-to-tight levels (698.56 million barrels of crude, 208 million of gasoline), tight market conditions continue to favor margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 155,
-    "inputTokens": 144437,
-    "outputTokens": 34972,
-    "estimatedCostUsd": 0.319297,
-    "lastCallHour": "2026-10-21T07"
+    "callsThisMonth": 156,
+    "inputTokens": 145384,
+    "outputTokens": 35226,
+    "estimatedCostUsd": 0.321514,
+    "lastCallHour": "2026-10-21T12"
   }
 }
