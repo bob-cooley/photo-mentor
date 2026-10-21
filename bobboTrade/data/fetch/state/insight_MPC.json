@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T17:03:27.073053+00:00",
-  "text": "Marathon Petroleum fell 2.5% today as crude oil prices declined on hopes for diplomatic progress in the Middle East, easing concerns about supply disruptions from regional conflicts. The company's refining margins compress when oil prices drop without corresponding strength in refined product demand\u2014and today's move follows a broader pullback from Monday's spike, when Houthi attacks had pushed Brent crude above $109.\n\nThe stock's recent weakness also reflects structural headwinds: U.S. refineries are running at 93.5% capacity with gasoline and diesel inventories building, which limits pricing power at the pump. Meanwhile, news that India's Reliance is being courted as an alternative refining hub for crude processing suggests longer-term competitive pressure on American refiners' market share.",
+  "fetchedAt": "2026-10-21T18:03:38.729404+00:00",
+  "text": "Marathon Petroleum stock fell 1.2% today, continuing a downward drift from its peak earlier this week. The backdrop is mixed signals on crude prices: while Brent crude topped $109 following Houthi attacks on Saudi facilities, U.S. oil has remained relatively soft at $101.91 per barrel, and traders are now betting on diplomatic progress in the Middle East that could ease supply concerns. For a refiner, lower crude costs can squeeze profit margins\u2014the gap between what they buy oil for and what they sell refined products for\u2014even if it sounds counterintuitive.\n\nThe refining sector as a whole faces headwinds. U.S. refineries are running at 93.4% capacity, which is healthy but not exceptional, and the real pressure is coming from geopolitics tilting supply expectations downward: drone strikes on Russian diesel facilities are tightening global diesel supply and raising prices there, while the U.S. is simultaneously exploring alternatives like Indian refining capacity. This shift in the refining map\u2014away from reliance on traditional suppliers\u2014creates uncertainty for domestic refiners like Marathon about their competitive position.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 161,
-    "inputTokens": 150091,
-    "outputTokens": 36311,
-    "estimatedCostUsd": 0.331646,
-    "lastCallHour": "2026-10-21T17"
+    "callsThisMonth": 162,
+    "inputTokens": 151027,
+    "outputTokens": 36556,
+    "estimatedCostUsd": 0.333807,
+    "lastCallHour": "2026-10-21T18"
   }
 }
