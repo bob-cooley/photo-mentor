@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T13:02:52.398551+00:00",
-  "text": "Marathon Petroleum rose slightly today despite a volatile week driven by conflicting oil market signals. Crude prices have swung sharply based on Middle East tensions\u2014Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz pushed oil higher earlier in the week, but yesterday traders grew hopeful about diplomatic progress, which pulled prices down and weighed on the stock. The company sits in the middle of this tension: higher oil prices can squeeze refinery margins (the profit on each barrel processed), while uncertainty keeps traders cautious.\n\nThe bigger picture shows U.S. refineries running at 93.5% capacity with oil inventories at healthy levels\u2014conditions that normally favor stable operations. However, the geopolitical backdrop remains unsettled, and the news that major Indian refiner Reliance could absorb more Venezuelan crude hints at shifting global refining competition, which could affect demand for U.S. refining capacity over time.",
+  "fetchedAt": "2026-10-21T14:02:02.025024+00:00",
+  "text": "The stock barely moved today\u2014up just 0.07%\u2014as the refining sector faces crosscurrents. US oil prices fell to $101.91 per barrel over the past two days following hopes for Middle East diplomatic progress, which typically pressures refiner margins (the difference between what crude costs and what refined products sell for). That decline offset support from the escalating Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz, which had spiked Brent crude to $109 earlier in the week and normally benefits refiners by tightening global supply.\n\nRefineries are running at 93.5% capacity with healthy fuel inventories, leaving less room for volume growth to boost earnings. The week-long 7.5% rally through yesterday appears to have stalled as traders weigh whether diplomatic progress will stick\u2014and how much refining demand a potential oil supply glut from Venezuelan crude (signaled by U.S. interest in India's Reliance) might create down the road.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 157,
-    "inputTokens": 146331,
-    "outputTokens": 35427,
-    "estimatedCostUsd": 0.323466,
-    "lastCallHour": "2026-10-21T13"
+    "callsThisMonth": 158,
+    "inputTokens": 147276,
+    "outputTokens": 35650,
+    "estimatedCostUsd": 0.325526,
+    "lastCallHour": "2026-10-21T14"
   }
 }
