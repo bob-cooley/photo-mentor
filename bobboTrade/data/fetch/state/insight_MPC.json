@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T20:02:18.451624+00:00",
-  "text": "Marathon Petroleum fell 1.4% today as oil prices slipped on hopes for diplomatic progress in the Middle East, easing some of the geopolitical premium that had been supporting crude. The stock is down from its $484.92 high two weeks ago, though it remains up 5.94% over that span \u2014 a reflection of the volatile and ultimately uncertain oil market it operates in. US oil sits at $107.89 per barrel, and refineries are running at 93.4% capacity, which is solid but not exceptional.\n\nThe broader picture is a tug-of-war between supply concerns and demand uncertainty. Recent attacks on Russian oil facilities by Ukraine and Houthi strikes on Saudi infrastructure have kept prices elevated, but traders are also factoring in the possibility of diplomatic breakthroughs that could ease tensions and lower crude costs \u2014 the latter prospect weighing on the stock today. For a refiner like Marathon, lower oil prices can be a double-edged sword: margins may shrink, though the company benefits from reduced input costs when processing crude into gasoline and diesel.",
+  "fetchedAt": "2026-10-21T21:02:09.866851+00:00",
+  "text": "Marathon Petroleum fell 1.4% today after a two-week climb, as crude oil prices pulled back on hopes for diplomatic progress in the Middle East. The company refines crude into gasoline and diesel, so when oil prices weaken\u2014U.S. crude is down from the spike earlier this week\u2014the margins refiners earn tend to compress. US refineries are running at 93.4% capacity, and diesel storage levels remain tight at 104.3 million barrels, which normally supports margins, but broader oil market relief outweighed that today.\n\nThe stock is caught between two conflicting pressures right now. On one hand, Ukraine's ongoing strikes on Russian diesel production and Houthi attacks on Saudi facilities have kept crude volatility high and tight. On the other hand, any sign of diplomatic calm in the Middle East\u2014as traders are hoping for this week\u2014pulls prices down immediately, which cuts into refinery profits. The two-week gain of 5.9% reflects that tension: the stock bounced hard on supply-side threats, but it's giving some of that back as geopolitical risk recedes momentarily.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 164,
-    "inputTokens": 152900,
-    "outputTokens": 37044,
-    "estimatedCostUsd": 0.33812,
-    "lastCallHour": "2026-10-21T20"
+    "callsThisMonth": 165,
+    "inputTokens": 153836,
+    "outputTokens": 37289,
+    "estimatedCostUsd": 0.340281,
+    "lastCallHour": "2026-10-21T21"
   }
 }

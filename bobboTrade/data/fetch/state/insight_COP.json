@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-21T20:02:04.716461+00:00",
-  "text": "ConocoPhillips fell just 0.17% today to close at $145.70, a negligible move after a strong two-week rally of 12%. The tiny decline reflects a pause rather than a reversal: crude prices remain elevated, with U.S. oil at $107.89 and Brent crude near $109, supported by ongoing geopolitical tensions\u2014Houthi attacks on Saudi facilities and Ukraine's strikes on Russian refineries continue to tighten global energy supply.\n\nThe broader backdrop remains supportive for an oil major like ConocoPhillips. Diesel prices are climbing due to Russia's refining capacity being damaged, and even discussions about ramping up alternative refining capacity (like India's Reliance) underscore how tight the global market is. The stock's 12% gain over two weeks reflects this tightness; today's flat close suggests investors are simply catching their breath rather than retreating from the view that crude will stay strong.",
+  "fetchedAt": "2026-10-21T21:01:51.981365+00:00",
+  "text": "ConocoPhillips fell slightly today, but the move is so small it barely registers against the sharp 12% run-up over the past two weeks. That two-week rally reflects a jump in crude prices \u2014 US oil is trading near $108 a barrel, up from levels earlier in October \u2014 driven by supply-side fears: Houthi attacks on Saudi facilities, Ukraine's strikes on Russian refineries, and ongoing tensions in the Middle East that threaten shipping through the Strait of Hormuz. As an oil major with significant production, ConocoPhillips benefits when crude prices rise.\n\nToday's flat close sits in the context of a slight pause in oil's momentum. Yesterday oil prices eased on hopes for diplomatic progress in the Middle East conflict, and that caution may be tempering energy stocks after their recent gains. The fundamental backdrop\u2014geopolitical supply disruptions and high refining demand\u2014remains supportive for the sector, but near-term moves are tilting sideways.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 164,
-    "inputTokens": 142898,
-    "outputTokens": 34974,
-    "estimatedCostUsd": 0.317768,
-    "lastCallHour": "2026-10-21T20"
+    "callsThisMonth": 165,
+    "inputTokens": 143773,
+    "outputTokens": 35188,
+    "estimatedCostUsd": 0.319713,
+    "lastCallHour": "2026-10-21T21"
   }
 }
