@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T14:02:02.025024+00:00",
-  "text": "The stock barely moved today\u2014up just 0.07%\u2014as the refining sector faces crosscurrents. US oil prices fell to $101.91 per barrel over the past two days following hopes for Middle East diplomatic progress, which typically pressures refiner margins (the difference between what crude costs and what refined products sell for). That decline offset support from the escalating Houthi attacks on Saudi facilities and shipping in the Strait of Hormuz, which had spiked Brent crude to $109 earlier in the week and normally benefits refiners by tightening global supply.\n\nRefineries are running at 93.5% capacity with healthy fuel inventories, leaving less room for volume growth to boost earnings. The week-long 7.5% rally through yesterday appears to have stalled as traders weigh whether diplomatic progress will stick\u2014and how much refining demand a potential oil supply glut from Venezuelan crude (signaled by U.S. interest in India's Reliance) might create down the road.",
+  "fetchedAt": "2026-10-21T15:02:25.532746+00:00",
+  "text": "The stock was essentially flat today after a volatile two weeks that saw it swing from $484.92 down to a low of $473.69 and back up to $475.10. The recent rally follows an easing in oil-market anxiety: crude prices fell on October 20th as traders bet on diplomatic progress in the Middle East, and while attacks by Houthi militants on Saudi facilities and shipping in the Strait of Hormuz initially pushed prices higher, the spike has settled. U.S. refineries are running at a healthy 93.5% capacity with adequate crude inventories (698.56 million barrels), so Marathon isn't facing near-term supply shocks despite the regional tensions.\n\nThe broader picture is that refiners like Marathon benefit from the spread between crude prices and the refined products they sell\u2014and that spread has narrowed as oil calmed. The wide gap between U.S. oil ($101.91/barrel) and world crude ($126.55/barrel) suggests some longer-term structural shifts in global refining capacity, including the signal from the U.S. State Department's visit to India's Reliance facilities, which could reshape where refined products flow. These currents point to a stable but competitive refining environment rather than a windfall one.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 158,
-    "inputTokens": 147276,
-    "outputTokens": 35650,
-    "estimatedCostUsd": 0.325526,
-    "lastCallHour": "2026-10-21T14"
+    "callsThisMonth": 159,
+    "inputTokens": 148221,
+    "outputTokens": 35926,
+    "estimatedCostUsd": 0.327851,
+    "lastCallHour": "2026-10-21T15"
   }
 }
