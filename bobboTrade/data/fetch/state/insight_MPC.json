@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T15:02:25.532746+00:00",
-  "text": "The stock was essentially flat today after a volatile two weeks that saw it swing from $484.92 down to a low of $473.69 and back up to $475.10. The recent rally follows an easing in oil-market anxiety: crude prices fell on October 20th as traders bet on diplomatic progress in the Middle East, and while attacks by Houthi militants on Saudi facilities and shipping in the Strait of Hormuz initially pushed prices higher, the spike has settled. U.S. refineries are running at a healthy 93.5% capacity with adequate crude inventories (698.56 million barrels), so Marathon isn't facing near-term supply shocks despite the regional tensions.\n\nThe broader picture is that refiners like Marathon benefit from the spread between crude prices and the refined products they sell\u2014and that spread has narrowed as oil calmed. The wide gap between U.S. oil ($101.91/barrel) and world crude ($126.55/barrel) suggests some longer-term structural shifts in global refining capacity, including the signal from the U.S. State Department's visit to India's Reliance facilities, which could reshape where refined products flow. These currents point to a stable but competitive refining environment rather than a windfall one.",
+  "fetchedAt": "2026-10-21T16:02:19.935992+00:00",
+  "text": "Marathon Petroleum fell 1.5% today as crude oil prices pulled back following hopes for diplomatic progress in the Middle East. The spread between global oil prices (Brent at $126.55) and U.S. crude ($101.91) has tightened significantly, which matters because refiners profit from processing cheap domestic crude into products they can sell \u2014 a narrower gap squeezes those margins. U.S. refineries are running at 93.5% capacity, leaving little room to boost output and offset weaker pricing conditions.\n\nThe stock's decline also reflects broader energy market jitters: Ukraine's attacks on Russian diesel infrastructure have created global supply disruptions that could pull demand toward U.S. refiners, but the same geopolitical uncertainty that lifts crude prices also makes investors cautious about energy stocks. Over the past week, MPC has swung between gains and losses as oil headlines shifted, suggesting traders are uncertain whether Middle East tensions or hopes for peace will dominate over the coming weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 159,
-    "inputTokens": 148221,
-    "outputTokens": 35926,
-    "estimatedCostUsd": 0.327851,
-    "lastCallHour": "2026-10-21T15"
+    "callsThisMonth": 160,
+    "inputTokens": 149156,
+    "outputTokens": 36142,
+    "estimatedCostUsd": 0.329866,
+    "lastCallHour": "2026-10-21T16"
   }
 }
