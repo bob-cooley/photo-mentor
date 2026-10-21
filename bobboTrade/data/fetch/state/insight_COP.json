@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-21T19:02:11.090020+00:00",
-  "text": "ConocoPhillips rose 0.73% today to close at $147.01, continuing a sharp two-week rally of over 13%. The stock has benefited from a sustained surge in global oil prices\u2014Brent crude topped $109 this week after Houthi attacks on Saudi Arabian facilities, and world oil prices are now trading at $115.22 per barrel. For a major oil producer like ConocoPhillips, higher crude prices flow directly to the bottom line, which is why the stock has climbed steadily since mid-October even as U.S. oil prices sit lower at $107.89.\n\nThe broader geopolitical picture has tightened energy markets over the past week. Ukraine's drone strikes on Russian diesel facilities have disrupted global fuel supplies (particularly diesel), and escalating attacks on ships in the Strait of Hormuz add to supply concerns\u2014both factors that typically support crude prices where oil producers generate their profits.",
+  "fetchedAt": "2026-10-21T20:02:04.716461+00:00",
+  "text": "ConocoPhillips fell just 0.17% today to close at $145.70, a negligible move after a strong two-week rally of 12%. The tiny decline reflects a pause rather than a reversal: crude prices remain elevated, with U.S. oil at $107.89 and Brent crude near $109, supported by ongoing geopolitical tensions\u2014Houthi attacks on Saudi facilities and Ukraine's strikes on Russian refineries continue to tighten global energy supply.\n\nThe broader backdrop remains supportive for an oil major like ConocoPhillips. Diesel prices are climbing due to Russia's refining capacity being damaged, and even discussions about ramping up alternative refining capacity (like India's Reliance) underscore how tight the global market is. The stock's 12% gain over two weeks reflects this tightness; today's flat close suggests investors are simply catching their breath rather than retreating from the view that crude will stay strong.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 163,
-    "inputTokens": 142023,
-    "outputTokens": 34761,
-    "estimatedCostUsd": 0.315828,
-    "lastCallHour": "2026-10-21T19"
+    "callsThisMonth": 164,
+    "inputTokens": 142898,
+    "outputTokens": 34974,
+    "estimatedCostUsd": 0.317768,
+    "lastCallHour": "2026-10-21T20"
   }
 }

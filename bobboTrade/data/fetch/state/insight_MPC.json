@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T19:02:29.523508+00:00",
-  "text": "Marathon Petroleum's stock fell slightly today, giving back a small portion of gains from earlier in the week. The move appears modest relative to the underlying volatility in oil markets\u2014Brent crude topped $109 earlier in the week on geopolitical tensions (Houthi attacks on Saudi facilities, Ukraine strikes on Russian refineries), but oil prices have since softened as traders hope for diplomatic progress in the Middle East. U.S. refineries are running at 93.4% capacity with healthy product inventories, leaving little fundamental pressure from refining conditions themselves.\n\nThe broader context matters: while diesel prices have spiked globally due to the crippling of Russian refining capacity, U.S. refiners like Marathon are facing offsetting headwinds. The U.S. is actively exploring partnerships with foreign refining capacity (India's Reliance) and potential Venezuelan crude imports, which could ease domestic refining premiums and limit upside for American refiners even as global diesel tightens. The stock's 7% gain over two weeks suggests some traders have already priced in near-term benefits from tight markets, leaving today's pullback as a minor correction in that context.",
+  "fetchedAt": "2026-10-21T20:02:18.451624+00:00",
+  "text": "Marathon Petroleum fell 1.4% today as oil prices slipped on hopes for diplomatic progress in the Middle East, easing some of the geopolitical premium that had been supporting crude. The stock is down from its $484.92 high two weeks ago, though it remains up 5.94% over that span \u2014 a reflection of the volatile and ultimately uncertain oil market it operates in. US oil sits at $107.89 per barrel, and refineries are running at 93.4% capacity, which is solid but not exceptional.\n\nThe broader picture is a tug-of-war between supply concerns and demand uncertainty. Recent attacks on Russian oil facilities by Ukraine and Houthi strikes on Saudi infrastructure have kept prices elevated, but traders are also factoring in the possibility of diplomatic breakthroughs that could ease tensions and lower crude costs \u2014 the latter prospect weighing on the stock today. For a refiner like Marathon, lower oil prices can be a double-edged sword: margins may shrink, though the company benefits from reduced input costs when processing crude into gasoline and diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 163,
-    "inputTokens": 151964,
-    "outputTokens": 36810,
-    "estimatedCostUsd": 0.336014,
-    "lastCallHour": "2026-10-21T19"
+    "callsThisMonth": 164,
+    "inputTokens": 152900,
+    "outputTokens": 37044,
+    "estimatedCostUsd": 0.33812,
+    "lastCallHour": "2026-10-21T20"
   }
 }
