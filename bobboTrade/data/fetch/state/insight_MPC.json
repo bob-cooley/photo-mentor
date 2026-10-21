@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T18:03:38.729404+00:00",
-  "text": "Marathon Petroleum stock fell 1.2% today, continuing a downward drift from its peak earlier this week. The backdrop is mixed signals on crude prices: while Brent crude topped $109 following Houthi attacks on Saudi facilities, U.S. oil has remained relatively soft at $101.91 per barrel, and traders are now betting on diplomatic progress in the Middle East that could ease supply concerns. For a refiner, lower crude costs can squeeze profit margins\u2014the gap between what they buy oil for and what they sell refined products for\u2014even if it sounds counterintuitive.\n\nThe refining sector as a whole faces headwinds. U.S. refineries are running at 93.4% capacity, which is healthy but not exceptional, and the real pressure is coming from geopolitics tilting supply expectations downward: drone strikes on Russian diesel facilities are tightening global diesel supply and raising prices there, while the U.S. is simultaneously exploring alternatives like Indian refining capacity. This shift in the refining map\u2014away from reliance on traditional suppliers\u2014creates uncertainty for domestic refiners like Marathon about their competitive position.",
+  "fetchedAt": "2026-10-21T19:02:29.523508+00:00",
+  "text": "Marathon Petroleum's stock fell slightly today, giving back a small portion of gains from earlier in the week. The move appears modest relative to the underlying volatility in oil markets\u2014Brent crude topped $109 earlier in the week on geopolitical tensions (Houthi attacks on Saudi facilities, Ukraine strikes on Russian refineries), but oil prices have since softened as traders hope for diplomatic progress in the Middle East. U.S. refineries are running at 93.4% capacity with healthy product inventories, leaving little fundamental pressure from refining conditions themselves.\n\nThe broader context matters: while diesel prices have spiked globally due to the crippling of Russian refining capacity, U.S. refiners like Marathon are facing offsetting headwinds. The U.S. is actively exploring partnerships with foreign refining capacity (India's Reliance) and potential Venezuelan crude imports, which could ease domestic refining premiums and limit upside for American refiners even as global diesel tightens. The stock's 7% gain over two weeks suggests some traders have already priced in near-term benefits from tight markets, leaving today's pullback as a minor correction in that context.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 162,
-    "inputTokens": 151027,
-    "outputTokens": 36556,
-    "estimatedCostUsd": 0.333807,
-    "lastCallHour": "2026-10-21T18"
+    "callsThisMonth": 163,
+    "inputTokens": 151964,
+    "outputTokens": 36810,
+    "estimatedCostUsd": 0.336014,
+    "lastCallHour": "2026-10-21T19"
   }
 }
