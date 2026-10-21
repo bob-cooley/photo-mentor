@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-10-20T19:11:03.789534+00:00",
+    "fetchedAt": "2026-10-21T01:16:56.760419+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",

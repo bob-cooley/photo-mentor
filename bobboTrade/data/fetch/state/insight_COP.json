@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-20T22:03:35.949187+00:00",
-  "text": "COP rose 0.49% today to close at $145.95, capping a strong two-week rally of nearly 13%. The stock has benefited from a sharp spike in global oil prices: Brent crude topped $109 following claimed Houthi attacks on Saudi Arabian infrastructure and Aramco facilities on October 19th, which sent crude surging and kept energy stocks in focus. As an integrated oil producer, ConocoPhillips profits directly when crude prices rise\u2014the current gap between world oil ($126.55/barrel) and US oil ($101.91/barrel) reflects ongoing supply concerns from Middle East escalation.\n\nToday's modest gain came despite a slight pullback in oil prices as traders digested hopes for diplomatic progress in the region. The stock's 13% jump over two weeks shows investors rotating into energy plays ahead of what Goldman Sachs and media coverage suggest remains a volatile geopolitical backdrop affecting global energy supplies.",
+  "fetchedAt": "2026-10-21T01:17:11.366180+00:00",
+  "text": "ConocoPhillips rose modestly today as oil prices held relatively steady, with US crude around $102 per barrel. The stock's real momentum came earlier this week\u2014it jumped 3.4% on October 16th\u2014driven by escalating Middle East tensions: Iran-backed Houthi militants attacked Saudi Arabian airports and oil facilities, sending Brent crude above $109. That geopolitical risk premium has mostly stuck around, even as today's news suggested possible diplomatic progress might ease tensions.\n\nThe 12.8% gain over two weeks reflects how deeply this company's fortunes tie to oil prices. A $25 gap between US and global crude ($102 vs $127) signals real supply concerns, and as long as shipping routes through the Strait of Hormuz stay under threat from militant attacks, the market is pricing in a buffer for energy companies that benefit from higher prices. The Goldman Sachs commentary on energy stocks to watch suggests institutional investors are actively positioning in the sector during this uncertain period.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 153,
-    "inputTokens": 133226,
-    "outputTokens": 32812,
-    "estimatedCostUsd": 0.297286,
-    "lastCallHour": "2026-10-20T22"
+    "callsThisMonth": 154,
+    "inputTokens": 134107,
+    "outputTokens": 33030,
+    "estimatedCostUsd": 0.299257,
+    "lastCallHour": "2026-10-21T01"
   }
 }

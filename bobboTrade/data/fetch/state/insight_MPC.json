@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-20T22:03:49.494352+00:00",
-  "text": "Marathon Petroleum stock ticked up just 0.28% today, a negligible move after a volatile two weeks that saw the stock climb nearly 10%. The minimal gain today likely reflects a pullback in oil prices as traders bet on diplomatic progress in the Middle East\u2014crude fell on October 20th even as geopolitical tensions around the Strait of Hormuz and attacks on Saudi facilities remain the dominant driver of energy markets.\n\nThe broader story is that Marathon has been riding a sharp oil rally over the past fortnight. Brent crude spiked above $109 after Houthi attacks on Saudi infrastructure, and that's directly helped refiner margins: the company benefits when crude prices stay elevated while refined product demand holds steady. With US refineries running at 93.5% capacity and oil storage well-supplied at 698.56 million barrels, Marathon is operating in a favorable environment despite today's pause.",
+  "fetchedAt": "2026-10-21T01:18:23.967182+00:00",
+  "text": "Marathon Petroleum's stock was essentially flat today, rising just 0.28%, as oil markets cooled on cautious optimism about Middle East diplomacy. Crude prices fell on October 20th after traders began hoping for diplomatic progress to ease tensions in the region, even as attacks on commercial shipping in the Strait of Hormuz continue. That price decline took some steam out of the refining sector \u2014 Marathon is sensitive to oil costs and fuel margins \u2014 which had surged earlier in the week when geopolitical tensions spiked oil above $109 per barrel.\n\nThe stock is up 9.87% over the past two weeks, reflecting a sharp rally driven by the escalation of Iran-backed Houthi attacks on Saudi Arabia and Russian facilities that pushed crude prices higher. Refineries are running at 93.5% capacity and fuel inventories remain moderate, meaning the company stands to benefit if crude stays elevated, but today's diplomatic glimmer trimmed some of that recent gain.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 153,
-    "inputTokens": 142550,
-    "outputTokens": 34538,
-    "estimatedCostUsd": 0.31524,
-    "lastCallHour": "2026-10-20T22"
+    "callsThisMonth": 154,
+    "inputTokens": 143490,
+    "outputTokens": 34751,
+    "estimatedCostUsd": 0.317245,
+    "lastCallHour": "2026-10-21T01"
   }
 }
