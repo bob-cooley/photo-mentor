@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-22T17:01:26.320917+00:00",
-  "text": "ConocoPhillips moved up slightly today, holding near $146 after a strong two-week run of nearly 9%. The stock has been riding a wave of rising oil prices\u2014Brent crude topped $111 and U.S. oil is trading near $108\u2014driven by escalating Middle East tensions. The U.S. is reportedly preparing strikes against Iran and has ordered diplomats out of Saudi Arabia following Houthi attacks on infrastructure, raising the real risk of supply disruptions that would push crude prices even higher.\n\nThe broader energy trade is also being discussed as a potential play on geopolitical risk: Ukraine's drone strikes have already crippled Russian diesel production, and a wider Iran conflict could tighten global oil markets further. For an oil major like ConocoPhillips, higher crude prices and tighter supplies translate directly into stronger earnings, which explains why the stock has accelerated over the past two weeks even as today's move was modest.",
+  "fetchedAt": "2026-10-22T18:01:31.154709+00:00",
+  "text": "ConocoPhillips rose modestly today as oil prices climbed further on geopolitical tension. Brent crude hit its highest level since May at over $113 a barrel following reports that the U.S. is preparing military action against Iran and has withdrawn diplomats from Saudi Arabia\u2014moves that raise the risk of fresh Middle East conflict and potential supply disruptions. For an integrated oil company like ConocoPhillips, higher crude prices directly boost the value of reserves and profits on production.\n\nThe broader energy trade has been moving upward for two weeks, driven by these same regional risks. Ukraine's ongoing drone strikes on Russian refineries have also tightened diesel supplies globally, adding to the bullish pressure on energy stocks. With midterm elections two weeks away and political attention on energy prices, the market is pricing in continued volatility and the possibility of further supply shocks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 173,
-    "inputTokens": 150819,
-    "outputTokens": 36922,
-    "estimatedCostUsd": 0.335429,
-    "lastCallHour": "2026-10-22T17"
+    "callsThisMonth": 174,
+    "inputTokens": 151697,
+    "outputTokens": 37110,
+    "estimatedCostUsd": 0.337247,
+    "lastCallHour": "2026-10-22T18"
   }
 }

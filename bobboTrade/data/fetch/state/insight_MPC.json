@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T17:01:41.220671+00:00",
-  "text": "Marathon Petroleum fell 2.9% today as oil prices retreated from their recent spike. Brent crude topped out above $111 yesterday on Middle East tensions (U.S. threats toward Iran, staff pullout from Saudi Arabia), but that geopolitical premium appears to have peaked\u2014the market is now pricing in lower odds of an actual escalation. With the broader energy trade losing momentum, refinery stocks like MPC, which benefit from higher crude costs, gave back gains from the recent rally.\n\nThe stock is also caught in a longer trend: U.S. refinery utilization is running at 93.4%, near capacity, which limits how much MPC can boost profits if crude stays elevated. Separately, news about India's Reliance expanding refining capacity and potentially importing Venezuelan crude adds longer-term competitive pressure on U.S. refiners, though that's a slower-moving backdrop than today's oil price swing.",
+  "fetchedAt": "2026-10-22T18:01:46.656093+00:00",
+  "text": "Marathon Petroleum fell 2% today to $458.51, continuing a decline that started around October 21st. The sell-off comes despite oil prices climbing sharply\u2014Brent crude hit $113 and U.S. crude sits at $107.89\u2014driven by escalating Middle East tensions and Trump administration hints at strikes on Iran. For a refiner like this, rising crude costs eat into profits on fuel they produce, even though higher oil prices might seem bullish on the surface; refineries make money on the *spread* between what they pay for crude and what they receive for gasoline and diesel, and that margin shrinks when crude jumps faster than refined product prices catch up.\n\nThe broader pressure comes from a glut of refined products sitting in storage (205 million barrels of gasoline, 104 million barrels of diesel) paired with refineries running at 93% capacity\u2014near full stretch with limited room to push through more volume. Meanwhile, geopolitical headlines hint at potential shifts in global refining power, including U.S. interest in Indian refining capacity to handle Venezuelan crude, which could fragment traditional supply chains that U.S. refiners have relied on.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 173,
-    "inputTokens": 161379,
-    "outputTokens": 39221,
-    "estimatedCostUsd": 0.357484,
-    "lastCallHour": "2026-10-22T17"
+    "callsThisMonth": 174,
+    "inputTokens": 162318,
+    "outputTokens": 39477,
+    "estimatedCostUsd": 0.359703,
+    "lastCallHour": "2026-10-22T18"
   }
 }
