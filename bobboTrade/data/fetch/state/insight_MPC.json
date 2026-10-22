@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T18:01:46.656093+00:00",
-  "text": "Marathon Petroleum fell 2% today to $458.51, continuing a decline that started around October 21st. The sell-off comes despite oil prices climbing sharply\u2014Brent crude hit $113 and U.S. crude sits at $107.89\u2014driven by escalating Middle East tensions and Trump administration hints at strikes on Iran. For a refiner like this, rising crude costs eat into profits on fuel they produce, even though higher oil prices might seem bullish on the surface; refineries make money on the *spread* between what they pay for crude and what they receive for gasoline and diesel, and that margin shrinks when crude jumps faster than refined product prices catch up.\n\nThe broader pressure comes from a glut of refined products sitting in storage (205 million barrels of gasoline, 104 million barrels of diesel) paired with refineries running at 93% capacity\u2014near full stretch with limited room to push through more volume. Meanwhile, geopolitical headlines hint at potential shifts in global refining power, including U.S. interest in Indian refining capacity to handle Venezuelan crude, which could fragment traditional supply chains that U.S. refiners have relied on.",
+  "fetchedAt": "2026-10-22T19:01:46.377330+00:00",
+  "text": "Marathon Petroleum fell 2.2% today as oil prices spiked on geopolitical tensions\u2014Brent crude hit $113, the highest since May, after reports that the U.S. plans to resume strikes against Iran and has pulled diplomats from Saudi Arabia over Houthi attacks. While higher crude prices typically help refiners by widening their profit margins, the sharp jump driven by regional conflict and political uncertainty often spooks equity markets broadly, weighing on energy stocks even as the underlying commodity moves higher.\n\nThe refining backdrop is mixed: refineries are running at 93.4% capacity and oil inventories remain elevated at 695 million barrels, which limits how much margin pressure can ease even if crude stays elevated. The geopolitical premium driving today's oil move may prove volatile depending on how the conflict unfolds over the coming weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 174,
-    "inputTokens": 162318,
-    "outputTokens": 39477,
-    "estimatedCostUsd": 0.359703,
-    "lastCallHour": "2026-10-22T18"
+    "callsThisMonth": 175,
+    "inputTokens": 163257,
+    "outputTokens": 39661,
+    "estimatedCostUsd": 0.361562,
+    "lastCallHour": "2026-10-22T19"
   }
 }
