@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-21T21:02:09.866851+00:00",
-  "text": "Marathon Petroleum fell 1.4% today after a two-week climb, as crude oil prices pulled back on hopes for diplomatic progress in the Middle East. The company refines crude into gasoline and diesel, so when oil prices weaken\u2014U.S. crude is down from the spike earlier this week\u2014the margins refiners earn tend to compress. US refineries are running at 93.4% capacity, and diesel storage levels remain tight at 104.3 million barrels, which normally supports margins, but broader oil market relief outweighed that today.\n\nThe stock is caught between two conflicting pressures right now. On one hand, Ukraine's ongoing strikes on Russian diesel production and Houthi attacks on Saudi facilities have kept crude volatility high and tight. On the other hand, any sign of diplomatic calm in the Middle East\u2014as traders are hoping for this week\u2014pulls prices down immediately, which cuts into refinery profits. The two-week gain of 5.9% reflects that tension: the stock bounced hard on supply-side threats, but it's giving some of that back as geopolitical risk recedes momentarily.",
+  "fetchedAt": "2026-10-22T00:28:23.690784+00:00",
+  "text": "Marathon Petroleum fell 1.5% today, continuing a slide from a $485 peak two weeks ago. The immediate pressure comes from falling oil prices\u2014Brent crude dropped below $110 after earlier topping $109 on Houthi attack claims, and today's move lower reflects traders' hope for diplomatic progress in the Middle East, which would ease supply fears. For a refiner, lower crude prices can squeeze margins if they fall faster than the company can pass savings to customers, and the narrow spread between input costs and output prices is a real headwind right now.\n\nRefineries are running hot at 93.4% capacity, which normally is good for profitability, but gasoline and diesel stockpiles are both elevated (205 and 104 million barrels respectively). That inventory cushion means less urgency for refiners to run hard, and it undercuts pricing power for refined products\u2014especially diesel, which Ukraine's strikes on Russian supply have made a geopolitical flashpoint. The longer-term risk is visible in the news: U.S. officials are exploring ties with India's Reliance refinery as an alternative source, a sign the industry is hunting for capacity outside traditional U.S. players.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 165,
-    "inputTokens": 153836,
-    "outputTokens": 37289,
-    "estimatedCostUsd": 0.340281,
-    "lastCallHour": "2026-10-21T21"
+    "callsThisMonth": 166,
+    "inputTokens": 154774,
+    "outputTokens": 37553,
+    "estimatedCostUsd": 0.342539,
+    "lastCallHour": "2026-10-22T00"
   }
 }
