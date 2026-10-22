@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T16:01:54.516527+00:00",
-  "text": "Marathon Petroleum fell 2.76% today to $455.07, extending a five-day slide that has wiped out about 4% of the stock's value. The timing lines up with a sharp reversal in oil market sentiment: Brent crude hit $111 after weeks of geopolitical escalation (U.S. diplomats pulling out of Saudi Arabia, fears of renewed Iran strikes, Houthi attacks on infrastructure), but the stock is moving *down* despite oil prices staying elevated. The disconnect suggests traders are rotating away from U.S. refiner exposure even as crude costs hold firm\u2014possibly betting that global refining capacity (Reliance's outsized share in India, broader 93% utilization domestically) will eventually ease margins, or that political uncertainty around the midterms is dampening energy sector appetite.\n\nThe broader context: crude staying above $107 is normally good for refiners' bottom line, but Ukraine's ongoing drone campaign on Russian diesel facilities and hints at alternative global refining partnerships (the Rubio-Reliance visit) may be signaling that the tight supply picture refiners have profited from is starting to crack. A refiner's profit margin depends not just on crude price but on what it can sell refined products *for*\u2014and if the world has enough refining capacity coming online or returning to service, those margins compress even with pricey oil.",
+  "fetchedAt": "2026-10-22T17:01:41.220671+00:00",
+  "text": "Marathon Petroleum fell 2.9% today as oil prices retreated from their recent spike. Brent crude topped out above $111 yesterday on Middle East tensions (U.S. threats toward Iran, staff pullout from Saudi Arabia), but that geopolitical premium appears to have peaked\u2014the market is now pricing in lower odds of an actual escalation. With the broader energy trade losing momentum, refinery stocks like MPC, which benefit from higher crude costs, gave back gains from the recent rally.\n\nThe stock is also caught in a longer trend: U.S. refinery utilization is running at 93.4%, near capacity, which limits how much MPC can boost profits if crude stays elevated. Separately, news about India's Reliance expanding refining capacity and potentially importing Venezuelan crude adds longer-term competitive pressure on U.S. refiners, though that's a slower-moving backdrop than today's oil price swing.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 172,
-    "inputTokens": 160434,
-    "outputTokens": 39020,
-    "estimatedCostUsd": 0.355534,
-    "lastCallHour": "2026-10-22T16"
+    "callsThisMonth": 173,
+    "inputTokens": 161379,
+    "outputTokens": 39221,
+    "estimatedCostUsd": 0.357484,
+    "lastCallHour": "2026-10-22T17"
   }
 }

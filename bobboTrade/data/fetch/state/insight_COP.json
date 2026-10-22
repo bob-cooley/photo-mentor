@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-22T16:01:31.098998+00:00",
-  "text": "ConocoPhillips fell 0.93% today despite oil prices holding firm\u2014Brent crude stayed above $111 and U.S. crude is at $107.89, both still elevated. The decline came as geopolitical tensions that had been driving energy prices higher showed signs of moderating: headlines shifted from acute crisis (Iran strikes, Middle East escalation) to longer-term strategic positioning, and the immediate shock value of those threats wore off after yesterday's rally to $146.51. The stock is still up 7.55% over two weeks, so today's pullback is a modest digestion of recent gains rather than a fundamental reversal.\n\nThe broader energy trade remains supported by genuine supply concerns\u2014Ukraine's attacks on Russian refineries, U.S. withdrawal from Saudi Arabia, and growing refinery partnerships with India all point to real supply-chain fragmentation. But oil majors like ConocoPhillips are also watching for signs that elevated prices might spark demand destruction or policy shifts (like the refining capacity realignment in India) that could reshape the competitive landscape.",
+  "fetchedAt": "2026-10-22T17:01:26.320917+00:00",
+  "text": "ConocoPhillips moved up slightly today, holding near $146 after a strong two-week run of nearly 9%. The stock has been riding a wave of rising oil prices\u2014Brent crude topped $111 and U.S. oil is trading near $108\u2014driven by escalating Middle East tensions. The U.S. is reportedly preparing strikes against Iran and has ordered diplomats out of Saudi Arabia following Houthi attacks on infrastructure, raising the real risk of supply disruptions that would push crude prices even higher.\n\nThe broader energy trade is also being discussed as a potential play on geopolitical risk: Ukraine's drone strikes have already crippled Russian diesel production, and a wider Iran conflict could tighten global oil markets further. For an oil major like ConocoPhillips, higher crude prices and tighter supplies translate directly into stronger earnings, which explains why the stock has accelerated over the past two weeks even as today's move was modest.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 172,
-    "inputTokens": 149935,
-    "outputTokens": 36714,
-    "estimatedCostUsd": 0.333505,
-    "lastCallHour": "2026-10-22T16"
+    "callsThisMonth": 173,
+    "inputTokens": 150819,
+    "outputTokens": 36922,
+    "estimatedCostUsd": 0.335429,
+    "lastCallHour": "2026-10-22T17"
   }
 }
