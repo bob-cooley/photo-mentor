@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T05:45:40.490150+00:00",
-  "text": "Marathon Petroleum fell 1.5% today, extending a sharp decline from its peak two weeks ago despite an underlying tailwind that should be supporting the stock. U.S. crude oil jumped to $107.89 per barrel on escalating Middle East tensions\u2014reports of potential new U.S. strikes on Iran and the pullback of American diplomats from Saudi Arabia\u2014which typically boosts refiner margins and profits. Yet the stock dropped anyway, suggesting investors are worried about something else outweighing that benefit.\n\nThe broader picture points to two crosscurrents. Refineries are running at 93.4% capacity, near full tilt, which is positive; but recent news about Ukrainian drone strikes crippling Russian diesel supply and hints that the U.S. may diversify refining demand toward Indian competitors like Reliance suggest the refining market's competitive landscape is shifting. Oil price spikes help refiners, but only if they can keep their market share and pricing power\u2014and geopolitical chaos cutting off competitors' supply may be a double-edged sword if it also reshuffles where global demand flows.",
+  "fetchedAt": "2026-10-22T11:09:11.169710+00:00",
+  "text": "Marathon Petroleum fell 1.49% today, extending a decline from its recent peak of $484.92 on October 14th. The immediate driver appears to be escalating geopolitical tension in the Middle East \u2014 reports that the U.S. is preparing fresh strikes against Iran, combined with the U.S. withdrawing diplomatic staff from Saudi Arabia following Houthi attacks on infrastructure. While this typically pushes crude prices higher (Brent crude topped $111), the market may be pricing in concern that wider regional conflict could disrupt global trade and economic growth, weighing on energy demand. Refineries are running at a healthy 93.4% utilization, so the issue isn't production capacity.\n\nThe broader backdrop matters too: diesel prices remain elevated due to supply disruptions from Ukraine's strikes on Russian facilities, which could crimp transportation costs and consumer spending heading into the midterms. Additionally, there are hints that U.S. policymakers are exploring alternative refining capacity \u2014 including at India's Reliance \u2014 to diversify energy supplies away from potential Middle East disruption, a longer-term headwind for domestic refiners like Marathon.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 167,
-    "inputTokens": 155715,
-    "outputTokens": 37793,
-    "estimatedCostUsd": 0.34468,
-    "lastCallHour": "2026-10-22T05"
+    "callsThisMonth": 168,
+    "inputTokens": 156661,
+    "outputTokens": 38041,
+    "estimatedCostUsd": 0.346866,
+    "lastCallHour": "2026-10-22T11"
   }
 }
