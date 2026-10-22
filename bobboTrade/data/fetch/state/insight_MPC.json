@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T19:01:46.377330+00:00",
-  "text": "Marathon Petroleum fell 2.2% today as oil prices spiked on geopolitical tensions\u2014Brent crude hit $113, the highest since May, after reports that the U.S. plans to resume strikes against Iran and has pulled diplomats from Saudi Arabia over Houthi attacks. While higher crude prices typically help refiners by widening their profit margins, the sharp jump driven by regional conflict and political uncertainty often spooks equity markets broadly, weighing on energy stocks even as the underlying commodity moves higher.\n\nThe refining backdrop is mixed: refineries are running at 93.4% capacity and oil inventories remain elevated at 695 million barrels, which limits how much margin pressure can ease even if crude stays elevated. The geopolitical premium driving today's oil move may prove volatile depending on how the conflict unfolds over the coming weeks.",
+  "fetchedAt": "2026-10-22T20:02:06.364809+00:00",
+  "text": "Marathon Petroleum's stock fell 1.82% today, extending a decline over the past week. The immediate trigger appears to be a pullback in crude prices\u2014while Brent crude touched $113 and geopolitical tensions (Iran strikes, Middle East conflict) remain headline risks, the broad refining environment is working against the company's margins. U.S. oil storage sits at 695 million barrels and refineries are running at 93.4%, near healthy capacity but not tight enough to support a major price spike, and refiner profitability depends on the spread between crude costs and product selling prices narrowing.\n\nThe news about U.S. engagement with Reliance's Indian refining capacity and concerns about Venezuelan crude diversification suggest the market is already pricing in longer-term shifts in refining dynamics\u2014competition from lower-cost producers abroad and geopolitical uncertainty that keeps traders cautious rather than bullish on U.S. refiner valuations despite headline energy tensions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 175,
-    "inputTokens": 163257,
-    "outputTokens": 39661,
-    "estimatedCostUsd": 0.361562,
-    "lastCallHour": "2026-10-22T19"
+    "callsThisMonth": 176,
+    "inputTokens": 164196,
+    "outputTokens": 39872,
+    "estimatedCostUsd": 0.363556,
+    "lastCallHour": "2026-10-22T20"
   }
 }
