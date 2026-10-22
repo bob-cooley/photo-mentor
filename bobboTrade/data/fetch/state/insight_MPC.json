@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T13:05:24.952226+00:00",
-  "text": "Marathon Petroleum's stock fell 1.5% today despite oil prices holding steady around $108 per barrel and U.S. refineries running at a healthy 93.4% capacity. The decline comes as geopolitical tensions escalated over the past two days\u2014reports that the U.S. is preparing fresh strikes against Iran and has withdrawn diplomats from Saudi Arabia rattled markets, and the stock has drifted lower each of the last three trading days despite the 2-week gain.\n\nThe broader concern for refiners is supply disruption risk. Ukraine's recent drone strikes on Russian diesel facilities are already tightening global diesel markets, and renewed U.S.-Iran conflict could further constrain crude and product flows through the Strait of Hormuz\u2014a critical chokepoint for global oil trade. At the same time, signals that the U.S. may look to India's Reliance refinery to diversify energy sourcing suggests competition for crude intake and market share may intensify, adding pressure on domestic refiner margins in a period already shaped by geopolitical uncertainty.",
+  "fetchedAt": "2026-10-22T14:02:43.401601+00:00",
+  "text": "Marathon Petroleum fell 1.3% today as geopolitical tensions in the Middle East intensified once again. After a brief dip on Oct 20 when diplomacy seemed possible, the stock has now declined for three straight days following reports that the U.S. is withdrawing diplomats from Saudi Arabia and preparing to resume strikes against Iran. While higher oil prices (Brent at $112+) typically help refiners by boosting fuel margins, the immediate uncertainty and risk of regional conflict disrupting shipping in the Strait of Hormuz is weighing on the sector today.\n\nThe backdrop here is real tension: diesel prices have already spiked from Ukraine's strikes on Russian supply, and now potential Iranian retaliation or U.S. strikes threaten to further destabilize crude flows. At the same time, U.S. refineries are running at 93.4% capacity with healthy product inventories (gasoline, diesel), so the refiner isn't supply-constrained\u2014but geopolitical shock risk is what's driving sentiment lower right now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 169,
-    "inputTokens": 157603,
-    "outputTokens": 38273,
-    "estimatedCostUsd": 0.348968,
-    "lastCallHour": "2026-10-22T13"
+    "callsThisMonth": 170,
+    "inputTokens": 158546,
+    "outputTokens": 38502,
+    "estimatedCostUsd": 0.351056,
+    "lastCallHour": "2026-10-22T14"
   }
 }
