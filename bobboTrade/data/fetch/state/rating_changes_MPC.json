@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-10-22T14:11:35.512681+00:00",
+    "fetchedAt": "2026-10-22T17:11:44.672877+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-10-22",
+        "firm": "TD Cowen",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 450.0,
+        "targetTo": 478.0
+      },
       {
         "date": "2026-10-14",
         "firm": "Wells Fargo",
