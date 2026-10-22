@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-22T15:01:35.675284+00:00",
-  "text": "ConocoPhillips fell 0.7% today despite crude oil prices holding firm\u2014US oil at $108 and world oil at $115\u2014suggesting the decline wasn't driven by energy markets themselves. Instead, the stock's modest pullback comes after a strong two-week run (up 7.8%) that coincided with oil prices climbing on Middle East tensions and geopolitical risk. Today's retreat looks like profit-taking after that rally, even as the underlying oil price backdrop remains supportive.\n\nThe broader picture shows oil staying elevated on real supply concerns: escalating Houthi attacks on shipping in the Strait of Hormuz, the U.S. preparing strikes against Iran, and American diplomatic staff being withdrawn from Saudi Arabia, all raising the odds of regional conflict spreading. For a major oil producer like ConocoPhillips, these high prices and tight supply conditions are favorable fundamentally, but investors may be hesitant to add to positions until geopolitical dust settles.",
+  "fetchedAt": "2026-10-22T16:01:31.098998+00:00",
+  "text": "ConocoPhillips fell 0.93% today despite oil prices holding firm\u2014Brent crude stayed above $111 and U.S. crude is at $107.89, both still elevated. The decline came as geopolitical tensions that had been driving energy prices higher showed signs of moderating: headlines shifted from acute crisis (Iran strikes, Middle East escalation) to longer-term strategic positioning, and the immediate shock value of those threats wore off after yesterday's rally to $146.51. The stock is still up 7.55% over two weeks, so today's pullback is a modest digestion of recent gains rather than a fundamental reversal.\n\nThe broader energy trade remains supported by genuine supply concerns\u2014Ukraine's attacks on Russian refineries, U.S. withdrawal from Saudi Arabia, and growing refinery partnerships with India all point to real supply-chain fragmentation. But oil majors like ConocoPhillips are also watching for signs that elevated prices might spark demand destruction or policy shifts (like the refining capacity realignment in India) that could reshape the competitive landscape.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 171,
-    "inputTokens": 149052,
-    "outputTokens": 36480,
-    "estimatedCostUsd": 0.331452,
-    "lastCallHour": "2026-10-22T15"
+    "callsThisMonth": 172,
+    "inputTokens": 149935,
+    "outputTokens": 36714,
+    "estimatedCostUsd": 0.333505,
+    "lastCallHour": "2026-10-22T16"
   }
 }
