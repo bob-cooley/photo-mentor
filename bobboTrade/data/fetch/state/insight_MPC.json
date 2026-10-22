@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T11:09:11.169710+00:00",
-  "text": "Marathon Petroleum fell 1.49% today, extending a decline from its recent peak of $484.92 on October 14th. The immediate driver appears to be escalating geopolitical tension in the Middle East \u2014 reports that the U.S. is preparing fresh strikes against Iran, combined with the U.S. withdrawing diplomatic staff from Saudi Arabia following Houthi attacks on infrastructure. While this typically pushes crude prices higher (Brent crude topped $111), the market may be pricing in concern that wider regional conflict could disrupt global trade and economic growth, weighing on energy demand. Refineries are running at a healthy 93.4% utilization, so the issue isn't production capacity.\n\nThe broader backdrop matters too: diesel prices remain elevated due to supply disruptions from Ukraine's strikes on Russian facilities, which could crimp transportation costs and consumer spending heading into the midterms. Additionally, there are hints that U.S. policymakers are exploring alternative refining capacity \u2014 including at India's Reliance \u2014 to diversify energy supplies away from potential Middle East disruption, a longer-term headwind for domestic refiners like Marathon.",
+  "fetchedAt": "2026-10-22T13:05:24.952226+00:00",
+  "text": "Marathon Petroleum's stock fell 1.5% today despite oil prices holding steady around $108 per barrel and U.S. refineries running at a healthy 93.4% capacity. The decline comes as geopolitical tensions escalated over the past two days\u2014reports that the U.S. is preparing fresh strikes against Iran and has withdrawn diplomats from Saudi Arabia rattled markets, and the stock has drifted lower each of the last three trading days despite the 2-week gain.\n\nThe broader concern for refiners is supply disruption risk. Ukraine's recent drone strikes on Russian diesel facilities are already tightening global diesel markets, and renewed U.S.-Iran conflict could further constrain crude and product flows through the Strait of Hormuz\u2014a critical chokepoint for global oil trade. At the same time, signals that the U.S. may look to India's Reliance refinery to diversify energy sourcing suggests competition for crude intake and market share may intensify, adding pressure on domestic refiner margins in a period already shaped by geopolitical uncertainty.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 168,
-    "inputTokens": 156661,
-    "outputTokens": 38041,
-    "estimatedCostUsd": 0.346866,
-    "lastCallHour": "2026-10-22T11"
+    "callsThisMonth": 169,
+    "inputTokens": 157603,
+    "outputTokens": 38273,
+    "estimatedCostUsd": 0.348968,
+    "lastCallHour": "2026-10-22T13"
   }
 }

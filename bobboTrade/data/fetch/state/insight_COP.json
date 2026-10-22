@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-22T11:07:08.017391+00:00",
-  "text": "ConocoPhillips fell slightly today, but the move was tiny\u2014just 0.19%\u2014against a backdrop of sharply higher oil prices driven by Middle East tensions. Brent crude jumped above $111 a barrel after reports that the U.S. is planning fresh strikes against Iran, while concerns about potential widening conflict in the region (including the U.S. pulling diplomats from Saudi Arabia) have kept energy markets on edge. For an oil major like ConocoPhillips, higher crude prices are normally a tailwind, so the flat-to-down move today likely reflects traders taking some profits after the stock's strong two-week run (+12%) rather than any deterioration in the company's fundamentals.\n\nThe geopolitical risk premium in oil prices is real and substantial right now\u2014Brent is trading roughly $7 higher than U.S. crude, reflecting supply-chain worries tied to Middle East chokepoints like the Strait of Hormuz. If the conflict escalates further, energy companies like ConocoPhillips could see even higher realized prices for their barrels, but today's tiny decline suggests the market is neither panicking nor celebrating at these levels.",
+  "fetchedAt": "2026-10-22T13:03:34.665104+00:00",
+  "text": "ConocoPhillips edged down 0.19% today to $145.67, a negligible move that reflects the oil market's current tension between conflicting signals. Brent crude is hovering near $112 per barrel while U.S. oil sits at $107.89\u2014prices that remain elevated but have stabilized as traders weigh the risk of renewed U.S. strikes on Iran against cautious hopes for diplomatic progress. The stock has surged 12% over two weeks, so today's tiny decline reads as a pause rather than a reversal.\n\nThe underlying driver remains geopolitical risk in the Middle East. Reports of planned U.S. strikes on Iran, coupled with the U.S. pulling non-emergency diplomats from Saudi Arabia following Houthi attacks on infrastructure, keep oil supplies at risk. For an oil major like ConocoPhillips, higher crude prices generally support earnings, but the uncertainty can make traders hesitant to chase stocks higher\u2014hence the flat day after a strong run.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 168,
-    "inputTokens": 146409,
-    "outputTokens": 35840,
-    "estimatedCostUsd": 0.325609,
-    "lastCallHour": "2026-10-22T11"
+    "callsThisMonth": 169,
+    "inputTokens": 147288,
+    "outputTokens": 36063,
+    "estimatedCostUsd": 0.327603,
+    "lastCallHour": "2026-10-22T13"
   }
 }
