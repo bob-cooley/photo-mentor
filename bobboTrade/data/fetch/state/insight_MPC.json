@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T21:01:53.368913+00:00",
-  "text": "Marathon Petroleum fell 1.8% today, extending a week-long slide that's seen the stock drop about $17 from its mid-October peak. The immediate trigger appears to be geopolitical anxiety: while Brent crude jumped above $113 a barrel on news of potential U.S. strikes against Iran and broader Middle East tensions, refinery utilization in the U.S. sits at 93.4%\u2014near capacity\u2014leaving little room for refiners to benefit from higher oil prices by processing more crude. The company is caught between rising input costs (oil) and limited ability to expand throughput to capture margins.\n\nAdding pressure, the news cycle suggests longer-term shifts in refining dynamics. Ukraine's strikes on Russian diesel capacity and U.S. interest in Venezuelan crude processed through Indian refineries both point to potential supply-chain restructuring away from traditional U.S. refiner advantage. For a company dependent on regional refining spreads, these stories hint at competition and structural change that may temper the tailwinds from spiking oil prices alone.",
+  "fetchedAt": "2026-10-22T23:52:30.842058+00:00",
+  "text": "Marathon Petroleum fell 1.9% today as oil prices spiked on geopolitical tension\u2014Brent crude hit $113, the highest since May, following Trump's hints at military action against Iran and the U.S. pulling diplomats from Saudi Arabia over Houthi strikes. While higher crude prices typically benefit refiners by boosting fuel margins, the stock has been sliding since mid-October (down roughly 4% from the $476 peak), suggesting investors are weighing something beyond just the headline oil move.\n\nThe broader picture includes softening refinery demand signals: U.S. refineries are running at 93.4%, which is solid but not at peak, and gasoline and diesel inventories remain elevated. Additionally, geopolitical instability in the Middle East\u2014while it lifts crude prices\u2014also introduces uncertainty about regional supply flows and potential disruptions that could hurt demand, offsetting the short-term margin benefit for a refiner.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 177,
-    "inputTokens": 165135,
-    "outputTokens": 40102,
-    "estimatedCostUsd": 0.365645,
-    "lastCallHour": "2026-10-22T21"
+    "callsThisMonth": 178,
+    "inputTokens": 166074,
+    "outputTokens": 40309,
+    "estimatedCostUsd": 0.367619,
+    "lastCallHour": "2026-10-22T23"
   }
 }
