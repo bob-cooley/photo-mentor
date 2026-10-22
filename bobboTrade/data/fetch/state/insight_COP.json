@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-22T14:01:51.589898+00:00",
-  "text": "ConocoPhillips fell slightly today despite a week and a half of strong gains, as oil prices ticked down in a volatile environment. Crude oil prices remain elevated\u2014US oil at $107.89 and global Brent at $115.22\u2014but traders appear to be taking a breath after several days of geopolitical fear-buying. The stock's small decline reflects this momentary pause rather than a fundamental shift; the underlying support from Middle East tensions (Iranian strike threats, Saudi disruptions, Houthi attacks on oil infrastructure) remains in place.\n\nThe bigger picture is that energy prices have stayed well above $100 per barrel precisely because of these regional risks, which has kept the stock up 8% over two weeks. Any sustained pullback in crude would be the real test of whether this rally holds, but for now the geopolitical floor supporting oil\u2014and integrated majors like ConocoPhillips\u2014looks intact.",
+  "fetchedAt": "2026-10-22T15:01:35.675284+00:00",
+  "text": "ConocoPhillips fell 0.7% today despite crude oil prices holding firm\u2014US oil at $108 and world oil at $115\u2014suggesting the decline wasn't driven by energy markets themselves. Instead, the stock's modest pullback comes after a strong two-week run (up 7.8%) that coincided with oil prices climbing on Middle East tensions and geopolitical risk. Today's retreat looks like profit-taking after that rally, even as the underlying oil price backdrop remains supportive.\n\nThe broader picture shows oil staying elevated on real supply concerns: escalating Houthi attacks on shipping in the Strait of Hormuz, the U.S. preparing strikes against Iran, and American diplomatic staff being withdrawn from Saudi Arabia, all raising the odds of regional conflict spreading. For a major oil producer like ConocoPhillips, these high prices and tight supply conditions are favorable fundamentally, but investors may be hesitant to add to positions until geopolitical dust settles.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 170,
-    "inputTokens": 148170,
-    "outputTokens": 36266,
-    "estimatedCostUsd": 0.3295,
-    "lastCallHour": "2026-10-22T14"
+    "callsThisMonth": 171,
+    "inputTokens": 149052,
+    "outputTokens": 36480,
+    "estimatedCostUsd": 0.331452,
+    "lastCallHour": "2026-10-22T15"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T14:02:43.401601+00:00",
-  "text": "Marathon Petroleum fell 1.3% today as geopolitical tensions in the Middle East intensified once again. After a brief dip on Oct 20 when diplomacy seemed possible, the stock has now declined for three straight days following reports that the U.S. is withdrawing diplomats from Saudi Arabia and preparing to resume strikes against Iran. While higher oil prices (Brent at $112+) typically help refiners by boosting fuel margins, the immediate uncertainty and risk of regional conflict disrupting shipping in the Strait of Hormuz is weighing on the sector today.\n\nThe backdrop here is real tension: diesel prices have already spiked from Ukraine's strikes on Russian supply, and now potential Iranian retaliation or U.S. strikes threaten to further destabilize crude flows. At the same time, U.S. refineries are running at 93.4% capacity with healthy product inventories (gasoline, diesel), so the refiner isn't supply-constrained\u2014but geopolitical shock risk is what's driving sentiment lower right now.",
+  "fetchedAt": "2026-10-22T15:01:50.817894+00:00",
+  "text": "Marathon Petroleum fell 2.4% today, tracking a broader decline in oil refining stocks as geopolitical tensions reshuffled expectations for the sector. Over the past two days, the stock has dropped from $475 to $457\u2014a sharp move that follows escalating threats of U.S. strikes on Iran and the withdrawal of diplomats from Saudi Arabia, which typically heighten uncertainty around Middle East supply disruptions rather than create immediate profit opportunities for refiners.\n\nThe timing is counterintuitive: while crude prices did spike to $112 (Brent), U.S. refineries are already running at 93.4% capacity with substantial crude in storage (695 million barrels). In a tight refining market, geopolitical supply scares can boost margins, but current inventory levels and high utilization suggest limited room for refiners to capture upside\u2014investors may be pricing in the risk that conflict talk will spook global demand or keep crude prices volatile without translating to stronger refining economics.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 170,
-    "inputTokens": 158546,
-    "outputTokens": 38502,
-    "estimatedCostUsd": 0.351056,
-    "lastCallHour": "2026-10-22T14"
+    "callsThisMonth": 171,
+    "inputTokens": 159489,
+    "outputTokens": 38719,
+    "estimatedCostUsd": 0.353084,
+    "lastCallHour": "2026-10-22T15"
   }
 }
