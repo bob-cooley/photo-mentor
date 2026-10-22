@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T20:02:06.364809+00:00",
-  "text": "Marathon Petroleum's stock fell 1.82% today, extending a decline over the past week. The immediate trigger appears to be a pullback in crude prices\u2014while Brent crude touched $113 and geopolitical tensions (Iran strikes, Middle East conflict) remain headline risks, the broad refining environment is working against the company's margins. U.S. oil storage sits at 695 million barrels and refineries are running at 93.4%, near healthy capacity but not tight enough to support a major price spike, and refiner profitability depends on the spread between crude costs and product selling prices narrowing.\n\nThe news about U.S. engagement with Reliance's Indian refining capacity and concerns about Venezuelan crude diversification suggest the market is already pricing in longer-term shifts in refining dynamics\u2014competition from lower-cost producers abroad and geopolitical uncertainty that keeps traders cautious rather than bullish on U.S. refiner valuations despite headline energy tensions.",
+  "fetchedAt": "2026-10-22T21:01:53.368913+00:00",
+  "text": "Marathon Petroleum fell 1.8% today, extending a week-long slide that's seen the stock drop about $17 from its mid-October peak. The immediate trigger appears to be geopolitical anxiety: while Brent crude jumped above $113 a barrel on news of potential U.S. strikes against Iran and broader Middle East tensions, refinery utilization in the U.S. sits at 93.4%\u2014near capacity\u2014leaving little room for refiners to benefit from higher oil prices by processing more crude. The company is caught between rising input costs (oil) and limited ability to expand throughput to capture margins.\n\nAdding pressure, the news cycle suggests longer-term shifts in refining dynamics. Ukraine's strikes on Russian diesel capacity and U.S. interest in Venezuelan crude processed through Indian refineries both point to potential supply-chain restructuring away from traditional U.S. refiner advantage. For a company dependent on regional refining spreads, these stories hint at competition and structural change that may temper the tailwinds from spiking oil prices alone.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 176,
-    "inputTokens": 164196,
-    "outputTokens": 39872,
-    "estimatedCostUsd": 0.363556,
-    "lastCallHour": "2026-10-22T20"
+    "callsThisMonth": 177,
+    "inputTokens": 165135,
+    "outputTokens": 40102,
+    "estimatedCostUsd": 0.365645,
+    "lastCallHour": "2026-10-22T21"
   }
 }
