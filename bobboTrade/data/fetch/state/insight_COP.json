@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-23T18:52:40.515559+00:00",
-  "text": "ConocoPhillips jumped 3.7% today as Brent crude oil topped $116 per barrel, a six-month high, driven by escalating Middle East tensions and fresh U.S. threats of military action against Iran. The company, as a major oil producer, benefits directly when crude prices rise\u2014higher oil prices mean higher revenues and profits. The timing matches perfectly: news of Trump's threats against Iran and U.S. diplomatic pullbacks from Saudi Arabia hit markets yesterday and today, pushing the energy trade sharply higher.\n\nThis move fits into a much broader rally in energy stocks over the past two weeks\u2014COP is up 12.6% in that span. Geopolitical risk in the Middle East has shifted the calculus for energy investors, who now see potential supply disruptions as likely enough to bid up oil prices and the companies that produce it. The added wrinkle of U.S.-Iran tensions also benefiting American LNG exporters shows how the conflict is reshaping which energy players win and lose.",
+  "fetchedAt": "2026-10-23T21:49:52.966656+00:00",
+  "text": "ConocoPhillips jumped 3.6% today as oil prices spiked to a six-month high on escalating Middle East tensions. Brent crude topped $116 per barrel following reports of potential U.S. strikes on Iran and Houthi attacks on Saudi oil infrastructure, which directly lifts the value of crude oil that integrated oil companies like this one produce and sell. The stock has now gained over 12% in two weeks as these geopolitical risks have intensified.\n\nThe broader trend here is that U.S. energy companies are benefiting as Middle East conflict reshapes global energy markets \u2014 a Qatar deal to buy U.S. liquefied natural gas and the pull of diplomats from the region signal this is not fleeting market chatter but a structural shift in where energy supply flows. For an oil producer with global operations, rising crude prices and tightening supply are a direct lift to both production revenue and future capital returns.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 183,
-    "inputTokens": 159533,
-    "outputTokens": 38940,
-    "estimatedCostUsd": 0.354233,
-    "lastCallHour": "2026-10-23T18"
+    "callsThisMonth": 184,
+    "inputTokens": 160390,
+    "outputTokens": 39146,
+    "estimatedCostUsd": 0.35612,
+    "lastCallHour": "2026-10-23T21"
   }
 }

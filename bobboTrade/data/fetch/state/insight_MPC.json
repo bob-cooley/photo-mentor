@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T18:52:54.643776+00:00",
-  "text": "Marathon Petroleum fell 0.44% today to $457.27, continuing a five-day slide that has cost the stock $21 per share since October 16th. The decline comes despite crude oil prices hitting six-month highs\u2014Brent is now above $116 a barrel\u2014driven by Middle East tensions and threats of wider U.S. military action against Iran. At first glance this seems backwards: refiners typically profit when crude prices rise, since they buy cheap oil and sell refined products like gasoline at higher margins. But the surge in crude is happening because of geopolitical risk rather than strong demand, and U.S. refineries are already running at 93.4% capacity with high storage levels for gasoline and diesel\u2014meaning refiners can't actually produce more to capture those higher prices.\n\nThe worry for Marathon is that if Middle East conflict escalates further, it could disrupt global oil supply chains and shipping routes in ways that hurt refining margins more than help them, while also signaling potential economic slowdown. Traders appear to be pricing in risk rather than opportunity here.",
+  "fetchedAt": "2026-10-23T21:50:06.623730+00:00",
+  "text": "Marathon Petroleum fell 0.45% today, continuing a sharp four-day decline that has wiped out 4.4% since mid-week. The timing tracks closely with escalating Middle East tensions: oil prices have surged to six-month highs (Brent crude at $116), U.S. diplomats have been pulled from Saudi Arabia, and President Trump has signaled potential strikes on Iran. While high crude prices might seem good for a refiner, the reality is more complex \u2014 refineries profit from the *difference* between crude costs and product prices, and the market uncertainty around possible military action appears to be spooking investors despite oil at these elevated levels.\n\nU.S. refineries are running at 93.4% capacity with healthy fuel inventories across gasoline and diesel, so the equipment itself isn't the constraint. The sell-off likely reflects investor worry that regional conflict could disrupt supply chains, margins, or broader growth \u2014 or simply a flight to safety as geopolitical risk spikes, even though geopolitical oil premiums can cut both ways for refiners.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 183,
-    "inputTokens": 170706,
-    "outputTokens": 41492,
-    "estimatedCostUsd": 0.378166,
-    "lastCallHour": "2026-10-23T18"
+    "callsThisMonth": 184,
+    "inputTokens": 171627,
+    "outputTokens": 41727,
+    "estimatedCostUsd": 0.380262,
+    "lastCallHour": "2026-10-23T21"
   }
 }
