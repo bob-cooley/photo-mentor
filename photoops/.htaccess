@@ -1,0 +1,13 @@
+# Serve files directly, bypassing IO200 CMS rewrite rules (same as repo root)
+Options -Indexes
+RewriteEngine Off
+
+# Private tool: keep search engines out
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet"
+</IfModule>
+
+# FTP-Deploy bookkeeping file: not for public eyes
+<Files ".ftp-deploy-sync-state.json">
+  Require all denied
+</Files>

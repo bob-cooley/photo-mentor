@@ -49,6 +49,7 @@ jobs:
             bobboTrade/**
             mad/**
             ops/**
+            photoops/**
             light-detective/**
             NBHS86/**
 
@@ -126,6 +127,27 @@ jobs:
             **/*.md
             **/tools/**
             **/tests/**
+
+  deploy-photoops:
+    if: github.event_name != 'schedule' && !inputs.data_only
+    runs-on: ubuntu-latest
+    environment: photoops
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy photoops to bobcooleyphoto.com/photoops/
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          server-dir: public_html/bobcooleyphoto/photoops/
+          local-dir: ./photoops/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/*.md
 
   deploy-light-detective:
     if: github.event_name != 'schedule' && !inputs.data_only
