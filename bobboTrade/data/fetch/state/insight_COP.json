@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-22T23:52:16.124273+00:00",
-  "text": "ConocoPhillips barely moved today, closing flat after a strong two-week rally of 8.5% that rode a wave of oil price strength and geopolitical tension. Oil prices jumped again\u2014Brent crude hit $113, its highest since May\u2014as the U.S. moved to resume strikes against Iran and pulled diplomats from Saudi Arabia following Houthi attacks on oil infrastructure, raising the risk of a wider Middle East conflict that could disrupt global energy supplies.\n\nThe stock's recent gains reflect the sector's bet that these regional tensions will keep oil prices elevated and support energy company earnings. The rally also coincides with broader talk of the \"energy trade\" as a beneficiary of rising crude prices and supply risks, though today's flat close suggests the immediate excitement from this week's headline-making moves may be settling.",
+  "fetchedAt": "2026-10-23T03:13:04.344672+00:00",
+  "text": "COP was essentially flat today, down a fraction of a percent to $145.63, despite oil prices climbing further\u2014U.S. crude hit $107.89 and Brent topped $113, the highest since May. The bounce reflects escalating geopolitical risk: the U.S. pulled diplomats from Saudi Arabia and is reportedly preparing strikes on Iran after Houthi attacks on an oil field, while Trump has signaled new action against Iran. Higher oil prices typically lift integrated energy companies like ConocoPhillips, yet the stock barely moved, suggesting today's modest gains have already been priced in after the 8.5% rally over the past two weeks.\n\nThe bigger picture is that energy stocks have been riding a wave of Middle East tension and supply concerns. Ukraine's drone strikes on Russian refineries are also pushing up diesel costs globally, tightening the market. However, the U.S. is simultaneously exploring alternative refining partnerships\u2014including talks with India's Reliance to process more Venezuelan crude\u2014which could ease some supply pressure over time and cap how much further these upside shocks can push prices and stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 178,
-    "inputTokens": 155209,
-    "outputTokens": 37874,
-    "estimatedCostUsd": 0.344579,
-    "lastCallHour": "2026-10-22T23"
+    "callsThisMonth": 179,
+    "inputTokens": 156087,
+    "outputTokens": 38118,
+    "estimatedCostUsd": 0.346677,
+    "lastCallHour": "2026-10-23T03"
   }
 }

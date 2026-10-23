@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-22T23:52:30.842058+00:00",
-  "text": "Marathon Petroleum fell 1.9% today as oil prices spiked on geopolitical tension\u2014Brent crude hit $113, the highest since May, following Trump's hints at military action against Iran and the U.S. pulling diplomats from Saudi Arabia over Houthi strikes. While higher crude prices typically benefit refiners by boosting fuel margins, the stock has been sliding since mid-October (down roughly 4% from the $476 peak), suggesting investors are weighing something beyond just the headline oil move.\n\nThe broader picture includes softening refinery demand signals: U.S. refineries are running at 93.4%, which is solid but not at peak, and gasoline and diesel inventories remain elevated. Additionally, geopolitical instability in the Middle East\u2014while it lifts crude prices\u2014also introduces uncertainty about regional supply flows and potential disruptions that could hurt demand, offsetting the short-term margin benefit for a refiner.",
+  "fetchedAt": "2026-10-23T03:13:16.905908+00:00",
+  "text": "Marathon Petroleum fell 1.9% today to $459.28, extending a slide that began earlier this week. The decline came even as oil prices spiked\u2014Brent crude topped $113 on escalating U.S.-Iran tensions and potential military action\u2014which would normally support refinery stocks. The disconnect suggests investors are pricing in a risk that outweighs near-term oil gains: geopolitical turmoil in the Middle East could disrupt shipping lanes or global supply chains in ways that hurt demand and refinery throughput, especially if regional conflict spreads from Iran to Saudi Arabia (where the U.S. has just withdrawn non-emergency staff).\n\nThe timing also matters. Over the past week, as headlines have shifted from abstract energy-trade optimism to concrete threats of Middle East conflict, the stock has dropped roughly 3.5% from its mid-week high. U.S. refinery utilization is already running at a healthy 93.4%, leaving little room to boost output if crude supplies tighten further\u2014meaning a refiner like this one faces margin pressure if geopolitical shock raises input costs without matching demand.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 178,
-    "inputTokens": 166074,
-    "outputTokens": 40309,
-    "estimatedCostUsd": 0.367619,
-    "lastCallHour": "2026-10-22T23"
+    "callsThisMonth": 179,
+    "inputTokens": 167013,
+    "outputTokens": 40556,
+    "estimatedCostUsd": 0.369793,
+    "lastCallHour": "2026-10-23T03"
   }
 }
