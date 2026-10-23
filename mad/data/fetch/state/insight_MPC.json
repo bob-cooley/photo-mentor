@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-13T17:15:10.146580+00:00",
-  "text": "Marathon Petroleum rose 2.76% today as oil prices stabilized and refining margins stayed supported. U.S. crude held around $96 per barrel while Brent stayed above $106, and with refineries running at 92.7% capacity\u2014near full utilization\u2014the company benefits from both steady throughput and the wider gap between crude costs and refined product prices. The competing narratives about Russian diesel flooding the market versus potential supply disruptions from geopolitical tensions created mixed signals for oil prices, but the net effect was supportive for a major U.S. refiner.\n\nThe stock's broader 20% surge over two weeks reflects a sharp reversal in refining fundamentals. Gasoline and diesel inventories remain relatively lean (204.7 million and 105.1 million barrels respectively), which tightens margins in the refiner's favor\u2014they make money when fuel is scarce relative to crude. Geopolitical risk premiums in crude, particularly around Saudi Arabia and potential Iranian retaliation, continue to underpin oil prices despite the near-term overhang of potential Russian supply coming online.",
+  "fetchedAt": "2026-10-23T15:18:53.500406+00:00",
+  "text": "Marathon Petroleum fell 0.17% today to $458.48, continuing a sharp four-day decline that has erased most of the stock's gains from earlier this month. The selloff comes despite oil prices hitting six-month highs\u2014Brent crude topped $116 on rising Middle East tensions and threats of U.S. strikes on Iran\u2014which would normally lift refiner margins. The disconnect suggests investors are pricing in a risk that refiners face when geopolitical conflict disrupts global supply: tighter crude availability and potentially lower processing volumes, which can compress the profit margin refiners earn between the cost of raw oil and the price of finished fuel.\n\nThe timing also matters. U.S. refineries are running at 93.4% capacity with substantial crude and product inventories on hand, leaving little room to capitalize on higher oil prices through higher throughput. If Middle East tensions escalate into actual supply disruptions, refiners could face a squeeze where crude costs spike but they can't run plants much harder to offset it\u2014a dynamic that has historically pressured refiner stocks even when headline oil prices look strong.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 6,
-    "inputTokens": 5582,
-    "outputTokens": 1410,
-    "estimatedCostUsd": 0.012632,
-    "lastCallHour": "2026-10-13T17"
+    "callsThisMonth": 7,
+    "inputTokens": 6500,
+    "outputTokens": 1649,
+    "estimatedCostUsd": 0.014745,
+    "lastCallHour": "2026-10-23T15"
   }
 }

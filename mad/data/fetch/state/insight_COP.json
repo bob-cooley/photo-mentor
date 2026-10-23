@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-13T17:14:49.655808+00:00",
-  "text": "ConocoPhillips rose 1.9% today as oil prices stabilized after several days of volatile geopolitical headlines. Over the past week, the stock has climbed 11.7% alongside a sharp recovery in crude prices\u2014US oil jumped from around $85\u201390 to $96 per barrel, while global Brent crude sits at $125. Today's move reflects traders digesting conflicting signals: while Trump's reported diesel deal with Russia signals a potential supply boost that could ease prices downward, ongoing tensions in the Middle East (Iranian nuclear fortification, Houthi attacks near Saudi infrastructure) keep upside risk in the market. For an oil producer like ConocoPhillips, higher oil prices directly lift both production revenues and asset values, which has driven the week-long rally.\n\nThe gap between US oil ($96) and global Brent crude ($125) remains wide, signaling tight supplies outside North America and persistent geopolitical risk premiums\u2014a backdrop that supports crude prices more broadly and benefits integrated oil producers with global operations.",
+  "fetchedAt": "2026-10-23T15:18:32.774884+00:00",
+  "text": "ConocoPhillips jumped 4.25% today to $151.83, riding a sharp surge in oil prices driven by escalating Middle East tensions. Brent crude hit $116 a barrel\u2014a six-month high\u2014after the U.S. withdrew diplomats from Saudi Arabia and signaled plans to resume strikes against Iran, with President Trump publicly accusing Iran of market manipulation. For an oil producer like ConocoPhillips, higher crude prices flow directly to the bottom line, and the stock's 13% gain over two weeks reflects this sustained climb in energy costs.\n\nThe move is part of a broader energy rally tied to geopolitical risk. Supply disruptions from the Ukraine-Russia conflict have already strained diesel markets, and now fears of a widening U.S.-Iran confrontation are pushing investors toward energy stocks as a hedge against further supply tightness.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 7,
-    "inputTokens": 6086,
-    "outputTokens": 1640,
-    "estimatedCostUsd": 0.014286,
-    "lastCallHour": "2026-10-13T17"
+    "callsThisMonth": 8,
+    "inputTokens": 6942,
+    "outputTokens": 1831,
+    "estimatedCostUsd": 0.016097,
+    "lastCallHour": "2026-10-23T15"
   }
 }

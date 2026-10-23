@@ -1,11 +1,41 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-10-13T15:52:54.632741+00:00",
+    "fetchedAt": "2026-10-23T15:18:35.881527+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-10-22",
+        "firm": "TD Cowen",
+        "kind": "maintained",
+        "fromGrade": "Buy",
+        "toGrade": "Buy",
+        "targetAction": "Raises",
+        "targetFrom": 450.0,
+        "targetTo": 478.0
+      },
+      {
+        "date": "2026-10-14",
+        "firm": "Wells Fargo",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 400.0,
+        "targetTo": 560.0
+      },
+      {
+        "date": "2026-10-13",
+        "firm": "Citigroup",
+        "kind": "maintained",
+        "fromGrade": "Neutral",
+        "toGrade": "Neutral",
+        "targetAction": "Raises",
+        "targetFrom": 318.0,
+        "targetTo": 518.0
+      },
       {
         "date": "2026-10-12",
         "firm": "Barclays",
