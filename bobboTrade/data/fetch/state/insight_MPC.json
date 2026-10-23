@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T15:16:25.656956+00:00",
-  "text": "Marathon Petroleum fell slightly today despite continued strength in global oil prices, which hit a six-month high above $116 as Middle East tensions escalated and the U.S. signaled potential military action against Iran. The stock has actually declined about $19 from its October 16 peak, even as crude prices have climbed\u2014suggesting that refiner profit margins may be tightening faster than higher oil prices can offset. Refineries are running at 93.4% capacity with healthy fuel inventories, so the headwind isn't coming from weak demand or operations.\n\nThe disconnect highlights a key risk for refiners in this environment: when crude oil prices spike due to geopolitical crisis rather than demand strength, refiners often see their margins squeezed. Higher crude costs are passed through to gasoline and diesel prices more slowly, leaving less spread between what refiners buy and sell. Additionally, concerns about a widening Middle East conflict and potential disruptions to global oil supply may be pricing in scenarios where crude becomes so expensive that fuel demand weakens\u2014which would hurt refiners more than pure oil traders.",
+  "fetchedAt": "2026-10-23T18:52:54.643776+00:00",
+  "text": "Marathon Petroleum fell 0.44% today to $457.27, continuing a five-day slide that has cost the stock $21 per share since October 16th. The decline comes despite crude oil prices hitting six-month highs\u2014Brent is now above $116 a barrel\u2014driven by Middle East tensions and threats of wider U.S. military action against Iran. At first glance this seems backwards: refiners typically profit when crude prices rise, since they buy cheap oil and sell refined products like gasoline at higher margins. But the surge in crude is happening because of geopolitical risk rather than strong demand, and U.S. refineries are already running at 93.4% capacity with high storage levels for gasoline and diesel\u2014meaning refiners can't actually produce more to capture those higher prices.\n\nThe worry for Marathon is that if Middle East conflict escalates further, it could disrupt global oil supply chains and shipping routes in ways that hurt refining margins more than help them, while also signaling potential economic slowdown. Traders appear to be pricing in risk rather than opportunity here.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 182,
-    "inputTokens": 169788,
-    "outputTokens": 41255,
-    "estimatedCostUsd": 0.376063,
-    "lastCallHour": "2026-10-23T15"
+    "callsThisMonth": 183,
+    "inputTokens": 170706,
+    "outputTokens": 41492,
+    "estimatedCostUsd": 0.378166,
+    "lastCallHour": "2026-10-23T18"
   }
 }
