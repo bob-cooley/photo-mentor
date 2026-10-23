@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T14:39:03.121926+00:00",
-  "text": "Marathon Petroleum stock ticked up just 0.28% today to close at $460.56, continuing a volatile week that saw it drop nearly 4% from Monday's peak before recovering slightly in the last two days. The modest gain fits with broader oil-market steadiness: Brent crude hit a fresh six-month high of $116 on escalating Middle East tensions\u2014Trump accused Iran of manipulating oil prices, and U.S. diplomats are being pulled from Saudi Arabia as military action looms\u2014yet those geopolitical fears appear to have largely priced in already, leaving little fresh catalyst for big moves today.\n\nThe real story for refiners like Marathon this week has been the underlying choppiness between threat and reality. Refinery utilization sits at a robust 93.4%, and the price spread between crude and refined products matters enormously to refiner margins\u2014but with geopolitical risk already baked into oil prices and no major refining disruption materializing yet, the stock has settled after its sharp losses early in the week. The week's back-and-forth suggests traders are torn between betting on widening margins from high oil prices versus worrying that geopolitical shocks could quickly crimp demand or supply.",
+  "fetchedAt": "2026-10-23T15:16:25.656956+00:00",
+  "text": "Marathon Petroleum fell slightly today despite continued strength in global oil prices, which hit a six-month high above $116 as Middle East tensions escalated and the U.S. signaled potential military action against Iran. The stock has actually declined about $19 from its October 16 peak, even as crude prices have climbed\u2014suggesting that refiner profit margins may be tightening faster than higher oil prices can offset. Refineries are running at 93.4% capacity with healthy fuel inventories, so the headwind isn't coming from weak demand or operations.\n\nThe disconnect highlights a key risk for refiners in this environment: when crude oil prices spike due to geopolitical crisis rather than demand strength, refiners often see their margins squeezed. Higher crude costs are passed through to gasoline and diesel prices more slowly, leaving less spread between what refiners buy and sell. Additionally, concerns about a widening Middle East conflict and potential disruptions to global oil supply may be pricing in scenarios where crude becomes so expensive that fuel demand weakens\u2014which would hurt refiners more than pure oil traders.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 181,
-    "inputTokens": 168870,
-    "outputTokens": 41021,
-    "estimatedCostUsd": 0.373975,
-    "lastCallHour": "2026-10-23T14"
+    "callsThisMonth": 182,
+    "inputTokens": 169788,
+    "outputTokens": 41255,
+    "estimatedCostUsd": 0.376063,
+    "lastCallHour": "2026-10-23T15"
   }
 }
