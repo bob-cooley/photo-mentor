@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T03:13:16.905908+00:00",
-  "text": "Marathon Petroleum fell 1.9% today to $459.28, extending a slide that began earlier this week. The decline came even as oil prices spiked\u2014Brent crude topped $113 on escalating U.S.-Iran tensions and potential military action\u2014which would normally support refinery stocks. The disconnect suggests investors are pricing in a risk that outweighs near-term oil gains: geopolitical turmoil in the Middle East could disrupt shipping lanes or global supply chains in ways that hurt demand and refinery throughput, especially if regional conflict spreads from Iran to Saudi Arabia (where the U.S. has just withdrawn non-emergency staff).\n\nThe timing also matters. Over the past week, as headlines have shifted from abstract energy-trade optimism to concrete threats of Middle East conflict, the stock has dropped roughly 3.5% from its mid-week high. U.S. refinery utilization is already running at a healthy 93.4%, leaving little room to boost output if crude supplies tighten further\u2014meaning a refiner like this one faces margin pressure if geopolitical shock raises input costs without matching demand.",
+  "fetchedAt": "2026-10-23T09:04:01.534315+00:00",
+  "text": "Marathon Petroleum fell 1.9% today as oil prices spiked on geopolitical tension\u2014Brent crude hit $113, its highest since May, after reports of planned U.S. strikes on Iran and the pullback of U.S. diplomats from Saudi Arabia. While higher crude prices typically benefit refiners, the sharp jump appears to have spooked the market; the stock has shed $17 over the past week despite refineries running at a healthy 93.4% capacity and gasoline inventories remaining relatively stable.\n\nThe broader concern may be that escalating Middle East conflict, while it supports crude values, threatens the stable supply chains refiners depend on. Added to that is competition creeping in from overseas\u2014news this week about India's Reliance expanding its refining footprint and potentially taking more Venezuelan crude suggests the global refining market is shifting in ways that could pressure U.S. players long-term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 179,
-    "inputTokens": 167013,
-    "outputTokens": 40556,
-    "estimatedCostUsd": 0.369793,
-    "lastCallHour": "2026-10-23T03"
+    "callsThisMonth": 180,
+    "inputTokens": 167952,
+    "outputTokens": 40756,
+    "estimatedCostUsd": 0.371732,
+    "lastCallHour": "2026-10-23T09"
   }
 }
