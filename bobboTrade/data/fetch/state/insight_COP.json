@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-23T09:03:49.545780+00:00",
-  "text": "ConocoPhillips fell a hair today, essentially flat, even as oil prices remain elevated and global energy tensions intensify. The stock has been climbing steadily over the past two weeks\u2014up 8.5% since mid-October\u2014riding a wave of geopolitical risk that's pushing crude higher: Brent crude hit $113 a barrel today after reports of potential U.S. strikes on Iran, while Middle East conflict risks have widened as the U.S. pulls diplomats from Saudi Arabia. The oil refiner benefited from this rally, but today's pause likely reflects profit-taking after such a sharp two-week gain rather than any new negative catalyst.\n\nThe broader energy trade remains supported by multiple supply concerns\u2014Iranian tensions, Ukrainian drone strikes crippling Russian diesel production, and potential instability in Saudi Arabia\u2014all of which keep crude prices elevated and should favor an integrated producer and refiner like this company. However, the stock's near-flat close today suggests the market may be digesting the scale of these risks rather than pushing higher on each new headline.",
+  "fetchedAt": "2026-10-23T14:38:42.642688+00:00",
+  "text": "ConocoPhillips jumped 3.8% today to $151.22, driven by a sharp spike in oil prices on geopolitical tensions. Brent crude hit $116\u2014a six-month high\u2014as the U.S. escalated rhetoric around Iran and reportedly readied military strikes, with diplomats being pulled from Saudi Arabia after Houthi attacks on oil infrastructure. For an oil major like ConocoPhillips, higher crude prices directly boost the value of the oil it produces and sells.\n\nThis move fits a broader energy rally over the past two weeks (COP up 12.77% since mid-October) as Middle East conflict risks have risen sharply. The combination of Ukraine's disruption to diesel supply and U.S.-Iran tensions has pushed crude toward levels not seen since spring, creating an environment where oil producers' profits expand\u2014and their stock prices tend to follow.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 180,
-    "inputTokens": 156965,
-    "outputTokens": 38348,
-    "estimatedCostUsd": 0.348705,
-    "lastCallHour": "2026-10-23T09"
+    "callsThisMonth": 181,
+    "inputTokens": 157821,
+    "outputTokens": 38543,
+    "estimatedCostUsd": 0.350536,
+    "lastCallHour": "2026-10-23T14"
   }
 }

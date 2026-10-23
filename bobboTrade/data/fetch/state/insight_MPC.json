@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T09:04:01.534315+00:00",
-  "text": "Marathon Petroleum fell 1.9% today as oil prices spiked on geopolitical tension\u2014Brent crude hit $113, its highest since May, after reports of planned U.S. strikes on Iran and the pullback of U.S. diplomats from Saudi Arabia. While higher crude prices typically benefit refiners, the sharp jump appears to have spooked the market; the stock has shed $17 over the past week despite refineries running at a healthy 93.4% capacity and gasoline inventories remaining relatively stable.\n\nThe broader concern may be that escalating Middle East conflict, while it supports crude values, threatens the stable supply chains refiners depend on. Added to that is competition creeping in from overseas\u2014news this week about India's Reliance expanding its refining footprint and potentially taking more Venezuelan crude suggests the global refining market is shifting in ways that could pressure U.S. players long-term.",
+  "fetchedAt": "2026-10-23T14:39:03.121926+00:00",
+  "text": "Marathon Petroleum stock ticked up just 0.28% today to close at $460.56, continuing a volatile week that saw it drop nearly 4% from Monday's peak before recovering slightly in the last two days. The modest gain fits with broader oil-market steadiness: Brent crude hit a fresh six-month high of $116 on escalating Middle East tensions\u2014Trump accused Iran of manipulating oil prices, and U.S. diplomats are being pulled from Saudi Arabia as military action looms\u2014yet those geopolitical fears appear to have largely priced in already, leaving little fresh catalyst for big moves today.\n\nThe real story for refiners like Marathon this week has been the underlying choppiness between threat and reality. Refinery utilization sits at a robust 93.4%, and the price spread between crude and refined products matters enormously to refiner margins\u2014but with geopolitical risk already baked into oil prices and no major refining disruption materializing yet, the stock has settled after its sharp losses early in the week. The week's back-and-forth suggests traders are torn between betting on widening margins from high oil prices versus worrying that geopolitical shocks could quickly crimp demand or supply.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 180,
-    "inputTokens": 167952,
-    "outputTokens": 40756,
-    "estimatedCostUsd": 0.371732,
-    "lastCallHour": "2026-10-23T09"
+    "callsThisMonth": 181,
+    "inputTokens": 168870,
+    "outputTokens": 41021,
+    "estimatedCostUsd": 0.373975,
+    "lastCallHour": "2026-10-23T14"
   }
 }
