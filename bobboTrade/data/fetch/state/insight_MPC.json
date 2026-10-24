@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T05:21:35.999834+00:00",
-  "text": "Marathon Petroleum fell 0.45% today to $457.20, continuing a sharp downtrend from a peak of $478 just a week ago, despite crude oil hitting a six-month high above $116 per barrel. The paradox here is real: oil prices are rising on Middle East tensions and Iran conflict fears, but the refiner's stock is falling. The likely culprit is that rising crude costs eat directly into refinery margins \u2014 the difference between what refiners pay for oil and what they sell refined products for \u2014 and with U.S. refineries already running hot at 93.4% capacity and storage levels rising (suggesting demand may not keep pace with rising supply costs), those margins are getting squeezed rather than expanding.\n\nThe broader squeeze is that geopolitical risk is lifting *crude* but not demand for gasoline and diesel proportionally. Gasoline stocks sit at 205 million barrels and diesel at 104 million barrels \u2014 healthy levels that suggest fuel demand isn't spiking in line with oil costs, leaving refiners caught between expensive feedstock and a market that isn't paying proportionally more for the finished product.",
+  "fetchedAt": "2026-10-24T10:13:37.492354+00:00",
+  "text": "Marathon Petroleum fell 0.45% today, continuing a downward drift over the past week despite sharp gains in crude oil prices. Brent crude topped $116 today\u2014a six-month high\u2014as Middle East tensions escalated with reports of U.S. military action against Iran and Houthi strikes on Saudi oil infrastructure. For a refiner like Marathon, higher crude costs cut into profit margins on the fuel they produce and sell, even though the company benefits from processing oil. U.S. refineries are running at 93.4% capacity with ample fuel inventory, leaving little room for margins to expand.\n\nThe stock's weakness over the past week reflects a real tension in refining economics: while geopolitical risk drives crude prices higher and can tighten supply, it also raises input costs faster than refiners can pass those costs to customers. With storage levels healthy and no shortage of refining capacity, there's no offsetting tailwind from scarcity value.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 186,
-    "inputTokens": 173467,
-    "outputTokens": 42224,
-    "estimatedCostUsd": 0.384587,
-    "lastCallHour": "2026-10-24T05"
+    "callsThisMonth": 187,
+    "inputTokens": 174386,
+    "outputTokens": 42434,
+    "estimatedCostUsd": 0.386556,
+    "lastCallHour": "2026-10-24T10"
   }
 }
