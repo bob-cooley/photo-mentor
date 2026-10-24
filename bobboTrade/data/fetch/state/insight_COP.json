@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-24T10:13:23.303206+00:00",
-  "text": "ConocoPhillips jumped 3.6% today as crude oil prices spiked to their highest levels in six months, driven by escalating Middle East tensions and threats of U.S. military action against Iran. Brent crude topped $116 a barrel\u2014well above the $107\u2013$115 range the market was trading in just days earlier\u2014and this sharp move directly lifts profits for oil producers like ConocoPhillips, which earn more when the commodity they pump commands higher prices.\n\nThe broader backdrop is a shift in global energy markets triggered by regional conflict: supply uncertainty, combined with reports that the U.S. is preparing strikes on Iran and withdrawing diplomatic staff from Saudi Arabia, has made oil a beneficiary of geopolitical risk. The stock's 12% gain over two weeks reflects this same tailwind\u2014oil has been climbing as investors price in both immediate supply disruption risk and longer-term changes to which countries and companies benefit from higher energy costs.",
+  "fetchedAt": "2026-10-24T14:14:12.101291+00:00",
+  "text": "ConocoPhillips jumped 3.55% today as oil prices surged to their highest levels in six months, driven by escalating Middle East tensions and U.S. military posturing toward Iran. Brent crude\u2014the global benchmark\u2014climbed above $116 a barrel, and the news flow over the past two days centered on Trump administration threats of strikes against Iran and the withdrawal of U.S. diplomats from Saudi Arabia following Houthi attacks on energy infrastructure. For an oil producer like ConocoPhillips, higher crude prices flow directly to the bottom line, making today's jump a straightforward reflection of a much tighter global energy market.\n\nThe stock's 12.45% rally over two weeks shows this isn't just today's noise\u2014it's part of a broader reshuffling of energy markets as geopolitical risk in the Middle East pushes crude higher and redirects energy flows globally. U.S. oil and gas companies stand to benefit as countries diversify away from suppliers affected by regional conflict, which has already shown up in new liquefied natural gas deals with Qatar mentioned in the reporting.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 187,
-    "inputTokens": 162961,
-    "outputTokens": 39742,
-    "estimatedCostUsd": 0.361671,
-    "lastCallHour": "2026-10-24T10"
+    "callsThisMonth": 188,
+    "inputTokens": 163818,
+    "outputTokens": 39984,
+    "estimatedCostUsd": 0.363738,
+    "lastCallHour": "2026-10-24T14"
   }
 }

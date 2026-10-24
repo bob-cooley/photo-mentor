@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T10:13:37.492354+00:00",
-  "text": "Marathon Petroleum fell 0.45% today, continuing a downward drift over the past week despite sharp gains in crude oil prices. Brent crude topped $116 today\u2014a six-month high\u2014as Middle East tensions escalated with reports of U.S. military action against Iran and Houthi strikes on Saudi oil infrastructure. For a refiner like Marathon, higher crude costs cut into profit margins on the fuel they produce and sell, even though the company benefits from processing oil. U.S. refineries are running at 93.4% capacity with ample fuel inventory, leaving little room for margins to expand.\n\nThe stock's weakness over the past week reflects a real tension in refining economics: while geopolitical risk drives crude prices higher and can tighten supply, it also raises input costs faster than refiners can pass those costs to customers. With storage levels healthy and no shortage of refining capacity, there's no offsetting tailwind from scarcity value.",
+  "fetchedAt": "2026-10-24T14:14:23.750598+00:00",
+  "text": "Marathon Petroleum closed down 0.45% today as crude oil prices continued climbing on Middle East tensions, with Brent crude topping $116 \u2014 a six-month high. While higher oil prices typically benefit refiners by increasing the value of products they sell, the sharp geopolitical risk premium appears to be outweighing that benefit for now. The stock has fallen about 4.6% over the past week despite these elevated crude prices, suggesting investors are pricing in concern about regional conflict disruption rather than betting on sustained refining margins.\n\nThe broader picture adds context: U.S. refineries are running at 93.4% capacity and crude inventories are elevated at 695 million barrels, which means refiners already have ample feedstock. In an environment where geopolitical risk is driving oil prices higher rather than steady demand growth, refiners face a squeeze \u2014 they can't easily pass through the higher crude costs to customers if the price spike is seen as temporary.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 187,
-    "inputTokens": 174386,
-    "outputTokens": 42434,
-    "estimatedCostUsd": 0.386556,
-    "lastCallHour": "2026-10-24T10"
+    "callsThisMonth": 188,
+    "inputTokens": 175305,
+    "outputTokens": 42645,
+    "estimatedCostUsd": 0.38853,
+    "lastCallHour": "2026-10-24T14"
   }
 }
