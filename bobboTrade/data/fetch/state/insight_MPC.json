@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T00:14:22.938527+00:00",
-  "text": "Marathon Petroleum fell 0.45% today, continuing a slide from its peak of $478 six trading days ago. The stock has lost nearly $21 per share in just over a week despite crude oil prices hitting six-month highs \u2014 Brent is now above $116 per barrel. This disconnect points to the market pricing in a real risk: while high oil prices can boost refinery margins in theory, geopolitical escalation in the Middle East (U.S. strikes on Iran, Houthi attacks, American diplomats pulled from Saudi Arabia) threatens to disrupt global supply chains and create uncertainty that outweighs the short-term benefit of elevated crude costs.\n\nU.S. refineries are running at 93.4% capacity with healthy fuel inventories, so the company isn't constrained by supply or demand on the domestic side. The sell-off appears driven by worry that a widening regional conflict could destabilize energy markets in ways that hurt refiner operations \u2014 whether through logistics disruptions, financial market volatility, or a shift in how crude flows globally \u2014 rather than by any weakness in the refining business itself right now.",
+  "fetchedAt": "2026-10-24T05:21:35.999834+00:00",
+  "text": "Marathon Petroleum fell 0.45% today to $457.20, continuing a sharp downtrend from a peak of $478 just a week ago, despite crude oil hitting a six-month high above $116 per barrel. The paradox here is real: oil prices are rising on Middle East tensions and Iran conflict fears, but the refiner's stock is falling. The likely culprit is that rising crude costs eat directly into refinery margins \u2014 the difference between what refiners pay for oil and what they sell refined products for \u2014 and with U.S. refineries already running hot at 93.4% capacity and storage levels rising (suggesting demand may not keep pace with rising supply costs), those margins are getting squeezed rather than expanding.\n\nThe broader squeeze is that geopolitical risk is lifting *crude* but not demand for gasoline and diesel proportionally. Gasoline stocks sit at 205 million barrels and diesel at 104 million barrels \u2014 healthy levels that suggest fuel demand isn't spiking in line with oil costs, leaving refiners caught between expensive feedstock and a market that isn't paying proportionally more for the finished product.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 185,
-    "inputTokens": 172546,
-    "outputTokens": 41975,
-    "estimatedCostUsd": 0.382421,
-    "lastCallHour": "2026-10-24T00"
+    "callsThisMonth": 186,
+    "inputTokens": 173467,
+    "outputTokens": 42224,
+    "estimatedCostUsd": 0.384587,
+    "lastCallHour": "2026-10-24T05"
   }
 }
