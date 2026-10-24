@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T14:14:23.750598+00:00",
-  "text": "Marathon Petroleum closed down 0.45% today as crude oil prices continued climbing on Middle East tensions, with Brent crude topping $116 \u2014 a six-month high. While higher oil prices typically benefit refiners by increasing the value of products they sell, the sharp geopolitical risk premium appears to be outweighing that benefit for now. The stock has fallen about 4.6% over the past week despite these elevated crude prices, suggesting investors are pricing in concern about regional conflict disruption rather than betting on sustained refining margins.\n\nThe broader picture adds context: U.S. refineries are running at 93.4% capacity and crude inventories are elevated at 695 million barrels, which means refiners already have ample feedstock. In an environment where geopolitical risk is driving oil prices higher rather than steady demand growth, refiners face a squeeze \u2014 they can't easily pass through the higher crude costs to customers if the price spike is seen as temporary.",
+  "fetchedAt": "2026-10-24T17:48:36.040542+00:00",
+  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a five-day slide that has wiped out 4.4% since mid-October. The decline comes despite crude oil prices hitting six-month highs\u2014Brent crude topped $116 today\u2014driven by escalating Middle East tensions and U.S. threats of military action against Iran. For a refiner like Marathon, higher crude costs are a headwind: refiners buy oil at spot prices and sell refined products (gasoline, diesel) at prices that don't always move in lockstep, so rising crude can compress profit margins in the short term.\n\nThe broader energy trade is benefiting U.S. exporters of liquefied natural gas and other sellers who profit from geopolitical supply fears, but refiners face a squeeze when crude rallies faster than their output can be priced. With refineries running at 93.4% capacity and storage levels moderate, Marathon is locked into high feedstock costs without the immediate pricing power to pass that on\u2014a classic refiner dilemma in a spiking crude environment.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 188,
-    "inputTokens": 175305,
-    "outputTokens": 42645,
-    "estimatedCostUsd": 0.38853,
-    "lastCallHour": "2026-10-24T14"
+    "callsThisMonth": 189,
+    "inputTokens": 176224,
+    "outputTokens": 42884,
+    "estimatedCostUsd": 0.390644,
+    "lastCallHour": "2026-10-24T17"
   }
 }
