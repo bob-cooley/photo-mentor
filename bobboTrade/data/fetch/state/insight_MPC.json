@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T21:50:06.623730+00:00",
-  "text": "Marathon Petroleum fell 0.45% today, continuing a sharp four-day decline that has wiped out 4.4% since mid-week. The timing tracks closely with escalating Middle East tensions: oil prices have surged to six-month highs (Brent crude at $116), U.S. diplomats have been pulled from Saudi Arabia, and President Trump has signaled potential strikes on Iran. While high crude prices might seem good for a refiner, the reality is more complex \u2014 refineries profit from the *difference* between crude costs and product prices, and the market uncertainty around possible military action appears to be spooking investors despite oil at these elevated levels.\n\nU.S. refineries are running at 93.4% capacity with healthy fuel inventories across gasoline and diesel, so the equipment itself isn't the constraint. The sell-off likely reflects investor worry that regional conflict could disrupt supply chains, margins, or broader growth \u2014 or simply a flight to safety as geopolitical risk spikes, even though geopolitical oil premiums can cut both ways for refiners.",
+  "fetchedAt": "2026-10-24T00:14:22.938527+00:00",
+  "text": "Marathon Petroleum fell 0.45% today, continuing a slide from its peak of $478 six trading days ago. The stock has lost nearly $21 per share in just over a week despite crude oil prices hitting six-month highs \u2014 Brent is now above $116 per barrel. This disconnect points to the market pricing in a real risk: while high oil prices can boost refinery margins in theory, geopolitical escalation in the Middle East (U.S. strikes on Iran, Houthi attacks, American diplomats pulled from Saudi Arabia) threatens to disrupt global supply chains and create uncertainty that outweighs the short-term benefit of elevated crude costs.\n\nU.S. refineries are running at 93.4% capacity with healthy fuel inventories, so the company isn't constrained by supply or demand on the domestic side. The sell-off appears driven by worry that a widening regional conflict could destabilize energy markets in ways that hurt refiner operations \u2014 whether through logistics disruptions, financial market volatility, or a shift in how crude flows globally \u2014 rather than by any weakness in the refining business itself right now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 184,
-    "inputTokens": 171627,
-    "outputTokens": 41727,
-    "estimatedCostUsd": 0.380262,
-    "lastCallHour": "2026-10-23T21"
+    "callsThisMonth": 185,
+    "inputTokens": 172546,
+    "outputTokens": 41975,
+    "estimatedCostUsd": 0.382421,
+    "lastCallHour": "2026-10-24T00"
   }
 }
