@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T20:09:22.028500+00:00",
-  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a five-day slide that has wiped out about 4% from its mid-October high. The decline comes despite crude oil prices hitting six-month highs\u2014Brent crude topped $116 per barrel today\u2014because geopolitical tension in the Middle East is creating uncertainty rather than stable refining margins. While high oil prices can help refiners' profits if they can buy crude cheaply and sell products at a premium, the risk of supply disruptions and potential U.S. military action against Iran is making the market jittery enough to keep buyers cautious on refinery stocks.\n\nThe timing matters: oil surged over the past two days on reports of U.S. plans to resume strikes on Iran, yet MPC kept falling even as crude climbed. This suggests investors are pricing in that geopolitical volatility\u2014including the U.S. withdrawing diplomats from Saudi Arabia\u2014outweighs the near-term benefit of elevated crude prices. Refineries are already running at a robust 93.4% capacity and fuel storage remains solid, so there's no supply tightness to drive refiner profits; the market is simply moving away from the sector while it watches the region.",
+  "fetchedAt": "2026-10-24T22:52:02.257956+00:00",
+  "text": "Marathon Petroleum stock fell 0.45% today to $459.28, continuing a decline that started after hitting $478 six days ago. The broader refining sector faces headwinds despite soaring crude oil prices: while Brent crude has climbed to $116 on Middle East tensions, U.S. refineries are running at 93.4% capacity and gasoline and diesel inventories remain elevated. For a refiner, higher crude input costs paired with high inventory levels can squeeze profit margins, even as the geopolitical premium pushes oil prices higher.\n\nThe underlying tension for the stock reflects a mismatch between energy markets and refining economics. U.S. oil sits $7 below Brent crude, and while geopolitical risk is supporting global prices, the domestic refining industry is flush with product inventory\u2014a sign that demand or sales velocity isn't keeping pace with production. In this environment, refiners can struggle to pass soaring input costs to customers quickly enough.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 190,
-    "inputTokens": 177143,
-    "outputTokens": 43157,
-    "estimatedCostUsd": 0.392928,
-    "lastCallHour": "2026-10-24T20"
+    "callsThisMonth": 191,
+    "inputTokens": 178062,
+    "outputTokens": 43371,
+    "estimatedCostUsd": 0.394917,
+    "lastCallHour": "2026-10-24T22"
   }
 }
