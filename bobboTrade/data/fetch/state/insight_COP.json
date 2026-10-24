@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-24T17:48:17.796431+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, capping a remarkable two-week rally of 12.45%. The move tracks directly with oil prices surging to six-month highs\u2014Brent crude crossed $116 per barrel today\u2014driven by escalating Middle East tensions and U.S. threats of military action against Iran. As a major oil producer, ConocoPhillips benefits immediately when crude prices spike, since higher oil translates to higher revenue and profits per barrel produced.\n\nThe broader story here is that geopolitical risk in the Middle East has become the dominant market driver. News of U.S. diplomats withdrawing from Saudi Arabia, reported plans for renewed strikes on Iran, and Houthi attacks on oil infrastructure have convinced investors that regional conflict could tighten global oil supply. That risk premium is flowing directly into energy stocks, and companies like ConocoPhillips\u2014which pump oil regardless of where prices come from\u2014are seeing their valuations reset upward as traders bet on sustained higher prices.",
+  "fetchedAt": "2026-10-24T20:09:05.375975+00:00",
+  "text": "ConocoPhillips shot up 3.55% today as oil prices spiked to a six-month high on escalating Middle East tensions. Brent crude jumped above $116 per barrel after the U.S. pulled diplomats from Saudi Arabia and signaled plans for strikes on Iran, with President Trump accusing Iran of manipulating oil markets. For an oil major like ConocoPhillips, higher crude prices directly boost profits from both production and refining operations.\n\nThis move is part of a much larger two-week rally\u2014the stock up 12.45% since mid-October\u2014as geopolitical risks have fundamentally reshaped energy markets. The Iran situation is widening the gap between global oil ($115.22) and U.S. oil ($107.89), and reports show U.S. energy companies, particularly natural gas exporters, are benefiting as buyers shift away from unstable suppliers. For a diversified energy company with global operations, this regional conflict has become a tailwind rather than just headline noise.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 189,
-    "inputTokens": 164675,
-    "outputTokens": 40213,
-    "estimatedCostUsd": 0.36574,
-    "lastCallHour": "2026-10-24T17"
+    "callsThisMonth": 190,
+    "inputTokens": 165532,
+    "outputTokens": 40439,
+    "estimatedCostUsd": 0.367727,
+    "lastCallHour": "2026-10-24T20"
   }
 }

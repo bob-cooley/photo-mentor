@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T17:48:36.040542+00:00",
-  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a five-day slide that has wiped out 4.4% since mid-October. The decline comes despite crude oil prices hitting six-month highs\u2014Brent crude topped $116 today\u2014driven by escalating Middle East tensions and U.S. threats of military action against Iran. For a refiner like Marathon, higher crude costs are a headwind: refiners buy oil at spot prices and sell refined products (gasoline, diesel) at prices that don't always move in lockstep, so rising crude can compress profit margins in the short term.\n\nThe broader energy trade is benefiting U.S. exporters of liquefied natural gas and other sellers who profit from geopolitical supply fears, but refiners face a squeeze when crude rallies faster than their output can be priced. With refineries running at 93.4% capacity and storage levels moderate, Marathon is locked into high feedstock costs without the immediate pricing power to pass that on\u2014a classic refiner dilemma in a spiking crude environment.",
+  "fetchedAt": "2026-10-24T20:09:22.028500+00:00",
+  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a five-day slide that has wiped out about 4% from its mid-October high. The decline comes despite crude oil prices hitting six-month highs\u2014Brent crude topped $116 per barrel today\u2014because geopolitical tension in the Middle East is creating uncertainty rather than stable refining margins. While high oil prices can help refiners' profits if they can buy crude cheaply and sell products at a premium, the risk of supply disruptions and potential U.S. military action against Iran is making the market jittery enough to keep buyers cautious on refinery stocks.\n\nThe timing matters: oil surged over the past two days on reports of U.S. plans to resume strikes on Iran, yet MPC kept falling even as crude climbed. This suggests investors are pricing in that geopolitical volatility\u2014including the U.S. withdrawing diplomats from Saudi Arabia\u2014outweighs the near-term benefit of elevated crude prices. Refineries are already running at a robust 93.4% capacity and fuel storage remains solid, so there's no supply tightness to drive refiner profits; the market is simply moving away from the sector while it watches the region.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 189,
-    "inputTokens": 176224,
-    "outputTokens": 42884,
-    "estimatedCostUsd": 0.390644,
-    "lastCallHour": "2026-10-24T17"
+    "callsThisMonth": 190,
+    "inputTokens": 177143,
+    "outputTokens": 43157,
+    "estimatedCostUsd": 0.392928,
+    "lastCallHour": "2026-10-24T20"
   }
 }
