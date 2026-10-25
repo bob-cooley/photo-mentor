@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T19:02:08.955691+00:00",
-  "text": "Marathon Petroleum's stock has fallen about 4.6% over the past week, with today's small decline continuing a downward trend that accelerated sharply on October 21-22. The timing aligns with escalating Middle East tensions\u2014Iran war threats and Houthi attacks on Saudi energy infrastructure sent Brent crude to six-month highs around $116\u2014but paradoxically, refiners typically benefit when oil prices rise because they buy crude cheap and sell refined products at higher prices. The stock's weakness suggests the market is pricing in something beyond simple oil price moves, possibly concern that geopolitical disruption to crude supply chains or refining operations will outweigh margin gains, or that the current 93.4% refinery utilization rate has limited room to expand profitably.\n\nThe broader energy trade has rotated away from refiners and toward oil producers and liquefied natural gas exporters, which benefit more directly from higher crude prices without the operational complexity refiners face during supply shocks. With oil storage relatively high at 695 million barrels and gasoline in storage elevated, there's less urgency for refiners to run harder, which may be dampening investor enthusiasm for the sector despite headline oil prices hitting their highest levels in months.",
+  "fetchedAt": "2026-10-25T20:02:12.927094+00:00",
+  "text": "Marathon Petroleum's stock has fallen about 2% over the past week, sliding from $478 down to $457 today, despite oil prices climbing to six-month highs above $116 a barrel. The weakness comes even as refinery utilization sits at a healthy 93.4%, suggesting the move isn't about operational challenges. Instead, the stock appears to be caught in a reversal of the geopolitical risk premium that initially pushed energy stocks higher\u2014as Middle East tensions (Houthi attacks, U.S.-Iran frictions) have persisted without escalating dramatically further, some of those gains are being trimmed back.\n\nThe broader pattern here is that refiners benefit from higher oil prices in a specific way: they profit from the spread between crude costs and finished fuel prices. Right now, storage levels for gasoline and diesel are historically normal, so refiners can't simply pocket the full benefit of $107\u2013115 oil. With the initial shock of geopolitical risk already priced in and no fresh operational catalyst, the stock is drifting lower alongside a normalization of what initially looked like a short, sharp rally.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 201,
-    "inputTokens": 187203,
-    "outputTokens": 45732,
-    "estimatedCostUsd": 0.415863,
-    "lastCallHour": "2026-10-25T19"
+    "callsThisMonth": 202,
+    "inputTokens": 188115,
+    "outputTokens": 45976,
+    "estimatedCostUsd": 0.417995,
+    "lastCallHour": "2026-10-25T20"
   }
 }

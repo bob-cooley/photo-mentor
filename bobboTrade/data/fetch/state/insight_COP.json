@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-25T19:01:30.104271+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, its highest close in two weeks, as oil prices spiked on escalating Middle East tensions. Brent crude topped $116 a barrel\u2014a six-month high\u2014after Saudi Arabia reported intercepting Iranian-backed Houthi attacks on energy infrastructure, and as the Trump administration signaled potential military action against Iran. For an oil major like ConocoPhillips, higher crude prices directly boost the value of reserves in the ground and improve refining and production margins.\n\nThe two-week rally of 12.45% reflects a broader shift in energy markets driven by supply-risk premiums: regional conflict is making investors see U.S. energy assets\u2014oil producers and liquefied natural gas exporters especially\u2014as safer bets in a tightening global market. The gap between world oil ($115.22) and U.S. oil ($107.89) also widens the profit opportunities for companies with international operations.",
+  "fetchedAt": "2026-10-25T20:01:50.421483+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to $150.80, extending a two-week rally of over 12%. The main driver is a sharp climb in oil prices\u2014Brent crude hit $116 a barrel (a six-month high) as Middle East tensions escalated with Saudi Arabia intercepting Iranian-backed Houthi missiles and drones, and the Trump administration signaling potential military action against Iran. For an oil and gas producer like ConocoPhillips, higher crude prices directly improve profitability on the barrels it sells.\n\nThe broader context is that geopolitical risk in the Middle East is reshaping global energy markets in ways that benefit U.S. energy companies. U.S. oil prices are trading at a $7 discount to global Brent prices, which typically creates better margins for American producers who can sell into either market. This regional supply uncertainty\u2014combined with the market's view that the Iran situation could worsen further\u2014has made energy stocks like this one a favored trade over the past two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 201,
-    "inputTokens": 174910,
-    "outputTokens": 42695,
-    "estimatedCostUsd": 0.388385,
-    "lastCallHour": "2026-10-25T19"
+    "callsThisMonth": 202,
+    "inputTokens": 175760,
+    "outputTokens": 42924,
+    "estimatedCostUsd": 0.39038,
+    "lastCallHour": "2026-10-25T20"
   }
 }
