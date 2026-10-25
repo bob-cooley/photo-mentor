@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T05:38:41.139991+00:00",
-  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a sharp slide from its $478 high six days ago. The immediate pressure comes from the collapse in the U.S.\u2013Brent crude spread: U.S. oil sits at $107.89 while Brent (the global benchmark) has spiked to $116, a six-month high on Middle East tensions and U.S.\u2013Iran conflict escalation. For a refiner like Marathon, a wider gap between what crude costs globally versus domestically is a headwind\u2014it cuts into the profit margin they make by turning cheap domestic oil into fuel. Refineries are running hard at 93.4% capacity, so they can't ease production to match tighter margins.\n\nThe broader issue is geopolitical: Middle East tensions and potential U.S. strikes on Iran are pushing global crude higher, but U.S. domestic supply remains plentiful (695 million barrels in storage). That leaves refiners squeezed between expensive global crude and a market flooded with cheap domestic feedstock, exactly the opposite of the tight-supply environment that usually benefits them.",
+  "fetchedAt": "2026-10-25T10:38:48.783830+00:00",
+  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a five-day decline that has shed $21 from its October 16 high. The sell-off comes despite Brent crude oil hitting $116 per barrel\u2014a six-month high\u2014driven by escalating Middle East tensions and Trump administration threats of strikes against Iran. For a refiner, higher crude prices typically squeeze profit margins on fuel production, which appears to be outweighing any benefit from the elevated oil prices themselves.\n\nThe broader refining environment supports this squeeze: U.S. refineries are running at 93.4% capacity while gasoline and diesel inventories remain well-stocked, meaning refiners can't easily pass higher crude costs to consumers. As geopolitical risk keeps crude elevated, refiners face the worst scenario\u2014forced to buy expensive raw material into a market where they can't command higher margins on the finished fuel they sell.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 193,
-    "inputTokens": 179900,
-    "outputTokens": 43837,
-    "estimatedCostUsd": 0.399085,
-    "lastCallHour": "2026-10-25T05"
+    "callsThisMonth": 194,
+    "inputTokens": 180819,
+    "outputTokens": 44039,
+    "estimatedCostUsd": 0.401014,
+    "lastCallHour": "2026-10-25T10"
   }
 }
