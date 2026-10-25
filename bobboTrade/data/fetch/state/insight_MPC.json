@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-24T22:52:02.257956+00:00",
-  "text": "Marathon Petroleum stock fell 0.45% today to $459.28, continuing a decline that started after hitting $478 six days ago. The broader refining sector faces headwinds despite soaring crude oil prices: while Brent crude has climbed to $116 on Middle East tensions, U.S. refineries are running at 93.4% capacity and gasoline and diesel inventories remain elevated. For a refiner, higher crude input costs paired with high inventory levels can squeeze profit margins, even as the geopolitical premium pushes oil prices higher.\n\nThe underlying tension for the stock reflects a mismatch between energy markets and refining economics. U.S. oil sits $7 below Brent crude, and while geopolitical risk is supporting global prices, the domestic refining industry is flush with product inventory\u2014a sign that demand or sales velocity isn't keeping pace with production. In this environment, refiners can struggle to pass soaring input costs to customers quickly enough.",
+  "fetchedAt": "2026-10-25T00:47:28.538285+00:00",
+  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a slide from its $478 peak six days ago. Despite crude oil prices hitting six-month highs\u2014Brent crude above $116 a barrel\u2014the stock has drifted lower as geopolitical tensions in the Middle East escalated. While rising oil prices can boost refiner profits by widening the gap between crude costs and refined product prices, the market appears to be pricing in potential supply disruptions and regional instability that could reshape energy flows, rather than betting on a simple margin expansion.\n\nThe broader energy sector is experiencing a complex crosscurrent: U.S. refineries are running at 93.4% capacity and global oil is expensive, but the Iran conflict is simultaneously benefiting liquefied natural gas exporters and creating uncertainty about Persian Gulf operations. For a refiner like this one, geopolitical risk and the possibility of supply shocks may be overshadowing the near-term benefit of higher crude prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 191,
-    "inputTokens": 178062,
-    "outputTokens": 43371,
-    "estimatedCostUsd": 0.394917,
-    "lastCallHour": "2026-10-24T22"
+    "callsThisMonth": 192,
+    "inputTokens": 178981,
+    "outputTokens": 43587,
+    "estimatedCostUsd": 0.396916,
+    "lastCallHour": "2026-10-25T00"
   }
 }
