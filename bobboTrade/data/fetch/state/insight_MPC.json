@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T15:01:45.407355+00:00",
-  "text": "Marathon Petroleum has fallen about 2% over the past week, with today's small decline continuing a downward trend that started after mid-October. The immediate pressure seems to come from broader refinery economics: while crude oil prices have climbed sharply (Brent at $116, US oil at $108), refineries are already running at 93.4% capacity with gasoline and diesel inventories elevated at 205 million and 104 million barrels respectively. When refineries can't run much harder and inventories are building, refiners' profit margins tend to narrow even as oil prices rise\u2014they're paying more for crude but can't push through enough additional volume to offset it.\n\nThe escalating Middle East tensions (Iran-backed Houthi attacks, Trump's rhetoric on Iran, and Saudi interceptions) have driven oil prices higher, but this is actually a mixed signal for a refiner. Geopolitical oil spikes tend to be temporary and can create refining headwinds if they don't translate into sustained demand\u2014right now the data shows inventory builds, not drawdowns, suggesting the market isn't burning through product faster despite higher crude costs.",
+  "fetchedAt": "2026-10-25T16:01:36.441287+00:00",
+  "text": "Marathon Petroleum stock fell 0.45% today, extending a sharp decline over the past week that has wiped out most of its two-week gains. The decline fits a broader pullback in oil refining stocks despite crude prices staying elevated\u2014Brent crude is near six-month highs above $116 per barrel due to Middle East tensions and Iran concerns. However, U.S. refinery utilization has slipped to 93.4%, and gasoline and diesel inventories remain relatively high, which can pressure refiner margins by reducing urgency for new production.\n\nThe recent news cycle has been dominated by geopolitical risk\u2014Iranian-backed Houthi attacks on Saudi energy sites, U.S. threats of military action against Iran, and concerns about oil market manipulation. While these headlines have pushed crude prices up, refiner profitability depends on the *spread* between crude input costs and the value of finished fuels like gasoline and diesel; high crude prices without corresponding fuel demand can actually squeeze margins, which appears to be weighing on the stock despite the headline oil price strength.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 197,
-    "inputTokens": 183555,
-    "outputTokens": 44720,
-    "estimatedCostUsd": 0.407155,
-    "lastCallHour": "2026-10-25T15"
+    "callsThisMonth": 198,
+    "inputTokens": 184467,
+    "outputTokens": 44954,
+    "estimatedCostUsd": 0.409237,
+    "lastCallHour": "2026-10-25T16"
   }
 }
