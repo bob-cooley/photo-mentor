@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T17:01:44.698447+00:00",
-  "text": "Marathon Petroleum stock fell 0.45% today to $457.22, continuing a slide that's cost it nearly $21 per share since mid-October. The decline fits a broader pullback in energy stocks as oil prices, while still elevated, have peaked: Brent crude hit $116 earlier this week on Middle East tensions but has since retreated slightly, and the stock has dropped four of the last five trading days as the initial geopolitical panic fades. Refinery utilization remains solid at 93.4%, but with crude inventories rising to 695 million barrels and gasoline stocks elevated, refiners face less pricing power even with oil costs still above $107.\n\nThe underlying issue is that while Middle East conflict headlines (Iran-backed Houthis, Saudi interceptions, U.S. tensions with Iran) did spike oil prices in late October, sustained high prices tend to trigger demand destruction\u2014drivers buy less fuel, inventories build\u2014which pressures refiner margins. Marathon's stock rallied on the initial supply shock but has given back those gains as the market appears to be pricing in that geopolitical premiums don't sustain indefinitely without actual supply disruptions.",
+  "fetchedAt": "2026-10-25T18:01:49.306609+00:00",
+  "text": "Marathon Petroleum's stock has fallen about 0.4% today, continuing a steady decline over the past week that has wiped out most of its modest two-week gains. The pullback comes despite oil prices sitting near six-month highs\u2014Brent crude is at $116 per barrel\u2014driven by escalating tensions in the Middle East and Houthi attacks on regional energy infrastructure. For a refiner, this is counterintuitive at first: higher crude oil prices typically squeeze refining margins (the profit on turning crude into gasoline and diesel) because refiners' input costs rise faster than they can pass those costs to consumers. The U.S. refinery sector is running at 93.4% capacity, already near peak utilization, leaving little room to boost output and capture upside from the price spike.\n\nThe broader context here is that energy markets are pricing in geopolitical risk rather than strong fundamentals. Gasoline and diesel inventories remain relatively healthy (205 million and 104 million barrels respectively), so there's no supply crunch driving demand for refined products\u2014the oil price move is about Middle East conflict and supply threats, not refinery strength.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 199,
-    "inputTokens": 185379,
-    "outputTokens": 45211,
-    "estimatedCostUsd": 0.411434,
-    "lastCallHour": "2026-10-25T17"
+    "callsThisMonth": 200,
+    "inputTokens": 186291,
+    "outputTokens": 45465,
+    "estimatedCostUsd": 0.413616,
+    "lastCallHour": "2026-10-25T18"
   }
 }
