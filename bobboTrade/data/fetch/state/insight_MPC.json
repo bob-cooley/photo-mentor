@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T18:01:49.306609+00:00",
-  "text": "Marathon Petroleum's stock has fallen about 0.4% today, continuing a steady decline over the past week that has wiped out most of its modest two-week gains. The pullback comes despite oil prices sitting near six-month highs\u2014Brent crude is at $116 per barrel\u2014driven by escalating tensions in the Middle East and Houthi attacks on regional energy infrastructure. For a refiner, this is counterintuitive at first: higher crude oil prices typically squeeze refining margins (the profit on turning crude into gasoline and diesel) because refiners' input costs rise faster than they can pass those costs to consumers. The U.S. refinery sector is running at 93.4% capacity, already near peak utilization, leaving little room to boost output and capture upside from the price spike.\n\nThe broader context here is that energy markets are pricing in geopolitical risk rather than strong fundamentals. Gasoline and diesel inventories remain relatively healthy (205 million and 104 million barrels respectively), so there's no supply crunch driving demand for refined products\u2014the oil price move is about Middle East conflict and supply threats, not refinery strength.",
+  "fetchedAt": "2026-10-25T19:02:08.955691+00:00",
+  "text": "Marathon Petroleum's stock has fallen about 4.6% over the past week, with today's small decline continuing a downward trend that accelerated sharply on October 21-22. The timing aligns with escalating Middle East tensions\u2014Iran war threats and Houthi attacks on Saudi energy infrastructure sent Brent crude to six-month highs around $116\u2014but paradoxically, refiners typically benefit when oil prices rise because they buy crude cheap and sell refined products at higher prices. The stock's weakness suggests the market is pricing in something beyond simple oil price moves, possibly concern that geopolitical disruption to crude supply chains or refining operations will outweigh margin gains, or that the current 93.4% refinery utilization rate has limited room to expand profitably.\n\nThe broader energy trade has rotated away from refiners and toward oil producers and liquefied natural gas exporters, which benefit more directly from higher crude prices without the operational complexity refiners face during supply shocks. With oil storage relatively high at 695 million barrels and gasoline in storage elevated, there's less urgency for refiners to run harder, which may be dampening investor enthusiasm for the sector despite headline oil prices hitting their highest levels in months.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 200,
-    "inputTokens": 186291,
-    "outputTokens": 45465,
-    "estimatedCostUsd": 0.413616,
-    "lastCallHour": "2026-10-25T18"
+    "callsThisMonth": 201,
+    "inputTokens": 187203,
+    "outputTokens": 45732,
+    "estimatedCostUsd": 0.415863,
+    "lastCallHour": "2026-10-25T19"
   }
 }

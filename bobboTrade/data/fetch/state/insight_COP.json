@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-25T18:01:36.097979+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, capping a remarkable two-week surge of 12.45%. The catalyst is straightforward: oil prices have spiked sharply on Middle East tensions. Brent crude topped $116 a barrel (a six-month high) after Saudi Arabia reported intercepting Houthi missiles and drones, while geopolitical rhetoric from the U.S. about potential action against Iran has kept supply concerns elevated. For an oil major like ConocoPhillips, higher crude prices flow directly to the bottom line\u2014more barrel revenue.\n\nThe broader tailwind here is that energy traders and analysts are now openly spotlighting oil stocks as a way to play the next leg of the energy trade, given how regional instability is reshaping global markets and benefiting U.S. energy companies. That shift in investor attention, combined with physical supply risk in one of the world's most critical regions, has created momentum that extends well beyond today's move.",
+  "fetchedAt": "2026-10-25T19:01:30.104271+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to $150.80, its highest close in two weeks, as oil prices spiked on escalating Middle East tensions. Brent crude topped $116 a barrel\u2014a six-month high\u2014after Saudi Arabia reported intercepting Iranian-backed Houthi attacks on energy infrastructure, and as the Trump administration signaled potential military action against Iran. For an oil major like ConocoPhillips, higher crude prices directly boost the value of reserves in the ground and improve refining and production margins.\n\nThe two-week rally of 12.45% reflects a broader shift in energy markets driven by supply-risk premiums: regional conflict is making investors see U.S. energy assets\u2014oil producers and liquefied natural gas exporters especially\u2014as safer bets in a tightening global market. The gap between world oil ($115.22) and U.S. oil ($107.89) also widens the profit opportunities for companies with international operations.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 200,
-    "inputTokens": 174060,
-    "outputTokens": 42476,
-    "estimatedCostUsd": 0.38644,
-    "lastCallHour": "2026-10-25T18"
+    "callsThisMonth": 201,
+    "inputTokens": 174910,
+    "outputTokens": 42695,
+    "estimatedCostUsd": 0.388385,
+    "lastCallHour": "2026-10-25T19"
   }
 }
