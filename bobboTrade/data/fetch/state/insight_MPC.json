@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T21:01:46.051336+00:00",
-  "text": "Marathon Petroleum fell 0.45% today, continuing a downward slide since mid-October that's erased most of a small two-week gain. The stock has dropped roughly 4.5% in the past week despite oil prices staying elevated\u2014Brent crude is near $116, a six-month high driven by Middle East tensions and Houthi attacks on energy infrastructure. The mismatch suggests the market is pricing in a headwind specific to refiners: at 93.4% capacity utilization and rising crude inventories (695 million barrels), there's less room for refineries to profit from processing crude into products, which is the core of Marathon's business.\n\nThe broader context is that geopolitical risk is pushing crude prices higher without boosting refinery margins. When oil gets expensive because of supply disruption fears rather than strong demand, refiners often get squeezed\u2014they pay more for crude but can't always pass that cost to customers fast enough, or demand softens as high prices discourage consumption. That's likely weighing on the stock despite the headlines that might otherwise look bullish for energy companies.",
+  "fetchedAt": "2026-10-25T23:46:06.656099+00:00",
+  "text": "Marathon Petroleum fell 0.45% today, continuing a three-day slide that's wiped out 4.5% since October 20. The immediate driver appears to be a pullback in oil prices despite ongoing Middle East tensions\u2014US crude dropped below $108 after hitting $116 earlier in the week, suggesting investors are digesting the geopolitical premium rather than pushing prices higher. When crude moves sharply lower, refiners' profit margins compress because they pay less for raw materials but the benefit doesn't always flow through immediately to their bottom line.\n\nThe broader context is that despite rising regional tensions and Houthi attacks on Saudi infrastructure, markets haven't sustained the panic-driven rally. US refineries are running at a healthy 93.4% utilization, and fuel storage levels remain ample, which removes any urgency-driven demand spike. The energy complex appears to be pricing in the conflict as a manageable risk rather than an imminent supply shock.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 203,
-    "inputTokens": 189027,
-    "outputTokens": 46218,
-    "estimatedCostUsd": 0.420117,
-    "lastCallHour": "2026-10-25T21"
+    "callsThisMonth": 204,
+    "inputTokens": 189939,
+    "outputTokens": 46425,
+    "estimatedCostUsd": 0.422064,
+    "lastCallHour": "2026-10-25T23"
   }
 }
