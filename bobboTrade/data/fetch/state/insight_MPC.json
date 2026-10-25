@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T16:01:36.441287+00:00",
-  "text": "Marathon Petroleum stock fell 0.45% today, extending a sharp decline over the past week that has wiped out most of its two-week gains. The decline fits a broader pullback in oil refining stocks despite crude prices staying elevated\u2014Brent crude is near six-month highs above $116 per barrel due to Middle East tensions and Iran concerns. However, U.S. refinery utilization has slipped to 93.4%, and gasoline and diesel inventories remain relatively high, which can pressure refiner margins by reducing urgency for new production.\n\nThe recent news cycle has been dominated by geopolitical risk\u2014Iranian-backed Houthi attacks on Saudi energy sites, U.S. threats of military action against Iran, and concerns about oil market manipulation. While these headlines have pushed crude prices up, refiner profitability depends on the *spread* between crude input costs and the value of finished fuels like gasoline and diesel; high crude prices without corresponding fuel demand can actually squeeze margins, which appears to be weighing on the stock despite the headline oil price strength.",
+  "fetchedAt": "2026-10-25T17:01:44.698447+00:00",
+  "text": "Marathon Petroleum stock fell 0.45% today to $457.22, continuing a slide that's cost it nearly $21 per share since mid-October. The decline fits a broader pullback in energy stocks as oil prices, while still elevated, have peaked: Brent crude hit $116 earlier this week on Middle East tensions but has since retreated slightly, and the stock has dropped four of the last five trading days as the initial geopolitical panic fades. Refinery utilization remains solid at 93.4%, but with crude inventories rising to 695 million barrels and gasoline stocks elevated, refiners face less pricing power even with oil costs still above $107.\n\nThe underlying issue is that while Middle East conflict headlines (Iran-backed Houthis, Saudi interceptions, U.S. tensions with Iran) did spike oil prices in late October, sustained high prices tend to trigger demand destruction\u2014drivers buy less fuel, inventories build\u2014which pressures refiner margins. Marathon's stock rallied on the initial supply shock but has given back those gains as the market appears to be pricing in that geopolitical premiums don't sustain indefinitely without actual supply disruptions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 198,
-    "inputTokens": 184467,
-    "outputTokens": 44954,
-    "estimatedCostUsd": 0.409237,
-    "lastCallHour": "2026-10-25T16"
+    "callsThisMonth": 199,
+    "inputTokens": 185379,
+    "outputTokens": 45211,
+    "estimatedCostUsd": 0.411434,
+    "lastCallHour": "2026-10-25T17"
   }
 }
