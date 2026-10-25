@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T10:38:48.783830+00:00",
-  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a five-day decline that has shed $21 from its October 16 high. The sell-off comes despite Brent crude oil hitting $116 per barrel\u2014a six-month high\u2014driven by escalating Middle East tensions and Trump administration threats of strikes against Iran. For a refiner, higher crude prices typically squeeze profit margins on fuel production, which appears to be outweighing any benefit from the elevated oil prices themselves.\n\nThe broader refining environment supports this squeeze: U.S. refineries are running at 93.4% capacity while gasoline and diesel inventories remain well-stocked, meaning refiners can't easily pass higher crude costs to consumers. As geopolitical risk keeps crude elevated, refiners face the worst scenario\u2014forced to buy expensive raw material into a market where they can't command higher margins on the finished fuel they sell.",
+  "fetchedAt": "2026-10-25T13:01:59.477075+00:00",
+  "text": "Marathon Petroleum's stock has fallen 2% over five trading days, closing at $457.22 today, despite sitting near the middle of that decline. The underlying reason appears counterintuitive: while oil prices have climbed sharply\u2014Brent crude hit $116 and U.S. crude sits at nearly $108\u2014refiners like Marathon face a headwind. Refineries are running at 93.4% capacity, and gasoline and diesel inventories are elevated (205 and 104 million barrels respectively), which means refining margins are being squeezed. Higher crude prices flow into refined products more slowly when storage is already full, eating into profit per barrel processed.\n\nThe broader pattern reflects a tension in energy markets: geopolitical risk is pushing crude prices up, but the refining industry hasn't yet benefited because demand hasn't caught up with supply. Refineries can't run much hotter than 93%, and full storage tanks mean they can't convert higher-priced crude into profits as efficiently as they could in tighter inventory conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 194,
-    "inputTokens": 180819,
-    "outputTokens": 44039,
-    "estimatedCostUsd": 0.401014,
-    "lastCallHour": "2026-10-25T10"
+    "callsThisMonth": 195,
+    "inputTokens": 181731,
+    "outputTokens": 44269,
+    "estimatedCostUsd": 0.403076,
+    "lastCallHour": "2026-10-25T13"
   }
 }
