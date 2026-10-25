@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-25T20:01:50.421483+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, extending a two-week rally of over 12%. The main driver is a sharp climb in oil prices\u2014Brent crude hit $116 a barrel (a six-month high) as Middle East tensions escalated with Saudi Arabia intercepting Iranian-backed Houthi missiles and drones, and the Trump administration signaling potential military action against Iran. For an oil and gas producer like ConocoPhillips, higher crude prices directly improve profitability on the barrels it sells.\n\nThe broader context is that geopolitical risk in the Middle East is reshaping global energy markets in ways that benefit U.S. energy companies. U.S. oil prices are trading at a $7 discount to global Brent prices, which typically creates better margins for American producers who can sell into either market. This regional supply uncertainty\u2014combined with the market's view that the Iran situation could worsen further\u2014has made energy stocks like this one a favored trade over the past two weeks.",
+  "fetchedAt": "2026-10-25T21:01:29.688337+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to close at $150.80, its highest level in two weeks, as oil prices surged on escalating Middle East tensions. Brent crude topped $116 a barrel\u2014a six-month high\u2014after Saudi Arabia reported intercepting Iranian-backed Houthi missiles and drones, and amid reports of potential U.S. military action against Iran. For an integrated oil company like ConocoPhillips, higher crude prices flow directly to the bottom line through increased revenue on barrels sold.\n\nThis move caps a remarkable two-week rally of 12.45%, driven by a consistent tightening of global oil supplies tied to regional conflict. The gap between world oil ($115.22) and U.S. oil ($107.89) has also widened, signaling growing concern about Middle East supply disruptions reaching international markets\u2014a dynamic that favors large producers with diverse geographic exposure and the ability to benefit from premium global pricing.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 202,
-    "inputTokens": 175760,
-    "outputTokens": 42924,
-    "estimatedCostUsd": 0.39038,
-    "lastCallHour": "2026-10-25T20"
+    "callsThisMonth": 203,
+    "inputTokens": 176610,
+    "outputTokens": 43139,
+    "estimatedCostUsd": 0.392305,
+    "lastCallHour": "2026-10-25T21"
   }
 }

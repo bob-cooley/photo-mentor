@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T20:02:12.927094+00:00",
-  "text": "Marathon Petroleum's stock has fallen about 2% over the past week, sliding from $478 down to $457 today, despite oil prices climbing to six-month highs above $116 a barrel. The weakness comes even as refinery utilization sits at a healthy 93.4%, suggesting the move isn't about operational challenges. Instead, the stock appears to be caught in a reversal of the geopolitical risk premium that initially pushed energy stocks higher\u2014as Middle East tensions (Houthi attacks, U.S.-Iran frictions) have persisted without escalating dramatically further, some of those gains are being trimmed back.\n\nThe broader pattern here is that refiners benefit from higher oil prices in a specific way: they profit from the spread between crude costs and finished fuel prices. Right now, storage levels for gasoline and diesel are historically normal, so refiners can't simply pocket the full benefit of $107\u2013115 oil. With the initial shock of geopolitical risk already priced in and no fresh operational catalyst, the stock is drifting lower alongside a normalization of what initially looked like a short, sharp rally.",
+  "fetchedAt": "2026-10-25T21:01:46.051336+00:00",
+  "text": "Marathon Petroleum fell 0.45% today, continuing a downward slide since mid-October that's erased most of a small two-week gain. The stock has dropped roughly 4.5% in the past week despite oil prices staying elevated\u2014Brent crude is near $116, a six-month high driven by Middle East tensions and Houthi attacks on energy infrastructure. The mismatch suggests the market is pricing in a headwind specific to refiners: at 93.4% capacity utilization and rising crude inventories (695 million barrels), there's less room for refineries to profit from processing crude into products, which is the core of Marathon's business.\n\nThe broader context is that geopolitical risk is pushing crude prices higher without boosting refinery margins. When oil gets expensive because of supply disruption fears rather than strong demand, refiners often get squeezed\u2014they pay more for crude but can't always pass that cost to customers fast enough, or demand softens as high prices discourage consumption. That's likely weighing on the stock despite the headlines that might otherwise look bullish for energy companies.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 202,
-    "inputTokens": 188115,
-    "outputTokens": 45976,
-    "estimatedCostUsd": 0.417995,
-    "lastCallHour": "2026-10-25T20"
+    "callsThisMonth": 203,
+    "inputTokens": 189027,
+    "outputTokens": 46218,
+    "estimatedCostUsd": 0.420117,
+    "lastCallHour": "2026-10-25T21"
   }
 }
