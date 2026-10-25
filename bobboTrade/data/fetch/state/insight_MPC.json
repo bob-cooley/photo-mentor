@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T00:47:28.538285+00:00",
-  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a slide from its $478 peak six days ago. Despite crude oil prices hitting six-month highs\u2014Brent crude above $116 a barrel\u2014the stock has drifted lower as geopolitical tensions in the Middle East escalated. While rising oil prices can boost refiner profits by widening the gap between crude costs and refined product prices, the market appears to be pricing in potential supply disruptions and regional instability that could reshape energy flows, rather than betting on a simple margin expansion.\n\nThe broader energy sector is experiencing a complex crosscurrent: U.S. refineries are running at 93.4% capacity and global oil is expensive, but the Iran conflict is simultaneously benefiting liquefied natural gas exporters and creating uncertainty about Persian Gulf operations. For a refiner like this one, geopolitical risk and the possibility of supply shocks may be overshadowing the near-term benefit of higher crude prices.",
+  "fetchedAt": "2026-10-25T05:38:41.139991+00:00",
+  "text": "Marathon Petroleum fell 0.45% today to $457.22, continuing a sharp slide from its $478 high six days ago. The immediate pressure comes from the collapse in the U.S.\u2013Brent crude spread: U.S. oil sits at $107.89 while Brent (the global benchmark) has spiked to $116, a six-month high on Middle East tensions and U.S.\u2013Iran conflict escalation. For a refiner like Marathon, a wider gap between what crude costs globally versus domestically is a headwind\u2014it cuts into the profit margin they make by turning cheap domestic oil into fuel. Refineries are running hard at 93.4% capacity, so they can't ease production to match tighter margins.\n\nThe broader issue is geopolitical: Middle East tensions and potential U.S. strikes on Iran are pushing global crude higher, but U.S. domestic supply remains plentiful (695 million barrels in storage). That leaves refiners squeezed between expensive global crude and a market flooded with cheap domestic feedstock, exactly the opposite of the tight-supply environment that usually benefits them.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 192,
-    "inputTokens": 178981,
-    "outputTokens": 43587,
-    "estimatedCostUsd": 0.396916,
-    "lastCallHour": "2026-10-25T00"
+    "callsThisMonth": 193,
+    "inputTokens": 179900,
+    "outputTokens": 43837,
+    "estimatedCostUsd": 0.399085,
+    "lastCallHour": "2026-10-25T05"
   }
 }
