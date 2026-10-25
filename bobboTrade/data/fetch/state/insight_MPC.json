@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-25T14:01:53.360534+00:00",
-  "text": "Marathon Petroleum's stock has fallen nearly 2% over the past week, sliding further today as crude oil prices have climbed into the $107\u2013$115 range amid escalating Middle East tensions and Houthi attacks on Saudi energy infrastructure. While rising oil prices typically benefit refiners by supporting fuel margins, the sharp climb driven by geopolitical risk rather than solid demand appears to be creating uncertainty \u2014 refineries are running near full capacity (93.4%), but gasoline and diesel inventories remain elevated, suggesting demand hasn't kept pace with the price surge.\n\nThe stock's weakness reflects a broader tension: geopolitical risk premiums baked into crude prices don't always translate to refiner profits if refined product demand doesn't follow. A refiner makes money on the *spread* between what it pays for crude and what it sells gasoline or diesel for \u2014 when oil jumps on fear rather than actual consumption, that spread can compress rather than expand.",
+  "fetchedAt": "2026-10-25T15:01:45.407355+00:00",
+  "text": "Marathon Petroleum has fallen about 2% over the past week, with today's small decline continuing a downward trend that started after mid-October. The immediate pressure seems to come from broader refinery economics: while crude oil prices have climbed sharply (Brent at $116, US oil at $108), refineries are already running at 93.4% capacity with gasoline and diesel inventories elevated at 205 million and 104 million barrels respectively. When refineries can't run much harder and inventories are building, refiners' profit margins tend to narrow even as oil prices rise\u2014they're paying more for crude but can't push through enough additional volume to offset it.\n\nThe escalating Middle East tensions (Iran-backed Houthi attacks, Trump's rhetoric on Iran, and Saudi interceptions) have driven oil prices higher, but this is actually a mixed signal for a refiner. Geopolitical oil spikes tend to be temporary and can create refining headwinds if they don't translate into sustained demand\u2014right now the data shows inventory builds, not drawdowns, suggesting the market isn't burning through product faster despite higher crude costs.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 196,
-    "inputTokens": 182643,
-    "outputTokens": 44471,
-    "estimatedCostUsd": 0.404998,
-    "lastCallHour": "2026-10-25T14"
+    "callsThisMonth": 197,
+    "inputTokens": 183555,
+    "outputTokens": 44720,
+    "estimatedCostUsd": 0.407155,
+    "lastCallHour": "2026-10-25T15"
   }
 }

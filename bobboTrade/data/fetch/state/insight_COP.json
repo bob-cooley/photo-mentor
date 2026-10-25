@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-25T14:01:39.212348+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, extending a two-week rally of over 12%, as oil prices surged on escalating Middle East tensions. Brent crude hit $116 a barrel\u2014a six-month high\u2014following Saudi Arabia's interception of Houthi missiles and drones, combined with Trump administration rhetoric about potential military action against Iran. For an oil major like ConocoPhillips, higher crude prices directly translate to higher profits from both upstream production and refining operations.\n\nThe move fits into a broader rally in energy stocks as geopolitical risk in the Middle East tightens global oil supply. When regional tensions spike and traders worry about disruptions to a major oil-producing region, crude prices climb, and integrated energy companies benefit from the margin expansion\u2014they produce and sell at elevated prices while their costs don't move dollar-for-dollar upward.",
+  "fetchedAt": "2026-10-25T15:01:33.329055+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to $150.80, driven by a sharp spike in global oil prices amid escalating Middle East tensions. Brent crude hit $116 a barrel\u2014a six-month high\u2014after Saudi Arabia reported intercepting Iranian-backed Houthi missiles and drones, and as the Trump administration signaled it may take action against Iran. For an oil major like ConocoPhillips, higher crude prices directly boost the value of reserves and cash flow from production.\n\nThe stock's broader 12.45% gain over two weeks reflects a sustained rally as geopolitical risk in the Middle East has tightened global oil supplies. U.S. oil is trading at $107.89 a barrel versus the world price of $115.22, showing investors are pricing in real supply concerns\u2014exactly the kind of environment that benefits large integrated oil producers with global operations.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 196,
-    "inputTokens": 170660,
-    "outputTokens": 41646,
-    "estimatedCostUsd": 0.37889,
-    "lastCallHour": "2026-10-25T14"
+    "callsThisMonth": 197,
+    "inputTokens": 171510,
+    "outputTokens": 41844,
+    "estimatedCostUsd": 0.38073,
+    "lastCallHour": "2026-10-25T15"
   }
 }
