@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T19:01:30.861480+00:00",
-  "text": "ConocoPhillips edged up 0.49% today to close at $151.55, capping a remarkable week-long rally that gained 10.17% in just six trading days. The spike was driven by surging oil prices\u2014U.S. crude jumped to $107.89 per barrel and Brent to $115.22\u2014fueled by Middle East tensions between Iran and Saudi Arabia that have raised the risk of supply disruptions. Geopolitical risk premiums in oil directly benefit major producers like ConocoPhillips, whose earnings hinge on the price they can sell crude for.\n\nThe broader energy trade has shifted decisively in favor of U.S. producers and exporters this month. Rising Middle East instability is not only pushing crude prices higher but also reshaping global energy markets in ways that benefit American oil and natural gas companies\u2014making the energy sector itself a beneficiary of regional risk, rather than a victim of it.",
+  "fetchedAt": "2026-10-26T20:01:34.883557+00:00",
+  "text": "ConocoPhillips rose 0.40% today to $151.41, capping a remarkable 10% surge over the past two weeks as oil prices have climbed sharply amid Middle East tensions. US crude has jumped to $107.89 per barrel, fueled by escalating threats to Saudi Arabian energy infrastructure from Iran-backed Houthi attacks and broader regional conflict; the company benefits directly as a major oil producer when crude prices rise this steeply. The stock's gains reflect investors rotating into energy plays that stand to profit from sustained geopolitical risk premiums baked into oil markets.\n\nToday's modest daily move comes even as oil ticked slightly lower on reports of de-escalation talks between Saudi Arabia and Iran\u2014a reminder that the underlying volatility remains high. The broader two-week rally shows the market is pricing in a durable shift in global energy dynamics away from Iran and toward U.S. producers and exporters, with deals like Qatar's US natural gas purchase signaling structural changes in where energy demand will flow.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 214,
-    "inputTokens": 185981,
-    "outputTokens": 45678,
-    "estimatedCostUsd": 0.414371,
-    "lastCallHour": "2026-10-26T19"
+    "callsThisMonth": 215,
+    "inputTokens": 186835,
+    "outputTokens": 45902,
+    "estimatedCostUsd": 0.416345,
+    "lastCallHour": "2026-10-26T20"
   }
 }
