@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T02:22:16.175677+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, capping a remarkable two-week rally of 12.45%. The immediate catalyst is escalating Middle East tension: Saudi Arabia intercepted Iranian-backed Houthi missiles and drones, while Brent crude oil has climbed to $116 per barrel\u2014a six-month high\u2014as geopolitical risk premiums pile on. As a major oil producer, ConocoPhillips benefits directly when crude prices rise, and the company has been riding this wave as investors rotate into energy stocks expecting further supply disruptions.\n\nThe broader context amplifies the move: U.S. officials have signaled potential military action against Iran, and analysts are now explicitly highlighting energy stocks as a hedge on escalating regional conflict. With world oil prices near $115 and the Iran situation described as \"transforming global energy markets\" in the companies' favor, the stock's 12% surge over two weeks reflects investor positioning for a sustained period of higher oil prices and geopolitical uncertainty.",
+  "fetchedAt": "2026-10-26T03:01:37.861527+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to $150.80, continuing a sharp two-week rally that's now up 12.45%. The move tracks directly with oil prices spiking to six-month highs \u2014 Brent crude topped $116 and U.S. oil sits at $107.89 \u2014 driven by escalating Middle East tensions. Saudi Arabia's interception of Iranian-backed drone and missile attacks, combined with reports of potential U.S. military action against Iran, have pushed markets to price in real supply risk, and as a major oil producer ConocoPhillips benefits from higher crude prices hitting its revenues.\n\nThe broader energy trade has shifted sharply. Iran's economic squeeze from oil sanctions is fueling regional desperation, and the conflict is already reshaping global energy flows \u2014 Qatar is moving to buy U.S. natural gas, signaling how the geopolitical realignment is funneling energy demand toward American suppliers. For a company like ConocoPhillips with deep U.S. production, this combination of higher oil prices and stronger global demand for American energy is the tailwind behind the last two weeks' run.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 205,
-    "inputTokens": 178310,
-    "outputTokens": 43573,
-    "estimatedCostUsd": 0.396175,
-    "lastCallHour": "2026-10-26T02"
+    "callsThisMonth": 206,
+    "inputTokens": 179160,
+    "outputTokens": 43826,
+    "estimatedCostUsd": 0.39829,
+    "lastCallHour": "2026-10-26T03"
   }
 }
