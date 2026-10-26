@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-23T15:18:53.500406+00:00",
-  "text": "Marathon Petroleum fell 0.17% today to $458.48, continuing a sharp four-day decline that has erased most of the stock's gains from earlier this month. The selloff comes despite oil prices hitting six-month highs\u2014Brent crude topped $116 on rising Middle East tensions and threats of U.S. strikes on Iran\u2014which would normally lift refiner margins. The disconnect suggests investors are pricing in a risk that refiners face when geopolitical conflict disrupts global supply: tighter crude availability and potentially lower processing volumes, which can compress the profit margin refiners earn between the cost of raw oil and the price of finished fuel.\n\nThe timing also matters. U.S. refineries are running at 93.4% capacity with substantial crude and product inventories on hand, leaving little room to capitalize on higher oil prices through higher throughput. If Middle East tensions escalate into actual supply disruptions, refiners could face a squeeze where crude costs spike but they can't run plants much harder to offset it\u2014a dynamic that has historically pressured refiner stocks even when headline oil prices look strong.",
+  "fetchedAt": "2026-10-26T02:24:39.182905+00:00",
+  "text": "Marathon Petroleum stock fell 0.45% today to $457.22, continuing a decline that's picked up pace over the last week\u2014down nearly $21 from its peak on October 16th. The timing is notable: the stock turned downward just as oil prices spiked sharply on geopolitical tensions. While high crude prices typically benefit refiners, the market appears concerned that the spike is driven by Middle East conflict risk rather than stable demand. At the same time, U.S. refinery utilization sits at a healthy 93.4%, so the pullback isn't about weak operations or low margins.\n\nThe broader issue may be uncertainty itself. Oil prices have swung dramatically on Iran-related headlines\u2014Brent jumped above $116 as tensions escalated\u2014but those same geopolitical shocks tend to create volatility in refined product demand and can sometimes point to economic slowdown ahead. Refinery stocks can struggle in that environment even when crude prices are high, because investors worry the spike won't stick around long enough to drive profitable sales.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 7,
-    "inputTokens": 6500,
-    "outputTokens": 1649,
-    "estimatedCostUsd": 0.014745,
-    "lastCallHour": "2026-10-23T15"
+    "callsThisMonth": 8,
+    "inputTokens": 7412,
+    "outputTokens": 1877,
+    "estimatedCostUsd": 0.016797,
+    "lastCallHour": "2026-10-26T02"
   }
 }

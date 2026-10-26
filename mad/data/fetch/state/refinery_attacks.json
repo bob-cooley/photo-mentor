@@ -52,17 +52,18 @@
     "https://www.theguardian.com/news/audio/2026/oct/12/trump-rewards-putin-and-betrays-ukraine-with-russia-diesel-deal-the-latest": "2026-10-13T15:54:01.140626+00:00",
     "https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim": "2026-10-13T15:54:02.996455+00:00",
     "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran": "2026-10-23T15:19:39.438467+00:00",
-    "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html": "2026-10-23T15:19:41.138277+00:00"
+    "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html": "2026-10-23T15:19:41.138277+00:00",
+    "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T02:25:27.332487+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 19,
-    "inputTokens": 24535,
-    "outputTokens": 2117,
-    "estimatedCostUsd": 0.03512
+    "calls": 20,
+    "inputTokens": 25898,
+    "outputTokens": 2212,
+    "estimatedCostUsd": 0.036958
   },
   "lastGdeltOk": false,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-10-23T15:19:41.138455+00:00"
+  "lastRunAt": "2026-10-26T02:25:27.332704+00:00"
 }
