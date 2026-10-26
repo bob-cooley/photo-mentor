@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T20:01:48.993435+00:00",
-  "text": "Marathon Petroleum rose 2.9% today after oil prices and refinery dynamics shifted in its favor over the past few days. Crude prices have climbed sharply\u2014Brent hit $116 last week amid escalating Middle East tensions and Iran-related geopolitical risk\u2014though today's news of Saudi-Iran de-escalation talks briefly pulled prices lower. The company benefits from this volatile environment: U.S. refineries are running at 93.4% capacity (historically tight), and oil inventories remain relatively low at 695 million barrels, meaning refiners can push product margins higher when crude swings create spreads between input costs and fuel prices.\n\nThe stock's broader two-week gain of 2.56% reflects the sustained elevation in crude prices\u2014now trading above $100\u2014which generally widens refiner profit margins if those higher oil costs don't immediately flow through to gasoline and diesel prices. Even with today's modest de-escalation move, the geopolitical premium built into crude over the past week remains in place, supporting the economic tailwinds for refiners like Marathon Petroleum.",
+  "fetchedAt": "2026-10-26T21:01:45.841987+00:00",
+  "text": "Marathon Petroleum stock recovered 2.9% today after dropping sharply over the prior three days, when crude oil prices spiked on Middle East tensions\u2014Brent crude hit $116 on October 23rd amid escalating Iran rhetoric and Houthi attacks on Saudi infrastructure. Today's bounce coincides with news that Saudi Arabia and Iran are now de-escalating through direct talks, which has eased the immediate supply-shock premium in oil prices (crude fell from the $116 peak). Refineries are running at 93.4% capacity with ample crude available, putting the company in position to benefit if geopolitical risk stays manageable while oil prices remain elevated.\n\nThe stock's whipsaw over the past week\u2014up sharply early, then down hard when tensions peaked, now recovering\u2014reflects how refiner profits depend heavily on oil price stability and predictability, not just the level of prices themselves. The recent geopolitical cycle has created that volatility, but the company's own operations appear intact and well-supplied.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 215,
-    "inputTokens": 199991,
-    "outputTokens": 49001,
-    "estimatedCostUsd": 0.444996,
-    "lastCallHour": "2026-10-26T20"
+    "callsThisMonth": 216,
+    "inputTokens": 200906,
+    "outputTokens": 49224,
+    "estimatedCostUsd": 0.447026,
+    "lastCallHour": "2026-10-26T21"
   }
 }
