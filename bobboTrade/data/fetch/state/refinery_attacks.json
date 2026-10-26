@@ -133,17 +133,18 @@
     "https://meduza.io/en/news/2026/10/19/trump-says-he-doesn-t-want-to-drive-russia-away-from-peace-talks-again-criticizes-zelensky-over-refinery-strikes": "2026-10-19T12:04:06.173884+00:00",
     "https://www.pravda.com.ua/eng/news/2026/10/21/8059026/": "2026-10-21T12:55:57.703566+00:00",
     "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran": "2026-10-23T14:39:46.646805+00:00",
-    "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network": "2026-10-23T14:39:48.673780+00:00"
+    "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network": "2026-10-23T14:39:48.673780+00:00",
+    "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T13:02:50.872877+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 48,
-    "inputTokens": 56800,
-    "outputTokens": 5369,
-    "estimatedCostUsd": 0.083645
+    "calls": 49,
+    "inputTokens": 58163,
+    "outputTokens": 5482,
+    "estimatedCostUsd": 0.085573
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": true,
-  "lastRunAt": "2026-10-25T13:41:54.301028+00:00"
+  "lastRunAt": "2026-10-26T13:02:50.873100+00:00"
 }

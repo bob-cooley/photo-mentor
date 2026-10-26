@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T09:38:45.811039+00:00",
-  "text": "Marathon Petroleum fell 0.45% today as oil prices dropped over 2% on concerns that elevated crude costs could dampen fuel demand. The broader weakness reflects traders reassessing the balance between supply risks (Saudi infrastructure attacks, Middle East tensions) and demand destruction \u2014 the risk that high oil prices force consumers and businesses to cut back on fuel consumption. This matters for a refiner like Marathon because while higher crude prices can boost profits under some conditions, demand destruction erodes the volume of fuel they can sell at those prices.\n\nThe stock has retreated nearly 5% in six days despite refineries running at 93.4% capacity and oil storage remaining relatively low \u2014 suggesting the market is pricing in a meaningful slowdown in fuel demand rather than viewing the geopolitical premium in crude as a pure tailwind for refining margins.",
+  "fetchedAt": "2026-10-26T13:01:55.051838+00:00",
+  "text": "Marathon Petroleum stock fell 0.4% today to $457.22, continuing a downward slide from a peak of $478 just a week ago. The immediate trigger is oil prices sliding over 2% today as traders weigh whether threats to Saudi energy infrastructure will actually materialize into supply disruptions or simply destroy demand through higher prices\u2014a real tension that leaves refiners uncertain. When oil gets too expensive, consumers and businesses pull back on consumption, which hurts refiner margins even if crude supplies remain plentiful.\n\nThe broader pattern here reflects the volatility baked into the current moment: crude has swung between $107\u2013$115 per barrel over the past few days as Middle East tensions flare and ease. Refineries are running near full capacity (93.4%), which is normally good for throughput, but if demand truly weakens from high prices, utilization rates could fall and squeeze margins tighter. The stock's decline mirrors the market's shift from geopolitical panic-buying oil to worry about demand destruction\u2014a headwind for refiners that needs actual consumption recovery to reverse.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 207,
-    "inputTokens": 192676,
-    "outputTokens": 47113,
-    "estimatedCostUsd": 0.428241,
-    "lastCallHour": "2026-10-26T09"
+    "callsThisMonth": 208,
+    "inputTokens": 193589,
+    "outputTokens": 47348,
+    "estimatedCostUsd": 0.430329,
+    "lastCallHour": "2026-10-26T13"
   }
 }

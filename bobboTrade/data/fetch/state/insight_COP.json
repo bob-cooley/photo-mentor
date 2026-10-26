@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T09:38:34.196731+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, capping a 12.45% surge over two weeks. The timing aligns directly with escalating Middle East tensions: Saudi Arabia intercepted Iranian-backed Houthi missiles and drones on October 25th, Brent crude topped $116 a barrel (a six-month high) on October 23rd, and oil prices have remained elevated above $107 per barrel for U.S. crude. As a major oil producer, the company benefits when geopolitical risk pushes energy prices higher.\n\nThe broader pattern here is that U.S. energy companies are gaining as the Iran-related conflict reshapes global markets \u2014 a trend that extends beyond just crude producers to liquefied natural gas exporters and refiners with exposure to higher feedstock values. Today's move appears to be a continuation of that momentum rather than a single-day catalyst.",
+  "fetchedAt": "2026-10-26T13:01:36.393162+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to close at $150.80, marking its highest level in the two-week rally and reflecting a sharp spike in oil prices driven by Middle East tensions. Brent crude hit a six-month high above $116 a barrel this week after Iran-backed Houthi attacks on Saudi energy infrastructure, while U.S. oil reached $107.89\u2014both moves directly supporting the cash flow and profitability of major oil producers like ConocoPhillips. The stock's 12.45% gain over two weeks tracks this escalating geopolitical risk premium in energy markets.\n\nThe broader backdrop is a reshuffling of global energy flows: Iran's tightening financial position is pushing it toward more aggressive posturing, while the conflict is simultaneously benefiting U.S. energy exporters by shifting demand away from Middle Eastern suppliers and toward American liquefied natural gas and crude. For an integrated producer like ConocoPhillips, higher oil prices and increased U.S. energy exports create a tailwind on multiple fronts.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 207,
-    "inputTokens": 180010,
-    "outputTokens": 44028,
-    "estimatedCostUsd": 0.40015,
-    "lastCallHour": "2026-10-26T09"
+    "callsThisMonth": 208,
+    "inputTokens": 180860,
+    "outputTokens": 44263,
+    "estimatedCostUsd": 0.402175,
+    "lastCallHour": "2026-10-26T13"
   }
 }
