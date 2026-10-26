@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T14:01:44.823728+00:00",
-  "text": "Marathon Petroleum jumped 3.8% today, recovering most of the ground it lost over the previous three trading days. The rebound follows a sharp drop from $475 to $457 as oil prices spiked to $116 on Middle East tensions, then fell back as Saudi Arabia's defense minister traveled to Iran for de-escalation talks. Today's move tracks the oil market's slight stabilization \u2014 crude still sits at $107.89 in the U.S., well above where it was weeks ago, and refineries are running at 93.4% capacity, which supports stronger margins for a refiner processing crude into fuel.\n\nThe stock's broader pattern over two weeks reflects the volatility in oil prices driven by geopolitical risk. Refiner profits depend partly on the difference between what crude costs and what they can sell refined products for \u2014 and when crude prices swing hard on war fears and peace hopes, that spread gets disrupted. The current run-rate of refineries and stable fuel inventories suggest the market isn't panicked about supply shortages right now, which helps the refining sector stabilize after the turmoil of the prior week.",
+  "fetchedAt": "2026-10-26T15:02:04.438759+00:00",
+  "text": "Marathon Petroleum stock rebounded 3.3% today, recovering most of the losses from the prior three trading days. The bounce coincides with oil prices steadying after earlier this week's spike \u2014 crude had hit $116 a barrel on geopolitical fears around Iran tensions and Houthi attacks on Saudi energy infrastructure, but today fell back as Saudi Arabia's defense minister traveled to Iran to pursue de-escalation talks. Refiners like Marathon benefit when crude prices are elevated but stable; the whipsaw down and back up this week likely unsettled the stock more than any single price level.\n\nThe refining environment remains supportive underneath: U.S. refineries are running at 93.4% capacity utilization, and crude inventories sit at 695 million barrels \u2014 levels that allow processors to operate profitably on the current spread between crude input costs and finished fuel prices. The Middle East risk premium that drove this week's volatility hasn't disappeared, so the stock's recovery today reflects relief at de-escalation signals rather than a fundamental shift in the supply picture.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 209,
-    "inputTokens": 194502,
-    "outputTokens": 47595,
-    "estimatedCostUsd": 0.432477,
-    "lastCallHour": "2026-10-26T14"
+    "callsThisMonth": 210,
+    "inputTokens": 195415,
+    "outputTokens": 47826,
+    "estimatedCostUsd": 0.434545,
+    "lastCallHour": "2026-10-26T15"
   }
 }
