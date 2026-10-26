@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T16:01:41.977149+00:00",
-  "text": "ConocoPhillips barely moved today, but the stock is up 9.7% over the past two weeks\u2014a climb that tracks directly with crude oil prices surging to six-month highs as Middle East tensions escalate. On October 23rd, Brent crude topped $116 per barrel amid reports of Iranian missile tests and Houthi attacks on Saudi energy infrastructure, and the stock jumped $5.17 that same day. U.S. oil is now trading at $107.89, well above typical levels, which benefits an integrated energy company's upstream production and refining operations.\n\nToday's flat performance reflects a brief pause as the market absorbed news of diplomatic talks between Saudi Arabia and Iran\u2014investors are weighing whether de-escalation could ease supply risks against concerns that lower geopolitical risk could pressure oil prices downward. The underlying trend remains supportive for energy companies: the Middle East conflict is keeping crude elevated, and U.S. liquefied natural gas exporters are capturing new global market share, which suggests sustained energy demand and pricing power in the near term.",
+  "fetchedAt": "2026-10-26T17:01:32.755772+00:00",
+  "text": "ConocoPhillips rose 0.44% today to $151.47, capping a sharp 10% two-week rally driven by surging oil prices. Brent crude has climbed to $117 a barrel, near six-month highs, as Middle East tensions escalated\u2014Iran-backed Houthis attacked Saudi energy infrastructure, though Saudi Arabia says it intercepted the missiles and drones. For a major oil producer like ConocoPhillips, higher crude prices directly lift the value of its reserves and cash flow from production.\n\nThe broader tailwind is a geopolitical energy shock that's benefiting U.S. oil and gas companies. The conflicts are reshaping global energy markets and reducing supply concerns for American producers, who are gaining market share as buyers look to diversify away from Middle East suppliers\u2014a trend evident in Qatar's new U.S. liquefied natural gas deals. This regional instability, combined with Trump administration rhetoric around Iran and oil markets, has kept prices elevated and investor appetite strong for American energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 211,
-    "inputTokens": 183416,
-    "outputTokens": 44989,
-    "estimatedCostUsd": 0.408361,
-    "lastCallHour": "2026-10-26T16"
+    "callsThisMonth": 212,
+    "inputTokens": 184273,
+    "outputTokens": 45216,
+    "estimatedCostUsd": 0.410353,
+    "lastCallHour": "2026-10-26T17"
   }
 }

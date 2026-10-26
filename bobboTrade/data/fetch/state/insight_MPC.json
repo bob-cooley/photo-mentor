@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T16:02:06.184221+00:00",
-  "text": "Marathon Petroleum recovered 2.5% today after a three-day slide that had knocked the stock down 3.4% from its October 20th peak. The bounce came as oil prices fell on news that Saudi Arabia's defense minister is traveling to Iran for de-escalation talks\u2014a sign that the immediate threat of wider Middle East conflict may be easing. That matters for refiners like Marathon because crude prices had spiked above $116 earlier this week on geopolitical fears, and lower oil costs improve refining margins (the profit spread between what crude costs and what refined products sell for).\n\nThe refining backdrop remains solid: U.S. refineries are running at 93.4% capacity and oil storage levels are moderate, which keeps demand steady. Over the past week, the stock has essentially traded the oil price gyrations\u2014up when crude spiked on Iran tensions, down when those tensions looked like they might boil over into attacks on Saudi energy infrastructure. Today's bounce reflects investor relief that cooler heads appear to be prevailing.",
+  "fetchedAt": "2026-10-26T17:01:51.442493+00:00",
+  "text": "Marathon Petroleum stock rebounded 2.7% today after dropping sharply over the prior three trading days, riding a recovery in oil prices as the immediate geopolitical crisis showed signs of stabilization. Brent crude pulled back slightly to $117 following reports that Saudi Arabia's defense minister traveled to Iran to discuss de-escalation, easing some of the panic-driven buying that had pushed prices to six-month highs. For a refiner, this matters: higher crude oil costs cut into profit margins on each gallon refined, so the threat of further Middle East attacks and price spikes had hammered the stock earlier in the week.\n\nThe wider picture here is that refiners are caught between two opposing forces. On one hand, geopolitical risk premiums have lifted crude prices, which squeezes refining margins; on the other, U.S. refinery utilization remains robust at 93.4%, meaning there's still solid demand for refined products and the company has inventory flexibility if prices stabilize. Today's bounce reflects investor relief that the conflict may not escalate further\u2014at least not imminently.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 211,
-    "inputTokens": 196328,
-    "outputTokens": 48051,
-    "estimatedCostUsd": 0.436583,
-    "lastCallHour": "2026-10-26T16"
+    "callsThisMonth": 212,
+    "inputTokens": 197246,
+    "outputTokens": 48290,
+    "estimatedCostUsd": 0.438696,
+    "lastCallHour": "2026-10-26T17"
   }
 }
