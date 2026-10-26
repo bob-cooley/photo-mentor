@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T13:01:55.051838+00:00",
-  "text": "Marathon Petroleum stock fell 0.4% today to $457.22, continuing a downward slide from a peak of $478 just a week ago. The immediate trigger is oil prices sliding over 2% today as traders weigh whether threats to Saudi energy infrastructure will actually materialize into supply disruptions or simply destroy demand through higher prices\u2014a real tension that leaves refiners uncertain. When oil gets too expensive, consumers and businesses pull back on consumption, which hurts refiner margins even if crude supplies remain plentiful.\n\nThe broader pattern here reflects the volatility baked into the current moment: crude has swung between $107\u2013$115 per barrel over the past few days as Middle East tensions flare and ease. Refineries are running near full capacity (93.4%), which is normally good for throughput, but if demand truly weakens from high prices, utilization rates could fall and squeeze margins tighter. The stock's decline mirrors the market's shift from geopolitical panic-buying oil to worry about demand destruction\u2014a headwind for refiners that needs actual consumption recovery to reverse.",
+  "fetchedAt": "2026-10-26T14:01:44.823728+00:00",
+  "text": "Marathon Petroleum jumped 3.8% today, recovering most of the ground it lost over the previous three trading days. The rebound follows a sharp drop from $475 to $457 as oil prices spiked to $116 on Middle East tensions, then fell back as Saudi Arabia's defense minister traveled to Iran for de-escalation talks. Today's move tracks the oil market's slight stabilization \u2014 crude still sits at $107.89 in the U.S., well above where it was weeks ago, and refineries are running at 93.4% capacity, which supports stronger margins for a refiner processing crude into fuel.\n\nThe stock's broader pattern over two weeks reflects the volatility in oil prices driven by geopolitical risk. Refiner profits depend partly on the difference between what crude costs and what they can sell refined products for \u2014 and when crude prices swing hard on war fears and peace hopes, that spread gets disrupted. The current run-rate of refineries and stable fuel inventories suggest the market isn't panicked about supply shortages right now, which helps the refining sector stabilize after the turmoil of the prior week.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 208,
-    "inputTokens": 193589,
-    "outputTokens": 47348,
-    "estimatedCostUsd": 0.430329,
-    "lastCallHour": "2026-10-26T13"
+    "callsThisMonth": 209,
+    "inputTokens": 194502,
+    "outputTokens": 47595,
+    "estimatedCostUsd": 0.432477,
+    "lastCallHour": "2026-10-26T14"
   }
 }

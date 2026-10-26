@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T13:01:36.393162+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to close at $150.80, marking its highest level in the two-week rally and reflecting a sharp spike in oil prices driven by Middle East tensions. Brent crude hit a six-month high above $116 a barrel this week after Iran-backed Houthi attacks on Saudi energy infrastructure, while U.S. oil reached $107.89\u2014both moves directly supporting the cash flow and profitability of major oil producers like ConocoPhillips. The stock's 12.45% gain over two weeks tracks this escalating geopolitical risk premium in energy markets.\n\nThe broader backdrop is a reshuffling of global energy flows: Iran's tightening financial position is pushing it toward more aggressive posturing, while the conflict is simultaneously benefiting U.S. energy exporters by shifting demand away from Middle Eastern suppliers and toward American liquefied natural gas and crude. For an integrated producer like ConocoPhillips, higher oil prices and increased U.S. energy exports create a tailwind on multiple fronts.",
+  "fetchedAt": "2026-10-26T14:01:31.637064+00:00",
+  "text": "ConocoPhillips rose 0.7% today to $151.87, continuing a sharp rally that has added 10.4% over the past two weeks. The immediate catalyst is the surge in oil prices driven by Middle East tensions\u2014U.S. crude is trading at $107.89 per barrel, with Brent at $115.22, near six-month highs following Iranian missile and drone attacks on Saudi Arabia and threats to regional energy infrastructure. As a major oil producer, ConocoPhillips benefits directly when crude prices climb, since higher oil revenues flow straight to the bottom line.\n\nThe broader momentum behind this move reflects a shift in how markets are pricing geopolitical risk. Earlier this week, oil jumped sharply on fears of supply disruptions from the Iran-Saudi conflict (pushing Brent above $116 on October 23rd). Though prices eased slightly on October 26th when Saudi and Iranian officials began de-escalation talks, the overall environment remains supportive for U.S. energy companies\u2014the crisis has even opened new opportunities, like Qatar's deal to buy American liquefied natural gas, showing how the regional instability is reshaping global energy demand in ways that favor U.S. producers.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 208,
-    "inputTokens": 180860,
-    "outputTokens": 44263,
-    "estimatedCostUsd": 0.402175,
-    "lastCallHour": "2026-10-26T13"
+    "callsThisMonth": 209,
+    "inputTokens": 181712,
+    "outputTokens": 44530,
+    "estimatedCostUsd": 0.404362,
+    "lastCallHour": "2026-10-26T14"
   }
 }
