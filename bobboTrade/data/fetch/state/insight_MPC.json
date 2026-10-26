@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T15:02:04.438759+00:00",
-  "text": "Marathon Petroleum stock rebounded 3.3% today, recovering most of the losses from the prior three trading days. The bounce coincides with oil prices steadying after earlier this week's spike \u2014 crude had hit $116 a barrel on geopolitical fears around Iran tensions and Houthi attacks on Saudi energy infrastructure, but today fell back as Saudi Arabia's defense minister traveled to Iran to pursue de-escalation talks. Refiners like Marathon benefit when crude prices are elevated but stable; the whipsaw down and back up this week likely unsettled the stock more than any single price level.\n\nThe refining environment remains supportive underneath: U.S. refineries are running at 93.4% capacity utilization, and crude inventories sit at 695 million barrels \u2014 levels that allow processors to operate profitably on the current spread between crude input costs and finished fuel prices. The Middle East risk premium that drove this week's volatility hasn't disappeared, so the stock's recovery today reflects relief at de-escalation signals rather than a fundamental shift in the supply picture.",
+  "fetchedAt": "2026-10-26T16:02:06.184221+00:00",
+  "text": "Marathon Petroleum recovered 2.5% today after a three-day slide that had knocked the stock down 3.4% from its October 20th peak. The bounce came as oil prices fell on news that Saudi Arabia's defense minister is traveling to Iran for de-escalation talks\u2014a sign that the immediate threat of wider Middle East conflict may be easing. That matters for refiners like Marathon because crude prices had spiked above $116 earlier this week on geopolitical fears, and lower oil costs improve refining margins (the profit spread between what crude costs and what refined products sell for).\n\nThe refining backdrop remains solid: U.S. refineries are running at 93.4% capacity and oil storage levels are moderate, which keeps demand steady. Over the past week, the stock has essentially traded the oil price gyrations\u2014up when crude spiked on Iran tensions, down when those tensions looked like they might boil over into attacks on Saudi energy infrastructure. Today's bounce reflects investor relief that cooler heads appear to be prevailing.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 210,
-    "inputTokens": 195415,
-    "outputTokens": 47826,
-    "estimatedCostUsd": 0.434545,
-    "lastCallHour": "2026-10-26T15"
+    "callsThisMonth": 211,
+    "inputTokens": 196328,
+    "outputTokens": 48051,
+    "estimatedCostUsd": 0.436583,
+    "lastCallHour": "2026-10-26T16"
   }
 }
