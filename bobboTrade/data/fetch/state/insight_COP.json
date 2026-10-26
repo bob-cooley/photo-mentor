@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T18:02:45.387317+00:00",
-  "text": "ConocoPhillips rose 0.5% today to close at $151.54, extending a strong two-week rally of over 10%. The stock has climbed sharply since October 23rd, when Brent crude hit a six-month high above $116 a barrel amid escalating Middle East tensions\u2014particularly the standoff between Iran and Saudi Arabia, including Houthi missile and drone attacks on Saudi energy infrastructure. With U.S. oil now trading at $107.89 and global prices at $115.22, the broader energy sector is benefiting from the supply risk premium these geopolitical events have created.\n\nThe timing matters: even though oil ticked slightly lower on October 26th after Saudi and Iranian officials met to discuss de-escalation, the underlying price levels remain elevated, and the threat of supply disruptions\u2014especially to critical Saudi export and refining capacity\u2014continues to support higher crude valuations. This regional instability has already started reshaping global energy markets and benefiting U.S. energy producers, according to reporting from the period, making major integrated oil companies like ConocoPhillips direct beneficiaries of the higher price environment.",
+  "fetchedAt": "2026-10-26T19:01:30.861480+00:00",
+  "text": "ConocoPhillips edged up 0.49% today to close at $151.55, capping a remarkable week-long rally that gained 10.17% in just six trading days. The spike was driven by surging oil prices\u2014U.S. crude jumped to $107.89 per barrel and Brent to $115.22\u2014fueled by Middle East tensions between Iran and Saudi Arabia that have raised the risk of supply disruptions. Geopolitical risk premiums in oil directly benefit major producers like ConocoPhillips, whose earnings hinge on the price they can sell crude for.\n\nThe broader energy trade has shifted decisively in favor of U.S. producers and exporters this month. Rising Middle East instability is not only pushing crude prices higher but also reshaping global energy markets in ways that benefit American oil and natural gas companies\u2014making the energy sector itself a beneficiary of regional risk, rather than a victim of it.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 213,
-    "inputTokens": 185127,
-    "outputTokens": 45470,
-    "estimatedCostUsd": 0.412477,
-    "lastCallHour": "2026-10-26T18"
+    "callsThisMonth": 214,
+    "inputTokens": 185981,
+    "outputTokens": 45678,
+    "estimatedCostUsd": 0.414371,
+    "lastCallHour": "2026-10-26T19"
   }
 }
