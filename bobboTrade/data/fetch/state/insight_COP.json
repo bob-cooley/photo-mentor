@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T03:01:37.861527+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, continuing a sharp two-week rally that's now up 12.45%. The move tracks directly with oil prices spiking to six-month highs \u2014 Brent crude topped $116 and U.S. oil sits at $107.89 \u2014 driven by escalating Middle East tensions. Saudi Arabia's interception of Iranian-backed drone and missile attacks, combined with reports of potential U.S. military action against Iran, have pushed markets to price in real supply risk, and as a major oil producer ConocoPhillips benefits from higher crude prices hitting its revenues.\n\nThe broader energy trade has shifted sharply. Iran's economic squeeze from oil sanctions is fueling regional desperation, and the conflict is already reshaping global energy flows \u2014 Qatar is moving to buy U.S. natural gas, signaling how the geopolitical realignment is funneling energy demand toward American suppliers. For a company like ConocoPhillips with deep U.S. production, this combination of higher oil prices and stronger global demand for American energy is the tailwind behind the last two weeks' run.",
+  "fetchedAt": "2026-10-26T09:38:34.196731+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to $150.80, capping a 12.45% surge over two weeks. The timing aligns directly with escalating Middle East tensions: Saudi Arabia intercepted Iranian-backed Houthi missiles and drones on October 25th, Brent crude topped $116 a barrel (a six-month high) on October 23rd, and oil prices have remained elevated above $107 per barrel for U.S. crude. As a major oil producer, the company benefits when geopolitical risk pushes energy prices higher.\n\nThe broader pattern here is that U.S. energy companies are gaining as the Iran-related conflict reshapes global markets \u2014 a trend that extends beyond just crude producers to liquefied natural gas exporters and refiners with exposure to higher feedstock values. Today's move appears to be a continuation of that momentum rather than a single-day catalyst.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 206,
-    "inputTokens": 179160,
-    "outputTokens": 43826,
-    "estimatedCostUsd": 0.39829,
-    "lastCallHour": "2026-10-26T03"
+    "callsThisMonth": 207,
+    "inputTokens": 180010,
+    "outputTokens": 44028,
+    "estimatedCostUsd": 0.40015,
+    "lastCallHour": "2026-10-26T09"
   }
 }

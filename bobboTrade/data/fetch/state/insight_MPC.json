@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T03:01:53.297957+00:00",
-  "text": "Marathon Petroleum has fallen about 2% over the past week, declining modestly again today as oil prices stabilized after spiking on geopolitical tensions. Brent crude reached $116 last week on escalating Middle East conflict rhetoric and Houthi attacks on energy infrastructure, but those gains have since cooled\u2014U.S. oil is now trading around $108, down from the recent highs. For refiners like MPC, this price pullback matters: they profit most when crude is cheap relative to finished products like gasoline and diesel, and when demand is strong. Right now, refineries are running at a healthy 93.4% capacity and fuel inventories remain moderate, but the loss of the crude-price spike removes one of the bullish catalysts that pushed the stock higher earlier in the month.\n\nThe broader pattern here is that energy stocks and refiners tend to ride geopolitical risk premiums upward, then sell off when those risks feel less acute\u2014even if the underlying tensions haven't fully resolved. The Iran-related headlines that drove oil to six-month highs a few days ago have faded from the immediate news cycle, and without fresh escalation, traders are rotating out of the trade.",
+  "fetchedAt": "2026-10-26T09:38:45.811039+00:00",
+  "text": "Marathon Petroleum fell 0.45% today as oil prices dropped over 2% on concerns that elevated crude costs could dampen fuel demand. The broader weakness reflects traders reassessing the balance between supply risks (Saudi infrastructure attacks, Middle East tensions) and demand destruction \u2014 the risk that high oil prices force consumers and businesses to cut back on fuel consumption. This matters for a refiner like Marathon because while higher crude prices can boost profits under some conditions, demand destruction erodes the volume of fuel they can sell at those prices.\n\nThe stock has retreated nearly 5% in six days despite refineries running at 93.4% capacity and oil storage remaining relatively low \u2014 suggesting the market is pricing in a meaningful slowdown in fuel demand rather than viewing the geopolitical premium in crude as a pure tailwind for refining margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 206,
-    "inputTokens": 191763,
-    "outputTokens": 46939,
-    "estimatedCostUsd": 0.426458,
-    "lastCallHour": "2026-10-26T03"
+    "callsThisMonth": 207,
+    "inputTokens": 192676,
+    "outputTokens": 47113,
+    "estimatedCostUsd": 0.428241,
+    "lastCallHour": "2026-10-26T09"
   }
 }
