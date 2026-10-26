@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T17:01:32.755772+00:00",
-  "text": "ConocoPhillips rose 0.44% today to $151.47, capping a sharp 10% two-week rally driven by surging oil prices. Brent crude has climbed to $117 a barrel, near six-month highs, as Middle East tensions escalated\u2014Iran-backed Houthis attacked Saudi energy infrastructure, though Saudi Arabia says it intercepted the missiles and drones. For a major oil producer like ConocoPhillips, higher crude prices directly lift the value of its reserves and cash flow from production.\n\nThe broader tailwind is a geopolitical energy shock that's benefiting U.S. oil and gas companies. The conflicts are reshaping global energy markets and reducing supply concerns for American producers, who are gaining market share as buyers look to diversify away from Middle East suppliers\u2014a trend evident in Qatar's new U.S. liquefied natural gas deals. This regional instability, combined with Trump administration rhetoric around Iran and oil markets, has kept prices elevated and investor appetite strong for American energy stocks.",
+  "fetchedAt": "2026-10-26T18:02:45.387317+00:00",
+  "text": "ConocoPhillips rose 0.5% today to close at $151.54, extending a strong two-week rally of over 10%. The stock has climbed sharply since October 23rd, when Brent crude hit a six-month high above $116 a barrel amid escalating Middle East tensions\u2014particularly the standoff between Iran and Saudi Arabia, including Houthi missile and drone attacks on Saudi energy infrastructure. With U.S. oil now trading at $107.89 and global prices at $115.22, the broader energy sector is benefiting from the supply risk premium these geopolitical events have created.\n\nThe timing matters: even though oil ticked slightly lower on October 26th after Saudi and Iranian officials met to discuss de-escalation, the underlying price levels remain elevated, and the threat of supply disruptions\u2014especially to critical Saudi export and refining capacity\u2014continues to support higher crude valuations. This regional instability has already started reshaping global energy markets and benefiting U.S. energy producers, according to reporting from the period, making major integrated oil companies like ConocoPhillips direct beneficiaries of the higher price environment.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 212,
-    "inputTokens": 184273,
-    "outputTokens": 45216,
-    "estimatedCostUsd": 0.410353,
-    "lastCallHour": "2026-10-26T17"
+    "callsThisMonth": 213,
+    "inputTokens": 185127,
+    "outputTokens": 45470,
+    "estimatedCostUsd": 0.412477,
+    "lastCallHour": "2026-10-26T18"
   }
 }

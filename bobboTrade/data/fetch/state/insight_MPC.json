@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T17:01:51.442493+00:00",
-  "text": "Marathon Petroleum stock rebounded 2.7% today after dropping sharply over the prior three trading days, riding a recovery in oil prices as the immediate geopolitical crisis showed signs of stabilization. Brent crude pulled back slightly to $117 following reports that Saudi Arabia's defense minister traveled to Iran to discuss de-escalation, easing some of the panic-driven buying that had pushed prices to six-month highs. For a refiner, this matters: higher crude oil costs cut into profit margins on each gallon refined, so the threat of further Middle East attacks and price spikes had hammered the stock earlier in the week.\n\nThe wider picture here is that refiners are caught between two opposing forces. On one hand, geopolitical risk premiums have lifted crude prices, which squeezes refining margins; on the other, U.S. refinery utilization remains robust at 93.4%, meaning there's still solid demand for refined products and the company has inventory flexibility if prices stabilize. Today's bounce reflects investor relief that the conflict may not escalate further\u2014at least not imminently.",
+  "fetchedAt": "2026-10-26T18:03:04.359158+00:00",
+  "text": "Marathon Petroleum rose 3.2% today after oil prices ticked lower on news of Saudi-Iran diplomatic talks aimed at de-escalation in the Middle East. While that might seem counterintuitive, the key context is that crude has already spiked to six-month highs ($115+ Brent) over the past week due to escalating regional tensions and threats to Saudi energy infrastructure. Refiners like Marathon profit when crude prices rise relative to finished product prices (a dynamic called the \"crack spread\"), and with U.S. refineries running at 93.4% capacity, higher crude costs have already lifted margins; today's modest pullback in oil doesn't erase that week-long surge that benefited the stock.\n\nThe stock's 2.8% gain over two weeks reflects the broader benefit to U.S. refiners from the Middle East conflict \u2014 tighter global supplies and higher crude prices boost refining profits, especially when domestic demand remains steady. The de-escalation talk today likely triggered some profit-taking in oil itself, but Marathon's strong week-to-date performance and the continued geopolitical premium in prices suggest investors still see tailwinds for refining margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 212,
-    "inputTokens": 197246,
-    "outputTokens": 48290,
-    "estimatedCostUsd": 0.438696,
-    "lastCallHour": "2026-10-26T17"
+    "callsThisMonth": 213,
+    "inputTokens": 198161,
+    "outputTokens": 48547,
+    "estimatedCostUsd": 0.440896,
+    "lastCallHour": "2026-10-26T18"
   }
 }
