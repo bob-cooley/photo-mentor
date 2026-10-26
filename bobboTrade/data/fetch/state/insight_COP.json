@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-25T23:45:52.230727+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to $150.80, marking a sharp move after nearly a week of flat trading. The spike aligns with escalating Middle East tensions\u2014Saudi Arabia intercepted Houthi missiles and drones, and Brent crude oil has climbed to six-month highs above $116 per barrel. For an oil producer like ConocoPhillips, higher crude prices directly translate to higher revenue and profits on barrels already produced.\n\nThe 12.45% gain over two weeks reflects a broader energy rally tied to geopolitical risk. Iran-backed attacks on Saudi energy infrastructure, combined with Trump administration signals of potential U.S. action against Iran, have pushed the market to price in sustained supply concerns. As a major U.S. oil and natural gas producer, the company benefits from both the higher oil price and the geopolitical premium investors are now paying for energy stocks exposed to these regional risks.",
+  "fetchedAt": "2026-10-26T02:22:16.175677+00:00",
+  "text": "ConocoPhillips jumped 3.55% today to $150.80, capping a remarkable two-week rally of 12.45%. The immediate catalyst is escalating Middle East tension: Saudi Arabia intercepted Iranian-backed Houthi missiles and drones, while Brent crude oil has climbed to $116 per barrel\u2014a six-month high\u2014as geopolitical risk premiums pile on. As a major oil producer, ConocoPhillips benefits directly when crude prices rise, and the company has been riding this wave as investors rotate into energy stocks expecting further supply disruptions.\n\nThe broader context amplifies the move: U.S. officials have signaled potential military action against Iran, and analysts are now explicitly highlighting energy stocks as a hedge on escalating regional conflict. With world oil prices near $115 and the Iran situation described as \"transforming global energy markets\" in the companies' favor, the stock's 12% surge over two weeks reflects investor positioning for a sustained period of higher oil prices and geopolitical uncertainty.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 204,
-    "inputTokens": 177460,
-    "outputTokens": 43346,
-    "estimatedCostUsd": 0.39419,
-    "lastCallHour": "2026-10-25T23"
+    "callsThisMonth": 205,
+    "inputTokens": 178310,
+    "outputTokens": 43573,
+    "estimatedCostUsd": 0.396175,
+    "lastCallHour": "2026-10-26T02"
   }
 }
