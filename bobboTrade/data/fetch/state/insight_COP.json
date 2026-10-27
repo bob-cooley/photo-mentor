@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T13:01:41.696809+00:00",
-  "text": "ConocoPhillips gained 0.38% today, continuing a strong two-week rally that's lifted the stock 10%. The sharp jump came on October 23rd when Brent crude oil spiked to a six-month high above $116 on escalating Middle East tensions\u2014specifically rhetoric from the Trump administration about Iran market manipulation and concerns over Houthi attacks on Saudi energy infrastructure. With crude still holding near $108 domestically and $115 globally, oil producers like ConocoPhillips benefit directly from higher prices, which expand their profit margins on every barrel extracted and sold.\n\nThe stock's momentum has proven resilient even as diplomatic efforts this week eased some of those tensions; a Saudi-Iran de-escalation meeting knocked oil lower on October 26\u201327, yet ConocoPhillips held its October 23rd gains. This suggests the market is pricing in persistent supply-chain risk in the region rather than treating the diplomatic news as a full reversal of the tension premium that sent oil higher in the first place.",
+  "fetchedAt": "2026-10-27T14:01:32.180989+00:00",
+  "text": "ConocoPhillips fell slightly today despite remaining up sharply over the past two weeks, as oil prices retreated on news of diplomatic efforts to ease Middle East tensions. On October 27, reports of Saudi-Iranian talks and U.S. diplomatic engagement with Iran pushed crude prices lower\u2014Brent crude and U.S. oil both eased from recent highs\u2014which pulled the stock down even though it had gained 6.85% since late October as geopolitical risk premiums boosted oil prices to six-month highs.\n\nThe recent volatility reflects how energy stocks are caught between two opposing forces right now. For the past few days, escalating regional conflict\u2014Saudi interceptions of Houthi attacks, Trump's rhetoric about Iranian manipulation, and broader Middle East instability\u2014pushed oil prices toward $116 a barrel and supported energy stocks. But any credible sign of de-escalation or diplomatic progress immediately reverses that risk premium, as happened today, reminding investors that the current high prices are partly built on the assumption that tensions stay elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 219,
-    "inputTokens": 190228,
-    "outputTokens": 46842,
-    "estimatedCostUsd": 0.424438,
-    "lastCallHour": "2026-10-27T13"
+    "callsThisMonth": 220,
+    "inputTokens": 191072,
+    "outputTokens": 47070,
+    "estimatedCostUsd": 0.426422,
+    "lastCallHour": "2026-10-27T14"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T13:02:00.806162+00:00",
-  "text": "Marathon Petroleum bounced back 2.9% today after hitting a three-month low yesterday, as oil prices stabilized on news of diplomatic talks between Saudi Arabia and Iran aimed at de-escalating regional tensions. The stock had fallen sharply over the past few days as crude prices spiked on Middle East conflict fears, then pulled back; today's recovery mirrors that pullback in oil prices, which fell slightly as investors digested signals that the immediate supply risk may be easing.\n\nRefineries are running at 93.4% capacity and gasoline inventories are moderate, so the refiner's margins depend heavily on the direction of crude costs. The whipsaw in MPC's price over the past week\u2014from $475 down to $457 and back up to $471\u2014reflects the same underlying driver: the market rapidly repricing oil up on geopolitical shock, then down again as diplomatic hopes rose, with no fundamental shift in refining economics underneath.",
+  "fetchedAt": "2026-10-27T14:01:43.397797+00:00",
+  "text": "Marathon Petroleum stock fell 3.9% today as oil prices retreated on improving diplomatic prospects in the Middle East. Over the past two days, crude oil has edged lower as Saudi Arabia and Iran engaged in de-escalation talks, reducing the geopolitical risk premium that had pushed prices higher earlier in the week. When oil prices fall, refiners like Marathon face lower margins on their core business\u2014they buy crude at whatever the market price is, but the value of the gasoline and diesel they produce tends to move with it.\n\nThe broader pattern fits a classic risk-off sentiment: the stock had spiked to $475 on October 20th during peak Middle East tensions (when Brent crude hit a six-month high above $116), but has given back most of those gains as the acute crisis appeared to ease. At current refinery utilization of 93.4%, the company has capacity to capitalize on higher spreads, but those spreads compress when geopolitical fears subside and oil prices normalize.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 219,
-    "inputTokens": 203644,
-    "outputTokens": 49921,
-    "estimatedCostUsd": 0.453249,
-    "lastCallHour": "2026-10-27T13"
+    "callsThisMonth": 220,
+    "inputTokens": 204556,
+    "outputTokens": 50139,
+    "estimatedCostUsd": 0.455251,
+    "lastCallHour": "2026-10-27T14"
   }
 }
