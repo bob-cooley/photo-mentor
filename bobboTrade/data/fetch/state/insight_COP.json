@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T18:01:40.722274+00:00",
-  "text": "ConocoPhillips fell 2.16% today after oil prices dropped sharply on renewed diplomatic efforts to end the Iran conflict. On October 27th, news that Iran's supreme leader and top security officials were discussing conditions to end the war pushed oil prices lower\u2014US crude fell to $107.89, down from the spike above $116 just days earlier. Since the stock had climbed 5.11% over the past two weeks on the back of rising geopolitical tensions and higher oil prices, today's pullback reflects investors unwinding those gains as the immediate risk of wider conflict receded.\n\nThe volatility tracks the regional tension cycle: fears of Saudi infrastructure damage and supply disruptions pushed oil and the stock higher earlier in the week, but signs of diplomatic progress\u2014Saudi Arabia's de-escalation talks with Iran on October 26th, followed by the supreme leader's comments on October 27th\u2014reversed that momentum. Energy stocks like ConocoPhillips are sensitive to these swings because their profits move directly with oil prices.",
+  "fetchedAt": "2026-10-27T19:01:38.015116+00:00",
+  "text": "ConocoPhillips fell 2.5% today as oil prices dropped sharply following diplomatic progress in the Middle East conflict. On October 27, news emerged that Iran's supreme leader and top security officials were discussing conditions to end the U.S.-Israeli war, which pushed crude prices lower\u2014U.S. oil fell to $107.89 per barrel today from the $116+ levels seen just days earlier. Lower oil prices directly reduce revenue and profit potential for major oil producers like ConocoPhillips, which is why the stock reversed its recent three-day rally.\n\nThe pullback reflects how quickly sentiment swings on geopolitical risk. Just two days earlier, Saudi Arabia's defense minister met with Iran's president to de-escalate tensions, and investors were still pricing in supply disruption risk\u2014but today's news of active diplomatic negotiations to end the war removed much of that premium. The stock had surged 4.8% over the past two weeks on the back of rising oil prices driven by escalation fears; this move reverses part of those gains as those fears ease.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 224,
-    "inputTokens": 194427,
-    "outputTokens": 47959,
-    "estimatedCostUsd": 0.434222,
-    "lastCallHour": "2026-10-27T18"
+    "callsThisMonth": 225,
+    "inputTokens": 195266,
+    "outputTokens": 48193,
+    "estimatedCostUsd": 0.436231,
+    "lastCallHour": "2026-10-27T19"
   }
 }

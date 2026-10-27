@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T18:01:56.968454+00:00",
-  "text": "Marathon Petroleum's stock dropped 6.6% today, extending a two-week decline that has now erased earlier gains. The timing aligns directly with oil prices falling sharply on October 27th after Iran's supreme leader signaled openness to ending the U.S.-Israeli war\u2014a major geopolitical de-escalation that immediately reduced the premium markets had been paying for Middle East supply risk. Refiners like Marathon profit most when crude oil prices are high and stable; when that risk premium evaporates, so does part of the stock's appeal.\n\nThe broader picture shows that for the past week, oil prices had been climbing on Middle East tensions (hitting a six-month high of $116 on October 23rd), which actually helped refiners by boosting margins. Now that diplomatic signals suggest those tensions may ease, the refining sector is facing a headwind\u2014lower oil prices typically mean tighter margins and reduced profit potential for a company whose earnings depend on processing crude into fuel products at a profitable spread.",
+  "fetchedAt": "2026-10-27T19:01:54.197389+00:00",
+  "text": "Marathon Petroleum's stock fell 7.2% today, following a sharp drop of more than $33 from its October 20 peak. The primary driver is the sudden shift in oil market sentiment: overnight, Iran's supreme leader and top security officials began discussing conditions to end the regional war, which sparked a sell-off in crude prices. Lower oil prices directly squeeze refiner margins\u2014the profit refiners make by converting crude into fuel\u2014since they sell gasoline and diesel at prices that don't fall as fast as crude does.\n\nThe timing matters: just two days ago, the stock had bounced to $470 on Middle East escalation fears that pushed Brent crude to a six-month high above $116. Now that geopolitical risk is unwinding, traders are repricing the refiner's earnings outlook downward. Refinery utilization is still solid at 93.4%, but the profit environment has deteriorated sharply in 48 hours as the market has shifted from betting on supply disruption to betting on a diplomatic resolution.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 224,
-    "inputTokens": 208187,
-    "outputTokens": 51056,
-    "estimatedCostUsd": 0.463467,
-    "lastCallHour": "2026-10-27T18"
+    "callsThisMonth": 225,
+    "inputTokens": 209095,
+    "outputTokens": 51280,
+    "estimatedCostUsd": 0.465495,
+    "lastCallHour": "2026-10-27T19"
   }
 }
