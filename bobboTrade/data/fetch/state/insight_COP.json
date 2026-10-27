@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T21:01:33.673628+00:00",
-  "text": "ConocoPhillips rose 0.4% today to $151.41, continuing a sharp week-long climb that's gained 10% since October 19th. The driver is straightforward: crude oil prices have spiked to six-month highs, with U.S. oil now at $107.89 and global Brent at $115.22 per barrel, fueled by escalating Middle East tensions\u2014Iran-backed Houthi attacks on Saudi energy infrastructure, Saudi interception of missiles and drones, and broader Iran geopolitical risk pushing investors toward energy stocks as a hedge. For a major integrated oil producer like this company, higher crude prices flow directly to the bottom line.\n\nThe momentum reflects a broader shift in how markets are pricing energy risk. Recent diplomatic moves (Saudi Arabia's defense minister meeting with Iran's president to de-escalate) briefly eased some tension on October 26th and pulled oil prices down slightly, but the underlying supply vulnerability\u2014particularly the threat to Saudi facilities critical to global exports\u2014keeps the energy sector bid up as investors position for continued regional instability.",
+  "fetchedAt": "2026-10-27T01:04:53.169882+00:00",
+  "text": "ConocoPhillips rose 0.38% today to $151.37, continuing a strong rally that has added 10% over the past two weeks. The immediate catalyst was oil prices holding firm\u2014US crude at $107.89 and global benchmark Brent at $115.22\u2014despite a Saudi-Iran de-escalation meeting on October 26th. The broader driver of this two-week climb is Middle East geopolitical tension: Iran-backed Houthi attacks on Saudi energy infrastructure, Trump's public accusations against Iran, and spillover worries about regional supply disruptions have kept oil prices elevated and benefited major US oil producers like ConocoPhillips.\n\nThe deeper context is that Middle East risk is now reshaping energy markets in ways that favor US producers. News coverage notes the Iran conflict is boosting demand for US liquefied natural gas and drawing investor attention to \"under-the-radar\" energy plays\u2014a category that includes large integrated oil companies with global reach. As long as regional tensions sustain higher oil prices, refiners and producers with diverse supply sources benefit.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 216,
-    "inputTokens": 187689,
-    "outputTokens": 46141,
-    "estimatedCostUsd": 0.418394,
-    "lastCallHour": "2026-10-26T21"
+    "callsThisMonth": 217,
+    "inputTokens": 188543,
+    "outputTokens": 46378,
+    "estimatedCostUsd": 0.420433,
+    "lastCallHour": "2026-10-27T01"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-26T21:01:45.841987+00:00",
-  "text": "Marathon Petroleum stock recovered 2.9% today after dropping sharply over the prior three days, when crude oil prices spiked on Middle East tensions\u2014Brent crude hit $116 on October 23rd amid escalating Iran rhetoric and Houthi attacks on Saudi infrastructure. Today's bounce coincides with news that Saudi Arabia and Iran are now de-escalating through direct talks, which has eased the immediate supply-shock premium in oil prices (crude fell from the $116 peak). Refineries are running at 93.4% capacity with ample crude available, putting the company in position to benefit if geopolitical risk stays manageable while oil prices remain elevated.\n\nThe stock's whipsaw over the past week\u2014up sharply early, then down hard when tensions peaked, now recovering\u2014reflects how refiner profits depend heavily on oil price stability and predictability, not just the level of prices themselves. The recent geopolitical cycle has created that volatility, but the company's own operations appear intact and well-supplied.",
+  "fetchedAt": "2026-10-27T01:05:15.524261+00:00",
+  "text": "Marathon Petroleum recovered 2.9% today after three straight days of losses, bouncing back as oil prices stabilized. The stock had fallen sharply from October 19 to 23 during peak Middle East tensions (when Brent crude hit $116), but today's move reflects a modest de-escalation: news that Saudi Arabia and Iran's leadership met to reduce tensions, combined with oil prices pulling back slightly, took some of the geopolitical risk premium out of the market. At $107.89 for U.S. crude, prices remain elevated but have retreated from their recent highs.\n\nRefiners like Marathon benefit from both high oil prices and the ability to run plants at full capacity\u2014which sits at 93.4% currently\u2014converting crude into fuels. The volatility over the past week shows how tightly refining stocks move with Middle East supply risks: when tensions spike, crude surges and refiners gain; when de-escalation talk emerges, prices cool and the stock retraces. Today's recovery suggests investors are taking the Tehran meeting as a sign that supply disruptions are less imminent than they appeared just days ago.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 216,
-    "inputTokens": 200906,
-    "outputTokens": 49224,
-    "estimatedCostUsd": 0.447026,
-    "lastCallHour": "2026-10-26T21"
+    "callsThisMonth": 217,
+    "inputTokens": 201823,
+    "outputTokens": 49473,
+    "estimatedCostUsd": 0.449188,
+    "lastCallHour": "2026-10-27T01"
   }
 }
