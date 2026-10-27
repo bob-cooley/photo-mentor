@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T16:01:54.674889+00:00",
-  "text": "Marathon Petroleum dropped 5.96% today to $442.57, marking the third consecutive down day after a brief rally on the 26th. The immediate trigger is the sharp fall in oil prices following diplomatic breakthroughs\u2014Iran's supreme leader and top security official discussed conditions to end the war with the U.S. and Israel, and Saudi Arabia's defense minister met with Iran's president to de-escalate tensions. Lower geopolitical risk means lower oil prices (WTI fell to $107.89 from recent highs), and refiners like Marathon profit when oil feedstock is expensive and refined products command premium prices; a retreat from crisis pricing squeezes those margins.\n\nThe broader pattern here is whipsaw: for the past week, Middle East tensions were pushing oil higher (Brent hit $116 on the 23rd amid Houthi attacks), lifting refiner stocks on hopes of fatter profit spreads. Now that same region is moving toward de-escalation, reversing that tailwind. U.S. refineries are running at 93.4%, so there's ample capacity to produce if margins allow\u2014but the geopolitical premium that was making crude expensive relative to refined products is now deflating.",
+  "fetchedAt": "2026-10-27T17:02:08.026044+00:00",
+  "text": "Marathon Petroleum stock fell 6.2% today following a sharp reversal in oil prices driven by diplomatic developments in the Middle East conflict. After oil prices spiked to a six-month high of $116+ just days ago on escalating Iran-Israel tensions, news on October 26\u201327 of peace discussions between Iran's leadership and Saudi officials triggered a selloff\u2014crude dropped below $108, and refiners like Marathon felt the pressure as the margin between crude input costs and fuel output prices compressed.\n\nThe bigger picture here is that refiners profit most when crude prices stay elevated but stable; wild swings from geopolitical risk create uncertainty. Over two weeks, Marathon has lost 7.4% as investors cycled out of the \"war premium\" baked into oil prices during the height of tensions, even though U.S. refinery utilization remains healthy at 93.4%.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 222,
-    "inputTokens": 206371,
-    "outputTokens": 50647,
-    "estimatedCostUsd": 0.459606,
-    "lastCallHour": "2026-10-27T16"
+    "callsThisMonth": 223,
+    "inputTokens": 207279,
+    "outputTokens": 50838,
+    "estimatedCostUsd": 0.461469,
+    "lastCallHour": "2026-10-27T17"
   }
 }
