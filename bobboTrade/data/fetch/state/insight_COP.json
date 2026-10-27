@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T07:14:09.737416+00:00",
-  "text": "ConocoPhillips rose 0.38% today to $151.37, capping a dramatic 10% surge over two weeks. The timing tells the story: the stock jumped $5.17 on October 23rd\u2014the same day Brent crude hit a six-month high above $116 per barrel amid escalating Middle East tensions, including Trump's accusation that Iran was manipulating oil markets and reports of Houthi attacks on Saudi energy infrastructure. Oil refiners and producers directly benefit when crude prices spike, since they sell oil at higher prices; the company also benefits from geopolitical risk premiums that push investors toward energy stocks during supply uncertainty.\n\nThe recent pullback in crude prices\u2014down to $107.89 domestically and $115.22 globally\u2014reflects renewed diplomatic efforts to ease the U.S.-Israeli-Iran conflict starting around October 26th. Yet ConocoPhillips held most of its gains rather than falling back with oil, suggesting investors may be pricing in a floor under energy prices if Middle East tensions remain elevated or diplomacy stalls.",
+  "fetchedAt": "2026-10-27T13:01:41.696809+00:00",
+  "text": "ConocoPhillips gained 0.38% today, continuing a strong two-week rally that's lifted the stock 10%. The sharp jump came on October 23rd when Brent crude oil spiked to a six-month high above $116 on escalating Middle East tensions\u2014specifically rhetoric from the Trump administration about Iran market manipulation and concerns over Houthi attacks on Saudi energy infrastructure. With crude still holding near $108 domestically and $115 globally, oil producers like ConocoPhillips benefit directly from higher prices, which expand their profit margins on every barrel extracted and sold.\n\nThe stock's momentum has proven resilient even as diplomatic efforts this week eased some of those tensions; a Saudi-Iran de-escalation meeting knocked oil lower on October 26\u201327, yet ConocoPhillips held its October 23rd gains. This suggests the market is pricing in persistent supply-chain risk in the region rather than treating the diplomatic news as a full reversal of the tension premium that sent oil higher in the first place.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 218,
-    "inputTokens": 189383,
-    "outputTokens": 46614,
-    "estimatedCostUsd": 0.422453,
-    "lastCallHour": "2026-10-27T07"
+    "callsThisMonth": 219,
+    "inputTokens": 190228,
+    "outputTokens": 46842,
+    "estimatedCostUsd": 0.424438,
+    "lastCallHour": "2026-10-27T13"
   }
 }
