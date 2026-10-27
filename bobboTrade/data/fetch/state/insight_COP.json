@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T01:04:53.169882+00:00",
-  "text": "ConocoPhillips rose 0.38% today to $151.37, continuing a strong rally that has added 10% over the past two weeks. The immediate catalyst was oil prices holding firm\u2014US crude at $107.89 and global benchmark Brent at $115.22\u2014despite a Saudi-Iran de-escalation meeting on October 26th. The broader driver of this two-week climb is Middle East geopolitical tension: Iran-backed Houthi attacks on Saudi energy infrastructure, Trump's public accusations against Iran, and spillover worries about regional supply disruptions have kept oil prices elevated and benefited major US oil producers like ConocoPhillips.\n\nThe deeper context is that Middle East risk is now reshaping energy markets in ways that favor US producers. News coverage notes the Iran conflict is boosting demand for US liquefied natural gas and drawing investor attention to \"under-the-radar\" energy plays\u2014a category that includes large integrated oil companies with global reach. As long as regional tensions sustain higher oil prices, refiners and producers with diverse supply sources benefit.",
+  "fetchedAt": "2026-10-27T07:14:09.737416+00:00",
+  "text": "ConocoPhillips rose 0.38% today to $151.37, capping a dramatic 10% surge over two weeks. The timing tells the story: the stock jumped $5.17 on October 23rd\u2014the same day Brent crude hit a six-month high above $116 per barrel amid escalating Middle East tensions, including Trump's accusation that Iran was manipulating oil markets and reports of Houthi attacks on Saudi energy infrastructure. Oil refiners and producers directly benefit when crude prices spike, since they sell oil at higher prices; the company also benefits from geopolitical risk premiums that push investors toward energy stocks during supply uncertainty.\n\nThe recent pullback in crude prices\u2014down to $107.89 domestically and $115.22 globally\u2014reflects renewed diplomatic efforts to ease the U.S.-Israeli-Iran conflict starting around October 26th. Yet ConocoPhillips held most of its gains rather than falling back with oil, suggesting investors may be pricing in a floor under energy prices if Middle East tensions remain elevated or diplomacy stalls.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 217,
-    "inputTokens": 188543,
-    "outputTokens": 46378,
-    "estimatedCostUsd": 0.420433,
-    "lastCallHour": "2026-10-27T01"
+    "callsThisMonth": 218,
+    "inputTokens": 189383,
+    "outputTokens": 46614,
+    "estimatedCostUsd": 0.422453,
+    "lastCallHour": "2026-10-27T07"
   }
 }

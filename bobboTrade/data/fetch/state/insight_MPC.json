@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T01:05:15.524261+00:00",
-  "text": "Marathon Petroleum recovered 2.9% today after three straight days of losses, bouncing back as oil prices stabilized. The stock had fallen sharply from October 19 to 23 during peak Middle East tensions (when Brent crude hit $116), but today's move reflects a modest de-escalation: news that Saudi Arabia and Iran's leadership met to reduce tensions, combined with oil prices pulling back slightly, took some of the geopolitical risk premium out of the market. At $107.89 for U.S. crude, prices remain elevated but have retreated from their recent highs.\n\nRefiners like Marathon benefit from both high oil prices and the ability to run plants at full capacity\u2014which sits at 93.4% currently\u2014converting crude into fuels. The volatility over the past week shows how tightly refining stocks move with Middle East supply risks: when tensions spike, crude surges and refiners gain; when de-escalation talk emerges, prices cool and the stock retraces. Today's recovery suggests investors are taking the Tehran meeting as a sign that supply disruptions are less imminent than they appeared just days ago.",
+  "fetchedAt": "2026-10-27T07:14:22.751350+00:00",
+  "text": "Marathon Petroleum rose 2.9% today after oil prices fell sharply on news of renewed diplomatic efforts to end the Middle East conflict. Over the past week, the stock has been on a rollercoaster\u2014it peaked at $475 on October 20th as geopolitical tensions drove crude toward $116 a barrel, then dropped to $457 by October 23rd as those same tensions escalated the risk of supply disruptions. Today's bounce reflects relief that de-escalation talks between Saudi Arabia and Iran are reducing the immediate threat of a major supply shock.\n\nFor a refiner like Marathon, this whipsaw matters in two directions. When oil prices spike on geopolitical fear, refiners' input costs rise faster than they can pass costs to customers, which pressures margins. Conversely, when prices fall on calmer headlines\u2014even if crude is still historically elevated at $107\u2013$115\u2014refiners benefit from cheaper feedstock. With U.S. refineries running at 93% capacity and fuel inventories stable, the company is well-positioned to capture that margin recovery if the diplomatic progress holds.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 217,
-    "inputTokens": 201823,
-    "outputTokens": 49473,
-    "estimatedCostUsd": 0.449188,
-    "lastCallHour": "2026-10-27T01"
+    "callsThisMonth": 218,
+    "inputTokens": 202731,
+    "outputTokens": 49714,
+    "estimatedCostUsd": 0.451301,
+    "lastCallHour": "2026-10-27T07"
   }
 }
