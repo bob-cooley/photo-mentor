@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T15:01:37.209751+00:00",
-  "text": "ConocoPhillips fell 1.95% today after oil prices dropped on news of diplomatic efforts to ease Saudi-Iran tensions. Yesterday and today brought reports of Saudi Arabia's defense minister meeting with Iran's president in Tehran, which reduced investor fears about potential disruptions to Middle Eastern oil production and exports \u2014 the opposite of the supply-shock concerns that had pushed crude up to six-month highs just days earlier. With crude now trading at $107.89 domestically and $115.22 globally, down from the $116+ peak on October 23rd, the immediate pressure driving energy stocks higher has eased.\n\nThe stock's 1.95% decline fits a reversal of a sharp four-day rally: COP jumped $5.17 (3.5%) between October 22nd and October 26th as Middle East tensions escalated, then gave back most of those gains today as de-escalation news shifted the outlook. Oil majors like ConocoPhillips benefit from higher prices, but they're also sensitive to what traders expect prices will do next \u2014 and today's diplomatic headlines signaled that the geopolitical risk premium that had lifted crude is fading.",
+  "fetchedAt": "2026-10-27T16:01:34.245284+00:00",
+  "text": "ConocoPhillips fell 1.86% today after oil prices dropped sharply on news of diplomatic efforts between Iran and Saudi Arabia to de-escalate their conflict. The stock had jumped 3.8% on October 23rd when Middle East tensions peaked and oil hit six-month highs near $116 a barrel; today's decline reverses that trade as geopolitical risk recedes and crude falls back below $108 in the U.S. market.\n\nThe broader pattern here is straightforward: energy stocks track oil prices closely, and this week was a textbook example. Rising tensions and supply-disruption fears pushed oil up over a three-day span; renewed peace talks pushed it back down just as quickly. ConocoPhillips gained on the upside and is now giving some of those gains back as the immediate crisis narrative shifts.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 221,
-    "inputTokens": 191910,
-    "outputTokens": 47325,
-    "estimatedCostUsd": 0.428535,
-    "lastCallHour": "2026-10-27T15"
+    "callsThisMonth": 222,
+    "inputTokens": 192749,
+    "outputTokens": 47510,
+    "estimatedCostUsd": 0.430299,
+    "lastCallHour": "2026-10-27T16"
   }
 }
