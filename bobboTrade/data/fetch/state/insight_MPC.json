@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T14:01:43.397797+00:00",
-  "text": "Marathon Petroleum stock fell 3.9% today as oil prices retreated on improving diplomatic prospects in the Middle East. Over the past two days, crude oil has edged lower as Saudi Arabia and Iran engaged in de-escalation talks, reducing the geopolitical risk premium that had pushed prices higher earlier in the week. When oil prices fall, refiners like Marathon face lower margins on their core business\u2014they buy crude at whatever the market price is, but the value of the gasoline and diesel they produce tends to move with it.\n\nThe broader pattern fits a classic risk-off sentiment: the stock had spiked to $475 on October 20th during peak Middle East tensions (when Brent crude hit a six-month high above $116), but has given back most of those gains as the acute crisis appeared to ease. At current refinery utilization of 93.4%, the company has capacity to capitalize on higher spreads, but those spreads compress when geopolitical fears subside and oil prices normalize.",
+  "fetchedAt": "2026-10-27T15:01:53.592110+00:00",
+  "text": "Marathon Petroleum's stock fell 5.4% today after oil prices dropped sharply on news of diplomatic efforts to de-escalate tensions between Saudi Arabia and Iran. The price decline follows a two-day, 3.4% slide that began when Saudi and Iranian officials met in Tehran to ease regional conflict, signaling reduced risk of a major supply disruption that had pushed crude prices above $116 just four days earlier. Lower oil prices directly squeeze refiner margins\u2014the difference between what they pay for crude and what they can sell refined products for\u2014which is the core driver of their profits.\n\nThe broader picture here is the volatility baked into refiner valuations right now: the stock gained $13 (2.9%) on October 26 alone when geopolitical risk was still priced in, then lost that ground and more as the diplomatic path became clearer. With refineries running at a healthy 93% capacity and oil storage near typical levels, the refiner's near-term economics hinge almost entirely on the crude-to-product price spread, which swings sharply on geopolitical headlines like these.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 220,
-    "inputTokens": 204556,
-    "outputTokens": 50139,
-    "estimatedCostUsd": 0.455251,
-    "lastCallHour": "2026-10-27T14"
+    "callsThisMonth": 221,
+    "inputTokens": 205463,
+    "outputTokens": 50380,
+    "estimatedCostUsd": 0.457363,
+    "lastCallHour": "2026-10-27T15"
   }
 }

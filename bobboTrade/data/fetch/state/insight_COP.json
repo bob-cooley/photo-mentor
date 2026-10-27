@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T14:01:32.180989+00:00",
-  "text": "ConocoPhillips fell slightly today despite remaining up sharply over the past two weeks, as oil prices retreated on news of diplomatic efforts to ease Middle East tensions. On October 27, reports of Saudi-Iranian talks and U.S. diplomatic engagement with Iran pushed crude prices lower\u2014Brent crude and U.S. oil both eased from recent highs\u2014which pulled the stock down even though it had gained 6.85% since late October as geopolitical risk premiums boosted oil prices to six-month highs.\n\nThe recent volatility reflects how energy stocks are caught between two opposing forces right now. For the past few days, escalating regional conflict\u2014Saudi interceptions of Houthi attacks, Trump's rhetoric about Iranian manipulation, and broader Middle East instability\u2014pushed oil prices toward $116 a barrel and supported energy stocks. But any credible sign of de-escalation or diplomatic progress immediately reverses that risk premium, as happened today, reminding investors that the current high prices are partly built on the assumption that tensions stay elevated.",
+  "fetchedAt": "2026-10-27T15:01:37.209751+00:00",
+  "text": "ConocoPhillips fell 1.95% today after oil prices dropped on news of diplomatic efforts to ease Saudi-Iran tensions. Yesterday and today brought reports of Saudi Arabia's defense minister meeting with Iran's president in Tehran, which reduced investor fears about potential disruptions to Middle Eastern oil production and exports \u2014 the opposite of the supply-shock concerns that had pushed crude up to six-month highs just days earlier. With crude now trading at $107.89 domestically and $115.22 globally, down from the $116+ peak on October 23rd, the immediate pressure driving energy stocks higher has eased.\n\nThe stock's 1.95% decline fits a reversal of a sharp four-day rally: COP jumped $5.17 (3.5%) between October 22nd and October 26th as Middle East tensions escalated, then gave back most of those gains today as de-escalation news shifted the outlook. Oil majors like ConocoPhillips benefit from higher prices, but they're also sensitive to what traders expect prices will do next \u2014 and today's diplomatic headlines signaled that the geopolitical risk premium that had lifted crude is fading.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 220,
-    "inputTokens": 191072,
-    "outputTokens": 47070,
-    "estimatedCostUsd": 0.426422,
-    "lastCallHour": "2026-10-27T14"
+    "callsThisMonth": 221,
+    "inputTokens": 191910,
+    "outputTokens": 47325,
+    "estimatedCostUsd": 0.428535,
+    "lastCallHour": "2026-10-27T15"
   }
 }
