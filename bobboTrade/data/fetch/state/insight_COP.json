@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T17:01:38.498811+00:00",
-  "text": "ConocoPhillips fell 2.3% today after oil prices dropped sharply on renewed diplomatic efforts to end the Iran conflict. Yesterday saw reports of Iran's supreme leader and top security officials discussing conditions for a ceasefire, which sent both Brent crude (down from $116 to around $115) and U.S. crude lower. The stock had surged 4.5% just two trading days earlier when Middle East tensions peaked and Brent hit a six-month high; today's decline reverses much of that geopolitical premium.\n\nThe underlying tension for energy stocks right now is whiplash: prices spiked on escalation risk (Houthi attacks, Saudi infrastructure concerns, Trump's rhetoric about Iran manipulation), but any hint of de-escalation immediately erases those gains. With the stock up nearly 5% over two weeks despite today's pullback, the pattern suggests investors are betting on persistent tension rather than a stable resolution\u2014but each diplomatic signal triggers a sell-off as traders lock in those temporary gains.",
+  "fetchedAt": "2026-10-27T18:01:40.722274+00:00",
+  "text": "ConocoPhillips fell 2.16% today after oil prices dropped sharply on renewed diplomatic efforts to end the Iran conflict. On October 27th, news that Iran's supreme leader and top security officials were discussing conditions to end the war pushed oil prices lower\u2014US crude fell to $107.89, down from the spike above $116 just days earlier. Since the stock had climbed 5.11% over the past two weeks on the back of rising geopolitical tensions and higher oil prices, today's pullback reflects investors unwinding those gains as the immediate risk of wider conflict receded.\n\nThe volatility tracks the regional tension cycle: fears of Saudi infrastructure damage and supply disruptions pushed oil and the stock higher earlier in the week, but signs of diplomatic progress\u2014Saudi Arabia's de-escalation talks with Iran on October 26th, followed by the supreme leader's comments on October 27th\u2014reversed that momentum. Energy stocks like ConocoPhillips are sensitive to these swings because their profits move directly with oil prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 223,
-    "inputTokens": 193588,
-    "outputTokens": 47735,
-    "estimatedCostUsd": 0.432263,
-    "lastCallHour": "2026-10-27T17"
+    "callsThisMonth": 224,
+    "inputTokens": 194427,
+    "outputTokens": 47959,
+    "estimatedCostUsd": 0.434222,
+    "lastCallHour": "2026-10-27T18"
   }
 }

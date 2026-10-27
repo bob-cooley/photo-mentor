@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T17:02:08.026044+00:00",
-  "text": "Marathon Petroleum stock fell 6.2% today following a sharp reversal in oil prices driven by diplomatic developments in the Middle East conflict. After oil prices spiked to a six-month high of $116+ just days ago on escalating Iran-Israel tensions, news on October 26\u201327 of peace discussions between Iran's leadership and Saudi officials triggered a selloff\u2014crude dropped below $108, and refiners like Marathon felt the pressure as the margin between crude input costs and fuel output prices compressed.\n\nThe bigger picture here is that refiners profit most when crude prices stay elevated but stable; wild swings from geopolitical risk create uncertainty. Over two weeks, Marathon has lost 7.4% as investors cycled out of the \"war premium\" baked into oil prices during the height of tensions, even though U.S. refinery utilization remains healthy at 93.4%.",
+  "fetchedAt": "2026-10-27T18:01:56.968454+00:00",
+  "text": "Marathon Petroleum's stock dropped 6.6% today, extending a two-week decline that has now erased earlier gains. The timing aligns directly with oil prices falling sharply on October 27th after Iran's supreme leader signaled openness to ending the U.S.-Israeli war\u2014a major geopolitical de-escalation that immediately reduced the premium markets had been paying for Middle East supply risk. Refiners like Marathon profit most when crude oil prices are high and stable; when that risk premium evaporates, so does part of the stock's appeal.\n\nThe broader picture shows that for the past week, oil prices had been climbing on Middle East tensions (hitting a six-month high of $116 on October 23rd), which actually helped refiners by boosting margins. Now that diplomatic signals suggest those tensions may ease, the refining sector is facing a headwind\u2014lower oil prices typically mean tighter margins and reduced profit potential for a company whose earnings depend on processing crude into fuel products at a profitable spread.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 223,
-    "inputTokens": 207279,
-    "outputTokens": 50838,
-    "estimatedCostUsd": 0.461469,
-    "lastCallHour": "2026-10-27T17"
+    "callsThisMonth": 224,
+    "inputTokens": 208187,
+    "outputTokens": 51056,
+    "estimatedCostUsd": 0.463467,
+    "lastCallHour": "2026-10-27T18"
   }
 }
