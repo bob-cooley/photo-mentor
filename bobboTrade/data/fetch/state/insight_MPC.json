@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T20:01:44.333658+00:00",
-  "text": "Marathon Petroleum's stock fell 7.4% today after oil prices dropped sharply on news of renewed diplomatic efforts between Iran and Saudi Arabia to de-escalate regional tensions. For a refiner, lower oil prices are a mixed bag\u2014crude costs less to buy, but the profit margin on turning crude into gasoline and diesel narrows when the price difference between input and output shrinks. The stock had already retreated over the past week as geopolitical risk premiums that had pushed crude to six-month highs began to unwind.\n\nThe timing matters: just days ago, tensions over Houthi attacks on Saudi energy infrastructure had driven Brent crude above $116 per barrel, which initially benefited refiners by widening their margins. Now that diplomatic signals suggest lower risk of broader supply disruption, that premium has evaporated\u2014oil fell from the highs even as U.S. refinery utilization remains elevated at 93.4%, leaving less room for upside if margins compress further.",
+  "fetchedAt": "2026-10-27T21:01:52.973694+00:00",
+  "text": "Marathon Petroleum's stock dropped 7.4% today, extending a two-week decline of 8.6%. The immediate trigger was a sharp reversal in oil prices: yesterday crude fell on news of diplomatic talks between Iran and Saudi Arabia aimed at de-escalating regional tensions, and today it fell further after Iran's supreme leader signaled conditions for ending the conflict. When geopolitical risk that had pushed oil higher suddenly eases, refiners face headwinds \u2014 lower crude prices can squeeze their margins, especially if they've locked in higher input costs or if refined product prices don't fall as fast.\n\nThe broader context here is a whipsaw in energy markets tied to Middle East tensions. Just days ago, on October 23rd, Brent crude hit a six-month high above $116 on concerns about supply disruptions from Iranian-backed attacks and regional conflict. That rally benefited refiners by lifting the value of their output. The shift toward diplomacy and de-escalation has reversed that risk premium almost as quickly, and oil falling from $115+ globally back toward $108 domestically removes the geopolitical \"floor\" that had been supporting refiner margins.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 226,
-    "inputTokens": 210003,
-    "outputTokens": 51496,
-    "estimatedCostUsd": 0.467483,
-    "lastCallHour": "2026-10-27T20"
+    "callsThisMonth": 227,
+    "inputTokens": 210911,
+    "outputTokens": 51747,
+    "estimatedCostUsd": 0.469646,
+    "lastCallHour": "2026-10-27T21"
   }
 }
