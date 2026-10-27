@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T19:01:54.197389+00:00",
-  "text": "Marathon Petroleum's stock fell 7.2% today, following a sharp drop of more than $33 from its October 20 peak. The primary driver is the sudden shift in oil market sentiment: overnight, Iran's supreme leader and top security officials began discussing conditions to end the regional war, which sparked a sell-off in crude prices. Lower oil prices directly squeeze refiner margins\u2014the profit refiners make by converting crude into fuel\u2014since they sell gasoline and diesel at prices that don't fall as fast as crude does.\n\nThe timing matters: just two days ago, the stock had bounced to $470 on Middle East escalation fears that pushed Brent crude to a six-month high above $116. Now that geopolitical risk is unwinding, traders are repricing the refiner's earnings outlook downward. Refinery utilization is still solid at 93.4%, but the profit environment has deteriorated sharply in 48 hours as the market has shifted from betting on supply disruption to betting on a diplomatic resolution.",
+  "fetchedAt": "2026-10-27T20:01:44.333658+00:00",
+  "text": "Marathon Petroleum's stock fell 7.4% today after oil prices dropped sharply on news of renewed diplomatic efforts between Iran and Saudi Arabia to de-escalate regional tensions. For a refiner, lower oil prices are a mixed bag\u2014crude costs less to buy, but the profit margin on turning crude into gasoline and diesel narrows when the price difference between input and output shrinks. The stock had already retreated over the past week as geopolitical risk premiums that had pushed crude to six-month highs began to unwind.\n\nThe timing matters: just days ago, tensions over Houthi attacks on Saudi energy infrastructure had driven Brent crude above $116 per barrel, which initially benefited refiners by widening their margins. Now that diplomatic signals suggest lower risk of broader supply disruption, that premium has evaporated\u2014oil fell from the highs even as U.S. refinery utilization remains elevated at 93.4%, leaving less room for upside if margins compress further.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 225,
-    "inputTokens": 209095,
-    "outputTokens": 51280,
-    "estimatedCostUsd": 0.465495,
-    "lastCallHour": "2026-10-27T19"
+    "callsThisMonth": 226,
+    "inputTokens": 210003,
+    "outputTokens": 51496,
+    "estimatedCostUsd": 0.467483,
+    "lastCallHour": "2026-10-27T20"
   }
 }
