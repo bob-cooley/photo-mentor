@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T14:02:35.595936+00:00",
-  "text": "Marathon Petroleum rose 1.14% today after oil prices climbed on geopolitical concerns\u2014specifically, reports that the U.S. is preparing for potential strikes against Iran following the midterm elections. As a major refiner, MPC benefits when crude oil prices rise because it can sell refined products (gasoline, diesel, fuel oil) at higher margins relative to its input costs, especially when refineries are running at high capacity like the current 93.4%. The tick upward today reflects the market's recognition that oil supply risks are driving prices higher.\n\nThis reverses some of the sharp 6.6% drop MPC took on October 27th, when diplomatic signals suggested the Iran conflict might de-escalate. The stock remains down 9% over two weeks as investors weigh whether geopolitical oil-price support will hold against the reality that U.S. refinery utilization is already near peak levels and fuel inventories are elevated\u2014factors that limit how much refiners can capitalize on crude strength.",
+  "fetchedAt": "2026-10-28T15:03:11.187431+00:00",
+  "text": "Marathon Petroleum's stock rose just barely today after dropping sharply yesterday, but the bigger story is the two-week slide of 10%. The sharp $35 drop on October 27th came as oil prices fell on reports that Iran's leadership was discussing conditions to end the conflict\u2014lower crude prices mean lower margins for refiners, who profit from the gap between what they pay for oil and what they sell refined products for. Today's near-flat move reflects competing signals: oil prices rose again on October 28th as the U.S. reportedly signaled potential strikes on Iran, but the company also faces headwinds from the Trump administration considering allowing more Russian diesel into the market, which could pressure fuel prices domestically.\n\nThe refining backdrop remains mixed. Refineries are running at 93.4% capacity and fuel inventories are substantial (gasoline and diesel combined at over 309 million barrels), which limits how much a refiner can benefit from high crude prices. The geopolitical volatility\u2014swinging between war-escalation fears and peace-talk hopes within a single week\u2014is making it hard for the stock to find stable ground.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 232,
-    "inputTokens": 215443,
-    "outputTokens": 52944,
-    "estimatedCostUsd": 0.480163,
-    "lastCallHour": "2026-10-28T14"
+    "callsThisMonth": 233,
+    "inputTokens": 216349,
+    "outputTokens": 53189,
+    "estimatedCostUsd": 0.482294,
+    "lastCallHour": "2026-10-28T15"
   }
 }
