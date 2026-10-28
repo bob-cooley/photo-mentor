@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T19:03:16.336926+00:00",
-  "text": "Marathon Petroleum rose 1.39% today after dropping sharply yesterday, but the stock remains down 8.84% over two weeks as refining margins have compressed. While crude oil prices ticked up on geopolitical tensions around Iran, the real pressure on the company comes from gasoline and diesel prices falling faster than oil costs, which squeezes the profit margin refiners earn on each barrel they process\u2014and this squeeze is visible in the storage data, where gasoline and diesel inventories are building even as refineries run near full capacity at 92.8%.\n\nThe broader headwind is a global supply glut: the Trump administration's reported moves to allow more Russian diesel into the market and rising refining activity worldwide are adding fuel supply precisely when energy stocks are tumbling and consumers are heading into winter with prices finally starting to ease. For a refiner like Marathon, that's a double bind\u2014high crude costs but limited pricing power on the products they sell.",
+  "fetchedAt": "2026-10-28T20:02:19.125996+00:00",
+  "text": "Marathon Petroleum rose 1.08% today, but this modest gain masks a brutal two-week decline of 9.12% that reflects the core problem facing refiners right now: refining margins are shrinking. Even though crude oil prices spiked Wednesday on geopolitical tensions (U.S. preparing possible Iran strikes), gasoline prices fell simultaneously\u2014a squeeze that cuts directly into refiner profits. Refineries are running at 92.8% capacity with ample fuel inventories (gasoline up, diesel stable), so there's no supply tightness to support margins, and the Trump administration's moves to allow more Russian diesel into the market add further downward pressure.\n\nThe stock's micro-bounce today likely reflects the oil price rally on Middle East conflict fears, but that tailwind is offset by the structural headwind: lower margins mean lower earnings for refiners regardless of crude prices. The week's 34-point drop through October 27 was the real story, driven by the gasoline-price collapse signaling that refining economics have deteriorated meaningfully.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 237,
-    "inputTokens": 220006,
-    "outputTokens": 54065,
-    "estimatedCostUsd": 0.490331,
-    "lastCallHour": "2026-10-28T19"
+    "callsThisMonth": 238,
+    "inputTokens": 220928,
+    "outputTokens": 54295,
+    "estimatedCostUsd": 0.492403,
+    "lastCallHour": "2026-10-28T20"
   }
 }
