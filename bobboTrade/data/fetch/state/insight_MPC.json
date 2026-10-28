@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T16:03:51.032865+00:00",
-  "text": "Marathon Petroleum stock rose slightly today (+0.48%) to $438.08, but this modest gain masks a sharp two-week decline of 9.66% that began with a $34 drop on October 27th. The timing and magnitude of that drop align directly with news on October 27th that Iran's leadership was discussing conditions to end the conflict with the U.S. and Israel \u2014 a signal of potential de-escalation that sent oil prices lower, hurting refiner margins and profit outlooks.\n\nThe bounce-back today appears to be a partial reversal, as fresh reports on October 28th about possible renewed U.S. strikes against Iran pushed oil prices back up (U.S. crude is now at $107.89/barrel). Refiners profit when crude oil prices stay elevated relative to fuel selling prices, so today's modest rebound in oil reflects investor recalibration to a more uncertain geopolitical picture. The back-and-forth swings show how exposed the company is to Middle East peace or conflict \u2014 the same dynamic that triggered the sharp selloff just yesterday.",
+  "fetchedAt": "2026-10-28T17:02:41.073191+00:00",
+  "text": "Marathon Petroleum shares rose modestly today after two days of sharp declines, as oil prices climbed on Wednesday following reports that the U.S. is preparing potential strikes against Iran. With crude trading near $108 per barrel and geopolitical tensions escalating, refiners benefit from higher oil prices when they can pass costs through to refined products\u2014though the real driver of the recent selloff appears to be behind the stock now, with peace talk signals on October 27th having knocked shares down nearly $35 in two days.\n\nThe refiner is operating at 93.4% capacity into relatively full storage tanks, which limits its ability to capture outsized margins during price spikes. The ongoing cost of the Iran conflict and talk of Russian diesel entering the market add to near-term headwinds for refining margins, even as geopolitical premiums keep crude prices elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 234,
-    "inputTokens": 217255,
-    "outputTokens": 53426,
-    "estimatedCostUsd": 0.484385,
-    "lastCallHour": "2026-10-28T16"
+    "callsThisMonth": 235,
+    "inputTokens": 218161,
+    "outputTokens": 53612,
+    "estimatedCostUsd": 0.486221,
+    "lastCallHour": "2026-10-28T17"
   }
 }
