@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T10:18:43.423595+00:00",
-  "text": "Marathon Petroleum's stock fell 7.4% today after climbing $13 on October 26th on diplomatic hopes, reversing sharply as geopolitical uncertainty persisted. The driver appears to be conflicting signals: while Houthi attacks on Saudi refineries initially pushed oil prices higher on October 28th (signaling tighter supply that benefits refiners), Trump's comments the same day about prolonging the Iran conflict seem to have spooked investors about sustained instability rather than a quick resolution. Oil prices remain elevated at $107.89 domestically and $115.22 globally, but the stock's sharp reversal suggests traders are pricing in risk rather than opportunity from this volatility.\n\nThe broader picture adds weight to the selloff: refineries are running at 93.4% capacity with healthy diesel and gasoline inventories, meaning the company is already operating near full throttle and may have limited upside from higher crude prices. In this environment, geopolitical noise that could disrupt supply chains or demand without substantially boosting margins\u2014especially when the Trump administration is also considering flooding the market with Russian diesel\u2014may be hitting the stock's valuation more than supporting it.",
+  "fetchedAt": "2026-10-28T13:03:53.725651+00:00",
+  "text": "Marathon Petroleum stock fell 7.4% today, erasing most of yesterday's 2.9% rebound and reaching a two-week low. The drop came as oil prices ticked higher on Middle East supply concerns from Houthi attacks on Saudi refineries, but the company's refining margins appear squeezed by a mismatch in what refiners can earn: U.S. crude costs $107.89 per barrel while refined products (gasoline and diesel) sit in ample storage at 205 and 104 million barrels respectively. When refiners have too much product relative to demand and crude costs rise, their profit per gallon of output shrinks.\n\nThe broader headwind is the geopolitical whipsaw\u2014oil prices swung on conflicting signals about Iran war resolution through the week, creating uncertainty for refiners trying to plan operations. At 93.4% utilization, refineries are already running hot, leaving little room to ramp up production if margins improve. The Trump administration's potential move to allow Russian diesel into U.S. markets adds another layer of downward pressure on refined fuel pricing, which directly hits refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 230,
-    "inputTokens": 213635,
-    "outputTokens": 52473,
-    "estimatedCostUsd": 0.476,
-    "lastCallHour": "2026-10-28T10"
+    "callsThisMonth": 231,
+    "inputTokens": 214538,
+    "outputTokens": 52727,
+    "estimatedCostUsd": 0.478173,
+    "lastCallHour": "2026-10-28T13"
   }
 }

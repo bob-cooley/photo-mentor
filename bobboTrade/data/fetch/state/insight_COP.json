@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-28T10:18:31.882914+00:00",
-  "text": "ConocoPhillips fell 2.3% today after oil prices dropped following diplomatic signals from Iran's leadership about potential conditions to end the conflict. This comes just a day after the stock jumped 3.8% on Middle East supply concerns from Houthi attacks on Saudi refineries \u2014 the reversal reflects investors stepping back from crisis-premium bets as peace talks appear to gain traction. The broader picture matters here: the stock is still up 5% over two weeks, showing that despite today's pullback, energy traders remain positioned for higher prices amid ongoing regional tensions.\n\nThe price swings also reflect competing currents in how traders view oil supply risk. While the Trump administration's reported willingness to allow more Russian diesel onto the market suggests some supply relief ahead, most analysts don't expect that to meaningfully lower prices given the small volume involved \u2014 meaning the market remains focused on what happens with Iran and Middle East production instead.",
+  "fetchedAt": "2026-10-28T13:02:56.189587+00:00",
+  "text": "ConocoPhillips fell 2.3% today after jumping nearly 4% yesterday, reversing some recent gains despite oil prices holding firm around $108/barrel. The timing suggests profit-taking after the stock's strong two-week run \u2014 it's up 5% over that period \u2014 rather than a response to new negative news. Yesterday's spike came on Middle East supply concerns (Houthi attacks on Saudi refineries), and today's pullback is a common market pattern when momentum trades cool even as the underlying fundamentals remain supportive.\n\nThe broader energy backdrop hasn't deteriorated. Oil prices remain elevated, Middle East tensions that boosted the sector this week are still present, and the reported discussion of Russian diesel entering the market is noted by analysts as having minimal price impact. The stock's pullback looks more like consolidation after a rally than a shift in the energy outlook that would concern a long-term holder.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 230,
-    "inputTokens": 199463,
-    "outputTokens": 49167,
-    "estimatedCostUsd": 0.445298,
-    "lastCallHour": "2026-10-28T10"
+    "callsThisMonth": 231,
+    "inputTokens": 200310,
+    "outputTokens": 49364,
+    "estimatedCostUsd": 0.44713,
+    "lastCallHour": "2026-10-28T13"
   }
 }
