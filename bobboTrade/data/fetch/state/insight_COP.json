@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-27T23:27:16.695846+00:00",
-  "text": "ConocoPhillips dropped 2.25% today, reversing much of a sharp two-day rally that had pushed the stock up nearly $5. The immediate trigger was oil prices falling on news that Iran's leadership is discussing conditions to end the regional conflict \u2014 a major geopolitical risk that had been driving energy prices higher over the past week. With crude down roughly $7 from its recent peak, refiners and oil producers like ConocoPhillips feel the direct pinch of lower energy revenues.\n\nThe stock's whipsaw over the past five trading days reflects how tightly energy companies are now tethered to Middle East tensions. The rally into October 23\u201326 happened as missiles, drone attacks, and Saudi-Iran talks created genuine supply-disruption risk; today's pullback shows that any hint of de-escalation immediately reverses that premium, even if the underlying geopolitical situation remains fragile.",
+  "fetchedAt": "2026-10-28T03:49:14.423850+00:00",
+  "text": "ConocoPhillips dropped 2.25% today after oil prices fell on renewed hopes for a diplomatic end to the Iran conflict. On October 27th, Iran's supreme leader and top security official discussed conditions to cease the war, and Saudi Arabia's defense minister visited Tehran to de-escalate tensions\u2014both moves pushed crude lower. With US oil at $107.89 and world oil at $115.22, the pullback reflects reduced geopolitical risk premium that had been supporting energy prices.\n\nThe stock had climbed sharply just the day before (up to $151.37 on October 26th) as investors bet on prolonged conflict and sustained oil demand, but the diplomatic signals reversed that momentum. Even a potential Trump administration deal to allow more Russian diesel onto the market\u2014announced on October 27th\u2014didn't support prices, since analysts noted those volumes would be too small to move the needle.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 228,
-    "inputTokens": 197787,
-    "outputTokens": 48773,
-    "estimatedCostUsd": 0.441652,
-    "lastCallHour": "2026-10-27T23"
+    "callsThisMonth": 229,
+    "inputTokens": 198629,
+    "outputTokens": 48969,
+    "estimatedCostUsd": 0.443474,
+    "lastCallHour": "2026-10-28T03"
   }
 }

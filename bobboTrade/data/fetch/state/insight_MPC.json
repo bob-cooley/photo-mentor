@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-27T23:27:39.793974+00:00",
-  "text": "Marathon Petroleum dropped 7.4% today after oil prices fell sharply on renewed diplomatic efforts to de-escalate tensions in the Middle East. Iran's supreme leader and top security officials discussed conditions to end the U.S.-Israeli conflict, and Saudi Arabia's defense minister met with Iran's president in Tehran\u2014both moves signaled reduced geopolitical risk and sent crude prices lower. For a refiner, lower oil costs are a double-edged sword: while it cuts input costs, it also compresses the profit margin they earn on each gallon processed (the difference between what they pay for crude and what they collect for refined products).\n\nThe stock has already fallen 8.6% over two weeks as geopolitical tensions have eased from their peak earlier in the month. Even though refineries are running at a healthy 93.4% capacity and product inventories remain moderate, investors appear to be pricing in a weaker environment for refining margins as crude becomes less scarce and the premium paid for supply certainty evaporates.",
+  "fetchedAt": "2026-10-28T03:49:31.390453+00:00",
+  "text": "Marathon Petroleum fell 7.4% today, continuing a sharp two-week decline that wiped out $39 per share. The immediate trigger was news of renewed diplomatic efforts to end the Iran conflict\u2014on October 27th, reports of discussions between Iran's leaders and Saudi Arabia's defense minister pushed oil prices lower, and that bearish sentiment has persisted. For a refiner like Marathon, lower crude oil prices sound good in theory, but the market is reading this as a sign of reduced geopolitical risk premium, which also means less upside volatility and tighter margins on the fuel they produce and sell.\n\nThe broader context here is that oil prices have been volatile and elevated specifically because of Middle East conflict risk\u2014the Iran war, Houthi attacks on Saudi infrastructure, and fears of supply disruptions. As that risk recedes, crude falls from $115+ per barrel toward more \"normal\" levels, and refiners see both lower input costs and lower potential for profitable spikes in fuel prices. Refinery utilization is still high at 93.4%, which normally would support margins, but investors are pricing in a softer demand and margin environment ahead if geopolitical tensions ease.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 228,
-    "inputTokens": 211818,
-    "outputTokens": 51967,
-    "estimatedCostUsd": 0.471653,
-    "lastCallHour": "2026-10-27T23"
+    "callsThisMonth": 229,
+    "inputTokens": 212733,
+    "outputTokens": 52221,
+    "estimatedCostUsd": 0.473838,
+    "lastCallHour": "2026-10-28T03"
   }
 }
