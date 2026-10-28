@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T17:02:41.073191+00:00",
-  "text": "Marathon Petroleum shares rose modestly today after two days of sharp declines, as oil prices climbed on Wednesday following reports that the U.S. is preparing potential strikes against Iran. With crude trading near $108 per barrel and geopolitical tensions escalating, refiners benefit from higher oil prices when they can pass costs through to refined products\u2014though the real driver of the recent selloff appears to be behind the stock now, with peace talk signals on October 27th having knocked shares down nearly $35 in two days.\n\nThe refiner is operating at 93.4% capacity into relatively full storage tanks, which limits its ability to capture outsized margins during price spikes. The ongoing cost of the Iran conflict and talk of Russian diesel entering the market add to near-term headwinds for refining margins, even as geopolitical premiums keep crude prices elevated.",
+  "fetchedAt": "2026-10-28T18:02:12.855528+00:00",
+  "text": "Marathon Petroleum moved up just slightly today, but the stock is down nearly 10% over two weeks despite rising oil prices\u2014a sign that refiner profits are getting squeezed. The core problem: while crude oil at $103 per barrel is elevated, the gap between what refiners buy crude for and what they sell gasoline and diesel for has shrunk sharply. This \"refining margin\" collapse is what matters most to a refinery company's earnings, and today's news confirmed it's getting worse\u2014gasoline prices are falling even as oil stays high, which compresses what refiners can earn per barrel processed.\n\nThe broader backdrop is a glut of refining capacity coming online globally just as Middle East tensions, which had boosted oil prices, show signs of moderating. With refineries running at 92.8% utilization and fuel storage levels elevated, there's simply too much supply chasing demand. Russian diesel entering the market (even in limited volumes) adds to that pressure, and consumers are already seeing relief at the pump\u2014which sounds good for drivers but means tighter margins for companies like this one that live on the spread between crude costs and product sales prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 235,
-    "inputTokens": 218161,
-    "outputTokens": 53612,
-    "estimatedCostUsd": 0.486221,
-    "lastCallHour": "2026-10-28T17"
+    "callsThisMonth": 236,
+    "inputTokens": 219084,
+    "outputTokens": 53861,
+    "estimatedCostUsd": 0.488389,
+    "lastCallHour": "2026-10-28T18"
   }
 }
