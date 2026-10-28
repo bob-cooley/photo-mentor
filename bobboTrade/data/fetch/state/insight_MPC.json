@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T15:03:11.187431+00:00",
-  "text": "Marathon Petroleum's stock rose just barely today after dropping sharply yesterday, but the bigger story is the two-week slide of 10%. The sharp $35 drop on October 27th came as oil prices fell on reports that Iran's leadership was discussing conditions to end the conflict\u2014lower crude prices mean lower margins for refiners, who profit from the gap between what they pay for oil and what they sell refined products for. Today's near-flat move reflects competing signals: oil prices rose again on October 28th as the U.S. reportedly signaled potential strikes on Iran, but the company also faces headwinds from the Trump administration considering allowing more Russian diesel into the market, which could pressure fuel prices domestically.\n\nThe refining backdrop remains mixed. Refineries are running at 93.4% capacity and fuel inventories are substantial (gasoline and diesel combined at over 309 million barrels), which limits how much a refiner can benefit from high crude prices. The geopolitical volatility\u2014swinging between war-escalation fears and peace-talk hopes within a single week\u2014is making it hard for the stock to find stable ground.",
+  "fetchedAt": "2026-10-28T16:03:51.032865+00:00",
+  "text": "Marathon Petroleum stock rose slightly today (+0.48%) to $438.08, but this modest gain masks a sharp two-week decline of 9.66% that began with a $34 drop on October 27th. The timing and magnitude of that drop align directly with news on October 27th that Iran's leadership was discussing conditions to end the conflict with the U.S. and Israel \u2014 a signal of potential de-escalation that sent oil prices lower, hurting refiner margins and profit outlooks.\n\nThe bounce-back today appears to be a partial reversal, as fresh reports on October 28th about possible renewed U.S. strikes against Iran pushed oil prices back up (U.S. crude is now at $107.89/barrel). Refiners profit when crude oil prices stay elevated relative to fuel selling prices, so today's modest rebound in oil reflects investor recalibration to a more uncertain geopolitical picture. The back-and-forth swings show how exposed the company is to Middle East peace or conflict \u2014 the same dynamic that triggered the sharp selloff just yesterday.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 233,
-    "inputTokens": 216349,
-    "outputTokens": 53189,
-    "estimatedCostUsd": 0.482294,
-    "lastCallHour": "2026-10-28T15"
+    "callsThisMonth": 234,
+    "inputTokens": 217255,
+    "outputTokens": 53426,
+    "estimatedCostUsd": 0.484385,
+    "lastCallHour": "2026-10-28T16"
   }
 }

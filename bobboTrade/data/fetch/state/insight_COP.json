@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-28T15:02:51.307184+00:00",
-  "text": "ConocoPhillips rose 0.99% today to $149.42, continuing a strong two-week run of nearly 5%. The main driver is oil prices themselves: U.S. crude jumped to $107.89 per barrel and global oil to $115.22, fueled by reports on October 28th that the U.S. is preparing for potential Iran strikes after the midterm elections. Higher oil prices directly lift revenues and margins for a major oil producer like this company.\n\nThe geopolitical escalation in the Middle East has shifted investor appetite back toward energy stocks. Even as reports emerged that the Iran conflict could cost $47 billion, the market appears to be pricing in sustained elevated oil demand from prolonged regional tension\u2014the kind of scenario that typically benefits large integrated oil producers over a multi-week horizon.",
+  "fetchedAt": "2026-10-28T16:02:47.822389+00:00",
+  "text": "ConocoPhillips rose 1.5% today as oil prices climbed on Middle East geopolitical tensions. News that the U.S. is preparing for potential Iran strikes drove investors to bid up crude\u2014U.S. oil reached $107.89 a barrel, with global oil at $115.22\u2014benefiting a major oil producer like ConocoPhillips. The stock has gained 5.5% over two weeks, riding this broader oil-price rally.\n\nThe recent volatility in the stock reflects swings in conflict expectations: it dropped sharply on October 27th but recovered strongly the next day as oil prices rose again on Iran headlines. This kind of price sensitivity to geopolitical risk is typical for integrated oil majors, whose earnings move directly with crude costs.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 233,
-    "inputTokens": 202012,
-    "outputTokens": 49751,
-    "estimatedCostUsd": 0.450767,
-    "lastCallHour": "2026-10-28T15"
+    "callsThisMonth": 234,
+    "inputTokens": 202862,
+    "outputTokens": 49923,
+    "estimatedCostUsd": 0.452477,
+    "lastCallHour": "2026-10-28T16"
   }
 }
