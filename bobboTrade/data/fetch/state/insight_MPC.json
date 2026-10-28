@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T20:02:19.125996+00:00",
-  "text": "Marathon Petroleum rose 1.08% today, but this modest gain masks a brutal two-week decline of 9.12% that reflects the core problem facing refiners right now: refining margins are shrinking. Even though crude oil prices spiked Wednesday on geopolitical tensions (U.S. preparing possible Iran strikes), gasoline prices fell simultaneously\u2014a squeeze that cuts directly into refiner profits. Refineries are running at 92.8% capacity with ample fuel inventories (gasoline up, diesel stable), so there's no supply tightness to support margins, and the Trump administration's moves to allow more Russian diesel into the market add further downward pressure.\n\nThe stock's micro-bounce today likely reflects the oil price rally on Middle East conflict fears, but that tailwind is offset by the structural headwind: lower margins mean lower earnings for refiners regardless of crude prices. The week's 34-point drop through October 27 was the real story, driven by the gasoline-price collapse signaling that refining economics have deteriorated meaningfully.",
+  "fetchedAt": "2026-10-28T21:02:30.765101+00:00",
+  "text": "Marathon Petroleum bounced back 1.08% today, recovering some ground after a sharp 4.6% drop yesterday (October 27th). The recovery came as oil prices rose on geopolitical concerns\u2014the U.S. reportedly preparing for strikes against Iran, which typically supports crude prices. However, the broader refining picture remains a headwind: refining margins (the profit refiners make turning crude into gasoline and diesel) are shrinking, and gasoline and diesel inventories remain elevated, both of which compress the margins refiners earn on each barrel processed.\n\nThe two-week decline of 9.12% reflects this margin squeeze eating into profits faster than higher oil prices can offset. While refineries are running hard at 92.8% capacity, they're competing against rising global fuel supply and inventory levels that leave less room to mark up products. The report about potential Russian diesel entering the market adds another layer of supply pressure, even if volumes are expected to be small.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 238,
-    "inputTokens": 220928,
-    "outputTokens": 54295,
-    "estimatedCostUsd": 0.492403,
-    "lastCallHour": "2026-10-28T20"
+    "callsThisMonth": 239,
+    "inputTokens": 221850,
+    "outputTokens": 54504,
+    "estimatedCostUsd": 0.49437,
+    "lastCallHour": "2026-10-28T21"
   }
 }
