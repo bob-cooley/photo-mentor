@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T13:03:53.725651+00:00",
-  "text": "Marathon Petroleum stock fell 7.4% today, erasing most of yesterday's 2.9% rebound and reaching a two-week low. The drop came as oil prices ticked higher on Middle East supply concerns from Houthi attacks on Saudi refineries, but the company's refining margins appear squeezed by a mismatch in what refiners can earn: U.S. crude costs $107.89 per barrel while refined products (gasoline and diesel) sit in ample storage at 205 and 104 million barrels respectively. When refiners have too much product relative to demand and crude costs rise, their profit per gallon of output shrinks.\n\nThe broader headwind is the geopolitical whipsaw\u2014oil prices swung on conflicting signals about Iran war resolution through the week, creating uncertainty for refiners trying to plan operations. At 93.4% utilization, refineries are already running hot, leaving little room to ramp up production if margins improve. The Trump administration's potential move to allow Russian diesel into U.S. markets adds another layer of downward pressure on refined fuel pricing, which directly hits refiner profitability.",
+  "fetchedAt": "2026-10-28T14:02:35.595936+00:00",
+  "text": "Marathon Petroleum rose 1.14% today after oil prices climbed on geopolitical concerns\u2014specifically, reports that the U.S. is preparing for potential strikes against Iran following the midterm elections. As a major refiner, MPC benefits when crude oil prices rise because it can sell refined products (gasoline, diesel, fuel oil) at higher margins relative to its input costs, especially when refineries are running at high capacity like the current 93.4%. The tick upward today reflects the market's recognition that oil supply risks are driving prices higher.\n\nThis reverses some of the sharp 6.6% drop MPC took on October 27th, when diplomatic signals suggested the Iran conflict might de-escalate. The stock remains down 9% over two weeks as investors weigh whether geopolitical oil-price support will hold against the reality that U.S. refinery utilization is already near peak levels and fuel inventories are elevated\u2014factors that limit how much refiners can capitalize on crude strength.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 231,
-    "inputTokens": 214538,
-    "outputTokens": 52727,
-    "estimatedCostUsd": 0.478173,
-    "lastCallHour": "2026-10-28T13"
+    "callsThisMonth": 232,
+    "inputTokens": 215443,
+    "outputTokens": 52944,
+    "estimatedCostUsd": 0.480163,
+    "lastCallHour": "2026-10-28T14"
   }
 }

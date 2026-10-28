@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-28T13:02:56.189587+00:00",
-  "text": "ConocoPhillips fell 2.3% today after jumping nearly 4% yesterday, reversing some recent gains despite oil prices holding firm around $108/barrel. The timing suggests profit-taking after the stock's strong two-week run \u2014 it's up 5% over that period \u2014 rather than a response to new negative news. Yesterday's spike came on Middle East supply concerns (Houthi attacks on Saudi refineries), and today's pullback is a common market pattern when momentum trades cool even as the underlying fundamentals remain supportive.\n\nThe broader energy backdrop hasn't deteriorated. Oil prices remain elevated, Middle East tensions that boosted the sector this week are still present, and the reported discussion of Russian diesel entering the market is noted by analysts as having minimal price impact. The stock's pullback looks more like consolidation after a rally than a shift in the energy outlook that would concern a long-term holder.",
+  "fetchedAt": "2026-10-28T14:02:24.063632+00:00",
+  "text": "ConocoPhillips rose 0.47% today to close at $148.66, continuing a broader two-week rally of 4.44%. The company has benefited from oil prices climbing to $107.89 per barrel domestically and $115.22 globally, driven by escalating Middle East tensions\u2014specifically news that the U.S. is preparing for possible Iran strikes after the midterm elections. Oil companies like ConocoPhillips directly profit when crude prices rise, since they produce and sell more barrels at higher prices.\n\nThe stock's recent strength reflects investor positioning around energy supply disruption risk. While the Trump administration is exploring ways to increase diesel supply from Russia, analysts note those volumes are too small to meaningfully offset concerns about potential Iranian oil production losses if conflict intensifies. That calculus keeps crude elevated, benefiting producers despite yesterday's 2.2% pullback suggesting some profit-taking or caution about the geopolitical outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 231,
-    "inputTokens": 200310,
-    "outputTokens": 49364,
-    "estimatedCostUsd": 0.44713,
-    "lastCallHour": "2026-10-28T13"
+    "callsThisMonth": 232,
+    "inputTokens": 201161,
+    "outputTokens": 49572,
+    "estimatedCostUsd": 0.449021,
+    "lastCallHour": "2026-10-28T14"
   }
 }
