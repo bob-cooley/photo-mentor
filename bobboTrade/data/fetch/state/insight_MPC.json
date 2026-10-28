@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T03:49:31.390453+00:00",
-  "text": "Marathon Petroleum fell 7.4% today, continuing a sharp two-week decline that wiped out $39 per share. The immediate trigger was news of renewed diplomatic efforts to end the Iran conflict\u2014on October 27th, reports of discussions between Iran's leaders and Saudi Arabia's defense minister pushed oil prices lower, and that bearish sentiment has persisted. For a refiner like Marathon, lower crude oil prices sound good in theory, but the market is reading this as a sign of reduced geopolitical risk premium, which also means less upside volatility and tighter margins on the fuel they produce and sell.\n\nThe broader context here is that oil prices have been volatile and elevated specifically because of Middle East conflict risk\u2014the Iran war, Houthi attacks on Saudi infrastructure, and fears of supply disruptions. As that risk recedes, crude falls from $115+ per barrel toward more \"normal\" levels, and refiners see both lower input costs and lower potential for profitable spikes in fuel prices. Refinery utilization is still high at 93.4%, which normally would support margins, but investors are pricing in a softer demand and margin environment ahead if geopolitical tensions ease.",
+  "fetchedAt": "2026-10-28T10:18:43.423595+00:00",
+  "text": "Marathon Petroleum's stock fell 7.4% today after climbing $13 on October 26th on diplomatic hopes, reversing sharply as geopolitical uncertainty persisted. The driver appears to be conflicting signals: while Houthi attacks on Saudi refineries initially pushed oil prices higher on October 28th (signaling tighter supply that benefits refiners), Trump's comments the same day about prolonging the Iran conflict seem to have spooked investors about sustained instability rather than a quick resolution. Oil prices remain elevated at $107.89 domestically and $115.22 globally, but the stock's sharp reversal suggests traders are pricing in risk rather than opportunity from this volatility.\n\nThe broader picture adds weight to the selloff: refineries are running at 93.4% capacity with healthy diesel and gasoline inventories, meaning the company is already operating near full throttle and may have limited upside from higher crude prices. In this environment, geopolitical noise that could disrupt supply chains or demand without substantially boosting margins\u2014especially when the Trump administration is also considering flooding the market with Russian diesel\u2014may be hitting the stock's valuation more than supporting it.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 229,
-    "inputTokens": 212733,
-    "outputTokens": 52221,
-    "estimatedCostUsd": 0.473838,
-    "lastCallHour": "2026-10-28T03"
+    "callsThisMonth": 230,
+    "inputTokens": 213635,
+    "outputTokens": 52473,
+    "estimatedCostUsd": 0.476,
+    "lastCallHour": "2026-10-28T10"
   }
 }

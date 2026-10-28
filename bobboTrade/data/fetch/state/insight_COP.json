@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-28T03:49:14.423850+00:00",
-  "text": "ConocoPhillips dropped 2.25% today after oil prices fell on renewed hopes for a diplomatic end to the Iran conflict. On October 27th, Iran's supreme leader and top security official discussed conditions to cease the war, and Saudi Arabia's defense minister visited Tehran to de-escalate tensions\u2014both moves pushed crude lower. With US oil at $107.89 and world oil at $115.22, the pullback reflects reduced geopolitical risk premium that had been supporting energy prices.\n\nThe stock had climbed sharply just the day before (up to $151.37 on October 26th) as investors bet on prolonged conflict and sustained oil demand, but the diplomatic signals reversed that momentum. Even a potential Trump administration deal to allow more Russian diesel onto the market\u2014announced on October 27th\u2014didn't support prices, since analysts noted those volumes would be too small to move the needle.",
+  "fetchedAt": "2026-10-28T10:18:31.882914+00:00",
+  "text": "ConocoPhillips fell 2.3% today after oil prices dropped following diplomatic signals from Iran's leadership about potential conditions to end the conflict. This comes just a day after the stock jumped 3.8% on Middle East supply concerns from Houthi attacks on Saudi refineries \u2014 the reversal reflects investors stepping back from crisis-premium bets as peace talks appear to gain traction. The broader picture matters here: the stock is still up 5% over two weeks, showing that despite today's pullback, energy traders remain positioned for higher prices amid ongoing regional tensions.\n\nThe price swings also reflect competing currents in how traders view oil supply risk. While the Trump administration's reported willingness to allow more Russian diesel onto the market suggests some supply relief ahead, most analysts don't expect that to meaningfully lower prices given the small volume involved \u2014 meaning the market remains focused on what happens with Iran and Middle East production instead.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 229,
-    "inputTokens": 198629,
-    "outputTokens": 48969,
-    "estimatedCostUsd": 0.443474,
-    "lastCallHour": "2026-10-28T03"
+    "callsThisMonth": 230,
+    "inputTokens": 199463,
+    "outputTokens": 49167,
+    "estimatedCostUsd": 0.445298,
+    "lastCallHour": "2026-10-28T10"
   }
 }
