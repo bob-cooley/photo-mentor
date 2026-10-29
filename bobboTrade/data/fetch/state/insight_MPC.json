@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-29T13:01:33.438831+00:00",
-  "text": "Marathon Petroleum recovered slightly today after a sharp 3% drop yesterday, but remains down significantly over the past two weeks. The modest bounce aligns with a broader shift in oil market sentiment: crude prices fell Thursday as renewed U.S.-Iran peace negotiations eased concerns about Middle East supply disruptions\u2014a major reversal from Wednesday's spike when strike preparations were being discussed. This whipsaw reflects how geopolitical risk premiums can evaporate quickly when conflict de-escalates.\n\nThe refining environment remains supportive underneath this volatility. Refineries are running at 92.8% utilization, and the global oil price is substantially elevated at $123 a barrel (versus $103 domestically), which typically widens the profit margin refiners capture from turning crude into fuel. However, yesterday's sharp sell-off suggests investors are recalibrating their bets on the durability of geopolitical tensions that have driven energy prices higher in recent weeks.",
+  "fetchedAt": "2026-10-29T14:01:53.432620+00:00",
+  "text": "The stock fell slightly today as oil prices declined on easing Middle East tensions. News Thursday that U.S.-Iran peace efforts were being revived triggered a drop in crude prices, with U.S. oil falling below $104 per barrel. Refiners like Marathon Petroleum profit when the spread between crude costs and refined product prices widens; when oil prices fall sharply, that spread can compress, pressuring margins and stock prices.\n\nThe broader context is the sharp reversal from Wednesday, when oil prices spiked on Iran conflict fears and the stock jumped to $470. Yesterday's 7% drop reflected the whipsaw as geopolitical risk came off the table. With refineries running near full capacity at 92.8%, the company has limited ability to cushion margin pressure by cutting production\u2014it's already running hard to process available barrels.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 242,
-    "inputTokens": 224600,
-    "outputTokens": 55140,
-    "estimatedCostUsd": 0.5003,
-    "lastCallHour": "2026-10-29T13"
+    "callsThisMonth": 243,
+    "inputTokens": 225504,
+    "outputTokens": 55323,
+    "estimatedCostUsd": 0.502119,
+    "lastCallHour": "2026-10-29T14"
   }
 }

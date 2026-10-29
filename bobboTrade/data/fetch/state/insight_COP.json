@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-29T13:01:11.729374+00:00",
-  "text": "ConocoPhillips gained less than 1% today, a modest move that reflects conflicting signals in the oil market. Oil prices fell Thursday as renewed U.S.-Iran peace talks eased concerns about Middle East supply disruptions\u2014a headwind for an oil producer. However, the stock's resilience comes after a sharp 2.4% jump yesterday when oil rallied on reports of potential U.S. strikes against Iran; today's small gain suggests the market is pricing in a pullback from those heightened geopolitical risks without fully reversing the week's earlier gains.\n\nThe broader context matters here: crude has moved significantly on shifting Middle East tensions, swinging from strike-threat concerns (pushing prices up Wednesday) to peace-talk optimism (pushing them down Thursday). For an oil company, this kind of volatility is typical when geopolitics are front-and-center. The company's two-week gain of 4.7% reflects that it benefited from the spike in risk premiums, even as today's modest price reflects a recalibration downward.",
+  "fetchedAt": "2026-10-29T14:01:31.243109+00:00",
+  "text": "The stock rose 0.83% today to $150.29, continuing a strong two-week rally up 6%. The move reflects oil prices settling after recent volatility\u2014U.S. crude fell today as news of renewed U.S.-Iran peace efforts eased immediate supply-disruption fears that had pushed prices higher earlier in the week. ConocoPhillips, as a major oil producer, benefits when crude prices stay elevated; the current $103/barrel U.S. price and $123/barrel globally remain well above the lows earlier this month, supporting the company's cash flow and stock performance.\n\nThe broader context: oil markets have been swinging on Middle East geopolitical risk this week, with prices climbing Wednesday on conflict concerns, then moderating Thursday as diplomacy signals emerged. The company has now recovered most of the sharp 2.8% drop from Monday to Tuesday, suggesting investors view the current price level as stable enough to hold.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 242,
-    "inputTokens": 209663,
-    "outputTokens": 51542,
-    "estimatedCostUsd": 0.467373,
-    "lastCallHour": "2026-10-29T13"
+    "callsThisMonth": 243,
+    "inputTokens": 210506,
+    "outputTokens": 51747,
+    "estimatedCostUsd": 0.469241,
+    "lastCallHour": "2026-10-29T14"
   }
 }
