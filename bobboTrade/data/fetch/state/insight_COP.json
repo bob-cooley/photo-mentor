@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-29T07:57:58.525682+00:00",
-  "text": "ConocoPhillips rose 0.74% today, recovering from a sharp 2.2% drop on October 27th that followed oil price weakness. The modest gain reflects conflicting signals in crude markets: while U.S. oil prices are holding firm at $103/barrel, geopolitical uncertainty around Iran has created a seesaw effect. Yesterday's news of renewed U.S.-Iran peace talks eased supply-disruption fears and weighed on oil prices Thursday, but today's reports of military leadership changes and continued Trump administration ambiguity on Iran policy have kept investors cautious rather than decisively bullish.\n\nOver two weeks, the stock is up 4.72%, tracking the broader oil price strength \u2014 U.S. crude has roughly kept pace, and global oil at $123/barrel remains elevated. The energy sector has been volatile on Middle East tensions, but with the geopolitical backdrop still unresolved and policy signals mixed, the stock is consolidating rather than trending sharply either direction.",
+  "fetchedAt": "2026-10-29T13:01:11.729374+00:00",
+  "text": "ConocoPhillips gained less than 1% today, a modest move that reflects conflicting signals in the oil market. Oil prices fell Thursday as renewed U.S.-Iran peace talks eased concerns about Middle East supply disruptions\u2014a headwind for an oil producer. However, the stock's resilience comes after a sharp 2.4% jump yesterday when oil rallied on reports of potential U.S. strikes against Iran; today's small gain suggests the market is pricing in a pullback from those heightened geopolitical risks without fully reversing the week's earlier gains.\n\nThe broader context matters here: crude has moved significantly on shifting Middle East tensions, swinging from strike-threat concerns (pushing prices up Wednesday) to peace-talk optimism (pushing them down Thursday). For an oil company, this kind of volatility is typical when geopolitics are front-and-center. The company's two-week gain of 4.7% reflects that it benefited from the spike in risk premiums, even as today's modest price reflects a recalibration downward.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 241,
-    "inputTokens": 208819,
-    "outputTokens": 51310,
-    "estimatedCostUsd": 0.465369,
-    "lastCallHour": "2026-10-29T07"
+    "callsThisMonth": 242,
+    "inputTokens": 209663,
+    "outputTokens": 51542,
+    "estimatedCostUsd": 0.467373,
+    "lastCallHour": "2026-10-29T13"
   }
 }
