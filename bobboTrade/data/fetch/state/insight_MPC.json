@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-29T14:01:53.432620+00:00",
-  "text": "The stock fell slightly today as oil prices declined on easing Middle East tensions. News Thursday that U.S.-Iran peace efforts were being revived triggered a drop in crude prices, with U.S. oil falling below $104 per barrel. Refiners like Marathon Petroleum profit when the spread between crude costs and refined product prices widens; when oil prices fall sharply, that spread can compress, pressuring margins and stock prices.\n\nThe broader context is the sharp reversal from Wednesday, when oil prices spiked on Iran conflict fears and the stock jumped to $470. Yesterday's 7% drop reflected the whipsaw as geopolitical risk came off the table. With refineries running near full capacity at 92.8%, the company has limited ability to cushion margin pressure by cutting production\u2014it's already running hard to process available barrels.",
+  "fetchedAt": "2026-10-29T15:01:45.445077+00:00",
+  "text": "Marathon Petroleum fell 3.6% today as oil prices dropped on easing Middle East tensions. Yesterday's news that U.S.-Iran peace efforts were reviving calmed markets' fears of supply disruptions, which had driven oil higher the day before. With crude falling from recent highs, the margin refiners earn\u2014the spread between what they pay for oil and what they get selling gasoline and diesel\u2014compressed, weighing on the stock.\n\nThe decline fits a two-week slide of nearly 11%, driven by the whipsaw between geopolitical alarm and diplomatic relief. Refinery utilization remains solid at 92.8%, but without the fear premium that had lifted oil prices earlier in the week, the refining business has become less profitable in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 243,
-    "inputTokens": 225504,
-    "outputTokens": 55323,
-    "estimatedCostUsd": 0.502119,
-    "lastCallHour": "2026-10-29T14"
+    "callsThisMonth": 244,
+    "inputTokens": 226407,
+    "outputTokens": 55490,
+    "estimatedCostUsd": 0.503857,
+    "lastCallHour": "2026-10-29T15"
   }
 }
