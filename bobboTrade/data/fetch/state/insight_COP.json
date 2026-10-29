@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-29T15:01:19.071971+00:00",
-  "text": "ConocoPhillips barely moved today, up just 0.04%, as oil prices fell on easing Middle East tensions. Yesterday (October 28), oil had spiked on reports of potential U.S. strikes against Iran, but today's news of renewed peace negotiations reversed that fear premium. With U.S. crude dropping from recent highs, the stock has stabilized after swinging up sharply over the past two weeks\u2014a $5.74 move from October 22 to 23 when geopolitical risk was highest.\n\nThe stock remains up 5.21% over two weeks, reflecting the oil market's volatility around Middle East conflict risk. The wide gap between world oil ($123/barrel) and U.S. oil ($103/barrel) also shows that global supply concerns persist, even if today's de-escalation headlines briefly eased the immediate threat.",
+  "fetchedAt": "2026-10-29T16:01:33.370090+00:00",
+  "text": "ConocoPhillips rose barely 0.08% today as oil prices fell on easing geopolitical tension. Yesterday (October 28th), prospects of U.S. strikes on Iran had pushed oil prices higher, but today renewed U.S.-Iran peace negotiations reversed that fear premium\u2014crude dropped from its recent highs, which weighed on the stock despite a two-week rally that had lifted it 5.25% from late October lows.\n\nThe broader picture is one of volatile Middle East risk. Over the past two days, the market swung sharply as headlines shifted from military escalation risk (pushing oil and the stock up) to diplomatic hopes (pushing both down today). With U.S. crude at $103/barrel and global crude at $123/barrel, the company remains exposed to this geopolitical yo-yo, and today's flat performance reflects how quickly sentiment can flip on peace talk developments.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 244,
-    "inputTokens": 211349,
-    "outputTokens": 51940,
-    "estimatedCostUsd": 0.471049,
-    "lastCallHour": "2026-10-29T15"
+    "callsThisMonth": 245,
+    "inputTokens": 212192,
+    "outputTokens": 52139,
+    "estimatedCostUsd": 0.472887,
+    "lastCallHour": "2026-10-29T16"
   }
 }
