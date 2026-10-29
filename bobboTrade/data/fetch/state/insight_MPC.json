@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-29T01:30:40.290031+00:00",
-  "text": "Marathon Petroleum closed up 1.1% today, but that modest gain masks a brutal two-week slide of 9.1% \u2014 and today's bounce came despite headwinds that hammered refinery stocks yesterday. The core problem: refining margins are shrinking, even as crude oil prices climbed on Middle East conflict concerns. When a refiner's profit per barrel (the gap between what it pays for crude and what it sells gasoline and diesel for) gets thinner, the stock tends to fall, which is exactly what happened on October 27th when the stock dropped $34.66. Today's small rebound appears to be a technical bounce rather than a fix to the underlying issue.\n\nThe broader squeeze is visible in the numbers: gasoline and diesel inventories remain elevated at 209 and 103 million barrels respectively, while refineries are humming at 92.8% capacity. That flood of supply \u2014 combined with talk of additional Russian diesel entering the market \u2014 is pushing fuel prices lower even though crude costs remain high at $103 per barrel. For a refinery operator, that's the worst scenario: high input costs meeting weak output prices.",
+  "fetchedAt": "2026-10-29T07:58:12.266641+00:00",
+  "text": "Marathon Petroleum stock gained about 1.1% today, bouncing back slightly after a sharp 3.2% drop yesterday. The bounce coincides with oil prices falling as U.S.-Iran peace negotiations resumed, easing fears of supply disruptions in the Middle East \u2014 a key driver of crude prices and refiner margins over the past two days. Yesterday's sell-off had come on reports of potential Iran strikes, so the shift toward diplomatic talks removed that immediate supply shock concern.\n\nThe stock remains down 9.1% over two weeks, reflecting the whipsaw from geopolitical uncertainty. With U.S. crude around $103 and refineries running at 92.8% capacity, margins depend heavily on oil price stability; the swings between war and peace talk headlines have created real near-term volatility for refining companies.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 240,
-    "inputTokens": 222774,
-    "outputTokens": 54753,
-    "estimatedCostUsd": 0.496539,
-    "lastCallHour": "2026-10-29T01"
+    "callsThisMonth": 241,
+    "inputTokens": 223695,
+    "outputTokens": 54934,
+    "estimatedCostUsd": 0.498365,
+    "lastCallHour": "2026-10-29T07"
   }
 }
