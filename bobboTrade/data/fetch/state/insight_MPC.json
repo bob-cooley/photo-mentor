@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-28T21:02:30.765101+00:00",
-  "text": "Marathon Petroleum bounced back 1.08% today, recovering some ground after a sharp 4.6% drop yesterday (October 27th). The recovery came as oil prices rose on geopolitical concerns\u2014the U.S. reportedly preparing for strikes against Iran, which typically supports crude prices. However, the broader refining picture remains a headwind: refining margins (the profit refiners make turning crude into gasoline and diesel) are shrinking, and gasoline and diesel inventories remain elevated, both of which compress the margins refiners earn on each barrel processed.\n\nThe two-week decline of 9.12% reflects this margin squeeze eating into profits faster than higher oil prices can offset. While refineries are running hard at 92.8% capacity, they're competing against rising global fuel supply and inventory levels that leave less room to mark up products. The report about potential Russian diesel entering the market adds another layer of supply pressure, even if volumes are expected to be small.",
+  "fetchedAt": "2026-10-29T01:30:40.290031+00:00",
+  "text": "Marathon Petroleum closed up 1.1% today, but that modest gain masks a brutal two-week slide of 9.1% \u2014 and today's bounce came despite headwinds that hammered refinery stocks yesterday. The core problem: refining margins are shrinking, even as crude oil prices climbed on Middle East conflict concerns. When a refiner's profit per barrel (the gap between what it pays for crude and what it sells gasoline and diesel for) gets thinner, the stock tends to fall, which is exactly what happened on October 27th when the stock dropped $34.66. Today's small rebound appears to be a technical bounce rather than a fix to the underlying issue.\n\nThe broader squeeze is visible in the numbers: gasoline and diesel inventories remain elevated at 209 and 103 million barrels respectively, while refineries are humming at 92.8% capacity. That flood of supply \u2014 combined with talk of additional Russian diesel entering the market \u2014 is pushing fuel prices lower even though crude costs remain high at $103 per barrel. For a refinery operator, that's the worst scenario: high input costs meeting weak output prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 239,
-    "inputTokens": 221850,
-    "outputTokens": 54504,
-    "estimatedCostUsd": 0.49437,
-    "lastCallHour": "2026-10-28T21"
+    "callsThisMonth": 240,
+    "inputTokens": 222774,
+    "outputTokens": 54753,
+    "estimatedCostUsd": 0.496539,
+    "lastCallHour": "2026-10-29T01"
   }
 }
