@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-29T20:01:28.079031+00:00",
-  "text": "Marathon Petroleum fell 1.82% today, continuing a sharp two-week decline of 9.26%. The immediate pressure came from oil prices edging lower on Thursday as U.S.-Iran peace negotiations eased supply concerns in the Middle East\u2014crude fell from the $123 range to $103 per barrel. For a refiner, lower oil prices can pinch profit margins on fuel production, especially when crude drops this sharply, even though refineries are running at a healthy 92.8% capacity.\n\nThe broader headwind is that Big Oil earnings season is arriving with investor caution around guidance; refiners depend on sustained margins and refining spreads that tighten when crude prices fall this quickly. The recent geopolitical volatility that had supported higher oil prices (and wider refining profits) is now reversing as peace talks reduce urgency, leaving the stock caught between uncertainty over how long margins will hold and a market that's already pricing in skepticism about what companies will project ahead.",
+  "fetchedAt": "2026-10-29T21:01:12.490718+00:00",
+  "text": "Marathon Petroleum fell 1.8% today to close at $432.74, extending a steep two-week slide of 9.3%. The main driver appears to be a drop in oil prices\u2014crude fell as U.S.-Iran peace talks gained momentum, easing concerns about Middle East supply disruptions that had pushed prices higher earlier in the month. The company also announced a leadership change today, which may have added to selling pressure on a day when the broader refining outlook is already softening.\n\nRefiner profits hinge on the spread between crude costs and fuel prices they can sell. With U.S. oil at $103 and world oil at $123\u2014and refineries running near full capacity at 92.8%\u2014the margin environment is tightening as crude becomes cheaper relative to what it was trading at just days ago. The two-week decline suggests investors are bracing for lower earnings guidance as the oil-price tailwind that lifted the sector earlier in October fades.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 249,
-    "inputTokens": 230903,
-    "outputTokens": 56504,
-    "estimatedCostUsd": 0.513423,
-    "lastCallHour": "2026-10-29T20"
+    "callsThisMonth": 250,
+    "inputTokens": 231775,
+    "outputTokens": 56716,
+    "estimatedCostUsd": 0.515355,
+    "lastCallHour": "2026-10-29T21"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-29T20:01:13.782182+00:00",
-  "text": "ConocoPhillips gained 0.6% today as oil prices steadied after a volatile week driven by Middle East tensions. The stock has climbed 5.8% over two weeks as the gap between world oil prices ($123/barrel) and U.S. oil prices ($103/barrel) has widened\u2014a spread that benefits major producers like ConocoPhillips. News Thursday that U.S.-Iran peace talks were resuming eased supply-disruption fears that had pushed prices higher earlier in the week, explaining both yesterday's sharp 3% drop and today's partial recovery.\n\nThe broader backdrop matters: earnings season for large oil producers is underway, and investors are watching closely for guidance on future production and capital spending rather than just current profits. With crude prices still well above $100/barrel globally, the company remains well-positioned, but market sentiment remains cautious about whether high oil prices will persist.",
+  "fetchedAt": "2026-10-29T21:00:56.066675+00:00",
+  "text": "ConocoPhillips edged up 0.64% today as oil prices stabilized following reports of renewed U.S.-Iran peace efforts. Oil prices had fallen earlier in the day on easing Middle East tensions, but the stock recovered slightly\u2014likely reflecting the fact that the company benefits from higher crude prices, and traders didn't want to overreact to what could be temporary diplomatic noise. U.S. crude is still trading around $103 per barrel, well above the $80\u201390 range from earlier in the year.\n\nThe stock is up 5.84% over the past two weeks, riding a broader wave of strength in Big Oil as oil prices have climbed. However, today's news also flagged that investors are watching Big Oil earnings carefully and looking for forward guidance\u2014the tone from management on future production and demand may matter as much as this quarter's windfall profits.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 249,
-    "inputTokens": 215545,
-    "outputTokens": 52938,
-    "estimatedCostUsd": 0.480235,
-    "lastCallHour": "2026-10-29T20"
+    "callsThisMonth": 250,
+    "inputTokens": 216377,
+    "outputTokens": 53129,
+    "estimatedCostUsd": 0.482022,
+    "lastCallHour": "2026-10-29T21"
   }
 }
