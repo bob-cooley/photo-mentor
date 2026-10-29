@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-29T19:01:37.508743+00:00",
-  "text": "Marathon Petroleum's stock fell 3.9% today, continuing a sharp two-week decline of over 11%. The immediate driver appears to be oil prices dropping on news of renewed U.S.-Iran peace efforts easing Middle East supply concerns \u2014 crude fell from around $110+ in recent days toward $103 per barrel. For a refiner, lower oil prices sound good in theory, but refiners profit most when the gap between crude costs and refined product prices (gasoline, diesel) widens; when crude drops fast, refined product prices often don't keep pace, squeezing margins.\n\nAdding to the pressure, CNBC reported that Big Oil earnings guidance is drawing investor caution ahead of results, suggesting the market may be bracing for weaker-than-expected outlooks from the sector. With refineries running at 92.8% capacity and product inventories relatively high (gasoline and diesel storage both above seasonal norms), there's less room for pricing power even as crude retreats.",
+  "fetchedAt": "2026-10-29T20:01:28.079031+00:00",
+  "text": "Marathon Petroleum fell 1.82% today, continuing a sharp two-week decline of 9.26%. The immediate pressure came from oil prices edging lower on Thursday as U.S.-Iran peace negotiations eased supply concerns in the Middle East\u2014crude fell from the $123 range to $103 per barrel. For a refiner, lower oil prices can pinch profit margins on fuel production, especially when crude drops this sharply, even though refineries are running at a healthy 92.8% capacity.\n\nThe broader headwind is that Big Oil earnings season is arriving with investor caution around guidance; refiners depend on sustained margins and refining spreads that tighten when crude prices fall this quickly. The recent geopolitical volatility that had supported higher oil prices (and wider refining profits) is now reversing as peace talks reduce urgency, leaving the stock caught between uncertainty over how long margins will hold and a market that's already pricing in skepticism about what companies will project ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 248,
-    "inputTokens": 230011,
-    "outputTokens": 56290,
-    "estimatedCostUsd": 0.511461,
-    "lastCallHour": "2026-10-29T19"
+    "callsThisMonth": 249,
+    "inputTokens": 230903,
+    "outputTokens": 56504,
+    "estimatedCostUsd": 0.513423,
+    "lastCallHour": "2026-10-29T20"
   }
 }
