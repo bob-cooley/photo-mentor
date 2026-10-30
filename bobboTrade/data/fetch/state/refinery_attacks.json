@@ -79,6 +79,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-10-18T18:59:18.540107+00:00"
+    },
+    {
+      "date": "2026-10-30",
+      "facility": "Novokuibyshevsk Oil Refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "id": "2026-10-30-novokuibyshevsk-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060383/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-10-30T06:46:17.905565+00:00"
     }
   ],
   "processedUrls": {
@@ -134,17 +150,19 @@
     "https://www.pravda.com.ua/eng/news/2026/10/21/8059026/": "2026-10-21T12:55:57.703566+00:00",
     "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran": "2026-10-23T14:39:46.646805+00:00",
     "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network": "2026-10-23T14:39:48.673780+00:00",
-    "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T13:02:50.872877+00:00"
+    "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T13:02:50.872877+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/10/30/8060383/": "2026-10-30T06:46:17.905106+00:00",
+    "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform": "2026-10-30T06:46:19.990091+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 49,
-    "inputTokens": 58163,
-    "outputTokens": 5482,
-    "estimatedCostUsd": 0.085573
+    "calls": 51,
+    "inputTokens": 60512,
+    "outputTokens": 5847,
+    "estimatedCostUsd": 0.089747
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-10-29T21:36:40.847670+00:00"
+  "lastRunAt": "2026-10-30T06:46:19.990548+00:00"
 }

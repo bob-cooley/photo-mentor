@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-30T00:34:38.366515+00:00",
-  "text": "Marathon Petroleum stock fell 1.87% today, continuing a steep two-week slide of 9.3%. The immediate trigger appears to be oil prices moving lower\u2014U.S. crude dropped below $104 per barrel as peace negotiations between the U.S. and Iran eased concerns about Middle Eastern supply disruptions. For a refiner, lower oil prices can pinch margins, since the company buys crude to process it into gasoline and diesel; when crude gets cheaper faster than refined products do, profit per barrel narrows. The timing also coincides with a leadership change at Marathon announced today, which may have added uncertainty as investors digest new management.\n\nThe stock's weakness fits a broader pattern affecting refiners this week. Refinery utilization is holding steady at a healthy 92.8%, but the industry faces headwinds: crude inventories are elevated at 693 million barrels, and market commentary suggests investors should remain cautious on Big Oil earnings reports given the gap between what companies earn and what guidance they provide going forward.",
+  "fetchedAt": "2026-10-30T06:45:30.929563+00:00",
+  "text": "Marathon Petroleum dropped 1.9% today, continuing a sharp two-week decline of 9.3%. The immediate trigger appears to be a leadership change announced yesterday (Oct 29) combined with caution from analysts ahead of Big Oil earnings reports \u2014 CNBC flagged that while earnings may surge, investors should watch guidance closely, suggesting concern about forward profitability. The stock has now fallen steeply three days running, wiping out earlier October gains.\n\nThe broader backdrop is mixed for refiners. Oil prices remain elevated ($103 domestically, $123 globally), and U.S. refineries are running at a robust 92.8%, which should support margins. However, escalating Middle East tensions\u2014Iran claiming tanker strikes near the Strait of Hormuz and reported U.S. military reshuffles\u2014create uncertainty about whether geopolitical risk will spike costs or disrupt supply chains. That uncertainty, combined with the leadership transition and analyst caution on guidance, appears to have spooked investors despite still-favorable refining conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 251,
-    "inputTokens": 232649,
-    "outputTokens": 56938,
-    "estimatedCostUsd": 0.517339,
-    "lastCallHour": "2026-10-30T00"
+    "callsThisMonth": 252,
+    "inputTokens": 233536,
+    "outputTokens": 57163,
+    "estimatedCostUsd": 0.519351,
+    "lastCallHour": "2026-10-30T06"
   }
 }
