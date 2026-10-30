@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-29T21:01:12.490718+00:00",
-  "text": "Marathon Petroleum fell 1.8% today to close at $432.74, extending a steep two-week slide of 9.3%. The main driver appears to be a drop in oil prices\u2014crude fell as U.S.-Iran peace talks gained momentum, easing concerns about Middle East supply disruptions that had pushed prices higher earlier in the month. The company also announced a leadership change today, which may have added to selling pressure on a day when the broader refining outlook is already softening.\n\nRefiner profits hinge on the spread between crude costs and fuel prices they can sell. With U.S. oil at $103 and world oil at $123\u2014and refineries running near full capacity at 92.8%\u2014the margin environment is tightening as crude becomes cheaper relative to what it was trading at just days ago. The two-week decline suggests investors are bracing for lower earnings guidance as the oil-price tailwind that lifted the sector earlier in October fades.",
+  "fetchedAt": "2026-10-30T00:34:38.366515+00:00",
+  "text": "Marathon Petroleum stock fell 1.87% today, continuing a steep two-week slide of 9.3%. The immediate trigger appears to be oil prices moving lower\u2014U.S. crude dropped below $104 per barrel as peace negotiations between the U.S. and Iran eased concerns about Middle Eastern supply disruptions. For a refiner, lower oil prices can pinch margins, since the company buys crude to process it into gasoline and diesel; when crude gets cheaper faster than refined products do, profit per barrel narrows. The timing also coincides with a leadership change at Marathon announced today, which may have added uncertainty as investors digest new management.\n\nThe stock's weakness fits a broader pattern affecting refiners this week. Refinery utilization is holding steady at a healthy 92.8%, but the industry faces headwinds: crude inventories are elevated at 693 million barrels, and market commentary suggests investors should remain cautious on Big Oil earnings reports given the gap between what companies earn and what guidance they provide going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 250,
-    "inputTokens": 231775,
-    "outputTokens": 56716,
-    "estimatedCostUsd": 0.515355,
-    "lastCallHour": "2026-10-29T21"
+    "callsThisMonth": 251,
+    "inputTokens": 232649,
+    "outputTokens": 56938,
+    "estimatedCostUsd": 0.517339,
+    "lastCallHour": "2026-10-30T00"
   }
 }
