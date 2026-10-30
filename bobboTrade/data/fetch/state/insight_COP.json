@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-30T06:45:15.560477+00:00",
-  "text": "COP rose 0.65% today to $150.03, a modest gain that fits into a broader 5.86% climb over two weeks as oil prices remain elevated. US crude is trading at $103.37 per barrel, well above historical averages, while geopolitical tensions in the Middle East\u2014including Iranian mine claims near the Strait of Hormuz and Houthi attack concerns\u2014keep supply risks front and center. These tensions have supported energy sector strength, though today's modest move suggests the market is taking a cautious wait-and-see approach ahead of Big Oil earnings reports.\n\nThe recent flip-flop in headlines matters: oil prices dipped Thursday on renewed U.S.-Iran peace talk prospects, but then Friday brought new reports of military reshuffles under the Trump administration and escalating Hormuz security fears, which could reignite supply concerns. For an integrated oil major like ConocoPhillips, both the high price environment and the geopolitical uncertainty create a mixed backdrop\u2014higher oil prices are good for profits, but persistent war risk and policy shifts make the outlook harder to predict, which may explain why the stock is climbing but cautiously.",
+  "fetchedAt": "2026-10-30T13:48:06.268204+00:00",
+  "text": "ConocoPhillips rose 1.3% today to $152.02, extending a two-week gain of 3.76%. The climb follows major earnings beats from Chevron and Exxon yesterday, driven by soaring refining profits\u2014diesel prices have surged globally because Ukraine and Iran have damaged Russian and Middle Eastern refineries, tightening fuel supply. As a major refiner itself, ConocoPhillips benefits directly from these wider margins between crude costs and refined product prices.\n\nThe broader tailwind is geopolitical volatility in oil-producing regions: Russian strikes on Ukrainian infrastructure, reported Ukrainian drone attacks on Russian refineries, and fresh tensions in the Strait of Hormuz (where Iran claims tankers hit mines) are all keeping energy markets tight and refining economics favorable. This fits a pattern where conflict-driven supply disruptions are lifting the entire big oil sector's profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 252,
-    "inputTokens": 218067,
-    "outputTokens": 53600,
-    "estimatedCostUsd": 0.486067,
-    "lastCallHour": "2026-10-30T06"
+    "callsThisMonth": 253,
+    "inputTokens": 218922,
+    "outputTokens": 53798,
+    "estimatedCostUsd": 0.487912,
+    "lastCallHour": "2026-10-30T13"
   }
 }

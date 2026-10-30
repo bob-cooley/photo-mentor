@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-30T06:45:30.929563+00:00",
-  "text": "Marathon Petroleum dropped 1.9% today, continuing a sharp two-week decline of 9.3%. The immediate trigger appears to be a leadership change announced yesterday (Oct 29) combined with caution from analysts ahead of Big Oil earnings reports \u2014 CNBC flagged that while earnings may surge, investors should watch guidance closely, suggesting concern about forward profitability. The stock has now fallen steeply three days running, wiping out earlier October gains.\n\nThe broader backdrop is mixed for refiners. Oil prices remain elevated ($103 domestically, $123 globally), and U.S. refineries are running at a robust 92.8%, which should support margins. However, escalating Middle East tensions\u2014Iran claiming tanker strikes near the Strait of Hormuz and reported U.S. military reshuffles\u2014create uncertainty about whether geopolitical risk will spike costs or disrupt supply chains. That uncertainty, combined with the leadership transition and analyst caution on guidance, appears to have spooked investors despite still-favorable refining conditions.",
+  "fetchedAt": "2026-10-30T13:48:21.700713+00:00",
+  "text": "Marathon Petroleum gained 2.2% today, bouncing back after a rough week that saw the stock drop 7.6% from late October highs. The rebound appears tied to refining sector tailwinds: competitors like Chevron, Exxon, and BP all reported earnings beats yesterday on surging refining profits, driven by diesel prices spiking due to geopolitical damage to Russian and Middle Eastern refineries. US refineries are running at 92.8% capacity, and the company also announced a leadership change and update on October 29th, though those details alone don't fully explain today's move.\n\nThe stock remains volatile in the near term because the market is still digesting what this week's leadership news means for Marathon's outlook. Refining margins\u2014the profit refiners make by turning crude into fuel\u2014are historically strong right now due to global supply disruptions, which typically benefits Marathon. However, the broader caution flagged by analysts on October 29th suggests investors want to hear concrete forward guidance before fully committing, which may explain why today's bounce is modest despite the sector's strong earnings environment.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 252,
-    "inputTokens": 233536,
-    "outputTokens": 57163,
-    "estimatedCostUsd": 0.519351,
-    "lastCallHour": "2026-10-30T06"
+    "callsThisMonth": 253,
+    "inputTokens": 234411,
+    "outputTokens": 57406,
+    "estimatedCostUsd": 0.521441,
+    "lastCallHour": "2026-10-30T13"
   }
 }

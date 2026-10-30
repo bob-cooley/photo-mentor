@@ -91,6 +91,14 @@
         {
           "name": "Ukrainska Pravda",
           "url": "https://www.pravda.com.ua/eng/news/2026/10/30/8060383/"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html"
+        },
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery"
         }
       ],
       "origin": "auto",
@@ -152,17 +160,20 @@
     "https://www.theguardian.com/world/2026/oct/23/ukraine-troops-report-ongoing-problems-with-starlink-satellite-network": "2026-10-23T14:39:48.673780+00:00",
     "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T13:02:50.872877+00:00",
     "https://www.pravda.com.ua/eng/news/2026/10/30/8060383/": "2026-10-30T06:46:17.905106+00:00",
-    "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform": "2026-10-30T06:46:19.990091+00:00"
+    "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform": "2026-10-30T06:46:19.990091+00:00",
+    "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html": "2026-10-30T13:49:09.485810+00:00",
+    "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html": "2026-10-30T13:49:10.931684+00:00",
+    "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery": "2026-10-30T13:49:12.574985+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 51,
-    "inputTokens": 60512,
-    "outputTokens": 5847,
-    "estimatedCostUsd": 0.089747
+    "calls": 54,
+    "inputTokens": 63950,
+    "outputTokens": 6240,
+    "estimatedCostUsd": 0.09515
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": false,
-  "lastRunAt": "2026-10-30T06:46:19.990548+00:00"
+  "lastGdeltOk": true,
+  "lastRunAt": "2026-10-30T13:49:12.575503+00:00"
 }
