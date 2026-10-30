@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-30T18:58:24.779810+00:00",
-  "text": "ConocoPhillips rose 2.3% today to $153.45, extending a four-day rally that's pushed the stock up nearly 5% over two weeks. The immediate catalyst is a surge in refining profits across Big Oil, driven by geopolitical disruptions: Ukrainian and Russian strikes have damaged refineries in both countries, spiking global diesel prices and widening the gap between crude costs and refined product sales. Competitors Chevron, Exxon, and BP all hit record highs or posted massive profit beats on the same dynamics, pulling ConocoPhillips higher in the sector's momentum.\n\nThe underlying tailwind is the spread between world crude (now $123/barrel) and US crude ($103/barrel)\u2014a $20 gap that reflects supply stress from Middle East and Russia-Ukraine tensions. Refining margins have become unusually profitable precisely because these geopolitical frictions are constraining refinery capacity while keeping shipping lanes tense, which benefits integrated energy companies sitting on both crude extraction and refining operations.",
+  "fetchedAt": "2026-10-30T22:50:39.773572+00:00",
+  "text": "ConocoPhillips jumped 2.7% today as crude oil prices climbed sharply and refining margins expanded. Global oil hit $123.10 per barrel while the U.S. benchmark reached $103.37\u2014a meaningful move upward. This matters for ConocoPhillips because it's an integrated oil and gas company that profits both from higher crude prices and from the spread between crude costs and refined product prices, which surged today after strikes on refineries in Russia and the Middle East disrupted supply and pushed diesel prices higher.\n\nThe broader trend accelerating this move is geopolitical: Iranian attacks on tanker traffic through the Strait of Hormuz and Ukrainian strikes on Russian refineries are tightening global crude and refined fuel supplies. Competitors Chevron and Exxon hit all-time highs today on the same refining margin surge, signaling that the market is repricing energy stocks upward as it absorbs the reality that regional conflicts are now materially constraining supply.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 254,
-    "inputTokens": 219774,
-    "outputTokens": 54025,
-    "estimatedCostUsd": 0.489899,
-    "lastCallHour": "2026-10-30T18"
+    "callsThisMonth": 255,
+    "inputTokens": 220623,
+    "outputTokens": 54244,
+    "estimatedCostUsd": 0.491843,
+    "lastCallHour": "2026-10-30T22"
   }
 }
