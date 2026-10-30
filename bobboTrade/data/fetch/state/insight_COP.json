@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-30T13:48:06.268204+00:00",
-  "text": "ConocoPhillips rose 1.3% today to $152.02, extending a two-week gain of 3.76%. The climb follows major earnings beats from Chevron and Exxon yesterday, driven by soaring refining profits\u2014diesel prices have surged globally because Ukraine and Iran have damaged Russian and Middle Eastern refineries, tightening fuel supply. As a major refiner itself, ConocoPhillips benefits directly from these wider margins between crude costs and refined product prices.\n\nThe broader tailwind is geopolitical volatility in oil-producing regions: Russian strikes on Ukrainian infrastructure, reported Ukrainian drone attacks on Russian refineries, and fresh tensions in the Strait of Hormuz (where Iran claims tankers hit mines) are all keeping energy markets tight and refining economics favorable. This fits a pattern where conflict-driven supply disruptions are lifting the entire big oil sector's profitability.",
+  "fetchedAt": "2026-10-30T18:58:24.779810+00:00",
+  "text": "ConocoPhillips rose 2.3% today to $153.45, extending a four-day rally that's pushed the stock up nearly 5% over two weeks. The immediate catalyst is a surge in refining profits across Big Oil, driven by geopolitical disruptions: Ukrainian and Russian strikes have damaged refineries in both countries, spiking global diesel prices and widening the gap between crude costs and refined product sales. Competitors Chevron, Exxon, and BP all hit record highs or posted massive profit beats on the same dynamics, pulling ConocoPhillips higher in the sector's momentum.\n\nThe underlying tailwind is the spread between world crude (now $123/barrel) and US crude ($103/barrel)\u2014a $20 gap that reflects supply stress from Middle East and Russia-Ukraine tensions. Refining margins have become unusually profitable precisely because these geopolitical frictions are constraining refinery capacity while keeping shipping lanes tense, which benefits integrated energy companies sitting on both crude extraction and refining operations.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 253,
-    "inputTokens": 218922,
-    "outputTokens": 53798,
-    "estimatedCostUsd": 0.487912,
-    "lastCallHour": "2026-10-30T13"
+    "callsThisMonth": 254,
+    "inputTokens": 219774,
+    "outputTokens": 54025,
+    "estimatedCostUsd": 0.489899,
+    "lastCallHour": "2026-10-30T18"
   }
 }
