@@ -103,6 +103,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-10-30T06:46:17.905565+00:00"
+    },
+    {
+      "date": "2026-10-31",
+      "facility": "Bashneft-Novoil",
+      "attacker": null,
+      "attackedNation": "Russia",
+      "attribution": "unattributed",
+      "id": "2026-10-31-bashneft-novoil-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/10/31/8060596/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-10-31T15:00:09.168216+00:00"
     }
   ],
   "processedUrls": {
@@ -163,17 +179,18 @@
     "https://www.theguardian.com/world/2026/oct/30/ukraine-war-briefing-russian-drone-attack-dnipro-rail-platform": "2026-10-30T06:46:19.990091+00:00",
     "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html": "2026-10-30T13:49:09.485810+00:00",
     "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html": "2026-10-30T13:49:10.931684+00:00",
-    "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery": "2026-10-30T13:49:12.574985+00:00"
+    "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery": "2026-10-30T13:49:12.574985+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/10/31/8060596/": "2026-10-31T15:00:09.167633+00:00"
   },
   "usage": {
     "month": "2026-10",
-    "calls": 54,
-    "inputTokens": 63950,
-    "outputTokens": 6240,
-    "estimatedCostUsd": 0.09515
+    "calls": 55,
+    "inputTokens": 64840,
+    "outputTokens": 6379,
+    "estimatedCostUsd": 0.096735
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": true,
-  "lastRunAt": "2026-10-30T13:49:12.575503+00:00"
+  "lastRunAt": "2026-10-31T15:00:09.168299+00:00"
 }

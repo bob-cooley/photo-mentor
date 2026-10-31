@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-31T08:11:05.548648+00:00",
-  "text": "ConocoPhillips jumped 2.7% today as oil prices and refining profits surged. Crude is trading at $103 per barrel in the US and $123 globally, and refiners' earnings have spiked sharply as Ukrainian and Iranian attacks disrupted Russian and Middle Eastern refineries, tightening fuel supplies worldwide. Competitor stocks like Chevron and Exxon hit all-time highs on the same tailwinds, lifting the sector broadly.\n\nThe stock has climbed 5% over two weeks as geopolitical tension in key oil-producing regions\u2014particularly the Strait of Hormuz, where tankers are now running higher risks but earning premium freight rates\u2014keeps crude and fuel prices elevated. This environment is directly translating to fatter profit margins for integrated oil companies that both produce crude and refine it into gasoline and diesel.",
+  "fetchedAt": "2026-10-31T14:59:21.780062+00:00",
+  "text": "ConocoPhillips stock jumped 2.67% today to $154.03, continuing a strong two-week rally that's up 5.13% overall. The immediate driver appears to be escalating geopolitical tension in the Middle East \u2014 reports of Iranian attacks on shipping in the Strait of Hormuz and ongoing U.S.-Iran tensions are tightening crude supplies and pushing oil prices higher. Brent crude is trading at $123.10 per barrel (well above the $103.37 U.S. benchmark), a gap that reflects the risk premium from potential supply disruptions. For a major oil producer like ConocoPhillips, higher global oil prices directly translate to higher revenue and earnings.\n\nBeyond today's headlines, the stock is riding a broader tailwind from surging refining profits across the oil majors \u2014 fuel supplies have tightened enough that refiners are posting record earnings, which benefits integrated producers that own refining capacity. This strength persists even though the administration has criticized Big Oil for high profits, suggesting the fundamental supply-demand dynamics are overriding political pressure for now.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 257,
-    "inputTokens": 222322,
-    "outputTokens": 54618,
-    "estimatedCostUsd": 0.495412,
-    "lastCallHour": "2026-10-31T08"
+    "callsThisMonth": 258,
+    "inputTokens": 223203,
+    "outputTokens": 54859,
+    "estimatedCostUsd": 0.497498,
+    "lastCallHour": "2026-10-31T14"
   }
 }

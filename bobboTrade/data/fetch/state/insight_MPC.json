@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-31T08:11:22.073088+00:00",
-  "text": "Marathon Petroleum bounced 2.8% today, recovering modestly after a brutal week that saw the stock drop 7% from late October highs. The rebound likely reflects relief that refining conditions remain strong\u2014U.S. refineries are running at 92.8% capacity with tight fuel supplies, and the company just announced a leadership change and company update on October 29th, which may have cleared uncertainty. Oil prices remain elevated (U.S. crude at $103, global at $123), supporting margins for refiners that turn crude into gasoline and diesel.\n\nThe broader context is that political scrutiny of Big Oil profits has intensified this week\u2014Trump criticized energy companies for excessive earnings\u2014yet refining fundamentals actually support those margins right now. Tanker traffic through the Strait of Hormuz continues despite Iranian escalation, meaning crude supply disruptions haven't materialized, and storage levels (693M barrels of crude, 209M of gasoline, 103M of diesel) show fuel demand is absorbing supply without overwhelming the market. Today's gain is a small pullback in a volatile week rather than a reversal of the downtrend.",
+  "fetchedAt": "2026-10-31T14:59:49.436061+00:00",
+  "text": "Marathon Petroleum rose 2.8% today, reversing some of a rough two-week slide that had knocked the stock down nearly 7%. The bounce likely reflects relief after news Friday of potential U.S.-Iran negotiations\u2014geopolitical tension around Iran has been pushing global oil prices higher (currently $123/barrel globally versus $103 domestically), which typically boosts refiner margins, and any hint of de-escalation can ease that premium. The stock may also have found footing after the company announced leadership changes and a company update on October 29th, though the market's initial reaction was to sell first and ask questions later.\n\nThe broader context matters here: Big Oil refiners have been caught in a squeeze between high crude costs and investor skepticism. Gasoline, diesel, and jet fuel have all surged despite Trump's campaign promise to cut energy costs, and while that sounds good for refiners' bottom lines in theory, the market has been wary\u2014CNBC noted this week that investors \"should be cautious\" as Big Oil earnings season arrives. Today's bounce is modest and sits well below where the stock traded just days ago, suggesting investors remain uncertain about what these near-term refining windfalls mean for longer-term returns.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 257,
-    "inputTokens": 237927,
-    "outputTokens": 58285,
-    "estimatedCostUsd": 0.529352,
-    "lastCallHour": "2026-10-31T08"
+    "callsThisMonth": 258,
+    "inputTokens": 238832,
+    "outputTokens": 58553,
+    "estimatedCostUsd": 0.531597,
+    "lastCallHour": "2026-10-31T14"
   }
 }
