@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-30T22:51:14.067535+00:00",
-  "text": "Marathon Petroleum rose 2.87% today, reversing some of a steep two-week decline, as refining profits spiked across the sector. Global diesel prices surged following strikes on refineries in Russia and the Middle East tied to the Ukraine and Iran conflicts, which directly boosts margins for U.S. refiners like Marathon that turn crude into fuel products. The company is also running its refineries at 92.8% capacity, near full utilization, meaning it can capture more of those improved margins.\n\nThe stock's recovery today comes after a sharp drop of nearly 7% over the past two weeks\u2014a period that included leadership changes at the company announced on October 29th. While today's move reflects sector tailwinds from geopolitical supply disruptions, the earlier decline suggests investors were digesting broader uncertainty around the company's direction and forward guidance.",
+  "fetchedAt": "2026-10-31T01:59:02.879172+00:00",
+  "text": "Marathon Petroleum bounced back today, gaining 2.8%, after a rough week that saw the stock down nearly 7% since late October. The rebound aligns with broader strength in refining stocks\u2014Chevron and Exxon hit all-time highs today as global diesel prices surged following attacks on refineries in Russia and the Middle East, which tightens fuel supply and lifts refining margins. Refineries are running at 92.8% capacity, near peak utilization, which means MPC's operations benefit from this supply squeeze and higher prices for the products it makes.\n\nThe timing also matters: Marathon announced a leadership change and company update on October 29th, which may have initially spooked the market, but the broader refining tailwinds\u2014especially the jump in diesel prices globally\u2014appear to be overriding concern about the internal shift. With US crude at $103 per barrel and world crude at $123, the gap between what refiners buy and what they sell (the refining margin) is widening, supporting profit potential for the company.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 255,
-    "inputTokens": 236170,
-    "outputTokens": 57801,
-    "estimatedCostUsd": 0.525175,
-    "lastCallHour": "2026-10-30T22"
+    "callsThisMonth": 256,
+    "inputTokens": 237047,
+    "outputTokens": 58034,
+    "estimatedCostUsd": 0.527217,
+    "lastCallHour": "2026-10-31T01"
   }
 }

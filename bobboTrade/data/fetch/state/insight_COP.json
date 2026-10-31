@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-30T22:50:39.773572+00:00",
-  "text": "ConocoPhillips jumped 2.7% today as crude oil prices climbed sharply and refining margins expanded. Global oil hit $123.10 per barrel while the U.S. benchmark reached $103.37\u2014a meaningful move upward. This matters for ConocoPhillips because it's an integrated oil and gas company that profits both from higher crude prices and from the spread between crude costs and refined product prices, which surged today after strikes on refineries in Russia and the Middle East disrupted supply and pushed diesel prices higher.\n\nThe broader trend accelerating this move is geopolitical: Iranian attacks on tanker traffic through the Strait of Hormuz and Ukrainian strikes on Russian refineries are tightening global crude and refined fuel supplies. Competitors Chevron and Exxon hit all-time highs today on the same refining margin surge, signaling that the market is repricing energy stocks upward as it absorbs the reality that regional conflicts are now materially constraining supply.",
+  "fetchedAt": "2026-10-31T01:58:41.220458+00:00",
+  "text": "ConocoPhillips jumped 2.7% today as oil prices surged and refining profits expanded sharply. Global crude prices are elevated \u2014 US oil at $103/barrel and world oil at $123/barrel \u2014 and refining margins widened after Ukrainian and Iranian strikes disrupted refinery capacity in Russia and the Middle East, driving diesel prices higher. This is exactly the environment where an integrated oil and gas company with refining operations benefits from both higher crude values and fatter refining spreads.\n\nThe move fits into a broader two-week rally (up 5% since mid-October) as geopolitical tensions in the Middle East and Eastern Europe keep energy markets tight and supply disruptions real. With major oil earnings reports coming this week, today's jump likely reflects confidence that higher prices and refining profits will show up in strong third-quarter results.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 255,
-    "inputTokens": 220623,
-    "outputTokens": 54244,
-    "estimatedCostUsd": 0.491843,
-    "lastCallHour": "2026-10-30T22"
+    "callsThisMonth": 256,
+    "inputTokens": 221472,
+    "outputTokens": 54428,
+    "estimatedCostUsd": 0.493612,
+    "lastCallHour": "2026-10-31T01"
   }
 }
