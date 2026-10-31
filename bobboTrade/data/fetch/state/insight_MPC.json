@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-31T14:59:49.436061+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, reversing some of a rough two-week slide that had knocked the stock down nearly 7%. The bounce likely reflects relief after news Friday of potential U.S.-Iran negotiations\u2014geopolitical tension around Iran has been pushing global oil prices higher (currently $123/barrel globally versus $103 domestically), which typically boosts refiner margins, and any hint of de-escalation can ease that premium. The stock may also have found footing after the company announced leadership changes and a company update on October 29th, though the market's initial reaction was to sell first and ask questions later.\n\nThe broader context matters here: Big Oil refiners have been caught in a squeeze between high crude costs and investor skepticism. Gasoline, diesel, and jet fuel have all surged despite Trump's campaign promise to cut energy costs, and while that sounds good for refiners' bottom lines in theory, the market has been wary\u2014CNBC noted this week that investors \"should be cautious\" as Big Oil earnings season arrives. Today's bounce is modest and sits well below where the stock traded just days ago, suggesting investors remain uncertain about what these near-term refining windfalls mean for longer-term returns.",
+  "fetchedAt": "2026-10-31T19:12:18.828298+00:00",
+  "text": "MPC rose 2.8% today, reversing three consecutive days of losses. The gain likely reflects relief over potential U.S.-Iran negotiations (reported Friday), which could ease Middle East tension and stabilize oil supplies\u2014a key concern for refiners when geopolitical risk spikes crude prices. The stock has still fallen 7% over two weeks, suggesting investors remain nervous despite today's bounce.\n\nRefineries are running at 92.8% capacity with tight fuel inventories (gasoline and diesel storage both below seasonal norms), which usually boosts refining margins when crude and product prices diverge favorably. However, the company faced a leadership change and company update on October 29th, and broader market skepticism about Big Oil earnings guidance\u2014even with surging refining profits\u2014is keeping the stock under pressure.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 258,
-    "inputTokens": 238832,
-    "outputTokens": 58553,
-    "estimatedCostUsd": 0.531597,
-    "lastCallHour": "2026-10-31T14"
+    "callsThisMonth": 259,
+    "inputTokens": 239737,
+    "outputTokens": 58730,
+    "estimatedCostUsd": 0.533387,
+    "lastCallHour": "2026-10-31T19"
   }
 }

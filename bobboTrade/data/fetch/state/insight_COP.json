@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-31T14:59:21.780062+00:00",
-  "text": "ConocoPhillips stock jumped 2.67% today to $154.03, continuing a strong two-week rally that's up 5.13% overall. The immediate driver appears to be escalating geopolitical tension in the Middle East \u2014 reports of Iranian attacks on shipping in the Strait of Hormuz and ongoing U.S.-Iran tensions are tightening crude supplies and pushing oil prices higher. Brent crude is trading at $123.10 per barrel (well above the $103.37 U.S. benchmark), a gap that reflects the risk premium from potential supply disruptions. For a major oil producer like ConocoPhillips, higher global oil prices directly translate to higher revenue and earnings.\n\nBeyond today's headlines, the stock is riding a broader tailwind from surging refining profits across the oil majors \u2014 fuel supplies have tightened enough that refiners are posting record earnings, which benefits integrated producers that own refining capacity. This strength persists even though the administration has criticized Big Oil for high profits, suggesting the fundamental supply-demand dynamics are overriding political pressure for now.",
+  "fetchedAt": "2026-10-31T19:11:52.374226+00:00",
+  "text": "ConocoPhillips jumped 2.7% today, closing at $154.03, as oil prices surged on geopolitical risk. News that Qatari mediators were holding talks aimed at restarting U.S.-Iran negotiations spooked markets\u2014the risk of renewed American-led attacks on Iran, a major oil producer, sent both U.S. crude (up to $103.37/barrel) and world oil prices (at $123.10) sharply higher. For a major oil producer like ConocoPhillips, higher crude prices directly boost profitability on the barrels they pump out of the ground.\n\nThe move also reflects a broader momentum: the stock is up 5.13% over two weeks amid tightening global fuel supplies and escalating Middle East tensions. Tankers are still moving crude through the Strait of Hormuz despite Iranian attacks, but the freight premiums they command signal real supply risk, keeping crude prices elevated and supporting oil majors' earnings outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 258,
-    "inputTokens": 223203,
-    "outputTokens": 54859,
-    "estimatedCostUsd": 0.497498,
-    "lastCallHour": "2026-10-31T14"
+    "callsThisMonth": 259,
+    "inputTokens": 224084,
+    "outputTokens": 55079,
+    "estimatedCostUsd": 0.499479,
+    "lastCallHour": "2026-10-31T19"
   }
 }
