@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-31T01:58:41.220458+00:00",
-  "text": "ConocoPhillips jumped 2.7% today as oil prices surged and refining profits expanded sharply. Global crude prices are elevated \u2014 US oil at $103/barrel and world oil at $123/barrel \u2014 and refining margins widened after Ukrainian and Iranian strikes disrupted refinery capacity in Russia and the Middle East, driving diesel prices higher. This is exactly the environment where an integrated oil and gas company with refining operations benefits from both higher crude values and fatter refining spreads.\n\nThe move fits into a broader two-week rally (up 5% since mid-October) as geopolitical tensions in the Middle East and Eastern Europe keep energy markets tight and supply disruptions real. With major oil earnings reports coming this week, today's jump likely reflects confidence that higher prices and refining profits will show up in strong third-quarter results.",
+  "fetchedAt": "2026-10-31T08:11:05.548648+00:00",
+  "text": "ConocoPhillips jumped 2.7% today as oil prices and refining profits surged. Crude is trading at $103 per barrel in the US and $123 globally, and refiners' earnings have spiked sharply as Ukrainian and Iranian attacks disrupted Russian and Middle Eastern refineries, tightening fuel supplies worldwide. Competitor stocks like Chevron and Exxon hit all-time highs on the same tailwinds, lifting the sector broadly.\n\nThe stock has climbed 5% over two weeks as geopolitical tension in key oil-producing regions\u2014particularly the Strait of Hormuz, where tankers are now running higher risks but earning premium freight rates\u2014keeps crude and fuel prices elevated. This environment is directly translating to fatter profit margins for integrated oil companies that both produce crude and refine it into gasoline and diesel.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 256,
-    "inputTokens": 221472,
-    "outputTokens": 54428,
-    "estimatedCostUsd": 0.493612,
-    "lastCallHour": "2026-10-31T01"
+    "callsThisMonth": 257,
+    "inputTokens": 222322,
+    "outputTokens": 54618,
+    "estimatedCostUsd": 0.495412,
+    "lastCallHour": "2026-10-31T08"
   }
 }
