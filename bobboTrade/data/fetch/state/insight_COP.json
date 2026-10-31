@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-31T19:11:52.374226+00:00",
-  "text": "ConocoPhillips jumped 2.7% today, closing at $154.03, as oil prices surged on geopolitical risk. News that Qatari mediators were holding talks aimed at restarting U.S.-Iran negotiations spooked markets\u2014the risk of renewed American-led attacks on Iran, a major oil producer, sent both U.S. crude (up to $103.37/barrel) and world oil prices (at $123.10) sharply higher. For a major oil producer like ConocoPhillips, higher crude prices directly boost profitability on the barrels they pump out of the ground.\n\nThe move also reflects a broader momentum: the stock is up 5.13% over two weeks amid tightening global fuel supplies and escalating Middle East tensions. Tankers are still moving crude through the Strait of Hormuz despite Iranian attacks, but the freight premiums they command signal real supply risk, keeping crude prices elevated and supporting oil majors' earnings outlook.",
+  "fetchedAt": "2026-10-31T23:02:25.529315+00:00",
+  "text": "ConocoPhillips rose 2.7% today as oil prices climbed sharply, with US crude hitting $103.37 per barrel\u2014up notably from recent lows. The jump comes amid escalating geopolitical tension in the Middle East: tanker traffic through the Strait of Hormuz has remained resilient despite Iranian attacks, but negotiations between Qatari mediators and Tehran suggest potential for a broader U.S.-Iran deal that could ease regional risk premiums currently baked into crude prices. Higher oil prices directly lift the revenue and profits of crude producers like ConocoPhillips.\n\nThe two-week gain of 5.1% fits into a broader pattern where energy stocks have benefited from fuel supply tightness and elevated refining profits\u2014the opposite of what President Trump promised voters on energy costs. Even as political pressure mounts on oil companies over high prices, the underlying fundamentals of tight supply and geopolitical uncertainty continue to support crude valuations and producer stock prices.",
   "status": "ok",
   "usage": {
     "month": "2026-10",
-    "callsThisMonth": 259,
-    "inputTokens": 224084,
-    "outputTokens": 55079,
-    "estimatedCostUsd": 0.499479,
-    "lastCallHour": "2026-10-31T19"
+    "callsThisMonth": 260,
+    "inputTokens": 224965,
+    "outputTokens": 55295,
+    "estimatedCostUsd": 0.50144,
+    "lastCallHour": "2026-10-31T23"
   }
 }
