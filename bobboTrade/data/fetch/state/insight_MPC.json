@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-10-31T23:02:59.455487+00:00",
-  "text": "Marathon Petroleum rose 2.8% today after dropping sharply over the past two weeks, likely bouncing back on relief that potential U.S.-Iran negotiations could ease global oil supply tensions. The stock has been volatile since late October amid leadership changes at the company and uncertainty over fuel supplies \u2014 gasoline and diesel inventories remain tight relative to refining capacity (92.8% utilization), which has been propping up margins for refiners even as crude oil prices have surged to $103 domestically and $123 globally.\n\nThe broader picture is one of conflicting signals for the refining sector. While high oil and fuel prices have boosted refining profit margins significantly, investors are cautious ahead of earnings announcements because guidance about future production and demand will determine whether these elevated margins stick around. The stock's 7% decline over two weeks reflects uncertainty about whether current conditions are sustainable or whether supply pressures will ease.",
+  "fetchedAt": "2026-11-01T04:07:33.923414+00:00",
+  "text": "Marathon Petroleum gained 2.8% today, bouncing back after a sharp 6.97% drop over the last two weeks. The recovery came as U.S. oil held around $103 per barrel and refineries ran at 92.8% capacity\u2014high enough to support solid margins\u2014while news emerged of potential de-escalation talks between the U.S. and Iran. The latter matters because reduced Middle East tensions could ease concerns about disrupted oil supplies that have pushed crude prices higher, which had weighed on the refiner's stock earlier in the week.\n\nThe broader context is tension between fuel supply tightness (which normally boosts refiner profits) and investor caution about Big Oil earnings. A leadership change at Marathon was announced this week, and while surging refining margins have helped the industry weather higher crude costs, markets are pricing in uncertainty around whether those profits can hold or if guidance disappoints when companies report.",
   "status": "ok",
   "usage": {
-    "month": "2026-10",
-    "callsThisMonth": 260,
-    "inputTokens": 240642,
-    "outputTokens": 58927,
-    "estimatedCostUsd": 0.535277,
-    "lastCallHour": "2026-10-31T23"
+    "month": "2026-11",
+    "callsThisMonth": 1,
+    "inputTokens": 905,
+    "outputTokens": 200,
+    "estimatedCostUsd": 0.001905,
+    "lastCallHour": "2026-11-01T04"
   }
 }

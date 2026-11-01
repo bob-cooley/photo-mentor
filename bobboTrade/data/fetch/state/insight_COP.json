@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-31T23:02:25.529315+00:00",
-  "text": "ConocoPhillips rose 2.7% today as oil prices climbed sharply, with US crude hitting $103.37 per barrel\u2014up notably from recent lows. The jump comes amid escalating geopolitical tension in the Middle East: tanker traffic through the Strait of Hormuz has remained resilient despite Iranian attacks, but negotiations between Qatari mediators and Tehran suggest potential for a broader U.S.-Iran deal that could ease regional risk premiums currently baked into crude prices. Higher oil prices directly lift the revenue and profits of crude producers like ConocoPhillips.\n\nThe two-week gain of 5.1% fits into a broader pattern where energy stocks have benefited from fuel supply tightness and elevated refining profits\u2014the opposite of what President Trump promised voters on energy costs. Even as political pressure mounts on oil companies over high prices, the underlying fundamentals of tight supply and geopolitical uncertainty continue to support crude valuations and producer stock prices.",
+  "fetchedAt": "2026-11-01T04:07:12.004278+00:00",
+  "text": "ConocoPhillips rose 2.67% today, driven by a sharp jump in global oil prices\u2014world crude hit $123.10 per barrel, up significantly from recent levels\u2014combined with signs that geopolitical tensions in the Middle East may ease. Reports of Qatari-mediated talks between the U.S. and Iran aimed at avoiding resumed American military strikes reduced immediate escalation risk, while tanker traffic through the Strait of Hormuz continued despite Iranian attacks, suggesting the oil market remains functional despite regional instability.\n\nThe stock's broader momentum reflects a strong two-week gain of 5.13%, anchored in the reality that energy prices have stayed elevated and refining margins remain robust. The gap between U.S. oil ($103.37) and world prices ($123.1) is substantial, which typically benefits major refiners when they can move crude through their systems\u2014exactly the kind of environment in which companies like ConocoPhillips profit.",
   "status": "ok",
   "usage": {
-    "month": "2026-10",
-    "callsThisMonth": 260,
-    "inputTokens": 224965,
-    "outputTokens": 55295,
-    "estimatedCostUsd": 0.50144,
-    "lastCallHour": "2026-10-31T23"
+    "month": "2026-11",
+    "callsThisMonth": 1,
+    "inputTokens": 881,
+    "outputTokens": 211,
+    "estimatedCostUsd": 0.001936,
+    "lastCallHour": "2026-11-01T04"
   }
 }
