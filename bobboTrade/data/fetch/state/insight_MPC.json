@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T16:01:53.381921+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, bouncing back after a volatile week that saw the stock down nearly 7% from its late-October peak. The recovery came as oil prices held firm (US crude at $103/barrel, global crude at $123/barrel) and refineries operated at a healthy 92.8% capacity, supporting margins for fuel producers\u2014the company also announced a leadership change and company update on October 29th, which may have sparked renewed interest after the initial sell-off.\n\nThe broader context: refining stocks have been caught between two crosscurrents. On one hand, tight fuel supplies (gasoline and diesel inventories remain modest at 209 million and 103 million barrels respectively) and elevated crude prices have boosted refining profits significantly in recent quarters. On the other hand, political pressure from the White House and media focus on Big Oil's earnings have created uncertainty about how long those margins will last, making investors cautious about betting too heavily on the sector near current price levels.",
+  "fetchedAt": "2026-11-01T17:02:15.694676+00:00",
+  "text": "Marathon Petroleum gained 2.8% today, recovering modestly from a sharp 6% drop over the past two weeks. The bounce appears tied to a leadership change announced on October 29th and a broader stabilization in refining economics: U.S. crude sits at $103/barrel while refineries are running at 92.8% capacity, and gasoline storage has tightened to 209 million barrels, conditions that typically support refiner margins.\n\nHowever, the two-week selloff and today's cautious bounce reflect genuine uncertainty. News from October 29th warned that Big Oil earnings could disappoint despite near-term strength, and geopolitical de-escalation talks between the U.S. and Iran (reported October 31st) raise the risk of increased Iranian oil supply hitting the market\u2014which would pressure crude prices and refiner profits. The stock remains volatile as investors weigh near-term refining strength against medium-term supply risks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 6,
-    "inputTokens": 5430,
-    "outputTokens": 1322,
-    "estimatedCostUsd": 0.01204,
-    "lastCallHour": "2026-11-01T16"
+    "callsThisMonth": 7,
+    "inputTokens": 6335,
+    "outputTokens": 1530,
+    "estimatedCostUsd": 0.013985,
+    "lastCallHour": "2026-11-01T17"
   }
 }
