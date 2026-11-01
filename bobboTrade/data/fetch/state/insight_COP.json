@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T04:07:12.004278+00:00",
-  "text": "ConocoPhillips rose 2.67% today, driven by a sharp jump in global oil prices\u2014world crude hit $123.10 per barrel, up significantly from recent levels\u2014combined with signs that geopolitical tensions in the Middle East may ease. Reports of Qatari-mediated talks between the U.S. and Iran aimed at avoiding resumed American military strikes reduced immediate escalation risk, while tanker traffic through the Strait of Hormuz continued despite Iranian attacks, suggesting the oil market remains functional despite regional instability.\n\nThe stock's broader momentum reflects a strong two-week gain of 5.13%, anchored in the reality that energy prices have stayed elevated and refining margins remain robust. The gap between U.S. oil ($103.37) and world prices ($123.1) is substantial, which typically benefits major refiners when they can move crude through their systems\u2014exactly the kind of environment in which companies like ConocoPhillips profit.",
+  "fetchedAt": "2026-11-01T11:38:54.572993+00:00",
+  "text": "ConocoPhillips rose 2.67% today, closing at $154.03, as crude oil prices surged on geopolitical tension in the Middle East. Reports of escalating Iranian attacks on shipping in the Strait of Hormuz\u2014a critical chokepoint for global oil\u2014pushed crude toward $123 per barrel globally, and the prospect of U.S.-Iran negotiations breaking down kept that pressure on. For an oil major like ConocoPhillips, higher oil prices directly translate to higher revenues and profits from production.\n\nThe move also reflects a broader tailwind: refineries across the sector are reporting surging earnings as fuel supplies have tightened, which benefits both upstream producers and their downstream operations. This contrasts sharply with political pressure\u2014Trump has called out Big Oil for excessive profits\u2014but market mechanics are favoring energy companies regardless.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 1,
-    "inputTokens": 881,
-    "outputTokens": 211,
-    "estimatedCostUsd": 0.001936,
-    "lastCallHour": "2026-11-01T04"
+    "callsThisMonth": 2,
+    "inputTokens": 1762,
+    "outputTokens": 396,
+    "estimatedCostUsd": 0.003742,
+    "lastCallHour": "2026-11-01T11"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T04:07:33.923414+00:00",
-  "text": "Marathon Petroleum gained 2.8% today, bouncing back after a sharp 6.97% drop over the last two weeks. The recovery came as U.S. oil held around $103 per barrel and refineries ran at 92.8% capacity\u2014high enough to support solid margins\u2014while news emerged of potential de-escalation talks between the U.S. and Iran. The latter matters because reduced Middle East tensions could ease concerns about disrupted oil supplies that have pushed crude prices higher, which had weighed on the refiner's stock earlier in the week.\n\nThe broader context is tension between fuel supply tightness (which normally boosts refiner profits) and investor caution about Big Oil earnings. A leadership change at Marathon was announced this week, and while surging refining margins have helped the industry weather higher crude costs, markets are pricing in uncertainty around whether those profits can hold or if guidance disappoints when companies report.",
+  "fetchedAt": "2026-11-01T11:39:10.883143+00:00",
+  "text": "Marathon Petroleum rose 2.8% today, rebounding after a volatile week that saw the stock down nearly 7% from late October highs. The bounce appears tied to a leadership change announced on October 29th, combined with a modest stabilization in crude oil prices (US oil holding at $103/barrel) and refinery utilization staying elevated at 92.8%, which supports the company's core refining margins. The stock had tumbled sharply on October 27th likely on investor caution around Big Oil earnings guidance, but today's recovery suggests some positive reception to the management shift and company update.\n\nThe broader backdrop remains mixed for refiners. While crude prices remain well above $100/barrel and refining capacity is running hard, the recent news cycle has turned skeptical on Big Oil's outsized profits\u2014particularly as Trump's promised energy-cost cuts haven't materialized. This creates uncertainty about whether current high refining earnings will sustain, even as near-term supply tightness (gasoline and diesel inventories remain moderate) continues to support margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 1,
-    "inputTokens": 905,
-    "outputTokens": 200,
-    "estimatedCostUsd": 0.001905,
-    "lastCallHour": "2026-11-01T04"
+    "callsThisMonth": 2,
+    "inputTokens": 1810,
+    "outputTokens": 428,
+    "estimatedCostUsd": 0.00395,
+    "lastCallHour": "2026-11-01T11"
   }
 }
