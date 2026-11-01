@@ -135,6 +135,10 @@
         {
           "name": "The Guardian",
           "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil"
         }
       ],
       "origin": "auto",
@@ -202,17 +206,18 @@
     "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery": "2026-10-30T13:49:12.574985+00:00",
     "https://www.pravda.com.ua/eng/news/2026/10/31/8060596/": "2026-10-31T15:00:09.167633+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/01/8060689/": "2026-11-01T11:39:53.141308+00:00",
-    "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy": "2026-11-01T11:39:55.019226+00:00"
+    "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy": "2026-11-01T11:39:55.019226+00:00",
+    "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil": "2026-11-01T17:47:25.616154+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 2,
-    "inputTokens": 2407,
-    "outputTokens": 231,
-    "estimatedCostUsd": 0.003562
+    "calls": 3,
+    "inputTokens": 3886,
+    "outputTokens": 439,
+    "estimatedCostUsd": 0.006081
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-11-01T14:42:18.989670+00:00"
+  "lastRunAt": "2026-11-01T17:47:25.616690+00:00"
 }
