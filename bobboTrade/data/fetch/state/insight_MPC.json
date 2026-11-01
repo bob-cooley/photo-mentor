@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T19:02:26.839211+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, recovering some ground after a brutal week that saw the stock drop nearly 7%. The bounce came as oil prices stabilized\u2014US crude holding around $103 per barrel\u2014and on the heels of a leadership change and company update announced on October 29th. Refineries are running at 92.8% capacity, and fuel inventories remain relatively tight, which supports margins for refiners when crude and finished fuel supplies are constrained.\n\nThe broader context matters: the refining sector has been volatile as political pressure mounts on Big Oil over fuel prices, even as actual refining profits have surged due to tight supply conditions. The potential restart of U.S.-Iran negotiations (reported October 31st) could ease geopolitical risk and oil supply concerns that have kept prices elevated, though any deal remains uncertain. For a refiner, lower crude prices would normally help, but tight fuel supplies and refinery utilization near 93% are the real drivers of profitability right now.",
+  "fetchedAt": "2026-11-01T20:02:54.928370+00:00",
+  "text": "Marathon Petroleum rose 2.8% today after falling sharply over the past two weeks, likely driven by relief following potential U.S.-Iran negotiations reported on October 31st. That development could ease concerns about oil supply disruption\u2014the company's refining margins benefit when crude oil prices remain elevated relative to fuel prices, and geopolitical uncertainty pushing oil to $123/barrel globally had weighed on near-term outlook. The stock had dropped 7% in the two weeks prior, suggesting investors were bracing for worse news on that front.\n\nThe bounce also fits a broader pattern: Big Oil earnings are about to be reported, and while there's caution in the air about forward guidance, refining operations have been particularly profitable lately. U.S. refineries are running at 92.8% capacity and gasoline stocks remain relatively tight at 209 million barrels, conditions that historically support refiner margins\u2014which is exactly what the commentary about surging refining earnings reflects.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 9,
-    "inputTokens": 8145,
-    "outputTokens": 1976,
-    "estimatedCostUsd": 0.018025,
-    "lastCallHour": "2026-11-01T19"
+    "callsThisMonth": 10,
+    "inputTokens": 9050,
+    "outputTokens": 2186,
+    "estimatedCostUsd": 0.01998,
+    "lastCallHour": "2026-11-01T20"
   }
 }

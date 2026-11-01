@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T19:02:10.721837+00:00",
-  "text": "ConocoPhillips rose 2.7% today as oil prices climbed sharply, with US crude jumping to $103.37 per barrel (up from around $100 earlier this week). The bigger driver appears to be geopolitical: Qatari mediators held talks in Tehran aimed at de-escalating US-Iran tensions, which reduces the risk of supply disruptions through the Strait of Hormuz\u2014a critical chokepoint for global oil. When that risk eases, it typically pushes prices lower initially, but the mere fact of negotiation and continued tanker traffic through the strait suggests the market is pricing in stabilization rather than escalation, which supports prices and refiner margins.\n\nThe company also benefits from the broader energy environment: refining earnings have surged as fuel supplies tightened, and with the wide gap between world oil ($123) and US oil ($103), refiners with access to global markets are capturing extra margin. Over the past two weeks the stock has climbed 5%, riding both crude strength and the tailwind of high refining profitability even as President Trump criticizes oil industry profits.",
+  "fetchedAt": "2026-11-01T20:02:27.521138+00:00",
+  "text": "ConocoPhillips jumped 2.67% today to $154.03, the highest close in the past two weeks, as oil prices surged and geopolitical tensions eased slightly. U.S. crude rose above $103 a barrel while global crude hit $123\u2014both strong levels\u2014partly on news that Qatari mediators held extensive talks in Tehran aimed at restarting U.S.-Iran negotiations, reducing the immediate risk of further escalation in the Middle East. That reduction in geopolitical risk, combined with firm oil prices, lifted the stock after it had dipped below $148 just two days earlier.\n\nThe broader picture reinforces the move: refining earnings across Big Oil have surged as fuel supplies tightened, and even though gasoline prices have risen despite Trump's campaign promises to cut them, tankers continue moving crude through the Strait of Hormuz despite Iranian attacks, keeping supply flowing at higher freight rates. For an integrated oil company like ConocoPhillips, stronger crude prices and tighter refining margins both work in the same direction.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 9,
-    "inputTokens": 7929,
-    "outputTokens": 1924,
-    "estimatedCostUsd": 0.017549,
-    "lastCallHour": "2026-11-01T19"
+    "callsThisMonth": 10,
+    "inputTokens": 8810,
+    "outputTokens": 2159,
+    "estimatedCostUsd": 0.019605,
+    "lastCallHour": "2026-11-01T20"
   }
 }
