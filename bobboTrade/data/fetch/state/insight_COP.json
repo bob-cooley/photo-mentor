@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T20:02:27.521138+00:00",
-  "text": "ConocoPhillips jumped 2.67% today to $154.03, the highest close in the past two weeks, as oil prices surged and geopolitical tensions eased slightly. U.S. crude rose above $103 a barrel while global crude hit $123\u2014both strong levels\u2014partly on news that Qatari mediators held extensive talks in Tehran aimed at restarting U.S.-Iran negotiations, reducing the immediate risk of further escalation in the Middle East. That reduction in geopolitical risk, combined with firm oil prices, lifted the stock after it had dipped below $148 just two days earlier.\n\nThe broader picture reinforces the move: refining earnings across Big Oil have surged as fuel supplies tightened, and even though gasoline prices have risen despite Trump's campaign promises to cut them, tankers continue moving crude through the Strait of Hormuz despite Iranian attacks, keeping supply flowing at higher freight rates. For an integrated oil company like ConocoPhillips, stronger crude prices and tighter refining margins both work in the same direction.",
+  "fetchedAt": "2026-11-01T21:02:15.220236+00:00",
+  "text": "ConocoPhillips rose 2.67% today to close at $154, capping a strong two-week rally of 5.13%. The move is directly tied to a sharp jump in global oil prices\u2014world crude hit $123.10 per barrel, and U.S. crude reached $103.37\u2014driven by escalating geopolitical tension around Iran and the Strait of Hormuz. News of increased Iranian attacks on tankers and ongoing U.S.-Iran tensions have tightened crude supplies and pushed prices higher, which lifts the earnings outlook for an oil producer like ConocoPhillips.\n\nOn top of the crude price strength, recent reports show that oil majors' refining operations have posted surging earnings as fuel supplies tightened\u2014a tailwind that extends beyond just the raw oil price. With both crude and refined product margins moving in the company's favor, investors are pricing in stronger near-term profitability despite broader political uncertainty about energy prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 10,
-    "inputTokens": 8810,
-    "outputTokens": 2159,
-    "estimatedCostUsd": 0.019605,
-    "lastCallHour": "2026-11-01T20"
+    "callsThisMonth": 11,
+    "inputTokens": 9691,
+    "outputTokens": 2373,
+    "estimatedCostUsd": 0.021556,
+    "lastCallHour": "2026-11-01T21"
   }
 }

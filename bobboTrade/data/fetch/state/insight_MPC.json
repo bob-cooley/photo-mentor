@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T20:02:54.928370+00:00",
-  "text": "Marathon Petroleum rose 2.8% today after falling sharply over the past two weeks, likely driven by relief following potential U.S.-Iran negotiations reported on October 31st. That development could ease concerns about oil supply disruption\u2014the company's refining margins benefit when crude oil prices remain elevated relative to fuel prices, and geopolitical uncertainty pushing oil to $123/barrel globally had weighed on near-term outlook. The stock had dropped 7% in the two weeks prior, suggesting investors were bracing for worse news on that front.\n\nThe bounce also fits a broader pattern: Big Oil earnings are about to be reported, and while there's caution in the air about forward guidance, refining operations have been particularly profitable lately. U.S. refineries are running at 92.8% capacity and gasoline stocks remain relatively tight at 209 million barrels, conditions that historically support refiner margins\u2014which is exactly what the commentary about surging refining earnings reflects.",
+  "fetchedAt": "2026-11-01T21:02:44.087479+00:00",
+  "text": "Marathon Petroleum rose 2.8% today, rebounding after a sharp five-day sell-off that had dropped the stock 6.97% since late October. The bounce comes as U.S. oil prices have held firm at $103 a barrel and refineries are running at a high 92.8% capacity\u2014conditions that support strong margins for a refiner. The rebound also follows the company's leadership change announcement on October 29th and reported company update, which may have sparked renewed investor interest after the recent downturn.\n\nThe stock's recovery fits into a broader pattern this week: while Big Oil earnings are surging and refining margins have been historically strong (as fuel supplies remain tight), investors had grown cautious heading into earnings season on concerns about forward guidance. Today's move suggests some of that caution has eased, at least temporarily. The geopolitical backdrop\u2014ongoing Iran-U.S. tensions\u2014continues to support crude prices, though gasoline prices remain elevated despite Trump's campaign promise to lower them, which could weigh on refiner sentiment longer-term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 10,
-    "inputTokens": 9050,
-    "outputTokens": 2186,
-    "estimatedCostUsd": 0.01998,
-    "lastCallHour": "2026-11-01T20"
+    "callsThisMonth": 11,
+    "inputTokens": 9955,
+    "outputTokens": 2419,
+    "estimatedCostUsd": 0.02205,
+    "lastCallHour": "2026-11-01T21"
   }
 }
