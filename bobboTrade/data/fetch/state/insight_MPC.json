@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T11:39:10.883143+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, rebounding after a volatile week that saw the stock down nearly 7% from late October highs. The bounce appears tied to a leadership change announced on October 29th, combined with a modest stabilization in crude oil prices (US oil holding at $103/barrel) and refinery utilization staying elevated at 92.8%, which supports the company's core refining margins. The stock had tumbled sharply on October 27th likely on investor caution around Big Oil earnings guidance, but today's recovery suggests some positive reception to the management shift and company update.\n\nThe broader backdrop remains mixed for refiners. While crude prices remain well above $100/barrel and refining capacity is running hard, the recent news cycle has turned skeptical on Big Oil's outsized profits\u2014particularly as Trump's promised energy-cost cuts haven't materialized. This creates uncertainty about whether current high refining earnings will sustain, even as near-term supply tightness (gasoline and diesel inventories remain moderate) continues to support margins.",
+  "fetchedAt": "2026-11-01T13:02:36.583985+00:00",
+  "text": "Marathon Petroleum rose 2.8% today, rebounding after a volatile week that saw the stock drop 7% from late October highs. The bounce comes as oil refiners face a mixed picture: crude prices remain elevated (US oil at $103/barrel, world oil at $123/barrel), refineries are running near full capacity at 92.8%, and gasoline inventories remain relatively tight at 209 million barrels\u2014conditions that typically support refiner margins and profitability. Marathon's own leadership change and company update announced this week may also be stabilizing the stock after recent uncertainty.\n\nThe broader context is that Big Oil earnings are about to be reported, and refining profits have surged despite political pressure\u2014Trump has criticized high energy prices but also called out Big Oil profits, while potential U.S.-Iran negotiations could eventually add more crude supply to the market. For a refiner like Marathon, today's modest gain reflects the tension between strong current margins (driven by tight supplies and high oil prices) and investor caution about what guidance executives will offer given the uncertain geopolitical and political environment ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 2,
-    "inputTokens": 1810,
-    "outputTokens": 428,
-    "estimatedCostUsd": 0.00395,
-    "lastCallHour": "2026-11-01T11"
+    "callsThisMonth": 3,
+    "inputTokens": 2715,
+    "outputTokens": 665,
+    "estimatedCostUsd": 0.00604,
+    "lastCallHour": "2026-11-01T13"
   }
 }
