@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T13:02:36.583985+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, rebounding after a volatile week that saw the stock drop 7% from late October highs. The bounce comes as oil refiners face a mixed picture: crude prices remain elevated (US oil at $103/barrel, world oil at $123/barrel), refineries are running near full capacity at 92.8%, and gasoline inventories remain relatively tight at 209 million barrels\u2014conditions that typically support refiner margins and profitability. Marathon's own leadership change and company update announced this week may also be stabilizing the stock after recent uncertainty.\n\nThe broader context is that Big Oil earnings are about to be reported, and refining profits have surged despite political pressure\u2014Trump has criticized high energy prices but also called out Big Oil profits, while potential U.S.-Iran negotiations could eventually add more crude supply to the market. For a refiner like Marathon, today's modest gain reflects the tension between strong current margins (driven by tight supplies and high oil prices) and investor caution about what guidance executives will offer given the uncertain geopolitical and political environment ahead.",
+  "fetchedAt": "2026-11-01T14:03:34.571467+00:00",
+  "text": "Marathon Petroleum bounced 2.8% today after sliding 6.97% over the past two weeks, reversing some recent losses. The stock's recovery appears tied to renewed optimism about refining profitability: U.S. oil is trading at $103 per barrel while global oil sits at $123, creating a wide spread that favors refiners who buy cheap domestic crude and sell into global markets. Refineries are running at 92.8% capacity and fuel inventories remain relatively tight\u2014gasoline storage at 209 million barrels and diesel at 103 million\u2014conditions that support stronger margins on fuel output.\n\nThere's also a timing factor in the air: Marathon announced a leadership change and company update on October 29th, the same day CNBC reported that Big Oil earnings guidance would matter most to investors going forward. With refining conditions currently favorable and the company signaling a fresh strategic direction, traders may be repositioning ahead of upcoming earnings and commentary.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 3,
-    "inputTokens": 2715,
-    "outputTokens": 665,
-    "estimatedCostUsd": 0.00604,
-    "lastCallHour": "2026-11-01T13"
+    "callsThisMonth": 4,
+    "inputTokens": 3620,
+    "outputTokens": 876,
+    "estimatedCostUsd": 0.008,
+    "lastCallHour": "2026-11-01T14"
   }
 }

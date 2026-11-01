@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T13:02:15.225789+00:00",
-  "text": "ConocoPhillips gained 2.67% today, closing at $154.03, building on a 5% rise over the past two weeks. The stock's strength tracks with oil prices holding firm\u2014US crude at $103.37 per barrel and global crude at $123.10\u2014and reflects the company's recent earnings power from refining. News that Qatar is actively mediating U.S.-Iran negotiations reduces the risk of a severe geopolitical shock to Middle Eastern oil supplies, while tanker traffic through the Strait of Hormuz continues despite tensions, suggesting crude will keep flowing and prices stay supported.\n\nThe broader backdrop reinforces this: Trump administration pressure on Big Oil over fuel costs appears to have backfired, with oil majors posting surging refining profits as supply tightened rather than gas prices falling. For a major integrated producer like ConocoPhillips, that combination of steady crude prices and strong downstream refining margins is a genuine earnings tailwind.",
+  "fetchedAt": "2026-11-01T14:02:59.798726+00:00",
+  "text": "ConocoPhillips climbed 2.67% today to $154.03, capping a five-day rally that's added 5.13% over two weeks. The immediate catalyst is the sharp rise in crude oil prices \u2014 US oil jumped to $103.37 a barrel, with global oil hitting $123.10, driven by geopolitical tension in the Middle East as Iranian attacks on shipping have intensified. For an integrated oil producer like ConocoPhillips, higher crude prices directly boost earnings, which is why the stock has been rising steadily since late October.\n\nThe broader backdrop amplifies this move: refining margins are also widening (the news notes that oil majors' refining earnings have surged as fuel supplies tightened), and talks between Qatari mediators and Iran suggest potential escalation rather than de-escalation in the near term, keeping energy supplies tight. Tankers continue moving crude through the Strait of Hormuz despite attacks, but elevated freight rates and geopolitical risk are keeping oil prices elevated \u2014 exactly the environment that benefits crude producers.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 3,
-    "inputTokens": 2643,
-    "outputTokens": 607,
-    "estimatedCostUsd": 0.005678,
-    "lastCallHour": "2026-11-01T13"
+    "callsThisMonth": 4,
+    "inputTokens": 3524,
+    "outputTokens": 844,
+    "estimatedCostUsd": 0.007744,
+    "lastCallHour": "2026-11-01T14"
   }
 }
