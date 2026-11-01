@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T18:02:06.247906+00:00",
-  "text": "Marathon Petroleum gained 2.8% today, bouncing back from a sharp 6.4% drop on October 27th. The rebound appears tied to ongoing geopolitical tensions\u2014Qatari mediators held talks in Tehran on Friday aimed at restarting U.S.-Iran negotiations, which reduces the immediate risk of escalating conflict in the Middle East. Since oil prices and refining margins typically rise when geopolitical risk spikes, any sign of de-escalation or diplomatic progress can initially pull prices back down, then stabilize them as investors assess the new baseline.\n\nThe company also announced a leadership change and update on October 29th, the same day CNBC flagged that Big Oil earnings guidance could matter more than headline numbers\u2014suggesting investors are parsing management commentary closely. The stock remains down 6% over two weeks despite refineries running at 92.8% capacity and fuel inventories remaining relatively tight, indicating the market is currently more cautious about the sector's near-term outlook than the refining fundamentals alone would suggest.",
+  "fetchedAt": "2026-11-01T19:02:26.839211+00:00",
+  "text": "Marathon Petroleum rose 2.8% today, recovering some ground after a brutal week that saw the stock drop nearly 7%. The bounce came as oil prices stabilized\u2014US crude holding around $103 per barrel\u2014and on the heels of a leadership change and company update announced on October 29th. Refineries are running at 92.8% capacity, and fuel inventories remain relatively tight, which supports margins for refiners when crude and finished fuel supplies are constrained.\n\nThe broader context matters: the refining sector has been volatile as political pressure mounts on Big Oil over fuel prices, even as actual refining profits have surged due to tight supply conditions. The potential restart of U.S.-Iran negotiations (reported October 31st) could ease geopolitical risk and oil supply concerns that have kept prices elevated, though any deal remains uncertain. For a refiner, lower crude prices would normally help, but tight fuel supplies and refinery utilization near 93% are the real drivers of profitability right now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 8,
-    "inputTokens": 7240,
-    "outputTokens": 1756,
-    "estimatedCostUsd": 0.01602,
-    "lastCallHour": "2026-11-01T18"
+    "callsThisMonth": 9,
+    "inputTokens": 8145,
+    "outputTokens": 1976,
+    "estimatedCostUsd": 0.018025,
+    "lastCallHour": "2026-11-01T19"
   }
 }
