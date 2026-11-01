@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T15:01:49.662953+00:00",
-  "text": "ConocoPhillips jumped 2.7% today to $154, capping a five-day rally that has lifted the stock 5.1% since late last week. The move tracks a sharp rise in global oil prices\u2014world crude hit $123.10 per barrel today, a level not reflected in the earlier part of this two-week window\u2014suggesting investors are pricing in tighter energy supplies. News of Qatari mediators holding talks in Tehran to potentially restart U.S.-Iran negotiations likely spooked the market into worrying that a deal could ease geopolitical tensions and increase Iranian oil exports, prompting a rush by energy traders to lock in gains before that risk materializes.\n\nThe strength also reflects real tightness in fuel markets right now: tankers are still moving oil through the Strait of Hormuz despite escalating Iranian attacks, and refining margins have surged as supplies have tightened. That backdrop means even as President Trump promised lower gas prices, the actual market conditions\u2014tight supply, high freight costs, strong refining profits\u2014are working in the opposite direction, benefiting major oil producers and refiners in the near term.",
+  "fetchedAt": "2026-11-01T16:01:38.830019+00:00",
+  "text": "ConocoPhillips jumped 2.67% today to $154, capping a strong two-week rally of over 5%. The move follows news that Qatari mediators held extensive talks in Tehran aimed at restarting U.S.-Iran negotiations, raising hopes for de-escalation in the Middle East. Oil prices have climbed sharply\u2014U.S. crude hit $103.37 per barrel and global crude is at $123.10\u2014reflecting geopolitical risk premium as the market prices in uncertainty around Iranian tensions and potential supply disruptions through the Strait of Hormuz.\n\nOil majors like ConocoPhillips also benefit when crude prices rise and refining margins expand, which recent reporting suggests has happened as fuel supplies tightened. Even as the Trump administration has criticized Big Oil's profits, surging refining earnings have offset political pressure, keeping energy stocks attractive to investors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 5,
-    "inputTokens": 4405,
-    "outputTokens": 1093,
-    "estimatedCostUsd": 0.00987,
-    "lastCallHour": "2026-11-01T15"
+    "callsThisMonth": 6,
+    "inputTokens": 5286,
+    "outputTokens": 1291,
+    "estimatedCostUsd": 0.011741,
+    "lastCallHour": "2026-11-01T16"
   }
 }
