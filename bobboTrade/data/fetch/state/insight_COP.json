@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T14:02:59.798726+00:00",
-  "text": "ConocoPhillips climbed 2.67% today to $154.03, capping a five-day rally that's added 5.13% over two weeks. The immediate catalyst is the sharp rise in crude oil prices \u2014 US oil jumped to $103.37 a barrel, with global oil hitting $123.10, driven by geopolitical tension in the Middle East as Iranian attacks on shipping have intensified. For an integrated oil producer like ConocoPhillips, higher crude prices directly boost earnings, which is why the stock has been rising steadily since late October.\n\nThe broader backdrop amplifies this move: refining margins are also widening (the news notes that oil majors' refining earnings have surged as fuel supplies tightened), and talks between Qatari mediators and Iran suggest potential escalation rather than de-escalation in the near term, keeping energy supplies tight. Tankers continue moving crude through the Strait of Hormuz despite attacks, but elevated freight rates and geopolitical risk are keeping oil prices elevated \u2014 exactly the environment that benefits crude producers.",
+  "fetchedAt": "2026-11-01T15:01:49.662953+00:00",
+  "text": "ConocoPhillips jumped 2.7% today to $154, capping a five-day rally that has lifted the stock 5.1% since late last week. The move tracks a sharp rise in global oil prices\u2014world crude hit $123.10 per barrel today, a level not reflected in the earlier part of this two-week window\u2014suggesting investors are pricing in tighter energy supplies. News of Qatari mediators holding talks in Tehran to potentially restart U.S.-Iran negotiations likely spooked the market into worrying that a deal could ease geopolitical tensions and increase Iranian oil exports, prompting a rush by energy traders to lock in gains before that risk materializes.\n\nThe strength also reflects real tightness in fuel markets right now: tankers are still moving oil through the Strait of Hormuz despite escalating Iranian attacks, and refining margins have surged as supplies have tightened. That backdrop means even as President Trump promised lower gas prices, the actual market conditions\u2014tight supply, high freight costs, strong refining profits\u2014are working in the opposite direction, benefiting major oil producers and refiners in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 4,
-    "inputTokens": 3524,
-    "outputTokens": 844,
-    "estimatedCostUsd": 0.007744,
-    "lastCallHour": "2026-11-01T14"
+    "callsThisMonth": 5,
+    "inputTokens": 4405,
+    "outputTokens": 1093,
+    "estimatedCostUsd": 0.00987,
+    "lastCallHour": "2026-11-01T15"
   }
 }
