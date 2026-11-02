@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-01T21:02:15.220236+00:00",
-  "text": "ConocoPhillips rose 2.67% today to close at $154, capping a strong two-week rally of 5.13%. The move is directly tied to a sharp jump in global oil prices\u2014world crude hit $123.10 per barrel, and U.S. crude reached $103.37\u2014driven by escalating geopolitical tension around Iran and the Strait of Hormuz. News of increased Iranian attacks on tankers and ongoing U.S.-Iran tensions have tightened crude supplies and pushed prices higher, which lifts the earnings outlook for an oil producer like ConocoPhillips.\n\nOn top of the crude price strength, recent reports show that oil majors' refining operations have posted surging earnings as fuel supplies tightened\u2014a tailwind that extends beyond just the raw oil price. With both crude and refined product margins moving in the company's favor, investors are pricing in stronger near-term profitability despite broader political uncertainty about energy prices.",
+  "fetchedAt": "2026-11-02T01:13:13.593347+00:00",
+  "text": "ConocoPhillips jumped 2.7% today as oil prices surged, with U.S. crude rising to $103.37 per barrel and global crude hitting $123.10\u2014a widening gap that benefits refiners who buy cheaper domestic oil and sell refined products into world markets. The stock also benefited from reports that mediators are pursuing U.S.-Iran negotiations, which could ease geopolitical tensions in the Middle East and reduce the risk premium baked into oil prices; tanker operators are currently running Iranian blockade routes despite escalating attacks, a sign the market sees supply disruptions as manageable for now.\n\nThe rally extends a two-week gain of 5% and reflects a broader shift: despite Trump's campaign promises to lower fuel costs, refining margins have actually expanded as fuel supplies tightened, driving profits for major oil companies higher than expected. This contradicts the political pressure on Big Oil, and the market appears to be pricing in continued strength in refining operations regardless of the rhetorical headwinds.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 11,
-    "inputTokens": 9691,
-    "outputTokens": 2373,
-    "estimatedCostUsd": 0.021556,
-    "lastCallHour": "2026-11-01T21"
+    "callsThisMonth": 12,
+    "inputTokens": 10572,
+    "outputTokens": 2596,
+    "estimatedCostUsd": 0.023552,
+    "lastCallHour": "2026-11-02T01"
   }
 }

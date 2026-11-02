@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-01T21:02:44.087479+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, rebounding after a sharp five-day sell-off that had dropped the stock 6.97% since late October. The bounce comes as U.S. oil prices have held firm at $103 a barrel and refineries are running at a high 92.8% capacity\u2014conditions that support strong margins for a refiner. The rebound also follows the company's leadership change announcement on October 29th and reported company update, which may have sparked renewed investor interest after the recent downturn.\n\nThe stock's recovery fits into a broader pattern this week: while Big Oil earnings are surging and refining margins have been historically strong (as fuel supplies remain tight), investors had grown cautious heading into earnings season on concerns about forward guidance. Today's move suggests some of that caution has eased, at least temporarily. The geopolitical backdrop\u2014ongoing Iran-U.S. tensions\u2014continues to support crude prices, though gasoline prices remain elevated despite Trump's campaign promise to lower them, which could weigh on refiner sentiment longer-term.",
+  "fetchedAt": "2026-11-02T01:13:38.237487+00:00",
+  "text": "Marathon Petroleum jumped 2.8% today after falling 6.97% over two weeks, rebounding on tentative signs of de-escalation in U.S.-Iran tensions. Qatari mediators held talks in Tehran aimed at restarting U.S.-Iran negotiations, which could ease concerns about potential disruptions to global oil supplies \u2014 a worry that had pushed the stock down sharply earlier in the week when tensions appeared to be rising.\n\nThe rebound also reflects the company's underlying strength: U.S. oil refining capacity is running at 92.8% utilization with tight fuel inventories (gasoline storage at 209 million barrels), which typically boosts refiner margins. That said, the company just announced a leadership change on October 29th, and investors are watching closely to see what new guidance management will provide amid the tension between record refining profits and political pressure on Big Oil to justify high fuel prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 11,
-    "inputTokens": 9955,
-    "outputTokens": 2419,
-    "estimatedCostUsd": 0.02205,
-    "lastCallHour": "2026-11-01T21"
+    "callsThisMonth": 12,
+    "inputTokens": 10860,
+    "outputTokens": 2622,
+    "estimatedCostUsd": 0.02397,
+    "lastCallHour": "2026-11-02T01"
   }
 }
