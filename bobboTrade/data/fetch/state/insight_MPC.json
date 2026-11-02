@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T14:01:56.380596+00:00",
-  "text": "Marathon Petroleum's stock rose 2.8% today after falling sharply over the past two weeks, rebounding from what appears to be a sharp selloff on October 27th when the stock dropped $34 in a single day. The bounce today follows crude oil's decline on November 2nd amid peace talk hopes between the U.S. and Iran\u2014which typically signals lower geopolitical risk and more stable energy markets. Refining utilization remains solid at 92.8%, and while crude prices have come under pressure (U.S. oil at $103/barrel versus higher levels earlier in the month), the company announced a leadership change and update on October 29th that may have also contributed to today's modest recovery in investor sentiment.\n\nThe stock's two-week decline of 7% likely reflects broader caution among investors heading into Big Oil earnings season, where forward guidance matters as much as reported profits. The company operates in an environment of moderating oil prices and mixed signals\u2014geopolitical tensions that could support crude are being offset by hopes for diplomatic resolution, leaving refiners in a holding pattern on both input costs and demand outlook.",
+  "fetchedAt": "2026-11-02T15:02:08.733568+00:00",
+  "text": "Marathon Petroleum fell 1.8% today, continuing a steep two-week slide of nearly 8%. The main driver is crude oil prices\u2014US crude dropped to $103.37 per barrel on Monday as news of Iran-US peace talks sparked hopes for de-escalation in Middle East tensions, reducing the geopolitical risk premium that had supported oil prices. For a refiner like Marathon, lower oil prices compress profit margins on fuel production, even though refineries are running at a healthy 92.8% capacity.\n\nThe decline also reflects broader caution in the energy sector heading into earnings season. On October 29th, the company announced leadership changes and a company update, but analyst commentary that same day warned investors to focus on guidance rather than headline earnings\u2014suggesting the market is pricing in margin pressure and uncertainty about the refining outlook amid volatile crude prices and shifting geopolitical dynamics.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 15,
-    "inputTokens": 13534,
-    "outputTokens": 3265,
-    "estimatedCostUsd": 0.029859,
-    "lastCallHour": "2026-11-02T14"
+    "callsThisMonth": 16,
+    "inputTokens": 14419,
+    "outputTokens": 3454,
+    "estimatedCostUsd": 0.031689,
+    "lastCallHour": "2026-11-02T15"
   }
 }

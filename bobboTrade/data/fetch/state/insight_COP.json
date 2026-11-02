@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-02T14:01:40.940681+00:00",
-  "text": "ConocoPhillips jumped 2.67% today, bouncing back from a three-day dip that had pushed the stock down 2.4% from its October 23 close. The move follows crude oil prices climbing sharply\u2014US oil sitting at $103.37 per barrel today versus lower levels earlier in the week\u2014likely driven by receding hopes for a near-term U.S.-Iran peace deal. Diplomatic talks in Tehran aimed at restarting negotiations had raised expectations for de-escalation, but recent political signals suggest a tougher stance may prevail after the midterm elections, reducing the likelihood of a quick deal that would ease oil supply concerns.\n\nThe broader context matters here: oil majors like this one benefit when crude prices rise, since higher prices expand the value of the barrels they produce. Over two weeks, the stock is up 5.13%, which tracks closely with the energy market's shift away from peace-deal optimism toward anticipation of continued geopolitical tension in the Middle East\u2014a dynamic that keeps crude elevated and supports refiner and producer margins.",
+  "fetchedAt": "2026-11-02T15:01:48.765312+00:00",
+  "text": "ConocoPhillips fell 2.6% today as crude oil prices dropped sharply on growing hopes for U.S.-Iran peace talks. Diplomatic efforts by Qatari mediators and statements from Trump administration officials suggesting a desire for peaceful resolution spooked the oil market\u2014crude fell to session lows Monday morning. When oil prices weaken, integrated oil companies like ConocoPhillips face lower revenues from production, which explains the stock's immediate decline.\n\nThe dip reverses some of the stock's strong two-week run (up 3.3%), which had coincided with oil climbing toward $154/barrel on Friday. The gap between U.S. crude ($103/barrel today) and world crude ($123/barrel) underscores persistent supply concerns despite the diplomatic thaw\u2014if tensions ease further, that premium could compress even more, weighing on margins for companies producing in the region.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 15,
-    "inputTokens": 13233,
-    "outputTokens": 3285,
-    "estimatedCostUsd": 0.029658,
-    "lastCallHour": "2026-11-02T14"
+    "callsThisMonth": 16,
+    "inputTokens": 14119,
+    "outputTokens": 3482,
+    "estimatedCostUsd": 0.031529,
+    "lastCallHour": "2026-11-02T15"
   }
 }
