@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-02T17:01:35.094663+00:00",
-  "text": "ConocoPhillips fell 3.9% today as crude oil prices dropped sharply on hopes that the U.S. and Iran might pursue a diplomatic settlement rather than escalating military conflict in the Middle East. Oil companies like ConocoPhillips benefit when crude prices are high\u2014lower oil prices directly reduce their production revenue and profit margins. The sharp decline follows the stock's strong run last Friday (up to $154), suggesting investors are repricing their bets on how high energy prices will stay.\n\nThe broader context here is that oil prices remain caught between conflicting pressures: geopolitical tensions that normally push prices up, versus peace-talk headlines and political pledges to bring energy costs down that pull prices lower. The gap between U.S. crude ($103/barrel) and world crude ($123/barrel) shows that global supply concerns are still elevated, but the momentum today clearly favored the diplomatic-resolution narrative over the conflict-premium scenario.",
+  "fetchedAt": "2026-11-02T18:01:44.176664+00:00",
+  "text": "ConocoPhillips fell 4.1% today as crude oil prices tumbled more than 7% on growing hopes for a U.S.-Iran diplomatic deal. Oil is the primary driver of an oil major's profits\u2014when crude prices drop sharply, so do earnings expectations. The decline came despite the stock hitting a recent high of $154 just two trading days earlier, signaling that the sudden pivot toward peace talks overrode any near-term momentum.\n\nThe broader context here is geopolitical risk pricing. Weeks of Middle East tensions had kept oil elevated; news of active U.S.-Iran diplomacy and Qatari mediation efforts shifted that calculation overnight, with traders betting on reduced supply disruption risk and therefore lower oil demand going forward. This type of headline-driven reversal is typical when military escalation fears ease.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 18,
-    "inputTokens": 15891,
-    "outputTokens": 3886,
-    "estimatedCostUsd": 0.035321,
-    "lastCallHour": "2026-11-02T17"
+    "callsThisMonth": 19,
+    "inputTokens": 16784,
+    "outputTokens": 4068,
+    "estimatedCostUsd": 0.037124,
+    "lastCallHour": "2026-11-02T18"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T17:01:49.549247+00:00",
-  "text": "Marathon Petroleum shares fell 1.3% today, continuing a steep two-week slide of 7.3%. The main driver is crude oil prices \u2014 US oil dropped to $103.37 per barrel today on reports of potential Iran peace talks, and refiners like Marathon are caught between lower crude costs (which help margins initially) and the uncertainty that softer oil demand signals. The stock's weakness accelerated after the company announced a leadership change and company update on October 29th, which coincided with analyst warnings that Big Oil earnings guidance\u2014not just current results\u2014may disappoint investors going forward.\n\nThe refining backdrop adds complexity: US refineries are running at 92.8% capacity with adequate fuel inventories, so there's no supply crunch to support prices or margins. Any dip in crude prices or demand signals translates directly to refiner margin pressure, making the diplomatic chatter around Iran tensions particularly relevant for a company whose earnings depend on the spread between crude input costs and refined product sales.",
+  "fetchedAt": "2026-11-02T18:02:03.275036+00:00",
+  "text": "Marathon Petroleum fell 1.6% today to $437.75, extending a steep two-week decline of 7.6%. The primary driver was crude oil dropping more than 7% on Monday after news broke that the U.S. and Iran are pursuing diplomatic talks, reducing concerns about Middle East conflict escalating into a sustained supply disruption. As a refiner, Marathon's profitability depends partly on the spread between crude costs and the products it sells; when oil prices fall sharply, that benefit shrinks, and investors punished the stock accordingly.\n\nThe decline also reflects caution heading into Big Oil earnings season\u2014analysts flagged that forward guidance matters as much as reported results, and refiner stocks can face headwinds if crude remains soft or if demand signals weaken. Leadership changes and a company update announced by Marathon on October 29th added uncertainty just as the broader oil market was turning downward.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 18,
-    "inputTokens": 16190,
-    "outputTokens": 3858,
-    "estimatedCostUsd": 0.03548,
-    "lastCallHour": "2026-11-02T17"
+    "callsThisMonth": 19,
+    "inputTokens": 17082,
+    "outputTokens": 4053,
+    "estimatedCostUsd": 0.037347,
+    "lastCallHour": "2026-11-02T18"
   }
 }
