@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-02T13:02:02.773583+00:00",
-  "text": "ConocoPhillips rose 2.67% today, extending a two-week gain of 5.13%. The sharp move follows a jump of $4 in the last two trading days, driven by a significant widening between U.S. and global crude prices. U.S. oil is trading at $103.37 per barrel while world oil sits at $123.10\u2014a $19.73 gap that reflects tightness in American supply and strong demand for U.S. production. As a major oil producer, ConocoPhillips benefits directly when this spread widens, since it sells into both markets.\n\nThe broader context is a shift in energy geopolitics: diplomatic efforts between the U.S. and Iran are progressing through Qatari mediation and public statements from Trump officials about ending tensions \"peacefully,\" which initially drove crude lower on Monday. However, the price differential has since reversed, suggesting markets are pricing in either skepticism about the talks holding or confidence that U.S. production constraints will persist regardless of geopolitical resolution\u2014both scenarios favor domestic producers like ConocoPhillips.",
+  "fetchedAt": "2026-11-02T14:01:40.940681+00:00",
+  "text": "ConocoPhillips jumped 2.67% today, bouncing back from a three-day dip that had pushed the stock down 2.4% from its October 23 close. The move follows crude oil prices climbing sharply\u2014US oil sitting at $103.37 per barrel today versus lower levels earlier in the week\u2014likely driven by receding hopes for a near-term U.S.-Iran peace deal. Diplomatic talks in Tehran aimed at restarting negotiations had raised expectations for de-escalation, but recent political signals suggest a tougher stance may prevail after the midterm elections, reducing the likelihood of a quick deal that would ease oil supply concerns.\n\nThe broader context matters here: oil majors like this one benefit when crude prices rise, since higher prices expand the value of the barrels they produce. Over two weeks, the stock is up 5.13%, which tracks closely with the energy market's shift away from peace-deal optimism toward anticipation of continued geopolitical tension in the Middle East\u2014a dynamic that keeps crude elevated and supports refiner and producer margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 14,
-    "inputTokens": 12346,
-    "outputTokens": 3048,
-    "estimatedCostUsd": 0.027586,
-    "lastCallHour": "2026-11-02T13"
+    "callsThisMonth": 15,
+    "inputTokens": 13233,
+    "outputTokens": 3285,
+    "estimatedCostUsd": 0.029658,
+    "lastCallHour": "2026-11-02T14"
   }
 }

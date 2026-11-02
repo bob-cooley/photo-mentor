@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T13:02:21.183895+00:00",
-  "text": "MPC rose 2.8% today, recovering some ground after a sharp decline over the past week. The bounce came as U.S. crude oil fell below $100 a barrel on news of U.S.-Iran diplomatic efforts, which reduced immediate geopolitical risk in the Middle East. For a refiner like Marathon, lower oil prices can improve margins\u2014the spread between what crude costs to buy and what refined products sell for\u2014though the broader oil market has been volatile, with the stock down nearly 7% over two weeks as uncertainty weighs on the sector.\n\nRefineries are running at 92.8% capacity with healthy inventory levels, so operational conditions remain solid. The recent leadership change and company update announced this week may also be generating renewed investor interest, though the fundamental driver today appears to be the diplomatic de-escalation in the Middle East easing near-term supply concerns.",
+  "fetchedAt": "2026-11-02T14:01:56.380596+00:00",
+  "text": "Marathon Petroleum's stock rose 2.8% today after falling sharply over the past two weeks, rebounding from what appears to be a sharp selloff on October 27th when the stock dropped $34 in a single day. The bounce today follows crude oil's decline on November 2nd amid peace talk hopes between the U.S. and Iran\u2014which typically signals lower geopolitical risk and more stable energy markets. Refining utilization remains solid at 92.8%, and while crude prices have come under pressure (U.S. oil at $103/barrel versus higher levels earlier in the month), the company announced a leadership change and update on October 29th that may have also contributed to today's modest recovery in investor sentiment.\n\nThe stock's two-week decline of 7% likely reflects broader caution among investors heading into Big Oil earnings season, where forward guidance matters as much as reported profits. The company operates in an environment of moderating oil prices and mixed signals\u2014geopolitical tensions that could support crude are being offset by hopes for diplomatic resolution, leaving refiners in a holding pattern on both input costs and demand outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 14,
-    "inputTokens": 12648,
-    "outputTokens": 3022,
-    "estimatedCostUsd": 0.027758,
-    "lastCallHour": "2026-11-02T13"
+    "callsThisMonth": 15,
+    "inputTokens": 13534,
+    "outputTokens": 3265,
+    "estimatedCostUsd": 0.029859,
+    "lastCallHour": "2026-11-02T14"
   }
 }
