@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T15:02:08.733568+00:00",
-  "text": "Marathon Petroleum fell 1.8% today, continuing a steep two-week slide of nearly 8%. The main driver is crude oil prices\u2014US crude dropped to $103.37 per barrel on Monday as news of Iran-US peace talks sparked hopes for de-escalation in Middle East tensions, reducing the geopolitical risk premium that had supported oil prices. For a refiner like Marathon, lower oil prices compress profit margins on fuel production, even though refineries are running at a healthy 92.8% capacity.\n\nThe decline also reflects broader caution in the energy sector heading into earnings season. On October 29th, the company announced leadership changes and a company update, but analyst commentary that same day warned investors to focus on guidance rather than headline earnings\u2014suggesting the market is pricing in margin pressure and uncertainty about the refining outlook amid volatile crude prices and shifting geopolitical dynamics.",
+  "fetchedAt": "2026-11-02T16:02:28.675006+00:00",
+  "text": "Marathon Petroleum fell slightly today as crude oil prices dropped on Monday following reports of potential U.S.-Iran diplomatic talks. Oil fell to session lows amid hopes for peaceful resolution in the Middle East, which reduces the geopolitical premium that has been supporting energy prices. A refiner's profitability depends partly on the spread between crude costs and what it can sell refined products for, so lower oil prices can compress those margins even if refined product prices don't fall as much.\n\nThe stock is also down 6.5% over two weeks following a leadership change announced on October 29th and amid broader caution from analysts about Big Oil earnings guidance. While refineries are running at a healthy 92.8% utilization, the uncertainty around management transitions and forward guidance\u2014combined with the sudden shift in oil market sentiment from geopolitical risk to diplomacy hopes\u2014has weighed on the share price.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 16,
-    "inputTokens": 14419,
-    "outputTokens": 3454,
-    "estimatedCostUsd": 0.031689,
-    "lastCallHour": "2026-11-02T15"
+    "callsThisMonth": 17,
+    "inputTokens": 15305,
+    "outputTokens": 3644,
+    "estimatedCostUsd": 0.033525,
+    "lastCallHour": "2026-11-02T16"
   }
 }
