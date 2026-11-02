@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T18:02:03.275036+00:00",
-  "text": "Marathon Petroleum fell 1.6% today to $437.75, extending a steep two-week decline of 7.6%. The primary driver was crude oil dropping more than 7% on Monday after news broke that the U.S. and Iran are pursuing diplomatic talks, reducing concerns about Middle East conflict escalating into a sustained supply disruption. As a refiner, Marathon's profitability depends partly on the spread between crude costs and the products it sells; when oil prices fall sharply, that benefit shrinks, and investors punished the stock accordingly.\n\nThe decline also reflects caution heading into Big Oil earnings season\u2014analysts flagged that forward guidance matters as much as reported results, and refiner stocks can face headwinds if crude remains soft or if demand signals weaken. Leadership changes and a company update announced by Marathon on October 29th added uncertainty just as the broader oil market was turning downward.",
+  "fetchedAt": "2026-11-02T19:01:49.203034+00:00",
+  "text": "Marathon Petroleum fell 2.2% today, continuing a steep two-week decline of 8.2% that accelerated sharply on November 2nd. The primary driver was crude oil dropping more than 7% Monday on hopes of U.S.-Iran peace talks, which would ease geopolitical tensions that have supported elevated oil prices. Since refiners like Marathon profit from the difference between crude costs and refined product prices, a sudden oil price collapse compresses those margins and immediately pressures the stock, even as refineries continue running at a healthy 92.8% capacity.\n\nThe decline also reflects broader caution among investors ahead of Big Oil earnings, where guidance on future profitability matters as much as current results. The company announced a leadership change on October 29th, adding uncertainty at a time when oil price direction\u2014now swinging on diplomatic news rather than supply fundamentals\u2014has become the dominant driver of refiner valuations.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 19,
-    "inputTokens": 17082,
-    "outputTokens": 4053,
-    "estimatedCostUsd": 0.037347,
-    "lastCallHour": "2026-11-02T18"
+    "callsThisMonth": 20,
+    "inputTokens": 17974,
+    "outputTokens": 4253,
+    "estimatedCostUsd": 0.039239,
+    "lastCallHour": "2026-11-02T19"
   }
 }
