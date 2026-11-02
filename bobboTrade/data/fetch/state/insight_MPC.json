@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T08:49:48.913661+00:00",
-  "text": "Marathon Petroleum rose 2.8% today, bouncing back after a brutal week that saw the stock drop nearly 7% since late October. The bounce came as U.S. crude oil fell more than 3% on Monday following reports of U.S.-Iran diplomatic efforts, which normally would hurt a refiner\u2014but the move appears driven by relief that tensions may ease rather than collapse further, plus a company leadership change and strategic update announced on October 29th that may have signaled confidence to investors.\n\nThe broader picture matters here: oil prices have swung wildly this week on geopolitical news (Qatari mediators in Tehran, talk of avoiding additional strikes), and refineries are running at 92.8% capacity with healthy crude and product inventories. The stock's weak two-week performance likely reflects investor caution ahead of Big Oil earnings, where guidance\u2014not just profits\u2014will determine whether refiners can weather the uncertainty around oil prices and Middle East tensions.",
+  "fetchedAt": "2026-11-02T13:02:21.183895+00:00",
+  "text": "MPC rose 2.8% today, recovering some ground after a sharp decline over the past week. The bounce came as U.S. crude oil fell below $100 a barrel on news of U.S.-Iran diplomatic efforts, which reduced immediate geopolitical risk in the Middle East. For a refiner like Marathon, lower oil prices can improve margins\u2014the spread between what crude costs to buy and what refined products sell for\u2014though the broader oil market has been volatile, with the stock down nearly 7% over two weeks as uncertainty weighs on the sector.\n\nRefineries are running at 92.8% capacity with healthy inventory levels, so operational conditions remain solid. The recent leadership change and company update announced this week may also be generating renewed investor interest, though the fundamental driver today appears to be the diplomatic de-escalation in the Middle East easing near-term supply concerns.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 13,
-    "inputTokens": 11760,
-    "outputTokens": 2832,
-    "estimatedCostUsd": 0.02592,
-    "lastCallHour": "2026-11-02T08"
+    "callsThisMonth": 14,
+    "inputTokens": 12648,
+    "outputTokens": 3022,
+    "estimatedCostUsd": 0.027758,
+    "lastCallHour": "2026-11-02T13"
   }
 }

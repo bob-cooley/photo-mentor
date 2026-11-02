@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-02T08:49:29.607054+00:00",
-  "text": "ConocoPhillips rose 2.7% today to $154.03, reversing losses from earlier in the week. The gain comes as oil prices have stabilized after a brief dip on Monday's diplomatic news\u2014U.S. crude is trading at $103.37 per barrel, and the stock has climbed 5% over the past two weeks as geopolitical tensions around Iran keep energy prices elevated and volatile. The recent reports of U.S.-Iran peace talks lowered prices momentarily, but both sides are reportedly preparing for additional military strikes, which has kept the upside pressure on crude alive.\n\nThe wider backdrop helps: oil majors have reported strong refining earnings as fuel supplies have tightened, so even with Trump's pledges to lower energy costs, the structural conditions supporting higher oil prices remain in place. A large gap between U.S. crude ($103) and world oil ($123) also suggests continued supply concerns that favor producers.",
+  "fetchedAt": "2026-11-02T13:02:02.773583+00:00",
+  "text": "ConocoPhillips rose 2.67% today, extending a two-week gain of 5.13%. The sharp move follows a jump of $4 in the last two trading days, driven by a significant widening between U.S. and global crude prices. U.S. oil is trading at $103.37 per barrel while world oil sits at $123.10\u2014a $19.73 gap that reflects tightness in American supply and strong demand for U.S. production. As a major oil producer, ConocoPhillips benefits directly when this spread widens, since it sells into both markets.\n\nThe broader context is a shift in energy geopolitics: diplomatic efforts between the U.S. and Iran are progressing through Qatari mediation and public statements from Trump officials about ending tensions \"peacefully,\" which initially drove crude lower on Monday. However, the price differential has since reversed, suggesting markets are pricing in either skepticism about the talks holding or confidence that U.S. production constraints will persist regardless of geopolitical resolution\u2014both scenarios favor domestic producers like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 13,
-    "inputTokens": 11457,
-    "outputTokens": 2803,
-    "estimatedCostUsd": 0.025472,
-    "lastCallHour": "2026-11-02T08"
+    "callsThisMonth": 14,
+    "inputTokens": 12346,
+    "outputTokens": 3048,
+    "estimatedCostUsd": 0.027586,
+    "lastCallHour": "2026-11-02T13"
   }
 }
