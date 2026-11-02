@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-02T01:13:13.593347+00:00",
-  "text": "ConocoPhillips jumped 2.7% today as oil prices surged, with U.S. crude rising to $103.37 per barrel and global crude hitting $123.10\u2014a widening gap that benefits refiners who buy cheaper domestic oil and sell refined products into world markets. The stock also benefited from reports that mediators are pursuing U.S.-Iran negotiations, which could ease geopolitical tensions in the Middle East and reduce the risk premium baked into oil prices; tanker operators are currently running Iranian blockade routes despite escalating attacks, a sign the market sees supply disruptions as manageable for now.\n\nThe rally extends a two-week gain of 5% and reflects a broader shift: despite Trump's campaign promises to lower fuel costs, refining margins have actually expanded as fuel supplies tightened, driving profits for major oil companies higher than expected. This contradicts the political pressure on Big Oil, and the market appears to be pricing in continued strength in refining operations regardless of the rhetorical headwinds.",
+  "fetchedAt": "2026-11-02T08:49:29.607054+00:00",
+  "text": "ConocoPhillips rose 2.7% today to $154.03, reversing losses from earlier in the week. The gain comes as oil prices have stabilized after a brief dip on Monday's diplomatic news\u2014U.S. crude is trading at $103.37 per barrel, and the stock has climbed 5% over the past two weeks as geopolitical tensions around Iran keep energy prices elevated and volatile. The recent reports of U.S.-Iran peace talks lowered prices momentarily, but both sides are reportedly preparing for additional military strikes, which has kept the upside pressure on crude alive.\n\nThe wider backdrop helps: oil majors have reported strong refining earnings as fuel supplies have tightened, so even with Trump's pledges to lower energy costs, the structural conditions supporting higher oil prices remain in place. A large gap between U.S. crude ($103) and world oil ($123) also suggests continued supply concerns that favor producers.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 12,
-    "inputTokens": 10572,
-    "outputTokens": 2596,
-    "estimatedCostUsd": 0.023552,
-    "lastCallHour": "2026-11-02T01"
+    "callsThisMonth": 13,
+    "inputTokens": 11457,
+    "outputTokens": 2803,
+    "estimatedCostUsd": 0.025472,
+    "lastCallHour": "2026-11-02T08"
   }
 }
