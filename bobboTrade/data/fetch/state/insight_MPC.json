@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T20:02:01.316073+00:00",
-  "text": "Marathon Petroleum fell 2.2% today, extending a sharp two-week decline, as crude oil prices dropped more than 7% on Monday following news of U.S.\u2013Iran peace talk efforts ahead of the midterm elections. Lower oil prices directly pressure refiner profits: when the raw material (crude) gets cheaper faster than refined products like gasoline and diesel can, the margin refiners earn on each barrel shrinks. The company also disclosed a leadership change and company update on October 29th, which may have added uncertainty as investors awaited details.\n\nThe broader headwind is the shift in market sentiment around geopolitical risk. Oil had been elevated partly due to Mideast tensions; talk of diplomatic resolution removes that premium from crude prices. For a refiner like Marathon, this is a double-edged outcome\u2014cheaper crude is good for costs, but the market fears that sustained lower prices and the prospect of peace could mean weaker energy demand and profitability ahead, especially as earnings season unfolds and guidance becomes the focal point for investors.",
+  "fetchedAt": "2026-11-02T21:02:03.921778+00:00",
+  "text": "Marathon Petroleum fell 3.2% today, extending a sharp two-week decline of 9%. The primary driver was crude oil's 7% drop on Monday following news of U.S.-Iran peace talks, which reduced concern about Middle East supply disruptions. Since refiners profit when they can buy cheap crude and sell refined products (gasoline and diesel) at higher prices, a sudden oil price collapse squeezes those margins even though refineries are running at a healthy 92.8% capacity.\n\nThe stock's broader weakness over two weeks also reflects uncertainty around the company's leadership change and upcoming earnings guidance announced on October 29. Refiners face a difficult outlook: while oil fell sharply, the peace-talk headlines suggest geopolitical risk premiums built into crude prices could persist or shift, making it hard for investors to price future margins with confidence.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 21,
-    "inputTokens": 18866,
-    "outputTokens": 4476,
-    "estimatedCostUsd": 0.041246,
-    "lastCallHour": "2026-11-02T20"
+    "callsThisMonth": 22,
+    "inputTokens": 19758,
+    "outputTokens": 4660,
+    "estimatedCostUsd": 0.043058,
+    "lastCallHour": "2026-11-02T21"
   }
 }
