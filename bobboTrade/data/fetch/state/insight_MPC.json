@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-02T19:01:49.203034+00:00",
-  "text": "Marathon Petroleum fell 2.2% today, continuing a steep two-week decline of 8.2% that accelerated sharply on November 2nd. The primary driver was crude oil dropping more than 7% Monday on hopes of U.S.-Iran peace talks, which would ease geopolitical tensions that have supported elevated oil prices. Since refiners like Marathon profit from the difference between crude costs and refined product prices, a sudden oil price collapse compresses those margins and immediately pressures the stock, even as refineries continue running at a healthy 92.8% capacity.\n\nThe decline also reflects broader caution among investors ahead of Big Oil earnings, where guidance on future profitability matters as much as current results. The company announced a leadership change on October 29th, adding uncertainty at a time when oil price direction\u2014now swinging on diplomatic news rather than supply fundamentals\u2014has become the dominant driver of refiner valuations.",
+  "fetchedAt": "2026-11-02T20:02:01.316073+00:00",
+  "text": "Marathon Petroleum fell 2.2% today, extending a sharp two-week decline, as crude oil prices dropped more than 7% on Monday following news of U.S.\u2013Iran peace talk efforts ahead of the midterm elections. Lower oil prices directly pressure refiner profits: when the raw material (crude) gets cheaper faster than refined products like gasoline and diesel can, the margin refiners earn on each barrel shrinks. The company also disclosed a leadership change and company update on October 29th, which may have added uncertainty as investors awaited details.\n\nThe broader headwind is the shift in market sentiment around geopolitical risk. Oil had been elevated partly due to Mideast tensions; talk of diplomatic resolution removes that premium from crude prices. For a refiner like Marathon, this is a double-edged outcome\u2014cheaper crude is good for costs, but the market fears that sustained lower prices and the prospect of peace could mean weaker energy demand and profitability ahead, especially as earnings season unfolds and guidance becomes the focal point for investors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 20,
-    "inputTokens": 17974,
-    "outputTokens": 4253,
-    "estimatedCostUsd": 0.039239,
-    "lastCallHour": "2026-11-02T19"
+    "callsThisMonth": 21,
+    "inputTokens": 18866,
+    "outputTokens": 4476,
+    "estimatedCostUsd": 0.041246,
+    "lastCallHour": "2026-11-02T20"
   }
 }
