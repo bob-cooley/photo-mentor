@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-03T15:01:47.766779+00:00",
-  "text": "ConocoPhillips fell 1.6% today to $144.51, giving back gains from a sharp rally over the past week. The decline coincides with crude oil prices falling for a second consecutive day as markets price in hopes for a diplomatic resolution to the Iran conflict\u2014despite U.S. military strikes continuing on Monday. Oil refiners typically benefit from geopolitical tensions that push prices higher and widen profit margins; as that risk recedes, so does the tailwind for energy stocks. The company is also caught in broader midterm election uncertainty, which could shift energy policy and investor sentiment around the sector.\n\nThe pullback is notable because peers like BP and Saudi Aramco just posted blockbuster earnings fueled by surging refining margins during the conflict. ConocoPhillips' retreat suggests investors are rotating away from the geopolitical premium and pricing in a more stable energy environment\u2014even if crude still sits above $103 per barrel domestically and $123 globally.",
+  "fetchedAt": "2026-11-03T16:02:17.143158+00:00",
+  "text": "ConocoPhillips fell 1.3% today to $144.96, giving back gains from the past week as oil prices dropped on hopes for a diplomatic resolution to the Iran conflict. Crude has fallen for a second consecutive day after U.S. and Iranian leadership signaled openness to negotiations, easing concerns about supply disruptions that had pushed prices higher earlier in the week. The stock hit $154 just three trading days ago when geopolitical tensions were running hotter.\n\nThe broader refining picture is more mixed. Competitors like Saudi Aramco and BP are posting record profits as refining margins have widened during the conflict \u2014 the spread between crude costs and refined product prices has expanded enough to boost their bottom lines significantly. For an integrated producer like ConocoPhillips, lower crude prices can offset some benefit from strong refining economics, which may explain why the stock is retreating even while refiners are celebrating their results.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 27,
-    "inputTokens": 23738,
-    "outputTokens": 5759,
-    "estimatedCostUsd": 0.052533,
-    "lastCallHour": "2026-11-03T15"
+    "callsThisMonth": 28,
+    "inputTokens": 24581,
+    "outputTokens": 5961,
+    "estimatedCostUsd": 0.054386,
+    "lastCallHour": "2026-11-03T16"
   }
 }
