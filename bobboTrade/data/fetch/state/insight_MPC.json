@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T09:11:36.070693+00:00",
-  "text": "Marathon Petroleum fell 3.2% today to $430.39, continuing a sharp 9% slide over two weeks that accelerated after a leadership change the company announced on October 29. The timing matters: the stock dropped hard immediately after that announcement and hasn't recovered, suggesting investors reacted negatively to the management transition or the accompanying company update\u2014though the specific details weren't disclosed in the available data.\n\nThe refining environment itself remains supportive, with U.S. crude at $103 per barrel, refineries running at 92.8% capacity, and competitors like Saudi Aramco reporting stronger refining margins. However, this backdrop hasn't been enough to offset whatever concern the leadership news triggered, and the stock's weakness over the past week suggests the market is waiting to see what direction the new management will take.",
+  "fetchedAt": "2026-11-03T13:02:39.739062+00:00",
+  "text": "Marathon Petroleum fell 3.2% today, breaking a two-week downtrend that has wiped out 9% of the stock's value since late October. The immediate trigger appears to be uncertainty around the company's recent leadership change and corporate update announced on October 29th\u2014details that would directly affect investor confidence in refiner profitability and strategy\u2014combined with a broader market caution warned by analysts ahead of Big Oil earnings reports, where forward guidance could disappoint.\n\nThe stock's weakness also reflects mixed signals in refining economics: while crude oil prices have climbed today following U.S. military strikes on Iran, U.S. refineries are running at 92.8% capacity with elevated fuel inventories (209 million barrels of gasoline, 103 million of diesel). High capacity utilization and full storage tanks limit a refiner's ability to profit from rising oil prices, since they can't easily ramp up production or command premium pricing when the market is already saturated with fuel.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 24,
-    "inputTokens": 21524,
-    "outputTokens": 5035,
-    "estimatedCostUsd": 0.046699,
-    "lastCallHour": "2026-11-03T09"
+    "callsThisMonth": 25,
+    "inputTokens": 22414,
+    "outputTokens": 5251,
+    "estimatedCostUsd": 0.048669,
+    "lastCallHour": "2026-11-03T13"
   }
 }
