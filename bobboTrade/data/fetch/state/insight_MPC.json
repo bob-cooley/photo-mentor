@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T17:02:48.576316+00:00",
-  "text": "Marathon Petroleum fell slightly today as crude oil prices dropped for a second consecutive day on hopes for a diplomatic resolution to the Iran conflict. Crude has retreated from recent highs, with U.S. oil now trading at $103.37 per barrel\u2014down sharply from the geopolitical premium that had driven prices higher. For a refiner, lower oil prices can seem positive for margins in theory, but the market is evidently concerned that the immediate uncertainty driving energy higher has now reversed.\n\nThe stock's broader 10% decline over two weeks reflects investor caution ahead of the company's quarterly earnings announcement (which came today). A leadership change announced last week added to that uncertainty, and CNBC reporting flagged that Big Oil earnings guidance\u2014not just reported profits\u2014will be what investors scrutinize most closely going forward.",
+  "fetchedAt": "2026-11-03T18:02:26.154970+00:00",
+  "text": "Marathon Petroleum fell today as crude oil prices dropped for a second consecutive day on hopes for a diplomatic resolution to the Iran conflict. The company just reported quarterly earnings this morning, but broader energy market sentiment shifted as geopolitical risk eased\u2014crude fell from recent highs, which directly pressures refiner profits since they buy oil as their raw material and sell refined products like gasoline and diesel.\n\nThe stock has lost nearly 10% over two weeks despite refineries running at a healthy 92.8% capacity, suggesting the recent leadership change announced on October 29th may have added uncertainty on top of the oil price weakness. When crude prices fall sharply and unexpectedly, even profitable refiners can see their stock punished as investors recalibrate near-term earnings expectations.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 29,
-    "inputTokens": 25797,
-    "outputTokens": 6010,
-    "estimatedCostUsd": 0.055847,
-    "lastCallHour": "2026-11-03T17"
+    "callsThisMonth": 30,
+    "inputTokens": 26637,
+    "outputTokens": 6176,
+    "estimatedCostUsd": 0.057517,
+    "lastCallHour": "2026-11-03T18"
   }
 }
