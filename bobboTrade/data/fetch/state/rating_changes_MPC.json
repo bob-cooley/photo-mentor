@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-11-02T19:06:34.656623+00:00",
+    "fetchedAt": "2026-11-03T01:58:27.616981+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -125,16 +125,6 @@
         "targetAction": "Raises",
         "targetFrom": 321.0,
         "targetTo": 450.0
-      },
-      {
-        "date": "2026-09-03",
-        "firm": "Piper Sandler",
-        "kind": "maintained",
-        "fromGrade": "Overweight",
-        "toGrade": "Overweight",
-        "targetAction": "Raises",
-        "targetFrom": 344.0,
-        "targetTo": 462.0
       }
     ]
   }

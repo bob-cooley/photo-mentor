@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-11-02T19:06:18.225727+00:00",
+    "fetchedAt": "2026-11-03T01:58:10.016985+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -55,16 +55,6 @@
         "targetAction": "Raises",
         "targetFrom": 153.0,
         "targetTo": 169.0
-      },
-      {
-        "date": "2026-09-03",
-        "firm": "Seaport Global",
-        "kind": "initiated",
-        "fromGrade": null,
-        "toGrade": "Neutral",
-        "targetAction": null,
-        "targetFrom": null,
-        "targetTo": null
       }
     ]
   }
