@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T19:02:01.943176+00:00",
-  "text": "Marathon Petroleum fell slightly today after releasing quarterly earnings on November 3rd, capping a volatile two-week stretch down 9.7%. The stock has swung sharply\u2014jumping to $444.73 just three days ago before retreating\u2014suggesting investors are weighing the company's earnings results against uncertainty about refining margins and geopolitical risk. US oil at $103 per barrel remains well above historical averages, but the gap between global oil ($123) and domestic prices signals some strain on refining profitability.\n\nThe broader backdrop of caution around Big Oil earnings (noted in late October coverage) and a recent leadership change at Marathon may be adding to the hesitation, even as refineries run near full capacity at 92.8%. Geopolitical tensions with Iran also add an overlay of uncertainty to energy markets that could affect crude supplies and refining economics going forward.",
+  "fetchedAt": "2026-11-03T20:02:13.185700+00:00",
+  "text": "Marathon Petroleum fell 0.6% today after releasing its quarterly earnings report and announcing a leadership change. The stock has been volatile over the past two weeks, swinging between gains and losses, and today's decline caps a 9.94% drop since late October. With oil prices holding steady around $103/barrel domestically and refineries running at 92.8% capacity, the move appears tied to market reaction to the company's financial results and forward guidance rather than a shift in refining fundamentals.\n\nThe broader context matters here: a CNBC report from earlier this week cautioned that Big Oil earnings guidance\u2014not just reported profits\u2014could disappoint investors, and market reaction to leadership changes can add uncertainty even when operational metrics remain solid. Refinery utilization remains healthy and inventory levels are stable, so today's decline likely reflects investor concerns about what the company sees ahead rather than current conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 31,
-    "inputTokens": 27467,
-    "outputTokens": 6366,
-    "estimatedCostUsd": 0.059297,
-    "lastCallHour": "2026-11-03T19"
+    "callsThisMonth": 32,
+    "inputTokens": 28268,
+    "outputTokens": 6557,
+    "estimatedCostUsd": 0.061053,
+    "lastCallHour": "2026-11-03T20"
   }
 }

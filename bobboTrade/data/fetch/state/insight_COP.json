@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-03T19:01:43.828524+00:00",
-  "text": "ConocoPhillips fell 1.7% today after climbing sharply over the previous three trading days, reaching $154 on Thursday. The pullback comes as crude oil prices dropped for a second consecutive day\u2014U.S. crude fell below $104 per barrel\u2014on growing hopes for a diplomatic resolution to the Iran conflict, even though U.S. military strikes on Iran's Qeshm Island occurred just this morning. When oil prices retreat, exploration and production companies like ConocoPhillips typically see their stock prices weaken, since their profits depend heavily on higher crude prices.\n\nThe broader context is mixed for the sector: while competitors like BP and Saudi Aramco posted outsized profits this quarter from surging refining margins (the difference between crude prices and refined product prices), ConocoPhillips is primarily an upstream producer and doesn't benefit as directly from those refining tailwinds. The stock's sharp $4 drop from Thursday's high suggests investors were betting on continued geopolitical risk premiums in oil\u2014premiums that appear to be eroding as negotiation signals improve.",
+  "fetchedAt": "2026-11-03T20:01:55.727751+00:00",
+  "text": "ConocoPhillips fell 1.7% today as crude oil prices dropped for a second consecutive day on hopes for a diplomatic resolution to the Iran conflict, despite ongoing U.S. military strikes on Iranian targets. Oil-dependent stocks like this one move closely with crude prices, and the market is betting that de-escalation talks will ease supply concerns that have kept prices elevated.\n\nThe stock's decline also reflects broader political uncertainty ahead of the midterm elections. A Democratic sweep could tilt energy policy toward renewables and away from traditional oil and gas development, adding another headwind to investor sentiment on fossil fuel producers.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 31,
-    "inputTokens": 27110,
-    "outputTokens": 6573,
-    "estimatedCostUsd": 0.059975,
-    "lastCallHour": "2026-11-03T19"
+    "callsThisMonth": 32,
+    "inputTokens": 27938,
+    "outputTokens": 6705,
+    "estimatedCostUsd": 0.061463,
+    "lastCallHour": "2026-11-03T20"
   }
 }
