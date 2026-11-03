@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T14:02:01.786577+00:00",
-  "text": "Marathon Petroleum dropped 3.2% today, extending a two-week decline of 9%. The most concrete trigger appears to be U.S. crude oil falling below $95 per barrel on November 3rd\u2014the same day the company reported quarterly earnings\u2014after diplomatic signals suggested the Iran conflict may be resolved without further escalation. Lower oil prices directly squeeze refiner margins, since they buy crude and sell refined products like gasoline and diesel; when oil gets cheaper faster than end-product prices fall, profit shrinks. While refineries are running near full capacity (92.8%), that high utilization can't offset the headwind from collapsing crude costs.\n\nThe stock's broader weakness over two weeks also reflects investor caution ahead of Big Oil earnings season. A leadership change and company update announced on October 29th landed as analysts were already warning that guidance\u2014not just current earnings\u2014would drive sentiment, suggesting the market is worried less about today's results than tomorrow's outlook in an environment where oil prices are volatile and geopolitical risk is shifting.",
+  "fetchedAt": "2026-11-03T15:02:06.093713+00:00",
+  "text": "Marathon Petroleum fell 2.2% today after reporting quarterly earnings this morning, following a broader two-week slide of 11%. The decline fits a pattern seen across Big Oil refining stocks\u2014while crude prices remain elevated, investor caution around earnings guidance has tempered enthusiasm, and crude itself fell again today as diplomatic hopes for resolving the Iran conflict reduced concerns about supply disruption.\n\nRefineries are running at 92.8% capacity with substantial oil and fuel inventories on hand, which limits pricing power for refiners even though global crude sits at $123 per barrel. The company also announced leadership changes recently, adding another layer of uncertainty as investors wait to see how new management will navigate what could be a softer energy environment if geopolitical tensions ease further.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 26,
-    "inputTokens": 23260,
-    "outputTokens": 5475,
-    "estimatedCostUsd": 0.050635,
-    "lastCallHour": "2026-11-03T14"
+    "callsThisMonth": 27,
+    "inputTokens": 24099,
+    "outputTokens": 5639,
+    "estimatedCostUsd": 0.052294,
+    "lastCallHour": "2026-11-03T15"
   }
 }

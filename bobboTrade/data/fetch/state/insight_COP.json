@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-03T14:01:46.235818+00:00",
-  "text": "ConocoPhillips fell 4.7% today as U.S. crude oil prices collapsed below $95 per barrel \u2014 down sharply from $154 just a week ago. The immediate trigger was news that the U.S. and Iranian presidents signaled openness to diplomatic talks over the Iran war, which had been driving oil prices higher. Even though U.S. military strikes on Iran's Qeshm Island occurred the same day, the market focused on the diplomatic signal as a sign that geopolitical risk \u2014 and the oil price premium that comes with it \u2014 may be easing.\n\nThe timing is notable: while refining companies like Aramco and BP just posted bumper profits from surging refining margins during the conflict, those same high margins now face pressure if tensions cool and oil supplies become more stable. ConocoPhillips, as an integrated oil and gas producer, benefits from high crude prices more directly than pure refiners do, so a $50+ drop in the price per barrel in a week hits the core business hard.",
+  "fetchedAt": "2026-11-03T15:01:47.766779+00:00",
+  "text": "ConocoPhillips fell 1.6% today to $144.51, giving back gains from a sharp rally over the past week. The decline coincides with crude oil prices falling for a second consecutive day as markets price in hopes for a diplomatic resolution to the Iran conflict\u2014despite U.S. military strikes continuing on Monday. Oil refiners typically benefit from geopolitical tensions that push prices higher and widen profit margins; as that risk recedes, so does the tailwind for energy stocks. The company is also caught in broader midterm election uncertainty, which could shift energy policy and investor sentiment around the sector.\n\nThe pullback is notable because peers like BP and Saudi Aramco just posted blockbuster earnings fueled by surging refining margins during the conflict. ConocoPhillips' retreat suggests investors are rotating away from the geopolitical premium and pricing in a more stable energy environment\u2014even if crude still sits above $103 per barrel domestically and $123 globally.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 26,
-    "inputTokens": 22895,
-    "outputTokens": 5547,
-    "estimatedCostUsd": 0.05063,
-    "lastCallHour": "2026-11-03T14"
+    "callsThisMonth": 27,
+    "inputTokens": 23738,
+    "outputTokens": 5759,
+    "estimatedCostUsd": 0.052533,
+    "lastCallHour": "2026-11-03T15"
   }
 }
