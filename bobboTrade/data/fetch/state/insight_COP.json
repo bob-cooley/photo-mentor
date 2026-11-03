@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-03T20:01:55.727751+00:00",
-  "text": "ConocoPhillips fell 1.7% today as crude oil prices dropped for a second consecutive day on hopes for a diplomatic resolution to the Iran conflict, despite ongoing U.S. military strikes on Iranian targets. Oil-dependent stocks like this one move closely with crude prices, and the market is betting that de-escalation talks will ease supply concerns that have kept prices elevated.\n\nThe stock's decline also reflects broader political uncertainty ahead of the midterm elections. A Democratic sweep could tilt energy policy toward renewables and away from traditional oil and gas development, adding another headwind to investor sentiment on fossil fuel producers.",
+  "fetchedAt": "2026-11-03T21:01:51.917757+00:00",
+  "text": "ConocoPhillips fell 1.65% today to $144.41, dropping $2.43 from Friday's close. The decline came as crude oil prices fell for a second consecutive day on hopes for a diplomatic resolution to the Iran conflict, despite U.S. military strikes on Iran's Qeshm Island continuing. Lower oil prices directly pressure integrated oil producers like this one, whose earnings depend on the barrels they sell fetching higher prices.\n\nThe stock has lost ground over the past week despite trading as high as $154 just four days ago, suggesting the initial relief rally from geopolitical tensions has faded as markets price in the possibility of de-escalation. Political uncertainty around the midterm elections may also be weighing on energy stocks \u2014 a Democratic Congress is seen as potentially favoring renewable energy over traditional oil and gas investments.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 32,
-    "inputTokens": 27938,
-    "outputTokens": 6705,
-    "estimatedCostUsd": 0.061463,
-    "lastCallHour": "2026-11-03T20"
+    "callsThisMonth": 33,
+    "inputTokens": 28780,
+    "outputTokens": 6887,
+    "estimatedCostUsd": 0.063215,
+    "lastCallHour": "2026-11-03T21"
   }
 }

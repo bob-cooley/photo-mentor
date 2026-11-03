@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T20:02:13.185700+00:00",
-  "text": "Marathon Petroleum fell 0.6% today after releasing its quarterly earnings report and announcing a leadership change. The stock has been volatile over the past two weeks, swinging between gains and losses, and today's decline caps a 9.94% drop since late October. With oil prices holding steady around $103/barrel domestically and refineries running at 92.8% capacity, the move appears tied to market reaction to the company's financial results and forward guidance rather than a shift in refining fundamentals.\n\nThe broader context matters here: a CNBC report from earlier this week cautioned that Big Oil earnings guidance\u2014not just reported profits\u2014could disappoint investors, and market reaction to leadership changes can add uncertainty even when operational metrics remain solid. Refinery utilization remains healthy and inventory levels are stable, so today's decline likely reflects investor concerns about what the company sees ahead rather than current conditions.",
+  "fetchedAt": "2026-11-03T21:02:12.154814+00:00",
+  "text": "Marathon Petroleum fell 0.66% today to $427.55, continuing a sharper two-week decline of 10%. The stock moved lower on the day the company reported quarterly earnings and announced a leadership change, though the financial report itself isn't detailed in the available data. The broader energy sector has shown caution ahead of earnings season, with analysts warning that while Big Oil profits are expected to surge, guidance from refiners and producers may disappoint investors looking for confidence in future performance.\n\nRefining margins remain under pressure despite relatively tight market conditions: US crude is trading at $103/barrel while global crude sits higher at $123/barrel, and refineries are running at 92.8% capacity with modest inventory levels. This spread between domestic and global prices, combined with a shift in political winds\u2014Democratic control of Congress could favor renewable energy over fossil fuels\u2014may be weighing on investor sentiment for traditional refining plays.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 32,
-    "inputTokens": 28268,
-    "outputTokens": 6557,
-    "estimatedCostUsd": 0.061053,
-    "lastCallHour": "2026-11-03T20"
+    "callsThisMonth": 33,
+    "inputTokens": 29069,
+    "outputTokens": 6755,
+    "estimatedCostUsd": 0.062844,
+    "lastCallHour": "2026-11-03T21"
   }
 }
