@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T13:02:39.739062+00:00",
-  "text": "Marathon Petroleum fell 3.2% today, breaking a two-week downtrend that has wiped out 9% of the stock's value since late October. The immediate trigger appears to be uncertainty around the company's recent leadership change and corporate update announced on October 29th\u2014details that would directly affect investor confidence in refiner profitability and strategy\u2014combined with a broader market caution warned by analysts ahead of Big Oil earnings reports, where forward guidance could disappoint.\n\nThe stock's weakness also reflects mixed signals in refining economics: while crude oil prices have climbed today following U.S. military strikes on Iran, U.S. refineries are running at 92.8% capacity with elevated fuel inventories (209 million barrels of gasoline, 103 million of diesel). High capacity utilization and full storage tanks limit a refiner's ability to profit from rising oil prices, since they can't easily ramp up production or command premium pricing when the market is already saturated with fuel.",
+  "fetchedAt": "2026-11-03T14:02:01.786577+00:00",
+  "text": "Marathon Petroleum dropped 3.2% today, extending a two-week decline of 9%. The most concrete trigger appears to be U.S. crude oil falling below $95 per barrel on November 3rd\u2014the same day the company reported quarterly earnings\u2014after diplomatic signals suggested the Iran conflict may be resolved without further escalation. Lower oil prices directly squeeze refiner margins, since they buy crude and sell refined products like gasoline and diesel; when oil gets cheaper faster than end-product prices fall, profit shrinks. While refineries are running near full capacity (92.8%), that high utilization can't offset the headwind from collapsing crude costs.\n\nThe stock's broader weakness over two weeks also reflects investor caution ahead of Big Oil earnings season. A leadership change and company update announced on October 29th landed as analysts were already warning that guidance\u2014not just current earnings\u2014would drive sentiment, suggesting the market is worried less about today's results than tomorrow's outlook in an environment where oil prices are volatile and geopolitical risk is shifting.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 25,
-    "inputTokens": 22414,
-    "outputTokens": 5251,
-    "estimatedCostUsd": 0.048669,
-    "lastCallHour": "2026-11-03T13"
+    "callsThisMonth": 26,
+    "inputTokens": 23260,
+    "outputTokens": 5475,
+    "estimatedCostUsd": 0.050635,
+    "lastCallHour": "2026-11-03T14"
   }
 }

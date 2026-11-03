@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-03T13:02:19.939680+00:00",
-  "text": "ConocoPhillips dropped 4.7% today after climbing nearly $4 over the previous trading day. The sharp reversal came despite oil prices remaining elevated\u2014U.S. crude at $103/barrel and global crude at $123/barrel\u2014suggesting the stock may have gotten ahead of itself on Friday's geopolitical premium. The timing matters: news of U.S. strikes on Iran's Qeshm Island and signals of potential diplomacy pushed the stock up sharply, but the market appears to have pulled back as it digests whether elevated oil will actually persist or if a negotiated settlement could defuse tensions and ease prices.\n\nRival oil majors like BP and Saudi Aramco are posting outsized profits as refining margins widen\u2014the gap between crude costs and finished fuel prices\u2014which should theoretically support ConocoPhillips' earnings. The sell-off despite healthy refining conditions and geopolitical risk premiums in crude prices suggests investors may be rotating out of energy stocks ahead of the midterm elections, or pricing in skepticism that today's oil spike will hold if diplomatic talks gain real traction.",
+  "fetchedAt": "2026-11-03T14:01:46.235818+00:00",
+  "text": "ConocoPhillips fell 4.7% today as U.S. crude oil prices collapsed below $95 per barrel \u2014 down sharply from $154 just a week ago. The immediate trigger was news that the U.S. and Iranian presidents signaled openness to diplomatic talks over the Iran war, which had been driving oil prices higher. Even though U.S. military strikes on Iran's Qeshm Island occurred the same day, the market focused on the diplomatic signal as a sign that geopolitical risk \u2014 and the oil price premium that comes with it \u2014 may be easing.\n\nThe timing is notable: while refining companies like Aramco and BP just posted bumper profits from surging refining margins during the conflict, those same high margins now face pressure if tensions cool and oil supplies become more stable. ConocoPhillips, as an integrated oil and gas producer, benefits from high crude prices more directly than pure refiners do, so a $50+ drop in the price per barrel in a week hits the core business hard.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 25,
-    "inputTokens": 22047,
-    "outputTokens": 5321,
-    "estimatedCostUsd": 0.048652,
-    "lastCallHour": "2026-11-03T13"
+    "callsThisMonth": 26,
+    "inputTokens": 22895,
+    "outputTokens": 5547,
+    "estimatedCostUsd": 0.05063,
+    "lastCallHour": "2026-11-03T14"
   }
 }
