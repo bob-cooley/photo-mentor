@@ -147,6 +147,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-01T11:39:53.141747+00:00"
+    },
+    {
+      "date": "2026-11-03",
+      "facility": "Slavneft-YANOS oil refinery in Yaroslavl",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-03-slavneft-yanos-oil-refinery-in-yaroslavl-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/03/ukrainian-drone-strike-sparks-major-fire-at-one-of-russia-s-largest-oil-refineries"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-03T22:52:39.022422+00:00"
     }
   ],
   "processedUrls": {
@@ -212,17 +228,18 @@
     "https://www.pravda.com.ua/eng/news/2026/11/01/8060689/": "2026-11-01T11:39:53.141308+00:00",
     "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy": "2026-11-01T11:39:55.019226+00:00",
     "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil": "2026-11-01T17:47:25.616154+00:00",
-    "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts": "2026-11-02T01:14:02.295193+00:00"
+    "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts": "2026-11-02T01:14:02.295193+00:00",
+    "https://meduza.io/en/news/2026/11/03/ukrainian-drone-strike-sparks-major-fire-at-one-of-russia-s-largest-oil-refineries": "2026-11-03T22:52:39.022028+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 4,
-    "inputTokens": 5208,
-    "outputTokens": 645,
-    "estimatedCostUsd": 0.008433
+    "calls": 5,
+    "inputTokens": 6141,
+    "outputTokens": 777,
+    "estimatedCostUsd": 0.010026
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": true,
-  "lastRunAt": "2026-11-03T01:59:18.245269+00:00"
+  "lastRunAt": "2026-11-03T22:52:39.022453+00:00"
 }

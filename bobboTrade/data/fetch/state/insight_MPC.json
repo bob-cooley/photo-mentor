@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T21:02:12.154814+00:00",
-  "text": "Marathon Petroleum fell 0.66% today to $427.55, continuing a sharper two-week decline of 10%. The stock moved lower on the day the company reported quarterly earnings and announced a leadership change, though the financial report itself isn't detailed in the available data. The broader energy sector has shown caution ahead of earnings season, with analysts warning that while Big Oil profits are expected to surge, guidance from refiners and producers may disappoint investors looking for confidence in future performance.\n\nRefining margins remain under pressure despite relatively tight market conditions: US crude is trading at $103/barrel while global crude sits higher at $123/barrel, and refineries are running at 92.8% capacity with modest inventory levels. This spread between domestic and global prices, combined with a shift in political winds\u2014Democratic control of Congress could favor renewable energy over fossil fuels\u2014may be weighing on investor sentiment for traditional refining plays.",
+  "fetchedAt": "2026-11-03T22:52:17.610279+00:00",
+  "text": "Marathon Petroleum fell 0.64% today, closing a two-week slide of nearly 10%. The stock dropped on the day the company announced quarterly earnings and a leadership change, after already sliding through late October\u2014a period when broader oil refiner concerns about guidance and forward outlook (not just past earnings) have weighed on the sector. Refinery utilization remains solid at 92.8%, but US crude oil prices are down from earlier in the month, which can compress profit margins for refiners who convert cheap raw crude into fuels.\n\nThe two-week decline fits a pattern: investors have grown cautious about Big Oil earnings season, specifically questioning what company guidance will reveal about future profitability rather than treating strong recent results as a reliable sign. A Democratic Congress (suggested as possible after the 2026 midterms) could also shift long-term energy policy toward renewables, adding uncertainty for traditional refining businesses that investors are already reassessing.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 33,
-    "inputTokens": 29069,
-    "outputTokens": 6755,
-    "estimatedCostUsd": 0.062844,
-    "lastCallHour": "2026-11-03T21"
+    "callsThisMonth": 34,
+    "inputTokens": 29870,
+    "outputTokens": 6959,
+    "estimatedCostUsd": 0.064665,
+    "lastCallHour": "2026-11-03T22"
   }
 }
