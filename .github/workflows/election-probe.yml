@@ -12,18 +12,4 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: python3 election/fetch.py | grep -E "tally|civic|control|wrote" || true
-      - name: Summary
-        run: |
-          python3 - <<'PY'
-          import json, collections
-          d = json.load(open("election/data.json"))
-          h = next(s for s in d["sections"] if s["id"] == "house-races")["races"]
-          by = collections.Counter((r.get("called_by") or "").split(":")[0] for r in h if r["called"])
-          print("house called on cards:", sum(1 for r in h if r["called"]), dict(by))
-          print("house with votes:", sum(1 for r in h if r["total_votes"]))
-          for r in h:
-              if r["id"] in ("co-04", "tx-15", "pa-08", "ny-17", "mi-07"):
-                  print(r["id"], r["called"], r.get("called_by"), r["total_votes"], [(c["name"], c["pct"]) for c in r["candidates"]])
-          print({c["id"]: c["seats"] for c in d["chambers"]})
-          PY
+      - run: python3 election/probe_civic.py

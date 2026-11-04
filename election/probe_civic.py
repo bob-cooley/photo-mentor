@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Diagnostic: civicAPI Senate summary region_results, to separate holdovers from called races."""
+"""Diagnostic: civicAPI House summary region_results layout."""
 import json, time, urllib.request
 UA = "bobcooleyphoto-election-board/1.0 (https://bobcooleyphoto.com/election/)"
 def get(u, timeout=60, tries=4):
@@ -10,9 +10,10 @@ def get(u, timeout=60, tries=4):
                 return json.loads(r.read())
         except Exception as e:
             print(f"  try {i+1}: {e}"); time.sleep(5)
-d = get("https://civicapi.org/api/v2/race/87528")
-print({c["party"]: c.get("seats") for c in d["candidates"] if c.get("seats")})
-rr = d.get("region_results")
-print("region_results type:", type(rr).__name__, "len", len(rr) if hasattr(rr, "__len__") else "")
-items = list(rr.items())[:3] if isinstance(rr, dict) else rr[:3]
-print(json.dumps(items, indent=1)[:3500])
+d = get("https://civicapi.org/api/v2/race/87524")
+rr = d.get("region_results") or {}
+keys = list(rr.keys())
+print("regions:", len(keys), keys[:40])
+for k in [x for x in keys if x.lower().startswith("co")][:8] + keys[:2]:
+    v = rr[k]
+    print(k, json.dumps({kk: vv for kk, vv in v.items() if kk != "candidates"}), [(c.get("name"), c.get("party"), c.get("votes"), c.get("percent"), c.get("winner")) for c in v.get("candidates", [])][:4])
