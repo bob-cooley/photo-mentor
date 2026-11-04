@@ -1,19 +1,34 @@
 #!/usr/bin/env python3
-"""Diagnostic: how many House districts per state page, and how many marked won."""
+"""Diagnostic: page layout for California, at-large states, and box titles."""
 import re, sys
 sys.path.insert(0, "election")
 import fetch
-STATES = ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"]
-tot = won = 0
-for st in STATES:
-    title = f"2026 United States House of Representatives election in {st}" if st in ("Alaska","Delaware","North Dakota","South Dakota","Vermont","Wyoming") else f"2026 United States House of Representatives elections in {st}"
+
+def show(title, n=40):
     text, _ = fetch.get_wikitext(title)
+    print(f"##### {title}: {'MISSING' if not text else len(text)}")
     if not text:
-        print(f"{st}: NO PAGE ({title})"); continue
-    heads = [fetch.clean(h) for h in re.findall(r"^={2,4}\s*(.*?)\s*={2,4}\s*$", text, re.M)]
-    dists = [h for h in heads if re.fullmatch(r"(?:district\s+\d+|\d+(?:st|nd|rd|th) district|at-large(?: district)?)", h, re.I)]
-    w = len(re.findall(r"\{\{\s*Election box winning candidate", text, re.I))
-    ib = fetch.from_infobox(text)
-    tot += len(dists); won += w
-    print(f"{st}: districts={len(dists)} winning_boxes={w} infobox={'yes' if ib else 'no'} {('called='+str(ib['called'])) if ib else ''}")
-print("TOTAL districts", tot, "winning boxes", won)
+        return
+    heads = re.findall(r"^(={2,5})\s*(.*?)\s*\1\s*$", text, re.M)
+    print("headings:", [f"{len(l)}:{fetch.clean(h)}" for l, h in heads][:n])
+    for m in list(re.finditer(r"\{\{\s*Election box begin[^\n]*", text, re.I))[:12]:
+        print("  box:", m.group(0)[:150])
+    print("  infobox:", bool(fetch.find_template(text, r"Infobox[ _]election")))
+    tbl = re.findall(r"^\{\|.*$", text, re.M)
+    print("  tables:", len(tbl))
+
+show("2026 United States House of Representatives elections in California", 70)
+show("2026 United States House of Representatives election in Alaska")
+show("2026 United States House of Representatives election in Wyoming")
+t, _ = fetch.get_wikitext("2026 United States House of Representatives elections in New York")
+sec = fetch.district_section(t, 10)
+print("##### NY-10 boxes:")
+for m in re.finditer(r"\{\{\s*Election box begin[^\n]*", sec, re.I):
+    print("  box:", m.group(0)[:150])
+t, _ = fetch.get_wikitext("2026 United States House of Representatives elections in Texas")
+for d in (1, 15, 28):
+    sec = fetch.district_section(t, d) or ""
+    print(f"##### TX-{d} boxes:")
+    for m in re.finditer(r"\{\{\s*Election box begin[^\n]*", sec, re.I):
+        print("  box:", m.group(0)[:150])
+    print("  winning:", len(re.findall(r"Election box winning", sec)))

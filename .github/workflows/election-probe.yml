@@ -1,7 +1,7 @@
 name: Election probe
 
-# One-shot diagnostic: checks what the live site serves for the election page
-# assets (content and cache headers). No upload.
+# One-shot diagnostic run of whichever election probe script is wired below.
+# No upload.
 
 on:
   workflow_dispatch:
@@ -13,14 +13,4 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - name: Live asset check
-        run: |
-          for f in index.html fx.js; do
-            echo "== $f"
-            curl -sS -D - -o "/tmp/$f" "https://bobcooleyphoto.com/election/$f?probe=$RANDOM" | grep -iE "^(HTTP|cache-control|expires|last-modified|etag|age|x-cache|x-litespeed|server|cf-cache)" || true
-            echo "-- matches repo copy: $(cmp -s "/tmp/$f" "election/$f" && echo yes || echo NO)"
-          done
-          echo "== fx.js without query string"
-          curl -sS -D - -o /tmp/fx2.js "https://bobcooleyphoto.com/election/fx.js" | grep -iE "^(HTTP|cache-control|age|x-cache|x-litespeed|cf-cache)" || true
-          echo "-- matches repo copy: $(cmp -s /tmp/fx2.js election/fx.js && echo yes || echo NO)"
-          grep -c "fx-white\|palette" /tmp/fx2.js || true
+      - run: python3 election/probe_house.py
