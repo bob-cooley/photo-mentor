@@ -70,8 +70,9 @@
     padding: 32px 16px 64px;
   }
   main { max-width: 980px; margin: 0 auto; }
-  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
+  header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
   h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; }
+  .sub { font-size: 14px; font-weight: 700; color: var(--muted); margin-top: 4px; }
   .stamp { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
   .stamp.stale { color: var(--rep); }
   h2 {
@@ -134,7 +135,10 @@
 <body>
 <main>
   <header>
-    <h1>election night 2026</h1>
+    <div>
+      <h1>election night 2026</h1>
+      <p class="sub">I’m no Steve Kornacki, but I make neat apps…</p>
+    </div>
     <div class="live">
       <div class="stamp" id="stamp">loading</div>
       <button class="btn" id="refresh" type="button">refresh</button>
