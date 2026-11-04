@@ -1,6 +1,6 @@
 name: Election probe
 
-# One-shot diagnostic: full fetch, print chamber control. No upload.
+# One-shot diagnostic: full fetch, then House call coverage and CO-4. No upload.
 
 on:
   workflow_dispatch:
@@ -13,4 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 election/fetch.py | grep -E "tally|civic|control|wrote" || true
-      - run: python3 -c "import json;d=json.load(open('election/data.json'));[print(r['id'],r['called'],r.get('called_by'),r['reporting'],[(c['name'],c['pct']) for c in r['candidates']]) for s in d['sections'] for r in s['races'] if r['id'] in ('ny-gov','mi-gov','mi-sen','tx-gov','tx-sen')]"
+      - name: Summary
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          d = json.load(open("election/data.json"))
+          h = next(s for s in d["sections"] if s["id"] == "house-races")["races"]
+          by = collections.Counter((r.get("called_by") or "").split(":")[0] for r in h if r["called"])
+          print("house called on cards:", sum(1 for r in h if r["called"]), dict(by))
+          print("house with votes:", sum(1 for r in h if r["total_votes"]))
+          for r in h:
+              if r["id"] in ("co-04", "tx-15", "pa-08", "ny-17", "mi-07"):
+                  print(r["id"], r["called"], r.get("called_by"), r["total_votes"], [(c["name"], c["pct"]) for c in r["candidates"]])
+          print({c["id"]: c["seats"] for c in d["chambers"]})
+          PY
