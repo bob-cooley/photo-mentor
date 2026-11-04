@@ -1,6 +1,6 @@
 name: Election probe
 
-# One-shot diagnostic run of an election probe script. No upload.
+# One-shot diagnostic: full fetch, then a summary of what parsed. No upload.
 
 on:
   workflow_dispatch:
@@ -12,4 +12,24 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: python3 election/probe_house.py
+      - run: python3 election/fetch.py | grep -E "tally|control|wrote|news call" || true
+      - name: Summary
+        run: |
+          python3 - <<'PY'
+          import json, collections
+          d = json.load(open("election/data.json"))
+          for s in d["sections"]:
+              rs = s["races"]
+              ok = sum(r["ok"] for r in rs)
+              called = collections.Counter(r["called"] for r in rs if r["called"])
+              byst = collections.Counter(r["label"].rsplit(" ", 1)[0] for r in rs if not r["ok"])
+              print(f"{s['id']}: {len(rs)} races, {ok} with candidates, called {dict(called)}")
+              if s["id"] == "house-races":
+                  print("  no data by state:", dict(byst))
+                  rep = sum(1 for r in rs if r["reporting"] is not None)
+                  print("  with reporting %:", rep)
+                  for r in rs:
+                      if r["called"]:
+                          print("  called", r["id"], r["called"], r.get("called_by"), [c["name"] for c in r["candidates"]])
+          print({c["id"]: c["seats"] for c in d["chambers"]}, d["control"])
+          PY

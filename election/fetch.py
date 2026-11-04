@@ -254,7 +254,19 @@ def from_electionbox(text, district, state):
         rf"{re.escape(which)}\s+congressional district election", re.I)
     m = title.search(text)
     if not m:
-        return None
+        # Some states give each district its own {{Infobox election}} with
+        # election_name "2026 Tennessee's 1st congressional district election".
+        name = re.compile(
+            rf"election_name\s*=\s*2026\s+{re.escape(state)}(?:'s|’s|'|’)\s+{re.escape(which)}\s+"
+            rf"congressional district election", re.I)
+        pos = 0
+        while True:
+            span = find_template(text, r"Infobox[ _]election", pos)
+            if not span:
+                return None
+            if name.search(text[span[0]:span[1]]):
+                return from_infobox(text[span[0]:span[1]])
+            pos = span[1]
     sec = text[m.start():]
     endm = re.search(r"\{\{\s*Election box end", sec, re.I)
     if endm:
