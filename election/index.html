@@ -172,13 +172,18 @@
   .chamber .names { font-size: 15px; font-weight: 600; }
   .basis { font-size: 12px; color: var(--muted); margin-top: 6px; }
   .card[data-id="co-04"] { touch-action: manipulation; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
-  .card.cry { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; }
-  .card.cry svg { width: 150px; height: 158px; }
-  .card.cry .cf { opacity: 0; animation: cry-frames 0.75s steps(1, end) infinite; }
-  .card.cry .f2 { animation-delay: -0.5s; }
-  .card.cry .f3 { animation-delay: -0.25s; }
+  .card[data-id="co-04"] { position: relative; }
+  /* overlaps the card under Boebert's name and spills past its border */
+  .cry-art {
+    position: absolute; right: -16px; top: 44px; width: 156px; height: 164px;
+    z-index: 5; pointer-events: none;
+    filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.3));
+  }
+  .cry-art svg { width: 100%; height: 100%; overflow: visible; }
+  .cry-art .cf { opacity: 0; animation: cry-frames 0.75s steps(1, end) infinite; }
+  .cry-art .f2 { animation-delay: -0.5s; }
+  .cry-art .f3 { animation-delay: -0.25s; }
   @keyframes cry-frames { 0% { opacity: 1; } 33.333% { opacity: 0; } 100% { opacity: 0; } }
-  .cry-cap { font-size: 12px; color: var(--muted); margin-top: 4px; }
   .note { color: var(--muted); font-size: 12px; margin-top: 40px; line-height: 1.6; }
   .more {
     display: block; width: 100%; margin-top: 12px; padding: 10px 12px;
@@ -298,7 +303,7 @@
     var b = r.candidates.filter(function (c) { return /boebert/i.test(c.name || ""); })[0];
     return !!b && b.party !== r.called;
   }
-  function cryCard() {
+  function cryArt() {
     var face =
       '<path d="M52 70 Q50 30 100 26 Q150 30 148 70 L156 150 Q140 128 138 104 L62 104 Q60 128 44 150 Z" fill="#5a3a22"/>' +
       '<ellipse cx="100" cy="88" rx="40" ry="46" fill="#f2c9a5" stroke="#1b1b1b" stroke-width="2.5"/>' +
@@ -321,9 +326,8 @@
       '<path d="M82 114 Q90 106 100 114 Q110 106 118 114" fill="none" stroke="#7a1f1f" stroke-width="4" stroke-linecap="round"/>' +
       tear(68, 124, 1.3) + tear(132, 124, 1.3) + tear(62, 150, 1) + tear(138, 150, 1) +
       '<ellipse cx="100" cy="196" rx="70" ry="8" fill="#5fa8f0" opacity=".55"/></g>';
-    return '<div class="card cry" aria-label="cartoon of Lauren Boebert crying">' +
-      '<svg viewBox="0 0 200 210" role="img">' + f1 + f2 + f3 + '</svg>' +
-      '<div class="cry-cap">boebert, processing.</div></div>';
+    return '<div class="cry-art" role="img" aria-label="cartoon of Lauren Boebert crying">' +
+      '<svg viewBox="0 0 200 210">' + f1 + f2 + f3 + '</svg></div>';
   }
 
   function repLine(r) {
@@ -398,7 +402,10 @@
         : "";
       var title = open ? s.label.replace(/^key /, "all ") : s.label;
       return '<section id="sec-' + esc(s.id) + '"><h2>' + esc(title) + '</h2><div class="grid">' +
-        shown.map(function (r) { return raceCard(r) + (boebertLost(r) ? cryCard() : ""); }).join("") +
+        shown.map(function (r) {
+          var html = raceCard(r);
+          return boebertLost(r) ? html.replace(/<\/div>$/, cryArt() + "</div>") : html;
+        }).join("") +
         '</div>' + btn + '</section>';
     }).join("");
     // flash any race whose numbers or call changed since the last poll
