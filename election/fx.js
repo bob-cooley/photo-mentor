@@ -178,11 +178,22 @@
   // ---------- meh ----------
   function meh(done) {
     var el = overlay("fx-meh");
-    el.innerHTML = '<span>meh.</span>';
+    el.innerHTML = '<span><i>m</i><i>e</i><i>h</i><i>.</i></span>';
+    var letters = el.querySelectorAll("i");
+    var colors = ["fx-red", "fx-white", "fx-blue", "fx-red"];
+    var timers = [];
+    // letters peel off left to right: each turns red, white or blue,
+    // then fades. 1.8s on screen, last letter gone by ~3.0s.
+    Array.prototype.forEach.call(letters, function (l, i) {
+      var t = 1800 + i * 280;
+      timers.push(setTimeout(function () { l.classList.add(colors[i]); }, t));
+      timers.push(setTimeout(function () { l.classList.add("gone"); }, t + 180));
+    });
     var finished = false;
     function end() {
       if (finished) return;
       finished = true;
+      timers.forEach(clearTimeout);
       fadeOut(el, 500, done);
     }
     el.addEventListener("fx-dismiss", end);
