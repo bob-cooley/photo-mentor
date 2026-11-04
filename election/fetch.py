@@ -294,6 +294,43 @@ def tidy(cands):
     return top, other_pct, total
 
 
+OFFICE_BY_SECTION = {"senate-races": "senate", "house-races": "house", "governors": "governor"}
+
+
+def apply_news_calls(cfg, ov, out):
+    """Fill uncalled races from news RSS headlines (see rss.py)."""
+    try:
+        import rss
+    except Exception as e:
+        log(f"  ! rss module: {e}")
+        return
+    todo, by_id = [], {}
+    for sec in out["sections"]:
+        office = OFFICE_BY_SECTION.get(sec["id"], "senate")
+        for r in sec["races"]:
+            by_id[r["id"]] = r
+            if r["called"]:
+                r.setdefault("called_by", "manual" if "called" in ov.get("races", {}).get(r["id"], {}) else "wikipedia")
+            state = re.sub(r"\s*\(.*\)|\s+\d+$", "", r["label"]).strip().lower()
+            todo.append((r["id"], state, office, r["candidates"]))
+    try:
+        found = rss.calls(todo, log)
+    except Exception as e:
+        log(f"  ! rss failed: {e}")
+        return
+    for rid, (party, outlets, headline) in found.items():
+        r = by_id[rid]
+        if "called" in ov.get("races", {}).get(rid, {}):
+            continue
+        if r["called"] and r["called"] != party:
+            log(f"  ! {rid}: wikipedia says {r['called']}, news says {party}; keeping wikipedia")
+            continue
+        if not r["called"]:
+            r["called"] = party
+            r["called_by"] = "news: " + ", ".join(outlets)
+            log(f"  news call {rid} -> {party} ({', '.join(outlets)}): {headline}")
+
+
 def main():
     cfg = json.loads((HERE / "races.json").read_text())
     ov = json.loads((HERE / "overrides.json").read_text())
@@ -340,6 +377,8 @@ def main():
                 log(f"  ! no candidates parsed for {r['id']}")
             races.append(entry)
         out["sections"].append({"id": sec["id"], "label": sec["label"], "races": races})
+
+    apply_news_calls(cfg, ov, out)
 
     ok = sum(r["ok"] for s in out["sections"] for r in s["races"])
     n = sum(len(s["races"]) for s in out["sections"])

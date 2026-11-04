@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Election Night 2026</title>
+<script>
+  // apply a saved theme before first paint so the page never flashes
+  try { var t = localStorage.getItem("election-theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
 <style>
   :root {
     --bg: #f6f5f2;
@@ -17,8 +21,9 @@
     --win: #1e8a3c;
     --empty: #d9d7d2;
   }
+  /* dark: follows the system unless the toggle has picked a side */
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
       --bg: #111214;
       --card: #1b1c1f;
       --ink: #ececec;
@@ -29,7 +34,21 @@
       --oth: #8a80a3;
       --win: #3fbf62;
       --empty: #34353a;
+      color-scheme: dark;
     }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111214;
+    --card: #1b1c1f;
+    --ink: #ececec;
+    --muted: #9a9a9a;
+    --line: #2c2d31;
+    --dem: #3b7be0;
+    --rep: #e0473f;
+    --oth: #8a80a3;
+    --win: #3fbf62;
+    --empty: #34353a;
+    color-scheme: dark;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
@@ -87,6 +106,13 @@
     border: 1px solid var(--line); border-radius: 4px; padding: 3px 9px; cursor: pointer;
   }
   .btn:hover { border-color: var(--muted); }
+  .theme {
+    width: 22px; height: 22px; border-radius: 50%; cursor: pointer; padding: 0; flex: none;
+    background: linear-gradient(90deg, #000 50%, #fff 50%);
+    border: 1px solid var(--muted);
+  }
+  .theme:hover { border-color: var(--ink); }
+  .theme:focus-visible, .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
   .card { transition: box-shadow 0.4s ease; }
   .card.changed { box-shadow: 0 0 0 2px var(--ink); }
 </style>
@@ -98,6 +124,7 @@
     <div class="live">
       <div class="stamp" id="stamp">loading</div>
       <button class="btn" id="refresh" type="button">refresh</button>
+      <button class="theme" id="theme" type="button" aria-label="switch light or dark mode" title="light / dark"></button>
     </div>
   </header>
   <section>
@@ -107,7 +134,8 @@
   <div id="sections"></div>
   <p class="note">
     vote counts come from the public Wikipedia race pages, checked every two minutes; they are only as current as the last edit there.
-    a race shows as called once the page names a winner, or once it has been set by hand. unofficial until certified.
+    a race shows as called once its Wikipedia page names a winner, once two or more news outlets (nbc, fox, abc, cbs, npr, nyt, pbs, the hill, politico)
+    report the same winner in their headlines, or once it has been set by hand. hover a call to see where it came from. unofficial until certified.
   </p>
 </main>
 <script>
@@ -184,7 +212,7 @@
     var winL = called && called === L.party;
     var winR = called && Rt && called === Rt.party && !winL;
     var status = called
-      ? '<span class="status called">called: ' + esc(lastName(winL ? L.name : winR ? Rt.name : "")).toLowerCase() + '</span>'
+      ? '<span class="status called" title="' + esc(r.called_by || "") + '">called: ' + esc(lastName(winL ? L.name : winR ? Rt.name : "")).toLowerCase() + '</span>'
       : '<span class="status">' + (counting ? "no votes reported" : "counting") + '</span>';
     return '<div class="card" data-id="' + esc(r.id) + '">' +
       '<div class="head"><span class="label">' + esc(r.label) + '</span>' + status + '</div>' +
@@ -249,6 +277,14 @@
   load();
   setInterval(function () { if (Date.now() >= nextAt) load(); tick(); }, 1000);
   document.getElementById("refresh").addEventListener("click", load);
+  document.getElementById("theme").addEventListener("click", function () {
+    var root = document.documentElement;
+    var cur = root.getAttribute("data-theme") ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    var next = cur === "dark" ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("election-theme", next); } catch (e) {}
+  });
   // background tabs get their timers throttled; catch up on return
   document.addEventListener("visibilitychange", function () {
     if (!document.hidden) load();
