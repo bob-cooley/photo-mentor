@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T04:03:11.891991+00:00",
-  "text": "Marathon Petroleum fell 0.71% today to $427.34, following the company's release of its third-quarter earnings report and a leadership change announcement. The stock has been volatile over the past two weeks, swinging between $427 and $444, suggesting investors are still digesting the quarterly results and management transition. Oil prices remain elevated\u2014US crude at $103 per barrel and global crude at $123\u2014which typically supports refiner profits, yet the stock hasn't held its recent highs, indicating the market may have concerns about the company's forward outlook or the leadership shift.\n\nThe broader context matters here: refineries are running at 92.8% capacity and oil inventories are moderate, conditions that should support margins for processors like Marathon. However, a cautionary tone has been circulating among energy analysts about Big Oil earnings guidance, and political shifts toward renewable energy could weigh on longer-term investor sentiment for traditional refiners. The leadership change adds uncertainty on top of earnings, which may explain why the stock has retreated rather than advancing despite solid underlying commodity conditions.",
+  "fetchedAt": "2026-11-04T05:00:34.802311+00:00",
+  "text": "Marathon Petroleum fell 0.71% today to close at $427.34, continuing a sharp two-week decline of 10%. The stock was weighed down by today's announcement of quarterly earnings and a leadership change, landing as the broader refining sector faces mixed signals: US crude is trading at $103/barrel while global crude sits at $123/barrel, refineries are running at a healthy 92.8% capacity, but gasoline and diesel stockpiles remain relatively elevated. The earnings announcement coincided with analyst caution about Big Oil guidance \u2014 the actual forward outlook matters more than just reported profits in this cycle.\n\nThe two-week selloff also reflects uncertainty about the midterm election outcome and what a Democratic Congress could mean for energy policy, particularly the potential shift toward renewable energy investments that could reduce long-term demand for refined petroleum products.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 37,
-    "inputTokens": 32273,
-    "outputTokens": 7570,
-    "estimatedCostUsd": 0.070123,
-    "lastCallHour": "2026-11-04T04"
+    "callsThisMonth": 38,
+    "inputTokens": 33074,
+    "outputTokens": 7751,
+    "estimatedCostUsd": 0.071829,
+    "lastCallHour": "2026-11-04T05"
   }
 }

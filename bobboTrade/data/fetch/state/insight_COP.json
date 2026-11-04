@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-04T04:02:52.572196+00:00",
-  "text": "ConocoPhillips dropped 1.66% today, falling to $144.40 after hitting a high of $154.03 just four trading days earlier. The sharp reversal comes as crude oil prices fell for a second consecutive day\u2014down from the geopolitical spike earlier in the week\u2014as markets increasingly bet on a diplomatic resolution to the Iran conflict rather than sustained military escalation. With U.S. oil at $103.37 per barrel and world oil at $123.10, the pullback in energy prices directly pressures a major oil producer's near-term earnings outlook.\n\nThe timing also matters: the stock's peak on October 30th coincided with heightened Iran war tensions that drove oil higher, but signals from both the U.S. and Iranian administrations about openness to negotiation have since dampened that premium. Additionally, the looming Democratic sweep in the 2026 midterms is adding longer-term uncertainty for fossil fuel investors, who worry about potential policy shifts favoring renewables over traditional energy production.",
+  "fetchedAt": "2026-11-04T05:00:22.048411+00:00",
+  "text": "ConocoPhillips fell 1.7% today, dropping $9.64 from Friday's close. The main driver was a sharp decline in crude oil prices\u2014down for a second straight day as markets bet on a diplomatic resolution to the Iran conflict rather than further escalation. Oil prices matter directly to an integrated oil company's profits: lower crude means lower revenue from production, even if refining margins might improve slightly from cheaper input costs.\n\nThe stock has been volatile this past week, surging $7 on Friday (when geopolitical tensions seemed to be rising) before giving back most of those gains today. A Democratic sweep in the midterms, now looking likely, could also weigh on energy stocks longer-term\u2014Democratic-controlled Congress typically favors renewable energy investment and stricter fossil fuel policies\u2014though today's move appears driven mainly by the immediate shift in oil market sentiment away from supply disruption fears.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 37,
-    "inputTokens": 32158,
-    "outputTokens": 7636,
-    "estimatedCostUsd": 0.070338,
-    "lastCallHour": "2026-11-04T04"
+    "callsThisMonth": 38,
+    "inputTokens": 33006,
+    "outputTokens": 7832,
+    "estimatedCostUsd": 0.072166,
+    "lastCallHour": "2026-11-04T05"
   }
 }
