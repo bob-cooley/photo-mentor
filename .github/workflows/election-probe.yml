@@ -15,6 +15,6 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: python3 election/probe_discover.py
+      - run: python3 election/probe_house.py
       - run: python3 election/fetch.py
       - run: python3 -c "import json;d=json.load(open('election/data.json'));[print(r['id'],r['called'],r.get('called_by'),r['reporting']) for s in d['sections'] for r in s['races']]"
