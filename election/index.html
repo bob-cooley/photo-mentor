@@ -225,7 +225,9 @@
   function pct(n) { return n == null ? "" : Number(n).toFixed(1) + "%"; }
   function lastName(n) { var p = String(n).split(" "); return p[p.length - 1]; }
 
+  var PARTY_NAME = { D: "democrats", R: "republicans" };
   function chamberCard(ch) {
+    var ctl = (lastData && lastData.control && lastData.control[ch.id]) || null;
     var s = ch.seats || {};
     var D = s.D, R = s.R, O = s.O || 0;
     var have = D != null && R != null;
@@ -238,16 +240,22 @@
         '<div class="seg R" style="width:' + (R / t * 100) + '%"></div>'
       : '<div class="seg E"></div>';
     var undecided = have ? t - D - R - O : null;
-    return '<div class="card chamber">' +
+    var won = ctl && (ctl.party === "D" || ctl.party === "R") ? " won-" + ctl.party : "";
+    var status = ctl && PARTY_NAME[ctl.party]
+      ? '<span class="status called" title="' + esc(ctl.by || "") + '">projected: ' + PARTY_NAME[ctl.party] + '</span>'
+      : '<span class="status">' + (ch.majority ? ch.majority + ' for a majority' : ch.total + ' races') + '</span>';
+    var source = ctl ? (/^news: /.test(ctl.by || "") ? "control called by " + ctl.by.replace(/^news: /, "")
+      : ctl.by === "seat count" ? "control settled by the seat count" : "control set by hand") : "";
+    return '<div class="card chamber' + won + '">' +
       '<div class="head"><span class="label">' + esc(ch.label) + '</span>' +
-      '<span class="status">' + (ch.majority ? ch.majority + ' for a majority' : ch.total + ' races') + '</span></div>' +
+      status + '</div>' +
       '<div class="names"><span style="color:var(--dem)">democrats</span><span class="r" style="color:var(--rep)">republicans</span></div>' +
       '<div class="bar big">' + bar + (ch.majority ? '<div class="tick" style="left:calc(' + tickLeft + '% - 1px)"></div>' : '') + '</div>' +
       '<div class="nums">' +
         '<span class="D">' + (have ? D : "-") + (O ? ' <span class="mid">+ ' + O + ' ind</span>' : "") + '</span>' +
-        '<span class="mid">' + (have ? (undecided > 0 ? undecided + (ch.majority ? " undecided" : " still counting") : "all decided") : (ch.id === "house" ? "no free live source for house totals" : "seat totals pending")) + '</span>' +
+        '<span class="mid">' + (have ? (undecided > 0 ? undecided + (ch.id === "house" ? " not called here yet" : ch.majority ? " undecided" : " still counting") : "all decided") : (ch.id === "house" ? "no free live source for house totals" : "seat totals pending")) + '</span>' +
         '<span class="R">' + (have ? R : "-") + '</span>' +
-      '</div>' + (ch.basis ? '<div class="basis">' + esc(ch.basis) + '</div>' : "") + '</div>';
+      '</div>' + (ch.basis || source ? '<div class="basis">' + esc([source, ch.basis].filter(Boolean).join(" · ")) + '</div>' : "") + '</div>';
   }
 
   function repLine(r) {
