@@ -47,6 +47,7 @@ def get_wikitext(title):
                 log(f"  ! {title}: {body['error'].get('info')}")
                 break
             text = body["parse"]["wikitext"]
+            text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
             revid = body["parse"].get("revid")
             break
         except Exception as e:  # network hiccup: retry
@@ -131,6 +132,10 @@ def clean(v):
     return re.sub(r"\s+", " ", v).strip()
 
 
+def person(v):
+    return re.sub(r"\s*\([^)]*\)\s*$", "", clean(v)).strip()
+
+
 def num(v):
     v = clean(v)
     m = re.search(r"\d[\d,]*(?:\.\d+)?", v)
@@ -167,7 +172,7 @@ def from_infobox(text):
             log(f"    {k} = {clean(p[k])[:80]}")
     cands = []
     for n in range(1, 7):
-        name = clean(p.get(f"candidate{n}") or p.get(f"nominee{n}"))
+        name = person(p.get(f"candidate{n}") or p.get(f"nominee{n}"))
         if not name:
             continue
         cands.append({
@@ -226,7 +231,7 @@ def from_electionbox(text, district):
         tpl = sec[span[0]:span[1]]
         pos = span[1]
         p = template_params(tpl)
-        name = clean(p.get("candidate"))
+        name = person(p.get("candidate"))
         if not name:
             continue
         c = {"name": name, "party": party_code(p.get("party", "")),
@@ -242,8 +247,34 @@ def from_electionbox(text, district):
 
 # ---------- assemble ----------
 
+def merge(cands):
+    """Fold fusion-ballot lines (same person, several parties) into one."""
+    out = {}
+    for c in cands:
+        k = c["name"].lower()
+        if k not in out:
+            out[k] = dict(c)
+            continue
+        m = out[k]
+        if m["party"] == "O" and c["party"] != "O":
+            m["party"] = c["party"]
+        if c["votes"] is not None:
+            m["votes"] = (m["votes"] or 0) + c["votes"]
+        if c["pct"] is not None:
+            m["pct"] = (m["pct"] or 0) + c["pct"]
+    return list(out.values())
+
+
 def tidy(cands):
     """Keep the top two by votes (or listed order), D side first."""
+    cands = merge(cands)
+    # When every candidate has a raw vote count, trust it over the
+    # hand-typed percentage fields (they drift out of sync mid-count).
+    if cands and all(c["votes"] is not None for c in cands):
+        t = sum(c["votes"] for c in cands)
+        if t:
+            for c in cands:
+                c["pct"] = round(100 * c["votes"] / t, 1)
     ranked = sorted(cands, key=lambda c: -(c["votes"] or c["pct"] or 0)) if any(
         c["votes"] or c["pct"] for c in cands) else cands
     top = ranked[:2]
