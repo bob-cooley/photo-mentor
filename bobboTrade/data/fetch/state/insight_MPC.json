@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T03:05:37.328829+00:00",
-  "text": "Marathon Petroleum fell 0.7% today to $427.34, extending a 10% decline over two weeks despite strong refining conditions. The stock got hit on the heels of the company's quarterly earnings report and a leadership change announced today; broader sector caution also weighed on it, as analysts flagged that Big Oil earnings guidance\u2014what companies say they'll earn going forward\u2014matters more than the headline numbers themselves, and price charts suggested a pullback was coming.\n\nThe refining backdrop remains solid: U.S. crude is holding near $103 per barrel, refineries are running at 92.8% capacity (well above typical levels), and storage levels for gasoline and diesel are moderate. But the market appears focused on what guidance means for profitability ahead, especially given political uncertainty around energy policy following the midterms. That makes near-term sentiment fragile, even when operational conditions stay favorable.",
+  "fetchedAt": "2026-11-04T04:03:11.891991+00:00",
+  "text": "Marathon Petroleum fell 0.71% today to $427.34, following the company's release of its third-quarter earnings report and a leadership change announcement. The stock has been volatile over the past two weeks, swinging between $427 and $444, suggesting investors are still digesting the quarterly results and management transition. Oil prices remain elevated\u2014US crude at $103 per barrel and global crude at $123\u2014which typically supports refiner profits, yet the stock hasn't held its recent highs, indicating the market may have concerns about the company's forward outlook or the leadership shift.\n\nThe broader context matters here: refineries are running at 92.8% capacity and oil inventories are moderate, conditions that should support margins for processors like Marathon. However, a cautionary tone has been circulating among energy analysts about Big Oil earnings guidance, and political shifts toward renewable energy could weigh on longer-term investor sentiment for traditional refiners. The leadership change adds uncertainty on top of earnings, which may explain why the stock has retreated rather than advancing despite solid underlying commodity conditions.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 36,
-    "inputTokens": 31472,
-    "outputTokens": 7342,
-    "estimatedCostUsd": 0.068182,
-    "lastCallHour": "2026-11-04T03"
+    "callsThisMonth": 37,
+    "inputTokens": 32273,
+    "outputTokens": 7570,
+    "estimatedCostUsd": 0.070123,
+    "lastCallHour": "2026-11-04T04"
   }
 }
