@@ -1,0 +1,5 @@
+{
+  "_readme": "Manual corrections. Anything set here beats Wikipedia. Race keys match races.json ids. called: \"D\", \"R\", \"O\" or null. chambers: {\"senate\": {\"D\": n, \"R\": n, \"O\": n}} sets seat totals (O = independents/others).",
+  "races": {},
+  "chambers": {}
+}

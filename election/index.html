@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Election Night 2026</title>
+<style>
+  :root {
+    --bg: #f6f5f2;
+    --card: #ffffff;
+    --ink: #1b1b1b;
+    --muted: #6b6b6b;
+    --line: #e2e0db;
+    --dem: #1f5fbf;
+    --rep: #c8322b;
+    --oth: #9a8fb0;
+    --empty: #d9d7d2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111214;
+      --card: #1b1c1f;
+      --ink: #ececec;
+      --muted: #9a9a9a;
+      --line: #2c2d31;
+      --dem: #3b7be0;
+      --rep: #e0473f;
+      --oth: #8a80a3;
+      --empty: #34353a;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 15px/1.4 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 32px 16px 64px;
+  }
+  main { max-width: 980px; margin: 0 auto; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
+  h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; }
+  .stamp { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+  .stamp.stale { color: var(--rep); }
+  h2 {
+    font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--muted); margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
+  }
+  .chambers { display: grid; gap: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px 12px; }
+  .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 8px; }
+  .label { font-weight: 600; font-size: 15px; }
+  .status { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .status.called { color: var(--ink); font-weight: 600; }
+  .names { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; margin-bottom: 4px; }
+  .names span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .names .r { text-align: right; }
+  .names .win::after { content: " \2713"; }
+  .bar { position: relative; display: flex; height: 22px; border-radius: 4px; overflow: hidden; background: var(--empty); }
+  .bar.big { height: 34px; }
+  .seg { height: 100%; transition: width 0.6s ease; }
+  .seg.D { background: var(--dem); }
+  .seg.R { background: var(--rep); }
+  .seg.O { background: var(--oth); }
+  .seg.E { background: var(--empty); flex: 1; }
+  .tick { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink); opacity: 0.7; }
+  .nums { display: flex; justify-content: space-between; font-size: 13px; margin-top: 5px; font-variant-numeric: tabular-nums; }
+  .nums .D { color: var(--dem); font-weight: 600; }
+  .nums .R { color: var(--rep); font-weight: 600; }
+  .nums .mid { color: var(--muted); }
+  .foot { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .foot a { color: inherit; }
+  .chamber .names { font-size: 15px; font-weight: 600; }
+  .note { color: var(--muted); font-size: 12px; margin-top: 40px; line-height: 1.6; }
+  .note a { color: inherit; }
+  .err { color: var(--rep); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>election night 2026</h1>
+    <div class="stamp" id="stamp">loading</div>
+  </header>
+  <section>
+    <h2>control</h2>
+    <div class="chambers" id="chambers"></div>
+  </section>
+  <div id="sections"></div>
+  <p class="note">
+    vote counts come from the public Wikipedia race pages, checked every two minutes; they are only as current as the last edit there.
+    a race shows as called once the page names a winner, or once it has been set by hand. unofficial until certified.
+  </p>
+</main>
+<script>
+(function () {
+  var REFRESH_MS = 60000;
+  var PARTY = { D: "dem", R: "rep", O: "ind" };
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function fmt(n) { return n == null ? "" : Number(n).toLocaleString("en-US"); }
+  function pct(n) { return n == null ? "" : Number(n).toFixed(1) + "%"; }
+  function lastName(n) { var p = String(n).split(" "); return p[p.length - 1]; }
+
+  function chamberCard(ch) {
+    var s = ch.seats || {};
+    var D = s.D, R = s.R, O = s.O || 0;
+    var have = D != null && R != null;
+    var t = ch.total;
+    var tickLeft = (ch.majority / t) * 100;
+    var bar = have
+      ? '<div class="seg D" style="width:' + (D / t * 100) + '%"></div>' +
+        (O ? '<div class="seg O" style="width:' + (O / t * 100) + '%"></div>' : "") +
+        '<div class="seg E"></div>' +
+        '<div class="seg R" style="width:' + (R / t * 100) + '%"></div>'
+      : '<div class="seg E"></div>';
+    var undecided = have ? t - D - R - O : null;
+    return '<div class="card chamber">' +
+      '<div class="head"><span class="label">' + esc(ch.label) + '</span>' +
+      '<span class="status">' + ch.majority + ' for a majority</span></div>' +
+      '<div class="names"><span style="color:var(--dem)">democrats</span><span class="r" style="color:var(--rep)">republicans</span></div>' +
+      '<div class="bar big">' + bar + '<div class="tick" style="left:calc(' + tickLeft + '% - 1px)"></div></div>' +
+      '<div class="nums">' +
+        '<span class="D">' + (have ? D : "-") + (O ? ' <span class="mid">+ ' + O + ' ind</span>' : "") + '</span>' +
+        '<span class="mid">' + (have ? (undecided > 0 ? undecided + " undecided" : "all decided") : "seat totals pending") + '</span>' +
+        '<span class="R">' + (have ? R : "-") + '</span>' +
+      '</div></div>';
+  }
+
+  function raceCard(r) {
+    var c = r.candidates || [];
+    if (!r.ok || c.length === 0) {
+      return '<div class="card"><div class="head"><span class="label">' + esc(r.label) + '</span>' +
+        '<span class="status">no data yet</span></div><div class="bar"><div class="seg E"></div></div>' +
+        '<div class="foot"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">source</a></div></div>';
+    }
+    var L = c[0], Rt = c[1] || null;
+    var lp = L.pct || 0, rp = Rt ? (Rt.pct || 0) : 0, op = r.other_pct || 0;
+    var sum = lp + rp + op;
+    var counting = sum === 0;
+    var bar = counting
+      ? '<div class="seg E"></div>'
+      : '<div class="seg ' + L.party + '" style="width:' + lp + '%"></div>' +
+        (op ? '<div class="seg O" style="width:' + op + '%; opacity:.6"></div>' : "") +
+        '<div class="seg E"></div>' +
+        (Rt ? '<div class="seg ' + Rt.party + '" style="width:' + rp + '%"></div>' : "");
+    var called = r.called;
+    var winL = called && called === L.party;
+    var winR = called && Rt && called === Rt.party && !winL;
+    var status = called
+      ? '<span class="status called">called: ' + esc(lastName(winL ? L.name : winR ? Rt.name : "")).toLowerCase() + '</span>'
+      : '<span class="status">' + (counting ? "no votes reported" : "counting") + '</span>';
+    return '<div class="card">' +
+      '<div class="head"><span class="label">' + esc(r.label) + '</span>' + status + '</div>' +
+      '<div class="names">' +
+        '<span class="' + (winL ? "win" : "") + '" style="color:var(--' + PARTY[L.party] + ', var(--oth))">' + esc(L.name) + '</span>' +
+        (Rt ? '<span class="r ' + (winR ? "win" : "") + '" style="color:var(--' + PARTY[Rt.party] + ', var(--oth))">' + esc(Rt.name) + '</span>' : "") +
+      '</div>' +
+      '<div class="bar">' + bar + '<div class="tick" style="left:calc(50% - 1px); opacity:.25"></div></div>' +
+      '<div class="nums">' +
+        '<span class="' + L.party + '">' + pct(L.pct) + '</span>' +
+        '<span class="mid">' + (r.total_votes ? fmt(r.total_votes) + " votes" : "") + (op ? " · other " + pct(op) : "") + '</span>' +
+        '<span class="' + (Rt ? Rt.party : "") + '">' + (Rt ? pct(Rt.pct) : "") + '</span>' +
+      '</div>' +
+      '<div class="foot"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">source</a>' + (r.manual ? " · hand-corrected" : "") + '</div>' +
+      '</div>';
+  }
+
+  function render(d) {
+    document.getElementById("chambers").innerHTML = (d.chambers || []).map(chamberCard).join("");
+    document.getElementById("sections").innerHTML = (d.sections || []).map(function (s) {
+      return '<section><h2>' + esc(s.label) + '</h2><div class="grid">' + s.races.map(raceCard).join("") + '</div></section>';
+    }).join("");
+    var when = new Date(d.updated);
+    var ageMin = (Date.now() - when.getTime()) / 60000;
+    var st = document.getElementById("stamp");
+    st.textContent = "data as of " + when.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }) +
+      " " + (Intl.DateTimeFormat().resolvedOptions().timeZone || "");
+    st.className = "stamp" + (ageMin > 15 ? " stale" : "");
+  }
+
+  function load() {
+    fetch("data.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(render)
+      .catch(function () {
+        var st = document.getElementById("stamp");
+        if (st.textContent === "loading") st.innerHTML = '<span class="err">results feed unavailable, retrying</span>';
+      });
+  }
+  load();
+  setInterval(load, REFRESH_MS);
+})();
+</script>
+</body>
+</html>

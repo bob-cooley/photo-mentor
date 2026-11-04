@@ -1,0 +1,7 @@
+Options -Indexes
+RewriteEngine Off
+<IfModule mod_headers.c>
+  <Files "data.json">
+    Header set Cache-Control "no-store"
+  </Files>
+</IfModule>

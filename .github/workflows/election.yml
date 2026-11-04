@@ -1,0 +1,101 @@
+name: Election results
+
+# Live results board at bobcooleyphoto.com/election/.
+# One long-running job refreshes data.json from Wikipedia every 2 minutes and
+# uploads it over FTP, then re-dispatches itself before the 6h job limit.
+# Public repo, so Actions minutes are free. Stops on its own at STOP_AT.
+# A push to election/** restarts the loop immediately (newest run wins).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "election/**"
+      - ".github/workflows/election.yml"
+  schedule:
+    # Fallback in case the self-dispatch chain breaks.
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: election
+  cancel-in-progress: true
+
+env:
+  STOP_AT: "2026-11-06T03:00:00Z"
+  INTERVAL: "120"
+  RUN_SECONDS: "20400"
+  REMOTE: "public_html/bobcooleyphoto/election"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check end date
+        id: gate
+        run: |
+          if [ "$(date -u +%s)" -ge "$(date -u -d "$STOP_AT" +%s)" ]; then
+            echo "Past STOP_AT ($STOP_AT); nothing to do."
+            echo "live=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "live=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload page
+        if: steps.gate.outputs.live == 'true'
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: |
+          for f in index.html .htaccess; do
+            curl -sS --ftp-create-dirs --user "$FTP_USER:$FTP_PASS" \
+              -T "election/$f" "ftp://$FTP_HOST/$REMOTE/$f"
+            echo "uploaded $f"
+          done
+
+      - name: Refresh loop
+        if: steps.gate.outputs.live == 'true'
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: |
+          start=$(date -u +%s)
+          stop=$(date -u -d "$STOP_AT" +%s)
+          first=1
+          while :; do
+            now=$(date -u +%s)
+            [ "$now" -ge "$stop" ] && { echo "Reached STOP_AT."; break; }
+            [ $((now - start)) -ge "$RUN_SECONDS" ] && { echo "Run window used up."; break; }
+            echo "::group::refresh $(date -u +%H:%M:%S)"
+            rc=0
+            if [ "$first" = 1 ]; then python3 election/fetch.py --debug || rc=$?; else python3 election/fetch.py || rc=$?; fi
+            if [ "$rc" = 0 ]; then
+              curl -sS --user "$FTP_USER:$FTP_PASS" \
+                -T election/data.json "ftp://$FTP_HOST/$REMOTE/data.json" \
+                && echo "uploaded data.json" || echo "upload failed; will retry next cycle"
+            else
+              echo "fetch failed (rc=$rc); keeping last upload"
+            fi
+            echo "::endgroup::"
+            first=0
+            sleep "$INTERVAL"
+          done
+
+      - name: Chain next run
+        if: steps.gate.outputs.live == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date -u +%s)" -lt "$(date -u -d "$STOP_AT" +%s)" ]; then
+            gh workflow run election.yml --ref main --repo "$GITHUB_REPOSITORY"
+            echo "dispatched next run"
+          fi
