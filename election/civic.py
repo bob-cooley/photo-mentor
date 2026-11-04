@@ -45,7 +45,7 @@ def _parse(kind, d):
         for c in d.get("candidates", []):
             seats[_party(c.get("party"))] += c.get("seats") or 0
         out["seats"] = seats
-        return out
+        # region_results here are districts keyed like "co-04" / "ak-al"
     regions, won = {}, {"D": 0, "R": 0, "O": 0}
     for code, reg in (d.get("region_results") or {}).items():
         cands = [{"name": c.get("name"), "party": _party(c.get("party")),

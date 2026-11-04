@@ -340,14 +340,15 @@ def tidy(cands):
 
 
 def apply_civic_races(out, ov, civic):
-    """Senate and governor cards: civicAPI vote counts, % reported and calls.
+    """Senate, governor and House district cards: civicAPI counts, % reported and calls.
 
     Counts and reporting come from civicAPI when it has votes for the state.
     Its call is used when neither Wikipedia nor overrides.json named a winner.
     """
     if not civic:
         return
-    for sec_id, kind, suffix in (("senate-races", "senate", "-sen"), ("governors", "governor", "-gov")):
+    for sec_id, kind, suffix in (("senate-races", "senate", "-sen"), ("governors", "governor", "-gov"),
+                                 ("house-races", "house", "")):
         c = civic.get(kind)
         sec = next((s for s in out["sections"] if s["id"] == sec_id), None)
         if not c or not sec:
@@ -355,7 +356,7 @@ def apply_civic_races(out, ov, civic):
             continue
         n_counts = n_calls = 0
         for r in sec["races"]:
-            reg = c["regions"].get(r["id"].replace(suffix, ""))
+            reg = (c.get("regions") or {}).get(r["id"][:-len(suffix)] if suffix else r["id"])
             if not reg:
                 continue
             cands = [dict(x, seats=None) for x in reg["candidates"] if x.get("name")]
