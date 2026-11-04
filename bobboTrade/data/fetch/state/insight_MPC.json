@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T19:02:50.926403+00:00",
-  "text": "I don't have today's price move data, so I can't tell you whether the stock went up or down. However, the recent news suggests what might be moving it: Marathon Petroleum reported quarterly earnings and announced a leadership change on the same day, and the company filed its Q3 financial report. These are concrete events that typically trigger stock reaction\u2014investors will be parsing the earnings results and management guidance to see whether refining margins held up and what the new leadership signals for strategy.\n\nThe broader context matters too. U.S. refineries are running at 94.5 percent capacity, which is near full tilt, and oil storage is relatively lean at 692 million barrels. That tight supply backdrop usually supports refiner profits, but CNBC reported that Big Oil earnings could be strong yet investors should watch guidance carefully\u2014meaning the market may be pricing in good results already and waiting to hear whether companies expect that to last. A leadership change at a major refiner often prompts questions about future direction, which could add to the uncertainty around the stock today.",
+  "fetchedAt": "2026-11-04T20:02:05.736971+00:00",
+  "text": "I don't have today's price move data for MPC, so I can't tell you whether the stock went up or down or by how much. To explain what moved the stock today, I'd need to know the direction and magnitude of the price change.\n\nThat said, the data does show some relevant context: Marathon Petroleum just reported quarterly earnings and announced a leadership change on October 29th, and released its full quarterly report on November 3rd. Refineries are running at a high utilization rate (94.5%), and oil prices remain elevated\u2014US crude at $99.64 and global crude at $107.03\u2014which typically supports refiner margins. If you can share today's price move, I can connect it to one of these events or the broader refining backdrop.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 46,
-    "inputTokens": 39024,
-    "outputTokens": 9290,
-    "estimatedCostUsd": 0.085474,
-    "lastCallHour": "2026-11-04T19"
+    "callsThisMonth": 47,
+    "inputTokens": 39711,
+    "outputTokens": 9459,
+    "estimatedCostUsd": 0.087006,
+    "lastCallHour": "2026-11-04T20"
   }
 }
