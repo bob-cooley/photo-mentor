@@ -1,5 +1,6 @@
 {
-  "_readme": "Manual corrections. Anything set here beats Wikipedia. Race keys match races.json ids. called: \"D\", \"R\", \"O\" or null. chambers: {\"senate\": {\"D\": n, \"R\": n, \"O\": n}} sets seat totals (O = independents/others).",
+  "_readme": "Manual corrections. Anything set here beats Wikipedia. Race keys match races.json ids. called: \"D\", \"R\", \"O\" or null. chambers: {\"senate\": {\"D\": n, \"R\": n, \"O\": n}} sets seat totals (O = independents/others). control: {\"house\": \"D\"} sets who holds a chamber (drives the page-load animation).",
   "races": {},
-  "chambers": {}
+  "chambers": {},
+  "control": {}
 }

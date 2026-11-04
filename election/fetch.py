@@ -404,6 +404,40 @@ def tally_house_key(out):
     log(f"  house key tally: {seats} of {n}")
 
 
+def decide_control(out, ov):
+    """Who controls each chamber, once it is settled; None while undecided.
+
+    Senate: from the seat tally. Democrats need 51 counting the independents
+    who caucus with them; Republicans need 50, since the vice president
+    breaks ties. Falls back to news headlines. House: news headlines (two
+    outlets agreeing), since there is no free full count. overrides.json
+    "control" beats both.
+    """
+    ctl = {"senate": None, "house": None}
+    sen = next((c for c in out["chambers"] if c["id"] == "senate"), None)
+    if sen and sen.get("majority") and sen["seats"].get("D") is not None:
+        d = sen["seats"]["D"] + (sen["seats"].get("O") or 0)
+        r = sen["seats"]["R"]
+        if d >= 51:
+            ctl["senate"] = {"party": "D", "by": "seat count"}
+        elif r >= 50:
+            ctl["senate"] = {"party": "R", "by": "seat count"}
+    try:
+        import rss
+        news = rss.control_calls(log)
+    except Exception as e:
+        log(f"  ! control from news: {e}")
+        news = {}
+    for chamber, (party, outlets) in news.items():
+        if chamber in ctl and ctl[chamber] is None:
+            ctl[chamber] = {"party": party, "by": "news: " + ", ".join(outlets)}
+    for chamber, party in (ov.get("control") or {}).items():
+        if chamber in ctl and party in ("D", "R"):
+            ctl[chamber] = {"party": party, "by": "manual"}
+    log(f"  control: {ctl}")
+    return ctl
+
+
 def main():
     cfg = json.loads((HERE / "races.json").read_text())
     ov = json.loads((HERE / "overrides.json").read_text())
@@ -459,6 +493,8 @@ def main():
         if manual:
             ch["seats"].update(manual)
             ch["basis"] = "manual"
+
+    out["control"] = decide_control(out, ov)
 
     ok = sum(r["ok"] for s in out["sections"] for r in s["races"])
     n = sum(len(s["races"]) for s in out["sections"])

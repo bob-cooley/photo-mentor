@@ -87,6 +87,36 @@ def other_state(title, state):
 
 
 AMBIGUOUS = set()  # last names that appear in more than one tracked race
+LAST_HEADS = []    # headlines from the most recent fetch, reused for chamber control
+
+CONTROL = re.compile(
+    r"\b(democrats?|dems?|republicans?|gop)\b[^.?!;:]{0,30}?"
+    r"\b(?:wins?|won|takes?|took|retakes?|retook|flips?|flipped|keeps?|kept|holds?|held|retains?|"
+    r"retained|clinch(?:es)?|clinched|seizes?|seized|captures?|captured|projected to (?:win|take|keep|hold|retain))\b"
+    r"[^.?!;:]{0,20}?\b(house|senate)\b", re.I)
+CONTROL_SKIP = re.compile(
+    r"\?|\b(?:could|would|may|might|if|fight|fights|battle|battles|bid|push|pushes|try|tries|"
+    r"seek|seeks|aim|aims|hope|hopes|eye|eyes|vie|poised|on track|path|chance|chances|odds|need|"
+    r"needs|plan|plans|what|how|why|when|whether|race|races|seat|seats|district)\b", re.I)
+
+
+def control_calls(log=print):
+    """{"house": "D"/"R", "senate": ...} where MIN_OUTLETS outlets agree on chamber control."""
+    votes = {}
+    for outlet, title in LAST_HEADS:
+        if CONTROL_SKIP.search(title):
+            continue
+        for m in CONTROL.finditer(title):
+            party = "R" if m.group(1).lower() in ("republican", "republicans", "gop") else "D"
+            votes.setdefault(m.group(2).lower(), {}).setdefault(party, set()).add(outlet)
+    out = {}
+    for chamber, by in votes.items():
+        log(f"  rss control {chamber}: {{{', '.join(f'{p}: {sorted(o)}' for p, o in by.items())}}}")
+        if len(by) == 1:
+            party, outlets = next(iter(by.items()))
+            if len(outlets) >= MIN_OUTLETS:
+                out[chamber] = (party, sorted(outlets))
+    return out
 
 
 def mentions(title, cand, state, office):
@@ -133,6 +163,7 @@ def calls(races, log=print):
     AMBIGUOUS.clear()
     AMBIGUOUS.update(k for k, v in seen.items() if len(v) > 1)
     heads = fetch_headlines(log)
+    LAST_HEADS[:] = heads
     log(f"rss: {len(heads)} recent headlines")
     out = {}
     for rid, state, office, cands in races:

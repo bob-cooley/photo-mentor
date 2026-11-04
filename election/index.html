@@ -72,6 +72,36 @@
   main { max-width: 980px; margin: 0 auto; }
   header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
   h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; }
+  h1 .w {
+    font: inherit; color: inherit; letter-spacing: inherit; background: none; border: 0; padding: 0;
+    cursor: default; user-select: none; -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  }
+  h1 .w:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  .fx-overlay { position: fixed; inset: 0; z-index: 1000; }
+  .fx-fireworks { background: rgba(5, 6, 12, 0.72); }
+  .fx-flames { pointer-events: auto; background: transparent; }
+  .fx-flames canvas { display: block; }
+  .card.burning {
+    animation: scorch 0.18s ease-in-out infinite alternate;
+    border-color: #e0601f !important;
+    box-shadow: 0 0 22px rgba(255, 110, 20, 0.55), inset 0 -40px 60px -30px rgba(255, 90, 0, 0.35);
+  }
+  @keyframes scorch {
+    from { transform: translate(0, 0); filter: sepia(0.25) saturate(1.2); }
+    to { transform: translate(0.6px, -0.8px); filter: sepia(0.45) saturate(1.5) brightness(0.96); }
+  }
+  .fx-meh {
+    display: flex; align-items: center; justify-content: center;
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px);
+    animation: meh-in 0.5s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
+  }
+  .fx-meh span {
+    font-family: "Palatino Linotype", Palatino, "Book Antiqua", "Times New Roman", Times, serif;
+    font-weight: 700; font-size: min(34vw, 55vh); line-height: 1; color: var(--ink); letter-spacing: -0.02em;
+  }
+  @keyframes meh-in { from { opacity: 0; transform: scale(0.7); } to { opacity: 1; transform: scale(1); } }
   .sub { font-size: 14px; font-weight: 700; color: var(--muted); margin-top: 4px; }
   .stamp { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
   .stamp.stale { color: var(--rep); }
@@ -144,7 +174,7 @@
 <main>
   <header>
     <div>
-      <h1>election night 2026</h1>
+      <h1><button class="w" type="button" data-fx="fireworks">election</button> <button class="w" type="button" data-fx="flames">night</button> <button class="w" type="button" data-fx="meh">2026</button></h1>
       <p class="sub">I’m no Steve Kornacki, but I make neat apps…</p>
     </div>
     <div class="live">
@@ -164,9 +194,12 @@
     report the same winner in their headlines, or once it has been set by hand. hover a call to see where it came from. unofficial until certified.
   </p>
 </main>
+<script src="fireworks.umd.js"></script>
+<script src="fx.js"></script>
 <script>
 (function () {
   var REFRESH_MS = 60000;
+  var fxDone = false;
   var lastSig = {};
   var lastData = null;
   var expanded = {};
@@ -263,6 +296,11 @@
 
   function render(d) {
     lastData = d;
+    // play once per page load, as soon as both chambers are settled
+    if (!fxDone && window.ElectionFX) {
+      var which = window.ElectionFX.pick(d.control);
+      if (which) { fxDone = true; setTimeout(function () { window.ElectionFX.play(which); }, 400); }
+    }
     document.getElementById("chambers").innerHTML = (d.chambers || []).map(chamberCard).join("");
     document.getElementById("sections").innerHTML = (d.sections || []).map(function (s) {
       var keyRaces = s.races.filter(function (r) { return r.key; });
@@ -319,6 +357,19 @@
   load();
   setInterval(function () { if (Date.now() >= nextAt) load(); tick(); }, 1000);
   document.getElementById("refresh").addEventListener("click", load);
+  // test triggers: tap a title word 5 times within 20 seconds
+  var taps = {};
+  Array.prototype.forEach.call(document.querySelectorAll("h1 .w"), function (b) {
+    b.addEventListener("click", function () {
+      var fx = b.getAttribute("data-fx"), now = Date.now();
+      taps[fx] = (taps[fx] || []).filter(function (t) { return now - t < 20000; });
+      taps[fx].push(now);
+      if (taps[fx].length >= 5) {
+        taps[fx] = [];
+        if (window.ElectionFX) window.ElectionFX.play(fx);
+      }
+    });
+  });
   document.getElementById("sections").addEventListener("click", function (e) {
     var b = e.target.closest(".more");
     if (!b || !lastData) return;

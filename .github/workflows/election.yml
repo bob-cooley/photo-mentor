@@ -55,7 +55,7 @@ jobs:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASS: ${{ secrets.FTP_PASS }}
         run: |
-          for f in index.html .htaccess; do
+          for f in index.html .htaccess fx.js fireworks.umd.js fireworks.LICENSE.txt; do
             curl -sS --ftp-create-dirs --user "$FTP_USER:$FTP_PASS" \
               -T "election/$f" "ftp://$FTP_HOST/$REMOTE/$f"
             echo "uploaded $f"
