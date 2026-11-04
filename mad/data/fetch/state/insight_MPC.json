@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T06:03:06.246471+00:00",
-  "text": "Marathon Petroleum dropped 0.7% today to $427.34, marking the third down day in a volatile two-week stretch that's seen the stock lose 10%. The stock moved on the heels of quarterly earnings announced today and a leadership change, along with a quarterly financial report filing. The broader refining backdrop remains mixed: US crude is trading at $103.37 per barrel while refineries are running at a healthy 92.8% capacity, but global crude at $123.10 signals persistent international weakness that can constrain export-dependent refiner margins.\n\nThe timing matters here\u2014the earnings announcement and management shift came as energy stocks more broadly faced caution from analysts, who have warned that guidance and forward outlook could disappoint even as Big Oil's third-quarter numbers look strong on paper. The recent volatility in the stock price (jumping from $432 to $444 just days ago, then sliding back down) suggests investors are still digesting what the new leadership and guidance mean for future returns.",
+  "fetchedAt": "2026-11-04T14:10:49.109494+00:00",
+  "text": "Marathon Petroleum fell 0.71% today to $427.34, extending a broader two-week decline of over 10%. The immediate trigger appears to be a leadership change announced on October 29th alongside a company update, combined with the stock's sharp volatility over the past week\u2014it swung from $444.73 just four trading days ago down to today's level. The underlying market context isn't helping: a CNBC report from today noted that while Big Oil earnings are set to surge, investor caution is warranted, particularly around forward guidance rather than just current profits.\n\nThe refining backdrop is mixed. Refineries are running at a healthy 92.8% capacity utilization, but crude oil storage is relatively high at 693 million barrels, and the spread between US oil ($103/barrel) and world oil prices ($123/barrel) is wide\u2014a headwind for US refiners who profit more when they can buy cheap domestic crude and sell globally. The political environment is also shifting: news about the midterms flagged potential support for offshore wind and solar, which could eventually pressure traditional energy demand, though this is a longer-term consideration than today's move.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 5,
-    "inputTokens": 4005,
-    "outputTokens": 1014,
-    "estimatedCostUsd": 0.009075,
-    "lastCallHour": "2026-11-04T06"
+    "callsThisMonth": 6,
+    "inputTokens": 4806,
+    "outputTokens": 1269,
+    "estimatedCostUsd": 0.011151,
+    "lastCallHour": "2026-11-04T14"
   }
 }

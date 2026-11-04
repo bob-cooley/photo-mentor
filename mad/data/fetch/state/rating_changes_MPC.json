@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-11-04T05:55:39.294090+00:00",
+    "fetchedAt": "2026-11-04T14:10:33.847862+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-11-04",
+        "firm": "Morgan Stanley",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 453.0,
+        "targetTo": 458.0
+      },
       {
         "date": "2026-10-22",
         "firm": "TD Cowen",

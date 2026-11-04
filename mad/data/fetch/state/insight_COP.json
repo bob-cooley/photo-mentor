@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-04T06:02:51.353395+00:00",
-  "text": "ConocoPhillips fell 1.66% today after oil prices dropped for a second day on hopes for a diplomatic resolution to the Iran conflict. The stock had jumped $4 on Friday following escalating tensions, but crude retreated sharply yesterday and again today as U.S. and Iranian leadership signaled openness to negotiations, easing the geopolitical premium that had pushed prices higher.\n\nThe broader headwind for oil majors is the election outcome: Democrats are poised to sweep Congress, which typically favors renewable energy investment over fossil fuels and could create longer-term pressure on oil demand expectations. Combined with the immediate relief rally in oil prices, this created a two-punch backdrop for the pullback today.",
+  "fetchedAt": "2026-11-04T14:10:31.122143+00:00",
+  "text": "ConocoPhillips fell 1.66% today as crude oil prices dropped sharply on hopes for a diplomatic resolution to the Iran conflict. Crude fell to $103.37 per barrel in the US market\u2014a meaningful pullback after climbing above $154 just four trading days ago\u2014on signals that both the US and Iranian presidents are open to negotiation rather than escalation. Lower oil prices directly hit the earnings outlook for oil producers like this company.\n\nThe decline also reflects broader political uncertainty following the midterm elections, where Democrats look poised to take control of Congress. A Democratic-led government is generally seen as more supportive of renewable energy like offshore wind and solar, which could reduce long-term demand for fossil fuels and pressure oil prices further over time.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 5,
-    "inputTokens": 4232,
-    "outputTokens": 918,
-    "estimatedCostUsd": 0.008822,
-    "lastCallHour": "2026-11-04T06"
+    "callsThisMonth": 6,
+    "inputTokens": 5069,
+    "outputTokens": 1083,
+    "estimatedCostUsd": 0.010484,
+    "lastCallHour": "2026-11-04T14"
   }
 }
