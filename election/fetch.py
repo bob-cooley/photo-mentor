@@ -376,7 +376,7 @@ def apply_news_calls(cfg, ov, out):
             log(f"  news call {rid} -> {party} ({', '.join(outlets)}): {headline}")
 
 
-def tally_senate(out):
+def tally_senate(out, civic=None):
     """Senate seats = seats not up this year + called races.
 
     Seats not up = the chamber's pre-election seats minus the seats being
@@ -400,6 +400,20 @@ def tally_senate(out):
     if min(hold.values()) < 0:
         log(f"  ! senate tally: negative holdover {hold}")
         return
+    c = civic.senate() if civic else None
+    if c and c.get("races", 0) >= len(sec["races"]) - 2:
+        seats = {k: hold[k] + c["won"].get(k, 0) for k in hold}
+        n = sum(c["won"].values())
+        rep = c.get("reporting")
+        ch["seats"] = seats
+        ch["credit"] = "civicapi.org"
+        ch["basis"] = (f"{sum(hold.values())} seats not up this year + {n} races called by civicAPI's decision desk"
+                       + (f" · {rep:.0f}% of the vote reported" if isinstance(rep, (int, float)) else "")
+                       + (" · last good update, retrying" if c.get("stale") else ""))
+        log(f"  senate from civicAPI: holdover {hold} + won {c['won']} -> {seats} stale={c.get('stale')}")
+        return
+    if civic:
+        log(f"  ! civicAPI senate unavailable ({civic._senate.get('error')}); using page calls")
     seats = dict(hold)
     for r in sec["races"]:
         if r["called"] in seats:
@@ -535,7 +549,7 @@ def main():
                                 "all_label": sec.get("all_label"), "races": races})
 
     apply_news_calls(cfg, ov, out)
-    tally_senate(out)
+    tally_senate(out, civic)
     tally_house(out, civic)
     for ch in out["chambers"]:
         manual = ov.get("chambers", {}).get(ch["id"])

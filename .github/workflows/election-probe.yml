@@ -12,4 +12,4 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: python3 election/probe_civic.py
+      - run: python3 election/fetch.py | grep -E "tally|civic|control|wrote" || true

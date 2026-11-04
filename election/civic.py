@@ -1,4 +1,4 @@
-"""House seat count from civicAPI (civicapi.org), fetched in the background.
+"""House seats and Senate race calls from civicAPI (civicapi.org), fetched in the background.
 
 civicAPI is free and keyless but slow under election-night load, so the
 request runs in a thread alongside the Wikipedia reads, and the last good
@@ -12,11 +12,62 @@ from pathlib import Path
 
 UA = "bobcooleyphoto-election-board/1.0 (https://bobcooleyphoto.com/election/)"
 HOUSE_URL = "https://civicapi.org/api/v2/race/87524"   # US House national summary
+SENATE_URL = "https://civicapi.org/api/v2/race/87528"  # US Senate national summary
 CACHE = Path(__file__).resolve().parent / "civic_cache.json"
+SENATE_CACHE = Path(__file__).resolve().parent / "civic_senate_cache.json"
 MAX_AGE = 30 * 60
 
 _result = {}
+_senate = {}
 _thread = None
+_sthread = None
+
+
+def _party(p):
+    p = (p or "").lower()
+    return "D" if p.startswith("democrat") else "R" if p.startswith("republican") else "O"
+
+
+def _get(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=50) as r:
+        return json.load(r)
+
+
+def _senate_work():
+    """Count races civicAPI has called, state by state (region_results winners)."""
+    try:
+        d = _get(SENATE_URL)
+        regions = d.get("region_results") or {}
+        won = {"D": 0, "R": 0, "O": 0}
+        winners = {}
+        for code, reg in regions.items():
+            for c in reg.get("candidates", []):
+                if c.get("winner"):
+                    k = _party(c.get("party"))
+                    won[k] += 1
+                    winners[code.upper()] = {"party": k, "name": c.get("name")}
+                    break
+        out = {"won": won, "races": len(regions), "winners": winners,
+               "reporting": d.get("percent_reporting"), "fetched": time.time()}
+        SENATE_CACHE.write_text(json.dumps(out))
+        _senate.update(out)
+    except Exception as e:
+        _senate["error"] = f"{type(e).__name__}: {e}"
+
+
+def senate(wait=55):
+    if _sthread:
+        _sthread.join(wait)
+    if "won" in _senate:
+        return dict(_senate, stale=False)
+    try:
+        c = json.loads(SENATE_CACHE.read_text())
+        if time.time() - c["fetched"] < MAX_AGE:
+            return dict(c, stale=True)
+    except Exception:
+        pass
+    return None
 
 
 def _work():
@@ -39,9 +90,11 @@ def _work():
 
 
 def start():
-    global _thread
+    global _thread, _sthread
     _thread = threading.Thread(target=_work, daemon=True)
     _thread.start()
+    _sthread = threading.Thread(target=_senate_work, daemon=True)
+    _sthread.start()
 
 
 def house(wait=55):
