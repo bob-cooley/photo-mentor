@@ -67,7 +67,15 @@ jobs:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASS: ${{ secrets.FTP_PASS }}
+          GH_TOKEN: ${{ github.token }}
         run: |
+          # GitHub does not reliably cancel this run when a push queues a new
+          # one, so the loop checks for a newer run itself and steps aside.
+          newer() {
+            n=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/election.yml/runs?per_page=10" \
+              --jq "[.workflow_runs[] | select(.id > $GITHUB_RUN_ID and .status != \"completed\")] | length" 2>/dev/null || echo 0)
+            [ "${n:-0}" -gt 0 ]
+          }
           start=$(date -u +%s)
           stop=$(date -u -d "$STOP_AT" +%s)
           first=1
@@ -87,7 +95,16 @@ jobs:
             fi
             echo "::endgroup::"
             first=0
-            sleep "$INTERVAL"
+            waited=0
+            while [ "$waited" -lt "$INTERVAL" ]; do
+              if newer; then
+                echo "A newer run is waiting; handing over."
+                touch "$RUNNER_TEMP/superseded"
+                exit 0
+              fi
+              sleep 15
+              waited=$((waited + 15))
+            done
           done
 
       - name: Chain next run
@@ -95,7 +112,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "$(date -u +%s)" -lt "$(date -u -d "$STOP_AT" +%s)" ]; then
+          if [ -f "$RUNNER_TEMP/superseded" ]; then
+            echo "Superseded by a newer run; not chaining."
+          elif [ "$(date -u +%s)" -lt "$(date -u -d "$STOP_AT" +%s)" ]; then
             gh workflow run election.yml --ref main --repo "$GITHUB_REPOSITORY"
             echo "dispatched next run"
           fi
