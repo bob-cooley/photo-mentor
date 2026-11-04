@@ -360,7 +360,7 @@ def main():
             data = None
             if text:
                 data = from_infobox(text) if sec["kind"] == "infobox" else from_electionbox(text, r["district"])
-            entry = {"id": r["id"], "label": r["label"],
+            entry = {"id": r["id"], "label": r["label"], "key": bool(r.get("key")),
                      "url": "https://en.wikipedia.org/wiki/" + urllib.parse.quote(r["page"].replace(" ", "_")),
                      "candidates": [], "other_pct": 0, "total_votes": 0, "called": None, "ok": False,
                      "reporting": None, "last_update": None}
@@ -376,7 +376,8 @@ def main():
             if not entry["ok"]:
                 log(f"  ! no candidates parsed for {r['id']}")
             races.append(entry)
-        out["sections"].append({"id": sec["id"], "label": sec["label"], "races": races})
+        out["sections"].append({"id": sec["id"], "label": sec["label"],
+                                "all_label": sec.get("all_label"), "races": races})
 
     apply_news_calls(cfg, ov, out)
 

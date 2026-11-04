@@ -111,6 +111,13 @@
   .foot:not(:has(span)) { display: none; }
   .chamber .names { font-size: 15px; font-weight: 600; }
   .note { color: var(--muted); font-size: 12px; margin-top: 40px; line-height: 1.6; }
+  .more {
+    display: block; width: 100%; margin-top: 12px; padding: 10px 12px;
+    font: inherit; font-size: 13px; font-weight: 600; color: var(--ink);
+    background: transparent; border: 1px dashed var(--line); border-radius: 8px; cursor: pointer;
+  }
+  .more:hover { border-color: var(--muted); background: var(--card); }
+  .more:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
   .note a { color: inherit; }
   .err { color: var(--rep); font-size: 13px; }
   .live { display: flex; align-items: center; gap: 10px; }
@@ -160,6 +167,9 @@
 (function () {
   var REFRESH_MS = 60000;
   var lastSig = {};
+  var lastData = null;
+  var expanded = {};
+  try { expanded = JSON.parse(localStorage.getItem("election-expanded") || "{}") || {}; } catch (e) {}
   var nextAt = 0;
   var stampText = "loading";
   var PARTY = { D: "dem", R: "rep", O: "ind" };
@@ -251,9 +261,21 @@
   }
 
   function render(d) {
+    lastData = d;
     document.getElementById("chambers").innerHTML = (d.chambers || []).map(chamberCard).join("");
     document.getElementById("sections").innerHTML = (d.sections || []).map(function (s) {
-      return '<section><h2>' + esc(s.label) + '</h2><div class="grid">' + s.races.map(raceCard).join("") + '</div></section>';
+      var keyRaces = s.races.filter(function (r) { return r.key; });
+      var rest = s.races.filter(function (r) { return !r.key; });
+      var open = !!expanded[s.id];
+      var shown = open ? keyRaces.concat(rest) : keyRaces;
+      var btn = rest.length && s.all_label
+        ? '<button class="more" type="button" data-section="' + esc(s.id) + '" aria-expanded="' + open + '">' +
+            esc(open ? s.all_label.replace(/^see all/, "show key") + " only" : s.all_label + " (" + s.races.length + ")") +
+          '</button>'
+        : "";
+      var title = open ? s.label.replace(/^key /, "all ") : s.label;
+      return '<section id="sec-' + esc(s.id) + '"><h2>' + esc(title) + '</h2><div class="grid">' +
+        shown.map(raceCard).join("") + '</div>' + btn + '</section>';
     }).join("");
     // flash any race whose numbers or call changed since the last poll
     var first = Object.keys(lastSig).length === 0;
@@ -296,6 +318,18 @@
   load();
   setInterval(function () { if (Date.now() >= nextAt) load(); tick(); }, 1000);
   document.getElementById("refresh").addEventListener("click", load);
+  document.getElementById("sections").addEventListener("click", function (e) {
+    var b = e.target.closest(".more");
+    if (!b || !lastData) return;
+    var id = b.getAttribute("data-section");
+    expanded[id] = !expanded[id];
+    try { localStorage.setItem("election-expanded", JSON.stringify(expanded)); } catch (err) {}
+    render(lastData);
+    if (!expanded[id]) {
+      var sec = document.getElementById("sec-" + id);
+      if (sec && sec.getBoundingClientRect().top < 0) sec.scrollIntoView({ block: "start" });
+    }
+  });
   document.getElementById("theme").addEventListener("click", function () {
     var root = document.documentElement;
     var cur = root.getAttribute("data-theme") ||

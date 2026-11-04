@@ -1,55 +1,496 @@
 {
-  "chambers": [
-    {"id": "senate", "label": "senate", "page": "2026 United States Senate elections", "majority": 51, "total": 100},
-    {"id": "house", "label": "house", "page": "2026 United States House of Representatives elections", "majority": 218, "total": 435}
-  ],
-  "sections": [
+ "chambers": [
+  {
+   "id": "senate",
+   "label": "senate",
+   "page": "2026 United States Senate elections",
+   "majority": 51,
+   "total": 100
+  },
+  {
+   "id": "house",
+   "label": "house",
+   "page": "2026 United States House of Representatives elections",
+   "majority": 218,
+   "total": 435
+  }
+ ],
+ "sections": [
+  {
+   "id": "senate-races",
+   "label": "key senate races",
+   "kind": "infobox",
+   "races": [
     {
-      "id": "senate-races", "label": "key senate races", "kind": "infobox",
-      "races": [
-        {"id": "tx-sen", "label": "texas", "page": "2026 United States Senate election in Texas"},
-        {"id": "nc-sen", "label": "north carolina", "page": "2026 United States Senate election in North Carolina"},
-        {"id": "oh-sen", "label": "ohio (special)", "page": "2026 United States Senate special election in Ohio"},
-        {"id": "me-sen", "label": "maine", "page": "2026 United States Senate election in Maine"},
-        {"id": "mi-sen", "label": "michigan", "page": "2026 United States Senate election in Michigan"},
-        {"id": "ia-sen", "label": "iowa", "page": "2026 United States Senate election in Iowa"},
-        {"id": "ak-sen", "label": "alaska", "page": "2026 United States Senate election in Alaska"},
-        {"id": "ga-sen", "label": "georgia", "page": "2026 United States Senate election in Georgia"},
-        {"id": "fl-sen", "label": "florida (special)", "page": "2026 United States Senate special election in Florida"},
-        {"id": "nh-sen", "label": "new hampshire", "page": "2026 United States Senate election in New Hampshire"},
-        {"id": "sc-sen", "label": "south carolina", "page": "2026 United States Senate election in South Carolina"}
-      ]
+     "id": "tx-sen",
+     "label": "texas",
+     "page": "2026 United States Senate election in Texas",
+     "key": true
     },
     {
-      "id": "house-races", "label": "key house races", "kind": "electionbox",
-      "races": [
-        {"id": "tx-15", "label": "texas 15", "page": "2026 United States House of Representatives elections in Texas", "district": 15},
-        {"id": "ky-06", "label": "kentucky 6", "page": "2026 United States House of Representatives elections in Kentucky", "district": 6},
-        {"id": "pa-01", "label": "pennsylvania 1", "page": "2026 United States House of Representatives elections in Pennsylvania", "district": 1},
-        {"id": "pa-08", "label": "pennsylvania 8", "page": "2026 United States House of Representatives elections in Pennsylvania", "district": 8},
-        {"id": "mi-07", "label": "michigan 7", "page": "2026 United States House of Representatives elections in Michigan", "district": 7},
-        {"id": "va-02", "label": "virginia 2", "page": "2026 United States House of Representatives elections in Virginia", "district": 2},
-        {"id": "va-05", "label": "virginia 5", "page": "2026 United States House of Representatives elections in Virginia", "district": 5},
-        {"id": "co-08", "label": "colorado 8", "page": "2026 United States House of Representatives elections in Colorado", "district": 8},
-        {"id": "ia-01", "label": "iowa 1", "page": "2026 United States House of Representatives elections in Iowa", "district": 1},
-        {"id": "ny-17", "label": "new york 17", "page": "2026 United States House of Representatives elections in New York", "district": 17},
-        {"id": "ny-10", "label": "new york 10", "page": "2026 United States House of Representatives elections in New York", "district": 10}
-      ]
+     "id": "nc-sen",
+     "label": "north carolina",
+     "page": "2026 United States Senate election in North Carolina",
+     "key": true
     },
     {
-      "id": "governors", "label": "governors", "kind": "infobox",
-      "races": [
-        {"id": "az-gov", "label": "arizona", "page": "2026 Arizona gubernatorial election"},
-        {"id": "ga-gov", "label": "georgia", "page": "2026 Georgia gubernatorial election"},
-        {"id": "mi-gov", "label": "michigan", "page": "2026 Michigan gubernatorial election"},
-        {"id": "wi-gov", "label": "wisconsin", "page": "2026 Wisconsin gubernatorial election"},
-        {"id": "nv-gov", "label": "nevada", "page": "2026 Nevada gubernatorial election"},
-        {"id": "pa-gov", "label": "pennsylvania", "page": "2026 Pennsylvania gubernatorial election"},
-        {"id": "oh-gov", "label": "ohio", "page": "2026 Ohio gubernatorial election"},
-        {"id": "fl-gov", "label": "florida", "page": "2026 Florida gubernatorial election"},
-        {"id": "ny-gov", "label": "new york", "page": "2026 New York gubernatorial election"},
-        {"id": "co-gov", "label": "colorado", "page": "2026 Colorado gubernatorial election"}
-      ]
+     "id": "oh-sen",
+     "label": "ohio (special)",
+     "page": "2026 United States Senate special election in Ohio",
+     "key": true
+    },
+    {
+     "id": "me-sen",
+     "label": "maine",
+     "page": "2026 United States Senate election in Maine",
+     "key": true
+    },
+    {
+     "id": "mi-sen",
+     "label": "michigan",
+     "page": "2026 United States Senate election in Michigan",
+     "key": true
+    },
+    {
+     "id": "ia-sen",
+     "label": "iowa",
+     "page": "2026 United States Senate election in Iowa",
+     "key": true
+    },
+    {
+     "id": "ak-sen",
+     "label": "alaska",
+     "page": "2026 United States Senate election in Alaska",
+     "key": true
+    },
+    {
+     "id": "ga-sen",
+     "label": "georgia",
+     "page": "2026 United States Senate election in Georgia",
+     "key": true
+    },
+    {
+     "id": "fl-sen",
+     "label": "florida (special)",
+     "page": "2026 United States Senate special election in Florida",
+     "key": true
+    },
+    {
+     "id": "nh-sen",
+     "label": "new hampshire",
+     "page": "2026 United States Senate election in New Hampshire",
+     "key": true
+    },
+    {
+     "id": "sc-sen",
+     "label": "south carolina",
+     "page": "2026 United States Senate election in South Carolina",
+     "key": true
+    },
+    {
+     "id": "al-sen",
+     "label": "alabama",
+     "page": "2026 United States Senate election in Alabama"
+    },
+    {
+     "id": "ar-sen",
+     "label": "arkansas",
+     "page": "2026 United States Senate election in Arkansas"
+    },
+    {
+     "id": "co-sen",
+     "label": "colorado",
+     "page": "2026 United States Senate election in Colorado"
+    },
+    {
+     "id": "de-sen",
+     "label": "delaware",
+     "page": "2026 United States Senate election in Delaware"
+    },
+    {
+     "id": "id-sen",
+     "label": "idaho",
+     "page": "2026 United States Senate election in Idaho"
+    },
+    {
+     "id": "il-sen",
+     "label": "illinois",
+     "page": "2026 United States Senate election in Illinois"
+    },
+    {
+     "id": "ks-sen",
+     "label": "kansas",
+     "page": "2026 United States Senate election in Kansas"
+    },
+    {
+     "id": "ky-sen",
+     "label": "kentucky",
+     "page": "2026 United States Senate election in Kentucky"
+    },
+    {
+     "id": "la-sen",
+     "label": "louisiana",
+     "page": "2026 United States Senate election in Louisiana"
+    },
+    {
+     "id": "ma-sen",
+     "label": "massachusetts",
+     "page": "2026 United States Senate election in Massachusetts"
+    },
+    {
+     "id": "mn-sen",
+     "label": "minnesota",
+     "page": "2026 United States Senate election in Minnesota"
+    },
+    {
+     "id": "ms-sen",
+     "label": "mississippi",
+     "page": "2026 United States Senate election in Mississippi"
+    },
+    {
+     "id": "mt-sen",
+     "label": "montana",
+     "page": "2026 United States Senate election in Montana"
+    },
+    {
+     "id": "ne-sen",
+     "label": "nebraska",
+     "page": "2026 United States Senate election in Nebraska"
+    },
+    {
+     "id": "nj-sen",
+     "label": "new jersey",
+     "page": "2026 United States Senate election in New Jersey"
+    },
+    {
+     "id": "nm-sen",
+     "label": "new mexico",
+     "page": "2026 United States Senate election in New Mexico"
+    },
+    {
+     "id": "ok-sen",
+     "label": "oklahoma",
+     "page": "2026 United States Senate election in Oklahoma"
+    },
+    {
+     "id": "or-sen",
+     "label": "oregon",
+     "page": "2026 United States Senate election in Oregon"
+    },
+    {
+     "id": "ri-sen",
+     "label": "rhode island",
+     "page": "2026 United States Senate election in Rhode Island"
+    },
+    {
+     "id": "sd-sen",
+     "label": "south dakota",
+     "page": "2026 United States Senate election in South Dakota"
+    },
+    {
+     "id": "tn-sen",
+     "label": "tennessee",
+     "page": "2026 United States Senate election in Tennessee"
+    },
+    {
+     "id": "va-sen",
+     "label": "virginia",
+     "page": "2026 United States Senate election in Virginia"
+    },
+    {
+     "id": "wv-sen",
+     "label": "west virginia",
+     "page": "2026 United States Senate election in West Virginia"
+    },
+    {
+     "id": "wy-sen",
+     "label": "wyoming",
+     "page": "2026 United States Senate election in Wyoming"
     }
-  ]
+   ],
+   "all_label": "see all senate races"
+  },
+  {
+   "id": "house-races",
+   "label": "key house races",
+   "kind": "electionbox",
+   "races": [
+    {
+     "id": "tx-15",
+     "label": "texas 15",
+     "page": "2026 United States House of Representatives elections in Texas",
+     "district": 15,
+     "key": true
+    },
+    {
+     "id": "ky-06",
+     "label": "kentucky 6",
+     "page": "2026 United States House of Representatives elections in Kentucky",
+     "district": 6,
+     "key": true
+    },
+    {
+     "id": "pa-01",
+     "label": "pennsylvania 1",
+     "page": "2026 United States House of Representatives elections in Pennsylvania",
+     "district": 1,
+     "key": true
+    },
+    {
+     "id": "pa-08",
+     "label": "pennsylvania 8",
+     "page": "2026 United States House of Representatives elections in Pennsylvania",
+     "district": 8,
+     "key": true
+    },
+    {
+     "id": "mi-07",
+     "label": "michigan 7",
+     "page": "2026 United States House of Representatives elections in Michigan",
+     "district": 7,
+     "key": true
+    },
+    {
+     "id": "va-02",
+     "label": "virginia 2",
+     "page": "2026 United States House of Representatives elections in Virginia",
+     "district": 2,
+     "key": true
+    },
+    {
+     "id": "va-05",
+     "label": "virginia 5",
+     "page": "2026 United States House of Representatives elections in Virginia",
+     "district": 5,
+     "key": true
+    },
+    {
+     "id": "co-08",
+     "label": "colorado 8",
+     "page": "2026 United States House of Representatives elections in Colorado",
+     "district": 8,
+     "key": true
+    },
+    {
+     "id": "ia-01",
+     "label": "iowa 1",
+     "page": "2026 United States House of Representatives elections in Iowa",
+     "district": 1,
+     "key": true
+    },
+    {
+     "id": "ny-17",
+     "label": "new york 17",
+     "page": "2026 United States House of Representatives elections in New York",
+     "district": 17,
+     "key": true
+    },
+    {
+     "id": "ny-10",
+     "label": "new york 10",
+     "page": "2026 United States House of Representatives elections in New York",
+     "district": 10,
+     "key": true
+    }
+   ]
+  },
+  {
+   "id": "governors",
+   "label": "governors",
+   "kind": "infobox",
+   "races": [
+    {
+     "id": "az-gov",
+     "label": "arizona",
+     "page": "2026 Arizona gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "ga-gov",
+     "label": "georgia",
+     "page": "2026 Georgia gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "mi-gov",
+     "label": "michigan",
+     "page": "2026 Michigan gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "wi-gov",
+     "label": "wisconsin",
+     "page": "2026 Wisconsin gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "nv-gov",
+     "label": "nevada",
+     "page": "2026 Nevada gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "pa-gov",
+     "label": "pennsylvania",
+     "page": "2026 Pennsylvania gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "oh-gov",
+     "label": "ohio",
+     "page": "2026 Ohio gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "fl-gov",
+     "label": "florida",
+     "page": "2026 Florida gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "ny-gov",
+     "label": "new york",
+     "page": "2026 New York gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "co-gov",
+     "label": "colorado",
+     "page": "2026 Colorado gubernatorial election",
+     "key": true
+    },
+    {
+     "id": "al-gov",
+     "label": "alabama",
+     "page": "2026 Alabama gubernatorial election"
+    },
+    {
+     "id": "ak-gov",
+     "label": "alaska",
+     "page": "2026 Alaska gubernatorial election"
+    },
+    {
+     "id": "ar-gov",
+     "label": "arkansas",
+     "page": "2026 Arkansas gubernatorial election"
+    },
+    {
+     "id": "ca-gov",
+     "label": "california",
+     "page": "2026 California gubernatorial election"
+    },
+    {
+     "id": "ct-gov",
+     "label": "connecticut",
+     "page": "2026 Connecticut gubernatorial election"
+    },
+    {
+     "id": "hi-gov",
+     "label": "hawaii",
+     "page": "2026 Hawaii gubernatorial election"
+    },
+    {
+     "id": "id-gov",
+     "label": "idaho",
+     "page": "2026 Idaho gubernatorial election"
+    },
+    {
+     "id": "il-gov",
+     "label": "illinois",
+     "page": "2026 Illinois gubernatorial election"
+    },
+    {
+     "id": "ia-gov",
+     "label": "iowa",
+     "page": "2026 Iowa gubernatorial election"
+    },
+    {
+     "id": "ks-gov",
+     "label": "kansas",
+     "page": "2026 Kansas gubernatorial election"
+    },
+    {
+     "id": "me-gov",
+     "label": "maine",
+     "page": "2026 Maine gubernatorial election"
+    },
+    {
+     "id": "md-gov",
+     "label": "maryland",
+     "page": "2026 Maryland gubernatorial election"
+    },
+    {
+     "id": "ma-gov",
+     "label": "massachusetts",
+     "page": "2026 Massachusetts gubernatorial election"
+    },
+    {
+     "id": "mn-gov",
+     "label": "minnesota",
+     "page": "2026 Minnesota gubernatorial election"
+    },
+    {
+     "id": "ne-gov",
+     "label": "nebraska",
+     "page": "2026 Nebraska gubernatorial election"
+    },
+    {
+     "id": "nh-gov",
+     "label": "new hampshire",
+     "page": "2026 New Hampshire gubernatorial election"
+    },
+    {
+     "id": "nm-gov",
+     "label": "new mexico",
+     "page": "2026 New Mexico gubernatorial election"
+    },
+    {
+     "id": "ok-gov",
+     "label": "oklahoma",
+     "page": "2026 Oklahoma gubernatorial election"
+    },
+    {
+     "id": "or-gov",
+     "label": "oregon",
+     "page": "2026 Oregon gubernatorial election"
+    },
+    {
+     "id": "ri-gov",
+     "label": "rhode island",
+     "page": "2026 Rhode Island gubernatorial election"
+    },
+    {
+     "id": "sc-gov",
+     "label": "south carolina",
+     "page": "2026 South Carolina gubernatorial election"
+    },
+    {
+     "id": "sd-gov",
+     "label": "south dakota",
+     "page": "2026 South Dakota gubernatorial election"
+    },
+    {
+     "id": "tn-gov",
+     "label": "tennessee",
+     "page": "2026 Tennessee gubernatorial election"
+    },
+    {
+     "id": "tx-gov",
+     "label": "texas",
+     "page": "2026 Texas gubernatorial election"
+    },
+    {
+     "id": "vt-gov",
+     "label": "vermont",
+     "page": "2026 Vermont gubernatorial election"
+    },
+    {
+     "id": "wy-gov",
+     "label": "wyoming",
+     "page": "2026 Wyoming gubernatorial election"
+    }
+   ],
+   "all_label": "see all governor races"
+  }
+ ]
 }
