@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-04T04:01:47.934479+00:00",
-  "text": "ConocoPhillips fell 1.66% today to $144.40, giving back gains from a sharp rally earlier in the week. The stock peaked at $154.03 on October 30th but has retreated $9.63 since then\u2014a move driven primarily by crude oil prices cooling over the past two days. US oil fell from elevated levels as markets priced in hopes for a diplomatic resolution to the Iran conflict, reducing fears of major supply disruptions that had briefly pushed prices higher.\n\nThe broader context matters here: oil companies benefit when crude prices are high and rising, but they suffer when prices fall and uncertainty about geopolitical risk starts to ease. Yesterday's U.S. military strikes on Iran's Qeshm Island did not prevent oil from declining, and signals of openness to negotiation from both sides have now weighed on energy stocks more than geopolitical risk premiums have supported them. Separately, news about Democratic gains in the midterms could add longer-term headwinds for traditional energy companies if it leads to policy favoring renewables over oil and gas.",
+  "fetchedAt": "2026-11-04T05:01:38.375012+00:00",
+  "text": "ConocoPhillips fell 1.66% today after crude oil prices dropped for a second consecutive day, driven by hopes for a diplomatic resolution to the Iran conflict rather than continued military escalation. Oil at $103 per barrel in the U.S. and $123 globally represents a pullback from the sharp spike that had pushed the stock to $154 just four trading days ago. Since oil companies' earnings move directly with the price of crude they produce and sell, the retreat in energy markets pulled the stock down from its recent peak.\n\nThe broader political backdrop adds another layer: Democratic gains in the midterms (announced yesterday) could shift energy policy toward renewable sources like offshore wind and solar, which competes with oil demand over the long term. While oil prices remain elevated compared to historical levels, the combination of immediate crude weakness and uncertainty about the political environment for fossil fuels explains the stock's struggle to hold onto last week's gains.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 3,
-    "inputTokens": 2536,
-    "outputTokens": 563,
-    "estimatedCostUsd": 0.005351,
-    "lastCallHour": "2026-11-04T04"
+    "callsThisMonth": 4,
+    "inputTokens": 3384,
+    "outputTokens": 763,
+    "estimatedCostUsd": 0.007199,
+    "lastCallHour": "2026-11-04T05"
   }
 }

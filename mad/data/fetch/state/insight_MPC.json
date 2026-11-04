@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T04:02:14.537006+00:00",
-  "text": "Marathon Petroleum fell 0.71% today, closing out a tough two-week stretch down 10%. The stock moved lower on the same day the company reported its quarterly earnings and announced a leadership change, suggesting investors reacted negatively to either the financial results themselves or what management signaled about the road ahead. Oil prices remain elevated\u2014U.S. crude at $103 a barrel\u2014but refineries are running near full capacity at 92.8%, which limits upside for refining margins.\n\nThe broader context matters too: refiners have faced headwinds despite strong crude prices because profit margins depend on the gap between what they pay for oil and what they charge for finished fuel, and that spread has tightened as gasoline and diesel stockpiles have built up. Political risk also emerged on the same day\u2014news about the midterms raised the possibility of a Democratic Congress pushing more renewable energy, which could weigh on long-term sentiment in fossil fuel refining stocks.",
+  "fetchedAt": "2026-11-04T05:01:51.275126+00:00",
+  "text": "Marathon Petroleum fell 0.7% today to $427.34, continuing a sharp two-week slide of over 10%. The stock sank despite oil prices sitting near $103 per barrel domestically, suggesting the decline isn't driven by crude weakness. Instead, the immediate trigger appears to be today's earnings announcement and quarterly report \u2014 both filed this morning \u2014 combined with news of a leadership change, either of which could have disappointed investors on forward guidance or strategic direction.\n\nThe broader picture adds weight to this: refinery utilization stands at 92.8%, and the company operates in an environment where Big Oil earnings are expected to surge, yet analysts have been cautioning that guidance matters more than the headline numbers themselves. The stock's 10% two-week drop and today's further decline suggest the market is pricing in either softer-than-expected guidance from Marathon or concern about how leadership transitions could affect strategy going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 3,
-    "inputTokens": 2403,
-    "outputTokens": 601,
-    "estimatedCostUsd": 0.005408,
-    "lastCallHour": "2026-11-04T04"
+    "callsThisMonth": 4,
+    "inputTokens": 3204,
+    "outputTokens": 797,
+    "estimatedCostUsd": 0.007189,
+    "lastCallHour": "2026-11-04T05"
   }
 }
