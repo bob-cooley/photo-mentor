@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T06:00:50.309971+00:00",
-  "text": "Marathon Petroleum fell 0.71% today to $427.34, continuing a rough two-week slide of over 10%. The immediate trigger was the company's quarterly earnings announcement and a leadership change on November 3rd, along with release of its quarterly financial report. While the stock had climbed sharply on October 30th, today's decline suggests the earnings results and forward guidance disappointed investors or raised concerns about the company's direction under new leadership.\n\nThe broader backdrop weighs on refining stocks right now. U.S. oil is trading at $103 per barrel while refineries are running at 92.8% capacity, and storage levels for gasoline and diesel remain healthy \u2014 conditions that normally support refiner margins. However, a CNBC report from late October cautioned that Big Oil earnings guidance matters more than current results, and a Democratic Congress could shift energy policy away from traditional oil refining toward renewables, adding political uncertainty to the sector's outlook.",
+  "fetchedAt": "2026-11-04T13:02:56.421440+00:00",
+  "text": "Marathon Petroleum fell slightly today as the stock continues a broader two-week decline despite solid refining conditions. The company reported quarterly earnings and a leadership change on November 3rd, but the market's reaction has been cautious \u2014 the stock is down 10% over two weeks even as U.S. oil prices sit near $103 per barrel and U.S. refineries operate at a healthy 92.8% capacity, conditions that typically support refiner profitability.\n\nThe caution likely reflects broader skepticism about Big Oil guidance going forward. Market commentary from late October flagged that while energy earnings are strong right now, investor focus is shifting to what companies will say about future demand and returns \u2014 especially with the possibility of a Democratic Congress that could prioritize renewable energy over traditional oil and gas infrastructure.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 39,
-    "inputTokens": 33875,
-    "outputTokens": 7957,
-    "estimatedCostUsd": 0.07366,
-    "lastCallHour": "2026-11-04T06"
+    "callsThisMonth": 40,
+    "inputTokens": 34676,
+    "outputTokens": 8128,
+    "estimatedCostUsd": 0.075316,
+    "lastCallHour": "2026-11-04T13"
   }
 }
