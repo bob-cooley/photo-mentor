@@ -384,6 +384,26 @@ def tally_senate(out):
     log(f"  senate tally: holdover {hold} -> {seats}")
 
 
+def tally_house_key(out):
+    """House box: called results among the key districts on the page.
+
+    The full 435-seat count has no free live source, so this is labelled as
+    a key-district tally rather than chamber control.
+    """
+    ch = next((c for c in out["chambers"] if c["id"] == "house"), None)
+    sec = next((s for s in out["sections"] if s["id"] == "house-races"), None)
+    if not ch or not sec or ch["seats"]["D"] is not None:
+        return
+    seats = {"D": 0, "R": 0, "O": 0}
+    for r in sec["races"]:
+        if r["called"] in seats:
+            seats[r["called"]] += 1
+    n = len(sec["races"])
+    ch.update(seats=seats, total=n, majority=None, label="house · key districts",
+              basis=f"{n} key districts tracked here, not the full 435-seat House")
+    log(f"  house key tally: {seats} of {n}")
+
+
 def main():
     cfg = json.loads((HERE / "races.json").read_text())
     ov = json.loads((HERE / "overrides.json").read_text())
@@ -433,6 +453,7 @@ def main():
 
     apply_news_calls(cfg, ov, out)
     tally_senate(out)
+    tally_house_key(out)
     for ch in out["chambers"]:
         manual = ov.get("chambers", {}).get(ch["id"])
         if manual:
