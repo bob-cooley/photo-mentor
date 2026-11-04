@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Diagnostic: civicAPI search parameters and a sample race payload."""
-import json, re, time, urllib.request, urllib.parse
+"""Diagnostic: is civicAPI answering, and what does a race look like?"""
+import json, time, urllib.request, urllib.parse
 UA = "bobcooleyphoto-election-board/1.0 (https://bobcooleyphoto.com/election/)"
 def get(u, timeout=60, tries=3):
     for i in range(tries):
@@ -9,21 +9,15 @@ def get(u, timeout=60, tries=3):
             t0 = time.time()
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 b = r.read().decode("utf-8", "replace")
-                print(f"  ok {u} in {time.time()-t0:.1f}s")
+                print(f"  ok {r.status} {u} in {time.time()-t0:.1f}s, {len(b)} bytes")
                 return b
         except Exception as e:
             print(f"  try {i+1} {u}: {e}")
-            time.sleep(4)
+            time.sleep(5)
     return None
-js = get("https://civicapi.org/assets/index-BLrhAH3t.js")
-for var in re.findall(r"(\w+)=`https://civicapi\.org/api/v2/race/search`", js or ""):
-    for m in list(re.finditer(rf"\$\{{{var}\}}[^`]{{0,200}}", js))[:6]:
-        print("USE", m.group(0)[:220])
-    for m in list(re.finditer(rf"\b{var}\b[,)][^;]{{0,200}}", js))[:4]:
-        print("USE2", m.group(0)[:220])
-for m in list(re.finditer(r"race/search\?[^`'\"]{0,120}", js or ""))[:6]:
-    print("QS", m.group(0))
-for m in list(re.finditer(r"URLSearchParams\(\{[^}]{0,200}\}", js or ""))[:8]:
-    print("USP", m.group(0))
+get("https://civicapi.org/api/v2/status", 30, 2)
 b = get("https://civicapi.org/api/v2/race/87524")
-print("RACE 87524:", (b or "")[:3000])
+print("RACE:", (b or "")[:2500])
+qs = urllib.parse.urlencode({"country": "US", "province": "TX", "startDate": "2026-11-03", "endDate": "2026-11-03", "limit": "50"})
+b = get("https://civicapi.org/api/v2/race/search?" + qs)
+print("SEARCH:", (b or "")[:4000])
