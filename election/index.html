@@ -20,6 +20,10 @@
     --oth: #9a8fb0;
     --win: #1e8a3c;
     --empty: #d9d7d2;
+    --dem-bg: #e8eef8;
+    --dem-line: #c9d6ec;
+    --rep-bg: #f8e8e6;
+    --rep-line: #ecccc8;
   }
   /* dark: follows the system unless the toggle has picked a side */
   @media (prefers-color-scheme: dark) {
@@ -34,6 +38,10 @@
       --oth: #8a80a3;
       --win: #3fbf62;
       --empty: #34353a;
+      --dem-bg: #1a2130;
+      --dem-line: #2a3a55;
+      --rep-bg: #2a1b1c;
+      --rep-line: #4d2c2c;
       color-scheme: dark;
     }
   }
@@ -48,6 +56,10 @@
     --oth: #8a80a3;
     --win: #3fbf62;
     --empty: #34353a;
+    --dem-bg: #1a2130;
+    --dem-line: #2a3a55;
+    --rep-bg: #2a1b1c;
+    --rep-line: #4d2c2c;
     color-scheme: dark;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -113,7 +125,9 @@
   }
   .theme:hover { border-color: var(--ink); }
   .theme:focus-visible, .btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-  .card { transition: box-shadow 0.4s ease; }
+  .card { transition: box-shadow 0.4s ease, background-color 0.6s ease, border-color 0.6s ease; }
+  .card.won-D { background: var(--dem-bg); border-color: var(--dem-line); }
+  .card.won-R { background: var(--rep-bg); border-color: var(--rep-line); }
   .card.changed { box-shadow: 0 0 0 2px var(--ink); }
 </style>
 </head>
@@ -214,7 +228,8 @@
     var status = called
       ? '<span class="status called" title="' + esc(r.called_by || "") + '">called: ' + esc(lastName(winL ? L.name : winR ? Rt.name : "")).toLowerCase() + '</span>'
       : '<span class="status">' + (counting ? "no votes reported" : "counting") + '</span>';
-    return '<div class="card" data-id="' + esc(r.id) + '">' +
+    var won = called === "D" || called === "R" ? " won-" + called : "";
+    return '<div class="card' + won + '" data-id="' + esc(r.id) + '">' +
       '<div class="head"><span class="label">' + esc(r.label) + '</span>' + status + '</div>' +
       '<div class="names">' +
         '<span class="' + (winL ? "win" : "") + '" style="color:var(--' + PARTY[L.party] + ', var(--oth))">' + esc(L.name) + '</span>' +
