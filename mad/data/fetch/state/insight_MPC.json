@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T02:44:26.507561+00:00",
-  "text": "Marathon Petroleum closed down 0.7% today after releasing its quarterly earnings report this morning. The stock has fallen 10% over two weeks despite relatively stable oil prices (US crude around $103/barrel), suggesting the market's reaction to the company's numbers and forward guidance was disappointing\u2014particularly given the CNBC warning from four days ago that Big Oil earnings guidance, not just past results, would be what investors focus on most.\n\nThe timing matters: a leadership change was announced alongside the earnings, which can add uncertainty even when underlying business conditions look reasonable. Refineries are running at 92.8% capacity with ample crude supply, so operational challenges don't appear to be the driver here\u2014this looks more like a earnings-expectations or guidance issue that shifted investor sentiment on the stock.",
+  "fetchedAt": "2026-11-04T03:01:06.209981+00:00",
+  "text": "Marathon Petroleum fell 0.7% today to close at $427.34, continuing a rough two-week decline of 10%. The stock dropped despite the company announcing quarterly earnings earlier today\u2014a typically bullish event\u2014suggesting investors are focused on what comes next rather than past results. Oil prices remain elevated (US crude at $103/barrel, world crude at $123/barrel), which should be tailwind for a refiner, but refineries are running at 92.8% capacity and storage levels are healthy, meaning there's less urgency driving margins.\n\nThe broader headwind appears to be political: a Democratic Congress taking shape after the 2026 midterms would likely accelerate support for wind and solar energy, which erodes the long-term demand outlook for oil-dependent businesses like refineries. Combined with CNBC's recent warning that Big Oil earnings surges may not translate into stock gains if forward guidance disappoints, investors seem to be pricing in a less favorable road ahead for traditional energy refining despite today's solid commodity prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 1,
-    "inputTokens": 801,
-    "outputTokens": 169,
-    "estimatedCostUsd": 0.001646,
-    "lastCallHour": "2026-11-04T02"
+    "callsThisMonth": 2,
+    "inputTokens": 1602,
+    "outputTokens": 392,
+    "estimatedCostUsd": 0.003562,
+    "lastCallHour": "2026-11-04T03"
   }
 }

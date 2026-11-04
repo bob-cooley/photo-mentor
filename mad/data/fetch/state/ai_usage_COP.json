@@ -1,8 +1,8 @@
 {
   "month": "2026-11",
-  "callsThisMonth": 1,
-  "inputTokens": 844,
-  "outputTokens": 139,
-  "estimatedCostUsd": 0.001539,
-  "lastCallHour": "2026-11-04T02"
+  "callsThisMonth": 2,
+  "inputTokens": 1688,
+  "outputTokens": 327,
+  "estimatedCostUsd": 0.003323,
+  "lastCallHour": "2026-11-04T03"
 }
