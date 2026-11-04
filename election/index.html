@@ -171,6 +171,7 @@
   .foot:not(:has(span)) { display: none; }
   .chamber .names { font-size: 15px; font-weight: 600; }
   .basis { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .card[data-id="co-04"] { touch-action: manipulation; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
   .card.cry { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; }
   .card.cry svg { width: 150px; height: 158px; }
   .card.cry .cf { opacity: 0; animation: cry-frames 0.75s steps(1, end) infinite; }
@@ -221,7 +222,7 @@
     </div>
   </header>
   <section>
-    <h2><span id="ctl-word" style="cursor:default;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation">control</span></h2>
+    <h2>control</h2>
     <div class="chambers" id="chambers"></div>
   </section>
   <div id="sections"></div>
@@ -290,7 +291,7 @@
 
   // If Boebert's race is called and she is not the winner, a three-frame
   // crying cartoon sits in the grid right after her card.
-  var forceCry = false;  // test: 5 taps on "control" shows the cartoon regardless
+  var forceCry = false;  // test: 5 taps on the colorado 4 card shows the cartoon regardless
   function boebertLost(r) {
     if (forceCry && r.id === "co-04") return true;
     if (!r.called || !r.candidates) return false;
@@ -454,7 +455,9 @@
   // test triggers: tap a title word 5 times within 20 seconds
   var taps = {};
   var ctlTaps = [];
-  document.getElementById("ctl-word").addEventListener("click", function () {
+  document.getElementById("sections").addEventListener("click", function (e) {
+    var card = e.target.closest('.card[data-id="co-04"]');
+    if (!card) return;
     var now = Date.now();
     ctlTaps = ctlTaps.filter(function (t) { return now - t < 20000; });
     ctlTaps.push(now);
@@ -462,8 +465,6 @@
       ctlTaps = [];
       forceCry = !forceCry;
       if (lastData) render(lastData);
-      var c = document.querySelector(".card.cry");
-      if (c) c.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   });
   Array.prototype.forEach.call(document.querySelectorAll("h1 .w"), function (b) {
