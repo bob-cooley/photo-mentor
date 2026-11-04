@@ -70,6 +70,10 @@
   .nums .D { color: var(--dem); font-weight: 600; }
   .nums .R { color: var(--rep); font-weight: 600; }
   .nums .mid { color: var(--muted); }
+  .rep { display: flex; align-items: center; gap: 8px; margin-top: 8px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .meter { flex: 0 0 90px; height: 4px; border-radius: 2px; background: var(--empty); overflow: hidden; }
+  .meter i { display: block; height: 100%; background: var(--muted); transition: width 0.6s ease; }
+  .meter.full i { background: var(--ink); }
   .foot { font-size: 12px; color: var(--muted); margin-top: 6px; }
   .foot a { color: inherit; display: none; } /* source links hidden for now */
   .foot:not(:has(span)) { display: none; }
@@ -148,6 +152,17 @@
       '</div></div>';
   }
 
+  function repLine(r) {
+    var v = r.reporting;
+    if (v == null) {
+      return '<div class="rep"><div class="meter"></div><span>reporting n/a</span></div>';
+    }
+    var w = Math.max(0, Math.min(100, v));
+    var txt = (w % 1 ? w.toFixed(1) : w) + "% reported" +
+      (r.last_update ? " · as of " + esc(String(r.last_update).toLowerCase()) : "");
+    return '<div class="rep"><div class="meter' + (w >= 100 ? " full" : "") + '"><i style="width:' + w + '%"></i></div><span>' + txt + '</span></div>';
+  }
+
   function raceCard(r) {
     var c = r.candidates || [];
     if (!r.ok || c.length === 0) {
@@ -183,6 +198,7 @@
         '<span class="mid">' + (r.total_votes ? fmt(r.total_votes) + " votes" : "") + (op ? " · other " + pct(op) : "") + '</span>' +
         '<span class="' + (Rt ? Rt.party : "") + '">' + (Rt ? pct(Rt.pct) : "") + '</span>' +
       '</div>' +
+      repLine(r) +
       '<div class="foot"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">source</a>' + (r.manual ? "<span>hand-corrected</span>" : "") + '</div>' +
       '</div>';
   }

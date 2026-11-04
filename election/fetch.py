@@ -191,7 +191,11 @@ def from_infobox(text):
                 break
         if winner is None and is_set(p.get("after_party")):
             winner = party_code(p["after_party"])
-    return {"candidates": cands, "called": winner}
+    rep = num(p.get("reporting") or p.get("votes_counted"))
+    if rep is not None and not 0 <= rep <= 100:
+        rep = None
+    return {"candidates": cands, "called": winner, "reporting": rep,
+            "last_update": clean(p.get("last_update"))[:40] or None}
 
 
 def district_section(text, district):
@@ -242,7 +246,7 @@ def from_electionbox(text, district):
     if DEBUG:
         for c in cands:
             log(f"    {c}")
-    return {"candidates": cands, "called": winner}
+    return {"candidates": cands, "called": winner, "reporting": None, "last_update": None}
 
 
 # ---------- assemble ----------
@@ -321,11 +325,13 @@ def main():
                 data = from_infobox(text) if sec["kind"] == "infobox" else from_electionbox(text, r["district"])
             entry = {"id": r["id"], "label": r["label"],
                      "url": "https://en.wikipedia.org/wiki/" + urllib.parse.quote(r["page"].replace(" ", "_")),
-                     "candidates": [], "other_pct": 0, "total_votes": 0, "called": None, "ok": False}
+                     "candidates": [], "other_pct": 0, "total_votes": 0, "called": None, "ok": False,
+                     "reporting": None, "last_update": None}
             if data and data["candidates"]:
                 top, other_pct, total = tidy(data["candidates"])
                 entry.update(candidates=top, other_pct=other_pct, total_votes=total,
-                             called=data["called"], ok=True)
+                             called=data["called"], ok=True,
+                             reporting=data["reporting"], last_update=data["last_update"])
             o = ov.get("races", {}).get(r["id"])
             if o:
                 entry.update({k: v for k, v in o.items() if not k.startswith("_")})
