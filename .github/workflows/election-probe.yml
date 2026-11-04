@@ -13,3 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 election/fetch.py | grep -E "tally|civic|control|wrote" || true
+      - run: python3 -c "import json;d=json.load(open('election/data.json'));[print(r['id'],r['called'],r.get('called_by'),r['reporting'],[(c['name'],c['pct']) for c in r['candidates']]) for s in d['sections'] for r in s['races'] if r['id'] in ('ny-gov','mi-gov','mi-sen','tx-gov','tx-sen')]"
