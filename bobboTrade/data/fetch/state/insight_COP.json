@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-03T22:51:19.277069+00:00",
-  "text": "ConocoPhillips fell 1.64% today to $144.44, extending a sharp decline from its peak of $154.03 just two trading days ago. The primary driver is a drop in crude oil prices \u2014 U.S. crude fell to $103.37 per barrel today as markets grew hopeful about a diplomatic resolution to the Iran conflict, reversing the war premium that had pushed oil higher earlier in the week. For an oil producer like ConocoPhillips, lower crude prices directly reduce the value of the barrels it sells.\n\nThe stock's pullback also reflects uncertainty around the midterm elections, with investors weighing how a potential Democratic Congress could shift energy policy toward renewables and away from fossil fuels \u2014 a longer-term headwind for traditional oil and gas companies.",
+  "fetchedAt": "2026-11-04T02:41:42.189496+00:00",
+  "text": "ConocoPhillips fell 1.66% today after crude oil prices dropped for the second consecutive day on hopes for a diplomatic resolution to the Iran conflict. The stock had climbed nearly $7 over the prior four trading days as tensions escalated, but yesterday's signals from both the U.S. and Iranian presidents that they're open to talks spooked oil investors\u2014crude fell sharply, which directly pressures integrated oil companies' profits and share prices.\n\nThe broader backdrop matters here: a Democratic sweep in the midterms could also weigh on energy stocks, since the news explicitly notes Democratic control would favor offshore wind and solar over traditional oil and gas. Combined with geopolitical de-escalation reducing the \"fear premium\" that had been supporting crude prices above $150 just days ago, the momentum reversed quickly for ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 34,
-    "inputTokens": 29622,
-    "outputTokens": 7060,
-    "estimatedCostUsd": 0.064922,
-    "lastCallHour": "2026-11-03T22"
+    "callsThisMonth": 35,
+    "inputTokens": 30466,
+    "outputTokens": 7243,
+    "estimatedCostUsd": 0.066681,
+    "lastCallHour": "2026-11-04T02"
   }
 }

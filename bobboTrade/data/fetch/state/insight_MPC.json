@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-03T22:52:17.610279+00:00",
-  "text": "Marathon Petroleum fell 0.64% today, closing a two-week slide of nearly 10%. The stock dropped on the day the company announced quarterly earnings and a leadership change, after already sliding through late October\u2014a period when broader oil refiner concerns about guidance and forward outlook (not just past earnings) have weighed on the sector. Refinery utilization remains solid at 92.8%, but US crude oil prices are down from earlier in the month, which can compress profit margins for refiners who convert cheap raw crude into fuels.\n\nThe two-week decline fits a pattern: investors have grown cautious about Big Oil earnings season, specifically questioning what company guidance will reveal about future profitability rather than treating strong recent results as a reliable sign. A Democratic Congress (suggested as possible after the 2026 midterms) could also shift long-term energy policy toward renewables, adding uncertainty for traditional refining businesses that investors are already reassessing.",
+  "fetchedAt": "2026-11-04T02:42:01.530804+00:00",
+  "text": "Marathon Petroleum fell 0.7% today to $427.34, continuing a two-week decline of 10%. The stock was pressured on the heels of quarterly earnings and financial reports released today, which investors are still digesting. Additionally, energy markets have shifted: US crude dropped below $104 per barrel while global crude trades at $123, and refineries are running at 92.8% capacity \u2014 solid but not stretched. A leadership change at the company also accompanied today's reporting.\n\nThe broader energy sector has been cautious heading into this earnings season. Analysts flagged last week that while Big Oil earnings are expected to be strong, forward guidance will be the real driver of stock moves \u2014 and today's combination of results, management transition, and soft refining margins (the gap between crude costs and refined product prices) appears to have disappointed rather than excited investors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 34,
-    "inputTokens": 29870,
-    "outputTokens": 6959,
-    "estimatedCostUsd": 0.064665,
-    "lastCallHour": "2026-11-03T22"
+    "callsThisMonth": 35,
+    "inputTokens": 30671,
+    "outputTokens": 7145,
+    "estimatedCostUsd": 0.066396,
+    "lastCallHour": "2026-11-04T02"
   }
 }
