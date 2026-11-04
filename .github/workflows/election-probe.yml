@@ -1,0 +1,18 @@
+name: Election probe
+
+# One-shot diagnostic: runs the election fetcher with debug output and prints
+# data.json. No upload. Lets the parser be checked without waiting for the
+# long-running refresh job to finish.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 election/fetch.py --debug
+      - run: cat election/data.json
