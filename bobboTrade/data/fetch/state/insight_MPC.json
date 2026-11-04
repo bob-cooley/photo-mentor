@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T16:03:00.356216+00:00",
-  "text": "I don't have today's price move data for MPC, so I can't tell you what direction the stock went or by how much. To explain the move, I'd need to know whether the stock is up or down today and by what percentage.\n\nThat said, the data shows MPC just reported quarterly earnings and announced a leadership change on October 29th, with the full quarterly report filed November 3rd. Refineries are running at 92.8% capacity \u2014 near full utilization \u2014 and oil prices remain elevated (US crude at $103/barrel), which typically supports refiner margins. However, a broader caution from analysts about Big Oil earnings (noted October 29th) suggests investors may be skeptical about forward guidance despite strong current conditions, and upcoming political shifts toward renewable energy could weigh on long-term refining outlooks.",
+  "fetchedAt": "2026-11-04T17:02:42.490451+00:00",
+  "text": "I don't have today's price move data for MPC, so I can't tell you what direction the stock moved or by how much. Without that information, I can't explain the day's move in the way you're asking.\n\nThat said, the news from today shows Marathon Petroleum released its quarterly earnings and announced a leadership change, both of which typically move a stock \u2014 the earnings figure itself and the market's reaction to guidance for coming quarters will matter more than the headline numbers. Refinery utilization is running at a solid 92.8%, and oil prices remain elevated (US crude at $103, global at $123), which supports refiner margins, but broader sentiment toward Big Oil earnings has been cautious according to reporting from earlier this week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 43,
-    "inputTokens": 36963,
-    "outputTokens": 8766,
-    "estimatedCostUsd": 0.080793,
-    "lastCallHour": "2026-11-04T16"
+    "callsThisMonth": 44,
+    "inputTokens": 37650,
+    "outputTokens": 8926,
+    "estimatedCostUsd": 0.08228,
+    "lastCallHour": "2026-11-04T17"
   }
 }
