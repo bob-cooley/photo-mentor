@@ -74,13 +74,24 @@
   .note { color: var(--muted); font-size: 12px; margin-top: 40px; line-height: 1.6; }
   .note a { color: inherit; }
   .err { color: var(--rep); font-size: 13px; }
+  .live { display: flex; align-items: center; gap: 10px; }
+  .btn {
+    font: inherit; font-size: 12px; color: var(--ink); background: var(--card);
+    border: 1px solid var(--line); border-radius: 4px; padding: 3px 9px; cursor: pointer;
+  }
+  .btn:hover { border-color: var(--muted); }
+  .card { transition: box-shadow 0.4s ease; }
+  .card.changed { box-shadow: 0 0 0 2px var(--ink); }
 </style>
 </head>
 <body>
 <main>
   <header>
     <h1>election night 2026</h1>
-    <div class="stamp" id="stamp">loading</div>
+    <div class="live">
+      <div class="stamp" id="stamp">loading</div>
+      <button class="btn" id="refresh" type="button">refresh</button>
+    </div>
   </header>
   <section>
     <h2>control</h2>
@@ -95,6 +106,9 @@
 <script>
 (function () {
   var REFRESH_MS = 60000;
+  var lastSig = {};
+  var nextAt = 0;
+  var stampText = "loading";
   var PARTY = { D: "dem", R: "rep", O: "ind" };
 
   function esc(s) {
@@ -154,7 +168,7 @@
     var status = called
       ? '<span class="status called">called: ' + esc(lastName(winL ? L.name : winR ? Rt.name : "")).toLowerCase() + '</span>'
       : '<span class="status">' + (counting ? "no votes reported" : "counting") + '</span>';
-    return '<div class="card">' +
+    return '<div class="card" data-id="' + esc(r.id) + '">' +
       '<div class="head"><span class="label">' + esc(r.label) + '</span>' + status + '</div>' +
       '<div class="names">' +
         '<span class="' + (winL ? "win" : "") + '" style="color:var(--' + PARTY[L.party] + ', var(--oth))">' + esc(L.name) + '</span>' +
@@ -175,15 +189,36 @@
     document.getElementById("sections").innerHTML = (d.sections || []).map(function (s) {
       return '<section><h2>' + esc(s.label) + '</h2><div class="grid">' + s.races.map(raceCard).join("") + '</div></section>';
     }).join("");
+    // flash any race whose numbers or call changed since the last poll
+    var first = Object.keys(lastSig).length === 0;
+    (d.sections || []).forEach(function (s) {
+      s.races.forEach(function (r) {
+        var sig = JSON.stringify([r.candidates, r.called, r.total_votes]);
+        if (!first && lastSig[r.id] !== sig) {
+          var el = document.querySelector('.card[data-id="' + r.id + '"]');
+          if (el) {
+            el.classList.add("changed");
+            setTimeout(function () { el.classList.remove("changed"); }, 4000);
+          }
+        }
+        lastSig[r.id] = sig;
+      });
+    });
     var when = new Date(d.updated);
     var ageMin = (Date.now() - when.getTime()) / 60000;
+    stampText = "data as of " + when.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
     var st = document.getElementById("stamp");
-    st.textContent = "data as of " + when.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" }) +
-      " " + (Intl.DateTimeFormat().resolvedOptions().timeZone || "");
     st.className = "stamp" + (ageMin > 15 ? " stale" : "");
+    tick();
+  }
+
+  function tick() {
+    var secs = Math.max(0, Math.round((nextAt - Date.now()) / 1000));
+    document.getElementById("stamp").textContent = stampText + (nextAt ? " · next check " + secs + "s" : "");
   }
 
   function load() {
+    nextAt = Date.now() + REFRESH_MS;
     fetch("data.json?t=" + Date.now(), { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
       .then(render)
@@ -193,7 +228,12 @@
       });
   }
   load();
-  setInterval(load, REFRESH_MS);
+  setInterval(function () { if (Date.now() >= nextAt) load(); tick(); }, 1000);
+  document.getElementById("refresh").addEventListener("click", load);
+  // background tabs get their timers throttled; catch up on return
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden) load();
+  });
 })();
 </script>
 </body>
