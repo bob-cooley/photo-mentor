@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T03:01:06.209981+00:00",
-  "text": "Marathon Petroleum fell 0.7% today to close at $427.34, continuing a rough two-week decline of 10%. The stock dropped despite the company announcing quarterly earnings earlier today\u2014a typically bullish event\u2014suggesting investors are focused on what comes next rather than past results. Oil prices remain elevated (US crude at $103/barrel, world crude at $123/barrel), which should be tailwind for a refiner, but refineries are running at 92.8% capacity and storage levels are healthy, meaning there's less urgency driving margins.\n\nThe broader headwind appears to be political: a Democratic Congress taking shape after the 2026 midterms would likely accelerate support for wind and solar energy, which erodes the long-term demand outlook for oil-dependent businesses like refineries. Combined with CNBC's recent warning that Big Oil earnings surges may not translate into stock gains if forward guidance disappoints, investors seem to be pricing in a less favorable road ahead for traditional energy refining despite today's solid commodity prices.",
+  "fetchedAt": "2026-11-04T04:02:14.537006+00:00",
+  "text": "Marathon Petroleum fell 0.71% today, closing out a tough two-week stretch down 10%. The stock moved lower on the same day the company reported its quarterly earnings and announced a leadership change, suggesting investors reacted negatively to either the financial results themselves or what management signaled about the road ahead. Oil prices remain elevated\u2014U.S. crude at $103 a barrel\u2014but refineries are running near full capacity at 92.8%, which limits upside for refining margins.\n\nThe broader context matters too: refiners have faced headwinds despite strong crude prices because profit margins depend on the gap between what they pay for oil and what they charge for finished fuel, and that spread has tightened as gasoline and diesel stockpiles have built up. Political risk also emerged on the same day\u2014news about the midterms raised the possibility of a Democratic Congress pushing more renewable energy, which could weigh on long-term sentiment in fossil fuel refining stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 2,
-    "inputTokens": 1602,
-    "outputTokens": 392,
-    "estimatedCostUsd": 0.003562,
-    "lastCallHour": "2026-11-04T03"
+    "callsThisMonth": 3,
+    "inputTokens": 2403,
+    "outputTokens": 601,
+    "estimatedCostUsd": 0.005408,
+    "lastCallHour": "2026-11-04T04"
   }
 }

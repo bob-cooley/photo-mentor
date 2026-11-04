@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-04T03:00:49.718526+00:00",
-  "text": "ConocoPhillips fell 1.66% today after oil prices dropped sharply over the past two days on hopes for a diplomatic resolution to the Iran conflict. Crude has retreated from recent highs as U.S. and Iranian leaders signaled openness to negotiation, easing the geopolitical premium that had pushed prices higher. For an oil producer like ConocoPhillips, lower crude prices directly cut into profit margins and cash flow, which is why the stock followed oil lower despite posting strong gains earlier in the week.\n\nThe sharp reversal from Friday's $154 high to today's $144 also reflects broader uncertainty around the midterm elections and their implications for energy policy. A Democratic Congress could accelerate investment in renewables and offshore wind at the expense of traditional oil and gas development, adding to investor caution about the sector's longer-term outlook.",
+  "fetchedAt": "2026-11-04T04:01:47.934479+00:00",
+  "text": "ConocoPhillips fell 1.66% today to $144.40, giving back gains from a sharp rally earlier in the week. The stock peaked at $154.03 on October 30th but has retreated $9.63 since then\u2014a move driven primarily by crude oil prices cooling over the past two days. US oil fell from elevated levels as markets priced in hopes for a diplomatic resolution to the Iran conflict, reducing fears of major supply disruptions that had briefly pushed prices higher.\n\nThe broader context matters here: oil companies benefit when crude prices are high and rising, but they suffer when prices fall and uncertainty about geopolitical risk starts to ease. Yesterday's U.S. military strikes on Iran's Qeshm Island did not prevent oil from declining, and signals of openness to negotiation from both sides have now weighed on energy stocks more than geopolitical risk premiums have supported them. Separately, news about Democratic gains in the midterms could add longer-term headwinds for traditional energy companies if it leads to policy favoring renewables over oil and gas.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 2,
-    "inputTokens": 1688,
-    "outputTokens": 327,
-    "estimatedCostUsd": 0.003323,
-    "lastCallHour": "2026-11-04T03"
+    "callsThisMonth": 3,
+    "inputTokens": 2536,
+    "outputTokens": 563,
+    "estimatedCostUsd": 0.005351,
+    "lastCallHour": "2026-11-04T04"
   }
 }
