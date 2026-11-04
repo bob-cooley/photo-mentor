@@ -339,6 +339,41 @@ def tidy(cands):
     return top, other_pct, total
 
 
+def apply_civic_races(out, ov, civic):
+    """Senate and governor cards: civicAPI vote counts, % reported and calls.
+
+    Counts and reporting come from civicAPI when it has votes for the state.
+    Its call is used when neither Wikipedia nor overrides.json named a winner.
+    """
+    if not civic:
+        return
+    for sec_id, kind, suffix in (("senate-races", "senate", "-sen"), ("governors", "governor", "-gov")):
+        c = civic.get(kind)
+        sec = next((s for s in out["sections"] if s["id"] == sec_id), None)
+        if not c or not sec:
+            log(f"  ! civicAPI {kind} unavailable ({civic.error(kind)})")
+            continue
+        n_counts = n_calls = 0
+        for r in sec["races"]:
+            reg = c["regions"].get(r["id"].replace(suffix, ""))
+            if not reg:
+                continue
+            cands = [dict(x, seats=None) for x in reg["candidates"] if x.get("name")]
+            if any(x.get("votes") for x in cands):
+                top, other_pct, total = tidy(cands)
+                r.update(candidates=top, other_pct=other_pct, total_votes=total, ok=True)
+                n_counts += 1
+            if reg.get("reporting") is not None:
+                r["reporting"] = reg["reporting"]
+                r["last_update"] = None
+            manual_call = "called" in ov.get("races", {}).get(r["id"], {})
+            if reg.get("winner") and not r["called"] and not manual_call:
+                r["called"] = reg["winner"]
+                r["called_by"] = "civicAPI"
+                n_calls += 1
+        log(f"  civicAPI {kind}: counts for {n_counts} races, {n_calls} new calls, stale={c.get('stale')}")
+
+
 OFFICE_BY_SECTION = {"senate-races": "senate", "house-races": "house", "governors": "governor"}
 
 
@@ -413,7 +448,7 @@ def tally_senate(out, civic=None):
         log(f"  senate from civicAPI: holdover {hold} + won {c['won']} -> {seats} stale={c.get('stale')}")
         return
     if civic:
-        log(f"  ! civicAPI senate unavailable ({civic._senate.get('error')}); using page calls")
+        log(f"  ! civicAPI senate unavailable ({civic.error('senate')}); using page calls")
     seats = dict(hold)
     for r in sec["races"]:
         if r["called"] in seats:
@@ -444,7 +479,7 @@ def tally_house(out, civic=None):
         log(f"  house from civicAPI: {c['seats']} stale={c.get('stale')}")
         return
     if civic:
-        log(f"  ! civicAPI unavailable ({civic._result.get('error')}); counting districts here")
+        log(f"  ! civicAPI unavailable ({civic.error('house')}); counting districts here")
     seats = {"D": 0, "R": 0, "O": 0}
     for r in sec["races"]:
         if r["called"] in seats:
@@ -548,6 +583,7 @@ def main():
         out["sections"].append({"id": sec["id"], "label": sec["label"],
                                 "all_label": sec.get("all_label"), "races": races})
 
+    apply_civic_races(out, ov, civic)
     apply_news_calls(cfg, ov, out)
     tally_senate(out, civic)
     tally_house(out, civic)
