@@ -263,7 +263,8 @@ def from_electionbox(text, district, state):
         while True:
             span = find_template(text, r"Infobox[ _]election", pos)
             if not span:
-                return None
+                # single-district states: the page's own infobox is the race
+                return from_infobox(text) if not district else None
             if name.search(text[span[0]:span[1]]):
                 return from_infobox(text[span[0]:span[1]])
             pos = span[1]
