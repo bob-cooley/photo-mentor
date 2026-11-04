@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T14:02:05.888075+00:00",
-  "text": "Marathon Petroleum's stock fell 0.71% today and is down 10% over two weeks, with most of the damage occurring after the company announced quarterly earnings and a leadership change on November 3rd. The broader headwind is visible in refining economics: while U.S. crude trades at $103/barrel, the global benchmark sits at $123/barrel\u2014a $20 gap that squeezes refinery profit margins when they have to buy expensive global oil but sell into a softer U.S. market. Refineries are running at 92.8% capacity, elevated but not straining, which means there's limited upside from operating harder.\n\nThe company's recent earnings announcement appears to have disappointed investors, possibly because guidance signaled caution rather than strength ahead. Industry commentary from late October warned that Big Oil earnings, while growing, might not translate into stock gains\u2014and that's exactly what's playing out here as MPC trades lower despite solid utilization rates.",
+  "fetchedAt": "2026-11-04T15:02:53.568406+00:00",
+  "text": "Marathon Petroleum dropped 6.3% today, continuing a sharp decline over the past week that's wiped out 14% from its peak two weeks ago. The most concrete trigger appears to be the company's quarterly earnings announcement and leadership change on November 3rd\u2014when the stock fell 0.7%\u2014followed by sustained selling pressure over the next two trading days. The broader energy sector context matters too: a Democratic midterm victory (announced November 3rd) could shift policy away from traditional fossil fuels toward renewables, which likely unsettled refinery-focused investors right as earnings season forced them to reassess the sector's near-term outlook.\n\nThe market environment for refiners has turned mixed. While crude oil prices remain elevated at $103 per barrel domestically, refinery utilization is running at a healthy 92.8%, suggesting demand for refined products. However, the cautionary tone in recent energy coverage about \"guidance mattering most\" suggests investors are worried less about current earnings than about what companies are forecasting\u2014and a political shift toward renewables may have spooked longer-term holders concerned about the refining industry's future headwinds.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 41,
-    "inputTokens": 35477,
-    "outputTokens": 8338,
-    "estimatedCostUsd": 0.077167,
-    "lastCallHour": "2026-11-04T14"
+    "callsThisMonth": 42,
+    "inputTokens": 36276,
+    "outputTokens": 8585,
+    "estimatedCostUsd": 0.079201,
+    "lastCallHour": "2026-11-04T15"
   }
 }
