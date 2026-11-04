@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T02:42:01.530804+00:00",
-  "text": "Marathon Petroleum fell 0.7% today to $427.34, continuing a two-week decline of 10%. The stock was pressured on the heels of quarterly earnings and financial reports released today, which investors are still digesting. Additionally, energy markets have shifted: US crude dropped below $104 per barrel while global crude trades at $123, and refineries are running at 92.8% capacity \u2014 solid but not stretched. A leadership change at the company also accompanied today's reporting.\n\nThe broader energy sector has been cautious heading into this earnings season. Analysts flagged last week that while Big Oil earnings are expected to be strong, forward guidance will be the real driver of stock moves \u2014 and today's combination of results, management transition, and soft refining margins (the gap between crude costs and refined product prices) appears to have disappointed rather than excited investors.",
+  "fetchedAt": "2026-11-04T03:05:37.328829+00:00",
+  "text": "Marathon Petroleum fell 0.7% today to $427.34, extending a 10% decline over two weeks despite strong refining conditions. The stock got hit on the heels of the company's quarterly earnings report and a leadership change announced today; broader sector caution also weighed on it, as analysts flagged that Big Oil earnings guidance\u2014what companies say they'll earn going forward\u2014matters more than the headline numbers themselves, and price charts suggested a pullback was coming.\n\nThe refining backdrop remains solid: U.S. crude is holding near $103 per barrel, refineries are running at 92.8% capacity (well above typical levels), and storage levels for gasoline and diesel are moderate. But the market appears focused on what guidance means for profitability ahead, especially given political uncertainty around energy policy following the midterms. That makes near-term sentiment fragile, even when operational conditions stay favorable.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 35,
-    "inputTokens": 30671,
-    "outputTokens": 7145,
-    "estimatedCostUsd": 0.066396,
-    "lastCallHour": "2026-11-04T02"
+    "callsThisMonth": 36,
+    "inputTokens": 31472,
+    "outputTokens": 7342,
+    "estimatedCostUsd": 0.068182,
+    "lastCallHour": "2026-11-04T03"
   }
 }
