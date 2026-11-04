@@ -1,6 +1,6 @@
 name: Election probe
 
-# One-shot diagnostic run of an election probe script. No upload.
+# One-shot diagnostic: full fetch, print chamber control. No upload.
 
 on:
   workflow_dispatch:
@@ -12,4 +12,4 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: python3 election/probe_civic.py
+      - run: python3 election/fetch.py | grep -E "tally|control|wrote" || true

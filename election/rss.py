@@ -94,6 +94,11 @@ CONTROL = re.compile(
     r"\b(?:wins?|won|takes?|took|retakes?|retook|flips?|flipped|keeps?|kept|holds?|held|retains?|"
     r"retained|clinch(?:es)?|clinched|seizes?|seized|captures?|captured|projected to (?:win|take|keep|hold|retain))\b"
     r"[^.?!;:]{0,20}?\b(house|senate)\b", re.I)
+CONGRESS = re.compile(
+    r"\b(democrats?|dems?|republicans?|gop)\b[^.?!;:]{0,30}?"
+    r"\b(?:wins?|won|takes?|took|retakes?|retook|flips?|flipped|keeps?|kept|holds?|held|retains?|"
+    r"retained|clinch(?:es)?|clinched|seizes?|seized|captures?|captured|projected to (?:win|take|keep|hold|retain))\b"
+    r"[^.?!;:]{0,25}?\b(?:congress|both chambers)\b", re.I)
 CONTROL_SKIP = re.compile(
     r"\?|\b(?:could|would|may|might|if|fight|fights|battle|battles|bid|push|pushes|try|tries|"
     r"seek|seeks|aim|aims|hope|hopes|eye|eyes|vie|poised|on track|path|chance|chances|odds|need|"
@@ -108,7 +113,17 @@ def control_calls(log=print):
             continue
         for m in CONTROL.finditer(title):
             party = "R" if m.group(1).lower() in ("republican", "republicans", "gop") else "D"
-            votes.setdefault(m.group(2).lower(), {}).setdefault(party, set()).add(outlet)
+            chambers = [m.group(2).lower()]
+            # "... win control of House and Senate"
+            more = re.match(r"\s*(?:and|&)\s+(?:the\s+)?(house|senate)\b", title[m.end():], re.I)
+            if more:
+                chambers.append(more.group(1).lower())
+            for ch in chambers:
+                votes.setdefault(ch, {}).setdefault(party, set()).add(outlet)
+        for m in CONGRESS.finditer(title):
+            party = "R" if m.group(1).lower() in ("republican", "republicans", "gop") else "D"
+            for ch in ("house", "senate"):
+                votes.setdefault(ch, {}).setdefault(party, set()).add(outlet)
     out = {}
     for chamber, by in votes.items():
         log(f"  rss control {chamber}: {{{', '.join(f'{p}: {sorted(o)}' for p, o in by.items())}}}")
