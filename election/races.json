@@ -304,6 +304,14 @@
      "key": true
     },
     {
+     "id": "co-04",
+     "label": "colorado 4",
+     "state": "Colorado",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Colorado",
+     "key": true
+    },
+    {
      "id": "al-01",
      "label": "alabama 1",
      "state": "Alabama",
@@ -832,13 +840,6 @@
      "label": "colorado 3",
      "state": "Colorado",
      "district": 3,
-     "page": "2026 United States House of Representatives elections in Colorado"
-    },
-    {
-     "id": "co-04",
-     "label": "colorado 4",
-     "state": "Colorado",
-     "district": 4,
      "page": "2026 United States House of Representatives elections in Colorado"
     },
     {
