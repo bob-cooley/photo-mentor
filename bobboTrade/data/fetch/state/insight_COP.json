@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-04T15:02:24.365777+00:00",
-  "text": "ConocoPhillips fell 2.96% today to $140.13, continuing a sharp decline from its peak of $154 just four days ago. The primary driver is a sharp drop in oil prices: crude fell for the second consecutive day as markets responded positively to diplomatic signals between the U.S. and Iran, raising hopes for a resolution to regional tensions that have kept oil prices elevated. Since oil is ConocoPhillips' core revenue source, lower crude prices directly pressure its stock\u2014and the bigger concern is what comes next: Democrats swept the midterm elections and control Congress, which historically has favored renewable energy investment over fossil fuels.\n\nThe timing underscores a longer-term headwind for the company. While U.S. oil sits at $103/barrel and global oil at $123/barrel (still relatively robust), a Democratic-controlled Congress could shift policy priorities toward wind, solar, and other clean energy sources, potentially constraining future demand for oil and natural gas over the coming years.",
+  "fetchedAt": "2026-11-04T16:02:30.850990+00:00",
+  "text": "ConocoPhillips likely fell today on hopes for a diplomatic resolution to the Iran conflict and shifting political winds. Crude oil prices dropped for a second consecutive day as the U.S. and Iranian presidents signaled openness to negotiation, easing immediate supply concerns that had been supporting higher prices. A Democratic Congress, now poised to take control, is also seen as more favorable to renewable energy development and potentially less supportive of traditional oil expansion \u2014 a structural headwind for large oil producers.\n\nThe price action reflects a broader market repricing: geopolitical risk premiums built into oil are unwinding, and the political shift away from Republican control removes a traditionally pro-fossil-fuel voice in Congress. Even with U.S. crude still above $103 per barrel, the trajectory matters more to equity investors than the absolute level.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 42,
-    "inputTokens": 36363,
-    "outputTokens": 8608,
-    "estimatedCostUsd": 0.079403,
-    "lastCallHour": "2026-11-04T15"
+    "callsThisMonth": 43,
+    "inputTokens": 37086,
+    "outputTokens": 8785,
+    "estimatedCostUsd": 0.081011,
+    "lastCallHour": "2026-11-04T16"
   }
 }
