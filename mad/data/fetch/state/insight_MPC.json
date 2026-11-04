@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T05:01:51.275126+00:00",
-  "text": "Marathon Petroleum fell 0.7% today to $427.34, continuing a sharp two-week slide of over 10%. The stock sank despite oil prices sitting near $103 per barrel domestically, suggesting the decline isn't driven by crude weakness. Instead, the immediate trigger appears to be today's earnings announcement and quarterly report \u2014 both filed this morning \u2014 combined with news of a leadership change, either of which could have disappointed investors on forward guidance or strategic direction.\n\nThe broader picture adds weight to this: refinery utilization stands at 92.8%, and the company operates in an environment where Big Oil earnings are expected to surge, yet analysts have been cautioning that guidance matters more than the headline numbers themselves. The stock's 10% two-week drop and today's further decline suggest the market is pricing in either softer-than-expected guidance from Marathon or concern about how leadership transitions could affect strategy going forward.",
+  "fetchedAt": "2026-11-04T06:03:06.246471+00:00",
+  "text": "Marathon Petroleum dropped 0.7% today to $427.34, marking the third down day in a volatile two-week stretch that's seen the stock lose 10%. The stock moved on the heels of quarterly earnings announced today and a leadership change, along with a quarterly financial report filing. The broader refining backdrop remains mixed: US crude is trading at $103.37 per barrel while refineries are running at a healthy 92.8% capacity, but global crude at $123.10 signals persistent international weakness that can constrain export-dependent refiner margins.\n\nThe timing matters here\u2014the earnings announcement and management shift came as energy stocks more broadly faced caution from analysts, who have warned that guidance and forward outlook could disappoint even as Big Oil's third-quarter numbers look strong on paper. The recent volatility in the stock price (jumping from $432 to $444 just days ago, then sliding back down) suggests investors are still digesting what the new leadership and guidance mean for future returns.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 4,
-    "inputTokens": 3204,
-    "outputTokens": 797,
-    "estimatedCostUsd": 0.007189,
-    "lastCallHour": "2026-11-04T05"
+    "callsThisMonth": 5,
+    "inputTokens": 4005,
+    "outputTokens": 1014,
+    "estimatedCostUsd": 0.009075,
+    "lastCallHour": "2026-11-04T06"
   }
 }
