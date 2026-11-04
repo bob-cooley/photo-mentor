@@ -15,4 +15,4 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: python3 election/probe_reporting.py
+      - run: python3 election/probe_rss.py
