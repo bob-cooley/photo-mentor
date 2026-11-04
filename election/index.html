@@ -72,6 +72,31 @@
   main { max-width: 980px; margin: 0 auto; }
   header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; }
   h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.01em; }
+  /* title colour wave: each letter fades ink -> red, then cycles
+     red -> white -> blue, one step behind the letter before it */
+  h1 .c {
+    display: inline-block;
+    animation:
+      title-in var(--step) linear calc(var(--i) * var(--step)) 1 both,
+      title-cycle calc(var(--step) * 3) linear calc((var(--i) + 1) * var(--step)) infinite;
+  }
+  :root { --step: 0.35s; --t-white: #ffffff; --t-edge: rgba(0, 0, 0, 0.55); }
+  h1 { --t-red: var(--rep); --t-blue: var(--dem); }
+  @keyframes title-in { from { color: var(--ink); } to { color: var(--t-red); } }
+  @keyframes title-cycle {
+    0%, 100% { color: var(--t-red); }
+    33.333% { color: var(--t-white); }
+    66.667% { color: var(--t-blue); }
+  }
+  /* keep white letters legible on the light background */
+  h1 .c {
+    text-shadow: 0.6px 0 var(--t-edge), -0.6px 0 var(--t-edge), 0 0.6px var(--t-edge), 0 -0.6px var(--t-edge);
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) h1 .c { text-shadow: none; } }
+  :root[data-theme="dark"] h1 .c { text-shadow: none; }
+  @media (prefers-reduced-motion: reduce) {
+    h1 .c { animation: none; text-shadow: none; }
+  }
   h1 .w {
     font: inherit; color: inherit; letter-spacing: inherit; background: none; border: 0; padding: 0;
     cursor: default; user-select: none; -webkit-user-select: none;
@@ -373,6 +398,16 @@
   load();
   setInterval(function () { if (Date.now() >= nextAt) load(); tick(); }, 1000);
   document.getElementById("refresh").addEventListener("click", load);
+  // split title words into letters for the colour wave
+  (function () {
+    var i = 0;
+    Array.prototype.forEach.call(document.querySelectorAll("h1 .w"), function (b, wi) {
+      if (wi > 0) i++;  // the space between words takes a beat
+      b.innerHTML = b.textContent.split("").map(function (ch) {
+        return '<span class="c" style="--i:' + (i++) + '">' + ch + '</span>';
+      }).join("");
+    });
+  })();
   // test triggers: tap a title word 5 times within 20 seconds
   var taps = {};
   Array.prototype.forEach.call(document.querySelectorAll("h1 .w"), function (b) {
