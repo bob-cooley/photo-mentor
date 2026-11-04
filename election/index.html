@@ -221,7 +221,7 @@
     </div>
   </header>
   <section>
-    <h2>control</h2>
+    <h2><span id="ctl-word" style="cursor:default;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;touch-action:manipulation">control</span></h2>
     <div class="chambers" id="chambers"></div>
   </section>
   <div id="sections"></div>
@@ -290,7 +290,9 @@
 
   // If Boebert's race is called and she is not the winner, a three-frame
   // crying cartoon sits in the grid right after her card.
+  var forceCry = false;  // test: 5 taps on "control" shows the cartoon regardless
   function boebertLost(r) {
+    if (forceCry && r.id === "co-04") return true;
     if (!r.called || !r.candidates) return false;
     var b = r.candidates.filter(function (c) { return /boebert/i.test(c.name || ""); })[0];
     return !!b && b.party !== r.called;
@@ -451,6 +453,19 @@
   })();
   // test triggers: tap a title word 5 times within 20 seconds
   var taps = {};
+  var ctlTaps = [];
+  document.getElementById("ctl-word").addEventListener("click", function () {
+    var now = Date.now();
+    ctlTaps = ctlTaps.filter(function (t) { return now - t < 20000; });
+    ctlTaps.push(now);
+    if (ctlTaps.length >= 5) {
+      ctlTaps = [];
+      forceCry = !forceCry;
+      if (lastData) render(lastData);
+      var c = document.querySelector(".card.cry");
+      if (c) c.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  });
   Array.prototype.forEach.call(document.querySelectorAll("h1 .w"), function (b) {
     b.addEventListener("click", function () {
       var fx = b.getAttribute("data-fx"), now = Date.now();
