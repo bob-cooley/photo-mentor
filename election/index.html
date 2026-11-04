@@ -14,6 +14,7 @@
     --dem: #1f5fbf;
     --rep: #c8322b;
     --oth: #9a8fb0;
+    --win: #1e8a3c;
     --empty: #d9d7d2;
   }
   @media (prefers-color-scheme: dark) {
@@ -26,6 +27,7 @@
       --dem: #3b7be0;
       --rep: #e0473f;
       --oth: #8a80a3;
+      --win: #3fbf62;
       --empty: #34353a;
     }
   }
@@ -51,7 +53,7 @@
   .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 8px; }
   .label { font-weight: 600; font-size: 15px; }
   .status { font-size: 12px; color: var(--muted); white-space: nowrap; }
-  .status.called { color: var(--ink); font-weight: 600; }
+  .status.called { color: var(--win); font-weight: 800; font-size: 13px; letter-spacing: 0.02em; }
   .names { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; margin-bottom: 4px; }
   .names span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .names .r { text-align: right; }
@@ -69,7 +71,8 @@
   .nums .R { color: var(--rep); font-weight: 600; }
   .nums .mid { color: var(--muted); }
   .foot { font-size: 12px; color: var(--muted); margin-top: 6px; }
-  .foot a { color: inherit; }
+  .foot a { color: inherit; display: none; } /* source links hidden for now */
+  .foot:not(:has(span)) { display: none; }
   .chamber .names { font-size: 15px; font-weight: 600; }
   .note { color: var(--muted); font-size: 12px; margin-top: 40px; line-height: 1.6; }
   .note a { color: inherit; }
@@ -180,7 +183,7 @@
         '<span class="mid">' + (r.total_votes ? fmt(r.total_votes) + " votes" : "") + (op ? " · other " + pct(op) : "") + '</span>' +
         '<span class="' + (Rt ? Rt.party : "") + '">' + (Rt ? pct(Rt.pct) : "") + '</span>' +
       '</div>' +
-      '<div class="foot"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">source</a>' + (r.manual ? " · hand-corrected" : "") + '</div>' +
+      '<div class="foot"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">source</a>' + (r.manual ? "<span>hand-corrected</span>" : "") + '</div>' +
       '</div>';
   }
 
