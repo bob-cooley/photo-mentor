@@ -110,6 +110,7 @@
   .foot a { color: inherit; display: none; } /* source links hidden for now */
   .foot:not(:has(span)) { display: none; }
   .chamber .names { font-size: 15px; font-weight: 600; }
+  .basis { font-size: 12px; color: var(--muted); margin-top: 6px; }
   .note { color: var(--muted); font-size: 12px; margin-top: 40px; line-height: 1.6; }
   .more {
     display: block; width: 100%; margin-top: 12px; padding: 10px 12px;
@@ -203,9 +204,9 @@
       '<div class="bar big">' + bar + '<div class="tick" style="left:calc(' + tickLeft + '% - 1px)"></div></div>' +
       '<div class="nums">' +
         '<span class="D">' + (have ? D : "-") + (O ? ' <span class="mid">+ ' + O + ' ind</span>' : "") + '</span>' +
-        '<span class="mid">' + (have ? (undecided > 0 ? undecided + " undecided" : "all decided") : "seat totals pending") + '</span>' +
+        '<span class="mid">' + (have ? (undecided > 0 ? undecided + " undecided" : "all decided") : (ch.id === "house" ? "no free live source for house totals" : "seat totals pending")) + '</span>' +
         '<span class="R">' + (have ? R : "-") + '</span>' +
-      '</div></div>';
+      '</div>' + (ch.basis ? '<div class="basis">' + esc(ch.basis) + '</div>' : "") + '</div>';
   }
 
   function repLine(r) {

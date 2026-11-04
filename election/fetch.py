@@ -194,8 +194,28 @@ def from_infobox(text):
     rep = num(p.get("reporting") or p.get("votes_counted"))
     if rep is not None and not 0 <= rep <= 100:
         rep = None
+    before = party_code(p["before_party"]) if is_set(p.get("before_party")) else None
     return {"candidates": cands, "called": winner, "reporting": rep,
-            "last_update": clean(p.get("last_update"))[:40] or None}
+            "last_update": clean(p.get("last_update"))[:40] or None, "incumbent": before}
+
+
+def chamber_seats(text):
+    """{party: seats_before / seats_after} from a chamber-wide infobox."""
+    span = find_template(text, r"Infobox[ _]election")
+    if not span:
+        return None, None
+    p = template_params(text[span[0]:span[1]])
+    before, after = {}, {}
+    for n in range(1, 8):
+        if not is_set(p.get(f"party{n}")):
+            continue
+        k = party_code(p[f"party{n}"])
+        b, a = num(p.get(f"seats_before{n}")), num(p.get(f"seats_after{n}"))
+        if b is not None:
+            before[k] = before.get(k, 0) + b
+        if a is not None:
+            after[k] = after.get(k, 0) + a
+    return before, after
 
 
 def district_section(text, district):
@@ -331,6 +351,39 @@ def apply_news_calls(cfg, ov, out):
             log(f"  news call {rid} -> {party} ({', '.join(outlets)}): {headline}")
 
 
+def tally_senate(out):
+    """Senate seats = seats not up this year + called races.
+
+    Seats not up = the chamber's pre-election seats minus the seats being
+    contested, by the incumbent party on each race page.
+    """
+    ch = next((c for c in out["chambers"] if c["id"] == "senate"), None)
+    sec = next((s for s in out["sections"] if s["id"] == "senate-races"), None)
+    if not ch or not sec or ch["seats"]["D"] is not None:
+        return
+    before = ch.get("before") or {}
+    if sum(before.values()) != ch["total"]:
+        log(f"  ! senate tally: seats before {before} do not sum to {ch['total']}")
+        return
+    up = {}
+    for r in sec["races"]:
+        if not r.get("incumbent"):
+            log(f"  ! senate tally: no incumbent party for {r['id']}")
+            return
+        up[r["incumbent"]] = up.get(r["incumbent"], 0) + 1
+    hold = {k: before.get(k, 0) - up.get(k, 0) for k in ("D", "R", "O")}
+    if min(hold.values()) < 0:
+        log(f"  ! senate tally: negative holdover {hold}")
+        return
+    seats = dict(hold)
+    for r in sec["races"]:
+        if r["called"] in seats:
+            seats[r["called"]] += 1
+    ch["seats"] = seats
+    ch["basis"] = f"{sum(hold.values())} seats not up this year + {sum(1 for r in sec['races'] if r['called'])} called races"
+    log(f"  senate tally: holdover {hold} -> {seats}")
+
+
 def main():
     cfg = json.loads((HERE / "races.json").read_text())
     ov = json.loads((HERE / "overrides.json").read_text())
@@ -341,16 +394,14 @@ def main():
         log(f"chamber {ch['id']}")
         text, _ = get_wikitext(ch["page"])
         seats = {"D": None, "R": None, "O": None}
+        before = {}
         if text:
-            ib = from_infobox(text)
-            if ib:
-                for c in ib["candidates"]:
-                    if c["seats"] is not None:
-                        seats[c["party"]] = (seats[c["party"]] or 0) + c["seats"]
-        manual = ov.get("chambers", {}).get(ch["id"])
-        if manual:
-            seats.update(manual)
-        out["chambers"].append({**ch, "seats": seats, "manual": bool(manual)})
+            before, after = chamber_seats(text)
+            before = before or {}
+            if after and sum(after.values()) == ch["total"]:
+                seats.update(after)  # final totals, once editors fill them in
+        log(f"  seats before: {before}")
+        out["chambers"].append({**ch, "seats": seats, "before": before, "basis": None})
 
     for sec in cfg["sections"]:
         races = []
@@ -363,12 +414,13 @@ def main():
             entry = {"id": r["id"], "label": r["label"], "key": bool(r.get("key")),
                      "url": "https://en.wikipedia.org/wiki/" + urllib.parse.quote(r["page"].replace(" ", "_")),
                      "candidates": [], "other_pct": 0, "total_votes": 0, "called": None, "ok": False,
-                     "reporting": None, "last_update": None}
+                     "reporting": None, "last_update": None, "incumbent": None}
             if data and data["candidates"]:
                 top, other_pct, total = tidy(data["candidates"])
                 entry.update(candidates=top, other_pct=other_pct, total_votes=total,
                              called=data["called"], ok=True,
-                             reporting=data["reporting"], last_update=data["last_update"])
+                             reporting=data["reporting"], last_update=data["last_update"],
+                             incumbent=data.get("incumbent"))
             o = ov.get("races", {}).get(r["id"])
             if o:
                 entry.update({k: v for k, v in o.items() if not k.startswith("_")})
@@ -380,6 +432,12 @@ def main():
                                 "all_label": sec.get("all_label"), "races": races})
 
     apply_news_calls(cfg, ov, out)
+    tally_senate(out)
+    for ch in out["chambers"]:
+        manual = ov.get("chambers", {}).get(ch["id"])
+        if manual:
+            ch["seats"].update(manual)
+            ch["basis"] = "manual"
 
     ok = sum(r["ok"] for s in out["sections"] for r in s["races"])
     n = sum(len(s["races"]) for s in out["sections"])
