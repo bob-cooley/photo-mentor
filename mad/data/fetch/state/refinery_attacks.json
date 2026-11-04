@@ -31,6 +31,62 @@
       ],
       "origin": "auto",
       "addedAt": "2026-10-11T04:20:47.155920+00:00"
+    },
+    {
+      "date": "2026-11-03",
+      "facility": "Slavneft-YANOS oil refinery in Yaroslavl",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-03-slavneft-yanos-oil-refinery-in-yaroslavl-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/03/ukrainian-drone-strike-sparks-major-fire-at-one-of-russia-s-largest-oil-refineries"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-04T02:45:10.530540+00:00"
+    },
+    {
+      "date": "2026-11-01",
+      "facility": "Kstovo refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-01-kstovo-refinery-russia",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-04T02:45:12.820192+00:00"
+    },
+    {
+      "date": "2026-10-29",
+      "facility": "Novokuibyshevsk",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-10-29-novokuibyshevsk-russia",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-04T02:45:21.955779+00:00"
     }
   ],
   "processedUrls": {
@@ -53,17 +109,23 @@
     "https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim": "2026-10-13T15:54:02.996455+00:00",
     "https://www.theguardian.com/business/2026/oct/23/oil-five-month-high-fears-us-renews-strikes-iran": "2026-10-23T15:19:39.438467+00:00",
     "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html": "2026-10-23T15:19:41.138277+00:00",
-    "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T02:25:27.332487+00:00"
+    "https://www.theguardian.com/world/2026/oct/26/ukraine-war-briefing-trilateral-us-ukraine-russia-talks-restart-november": "2026-10-26T02:25:27.332487+00:00",
+    "https://meduza.io/en/news/2026/11/03/ukrainian-drone-strike-sparks-major-fire-at-one-of-russia-s-largest-oil-refineries": "2026-11-04T02:45:10.530062+00:00",
+    "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts": "2026-11-04T02:45:12.819857+00:00",
+    "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil": "2026-11-04T02:45:15.422616+00:00",
+    "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy": "2026-11-04T02:45:17.090961+00:00",
+    "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html": "2026-11-04T02:45:19.879065+00:00",
+    "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html": "2026-11-04T02:45:21.955341+00:00"
   },
   "usage": {
-    "month": "2026-10",
-    "calls": 20,
-    "inputTokens": 25898,
-    "outputTokens": 2212,
-    "estimatedCostUsd": 0.036958
+    "month": "2026-11",
+    "calls": 6,
+    "inputTokens": 8196,
+    "outputTokens": 915,
+    "estimatedCostUsd": 0.012771
   },
   "lastGdeltOk": false,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-10-26T02:25:27.332704+00:00"
+  "lastRunAt": "2026-11-04T02:45:21.955822+00:00"
 }

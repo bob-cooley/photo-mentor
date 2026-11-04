@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-10-26T02:24:27.560987+00:00",
-  "text": "ConocoPhillips jumped 3.55% today to close at $150.80, its highest price in two weeks, as oil prices spiked on escalating Middle East tensions. Brent crude reached $116 a barrel\u2014a six-month high\u2014following Saudi Arabia's interception of Houthi missiles and drones, combined with signals that the U.S. may resume military action against Iran. For an oil major like ConocoPhillips, higher crude prices directly translate to higher profits on the barrels they produce and refine.\n\nThe stock's broader two-week gain of 12.45% reflects a sustained rally driven by geopolitical risk premiums pushing global oil prices higher while U.S. natural gas and energy exports benefit from the regional disruption. This trade has been building as Middle East tensions have intensified, rewarding U.S. energy producers with both higher commodity prices and stronger competitive positioning.",
+  "fetchedAt": "2026-11-04T02:44:08.942106+00:00",
+  "text": "ConocoPhillips fell 1.7% today after crude oil prices dropped for a second consecutive day on hopes for a diplomatic resolution to the Iran conflict. The stock had surged $4 over the previous two sessions as geopolitical tensions drove oil above $154, but those gains reversed as market sentiment shifted toward negotiation rather than escalation\u2014crude is now down to $103 per barrel domestically.\n\nThe broader uncertainty heading into the midterm elections also likely weighed on energy stocks today. Political changes could reshape energy policy in ways that favor renewables over traditional oil production, adding another layer of concern for investors holding oil and gas companies.",
   "status": "ok",
   "usage": {
-    "month": "2026-10",
-    "callsThisMonth": 9,
-    "inputTokens": 7792,
-    "outputTokens": 2034,
-    "estimatedCostUsd": 0.017962,
-    "lastCallHour": "2026-10-26T02"
+    "month": "2026-11",
+    "callsThisMonth": 1,
+    "inputTokens": 844,
+    "outputTokens": 139,
+    "estimatedCostUsd": 0.001539,
+    "lastCallHour": "2026-11-04T02"
   }
 }
