@@ -409,7 +409,7 @@ def tally_senate(out):
     log(f"  senate tally: holdover {hold} -> {seats}")
 
 
-def tally_house(out):
+def tally_house(out, civic=None):
     """House box: districts called so far (Wikipedia or two news outlets).
 
     Every seat is up, so there is nothing to carry over; the count trails
@@ -419,6 +419,18 @@ def tally_house(out):
     sec = next((s for s in out["sections"] if s["id"] == "house-races"), None)
     if not ch or not sec or ch["seats"]["D"] is not None:
         return
+    c = civic.house() if civic else None
+    if c and sum(c["seats"].values()) > 0:
+        rep = c.get("reporting")
+        ch.update(seats=c["seats"], label="house",
+                  basis="seats called by civicAPI's decision desk"
+                        + (f" · {rep:.0f}% of the vote reported" if isinstance(rep, (int, float)) else "")
+                        + (" · last good update, retrying" if c.get("stale") else ""),
+                  credit="civicapi.org")
+        log(f"  house from civicAPI: {c['seats']} stale={c.get('stale')}")
+        return
+    if civic:
+        log(f"  ! civicAPI unavailable ({civic._result.get('error')}); counting districts here")
     seats = {"D": 0, "R": 0, "O": 0}
     for r in sec["races"]:
         if r["called"] in seats:
@@ -470,6 +482,12 @@ def decide_control(out, ov):
 
 
 def main():
+    try:
+        import civic
+        civic.start()
+    except Exception as e:
+        civic = None
+        log(f"  ! civic: {e}")
     cfg = json.loads((HERE / "races.json").read_text())
     ov = json.loads((HERE / "overrides.json").read_text())
     out = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -518,7 +536,7 @@ def main():
 
     apply_news_calls(cfg, ov, out)
     tally_senate(out)
-    tally_house(out)
+    tally_house(out, civic)
     for ch in out["chambers"]:
         manual = ov.get("chambers", {}).get(ch["id"])
         if manual:

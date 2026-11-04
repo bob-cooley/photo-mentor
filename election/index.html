@@ -221,7 +221,8 @@
   <p class="note">
     vote counts come from the public Wikipedia race pages, checked every two minutes; they are only as current as the last edit there.
     a race shows as called once its Wikipedia page names a winner, once two or more news outlets (nbc, fox, abc, cbs, npr, nyt, pbs, the hill, politico)
-    report the same winner in their headlines, or once it has been set by hand. hover a call to see where it came from. unofficial until certified.
+    report the same winner in their headlines, or once it has been set by hand. hover a call to see where it came from.
+    house seat count from <a href="https://civicapi.org" target="_blank" rel="noopener">civicAPI</a> when it responds. unofficial until certified.
   </p>
 </main>
 <script src="fireworks.umd.js?v=__V__"></script>
@@ -275,7 +276,7 @@
       '<div class="bar big">' + bar + (ch.majority ? '<div class="tick" style="left:calc(' + tickLeft + '% - 1px)"></div>' : '') + '</div>' +
       '<div class="nums">' +
         '<span class="D">' + (have ? D : "-") + (O ? ' <span class="mid">+ ' + O + ' ind</span>' : "") + '</span>' +
-        '<span class="mid">' + (have ? (undecided > 0 ? undecided + (ch.id === "house" ? " not called here yet" : ch.majority ? " undecided" : " still counting") : "all decided") : (ch.id === "house" ? "no free live source for house totals" : "seat totals pending")) + '</span>' +
+        '<span class="mid">' + (have ? (undecided > 0 ? undecided + (ch.id === "house" && !ch.credit ? " not called here yet" : ch.majority ? " undecided" : " still counting") : "all decided") : (ch.id === "house" ? "no free live source for house totals" : "seat totals pending")) + '</span>' +
         '<span class="R">' + (have ? R : "-") + '</span>' +
       '</div>' + (ch.basis || source ? '<div class="basis">' + esc([source, ch.basis].filter(Boolean).join(" · ")) + '</div>' : "") + '</div>';
   }
