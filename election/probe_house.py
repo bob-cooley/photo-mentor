@@ -1,34 +1,17 @@
 #!/usr/bin/env python3
-"""Diagnostic: page layout for California, at-large states, and box titles."""
+"""Diagnostic: how general-election boxes are titled on pages that did not parse."""
 import re, sys
 sys.path.insert(0, "election")
 import fetch
-
-def show(title, n=40):
-    text, _ = fetch.get_wikitext(title)
-    print(f"##### {title}: {'MISSING' if not text else len(text)}")
-    if not text:
-        return
-    heads = re.findall(r"^(={2,5})\s*(.*?)\s*\1\s*$", text, re.M)
-    print("headings:", [f"{len(l)}:{fetch.clean(h)}" for l, h in heads][:n])
-    for m in list(re.finditer(r"\{\{\s*Election box begin[^\n]*", text, re.I))[:12]:
-        print("  box:", m.group(0)[:150])
-    print("  infobox:", bool(fetch.find_template(text, r"Infobox[ _]election")))
-    tbl = re.findall(r"^\{\|.*$", text, re.M)
-    print("  tables:", len(tbl))
-
-show("2026 United States House of Representatives elections in California", 70)
-show("2026 United States House of Representatives election in Alaska")
-show("2026 United States House of Representatives election in Wyoming")
-t, _ = fetch.get_wikitext("2026 United States House of Representatives elections in New York")
-sec = fetch.district_section(t, 10)
-print("##### NY-10 boxes:")
-for m in re.finditer(r"\{\{\s*Election box begin[^\n]*", sec, re.I):
-    print("  box:", m.group(0)[:150])
-t, _ = fetch.get_wikitext("2026 United States House of Representatives elections in Texas")
-for d in (1, 15, 28):
-    sec = fetch.district_section(t, d) or ""
-    print(f"##### TX-{d} boxes:")
-    for m in re.finditer(r"\{\{\s*Election box begin[^\n]*", sec, re.I):
-        print("  box:", m.group(0)[:150])
-    print("  winning:", len(re.findall(r"Election box winning", sec)))
+for st in ["Illinois", "Massachusetts", "Tennessee", "Wisconsin", "Connecticut", "New Hampshire", "Missouri", "Minnesota", "Hawaii", "Rhode Island"]:
+    t, _ = fetch.get_wikitext(f"2026 United States House of Representatives elections in {st}")
+    print(f"##### {st}: {'MISSING' if not t else len(t)}")
+    if not t:
+        continue
+    sec = fetch.district_section(t, 1) or ""
+    print("  district 1 section chars:", len(sec))
+    for m in re.finditer(r"\{\{\s*Election box begin[^}]{0,200}", sec, re.I):
+        print("  box:", m.group(0).replace("\n", " ")[:200])
+    for m in list(re.finditer(r"congressional district election", t))[:2]:
+        print("  title-ish:", t[max(0, m.start()-120):m.end()].replace("\n", " "))
+    print("  tables in d1:", len(re.findall(r"^\{\|", sec, re.M)), " cand tmpl:", len(re.findall(r"Election box (?:winning )?candidate", sec)))
