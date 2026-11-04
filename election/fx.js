@@ -37,26 +37,38 @@
       intensity: 45,
       flickering: 50,
       lineStyle: "round",
-      hue: { min: 0, max: 360 },
-      delay: { min: 4, max: 10 },
+      hue: { min: 0, max: 4 },
+      delay: { min: 3, max: 8 },
       rocketsPoint: { min: 15, max: 85 },
       lineWidth: { explosion: { min: 1, max: 4 }, trace: { min: 1, max: 2 } },
-      brightness: { min: 55, max: 85 },
+      brightness: { min: 45, max: 62 },
       decay: { min: 0.012, max: 0.028 },
       mouse: { click: false, move: false, max: 1 },
       sound: { enabled: false }
     });
     fw.start();
     // heavy opening salvo, then a steadier show (launch() would end the show)
-    setTimeout(function () { try { fw.updateOptions({ delay: { min: 10, max: 22 } }); } catch (e) {} }, 3000);
+    // red, white and blue: rotate the palette quickly so rockets and bursts
+    // pick up each in turn (lightness near 100% reads as white)
+    var palette = [
+      { hue: { min: 0, max: 4 }, brightness: { min: 45, max: 62 } },      // red
+      { hue: { min: 220, max: 224 }, brightness: { min: 96, max: 100 } },  // white
+      { hue: { min: 218, max: 228 }, brightness: { min: 50, max: 66 } }    // blue
+    ];
+    var pi = 0;
+    var cycle = setInterval(function () {
+      pi = (pi + 1) % palette.length;
+      try { fw.updateOptions(palette[pi]); } catch (e) {}
+    }, 110);
     var finished = false;
     function end() {
       if (finished) return;
       finished = true;
-      fadeOut(el, 1200, function () { try { fw.stop(true); } catch (e) {} done(); });
+      clearInterval(cycle);
+      fadeOut(el, 500, function () { try { fw.stop(true); } catch (e) {} done(); });
     }
     el.addEventListener("fx-dismiss", end);
-    setTimeout(end, 10000);
+    setTimeout(end, 3000);   // 3.0s show + 0.5s fade
   }
 
   // ---------- burning cards (canvas particles) ----------
@@ -78,7 +90,7 @@
     var parts = [];
     var MAX = 2600;
     var t0 = performance.now();
-    var DUR = 10000;
+    var DUR = 3000;          // flames for 3.0s, then a 0.5s fade
     var stopSpawn = false;
     var raf;
 
@@ -146,7 +158,7 @@
           ctx.beginPath(); ctx.arc(q.x, q.y, rad, 0, 6.283); ctx.fill();
         }
       }
-      if (stopSpawn && parts.length === 0) return end(true);
+      if (stopSpawn) return end(false);
       raf = requestAnimationFrame(frame);
     }
     raf = requestAnimationFrame(frame);
@@ -158,7 +170,7 @@
       cancelAnimationFrame(raf);
       removeEventListener("resize", size);
       cards.forEach(function (c) { c.classList.remove("burning"); });
-      fadeOut(el, natural ? 200 : 600, done);
+      fadeOut(el, 500, done);
     }
     el.addEventListener("fx-dismiss", function () { end(false); });
   }
@@ -171,10 +183,10 @@
     function end() {
       if (finished) return;
       finished = true;
-      fadeOut(el, 900, done);
+      fadeOut(el, 500, done);
     }
     el.addEventListener("fx-dismiss", end);
-    setTimeout(end, 4500);
+    setTimeout(end, 3000);
   }
 
   var FX = { fireworks: fireworks, flames: flames, meh: meh };
