@@ -218,81 +218,3055 @@
     {
      "id": "tx-15",
      "label": "texas 15",
-     "page": "2026 United States House of Representatives elections in Texas",
+     "state": "Texas",
      "district": 15,
+     "page": "2026 United States House of Representatives elections in Texas",
      "key": true
     },
     {
      "id": "ky-06",
      "label": "kentucky 6",
-     "page": "2026 United States House of Representatives elections in Kentucky",
+     "state": "Kentucky",
      "district": 6,
+     "page": "2026 United States House of Representatives elections in Kentucky",
      "key": true
     },
     {
      "id": "pa-01",
      "label": "pennsylvania 1",
-     "page": "2026 United States House of Representatives elections in Pennsylvania",
+     "state": "Pennsylvania",
      "district": 1,
+     "page": "2026 United States House of Representatives elections in Pennsylvania",
      "key": true
     },
     {
      "id": "pa-08",
      "label": "pennsylvania 8",
-     "page": "2026 United States House of Representatives elections in Pennsylvania",
+     "state": "Pennsylvania",
      "district": 8,
+     "page": "2026 United States House of Representatives elections in Pennsylvania",
      "key": true
     },
     {
      "id": "mi-07",
      "label": "michigan 7",
-     "page": "2026 United States House of Representatives elections in Michigan",
+     "state": "Michigan",
      "district": 7,
+     "page": "2026 United States House of Representatives elections in Michigan",
      "key": true
     },
     {
      "id": "va-02",
      "label": "virginia 2",
-     "page": "2026 United States House of Representatives elections in Virginia",
+     "state": "Virginia",
      "district": 2,
+     "page": "2026 United States House of Representatives elections in Virginia",
      "key": true
     },
     {
      "id": "va-05",
      "label": "virginia 5",
-     "page": "2026 United States House of Representatives elections in Virginia",
+     "state": "Virginia",
      "district": 5,
+     "page": "2026 United States House of Representatives elections in Virginia",
      "key": true
     },
     {
      "id": "co-08",
      "label": "colorado 8",
-     "page": "2026 United States House of Representatives elections in Colorado",
+     "state": "Colorado",
      "district": 8,
+     "page": "2026 United States House of Representatives elections in Colorado",
      "key": true
     },
     {
      "id": "ia-01",
      "label": "iowa 1",
-     "page": "2026 United States House of Representatives elections in Iowa",
+     "state": "Iowa",
      "district": 1,
+     "page": "2026 United States House of Representatives elections in Iowa",
      "key": true
     },
     {
      "id": "ny-17",
      "label": "new york 17",
-     "page": "2026 United States House of Representatives elections in New York",
+     "state": "New York",
      "district": 17,
+     "page": "2026 United States House of Representatives elections in New York",
      "key": true
     },
     {
      "id": "ny-10",
      "label": "new york 10",
-     "page": "2026 United States House of Representatives elections in New York",
+     "state": "New York",
      "district": 10,
+     "page": "2026 United States House of Representatives elections in New York",
      "key": true
+    },
+    {
+     "id": "al-01",
+     "label": "alabama 1",
+     "state": "Alabama",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "al-02",
+     "label": "alabama 2",
+     "state": "Alabama",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "al-03",
+     "label": "alabama 3",
+     "state": "Alabama",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "al-04",
+     "label": "alabama 4",
+     "state": "Alabama",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "al-05",
+     "label": "alabama 5",
+     "state": "Alabama",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "al-06",
+     "label": "alabama 6",
+     "state": "Alabama",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "al-07",
+     "label": "alabama 7",
+     "state": "Alabama",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Alabama"
+    },
+    {
+     "id": "ak-al",
+     "label": "alaska (at-large)",
+     "state": "Alaska",
+     "page": "2026 United States House of Representatives election in Alaska"
+    },
+    {
+     "id": "az-01",
+     "label": "arizona 1",
+     "state": "Arizona",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-02",
+     "label": "arizona 2",
+     "state": "Arizona",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-03",
+     "label": "arizona 3",
+     "state": "Arizona",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-04",
+     "label": "arizona 4",
+     "state": "Arizona",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-05",
+     "label": "arizona 5",
+     "state": "Arizona",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-06",
+     "label": "arizona 6",
+     "state": "Arizona",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-07",
+     "label": "arizona 7",
+     "state": "Arizona",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-08",
+     "label": "arizona 8",
+     "state": "Arizona",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "az-09",
+     "label": "arizona 9",
+     "state": "Arizona",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Arizona"
+    },
+    {
+     "id": "ar-01",
+     "label": "arkansas 1",
+     "state": "Arkansas",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Arkansas"
+    },
+    {
+     "id": "ar-02",
+     "label": "arkansas 2",
+     "state": "Arkansas",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Arkansas"
+    },
+    {
+     "id": "ar-03",
+     "label": "arkansas 3",
+     "state": "Arkansas",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Arkansas"
+    },
+    {
+     "id": "ar-04",
+     "label": "arkansas 4",
+     "state": "Arkansas",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Arkansas"
+    },
+    {
+     "id": "ca-01",
+     "label": "california 1",
+     "state": "California",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-02",
+     "label": "california 2",
+     "state": "California",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-03",
+     "label": "california 3",
+     "state": "California",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-04",
+     "label": "california 4",
+     "state": "California",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-05",
+     "label": "california 5",
+     "state": "California",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-06",
+     "label": "california 6",
+     "state": "California",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-07",
+     "label": "california 7",
+     "state": "California",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-08",
+     "label": "california 8",
+     "state": "California",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-09",
+     "label": "california 9",
+     "state": "California",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-10",
+     "label": "california 10",
+     "state": "California",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-11",
+     "label": "california 11",
+     "state": "California",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-12",
+     "label": "california 12",
+     "state": "California",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-13",
+     "label": "california 13",
+     "state": "California",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-14",
+     "label": "california 14",
+     "state": "California",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-15",
+     "label": "california 15",
+     "state": "California",
+     "district": 15,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-16",
+     "label": "california 16",
+     "state": "California",
+     "district": 16,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-17",
+     "label": "california 17",
+     "state": "California",
+     "district": 17,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-18",
+     "label": "california 18",
+     "state": "California",
+     "district": 18,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-19",
+     "label": "california 19",
+     "state": "California",
+     "district": 19,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-20",
+     "label": "california 20",
+     "state": "California",
+     "district": 20,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-21",
+     "label": "california 21",
+     "state": "California",
+     "district": 21,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-22",
+     "label": "california 22",
+     "state": "California",
+     "district": 22,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-23",
+     "label": "california 23",
+     "state": "California",
+     "district": 23,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-24",
+     "label": "california 24",
+     "state": "California",
+     "district": 24,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-25",
+     "label": "california 25",
+     "state": "California",
+     "district": 25,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-26",
+     "label": "california 26",
+     "state": "California",
+     "district": 26,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-27",
+     "label": "california 27",
+     "state": "California",
+     "district": 27,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-28",
+     "label": "california 28",
+     "state": "California",
+     "district": 28,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-29",
+     "label": "california 29",
+     "state": "California",
+     "district": 29,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-30",
+     "label": "california 30",
+     "state": "California",
+     "district": 30,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-31",
+     "label": "california 31",
+     "state": "California",
+     "district": 31,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-32",
+     "label": "california 32",
+     "state": "California",
+     "district": 32,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-33",
+     "label": "california 33",
+     "state": "California",
+     "district": 33,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-34",
+     "label": "california 34",
+     "state": "California",
+     "district": 34,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-35",
+     "label": "california 35",
+     "state": "California",
+     "district": 35,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-36",
+     "label": "california 36",
+     "state": "California",
+     "district": 36,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-37",
+     "label": "california 37",
+     "state": "California",
+     "district": 37,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-38",
+     "label": "california 38",
+     "state": "California",
+     "district": 38,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-39",
+     "label": "california 39",
+     "state": "California",
+     "district": 39,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-40",
+     "label": "california 40",
+     "state": "California",
+     "district": 40,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-41",
+     "label": "california 41",
+     "state": "California",
+     "district": 41,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-42",
+     "label": "california 42",
+     "state": "California",
+     "district": 42,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-43",
+     "label": "california 43",
+     "state": "California",
+     "district": 43,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-44",
+     "label": "california 44",
+     "state": "California",
+     "district": 44,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-45",
+     "label": "california 45",
+     "state": "California",
+     "district": 45,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-46",
+     "label": "california 46",
+     "state": "California",
+     "district": 46,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-47",
+     "label": "california 47",
+     "state": "California",
+     "district": 47,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-48",
+     "label": "california 48",
+     "state": "California",
+     "district": 48,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-49",
+     "label": "california 49",
+     "state": "California",
+     "district": 49,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-50",
+     "label": "california 50",
+     "state": "California",
+     "district": 50,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-51",
+     "label": "california 51",
+     "state": "California",
+     "district": 51,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "ca-52",
+     "label": "california 52",
+     "state": "California",
+     "district": 52,
+     "page": "2026 United States House of Representatives elections in California"
+    },
+    {
+     "id": "co-01",
+     "label": "colorado 1",
+     "state": "Colorado",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "co-02",
+     "label": "colorado 2",
+     "state": "Colorado",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "co-03",
+     "label": "colorado 3",
+     "state": "Colorado",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "co-04",
+     "label": "colorado 4",
+     "state": "Colorado",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "co-05",
+     "label": "colorado 5",
+     "state": "Colorado",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "co-06",
+     "label": "colorado 6",
+     "state": "Colorado",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "co-07",
+     "label": "colorado 7",
+     "state": "Colorado",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Colorado"
+    },
+    {
+     "id": "ct-01",
+     "label": "connecticut 1",
+     "state": "Connecticut",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Connecticut"
+    },
+    {
+     "id": "ct-02",
+     "label": "connecticut 2",
+     "state": "Connecticut",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Connecticut"
+    },
+    {
+     "id": "ct-03",
+     "label": "connecticut 3",
+     "state": "Connecticut",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Connecticut"
+    },
+    {
+     "id": "ct-04",
+     "label": "connecticut 4",
+     "state": "Connecticut",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Connecticut"
+    },
+    {
+     "id": "ct-05",
+     "label": "connecticut 5",
+     "state": "Connecticut",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Connecticut"
+    },
+    {
+     "id": "de-al",
+     "label": "delaware (at-large)",
+     "state": "Delaware",
+     "page": "2026 United States House of Representatives election in Delaware"
+    },
+    {
+     "id": "fl-01",
+     "label": "florida 1",
+     "state": "Florida",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-02",
+     "label": "florida 2",
+     "state": "Florida",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-03",
+     "label": "florida 3",
+     "state": "Florida",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-04",
+     "label": "florida 4",
+     "state": "Florida",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-05",
+     "label": "florida 5",
+     "state": "Florida",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-06",
+     "label": "florida 6",
+     "state": "Florida",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-07",
+     "label": "florida 7",
+     "state": "Florida",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-08",
+     "label": "florida 8",
+     "state": "Florida",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-09",
+     "label": "florida 9",
+     "state": "Florida",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-10",
+     "label": "florida 10",
+     "state": "Florida",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-11",
+     "label": "florida 11",
+     "state": "Florida",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-12",
+     "label": "florida 12",
+     "state": "Florida",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-13",
+     "label": "florida 13",
+     "state": "Florida",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-14",
+     "label": "florida 14",
+     "state": "Florida",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-15",
+     "label": "florida 15",
+     "state": "Florida",
+     "district": 15,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-16",
+     "label": "florida 16",
+     "state": "Florida",
+     "district": 16,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-17",
+     "label": "florida 17",
+     "state": "Florida",
+     "district": 17,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-18",
+     "label": "florida 18",
+     "state": "Florida",
+     "district": 18,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-19",
+     "label": "florida 19",
+     "state": "Florida",
+     "district": 19,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-20",
+     "label": "florida 20",
+     "state": "Florida",
+     "district": 20,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-21",
+     "label": "florida 21",
+     "state": "Florida",
+     "district": 21,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-22",
+     "label": "florida 22",
+     "state": "Florida",
+     "district": 22,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-23",
+     "label": "florida 23",
+     "state": "Florida",
+     "district": 23,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-24",
+     "label": "florida 24",
+     "state": "Florida",
+     "district": 24,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-25",
+     "label": "florida 25",
+     "state": "Florida",
+     "district": 25,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-26",
+     "label": "florida 26",
+     "state": "Florida",
+     "district": 26,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-27",
+     "label": "florida 27",
+     "state": "Florida",
+     "district": 27,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "fl-28",
+     "label": "florida 28",
+     "state": "Florida",
+     "district": 28,
+     "page": "2026 United States House of Representatives elections in Florida"
+    },
+    {
+     "id": "ga-01",
+     "label": "georgia 1",
+     "state": "Georgia",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-02",
+     "label": "georgia 2",
+     "state": "Georgia",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-03",
+     "label": "georgia 3",
+     "state": "Georgia",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-04",
+     "label": "georgia 4",
+     "state": "Georgia",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-05",
+     "label": "georgia 5",
+     "state": "Georgia",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-06",
+     "label": "georgia 6",
+     "state": "Georgia",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-07",
+     "label": "georgia 7",
+     "state": "Georgia",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-08",
+     "label": "georgia 8",
+     "state": "Georgia",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-09",
+     "label": "georgia 9",
+     "state": "Georgia",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-10",
+     "label": "georgia 10",
+     "state": "Georgia",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-11",
+     "label": "georgia 11",
+     "state": "Georgia",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-12",
+     "label": "georgia 12",
+     "state": "Georgia",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-13",
+     "label": "georgia 13",
+     "state": "Georgia",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "ga-14",
+     "label": "georgia 14",
+     "state": "Georgia",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in Georgia"
+    },
+    {
+     "id": "hi-01",
+     "label": "hawaii 1",
+     "state": "Hawaii",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Hawaii"
+    },
+    {
+     "id": "hi-02",
+     "label": "hawaii 2",
+     "state": "Hawaii",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Hawaii"
+    },
+    {
+     "id": "id-01",
+     "label": "idaho 1",
+     "state": "Idaho",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Idaho"
+    },
+    {
+     "id": "id-02",
+     "label": "idaho 2",
+     "state": "Idaho",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Idaho"
+    },
+    {
+     "id": "il-01",
+     "label": "illinois 1",
+     "state": "Illinois",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-02",
+     "label": "illinois 2",
+     "state": "Illinois",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-03",
+     "label": "illinois 3",
+     "state": "Illinois",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-04",
+     "label": "illinois 4",
+     "state": "Illinois",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-05",
+     "label": "illinois 5",
+     "state": "Illinois",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-06",
+     "label": "illinois 6",
+     "state": "Illinois",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-07",
+     "label": "illinois 7",
+     "state": "Illinois",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-08",
+     "label": "illinois 8",
+     "state": "Illinois",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-09",
+     "label": "illinois 9",
+     "state": "Illinois",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-10",
+     "label": "illinois 10",
+     "state": "Illinois",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-11",
+     "label": "illinois 11",
+     "state": "Illinois",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-12",
+     "label": "illinois 12",
+     "state": "Illinois",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-13",
+     "label": "illinois 13",
+     "state": "Illinois",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-14",
+     "label": "illinois 14",
+     "state": "Illinois",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-15",
+     "label": "illinois 15",
+     "state": "Illinois",
+     "district": 15,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-16",
+     "label": "illinois 16",
+     "state": "Illinois",
+     "district": 16,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "il-17",
+     "label": "illinois 17",
+     "state": "Illinois",
+     "district": 17,
+     "page": "2026 United States House of Representatives elections in Illinois"
+    },
+    {
+     "id": "in-01",
+     "label": "indiana 1",
+     "state": "Indiana",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-02",
+     "label": "indiana 2",
+     "state": "Indiana",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-03",
+     "label": "indiana 3",
+     "state": "Indiana",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-04",
+     "label": "indiana 4",
+     "state": "Indiana",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-05",
+     "label": "indiana 5",
+     "state": "Indiana",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-06",
+     "label": "indiana 6",
+     "state": "Indiana",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-07",
+     "label": "indiana 7",
+     "state": "Indiana",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-08",
+     "label": "indiana 8",
+     "state": "Indiana",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "in-09",
+     "label": "indiana 9",
+     "state": "Indiana",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Indiana"
+    },
+    {
+     "id": "ia-02",
+     "label": "iowa 2",
+     "state": "Iowa",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Iowa"
+    },
+    {
+     "id": "ia-03",
+     "label": "iowa 3",
+     "state": "Iowa",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Iowa"
+    },
+    {
+     "id": "ia-04",
+     "label": "iowa 4",
+     "state": "Iowa",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Iowa"
+    },
+    {
+     "id": "ks-01",
+     "label": "kansas 1",
+     "state": "Kansas",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Kansas"
+    },
+    {
+     "id": "ks-02",
+     "label": "kansas 2",
+     "state": "Kansas",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Kansas"
+    },
+    {
+     "id": "ks-03",
+     "label": "kansas 3",
+     "state": "Kansas",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Kansas"
+    },
+    {
+     "id": "ks-04",
+     "label": "kansas 4",
+     "state": "Kansas",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Kansas"
+    },
+    {
+     "id": "ky-01",
+     "label": "kentucky 1",
+     "state": "Kentucky",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Kentucky"
+    },
+    {
+     "id": "ky-02",
+     "label": "kentucky 2",
+     "state": "Kentucky",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Kentucky"
+    },
+    {
+     "id": "ky-03",
+     "label": "kentucky 3",
+     "state": "Kentucky",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Kentucky"
+    },
+    {
+     "id": "ky-04",
+     "label": "kentucky 4",
+     "state": "Kentucky",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Kentucky"
+    },
+    {
+     "id": "ky-05",
+     "label": "kentucky 5",
+     "state": "Kentucky",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Kentucky"
+    },
+    {
+     "id": "la-01",
+     "label": "louisiana 1",
+     "state": "Louisiana",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Louisiana"
+    },
+    {
+     "id": "la-02",
+     "label": "louisiana 2",
+     "state": "Louisiana",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Louisiana"
+    },
+    {
+     "id": "la-03",
+     "label": "louisiana 3",
+     "state": "Louisiana",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Louisiana"
+    },
+    {
+     "id": "la-04",
+     "label": "louisiana 4",
+     "state": "Louisiana",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Louisiana"
+    },
+    {
+     "id": "la-05",
+     "label": "louisiana 5",
+     "state": "Louisiana",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Louisiana"
+    },
+    {
+     "id": "la-06",
+     "label": "louisiana 6",
+     "state": "Louisiana",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Louisiana"
+    },
+    {
+     "id": "me-01",
+     "label": "maine 1",
+     "state": "Maine",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Maine"
+    },
+    {
+     "id": "me-02",
+     "label": "maine 2",
+     "state": "Maine",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Maine"
+    },
+    {
+     "id": "md-01",
+     "label": "maryland 1",
+     "state": "Maryland",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-02",
+     "label": "maryland 2",
+     "state": "Maryland",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-03",
+     "label": "maryland 3",
+     "state": "Maryland",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-04",
+     "label": "maryland 4",
+     "state": "Maryland",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-05",
+     "label": "maryland 5",
+     "state": "Maryland",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-06",
+     "label": "maryland 6",
+     "state": "Maryland",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-07",
+     "label": "maryland 7",
+     "state": "Maryland",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "md-08",
+     "label": "maryland 8",
+     "state": "Maryland",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Maryland"
+    },
+    {
+     "id": "ma-01",
+     "label": "massachusetts 1",
+     "state": "Massachusetts",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-02",
+     "label": "massachusetts 2",
+     "state": "Massachusetts",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-03",
+     "label": "massachusetts 3",
+     "state": "Massachusetts",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-04",
+     "label": "massachusetts 4",
+     "state": "Massachusetts",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-05",
+     "label": "massachusetts 5",
+     "state": "Massachusetts",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-06",
+     "label": "massachusetts 6",
+     "state": "Massachusetts",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-07",
+     "label": "massachusetts 7",
+     "state": "Massachusetts",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-08",
+     "label": "massachusetts 8",
+     "state": "Massachusetts",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "ma-09",
+     "label": "massachusetts 9",
+     "state": "Massachusetts",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Massachusetts"
+    },
+    {
+     "id": "mi-01",
+     "label": "michigan 1",
+     "state": "Michigan",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-02",
+     "label": "michigan 2",
+     "state": "Michigan",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-03",
+     "label": "michigan 3",
+     "state": "Michigan",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-04",
+     "label": "michigan 4",
+     "state": "Michigan",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-05",
+     "label": "michigan 5",
+     "state": "Michigan",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-06",
+     "label": "michigan 6",
+     "state": "Michigan",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-08",
+     "label": "michigan 8",
+     "state": "Michigan",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-09",
+     "label": "michigan 9",
+     "state": "Michigan",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-10",
+     "label": "michigan 10",
+     "state": "Michigan",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-11",
+     "label": "michigan 11",
+     "state": "Michigan",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-12",
+     "label": "michigan 12",
+     "state": "Michigan",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mi-13",
+     "label": "michigan 13",
+     "state": "Michigan",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Michigan"
+    },
+    {
+     "id": "mn-01",
+     "label": "minnesota 1",
+     "state": "Minnesota",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-02",
+     "label": "minnesota 2",
+     "state": "Minnesota",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-03",
+     "label": "minnesota 3",
+     "state": "Minnesota",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-04",
+     "label": "minnesota 4",
+     "state": "Minnesota",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-05",
+     "label": "minnesota 5",
+     "state": "Minnesota",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-06",
+     "label": "minnesota 6",
+     "state": "Minnesota",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-07",
+     "label": "minnesota 7",
+     "state": "Minnesota",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "mn-08",
+     "label": "minnesota 8",
+     "state": "Minnesota",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Minnesota"
+    },
+    {
+     "id": "ms-01",
+     "label": "mississippi 1",
+     "state": "Mississippi",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Mississippi"
+    },
+    {
+     "id": "ms-02",
+     "label": "mississippi 2",
+     "state": "Mississippi",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Mississippi"
+    },
+    {
+     "id": "ms-03",
+     "label": "mississippi 3",
+     "state": "Mississippi",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Mississippi"
+    },
+    {
+     "id": "ms-04",
+     "label": "mississippi 4",
+     "state": "Mississippi",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Mississippi"
+    },
+    {
+     "id": "mo-01",
+     "label": "missouri 1",
+     "state": "Missouri",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-02",
+     "label": "missouri 2",
+     "state": "Missouri",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-03",
+     "label": "missouri 3",
+     "state": "Missouri",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-04",
+     "label": "missouri 4",
+     "state": "Missouri",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-05",
+     "label": "missouri 5",
+     "state": "Missouri",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-06",
+     "label": "missouri 6",
+     "state": "Missouri",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-07",
+     "label": "missouri 7",
+     "state": "Missouri",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mo-08",
+     "label": "missouri 8",
+     "state": "Missouri",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Missouri"
+    },
+    {
+     "id": "mt-01",
+     "label": "montana 1",
+     "state": "Montana",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Montana"
+    },
+    {
+     "id": "mt-02",
+     "label": "montana 2",
+     "state": "Montana",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Montana"
+    },
+    {
+     "id": "ne-01",
+     "label": "nebraska 1",
+     "state": "Nebraska",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Nebraska"
+    },
+    {
+     "id": "ne-02",
+     "label": "nebraska 2",
+     "state": "Nebraska",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Nebraska"
+    },
+    {
+     "id": "ne-03",
+     "label": "nebraska 3",
+     "state": "Nebraska",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Nebraska"
+    },
+    {
+     "id": "nv-01",
+     "label": "nevada 1",
+     "state": "Nevada",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Nevada"
+    },
+    {
+     "id": "nv-02",
+     "label": "nevada 2",
+     "state": "Nevada",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Nevada"
+    },
+    {
+     "id": "nv-03",
+     "label": "nevada 3",
+     "state": "Nevada",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Nevada"
+    },
+    {
+     "id": "nv-04",
+     "label": "nevada 4",
+     "state": "Nevada",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Nevada"
+    },
+    {
+     "id": "nh-01",
+     "label": "new hampshire 1",
+     "state": "New Hampshire",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in New Hampshire"
+    },
+    {
+     "id": "nh-02",
+     "label": "new hampshire 2",
+     "state": "New Hampshire",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in New Hampshire"
+    },
+    {
+     "id": "nj-01",
+     "label": "new jersey 1",
+     "state": "New Jersey",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-02",
+     "label": "new jersey 2",
+     "state": "New Jersey",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-03",
+     "label": "new jersey 3",
+     "state": "New Jersey",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-04",
+     "label": "new jersey 4",
+     "state": "New Jersey",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-05",
+     "label": "new jersey 5",
+     "state": "New Jersey",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-06",
+     "label": "new jersey 6",
+     "state": "New Jersey",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-07",
+     "label": "new jersey 7",
+     "state": "New Jersey",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-08",
+     "label": "new jersey 8",
+     "state": "New Jersey",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-09",
+     "label": "new jersey 9",
+     "state": "New Jersey",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-10",
+     "label": "new jersey 10",
+     "state": "New Jersey",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-11",
+     "label": "new jersey 11",
+     "state": "New Jersey",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nj-12",
+     "label": "new jersey 12",
+     "state": "New Jersey",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in New Jersey"
+    },
+    {
+     "id": "nm-01",
+     "label": "new mexico 1",
+     "state": "New Mexico",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in New Mexico"
+    },
+    {
+     "id": "nm-02",
+     "label": "new mexico 2",
+     "state": "New Mexico",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in New Mexico"
+    },
+    {
+     "id": "nm-03",
+     "label": "new mexico 3",
+     "state": "New Mexico",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in New Mexico"
+    },
+    {
+     "id": "ny-01",
+     "label": "new york 1",
+     "state": "New York",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-02",
+     "label": "new york 2",
+     "state": "New York",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-03",
+     "label": "new york 3",
+     "state": "New York",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-04",
+     "label": "new york 4",
+     "state": "New York",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-05",
+     "label": "new york 5",
+     "state": "New York",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-06",
+     "label": "new york 6",
+     "state": "New York",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-07",
+     "label": "new york 7",
+     "state": "New York",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-08",
+     "label": "new york 8",
+     "state": "New York",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-09",
+     "label": "new york 9",
+     "state": "New York",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-11",
+     "label": "new york 11",
+     "state": "New York",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-12",
+     "label": "new york 12",
+     "state": "New York",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-13",
+     "label": "new york 13",
+     "state": "New York",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-14",
+     "label": "new york 14",
+     "state": "New York",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-15",
+     "label": "new york 15",
+     "state": "New York",
+     "district": 15,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-16",
+     "label": "new york 16",
+     "state": "New York",
+     "district": 16,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-18",
+     "label": "new york 18",
+     "state": "New York",
+     "district": 18,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-19",
+     "label": "new york 19",
+     "state": "New York",
+     "district": 19,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-20",
+     "label": "new york 20",
+     "state": "New York",
+     "district": 20,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-21",
+     "label": "new york 21",
+     "state": "New York",
+     "district": 21,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-22",
+     "label": "new york 22",
+     "state": "New York",
+     "district": 22,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-23",
+     "label": "new york 23",
+     "state": "New York",
+     "district": 23,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-24",
+     "label": "new york 24",
+     "state": "New York",
+     "district": 24,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-25",
+     "label": "new york 25",
+     "state": "New York",
+     "district": 25,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "ny-26",
+     "label": "new york 26",
+     "state": "New York",
+     "district": 26,
+     "page": "2026 United States House of Representatives elections in New York"
+    },
+    {
+     "id": "nc-01",
+     "label": "north carolina 1",
+     "state": "North Carolina",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-02",
+     "label": "north carolina 2",
+     "state": "North Carolina",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-03",
+     "label": "north carolina 3",
+     "state": "North Carolina",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-04",
+     "label": "north carolina 4",
+     "state": "North Carolina",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-05",
+     "label": "north carolina 5",
+     "state": "North Carolina",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-06",
+     "label": "north carolina 6",
+     "state": "North Carolina",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-07",
+     "label": "north carolina 7",
+     "state": "North Carolina",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-08",
+     "label": "north carolina 8",
+     "state": "North Carolina",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-09",
+     "label": "north carolina 9",
+     "state": "North Carolina",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-10",
+     "label": "north carolina 10",
+     "state": "North Carolina",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-11",
+     "label": "north carolina 11",
+     "state": "North Carolina",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-12",
+     "label": "north carolina 12",
+     "state": "North Carolina",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-13",
+     "label": "north carolina 13",
+     "state": "North Carolina",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nc-14",
+     "label": "north carolina 14",
+     "state": "North Carolina",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in North Carolina"
+    },
+    {
+     "id": "nd-al",
+     "label": "north dakota (at-large)",
+     "state": "North Dakota",
+     "page": "2026 United States House of Representatives election in North Dakota"
+    },
+    {
+     "id": "oh-01",
+     "label": "ohio 1",
+     "state": "Ohio",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-02",
+     "label": "ohio 2",
+     "state": "Ohio",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-03",
+     "label": "ohio 3",
+     "state": "Ohio",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-04",
+     "label": "ohio 4",
+     "state": "Ohio",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-05",
+     "label": "ohio 5",
+     "state": "Ohio",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-06",
+     "label": "ohio 6",
+     "state": "Ohio",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-07",
+     "label": "ohio 7",
+     "state": "Ohio",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-08",
+     "label": "ohio 8",
+     "state": "Ohio",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-09",
+     "label": "ohio 9",
+     "state": "Ohio",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-10",
+     "label": "ohio 10",
+     "state": "Ohio",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-11",
+     "label": "ohio 11",
+     "state": "Ohio",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-12",
+     "label": "ohio 12",
+     "state": "Ohio",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-13",
+     "label": "ohio 13",
+     "state": "Ohio",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-14",
+     "label": "ohio 14",
+     "state": "Ohio",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "oh-15",
+     "label": "ohio 15",
+     "state": "Ohio",
+     "district": 15,
+     "page": "2026 United States House of Representatives elections in Ohio"
+    },
+    {
+     "id": "ok-01",
+     "label": "oklahoma 1",
+     "state": "Oklahoma",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Oklahoma"
+    },
+    {
+     "id": "ok-02",
+     "label": "oklahoma 2",
+     "state": "Oklahoma",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Oklahoma"
+    },
+    {
+     "id": "ok-03",
+     "label": "oklahoma 3",
+     "state": "Oklahoma",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Oklahoma"
+    },
+    {
+     "id": "ok-04",
+     "label": "oklahoma 4",
+     "state": "Oklahoma",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Oklahoma"
+    },
+    {
+     "id": "ok-05",
+     "label": "oklahoma 5",
+     "state": "Oklahoma",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Oklahoma"
+    },
+    {
+     "id": "or-01",
+     "label": "oregon 1",
+     "state": "Oregon",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Oregon"
+    },
+    {
+     "id": "or-02",
+     "label": "oregon 2",
+     "state": "Oregon",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Oregon"
+    },
+    {
+     "id": "or-03",
+     "label": "oregon 3",
+     "state": "Oregon",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Oregon"
+    },
+    {
+     "id": "or-04",
+     "label": "oregon 4",
+     "state": "Oregon",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Oregon"
+    },
+    {
+     "id": "or-05",
+     "label": "oregon 5",
+     "state": "Oregon",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Oregon"
+    },
+    {
+     "id": "or-06",
+     "label": "oregon 6",
+     "state": "Oregon",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Oregon"
+    },
+    {
+     "id": "pa-02",
+     "label": "pennsylvania 2",
+     "state": "Pennsylvania",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-03",
+     "label": "pennsylvania 3",
+     "state": "Pennsylvania",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-04",
+     "label": "pennsylvania 4",
+     "state": "Pennsylvania",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-05",
+     "label": "pennsylvania 5",
+     "state": "Pennsylvania",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-06",
+     "label": "pennsylvania 6",
+     "state": "Pennsylvania",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-07",
+     "label": "pennsylvania 7",
+     "state": "Pennsylvania",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-09",
+     "label": "pennsylvania 9",
+     "state": "Pennsylvania",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-10",
+     "label": "pennsylvania 10",
+     "state": "Pennsylvania",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-11",
+     "label": "pennsylvania 11",
+     "state": "Pennsylvania",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-12",
+     "label": "pennsylvania 12",
+     "state": "Pennsylvania",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-13",
+     "label": "pennsylvania 13",
+     "state": "Pennsylvania",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-14",
+     "label": "pennsylvania 14",
+     "state": "Pennsylvania",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-15",
+     "label": "pennsylvania 15",
+     "state": "Pennsylvania",
+     "district": 15,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-16",
+     "label": "pennsylvania 16",
+     "state": "Pennsylvania",
+     "district": 16,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "pa-17",
+     "label": "pennsylvania 17",
+     "state": "Pennsylvania",
+     "district": 17,
+     "page": "2026 United States House of Representatives elections in Pennsylvania"
+    },
+    {
+     "id": "ri-01",
+     "label": "rhode island 1",
+     "state": "Rhode Island",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Rhode Island"
+    },
+    {
+     "id": "ri-02",
+     "label": "rhode island 2",
+     "state": "Rhode Island",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Rhode Island"
+    },
+    {
+     "id": "sc-01",
+     "label": "south carolina 1",
+     "state": "South Carolina",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sc-02",
+     "label": "south carolina 2",
+     "state": "South Carolina",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sc-03",
+     "label": "south carolina 3",
+     "state": "South Carolina",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sc-04",
+     "label": "south carolina 4",
+     "state": "South Carolina",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sc-05",
+     "label": "south carolina 5",
+     "state": "South Carolina",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sc-06",
+     "label": "south carolina 6",
+     "state": "South Carolina",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sc-07",
+     "label": "south carolina 7",
+     "state": "South Carolina",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in South Carolina"
+    },
+    {
+     "id": "sd-al",
+     "label": "south dakota (at-large)",
+     "state": "South Dakota",
+     "page": "2026 United States House of Representatives election in South Dakota"
+    },
+    {
+     "id": "tn-01",
+     "label": "tennessee 1",
+     "state": "Tennessee",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-02",
+     "label": "tennessee 2",
+     "state": "Tennessee",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-03",
+     "label": "tennessee 3",
+     "state": "Tennessee",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-04",
+     "label": "tennessee 4",
+     "state": "Tennessee",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-05",
+     "label": "tennessee 5",
+     "state": "Tennessee",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-06",
+     "label": "tennessee 6",
+     "state": "Tennessee",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-07",
+     "label": "tennessee 7",
+     "state": "Tennessee",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-08",
+     "label": "tennessee 8",
+     "state": "Tennessee",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tn-09",
+     "label": "tennessee 9",
+     "state": "Tennessee",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Tennessee"
+    },
+    {
+     "id": "tx-01",
+     "label": "texas 1",
+     "state": "Texas",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-02",
+     "label": "texas 2",
+     "state": "Texas",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-03",
+     "label": "texas 3",
+     "state": "Texas",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-04",
+     "label": "texas 4",
+     "state": "Texas",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-05",
+     "label": "texas 5",
+     "state": "Texas",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-06",
+     "label": "texas 6",
+     "state": "Texas",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-07",
+     "label": "texas 7",
+     "state": "Texas",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-08",
+     "label": "texas 8",
+     "state": "Texas",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-09",
+     "label": "texas 9",
+     "state": "Texas",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-10",
+     "label": "texas 10",
+     "state": "Texas",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-11",
+     "label": "texas 11",
+     "state": "Texas",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-12",
+     "label": "texas 12",
+     "state": "Texas",
+     "district": 12,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-13",
+     "label": "texas 13",
+     "state": "Texas",
+     "district": 13,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-14",
+     "label": "texas 14",
+     "state": "Texas",
+     "district": 14,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-16",
+     "label": "texas 16",
+     "state": "Texas",
+     "district": 16,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-17",
+     "label": "texas 17",
+     "state": "Texas",
+     "district": 17,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-18",
+     "label": "texas 18",
+     "state": "Texas",
+     "district": 18,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-19",
+     "label": "texas 19",
+     "state": "Texas",
+     "district": 19,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-20",
+     "label": "texas 20",
+     "state": "Texas",
+     "district": 20,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-21",
+     "label": "texas 21",
+     "state": "Texas",
+     "district": 21,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-22",
+     "label": "texas 22",
+     "state": "Texas",
+     "district": 22,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-23",
+     "label": "texas 23",
+     "state": "Texas",
+     "district": 23,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-24",
+     "label": "texas 24",
+     "state": "Texas",
+     "district": 24,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-25",
+     "label": "texas 25",
+     "state": "Texas",
+     "district": 25,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-26",
+     "label": "texas 26",
+     "state": "Texas",
+     "district": 26,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-27",
+     "label": "texas 27",
+     "state": "Texas",
+     "district": 27,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-28",
+     "label": "texas 28",
+     "state": "Texas",
+     "district": 28,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-29",
+     "label": "texas 29",
+     "state": "Texas",
+     "district": 29,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-30",
+     "label": "texas 30",
+     "state": "Texas",
+     "district": 30,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-31",
+     "label": "texas 31",
+     "state": "Texas",
+     "district": 31,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-32",
+     "label": "texas 32",
+     "state": "Texas",
+     "district": 32,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-33",
+     "label": "texas 33",
+     "state": "Texas",
+     "district": 33,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-34",
+     "label": "texas 34",
+     "state": "Texas",
+     "district": 34,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-35",
+     "label": "texas 35",
+     "state": "Texas",
+     "district": 35,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-36",
+     "label": "texas 36",
+     "state": "Texas",
+     "district": 36,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-37",
+     "label": "texas 37",
+     "state": "Texas",
+     "district": 37,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "tx-38",
+     "label": "texas 38",
+     "state": "Texas",
+     "district": 38,
+     "page": "2026 United States House of Representatives elections in Texas"
+    },
+    {
+     "id": "ut-01",
+     "label": "utah 1",
+     "state": "Utah",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Utah"
+    },
+    {
+     "id": "ut-02",
+     "label": "utah 2",
+     "state": "Utah",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Utah"
+    },
+    {
+     "id": "ut-03",
+     "label": "utah 3",
+     "state": "Utah",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Utah"
+    },
+    {
+     "id": "ut-04",
+     "label": "utah 4",
+     "state": "Utah",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Utah"
+    },
+    {
+     "id": "vt-al",
+     "label": "vermont (at-large)",
+     "state": "Vermont",
+     "page": "2026 United States House of Representatives election in Vermont"
+    },
+    {
+     "id": "va-01",
+     "label": "virginia 1",
+     "state": "Virginia",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-03",
+     "label": "virginia 3",
+     "state": "Virginia",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-04",
+     "label": "virginia 4",
+     "state": "Virginia",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-06",
+     "label": "virginia 6",
+     "state": "Virginia",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-07",
+     "label": "virginia 7",
+     "state": "Virginia",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-08",
+     "label": "virginia 8",
+     "state": "Virginia",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-09",
+     "label": "virginia 9",
+     "state": "Virginia",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-10",
+     "label": "virginia 10",
+     "state": "Virginia",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "va-11",
+     "label": "virginia 11",
+     "state": "Virginia",
+     "district": 11,
+     "page": "2026 United States House of Representatives elections in Virginia"
+    },
+    {
+     "id": "wa-01",
+     "label": "washington 1",
+     "state": "Washington",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-02",
+     "label": "washington 2",
+     "state": "Washington",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-03",
+     "label": "washington 3",
+     "state": "Washington",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-04",
+     "label": "washington 4",
+     "state": "Washington",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-05",
+     "label": "washington 5",
+     "state": "Washington",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-06",
+     "label": "washington 6",
+     "state": "Washington",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-07",
+     "label": "washington 7",
+     "state": "Washington",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-08",
+     "label": "washington 8",
+     "state": "Washington",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-09",
+     "label": "washington 9",
+     "state": "Washington",
+     "district": 9,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wa-10",
+     "label": "washington 10",
+     "state": "Washington",
+     "district": 10,
+     "page": "2026 United States House of Representatives elections in Washington"
+    },
+    {
+     "id": "wv-01",
+     "label": "west virginia 1",
+     "state": "West Virginia",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in West Virginia"
+    },
+    {
+     "id": "wv-02",
+     "label": "west virginia 2",
+     "state": "West Virginia",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in West Virginia"
+    },
+    {
+     "id": "wi-01",
+     "label": "wisconsin 1",
+     "state": "Wisconsin",
+     "district": 1,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-02",
+     "label": "wisconsin 2",
+     "state": "Wisconsin",
+     "district": 2,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-03",
+     "label": "wisconsin 3",
+     "state": "Wisconsin",
+     "district": 3,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-04",
+     "label": "wisconsin 4",
+     "state": "Wisconsin",
+     "district": 4,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-05",
+     "label": "wisconsin 5",
+     "state": "Wisconsin",
+     "district": 5,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-06",
+     "label": "wisconsin 6",
+     "state": "Wisconsin",
+     "district": 6,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-07",
+     "label": "wisconsin 7",
+     "state": "Wisconsin",
+     "district": 7,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wi-08",
+     "label": "wisconsin 8",
+     "state": "Wisconsin",
+     "district": 8,
+     "page": "2026 United States House of Representatives elections in Wisconsin"
+    },
+    {
+     "id": "wy-al",
+     "label": "wyoming (at-large)",
+     "state": "Wyoming",
+     "page": "2026 United States House of Representatives election in Wyoming"
     }
-   ]
+   ],
+   "all_label": "see all house races"
   },
   {
    "id": "governors",

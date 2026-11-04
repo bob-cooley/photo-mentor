@@ -235,18 +235,30 @@ def district_section(text, district):
     return None
 
 
-def from_electionbox(text, district):
-    sec = district_section(text, district)
-    if sec is None:
+def ordinal(n):
+    if 10 <= n % 100 <= 20:
+        return f"{n}th"
+    return f"{n}{ {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th') }"
+
+
+def from_electionbox(text, district, state):
+    """General-election result box for one House district.
+
+    Matches the box by its title ("2026 Texas's 15th congressional district
+    election"; "...'s at-large congressional district election"), so primary
+    and runoff boxes in the same section are never mistaken for the general.
+    """
+    which = "at-large" if not district else ordinal(int(district))
+    title = re.compile(
+        rf"\{{\{{\s*Election box begin[^|}}]*\|\s*title\s*=\s*2026\s+{re.escape(state)}(?:'s|’s|'|’)\s+"
+        rf"{re.escape(which)}\s+congressional district election", re.I)
+    m = title.search(text)
+    if not m:
         return None
-    # Use the last {{Election box begin}} in the section: general election
-    # results sit below the primary boxes.
-    begins = [m.start() for m in re.finditer(r"\{\{\s*Election box begin", sec, re.I)]
-    if begins:
-        sec = sec[begins[-1]:]
-        endm = re.search(r"\{\{\s*Election box end", sec, re.I)
-        if endm:
-            sec = sec[:endm.end()]
+    sec = text[m.start():]
+    endm = re.search(r"\{\{\s*Election box end", sec, re.I)
+    if endm:
+        sec = sec[:endm.end()]
     cands, winner, pos = [], None, 0
     while True:
         span = find_template(sec, r"Election box (?:winning )?candidate[^|}]*", pos)
@@ -384,11 +396,11 @@ def tally_senate(out):
     log(f"  senate tally: holdover {hold} -> {seats}")
 
 
-def tally_house_key(out):
-    """House box: called results among the key districts on the page.
+def tally_house(out):
+    """House box: districts called so far (Wikipedia or two news outlets).
 
-    The full 435-seat count has no free live source, so this is labelled as
-    a key-district tally rather than chamber control.
+    Every seat is up, so there is nothing to carry over; the count trails
+    the networks until Wikipedia editors and headlines catch up.
     """
     ch = next((c for c in out["chambers"] if c["id"] == "house"), None)
     sec = next((s for s in out["sections"] if s["id"] == "house-races"), None)
@@ -398,10 +410,10 @@ def tally_house_key(out):
     for r in sec["races"]:
         if r["called"] in seats:
             seats[r["called"]] += 1
-    n = len(sec["races"])
-    ch.update(seats=seats, total=n, majority=None, label="house · key districts",
-              basis=f"{n} key districts tracked here, not the full 435-seat House")
-    log(f"  house key tally: {seats} of {n}")
+    called = sum(seats.values())
+    ch.update(seats=seats, label="house · called so far",
+              basis=f"{called} of {ch['total']} districts called here so far; runs behind network counts")
+    log(f"  house tally: {seats}")
 
 
 def decide_control(out, ov):
@@ -428,6 +440,12 @@ def decide_control(out, ov):
     except Exception as e:
         log(f"  ! control from news: {e}")
         news = {}
+    hou = next((c for c in out["chambers"] if c["id"] == "house"), None)
+    if hou and hou["seats"].get("D") is not None:
+        if hou["seats"]["D"] >= hou["majority"]:
+            ctl["house"] = {"party": "D", "by": "seat count"}
+        elif hou["seats"]["R"] >= hou["majority"]:
+            ctl["house"] = {"party": "R", "by": "seat count"}
     for chamber, (party, outlets) in news.items():
         if chamber in ctl and ctl[chamber] is None:
             ctl[chamber] = {"party": party, "by": "news: " + ", ".join(outlets)}
@@ -464,7 +482,7 @@ def main():
             text, revid = get_wikitext(r["page"])
             data = None
             if text:
-                data = from_infobox(text) if sec["kind"] == "infobox" else from_electionbox(text, r["district"])
+                data = from_infobox(text) if sec["kind"] == "infobox" else from_electionbox(text, r.get("district"), r["state"])
             entry = {"id": r["id"], "label": r["label"], "key": bool(r.get("key")),
                      "url": "https://en.wikipedia.org/wiki/" + urllib.parse.quote(r["page"].replace(" ", "_")),
                      "candidates": [], "other_pct": 0, "total_votes": 0, "called": None, "ok": False,
@@ -487,7 +505,7 @@ def main():
 
     apply_news_calls(cfg, ov, out)
     tally_senate(out)
-    tally_house_key(out)
+    tally_house(out)
     for ch in out["chambers"]:
         manual = ov.get("chambers", {}).get(ch["id"])
         if manual:
