@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-11-05T16:03:46.229906+00:00",
+    "fetchedAt": "2026-11-05T19:06:50.997314+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-11-05",
+        "firm": "Piper Sandler",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Raises",
+        "targetFrom": 462.0,
+        "targetTo": 466.0
+      },
       {
         "date": "2026-11-04",
         "firm": "Wells Fargo",
