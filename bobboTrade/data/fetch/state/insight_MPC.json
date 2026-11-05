@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T00:07:26.501526+00:00",
-  "text": "Marathon Petroleum dropped 8.1% today, bringing its two-week loss to 16%, likely driven by disappointing quarterly earnings or guidance announced yesterday combined with a broader market reassessment of refiner profitability. Refinery utilization sits at 94.5%\u2014already near capacity\u2014while gasoline and diesel inventories remain elevated (208.9 million and 99.3 million barrels respectively), suggesting limited room for refiners to boost production or margins even as crude prices hover around $100 per barrel.\n\nThe sell-off reflects a structural headwind: with refinery capacity constrained and fuel inventories high, the typical profit engine for refiners (the margin between crude input and product output) faces pressure going forward. The political shift toward renewable energy, combined with oil price uncertainty flagged by industry executives, has also likely prompted investors to reassess the investment thesis for traditional energy companies.",
+  "fetchedAt": "2026-11-05T07:40:40.200055+00:00",
+  "text": "Marathon Petroleum stock fell 8.1% today, following a sharp 3.4% drop yesterday after the company reported quarterly earnings on November 3rd. The decline likely reflects disappointment in the company's forward guidance or operational outlook \u2014 refiners live and die by their profit margins, which compress when oil prices stay elevated but refined product prices don't keep pace. With US oil at $99.64 and the company's refineries running at 94.5% capacity, there's limited room for output growth to offset margin pressure.\n\nThe two-week, 16% selloff also tracks a broader caution about Big Oil earnings: investors were warned earlier this week that while headline earnings may look strong, the real question for refiner valuations is whether management can show sustainable profitability ahead. Rising oil inventories (692 million barrels in storage) and ample gasoline supply (209 million barrels) suggest demand may not be as robust as hoped, which would further squeeze refiner margins going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 49,
-    "inputTokens": 41231,
-    "outputTokens": 9853,
-    "estimatedCostUsd": 0.090496,
-    "lastCallHour": "2026-11-05T00"
+    "callsThisMonth": 50,
+    "inputTokens": 42064,
+    "outputTokens": 10069,
+    "estimatedCostUsd": 0.092409,
+    "lastCallHour": "2026-11-05T07"
   }
 }
