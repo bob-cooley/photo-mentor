@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T16:04:10.583651+00:00",
-  "text": "The stock fell 14.61% over two weeks, with a sharp $37.84 drop on November 4th alone\u2014the day after the midterm election results. News that day highlighted Democratic control of Congress, which typically favors renewable energy investment over traditional oil refining, creating near-term uncertainty about the regulatory environment for refiners like this one. The modest decline today (-0.13%) suggests the stock is stabilizing after that initial shock.\n\nThe underlying refining fundamentals remain relatively solid: refineries are running at 94.5% capacity and US oil is trading at $99.64 per barrel, indicating steady demand. However, the election outcome appears to have shifted investor sentiment about the longer-term policy direction for fossil fuel infrastructure, which is why the stock retreated sharply even as day-to-day operations remain healthy.",
+  "fetchedAt": "2026-11-05T17:02:37.543965+00:00",
+  "text": "The stock dropped 1.7% today and has fallen nearly 16% over two weeks, a move that tracks closely with oil prices weakening from $107 to $99.50 per barrel over that same span. Refineries are running at 94.5% capacity with ample crude and product inventories, suggesting the refining margin\u2014the profit refiners make by turning crude into gasoline and diesel\u2014is under pressure as crude gets cheaper but demand remains moderate. Yesterday's sharp 8.6% drop coincided with news that Democrats are preparing investigations into energy policy decisions, which adds political uncertainty to the refining sector's already challenging economics.\n\nThe two-week decline reflects a broader squeeze on refiner profitability: crude prices are falling while refinery utilization stays high, narrowing the gap between input and output costs. Oil demand remains uncertain despite executives' talk of a \"demand decade\" ahead, leaving room for crude inventories to build if consumption disappoints.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 54,
-    "inputTokens": 45380,
-    "outputTokens": 10899,
-    "estimatedCostUsd": 0.099875,
-    "lastCallHour": "2026-11-05T16"
+    "callsThisMonth": 55,
+    "inputTokens": 46215,
+    "outputTokens": 11107,
+    "estimatedCostUsd": 0.10175,
+    "lastCallHour": "2026-11-05T17"
   }
 }
