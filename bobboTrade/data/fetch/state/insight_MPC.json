@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T15:02:11.797479+00:00",
-  "text": "Marathon Petroleum stock fell sharply on November 4th\u2014dropping nearly 8% that day to $392.68\u2014following the midterm election results and a subsequent market rotation away from traditional energy stocks. The CNBC coverage from that day specifically noted that some energy companies \"took a hit after the election,\" and the broader political shift toward Democratic control raised concerns about future policies favoring renewables like offshore wind and solar over fossil fuel infrastructure. This explains both the scale of the drop and its timing around the election outcome.\n\nThe stock has clawed back slightly since then but remains down 14% over two weeks, reflecting a deeper investor concern about refining margins and long-term demand. While US oil prices have held steady around $100 per barrel and refineries are running at a healthy 94.5%, the election outcome signals potential headwinds for traditional energy companies\u2014higher environmental scrutiny, possible regulatory changes, and a structural shift in capital allocation toward cleaner energy. This uncertainty, not today's small 0.4% gain, is what's driving the broader downward pressure on the stock.",
+  "fetchedAt": "2026-11-05T16:04:10.583651+00:00",
+  "text": "The stock fell 14.61% over two weeks, with a sharp $37.84 drop on November 4th alone\u2014the day after the midterm election results. News that day highlighted Democratic control of Congress, which typically favors renewable energy investment over traditional oil refining, creating near-term uncertainty about the regulatory environment for refiners like this one. The modest decline today (-0.13%) suggests the stock is stabilizing after that initial shock.\n\nThe underlying refining fundamentals remain relatively solid: refineries are running at 94.5% capacity and US oil is trading at $99.64 per barrel, indicating steady demand. However, the election outcome appears to have shifted investor sentiment about the longer-term policy direction for fossil fuel infrastructure, which is why the stock retreated sharply even as day-to-day operations remain healthy.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 53,
-    "inputTokens": 44555,
-    "outputTokens": 10718,
-    "estimatedCostUsd": 0.098145,
-    "lastCallHour": "2026-11-05T15"
+    "callsThisMonth": 54,
+    "inputTokens": 45380,
+    "outputTokens": 10899,
+    "estimatedCostUsd": 0.099875,
+    "lastCallHour": "2026-11-05T16"
   }
 }
