@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T17:02:37.543965+00:00",
-  "text": "The stock dropped 1.7% today and has fallen nearly 16% over two weeks, a move that tracks closely with oil prices weakening from $107 to $99.50 per barrel over that same span. Refineries are running at 94.5% capacity with ample crude and product inventories, suggesting the refining margin\u2014the profit refiners make by turning crude into gasoline and diesel\u2014is under pressure as crude gets cheaper but demand remains moderate. Yesterday's sharp 8.6% drop coincided with news that Democrats are preparing investigations into energy policy decisions, which adds political uncertainty to the refining sector's already challenging economics.\n\nThe two-week decline reflects a broader squeeze on refiner profitability: crude prices are falling while refinery utilization stays high, narrowing the gap between input and output costs. Oil demand remains uncertain despite executives' talk of a \"demand decade\" ahead, leaving room for crude inventories to build if consumption disappoints.",
+  "fetchedAt": "2026-11-05T18:02:00.706764+00:00",
+  "text": "Marathon Petroleum's stock has fallen nearly 16% over two weeks, with today's modest decline of about 1% occurring after a sharp 9% drop yesterday. The timing and magnitude of this collapse align with the post-election political shift: news on November 5th revealed that Democrats will investigate Trump-era energy deals and policies, including interventions in Venezuela and mineral arrangements. For a refiner like Marathon, this creates near-term uncertainty about regulatory treatment and energy policy direction, especially given Democratic interest in supporting renewables over fossil fuels.\n\nThe broader context makes the selloff understandable: refinery operations are running hot at 94.5%, but crude oil prices have pulled back sharply (US oil at $99.64 per barrel from higher levels earlier in the week), which typically squeezes refiner margins. Political risk compounds a sector already facing headwinds from policy uncertainty and the transition away from traditional energy sources.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 55,
-    "inputTokens": 46215,
-    "outputTokens": 11107,
-    "estimatedCostUsd": 0.10175,
-    "lastCallHour": "2026-11-05T17"
+    "callsThisMonth": 56,
+    "inputTokens": 47051,
+    "outputTokens": 11306,
+    "estimatedCostUsd": 0.103581,
+    "lastCallHour": "2026-11-05T18"
   }
 }
