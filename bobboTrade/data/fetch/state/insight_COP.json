@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-05T18:01:43.691721+00:00",
-  "text": "ConocoPhillips rose slightly today after reporting quarterly earnings on the heels of a steep five-day slide that knocked the stock down 9%. The company released its Q3 results this morning, which appears to have stabilized the decline, though the modest gain suggests investors are still digesting what the report showed amid broader oil sector weakness\u2014crude prices sit at $99.64 per barrel domestically, down sharply from recent weeks.\n\nThe larger context is political: Democrats' recent electoral gains mean renewed scrutiny of energy deals and policies, which has weighed on the sector this week. That uncertainty, combined with questions about future oil demand and geopolitical risks flagged by energy executives, has kept a lid on oil stocks despite the earnings announcement.",
+  "fetchedAt": "2026-11-05T19:01:43.336734+00:00",
+  "text": "ConocoPhillips rose slightly today, but this modest gain comes after a sharp 5.4% drop over the past two weeks. The stock has been hit hard since late October, falling from $150 to $137.80\u2014a move that coincides with the company's quarterly earnings announcement on November 5th and broader weakness in oil markets (US oil is down to $99.64 per barrel, well below $150 levels). The timing suggests investors reacted negatively to the quarter's results or outlook, or that weak oil prices overshadowed any positive news.\n\nThe broader backdrop matters too: political uncertainty is weighing on energy stocks. Democrats' anticipated wave of investigations into the Trump administration's energy policies and Venezuela intervention could create regulatory headwinds for major oil companies, while a shift toward renewables policy would reduce tailwinds for traditional oil producers going forward. This political and policy uncertainty is likely compounding the pressure from lower oil prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 56,
-    "inputTokens": 47091,
-    "outputTokens": 11083,
-    "estimatedCostUsd": 0.102506,
-    "lastCallHour": "2026-11-05T18"
+    "callsThisMonth": 57,
+    "inputTokens": 47868,
+    "outputTokens": 11287,
+    "estimatedCostUsd": 0.104303,
+    "lastCallHour": "2026-11-05T19"
   }
 }
