@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T14:02:14.525783+00:00",
-  "text": "Marathon Petroleum dropped 8.1% today, continuing a sharp two-week slide that has cut the stock nearly 16% lower. The most concrete trigger appears to be the company's quarterly earnings announcement and report filed on November 3rd\u2014two days before today's decline accelerated. While the data doesn't specify what disappointed in those results, the timing lines up with the stock's steepest fall (from $430 on November 3rd to $392 today), suggesting investors reacted negatively to the company's disclosed numbers or forward outlook.\n\nThe broader context adds pressure: oil refining margins have tightened as US crude prices sit at $99.64 per barrel while refineries operate at 94.5% capacity, and storage levels for both oil and refined products remain elevated. This combination typically compresses the profit spread refiners make on turning crude into gasoline and diesel\u2014a structural headwind independent of any single quarter's results.",
+  "fetchedAt": "2026-11-05T15:02:11.797479+00:00",
+  "text": "Marathon Petroleum stock fell sharply on November 4th\u2014dropping nearly 8% that day to $392.68\u2014following the midterm election results and a subsequent market rotation away from traditional energy stocks. The CNBC coverage from that day specifically noted that some energy companies \"took a hit after the election,\" and the broader political shift toward Democratic control raised concerns about future policies favoring renewables like offshore wind and solar over fossil fuel infrastructure. This explains both the scale of the drop and its timing around the election outcome.\n\nThe stock has clawed back slightly since then but remains down 14% over two weeks, reflecting a deeper investor concern about refining margins and long-term demand. While US oil prices have held steady around $100 per barrel and refineries are running at a healthy 94.5%, the election outcome signals potential headwinds for traditional energy companies\u2014higher environmental scrutiny, possible regulatory changes, and a structural shift in capital allocation toward cleaner energy. This uncertainty, not today's small 0.4% gain, is what's driving the broader downward pressure on the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 52,
-    "inputTokens": 43730,
-    "outputTokens": 10485,
-    "estimatedCostUsd": 0.096155,
-    "lastCallHour": "2026-11-05T14"
+    "callsThisMonth": 53,
+    "inputTokens": 44555,
+    "outputTokens": 10718,
+    "estimatedCostUsd": 0.098145,
+    "lastCallHour": "2026-11-05T15"
   }
 }
