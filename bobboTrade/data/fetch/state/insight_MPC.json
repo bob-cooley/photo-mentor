@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T20:02:01.850406+00:00",
-  "text": "Marathon Petroleum stock dropped 1.4% today and has fallen 15.7% over the past two weeks, with the sharpest decline hitting on November 4th. The primary driver appears to be political uncertainty: Democrats taking control of Congress (as indicated by the midterm results) could shift energy policy away from traditional oil refining toward renewables, while incoming investigations into energy deals add regulatory risk. For a refiner like Marathon, Democratic oversight of fossil fuel projects and potential policy headwinds create near-term headwinds even as oil prices remain elevated around $100 per barrel.\n\nThe timing matters\u2014the stock held relatively steady through early November before cratering on the 4th, right as political implications became clear. Refineries are running at 94.5% capacity and oil inventories remain substantial, so the selloff isn't driven by supply tightness or operational stress; it's a reaction to the political environment and what it could mean for refining margins and project viability going forward.",
+  "fetchedAt": "2026-11-05T21:01:53.591931+00:00",
+  "text": "Marathon Petroleum fell 3.86% today, continuing a sharp two-week slide of 17.8% from its late-October peak. The stock's recent collapse appears tied to political uncertainty following the midterm elections and mounting concerns about regulatory headwinds \u2014 Democratic control of Congress is expected to bring investigations into energy deals and policy reversals, creating near-term risk for a refiner with significant exposure to government policy and geopolitical decisions.\n\nThe broader refining picture isn't helping: while refineries are running near full capacity at 94.5%, oil prices have stayed relatively soft (US crude at $99.64), and storage levels for gasoline and diesel remain high. This combination typically squeezes refining margins, limiting the upside that would normally offset political risk for energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 58,
-    "inputTokens": 48722,
-    "outputTokens": 11722,
-    "estimatedCostUsd": 0.107332,
-    "lastCallHour": "2026-11-05T20"
+    "callsThisMonth": 59,
+    "inputTokens": 49557,
+    "outputTokens": 11892,
+    "estimatedCostUsd": 0.109017,
+    "lastCallHour": "2026-11-05T21"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-05T20:01:44.304246+00:00",
-  "text": "ConocoPhillips rose modestly today, but this comes after a sharp 5.4% decline over the past two weeks that overshadows the gain. The timing of today's slight recovery\u2014coinciding with the company's quarterly earnings announcement on November 5th\u2014suggests the market is digesting results, though the lack of a larger bounce indicates earnings didn't reverse the recent downward momentum. Oil prices have fallen significantly in that period (US crude is now trading around $99.60 per barrel versus implied higher levels two weeks ago), which typically pressures exploration and production companies like ConocoPhillips since their revenue and profitability track closely with commodity prices.\n\nThe broader backdrop adds headwinds: political uncertainty around the incoming Congress and investigations into energy deals creates near-term policy risk, while longer-term demand outlook\u2014though potentially positive\u2014remains clouded by geopolitical tensions and oil price volatility that executives flagged this week. For an oil producer, this combination of lower commodity prices and political uncertainty typically keeps investors cautious, which explains why a single day's uptick hasn't erased the two-week loss.",
+  "fetchedAt": "2026-11-05T21:01:41.119302+00:00",
+  "text": "ConocoPhillips fell 1% today to $135.51, continuing a sharp 7% decline over the past two weeks. The immediate trigger was the company's quarterly earnings announcement on November 5th, but the bigger picture is the collapse in oil prices\u2014crude has tumbled from $150 at the end of October to under $100 per barrel today, cutting directly into the revenue an oil producer like ConocoPhillips can generate.\n\nThe broader headwind is political uncertainty. Democrats' recent midterm success means incoming scrutiny of energy deals and Venezuela policy, which creates regulatory risk for major oil companies. Combined with weakening global oil demand signals, investors are rotating away from traditional energy stocks and toward renewables, putting steady pressure on the sector this week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 58,
-    "inputTokens": 48645,
-    "outputTokens": 11529,
-    "estimatedCostUsd": 0.10629,
-    "lastCallHour": "2026-11-05T20"
+    "callsThisMonth": 59,
+    "inputTokens": 49421,
+    "outputTokens": 11695,
+    "estimatedCostUsd": 0.107896,
+    "lastCallHour": "2026-11-05T21"
   }
 }
