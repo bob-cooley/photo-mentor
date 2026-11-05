@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T13:02:12.413685+00:00",
-  "text": "Marathon Petroleum fell 8.1% today, extending a two-week decline to 16%. The stock dropped sharply after the company released its quarterly earnings and financial report on November 3rd\u2014the timing of the earnings announcement coinciding with the stock's turn lower. Oil refiners like Marathon are sensitive to the spread between crude oil input costs and refined product prices; with US oil at $99.64 per barrel and refineries running at 94.5% capacity, the margin environment appears constrained, and whatever guidance the company provided in earnings evidently disappointed the market.\n\nBroader headwinds are also weighing on the sector. The gap between US crude ($99.64) and world crude ($107.03) suggests tightening margins for US refiners, and market commentary ahead of earnings warned that investor caution could emerge even if earnings themselves are strong\u2014suggesting the market may be repositioning away from big energy as the political landscape shifts and the focus moves toward longer-term demand uncertainty.",
+  "fetchedAt": "2026-11-05T14:02:14.525783+00:00",
+  "text": "Marathon Petroleum dropped 8.1% today, continuing a sharp two-week slide that has cut the stock nearly 16% lower. The most concrete trigger appears to be the company's quarterly earnings announcement and report filed on November 3rd\u2014two days before today's decline accelerated. While the data doesn't specify what disappointed in those results, the timing lines up with the stock's steepest fall (from $430 on November 3rd to $392 today), suggesting investors reacted negatively to the company's disclosed numbers or forward outlook.\n\nThe broader context adds pressure: oil refining margins have tightened as US crude prices sit at $99.64 per barrel while refineries operate at 94.5% capacity, and storage levels for both oil and refined products remain elevated. This combination typically compresses the profit spread refiners make on turning crude into gasoline and diesel\u2014a structural headwind independent of any single quarter's results.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 51,
-    "inputTokens": 42897,
-    "outputTokens": 10282,
-    "estimatedCostUsd": 0.094307,
-    "lastCallHour": "2026-11-05T13"
+    "callsThisMonth": 52,
+    "inputTokens": 43730,
+    "outputTokens": 10485,
+    "estimatedCostUsd": 0.096155,
+    "lastCallHour": "2026-11-05T14"
   }
 }

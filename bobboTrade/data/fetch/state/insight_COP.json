@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-05T13:01:48.253279+00:00",
-  "text": "ConocoPhillips fell 5.2% today to $136.94, continuing a sharp six-day decline that has wiped out about 8% of the stock's value. The company reported quarterly earnings this morning, and while the specific financial results aren't detailed in the data available, the timing of the drop around the earnings release suggests the quarter's results or outlook disappointed investors relative to expectations. Oil prices remain relatively stable (US crude at $99.64/barrel), so the move appears driven by company-specific performance rather than a broad energy market shift.\n\nThe broader backdrop adds pressure: recent midterm election results have raised questions about energy policy direction, with Democratic gains potentially favoring renewable energy investments over traditional oil and gas. While this isn't an immediate threat to ConocoPhillips' core business, the uncertainty around long-term energy policy and investment priorities in a shifting political environment may be contributing to caution among investors holding oil majors.",
+  "fetchedAt": "2026-11-05T14:01:55.389362+00:00",
+  "text": "ConocoPhillips fell 5.2% today after reporting quarterly earnings on November 5th. The stock has been sliding since late October, losing nearly 6% over two weeks as oil prices have weakened\u2014US crude is trading at $99.64 per barrel, down from the $150+ range seen just days ago. The earnings announcement and softer crude prices together triggered selling pressure in the energy sector.\n\nThe broader context adds weight to the decline: midterm election results have shifted political risk for oil majors, with Democratic control now favoring renewable energy investments over traditional oil and gas. While the sector faces a \"demand decade\" ahead according to recent executive commentary, near-term uncertainty about oil prices and geopolitical risk is keeping investors cautious on legacy energy stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 51,
-    "inputTokens": 43167,
-    "outputTokens": 10198,
-    "estimatedCostUsd": 0.094157,
-    "lastCallHour": "2026-11-05T13"
+    "callsThisMonth": 52,
+    "inputTokens": 43933,
+    "outputTokens": 10366,
+    "estimatedCostUsd": 0.095763,
+    "lastCallHour": "2026-11-05T14"
   }
 }
