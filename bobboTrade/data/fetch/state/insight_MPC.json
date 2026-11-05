@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T21:03:31.354248+00:00",
-  "text": "I don't have today's price move data for MPC, so I can't tell you whether the stock went up or down or by how much. To explain what drove the move, I'd need to know the direction and magnitude of the price change.\n\nThat said, the timing matters here: MPC just reported quarterly earnings and announced a leadership change on the same day (October 29), and those filings likely moved the stock one way or another. The broader refining picture also matters \u2014 refineries are running at 94.5 percent capacity, which is healthy, though oil storage is relatively high, which can pressure margins. The gap between US crude (99.64) and world crude (107.03) is wide, which typically benefits US refiners, but analyst caution about Big Oil earnings guidance (noted in the October 29 CNBC piece) suggests the market may be skeptical of forward outlooks in the sector.",
+  "fetchedAt": "2026-11-05T00:07:26.501526+00:00",
+  "text": "Marathon Petroleum dropped 8.1% today, bringing its two-week loss to 16%, likely driven by disappointing quarterly earnings or guidance announced yesterday combined with a broader market reassessment of refiner profitability. Refinery utilization sits at 94.5%\u2014already near capacity\u2014while gasoline and diesel inventories remain elevated (208.9 million and 99.3 million barrels respectively), suggesting limited room for refiners to boost production or margins even as crude prices hover around $100 per barrel.\n\nThe sell-off reflects a structural headwind: with refinery capacity constrained and fuel inventories high, the typical profit engine for refiners (the margin between crude input and product output) faces pressure going forward. The political shift toward renewable energy, combined with oil price uncertainty flagged by industry executives, has also likely prompted investors to reassess the investment thesis for traditional energy companies.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 48,
-    "inputTokens": 40398,
-    "outputTokens": 9658,
-    "estimatedCostUsd": 0.088688,
-    "lastCallHour": "2026-11-04T21"
+    "callsThisMonth": 49,
+    "inputTokens": 41231,
+    "outputTokens": 9853,
+    "estimatedCostUsd": 0.090496,
+    "lastCallHour": "2026-11-05T00"
   }
 }
