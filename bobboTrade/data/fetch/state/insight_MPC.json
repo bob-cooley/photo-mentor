@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T21:01:53.591931+00:00",
-  "text": "Marathon Petroleum fell 3.86% today, continuing a sharp two-week slide of 17.8% from its late-October peak. The stock's recent collapse appears tied to political uncertainty following the midterm elections and mounting concerns about regulatory headwinds \u2014 Democratic control of Congress is expected to bring investigations into energy deals and policy reversals, creating near-term risk for a refiner with significant exposure to government policy and geopolitical decisions.\n\nThe broader refining picture isn't helping: while refineries are running near full capacity at 94.5%, oil prices have stayed relatively soft (US crude at $99.64), and storage levels for gasoline and diesel remain high. This combination typically squeezes refining margins, limiting the upside that would normally offset political risk for energy stocks.",
+  "fetchedAt": "2026-11-05T22:30:39.941806+00:00",
+  "text": "Marathon Petroleum fell 3.9% today, extending a sharp two-week decline of nearly 18%. The drop follows the company's quarterly earnings announcement on November 3rd and comes as crude oil prices have softened\u2014US crude fell from $99.64 to lower levels this week\u2014while refineries nationwide are running at 94.5% capacity. Political uncertainty also weighs on the sector: news that Democrats plan investigations into energy administration deals has created headwinds for refiners and fossil fuel companies heading into a new Congress.\n\nThe broader context is one of competing pressures on refining margins. While high refinery utilization is normally healthy for profitability, it only translates to earnings if crude input costs and refined product prices move favorably. With oil supplies ample (nearly 692 million barrels in storage) and political risk rising around energy policy, investors are reassessing what refined margins will look like under Democratic scrutiny\u2014a shift that appears to have accelerated after the quarterly results.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 59,
-    "inputTokens": 49557,
-    "outputTokens": 11892,
-    "estimatedCostUsd": 0.109017,
-    "lastCallHour": "2026-11-05T21"
+    "callsThisMonth": 60,
+    "inputTokens": 50392,
+    "outputTokens": 12106,
+    "estimatedCostUsd": 0.110922,
+    "lastCallHour": "2026-11-05T22"
   }
 }
