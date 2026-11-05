@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T07:40:40.200055+00:00",
-  "text": "Marathon Petroleum stock fell 8.1% today, following a sharp 3.4% drop yesterday after the company reported quarterly earnings on November 3rd. The decline likely reflects disappointment in the company's forward guidance or operational outlook \u2014 refiners live and die by their profit margins, which compress when oil prices stay elevated but refined product prices don't keep pace. With US oil at $99.64 and the company's refineries running at 94.5% capacity, there's limited room for output growth to offset margin pressure.\n\nThe two-week, 16% selloff also tracks a broader caution about Big Oil earnings: investors were warned earlier this week that while headline earnings may look strong, the real question for refiner valuations is whether management can show sustainable profitability ahead. Rising oil inventories (692 million barrels in storage) and ample gasoline supply (209 million barrels) suggest demand may not be as robust as hoped, which would further squeeze refiner margins going forward.",
+  "fetchedAt": "2026-11-05T13:02:12.413685+00:00",
+  "text": "Marathon Petroleum fell 8.1% today, extending a two-week decline to 16%. The stock dropped sharply after the company released its quarterly earnings and financial report on November 3rd\u2014the timing of the earnings announcement coinciding with the stock's turn lower. Oil refiners like Marathon are sensitive to the spread between crude oil input costs and refined product prices; with US oil at $99.64 per barrel and refineries running at 94.5% capacity, the margin environment appears constrained, and whatever guidance the company provided in earnings evidently disappointed the market.\n\nBroader headwinds are also weighing on the sector. The gap between US crude ($99.64) and world crude ($107.03) suggests tightening margins for US refiners, and market commentary ahead of earnings warned that investor caution could emerge even if earnings themselves are strong\u2014suggesting the market may be repositioning away from big energy as the political landscape shifts and the focus moves toward longer-term demand uncertainty.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 50,
-    "inputTokens": 42064,
-    "outputTokens": 10069,
-    "estimatedCostUsd": 0.092409,
-    "lastCallHour": "2026-11-05T07"
+    "callsThisMonth": 51,
+    "inputTokens": 42897,
+    "outputTokens": 10282,
+    "estimatedCostUsd": 0.094307,
+    "lastCallHour": "2026-11-05T13"
   }
 }

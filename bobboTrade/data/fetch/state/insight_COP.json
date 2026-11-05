@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-05T07:40:20.711930+00:00",
-  "text": "ConocoPhillips fell 5.2% today as crude oil prices collapsed below $90 a barrel\u2014their lowest level in weeks. The immediate trigger was political: Vice President Vance blamed the GOP's midterm election losses on the Iran war, signaling a potential shift away from military escalation and toward diplomatic resolution. This sparked investor expectations that geopolitical tensions could ease, reducing the risk premium that has kept oil prices elevated, and oil responded by tumbling roughly 10% from recent highs.\n\nEnergy stocks like ConocoPhillips are directly exposed to oil prices\u2014lower crude means lower revenues and profits for producers. The broader backdrop makes this worse: a Democratic Congress taking shape could accelerate investment in offshore wind and solar, shifting energy policy away from traditional oil and gas. For a large crude producer, that's a structural headwind on top of today's tactical oil-price drop.",
+  "fetchedAt": "2026-11-05T13:01:48.253279+00:00",
+  "text": "ConocoPhillips fell 5.2% today to $136.94, continuing a sharp six-day decline that has wiped out about 8% of the stock's value. The company reported quarterly earnings this morning, and while the specific financial results aren't detailed in the data available, the timing of the drop around the earnings release suggests the quarter's results or outlook disappointed investors relative to expectations. Oil prices remain relatively stable (US crude at $99.64/barrel), so the move appears driven by company-specific performance rather than a broad energy market shift.\n\nThe broader backdrop adds pressure: recent midterm election results have raised questions about energy policy direction, with Democratic gains potentially favoring renewable energy investments over traditional oil and gas. While this isn't an immediate threat to ConocoPhillips' core business, the uncertainty around long-term energy policy and investment priorities in a shifting political environment may be contributing to caution among investors holding oil majors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 50,
-    "inputTokens": 42401,
-    "outputTokens": 9994,
-    "estimatedCostUsd": 0.092371,
-    "lastCallHour": "2026-11-05T07"
+    "callsThisMonth": 51,
+    "inputTokens": 43167,
+    "outputTokens": 10198,
+    "estimatedCostUsd": 0.094157,
+    "lastCallHour": "2026-11-05T13"
   }
 }
