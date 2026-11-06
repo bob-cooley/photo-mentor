@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-05T22:30:39.941806+00:00",
-  "text": "Marathon Petroleum fell 3.9% today, extending a sharp two-week decline of nearly 18%. The drop follows the company's quarterly earnings announcement on November 3rd and comes as crude oil prices have softened\u2014US crude fell from $99.64 to lower levels this week\u2014while refineries nationwide are running at 94.5% capacity. Political uncertainty also weighs on the sector: news that Democrats plan investigations into energy administration deals has created headwinds for refiners and fossil fuel companies heading into a new Congress.\n\nThe broader context is one of competing pressures on refining margins. While high refinery utilization is normally healthy for profitability, it only translates to earnings if crude input costs and refined product prices move favorably. With oil supplies ample (nearly 692 million barrels in storage) and political risk rising around energy policy, investors are reassessing what refined margins will look like under Democratic scrutiny\u2014a shift that appears to have accelerated after the quarterly results.",
+  "fetchedAt": "2026-11-06T03:06:50.372228+00:00",
+  "text": "Marathon Petroleum stock fell 3.9% today, extending a sharp two-week decline of nearly 18%. The immediate trigger appears to be political uncertainty: yesterday's news that Democrats plan investigations into Trump administration energy deals and Venezuela intervention has created concern that policy shifts could disrupt the refining business. This comes on top of an earnings announcement earlier in the week, suggesting investors may be reassessing the company's outlook in a changing political environment.\n\nThe broader context makes the stock more vulnerable to this news. U.S. oil prices have weakened to under $100 a barrel while global prices sit at $107, narrowing the refining margin \u2014 the profit refineries make by processing crude into fuel. With refineries running at 94.5% capacity and gasoline and diesel inventories relatively high, there's less room for pricing power. Political risk layered onto tighter margins has made the stock less attractive to hold.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 60,
-    "inputTokens": 50392,
-    "outputTokens": 12106,
-    "estimatedCostUsd": 0.110922,
-    "lastCallHour": "2026-11-05T22"
+    "callsThisMonth": 61,
+    "inputTokens": 51229,
+    "outputTokens": 12301,
+    "estimatedCostUsd": 0.112734,
+    "lastCallHour": "2026-11-06T03"
   }
 }

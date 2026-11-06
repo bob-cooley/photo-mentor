@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-05T22:30:17.323800+00:00",
-  "text": "ConocoPhillips fell 1.1% today to $135.45, marking the sixth consecutive day of decline and a 7% drop over two weeks. The stock slid despite the company releasing its quarterly earnings report today\u2014suggesting investors were disappointed by the results themselves or the outlook they contained. Oil prices have also softened; US crude is trading around $99.64 per barrel, down from the $150+ levels the stock was at just over a week ago, which directly pressures exploration and production companies' cash flows and valuations.\n\nThe broader backdrop has turned uncertain for energy investors. Democrats are poised to investigate prior energy deals and policy decisions, and there's growing talk of a \"demand decade\" ahead for energy, but tempered by geopolitical risks and oil price volatility. These political and macro headwinds are weighing on the sector as a whole, making today's modest decline part of a larger reassessment rather than a single-day shock.",
+  "fetchedAt": "2026-11-06T03:06:32.559145+00:00",
+  "text": "ConocoPhillips fell 1.1% today to $135.46, continuing a sharp six-day decline that has wiped out 10% of the stock's value since late October. The immediate trigger was the company's quarterly earnings announcement on November 5th; without seeing the actual results, the timing and scale of the selloff suggest investor disappointment with profitability or forward guidance, though oil prices themselves remain relatively stable (US crude at $99.64/barrel). The broader context matters too: oil majors face new political headwinds after the midterm elections, with incoming Democratic scrutiny of energy deals and policies that could constrain operations and returns.\n\nThe stock's losses also reflect deeper uncertainty in the energy sector. While some executives are betting on a \"demand decade\" ahead for oil and gas, the commentary emphasizes geopolitical risks and price volatility\u2014and ConocoPhillips, as a U.S. independent with global operations, sits at the crossroads of all three (political risk, commodity exposure, and operational complexity).",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 60,
-    "inputTokens": 50197,
-    "outputTokens": 11904,
-    "estimatedCostUsd": 0.109717,
-    "lastCallHour": "2026-11-05T22"
+    "callsThisMonth": 61,
+    "inputTokens": 50975,
+    "outputTokens": 12131,
+    "estimatedCostUsd": 0.11163,
+    "lastCallHour": "2026-11-06T03"
   }
 }

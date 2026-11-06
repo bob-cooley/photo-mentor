@@ -175,6 +175,10 @@
         {
           "name": "Meduza",
           "url": "https://meduza.io/en/news/2026/11/05/ukrainian-drones-strike-russia-s-ryazan-region-with-fires-reported-at-oil-refinery-and-wildberries-warehouse"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help"
         }
       ],
       "origin": "auto",
@@ -247,17 +251,18 @@
     "https://www.theguardian.com/world/2026/nov/02/ukraine-war-briefing-kyiv-says-air-raid-warning-app-likely-hacked-after-users-receive-false-alerts": "2026-11-02T01:14:02.295193+00:00",
     "https://meduza.io/en/news/2026/11/03/ukrainian-drone-strike-sparks-major-fire-at-one-of-russia-s-largest-oil-refineries": "2026-11-03T22:52:39.022028+00:00",
     "https://meduza.io/en/news/2026/11/05/ukrainian-drones-strike-russia-s-ryazan-region-with-fires-reported-at-oil-refinery-and-wildberries-warehouse": "2026-11-05T15:03:00.332195+00:00",
-    "https://www.pravda.com.ua/eng/news/2026/11/05/8061368/": "2026-11-05T15:03:03.781944+00:00"
+    "https://www.pravda.com.ua/eng/news/2026/11/05/8061368/": "2026-11-05T15:03:03.781944+00:00",
+    "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help": "2026-11-06T03:07:37.498883+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 7,
-    "inputTokens": 8247,
-    "outputTokens": 1346,
-    "estimatedCostUsd": 0.014977
+    "calls": 8,
+    "inputTokens": 9708,
+    "outputTokens": 1473,
+    "estimatedCostUsd": 0.017073
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-11-05T21:08:57.404858+00:00"
+  "lastRunAt": "2026-11-06T03:07:37.499512+00:00"
 }
