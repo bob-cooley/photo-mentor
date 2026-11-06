@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-06T18:50:51.910692+00:00",
-  "text": "Marathon Petroleum has fallen 18% over two weeks as refining margins have compressed sharply. US crude prices dropped to $99.64 a barrel this week\u2014down from the $110+ range earlier in October\u2014as markets reassessed geopolitical risks around Iran following the midterm elections. Refiners like Marathon make money on the difference between the cost of crude oil and the price they can sell refined products (gasoline and diesel) for; when oil prices fall faster than those products do, or when refined product demand weakens, that margin shrinks and hurts profitability.\n\nThe stock's collapse accelerated right after Marathon reported earnings on November 3rd, suggesting investors may have seen disappointing refining economics or margin guidance in the results. With US refineries already running at 94.5% capacity and gasoline and diesel inventories elevated, there's limited room for demand to surprise to the upside, which means refining spreads are unlikely to recover quickly absent another sharp move in crude prices.",
+  "fetchedAt": "2026-11-06T23:38:33.798718+00:00",
+  "text": "Marathon Petroleum stock has fallen nearly 18% over two weeks, with today's modest 1.2% decline continuing a sharp downtrend that accelerated after the midterm elections on November 4th. The sharpest drops came on November 4th and 5th, coinciding with oil prices falling as investors reassessed geopolitical risk following the elections \u2014 US oil fell to $99.64 a barrel today from higher levels earlier in the week. Refinery utilization remains solid at 94.5%, so the move reflects broader crude price weakness rather than operational problems at the company itself.\n\nThe election result appears to have triggered a rotation away from traditional energy stocks, with concern that a Democratic Congress could favor renewables like offshore wind and solar over fossil fuels. While some analysts warn that renewed U.S.-Iran tensions could push oil back above $100, markets are currently pricing in lower near-term oil demand and the political headwinds facing refiners regardless of crude price direction.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 63,
-    "inputTokens": 52898,
-    "outputTokens": 12703,
-    "estimatedCostUsd": 0.116413,
-    "lastCallHour": "2026-11-06T18"
+    "callsThisMonth": 64,
+    "inputTokens": 53733,
+    "outputTokens": 12916,
+    "estimatedCostUsd": 0.118313,
+    "lastCallHour": "2026-11-06T23"
   }
 }

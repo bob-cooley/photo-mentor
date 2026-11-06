@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-06T18:50:28.398201+00:00",
-  "text": "ConocoPhillips rose modestly today, but the stock has fallen nearly 10% over the past two weeks as crude oil prices have slumped. US oil dropped to $99.64 a barrel, and the broader sell-off was triggered by post-election investor concerns about a potential diplomatic breakthrough between the US and Iran \u2014 a development that would ease supply-risk premium and increase global oil supply. The company reported quarterly earnings on November 5th, but that announcement coincided with or was overshadowed by the sharp oil price decline.\n\nThe tension here is real: energy analysts are warning that renewed US-Iran conflict could push oil back above $100, yet markets are currently pricing in the opposite scenario \u2014 a de-escalation and return to lower prices. ConocoPhillips' profit margins compress when crude prices fall, so the stock's weakness reflects investor concern that the oil outlook has softened, at least in the near term.",
+  "fetchedAt": "2026-11-06T23:38:11.880374+00:00",
+  "text": "ConocoPhillips ticked up 0.6% today to $136.27, but that small gain masks the reality: the stock has crashed nearly 10% over the past two weeks, with most of the damage done in the last four trading days. The primary culprit is oil prices themselves. Crude has fallen sharply this week as markets absorbed conflicting signals\u2014the threat of Iran conflict escalation is real, but investors are also pricing in a potential diplomatic path forward, creating uncertainty. With US oil trading at $99.64 and Brent at $107, energy stocks like ConocoPhillips move in lockstep with fuel costs, since lower oil prices directly crimp profits.\n\nThe timing matters here: ConocoPhillips announced quarterly earnings on November 5th, and the stock fell hard the very next day as oil prices tumbled. When an oil producer reports results just as crude is retreating, investors immediately reprice downward earnings forecasts for coming quarters, regardless of how the past quarter looked. This week's gyrations reflect genuine confusion about the geopolitical path forward rather than anything fundamentally new about the company itself.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 63,
-    "inputTokens": 52548,
-    "outputTokens": 12538,
-    "estimatedCostUsd": 0.115238,
-    "lastCallHour": "2026-11-06T18"
+    "callsThisMonth": 64,
+    "inputTokens": 53331,
+    "outputTokens": 12788,
+    "estimatedCostUsd": 0.117271,
+    "lastCallHour": "2026-11-06T23"
   }
 }
