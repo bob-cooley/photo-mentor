@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-11-06T11:46:34.140223+00:00",
+    "fetchedAt": "2026-11-06T18:50:10.208389+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-11-06",
+        "firm": "Wells Fargo",
+        "kind": "maintained",
+        "fromGrade": "Overweight",
+        "toGrade": "Overweight",
+        "targetAction": "Lowers",
+        "targetFrom": 189.0,
+        "targetTo": 185.0
+      },
       {
         "date": "2026-10-20",
         "firm": "Susquehanna",

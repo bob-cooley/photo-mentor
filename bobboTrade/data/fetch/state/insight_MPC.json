@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-06T11:47:11.412105+00:00",
-  "text": "Marathon Petroleum stock fell 3.9% today, extending a sharp two-week decline of 18%, as oil prices pulled back Friday following the midterm elections. The pullback reflects investor uncertainty about geopolitical risk\u2014while some analysts warn that renewed U.S.-Iran tensions could push oil higher, markets are currently pricing in caution rather than escalation, weighing on refiner margins when crude becomes cheaper relative to refined products. Oil storage levels remain elevated (692 million barrels), which can also pressure refiner profitability when inventory builds.\n\nThe stock's decline tracks a broader shift in sentiment since the company reported quarterly earnings on November 3rd. A Democratic-controlled Congress is seen as more favorable to renewable energy expansion, which doesn't directly hurt refining but reflects a longer-term headwind for traditional oil refiners as energy policy shifts away from fossil fuels.",
+  "fetchedAt": "2026-11-06T18:50:51.910692+00:00",
+  "text": "Marathon Petroleum has fallen 18% over two weeks as refining margins have compressed sharply. US crude prices dropped to $99.64 a barrel this week\u2014down from the $110+ range earlier in October\u2014as markets reassessed geopolitical risks around Iran following the midterm elections. Refiners like Marathon make money on the difference between the cost of crude oil and the price they can sell refined products (gasoline and diesel) for; when oil prices fall faster than those products do, or when refined product demand weakens, that margin shrinks and hurts profitability.\n\nThe stock's collapse accelerated right after Marathon reported earnings on November 3rd, suggesting investors may have seen disappointing refining economics or margin guidance in the results. With US refineries already running at 94.5% capacity and gasoline and diesel inventories elevated, there's limited room for demand to surprise to the upside, which means refining spreads are unlikely to recover quickly absent another sharp move in crude prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 62,
-    "inputTokens": 52064,
-    "outputTokens": 12488,
-    "estimatedCostUsd": 0.114504,
-    "lastCallHour": "2026-11-06T11"
+    "callsThisMonth": 63,
+    "inputTokens": 52898,
+    "outputTokens": 12703,
+    "estimatedCostUsd": 0.116413,
+    "lastCallHour": "2026-11-06T18"
   }
 }

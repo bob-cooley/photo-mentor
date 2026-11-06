@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-06T11:46:47.658801+00:00",
-  "text": "ConocoPhillips fell 1.1% today after dropping sharply over the past week\u2014down nearly 7% since late October. The stock's steep decline tracks a broader oil price collapse: US oil has tumbled from the mid-$150s range two weeks ago to $99.64 per barrel today, erasing most of the geopolitical premium that pushed prices higher earlier in the fall. Oil refiners and producers like ConocoPhillips earn less profit when crude prices fall, so the stock has followed the commodity down.\n\nThe past week's selloff reflects investors pulling back from oil on mixed signals about geopolitical risk. While some analysts argue that renewed U.S.-Iran tensions could push oil back above $100, the market is instead pricing in a possibility of diplomatic progress and unwinding the post-election risk premium that had supported prices. The company's quarterly earnings announcement yesterday doesn't appear to have reversed this sector-wide pressure.",
+  "fetchedAt": "2026-11-06T18:50:28.398201+00:00",
+  "text": "ConocoPhillips rose modestly today, but the stock has fallen nearly 10% over the past two weeks as crude oil prices have slumped. US oil dropped to $99.64 a barrel, and the broader sell-off was triggered by post-election investor concerns about a potential diplomatic breakthrough between the US and Iran \u2014 a development that would ease supply-risk premium and increase global oil supply. The company reported quarterly earnings on November 5th, but that announcement coincided with or was overshadowed by the sharp oil price decline.\n\nThe tension here is real: energy analysts are warning that renewed US-Iran conflict could push oil back above $100, yet markets are currently pricing in the opposite scenario \u2014 a de-escalation and return to lower prices. ConocoPhillips' profit margins compress when crude prices fall, so the stock's weakness reflects investor concern that the oil outlook has softened, at least in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 62,
-    "inputTokens": 51765,
-    "outputTokens": 12336,
-    "estimatedCostUsd": 0.113445,
-    "lastCallHour": "2026-11-06T11"
+    "callsThisMonth": 63,
+    "inputTokens": 52548,
+    "outputTokens": 12538,
+    "estimatedCostUsd": 0.115238,
+    "lastCallHour": "2026-11-06T18"
   }
 }
