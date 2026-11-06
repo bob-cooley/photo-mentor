@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-06T03:06:50.372228+00:00",
-  "text": "Marathon Petroleum stock fell 3.9% today, extending a sharp two-week decline of nearly 18%. The immediate trigger appears to be political uncertainty: yesterday's news that Democrats plan investigations into Trump administration energy deals and Venezuela intervention has created concern that policy shifts could disrupt the refining business. This comes on top of an earnings announcement earlier in the week, suggesting investors may be reassessing the company's outlook in a changing political environment.\n\nThe broader context makes the stock more vulnerable to this news. U.S. oil prices have weakened to under $100 a barrel while global prices sit at $107, narrowing the refining margin \u2014 the profit refineries make by processing crude into fuel. With refineries running at 94.5% capacity and gasoline and diesel inventories relatively high, there's less room for pricing power. Political risk layered onto tighter margins has made the stock less attractive to hold.",
+  "fetchedAt": "2026-11-06T11:47:11.412105+00:00",
+  "text": "Marathon Petroleum stock fell 3.9% today, extending a sharp two-week decline of 18%, as oil prices pulled back Friday following the midterm elections. The pullback reflects investor uncertainty about geopolitical risk\u2014while some analysts warn that renewed U.S.-Iran tensions could push oil higher, markets are currently pricing in caution rather than escalation, weighing on refiner margins when crude becomes cheaper relative to refined products. Oil storage levels remain elevated (692 million barrels), which can also pressure refiner profitability when inventory builds.\n\nThe stock's decline tracks a broader shift in sentiment since the company reported quarterly earnings on November 3rd. A Democratic-controlled Congress is seen as more favorable to renewable energy expansion, which doesn't directly hurt refining but reflects a longer-term headwind for traditional oil refiners as energy policy shifts away from fossil fuels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 61,
-    "inputTokens": 51229,
-    "outputTokens": 12301,
-    "estimatedCostUsd": 0.112734,
-    "lastCallHour": "2026-11-06T03"
+    "callsThisMonth": 62,
+    "inputTokens": 52064,
+    "outputTokens": 12488,
+    "estimatedCostUsd": 0.114504,
+    "lastCallHour": "2026-11-06T11"
   }
 }
