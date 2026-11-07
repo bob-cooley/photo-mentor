@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-07T04:28:55.540676+00:00",
-  "text": "Marathon Petroleum stock has dropped 18.5% over the past two weeks, with today's modest 1.2% decline continuing that slide. The sharpest fall came on November 4th\u2014right after the midterm elections\u2014when crude oil prices tumbled on mixed signals about U.S.-Iran tensions and the potential for diplomatic progress. Oil futures fell despite analyst warnings that renewed conflict could push prices above $100; the market was wrestling with competing risks, and that uncertainty hit refiner valuations hard. Today's small additional decline fits within that broader selloff rather than marking a new shock.\n\nRefineries are running at high capacity (94.5%) with elevated crude in storage (692 million barrels), which limits refiners' pricing power when oil prices weaken. A Democratic Congress could also shift energy policy away from traditional refining and toward renewables, adding longer-term headwinds to the sector that investors are pricing in.",
+  "fetchedAt": "2026-11-07T11:29:00.118008+00:00",
+  "text": "Marathon Petroleum stock has dropped 1.2% today and 18.5% over two weeks, with the steepest declines coming after the midterm elections on November 4th. The primary driver appears to be a sharp fall in oil prices on Friday\u2014crude dropped as investors reassessed geopolitical risks around Iran following the election results, weighing potential conflict escalation against chances for diplomatic talks. For a refiner like Marathon, lower oil prices initially sound good for input costs, but the market is pricing in a broader concern: a Democratic Congress could accelerate the transition toward renewables like offshore wind and solar, reducing long-term demand for refined petroleum products.\n\nThe broader context matters here. Oil in storage is already near 692 million barrels (a historically high level), refineries are running near full capacity at 94.5%, and gasoline and diesel inventories are elevated\u2014all signs that demand isn't keeping up with supply. Lower crude prices combined with weak demand fundamentals and political headwinds to fossil fuel investment create a challenging near-term environment for refiners' margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 65,
-    "inputTokens": 54568,
-    "outputTokens": 13117,
-    "estimatedCostUsd": 0.120153,
-    "lastCallHour": "2026-11-07T04"
+    "callsThisMonth": 66,
+    "inputTokens": 55410,
+    "outputTokens": 13349,
+    "estimatedCostUsd": 0.122155,
+    "lastCallHour": "2026-11-07T11"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-07T04:28:33.939925+00:00",
-  "text": "ConocoPhillips gained 0.6% today, but this modest move masks a brutal two-week slide of nearly 10% that accelerated sharply starting November 4th. The stock has been dragged down by falling oil prices\u2014US crude dropped to $99.64 per barrel today, well below the $154 level when the decline began. Oil refiners and producers like ConocoPhillips are directly exposed to crude prices, so when crude falls this hard, their profits and valuations compress quickly, regardless of company-specific news.\n\nThe recent earnings report and SEC filings released on November 5th haven't stopped the selling pressure. Investors appear more focused on the near-term direction of oil prices, which have become volatile around geopolitical risk: midterm election results on November 5th reduced immediate fears of Iran conflict escalation, allowing prices to slide, though some analysts still expect crude could spike back above $100 if tensions reignite. With crude still near a multi-week low, the pressure on energy stocks persists.",
+  "fetchedAt": "2026-11-07T11:28:39.694952+00:00",
+  "text": "ConocoPhillips fell 0.6% today to $136.27, extending a sharp two-week decline of nearly 10% that accelerated after the company reported quarterly earnings on November 5th. The stock has lost ground as oil prices have weakened\u2014crude is trading around $99.64 per barrel domestically, down from highs earlier in the month\u2014driven by investor uncertainty over Iran tensions following the midterm elections and competing signals about whether conflict or diplomacy will prevail.\n\nThe broader pressure reflects a fundamental challenge for oil producers: crude prices remain volatile and middling, not high enough to offset concerns about energy transition and long-term demand. The recent surge in fusion energy development headlines, while not an immediate threat, sits in the background of how investors are thinking about the energy sector's future.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 65,
-    "inputTokens": 54114,
-    "outputTokens": 13017,
-    "estimatedCostUsd": 0.119199,
-    "lastCallHour": "2026-11-07T04"
+    "callsThisMonth": 66,
+    "inputTokens": 54904,
+    "outputTokens": 13192,
+    "estimatedCostUsd": 0.120864,
+    "lastCallHour": "2026-11-07T11"
   }
 }
