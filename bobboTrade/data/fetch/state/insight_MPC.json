@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-07T17:22:43.437449+00:00",
-  "text": "Marathon Petroleum stock has dropped nearly 18% over two weeks, with today's small decline continuing a sharp selloff that accelerated after the midterm elections. The broader driver is political: a Democratic sweep in the 2026 midterms has significantly shifted expectations around energy policy, with analysts explicitly flagging that renewable energy (wind and solar) will likely get stronger support while fossil fuel interests face headwinds. For a refiner like Marathon, this raises concerns about long-term demand and regulatory pressure on traditional oil and gas operations.\n\nThe immediate refining environment isn't helping\u2014US oil prices have dipped to $99.64 per barrel while refineries are running at 94.5% capacity, which means tighter margins on the fuel they produce. Even though global oil sits higher at $107, that gap reflects a weaker domestic demand picture. The combination of political uncertainty about the energy transition and current margin pressure from the refining side is why the stock has taken such a hard hit in recent days.",
+  "fetchedAt": "2026-11-07T21:24:25.890273+00:00",
+  "text": "Marathon Petroleum has fallen nearly 19% over two weeks, with today's modest additional decline part of a sharp selloff that accelerated after the U.S. midterm elections on November 5th. The timing and news flow point to a clear driver: Democratic gains in the midterms have raised investor concerns about stricter energy policy, particularly support for renewables and potentially tighter regulation of fossil fuel refining. This shift in political power has spooked the market for traditional oil refining stocks despite crude oil prices remaining elevated around $100 per barrel.\n\nThe broader refining environment hasn't deteriorated operationally\u2014refineries are running at 94.5% capacity and oil inventories remain normal\u2014but the political uncertainty has dominated the stock's price action. A Democratic Congress suggests potential headwinds for refiner profitability over the next two years, even as near-term oil supply remains tight.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 67,
-    "inputTokens": 56242,
-    "outputTokens": 13563,
-    "estimatedCostUsd": 0.124057,
-    "lastCallHour": "2026-11-07T17"
+    "callsThisMonth": 68,
+    "inputTokens": 57074,
+    "outputTokens": 13756,
+    "estimatedCostUsd": 0.125854,
+    "lastCallHour": "2026-11-07T21"
   }
 }

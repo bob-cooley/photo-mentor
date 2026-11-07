@@ -282,6 +282,6 @@
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": false,
-  "lastRunAt": "2026-11-07T17:23:27.213545+00:00"
+  "lastGdeltOk": true,
+  "lastRunAt": "2026-11-07T21:24:43.485047+00:00"
 }
