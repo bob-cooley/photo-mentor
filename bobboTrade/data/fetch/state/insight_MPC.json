@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-06T23:38:33.798718+00:00",
-  "text": "Marathon Petroleum stock has fallen nearly 18% over two weeks, with today's modest 1.2% decline continuing a sharp downtrend that accelerated after the midterm elections on November 4th. The sharpest drops came on November 4th and 5th, coinciding with oil prices falling as investors reassessed geopolitical risk following the elections \u2014 US oil fell to $99.64 a barrel today from higher levels earlier in the week. Refinery utilization remains solid at 94.5%, so the move reflects broader crude price weakness rather than operational problems at the company itself.\n\nThe election result appears to have triggered a rotation away from traditional energy stocks, with concern that a Democratic Congress could favor renewables like offshore wind and solar over fossil fuels. While some analysts warn that renewed U.S.-Iran tensions could push oil back above $100, markets are currently pricing in lower near-term oil demand and the political headwinds facing refiners regardless of crude price direction.",
+  "fetchedAt": "2026-11-07T04:28:55.540676+00:00",
+  "text": "Marathon Petroleum stock has dropped 18.5% over the past two weeks, with today's modest 1.2% decline continuing that slide. The sharpest fall came on November 4th\u2014right after the midterm elections\u2014when crude oil prices tumbled on mixed signals about U.S.-Iran tensions and the potential for diplomatic progress. Oil futures fell despite analyst warnings that renewed conflict could push prices above $100; the market was wrestling with competing risks, and that uncertainty hit refiner valuations hard. Today's small additional decline fits within that broader selloff rather than marking a new shock.\n\nRefineries are running at high capacity (94.5%) with elevated crude in storage (692 million barrels), which limits refiners' pricing power when oil prices weaken. A Democratic Congress could also shift energy policy away from traditional refining and toward renewables, adding longer-term headwinds to the sector that investors are pricing in.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 64,
-    "inputTokens": 53733,
-    "outputTokens": 12916,
-    "estimatedCostUsd": 0.118313,
-    "lastCallHour": "2026-11-06T23"
+    "callsThisMonth": 65,
+    "inputTokens": 54568,
+    "outputTokens": 13117,
+    "estimatedCostUsd": 0.120153,
+    "lastCallHour": "2026-11-07T04"
   }
 }

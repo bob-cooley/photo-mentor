@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-06T23:38:11.880374+00:00",
-  "text": "ConocoPhillips ticked up 0.6% today to $136.27, but that small gain masks the reality: the stock has crashed nearly 10% over the past two weeks, with most of the damage done in the last four trading days. The primary culprit is oil prices themselves. Crude has fallen sharply this week as markets absorbed conflicting signals\u2014the threat of Iran conflict escalation is real, but investors are also pricing in a potential diplomatic path forward, creating uncertainty. With US oil trading at $99.64 and Brent at $107, energy stocks like ConocoPhillips move in lockstep with fuel costs, since lower oil prices directly crimp profits.\n\nThe timing matters here: ConocoPhillips announced quarterly earnings on November 5th, and the stock fell hard the very next day as oil prices tumbled. When an oil producer reports results just as crude is retreating, investors immediately reprice downward earnings forecasts for coming quarters, regardless of how the past quarter looked. This week's gyrations reflect genuine confusion about the geopolitical path forward rather than anything fundamentally new about the company itself.",
+  "fetchedAt": "2026-11-07T04:28:33.939925+00:00",
+  "text": "ConocoPhillips gained 0.6% today, but this modest move masks a brutal two-week slide of nearly 10% that accelerated sharply starting November 4th. The stock has been dragged down by falling oil prices\u2014US crude dropped to $99.64 per barrel today, well below the $154 level when the decline began. Oil refiners and producers like ConocoPhillips are directly exposed to crude prices, so when crude falls this hard, their profits and valuations compress quickly, regardless of company-specific news.\n\nThe recent earnings report and SEC filings released on November 5th haven't stopped the selling pressure. Investors appear more focused on the near-term direction of oil prices, which have become volatile around geopolitical risk: midterm election results on November 5th reduced immediate fears of Iran conflict escalation, allowing prices to slide, though some analysts still expect crude could spike back above $100 if tensions reignite. With crude still near a multi-week low, the pressure on energy stocks persists.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 64,
-    "inputTokens": 53331,
-    "outputTokens": 12788,
-    "estimatedCostUsd": 0.117271,
-    "lastCallHour": "2026-11-06T23"
+    "callsThisMonth": 65,
+    "inputTokens": 54114,
+    "outputTokens": 13017,
+    "estimatedCostUsd": 0.119199,
+    "lastCallHour": "2026-11-07T04"
   }
 }
