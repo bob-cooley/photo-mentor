@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-07T11:29:00.118008+00:00",
-  "text": "Marathon Petroleum stock has dropped 1.2% today and 18.5% over two weeks, with the steepest declines coming after the midterm elections on November 4th. The primary driver appears to be a sharp fall in oil prices on Friday\u2014crude dropped as investors reassessed geopolitical risks around Iran following the election results, weighing potential conflict escalation against chances for diplomatic talks. For a refiner like Marathon, lower oil prices initially sound good for input costs, but the market is pricing in a broader concern: a Democratic Congress could accelerate the transition toward renewables like offshore wind and solar, reducing long-term demand for refined petroleum products.\n\nThe broader context matters here. Oil in storage is already near 692 million barrels (a historically high level), refineries are running near full capacity at 94.5%, and gasoline and diesel inventories are elevated\u2014all signs that demand isn't keeping up with supply. Lower crude prices combined with weak demand fundamentals and political headwinds to fossil fuel investment create a challenging near-term environment for refiners' margins.",
+  "fetchedAt": "2026-11-07T17:22:43.437449+00:00",
+  "text": "Marathon Petroleum stock has dropped nearly 18% over two weeks, with today's small decline continuing a sharp selloff that accelerated after the midterm elections. The broader driver is political: a Democratic sweep in the 2026 midterms has significantly shifted expectations around energy policy, with analysts explicitly flagging that renewable energy (wind and solar) will likely get stronger support while fossil fuel interests face headwinds. For a refiner like Marathon, this raises concerns about long-term demand and regulatory pressure on traditional oil and gas operations.\n\nThe immediate refining environment isn't helping\u2014US oil prices have dipped to $99.64 per barrel while refineries are running at 94.5% capacity, which means tighter margins on the fuel they produce. Even though global oil sits higher at $107, that gap reflects a weaker domestic demand picture. The combination of political uncertainty about the energy transition and current margin pressure from the refining side is why the stock has taken such a hard hit in recent days.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 66,
-    "inputTokens": 55410,
-    "outputTokens": 13349,
-    "estimatedCostUsd": 0.122155,
-    "lastCallHour": "2026-11-07T11"
+    "callsThisMonth": 67,
+    "inputTokens": 56242,
+    "outputTokens": 13563,
+    "estimatedCostUsd": 0.124057,
+    "lastCallHour": "2026-11-07T17"
   }
 }

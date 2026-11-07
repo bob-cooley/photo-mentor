@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-07T11:28:39.694952+00:00",
-  "text": "ConocoPhillips fell 0.6% today to $136.27, extending a sharp two-week decline of nearly 10% that accelerated after the company reported quarterly earnings on November 5th. The stock has lost ground as oil prices have weakened\u2014crude is trading around $99.64 per barrel domestically, down from highs earlier in the month\u2014driven by investor uncertainty over Iran tensions following the midterm elections and competing signals about whether conflict or diplomacy will prevail.\n\nThe broader pressure reflects a fundamental challenge for oil producers: crude prices remain volatile and middling, not high enough to offset concerns about energy transition and long-term demand. The recent surge in fusion energy development headlines, while not an immediate threat, sits in the background of how investors are thinking about the energy sector's future.",
+  "fetchedAt": "2026-11-07T17:22:25.613850+00:00",
+  "text": "ConocoPhillips has fallen sharply over the past two weeks\u2014down nearly 10% from late October\u2014and today barely held ground with a small gain. The main driver appears to be the collapse in oil prices: US crude has dropped to $99.64 per barrel (a significant decline from the levels that prevailed when the stock was higher), and this weakens the earnings power of an oil and gas producer. The company reported quarterly results on November 5th, which may have disappointed relative to expectations set by higher oil prices, or simply faced a market already repricing energy stocks downward as crude fell.\n\nThe broader context is a political shift: midterm election results dealt a loss to Trump and the GOP, which suggests less political support for fossil fuels and more momentum behind renewable energy policy. For an oil major like ConocoPhillips, this can weigh on long-term investor sentiment even if it doesn't change next quarter's cash flow. The one offsetting risk\u2014Middle East tensions between the U.S. and Iran\u2014could support oil prices if it escalates, but so far that concern hasn't arrested the selloff.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 66,
-    "inputTokens": 54904,
-    "outputTokens": 13192,
-    "estimatedCostUsd": 0.120864,
-    "lastCallHour": "2026-11-07T11"
+    "callsThisMonth": 67,
+    "inputTokens": 55684,
+    "outputTokens": 13436,
+    "estimatedCostUsd": 0.122864,
+    "lastCallHour": "2026-11-07T17"
   }
 }
