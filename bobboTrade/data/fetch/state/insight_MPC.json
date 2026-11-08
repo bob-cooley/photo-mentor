@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T18:02:29.816381+00:00",
-  "text": "Marathon Petroleum shares have fallen 18.5% over two weeks, with today's decline fitting into a sharp drop that accelerated after the company's quarterly earnings report on November 3rd. The broader headwind is clear: the Democratic sweep in the midterm elections has sparked investor concerns about renewable energy policy favoring and fossil fuel regulation tightening, which directly threatens refining company valuations regardless of current oil or refining conditions (US crude is still trading at $99.64 per barrel and refineries are running at 94.5% capacity).\n\nThe timing and magnitude of the sell-off suggest investors are repricing the long-term outlook for petroleum refiners in a political environment now tilted toward wind and solar investment. Even though global oil prices remain elevated at $107 and storage levels are stable, refining stocks face structural headwinds from this shift in energy policy momentum.",
+  "fetchedAt": "2026-11-08T19:03:05.366535+00:00",
+  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks, with today's decline continuing a sharp selloff that accelerated after the November 4th midterm elections. The stock's steepest drops came immediately after the Democratic sweep, which signals potential policy headwinds for refiners: a Democratic Congress is likely to support renewables expansion and could pursue tighter environmental regulations on fossil fuels, reducing long-term demand for refined products. Oil prices remain elevated (US crude at $99.64/barrel), and refineries are running at a healthy 94.5% capacity, so the move reflects political and policy risk rather than immediate operational weakness.\n\nThe timing is telling\u2014the selloff began right around the election results and has continued as investors reassess the sector's tailwinds. A shift toward renewable energy policy and away from fossil fuel-friendly regulation threatens refiner margins and fuel demand growth over the next few years, even though near-term fundamentals like utilization rates and crude availability remain stable.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 76,
-    "inputTokens": 63730,
-    "outputTokens": 15453,
-    "estimatedCostUsd": 0.140995,
-    "lastCallHour": "2026-11-08T18"
+    "callsThisMonth": 77,
+    "inputTokens": 64562,
+    "outputTokens": 15667,
+    "estimatedCostUsd": 0.142897,
+    "lastCallHour": "2026-11-08T19"
   }
 }

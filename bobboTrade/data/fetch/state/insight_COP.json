@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T18:02:16.105858+00:00",
-  "text": "ConocoPhillips fell 0.6% today to $136.27, continuing a sharp two-week decline of nearly 10% that accelerated after the company reported quarterly earnings on November 5th. The stock has lost $18 per share since late October, suggesting investors reacted negatively to the earnings results or guidance\u2014though the specific details aren't clear from the data provided. Oil prices remain relatively stable (US crude at $99.64/barrel, global at $107), so the selloff appears tied to the company's own performance rather than a broader energy market collapse.\n\nThe broader political backdrop may also be weighing on the sector. The midterm elections delivered a decisive rejection of Trump-era policies, including strong momentum behind renewable energy expansion. For an oil and gas producer like ConocoPhillips, this signals potential headwinds from stricter climate policies and accelerated competition from clean energy\u2014a longer-term concern that could be dampening investor appetite even as crude prices hold steady.",
+  "fetchedAt": "2026-11-08T19:02:54.489010+00:00",
+  "text": "ConocoPhillips fell 0.6% today, extending a sharp two-week decline of nearly 10% that began right after the company reported quarterly earnings on November 5th. The stock has lost about $18 per share since late October, tracking alongside a broader pullback in oil prices\u2014US crude is now trading around $99.60 a barrel, down from levels that would have been higher when the stock peaked. While the company was highlighted as a stock to watch in mid-November coverage, the earnings announcement appears to have triggered selling rather than buying interest.\n\nThe broader context cutting against energy stocks right now is political. A Democratic sweep in midterm elections has renewed focus on renewable energy policy and reduced the likelihood of Trump-era opposition to clean energy investments\u2014a headwind for traditional oil and gas companies as the sector rotates. Meanwhile, despite ongoing Iran tensions that historically support oil prices, the geopolitical risk premium appears insufficient to offset investor concerns about longer-term energy transition trends.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 76,
-    "inputTokens": 62704,
-    "outputTokens": 15362,
-    "estimatedCostUsd": 0.139514,
-    "lastCallHour": "2026-11-08T18"
+    "callsThisMonth": 77,
+    "inputTokens": 63484,
+    "outputTokens": 15574,
+    "estimatedCostUsd": 0.141354,
+    "lastCallHour": "2026-11-08T19"
   }
 }
