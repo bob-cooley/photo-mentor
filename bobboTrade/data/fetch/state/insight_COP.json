@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T14:01:40.637850+00:00",
-  "text": "ConocoPhillips fell 0.6% today to $136.27, extending a steep two-week decline of nearly 10% that accelerated sharply after the company reported quarterly earnings on November 5th. The stock has lost roughly $18 per share since late October, suggesting investors reacted negatively to the earnings results or guidance, though the data doesn't spell out what specifically disappointed the market.\n\nThe broader backdrop adds pressure: U.S. oil prices have drifted down to $99.64 a barrel (roughly 13% below their late-October levels), and the Democrats' midterm election sweep signals a policy environment more hostile to fossil fuels and more supportive of renewables. While Middle East tensions with Iran remain a potential upside factor for oil prices, the combination of weaker crude, an earnings miss, and an unfavorable political shift appears to have outweighed that risk in investors' calculus.",
+  "fetchedAt": "2026-11-08T15:01:47.618596+00:00",
+  "text": "ConocoPhillips has fallen 9.6% over two weeks and gained slightly today, but the backdrop remains weak. Oil prices have dropped sharply \u2014 U.S. crude is trading at $99.64 per barrel, down from levels that would have been much higher when the stock was at $154 just a week ago. Lower oil prices directly cut into the earnings potential of an oil producer like this, which is why the stock has been sliding since late October despite the company reporting third-quarter results on November 5th.\n\nThe political environment adds another headwind. Voters rejected Trump and the GOP in midterm elections, which means renewable energy policies are likely to gain traction going forward \u2014 a longer-term shift away from fossil fuels. At the same time, Middle East tensions with Iran remain elevated, which *could* support oil prices if conflict disrupts supply, but so far that risk hasn't materialized in the market. For now, the pull of falling crude prices is outweighing any geopolitical premium.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 72,
-    "inputTokens": 59584,
-    "outputTokens": 14496,
-    "estimatedCostUsd": 0.132064,
-    "lastCallHour": "2026-11-08T14"
+    "callsThisMonth": 73,
+    "inputTokens": 60364,
+    "outputTokens": 14717,
+    "estimatedCostUsd": 0.133949,
+    "lastCallHour": "2026-11-08T15"
   }
 }
