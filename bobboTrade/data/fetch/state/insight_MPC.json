@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T20:02:24.610482+00:00",
-  "text": "Marathon Petroleum has fallen nearly 19% over two weeks, with today's modest 1.2% decline continuing a sharp downturn that accelerated after the company's quarterly earnings report on November 3rd. The bigger story is the Democratic sweep in the midterm elections, which spooked refinery investors\u2014a Democratic Congress is expected to push harder on renewable energy and climate policy, a headwind for traditional oil refiners. Meanwhile, U.S. crude has softened to $99.64 per barrel (down from levels that would have supported refiner margins), and refineries are running at 94.5% capacity, limiting upside from tight supply.\n\nThe political shift is the main weight on the stock: renewable energy policies that gain traction under Democratic control could erode long-term demand for refined products, even though near-term refining fundamentals (oil storage at 691 million barrels, gasoline inventory at 208 million) remain reasonable. Geopolitical risk\u2014rising Iran tensions\u2014could support oil prices if conflict escalates, but that's an uncertain offset to the structural headwind the election created for fossil-fuel refiners.",
+  "fetchedAt": "2026-11-08T21:02:49.149843+00:00",
+  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks, with today's decline continuing a sharp selloff that accelerated after the November 3rd midterm elections. The core driver appears to be political: a Democratic sweep in the midterms has shifted market expectations toward stronger support for renewable energy and away from fossil fuels, creating a headwind for oil refiners. This concern has outweighed the company's own quarterly earnings report released the same day, suggesting investors are pricing in a longer-term structural shift in energy policy rather than reacting to near-term financial results.\n\nThe refining backdrop provides some support\u2014refineries are running near full capacity at 94.5%, and crude oil remains elevated above $99 per barrel\u2014but these operational positives haven't offset the political overhang. The Democratic Congress now in power represents the opposite of the pro-fossil-fuel stance refiners benefited from under the prior administration, making investors anxious about the sector's multi-year outlook despite solid current margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 78,
-    "inputTokens": 65394,
-    "outputTokens": 15914,
-    "estimatedCostUsd": 0.144964,
-    "lastCallHour": "2026-11-08T20"
+    "callsThisMonth": 79,
+    "inputTokens": 66226,
+    "outputTokens": 16131,
+    "estimatedCostUsd": 0.146881,
+    "lastCallHour": "2026-11-08T21"
   }
 }

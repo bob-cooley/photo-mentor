@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T20:01:48.908836+00:00",
-  "text": "ConocoPhillips fell 0.6% today to $136.27, continuing a sharp two-week decline of nearly 10% that began right after the company reported quarterly earnings on November 5th. The stock has shed $18 in less than two weeks, suggesting investors reacted negatively to those results\u2014though the earnings details aren't specified in the available data, the timing of the selloff points directly to that disclosure as the trigger.\n\nThe broader oil and gas sector is also facing headwinds from the political landscape. A Democratic sweep in the midterm elections has shifted the outlook against fossil fuels and toward renewable energy, while persistent geopolitical tensions with Iran add uncertainty to crude supplies. Oil prices remain elevated (U.S. crude at $99.64/barrel), but that hasn't arrested the stock's decline, indicating that profit concerns from the earnings report and longer-term energy policy risk are outweighing near-term price support.",
+  "fetchedAt": "2026-11-08T21:02:37.032302+00:00",
+  "text": "ConocoPhillips rose slightly today, but the stock has been in a sharp decline over the past two weeks, dropping nearly 10% since late October. The selling pressure reflects a collision of forces: oil prices have weakened (US crude is at $99.64/barrel, down from levels that would have been higher earlier in that period), and the midterm elections delivered a Democratic sweep that signals a political headwind for fossil fuel companies. The renewable energy sector gained favor in the electoral outcome, which typically pressures oil and gas stocks as markets anticipate a less oil-friendly policy environment ahead.\n\nThe timing of ConocoPhillips' earnings release on November 5th coincided with this downward move, suggesting investors may have been disappointed by the report relative to the weaker oil price backdrop. Offsetting some of this concern, geopolitical risks around Iran tensions could theoretically support energy prices if they escalate, but those risks haven't yet been enough to reverse the stock's slide.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 78,
-    "inputTokens": 64264,
-    "outputTokens": 15780,
-    "estimatedCostUsd": 0.143164,
-    "lastCallHour": "2026-11-08T20"
+    "callsThisMonth": 79,
+    "inputTokens": 65044,
+    "outputTokens": 15993,
+    "estimatedCostUsd": 0.145009,
+    "lastCallHour": "2026-11-08T21"
   }
 }
