@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T19:02:54.489010+00:00",
-  "text": "ConocoPhillips fell 0.6% today, extending a sharp two-week decline of nearly 10% that began right after the company reported quarterly earnings on November 5th. The stock has lost about $18 per share since late October, tracking alongside a broader pullback in oil prices\u2014US crude is now trading around $99.60 a barrel, down from levels that would have been higher when the stock peaked. While the company was highlighted as a stock to watch in mid-November coverage, the earnings announcement appears to have triggered selling rather than buying interest.\n\nThe broader context cutting against energy stocks right now is political. A Democratic sweep in midterm elections has renewed focus on renewable energy policy and reduced the likelihood of Trump-era opposition to clean energy investments\u2014a headwind for traditional oil and gas companies as the sector rotates. Meanwhile, despite ongoing Iran tensions that historically support oil prices, the geopolitical risk premium appears insufficient to offset investor concerns about longer-term energy transition trends.",
+  "fetchedAt": "2026-11-08T20:01:48.908836+00:00",
+  "text": "ConocoPhillips fell 0.6% today to $136.27, continuing a sharp two-week decline of nearly 10% that began right after the company reported quarterly earnings on November 5th. The stock has shed $18 in less than two weeks, suggesting investors reacted negatively to those results\u2014though the earnings details aren't specified in the available data, the timing of the selloff points directly to that disclosure as the trigger.\n\nThe broader oil and gas sector is also facing headwinds from the political landscape. A Democratic sweep in the midterm elections has shifted the outlook against fossil fuels and toward renewable energy, while persistent geopolitical tensions with Iran add uncertainty to crude supplies. Oil prices remain elevated (U.S. crude at $99.64/barrel), but that hasn't arrested the stock's decline, indicating that profit concerns from the earnings report and longer-term energy policy risk are outweighing near-term price support.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 77,
-    "inputTokens": 63484,
-    "outputTokens": 15574,
-    "estimatedCostUsd": 0.141354,
-    "lastCallHour": "2026-11-08T19"
+    "callsThisMonth": 78,
+    "inputTokens": 64264,
+    "outputTokens": 15780,
+    "estimatedCostUsd": 0.143164,
+    "lastCallHour": "2026-11-08T20"
   }
 }

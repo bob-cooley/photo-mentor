@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T19:03:05.366535+00:00",
-  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks, with today's decline continuing a sharp selloff that accelerated after the November 4th midterm elections. The stock's steepest drops came immediately after the Democratic sweep, which signals potential policy headwinds for refiners: a Democratic Congress is likely to support renewables expansion and could pursue tighter environmental regulations on fossil fuels, reducing long-term demand for refined products. Oil prices remain elevated (US crude at $99.64/barrel), and refineries are running at a healthy 94.5% capacity, so the move reflects political and policy risk rather than immediate operational weakness.\n\nThe timing is telling\u2014the selloff began right around the election results and has continued as investors reassess the sector's tailwinds. A shift toward renewable energy policy and away from fossil fuel-friendly regulation threatens refiner margins and fuel demand growth over the next few years, even though near-term fundamentals like utilization rates and crude availability remain stable.",
+  "fetchedAt": "2026-11-08T20:02:24.610482+00:00",
+  "text": "Marathon Petroleum has fallen nearly 19% over two weeks, with today's modest 1.2% decline continuing a sharp downturn that accelerated after the company's quarterly earnings report on November 3rd. The bigger story is the Democratic sweep in the midterm elections, which spooked refinery investors\u2014a Democratic Congress is expected to push harder on renewable energy and climate policy, a headwind for traditional oil refiners. Meanwhile, U.S. crude has softened to $99.64 per barrel (down from levels that would have supported refiner margins), and refineries are running at 94.5% capacity, limiting upside from tight supply.\n\nThe political shift is the main weight on the stock: renewable energy policies that gain traction under Democratic control could erode long-term demand for refined products, even though near-term refining fundamentals (oil storage at 691 million barrels, gasoline inventory at 208 million) remain reasonable. Geopolitical risk\u2014rising Iran tensions\u2014could support oil prices if conflict escalates, but that's an uncertain offset to the structural headwind the election created for fossil-fuel refiners.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 77,
-    "inputTokens": 64562,
-    "outputTokens": 15667,
-    "estimatedCostUsd": 0.142897,
-    "lastCallHour": "2026-11-08T19"
+    "callsThisMonth": 78,
+    "inputTokens": 65394,
+    "outputTokens": 15914,
+    "estimatedCostUsd": 0.144964,
+    "lastCallHour": "2026-11-08T20"
   }
 }
