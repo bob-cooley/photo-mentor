@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-07T21:24:25.890273+00:00",
-  "text": "Marathon Petroleum has fallen nearly 19% over two weeks, with today's modest additional decline part of a sharp selloff that accelerated after the U.S. midterm elections on November 5th. The timing and news flow point to a clear driver: Democratic gains in the midterms have raised investor concerns about stricter energy policy, particularly support for renewables and potentially tighter regulation of fossil fuel refining. This shift in political power has spooked the market for traditional oil refining stocks despite crude oil prices remaining elevated around $100 per barrel.\n\nThe broader refining environment hasn't deteriorated operationally\u2014refineries are running at 94.5% capacity and oil inventories remain normal\u2014but the political uncertainty has dominated the stock's price action. A Democratic Congress suggests potential headwinds for refiner profitability over the next two years, even as near-term oil supply remains tight.",
+  "fetchedAt": "2026-11-08T01:03:25.057878+00:00",
+  "text": "Marathon Petroleum's stock has fallen 1.2% today and nearly 18% over two weeks, tracking a sharp decline that accelerated after the company reported quarterly earnings on November 3rd. While oil prices have held relatively steady (US crude at $99.64/barrel), refineries are running near capacity at 94.5%, which normally supports margins\u2014but the market has clearly reacted negatively to the company's reported financial results, suggesting profits or guidance disappointed despite decent operational conditions.\n\nThe broader headwind is political: Democrats swept the midterm elections, which shifts energy policy toward renewable energy support and away from fossil fuels. That's a structural concern for a refiner, though it doesn't directly move oil prices day-to-day. The two-week decline suggests investors are repricing how they view the refining business in a changing energy landscape, independent of current crude costs or refinery utilization rates.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 68,
-    "inputTokens": 57074,
-    "outputTokens": 13756,
-    "estimatedCostUsd": 0.125854,
-    "lastCallHour": "2026-11-07T21"
+    "callsThisMonth": 69,
+    "inputTokens": 57906,
+    "outputTokens": 13951,
+    "estimatedCostUsd": 0.127661,
+    "lastCallHour": "2026-11-08T01"
   }
 }

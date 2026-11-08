@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-07T21:24:10.235299+00:00",
-  "text": "ConocoPhillips fell nearly 10% over two weeks and stayed essentially flat today, despite oil prices holding steady around $100 a barrel. The sharp decline started after the company's quarterly earnings report on November 5th; the stock dropped $7 in the two trading days after that announcement, suggesting investors didn't like the results or guidance even though crude prices haven't collapsed. Today's modest uptick appears to be a minor stabilization rather than a meaningful recovery.\n\nThe broader context weighing on the stock is political: the midterm election results on November 6th dealt a setback to fossil fuel interests, with Democratic gains likely to mean tighter regulation and more support for renewables. At the same time, geopolitical risk from potential Iran escalation could support oil prices, but that hasn't prevented the selling pressure since earnings. Oil majors like this one are caught between steadier crude prices and investor concern about a less fossil-fuel-friendly political environment ahead.",
+  "fetchedAt": "2026-11-08T01:03:05.434680+00:00",
+  "text": "ConocoPhillips stock fell 0.6% today and is down 9.6% over two weeks, tracking a sharp decline in oil prices. US crude has slipped to $99.64 a barrel from the $154 range at the start of this period\u2014a drop of more than 35%\u2014which directly cuts into the earnings power of oil producers like ConocoPhillips. The company reported quarterly results on November 5th, but the broader pressure from falling crude prices appears to have overwhelmed any company-specific positives.\n\nThe stock's recent weakness also reflects a shift in the political landscape. Democrats swept the midterm elections, and one outcome is a likely stronger push toward renewable energy and climate policies less favorable to traditional oil companies. At the same time, geopolitical risk in the Middle East remains a live threat\u2014which would normally support oil prices\u2014but it hasn't been enough to offset the fundamental decline in crude since late October.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 68,
-    "inputTokens": 56464,
-    "outputTokens": 13643,
-    "estimatedCostUsd": 0.124679,
-    "lastCallHour": "2026-11-07T21"
+    "callsThisMonth": 69,
+    "inputTokens": 57244,
+    "outputTokens": 13849,
+    "estimatedCostUsd": 0.126489,
+    "lastCallHour": "2026-11-08T01"
   }
 }

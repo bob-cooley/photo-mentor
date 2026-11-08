@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-11-07T21:24:14.998184+00:00",
+    "fetchedAt": "2026-11-08T01:03:11.775492+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -145,16 +145,6 @@
         "targetAction": "Raises",
         "targetFrom": 265.0,
         "targetTo": 453.0
-      },
-      {
-        "date": "2026-09-08",
-        "firm": "UBS",
-        "kind": "maintained",
-        "fromGrade": "Buy",
-        "toGrade": "Buy",
-        "targetAction": "Raises",
-        "targetFrom": 321.0,
-        "targetTo": 450.0
       }
     ]
   }
