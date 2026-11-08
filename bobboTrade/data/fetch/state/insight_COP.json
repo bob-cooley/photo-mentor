@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T15:01:47.618596+00:00",
-  "text": "ConocoPhillips has fallen 9.6% over two weeks and gained slightly today, but the backdrop remains weak. Oil prices have dropped sharply \u2014 U.S. crude is trading at $99.64 per barrel, down from levels that would have been much higher when the stock was at $154 just a week ago. Lower oil prices directly cut into the earnings potential of an oil producer like this, which is why the stock has been sliding since late October despite the company reporting third-quarter results on November 5th.\n\nThe political environment adds another headwind. Voters rejected Trump and the GOP in midterm elections, which means renewable energy policies are likely to gain traction going forward \u2014 a longer-term shift away from fossil fuels. At the same time, Middle East tensions with Iran remain elevated, which *could* support oil prices if conflict disrupts supply, but so far that risk hasn't materialized in the market. For now, the pull of falling crude prices is outweighing any geopolitical premium.",
+  "fetchedAt": "2026-11-08T16:02:42.293589+00:00",
+  "text": "ConocoPhillips gained slightly today, but the stock has lost nearly 10% over the past two weeks\u2014a decline that started right after the company reported quarterly earnings on November 5th. The timing suggests the earnings report itself disappointed investors, or forward guidance was weaker than expected, overriding any day-to-day market moves. Meanwhile, oil prices have softened: U.S. crude is trading at $99.64 per barrel, down from levels that likely prevailed when the stock was near $154 two weeks ago, and that drop in crude value directly pressures energy companies' profitability and investor appetite for their shares.\n\nThe broader election results\u2014a Democratic sweep and setback for the Trump administration\u2014are adding headwinds for oil stocks. Investors are now bracing for renewable energy policies to gain ground and less political support for fossil fuel expansion, which could weigh on long-term demand expectations and investor sentiment toward traditional energy companies, even as geopolitical risks in the Middle East remain elevated.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 73,
-    "inputTokens": 60364,
-    "outputTokens": 14717,
-    "estimatedCostUsd": 0.133949,
-    "lastCallHour": "2026-11-08T15"
+    "callsThisMonth": 74,
+    "inputTokens": 61144,
+    "outputTokens": 14937,
+    "estimatedCostUsd": 0.135829,
+    "lastCallHour": "2026-11-08T16"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T15:02:04.117454+00:00",
-  "text": "Marathon Petroleum's stock has fallen 1.2% today and nearly 18% over two weeks, with the sharpest drops occurring right after the midterm elections. The core driver appears to be political: a Democratic sweep signals reduced support for fossil fuels and increased momentum toward renewable energy, which directly threatens demand for refined oil products and refinery margins. While U.S. oil prices remain stable at $99.64 per barrel, that stability masks the longer-term concern that a Democratic Congress will prioritize wind and solar over traditional energy.\n\nThe timing underscores the shift\u2014the stock began its steepest decline on November 4th, the day after election results became clear. Refineries are still running near capacity at 94.5%, but that operating strength can't offset the market's forward-looking fear that policy will eventually shrink fuel demand. For a refiner, the risk isn't today's oil prices or current production levels; it's the trajectory of demand five to ten years out under a government now openly hostile to fossil fuel expansion.",
+  "fetchedAt": "2026-11-08T16:02:53.351479+00:00",
+  "text": "Marathon Petroleum has fallen 18.5% over two weeks, with today's decline part of a sharp slide that accelerated after the midterm elections. The primary driver is political risk to the refining industry: a Democratic sweep in Congress signals stronger push for renewable energy and likely tougher environmental regulation, which threatens long-term demand for petroleum products and refinery profitability. Oil prices themselves remain relatively stable\u2014US crude around $100 per barrel and refinery utilization at 94.5%\u2014so the damage isn't coming from weak energy fundamentals, but from investor concerns about the sector's political headwinds.\n\nThe timing of the selloff\u2014steepest from November 4th onward, right after election results\u2014confirms this is about policy outlook rather than immediate market conditions. Refinery operators typically benefit from energy scarcity and policy uncertainty, but Democratic control of Congress cuts against both those tailwinds going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 73,
-    "inputTokens": 61234,
-    "outputTokens": 14851,
-    "estimatedCostUsd": 0.135489,
-    "lastCallHour": "2026-11-08T15"
+    "callsThisMonth": 74,
+    "inputTokens": 62066,
+    "outputTokens": 15051,
+    "estimatedCostUsd": 0.137321,
+    "lastCallHour": "2026-11-08T16"
   }
 }
