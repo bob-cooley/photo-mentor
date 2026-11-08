@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T08:31:50.758044+00:00",
-  "text": "Marathon Petroleum has dropped 1.2% today and nearly 19% over the past two weeks, a decline that tracks the stock's fall since early November. The sharp selloff appears tied to the midterm election results: a Democratic sweep in early November shifted the political landscape toward renewable energy investment and away from fossil fuels, which is a structural headwind for a major oil refiner. At the same time, U.S. crude oil prices have softened from around $145 a barrel at the end of October to $99.64 today\u2014a drop that directly squeezes refining margins (the profit refiners make converting crude into gasoline and diesel).\n\nRefineries are running at 94.5% capacity and storage levels for gasoline and diesel remain ample, meaning weak demand and lower oil prices are compressing what refiners can earn on each barrel processed. The political shift toward renewables is a longer-term headwind, but the immediate pressure comes from falling oil prices and soft energy demand that eat directly into the company's bottom line.",
+  "fetchedAt": "2026-11-08T13:03:17.875703+00:00",
+  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks and dropped another 1.2% today, tracking a sharp decline that accelerated after the U.S. midterm elections. The core driver is political: a Democratic sweep removes policy support for fossil fuels and signals a shift toward renewable energy investment, which directly threatens the long-term demand outlook for refiners. Oil prices themselves remain relatively stable (US crude at $99.64/barrel, refineries running at 94.5%), so the selloff is purely about what voters chose on November 5th and what it means for energy policy ahead.\n\nThe stock's losses also reflect investor concern about the broader energy transition. When Congress flips to Democratic control, the political headwinds for traditional refining intensify\u2014subsidies and policy favor move toward wind and solar instead. For a pure-play refiner like Marathon, this isn't a quarterly earnings problem (the company reported results on November 3rd); it's a structural question about the industry's future relevance.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 70,
-    "inputTokens": 58738,
-    "outputTokens": 14176,
-    "estimatedCostUsd": 0.129618,
-    "lastCallHour": "2026-11-08T08"
+    "callsThisMonth": 71,
+    "inputTokens": 59570,
+    "outputTokens": 14396,
+    "estimatedCostUsd": 0.13155,
+    "lastCallHour": "2026-11-08T13"
   }
 }

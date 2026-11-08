@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T08:31:23.236787+00:00",
-  "text": "ConocoPhillips fell 0.6% today to $136.27, continuing a steep two-week decline of 9.6% that began right after the company reported quarterly earnings on November 5th. The stock has shed nearly $18 per barrel of equivalent value since late October, with most of the drop happening after earnings hit the market. While oil prices themselves remain relatively stable\u2014US crude at $99.64 and global crude at $107.03\u2014the company-specific earnings announcement appears to have triggered selling pressure that has dominated the recent moves.\n\nThe broader context shaping the selloff involves shifting political winds around energy. A Democratic sweep in the midterm elections and the associated backlash against fossil fuel expansion is creating headwinds for oil and gas majors, even as Middle East tensions with Iran theoretically support oil prices. Investors may be repricing the company for a lower long-term growth scenario in a political environment less favorable to new fossil fuel development.",
+  "fetchedAt": "2026-11-08T13:02:56.309511+00:00",
+  "text": "ConocoPhillips rose slightly today, but that modest gain masks a steep two-week decline of nearly 10% that accelerated after the company reported quarterly earnings on November 5th. The earnings announcement itself doesn't appear to have triggered sudden selling, but the stock has continued falling steadily since then\u2014dropping another 1.5% on November 5th and 6th combined\u2014suggesting investors may have found the results or guidance disappointing relative to expectations, or that the market is repricing oil majors downward for other reasons.\n\nThe broader headwind is clearer: oil prices have weakened substantially over the past two weeks. U.S. crude has fallen to $99.64 per barrel, and the price gap between U.S. and world oil has narrowed, which typically signals softer energy demand or growing supply concerns. At the same time, the Democratic sweep in midterm elections has raised investor focus on renewable energy policy and a potential shift away from fossil fuels\u2014a structural concern for oil and gas producers that can weigh on valuations even when commodity prices hold steady.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 70,
-    "inputTokens": 58024,
-    "outputTokens": 14059,
-    "estimatedCostUsd": 0.128319,
-    "lastCallHour": "2026-11-08T08"
+    "callsThisMonth": 71,
+    "inputTokens": 58804,
+    "outputTokens": 14293,
+    "estimatedCostUsd": 0.130269,
+    "lastCallHour": "2026-11-08T13"
   }
 }
