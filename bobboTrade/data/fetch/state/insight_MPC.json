@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T01:03:25.057878+00:00",
-  "text": "Marathon Petroleum's stock has fallen 1.2% today and nearly 18% over two weeks, tracking a sharp decline that accelerated after the company reported quarterly earnings on November 3rd. While oil prices have held relatively steady (US crude at $99.64/barrel), refineries are running near capacity at 94.5%, which normally supports margins\u2014but the market has clearly reacted negatively to the company's reported financial results, suggesting profits or guidance disappointed despite decent operational conditions.\n\nThe broader headwind is political: Democrats swept the midterm elections, which shifts energy policy toward renewable energy support and away from fossil fuels. That's a structural concern for a refiner, though it doesn't directly move oil prices day-to-day. The two-week decline suggests investors are repricing how they view the refining business in a changing energy landscape, independent of current crude costs or refinery utilization rates.",
+  "fetchedAt": "2026-11-08T08:31:50.758044+00:00",
+  "text": "Marathon Petroleum has dropped 1.2% today and nearly 19% over the past two weeks, a decline that tracks the stock's fall since early November. The sharp selloff appears tied to the midterm election results: a Democratic sweep in early November shifted the political landscape toward renewable energy investment and away from fossil fuels, which is a structural headwind for a major oil refiner. At the same time, U.S. crude oil prices have softened from around $145 a barrel at the end of October to $99.64 today\u2014a drop that directly squeezes refining margins (the profit refiners make converting crude into gasoline and diesel).\n\nRefineries are running at 94.5% capacity and storage levels for gasoline and diesel remain ample, meaning weak demand and lower oil prices are compressing what refiners can earn on each barrel processed. The political shift toward renewables is a longer-term headwind, but the immediate pressure comes from falling oil prices and soft energy demand that eat directly into the company's bottom line.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 69,
-    "inputTokens": 57906,
-    "outputTokens": 13951,
-    "estimatedCostUsd": 0.127661,
-    "lastCallHour": "2026-11-08T01"
+    "callsThisMonth": 70,
+    "inputTokens": 58738,
+    "outputTokens": 14176,
+    "estimatedCostUsd": 0.129618,
+    "lastCallHour": "2026-11-08T08"
   }
 }

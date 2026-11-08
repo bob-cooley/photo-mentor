@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T01:03:05.434680+00:00",
-  "text": "ConocoPhillips stock fell 0.6% today and is down 9.6% over two weeks, tracking a sharp decline in oil prices. US crude has slipped to $99.64 a barrel from the $154 range at the start of this period\u2014a drop of more than 35%\u2014which directly cuts into the earnings power of oil producers like ConocoPhillips. The company reported quarterly results on November 5th, but the broader pressure from falling crude prices appears to have overwhelmed any company-specific positives.\n\nThe stock's recent weakness also reflects a shift in the political landscape. Democrats swept the midterm elections, and one outcome is a likely stronger push toward renewable energy and climate policies less favorable to traditional oil companies. At the same time, geopolitical risk in the Middle East remains a live threat\u2014which would normally support oil prices\u2014but it hasn't been enough to offset the fundamental decline in crude since late October.",
+  "fetchedAt": "2026-11-08T08:31:23.236787+00:00",
+  "text": "ConocoPhillips fell 0.6% today to $136.27, continuing a steep two-week decline of 9.6% that began right after the company reported quarterly earnings on November 5th. The stock has shed nearly $18 per barrel of equivalent value since late October, with most of the drop happening after earnings hit the market. While oil prices themselves remain relatively stable\u2014US crude at $99.64 and global crude at $107.03\u2014the company-specific earnings announcement appears to have triggered selling pressure that has dominated the recent moves.\n\nThe broader context shaping the selloff involves shifting political winds around energy. A Democratic sweep in the midterm elections and the associated backlash against fossil fuel expansion is creating headwinds for oil and gas majors, even as Middle East tensions with Iran theoretically support oil prices. Investors may be repricing the company for a lower long-term growth scenario in a political environment less favorable to new fossil fuel development.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 69,
-    "inputTokens": 57244,
-    "outputTokens": 13849,
-    "estimatedCostUsd": 0.126489,
-    "lastCallHour": "2026-11-08T01"
+    "callsThisMonth": 70,
+    "inputTokens": 58024,
+    "outputTokens": 14059,
+    "estimatedCostUsd": 0.128319,
+    "lastCallHour": "2026-11-08T08"
   }
 }
