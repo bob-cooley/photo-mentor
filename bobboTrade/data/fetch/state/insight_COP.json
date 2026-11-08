@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T17:01:41.994934+00:00",
-  "text": "ConocoPhillips has fallen nearly 10% over two weeks, with today's tiny gain doing little to reverse the slide. The sharpest drops came right after the company reported quarterly earnings on November 5th\u2014a sign that results disappointed investors relative to expectations, even if the company itself wasn't specifically criticized in the available headlines. Oil prices have also softened: US crude sits at $99.64 per barrel, down from where it was earlier in the month, which directly pressures an oil producer's near-term cash flows.\n\nThe broader political backdrop is also working against energy stocks. Democrats' midterm sweep has energized the push for renewable energy investment and could mean tougher regulation or tax treatment for fossil fuel companies\u2014a headwind that applies sector-wide. Meanwhile, lingering Middle East tensions with Iran do theoretically support oil prices, but that tailwind hasn't been strong enough to offset the earnings letdown and the political shift away from fossil fuel favoritism.",
+  "fetchedAt": "2026-11-08T18:02:16.105858+00:00",
+  "text": "ConocoPhillips fell 0.6% today to $136.27, continuing a sharp two-week decline of nearly 10% that accelerated after the company reported quarterly earnings on November 5th. The stock has lost $18 per share since late October, suggesting investors reacted negatively to the earnings results or guidance\u2014though the specific details aren't clear from the data provided. Oil prices remain relatively stable (US crude at $99.64/barrel, global at $107), so the selloff appears tied to the company's own performance rather than a broader energy market collapse.\n\nThe broader political backdrop may also be weighing on the sector. The midterm elections delivered a decisive rejection of Trump-era policies, including strong momentum behind renewable energy expansion. For an oil and gas producer like ConocoPhillips, this signals potential headwinds from stricter climate policies and accelerated competition from clean energy\u2014a longer-term concern that could be dampening investor appetite even as crude prices hold steady.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 75,
-    "inputTokens": 61924,
-    "outputTokens": 15146,
-    "estimatedCostUsd": 0.137654,
-    "lastCallHour": "2026-11-08T17"
+    "callsThisMonth": 76,
+    "inputTokens": 62704,
+    "outputTokens": 15362,
+    "estimatedCostUsd": 0.139514,
+    "lastCallHour": "2026-11-08T18"
   }
 }

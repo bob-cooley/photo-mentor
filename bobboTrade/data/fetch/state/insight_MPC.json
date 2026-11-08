@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T17:01:55.114704+00:00",
-  "text": "Marathon Petroleum has fallen nearly 19% over two weeks, with today's modest decline continuing a steep sell-off that accelerated sharply on November 4th. The primary driver is the Democratic sweep in the midterm elections, which raises the prospect of policies favoring renewable energy and potentially constraining fossil fuel investments\u2014a structural headwind for refiners. While oil prices remain relatively firm (US crude at $99.64/barrel) and refineries are running at a healthy 94.5% capacity, these near-term operational strengths are being overwhelmed by longer-term political uncertainty about the regulatory environment refiners will face.\n\nThe timing of the collapse\u2014starting right after the November 3rd elections and worsening through this week\u2014makes the political shift the clearest explanation. Refining stocks typically trade on near-term profitability (driven by crude prices and refinery utilization), but a change in the party controlling Congress can shift investor sentiment on years-ahead margins and capital allocation.",
+  "fetchedAt": "2026-11-08T18:02:29.816381+00:00",
+  "text": "Marathon Petroleum shares have fallen 18.5% over two weeks, with today's decline fitting into a sharp drop that accelerated after the company's quarterly earnings report on November 3rd. The broader headwind is clear: the Democratic sweep in the midterm elections has sparked investor concerns about renewable energy policy favoring and fossil fuel regulation tightening, which directly threatens refining company valuations regardless of current oil or refining conditions (US crude is still trading at $99.64 per barrel and refineries are running at 94.5% capacity).\n\nThe timing and magnitude of the sell-off suggest investors are repricing the long-term outlook for petroleum refiners in a political environment now tilted toward wind and solar investment. Even though global oil prices remain elevated at $107 and storage levels are stable, refining stocks face structural headwinds from this shift in energy policy momentum.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 75,
-    "inputTokens": 62898,
-    "outputTokens": 15264,
-    "estimatedCostUsd": 0.139218,
-    "lastCallHour": "2026-11-08T17"
+    "callsThisMonth": 76,
+    "inputTokens": 63730,
+    "outputTokens": 15453,
+    "estimatedCostUsd": 0.140995,
+    "lastCallHour": "2026-11-08T18"
   }
 }
