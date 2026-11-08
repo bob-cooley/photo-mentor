@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T13:03:17.875703+00:00",
-  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks and dropped another 1.2% today, tracking a sharp decline that accelerated after the U.S. midterm elections. The core driver is political: a Democratic sweep removes policy support for fossil fuels and signals a shift toward renewable energy investment, which directly threatens the long-term demand outlook for refiners. Oil prices themselves remain relatively stable (US crude at $99.64/barrel, refineries running at 94.5%), so the selloff is purely about what voters chose on November 5th and what it means for energy policy ahead.\n\nThe stock's losses also reflect investor concern about the broader energy transition. When Congress flips to Democratic control, the political headwinds for traditional refining intensify\u2014subsidies and policy favor move toward wind and solar instead. For a pure-play refiner like Marathon, this isn't a quarterly earnings problem (the company reported results on November 3rd); it's a structural question about the industry's future relevance.",
+  "fetchedAt": "2026-11-08T14:01:54.896386+00:00",
+  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks, with today's modest decline continuing a sharp drop that accelerated after the November 4th midterm elections. The broader headwind is clear: a Democratic sweep signals policy shifts away from fossil fuels toward renewable energy, which threatens long-term demand for refined petroleum products and creates regulatory uncertainty for refiners. While crude oil prices remain elevated at nearly $100 per barrel domestically, refineries are running at 94.5% capacity \u2014 high but not unusually so \u2014 and fuel inventories are substantial, offering little immediate support for margins.\n\nThe recent quarterly earnings announcement and report likely disappointed investors relative to expectations, or the company guided conservatively on future refining demand given the political environment. With Iran tensions simmering, geopolitical risk to oil supply remains elevated, yet the market is pricing in that this tailwind for crude won't offset the structural headwind facing refiners: Washington's pivot away from oil and gas suggests lower fuel consumption ahead, which is a long-term demand destroyer for a pure-play refiner.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 71,
-    "inputTokens": 59570,
-    "outputTokens": 14396,
-    "estimatedCostUsd": 0.13155,
-    "lastCallHour": "2026-11-08T13"
+    "callsThisMonth": 72,
+    "inputTokens": 60402,
+    "outputTokens": 14626,
+    "estimatedCostUsd": 0.133532,
+    "lastCallHour": "2026-11-08T14"
   }
 }

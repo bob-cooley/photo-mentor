@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T13:02:56.309511+00:00",
-  "text": "ConocoPhillips rose slightly today, but that modest gain masks a steep two-week decline of nearly 10% that accelerated after the company reported quarterly earnings on November 5th. The earnings announcement itself doesn't appear to have triggered sudden selling, but the stock has continued falling steadily since then\u2014dropping another 1.5% on November 5th and 6th combined\u2014suggesting investors may have found the results or guidance disappointing relative to expectations, or that the market is repricing oil majors downward for other reasons.\n\nThe broader headwind is clearer: oil prices have weakened substantially over the past two weeks. U.S. crude has fallen to $99.64 per barrel, and the price gap between U.S. and world oil has narrowed, which typically signals softer energy demand or growing supply concerns. At the same time, the Democratic sweep in midterm elections has raised investor focus on renewable energy policy and a potential shift away from fossil fuels\u2014a structural concern for oil and gas producers that can weigh on valuations even when commodity prices hold steady.",
+  "fetchedAt": "2026-11-08T14:01:40.637850+00:00",
+  "text": "ConocoPhillips fell 0.6% today to $136.27, extending a steep two-week decline of nearly 10% that accelerated sharply after the company reported quarterly earnings on November 5th. The stock has lost roughly $18 per share since late October, suggesting investors reacted negatively to the earnings results or guidance, though the data doesn't spell out what specifically disappointed the market.\n\nThe broader backdrop adds pressure: U.S. oil prices have drifted down to $99.64 a barrel (roughly 13% below their late-October levels), and the Democrats' midterm election sweep signals a policy environment more hostile to fossil fuels and more supportive of renewables. While Middle East tensions with Iran remain a potential upside factor for oil prices, the combination of weaker crude, an earnings miss, and an unfavorable political shift appears to have outweighed that risk in investors' calculus.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 71,
-    "inputTokens": 58804,
-    "outputTokens": 14293,
-    "estimatedCostUsd": 0.130269,
-    "lastCallHour": "2026-11-08T13"
+    "callsThisMonth": 72,
+    "inputTokens": 59584,
+    "outputTokens": 14496,
+    "estimatedCostUsd": 0.132064,
+    "lastCallHour": "2026-11-08T14"
   }
 }
