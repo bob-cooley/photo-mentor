@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T16:02:42.293589+00:00",
-  "text": "ConocoPhillips gained slightly today, but the stock has lost nearly 10% over the past two weeks\u2014a decline that started right after the company reported quarterly earnings on November 5th. The timing suggests the earnings report itself disappointed investors, or forward guidance was weaker than expected, overriding any day-to-day market moves. Meanwhile, oil prices have softened: U.S. crude is trading at $99.64 per barrel, down from levels that likely prevailed when the stock was near $154 two weeks ago, and that drop in crude value directly pressures energy companies' profitability and investor appetite for their shares.\n\nThe broader election results\u2014a Democratic sweep and setback for the Trump administration\u2014are adding headwinds for oil stocks. Investors are now bracing for renewable energy policies to gain ground and less political support for fossil fuel expansion, which could weigh on long-term demand expectations and investor sentiment toward traditional energy companies, even as geopolitical risks in the Middle East remain elevated.",
+  "fetchedAt": "2026-11-08T17:01:41.994934+00:00",
+  "text": "ConocoPhillips has fallen nearly 10% over two weeks, with today's tiny gain doing little to reverse the slide. The sharpest drops came right after the company reported quarterly earnings on November 5th\u2014a sign that results disappointed investors relative to expectations, even if the company itself wasn't specifically criticized in the available headlines. Oil prices have also softened: US crude sits at $99.64 per barrel, down from where it was earlier in the month, which directly pressures an oil producer's near-term cash flows.\n\nThe broader political backdrop is also working against energy stocks. Democrats' midterm sweep has energized the push for renewable energy investment and could mean tougher regulation or tax treatment for fossil fuel companies\u2014a headwind that applies sector-wide. Meanwhile, lingering Middle East tensions with Iran do theoretically support oil prices, but that tailwind hasn't been strong enough to offset the earnings letdown and the political shift away from fossil fuel favoritism.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 74,
-    "inputTokens": 61144,
-    "outputTokens": 14937,
-    "estimatedCostUsd": 0.135829,
-    "lastCallHour": "2026-11-08T16"
+    "callsThisMonth": 75,
+    "inputTokens": 61924,
+    "outputTokens": 15146,
+    "estimatedCostUsd": 0.137654,
+    "lastCallHour": "2026-11-08T17"
   }
 }

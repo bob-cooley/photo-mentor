@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T16:02:53.351479+00:00",
-  "text": "Marathon Petroleum has fallen 18.5% over two weeks, with today's decline part of a sharp slide that accelerated after the midterm elections. The primary driver is political risk to the refining industry: a Democratic sweep in Congress signals stronger push for renewable energy and likely tougher environmental regulation, which threatens long-term demand for petroleum products and refinery profitability. Oil prices themselves remain relatively stable\u2014US crude around $100 per barrel and refinery utilization at 94.5%\u2014so the damage isn't coming from weak energy fundamentals, but from investor concerns about the sector's political headwinds.\n\nThe timing of the selloff\u2014steepest from November 4th onward, right after election results\u2014confirms this is about policy outlook rather than immediate market conditions. Refinery operators typically benefit from energy scarcity and policy uncertainty, but Democratic control of Congress cuts against both those tailwinds going forward.",
+  "fetchedAt": "2026-11-08T17:01:55.114704+00:00",
+  "text": "Marathon Petroleum has fallen nearly 19% over two weeks, with today's modest decline continuing a steep sell-off that accelerated sharply on November 4th. The primary driver is the Democratic sweep in the midterm elections, which raises the prospect of policies favoring renewable energy and potentially constraining fossil fuel investments\u2014a structural headwind for refiners. While oil prices remain relatively firm (US crude at $99.64/barrel) and refineries are running at a healthy 94.5% capacity, these near-term operational strengths are being overwhelmed by longer-term political uncertainty about the regulatory environment refiners will face.\n\nThe timing of the collapse\u2014starting right after the November 3rd elections and worsening through this week\u2014makes the political shift the clearest explanation. Refining stocks typically trade on near-term profitability (driven by crude prices and refinery utilization), but a change in the party controlling Congress can shift investor sentiment on years-ahead margins and capital allocation.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 74,
-    "inputTokens": 62066,
-    "outputTokens": 15051,
-    "estimatedCostUsd": 0.137321,
-    "lastCallHour": "2026-11-08T16"
+    "callsThisMonth": 75,
+    "inputTokens": 62898,
+    "outputTokens": 15264,
+    "estimatedCostUsd": 0.139218,
+    "lastCallHour": "2026-11-08T17"
   }
 }
