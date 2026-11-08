@@ -199,6 +199,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-06T11:47:56.833815+00:00"
+    },
+    {
+      "date": "2026-11-08",
+      "facility": "Saratov Oil Refinery",
+      "attacker": null,
+      "attackedNation": "Russia",
+      "attribution": "unattributed",
+      "id": "2026-11-08-saratov-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-08T17:27:54.149583+00:00"
     }
   ],
   "processedUrls": {
@@ -271,17 +287,18 @@
     "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help": "2026-11-06T03:07:37.498883+00:00",
     "https://meduza.io/en/news/2026/11/06/ukraine-attacks-afipsky-oil-refinery-in-southern-russia": "2026-11-06T11:47:55.498842+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/06/8061498/": "2026-11-06T11:47:56.833589+00:00",
-    "https://meduza.io/en/feature/2026/11/06/russia-s-economy-is-suffering-under-the-weight-of-war-and-sanctions-so-why-is-the-ruble-still-one-of-the-world-s-strongest-currencies": "2026-11-06T18:51:36.741246+00:00"
+    "https://meduza.io/en/feature/2026/11/06/russia-s-economy-is-suffering-under-the-weight-of-war-and-sanctions-so-why-is-the-ruble-still-one-of-the-world-s-strongest-currencies": "2026-11-06T18:51:36.741246+00:00",
+    "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-08T17:27:54.149112+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 11,
-    "inputTokens": 13102,
-    "outputTokens": 1814,
-    "estimatedCostUsd": 0.022172
+    "calls": 12,
+    "inputTokens": 14475,
+    "outputTokens": 1933,
+    "estimatedCostUsd": 0.02414
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-07T21:24:43.485047+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-08T17:27:54.149617+00:00"
 }
