@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T13:01:55.189556+00:00",
-  "text": "Marathon Petroleum has fallen 1.2% today and 18.5% over two weeks as crude oil prices have weakened and refinery margins have compressed. US oil has dropped from the mid-$140s range (implied by the stock's peak price relative to historical correlations) to $99.64 per barrel\u2014a sharp decline that directly cuts into what refiners can earn by processing crude into gasoline and diesel. At the same time, US storage inventories remain elevated (gasoline stocks especially), which signals weak demand and further pressures the price refiners can charge for finished products.\n\nThe near-term headwinds are real, but they may be temporary. Marathon announced a $4.2 billion asset sale and a strategic pivot to focus on Gulf Coast refining with higher-value diesel and export-grade gasoline\u2014assets that should benefit when crude prices stabilize and global demand tightens inventory levels. For now, though, the market is punishing the stock on the immediate margin squeeze, not rewarding the longer-term positioning.",
+  "fetchedAt": "2026-11-09T14:01:52.928705+00:00",
+  "text": "Marathon Petroleum has fallen 1.2% today and 18.5% over two weeks, a sharp decline that accelerated after the company reported quarterly earnings on November 3rd. The stock has lost ground each of the last four trading days, suggesting investors reacted negatively to the financial results or the outlook the company provided alongside them \u2014 though the specific details from that earnings report aren't available here to confirm the exact driver.\n\nThe broader refining environment offers limited support: oil prices remain solid (US crude near $100/barrel), and refineries are running at a healthy 94.5% capacity, which should be supporting margins. However, recent political news \u2014 including comments from the U.S. Secretary of State on November 9th about stalled Iran negotiations \u2014 may have cooled some investor appetite for energy stocks, adding headwind to a stock already under pressure from company-specific news.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 82,
-    "inputTokens": 68733,
-    "outputTokens": 16805,
-    "estimatedCostUsd": 0.152758,
-    "lastCallHour": "2026-11-09T13"
+    "callsThisMonth": 83,
+    "inputTokens": 69575,
+    "outputTokens": 16995,
+    "estimatedCostUsd": 0.15455,
+    "lastCallHour": "2026-11-09T14"
   }
 }

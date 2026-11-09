@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-09T13:01:21.148641+00:00",
-  "text": "ConocoPhillips fell 0.6% today to $136.27, capping a brutal two-week decline of nearly 10% that began right after the company reported earnings on November 5th. The stock has shed $17.75 per share since October 30th, suggesting the quarterly results disappointed investors despite the company being flagged as a top pick by analysts just hours before earnings landed. Oil prices remain relatively firm\u2014US crude at $99.64 per barrel and global crude at $107.03\u2014so the weakness reflects company-specific trouble rather than a broad energy sector collapse.\n\nThe timing and magnitude of the drop point to the earnings themselves as the primary culprit. Without details on what the quarterly report contained, the sharp move downward suggests the market had expected better profitability, production, or guidance than what ConocoPhillips delivered. Geopolitical tensions around Iran and Middle East negotiations could add a layer of uncertainty to longer-term demand outlooks, but they don't explain why the stock cratered specifically on earnings day.",
+  "fetchedAt": "2026-11-09T14:01:18.249671+00:00",
+  "text": "ConocoPhillips dropped 0.6% today to $136.27, continuing a steep two-week decline of nearly 10% that began right after the company reported quarterly earnings on November 5th. The stock has fallen roughly $18 in that span, suggesting investors reacted negatively to the earnings results themselves or to forward guidance the company provided\u2014though the specific details of that reaction aren't captured in the available news headlines.\n\nThe broader oil market remains a headwind: US crude is trading at $99.64 per barrel, down sharply from where it was two weeks ago when the stock was at $154. Even with global oil prices holding higher at $107, the weakness in domestic crude pricing limits upside for US-based producers. Geopolitical risk from stalled Iran negotiations could theoretically support energy prices, but that hasn't been enough to reverse the stock's momentum since earnings.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 82,
-    "inputTokens": 67396,
-    "outputTokens": 16721,
-    "estimatedCostUsd": 0.151001,
-    "lastCallHour": "2026-11-09T13"
+    "callsThisMonth": 83,
+    "inputTokens": 68186,
+    "outputTokens": 16916,
+    "estimatedCostUsd": 0.152766,
+    "lastCallHour": "2026-11-09T14"
   }
 }
