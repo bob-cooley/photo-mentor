@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T20:01:30.044591+00:00",
-  "text": "Marathon Petroleum stock bounced back 3.1% today after a brutal five-day slide that erased 13% of its value. The timing and scale of the recovery align with today's news that U.S. Secretary of State Marco Rubio signaled stalled Iran negotiations\u2014a geopolitical de-escalation signal that typically removes uncertainty about potential oil supply disruptions and can ease pressure on energy stocks that had been sold off on war-risk premiums.\n\nThe deeper context: the stock has been hammered since early November, likely triggered by the midterm election outcome shifting Congress toward Democratic control, which the market read as potential headwinds for refining (through stricter environmental policy and offshore drilling limits). Today's rebound, modest as it is, suggests some traders are selectively re-entering positions now that Mideast tension has cooled, even though broader refining margins remain under pressure\u2014U.S. oil is at $99.64 per barrel while refineries are running at 94.5% capacity with above-average gasoline and diesel inventories, both factors that typically constrain profit.",
+  "fetchedAt": "2026-11-09T21:01:38.829458+00:00",
+  "text": "MPC bounced back 4.6% today after hitting a five-day low on November 6th, when the stock lost nearly 18% from its peak. The recovery came as oil prices stabilized\u2014U.S. crude held steady around $99.64 a barrel\u2014and refinery utilization remained solid at 94.5%, suggesting steady demand for refined products. The timing of this rebound coincides with news that U.S.-Iran diplomatic talks remain stalled, which historically supports oil prices by reducing near-term supply concerns.\n\nThe stock's broader two-week decline reflects the market's reaction to the earnings report and quarterly results released November 3rd, combined with uncertainty around the political transition and what energy policy might look like under a new administration. Refiners like Marathon are sensitive to shifts in regulation and fuel demand expectations, so the shift in congressional control and early signals about energy priorities likely weighed on the stock through the week\u2014though today's rebound suggests some stabilization as oil prices found a floor.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 89,
-    "inputTokens": 74615,
-    "outputTokens": 18324,
-    "estimatedCostUsd": 0.166235,
-    "lastCallHour": "2026-11-09T20"
+    "callsThisMonth": 90,
+    "inputTokens": 75455,
+    "outputTokens": 18543,
+    "estimatedCostUsd": 0.16817,
+    "lastCallHour": "2026-11-09T21"
   }
 }
