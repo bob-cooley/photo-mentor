@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T17:01:27.553129+00:00",
-  "text": "Marathon Petroleum bounced back 4.5% today after hitting a low of $372.74 just three days earlier, recovering some ground from a brutal two-week slide of 17%. The rebound likely reflects stabilization following last week's sharp selloff\u2014the stock had fallen nearly $58 from its early-November high\u2014but also comes as oil prices ticked modestly higher (US crude at $99.64/barrel) and refineries continue running at a healthy 94.5% capacity, supporting margins for processors like Marathon.\n\nThe two-week decline itself looks tied to the company's late-October earnings announcement and likely concerns about policy shifts after the midterm elections. News that a Democratic Congress could favor renewable energy over fossil fuels, combined with earnings that may not have impressed investors, drove the initial retreat. Today's bounce is a technical recovery rather than a fundamental shift\u2014the stock remains well below where it started the month.",
+  "fetchedAt": "2026-11-09T18:01:27.448779+00:00",
+  "text": "Marathon Petroleum stock bounced 4.6% today after falling hard over the prior week, driven by easing geopolitical tension. News that U.S. Secretary of State Rubio saw \"little hope\" of a diplomatic breakthrough with Iran may sound negative, but it signals the market is pricing in a lower risk of imminent oil supply disruptions from Middle East conflict\u2014a concern that had weighed heavily on the stock during last week's sharper decline. Oil prices remain elevated (U.S. crude at $99.64/barrel), but the removal of shock-disruption fear helped refiners like Marathon recover some ground.\n\nThe broader context is that refiners live on the spread between crude costs and fuel prices; they profit when they can buy oil and sell gasoline and diesel for a wider margin. Last week's steep drop reflected fears of supply shock and uncertainty, but today's bounce suggests those extreme-case worries have eased slightly, at least for now. Refineries are still running near full capacity (94.5%), so there's room for the business to keep running profitably if crude-to-fuel spreads hold steady.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 86,
-    "inputTokens": 72095,
-    "outputTokens": 17642,
-    "estimatedCostUsd": 0.160305,
-    "lastCallHour": "2026-11-09T17"
+    "callsThisMonth": 87,
+    "inputTokens": 72935,
+    "outputTokens": 17886,
+    "estimatedCostUsd": 0.162365,
+    "lastCallHour": "2026-11-09T18"
   }
 }
