@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T15:02:44.908545+00:00",
-  "text": "Marathon Petroleum recovered 2.9% today after five consecutive days of sharp losses that wiped out 13% from its price. The stock's decline began right after the company reported quarterly earnings on November 3rd, and today's modest bounce doesn't reverse that damage. Meanwhile, refinery utilization remains healthy at 94.5%, but the real pressure on refiners comes from the two-week oil price move: U.S. crude dropped from around $115 per barrel (implied by the stock's prior strength) to $99.64 today\u2014a significant margin compression that directly cuts into refinery profitability since refiners buy crude and sell finished fuels.\n\nThe broader headwinds haven't lifted either. Political uncertainty from the midterm election results is favoring renewable energy investments over traditional oil and gas, and ongoing Middle East tensions (Iran negotiations remain stalled according to reporting today) aren't providing the geopolitical oil-price floor that might otherwise support the market. The combination of lower crude prices, post-earnings disappointment, and a political environment tilted toward alternatives has left refiners like Marathon struggling despite solid operational capacity.",
+  "fetchedAt": "2026-11-09T16:01:07.552690+00:00",
+  "text": "Marathon's stock bounced back 4.6% today after plunging nearly 17% over the past two weeks, driven partly by stabilization in oil markets and a modest recovery in refinery operations. The company had cratered in early November following its earnings report on November 3rd, but today's gain reflects a temporary rebound as US crude held above $99 per barrel and refineries maintained high utilization at 94.5%\u2014conditions that support refiner margins and profitability.\n\nThe sharp decline earlier this week appears tied to the earnings miss or disappointing guidance from the November 3rd report, which overshadowed any benefit from stable refining conditions. With geopolitical tensions in the Middle East (Iran negotiations stalled, per today's news) potentially supporting oil prices longer-term, the stock's recovery today suggests some investors see the sell-off as overdone, though the stock remains well below its level from a week ago.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 84,
-    "inputTokens": 70415,
-    "outputTokens": 17238,
-    "estimatedCostUsd": 0.156605,
-    "lastCallHour": "2026-11-09T15"
+    "callsThisMonth": 85,
+    "inputTokens": 71255,
+    "outputTokens": 17441,
+    "estimatedCostUsd": 0.15846,
+    "lastCallHour": "2026-11-09T16"
   }
 }

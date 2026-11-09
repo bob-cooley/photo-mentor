@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-09T15:01:20.305946+00:00",
-  "text": "ConocoPhillips fell 1.2% today, continuing a steep two-week decline of 11% that began right after the company reported quarterly earnings on November 5th. The stock has lost ground steadily since that report, suggesting investors reacted negatively to the financial results or outlook\u2014though the specific earnings details aren't summarized here. Crude oil prices remain relatively stable (US oil at $99.64/barrel), so the drop appears driven by company-specific factors rather than a broad energy sector collapse.\n\nThe timing matters: the earnings report dropped the same day geopolitical news about failed Iran negotiations surfaced, and U.S. political uncertainty over government funding and debt limits has emerged this week. For an oil major like ConocoPhillips, unresolved Middle East tensions and domestic political gridlock can create unpredictability around both oil supply and regulatory costs, even if current oil prices haven't collapsed yet.",
+  "fetchedAt": "2026-11-09T16:00:55.801172+00:00",
+  "text": "ConocoPhillips fell 0.5% today, continuing a sharp two-week decline of over 10% that began right after the company reported earnings on November 5th. The stock has been trending downward since that announcement, suggesting investors reacted negatively to the quarterly results despite the company operating in an environment where US oil is trading at $99.64 per barrel\u2014a reasonably healthy price for an oil major.\n\nThe broader oil market remains stable with global crude near $107 per barrel, but geopolitical risks haven't intensified dramatically in the past few days. The recent comments from the U.S. Secretary of State about stalled Iran negotiations typically wouldn't trigger such a consistent selloff on their own. This suggests the market's focus has been primarily on ConocoPhillips' own financial performance and guidance rather than external energy market factors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 84,
-    "inputTokens": 68974,
-    "outputTokens": 17118,
-    "estimatedCostUsd": 0.154564,
-    "lastCallHour": "2026-11-09T15"
+    "callsThisMonth": 85,
+    "inputTokens": 69763,
+    "outputTokens": 17305,
+    "estimatedCostUsd": 0.156288,
+    "lastCallHour": "2026-11-09T16"
   }
 }
