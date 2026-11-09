@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T19:02:51.301537+00:00",
-  "text": "Marathon Petroleum bounced 4.4% today after being hammered over the prior week, which saw the stock fall 17% from early November. The rebound comes as oil prices have stabilized somewhat \u2014 U.S. crude is holding near $100 per barrel after earlier weakness \u2014 and refineries continue running at a healthy 94.5% capacity. After the stock's sharp slide, today's move likely reflects some combination of oversold conditions triggering technical buying and relief that energy prices haven't deteriorated further.\n\nThe broader context is that refining stocks have been under pressure as markets price in what a Democratic-controlled Congress could mean for energy policy, with recent commentary pointing toward potential shifts favoring renewables over traditional fuels. That headwind, combined with the stock's steep losses over five days, may have created an attractive entry point for some investors today \u2014 though the structural policy concerns that drove the selloff remain unresolved.",
+  "fetchedAt": "2026-11-09T20:01:30.044591+00:00",
+  "text": "Marathon Petroleum stock bounced back 3.1% today after a brutal five-day slide that erased 13% of its value. The timing and scale of the recovery align with today's news that U.S. Secretary of State Marco Rubio signaled stalled Iran negotiations\u2014a geopolitical de-escalation signal that typically removes uncertainty about potential oil supply disruptions and can ease pressure on energy stocks that had been sold off on war-risk premiums.\n\nThe deeper context: the stock has been hammered since early November, likely triggered by the midterm election outcome shifting Congress toward Democratic control, which the market read as potential headwinds for refining (through stricter environmental policy and offshore drilling limits). Today's rebound, modest as it is, suggests some traders are selectively re-entering positions now that Mideast tension has cooled, even though broader refining margins remain under pressure\u2014U.S. oil is at $99.64 per barrel while refineries are running at 94.5% capacity with above-average gasoline and diesel inventories, both factors that typically constrain profit.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 88,
-    "inputTokens": 73775,
-    "outputTokens": 18085,
-    "estimatedCostUsd": 0.1642,
-    "lastCallHour": "2026-11-09T19"
+    "callsThisMonth": 89,
+    "inputTokens": 74615,
+    "outputTokens": 18324,
+    "estimatedCostUsd": 0.166235,
+    "lastCallHour": "2026-11-09T20"
   }
 }
