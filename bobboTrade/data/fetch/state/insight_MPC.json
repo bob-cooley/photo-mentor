@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T18:01:27.448779+00:00",
-  "text": "Marathon Petroleum stock bounced 4.6% today after falling hard over the prior week, driven by easing geopolitical tension. News that U.S. Secretary of State Rubio saw \"little hope\" of a diplomatic breakthrough with Iran may sound negative, but it signals the market is pricing in a lower risk of imminent oil supply disruptions from Middle East conflict\u2014a concern that had weighed heavily on the stock during last week's sharper decline. Oil prices remain elevated (U.S. crude at $99.64/barrel), but the removal of shock-disruption fear helped refiners like Marathon recover some ground.\n\nThe broader context is that refiners live on the spread between crude costs and fuel prices; they profit when they can buy oil and sell gasoline and diesel for a wider margin. Last week's steep drop reflected fears of supply shock and uncertainty, but today's bounce suggests those extreme-case worries have eased slightly, at least for now. Refineries are still running near full capacity (94.5%), so there's room for the business to keep running profitably if crude-to-fuel spreads hold steady.",
+  "fetchedAt": "2026-11-09T19:02:51.301537+00:00",
+  "text": "Marathon Petroleum bounced 4.4% today after being hammered over the prior week, which saw the stock fall 17% from early November. The rebound comes as oil prices have stabilized somewhat \u2014 U.S. crude is holding near $100 per barrel after earlier weakness \u2014 and refineries continue running at a healthy 94.5% capacity. After the stock's sharp slide, today's move likely reflects some combination of oversold conditions triggering technical buying and relief that energy prices haven't deteriorated further.\n\nThe broader context is that refining stocks have been under pressure as markets price in what a Democratic-controlled Congress could mean for energy policy, with recent commentary pointing toward potential shifts favoring renewables over traditional fuels. That headwind, combined with the stock's steep losses over five days, may have created an attractive entry point for some investors today \u2014 though the structural policy concerns that drove the selloff remain unresolved.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 87,
-    "inputTokens": 72935,
-    "outputTokens": 17886,
-    "estimatedCostUsd": 0.162365,
-    "lastCallHour": "2026-11-09T18"
+    "callsThisMonth": 88,
+    "inputTokens": 73775,
+    "outputTokens": 18085,
+    "estimatedCostUsd": 0.1642,
+    "lastCallHour": "2026-11-09T19"
   }
 }
