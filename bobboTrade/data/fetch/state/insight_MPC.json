@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T00:29:07.481321+00:00",
-  "text": "Marathon Petroleum has lost nearly 19% over two weeks, with today's modest 1.2% decline continuing a sharp selloff that accelerated after the early November midterm elections. The core issue is geopolitical: recent news shows rising tension between the U.S. and Iran, despite Democratic gains in the midterms that typically favor renewable energy over oil refining. A potential conflict in the Middle East could disrupt global oil supplies and refining margins, which has spooked investors holding refiner stocks.\n\nThe timing matters here. Oil prices have actually stayed elevated (U.S. crude near $100/barrel), so this isn't a simple case of cheap oil hurting refiners. Instead, the political uncertainty\u2014particularly the possibility of Iran conflict despite Democratic control of Congress\u2014appears to be creating doubt about the sector's near-term stability, even though higher oil prices alone might normally support refining companies.",
+  "fetchedAt": "2026-11-09T07:36:48.372673+00:00",
+  "text": "Marathon Petroleum's stock has fallen 1.2% today and 18.5% over two weeks, with the steepest drops occurring on November 4th and continuing through today. The primary driver appears to be geopolitical risk: news of potential U.S.-Iran escalation and Middle East tensions creates uncertainty about oil supply disruptions, which directly affects refiner margins and profitability. While crude oil prices remain relatively stable (around $100 per barrel domestically), the threat of conflict in a major oil-producing region typically unsettles energy stocks even before prices spike, and refineries running at high capacity (94.5%) leave little room to absorb supply shocks.\n\nThe broader context is that refiners like Marathon profit from the *spread* between the cost of crude oil they buy and the refined products (gasoline, diesel) they sell \u2014 and that spread narrows when geopolitical uncertainty makes future oil supplies unclear or when demand weakens in anticipation of conflict. The Democratic midterm sweep mentioned in early November news also likely weighed on sentiment, as Democratic-controlled energy policy typically favors renewable energy over fossil fuels, which can pressure refiner valuations over the medium term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 80,
-    "inputTokens": 67059,
-    "outputTokens": 16325,
-    "estimatedCostUsd": 0.148684,
-    "lastCallHour": "2026-11-09T00"
+    "callsThisMonth": 81,
+    "inputTokens": 67892,
+    "outputTokens": 16581,
+    "estimatedCostUsd": 0.150797,
+    "lastCallHour": "2026-11-09T07"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-09T00:28:47.181906+00:00",
-  "text": "ConocoPhillips fell 0.6% today, adding to a brutal two-week loss of 9.6% that has dragged the stock from $154 down to $136. The timing tracks closely with oil prices collapsing: crude hit $99.64 per barrel (U.S.) today, down sharply from where it must have been two weeks ago, and the company released its quarterly earnings report on November 5th right as the stock began its steeper decline. Oil majors like ConocoPhillips live or die on the price of crude, so when oil retreats, their profit outlook weakens immediately.\n\nThe Middle East remains a wild card for oil markets. While Trump's recent comments suggested a reduced risk of fresh Iran strikes if nuclear talks progress, analysts warn that tensions remain genuinely high\u2014any escalation in the Strait of Hormuz or broader conflict could reverse the price weakness. For now, though, the market is pricing in lower oil demand or supply concerns easing, which is headwind for an exploration-and-production company.",
+  "fetchedAt": "2026-11-09T07:36:31.393780+00:00",
+  "text": "ConocoPhillips rose slightly today, but the stock has been in a steep decline over the past two weeks, falling 9.6% from $154 to $136. The main driver appears to be uncertainty around geopolitical tensions in the Middle East\u2014specifically fears about potential U.S. strikes on Iran and disruption to oil shipments through the Strait of Hormuz. Despite oil prices remaining elevated (U.S. crude at $99.64 per barrel, world crude at $107), the market seems worried that escalating Iran tensions could either trigger military action that disrupts supply or, conversely, de-escalate in a way that eases prices lower. The company also reported quarterly earnings on November 5th, but the timing of the selloff around the geopolitical headlines suggests that's the primary concern weighing on shares right now.\n\nThe wider context here is that oil and gas companies face a structurally uncertain oil price environment: crude is high enough to support strong cash flow, but geopolitical risk is creating volatility that makes investors hesitant to hold energy stocks. News that Trump said Iran strikes are \"highly unlikely\" if talks progress may have offered some relief today, but the underlying tension remains unresolved.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 80,
-    "inputTokens": 65825,
-    "outputTokens": 16225,
-    "estimatedCostUsd": 0.14695,
-    "lastCallHour": "2026-11-09T00"
+    "callsThisMonth": 81,
+    "inputTokens": 66606,
+    "outputTokens": 16492,
+    "estimatedCostUsd": 0.149066,
+    "lastCallHour": "2026-11-09T07"
   }
 }
