@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-08T21:02:49.149843+00:00",
-  "text": "Marathon Petroleum stock has fallen 18.5% over two weeks, with today's decline continuing a sharp selloff that accelerated after the November 3rd midterm elections. The core driver appears to be political: a Democratic sweep in the midterms has shifted market expectations toward stronger support for renewable energy and away from fossil fuels, creating a headwind for oil refiners. This concern has outweighed the company's own quarterly earnings report released the same day, suggesting investors are pricing in a longer-term structural shift in energy policy rather than reacting to near-term financial results.\n\nThe refining backdrop provides some support\u2014refineries are running near full capacity at 94.5%, and crude oil remains elevated above $99 per barrel\u2014but these operational positives haven't offset the political overhang. The Democratic Congress now in power represents the opposite of the pro-fossil-fuel stance refiners benefited from under the prior administration, making investors anxious about the sector's multi-year outlook despite solid current margins.",
+  "fetchedAt": "2026-11-09T00:29:07.481321+00:00",
+  "text": "Marathon Petroleum has lost nearly 19% over two weeks, with today's modest 1.2% decline continuing a sharp selloff that accelerated after the early November midterm elections. The core issue is geopolitical: recent news shows rising tension between the U.S. and Iran, despite Democratic gains in the midterms that typically favor renewable energy over oil refining. A potential conflict in the Middle East could disrupt global oil supplies and refining margins, which has spooked investors holding refiner stocks.\n\nThe timing matters here. Oil prices have actually stayed elevated (U.S. crude near $100/barrel), so this isn't a simple case of cheap oil hurting refiners. Instead, the political uncertainty\u2014particularly the possibility of Iran conflict despite Democratic control of Congress\u2014appears to be creating doubt about the sector's near-term stability, even though higher oil prices alone might normally support refining companies.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 79,
-    "inputTokens": 66226,
-    "outputTokens": 16131,
-    "estimatedCostUsd": 0.146881,
-    "lastCallHour": "2026-11-08T21"
+    "callsThisMonth": 80,
+    "inputTokens": 67059,
+    "outputTokens": 16325,
+    "estimatedCostUsd": 0.148684,
+    "lastCallHour": "2026-11-09T00"
   }
 }

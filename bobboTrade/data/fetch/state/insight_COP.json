@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-08T21:02:37.032302+00:00",
-  "text": "ConocoPhillips rose slightly today, but the stock has been in a sharp decline over the past two weeks, dropping nearly 10% since late October. The selling pressure reflects a collision of forces: oil prices have weakened (US crude is at $99.64/barrel, down from levels that would have been higher earlier in that period), and the midterm elections delivered a Democratic sweep that signals a political headwind for fossil fuel companies. The renewable energy sector gained favor in the electoral outcome, which typically pressures oil and gas stocks as markets anticipate a less oil-friendly policy environment ahead.\n\nThe timing of ConocoPhillips' earnings release on November 5th coincided with this downward move, suggesting investors may have been disappointed by the report relative to the weaker oil price backdrop. Offsetting some of this concern, geopolitical risks around Iran tensions could theoretically support energy prices if they escalate, but those risks haven't yet been enough to reverse the stock's slide.",
+  "fetchedAt": "2026-11-09T00:28:47.181906+00:00",
+  "text": "ConocoPhillips fell 0.6% today, adding to a brutal two-week loss of 9.6% that has dragged the stock from $154 down to $136. The timing tracks closely with oil prices collapsing: crude hit $99.64 per barrel (U.S.) today, down sharply from where it must have been two weeks ago, and the company released its quarterly earnings report on November 5th right as the stock began its steeper decline. Oil majors like ConocoPhillips live or die on the price of crude, so when oil retreats, their profit outlook weakens immediately.\n\nThe Middle East remains a wild card for oil markets. While Trump's recent comments suggested a reduced risk of fresh Iran strikes if nuclear talks progress, analysts warn that tensions remain genuinely high\u2014any escalation in the Strait of Hormuz or broader conflict could reverse the price weakness. For now, though, the market is pricing in lower oil demand or supply concerns easing, which is headwind for an exploration-and-production company.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 79,
-    "inputTokens": 65044,
-    "outputTokens": 15993,
-    "estimatedCostUsd": 0.145009,
-    "lastCallHour": "2026-11-08T21"
+    "callsThisMonth": 80,
+    "inputTokens": 65825,
+    "outputTokens": 16225,
+    "estimatedCostUsd": 0.14695,
+    "lastCallHour": "2026-11-09T00"
   }
 }
