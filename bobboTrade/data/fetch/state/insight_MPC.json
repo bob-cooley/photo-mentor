@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T07:36:48.372673+00:00",
-  "text": "Marathon Petroleum's stock has fallen 1.2% today and 18.5% over two weeks, with the steepest drops occurring on November 4th and continuing through today. The primary driver appears to be geopolitical risk: news of potential U.S.-Iran escalation and Middle East tensions creates uncertainty about oil supply disruptions, which directly affects refiner margins and profitability. While crude oil prices remain relatively stable (around $100 per barrel domestically), the threat of conflict in a major oil-producing region typically unsettles energy stocks even before prices spike, and refineries running at high capacity (94.5%) leave little room to absorb supply shocks.\n\nThe broader context is that refiners like Marathon profit from the *spread* between the cost of crude oil they buy and the refined products (gasoline, diesel) they sell \u2014 and that spread narrows when geopolitical uncertainty makes future oil supplies unclear or when demand weakens in anticipation of conflict. The Democratic midterm sweep mentioned in early November news also likely weighed on sentiment, as Democratic-controlled energy policy typically favors renewable energy over fossil fuels, which can pressure refiner valuations over the medium term.",
+  "fetchedAt": "2026-11-09T13:01:55.189556+00:00",
+  "text": "Marathon Petroleum has fallen 1.2% today and 18.5% over two weeks as crude oil prices have weakened and refinery margins have compressed. US oil has dropped from the mid-$140s range (implied by the stock's peak price relative to historical correlations) to $99.64 per barrel\u2014a sharp decline that directly cuts into what refiners can earn by processing crude into gasoline and diesel. At the same time, US storage inventories remain elevated (gasoline stocks especially), which signals weak demand and further pressures the price refiners can charge for finished products.\n\nThe near-term headwinds are real, but they may be temporary. Marathon announced a $4.2 billion asset sale and a strategic pivot to focus on Gulf Coast refining with higher-value diesel and export-grade gasoline\u2014assets that should benefit when crude prices stabilize and global demand tightens inventory levels. For now, though, the market is punishing the stock on the immediate margin squeeze, not rewarding the longer-term positioning.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 81,
-    "inputTokens": 67892,
-    "outputTokens": 16581,
-    "estimatedCostUsd": 0.150797,
-    "lastCallHour": "2026-11-09T07"
+    "callsThisMonth": 82,
+    "inputTokens": 68733,
+    "outputTokens": 16805,
+    "estimatedCostUsd": 0.152758,
+    "lastCallHour": "2026-11-09T13"
   }
 }
