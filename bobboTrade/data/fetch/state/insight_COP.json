@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-09T16:00:55.801172+00:00",
-  "text": "ConocoPhillips fell 0.5% today, continuing a sharp two-week decline of over 10% that began right after the company reported earnings on November 5th. The stock has been trending downward since that announcement, suggesting investors reacted negatively to the quarterly results despite the company operating in an environment where US oil is trading at $99.64 per barrel\u2014a reasonably healthy price for an oil major.\n\nThe broader oil market remains stable with global crude near $107 per barrel, but geopolitical risks haven't intensified dramatically in the past few days. The recent comments from the U.S. Secretary of State about stalled Iran negotiations typically wouldn't trigger such a consistent selloff on their own. This suggests the market's focus has been primarily on ConocoPhillips' own financial performance and guidance rather than external energy market factors.",
+  "fetchedAt": "2026-11-09T17:01:02.532883+00:00",
+  "text": "ConocoPhillips fell 0.1% today to close at $136.14, extending a two-week decline of over 10%. The broader sell-off reflects a significant drop in oil prices: U.S. crude has fallen to $99.64 per barrel from levels well above $110 just two weeks ago, directly reducing profit expectations for an oil producer like this one. The stock's weakness accelerated after the company released its quarterly earnings report on November 5th, which appears to have disappointed investors amid that deteriorating price environment.\n\nThe oil price decline itself likely stems from broader economic concern rather than any single event\u2014the geopolitical news about Mideast negotiations and domestic U.S. political gridlock suggests market uncertainty, but oil weakness of this magnitude typically reflects softer demand expectations or recession worries rather than these headline risks alone. For an oil producer, lower crude prices mechanically compress margins and future cash flows, making the stock vulnerable when the commodity it depends on is falling this sharply.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 85,
-    "inputTokens": 69763,
-    "outputTokens": 17305,
-    "estimatedCostUsd": 0.156288,
-    "lastCallHour": "2026-11-09T16"
+    "callsThisMonth": 86,
+    "inputTokens": 70552,
+    "outputTokens": 17522,
+    "estimatedCostUsd": 0.158162,
+    "lastCallHour": "2026-11-09T17"
   }
 }

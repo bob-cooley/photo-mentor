@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T16:01:07.552690+00:00",
-  "text": "Marathon's stock bounced back 4.6% today after plunging nearly 17% over the past two weeks, driven partly by stabilization in oil markets and a modest recovery in refinery operations. The company had cratered in early November following its earnings report on November 3rd, but today's gain reflects a temporary rebound as US crude held above $99 per barrel and refineries maintained high utilization at 94.5%\u2014conditions that support refiner margins and profitability.\n\nThe sharp decline earlier this week appears tied to the earnings miss or disappointing guidance from the November 3rd report, which overshadowed any benefit from stable refining conditions. With geopolitical tensions in the Middle East (Iran negotiations stalled, per today's news) potentially supporting oil prices longer-term, the stock's recovery today suggests some investors see the sell-off as overdone, though the stock remains well below its level from a week ago.",
+  "fetchedAt": "2026-11-09T17:01:27.553129+00:00",
+  "text": "Marathon Petroleum bounced back 4.5% today after hitting a low of $372.74 just three days earlier, recovering some ground from a brutal two-week slide of 17%. The rebound likely reflects stabilization following last week's sharp selloff\u2014the stock had fallen nearly $58 from its early-November high\u2014but also comes as oil prices ticked modestly higher (US crude at $99.64/barrel) and refineries continue running at a healthy 94.5% capacity, supporting margins for processors like Marathon.\n\nThe two-week decline itself looks tied to the company's late-October earnings announcement and likely concerns about policy shifts after the midterm elections. News that a Democratic Congress could favor renewable energy over fossil fuels, combined with earnings that may not have impressed investors, drove the initial retreat. Today's bounce is a technical recovery rather than a fundamental shift\u2014the stock remains well below where it started the month.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 85,
-    "inputTokens": 71255,
-    "outputTokens": 17441,
-    "estimatedCostUsd": 0.15846,
-    "lastCallHour": "2026-11-09T16"
+    "callsThisMonth": 86,
+    "inputTokens": 72095,
+    "outputTokens": 17642,
+    "estimatedCostUsd": 0.160305,
+    "lastCallHour": "2026-11-09T17"
   }
 }
