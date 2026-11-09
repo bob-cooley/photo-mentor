@@ -215,6 +215,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-08T17:27:54.149583+00:00"
+    },
+    {
+      "date": "2026-11-09",
+      "facility": "Kirishinefteorgsintez",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-09-kirishinefteorgsintez-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-09T16:36:58.200585+00:00"
     }
   ],
   "processedUrls": {
@@ -288,17 +304,18 @@
     "https://meduza.io/en/news/2026/11/06/ukraine-attacks-afipsky-oil-refinery-in-southern-russia": "2026-11-06T11:47:55.498842+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/06/8061498/": "2026-11-06T11:47:56.833589+00:00",
     "https://meduza.io/en/feature/2026/11/06/russia-s-economy-is-suffering-under-the-weight-of-war-and-sanctions-so-why-is-the-ruble-still-one-of-the-world-s-strongest-currencies": "2026-11-06T18:51:36.741246+00:00",
-    "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-08T17:27:54.149112+00:00"
+    "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-08T17:27:54.149112+00:00",
+    "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-09T16:36:58.200092+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 12,
-    "inputTokens": 14475,
-    "outputTokens": 1933,
-    "estimatedCostUsd": 0.02414
+    "calls": 13,
+    "inputTokens": 15435,
+    "outputTokens": 2040,
+    "estimatedCostUsd": 0.025635
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-08T20:32:04.224233+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-09T16:36:58.200668+00:00"
 }
