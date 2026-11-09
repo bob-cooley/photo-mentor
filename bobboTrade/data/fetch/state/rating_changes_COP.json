@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-11-09T13:01:03.641155+00:00",
+    "fetchedAt": "2026-11-09T16:05:41.429159+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-11-09",
+        "firm": "Truist Securities",
+        "kind": "maintained",
+        "fromGrade": "Hold",
+        "toGrade": "Hold",
+        "targetAction": "Raises",
+        "targetFrom": 136.0,
+        "targetTo": 142.0
+      },
       {
         "date": "2026-11-06",
         "firm": "Wells Fargo",
