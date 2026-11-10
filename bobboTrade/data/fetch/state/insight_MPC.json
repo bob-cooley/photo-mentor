@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T04:30:36.954902+00:00",
-  "text": "Marathon Petroleum bounced back 4.6% today after a brutal five-day slide that wiped out 13.5% of its value since early November. The stock is recovering as oil prices stabilized \u2014 U.S. crude holding at $99.64 per barrel today \u2014 and refineries remain busy at 94.5% capacity, which supports margins for a company that profits from turning crude into fuel. The broader context matters too: election results this week shifted political risk away from renewable energy policy pushing hard against fossil fuels, which had likely weighed on refiner stocks over the prior few days.\n\nThat said, the two-week chart tells a story of real weakness beneath today's bounce. The sharp selloff from November 2\u20136 likely reflected genuine concerns about Iran negotiations stalling and broader economic uncertainty, not just election-driven sentiment swings. Today's recovery might be relief-buying, but it hasn't restored the stock to where it started the month.",
+  "fetchedAt": "2026-11-10T05:01:34.325768+00:00",
+  "text": "Marathon Petroleum rebounded 4.6% today after a brutal two-week slide that knocked the stock down 17%. The bounce comes on the heels of comments from U.S. Secretary of State Marco Rubio suggesting that Iran negotiations remain stalled and unproductive \u2014 a signal that geopolitical tensions in the Middle East may persist rather than ease. For a refiner, Middle East tensions matter because they create uncertainty around oil supply flows through the Strait of Hormuz, and that uncertainty tends to support crude prices; oil is trading near $100 a barrel today, which helps refinery margins.\n\nThe longer backdrop here is that Marathon has taken a beating since early November, when midterm election results signaled a Democratic-leaning Congress and a potential shift toward renewable energy policies. That result spooked energy investors and specifically refiners, which thrive in a world of stable or high fossil fuel demand. Today's rebound may reflect some stabilization as geopolitical risk reasserts itself as a price-supporting force \u2014 at least in the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 93,
-    "inputTokens": 78152,
-    "outputTokens": 19259,
-    "estimatedCostUsd": 0.174447,
-    "lastCallHour": "2026-11-10T04"
+    "callsThisMonth": 94,
+    "inputTokens": 79051,
+    "outputTokens": 19484,
+    "estimatedCostUsd": 0.176471,
+    "lastCallHour": "2026-11-10T05"
   }
 }
