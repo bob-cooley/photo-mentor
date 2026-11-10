@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T17:02:53.738260+00:00",
-  "text": "Marathon Petroleum's stock has fallen 0.1% today and 10.7% over the past two weeks, coinciding with a sharp collapse in crude oil prices. Brent crude dropped below $90 a barrel on November 10th\u2014the lowest since August\u2014after President Trump signaled that the Iran conflict would end \"fairly soon,\" easing concerns about supply disruptions. For a refiner, lower crude prices are a double-edged sword: while it cuts their input costs, it also squeezes the profit margin they earn by turning oil into gasoline and diesel (the difference between what they buy crude for and what they sell refined products for). The recent steep decline suggests that margin compression has outweighed the benefit of cheaper feedstock.\n\nThe broader headwind is a shift in political momentum away from fossil fuels. Midterm election results showed voters rejected Trump and the GOP, bringing renewable energy advocates back into power and signaling reduced support for fossil fuel interests in Congress. Combined with lingering uncertainty over whether Iran peace talks will actually materialize\u2014Secretary of State Rubio said negotiations remain \"unproductive\"\u2014the market is caught between hope for lower oil prices and worry about long-term demand for refining capacity.",
+  "fetchedAt": "2026-11-10T18:03:09.132655+00:00",
+  "text": "Marathon Petroleum fell nearly 11% over the past two weeks, with most of that damage occurring between November 3rd and 6th. The primary driver has been a sharp drop in oil prices: Brent crude slipped below $90 a barrel on November 10th \u2014 the lowest since August \u2014 after President Trump signaled the Iran conflict could end \"fairly soon,\" easing geopolitical risk. Refiners like Marathon profit when the gap between crude oil costs and refined product prices widens; when oil prices fall this sharply, that margin often compresses, weighing on earnings.\n\nThe stock has stabilized over the past few days even as oil prices continued falling, suggesting the market may be pricing in some adjustment to a lower oil regime. Refineries are running at a healthy 94.5% capacity, and storage levels for gasoline and diesel remain moderate, so there's no supply crunch offsetting the crude price decline \u2014 the headwind is purely from lower input costs squeezing refiner margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 101,
-    "inputTokens": 85457,
-    "outputTokens": 21173,
-    "estimatedCostUsd": 0.191322,
-    "lastCallHour": "2026-11-10T17"
+    "callsThisMonth": 102,
+    "inputTokens": 86383,
+    "outputTokens": 21390,
+    "estimatedCostUsd": 0.193333,
+    "lastCallHour": "2026-11-10T18"
   }
 }
