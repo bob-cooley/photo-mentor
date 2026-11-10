@@ -62,8 +62,9 @@ ul.pagination li:hover a{
 
 /* Header nav (2026-11-09): typewriter style from Bob's old prototype. Courier New Regular 22px,
    font's own spacing, #CCCCCC text, current page #00BCAC, hover/focus a darker #00968A.
-   Teal now marks the current page, so the theme's hover/active underline is turned off. */
-header nav > ul > li > .nav-item-title{
+   Teal now marks the current page, so the theme's hover/active underline is turned off.
+   ul.primary in every selector outranks the theme's li.active:not(:hover) rule (mode-dark.css). */
+header nav > ul.primary > li > .nav-item-title{
   font-family:"Courier New", Courier, monospace;
   font-weight:400;
   font-size:22px;
@@ -71,18 +72,19 @@ header nav > ul > li > .nav-item-title{
   color:#CCCCCC;
   border-bottom-color:transparent;
 }
-header nav > ul > li:hover > .nav-item-title{
+header nav > ul.primary > li:hover > .nav-item-title{
   color:#CCCCCC;
   border-bottom-color:transparent;
 }
-header nav > ul > li.active > .nav-item-title,
-header nav > ul > li.active:hover > .nav-item-title{
+header nav > ul.primary > li.active > .nav-item-title,
+header nav > ul.primary > li.active:not(:hover) > .nav-item-title,
+header nav > ul.primary > li.active:hover > .nav-item-title{
   color:#00BCAC;
   border-bottom-color:transparent;
 }
-header nav > ul > li > .nav-item-title:hover,
-header nav > ul > li > .nav-item-title:focus-visible,
-header nav > ul > li:hover > .nav-item-title:hover{
+header nav > ul.primary > li > .nav-item-title:hover,
+header nav > ul.primary > li > .nav-item-title:focus-visible,
+header nav > ul.primary > li:hover > .nav-item-title:hover{
   color:#00968A;
 }
 
