@@ -96,9 +96,32 @@
     });
   }
 
+  /* ===================================================================
+     Header nav: "galleries" dropdown note. Desktop shows it on hover or
+     keyboard focus; the phone menu shows it under the item (CSS handles
+     both). Links match the ones in the homepage body text.
+     =================================================================== */
+  function initGalleriesNote() {
+    var links = document.querySelectorAll("header nav > ul > li > .nav-item-title");
+    Array.prototype.forEach.call(links, function (link) {
+      if (link.textContent.trim().toLowerCase() !== "galleries") return;
+      var li = link.parentNode;
+      if (li.querySelector(".nav-galleries-note")) return;
+      var note = document.createElement("div");
+      note.className = "nav-galleries-note";
+      note.innerHTML =
+        "Galleries coming soon!!&nbsp; In the meantime, I invite you to see my daily photo posts on " +
+        '<a href="https://www.instagram.com/bobcooley/" target="_blank" rel="noopener">Instagram</a> and ' +
+        '<a href="https://www.threads.com/@bobcooley" target="_blank" rel="noopener">Threads</a>.';
+      li.classList.add("has-galleries-note");
+      li.appendChild(note);
+    });
+  }
+
   function init() {
     init404Flicker();
     initNavAmpersand();
+    initGalleriesNote();
   }
 
   if (document.readyState === "loading") {
