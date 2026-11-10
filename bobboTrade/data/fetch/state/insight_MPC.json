@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T16:02:01.179540+00:00",
-  "text": "Marathon Petroleum's stock fell 1% today and has slumped 11.5% over two weeks, driven primarily by a sharp collapse in oil prices. Brent crude (the global benchmark) dipped below $90 per barrel on November 10th\u2014the lowest level since August\u2014after President Trump signaled that the Iran conflict could end \"fairly soon.\" For a refiner like Marathon, lower crude prices cut into profits on two fronts: the company earns less on the refined products it sells (gasoline, diesel), and it also loses the benefit of buying cheaper feedstock to process, since refinery margins depend heavily on the spread between crude input costs and output prices.\n\nThe broader headwind is geopolitical de-escalation in the Middle East. Oil prices had been elevated by war risk; as that risk recedes, crude falls. At the same time, the midterm elections showed strong voter support for renewable energy over fossil fuels, which adds longer-term pressure on energy demand expectations. Refineries are running at 94.5% capacity\u2014a healthy level\u2014but that utilization gains the company little if the price gap it operates on keeps shrinking.",
+  "fetchedAt": "2026-11-10T17:02:53.738260+00:00",
+  "text": "Marathon Petroleum's stock has fallen 0.1% today and 10.7% over the past two weeks, coinciding with a sharp collapse in crude oil prices. Brent crude dropped below $90 a barrel on November 10th\u2014the lowest since August\u2014after President Trump signaled that the Iran conflict would end \"fairly soon,\" easing concerns about supply disruptions. For a refiner, lower crude prices are a double-edged sword: while it cuts their input costs, it also squeezes the profit margin they earn by turning oil into gasoline and diesel (the difference between what they buy crude for and what they sell refined products for). The recent steep decline suggests that margin compression has outweighed the benefit of cheaper feedstock.\n\nThe broader headwind is a shift in political momentum away from fossil fuels. Midterm election results showed voters rejected Trump and the GOP, bringing renewable energy advocates back into power and signaling reduced support for fossil fuel interests in Congress. Combined with lingering uncertainty over whether Iran peace talks will actually materialize\u2014Secretary of State Rubio said negotiations remain \"unproductive\"\u2014the market is caught between hope for lower oil prices and worry about long-term demand for refining capacity.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 100,
-    "inputTokens": 84531,
-    "outputTokens": 20911,
-    "estimatedCostUsd": 0.189086,
-    "lastCallHour": "2026-11-10T16"
+    "callsThisMonth": 101,
+    "inputTokens": 85457,
+    "outputTokens": 21173,
+    "estimatedCostUsd": 0.191322,
+    "lastCallHour": "2026-11-10T17"
   }
 }
