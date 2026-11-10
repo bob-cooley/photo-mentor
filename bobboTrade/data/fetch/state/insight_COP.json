@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-10T06:00:16.180378+00:00",
-  "text": "ConocoPhillips fell 1.3% today, extending a sharp two-week decline of 11%. The drop follows the company's quarterly earnings announcement on November 5th and coincides with a significant shift in political risk: midterm elections delivered what was widely described as a \"blue wave rebuke\" of Trump and the GOP, which raises the prospect of stronger renewable energy policies and potentially tighter environmental regulation on oil producers going forward.\n\nThe immediate pressure also reflects softer crude fundamentals \u2014 US oil prices have drifted down to roughly $99.60 per barrel, creating a headwind for refining margins and cash flow at a major producer. While geopolitical tensions with Iran remain unresolved (and could theoretically tighten supply later), the near-term narrative is dominated by political uncertainty around energy policy and a modest retreat in oil prices from earlier peaks.",
+  "fetchedAt": "2026-11-10T09:10:44.205862+00:00",
+  "text": "ConocoPhillips fell 1.3% today to $134.47, continuing a sharp two-week decline of 11%. The biggest driver appears to be a sharp drop in oil prices: US crude has fallen to $99.64 per barrel while global oil sits at $107.03, both meaningful declines from earlier in the period. Oil companies' profits move directly with the price of crude, so a fall of this magnitude hits their earnings outlook and stock valuations.\n\nThe decline also reflects shifting energy politics. Trump's comments on Iran tensions easing \"fairly soon\" reduce geopolitical risk premiums that had been supporting oil prices, while midterm election results show voter appetite for renewable energy growing\u2014both headwinds for traditional oil producers looking ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 95,
-    "inputTokens": 77620,
-    "outputTokens": 19297,
-    "estimatedCostUsd": 0.174105,
-    "lastCallHour": "2026-11-10T06"
+    "callsThisMonth": 96,
+    "inputTokens": 78407,
+    "outputTokens": 19461,
+    "estimatedCostUsd": 0.175712,
+    "lastCallHour": "2026-11-10T09"
   }
 }
