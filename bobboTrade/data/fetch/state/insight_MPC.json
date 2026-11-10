@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T15:02:58.700623+00:00",
-  "text": "Marathon Petroleum's stock fell 0.8% today, extending a steep two-week decline of 11%, as crude oil prices dropped sharply on reports that Iran and the U.S. conflict may be de-escalating. Brent crude fell below $90 a barrel\u2014the lowest since August\u2014after President Trump suggested the conflict would end \"fairly soon,\" reducing the geopolitical risk premium that had been supporting energy prices. For a refiner, lower crude prices are a mixed bag: while cheaper oil sounds good, it compresses profit margins because refined products (gasoline, diesel) fall in lockstep, and the company loses the benefit of selling expensive fuel into a tight market.\n\nThe broader backdrop matters here too. Even as crude tumbled, refineries are running at 94.5% capacity and crude inventories remain elevated at nearly 692 million barrels, signaling ample supply and weak demand relative to production. A political shift favoring renewables after recent elections also clouds the longer-term outlook for traditional refining demand, adding to near-term pricing pressure on the stock.",
+  "fetchedAt": "2026-11-10T16:02:01.179540+00:00",
+  "text": "Marathon Petroleum's stock fell 1% today and has slumped 11.5% over two weeks, driven primarily by a sharp collapse in oil prices. Brent crude (the global benchmark) dipped below $90 per barrel on November 10th\u2014the lowest level since August\u2014after President Trump signaled that the Iran conflict could end \"fairly soon.\" For a refiner like Marathon, lower crude prices cut into profits on two fronts: the company earns less on the refined products it sells (gasoline, diesel), and it also loses the benefit of buying cheaper feedstock to process, since refinery margins depend heavily on the spread between crude input costs and output prices.\n\nThe broader headwind is geopolitical de-escalation in the Middle East. Oil prices had been elevated by war risk; as that risk recedes, crude falls. At the same time, the midterm elections showed strong voter support for renewable energy over fossil fuels, which adds longer-term pressure on energy demand expectations. Refineries are running at 94.5% capacity\u2014a healthy level\u2014but that utilization gains the company little if the price gap it operates on keeps shrinking.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 99,
-    "inputTokens": 83606,
-    "outputTokens": 20660,
-    "estimatedCostUsd": 0.186906,
-    "lastCallHour": "2026-11-10T15"
+    "callsThisMonth": 100,
+    "inputTokens": 84531,
+    "outputTokens": 20911,
+    "estimatedCostUsd": 0.189086,
+    "lastCallHour": "2026-11-10T16"
   }
 }

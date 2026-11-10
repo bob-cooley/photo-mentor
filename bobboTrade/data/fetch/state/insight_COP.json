@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-10T15:02:41.330856+00:00",
-  "text": "ConocoPhillips rose slightly today, but the stock has fallen sharply over the past two weeks\u2014down 8.65% since early November\u2014as oil prices have collapsed. Brent crude dropped below $90 a barrel yesterday for the first time since August on hopes that the Iran conflict is de-escalating, with President Trump signaling the war could end soon. For an oil producer like ConocoPhillips, lower crude prices directly squeeze profit margins, which is why the stock has been under pressure despite today's modest bounce.\n\nThe broader headwind is geopolitical: earlier in the period, Iran tensions had supported higher oil prices, but a shift toward peace talk has reversed that support. US oil is now trading at $99.64 per barrel versus $107 globally, indicating weakness in the domestic market. Until crude prices stabilize or geopolitical risk rises again, large integrated oil producers face continued downside.",
+  "fetchedAt": "2026-11-10T16:01:44.906509+00:00",
+  "text": "ConocoPhillips fell 0.5% today to close at $133.76, extending a two-week decline of 9.6%. The immediate trigger is a sharp drop in global oil prices: Brent crude dipped below $90 a barrel on Monday for the first time since August, driven by comments from President Trump suggesting the Iran conflict could end soon and Tehran's military capacity is degraded. Since oil refiners and producers earn more when crude prices are higher, the prospect of de-escalation and lower energy prices weighs directly on the company's profitability outlook.\n\nThe stock has been sliding since early November, when the company reported quarterly earnings on November 5th. The combination of weaker crude prices and whatever signals came from those results has pushed the stock down steadily over the past week, even as US oil (at $99.64 a barrel today) holds somewhat firmer than global Brent crude.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 99,
-    "inputTokens": 80790,
-    "outputTokens": 20045,
-    "estimatedCostUsd": 0.181015,
-    "lastCallHour": "2026-11-10T15"
+    "callsThisMonth": 100,
+    "inputTokens": 81586,
+    "outputTokens": 20247,
+    "estimatedCostUsd": 0.182821,
+    "lastCallHour": "2026-11-10T16"
   }
 }
