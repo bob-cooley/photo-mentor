@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T03:20:58.270242+00:00",
-  "text": "Marathon Petroleum rallied 4.6% today, recouping some of the steep losses from the past week, as oil prices stabilized and refinery operations remained strong at 94.5% capacity. The stock had fallen nearly 17% since early November amid broader concerns about Democratic control of Congress following the midterm elections and potential shifts toward renewable energy policy\u2014headwinds for traditional refiners. Today's bounce reflects the market digesting that the immediate geopolitical risk (Iran negotiations, Strait of Hormuz concerns) remains unresolved but not escalating, which supports crude prices and refining margins.\n\nThe underlying dynamic is that a refiner like Marathon lives on the spread between crude oil costs and refined product prices. With U.S. crude at $99.64 per barrel and global crude at $107, refineries humming, and storage levels moderate, the near-term refining environment remains functional\u2014enough to stabilize sentiment after the political-driven selloff earlier in the week.",
+  "fetchedAt": "2026-11-10T04:32:56.389705+00:00",
+  "text": "Marathon Petroleum rose 4.6% today, bouncing back after a brutal five-day slide that erased 13% of the stock's value. The recovery came as oil prices steadied and refineries continued running at a healthy 94.5% capacity, suggesting demand for refined products remains solid. The stock had been hammered earlier in the week, likely from political uncertainty around the midterm elections and concerns about energy policy shifts, but today's move reflects some stabilization in the underlying energy market.\n\nThe broader context here is geopolitical: recent news about Iran negotiations and potential U.S. military action creates real uncertainty about Middle Eastern oil supply. While Secretary of State Rubio signaled talks remain stalled, Trump has suggested strikes are \"highly unlikely\" if negotiations progress\u2014leaving the oil market in a holding pattern rather than pricing in an immediate supply shock. That ambiguity may have contributed to the earlier selloff, and today's modest rebound suggests investors are taking a wait-and-see stance rather than fleeing energy stocks outright.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 7,
-    "inputTokens": 5705,
-    "outputTokens": 1483,
-    "estimatedCostUsd": 0.01312,
-    "lastCallHour": "2026-11-10T03"
+    "callsThisMonth": 8,
+    "inputTokens": 6604,
+    "outputTokens": 1706,
+    "estimatedCostUsd": 0.015134,
+    "lastCallHour": "2026-11-10T04"
   }
 }
