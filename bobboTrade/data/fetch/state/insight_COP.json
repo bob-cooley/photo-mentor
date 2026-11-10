@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-09T21:01:03.553106+00:00",
-  "text": "ConocoPhillips fell 1.3% today, extending a sharp two-week decline of 11%. The primary driver appears to be the broader collapse in oil prices: US crude has dropped from around $146 per barrel two weeks ago to $99.64 today, a roughly 32% plunge. Refiners and oil producers like ConocoPhillips are directly exposed to the price their product commands\u2014lower crude means lower revenue and margins, even if their operations haven't changed.\n\nThe company reported third-quarter earnings on November 5th, which may have set expectations for the market right as oil prices began their steeper descent. Geopolitical tension around Iran (noted in today's news) typically supports oil prices by creating supply uncertainty, but the fact that diplomatic hopes appear dim suggests the market isn't pricing in a near-term disruption\u2014leaving crude vulnerable to other downward pressures.",
+  "fetchedAt": "2026-11-10T01:51:57.262160+00:00",
+  "text": "ConocoPhillips fell 1.3% today, extending a sharp two-week decline of 11%. The immediate trigger appears tied to shifting political risk and energy policy: yesterday's midterm election results bolstered renewable energy support and weakened the pro-fossil-fuel political environment, while today's comments from the Secretary of State suggest limited progress on Iran negotiations\u2014a geopolitical factor that typically supports oil prices and energy stocks when tensions ease. With oil still around $100 a barrel, the stock's weakness reflects investor concern about the company's longer-term positioning rather than an immediate commodity collapse.\n\nThe broader context is the recent earnings report (released Nov. 5) combined with the changing political headwinds. An election outcome favoring renewable energy investment and climate-related policies can pressure big oil companies' valuations even when crude prices remain relatively stable, since it signals slower long-term demand growth and stricter regulations ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 90,
-    "inputTokens": 73705,
-    "outputTokens": 18306,
-    "estimatedCostUsd": 0.165235,
-    "lastCallHour": "2026-11-09T21"
+    "callsThisMonth": 91,
+    "inputTokens": 74488,
+    "outputTokens": 18505,
+    "estimatedCostUsd": 0.167013,
+    "lastCallHour": "2026-11-10T01"
   }
 }

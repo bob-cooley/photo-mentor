@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-09T21:01:38.829458+00:00",
-  "text": "MPC bounced back 4.6% today after hitting a five-day low on November 6th, when the stock lost nearly 18% from its peak. The recovery came as oil prices stabilized\u2014U.S. crude held steady around $99.64 a barrel\u2014and refinery utilization remained solid at 94.5%, suggesting steady demand for refined products. The timing of this rebound coincides with news that U.S.-Iran diplomatic talks remain stalled, which historically supports oil prices by reducing near-term supply concerns.\n\nThe stock's broader two-week decline reflects the market's reaction to the earnings report and quarterly results released November 3rd, combined with uncertainty around the political transition and what energy policy might look like under a new administration. Refiners like Marathon are sensitive to shifts in regulation and fuel demand expectations, so the shift in congressional control and early signals about energy priorities likely weighed on the stock through the week\u2014though today's rebound suggests some stabilization as oil prices found a floor.",
+  "fetchedAt": "2026-11-10T01:52:14.554042+00:00",
+  "text": "MPC bounced back 4.6% today after dropping sharply over the previous four trading days, though it remains down 17% from early November. The rebound came as oil prices stabilized\u2014U.S. crude held at $99.64 per barrel while refineries continued operating near full capacity at 94.5%\u2014suggesting the worst of the recent selloff may have passed. The stock's sharp decline from November 2nd through November 6th appears tied to political headwinds: the midterm elections delivered a significant setback for fossil fuel interests, with Democratic gains threatening to shift energy policy toward renewables and away from traditional refining investments.\n\nGeopolitical risk around Iran and Middle East oil supplies also created volatility during that slide, though recent comments from Trump and Secretary of State Rubio suggest negotiations may continue rather than escalate into new strikes that could disrupt global oil flows. With refineries already running near maximum capacity and storage levels stable, the stock's recovery today reflects that near-term supply fears have eased even as longer-term political headwinds from the election remain in place.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 90,
-    "inputTokens": 75455,
-    "outputTokens": 18543,
-    "estimatedCostUsd": 0.16817,
-    "lastCallHour": "2026-11-09T21"
+    "callsThisMonth": 91,
+    "inputTokens": 76354,
+    "outputTokens": 18782,
+    "estimatedCostUsd": 0.170264,
+    "lastCallHour": "2026-11-10T01"
   }
 }
