@@ -58,6 +58,15 @@ ul.pagination li:hover a{
    p.footer-tagline), social icons right. Was centered icons before. */
 footer{flex-wrap:wrap;align-items:center;}
 footer nav:has(ul.socialmedia){margin-left:auto;}
+/* Theme gives footer children flex:0 1 100%; on desktop size them to content so both share a row.
+   On phones the tagline keeps its own row and the icons sit right-aligned beneath it. */
+@media (min-width:1000px){
+  footer .footer-tagline,
+  footer nav:has(ul.socialmedia){flex:0 1 auto;}
+}
+@media (max-width:999px){
+  footer nav:has(ul.socialmedia){flex:0 1 auto;}
+}
 footer .footer-tagline{
   margin:0;
   font-family:"Courier New", Courier, monospace;
