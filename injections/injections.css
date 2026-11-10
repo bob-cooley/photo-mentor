@@ -81,13 +81,22 @@ footer .footer-tagline{
   color:#FFFFFF;
 }
 
-/* Copyright lines (pasted into IO200 as <div align="center"> after #container): tagline font, lightest weight, dark grey */
-body > div[align="center"]{
+/* Copyright lines (pasted into IO200 as <div align="..."> after #container): tagline font,
+   lightest weight, dark grey. They sit outside #container, so they get the same box
+   (1300px max, 48px/16px side padding) to keep left/right alignment on the content grid. */
+body > div[align]{
+  box-sizing:border-box;
+  max-width:1300px;
+  margin-inline:auto;
+  padding-inline:48px;
   font-family:"Courier New", Courier, monospace;
   font-weight:400;  /* Courier New's lightest weight (it only ships regular and bold) */
   font-size:14px;
   letter-spacing:-0.04em;
   color:#666666;
+}
+@media (max-width:999px){
+  body > div[align]{padding-inline:16px;}
 }
 
 /* Grey pinstripes above and below the homepage photo rotator, full content width */
