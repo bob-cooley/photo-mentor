@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T14:02:20.776198+00:00",
-  "text": "Marathon Petroleum's stock jumped 4.6% today after dropping nearly 17% over the past two weeks, driven by a bounce-back from oversold levels following crude oil's sharp decline. Brent crude fell below $90 a barrel on Monday amid optimism about Iran de-escalation, which had hammered refiner stocks\u2014lower oil prices compress the profit margin (the difference between what refiners pay for crude and what they sell refined products for). Today's rally appears to be a technical recovery rather than a fundamental shift, as crude remains well below the $107+ levels that were supporting the stock earlier in the month.\n\nThe broader headwind for refiners remains real: even with refineries running at a healthy 94.5%, lower global oil prices and de-escalation hopes in the Middle East remove the geopolitical risk premium that had supported energy stocks. Meanwhile, political momentum is shifting toward renewable energy investments following the election outcomes, which could add long-term pressure on traditional refining demand.",
+  "fetchedAt": "2026-11-10T15:02:58.700623+00:00",
+  "text": "Marathon Petroleum's stock fell 0.8% today, extending a steep two-week decline of 11%, as crude oil prices dropped sharply on reports that Iran and the U.S. conflict may be de-escalating. Brent crude fell below $90 a barrel\u2014the lowest since August\u2014after President Trump suggested the conflict would end \"fairly soon,\" reducing the geopolitical risk premium that had been supporting energy prices. For a refiner, lower crude prices are a mixed bag: while cheaper oil sounds good, it compresses profit margins because refined products (gasoline, diesel) fall in lockstep, and the company loses the benefit of selling expensive fuel into a tight market.\n\nThe broader backdrop matters here too. Even as crude tumbled, refineries are running at 94.5% capacity and crude inventories remain elevated at nearly 692 million barrels, signaling ample supply and weak demand relative to production. A political shift favoring renewables after recent elections also clouds the longer-term outlook for traditional refining demand, adding to near-term pricing pressure on the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 98,
-    "inputTokens": 82681,
-    "outputTokens": 20425,
-    "estimatedCostUsd": 0.184806,
-    "lastCallHour": "2026-11-10T14"
+    "callsThisMonth": 99,
+    "inputTokens": 83606,
+    "outputTokens": 20660,
+    "estimatedCostUsd": 0.186906,
+    "lastCallHour": "2026-11-10T15"
   }
 }
