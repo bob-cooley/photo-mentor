@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T01:52:14.554042+00:00",
-  "text": "MPC bounced back 4.6% today after dropping sharply over the previous four trading days, though it remains down 17% from early November. The rebound came as oil prices stabilized\u2014U.S. crude held at $99.64 per barrel while refineries continued operating near full capacity at 94.5%\u2014suggesting the worst of the recent selloff may have passed. The stock's sharp decline from November 2nd through November 6th appears tied to political headwinds: the midterm elections delivered a significant setback for fossil fuel interests, with Democratic gains threatening to shift energy policy toward renewables and away from traditional refining investments.\n\nGeopolitical risk around Iran and Middle East oil supplies also created volatility during that slide, though recent comments from Trump and Secretary of State Rubio suggest negotiations may continue rather than escalate into new strikes that could disrupt global oil flows. With refineries already running near maximum capacity and storage levels stable, the stock's recovery today reflects that near-term supply fears have eased even as longer-term political headwinds from the election remain in place.",
+  "fetchedAt": "2026-11-10T03:18:49.744270+00:00",
+  "text": "Marathon Petroleum bounced back 4.6% today after a brutal nine-day slide that wiped 17% off the stock, rebounding from $372.74 to $389.88. The timing aligns with news that the midterm elections produced a \"blue wave\" rejection of Trump and the GOP\u2014a shift that markets read as reducing the risk of aggressive military action against Iran. Since a significant chunk of global crude flows through the Strait of Hormuz (which Iran can disrupt), any de-escalation in U.S.-Iran tensions eases supply fears that have been hammering refiners like Marathon, even though refineries are currently running at a healthy 94.5% utilization.\n\nThe rebound also comes as oil prices stabilized: U.S. crude had been under pressure, trading at $99.64 today versus the broader geopolitical risk that characterized the prior week. Refiners' margins depend heavily on the spread between crude costs and finished fuel prices\u2014when geopolitical risk spikes crude up without a matching jump in gasoline or diesel demand, refiner profits compress. A political outcome that reduces strike risk gives refiners breathing room, even if it simultaneously means less tailwind from renewable energy support in Congress going forward.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 91,
-    "inputTokens": 76354,
-    "outputTokens": 18782,
-    "estimatedCostUsd": 0.170264,
-    "lastCallHour": "2026-11-10T01"
+    "callsThisMonth": 92,
+    "inputTokens": 77253,
+    "outputTokens": 19051,
+    "estimatedCostUsd": 0.172508,
+    "lastCallHour": "2026-11-10T03"
   }
 }
