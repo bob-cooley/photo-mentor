@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T13:04:00.215759+00:00",
-  "text": "Marathon Petroleum bounced back 4.6% today after hitting a low of $372.74 on November 6th, but the stock is still down 17% over two weeks. The recovery came as Brent crude oil fell below $90 a barrel for the first time since August, driven by hopes that the Iran conflict could de-escalate soon \u2014 President Trump signaled the war is \"going to be ending fairly soon.\" For a refiner like Marathon, lower crude prices can initially look positive, but the underlying driver here\u2014geopolitical de-escalation reducing oil prices\u2014is a mixed signal: cheaper oil means lower input costs, but it also means less upside from the oil price premium that has been supporting energy stocks.\n\nThe broader two-week selloff reflects a real shift in the market's energy outlook. The midterm elections handed Democrats gains and dealt a blow to Republican energy policies, raising investor concern about stricter environmental regulation ahead. Combined with the possibility of lower crude prices if Iran tensions truly ease, refiners are facing a scenario where the tailwinds from high oil prices and geopolitical risk premiums fade just as political headwinds around fossil fuels strengthen.",
+  "fetchedAt": "2026-11-10T14:02:20.776198+00:00",
+  "text": "Marathon Petroleum's stock jumped 4.6% today after dropping nearly 17% over the past two weeks, driven by a bounce-back from oversold levels following crude oil's sharp decline. Brent crude fell below $90 a barrel on Monday amid optimism about Iran de-escalation, which had hammered refiner stocks\u2014lower oil prices compress the profit margin (the difference between what refiners pay for crude and what they sell refined products for). Today's rally appears to be a technical recovery rather than a fundamental shift, as crude remains well below the $107+ levels that were supporting the stock earlier in the month.\n\nThe broader headwind for refiners remains real: even with refineries running at a healthy 94.5%, lower global oil prices and de-escalation hopes in the Middle East remove the geopolitical risk premium that had supported energy stocks. Meanwhile, political momentum is shifting toward renewable energy investments following the election outcomes, which could add long-term pressure on traditional refining demand.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 97,
-    "inputTokens": 81756,
-    "outputTokens": 20211,
-    "estimatedCostUsd": 0.182811,
-    "lastCallHour": "2026-11-10T13"
+    "callsThisMonth": 98,
+    "inputTokens": 82681,
+    "outputTokens": 20425,
+    "estimatedCostUsd": 0.184806,
+    "lastCallHour": "2026-11-10T14"
   }
 }
