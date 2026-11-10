@@ -68,7 +68,7 @@ footer nav:has(ul.socialmedia){margin-left:auto;}
 }
 @media (max-width:999px){
   footer nav:has(ul.socialmedia){flex:0 1 auto;}
-  footer p.footer-tagline{font-size:16px;text-align:left;}  /* fits one line at 375px; p. outranks the 20px base rule below */
+  footer p.footer-tagline{font-size:15px;text-align:left;}  /* fits one line at 375px with the 0.02em spacing; p. outranks the 20px base rule below */
 }
 footer .footer-tagline{
   margin:0;
