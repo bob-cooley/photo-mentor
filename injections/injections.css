@@ -74,11 +74,11 @@ footer .footer-tagline{
   font-size:20px;
   font-weight:700;
   letter-spacing:-0.04em;
-  color:#666666;
+  color:#FFFFFF;
 }
 
-/* Copyright line (pasted into IO200 as <div align="center"> after #container): smaller */
-body > div[align="center"]{font-size:14px;}
+/* Copyright lines (pasted into IO200 as <div align="center"> after #container): smaller, dark grey */
+body > div[align="center"]{font-size:14px;color:#666666;}
 
 /* Grey pinstripes above and below the homepage photo rotator, full content width */
 main:has(> ul.gallery.layout-slideshow){
