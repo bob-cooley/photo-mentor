@@ -110,7 +110,8 @@
       var note = document.createElement("div");
       note.className = "nav-galleries-note";
       note.innerHTML =
-        "Galleries coming soon!!&nbsp; In the meantime, I invite you to see my daily photo posts on " +
+        '<span class="nav-galleries-lead">Galleries coming soon!!</span>' +
+        "In the meantime, I invite you to see my daily photo posts on " +
         '<a href="https://www.instagram.com/bobcooley/" target="_blank" rel="noopener">Instagram</a>, ' +
         '<a href="https://www.threads.com/@bobcooley" target="_blank" rel="noopener">Threads</a> or ' +
         '<a href="https://the.fotoapp.co/bobcooley" target="_blank" rel="noopener">Foto</a>.';

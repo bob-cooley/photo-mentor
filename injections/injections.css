@@ -147,16 +147,24 @@ header nav > ul.primary > li:hover > .nav-item-title:hover{
   color:#00968A;
 }
 
-/* "galleries" dropdown note (2026-11-10), built by injections.js. Desktop: panel under the
-   item on hover or keyboard focus, right edge aligned to the item. Phone: always shown under
-   the item inside the open hamburger menu. */
+/* "galleries" dropdown note (2026-11-10), built by injections.js. Desktop: "pinstripe" panel
+   under the item on hover or keyboard focus, 2px #333 lines top and bottom like the rotator
+   frame, right edge aligned to the item. Phone: shown under the item in the open menu. */
 header nav .nav-galleries-note{
   font-family:"Courier New", Courier, monospace;
-  font-size:15px;
-  line-height:1.5;
+  font-size:14px;
+  line-height:1.4;
   letter-spacing:normal;
   text-transform:none;
-  color:#CCCCCC;
+  color:#AAAAAA;
+}
+header nav .nav-galleries-lead{
+  display:block;
+  margin-bottom:6px;
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:0.02em;  /* same optical spacing as the bold footer tagline */
+  color:#FFFFFF;
 }
 header nav .nav-galleries-note a{color:#00BCAC;text-decoration:underline;}
 header nav .nav-galleries-note a:hover,
@@ -169,17 +177,29 @@ header nav .nav-galleries-note a:focus-visible{color:#00968A;}
     top:100%;
     right:0;
     z-index:20;
-    width:300px;
-    padding:12px 16px;
-    background:#121212;
-    border:1px solid #333;
+    width:330px;
+    margin-top:10px;
+    padding:18px 22px;
+    background:#151515;
+    border-top:2px solid #333333;
+    border-bottom:2px solid #333333;
+    box-shadow:0 12px 32px rgba(0,0,0,0.65);
     text-align:left;
+  }
+  /* invisible bridge over the 10px gap so the panel stays open while the pointer moves down */
+  header nav .nav-galleries-note::before{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    top:-12px;
+    height:12px;
   }
   header nav > ul > li.has-galleries-note:hover > .nav-galleries-note,
   header nav > ul > li.has-galleries-note:focus-within > .nav-galleries-note{display:block;}
 }
 @media (max-width:999px){
-  header nav .nav-galleries-note{padding:0 1.5rem 0.6rem;text-align:center;}
+  header nav .nav-galleries-note{padding:0 1.5rem 0.6rem;font-size:15px;text-align:center;}
 }
 
 /* Pipe separators between top-level items, desktop only (phone nav is a stacked hamburger list).
