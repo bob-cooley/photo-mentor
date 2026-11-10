@@ -8,6 +8,8 @@
     gap:0.75rem;
   }
   header .title-container{align-self:flex-start;}
+  /* Staggered logo/nav kept, but nav pulled up 12px (2026-11-10) */
+  header nav{margin-top:-12px;}
 }
 
 /* Site max-width: 1300px instead of theme default 1400px */
@@ -77,8 +79,14 @@ footer .footer-tagline{
   color:#FFFFFF;
 }
 
-/* Copyright lines (pasted into IO200 as <div align="center"> after #container): smaller, dark grey */
-body > div[align="center"]{font-size:14px;color:#666666;}
+/* Copyright lines (pasted into IO200 as <div align="center"> after #container): tagline font, lightest weight, dark grey */
+body > div[align="center"]{
+  font-family:"Courier New", Courier, monospace;
+  font-weight:400;  /* Courier New's lightest weight (it only ships regular and bold) */
+  font-size:14px;
+  letter-spacing:-0.04em;
+  color:#666666;
+}
 
 /* Grey pinstripes above and below the homepage photo rotator, full content width */
 main:has(> ul.gallery.layout-slideshow){
@@ -90,6 +98,8 @@ main:has(> ul.gallery.layout-slideshow){
 @media (min-width:1000px){
   main:has(> ul.gallery.layout-slideshow){margin-top:16px;}
 }
+/* Bottom pinstripe to footer: 16px like the other gaps (global main margin-bottom is 20px) */
+main:has(> ul.gallery.layout-slideshow){margin-bottom:16px;}
 
 /* Header nav (2026-11-09): typewriter style from Bob's old prototype. Courier New Regular 22px,
    letters tightened -0.04em, #CCCCCC text, current page #00BCAC, hover/focus a darker #00968A.
