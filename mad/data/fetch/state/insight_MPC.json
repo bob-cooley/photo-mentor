@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-04T14:10:49.109494+00:00",
-  "text": "Marathon Petroleum fell 0.71% today to $427.34, extending a broader two-week decline of over 10%. The immediate trigger appears to be a leadership change announced on October 29th alongside a company update, combined with the stock's sharp volatility over the past week\u2014it swung from $444.73 just four trading days ago down to today's level. The underlying market context isn't helping: a CNBC report from today noted that while Big Oil earnings are set to surge, investor caution is warranted, particularly around forward guidance rather than just current profits.\n\nThe refining backdrop is mixed. Refineries are running at a healthy 92.8% capacity utilization, but crude oil storage is relatively high at 693 million barrels, and the spread between US oil ($103/barrel) and world oil prices ($123/barrel) is wide\u2014a headwind for US refiners who profit more when they can buy cheap domestic crude and sell globally. The political environment is also shifting: news about the midterms flagged potential support for offshore wind and solar, which could eventually pressure traditional energy demand, though this is a longer-term consideration than today's move.",
+  "fetchedAt": "2026-11-10T03:20:58.270242+00:00",
+  "text": "Marathon Petroleum rallied 4.6% today, recouping some of the steep losses from the past week, as oil prices stabilized and refinery operations remained strong at 94.5% capacity. The stock had fallen nearly 17% since early November amid broader concerns about Democratic control of Congress following the midterm elections and potential shifts toward renewable energy policy\u2014headwinds for traditional refiners. Today's bounce reflects the market digesting that the immediate geopolitical risk (Iran negotiations, Strait of Hormuz concerns) remains unresolved but not escalating, which supports crude prices and refining margins.\n\nThe underlying dynamic is that a refiner like Marathon lives on the spread between crude oil costs and refined product prices. With U.S. crude at $99.64 per barrel and global crude at $107, refineries humming, and storage levels moderate, the near-term refining environment remains functional\u2014enough to stabilize sentiment after the political-driven selloff earlier in the week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 6,
-    "inputTokens": 4806,
-    "outputTokens": 1269,
-    "estimatedCostUsd": 0.011151,
-    "lastCallHour": "2026-11-04T14"
+    "callsThisMonth": 7,
+    "inputTokens": 5705,
+    "outputTokens": 1483,
+    "estimatedCostUsd": 0.01312,
+    "lastCallHour": "2026-11-10T03"
   }
 }

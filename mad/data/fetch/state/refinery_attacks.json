@@ -87,6 +87,58 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-04T02:45:21.955779+00:00"
+    },
+    {
+      "date": "2026-11-10",
+      "facility": "KINEF oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-10-kinef-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says"
+        },
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-10T03:21:45.738966+00:00"
+    },
+    {
+      "date": "2026-11-08",
+      "facility": "Saratov Oil Refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-08-saratov-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-10T03:21:48.668180+00:00"
+    },
+    {
+      "date": "2026-11-06",
+      "facility": "Ryazan oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-06-ryazan-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-10T03:21:50.495070+00:00"
     }
   ],
   "processedUrls": {
@@ -115,17 +167,21 @@
     "https://www.theguardian.com/world/2026/nov/01/ukraine-defies-trump-resumes-attacks-russian-oil": "2026-11-04T02:45:15.422616+00:00",
     "https://www.theguardian.com/world/2026/nov/01/ukraine-war-briefing-oleshky-truce-shows-de-escalation-is-possible-says-zelenskyy": "2026-11-04T02:45:17.090961+00:00",
     "https://www.cnbc.com/2026/10/30/chevron-exxon-cvx-xom-earnings-q3-2026.html": "2026-11-04T02:45:19.879065+00:00",
-    "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html": "2026-11-04T02:45:21.955341+00:00"
+    "https://www.cnbc.com/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html": "2026-11-04T02:45:21.955341+00:00",
+    "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T03:21:45.738409+00:00",
+    "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-10T03:21:47.132302+00:00",
+    "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-10T03:21:48.667622+00:00",
+    "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help": "2026-11-10T03:21:50.494678+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 6,
-    "inputTokens": 8196,
-    "outputTokens": 915,
-    "estimatedCostUsd": 0.012771
+    "calls": 10,
+    "inputTokens": 13528,
+    "outputTokens": 1406,
+    "estimatedCostUsd": 0.020558
   },
-  "lastGdeltOk": true,
+  "lastGdeltOk": false,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-11-04T05:56:38.832720+00:00"
+  "lastRunAt": "2026-11-10T03:21:50.495104+00:00"
 }
