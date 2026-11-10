@@ -147,10 +147,56 @@ case 'storage':
     out('# storage originals + cache');
     report($S);
     break;
+case 'detail':
+    out('# detail');
+    out("\n## PHP binaries");
+    foreach (['/usr/www/cgi-bin/php7.cgi', '/usr/www/cgi-bin/php8.cgi', "$SITE/cgi-bin/php7.cgi", "$SITE/cgi-bin/php8.cgi"] as $b) {
+        if (is_file($b)) out('  ' . rel($b) . ': ' . trim(strtok((string) @shell_exec(escapeshellarg($b) . ' -v 2>&1'), "\n")));
+    }
+    out("\n## which sites select php7 (AddHandler/Action lines in .htaccess under public_html, depth 2)");
+    foreach (glob("$PUBLIC/{,*/}.htaccess", GLOB_BRACE) as $h) {
+        foreach (file($h) as $line) if (preg_match('/php7|php8|AddHandler|Action /i', $line)) out('  ' . rel($h) . ': ' . trim($line));
+    }
+    out("\n## PHP tag context in uploaded JPG (hex + printable, 64 bytes around each match)");
+    $jpg = "$HOME/nbhs86-data/media/classmate-uploads/5c01132e8bfe.jpg";
+    if (is_file($jpg)) {
+        $b = file_get_contents($jpg);
+        out('  size ' . strlen($b) . '  starts ' . bin2hex(substr($b, 0, 4)) . '  mime ' . (function_exists('mime_content_type') ? mime_content_type($jpg) : '?'));
+        preg_match_all('/<\?php|<\?=/i', $b, $m, PREG_OFFSET_CAPTURE);
+        foreach (array_slice($m[0], 0, 5) as $hit) {
+            $o = max(0, $hit[1] - 16); $chunk = substr($b, $o, 64);
+            out('  @' . $hit[1] . ' "' . $hit[0] . '"  ' . preg_replace('/[^\x20-\x7e]/', '.', $chunk));
+        }
+        out('  total matches: ' . count($m[0]));
+    }
+    out("\n## access-log hits for bobcooleyphoto.com with PHP-injection markers, 2026-10-10 onward");
+    $markers = '/(<\?php|%3C%3Fphp|php:\/\/|auto_prepend|allow_url_include|data:\/\/text|base64_decode|\/\.env|wp-login|xmlrpc|cgi-bin\/php|%ADd)/i';
+    $byStatus = []; $samples = [];
+    foreach (glob("$HOME/www_logs/www.2026*.gz") as $lf) {
+        if (substr(basename($lf), 4, 8) < '20261010') continue;
+        if (overBudget()) { out('  ** TRUNCATED at ' . basename($lf)); break; }
+        $fh = gzopen($lf, 'r');
+        while (($line = gzgets($fh)) !== false) {
+            if (stripos($line, 'bobcooleyphoto') === false || !preg_match($markers, $line)) continue;
+            preg_match('/"\s(\d{3})\s/', $line, $sm);
+            $st = $sm[1] ?? '?';
+            $byStatus[$st] = ($byStatus[$st] ?? 0) + 1;
+            if (in_array($st[0] ?? '', ['2'], true) && count($samples) < 40) $samples[] = substr(trim($line), 0, 300);
+        }
+        gzclose($fh);
+    }
+    ksort($byStatus);
+    foreach ($byStatus as $st => $n) out("  status $st: $n");
+    out('  2xx samples:');
+    foreach ($samples as $s) out('    ' . $s);
+    break;
 case 'other':
     $S = blank();
+    $only = $_GET['site'] ?? '';
     foreach (scandir($PUBLIC) as $it) {
         if ($it === '.' || $it === '..' || "$PUBLIC/$it" === $SITE) continue;
+        if ($only !== '' && $it !== $only) continue;
+        if ($only === '' && $it === 'beckykliss.com') continue;
         if (is_dir("$PUBLIC/$it")) scan("$PUBLIC/$it", [], $S);
     }
     foreach (["$SITE/bobboTrade", "$SITE/mad", "$SITE/light-detective", "$SITE/NBHS86/vendor"] as $d) if (is_dir($d)) scan($d, [], $S);
