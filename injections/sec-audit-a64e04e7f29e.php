@@ -151,7 +151,7 @@ case 'detail':
     out('# detail');
     out("\n## PHP binaries");
     foreach (['/usr/www/cgi-bin/php7.cgi', '/usr/www/cgi-bin/php8.cgi', "$SITE/cgi-bin/php7.cgi", "$SITE/cgi-bin/php8.cgi"] as $b) {
-        if (is_file($b)) out('  ' . rel($b) . ': ' . trim(strtok((string) @shell_exec(escapeshellarg($b) . ' -v 2>&1'), "\n")));
+        if (is_file($b)) out('  ' . rel($b) . ': ' . trim(strtok((string) @shell_exec('timeout 5 ' . escapeshellarg($b) . ' -v 2>&1 </dev/null'), "\n")));
     }
     out("\n## which sites select php7 (AddHandler/Action lines in .htaccess under public_html, depth 2)");
     foreach (glob("$PUBLIC/{,*/}.htaccess", GLOB_BRACE) as $h) {
@@ -176,7 +176,9 @@ case 'detail':
         if (substr(basename($lf), 4, 8) < '20261010') continue;
         if (overBudget()) { out('  ** TRUNCATED at ' . basename($lf)); break; }
         $fh = gzopen($lf, 'r');
+        $n = 0;
         while (($line = gzgets($fh)) !== false) {
+            if ((++$n % 20000) === 0 && overBudget()) { out('  ** TRUNCATED inside ' . basename($lf)); break 2; }
             if (stripos($line, 'bobcooleyphoto') === false || !preg_match($markers, $line)) continue;
             preg_match('/"\s(\d{3})\s/', $line, $sm);
             $st = $sm[1] ?? '?';
