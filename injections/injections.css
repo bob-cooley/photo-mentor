@@ -63,17 +63,24 @@ ul.pagination li:hover a{
 }
 
 /* Header nav (2026-11-09): typewriter style from Bob's old prototype. Courier New Regular 22px,
-   font's own spacing, #CCCCCC text, current page #00BCAC, hover/focus a darker #00968A.
+   letters tightened -0.04em, #CCCCCC text, current page #00BCAC, hover/focus a darker #00968A.
    Teal now marks the current page, so the theme's hover/active underline is turned off.
    ul.primary in every selector outranks the theme's li.active:not(:hover) rule (mode-dark.css). */
 header nav > ul.primary > li > .nav-item-title{
   font-family:"Courier New", Courier, monospace;
   font-weight:400;
   font-size:22px;
-  letter-spacing:normal;
+  letter-spacing:-0.04em;
   color:#CCCCCC;
   border-bottom-color:transparent;
 }
+/* The theme's font file sets desktop nav letter-spacing:0.12em via a nested
+   body.templatelayout-standard rule that outranks the one above; html body outranks it. */
+html body header nav > ul.primary > li > .nav-item-title{letter-spacing:-0.04em;}
+/* "bio & credits": Courier New spaces are a full 0.6em cell, which left the & floating.
+   injections.js wraps " & " in span.nav-amp; this narrows those two spaces to a normal
+   proportional word space (~0.25em: 0.6em cell - 0.04em letter-spacing - 0.31em). */
+header nav .nav-amp{word-spacing:-0.31em;}
 header nav > ul.primary > li:hover > .nav-item-title{
   color:#CCCCCC;
   border-bottom-color:transparent;
@@ -91,7 +98,7 @@ header nav > ul.primary > li:hover > .nav-item-title:hover{
 }
 
 /* Pipe separators between top-level items, desktop only (phone nav is a stacked hamburger list).
-   1ch = one Courier New character, so each gap reads as " | " like the prototype. */
+   0.6ch of space each side of the pipe (1ch = one Courier New character). */
 @media (min-width:1000px){
   header nav > ul.primary{column-gap:0;}
   header nav > ul > li + li::before{
@@ -99,7 +106,7 @@ header nav > ul.primary > li:hover > .nav-item-title:hover{
     font-family:"Courier New", Courier, monospace;
     font-size:22px;
     color:#CCCCCC;
-    padding-inline:1ch;
+    padding-inline:0.6ch;
   }
 }
 

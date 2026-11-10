@@ -74,9 +74,36 @@
     scheduleFlicker(p, Object.assign({}, baseRates, { burstPauseMin: 1200, burstPauseRange: 5200 }));       // digit 3 "4" - medium rate
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init404Flicker);
-  } else {
+  /* ===================================================================
+     Header nav: wrap the " & " in "bio & credits" in span.nav-amp so
+     injections.css can narrow just those two spaces (Courier New spaces
+     are a full character wide). The label text itself is unchanged.
+     =================================================================== */
+  function initNavAmpersand() {
+    var links = document.querySelectorAll("header nav .nav-item-title");
+    Array.prototype.forEach.call(links, function (link) {
+      Array.prototype.slice.call(link.childNodes).forEach(function (node) {
+        if (node.nodeType !== 3) return;
+        var i = node.nodeValue.indexOf(" & ");
+        if (i === -1) return;
+        var amp = node.splitText(i);
+        amp.splitText(3);
+        var span = document.createElement("span");
+        span.className = "nav-amp";
+        span.textContent = " & ";
+        amp.parentNode.replaceChild(span, amp);
+      });
+    });
+  }
+
+  function init() {
     init404Flicker();
+    initNavAmpersand();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else {
+    init();
   }
 })();
