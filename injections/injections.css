@@ -66,12 +66,13 @@ footer nav:has(ul.socialmedia){margin-left:auto;}
 }
 @media (max-width:999px){
   footer nav:has(ul.socialmedia){flex:0 1 auto;}
-  footer p.footer-tagline{font-size:15px;text-align:left;}  /* fits one line at 375px; p. outranks the 18px base rule below */
+  footer p.footer-tagline{font-size:16px;text-align:left;}  /* fits one line at 375px; p. outranks the 20px base rule below */
 }
 footer .footer-tagline{
   margin:0;
   font-family:"Courier New", Courier, monospace;
-  font-size:18px;
+  font-size:20px;
+  font-weight:700;
   letter-spacing:-0.04em;
   color:#CCCCCC;
 }
@@ -84,6 +85,10 @@ main:has(> ul.gallery.layout-slideshow){
   border-top:2px solid #333333;
   border-bottom:2px solid #333333;
   padding-block:16px;
+}
+/* Nav to top pinstripe: theme's 32px main margin-top halved on desktop (matches the 16px line-to-rotator gap) */
+@media (min-width:1000px){
+  main:has(> ul.gallery.layout-slideshow){margin-top:16px;}
 }
 
 /* Header nav (2026-11-09): typewriter style from Bob's old prototype. Courier New Regular 22px,
