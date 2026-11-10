@@ -75,7 +75,9 @@ footer .footer-tagline{
   font-family:"Courier New", Courier, monospace;
   font-size:20px;
   font-weight:700;
-  letter-spacing:-0.04em;
+  /* +0.02em gives bold the same visible gap between letters as the nav's regular at -0.04em
+     (bold glyphs are wider: measured ink gap 0.062em vs 0.123em at equal spacing) */
+  letter-spacing:0.02em;
   color:#FFFFFF;
 }
 
