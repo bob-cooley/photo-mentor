@@ -183,13 +183,13 @@ case 'detail':
             preg_match('/"\s(\d{3})\s/', $line, $sm);
             $st = $sm[1] ?? '?';
             $byStatus[$st] = ($byStatus[$st] ?? 0) + 1;
-            if (in_array($st[0] ?? '', ['2'], true) && count($samples) < 40) $samples[] = substr(trim($line), 0, 300);
+            if (($st[0] ?? '') === '5' && count($samples) < 70) $samples[] = substr(trim($line), 0, 260);
         }
         gzclose($fh);
     }
     ksort($byStatus);
     foreach ($byStatus as $st => $n) out("  status $st: $n");
-    out('  2xx samples:');
+    out('  5xx samples:');
     foreach ($samples as $s) out('    ' . $s);
     break;
 case 'other':
