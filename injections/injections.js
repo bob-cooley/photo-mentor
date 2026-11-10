@@ -122,8 +122,10 @@
 
   /* ===================================================================
      Footer tagline, left of the social icons (styled in injections.css).
+     Homepage only (IO200 marks it main.frontpage).
      =================================================================== */
   function initFooterTagline() {
+    if (!document.querySelector("main.frontpage")) return;
     var footer = document.querySelector("footer");
     if (!footer || footer.querySelector(".footer-tagline")) return;
     var p = document.createElement("p");
