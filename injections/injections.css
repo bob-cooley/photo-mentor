@@ -54,12 +54,26 @@ ul.pagination li:hover a{
   color:#990000;
 }
 
-/* Center footer social icons on desktop - theme's LAYOUT_RIGHT flavor shrinks footer nav
-   to fit-content (flex-basis:initial), leaving it flush left with nothing to center against */
-@media (min-width:1000px){
-  footer nav:has(ul.socialmedia){
-    margin-inline:auto;
-  }
+/* Footer (2026-11-10, from Bob's mockup): tagline left (added by injections.js as
+   p.footer-tagline), social icons right. Was centered icons before. */
+footer{flex-wrap:wrap;align-items:center;}
+footer nav:has(ul.socialmedia){margin-left:auto;}
+footer .footer-tagline{
+  margin:0;
+  font-family:"Courier New", Courier, monospace;
+  font-size:18px;
+  letter-spacing:-0.04em;
+  color:#CCCCCC;
+}
+
+/* Copyright line (pasted into IO200 as <div align="center"> after #container): smaller */
+body > div[align="center"]{font-size:14px;}
+
+/* Grey pinstripes above and below the homepage photo rotator, full content width */
+main:has(> ul.gallery.layout-slideshow){
+  border-top:2px solid #333333;
+  border-bottom:2px solid #333333;
+  padding-block:16px;
 }
 
 /* Header nav (2026-11-09): typewriter style from Bob's old prototype. Courier New Regular 22px,

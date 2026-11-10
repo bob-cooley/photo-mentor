@@ -119,10 +119,23 @@
     });
   }
 
+  /* ===================================================================
+     Footer tagline, left of the social icons (styled in injections.css).
+     =================================================================== */
+  function initFooterTagline() {
+    var footer = document.querySelector("footer");
+    if (!footer || footer.querySelector(".footer-tagline")) return;
+    var p = document.createElement("p");
+    p.className = "footer-tagline";
+    p.textContent = "the photographic work of bob cooley";
+    footer.insertBefore(p, footer.firstChild);
+  }
+
   function init() {
     init404Flicker();
     initNavAmpersand();
     initGalleriesNote();
+    initFooterTagline();
   }
 
   if (document.readyState === "loading") {
