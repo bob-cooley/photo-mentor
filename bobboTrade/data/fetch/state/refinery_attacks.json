@@ -251,6 +251,38 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-10T15:42:38.027811+00:00"
+    },
+    {
+      "date": "2026-10-31",
+      "facility": "Ryazan",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-10-31-ryazan-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-10T21:52:48.183566+00:00"
+    },
+    {
+      "date": "2026-10-31",
+      "facility": "Yaroslavl",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-10-31-yaroslavl-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-10T21:52:48.183661+00:00"
     }
   ],
   "processedUrls": {
@@ -327,17 +359,18 @@
     "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-08T17:27:54.149112+00:00",
     "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-09T16:36:58.200092+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-10T15:42:36.384285+00:00",
-    "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T15:42:38.027416+00:00"
+    "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T15:42:38.027416+00:00",
+    "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-10T21:52:48.183202+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 15,
-    "inputTokens": 17842,
-    "outputTokens": 2314,
-    "estimatedCostUsd": 0.029412
+    "calls": 16,
+    "inputTokens": 18771,
+    "outputTokens": 2542,
+    "estimatedCostUsd": 0.031481
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-11-10T18:47:40.210152+00:00"
+  "lastRunAt": "2026-11-10T21:52:48.183691+00:00"
 }
