@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-10T18:02:55.133878+00:00",
-  "text": "ConocoPhillips fell 0.76% today after a two-week slide of 8.4%, driven primarily by weakness in crude oil prices. Brent crude dipped below $90 a barrel on November 10th\u2014the first time since August\u2014as President Trump signaled the Iran conflict may be ending soon, reducing geopolitical risk premiums that had been supporting energy prices. With Brent now at $107 and US oil at $99.64, the company faces lower revenues per barrel of oil produced, which directly pressures earnings for integrated oil producers.\n\nThe selloff has accelerated since ConocoPhillips reported third-quarter results on November 5th, suggesting the market's focus shifted from company-specific performance to the broader oil price decline. De-escalation hopes in the Middle East remove a key prop that had been supporting oil prices higher, and that structural shift affects the entire energy sector regardless of individual company execution.",
+  "fetchedAt": "2026-11-10T19:01:42.195858+00:00",
+  "text": "ConocoPhillips rose 1.2% today to $136.09, recovering modestly after a steep 8% slide over the past two weeks. The rebound came as Brent crude oil dipped below $90 a barrel for the first time since August\u2014a move driven by Trump's statements suggesting the Iran conflict could end \"fairly soon,\" which eased concerns about broader Middle East supply disruptions. Even so, the stock remains well below its $144 level from early November, when the company reported quarterly results.\n\nThe narrower picture shows tension between two forces: oil prices falling (bad for a producer's near-term revenue) but geopolitical risk receding (which can reduce long-term uncertainty). US crude trades at $99.64 while Brent sits at $107, so the global-to-domestic spread is still wide\u2014suggesting markets see more supply pressure overseas than domestically. The company's slide from early November likely reflects both the softer energy prices and market digestion of the quarterly report filed that week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 102,
-    "inputTokens": 83178,
-    "outputTokens": 20678,
-    "estimatedCostUsd": 0.186568,
-    "lastCallHour": "2026-11-10T18"
+    "callsThisMonth": 103,
+    "inputTokens": 83968,
+    "outputTokens": 20903,
+    "estimatedCostUsd": 0.188483,
+    "lastCallHour": "2026-11-10T19"
   }
 }
