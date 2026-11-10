@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T03:18:49.744270+00:00",
-  "text": "Marathon Petroleum bounced back 4.6% today after a brutal nine-day slide that wiped 17% off the stock, rebounding from $372.74 to $389.88. The timing aligns with news that the midterm elections produced a \"blue wave\" rejection of Trump and the GOP\u2014a shift that markets read as reducing the risk of aggressive military action against Iran. Since a significant chunk of global crude flows through the Strait of Hormuz (which Iran can disrupt), any de-escalation in U.S.-Iran tensions eases supply fears that have been hammering refiners like Marathon, even though refineries are currently running at a healthy 94.5% utilization.\n\nThe rebound also comes as oil prices stabilized: U.S. crude had been under pressure, trading at $99.64 today versus the broader geopolitical risk that characterized the prior week. Refiners' margins depend heavily on the spread between crude costs and finished fuel prices\u2014when geopolitical risk spikes crude up without a matching jump in gasoline or diesel demand, refiner profits compress. A political outcome that reduces strike risk gives refiners breathing room, even if it simultaneously means less tailwind from renewable energy support in Congress going forward.",
+  "fetchedAt": "2026-11-10T04:30:36.954902+00:00",
+  "text": "Marathon Petroleum bounced back 4.6% today after a brutal five-day slide that wiped out 13.5% of its value since early November. The stock is recovering as oil prices stabilized \u2014 U.S. crude holding at $99.64 per barrel today \u2014 and refineries remain busy at 94.5% capacity, which supports margins for a company that profits from turning crude into fuel. The broader context matters too: election results this week shifted political risk away from renewable energy policy pushing hard against fossil fuels, which had likely weighed on refiner stocks over the prior few days.\n\nThat said, the two-week chart tells a story of real weakness beneath today's bounce. The sharp selloff from November 2\u20136 likely reflected genuine concerns about Iran negotiations stalling and broader economic uncertainty, not just election-driven sentiment swings. Today's recovery might be relief-buying, but it hasn't restored the stock to where it started the month.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 92,
-    "inputTokens": 77253,
-    "outputTokens": 19051,
-    "estimatedCostUsd": 0.172508,
-    "lastCallHour": "2026-11-10T03"
+    "callsThisMonth": 93,
+    "inputTokens": 78152,
+    "outputTokens": 19259,
+    "estimatedCostUsd": 0.174447,
+    "lastCallHour": "2026-11-10T04"
   }
 }
