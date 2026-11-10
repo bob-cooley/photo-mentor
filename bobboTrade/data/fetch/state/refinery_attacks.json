@@ -227,10 +227,30 @@
         {
           "name": "Meduza",
           "url": "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries"
+        },
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/"
         }
       ],
       "origin": "auto",
       "addedAt": "2026-11-09T16:36:58.200585+00:00"
+    },
+    {
+      "date": "2026-11-10",
+      "facility": "KINEF oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-10-kinef-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-10T15:42:38.027811+00:00"
     }
   ],
   "processedUrls": {
@@ -305,17 +325,19 @@
     "https://www.pravda.com.ua/eng/news/2026/11/06/8061498/": "2026-11-06T11:47:56.833589+00:00",
     "https://meduza.io/en/feature/2026/11/06/russia-s-economy-is-suffering-under-the-weight-of-war-and-sanctions-so-why-is-the-ruble-still-one-of-the-world-s-strongest-currencies": "2026-11-06T18:51:36.741246+00:00",
     "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-08T17:27:54.149112+00:00",
-    "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-09T16:36:58.200092+00:00"
+    "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-09T16:36:58.200092+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-10T15:42:36.384285+00:00",
+    "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T15:42:38.027416+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 13,
-    "inputTokens": 15435,
-    "outputTokens": 2040,
-    "estimatedCostUsd": 0.025635
+    "calls": 15,
+    "inputTokens": 17842,
+    "outputTokens": 2314,
+    "estimatedCostUsd": 0.029412
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-09T19:41:34.690252+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-10T15:42:38.027853+00:00"
 }
