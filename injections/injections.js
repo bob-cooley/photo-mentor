@@ -99,7 +99,7 @@
   /* ===================================================================
      Header nav: "galleries" dropdown note. Desktop shows it on hover or
      keyboard focus; the phone menu shows it under the item (CSS handles
-     both). Links match the ones in the homepage body text.
+     both). Instagram and Threads URLs match the homepage body text; Foto added 2026-11-10.
      =================================================================== */
   function initGalleriesNote() {
     var links = document.querySelectorAll("header nav > ul > li > .nav-item-title");
