@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T04:32:56.389705+00:00",
-  "text": "Marathon Petroleum rose 4.6% today, bouncing back after a brutal five-day slide that erased 13% of the stock's value. The recovery came as oil prices steadied and refineries continued running at a healthy 94.5% capacity, suggesting demand for refined products remains solid. The stock had been hammered earlier in the week, likely from political uncertainty around the midterm elections and concerns about energy policy shifts, but today's move reflects some stabilization in the underlying energy market.\n\nThe broader context here is geopolitical: recent news about Iran negotiations and potential U.S. military action creates real uncertainty about Middle Eastern oil supply. While Secretary of State Rubio signaled talks remain stalled, Trump has suggested strikes are \"highly unlikely\" if negotiations progress\u2014leaving the oil market in a holding pattern rather than pricing in an immediate supply shock. That ambiguity may have contributed to the earlier selloff, and today's modest rebound suggests investors are taking a wait-and-see stance rather than fleeing energy stocks outright.",
+  "fetchedAt": "2026-11-10T05:03:45.854612+00:00",
+  "text": "Marathon Petroleum bounced back 4.6% today after falling sharply over the past week, recovering some ground from its $372.74 low on November 6th. The bounce appears tied to easing geopolitical tensions: reports today indicated that U.S. Secretary of State Marco Rubio signaled little near-term progress in Iran negotiations, while separate comments suggested renewed strikes remain unlikely if talks advance \u2014 reducing the immediate risk of a supply shock that would disrupt refining operations and crude availability. With oil prices holding steady (U.S. crude at $99.64 and global crude at $107.03) and refineries running at 94.5% capacity, the market is pricing in a more stable operating environment than the turmoil that drove the stock down 17% over two weeks.\n\nThe broader backdrop, however, remains a headwind for refiners: election results have shifted momentum toward renewable energy investments at the expense of traditional fossil fuels, a trend that investor commentary highlighted over the past week. That shift likely accounts for why today's relief rally, while meaningful, still leaves the stock well below where it started the period.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 8,
-    "inputTokens": 6604,
-    "outputTokens": 1706,
-    "estimatedCostUsd": 0.015134,
-    "lastCallHour": "2026-11-10T04"
+    "callsThisMonth": 9,
+    "inputTokens": 7503,
+    "outputTokens": 1951,
+    "estimatedCostUsd": 0.017258,
+    "lastCallHour": "2026-11-10T05"
   }
 }
