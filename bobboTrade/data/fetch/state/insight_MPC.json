@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T05:01:34.325768+00:00",
-  "text": "Marathon Petroleum rebounded 4.6% today after a brutal two-week slide that knocked the stock down 17%. The bounce comes on the heels of comments from U.S. Secretary of State Marco Rubio suggesting that Iran negotiations remain stalled and unproductive \u2014 a signal that geopolitical tensions in the Middle East may persist rather than ease. For a refiner, Middle East tensions matter because they create uncertainty around oil supply flows through the Strait of Hormuz, and that uncertainty tends to support crude prices; oil is trading near $100 a barrel today, which helps refinery margins.\n\nThe longer backdrop here is that Marathon has taken a beating since early November, when midterm election results signaled a Democratic-leaning Congress and a potential shift toward renewable energy policies. That result spooked energy investors and specifically refiners, which thrive in a world of stable or high fossil fuel demand. Today's rebound may reflect some stabilization as geopolitical risk reasserts itself as a price-supporting force \u2014 at least in the near term.",
+  "fetchedAt": "2026-11-10T06:00:34.936482+00:00",
+  "text": "Marathon Petroleum bounced 4.6% today, recovering some ground after a brutal five-day sell-off that wiped out 13% of its value. The rebound comes as oil prices stabilized\u2014U.S. crude holding near $100 a barrel while refineries run at a high 94.5% capacity utilization\u2014suggesting the worst of the immediate pressure may have eased. Over the past week, however, the stock cratered on geopolitical concerns about Iran negotiations stalling and broader political headwinds: a Democratic midterm victory shifted momentum toward renewable energy policy, directly threatening the refining sector's long-term outlook.\n\nThe two-week decline reflects a collision of bad news for refiners. Stalled Iran talks raised Middle East tensions and oil supply uncertainty early in the period, while the midterm results and subsequent political messaging made clear that the new Congress will push harder on clean energy\u2014a structural headwind for traditional oil refining demand over years to come. Today's recovery is a tactical bounce, not a reversal of that underlying concern.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 94,
-    "inputTokens": 79051,
-    "outputTokens": 19484,
-    "estimatedCostUsd": 0.176471,
-    "lastCallHour": "2026-11-10T05"
+    "callsThisMonth": 95,
+    "inputTokens": 79950,
+    "outputTokens": 19712,
+    "estimatedCostUsd": 0.17851,
+    "lastCallHour": "2026-11-10T06"
   }
 }

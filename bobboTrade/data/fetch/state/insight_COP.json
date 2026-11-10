@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-10T05:01:18.854046+00:00",
-  "text": "ConocoPhillips fell 1.3% today and has lost 11% over the past two weeks, a decline that tracks closely with the weakness in oil prices. US crude has retreated to $99.64 per barrel, while global oil trades at $107.03\u2014meaningful drops that compress profit margins for oil producers. The stock was already under pressure after the company reported quarterly earnings on November 5th; absent a fresh catalyst, today's additional decline appears tied to ongoing softness in the broader energy complex.\n\nThe two-week selloff also reflects a shift in the political environment. News that voters rejected Trump and the GOP in the midterm elections has raised investor expectations that renewable energy policies will gain traction, which can dampen long-term demand outlooks for fossil fuel producers. While oil price weakness is the most direct daily driver, this political backdrop is part of the wider headwind pressuring energy stocks.",
+  "fetchedAt": "2026-11-10T06:00:16.180378+00:00",
+  "text": "ConocoPhillips fell 1.3% today, extending a sharp two-week decline of 11%. The drop follows the company's quarterly earnings announcement on November 5th and coincides with a significant shift in political risk: midterm elections delivered what was widely described as a \"blue wave rebuke\" of Trump and the GOP, which raises the prospect of stronger renewable energy policies and potentially tighter environmental regulation on oil producers going forward.\n\nThe immediate pressure also reflects softer crude fundamentals \u2014 US oil prices have drifted down to roughly $99.60 per barrel, creating a headwind for refining margins and cash flow at a major producer. While geopolitical tensions with Iran remain unresolved (and could theoretically tighten supply later), the near-term narrative is dominated by political uncertainty around energy policy and a modest retreat in oil prices from earlier peaks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 94,
-    "inputTokens": 76837,
-    "outputTokens": 19109,
-    "estimatedCostUsd": 0.172382,
-    "lastCallHour": "2026-11-10T05"
+    "callsThisMonth": 95,
+    "inputTokens": 77620,
+    "outputTokens": 19297,
+    "estimatedCostUsd": 0.174105,
+    "lastCallHour": "2026-11-10T06"
   }
 }
