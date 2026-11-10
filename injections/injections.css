@@ -27,16 +27,10 @@ header nav > ul ul li{text-transform:lowercase;}
 /* Force lowercase everywhere else too, in case entered text is mixed-case */
 nav .nav-item-title{text-transform:lowercase;}
 
-/* Global hover color -> #990000 (nav, footer, content links; social icons are PNG-based, left untouched) */
-header nav li a:hover{
-  color:#990000;
-}
-header nav > ul > li:hover > .nav-item-title,
+/* Global hover color -> #990000 (footer, content links, nav submenus; social icons are PNG-based,
+   left untouched). Top-level header nav has its own teal scheme, see "Header nav" below. */
 header nav > ul ul a:hover{
   color:#990000;
-}
-header nav > ul > li > a:last-child:hover{
-  border-color:#990000;
 }
 footer nav ul.secondary li a:hover,
 footer p.footer-info a:hover{
@@ -66,11 +60,43 @@ ul.pagination li:hover a{
   }
 }
 
-/* Thinner, more elegant nav underline (covers hover + active state, same element) -
-   theme sets border-bottom:1px, which renders as 2 device px on Retina; 0.5px renders
-   as a true 1px hairline on HiDPI screens */
+/* Header nav (2026-11-09): typewriter style from Bob's old prototype. Courier New Regular 22px,
+   font's own spacing, #CCCCCC text, current page #00BCAC, hover/focus a darker #00968A.
+   Teal now marks the current page, so the theme's hover/active underline is turned off. */
 header nav > ul > li > .nav-item-title{
-  border-bottom-width: 0.5px;
+  font-family:"Courier New", Courier, monospace;
+  font-weight:400;
+  font-size:22px;
+  letter-spacing:normal;
+  color:#CCCCCC;
+  border-bottom-color:transparent;
+}
+header nav > ul > li:hover > .nav-item-title{
+  color:#CCCCCC;
+  border-bottom-color:transparent;
+}
+header nav > ul > li.active > .nav-item-title,
+header nav > ul > li.active:hover > .nav-item-title{
+  color:#00BCAC;
+  border-bottom-color:transparent;
+}
+header nav > ul > li > .nav-item-title:hover,
+header nav > ul > li > .nav-item-title:focus-visible,
+header nav > ul > li:hover > .nav-item-title:hover{
+  color:#00968A;
+}
+
+/* Pipe separators between top-level items, desktop only (phone nav is a stacked hamburger list).
+   1ch = one Courier New character, so each gap reads as " | " like the prototype. */
+@media (min-width:1000px){
+  header nav > ul.primary{column-gap:0;}
+  header nav > ul > li + li::before{
+    content:"|";
+    font-family:"Courier New", Courier, monospace;
+    font-size:22px;
+    color:#CCCCCC;
+    padding-inline:1ch;
+  }
 }
 
 /* Contact page: match Bio page's 900px reading width */
