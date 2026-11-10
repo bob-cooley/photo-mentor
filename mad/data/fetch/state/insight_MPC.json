@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T05:03:45.854612+00:00",
-  "text": "Marathon Petroleum bounced back 4.6% today after falling sharply over the past week, recovering some ground from its $372.74 low on November 6th. The bounce appears tied to easing geopolitical tensions: reports today indicated that U.S. Secretary of State Marco Rubio signaled little near-term progress in Iran negotiations, while separate comments suggested renewed strikes remain unlikely if talks advance \u2014 reducing the immediate risk of a supply shock that would disrupt refining operations and crude availability. With oil prices holding steady (U.S. crude at $99.64 and global crude at $107.03) and refineries running at 94.5% capacity, the market is pricing in a more stable operating environment than the turmoil that drove the stock down 17% over two weeks.\n\nThe broader backdrop, however, remains a headwind for refiners: election results have shifted momentum toward renewable energy investments at the expense of traditional fossil fuels, a trend that investor commentary highlighted over the past week. That shift likely accounts for why today's relief rally, while meaningful, still leaves the stock well below where it started the period.",
+  "fetchedAt": "2026-11-10T06:00:28.660005+00:00",
+  "text": "Marathon Petroleum bounced back 4.6% today after a brutal week-long selloff that saw the stock down 17% since early November. The rebound came as oil prices steadied (US crude at $99.64/barrel) and refineries continued running near full capacity at 94.5%, suggesting solid demand for refined products like gasoline and diesel. The worst of the panic selling appears to have paused, at least temporarily.\n\nThe prior week's sharp decline was likely driven by political shifts: Democratic gains in the midterm elections raised investor concerns about stricter environmental regulation and a potential pivot toward renewable energy investments rather than fossil fuels. Today's bounce may reflect either profit-taking after the steep drop or a reassessment of near-term refining fundamentals, which remain solid with healthy inventory levels and high utilization rates still in place.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 9,
-    "inputTokens": 7503,
-    "outputTokens": 1951,
-    "estimatedCostUsd": 0.017258,
-    "lastCallHour": "2026-11-10T05"
+    "callsThisMonth": 10,
+    "inputTokens": 8402,
+    "outputTokens": 2134,
+    "estimatedCostUsd": 0.019072,
+    "lastCallHour": "2026-11-10T06"
   }
 }
