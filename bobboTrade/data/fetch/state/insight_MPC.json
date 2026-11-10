@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T09:11:01.358997+00:00",
-  "text": "Marathon Petroleum bounced back 4.6% today after a brutal five-day selloff that erased 17% of its value since early November. The recovery came as oil prices steadied\u2014US crude holding at $99.64 per barrel and refineries running at 94.5% capacity\u2014but the stock's rebound appears modest relative to its recent losses. The deeper driver of last week's collapse was the midterm election results and subsequent political news: a Democratic Congress now favors renewable energy over fossil fuels, and Trump's comments about ending the Iran conflict \"fairly soon\" reduced the geopolitical risk premium that had been supporting oil prices higher.\n\nThe refining sector faces a structural headwind that today's bounce doesn't erase. With renewable energy gaining political tailwinds and Middle East tensions cooling rather than escalating, the near-term outlook for oil demand and prices has weakened\u2014reflected in the gap between US crude ($99.64) and world prices ($107.03), signaling softer global appetite. Refiners like Marathon profit most when crude is scarce and energy demand is high; the opposite conditions are now in play.",
+  "fetchedAt": "2026-11-10T13:04:00.215759+00:00",
+  "text": "Marathon Petroleum bounced back 4.6% today after hitting a low of $372.74 on November 6th, but the stock is still down 17% over two weeks. The recovery came as Brent crude oil fell below $90 a barrel for the first time since August, driven by hopes that the Iran conflict could de-escalate soon \u2014 President Trump signaled the war is \"going to be ending fairly soon.\" For a refiner like Marathon, lower crude prices can initially look positive, but the underlying driver here\u2014geopolitical de-escalation reducing oil prices\u2014is a mixed signal: cheaper oil means lower input costs, but it also means less upside from the oil price premium that has been supporting energy stocks.\n\nThe broader two-week selloff reflects a real shift in the market's energy outlook. The midterm elections handed Democrats gains and dealt a blow to Republican energy policies, raising investor concern about stricter environmental regulation ahead. Combined with the possibility of lower crude prices if Iran tensions truly ease, refiners are facing a scenario where the tailwinds from high oil prices and geopolitical risk premiums fade just as political headwinds around fossil fuels strengthen.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 96,
-    "inputTokens": 80852,
-    "outputTokens": 19958,
-    "estimatedCostUsd": 0.180642,
-    "lastCallHour": "2026-11-10T09"
+    "callsThisMonth": 97,
+    "inputTokens": 81756,
+    "outputTokens": 20211,
+    "estimatedCostUsd": 0.182811,
+    "lastCallHour": "2026-11-10T13"
   }
 }
