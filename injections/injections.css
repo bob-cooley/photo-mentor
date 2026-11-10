@@ -66,9 +66,10 @@ footer nav:has(ul.socialmedia){margin-left:auto;}
   footer .footer-tagline,
   footer nav:has(ul.socialmedia){flex:0 1 auto;}
 }
+/* Phones: everything in the footer centered (tagline, icons, copyright below) */
 @media (max-width:999px){
-  footer nav:has(ul.socialmedia){flex:0 1 auto;}
-  footer p.footer-tagline{font-size:15px;text-align:left;}  /* fits one line at 375px with the 0.02em spacing; p. outranks the 20px base rule below */
+  footer nav:has(ul.socialmedia){flex:0 1 auto;margin-inline:auto;}
+  footer p.footer-tagline{font-size:15px;text-align:center;}  /* fits one line at 375px with the 0.02em spacing; p. outranks the 20px base rule below */
 }
 footer .footer-tagline{
   margin:0;
@@ -96,7 +97,7 @@ body > div[align]{
   color:#666666;
 }
 @media (max-width:999px){
-  body > div[align]{padding-inline:16px;}
+  body > div[align]{padding-inline:16px;text-align:center;}
 }
 
 /* Grey pinstripes above and below the homepage photo rotator, full content width */
