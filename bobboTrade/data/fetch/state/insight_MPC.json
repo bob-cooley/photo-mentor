@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T01:28:38.843483+00:00",
-  "text": "Marathon Petroleum's stock fell 10.65% over two weeks and stayed roughly flat today, weighed down by collapsing crude oil prices. Brent crude dipped below $90 a barrel on November 10th\u2014the lowest since August\u2014after President Trump signaled the Iran conflict could end \"fairly soon.\" For a refiner, lower oil prices are a mixed bag: cheaper feedstock to process sounds good, but refiners make money on the *spread* between crude costs and what they sell gasoline and diesel for, and that spread compresses when crude falls sharply without retail fuel prices dropping as quickly.\n\nThe broader pressure comes from geopolitical de-escalation removing a key support for energy prices. Over the past week, crude has cratered from $427-level prices early November, and while refineries are running hot at 94.5% capacity and storage levels remain moderate, the dramatic fall in crude\u2014especially crude falling faster than the demand picture changed\u2014leaves refiner margins under pressure until the market finds a new equilibrium.",
+  "fetchedAt": "2026-11-11T02:19:14.177148+00:00",
+  "text": "Marathon Petroleum fell a flat 0.08% today, but what matters is the two-week collapse of 10.65%\u2014most of that damage came on November 4th and 5th when crude oil prices dropped sharply. The trigger was renewed hope for a ceasefire in Iran, with President Trump saying the conflict would end \"fairly soon\" and Brent crude briefly dipping below $90 a barrel for the first time since August. Lower oil prices directly squeeze refiner profits because they reduce the value of the fuel these companies produce and sell.\n\nThe stock has stabilized over the last two trading days, hovering near $390, even though crude remains pressured by ongoing peace negotiations. Refinery utilization is still robust at 94.5%, which normally supports margins, but storage levels for gasoline and diesel are elevated\u2014suggesting either weak demand or abundant supply coming to market. Until oil prices stabilize or geopolitical tensions flare again, refiners like Marathon face headwinds from the combination of lower crude and plentiful inventory.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 107,
-    "inputTokens": 90545,
-    "outputTokens": 22530,
-    "estimatedCostUsd": 0.203195,
-    "lastCallHour": "2026-11-11T01"
+    "callsThisMonth": 108,
+    "inputTokens": 91469,
+    "outputTokens": 22757,
+    "estimatedCostUsd": 0.205254,
+    "lastCallHour": "2026-11-11T02"
   }
 }
