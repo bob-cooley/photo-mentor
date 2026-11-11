@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T03:11:06.171400+00:00",
-  "text": "Marathon Petroleum's stock fell 0.08% today to close at $389.55, continuing a sharp two-week decline of 10.65% that began after crude oil prices tumbled hard last week. The immediate trigger is crude weakness: Brent crude dipped below $90 a barrel on November 10th\u2014the first time since August\u2014driven by statements from Trump suggesting the Iran conflict could end \"fairly soon,\" which would ease geopolitical supply concerns that have kept oil prices elevated. Lower crude prices squeeze refinery margins because refiners buy oil at market rates and sell gasoline and diesel; when the raw material gets cheaper faster than finished products fall, their profit per barrel narrows.\n\nThe broader backdrop makes the selloff sharper: refineries are running at 94.5% capacity and gasoline inventories are already elevated at nearly 209 million barrels, suggesting demand may not be keeping pace with supply even at current prices. Combined with political uncertainty around Iran policy\u2014Secretary of State Rubio said just yesterday that negotiations remain unproductive despite Trump's optimistic rhetoric\u2014the market appears skeptical that oil prices will stabilize soon, leaving refinery economics under pressure.",
+  "fetchedAt": "2026-11-11T10:16:18.473855+00:00",
+  "text": "Marathon Petroleum's stock fell 10.65% over two weeks, with today's small decline continuing a sharp downturn that started November 3rd. The primary driver has been crude oil prices: US oil dropped from the $120s range (implied by the stock's prior strength) to $99.64 per barrel as Trump administration comments\u2014particularly Monday's claim that Iran is \"militarily effectively over\" and the conflict will end \"fairly soon\"\u2014triggered expectations of reduced geopolitical risk and lower energy prices. Refiners like Marathon profit when crude is expensive relative to the refined products they sell (gasoline and diesel), so falling oil prices compress those margins and hurt profitability.\n\nThe broader context is mixed signals on what comes next. While Trump's rhetoric has pushed oil down on hopes of de-escalation, Secretary of State Rubio simultaneously said Iran negotiations remain \"unproductive\" with \"outrageous\" demands, suggesting peace is far from certain. Refineries are running at 94.5% capacity and storage levels are normal, so the weakness isn't about operational problems\u2014it's purely the oil price outlook. If geopolitical tension flares again or Trump's optimism proves premature, crude could rebound and help refiners recover.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 109,
-    "inputTokens": 92393,
-    "outputTokens": 23010,
-    "estimatedCostUsd": 0.207443,
-    "lastCallHour": "2026-11-11T03"
+    "callsThisMonth": 110,
+    "inputTokens": 93306,
+    "outputTokens": 23279,
+    "estimatedCostUsd": 0.209701,
+    "lastCallHour": "2026-11-11T10"
   }
 }

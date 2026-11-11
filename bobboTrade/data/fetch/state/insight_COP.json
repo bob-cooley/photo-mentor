@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T03:10:52.027131+00:00",
-  "text": "ConocoPhillips fell 0.83% today, continuing a steep two-week slide of 8.36% that began right after the company reported quarterly earnings on November 5th. The immediate pressure came from oil prices\u2014US crude dropped to $99.64 per barrel, and more significantly, Brent crude briefly broke below $90 for the first time since August after Trump said he expects the Iran conflict to end \"fairly soon.\" Lower crude prices directly cut into the revenue and profits of oil producers like ConocoPhillips, and the market is pricing in the possibility of further weakness if geopolitical tensions ease.\n\nThe timing matters: the stock has been falling steadily since earnings landed, suggesting the quarterly results themselves disappointed investors or reset expectations downward, and the Iran news on Monday simply accelerated what was already a negative trend. Weaker crude prices hit oil majors harder than most stocks because their core business depends on sustained high energy costs.",
+  "fetchedAt": "2026-11-11T10:16:02.742133+00:00",
+  "text": "ConocoPhillips rose 0.83% today, a modest gain that comes after the stock had fallen 8.4% over the past two weeks. The slight rebound today follows yesterday's dip and tracks alongside oil prices: US crude is holding around $99.60 per barrel, while Brent (the global benchmark) recently dipped below $90 for the first time since August. That dip reflects easing geopolitical tension\u2014Trump indicated the Iran conflict may be ending soon, which typically pushes oil prices down as traders bet on fewer supply disruptions ahead.\n\nThe two-week decline likely reflects that same shift in expectations. When oil prices fall, companies that profit from producing or refining crude tend to sell off, since their revenues are directly tied to what they can get paid per barrel. ConocoPhillips' recent earnings report (posted November 5th) provided a baseline, but the bigger driver has been the market's recalibration of oil prices as the outlook for the Iran situation brightened.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 109,
-    "inputTokens": 88386,
-    "outputTokens": 22088,
-    "estimatedCostUsd": 0.198826,
-    "lastCallHour": "2026-11-11T03"
+    "callsThisMonth": 110,
+    "inputTokens": 89168,
+    "outputTokens": 22311,
+    "estimatedCostUsd": 0.200723,
+    "lastCallHour": "2026-11-11T10"
   }
 }
