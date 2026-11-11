@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T10:16:02.742133+00:00",
-  "text": "ConocoPhillips rose 0.83% today, a modest gain that comes after the stock had fallen 8.4% over the past two weeks. The slight rebound today follows yesterday's dip and tracks alongside oil prices: US crude is holding around $99.60 per barrel, while Brent (the global benchmark) recently dipped below $90 for the first time since August. That dip reflects easing geopolitical tension\u2014Trump indicated the Iran conflict may be ending soon, which typically pushes oil prices down as traders bet on fewer supply disruptions ahead.\n\nThe two-week decline likely reflects that same shift in expectations. When oil prices fall, companies that profit from producing or refining crude tend to sell off, since their revenues are directly tied to what they can get paid per barrel. ConocoPhillips' recent earnings report (posted November 5th) provided a baseline, but the bigger driver has been the market's recalibration of oil prices as the outlook for the Iran situation brightened.",
+  "fetchedAt": "2026-11-11T13:01:58.869809+00:00",
+  "text": "ConocoPhillips rose modestly today, but the stock remains down sharply over the past two weeks\u2014a decline that tracks the broader collapse in oil prices. Brent crude dipped below $90 per barrel on November 10th for the first time since August, driven by optimism that the Iran conflict may be winding down. That hopeful sentiment eases concerns about Middle East supply disruptions, which typically support oil prices; with geopolitical risk receding, buyers have stepped back from crude.\n\nThe stock's recent weakness also follows the company's quarterly earnings report on November 5th. While today's modest gain suggests some stabilization, the underlying pressure comes from the structural reality: oil prices have fallen sharply in two weeks, and refiners and producers like ConocoPhillips are directly exposed to those moves. Until crude prices find a sustained floor, the headwind remains in place.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 110,
-    "inputTokens": 89168,
-    "outputTokens": 22311,
-    "estimatedCostUsd": 0.200723,
-    "lastCallHour": "2026-11-11T10"
+    "callsThisMonth": 111,
+    "inputTokens": 89950,
+    "outputTokens": 22505,
+    "estimatedCostUsd": 0.202475,
+    "lastCallHour": "2026-11-11T13"
   }
 }

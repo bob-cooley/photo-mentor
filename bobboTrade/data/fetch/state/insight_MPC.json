@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T10:16:18.473855+00:00",
-  "text": "Marathon Petroleum's stock fell 10.65% over two weeks, with today's small decline continuing a sharp downturn that started November 3rd. The primary driver has been crude oil prices: US oil dropped from the $120s range (implied by the stock's prior strength) to $99.64 per barrel as Trump administration comments\u2014particularly Monday's claim that Iran is \"militarily effectively over\" and the conflict will end \"fairly soon\"\u2014triggered expectations of reduced geopolitical risk and lower energy prices. Refiners like Marathon profit when crude is expensive relative to the refined products they sell (gasoline and diesel), so falling oil prices compress those margins and hurt profitability.\n\nThe broader context is mixed signals on what comes next. While Trump's rhetoric has pushed oil down on hopes of de-escalation, Secretary of State Rubio simultaneously said Iran negotiations remain \"unproductive\" with \"outrageous\" demands, suggesting peace is far from certain. Refineries are running at 94.5% capacity and storage levels are normal, so the weakness isn't about operational problems\u2014it's purely the oil price outlook. If geopolitical tension flares again or Trump's optimism proves premature, crude could rebound and help refiners recover.",
+  "fetchedAt": "2026-11-11T13:02:24.600595+00:00",
+  "text": "Marathon Petroleum fell 0.08% today, continuing a steep 10.65% decline over the past two weeks. The selloff reflects a significant shift in oil market outlook: crude prices have dropped sharply on optimism that the Iran conflict may de-escalate, with Brent briefly dipping below $90 a barrel for the first time since August. For a refiner, lower crude prices are a double-edged sword\u2014while they reduce input costs, they also compress profit margins, and the market appears to be pricing in sustained weakness rather than opportunity.\n\nThe broader headwind is geopolitical de-risking combined with political momentum against fossil fuels. Following the midterm election results and Trump's statements that the Iran conflict is \"going to be ending fairly soon,\" energy traders have shifted away from the supply-shock premiums that had kept oil elevated. Refineries are running at a healthy 94.5%, but without the tailwind of higher crude prices or the margin protection that supply constraints provide, refiner valuations are under pressure.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 110,
-    "inputTokens": 93306,
-    "outputTokens": 23279,
-    "estimatedCostUsd": 0.209701,
-    "lastCallHour": "2026-11-11T10"
+    "callsThisMonth": 111,
+    "inputTokens": 94219,
+    "outputTokens": 23503,
+    "estimatedCostUsd": 0.211734,
+    "lastCallHour": "2026-11-11T13"
   }
 }
