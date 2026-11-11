@@ -149,6 +149,8 @@
     var root = document.documentElement;
     root.style.zoom = "";
     if (window.innerWidth < 1000) return;
+    // the slideshow's fullscreen view must fill the real window, so no zoom while it's open
+    if (document.querySelector("ul.gallery.fullscreen")) return;
 
     var height = root.scrollHeight;
     if (height <= window.innerHeight) return;
@@ -177,6 +179,11 @@
     // the theme sizes the slideshow after its images load, so measure again then
     window.addEventListener("load", schedule);
     window.setTimeout(schedule, 600);
+    // re-fit when the slideshow enters or leaves fullscreen (the theme toggles a class)
+    var gallery = document.querySelector("main ul.gallery");
+    if (gallery && window.MutationObserver) {
+      new MutationObserver(schedule).observe(gallery, { attributes: true, attributeFilter: ["class"] });
+    }
   }
 
   function init() {
