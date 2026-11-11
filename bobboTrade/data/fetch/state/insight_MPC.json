@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T21:01:37.217352+00:00",
-  "text": "Marathon Petroleum rallied 3.4% today, reversing some of the steep losses from earlier in the week. The bounce comes as oil prices stabilized and then firmed \u2014 U.S. crude rose to $99.64 a barrel today after dipping below $90 last week on hopes of an Iran ceasefire. Refineries are running at 94.5% capacity, and with gasoline and diesel inventories at healthy levels, the market appears to be pricing in steadier energy demand and tighter crude supplies if geopolitical tensions ease or persist.\n\nThe stock's sharp two-week decline reflects real uncertainty: earlier this week, falling oil prices on talk of peace with Iran spooked refinery stocks, since lower crude means tighter margins for refiners. Today's rebound suggests the market is cautiously repricing that risk as diplomacy stalls and oil finds a floor \u2014 but the back-and-forth swings show investors are still sorting through whether Middle East tensions will cool or simmer on.",
+  "fetchedAt": "2026-11-11T22:01:22.524468+00:00",
+  "text": "Marathon Petroleum jumped 3.4% today, recovering some ground after a brutal two-week slide of 8.6%. The move came as oil prices stabilized and refined-product inventory levels tightened \u2014 gasoline storage at 209 million barrels and diesel at 99 million barrels are notably low, which improves margins for refiners like Marathon that profit when they can convert crude into fuel at good prices. Refineries are running at 94.5% capacity, suggesting strong demand and limited spare production to flood the market.\n\nThe stock's rebound also reflects whiplash from geopolitical headlines. Earlier this week, Trump's comments about an imminent Iran settlement sent crude tumbling below $90, which initially hurt refiner valuations \u2014 oil at lower prices means less margin cushion. But the narrative shifted as Secretary of State Rubio downplayed diplomatic hopes, and crude has since firmed to $99.64 domestically, removing the worst-case scenario for fuel producers and allowing Marathon to bounce back.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 119,
-    "inputTokens": 101549,
-    "outputTokens": 25355,
-    "estimatedCostUsd": 0.228324,
-    "lastCallHour": "2026-11-11T21"
+    "callsThisMonth": 120,
+    "inputTokens": 102470,
+    "outputTokens": 25577,
+    "estimatedCostUsd": 0.230355,
+    "lastCallHour": "2026-11-11T22"
   }
 }

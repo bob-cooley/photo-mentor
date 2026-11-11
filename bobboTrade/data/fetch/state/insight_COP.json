@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T21:01:20.731052+00:00",
-  "text": "ConocoPhillips rose 1.6% today to $137.77, bouncing back after a steep decline over the past two weeks. The stock has recovered somewhat from November 9's low of $134.47, likely supported by today's modest uptick in U.S. crude oil prices to $99.64 per barrel. The company reported quarterly earnings on November 5, and while the broader energy sector has faced headwinds from falling oil prices\u2014Brent crude dipped below $90 earlier this week on hopes for a resolution to Middle East tensions\u2014the U.S. benchmark remains more resilient than global prices.\n\nThe two-week decline reflects real uncertainty in oil markets: geopolitical tensions have softened investors' demand for crude, even as production cuts and supply constraints keep prices from collapsing entirely. For an oil producer like ConocoPhillips, that gap between U.S. and global oil prices, and the lingering risk that a peace deal could push crude down further, creates a drag on the stock despite occasional daily recoveries like today's.",
+  "fetchedAt": "2026-11-11T22:01:09.697993+00:00",
+  "text": "ConocoPhillips rose 1.6% today, snapping a three-day losing streak and bouncing back from a two-week decline of 7.6%. The move likely reflects cautious optimism around oil prices after a report that the Trump administration believes the Iran conflict could end \"fairly soon\"\u2014any reduction in Middle Eastern tensions typically supports crude prices, and investors may be rotating back into energy stocks after selling them down last week. Brent crude did dip below $90 briefly on those peace hopes, but U.S. crude is still holding near $100 a barrel, and the company's recent quarterly earnings report may also be stabilizing sentiment.\n\nThe bigger picture here is that oil majors like ConocoPhillips have been under pressure lately, down 7.6% in two weeks, likely as markets priced in lower crude prices if geopolitical risks ease\u2014but today's rebound suggests investors see a floor and aren't convinced a lasting peace deal is imminent, so the energy sector isn't capitulating yet.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 119,
-    "inputTokens": 96236,
-    "outputTokens": 24265,
-    "estimatedCostUsd": 0.217561,
-    "lastCallHour": "2026-11-11T21"
+    "callsThisMonth": 120,
+    "inputTokens": 97026,
+    "outputTokens": 24491,
+    "estimatedCostUsd": 0.219481,
+    "lastCallHour": "2026-11-11T22"
   }
 }
