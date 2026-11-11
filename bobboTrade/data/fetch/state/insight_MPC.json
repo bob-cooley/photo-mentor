@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-10T22:47:51.227003+00:00",
-  "text": "I don't have price data for today, so I can't tell you whether the stock moved up or down. However, the refining environment shows mixed signals. US crude is trading at $99.64 per barrel while Brent is around $107, and refineries are running at a healthy 94.5% capacity\u2014conditions that typically support refiner margins. But crude prices have weakened over the past two days on hopes that the Iran conflict might ease, which reduces geopolitical risk premium and puts downward pressure on oil prices overall.\n\nThe conflicting signals from Washington matter here: Trump's comments about the Iran situation ending \"fairly soon\" pushed crude lower, but Secretary of State Rubio just said negotiations remain unproductive, which keeps uncertainty alive. For a refiner like this one, cheaper crude is a double-edged sword\u2014it cuts into the value of refined products sold, while lower input costs help. Gasoline and diesel inventories are relatively healthy, which suggests steady demand but no supply crunch to drive prices up.",
+  "fetchedAt": "2026-11-11T01:28:38.843483+00:00",
+  "text": "Marathon Petroleum's stock fell 10.65% over two weeks and stayed roughly flat today, weighed down by collapsing crude oil prices. Brent crude dipped below $90 a barrel on November 10th\u2014the lowest since August\u2014after President Trump signaled the Iran conflict could end \"fairly soon.\" For a refiner, lower oil prices are a mixed bag: cheaper feedstock to process sounds good, but refiners make money on the *spread* between crude costs and what they sell gasoline and diesel for, and that spread compresses when crude falls sharply without retail fuel prices dropping as quickly.\n\nThe broader pressure comes from geopolitical de-escalation removing a key support for energy prices. Over the past week, crude has cratered from $427-level prices early November, and while refineries are running hot at 94.5% capacity and storage levels remain moderate, the dramatic fall in crude\u2014especially crude falling faster than the demand picture changed\u2014leaves refiner margins under pressure until the market finds a new equilibrium.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 106,
-    "inputTokens": 89621,
-    "outputTokens": 22307,
-    "estimatedCostUsd": 0.201156,
-    "lastCallHour": "2026-11-10T22"
+    "callsThisMonth": 107,
+    "inputTokens": 90545,
+    "outputTokens": 22530,
+    "estimatedCostUsd": 0.203195,
+    "lastCallHour": "2026-11-11T01"
   }
 }
