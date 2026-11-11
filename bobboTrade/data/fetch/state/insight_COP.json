@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T17:01:49.290338+00:00",
-  "text": "COP gained 0.89% today to $136.80, steadying after a rough two-week slide of 8.2%. The modest recovery came as oil prices held relatively stable\u2014US crude at $99.64 and Brent at $107.03\u2014with the stock bouncing off its low point of $134.47 from just two trading days ago. The rebound appears to reflect a pause in selling pressure rather than a new catalyst; the stock has been choppy throughout the period without a clear directional trigger.\n\nThe two-week decline reflects a real shift in energy market sentiment: Brent crude dipped below $90 per barrel last week on hopes the Iran conflict could ease, and while President Trump has suggested a resolution could come \"fairly soon,\" the uncertainty around geopolitical risk in the Middle East is keeping crude prices volatile and weighing on oil company valuations. For a major oil producer, lower crude prices directly shrink the dollar value of every barrel they extract, which is why the stock fell hard when those peace hopes spiked.",
+  "fetchedAt": "2026-11-11T18:01:54.798871+00:00",
+  "text": "COP climbed 0.9% today to $136.82, rebounding modestly after a rough two weeks that saw the stock drop 8.2%. The timing aligns with tentative optimism around Iran tensions easing\u2014Trump signaled Monday that the conflict could end \"fairly soon,\" which briefly pushed Brent crude below $90 a barrel for the first time since August. Oil prices matter directly to ConocoPhillips' earnings, and any relief from geopolitical risk typically lifts energy stocks, even if the move remains fragile given the gap between US oil (trading at $99.64) and global prices (Brent at $107.03).\n\nThe broader picture is one of whipsaw volatility in oil markets. The two-week slide likely reflects investor uncertainty about whether Iran tensions will actually ease or whether they'll re-escalate, creating real swings in crude prices and therefore in energy company valuations. Today's small bounce suggests a brief relief rally, but without a concrete deal, the stock could easily reverse again if the geopolitical picture darkens.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 115,
-    "inputTokens": 93083,
-    "outputTokens": 23369,
-    "estimatedCostUsd": 0.209928,
-    "lastCallHour": "2026-11-11T17"
+    "callsThisMonth": 116,
+    "inputTokens": 93872,
+    "outputTokens": 23604,
+    "estimatedCostUsd": 0.211892,
+    "lastCallHour": "2026-11-11T18"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T17:02:01.626954+00:00",
-  "text": "Marathon Petroleum climbed 1.4% today, recovering some ground after a brutal 10% drop over the past two weeks. The bounce likely reflects tentative relief on oil markets: Brent crude briefly dipped below $90 per barrel on Monday amid Trump's comments suggesting the Iran conflict could end \"fairly soon,\" and today's modest gain suggests some traders are taking that de-escalation talk at face value. For a refiner like this one, lower crude prices can actually improve margins if they're paired with stable product demand \u2014 and U.S. refineries are running hot at 94.5% capacity, suggesting demand hasn't cratered despite the recent turmoil.\n\nThe two-week decline, though, points to a deeper concern: the geopolitical uncertainty itself. Even as Trump signals optimism, Secretary of State Rubio has said Iran negotiations remain unproductive, and Iranian threats against U.S. officials have been credible enough to warrant protective measures. Refiners thrive on predictability; swings between war-risk premiums on oil and sudden peace talk rallies create volatility that can weigh on valuations regardless of the actual crude price level.",
+  "fetchedAt": "2026-11-11T18:02:09.579054+00:00",
+  "text": "Marathon Petroleum bounced back 1.6% today after three straight days of losses that wiped out 10% of the stock's value last week. The recovery reflects modest stabilization in crude oil markets \u2014 US oil held steady around $100/barrel, and refineries continue running at a healthy 94.5% capacity. Conflicting signals about Iran tensions may have eased some of the panic: while Trump administration officials expressed optimism about ending the conflict, oil markets also briefly dipped below $90 when that rhetoric circulated, before stabilizing today.\n\nThe bigger picture is that refiner stocks are caught between two opposing forces right now. Lower oil prices and high fuel inventories (gasoline stocks are near recent levels) would normally hurt refining margins, but the 10% drop over two weeks suggests investors were pricing in more severe oil price declines tied to geopolitical de-escalation \u2014 a decline that didn't fully materialize today, allowing the stock to recover somewhat.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 115,
-    "inputTokens": 97873,
-    "outputTokens": 24413,
-    "estimatedCostUsd": 0.219938,
-    "lastCallHour": "2026-11-11T17"
+    "callsThisMonth": 116,
+    "inputTokens": 98792,
+    "outputTokens": 24623,
+    "estimatedCostUsd": 0.221907,
+    "lastCallHour": "2026-11-11T18"
   }
 }
