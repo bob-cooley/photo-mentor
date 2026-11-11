@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T15:02:55.657897+00:00",
-  "text": "Marathon Petroleum rose 1.6% today, bouncing back after a brutal two-week slide of over 10%. The stock recovered some ground as oil prices stabilized \u2014 US crude held steady around $100 per barrel and refineries ran at 94.5% capacity, supporting margins for the company's refining operations. The modest gain follows several days of sharp losses tied to geopolitical de-escalation: earlier this week, crude prices fell when President Trump suggested the Iran conflict might end soon, and market worries about new Middle East strikes eased.\n\nThe two-week decline reflects a real tension in what's good for refiners: lower oil prices on geopolitical relief sound positive in theory, but they compress the profit margins refiners earn by processing crude into fuel \u2014 the difference between what they pay for oil and what they sell gasoline for. After markets priced in much of that margin compression earlier in the week, today's modest rebound suggests traders may be anchoring on the fact that refineries are still running near capacity and fuel storage levels remain manageable, which supports near-term demand expectations.",
+  "fetchedAt": "2026-11-11T16:03:02.061201+00:00",
+  "text": "Marathon Petroleum bounced back 1.9% today after hitting a three-week low two days ago, recovering some ground in a volatile week. The move appears tied to conflicting signals on geopolitical risk: while President Trump suggested the Iran conflict could end \"fairly soon\" and crude briefly dipped below $90, Secretary of State Rubio on the same day called Iranian demands \"outrageous\" and said negotiations remain unproductive, leaving the path to peace unclear. Oil refining margins depend heavily on stable crude prices, and this whipsaw between peace hopes and diplomatic pessimism creates uncertainty for refiners like this one.\n\nThe broader context is that U.S. refineries are running at a healthy 94.5% capacity with crude inventories elevated at 692 million barrels, so the company has room to capture margins if crude prices stabilize\u2014but the two-week decline of 9.9% reflects genuine concern about where energy prices head if Middle East tensions truly ease.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 113,
-    "inputTokens": 96043,
-    "outputTokens": 23948,
-    "estimatedCostUsd": 0.215783,
-    "lastCallHour": "2026-11-11T15"
+    "callsThisMonth": 114,
+    "inputTokens": 96954,
+    "outputTokens": 24161,
+    "estimatedCostUsd": 0.217759,
+    "lastCallHour": "2026-11-11T16"
   }
 }
