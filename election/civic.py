@@ -34,27 +34,40 @@ def _get(url):
         return json.load(r)
 
 
+def _num(v):
+    """Numbers only: anything else from the API becomes None."""
+    if isinstance(v, bool):
+        return None
+    if isinstance(v, (int, float)):
+        return v
+    try:
+        return float(str(v).replace(",", ""))
+    except (TypeError, ValueError):
+        return None
+
+
 def _cache(kind):
     return HERE / f"civic_{kind}_cache.json"
 
 
 def _parse(kind, d):
-    out = {"reporting": d.get("percent_reporting"), "updated": d.get("last_updated"), "fetched": time.time()}
+    out = {"reporting": _num(d.get("percent_reporting")), "updated": str(d.get("last_updated") or "")[:40],
+           "fetched": time.time()}
     if kind == "house":
         seats = {"D": 0, "R": 0, "O": 0}
         for c in d.get("candidates", []):
-            seats[_party(c.get("party"))] += c.get("seats") or 0
+            seats[_party(c.get("party"))] += int(_num(c.get("seats")) or 0)
         out["seats"] = seats
         # region_results here are districts keyed like "co-04" / "ak-al"
     regions, won = {}, {"D": 0, "R": 0, "O": 0}
     for code, reg in (d.get("region_results") or {}).items():
-        cands = [{"name": c.get("name"), "party": _party(c.get("party")),
-                  "votes": c.get("votes"), "pct": c.get("percent")}
+        cands = [{"name": str(c.get("name") or "")[:80], "party": _party(c.get("party")),
+                  "votes": _num(c.get("votes")), "pct": _num(c.get("percent"))}
                  for c in reg.get("candidates", [])]
         winner = next((_party(c.get("party")) for c in reg.get("candidates", []) if c.get("winner")), None)
         if winner:
             won[winner] += 1
-        regions[code.lower()] = {"winner": winner, "reporting": reg.get("percent_reporting"),
+        regions[str(code).lower()] = {"winner": winner, "reporting": _num(reg.get("percent_reporting")),
                                  "candidates": cands}
     out.update(regions=regions, won=won, races=len(regions))
     return out

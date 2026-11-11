@@ -330,7 +330,7 @@
         out[ab] = { fill: TINT[r.called], text: (w ? w.name.toLowerCase() + " (" + PN[r.called] + ")" : PN[r.called]) + " · called" };
       } else if (lead && lead.pct) {
         out[ab] = { fill: TINT[lead.party + "l"], text: lead.name.toLowerCase() + " (" + PN[lead.party] + ") leads " +
-          Number(lead.pct).toFixed(1) + "%" + (r.reporting != null ? " · " + r.reporting + "% reported" : "") };
+          Number(lead.pct).toFixed(1) + "%" + (r.reporting != null ? " · " + Number(r.reporting) + "% reported" : "") };
       } else {
         out[ab] = { fill: TINT.none, text: "no votes reported" };
       }
@@ -480,7 +480,7 @@
     if (v == null) {
       return '<div class="rep"><div class="meter"></div><span>reporting n/a</span></div>';
     }
-    var w = Math.max(0, Math.min(100, v));
+    var w = Math.max(0, Math.min(100, Number(v) || 0));
     var txt = (w % 1 ? w.toFixed(1) : w) + "% reported" +
       (r.last_update ? " · as of " + esc(String(r.last_update).toLowerCase()) : "");
     return '<div class="rep"><div class="meter' + (w >= 100 ? " full" : "") + '"><i style="width:' + w + '%"></i></div><span>' + txt + '</span></div>';
@@ -494,7 +494,7 @@
         '<div class="foot"><a href="' + esc(r.url) + '" target="_blank" rel="noopener">source</a></div></div>';
     }
     var L = c[0], Rt = c[1] || null;
-    var lp = L.pct || 0, rp = Rt ? (Rt.pct || 0) : 0, op = r.other_pct || 0;
+    var lp = Number(L.pct) || 0, rp = Rt ? (Number(Rt.pct) || 0) : 0, op = Number(r.other_pct) || 0;
     var sum = lp + rp + op;
     var counting = sum === 0;
     var bar = counting
