@@ -139,6 +139,54 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-10T03:21:50.495070+00:00"
+    },
+    {
+      "date": "2026-10-31",
+      "facility": "Ryazan",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-10-31-ryazan-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-11T01:32:40.531217+00:00"
+    },
+    {
+      "date": "2026-10-31",
+      "facility": "Yaroslavl",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-10-31-yaroslavl-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-11T01:32:40.531307+00:00"
+    },
+    {
+      "date": "2026-11-09",
+      "facility": "Kirishinefteorgsintez plant in Kirishi, Leningrad Oblast",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-09-kirishinefteorgsintez-plant-in-kirishi-l-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-11T01:32:42.090265+00:00"
     }
   ],
   "processedUrls": {
@@ -171,17 +219,19 @@
     "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T03:21:45.738409+00:00",
     "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-10T03:21:47.132302+00:00",
     "https://www.theguardian.com/world/2026/nov/08/ukraine-war-briefing-russia-ramping-up-attacks-to-pressure-kyiv-at-trilateral-talks-zelenskyy-says": "2026-11-10T03:21:48.667622+00:00",
-    "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help": "2026-11-10T03:21:50.494678+00:00"
+    "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help": "2026-11-10T03:21:50.494678+00:00",
+    "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-11T01:32:40.530731+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-11T01:32:42.089990+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 10,
-    "inputTokens": 13528,
-    "outputTokens": 1406,
-    "estimatedCostUsd": 0.020558
+    "calls": 12,
+    "inputTokens": 15326,
+    "outputTokens": 1781,
+    "estimatedCostUsd": 0.024231
   },
-  "lastGdeltOk": false,
+  "lastGdeltOk": true,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-11-10T06:25:06.032945+00:00"
+  "lastRunAt": "2026-11-11T01:32:42.090304+00:00"
 }

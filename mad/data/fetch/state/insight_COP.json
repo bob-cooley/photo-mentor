@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-10T06:00:07.683996+00:00",
-  "text": "ConocoPhillips fell 1.3% today, extending a sharp two-week decline of over 11%. The primary driver appears to be weakness in oil prices: US crude has dropped to $99.64 per barrel from levels above $130 just two weeks ago, directly reducing the revenue and profits that oil producers like ConocoPhillips generate. The stock's steep fall accelerated after the company's November 5th quarterly earnings report, suggesting the market's expectations for profitability in a lower oil price environment may have disappointed.\n\nThe broader context adds another headwind: November's midterm election results that rejected Trump and his party have energized the push toward renewable energy, a longer-term threat to oil industry valuations. While near-term geopolitical tensions like Iran negotiations remain unresolved, they haven't stabilized oil prices enough to support the sector's recent losses.",
+  "fetchedAt": "2026-11-11T01:31:33.413472+00:00",
+  "text": "ConocoPhillips rose 0.83% today, a modest gain that comes after the stock had fallen 8.36% over the past two weeks. The immediate backdrop is shifting oil-market sentiment: Brent crude briefly dipped below $90 a barrel on November 10th following President Trump's comments that he expects the Iran conflict to end \"fairly soon,\" which would reduce geopolitical risk premium in oil prices. US crude is currently trading at $99.64 per barrel, down from where it was during the earlier part of this two-week slide.\n\nThe broader context is that energy stocks like ConocoPhillips are caught between competing forces\u2014lower oil prices (which hurt profitability) and reduced geopolitical tension (which the market sees as positive for stability and demand). The company reported earnings on November 5th, but the stock's steep two-week decline suggests that recent oil-price weakness and the de-escalation narrative have outweighed any positive earnings news so far.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 10,
-    "inputTokens": 8201,
-    "outputTokens": 1847,
-    "estimatedCostUsd": 0.017436,
-    "lastCallHour": "2026-11-10T06"
+    "callsThisMonth": 11,
+    "inputTokens": 8993,
+    "outputTokens": 2065,
+    "estimatedCostUsd": 0.019318,
+    "lastCallHour": "2026-11-11T01"
   }
 }
