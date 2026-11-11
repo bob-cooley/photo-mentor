@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T13:02:24.600595+00:00",
-  "text": "Marathon Petroleum fell 0.08% today, continuing a steep 10.65% decline over the past two weeks. The selloff reflects a significant shift in oil market outlook: crude prices have dropped sharply on optimism that the Iran conflict may de-escalate, with Brent briefly dipping below $90 a barrel for the first time since August. For a refiner, lower crude prices are a double-edged sword\u2014while they reduce input costs, they also compress profit margins, and the market appears to be pricing in sustained weakness rather than opportunity.\n\nThe broader headwind is geopolitical de-risking combined with political momentum against fossil fuels. Following the midterm election results and Trump's statements that the Iran conflict is \"going to be ending fairly soon,\" energy traders have shifted away from the supply-shock premiums that had kept oil elevated. Refineries are running at a healthy 94.5%, but without the tailwind of higher crude prices or the margin protection that supply constraints provide, refiner valuations are under pressure.",
+  "fetchedAt": "2026-11-11T14:02:42.271479+00:00",
+  "text": "Marathon Petroleum's stock has slid 10.65% over two weeks, with today's tiny move (-0.08%) coming after sharp drops on November 4th and 5th. The biggest driver is the sharp decline in crude oil prices: Brent crude dipped below $90 a barrel this week on optimism that the Iran conflict could end soon, and President Trump signaled he expects the situation to resolve fairly quickly. Since refiners like Marathon profit from the spread between the cost of crude oil they buy and the refined products they sell, a falling oil price narrows that profit margin\u2014especially when the drop happens fast.\n\nThe broader headwinds are geopolitical de-escalation (which reduces oil prices) combined with a political shift against fossil fuels after the midterm elections. While refineries are running at a healthy 94.5%, the combination of lower crude prices and a regulatory environment turning more skeptical of energy production creates an uncertain outlook for the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 111,
-    "inputTokens": 94219,
-    "outputTokens": 23503,
-    "estimatedCostUsd": 0.211734,
-    "lastCallHour": "2026-11-11T13"
+    "callsThisMonth": 112,
+    "inputTokens": 95132,
+    "outputTokens": 23712,
+    "estimatedCostUsd": 0.213692,
+    "lastCallHour": "2026-11-11T14"
   }
 }
