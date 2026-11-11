@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T16:02:37.602339+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices stabilized after recent weakness. US crude held around $99.64 per barrel, while global Brent crude recovered from a brief dip below $90 earlier this week\u2014that dip had come on optimism about Iran tensions easing, but the rebound suggests the market is pricing in continued uncertainty about Middle East supply. The stock has still lost 8.3% over two weeks, reflecting investor caution as oil prices face headwinds from potential peace developments that could ease geopolitical risk premiums.\n\nThe company reported quarterly earnings on November 5th, landing during a period when energy investors were reassessing oil price outlooks. With US oil trading significantly below Brent ($99.64 vs. $107.03), the refining margin compression and mixed signals on Iran\u2014Trump's comments about conflict ending soon versus lingering skepticism\u2014have kept the energy sector volatile, making ConocoPhillips stock reflect that broader uncertainty more than any company-specific news.",
+  "fetchedAt": "2026-11-11T17:01:49.290338+00:00",
+  "text": "COP gained 0.89% today to $136.80, steadying after a rough two-week slide of 8.2%. The modest recovery came as oil prices held relatively stable\u2014US crude at $99.64 and Brent at $107.03\u2014with the stock bouncing off its low point of $134.47 from just two trading days ago. The rebound appears to reflect a pause in selling pressure rather than a new catalyst; the stock has been choppy throughout the period without a clear directional trigger.\n\nThe two-week decline reflects a real shift in energy market sentiment: Brent crude dipped below $90 per barrel last week on hopes the Iran conflict could ease, and while President Trump has suggested a resolution could come \"fairly soon,\" the uncertainty around geopolitical risk in the Middle East is keeping crude prices volatile and weighing on oil company valuations. For a major oil producer, lower crude prices directly shrink the dollar value of every barrel they extract, which is why the stock fell hard when those peace hopes spiked.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 114,
-    "inputTokens": 92294,
-    "outputTokens": 23140,
-    "estimatedCostUsd": 0.207994,
-    "lastCallHour": "2026-11-11T16"
+    "callsThisMonth": 115,
+    "inputTokens": 93083,
+    "outputTokens": 23369,
+    "estimatedCostUsd": 0.209928,
+    "lastCallHour": "2026-11-11T17"
   }
 }

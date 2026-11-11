@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T16:03:02.061201+00:00",
-  "text": "Marathon Petroleum bounced back 1.9% today after hitting a three-week low two days ago, recovering some ground in a volatile week. The move appears tied to conflicting signals on geopolitical risk: while President Trump suggested the Iran conflict could end \"fairly soon\" and crude briefly dipped below $90, Secretary of State Rubio on the same day called Iranian demands \"outrageous\" and said negotiations remain unproductive, leaving the path to peace unclear. Oil refining margins depend heavily on stable crude prices, and this whipsaw between peace hopes and diplomatic pessimism creates uncertainty for refiners like this one.\n\nThe broader context is that U.S. refineries are running at a healthy 94.5% capacity with crude inventories elevated at 692 million barrels, so the company has room to capture margins if crude prices stabilize\u2014but the two-week decline of 9.9% reflects genuine concern about where energy prices head if Middle East tensions truly ease.",
+  "fetchedAt": "2026-11-11T17:02:01.626954+00:00",
+  "text": "Marathon Petroleum climbed 1.4% today, recovering some ground after a brutal 10% drop over the past two weeks. The bounce likely reflects tentative relief on oil markets: Brent crude briefly dipped below $90 per barrel on Monday amid Trump's comments suggesting the Iran conflict could end \"fairly soon,\" and today's modest gain suggests some traders are taking that de-escalation talk at face value. For a refiner like this one, lower crude prices can actually improve margins if they're paired with stable product demand \u2014 and U.S. refineries are running hot at 94.5% capacity, suggesting demand hasn't cratered despite the recent turmoil.\n\nThe two-week decline, though, points to a deeper concern: the geopolitical uncertainty itself. Even as Trump signals optimism, Secretary of State Rubio has said Iran negotiations remain unproductive, and Iranian threats against U.S. officials have been credible enough to warrant protective measures. Refiners thrive on predictability; swings between war-risk premiums on oil and sudden peace talk rallies create volatility that can weigh on valuations regardless of the actual crude price level.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 114,
-    "inputTokens": 96954,
-    "outputTokens": 24161,
-    "estimatedCostUsd": 0.217759,
-    "lastCallHour": "2026-11-11T16"
+    "callsThisMonth": 115,
+    "inputTokens": 97873,
+    "outputTokens": 24413,
+    "estimatedCostUsd": 0.219938,
+    "lastCallHour": "2026-11-11T17"
   }
 }
