@@ -60,10 +60,14 @@ jobs:
           # stamp script URLs so a changed file is never served from a stale cache
           sed -i "s/__V__/${GITHUB_SHA::7}/g" election/index.html
           for f in index.html .htaccess fx.js fireworks.umd.js fireworks.LICENSE.txt states.json us-atlas.LICENSE.txt; do
-            curl -sS --ftp-create-dirs --user "$FTP_USER:$FTP_PASS" \
+            curl -sS --ssl-reqd --ftp-create-dirs --user "$FTP_USER:$FTP_PASS" \
               -T "election/$f" "ftp://$FTP_HOST/$REMOTE/$f"
             echo "uploaded $f"
           done
+          # site-root robots.txt: the photo site's existing rules plus /election/
+          curl -sS --ssl-reqd --user "$FTP_USER:$FTP_PASS" \
+            -T election/robots-root.txt "ftp://$FTP_HOST/public_html/bobcooleyphoto/robots.txt"
+          echo "uploaded robots.txt"
 
       - name: One-off refresh
         if: steps.gate.outputs.live != 'true'
@@ -75,7 +79,7 @@ jobs:
           rc=0
           python3 election/fetch.py || rc=$?
           if [ "$rc" = 0 ]; then
-            curl -sS --user "$FTP_USER:$FTP_PASS" \
+            curl -sS --ssl-reqd --user "$FTP_USER:$FTP_PASS" \
               -T election/data.json "ftp://$FTP_HOST/$REMOTE/data.json" && echo "uploaded data.json"
           else
             echo "fetch failed (rc=$rc); keeping last upload"
@@ -107,7 +111,7 @@ jobs:
             rc=0
             if [ "$first" = 1 ]; then python3 election/fetch.py --debug || rc=$?; else python3 election/fetch.py || rc=$?; fi
             if [ "$rc" = 0 ]; then
-              curl -sS --user "$FTP_USER:$FTP_PASS" \
+              curl -sS --ssl-reqd --user "$FTP_USER:$FTP_PASS" \
                 -T election/data.json "ftp://$FTP_HOST/$REMOTE/data.json" \
                 && echo "uploaded data.json" || echo "upload failed; will retry next cycle"
             else

@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /*.thumb*.webp$
+Disallow: /*storage/originals/*$
+Disallow: /admin/*
+Disallow: /election/
