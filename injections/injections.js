@@ -134,11 +134,60 @@
     footer.insertBefore(p, footer.firstChild);
   }
 
+  /* ===================================================================
+     Homepage fit-to-window (2026-11-10). On desktop (window 1000px+ wide),
+     if the page is taller than the window, the whole page shrinks with CSS
+     zoom so header, rotator and footer all fit. 100% is the maximum (never
+     enlarged past the design size); 75% is the floor, below which the page
+     scrolls as normal. Recomputed on every resize, so making the window
+     bigger scales a shrunk page back up toward 100%.
+     =================================================================== */
+  var FIT_MIN = 0.75;
+  var FIT_MARGIN = 2; // px of slack so rounding never leaves a 1px scrollbar
+
+  function fitHomepage() {
+    var root = document.documentElement;
+    root.style.zoom = "";
+    if (window.innerWidth < 1000) return;
+
+    var height = root.scrollHeight;
+    if (height <= window.innerHeight) return;
+
+    // Zooming out widens the layout (up to the 1300px max), which makes the 16:9
+    // rotator taller, so re-measure and correct a few times until it fits.
+    var zoom = Math.max(FIT_MIN, (window.innerHeight - FIT_MARGIN) / height);
+    for (var i = 0; i < 4; i++) {
+      root.style.zoom = zoom;
+      height = root.scrollHeight;
+      if (height <= window.innerHeight || zoom <= FIT_MIN) break;
+      zoom = Math.max(FIT_MIN, zoom * (window.innerHeight - FIT_MARGIN) / height);
+    }
+  }
+
+  function initHomepageFit() {
+    if (!document.querySelector("main.frontpage")) return;
+    var pending = false;
+    function schedule() {
+      if (pending) return;
+      pending = true;
+      window.requestAnimationFrame(function () {
+        pending = false;
+        fitHomepage();
+      });
+    }
+    fitHomepage();
+    window.addEventListener("resize", schedule);
+    // the theme sizes the slideshow after its images load, so measure again then
+    window.addEventListener("load", schedule);
+    window.setTimeout(schedule, 600);
+  }
+
   function init() {
     init404Flicker();
     initNavAmpersand();
     initGalleriesNote();
     initFooterTagline();
+    initHomepageFit();
   }
 
   if (document.readyState === "loading") {
