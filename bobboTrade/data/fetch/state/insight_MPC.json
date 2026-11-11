@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T18:02:09.579054+00:00",
-  "text": "Marathon Petroleum bounced back 1.6% today after three straight days of losses that wiped out 10% of the stock's value last week. The recovery reflects modest stabilization in crude oil markets \u2014 US oil held steady around $100/barrel, and refineries continue running at a healthy 94.5% capacity. Conflicting signals about Iran tensions may have eased some of the panic: while Trump administration officials expressed optimism about ending the conflict, oil markets also briefly dipped below $90 when that rhetoric circulated, before stabilizing today.\n\nThe bigger picture is that refiner stocks are caught between two opposing forces right now. Lower oil prices and high fuel inventories (gasoline stocks are near recent levels) would normally hurt refining margins, but the 10% drop over two weeks suggests investors were pricing in more severe oil price declines tied to geopolitical de-escalation \u2014 a decline that didn't fully materialize today, allowing the stock to recover somewhat.",
+  "fetchedAt": "2026-11-11T19:02:13.925427+00:00",
+  "text": "Marathon Petroleum recovered today, gaining 1.78%, after a brutal two-week slide that saw the stock down 10%. The recovery follows mixed signals on geopolitical risk: while Trump said the Iran conflict could end \"fairly soon\" and oil prices dipped on those peace hopes (Brent briefly fell below $90), the Treasury Secretary was moved to a military base due to Iranian threats, and the Secretary of State said negotiations remain unproductive. Crude has stabilized around $99\u2013107 per barrel, and US refineries are running at 94.5%, so the immediate operating environment hasn't dramatically worsened\u2014the stock may be bouncing after overshooting downward last week.\n\nThe broader backdrop here is conflicting signals about Iran risk and energy demand. The midterm elections dealt a setback to the renewable energy push (which could support fuel demand longer-term), but uncertainty about whether de-escalation actually happens is keeping oil and energy stocks volatile. For a refiner like Marathon, lower oil prices can help margins\u2014but the swings in geopolitical risk have dominated recent trading more than the actual fundamentals of refining economics.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 116,
-    "inputTokens": 98792,
-    "outputTokens": 24623,
-    "estimatedCostUsd": 0.221907,
-    "lastCallHour": "2026-11-11T18"
+    "callsThisMonth": 117,
+    "inputTokens": 99711,
+    "outputTokens": 24869,
+    "estimatedCostUsd": 0.224056,
+    "lastCallHour": "2026-11-11T19"
   }
 }
