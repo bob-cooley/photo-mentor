@@ -166,14 +166,11 @@
 
   function initHomepageFit() {
     if (!document.querySelector("main.frontpage")) return;
-    var pending = false;
+    // short debounce (a timer, not requestAnimationFrame, so it also runs where frames are throttled)
+    var timer = null;
     function schedule() {
-      if (pending) return;
-      pending = true;
-      window.requestAnimationFrame(function () {
-        pending = false;
-        fitHomepage();
-      });
+      window.clearTimeout(timer);
+      timer = window.setTimeout(fitHomepage, 60);
     }
     fitHomepage();
     window.addEventListener("resize", schedule);
