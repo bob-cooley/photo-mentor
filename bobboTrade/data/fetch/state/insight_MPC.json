@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T14:02:42.271479+00:00",
-  "text": "Marathon Petroleum's stock has slid 10.65% over two weeks, with today's tiny move (-0.08%) coming after sharp drops on November 4th and 5th. The biggest driver is the sharp decline in crude oil prices: Brent crude dipped below $90 a barrel this week on optimism that the Iran conflict could end soon, and President Trump signaled he expects the situation to resolve fairly quickly. Since refiners like Marathon profit from the spread between the cost of crude oil they buy and the refined products they sell, a falling oil price narrows that profit margin\u2014especially when the drop happens fast.\n\nThe broader headwinds are geopolitical de-escalation (which reduces oil prices) combined with a political shift against fossil fuels after the midterm elections. While refineries are running at a healthy 94.5%, the combination of lower crude prices and a regulatory environment turning more skeptical of energy production creates an uncertain outlook for the sector.",
+  "fetchedAt": "2026-11-11T15:02:55.657897+00:00",
+  "text": "Marathon Petroleum rose 1.6% today, bouncing back after a brutal two-week slide of over 10%. The stock recovered some ground as oil prices stabilized \u2014 US crude held steady around $100 per barrel and refineries ran at 94.5% capacity, supporting margins for the company's refining operations. The modest gain follows several days of sharp losses tied to geopolitical de-escalation: earlier this week, crude prices fell when President Trump suggested the Iran conflict might end soon, and market worries about new Middle East strikes eased.\n\nThe two-week decline reflects a real tension in what's good for refiners: lower oil prices on geopolitical relief sound positive in theory, but they compress the profit margins refiners earn by processing crude into fuel \u2014 the difference between what they pay for oil and what they sell gasoline for. After markets priced in much of that margin compression earlier in the week, today's modest rebound suggests traders may be anchoring on the fact that refineries are still running near capacity and fuel storage levels remain manageable, which supports near-term demand expectations.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 112,
-    "inputTokens": 95132,
-    "outputTokens": 23712,
-    "estimatedCostUsd": 0.213692,
-    "lastCallHour": "2026-11-11T14"
+    "callsThisMonth": 113,
+    "inputTokens": 96043,
+    "outputTokens": 23948,
+    "estimatedCostUsd": 0.215783,
+    "lastCallHour": "2026-11-11T15"
   }
 }

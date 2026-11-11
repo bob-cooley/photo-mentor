@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T14:02:23.075343+00:00",
-  "text": "ConocoPhillips rose slightly today, but the stock has actually fallen sharply over the past two weeks\u2014down 8.4% since early November despite oil prices holding relatively steady. The recent tailwind came from Trump's comments suggesting the Iran conflict may end \"fairly soon,\" which briefly pushed Brent crude below $90, and this optimism carried into today's modest gain. However, the deeper context is a two-week selloff that started right after the company reported quarterly earnings on November 5th, suggesting investors may have been disappointed by the results or concerned about the outlook.\n\nThe wider pressure on the stock reflects oil market weakness driven by Iran peace hopes\u2014lower geopolitical risk typically means lower crude prices, which cuts into a refiner's profit margins. With Brent crude now $107 and US oil at $99, prices have softened considerably from where they sat before the geopolitical optimism took hold, leaving investors cautious about energy sector returns even as the stock bounces modestly on any sign of stability.",
+  "fetchedAt": "2026-11-11T15:02:33.215541+00:00",
+  "text": "ConocoPhillips rose 0.87% today, bouncing modestly after a steep 8.24% two-week decline. The small gain came as oil prices stabilized\u2014US crude held at $99.64 per barrel after dipping earlier in the week on optimism about Iran tensions easing. The company's earnings report on November 5th and analyst attention haven't offset the broader pullback in energy stocks over the past two weeks.\n\nThe real headwind has been geopolitical uncertainty around Iran. Brent crude briefly fell below $90 a barrel earlier this week on hopes for de-escalation, which would increase global oil supply and put downward pressure on the prices that oil producers like ConocoPhillips depend on. Even as today's bounce suggests some steadying, the risk premium has come out of crude\u2014and with it, out of the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 112,
-    "inputTokens": 90732,
-    "outputTokens": 22726,
-    "estimatedCostUsd": 0.204362,
-    "lastCallHour": "2026-11-11T14"
+    "callsThisMonth": 113,
+    "inputTokens": 91513,
+    "outputTokens": 22918,
+    "estimatedCostUsd": 0.206103,
+    "lastCallHour": "2026-11-11T15"
   }
 }
