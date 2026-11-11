@@ -140,6 +140,15 @@
     color: var(--muted); margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
   }
   .chambers { display: grid; gap: 14px; }
+  .hemis { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+  @media (max-width: 560px) { .hemis { grid-template-columns: 1fr; } }
+  .hemi { text-align: center; }
+  .hemi svg { width: 100%; height: auto; display: block; }
+  .hemi .hl { display: flex; justify-content: space-between; align-items: baseline; margin-top: 4px; font-variant-numeric: tabular-nums; }
+  .hemi .hl .D { color: var(--dem); font-weight: 700; font-size: 18px; }
+  .hemi .hl .R { color: var(--rep); font-weight: 700; font-size: 18px; }
+  .hemi .hl .mid { color: var(--muted); font-size: 12px; }
+  .hemi .ht { font-weight: 600; font-size: 15px; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px 12px; }
   .head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; gap: 8px; }
@@ -228,6 +237,7 @@
   </header>
   <section>
     <h2>control</h2>
+    <div class="hemis" id="hemis"></div>
     <div class="chambers" id="chambers"></div>
   </section>
   <div id="sections"></div>
@@ -262,6 +272,48 @@
   function lastName(n) { var p = String(n).split(" "); return p[p.length - 1]; }
 
   var PARTY_NAME = { D: "democrats", R: "republicans" };
+  // parliament-style seat chart: seats in concentric arcs, filled left to
+  // right by angle: democrats, independents, uncalled, republicans
+  function hemiCard(ch) {
+    var s = ch.seats || {}, N = ch.total;
+    var D = s.D || 0, O = s.O || 0, R = s.R || 0;
+    var U = Math.max(0, N - D - O - R);
+    var rows = N > 200 ? 11 : 5, r0 = 0.42, seats = [];
+    var radii = [], sum = 0;
+    for (var i = 0; i < rows; i++) { var r = r0 + (1 - r0) * i / (rows - 1); radii.push(r); sum += r; }
+    var counts = radii.map(function (r) { return Math.round(N * r / sum); });
+    var diff = N - counts.reduce(function (a, b) { return a + b; }, 0);
+    counts[rows - 1] += diff;
+    radii.forEach(function (r, i) {
+      var n = counts[i];
+      for (var j = 0; j < n; j++) {
+        var a = Math.PI * (1 - (n === 1 ? 0.5 : j / (n - 1)));
+        seats.push({ a: a, r: r, x: Math.cos(a) * r, y: Math.sin(a) * r });
+      }
+    });
+    seats.sort(function (p, q) { return q.a - p.a || p.r - q.r; });
+    var order = [];
+    [["D", D], ["O", O], ["U", U], ["R", R]].forEach(function (g) { for (var k = 0; k < g[1]; k++) order.push(g[0]); });
+    var dot = (1 - r0) / (rows - 1) * 0.42;
+    var fill = { D: "var(--dem)", R: "var(--rep)", O: "var(--oth)", U: "var(--empty)" };
+    var W = 100, H = 54, cx = 50, cy = 51, sc = 47;
+    var circles = seats.map(function (p, i) {
+      return '<circle cx="' + (cx + p.x * sc).toFixed(2) + '" cy="' + (cy - p.y * sc).toFixed(2) +
+        '" r="' + (dot * sc).toFixed(2) + '" fill="' + fill[order[i] || "U"] + '"/>';
+    }).join("");
+    var ctl = (lastData && lastData.control && lastData.control[ch.id]) || null;
+    var center = ctl && PARTY_NAME[ctl.party]
+      ? '<text x="50" y="49" text-anchor="middle" font-size="4.2" font-weight="700" fill="var(--win)">' + PARTY_NAME[ctl.party] + '</text>'
+      : '<text x="50" y="49" text-anchor="middle" font-size="3.6" fill="var(--muted)">' + ch.majority + ' for majority</text>';
+    return '<div class="card hemi">' +
+      '<div class="ht">' + (ch.id === "senate" ? "senate" : "house") + '</div>' +
+      '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + ch.id + ' seats: ' + D + ' democratic, ' + O + ' independent, ' + R + ' republican, ' + U + ' uncalled">' +
+      circles + center + '</svg>' +
+      '<div class="hl"><span class="D">' + D + (O ? ' <span class="mid">+ ' + O + ' ind</span>' : '') + '</span>' +
+      '<span class="mid">' + (U ? U + ' uncalled' : 'all called') + '</span>' +
+      '<span class="R">' + R + '</span></div></div>';
+  }
+
   function chamberCard(ch) {
     var ctl = (lastData && lastData.control && lastData.control[ch.id]) || null;
     var s = ch.seats || {};
@@ -389,6 +441,10 @@
       var which = window.ElectionFX.pick(d.control);
       if (which) { fxDone = true; setTimeout(function () { window.ElectionFX.play(which); }, 400); }
     }
+    var byId = {};
+    (d.chambers || []).forEach(function (c) { byId[c.id] = c; });
+    document.getElementById("hemis").innerHTML =
+      (byId.senate ? hemiCard(byId.senate) : "") + (byId.house ? hemiCard(byId.house) : "");
     document.getElementById("chambers").innerHTML = (d.chambers || []).map(chamberCard).join("");
     document.getElementById("sections").innerHTML = (d.sections || []).map(function (s) {
       var keyRaces = s.races.filter(function (r) { return r.key; });

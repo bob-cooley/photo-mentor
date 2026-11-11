@@ -48,8 +48,10 @@ jobs:
             echo "live=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # After STOP_AT, a push or manual run still uploads the page and does one
+      # data refresh; only the 2-minute loop and the chaining stop.
       - name: Upload page
-        if: steps.gate.outputs.live == 'true'
+        if: steps.gate.outputs.live == 'true' || github.event_name != 'schedule'
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
@@ -62,6 +64,22 @@ jobs:
               -T "election/$f" "ftp://$FTP_HOST/$REMOTE/$f"
             echo "uploaded $f"
           done
+
+      - name: One-off refresh
+        if: steps.gate.outputs.live != 'true' && github.event_name != 'schedule'
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: |
+          rc=0
+          python3 election/fetch.py || rc=$?
+          if [ "$rc" = 0 ]; then
+            curl -sS --user "$FTP_USER:$FTP_PASS" \
+              -T election/data.json "ftp://$FTP_HOST/$REMOTE/data.json" && echo "uploaded data.json"
+          else
+            echo "fetch failed (rc=$rc); keeping last upload"
+          fi
 
       - name: Refresh loop
         if: steps.gate.outputs.live == 'true'
