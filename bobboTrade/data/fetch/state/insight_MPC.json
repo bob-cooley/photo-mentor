@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T19:02:13.925427+00:00",
-  "text": "Marathon Petroleum recovered today, gaining 1.78%, after a brutal two-week slide that saw the stock down 10%. The recovery follows mixed signals on geopolitical risk: while Trump said the Iran conflict could end \"fairly soon\" and oil prices dipped on those peace hopes (Brent briefly fell below $90), the Treasury Secretary was moved to a military base due to Iranian threats, and the Secretary of State said negotiations remain unproductive. Crude has stabilized around $99\u2013107 per barrel, and US refineries are running at 94.5%, so the immediate operating environment hasn't dramatically worsened\u2014the stock may be bouncing after overshooting downward last week.\n\nThe broader backdrop here is conflicting signals about Iran risk and energy demand. The midterm elections dealt a setback to the renewable energy push (which could support fuel demand longer-term), but uncertainty about whether de-escalation actually happens is keeping oil and energy stocks volatile. For a refiner like Marathon, lower oil prices can help margins\u2014but the swings in geopolitical risk have dominated recent trading more than the actual fundamentals of refining economics.",
+  "fetchedAt": "2026-11-11T20:02:33.776934+00:00",
+  "text": "Marathon Petroleum bounced back 2.45% today after dropping nearly 9.5% over the past two weeks, as oil markets stabilized on mixed signals about Middle East tensions. US crude held at $99.64 a barrel while Brent briefly dipped below $90 earlier in the week on hopes of de-escalation\u2014Trump suggested an Iran conflict could end \"fairly soon\"\u2014but Secretary of State Rubio countered that diplomatic talks remain stalled, creating uncertainty about whether oil prices will stay depressed or spike again. For a refiner like Marathon, lower crude prices cut into profit margins (the \"crack spread,\" or the difference between what they pay for oil and what they earn selling refined products), so the week's oil price swoon weighed heavily; today's rebound suggests some relief as traders price in the possibility that geopolitical risk won't evaporate as quickly as Trump implied.\n\nRefineries are running at 94.5% capacity with ample fuel inventories on hand, so demand isn't pulling prices higher\u2014the recovery is mostly a shift in how much geopolitical premium investors are willing to pay. The uncertainty itself has made the stock volatile; any concrete news on Iran could swing it sharply either direction again.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 117,
-    "inputTokens": 99711,
-    "outputTokens": 24869,
-    "estimatedCostUsd": 0.224056,
-    "lastCallHour": "2026-11-11T19"
+    "callsThisMonth": 118,
+    "inputTokens": 100630,
+    "outputTokens": 25137,
+    "estimatedCostUsd": 0.226315,
+    "lastCallHour": "2026-11-11T20"
   }
 }
