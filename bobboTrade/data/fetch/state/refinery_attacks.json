@@ -283,6 +283,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-10T21:52:48.183661+00:00"
+    },
+    {
+      "date": "2026-11-11",
+      "facility": "Omsk Oil Refinery",
+      "attacker": null,
+      "attackedNation": "Russia",
+      "attribution": "unattributed",
+      "id": "2026-11-11-omsk-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-11T16:28:14.792392+00:00"
     }
   ],
   "processedUrls": {
@@ -360,17 +376,18 @@
     "https://meduza.io/en/news/2026/11/09/ukrainian-drones-strike-russia-s-leningrad-region-sparking-fire-at-one-of-the-country-s-largest-oil-refineries": "2026-11-09T16:36:58.200092+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-10T15:42:36.384285+00:00",
     "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T15:42:38.027416+00:00",
-    "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-10T21:52:48.183202+00:00"
+    "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-10T21:52:48.183202+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-11T16:28:14.791992+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 16,
-    "inputTokens": 18771,
-    "outputTokens": 2542,
-    "estimatedCostUsd": 0.031481
+    "calls": 17,
+    "inputTokens": 19725,
+    "outputTokens": 2662,
+    "estimatedCostUsd": 0.033035
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-11-11T13:22:36.002047+00:00"
+  "lastRunAt": "2026-11-11T16:28:14.792488+00:00"
 }
