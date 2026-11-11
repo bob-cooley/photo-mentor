@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T01:31:33.413472+00:00",
-  "text": "ConocoPhillips rose 0.83% today, a modest gain that comes after the stock had fallen 8.36% over the past two weeks. The immediate backdrop is shifting oil-market sentiment: Brent crude briefly dipped below $90 a barrel on November 10th following President Trump's comments that he expects the Iran conflict to end \"fairly soon,\" which would reduce geopolitical risk premium in oil prices. US crude is currently trading at $99.64 per barrel, down from where it was during the earlier part of this two-week slide.\n\nThe broader context is that energy stocks like ConocoPhillips are caught between competing forces\u2014lower oil prices (which hurt profitability) and reduced geopolitical tension (which the market sees as positive for stability and demand). The company reported earnings on November 5th, but the stock's steep two-week decline suggests that recent oil-price weakness and the de-escalation narrative have outweighed any positive earnings news so far.",
+  "fetchedAt": "2026-11-11T02:00:29.420155+00:00",
+  "text": "ConocoPhillips rose 0.83% today, but this modest gain masks a sharp two-week decline of 8.4% that accelerated after the company reported quarterly earnings on November 5th. The stock has struggled as oil prices have weakened\u2014Brent crude dipped below $90 a barrel for the first time since August following comments from President Trump suggesting the Iran conflict would end \"fairly soon,\" reducing geopolitical risk premium that typically supports energy prices. With US oil at $99.64 and global oil at $107.03, refiners and producers face lower margins and revenue outlooks than they did two weeks ago.\n\nThe earnings report coinciding with this shift in market sentiment appears to have triggered the initial leg down, and today's small rebound doesn't reverse the underlying pressure: if crude prices stabilize near current levels or drift lower on reduced geopolitical tension, integrated oil companies like ConocoPhillips have less pricing power ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 11,
-    "inputTokens": 8993,
-    "outputTokens": 2065,
-    "estimatedCostUsd": 0.019318,
-    "lastCallHour": "2026-11-11T01"
+    "callsThisMonth": 12,
+    "inputTokens": 9785,
+    "outputTokens": 2274,
+    "estimatedCostUsd": 0.021155,
+    "lastCallHour": "2026-11-11T02"
   }
 }
