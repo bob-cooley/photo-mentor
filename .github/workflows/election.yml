@@ -59,7 +59,7 @@ jobs:
         run: |
           # stamp script URLs so a changed file is never served from a stale cache
           sed -i "s/__V__/${GITHUB_SHA::7}/g" election/index.html
-          for f in index.html .htaccess fx.js fireworks.umd.js fireworks.LICENSE.txt; do
+          for f in index.html .htaccess fx.js fireworks.umd.js fireworks.LICENSE.txt states.json us-atlas.LICENSE.txt; do
             curl -sS --ftp-create-dirs --user "$FTP_USER:$FTP_PASS" \
               -T "election/$f" "ftp://$FTP_HOST/$REMOTE/$f"
             echo "uploaded $f"

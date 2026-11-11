@@ -140,6 +140,14 @@
     color: var(--muted); margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
   }
   .chambers { display: grid; gap: 14px; }
+  .map-wrap { width: 80%; margin: 0 auto 18px; }
+  @media (max-width: 700px) { .map-wrap { width: 100%; } }
+  .map-tabs { display: flex; justify-content: center; gap: 6px; margin-bottom: 8px; }
+  .map-tabs .btn.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  #usmap { width: 100%; height: auto; display: block; }
+  #usmap path { stroke: var(--bg); stroke-width: 1; stroke-linejoin: round; cursor: pointer; transition: fill 0.4s ease; }
+  #usmap path:hover, #usmap path.sel { stroke: var(--ink); stroke-width: 2; }
+  .map-info { text-align: center; font-size: 13px; color: var(--muted); min-height: 1.4em; margin-top: 6px; }
   .hemis { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
   @media (max-width: 560px) { .hemis { grid-template-columns: 1fr; } }
   .hemi { text-align: center; }
@@ -237,6 +245,15 @@
   </header>
   <section>
     <h2>control</h2>
+    <div class="map-wrap">
+      <div class="map-tabs" id="map-tabs">
+        <button class="btn" type="button" data-view="house">house</button>
+        <button class="btn" type="button" data-view="senate">senate</button>
+        <button class="btn" type="button" data-view="governor">governor</button>
+      </div>
+      <svg id="usmap" viewBox="0 0 975 610" role="img" aria-label="map of results by state"></svg>
+      <div class="map-info" id="map-info">tap a state</div>
+    </div>
     <div class="hemis" id="hemis"></div>
     <div class="chambers" id="chambers"></div>
   </section>
@@ -272,6 +289,82 @@
   function lastName(n) { var p = String(n).split(" "); return p[p.length - 1]; }
 
   var PARTY_NAME = { D: "democrats", R: "republicans" };
+  // ---------- state map ----------
+  var mapShapes = null, mapView = "house", mapSel = null;
+  try { mapView = localStorage.getItem("election-map") || "house"; } catch (e) {}
+  var TINT = {
+    D: "var(--dem)", R: "var(--rep)", O: "var(--oth)", split: "#8a63b5",
+    Dl: "color-mix(in srgb, var(--dem) 40%, var(--card))",
+    Rl: "color-mix(in srgb, var(--rep) 40%, var(--card))",
+    Ol: "color-mix(in srgb, var(--oth) 40%, var(--card))",
+    none: "var(--empty)"
+  };
+  var PN = { D: "d", R: "r", O: "ind" };
+
+  function stateResults(d, view) {
+    var out = {};
+    var sec = { house: "house-races", senate: "senate-races", governor: "governors" }[view];
+    var s = (d.sections || []).filter(function (x) { return x.id === sec; })[0];
+    if (!s) return out;
+    if (view === "house") {
+      s.races.forEach(function (r) {
+        var ab = r.id.split("-")[0].toUpperCase();
+        var t = out[ab] || (out[ab] = { D: 0, R: 0, O: 0, n: 0 });
+        t.n++;
+        if (r.called) t[r.called]++;
+      });
+      Object.keys(out).forEach(function (ab) {
+        var t = out[ab], called = t.D + t.R + t.O;
+        t.fill = !called ? TINT.none : t.D > t.R && t.D > t.O ? TINT.D : t.R > t.D && t.R > t.O ? TINT.R : TINT.split;
+        t.text = t.D + " d · " + t.R + " r" + (t.O ? " · " + t.O + " ind" : "") +
+          (t.n - called ? " · " + (t.n - called) + " uncalled" : "") + " of " + t.n + (t.n === 1 ? " seat" : " seats");
+      });
+      return out;
+    }
+    s.races.forEach(function (r) {
+      var ab = r.id.split("-")[0].toUpperCase();
+      var c = r.candidates || [];
+      var lead = c.slice().sort(function (a, b) { return (b.pct || 0) - (a.pct || 0); })[0];
+      if (r.called) {
+        var w = c.filter(function (x) { return x.party === r.called; })[0];
+        out[ab] = { fill: TINT[r.called], text: (w ? w.name.toLowerCase() + " (" + PN[r.called] + ")" : PN[r.called]) + " · called" };
+      } else if (lead && lead.pct) {
+        out[ab] = { fill: TINT[lead.party + "l"], text: lead.name.toLowerCase() + " (" + PN[lead.party] + ") leads " +
+          Number(lead.pct).toFixed(1) + "%" + (r.reporting != null ? " · " + r.reporting + "% reported" : "") };
+      } else {
+        out[ab] = { fill: TINT.none, text: "no votes reported" };
+      }
+    });
+    return out;
+  }
+
+  function drawMap() {
+    if (!mapShapes || !lastData) return;
+    var res = stateResults(lastData, mapView);
+    var svg = document.getElementById("usmap");
+    if (!svg.firstChild) {
+      svg.innerHTML = Object.keys(mapShapes.states).map(function (ab) {
+        return '<path data-st="' + ab + '" d="' + mapShapes.states[ab].d + '"></path>';
+      }).join("");
+    }
+    Array.prototype.forEach.call(svg.querySelectorAll("path"), function (p) {
+      var ab = p.getAttribute("data-st"), r = res[ab];
+      p.style.fill = r ? r.fill : "color-mix(in srgb, var(--empty) 45%, var(--card))";
+      p.classList.toggle("sel", ab === mapSel);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#map-tabs .btn"), function (b) {
+      b.classList.toggle("on", b.getAttribute("data-view") === mapView);
+    });
+    var info = document.getElementById("map-info");
+    if (mapSel) {
+      var r = res[mapSel];
+      info.textContent = mapShapes.states[mapSel].name.toLowerCase() + " · " + mapView + ": " +
+        (r ? r.text : "no " + mapView + " race this year");
+    } else {
+      info.textContent = "tap a state";
+    }
+  }
+
   // parliament-style seat chart: seats in concentric arcs, filled left to
   // right by angle: democrats, independents, uncalled, republicans
   function hemiCard(ch) {
@@ -441,6 +534,7 @@
       var which = window.ElectionFX.pick(d.control);
       if (which) { fxDone = true; setTimeout(function () { window.ElectionFX.play(which); }, 400); }
     }
+    drawMap();
     var byId = {};
     (d.chambers || []).forEach(function (c) { byId[c.id] = c; });
     document.getElementById("hemis").innerHTML =
@@ -505,6 +599,21 @@
   load();
   setInterval(function () { if (Date.now() >= nextAt) load(); tick(); }, 1000);
   document.getElementById("refresh").addEventListener("click", load);
+  fetch("states.json?v=__V__").then(function (r) { return r.json(); }).then(function (j) { mapShapes = j; drawMap(); });
+  document.getElementById("usmap").addEventListener("click", function (e) {
+    var p = e.target.closest("path");
+    if (!p) return;
+    var ab = p.getAttribute("data-st");
+    mapSel = mapSel === ab ? null : ab;
+    drawMap();
+  });
+  document.getElementById("map-tabs").addEventListener("click", function (e) {
+    var b = e.target.closest(".btn");
+    if (!b) return;
+    mapView = b.getAttribute("data-view");
+    try { localStorage.setItem("election-map", mapView); } catch (err) {}
+    drawMap();
+  });
   // split title words into letters for the colour wave
   (function () {
     var i = 0;
