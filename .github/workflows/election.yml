@@ -13,8 +13,8 @@ on:
       - "election/**"
       - ".github/workflows/election.yml"
   schedule:
-    # Fallback in case the self-dispatch chain breaks.
-    - cron: "23 * * * *"
+    # Twice-daily refresh after election week: 6:47am and 6:47pm Eastern.
+    - cron: "47 11,23 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -66,7 +66,7 @@ jobs:
           done
 
       - name: One-off refresh
-        if: steps.gate.outputs.live != 'true' && github.event_name != 'schedule'
+        if: steps.gate.outputs.live != 'true'
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}

@@ -242,7 +242,7 @@
   </section>
   <div id="sections"></div>
   <p class="note">
-    vote counts come from the public Wikipedia race pages, checked every two minutes; they are only as current as the last edit there.
+    results refresh twice a day, around 6:45am and 6:45pm eastern, from civicAPI and the public Wikipedia race pages.
     a race shows as called once its Wikipedia page names a winner, once two or more news outlets (nbc, fox, abc, cbs, npr, nyt, pbs, the hill, politico)
     report the same winner in their headlines, or once it has been set by hand. hover a call to see where it came from.
     seat counts, and senate and governor vote counts and calls, from <a href="https://civicapi.org" target="_blank" rel="noopener">civicAPI</a> when it responds. unofficial until certified.
@@ -483,7 +483,7 @@
     var ageMin = (Date.now() - when.getTime()) / 60000;
     stampText = "data as of " + when.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
     var st = document.getElementById("stamp");
-    st.className = "stamp" + (ageMin > 15 ? " stale" : "");
+    st.className = "stamp" + (ageMin > 13 * 60 ? " stale" : "");
     tick();
   }
 
