@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T02:00:43.323743+00:00",
-  "text": "Marathon Petroleum's stock fell 0.08% today and is down 10.65% over the past two weeks, tracking a sharp collapse in oil prices driven by peace hopes in the Iran conflict. Brent crude dipped below $90 per barrel on November 10th\u2014the lowest since August\u2014after President Trump signaled the conflict would \"end fairly soon.\" Lower crude prices directly squeeze refiner margins, since refiners buy oil as a raw material and sell refined products like gasoline and diesel; when crude drops faster than those products do, profits narrow. The stock's two-week decline reflects this deterioration, even as U.S. refineries run at a healthy 94.5% utilization.\n\nThe backdrop adds complexity: while crude fell on conflict de-escalation hopes, State Department officials including Marco Rubio expressed skepticism about a real diplomatic breakthrough, suggesting the peace outlook remains uncertain. Additionally, last week's midterm election results included losses for Trump and the GOP, which could embolden renewable energy policies\u2014a longer-term headwind for traditional refiners. Today's tiny move suggests the market has already priced in most of the recent crude decline and is waiting for clearer signals on whether lower oil prices stick.",
+  "fetchedAt": "2026-11-11T03:13:32.148809+00:00",
+  "text": "Marathon Petroleum fell nearly 0.08% today, extending a sharp two-week decline of 10.65%, as crude oil prices tumbled on optimism over Iran conflict resolution. Brent crude dipped below $90 per barrel for the first time since August after President Trump suggested the conflict would end \"fairly soon\"\u2014a major shift for refiners like MPC, whose profits depend on the spread between crude input costs and refined product prices. Lower crude prices narrow that margin, which helps their bottom line theoretically, but markets appear to be pricing in a longer-term risk: sustained lower oil prices reduce the premium refiners earn.\n\nThe broader headwind is a political one. Recent midterm elections dealt a blow to anti-renewable policies, signaling growing investor appetite for cleaner energy. For a refiner whose business model centers on processing crude into gasoline and diesel, a structural shift toward renewables and electric vehicles represents a slower but more persistent threat than any single day's oil price move.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 12,
-    "inputTokens": 10250,
-    "outputTokens": 2588,
-    "estimatedCostUsd": 0.02319,
-    "lastCallHour": "2026-11-11T02"
+    "callsThisMonth": 13,
+    "inputTokens": 11174,
+    "outputTokens": 2800,
+    "estimatedCostUsd": 0.025174,
+    "lastCallHour": "2026-11-11T03"
   }
 }
