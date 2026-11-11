@@ -22,10 +22,21 @@ on:
         default: false
 
 jobs:
+  # Blocks every deploy below if any workflow uploads over plain FTP.
+  ftps-guard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refuse plain-FTP uploads
+        run: python3 ops/check-ftps.py
+
   # deploy / deploy-injections / deploy-artemis only need to run when
   # something actually changed (a push), not on bobboTrade's hourly data
   # refresh schedule.
   deploy:
+    needs: ftps-guard
     if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
@@ -46,6 +57,7 @@ jobs:
             **/.git*/**
             **/node_modules/**
             .github/**
+            CLAUDE.md
             election/**
             injections/**
             bobboTrade/**
@@ -56,6 +68,7 @@ jobs:
             NBHS86/**
 
   deploy-injections:
+    needs: ftps-guard
     if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
@@ -76,6 +89,7 @@ jobs:
             **/.git*/**
 
   deploy-artemis:
+    needs: ftps-guard
     if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
@@ -96,6 +110,7 @@ jobs:
             **/.git*/**
 
   deploy-nbhs86:
+    needs: ftps-guard
     if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     env:
@@ -134,6 +149,7 @@ jobs:
             **/tests/**
 
   deploy-photoops:
+    needs: ftps-guard
     if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     environment: photoops
@@ -156,6 +172,7 @@ jobs:
             **/*.md
 
   deploy-light-detective:
+    needs: ftps-guard
     if: github.event_name != 'schedule' && !inputs.data_only
     runs-on: ubuntu-latest
     steps:
@@ -191,6 +208,7 @@ jobs:
             **/.git*/**
 
   deploy-bobbotrade:
+    needs: ftps-guard
     runs-on: ubuntu-latest
     # The hourly baseline and 5-min market-hours schedules can both fire at
     # :00 simultaneously. Without this, two parallel runs could both see
@@ -293,7 +311,7 @@ jobs:
     # schedule guard above was meant to prevent. Running after
     # deploy-bobbotrade finishes (rather than in parallel) puts mad's 4
     # Twelve Data calls safely outside bobboTrade's per-minute window.
-    needs: deploy-bobbotrade
+    needs: [ftps-guard, deploy-bobbotrade]
     runs-on: ubuntu-latest
     # Same reasoning as deploy-bobbotrade: avoid two parallel runs both
     # missing the hourly AI-insight gate, and avoid the commit step

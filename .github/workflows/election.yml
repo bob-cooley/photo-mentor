@@ -28,7 +28,18 @@ env:
   REMOTE: "public_html/bobcooleyphoto/election"
 
 jobs:
+  # Blocks every deploy below if any workflow uploads over plain FTP.
+  ftps-guard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refuse plain-FTP uploads
+        run: python3 ops/check-ftps.py
+
   refresh:
+    needs: ftps-guard
     runs-on: ubuntu-latest
     timeout-minutes: 350
     permissions:
