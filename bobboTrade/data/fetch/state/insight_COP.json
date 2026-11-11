@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T20:02:20.899536+00:00",
-  "text": "ConocoPhillips rose 1.3% today to $137.30, bouncing back after a rough two weeks that saw the stock drop nearly 8%. The recovery came as oil prices stabilized: US crude held steady around $99.64 per barrel, while Brent (the international benchmark) steadied after dipping below $90 last week on reports that the Iran conflict might be winding down. The stock had been pressured by those hopes for lower oil prices, which reduce energy company profits, but today's modest gain suggests some of that selling may have run its course.\n\nThe stock remains down significantly over the past fortnight, caught between two crosscurrents: lower geopolitical risk from potential de-escalation with Iran would mean cheaper oil long-term, but that's the opposite of what oil producers want to see. With crude still well above $99, investors appear to be taking a wait-and-see stance rather than betting heavily on a major oil price collapse.",
+  "fetchedAt": "2026-11-11T21:01:20.731052+00:00",
+  "text": "ConocoPhillips rose 1.6% today to $137.77, bouncing back after a steep decline over the past two weeks. The stock has recovered somewhat from November 9's low of $134.47, likely supported by today's modest uptick in U.S. crude oil prices to $99.64 per barrel. The company reported quarterly earnings on November 5, and while the broader energy sector has faced headwinds from falling oil prices\u2014Brent crude dipped below $90 earlier this week on hopes for a resolution to Middle East tensions\u2014the U.S. benchmark remains more resilient than global prices.\n\nThe two-week decline reflects real uncertainty in oil markets: geopolitical tensions have softened investors' demand for crude, even as production cuts and supply constraints keep prices from collapsing entirely. For an oil producer like ConocoPhillips, that gap between U.S. and global oil prices, and the lingering risk that a peace deal could push crude down further, creates a drag on the stock despite occasional daily recoveries like today's.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 118,
-    "inputTokens": 95448,
-    "outputTokens": 24030,
-    "estimatedCostUsd": 0.215598,
-    "lastCallHour": "2026-11-11T20"
+    "callsThisMonth": 119,
+    "inputTokens": 96236,
+    "outputTokens": 24265,
+    "estimatedCostUsd": 0.217561,
+    "lastCallHour": "2026-11-11T21"
   }
 }
