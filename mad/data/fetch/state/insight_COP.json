@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T04:17:00.911928+00:00",
-  "text": "ConocoPhillips rose 1.67% today as oil prices stabilized after several days of weakness. The stock had fallen sharply over the past two weeks amid hopes for a near-term end to the Iran conflict \u2014 Trump's comments suggesting the war would \"end fairly soon\" spooked energy investors on November 10th, sending Brent crude briefly below $90 a barrel. Today's bounce reflects a modest recovery in crude prices (US oil at $99.64, still down from earlier levels) and some reassessment that a quick resolution remains uncertain despite the administration's optimistic rhetoric.\n\nThe backdrop remains genuinely mixed for oil companies. While the Iran de-escalation talk has depressed crude prices, recent midterm election results pushing back against the GOP and favoring renewable energy add longer-term headwinds for traditional energy. ConocoPhillips still sits down 7.5% over two weeks \u2014 the market is pricing in structural weakness even if near-term geopolitical anxiety eases.",
+  "fetchedAt": "2026-11-12T05:00:05.453914+00:00",
+  "text": "ConocoPhillips rose 1.67% today, bouncing back from a five-day slide that had pushed the stock down 7.5% since early November. The rebound came as oil prices stabilized\u2014US crude held steady around $99.64 per barrel after earlier weakness\u2014following Trump administration comments suggesting the Iran conflict could wind down \"fairly soon.\" That prospect had spooked energy investors earlier in the week when Brent crude briefly dipped below $90, but today's steadier tone and relief that major geopolitical escalation may be off the table helped restore some buyer interest.\n\nThe deeper backdrop is that energy stocks have faced crosswinds: while the Iran de-escalation narrative initially pressured oil, the midterm election results signaled a political environment less hostile to renewables, adding longer-term uncertainty for traditional oil producers. For now, though, the immediate worry\u2014an oil price collapse from sudden peace\u2014has eased enough for traders to step back in.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 14,
-    "inputTokens": 11425,
-    "outputTokens": 2724,
-    "estimatedCostUsd": 0.025045,
-    "lastCallHour": "2026-11-12T04"
+    "callsThisMonth": 15,
+    "inputTokens": 12273,
+    "outputTokens": 2936,
+    "estimatedCostUsd": 0.026953,
+    "lastCallHour": "2026-11-12T05"
   }
 }

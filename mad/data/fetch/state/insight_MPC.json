@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T04:17:15.729526+00:00",
-  "text": "Marathon Petroleum jumped 3.4% today, rebounding sharply after a brutal eight-day slide that had knocked the stock down 8.6%. The driver appears to be a shift in oil market sentiment: Brent crude dipped below $90 a barrel yesterday on hopes that the Iran conflict might be ending, but today's reversal suggests traders are now betting that peace talk hopes are fading fast\u2014Secretary of State Rubio signaled negotiations remain unproductive, and threats against U.S. officials have intensified. Oil prices climbed back above $100, which is better for refiners' margins.\n\nRefineries are running at 94.5% capacity with solid fuel inventories, so the company is positioned to benefit if oil stays elevated. The stock's wild swings over the past two weeks reflect the market's uncertainty about Iran: each bit of peace rhetoric sent oil lower (and the stock with it), while any sign talks are stalling pushes oil back up and refiners' profitability along with it.",
+  "fetchedAt": "2026-11-12T05:00:16.306380+00:00",
+  "text": "Marathon Petroleum stock climbed 3.4% today after tumbling 8.6% over the past two weeks, recouping some losses as oil prices steadied and refinery operations remained robust. The bounce follows a period of sharp decline driven by falling crude prices \u2014 Brent dipped below $90 a barrel on hopes for Iran de-escalation \u2014 but today's rebound suggests the market is reassessing those peace prospects after mixed signals from U.S. officials about whether a real diplomatic deal is actually possible. With refineries running at 94.5% capacity and U.S. crude back above $99 a barrel, the immediate operating environment for a major refiner remains solid.\n\nThe broader picture is one of heightened uncertainty around Middle East tensions. While initial headlines about ending the Iran conflict sent oil prices lower (which hurts refiner margins), more recent statements from officials like Secretary of State Rubio casting doubt on negotiations may be steadying the outlook \u2014 suggesting investors see less downside risk to energy prices than they feared a few days ago.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 14,
-    "inputTokens": 12093,
-    "outputTokens": 3022,
-    "estimatedCostUsd": 0.027203,
-    "lastCallHour": "2026-11-12T04"
+    "callsThisMonth": 15,
+    "inputTokens": 13012,
+    "outputTokens": 3248,
+    "estimatedCostUsd": 0.029252,
+    "lastCallHour": "2026-11-12T05"
   }
 }
