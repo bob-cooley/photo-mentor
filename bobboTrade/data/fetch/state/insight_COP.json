@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T19:02:18.069400+00:00",
-  "text": "ConocoPhillips rose 2% today, recovering some ground after a weak two weeks. The move follows statements from President Trump over the past two days suggesting the Iran conflict is winding down\u2014he said Monday the situation was \"going to be ending fairly soon\" and that Iran's military capacity is effectively depleted. Those comments had briefly pushed Brent crude below $90 a barrel on hopes of de-escalation, but US oil prices have since steadied around $99.65 per barrel, and the stock's rebound today suggests investors may be pricing in stabilization rather than an oil crash.\n\nThe broader picture adds nuance: while geopolitical tensions easing can weigh on oil prices in the short term, COP and other energy majors also benefit from reduced crisis volatility and the ability to plan capital spending with more certainty. Additionally, the recent midterm election results signal growing political headwinds for renewable energy expansion, which could support longer-term demand for traditional oil and gas\u2014a structural tailwind that may be offsetting near-term price weakness.",
+  "fetchedAt": "2026-11-12T20:01:18.259669+00:00",
+  "text": "ConocoPhillips rose 1.98% today to $140.59, continuing a two-day rally that followed broad relief over Iran geopolitical tensions. On November 10th, President Trump indicated the Iran conflict would end \"fairly soon,\" which triggered a dip in global oil prices below $90 a barrel for the first time since August\u2014typically bearish for oil producers. However, the stock has since recovered sharply, suggesting investors are pricing in a scenario where tensions ease without a sustained collapse in crude prices, or where the company's other operations and dividend strength support the move independent of commodity swings.\n\nThe broader context matters here: a November 9th report highlighted that renewable energy faced electoral headwinds after the midterm \"blue wave,\" which may have shifted investor sentiment back toward traditional energy plays as a safer, more durable holding. Combined with oil still holding above $89 domestically and $92 globally\u2014well above levels seen earlier in 2026\u2014the stock's two-week decline of 6.3% appears to have found support.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 131,
-    "inputTokens": 106386,
-    "outputTokens": 26861,
-    "estimatedCostUsd": 0.240691,
-    "lastCallHour": "2026-11-12T19"
+    "callsThisMonth": 132,
+    "inputTokens": 107233,
+    "outputTokens": 27090,
+    "estimatedCostUsd": 0.242683,
+    "lastCallHour": "2026-11-12T20"
   }
 }

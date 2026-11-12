@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T19:02:51.742361+00:00",
-  "text": "Marathon Petroleum jumped 3.2% today, recovering much of what it had lost over the past two weeks. The move follows a sharp reversal in oil market sentiment: after crude briefly dipped below $90 a barrel on Monday on hopes for a near-term end to the Iran conflict, prices have rebounded sharply\u2014US crude is now at $99.64 and Brent at $107.03. Refiners like Marathon benefit directly when oil prices rise, since they buy crude cheap and sell refined products (gasoline, diesel) at prices that don't fall as fast, widening their profit margins.\n\nThe rebound reflects growing skepticism about a quick diplomatic resolution. While Trump said Tuesday that an Iran war would end \"fairly soon,\" Secretary of State Rubio signaled the same day that negotiations remain stuck, and reports of escalating Iranian threats suggest the conflict may not resolve as cleanly as the market briefly hoped on Monday. That uncertainty has pushed oil prices back up, which is supporting refiner margins.",
+  "fetchedAt": "2026-11-12T20:01:36.158822+00:00",
+  "text": "Marathon Petroleum rose 3.2% today, extending a four-day rally that has now gained roughly 10% since early November. The move follows Trump's statements that the Iran conflict is ending \"fairly soon,\" which eased geopolitical risk premium in oil prices \u2014 Brent crude dipped below $90 a barrel on those comments. For a refiner like Marathon, lower oil prices directly improve profitability on the products they sell (gasoline and diesel), while refineries running at 95.2% utilization mean they're operating near full capacity to capture that margin.\n\nThe broader context matters too: even though midterm elections brought a \"blue wave\" that favored renewable energy investment, oil markets are pricing in near-term energy demand and geopolitical stability. Trump's de-escalation rhetoric on Iran, whether or not a lasting peace deal materializes, has shifted sentiment away from the higher oil prices that prevailed earlier in the week when tensions looked more acute.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 131,
-    "inputTokens": 112574,
-    "outputTokens": 27943,
-    "estimatedCostUsd": 0.252289,
-    "lastCallHour": "2026-11-12T19"
+    "callsThisMonth": 132,
+    "inputTokens": 113492,
+    "outputTokens": 28152,
+    "estimatedCostUsd": 0.254252,
+    "lastCallHour": "2026-11-12T20"
   }
 }
