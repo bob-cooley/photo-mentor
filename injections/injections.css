@@ -162,8 +162,9 @@ header nav > ul.primary > li:hover > .nav-item-title:hover{
 header nav .nav-galleries-note{
   font-family:"Courier New", Courier, monospace;
   font-size:14px;
-  line-height:1.4;
+  line-height:1.3;
   letter-spacing:-0.04em;  /* same tightening as the nav */
+  word-spacing:-0.25em;    /* Courier's full-width space (0.56em here) narrowed to ~0.31em */
   text-transform:none;
   color:#AAAAAA;
 }
