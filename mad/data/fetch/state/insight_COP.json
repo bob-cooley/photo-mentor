@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T03:13:18.398486+00:00",
-  "text": "ConocoPhillips rose slightly today, but that gain masks a sharp two-week decline of over 8% that accelerated after the company reported quarterly earnings on November 5th. The stock has been under pressure as crude oil prices have fallen\u2014Brent crude dipped below $90 a barrel on Monday after President Trump suggested the Iran conflict would \"end fairly soon,\" reducing concerns about Middle East supply disruptions that had been supporting energy prices. With fewer geopolitical risks to oil markets, crude has retreated from higher levels, which directly weighs on the economics of oil producers like ConocoPhillips.\n\nThe stock's weakness also reflects the narrow margin oil majors face right now: while US crude sits around $99 per barrel, the gap between US and global prices (Brent at $107) has tightened considerably. For a company that sells into global markets, a lower oil price environment\u2014whether driven by peace hopes or simply reduced supply anxiety\u2014cuts into profit margins and makes the business less attractive to investors, especially after the company just reported its quarterly results.",
+  "fetchedAt": "2026-11-12T04:17:00.911928+00:00",
+  "text": "ConocoPhillips rose 1.67% today as oil prices stabilized after several days of weakness. The stock had fallen sharply over the past two weeks amid hopes for a near-term end to the Iran conflict \u2014 Trump's comments suggesting the war would \"end fairly soon\" spooked energy investors on November 10th, sending Brent crude briefly below $90 a barrel. Today's bounce reflects a modest recovery in crude prices (US oil at $99.64, still down from earlier levels) and some reassessment that a quick resolution remains uncertain despite the administration's optimistic rhetoric.\n\nThe backdrop remains genuinely mixed for oil companies. While the Iran de-escalation talk has depressed crude prices, recent midterm election results pushing back against the GOP and favoring renewable energy add longer-term headwinds for traditional energy. ConocoPhillips still sits down 7.5% over two weeks \u2014 the market is pricing in structural weakness even if near-term geopolitical anxiety eases.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 13,
-    "inputTokens": 10577,
-    "outputTokens": 2506,
-    "estimatedCostUsd": 0.023107,
-    "lastCallHour": "2026-11-11T03"
+    "callsThisMonth": 14,
+    "inputTokens": 11425,
+    "outputTokens": 2724,
+    "estimatedCostUsd": 0.025045,
+    "lastCallHour": "2026-11-12T04"
   }
 }

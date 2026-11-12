@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-11T03:13:32.148809+00:00",
-  "text": "Marathon Petroleum fell nearly 0.08% today, extending a sharp two-week decline of 10.65%, as crude oil prices tumbled on optimism over Iran conflict resolution. Brent crude dipped below $90 per barrel for the first time since August after President Trump suggested the conflict would end \"fairly soon\"\u2014a major shift for refiners like MPC, whose profits depend on the spread between crude input costs and refined product prices. Lower crude prices narrow that margin, which helps their bottom line theoretically, but markets appear to be pricing in a longer-term risk: sustained lower oil prices reduce the premium refiners earn.\n\nThe broader headwind is a political one. Recent midterm elections dealt a blow to anti-renewable policies, signaling growing investor appetite for cleaner energy. For a refiner whose business model centers on processing crude into gasoline and diesel, a structural shift toward renewables and electric vehicles represents a slower but more persistent threat than any single day's oil price move.",
+  "fetchedAt": "2026-11-12T04:17:15.729526+00:00",
+  "text": "Marathon Petroleum jumped 3.4% today, rebounding sharply after a brutal eight-day slide that had knocked the stock down 8.6%. The driver appears to be a shift in oil market sentiment: Brent crude dipped below $90 a barrel yesterday on hopes that the Iran conflict might be ending, but today's reversal suggests traders are now betting that peace talk hopes are fading fast\u2014Secretary of State Rubio signaled negotiations remain unproductive, and threats against U.S. officials have intensified. Oil prices climbed back above $100, which is better for refiners' margins.\n\nRefineries are running at 94.5% capacity with solid fuel inventories, so the company is positioned to benefit if oil stays elevated. The stock's wild swings over the past two weeks reflect the market's uncertainty about Iran: each bit of peace rhetoric sent oil lower (and the stock with it), while any sign talks are stalling pushes oil back up and refiners' profitability along with it.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 13,
-    "inputTokens": 11174,
-    "outputTokens": 2800,
-    "estimatedCostUsd": 0.025174,
-    "lastCallHour": "2026-11-11T03"
+    "callsThisMonth": 14,
+    "inputTokens": 12093,
+    "outputTokens": 3022,
+    "estimatedCostUsd": 0.027203,
+    "lastCallHour": "2026-11-12T04"
   }
 }

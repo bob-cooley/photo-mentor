@@ -1,11 +1,21 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-11-11T01:31:15.242101+00:00",
+    "fetchedAt": "2026-11-12T04:16:45.949792+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
     "changes": [
+      {
+        "date": "2026-11-11",
+        "firm": "Freedom Broker",
+        "kind": "downgrade",
+        "fromGrade": "Buy",
+        "toGrade": "Hold",
+        "targetAction": "Raises",
+        "targetFrom": 132.0,
+        "targetTo": 138.0
+      },
       {
         "date": "2026-11-09",
         "firm": "Truist Securities",
