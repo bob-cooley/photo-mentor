@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T09:13:27.143318+00:00",
-  "text": "ConocoPhillips rose 1.67% today, reversing a two-week decline that had seen the stock drop 7.5%. The bounce appears tied to a shift in oil-market sentiment: crude prices have stabilized after dipping below $90 a barrel earlier in the week on hopes that Iran tensions might ease, but today's close at $99.64 per barrel for US oil suggests some of that pessimism has reversed. Trump's comments that the Iran conflict would end \"fairly soon\" had briefly pressured oil prices downward, but the market is now pricing in more complexity \u2014 geopolitical risks remain real even as peace talk rhetoric increases.\n\nThe stock's broader weakness over two weeks reflects genuine uncertainty in energy markets right now. Oil refiners and producers face crosswinds: near-term crude volatility tied to Middle East developments, coupled with longer-term headwinds from the election results favoring renewable energy investment over fossil fuels. Today's modest recovery doesn't resolve those competing forces, just a tactical bounce as traders reassess the near-term trajectory of crude prices and geopolitical risk.",
+  "fetchedAt": "2026-11-12T13:02:07.876406+00:00",
+  "text": "ConocoPhillips rose 1.67% today to $137.86, recovering some ground after a rough two-week slide of 7.51%. The bounce likely reflects a shift in oil market sentiment: crude prices have stabilized after earlier weakness, and Trump's comments on Monday that the Iran conflict would \"end fairly soon\" have reduced near-term anxiety about supply disruptions. With US oil at $99.64 and Brent at $107.03, the market appears to be pricing in less geopolitical risk than it was a few days ago when crude briefly dipped below $90.\n\nThe stock's two-week decline, however, tells a longer story about sector headwinds. Recent midterm election results dealt a blow to fossil fuel interests, with voters rejecting Trump and embracing renewable energy priorities \u2014 a structural shift that weighs on oil majors regardless of daily price swings or near-term geopolitical noise.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 124,
-    "inputTokens": 100418,
-    "outputTokens": 25335,
-    "estimatedCostUsd": 0.227093,
-    "lastCallHour": "2026-11-12T09"
+    "callsThisMonth": 125,
+    "inputTokens": 101266,
+    "outputTokens": 25538,
+    "estimatedCostUsd": 0.228956,
+    "lastCallHour": "2026-11-12T13"
   }
 }
