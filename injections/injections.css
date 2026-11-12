@@ -187,7 +187,7 @@ header nav .nav-galleries-note a:focus-visible{color:#00968A;}
     top:100%;
     right:0;
     z-index:20;
-    width:330px;
+    width:400px;  /* body text wraps to 2 lines from 380px; 400 leaves slack for browser differences */
     margin-top:10px;
     padding:18px 22px;
     background:#151515;
