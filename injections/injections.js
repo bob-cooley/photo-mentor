@@ -117,6 +117,12 @@
         '<a href="https://the.fotoapp.co/bobcooley" target="_blank" rel="noopener">Foto</a>.';
       li.classList.add("has-galleries-note");
       li.appendChild(note);
+      // IO200 can't store a bare "#" link, so the galleries item points at "/#", which loads the
+      // homepage from every other page. Cancel the click so "galleries" only opens this note.
+      // REMOVE THIS once the galleries item gets a real URL in IO200, or it will block that link too.
+      link.addEventListener("click", function (e) {
+        e.preventDefault();
+      });
     });
   }
 
