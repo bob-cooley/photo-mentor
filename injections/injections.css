@@ -176,7 +176,7 @@ header nav .nav-galleries-lead{
   letter-spacing:0.02em;  /* same optical spacing as the bold footer tagline */
   color:#FFFFFF;
 }
-header nav .nav-galleries-note a{color:#00BCAC;text-decoration:underline;}
+header nav .nav-galleries-note a{color:#00BCAC;text-decoration:none;}
 header nav .nav-galleries-note a:hover,
 header nav .nav-galleries-note a:focus-visible{color:#00968A;}
 @media (min-width:1000px){
