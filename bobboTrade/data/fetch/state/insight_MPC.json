@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T01:16:43.640648+00:00",
-  "text": "Marathon Petroleum rebounded 3.4% today after a rough two-week slide, likely catching a relief bounce as oil prices stabilized and refinery conditions remained solid. US crude held around $99.60 per barrel while refineries ran at 94.5% capacity\u2014a healthy operating level\u2014and gasoline inventories stayed moderate at just under 209 million barrels, suggesting steady demand is supporting the sector.\n\nThe stock's recovery also comes after several days of geopolitical whiplash: oil had briefly crashed on hopes of Iran peace talks, but those talks now look stalled (Secretary of State Rubio cited \"little hope\" of a breakthrough), and Trump administration officials remain targets of Iranian threats. That shift away from imminent de-escalation likely stopped the oil sell-off that had hammered refiners earlier this week, allowing Marathon to claw back ground.",
+  "fetchedAt": "2026-11-12T04:14:52.648492+00:00",
+  "text": "Marathon Petroleum climbed 3.4% today, recovering sharply after a rough week that saw the stock down 8.6% since early November. The bounce came as oil prices stabilized\u2014U.S. crude held steady near $100 a barrel\u2014and refineries ramped up to 94.5% capacity utilization. After days of uncertainty tied to Iran tensions and peace talk whiplash, investors appear to have regained some confidence in the refining outlook, particularly with strong crude availability (nearly 692 million barrels in storage) supporting margins.\n\nThe stock's recovery also reflects a broader shift in market expectations. Early-week headlines raised hopes for a near-term Iran deal that could flood markets with cheap oil and crush refiner profits; more recent comments from Trump administration officials acknowledging diplomatic stalemate have tamped down those ultra-bearish scenarios. Refiners like Marathon benefit from a stable-to-firm crude environment, and today's move suggests that worst-case outcome may be priced out for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 121,
-    "inputTokens": 103389,
-    "outputTokens": 25766,
-    "estimatedCostUsd": 0.232219,
-    "lastCallHour": "2026-11-12T01"
+    "callsThisMonth": 122,
+    "inputTokens": 104308,
+    "outputTokens": 25987,
+    "estimatedCostUsd": 0.234243,
+    "lastCallHour": "2026-11-12T04"
   }
 }
