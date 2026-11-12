@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-11T22:01:09.697993+00:00",
-  "text": "ConocoPhillips rose 1.6% today, snapping a three-day losing streak and bouncing back from a two-week decline of 7.6%. The move likely reflects cautious optimism around oil prices after a report that the Trump administration believes the Iran conflict could end \"fairly soon\"\u2014any reduction in Middle Eastern tensions typically supports crude prices, and investors may be rotating back into energy stocks after selling them down last week. Brent crude did dip below $90 briefly on those peace hopes, but U.S. crude is still holding near $100 a barrel, and the company's recent quarterly earnings report may also be stabilizing sentiment.\n\nThe bigger picture here is that oil majors like ConocoPhillips have been under pressure lately, down 7.6% in two weeks, likely as markets priced in lower crude prices if geopolitical risks ease\u2014but today's rebound suggests investors see a floor and aren't convinced a lasting peace deal is imminent, so the energy sector isn't capitulating yet.",
+  "fetchedAt": "2026-11-12T01:16:30.092371+00:00",
+  "text": "ConocoPhillips rose 1.67% today as oil prices stabilized after a sharp recent decline. Crude had tumbled earlier in the week on hopes for a near-term end to the Iran conflict\u2014Brent briefly fell below $90 a barrel on Monday after Trump said the war would \"end fairly soon\"\u2014but today's recovery suggests those peace hopes may be cooling or priced in. With US oil back at nearly $100 and the company mentioned as a top stock to watch, the bounce reflects renewed energy sector confidence.\n\nThe broader backdrop remains choppy for oil majors: geopolitical risk around Iran has been the dominant force driving crude prices down and up, while longer-term, a strong Democratic showing in midterm elections has signaled political headwinds for fossil fuel expansion. Today's move is a rebound within a downtrend, not a reversal of the 7.5% loss over two weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 120,
-    "inputTokens": 97026,
-    "outputTokens": 24491,
-    "estimatedCostUsd": 0.219481,
-    "lastCallHour": "2026-11-11T22"
+    "callsThisMonth": 121,
+    "inputTokens": 97874,
+    "outputTokens": 24693,
+    "estimatedCostUsd": 0.221339,
+    "lastCallHour": "2026-11-12T01"
   }
 }
