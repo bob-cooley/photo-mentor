@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T04:14:52.648492+00:00",
-  "text": "Marathon Petroleum climbed 3.4% today, recovering sharply after a rough week that saw the stock down 8.6% since early November. The bounce came as oil prices stabilized\u2014U.S. crude held steady near $100 a barrel\u2014and refineries ramped up to 94.5% capacity utilization. After days of uncertainty tied to Iran tensions and peace talk whiplash, investors appear to have regained some confidence in the refining outlook, particularly with strong crude availability (nearly 692 million barrels in storage) supporting margins.\n\nThe stock's recovery also reflects a broader shift in market expectations. Early-week headlines raised hopes for a near-term Iran deal that could flood markets with cheap oil and crush refiner profits; more recent comments from Trump administration officials acknowledging diplomatic stalemate have tamped down those ultra-bearish scenarios. Refiners like Marathon benefit from a stable-to-firm crude environment, and today's move suggests that worst-case outcome may be priced out for now.",
+  "fetchedAt": "2026-11-12T05:00:20.144061+00:00",
+  "text": "Marathon Petroleum rallied 3.4% today, reversing a brutal two-week slide, after oil prices ticked up and geopolitical tension around Iran showed signs of easing. Trump's comments on Monday that the Iran conflict would end \"fairly soon\" had briefly tanked crude\u2014Brent dipped below $90\u2014but today's recovery suggests traders are pricing in a more measured view: continued uncertainty rather than imminent peace. US crude sits at $99.64 and refineries are running hot at 94.5% capacity, which supports refiner margins when oil supplies are tight and product demand holds.\n\nThe stock had cratered over two weeks amid broad Iran-related oil volatility, swinging from hopes of a deal to skepticism (Rubio saying negotiations remain unproductive). Today's bounce reflects relief that the worst geopolitical fears have not materialized, rather than any single new catalyst.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 122,
-    "inputTokens": 104308,
-    "outputTokens": 25987,
-    "estimatedCostUsd": 0.234243,
-    "lastCallHour": "2026-11-12T04"
+    "callsThisMonth": 123,
+    "inputTokens": 105227,
+    "outputTokens": 26183,
+    "estimatedCostUsd": 0.236142,
+    "lastCallHour": "2026-11-12T05"
   }
 }
