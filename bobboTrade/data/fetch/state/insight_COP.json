@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T14:01:12.449716+00:00",
-  "text": "ConocoPhillips rose 1.7% today, bouncing back after a rough two weeks that saw the stock down 7.5%. The recovery came as oil prices stabilized: US crude held around $99.64 per barrel while Brent stayed above $100, supported by continued uncertainty over Middle East tensions despite President Trump's comments suggesting the Iran conflict could wind down \"fairly soon.\" After dropping to $134.47 just two days ago, the stock's climb back toward $138 reflects the market's relief that oil hasn't collapsed on peace hopes.\n\nThe stock's two-week decline mirrors the broader oil sector's nervousness about what lower geopolitical risk means for prices. While Trump has signaled an end to conflict is near, his own Secretary of State said Iran negotiations remain unproductive, creating conflicting signals about whether crude will stay supported or face downward pressure. For an oil producer like ConocoPhillips, each dollar swing in crude prices directly affects profit margins, so today's stabilization in the $100+ range gave the stock room to recover.",
+  "fetchedAt": "2026-11-12T15:01:11.891880+00:00",
+  "text": "COP fell slightly today in a market where oil prices remain under pressure from reduced geopolitical risk. Over the past two weeks, the stock has dropped 8.17% as President Trump's comments about an imminent end to the Iran conflict have eased investor concerns about supply disruptions\u2014Brent crude briefly dipped below $90 last week for the first time since August on those \"Iran hopes,\" and WTI crude now sits at $99.64, well below the levels that typically boost oil company valuations.\n\nThe broader headwind is political: midterm elections produced a \"blue wave\" rebuke of Trump and the GOP, with concrete gains for renewable energy advocates. For an oil major like this company, that shifts the long-term investor calculus toward cleaner energy, even as near-term oil prices stabilize. The combination of lower geopolitical premiums in the oil market and renewed political momentum for renewables explains the sustained two-week decline, despite today's move being minimal.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 126,
-    "inputTokens": 102122,
-    "outputTokens": 25771,
-    "estimatedCostUsd": 0.230977,
-    "lastCallHour": "2026-11-12T14"
+    "callsThisMonth": 127,
+    "inputTokens": 102979,
+    "outputTokens": 25984,
+    "estimatedCostUsd": 0.232899,
+    "lastCallHour": "2026-11-12T15"
   }
 }

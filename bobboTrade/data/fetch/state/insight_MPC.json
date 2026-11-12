@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T14:01:26.278833+00:00",
-  "text": "Marathon Petroleum jumped 3.4% today after oil prices rose sharply, with U.S. crude climbing to nearly $100 a barrel and world oil prices hitting $107\u2014the stock's biggest single-day gain in over a week. The move reverses earlier losses; the company had fallen 8.6% over the past two weeks as markets worried about potential Iran peace deals that could flood global oil supplies. Today's rally reflects shifting sentiment: despite Trump administration officials saying de-escalation is possible, Secretary of State Rubio signaled negotiations remain stuck on Iranian demands, keeping geopolitical risk premiums in the market and supporting oil prices that fuel refiner profits.\n\nRefineries are running at 94.5% capacity and storage levels remain moderate, so the refining sector benefits directly when crude prices hold firm\u2014there's no glut of inventory forcing margins down. The broader dynamic here is uncertainty: every headline hint of peace talks sends oil lower (as happened last Monday), while diplomatic setbacks prop it back up, creating the kind of volatility that has whipsawed the stock.",
+  "fetchedAt": "2026-11-12T15:02:16.792150+00:00",
+  "text": "Marathon Petroleum rose 1.4% today, recovering from four consecutive days of losses that had wiped out 5.6% since early November. The bounce came as oil prices steadied\u2014U.S. crude held at $99.64 per barrel after dipping below $90 last week on hopes for an Iran peace deal\u2014while refineries continued running at a healthy 94.5% capacity. The stock had fallen sharply when Iran conflict headlines suggested a near-term resolution might ease global oil markets, but today's modest rebound suggests the market is recalibrating expectations: peace talks remain stalled according to Secretary of State Rubio, and Trump's optimistic rhetoric about ending the conflict \"fairly soon\" has not yet translated into a deal.\n\nThe refiner is also benefiting from steady underlying demand conditions; gasoline and diesel inventories remain moderate (around 209 million and 99 million barrels respectively), which supports margins. That said, the stock remains down nearly 6% over two weeks as investors weigh the competing forces of geopolitical risk premium in oil prices against the possibility that a resolution could flatten the crude market in coming months.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 126,
-    "inputTokens": 107984,
-    "outputTokens": 26817,
-    "estimatedCostUsd": 0.242069,
-    "lastCallHour": "2026-11-12T14"
+    "callsThisMonth": 127,
+    "inputTokens": 108902,
+    "outputTokens": 27067,
+    "estimatedCostUsd": 0.244237,
+    "lastCallHour": "2026-11-12T15"
   }
 }
