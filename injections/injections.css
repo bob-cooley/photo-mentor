@@ -156,9 +156,9 @@ header nav > ul.primary > li:hover > .nav-item-title:hover{
   color:#00968A;
 }
 
-/* "galleries" dropdown note (2026-11-10), built by injections.js. Desktop: "pinstripe" panel
-   under the item on hover or keyboard focus, 2px #333 lines top and bottom like the rotator
-   frame, right edge aligned to the item. Phone: shown under the item in the open menu. */
+/* "galleries" dropdown note (2026-11-10), built by injections.js. Desktop: panel under the item
+   on hover or keyboard focus, full 2px #333 border (the rotator pinstripe color) with 6px
+   rounded corners, right edge aligned to the item. Phone: shown under the item in the open menu. */
 header nav .nav-galleries-note{
   font-family:"Courier New", Courier, monospace;
   font-size:16px;          /* 14px made Courier New's thin strokes render soft and grey */
@@ -191,8 +191,8 @@ header nav .nav-galleries-note a:focus-visible{color:#00968A;}
     margin-top:10px;
     padding:18px 22px;
     background:#151515;
-    border-top:2px solid #333333;
-    border-bottom:2px solid #333333;
+    border:2px solid #333333;
+    border-radius:6px;
     box-shadow:0 12px 32px rgba(0,0,0,0.65);
     text-align:left;
   }
