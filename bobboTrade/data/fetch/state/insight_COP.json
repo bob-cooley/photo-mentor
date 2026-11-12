@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T13:02:07.876406+00:00",
-  "text": "ConocoPhillips rose 1.67% today to $137.86, recovering some ground after a rough two-week slide of 7.51%. The bounce likely reflects a shift in oil market sentiment: crude prices have stabilized after earlier weakness, and Trump's comments on Monday that the Iran conflict would \"end fairly soon\" have reduced near-term anxiety about supply disruptions. With US oil at $99.64 and Brent at $107.03, the market appears to be pricing in less geopolitical risk than it was a few days ago when crude briefly dipped below $90.\n\nThe stock's two-week decline, however, tells a longer story about sector headwinds. Recent midterm election results dealt a blow to fossil fuel interests, with voters rejecting Trump and embracing renewable energy priorities \u2014 a structural shift that weighs on oil majors regardless of daily price swings or near-term geopolitical noise.",
+  "fetchedAt": "2026-11-12T14:01:12.449716+00:00",
+  "text": "ConocoPhillips rose 1.7% today, bouncing back after a rough two weeks that saw the stock down 7.5%. The recovery came as oil prices stabilized: US crude held around $99.64 per barrel while Brent stayed above $100, supported by continued uncertainty over Middle East tensions despite President Trump's comments suggesting the Iran conflict could wind down \"fairly soon.\" After dropping to $134.47 just two days ago, the stock's climb back toward $138 reflects the market's relief that oil hasn't collapsed on peace hopes.\n\nThe stock's two-week decline mirrors the broader oil sector's nervousness about what lower geopolitical risk means for prices. While Trump has signaled an end to conflict is near, his own Secretary of State said Iran negotiations remain unproductive, creating conflicting signals about whether crude will stay supported or face downward pressure. For an oil producer like ConocoPhillips, each dollar swing in crude prices directly affects profit margins, so today's stabilization in the $100+ range gave the stock room to recover.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 125,
-    "inputTokens": 101266,
-    "outputTokens": 25538,
-    "estimatedCostUsd": 0.228956,
-    "lastCallHour": "2026-11-12T13"
+    "callsThisMonth": 126,
+    "inputTokens": 102122,
+    "outputTokens": 25771,
+    "estimatedCostUsd": 0.230977,
+    "lastCallHour": "2026-11-12T14"
   }
 }

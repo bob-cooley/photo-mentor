@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T13:03:11.292118+00:00",
-  "text": "Marathon Petroleum jumped 3.4% today after crude oil prices rallied sharply over the past two days. US oil recovered to $99.64 per barrel (up from lows near $90 last week), driven by renewed uncertainty about Iran tensions despite Trump administration statements suggesting the conflict could end soon\u2014mixed signals that are keeping energy markets volatile. Refineries are running at 94.5% capacity, near full utilization, which means refiners benefit when crude prices rise because they can convert it into higher-margin products like gasoline and diesel.\n\nThe stock's bounce today reverses a brutal eight-day slide (down 8.6% since early November) that hit hard as oil prices fell on hopes for a diplomatic breakthrough and reduced geopolitical risk. Today's move reflects crude's rebound, but the underlying uncertainty\u2014diplomatic talks appear stalled despite administration optimism\u2014suggests oil and refiner stocks could remain choppy until the geopolitical picture clears.",
+  "fetchedAt": "2026-11-12T14:01:26.278833+00:00",
+  "text": "Marathon Petroleum jumped 3.4% today after oil prices rose sharply, with U.S. crude climbing to nearly $100 a barrel and world oil prices hitting $107\u2014the stock's biggest single-day gain in over a week. The move reverses earlier losses; the company had fallen 8.6% over the past two weeks as markets worried about potential Iran peace deals that could flood global oil supplies. Today's rally reflects shifting sentiment: despite Trump administration officials saying de-escalation is possible, Secretary of State Rubio signaled negotiations remain stuck on Iranian demands, keeping geopolitical risk premiums in the market and supporting oil prices that fuel refiner profits.\n\nRefineries are running at 94.5% capacity and storage levels remain moderate, so the refining sector benefits directly when crude prices hold firm\u2014there's no glut of inventory forcing margins down. The broader dynamic here is uncertainty: every headline hint of peace talks sends oil lower (as happened last Monday), while diplomatic setbacks prop it back up, creating the kind of volatility that has whipsawed the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 125,
-    "inputTokens": 107065,
-    "outputTokens": 26584,
-    "estimatedCostUsd": 0.239985,
-    "lastCallHour": "2026-11-12T13"
+    "callsThisMonth": 126,
+    "inputTokens": 107984,
+    "outputTokens": 26817,
+    "estimatedCostUsd": 0.242069,
+    "lastCallHour": "2026-11-12T14"
   }
 }
