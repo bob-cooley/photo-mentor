@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T15:02:16.792150+00:00",
-  "text": "Marathon Petroleum rose 1.4% today, recovering from four consecutive days of losses that had wiped out 5.6% since early November. The bounce came as oil prices steadied\u2014U.S. crude held at $99.64 per barrel after dipping below $90 last week on hopes for an Iran peace deal\u2014while refineries continued running at a healthy 94.5% capacity. The stock had fallen sharply when Iran conflict headlines suggested a near-term resolution might ease global oil markets, but today's modest rebound suggests the market is recalibrating expectations: peace talks remain stalled according to Secretary of State Rubio, and Trump's optimistic rhetoric about ending the conflict \"fairly soon\" has not yet translated into a deal.\n\nThe refiner is also benefiting from steady underlying demand conditions; gasoline and diesel inventories remain moderate (around 209 million and 99 million barrels respectively), which supports margins. That said, the stock remains down nearly 6% over two weeks as investors weigh the competing forces of geopolitical risk premium in oil prices against the possibility that a resolution could flatten the crude market in coming months.",
+  "fetchedAt": "2026-11-12T16:03:16.367189+00:00",
+  "text": "Marathon Petroleum rose 2.2% today to $411.71, continuing a sharp recovery from its low point five days ago. The stock has gained over $34 since November 5th, which aligns with a shift in oil market sentiment: Brent crude dipped below $90 on hopes for a near-term end to the Iran conflict, and the Trump administration has signaled the conflict is \"going to be ending fairly soon,\" reducing near-term geopolitical risk to oil supply. As uncertainty over Iranian military threats has eased, the market has repriced oil prices and refiner profitability upward.\n\nRefineries are running at 94.5% capacity with tight inventory levels across gasoline and diesel, which means any easing of supply-chain anxiety translates directly into better margins for refiners like Marathon. The stock's two-week decline of 4.8% is now being reversed as traders bet that a resolution to Middle East tensions will keep energy markets stable without further military disruptions.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 127,
-    "inputTokens": 108902,
-    "outputTokens": 27067,
-    "estimatedCostUsd": 0.244237,
-    "lastCallHour": "2026-11-12T15"
+    "callsThisMonth": 128,
+    "inputTokens": 109820,
+    "outputTokens": 27285,
+    "estimatedCostUsd": 0.246245,
+    "lastCallHour": "2026-11-12T16"
   }
 }

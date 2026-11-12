@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T15:01:11.891880+00:00",
-  "text": "COP fell slightly today in a market where oil prices remain under pressure from reduced geopolitical risk. Over the past two weeks, the stock has dropped 8.17% as President Trump's comments about an imminent end to the Iran conflict have eased investor concerns about supply disruptions\u2014Brent crude briefly dipped below $90 last week for the first time since August on those \"Iran hopes,\" and WTI crude now sits at $99.64, well below the levels that typically boost oil company valuations.\n\nThe broader headwind is political: midterm elections produced a \"blue wave\" rebuke of Trump and the GOP, with concrete gains for renewable energy advocates. For an oil major like this company, that shifts the long-term investor calculus toward cleaner energy, even as near-term oil prices stabilize. The combination of lower geopolitical premiums in the oil market and renewed political momentum for renewables explains the sustained two-week decline, despite today's move being minimal.",
+  "fetchedAt": "2026-11-12T16:03:01.026227+00:00",
+  "text": "COP rose 0.88% today to $139.07, continuing a rebound from last week's lows as oil prices stabilized. The U.S. oil benchmark is trading at $99.64 per barrel, still well below the $107+ level seen earlier, but the worst of last week's sell-off appears to have passed. Trump's comments over the weekend that the Iran conflict would end \"fairly soon\" sparked initial optimism about de-escalation, which had briefly pushed crude down; today's modest gain suggests the market has digested that news and is finding a floor.\n\nThe two-week decline of 7.3% reflects the broader whipsaw in energy stocks as geopolitical risk around Iran has shifted rapidly from crisis to potential resolution. While Trump administration officials have sent mixed signals\u2014with Secretary of State Rubio still skeptical of diplomatic progress\u2014the simple fact that resolution talk has replaced strike fears has taken pressure off oil prices and energy stocks that benefit from higher crude.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 127,
-    "inputTokens": 102979,
-    "outputTokens": 25984,
-    "estimatedCostUsd": 0.232899,
-    "lastCallHour": "2026-11-12T15"
+    "callsThisMonth": 128,
+    "inputTokens": 103836,
+    "outputTokens": 26198,
+    "estimatedCostUsd": 0.234826,
+    "lastCallHour": "2026-11-12T16"
   }
 }
