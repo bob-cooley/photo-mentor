@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T20:01:36.158822+00:00",
-  "text": "Marathon Petroleum rose 3.2% today, extending a four-day rally that has now gained roughly 10% since early November. The move follows Trump's statements that the Iran conflict is ending \"fairly soon,\" which eased geopolitical risk premium in oil prices \u2014 Brent crude dipped below $90 a barrel on those comments. For a refiner like Marathon, lower oil prices directly improve profitability on the products they sell (gasoline and diesel), while refineries running at 95.2% utilization mean they're operating near full capacity to capture that margin.\n\nThe broader context matters too: even though midterm elections brought a \"blue wave\" that favored renewable energy investment, oil markets are pricing in near-term energy demand and geopolitical stability. Trump's de-escalation rhetoric on Iran, whether or not a lasting peace deal materializes, has shifted sentiment away from the higher oil prices that prevailed earlier in the week when tensions looked more acute.",
+  "fetchedAt": "2026-11-12T21:02:18.188076+00:00",
+  "text": "Marathon's stock jumped 2.5% today, extending a sharp three-day rally that has pushed it up roughly $35 since early last week. The move follows comments from Trump suggesting an Iran conflict could end \"fairly soon\" and statements that Iran's military position has deteriorated\u2014comments that have reduced immediate geopolitical risk to oil supplies. Brent crude dipped below $90 a barrel on those same hopes, but U.S. crude has held steadier around $89.62, and refineries are running at 95.2% capacity with healthy fuel inventories, keeping the outlook favorable for refining margins.\n\nThe broader context matters here: while diplomatic prospects remain genuinely uncertain (Secretary of State Rubio has said negotiations are \"unproductive\"), any reduction in perceived geopolitical tail risk\u2014particularly conflict that could disrupt Middle Eastern oil\u2014tends to support energy stocks. The recent midterm election results also signaled a voter rebuke of the Trump administration, which could complicate policy certainty going forward, but that broader political headwind has not offset the near-term relief trade in energy as war premium pressures ease.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 132,
-    "inputTokens": 113492,
-    "outputTokens": 28152,
-    "estimatedCostUsd": 0.254252,
-    "lastCallHour": "2026-11-12T20"
+    "callsThisMonth": 133,
+    "inputTokens": 114410,
+    "outputTokens": 28395,
+    "estimatedCostUsd": 0.256385,
+    "lastCallHour": "2026-11-12T21"
   }
 }
