@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T17:01:13.042339+00:00",
-  "text": "ConocoPhillips rose 1.45% today to $139.87, continuing a recovery from last week's lows as oil prices stabilized and geopolitical tension eased slightly. The stock has bounced back over the past three trading days\u2014gaining about 4% from November 9th's low\u2014as headlines shifted from fresh Iranian military threats toward Trump administration messaging that the conflict could end \"fairly soon,\" even though crude oil prices remain volatile and well above summer levels.\n\nThe broader context is a market caught between competing forces: oil demand concerns (Brent dipped below $90 briefly on Iran peace hopes) that typically weigh on energy stocks, versus the reality that US oil still sits near $100 per barrel and geopolitical risk premiums remain baked into prices. Investors appear to be pricing in a scenario where tensions don't escalate further rather than a sharp peace resolution, which keeps crude elevated enough to support energy company valuations.",
+  "fetchedAt": "2026-11-12T18:01:16.250723+00:00",
+  "text": "ConocoPhillips rose 1.9% today to $140.44, continuing a sharp two-day rally that has erased most of a six-day decline. The move follows statements from President Trump on November 10th that the Iran conflict is \"going to be ending fairly soon\" and that Iran is \"militarily effectively over\"\u2014comments that reduced immediate geopolitical risk and supported oil prices, which climbed back above $107 globally. With crude gaining ground on de-escalation hopes, energy stocks like ConocoPhillips have rebounded in tandem.\n\nThe stock's recovery also reflects a broader whipsaw in the energy sector tied to shifting geopolitical bets. Earlier in the week, reports of Iran tensions and military threats sent crude below $90, but Trump's more dovish rhetoric has reversed that trade, at least for now. The gap between US oil ($99.64) and global Brent ($107.03) also widens ConocoPhillips' margin on international operations, providing additional tailwind.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 129,
-    "inputTokens": 104692,
-    "outputTokens": 26404,
-    "estimatedCostUsd": 0.236712,
-    "lastCallHour": "2026-11-12T17"
+    "callsThisMonth": 130,
+    "inputTokens": 105539,
+    "outputTokens": 26631,
+    "estimatedCostUsd": 0.238694,
+    "lastCallHour": "2026-11-12T18"
   }
 }

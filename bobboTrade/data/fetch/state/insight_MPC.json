@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T17:01:29.935313+00:00",
-  "text": "Marathon Petroleum stock gained nearly 3% today after climbing $25 in just four trading days, driven by a sharp reversal in oil market sentiment. Early last week, crude prices had dipped below $90 a barrel on hopes for a near-term Iran deal, but Trump administration officials have since signaled little diplomatic progress and renewed military pressure \u2014 causing Brent crude to rebound to $107 and US oil to hold firm at $99.64. Higher oil prices directly boost refiner profits, and with US refineries running at 94.5% capacity utilization, Marathon is positioned to capture more margin on each barrel processed.\n\nThe stock's recovery also reflects reduced geopolitical risk premium: as military threats persist but peace talk hopes have faded, markets appear to be pricing in a more stable (if tense) status quo rather than either a sudden breakthrough or major new escalation. This clarity has allowed energy investors to focus on the improving fundamentals \u2014 tighter oil markets and high utilization rates \u2014 rather than the binary all-or-nothing outcome that spooked sellers earlier in the week.",
+  "fetchedAt": "2026-11-12T18:01:48.266841+00:00",
+  "text": "Marathon Petroleum jumped 3.16% today, continuing a sharp recovery from earlier in the week. The move follows a week of mixed signals on geopolitical risk: oil prices dipped as President Trump suggested the Iran conflict could end soon, but then steadied as his Secretary of State indicated negotiations were still stalled. Refineries are running at 94.5% capacity\u2014near full tilt\u2014which means any stability in crude prices translates directly to better margins for refining companies like this one.\n\nThe broader picture is that oil traders are caught between two stories: hopes for a de-escalation that would lower prices, and skepticism that a real deal is coming. For a refiner, lower crude prices are good for profits (you buy cheap oil, sell the refined products at relatively stable prices), but the uncertainty itself had hammered the stock earlier in the week. Today's rally suggests the market is tilting toward optimism on that front, at least for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 129,
-    "inputTokens": 110738,
-    "outputTokens": 27519,
-    "estimatedCostUsd": 0.248333,
-    "lastCallHour": "2026-11-12T17"
+    "callsThisMonth": 130,
+    "inputTokens": 111656,
+    "outputTokens": 27725,
+    "estimatedCostUsd": 0.250281,
+    "lastCallHour": "2026-11-12T18"
   }
 }
