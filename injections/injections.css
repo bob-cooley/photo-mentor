@@ -114,9 +114,10 @@ main.frontpage ul.gallery.layout-slideshow.gallery-unmounted{
   overflow:hidden;
   visibility:hidden;
 }
-/* Nav to top pinstripe: theme's 32px main margin-top halved on desktop (matches the 16px line-to-rotator gap) */
+/* Nav to top pinstripe on desktop: 11px margin gives a 20px visual gap from the nav letters to the
+   line, matching the ~20px from the bottom line to the footer tagline letters (2026-11-12; was 16px = 25px) */
 @media (min-width:1000px){
-  main:has(> ul.gallery.layout-slideshow){margin-top:16px;}
+  main:has(> ul.gallery.layout-slideshow){margin-top:11px;}
 }
 /* Bottom pinstripe to footer: 16px like the other gaps (global main margin-bottom is 20px) */
 main:has(> ul.gallery.layout-slideshow){margin-bottom:16px;}
