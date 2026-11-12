@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T21:02:18.188076+00:00",
-  "text": "Marathon's stock jumped 2.5% today, extending a sharp three-day rally that has pushed it up roughly $35 since early last week. The move follows comments from Trump suggesting an Iran conflict could end \"fairly soon\" and statements that Iran's military position has deteriorated\u2014comments that have reduced immediate geopolitical risk to oil supplies. Brent crude dipped below $90 a barrel on those same hopes, but U.S. crude has held steadier around $89.62, and refineries are running at 95.2% capacity with healthy fuel inventories, keeping the outlook favorable for refining margins.\n\nThe broader context matters here: while diplomatic prospects remain genuinely uncertain (Secretary of State Rubio has said negotiations are \"unproductive\"), any reduction in perceived geopolitical tail risk\u2014particularly conflict that could disrupt Middle Eastern oil\u2014tends to support energy stocks. The recent midterm election results also signaled a voter rebuke of the Trump administration, which could complicate policy certainty going forward, but that broader political headwind has not offset the near-term relief trade in energy as war premium pressures ease.",
+  "fetchedAt": "2026-11-12T23:11:06.632300+00:00",
+  "text": "Oil prices have pulled back this week\u2014Brent crude dipped below $90 for the first time since August\u2014on growing hope that the Iran conflict could wind down soon, with President Trump publicly suggesting it will \"end fairly soon.\" For a refiner like this one, lower crude prices are a direct tailwind: they reduce the cost of the raw material the refinery processes. At the same time, refineries are running near full capacity at 95.2%, which means the company is converting that cheaper crude into fuel efficiently and selling into a market where gasoline and diesel inventories remain modest.\n\nThe longer backdrop here cuts both ways. Trump's midterm election loss has emboldened renewable energy advocates, which is a headwind for oil refiners over time. But the near-term momentum\u2014cheaper oil, high utilization, and peace hopes\u2014appears to be supporting the sector this week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 133,
-    "inputTokens": 114410,
-    "outputTokens": 28395,
-    "estimatedCostUsd": 0.256385,
-    "lastCallHour": "2026-11-12T21"
+    "callsThisMonth": 134,
+    "inputTokens": 115217,
+    "outputTokens": 28584,
+    "estimatedCostUsd": 0.258137,
+    "lastCallHour": "2026-11-12T23"
   }
 }
