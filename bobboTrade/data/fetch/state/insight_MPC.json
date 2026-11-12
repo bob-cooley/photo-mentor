@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T16:03:16.367189+00:00",
-  "text": "Marathon Petroleum rose 2.2% today to $411.71, continuing a sharp recovery from its low point five days ago. The stock has gained over $34 since November 5th, which aligns with a shift in oil market sentiment: Brent crude dipped below $90 on hopes for a near-term end to the Iran conflict, and the Trump administration has signaled the conflict is \"going to be ending fairly soon,\" reducing near-term geopolitical risk to oil supply. As uncertainty over Iranian military threats has eased, the market has repriced oil prices and refiner profitability upward.\n\nRefineries are running at 94.5% capacity with tight inventory levels across gasoline and diesel, which means any easing of supply-chain anxiety translates directly into better margins for refiners like Marathon. The stock's two-week decline of 4.8% is now being reversed as traders bet that a resolution to Middle East tensions will keep energy markets stable without further military disruptions.",
+  "fetchedAt": "2026-11-12T17:01:29.935313+00:00",
+  "text": "Marathon Petroleum stock gained nearly 3% today after climbing $25 in just four trading days, driven by a sharp reversal in oil market sentiment. Early last week, crude prices had dipped below $90 a barrel on hopes for a near-term Iran deal, but Trump administration officials have since signaled little diplomatic progress and renewed military pressure \u2014 causing Brent crude to rebound to $107 and US oil to hold firm at $99.64. Higher oil prices directly boost refiner profits, and with US refineries running at 94.5% capacity utilization, Marathon is positioned to capture more margin on each barrel processed.\n\nThe stock's recovery also reflects reduced geopolitical risk premium: as military threats persist but peace talk hopes have faded, markets appear to be pricing in a more stable (if tense) status quo rather than either a sudden breakthrough or major new escalation. This clarity has allowed energy investors to focus on the improving fundamentals \u2014 tighter oil markets and high utilization rates \u2014 rather than the binary all-or-nothing outcome that spooked sellers earlier in the week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 128,
-    "inputTokens": 109820,
-    "outputTokens": 27285,
-    "estimatedCostUsd": 0.246245,
-    "lastCallHour": "2026-11-12T16"
+    "callsThisMonth": 129,
+    "inputTokens": 110738,
+    "outputTokens": 27519,
+    "estimatedCostUsd": 0.248333,
+    "lastCallHour": "2026-11-12T17"
   }
 }

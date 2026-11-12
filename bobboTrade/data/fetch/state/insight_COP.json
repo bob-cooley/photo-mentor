@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T16:03:01.026227+00:00",
-  "text": "COP rose 0.88% today to $139.07, continuing a rebound from last week's lows as oil prices stabilized. The U.S. oil benchmark is trading at $99.64 per barrel, still well below the $107+ level seen earlier, but the worst of last week's sell-off appears to have passed. Trump's comments over the weekend that the Iran conflict would end \"fairly soon\" sparked initial optimism about de-escalation, which had briefly pushed crude down; today's modest gain suggests the market has digested that news and is finding a floor.\n\nThe two-week decline of 7.3% reflects the broader whipsaw in energy stocks as geopolitical risk around Iran has shifted rapidly from crisis to potential resolution. While Trump administration officials have sent mixed signals\u2014with Secretary of State Rubio still skeptical of diplomatic progress\u2014the simple fact that resolution talk has replaced strike fears has taken pressure off oil prices and energy stocks that benefit from higher crude.",
+  "fetchedAt": "2026-11-12T17:01:13.042339+00:00",
+  "text": "ConocoPhillips rose 1.45% today to $139.87, continuing a recovery from last week's lows as oil prices stabilized and geopolitical tension eased slightly. The stock has bounced back over the past three trading days\u2014gaining about 4% from November 9th's low\u2014as headlines shifted from fresh Iranian military threats toward Trump administration messaging that the conflict could end \"fairly soon,\" even though crude oil prices remain volatile and well above summer levels.\n\nThe broader context is a market caught between competing forces: oil demand concerns (Brent dipped below $90 briefly on Iran peace hopes) that typically weigh on energy stocks, versus the reality that US oil still sits near $100 per barrel and geopolitical risk premiums remain baked into prices. Investors appear to be pricing in a scenario where tensions don't escalate further rather than a sharp peace resolution, which keeps crude elevated enough to support energy company valuations.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 128,
-    "inputTokens": 103836,
-    "outputTokens": 26198,
-    "estimatedCostUsd": 0.234826,
-    "lastCallHour": "2026-11-12T16"
+    "callsThisMonth": 129,
+    "inputTokens": 104692,
+    "outputTokens": 26404,
+    "estimatedCostUsd": 0.236712,
+    "lastCallHour": "2026-11-12T17"
   }
 }
