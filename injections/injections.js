@@ -151,6 +151,10 @@
     if (window.innerWidth < 1000) return;
     // the slideshow's fullscreen view must fill the real window, so no zoom while it's open
     if (document.querySelector("ul.gallery.fullscreen")) return;
+    // until the theme builds the slideshow, the gallery is a tall grid of every photo, which
+    // made pages that fit at 100% shrink on load and then grow back; wait for gallery-mounted
+    var gallery = document.querySelector("main ul.gallery");
+    if (gallery && !gallery.classList.contains("gallery-mounted")) return;
 
     var height = root.scrollHeight;
     if (height <= window.innerHeight) return;
