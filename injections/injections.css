@@ -106,6 +106,14 @@ main:has(> ul.gallery.layout-slideshow){
   border-bottom:2px solid #333333;
   padding-block:16px;
 }
+/* Before the theme's script builds the slideshow, the gallery is an 803px-tall grid of every
+   photo (class gallery-unmounted), so the footer loaded ~126px low and jumped up a moment
+   later. Reserve the slideshow's final 16:9 box and keep the unbuilt grid invisible. */
+main.frontpage ul.gallery.layout-slideshow.gallery-unmounted{
+  aspect-ratio:16/9;
+  overflow:hidden;
+  visibility:hidden;
+}
 /* Nav to top pinstripe: theme's 32px main margin-top halved on desktop (matches the 16px line-to-rotator gap) */
 @media (min-width:1000px){
   main:has(> ul.gallery.layout-slideshow){margin-top:16px;}
