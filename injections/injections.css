@@ -163,7 +163,7 @@ header nav .nav-galleries-note{
   font-family:"Courier New", Courier, monospace;
   font-size:14px;
   line-height:1.4;
-  letter-spacing:normal;
+  letter-spacing:-0.04em;  /* same tightening as the nav */
   text-transform:none;
   color:#AAAAAA;
 }
