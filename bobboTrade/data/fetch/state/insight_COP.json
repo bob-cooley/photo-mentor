@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T18:01:16.250723+00:00",
-  "text": "ConocoPhillips rose 1.9% today to $140.44, continuing a sharp two-day rally that has erased most of a six-day decline. The move follows statements from President Trump on November 10th that the Iran conflict is \"going to be ending fairly soon\" and that Iran is \"militarily effectively over\"\u2014comments that reduced immediate geopolitical risk and supported oil prices, which climbed back above $107 globally. With crude gaining ground on de-escalation hopes, energy stocks like ConocoPhillips have rebounded in tandem.\n\nThe stock's recovery also reflects a broader whipsaw in the energy sector tied to shifting geopolitical bets. Earlier in the week, reports of Iran tensions and military threats sent crude below $90, but Trump's more dovish rhetoric has reversed that trade, at least for now. The gap between US oil ($99.64) and global Brent ($107.03) also widens ConocoPhillips' margin on international operations, providing additional tailwind.",
+  "fetchedAt": "2026-11-12T19:02:18.069400+00:00",
+  "text": "ConocoPhillips rose 2% today, recovering some ground after a weak two weeks. The move follows statements from President Trump over the past two days suggesting the Iran conflict is winding down\u2014he said Monday the situation was \"going to be ending fairly soon\" and that Iran's military capacity is effectively depleted. Those comments had briefly pushed Brent crude below $90 a barrel on hopes of de-escalation, but US oil prices have since steadied around $99.65 per barrel, and the stock's rebound today suggests investors may be pricing in stabilization rather than an oil crash.\n\nThe broader picture adds nuance: while geopolitical tensions easing can weigh on oil prices in the short term, COP and other energy majors also benefit from reduced crisis volatility and the ability to plan capital spending with more certainty. Additionally, the recent midterm election results signal growing political headwinds for renewable energy expansion, which could support longer-term demand for traditional oil and gas\u2014a structural tailwind that may be offsetting near-term price weakness.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 130,
-    "inputTokens": 105539,
-    "outputTokens": 26631,
-    "estimatedCostUsd": 0.238694,
-    "lastCallHour": "2026-11-12T18"
+    "callsThisMonth": 131,
+    "inputTokens": 106386,
+    "outputTokens": 26861,
+    "estimatedCostUsd": 0.240691,
+    "lastCallHour": "2026-11-12T19"
   }
 }

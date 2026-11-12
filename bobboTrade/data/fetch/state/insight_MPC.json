@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T18:01:48.266841+00:00",
-  "text": "Marathon Petroleum jumped 3.16% today, continuing a sharp recovery from earlier in the week. The move follows a week of mixed signals on geopolitical risk: oil prices dipped as President Trump suggested the Iran conflict could end soon, but then steadied as his Secretary of State indicated negotiations were still stalled. Refineries are running at 94.5% capacity\u2014near full tilt\u2014which means any stability in crude prices translates directly to better margins for refining companies like this one.\n\nThe broader picture is that oil traders are caught between two stories: hopes for a de-escalation that would lower prices, and skepticism that a real deal is coming. For a refiner, lower crude prices are good for profits (you buy cheap oil, sell the refined products at relatively stable prices), but the uncertainty itself had hammered the stock earlier in the week. Today's rally suggests the market is tilting toward optimism on that front, at least for now.",
+  "fetchedAt": "2026-11-12T19:02:51.742361+00:00",
+  "text": "Marathon Petroleum jumped 3.2% today, recovering much of what it had lost over the past two weeks. The move follows a sharp reversal in oil market sentiment: after crude briefly dipped below $90 a barrel on Monday on hopes for a near-term end to the Iran conflict, prices have rebounded sharply\u2014US crude is now at $99.64 and Brent at $107.03. Refiners like Marathon benefit directly when oil prices rise, since they buy crude cheap and sell refined products (gasoline, diesel) at prices that don't fall as fast, widening their profit margins.\n\nThe rebound reflects growing skepticism about a quick diplomatic resolution. While Trump said Tuesday that an Iran war would end \"fairly soon,\" Secretary of State Rubio signaled the same day that negotiations remain stuck, and reports of escalating Iranian threats suggest the conflict may not resolve as cleanly as the market briefly hoped on Monday. That uncertainty has pushed oil prices back up, which is supporting refiner margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 130,
-    "inputTokens": 111656,
-    "outputTokens": 27725,
-    "estimatedCostUsd": 0.250281,
-    "lastCallHour": "2026-11-12T18"
+    "callsThisMonth": 131,
+    "inputTokens": 112574,
+    "outputTokens": 27943,
+    "estimatedCostUsd": 0.252289,
+    "lastCallHour": "2026-11-12T19"
   }
 }
