@@ -247,6 +247,21 @@ jobs:
         working-directory: bobboTrade/data/fetch
         run: pip install -r requirements.txt
 
+      # Last-good data files. public/data is gitignored and the deploy
+      # step deletes any server file missing from the local build, so a
+      # failed fetch (e.g. a Twelve Data 429) used to wipe the live
+      # market/rsi/volume files. Restoring the previous run's files first
+      # means a failed fetch leaves the old file in place; a successful
+      # fetch overwrites it. Each file keeps its own fetchedAt, so the
+      # header's "Prices as of" label shows the real age of kept data.
+      - name: Restore last-good data files
+        uses: actions/cache/restore@v4
+        with:
+          path: bobboTrade/public/data
+          key: bobbotrade-data-${{ github.run_id }}
+          restore-keys: |
+            bobbotrade-data-
+
       - name: Fetch market/energy/analyst/news/dividend/insight data
         working-directory: bobboTrade/data/fetch
         env:
@@ -255,6 +270,16 @@ jobs:
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python run_all.py
+
+      # Cache keys are immutable, so each run saves under its own run id
+      # and the restore above picks the newest. continue-on-error: a cache
+      # hiccup must never fail the actual deploy.
+      - name: Save last-good data files
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: bobboTrade/public/data
+          key: bobbotrade-data-${{ github.run_id }}
 
       - name: Build frontend
         working-directory: bobboTrade
