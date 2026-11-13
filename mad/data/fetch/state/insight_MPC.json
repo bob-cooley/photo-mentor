@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T05:00:16.306380+00:00",
-  "text": "Marathon Petroleum stock climbed 3.4% today after tumbling 8.6% over the past two weeks, recouping some losses as oil prices steadied and refinery operations remained robust. The bounce follows a period of sharp decline driven by falling crude prices \u2014 Brent dipped below $90 a barrel on hopes for Iran de-escalation \u2014 but today's rebound suggests the market is reassessing those peace prospects after mixed signals from U.S. officials about whether a real diplomatic deal is actually possible. With refineries running at 94.5% capacity and U.S. crude back above $99 a barrel, the immediate operating environment for a major refiner remains solid.\n\nThe broader picture is one of heightened uncertainty around Middle East tensions. While initial headlines about ending the Iran conflict sent oil prices lower (which hurts refiner margins), more recent statements from officials like Secretary of State Rubio casting doubt on negotiations may be steadying the outlook \u2014 suggesting investors see less downside risk to energy prices than they feared a few days ago.",
+  "fetchedAt": "2026-11-13T00:41:32.285365+00:00",
+  "text": "Marathon Petroleum jumped 2.5% today, capping a four-day rally that's added nearly $35 to the stock price after last week's sharp decline. The move follows Trump's comments Monday that the Iran conflict is \"going to be ending fairly soon,\" which eased fears of prolonged Middle Eastern disruption to oil supplies. Crude prices have stabilized around $89\u2013$92 per barrel this week, and U.S. refineries are running at a healthy 95.2% capacity, creating a supportive backdrop for refinery margins and profitability.\n\nThe stock's rebound reflects a shift in market sentiment on geopolitical risk. Last week, uncertainty about Iran escalation and the conflict's impact on oil flow drove the price down roughly 4.5% through early November; this week's pivot toward de-escalation talk has reversed that move. However, conflicting signals remain \u2014 Secretary of State Rubio simultaneously said Iran negotiations \"remain unproductive\" \u2014 so the relief rally could prove fragile if headlines shift again.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 15,
-    "inputTokens": 13012,
-    "outputTokens": 3248,
-    "estimatedCostUsd": 0.029252,
-    "lastCallHour": "2026-11-12T05"
+    "callsThisMonth": 16,
+    "inputTokens": 13932,
+    "outputTokens": 3473,
+    "estimatedCostUsd": 0.031297,
+    "lastCallHour": "2026-11-13T00"
   }
 }

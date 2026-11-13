@@ -247,8 +247,8 @@
     "outputTokens": 1901,
     "estimatedCostUsd": 0.025785
   },
-  "lastGdeltOk": false,
+  "lastGdeltOk": true,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-11-12T04:18:03.236815+00:00"
+  "lastRunAt": "2026-11-13T00:41:54.886946+00:00"
 }

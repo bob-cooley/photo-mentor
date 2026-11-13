@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-12T05:00:05.453914+00:00",
-  "text": "ConocoPhillips rose 1.67% today, bouncing back from a five-day slide that had pushed the stock down 7.5% since early November. The rebound came as oil prices stabilized\u2014US crude held steady around $99.64 per barrel after earlier weakness\u2014following Trump administration comments suggesting the Iran conflict could wind down \"fairly soon.\" That prospect had spooked energy investors earlier in the week when Brent crude briefly dipped below $90, but today's steadier tone and relief that major geopolitical escalation may be off the table helped restore some buyer interest.\n\nThe deeper backdrop is that energy stocks have faced crosswinds: while the Iran de-escalation narrative initially pressured oil, the midterm election results signaled a political environment less hostile to renewables, adding longer-term uncertainty for traditional oil producers. For now, though, the immediate worry\u2014an oil price collapse from sudden peace\u2014has eased enough for traders to step back in.",
+  "fetchedAt": "2026-11-13T00:39:51.684425+00:00",
+  "text": "ConocoPhillips rose 1.6% today, extending a three-day rally that has brought the stock up $5.60 from its low on November 9th. The move follows Trump's comments on November 10th that the Iran conflict is \"going to be ending fairly soon\" and that Iran is \"militarily effectively over\"\u2014statements that reduced geopolitical risk premium in oil prices and signaled a potential easing of Middle East tensions. Oil prices themselves have stabilized around $89\u201392 per barrel after dipping below $90 earlier in the week on those same Iran peace hopes, and energy stocks like ConocoPhillips have rebounded alongside that stabilization.\n\nThe stock's broader two-week decline of 6.6% reflects the market's initial response to falling oil prices and reduced conflict risk. However, the past few days show traders repricing as the immediate panic fades\u2014with oil prices holding rather than collapsing further, and de-escalation rhetoric providing enough support for energy equities to recover some losses.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 15,
-    "inputTokens": 12273,
-    "outputTokens": 2936,
-    "estimatedCostUsd": 0.026953,
-    "lastCallHour": "2026-11-12T05"
+    "callsThisMonth": 16,
+    "inputTokens": 13122,
+    "outputTokens": 3163,
+    "estimatedCostUsd": 0.028937,
+    "lastCallHour": "2026-11-13T00"
   }
 }
