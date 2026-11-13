@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-13T00:37:06.066925+00:00",
-  "text": "Marathon Petroleum jumped 2.5% today after oil prices surged over the past two days\u2014US crude rose from $89.62 to a fresh high, and Brent briefly dipped below $90 before recovering, driven by shifting expectations around Iran and Middle East tensions. The stock has now climbed $35.53 (9.4%) in just four trading days, suggesting the market is pricing in both stronger oil prices and higher refinery margins as global supply concerns ebb and demand holds up.\n\nThe broader backdrop matters: Trump's comments that the Iran conflict is \"going to be ending fairly soon\" have reduced geopolitical risk premiums in oil, while refineries are running at a robust 95.2% capacity with healthy crude inventories (694 million barrels). For a refiner like Marathon, falling oil prices typically squeeze margins, but stable or rising crude paired with strong utilization rates and the potential for lower input costs if Middle East tensions fully resolve creates a more favorable near-term environment.",
+  "fetchedAt": "2026-11-13T01:11:19.921543+00:00",
+  "text": "Marathon Petroleum rose 2.5% today, climbing to $412.85 after a sharp four-day rally that gained $23 from Monday's low. The move reflects a reversal in oil market sentiment: crude prices have stabilized and ticked higher over the past two days (US oil at $89.62, up from the dip below $90 earlier this week) as initial hopes for a near-term Iran peace deal have faded. Secretary of State Rubio signaled yesterday that negotiations remain stalled, countering Trump's earlier optimism, which likely reassured investors that geopolitical tension and oil demand won't collapse as quickly as feared.\n\nRefinery utilization remains elevated at 95.2%, supporting margins for a refiner like Marathon even as crude prices stay moderate. The four-day bounce also follows heavy selling last week (the stock dropped 4.5% over two weeks through early November), so some of today's gain may reflect technical stabilization and profit-taking by sellers after the worst of the panic over Iran de-escalation passed.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 135,
-    "inputTokens": 116137,
-    "outputTokens": 28801,
-    "estimatedCostUsd": 0.260142,
-    "lastCallHour": "2026-11-13T00"
+    "callsThisMonth": 136,
+    "inputTokens": 117057,
+    "outputTokens": 29032,
+    "estimatedCostUsd": 0.262217,
+    "lastCallHour": "2026-11-13T01"
   }
 }

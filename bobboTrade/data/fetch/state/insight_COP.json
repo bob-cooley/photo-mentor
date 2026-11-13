@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-13T00:36:07.624929+00:00",
-  "text": "ConocoPhillips rose 1.6% today, building on a three-day rally that's pushed the stock up $5.60 since November 9th. The timing aligns with a shift in oil-market sentiment: crude prices have steadied in the $89\u201392 range after briefly dipping below $90 on hopes for an Iran peace deal, but Trump's recent comments suggesting the Iran conflict will end \"fairly soon\" appear to have eased some of the worst-case geopolitical risk premium that had weighed on energy stocks earlier in the week.\n\nThe broader context here is that energy stocks had sold off sharply through early November amid recession fears and a Democratic sweep in midterm elections that signaled headwinds for oil producers. ConocoPhillips is still down 6.7% over two weeks, so today's gain is a partial recovery\u2014not a new bullish story, but a relief bounce as near-term geopolitical uncertainty recedes and oil prices find a floor.",
+  "fetchedAt": "2026-11-13T01:10:35.877035+00:00",
+  "text": "ConocoPhillips rose 1.6% today, continuing a recovery from a two-week decline that has now recouped most of its losses. The bounce follows positive comments from the Trump administration about resolving the Iran conflict \"fairly soon,\" which has eased geopolitical risk premiums that were pressuring oil prices\u2014Brent crude dipped below $90 a barrel on November 10th amid those \"Iran hopes,\" but crude has since stabilized in the $89\u2013$92 range as the market digests whether the peace talk rhetoric will actually materialize.\n\nThe stock's gain also comes after it was mentioned as \"a call of the day\" on November 11th, suggesting renewed investor interest in the energy sector. More broadly, oil majors like ConocoPhillips have faced headwinds from talk of a blue-wave midterm election result and growing renewable energy momentum, but a de-escalation narrative around Iran\u2014a major source of supply uncertainty\u2014can ease concerns about supply disruptions and support crude prices where refiners and producers profit.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 135,
-    "inputTokens": 109667,
-    "outputTokens": 27760,
-    "estimatedCostUsd": 0.248467,
-    "lastCallHour": "2026-11-13T00"
+    "callsThisMonth": 136,
+    "inputTokens": 110516,
+    "outputTokens": 27990,
+    "estimatedCostUsd": 0.250466,
+    "lastCallHour": "2026-11-13T01"
   }
 }
