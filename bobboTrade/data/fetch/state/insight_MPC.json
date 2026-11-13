@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-13T12:51:24.270059+00:00",
-  "text": "Marathon Petroleum rose 2.48% today after a sharp four-day climb that added $35 to the stock price. The rally coincides with oil prices stabilizing around $90 a barrel and refineries running at 95.2% capacity\u2014near maximum utilization. With crude supplies ample (the IEA reports global markets back in surplus after Russian production rebounded) and fuel inventories steady, the refining sector benefits from the combination of steady input costs and sustained demand, which supports margins for refiners like Marathon.\n\nThe broader context is a shift in oil market sentiment: Trump administration comments about Iran de-escalation had briefly spooked the market in early November, pushing Brent below $90, but prices have since recovered as the geopolitical uncertainty eased without collapsing demand. Refineries are operating near flat-out, and gasoline and diesel stocks remain at levels that suggest healthy product demand, which is what keeps refiner profitability intact.",
+  "fetchedAt": "2026-11-13T20:21:59.038919+00:00",
+  "text": "Marathon Petroleum's stock ticked down just 0.1% today and sits essentially flat at $412.44, but the bigger story is the 7.3% drop over two weeks. That decline tracks directly with oil prices falling\u2014crude dropped from around $100 per barrel in early November to $89.62 today\u2014which matters because refiners' profits depend on the spread between what they pay for oil and what they sell gasoline and diesel for. Lower oil prices compress that margin, and the news pushing prices down has been clear: Trump administration comments suggesting the Iran conflict may end soon, which reduces the geopolitical risk premium that had been supporting crude, plus reports this week that Russian crude production is rebounding and global oil is swinging back into surplus.\n\nRefineries are running at a healthy 95.2% capacity and storage levels look normal, so there's no supply crunch helping the refining margin recover. The two-week selloff in Marathon tracks the sector-wide repricing of oil as immediate Middle East risk recedes\u2014not a company-specific problem, but a straightforward reflection of lower crude costs eroding refiner profitability.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 138,
-    "inputTokens": 118905,
-    "outputTokens": 29439,
-    "estimatedCostUsd": 0.2661,
-    "lastCallHour": "2026-11-13T12"
+    "callsThisMonth": 139,
+    "inputTokens": 119830,
+    "outputTokens": 29686,
+    "estimatedCostUsd": 0.26826,
+    "lastCallHour": "2026-11-13T20"
   }
 }
