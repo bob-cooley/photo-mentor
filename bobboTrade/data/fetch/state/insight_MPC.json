@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-12T23:11:06.632300+00:00",
-  "text": "Oil prices have pulled back this week\u2014Brent crude dipped below $90 for the first time since August\u2014on growing hope that the Iran conflict could wind down soon, with President Trump publicly suggesting it will \"end fairly soon.\" For a refiner like this one, lower crude prices are a direct tailwind: they reduce the cost of the raw material the refinery processes. At the same time, refineries are running near full capacity at 95.2%, which means the company is converting that cheaper crude into fuel efficiently and selling into a market where gasoline and diesel inventories remain modest.\n\nThe longer backdrop here cuts both ways. Trump's midterm election loss has emboldened renewable energy advocates, which is a headwind for oil refiners over time. But the near-term momentum\u2014cheaper oil, high utilization, and peace hopes\u2014appears to be supporting the sector this week.",
+  "fetchedAt": "2026-11-13T00:37:06.066925+00:00",
+  "text": "Marathon Petroleum jumped 2.5% today after oil prices surged over the past two days\u2014US crude rose from $89.62 to a fresh high, and Brent briefly dipped below $90 before recovering, driven by shifting expectations around Iran and Middle East tensions. The stock has now climbed $35.53 (9.4%) in just four trading days, suggesting the market is pricing in both stronger oil prices and higher refinery margins as global supply concerns ebb and demand holds up.\n\nThe broader backdrop matters: Trump's comments that the Iran conflict is \"going to be ending fairly soon\" have reduced geopolitical risk premiums in oil, while refineries are running at a robust 95.2% capacity with healthy crude inventories (694 million barrels). For a refiner like Marathon, falling oil prices typically squeeze margins, but stable or rising crude paired with strong utilization rates and the potential for lower input costs if Middle East tensions fully resolve creates a more favorable near-term environment.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 134,
-    "inputTokens": 115217,
-    "outputTokens": 28584,
-    "estimatedCostUsd": 0.258137,
-    "lastCallHour": "2026-11-12T23"
+    "callsThisMonth": 135,
+    "inputTokens": 116137,
+    "outputTokens": 28801,
+    "estimatedCostUsd": 0.260142,
+    "lastCallHour": "2026-11-13T00"
   }
 }
