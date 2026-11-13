@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-13T00:39:51.684425+00:00",
-  "text": "ConocoPhillips rose 1.6% today, extending a three-day rally that has brought the stock up $5.60 from its low on November 9th. The move follows Trump's comments on November 10th that the Iran conflict is \"going to be ending fairly soon\" and that Iran is \"militarily effectively over\"\u2014statements that reduced geopolitical risk premium in oil prices and signaled a potential easing of Middle East tensions. Oil prices themselves have stabilized around $89\u201392 per barrel after dipping below $90 earlier in the week on those same Iran peace hopes, and energy stocks like ConocoPhillips have rebounded alongside that stabilization.\n\nThe stock's broader two-week decline of 6.6% reflects the market's initial response to falling oil prices and reduced conflict risk. However, the past few days show traders repricing as the immediate panic fades\u2014with oil prices holding rather than collapsing further, and de-escalation rhetoric providing enough support for energy equities to recover some losses.",
+  "fetchedAt": "2026-11-13T01:13:22.835871+00:00",
+  "text": "ConocoPhillips rose 1.6% today, extending a three-day rally that has recovered most of last week's losses. The timing aligns with a shift in geopolitical sentiment: crude oil prices have stabilized around $90 per barrel after dipping below that level on hopes that Iran tensions may ease. President Trump's recent comments suggesting the Iran conflict could end \"fairly soon\" appear to have reduced some of the uncertainty premium that was weighing on energy stocks, allowing the sector to catch its breath after the prior week's selloff.\n\nThe stock's recovery also reflects broader energy-sector dynamics. While the midterm election results signaled setbacks for fossil fuel companies (particularly regarding renewable energy policy), oil prices themselves have proven resilient in the $90 range despite softening Iran-conflict fears\u2014suggesting that demand fundamentals and global supply concerns remain supportive for crude producers at current levels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 16,
-    "inputTokens": 13122,
-    "outputTokens": 3163,
-    "estimatedCostUsd": 0.028937,
-    "lastCallHour": "2026-11-13T00"
+    "callsThisMonth": 17,
+    "inputTokens": 13971,
+    "outputTokens": 3356,
+    "estimatedCostUsd": 0.030751,
+    "lastCallHour": "2026-11-13T01"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-13T00:41:32.285365+00:00",
-  "text": "Marathon Petroleum jumped 2.5% today, capping a four-day rally that's added nearly $35 to the stock price after last week's sharp decline. The move follows Trump's comments Monday that the Iran conflict is \"going to be ending fairly soon,\" which eased fears of prolonged Middle Eastern disruption to oil supplies. Crude prices have stabilized around $89\u2013$92 per barrel this week, and U.S. refineries are running at a healthy 95.2% capacity, creating a supportive backdrop for refinery margins and profitability.\n\nThe stock's rebound reflects a shift in market sentiment on geopolitical risk. Last week, uncertainty about Iran escalation and the conflict's impact on oil flow drove the price down roughly 4.5% through early November; this week's pivot toward de-escalation talk has reversed that move. However, conflicting signals remain \u2014 Secretary of State Rubio simultaneously said Iran negotiations \"remain unproductive\" \u2014 so the relief rally could prove fragile if headlines shift again.",
+  "fetchedAt": "2026-11-13T01:13:35.254152+00:00",
+  "text": "Marathon Petroleum jumped 2.5% today, recovering sharply after a rough week that saw the stock down 4.5% through November 10th. The move tracks a significant shift in oil market sentiment: crude prices have climbed roughly $3 a barrel since early last week (from around $86\u201387 to $89.62 today), driven by renewed geopolitical uncertainty over Iran despite earlier Trump administration statements suggesting the conflict might resolve soon. Higher oil prices improve refining margins\u2014the profit refiners make by turning crude into gasoline and diesel\u2014which directly boosts earnings for a company like this.\n\nThe rebound also reflects the stock finding support after overshooting lower on brief hopes for a quick Iran deal early last week (when Brent dipped below $90). With refineries running at 95.2% capacity and crude inventories at healthy levels, the refining complex is positioned to benefit from sustained oil prices in the $89\u201392 range, which explains why the stock bounced hard once the geopolitical narrative shifted back toward caution.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 16,
-    "inputTokens": 13932,
-    "outputTokens": 3473,
-    "estimatedCostUsd": 0.031297,
-    "lastCallHour": "2026-11-13T00"
+    "callsThisMonth": 17,
+    "inputTokens": 14852,
+    "outputTokens": 3703,
+    "estimatedCostUsd": 0.033367,
+    "lastCallHour": "2026-11-13T01"
   }
 }
