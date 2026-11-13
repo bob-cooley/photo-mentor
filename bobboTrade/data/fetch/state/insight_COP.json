@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-13T01:10:35.877035+00:00",
-  "text": "ConocoPhillips rose 1.6% today, continuing a recovery from a two-week decline that has now recouped most of its losses. The bounce follows positive comments from the Trump administration about resolving the Iran conflict \"fairly soon,\" which has eased geopolitical risk premiums that were pressuring oil prices\u2014Brent crude dipped below $90 a barrel on November 10th amid those \"Iran hopes,\" but crude has since stabilized in the $89\u2013$92 range as the market digests whether the peace talk rhetoric will actually materialize.\n\nThe stock's gain also comes after it was mentioned as \"a call of the day\" on November 11th, suggesting renewed investor interest in the energy sector. More broadly, oil majors like ConocoPhillips have faced headwinds from talk of a blue-wave midterm election result and growing renewable energy momentum, but a de-escalation narrative around Iran\u2014a major source of supply uncertainty\u2014can ease concerns about supply disruptions and support crude prices where refiners and producers profit.",
+  "fetchedAt": "2026-11-13T04:54:20.179661+00:00",
+  "text": "ConocoPhillips rose 1.6% today, continuing a three-day rally that's erased most of last week's losses. The move follows Trump administration statements over the past two days suggesting the Iran conflict is winding down\u2014Trump said Monday the war would end \"fairly soon\" and that \"Iran militarily is effectively over.\" Oil prices have already reacted to that rhetoric: Brent crude briefly dipped below $90 a barrel for the first time since August, though US crude is still holding near $90. For an oil company, lower geopolitical risk and stabilizing (if not surging) crude prices create a more predictable environment, which the market is rewarding.\n\nThe stock's recovery also comes after CNBC highlighted ConocoPhillips among \"the biggest calls of the day\" on November 11th, suggesting fresh analyst or investor attention. The broader energy sector has been volatile on Iran headlines, but the narrative has shifted from escalation risk toward de-escalation, which removes a major source of uncertainty that had weighed on the stock through early November.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 136,
-    "inputTokens": 110516,
-    "outputTokens": 27990,
-    "estimatedCostUsd": 0.250466,
-    "lastCallHour": "2026-11-13T01"
+    "callsThisMonth": 137,
+    "inputTokens": 111365,
+    "outputTokens": 28224,
+    "estimatedCostUsd": 0.252485,
+    "lastCallHour": "2026-11-13T04"
   }
 }
