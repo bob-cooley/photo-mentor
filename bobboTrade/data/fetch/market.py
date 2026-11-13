@@ -7,6 +7,7 @@ mega-cap tickers — MPC/VLO/PSX all 402 on quote, history, and analyst
 endpoints. Twelve Data's free tier covers all US equities instead.)
 """
 import sys
+import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -16,15 +17,34 @@ TWELVEDATA_BASE = "https://api.twelvedata.com"
 INTRADAY_INTERVAL = "5min"
 INTRADAY_OUTPUTSIZE = 1000  # ~2-3 weeks of 5-minute bars — covers 1D/1W with room to spare
 
+# Each ticker makes 3 Twelve Data calls here (quote, daily history, intraday),
+# and every ticker shares one per-minute rate limit. Spacing the calls keeps
+# the burst under that limit instead of relying on 429 retries to recover.
+# The free-tier figure (8 credits/min) is from memory, not checked; adjust
+# MIN_SECONDS_BETWEEN_CALLS if the plan differs.
+MIN_SECONDS_BETWEEN_CALLS = 8.0
+_last_call_at = 0.0
+
+
+def _td_get(url: str, **kwargs):
+    global _last_call_at
+    wait = MIN_SECONDS_BETWEEN_CALLS - (time.monotonic() - _last_call_at)
+    if wait > 0:
+        time.sleep(wait)
+    try:
+        return get(url, **kwargs)
+    finally:
+        _last_call_at = time.monotonic()
+
 
 def fetch_market(ticker: str) -> dict:
     api_key = get_required_env("TWELVEDATA_API_KEY")
 
-    quote = get(f"{TWELVEDATA_BASE}/quote", params={"symbol": ticker, "apikey": api_key}).json()
+    quote = _td_get(f"{TWELVEDATA_BASE}/quote", params={"symbol": ticker, "apikey": api_key}).json()
     if quote.get("status") == "error":
         raise RuntimeError(f"Twelve Data quote error for {ticker}: {quote.get('message')}")
 
-    series = get(
+    series = _td_get(
         f"{TWELVEDATA_BASE}/time_series",
         params={"symbol": ticker, "interval": "1day", "outputsize": 1825, "apikey": api_key},
     ).json()
@@ -78,7 +98,7 @@ def fetch_intraday(ticker: str) -> dict:
     api_key = get_required_env("TWELVEDATA_API_KEY")
     exchange_tz = ZoneInfo("America/New_York")
 
-    series = get(
+    series = _td_get(
         f"{TWELVEDATA_BASE}/time_series",
         params={
             "symbol": ticker,
