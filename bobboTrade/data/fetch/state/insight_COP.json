@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-13T04:54:20.179661+00:00",
-  "text": "ConocoPhillips rose 1.6% today, continuing a three-day rally that's erased most of last week's losses. The move follows Trump administration statements over the past two days suggesting the Iran conflict is winding down\u2014Trump said Monday the war would end \"fairly soon\" and that \"Iran militarily is effectively over.\" Oil prices have already reacted to that rhetoric: Brent crude briefly dipped below $90 a barrel for the first time since August, though US crude is still holding near $90. For an oil company, lower geopolitical risk and stabilizing (if not surging) crude prices create a more predictable environment, which the market is rewarding.\n\nThe stock's recovery also comes after CNBC highlighted ConocoPhillips among \"the biggest calls of the day\" on November 11th, suggesting fresh analyst or investor attention. The broader energy sector has been volatile on Iran headlines, but the narrative has shifted from escalation risk toward de-escalation, which removes a major source of uncertainty that had weighed on the stock through early November.",
+  "fetchedAt": "2026-11-13T12:50:55.081279+00:00",
+  "text": "ConocoPhillips rose 1.6% today, adding to a sharp three-day climb of $5.60 (4.1%) from November 9 to today. The move reflects an oil price rebound: US crude has recovered to $89.62 per barrel after dipping below $90 last week on hopes for Iran de-escalation, and the company benefits directly when oil prices strengthen. Over the past two weeks the stock is still down 6.65%, but that decline occurred earlier when geopolitical tensions seemed to be easing and Russia's crude output rebounded to 8.73 million barrels a day, both suggesting lower future prices for oil producers.\n\nThe recent three-day bounce appears tied to recognition that any near-term peace in Iran conflicts is uncertain\u2014despite Trump's statements, analysts still see little chance of lasting resolution\u2014leaving oil markets vulnerable to fresh supply disruptions rather than the surplus conditions that weighed on prices last week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 137,
-    "inputTokens": 111365,
-    "outputTokens": 28224,
-    "estimatedCostUsd": 0.252485,
-    "lastCallHour": "2026-11-13T04"
+    "callsThisMonth": 138,
+    "inputTokens": 112222,
+    "outputTokens": 28434,
+    "estimatedCostUsd": 0.254392,
+    "lastCallHour": "2026-11-13T12"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-13T04:54:51.520042+00:00",
-  "text": "Marathon Petroleum jumped 2.5% today as oil prices stabilized and refineries operated at high capacity. After dipping below $90 a barrel earlier in the week on hopes for an Iran peace deal, crude has steadied around $89\u2013$92, and U.S. refinery utilization remains strong at 95.2%\u2014conditions that favor refining margins and profitability for companies like this one that turn crude into gasoline and diesel.\n\nThe stock's broader recovery this week (up from $372 to $412, or about 11%) reflects the market reassessing geopolitical risk. While Trump administration officials have suggested an Iran conflict could end soon, Secretary of State Rubio's more recent comments acknowledged negotiations remain stuck, reducing the odds of a sudden oil-price collapse that traders feared earlier in the week. For a refiner, stable oil prices and high operating rates are the core drivers of earnings.",
+  "fetchedAt": "2026-11-13T12:51:24.270059+00:00",
+  "text": "Marathon Petroleum rose 2.48% today after a sharp four-day climb that added $35 to the stock price. The rally coincides with oil prices stabilizing around $90 a barrel and refineries running at 95.2% capacity\u2014near maximum utilization. With crude supplies ample (the IEA reports global markets back in surplus after Russian production rebounded) and fuel inventories steady, the refining sector benefits from the combination of steady input costs and sustained demand, which supports margins for refiners like Marathon.\n\nThe broader context is a shift in oil market sentiment: Trump administration comments about Iran de-escalation had briefly spooked the market in early November, pushing Brent below $90, but prices have since recovered as the geopolitical uncertainty eased without collapsing demand. Refineries are operating near flat-out, and gasoline and diesel stocks remain at levels that suggest healthy product demand, which is what keeps refiner profitability intact.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 137,
-    "inputTokens": 117977,
-    "outputTokens": 29230,
-    "estimatedCostUsd": 0.264127,
-    "lastCallHour": "2026-11-13T04"
+    "callsThisMonth": 138,
+    "inputTokens": 118905,
+    "outputTokens": 29439,
+    "estimatedCostUsd": 0.2661,
+    "lastCallHour": "2026-11-13T12"
   }
 }
