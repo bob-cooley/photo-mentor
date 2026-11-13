@@ -76,5 +76,29 @@ class SpacingTests(unittest.TestCase):
         self.assertAlmostEqual(slept[0], market.MIN_SECONDS_BETWEEN_CALLS - 1.0)
 
 
+class FailureRecordTests(unittest.TestCase):
+    def test_records_type_and_status_but_not_message(self):
+        import os
+        import tempfile
+
+        resp = _resp(429)
+        exc = requests.exceptions.HTTPError("429 for https://x.test/q?apikey=SECRET123", response=resp)
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "f.txt")
+            with mock.patch.dict(os.environ, {"PIPELINE_FAILURES_FILE": path}):
+                common.record_failure("market", "MPC", exc)
+                common.record_failure("refinery_attacks", None, RuntimeError("boom"))
+            text = open(path).read()
+        self.assertEqual(text, "market for MPC (HTTPError 429)\nrefinery_attacks (RuntimeError)\n")
+        self.assertNotIn("SECRET123", text)
+
+    def test_noop_without_env_var(self):
+        import os
+
+        with mock.patch.dict(os.environ, {}, clear=False):
+            os.environ.pop("PIPELINE_FAILURES_FILE", None)
+            common.record_failure("market", "MPC", RuntimeError("x"))  # must not raise
+
+
 if __name__ == "__main__":
     unittest.main()

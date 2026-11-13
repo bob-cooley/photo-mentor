@@ -210,6 +210,10 @@ jobs:
   deploy-bobbotrade:
     needs: ftps-guard
     runs-on: ubuntu-latest
+    # Names of data modules that failed this run (empty = clean). The
+    # bobbotrade-alert job below turns a non-empty value into a failed run.
+    outputs:
+      failures: ${{ steps.failures.outputs.summary }}
     # The hourly baseline and 5-min market-hours schedules can both fire at
     # :00 simultaneously. Without this, two parallel runs could both see
     # "no AI insight call yet this hour" before either writes the updated
@@ -269,6 +273,7 @@ jobs:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PIPELINE_FAILURES_FILE: ${{ runner.temp }}/pipeline_failures.txt
         run: python run_all.py
 
       # Cache keys are immutable, so each run saves under its own run id
@@ -318,6 +323,36 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
+      # run_all.py swallows per-module errors so one bad API can't block
+      # the deploy, which means the run always ends "success". This
+      # collects what it recorded so the alert job can surface it.
+      - name: Collect fetch failures
+        id: failures
+        if: always()
+        run: |
+          f="$RUNNER_TEMP/pipeline_failures.txt"
+          if [ -s "$f" ]; then
+            echo "summary=$(paste -sd';' "$f" | sed 's/;/; /g')" >> "$GITHUB_OUTPUT"
+          else
+            echo "summary=" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Runs after the deploy has finished, in its own job, so failing it
+  # never blocks the deploy or deploy-mad (which needs deploy-bobbotrade
+  # to succeed). A failed run is what makes GitHub send its failure email
+  # and mobile push notification.
+  bobbotrade-alert:
+    needs: deploy-bobbotrade
+    if: always() && needs.deploy-bobbotrade.outputs.failures != ''
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail so GitHub sends a notification
+        env:
+          FAILURES: ${{ needs.deploy-bobbotrade.outputs.failures }}
+        run: |
+          echo "::error title=bobboTrade data fetch failed::$FAILURES"
+          exit 1
 
   deploy-mad:
     # mad shares bobboTrade's TWELVEDATA_API_KEY (same free-tier per-minute

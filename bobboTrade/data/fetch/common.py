@@ -116,6 +116,24 @@ def _rate_limit_wait(resp: requests.Response, hit: int) -> float:
     return min(RATE_LIMIT_BASE_WAIT_SECONDS * hit, RATE_LIMIT_MAX_WAIT_SECONDS)
 
 
+def record_failure(name: str, ticker: str | None, exc: BaseException) -> None:
+    """Append one line per failed module to the file named by the
+    PIPELINE_FAILURES_FILE env var, if set. The GitHub workflow reads it
+    to raise an alert; run_all.py swallows module errors on purpose, so
+    without this a failed fetch still ends the run as "success".
+
+    Only the exception type and HTTP status are recorded, never the
+    message: request URLs in exception text carry API keys."""
+    path = os.environ.get("PIPELINE_FAILURES_FILE")
+    if not path:
+        return
+    where = f" for {ticker}" if ticker else ""
+    status = getattr(getattr(exc, "response", None), "status_code", None)
+    detail = f"{type(exc).__name__}" + (f" {status}" if status else "")
+    with open(path, "a") as f:
+        f.write(f"{name}{where} ({detail})\n")
+
+
 def get(url: str, **kwargs) -> requests.Response:
     return _request("GET", url, **kwargs)
 
