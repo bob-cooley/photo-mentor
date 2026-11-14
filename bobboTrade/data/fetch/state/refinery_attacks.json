@@ -377,17 +377,18 @@
     "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-10T15:42:36.384285+00:00",
     "https://www.theguardian.com/world/2026/nov/10/ukraine-war-briefing-battlefield-gains-bolstering-kyivs-hand-in-us-led-peace-talks-zelenskyy-says": "2026-11-10T15:42:38.027416+00:00",
     "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-10T21:52:48.183202+00:00",
-    "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-11T16:28:14.791992+00:00"
+    "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-11T16:28:14.791992+00:00",
+    "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city": "2026-11-14T15:32:40.508758+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 17,
-    "inputTokens": 19725,
-    "outputTokens": 2662,
-    "estimatedCostUsd": 0.033035
+    "calls": 18,
+    "inputTokens": 20775,
+    "outputTokens": 2784,
+    "estimatedCostUsd": 0.034695
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-13T12:52:16.120123+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-14T15:32:40.509203+00:00"
 }

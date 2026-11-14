@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-14T08:38:24.926205+00:00",
-  "text": "MPC edged up 0.44% today to $414.65, extending a sharp recovery from last week's lows. The stock has climbed nearly $42 in five days as crude prices stabilized and refinery utilization remained robust at 95.2%, signaling steady demand for refined products. With US oil holding around $89.62 per barrel and gasoline inventories at reasonable levels, the refining margin environment appears stable enough to support continued gains.\n\nThe broader backdrop has shifted slightly in refiners' favor over the past few days. Geopolitical tensions around Iran and the Gulf appear to be easing based on recent Trump administration statements about peace prospects, which has capped oil price downside and reduced supply-disruption fears. At the same time, Russian crude production is back online following recent deals, which does add to global supply \u2014 but refineries are running hot and storage levels remain moderate, so the market is absorbing that output without collapsing margins.",
+  "fetchedAt": "2026-11-14T15:31:57.463279+00:00",
+  "text": "Marathon Petroleum has climbed 11.3% over the past week and gained another 0.4% today, riding a sharp recovery from November 6th lows. The near-term tailwind comes from heating oil prices spiking 59% year-over-year heading into winter\u2014a major demand driver for refineries that process crude into heating fuels. With refineries running at 95.2% capacity and diesel/heating oil storage sitting at 103.3 million barrels, tight inventories ahead of cold weather support margins for fuel producers like Marathon.\n\nHowever, this strength sits against a headwind: Russian crude production has rebounded sharply, pushing global oil markets back into surplus as U.S. crude prices have eased to $89.62 per barrel. Higher crude supply tends to compress the gap between what refiners pay for oil and earn from selling refined products\u2014the margin that determines profitability. The stock's recovery this week suggests the winter heating demand story is outweighing near-term supply pressures, at least for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 141,
-    "inputTokens": 121672,
-    "outputTokens": 30176,
-    "estimatedCostUsd": 0.272552,
-    "lastCallHour": "2026-11-14T08"
+    "callsThisMonth": 142,
+    "inputTokens": 122588,
+    "outputTokens": 30405,
+    "estimatedCostUsd": 0.274613,
+    "lastCallHour": "2026-11-14T15"
   }
 }
