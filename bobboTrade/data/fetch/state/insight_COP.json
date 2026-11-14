@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-14T15:31:20.959671+00:00",
-  "text": "ConocoPhillips rose 1.59% today to $142.28, continuing a four-day rally that's lifted the stock roughly 4.4% since November 10th. The immediate driver appears to be strength in crude oil prices \u2014 US oil is trading at $89.62 per barrel and world oil at $92.14 \u2014 combined with what looks like positive sentiment from industry observers (the stock was mentioned in CNBC's \"calls of the day\" on November 11th). The consistent climb over the past few days suggests investors are feeling more optimistic about the energy sector's near-term outlook.\n\nThat said, the broader picture is more mixed. Over the past two weeks, the stock is still down 7.63%, and recent news on Russian production rebounding and global oil markets moving back into surplus could eventually weigh on prices. The strength today may be a bounce within a downtrend rather than a fundamental shift in the company's prospects.",
+  "fetchedAt": "2026-11-14T20:23:18.269602+00:00",
+  "text": "ConocoPhillips rose 1.59% today, continuing a sharp three-day rally that has recovered most of last week's losses. The stock has climbed $5.69 (4.4%) since November 10th, tracking closely with oil prices, which have stabilized around $89\u2013$92 per barrel after earlier weakness. The heating oil price surge reported today (up 59% year-over-year) signals strong demand in the fuel sector heading into winter, which can support crude and refined product margins for integrated energy companies like ConocoPhillips.\n\nThe broader context: while Russia's crude production rebound has pushed global oil into surplus according to the IEA, the U.S. market appears to be holding its own on the strength of seasonal heating demand and refining needs. This creates a tug-of-war \u2014 oversupply pressure from abroad tempered by real winter-season demand at home \u2014 which may explain why the stock has bounced rather than collapsed despite the international supply news.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 142,
-    "inputTokens": 115597,
-    "outputTokens": 29307,
-    "estimatedCostUsd": 0.262132,
-    "lastCallHour": "2026-11-14T15"
+    "callsThisMonth": 143,
+    "inputTokens": 116437,
+    "outputTokens": 29528,
+    "estimatedCostUsd": 0.264077,
+    "lastCallHour": "2026-11-14T20"
   }
 }

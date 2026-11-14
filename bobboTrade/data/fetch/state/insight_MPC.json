@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-14T15:31:57.463279+00:00",
-  "text": "Marathon Petroleum has climbed 11.3% over the past week and gained another 0.4% today, riding a sharp recovery from November 6th lows. The near-term tailwind comes from heating oil prices spiking 59% year-over-year heading into winter\u2014a major demand driver for refineries that process crude into heating fuels. With refineries running at 95.2% capacity and diesel/heating oil storage sitting at 103.3 million barrels, tight inventories ahead of cold weather support margins for fuel producers like Marathon.\n\nHowever, this strength sits against a headwind: Russian crude production has rebounded sharply, pushing global oil markets back into surplus as U.S. crude prices have eased to $89.62 per barrel. Higher crude supply tends to compress the gap between what refiners pay for oil and earn from selling refined products\u2014the margin that determines profitability. The stock's recovery this week suggests the winter heating demand story is outweighing near-term supply pressures, at least for now.",
+  "fetchedAt": "2026-11-14T20:24:10.549914+00:00",
+  "text": "Marathon Petroleum's stock gained modestly today, continuing a strong recovery from last week's dip. The broader refining sector has benefited from tight diesel and heating oil inventories\u2014diesel storage sits at just 103 million barrels as heating oil demand spikes 59% above last winter\u2014creating better margins for refiners who turn crude into these products. Refineries are running at 95.2% capacity, leaving little spare production to meet this demand surge.\n\nHowever, headwinds are building. Russian crude production has rebounded sharply to 8.73 million barrels per day, pushing global oil markets back into surplus according to recent reporting, which typically pressures refiner margins over time. With oil inventories already elevated at nearly 694 million barrels and crude prices moderating to $89.62 a barrel, the tight supply conditions that have buoyed refiners lately may not last.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 142,
-    "inputTokens": 122588,
-    "outputTokens": 30405,
-    "estimatedCostUsd": 0.274613,
-    "lastCallHour": "2026-11-14T15"
+    "callsThisMonth": 143,
+    "inputTokens": 123504,
+    "outputTokens": 30601,
+    "estimatedCostUsd": 0.276509,
+    "lastCallHour": "2026-11-14T20"
   }
 }
