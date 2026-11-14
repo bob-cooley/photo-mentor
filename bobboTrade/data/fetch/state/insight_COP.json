@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-14T01:18:41.405076+00:00",
-  "text": "ConocoPhillips rose 1.6% today to $142.28, continuing a recovery that's gained nearly $6 in the past three trading days. The bounce appears tied to stabilization in oil prices\u2014US crude is holding around $89.62 per barrel\u2014and a shift in market sentiment after weeks of weakness. Recent headlines suggesting potential de-escalation in Middle East tensions (Trump's comments on Iran, the Bessent security move signaling continued US diplomatic focus) may have eased some of the downward pressure that sent the stock down 7.6% over the past two weeks.\n\nThe broader context: Russian crude output rebounded to 8.73 million barrels per day in October, and the IEA noted global oil markets have shifted into surplus. That surplus typically pressures prices, which had been a headwind for the stock. Today's move reflects traders betting that geopolitical risk premiums\u2014baked into oil prices during periods of Iran tensions\u2014could persist or stabilize, even if the fundamental supply-demand picture remains soft.",
+  "fetchedAt": "2026-11-14T08:35:22.640833+00:00",
+  "text": "ConocoPhillips rose 1.59% today, continuing a strong recovery over the past week after hitting a low of $134.47 on November 9th. The rally coincides with a rebound in crude oil prices\u2014US oil climbed to $89.62 per barrel and global oil to $92.14\u2014suggesting the company benefits as energy prices firm after recent weakness. The stock has now gained roughly $8 from its November 9th trough, recovering most of the losses from the earlier two-week decline.\n\nThe broader oil market backdrop has shifted. Russian crude production rebounded to 8.73 million barrels per day in October as Gulf exports recovered, pushing global supply back into surplus according to the IEA\u2014a dynamic that had likely weighed on prices and the stock earlier in the month. Now that supply concerns have stabilized and prices have steadied, the market appears to be repricing oil majors upward from the oversold levels of early last week.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 140,
-    "inputTokens": 113920,
-    "outputTokens": 28883,
-    "estimatedCostUsd": 0.258335,
-    "lastCallHour": "2026-11-14T01"
+    "callsThisMonth": 141,
+    "inputTokens": 114757,
+    "outputTokens": 29098,
+    "estimatedCostUsd": 0.260247,
+    "lastCallHour": "2026-11-14T08"
   }
 }

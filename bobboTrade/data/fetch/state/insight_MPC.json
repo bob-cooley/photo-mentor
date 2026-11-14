@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-14T01:21:09.428840+00:00",
-  "text": "Marathon Petroleum edged up 0.44% today to close at $414.65, continuing a recovery that's gained about 11% over the past week. The modest move reflects stabilizing oil markets after a period of geopolitical volatility\u2014Brent crude dipped below $90 earlier in the week on hopes for Iran de-escalation, but has since steadied around $92 globally, while U.S. crude sits at $89.62. Refineries are running at a healthy 95.2% capacity, and the stock appears to have found footing as traders assess that the acute geopolitical risk premium has diminished.\n\nThe broader context is a shift from surplus to tighter supply dynamics: while Russian crude production has rebounded following a diesel deal, global oil markets have moved back into surplus according to recent IEA reporting. For a refiner, this is a mixed picture\u2014lower crude prices are generally good for margins, but ample supply and stable demand mean limited upside. The stock's recovery from its November 6 low of $372.74 reflects investors rotating back into energy after the Iran scare eased, though the 2-week decline of 6.76% shows the sector is still digesting uncertainty about demand growth and supply dynamics over the coming months.",
+  "fetchedAt": "2026-11-14T08:38:24.926205+00:00",
+  "text": "MPC edged up 0.44% today to $414.65, extending a sharp recovery from last week's lows. The stock has climbed nearly $42 in five days as crude prices stabilized and refinery utilization remained robust at 95.2%, signaling steady demand for refined products. With US oil holding around $89.62 per barrel and gasoline inventories at reasonable levels, the refining margin environment appears stable enough to support continued gains.\n\nThe broader backdrop has shifted slightly in refiners' favor over the past few days. Geopolitical tensions around Iran and the Gulf appear to be easing based on recent Trump administration statements about peace prospects, which has capped oil price downside and reduced supply-disruption fears. At the same time, Russian crude production is back online following recent deals, which does add to global supply \u2014 but refineries are running hot and storage levels remain moderate, so the market is absorbing that output without collapsing margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 140,
-    "inputTokens": 120757,
-    "outputTokens": 29966,
-    "estimatedCostUsd": 0.270587,
-    "lastCallHour": "2026-11-14T01"
+    "callsThisMonth": 141,
+    "inputTokens": 121672,
+    "outputTokens": 30176,
+    "estimatedCostUsd": 0.272552,
+    "lastCallHour": "2026-11-14T08"
   }
 }
