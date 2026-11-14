@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-11-13T20:21:45.631935+00:00",
+    "fetchedAt": "2026-11-14T01:20:53.586593+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -125,26 +125,6 @@
         "targetAction": "Raises",
         "targetFrom": 376.0,
         "targetTo": 472.0
-      },
-      {
-        "date": "2026-09-14",
-        "firm": "Raymond James",
-        "kind": "maintained",
-        "fromGrade": "Outperform",
-        "toGrade": "Outperform",
-        "targetAction": "Raises",
-        "targetFrom": 350.0,
-        "targetTo": 445.0
-      },
-      {
-        "date": "2026-09-14",
-        "firm": "Morgan Stanley",
-        "kind": "maintained",
-        "fromGrade": "Overweight",
-        "toGrade": "Overweight",
-        "targetAction": "Raises",
-        "targetFrom": 265.0,
-        "targetTo": 453.0
       }
     ]
   }

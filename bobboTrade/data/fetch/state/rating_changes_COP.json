@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "COP",
-    "fetchedAt": "2026-11-13T20:20:19.244584+00:00",
+    "fetchedAt": "2026-11-14T01:18:27.765896+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -85,16 +85,6 @@
         "targetAction": "Raises",
         "targetFrom": 130.0,
         "targetTo": 136.0
-      },
-      {
-        "date": "2026-09-14",
-        "firm": "UBS",
-        "kind": "maintained",
-        "fromGrade": "Buy",
-        "toGrade": "Buy",
-        "targetAction": "Raises",
-        "targetFrom": 153.0,
-        "targetTo": 169.0
       }
     ]
   }

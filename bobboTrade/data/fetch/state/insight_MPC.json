@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-13T20:21:59.038919+00:00",
-  "text": "Marathon Petroleum's stock ticked down just 0.1% today and sits essentially flat at $412.44, but the bigger story is the 7.3% drop over two weeks. That decline tracks directly with oil prices falling\u2014crude dropped from around $100 per barrel in early November to $89.62 today\u2014which matters because refiners' profits depend on the spread between what they pay for oil and what they sell gasoline and diesel for. Lower oil prices compress that margin, and the news pushing prices down has been clear: Trump administration comments suggesting the Iran conflict may end soon, which reduces the geopolitical risk premium that had been supporting crude, plus reports this week that Russian crude production is rebounding and global oil is swinging back into surplus.\n\nRefineries are running at a healthy 95.2% capacity and storage levels look normal, so there's no supply crunch helping the refining margin recover. The two-week selloff in Marathon tracks the sector-wide repricing of oil as immediate Middle East risk recedes\u2014not a company-specific problem, but a straightforward reflection of lower crude costs eroding refiner profitability.",
+  "fetchedAt": "2026-11-14T01:21:09.428840+00:00",
+  "text": "Marathon Petroleum edged up 0.44% today to close at $414.65, continuing a recovery that's gained about 11% over the past week. The modest move reflects stabilizing oil markets after a period of geopolitical volatility\u2014Brent crude dipped below $90 earlier in the week on hopes for Iran de-escalation, but has since steadied around $92 globally, while U.S. crude sits at $89.62. Refineries are running at a healthy 95.2% capacity, and the stock appears to have found footing as traders assess that the acute geopolitical risk premium has diminished.\n\nThe broader context is a shift from surplus to tighter supply dynamics: while Russian crude production has rebounded following a diesel deal, global oil markets have moved back into surplus according to recent IEA reporting. For a refiner, this is a mixed picture\u2014lower crude prices are generally good for margins, but ample supply and stable demand mean limited upside. The stock's recovery from its November 6 low of $372.74 reflects investors rotating back into energy after the Iran scare eased, though the 2-week decline of 6.76% shows the sector is still digesting uncertainty about demand growth and supply dynamics over the coming months.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 139,
-    "inputTokens": 119830,
-    "outputTokens": 29686,
-    "estimatedCostUsd": 0.26826,
-    "lastCallHour": "2026-11-13T20"
+    "callsThisMonth": 140,
+    "inputTokens": 120757,
+    "outputTokens": 29966,
+    "estimatedCostUsd": 0.270587,
+    "lastCallHour": "2026-11-14T01"
   }
 }

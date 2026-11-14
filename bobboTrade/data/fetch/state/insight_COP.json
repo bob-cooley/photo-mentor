@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-13T20:20:36.933140+00:00",
-  "text": "ConocoPhillips rose 1.6% today to $142.37, continuing a sharp four-day rally that has added nearly $6 to the stock's price. The move comes as crude oil prices have stabilized and edged higher \u2014 US oil is trading around $89.62 per barrel \u2014 following earlier weakness tied to hopes for an Iran peace deal and signs of global oil oversupply. After dipping below $90 just three days ago on ceasefire optimism, the market appears to be repricing oil prices upward as those hopes fade and supply concerns ease.\n\nThe broader context: Russia's crude production has rebounded to 8.73 million barrels per day, pushing global markets into surplus, but oil prices have still held relatively firm despite that headwind. The stock's recovery over the past week suggests investors are betting that any near-term geopolitical relief rally has run its course, and that oil will trade on fundamentals \u2014 which currently include solid global demand and a stabilizing price floor.",
+  "fetchedAt": "2026-11-14T01:18:41.405076+00:00",
+  "text": "ConocoPhillips rose 1.6% today to $142.28, continuing a recovery that's gained nearly $6 in the past three trading days. The bounce appears tied to stabilization in oil prices\u2014US crude is holding around $89.62 per barrel\u2014and a shift in market sentiment after weeks of weakness. Recent headlines suggesting potential de-escalation in Middle East tensions (Trump's comments on Iran, the Bessent security move signaling continued US diplomatic focus) may have eased some of the downward pressure that sent the stock down 7.6% over the past two weeks.\n\nThe broader context: Russian crude output rebounded to 8.73 million barrels per day in October, and the IEA noted global oil markets have shifted into surplus. That surplus typically pressures prices, which had been a headwind for the stock. Today's move reflects traders betting that geopolitical risk premiums\u2014baked into oil prices during periods of Iran tensions\u2014could persist or stabilize, even if the fundamental supply-demand picture remains soft.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 139,
-    "inputTokens": 113071,
-    "outputTokens": 28654,
-    "estimatedCostUsd": 0.256341,
-    "lastCallHour": "2026-11-13T20"
+    "callsThisMonth": 140,
+    "inputTokens": 113920,
+    "outputTokens": 28883,
+    "estimatedCostUsd": 0.258335,
+    "lastCallHour": "2026-11-14T01"
   }
 }
