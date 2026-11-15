@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T19:02:16.778530+00:00",
-  "text": "MPC edged up 0.44% today, holding near its recent highs after a sharp rally over the past week. The stock has recovered $42 from its November 6 low, driven largely by refinery economics: US oil prices sitting at $89.62 per barrel and refineries running at 95.2% capacity create strong conditions for fuel margins. Heating oil prices up 59% year-over-year adds tailwind\u2014high distillate demand supports the refining business, even as it squeezes consumers paying the bills.\n\nThe broader context, though, has shifted. News that Russian crude production has rebounded and global oil markets are returning to surplus (supply exceeding demand) could eventually pressure oil prices and refining margins downward. For now, tight refinery utilization and elevated heating oil needs are keeping the stock supported, but this surplus signal suggests the favorable refining environment may not last indefinitely.",
+  "fetchedAt": "2026-11-15T20:02:50.046716+00:00",
+  "text": "MPC rose modestly today, continuing a sharp recovery over the past week after dropping 6.76% in the two weeks prior. The stock has climbed $42 (roughly 11%) since November 6th, driven largely by refinery fundamentals improving: US refineries are running at 95.2% capacity, and heating oil prices have spiked 59% year-over-year due to winter demand and tight supply. That pricing power benefits refiners like Marathon, which profit when the gap between crude input costs and refined product sales widens.\n\nHowever, headwinds are building. Russian crude production has rebounded sharply\u2014the IEA reported output at 8.73 million barrels per day in October\u2014pushing global oil markets back into surplus. That oversupply dynamic typically pressures crude prices and narrows refiner margins, which may explain why today's gain is modest despite the heating oil strength. The stock's recovery could stall if crude supplies continue to ease and refined product demand weakens heading into winter.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 155,
-    "inputTokens": 134496,
-    "outputTokens": 33128,
-    "estimatedCostUsd": 0.300136,
-    "lastCallHour": "2026-11-15T19"
+    "callsThisMonth": 156,
+    "inputTokens": 135412,
+    "outputTokens": 33350,
+    "estimatedCostUsd": 0.302162,
+    "lastCallHour": "2026-11-15T20"
   }
 }
