@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T13:07:26.620397+00:00",
-  "text": "Marathon Petroleum rose modestly today, continuing a strong rebound from a week-long dip that saw the stock fall 6.76% through November 6th. The climb reflects tightness in refined products: heating oil prices have spiked 59% from last winter, and diesel and heating oil inventories remain lean at 103.33 million barrels. Refineries are humming at 95.2% utilization, positioning refiners to profit from the gap between crude costs (holding steady around $90 per barrel) and the premium prices for finished fuels heading into winter.\n\nThe broader backdrop is shifting toward refiner advantage. Russian crude production has recovered after geopolitical turbulence, pushing global oil into oversupply\u2014which typically means cheaper feedstock for refiners. At the same time, heating season demand is real and pressing: consumers are scrambling to cover oil bills as prices have more than doubled year-over-year. This seasonal squeeze on refined products, combined with elevated utilization rates and moderate crude prices, supports margins for companies like Marathon that turn oil into diesel and heating oil.",
+  "fetchedAt": "2026-11-15T14:00:43.706779+00:00",
+  "text": "Marathon Petroleum stock rose modestly today, continuing a strong rebound from last week's dip. The gain reflects a stabilizing refining environment: US crude is holding around $90 per barrel, refineries are running at 95.2% capacity, and heating oil prices have spiked 59% year-over-year, which boosts demand for refined products heading into winter. The company has recovered nearly $42 per share over the past five trading days as these tailwinds became clearer.\n\nHowever, broader oil market dynamics pose a headwind going forward. The IEA reported that Russian crude production has rebounded to 8.73 million barrels per day and global oil supplies have shifted back into surplus, which typically puts downward pressure on crude prices and refinery margins. That oversupply trend, visible in the recent two-week decline, may limit how much further the stock can climb despite strong near-term heating demand.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 149,
-    "inputTokens": 129000,
-    "outputTokens": 31906,
-    "estimatedCostUsd": 0.28853,
-    "lastCallHour": "2026-11-15T13"
+    "callsThisMonth": 150,
+    "inputTokens": 129916,
+    "outputTokens": 32109,
+    "estimatedCostUsd": 0.290461,
+    "lastCallHour": "2026-11-15T14"
   }
 }
