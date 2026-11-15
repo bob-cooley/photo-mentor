@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T00:45:56.252983+00:00",
-  "text": "Marathon Petroleum rose modestly today, continuing a strong four-day rally that has added about $42 per share since early November. The gains reflect tightening conditions in refined products: heating oil prices are up 59% year-over-year heading into winter, and with refineries already running at 95.2% capacity, there's limited room to ramp up production to meet demand. This supply-demand imbalance typically widens the margin refiners earn between the cost of crude oil and the price they get for finished products like diesel and heating oil.\n\nThe broader picture, though, is becoming more complex. Russian crude production has rebounded sharply \u2014 hitting 8.73 million barrels per day \u2014 which the International Energy Agency says has pushed global oil markets back into surplus. A glut of crude supply alongside solid refined-products demand could squeeze refiner margins going forward, which may explain why the stock remains down 6.76% over the past two weeks despite this week's recovery.",
+  "fetchedAt": "2026-11-15T04:19:06.372971+00:00",
+  "text": "Marathon Petroleum stock gained 0.44% today, capping a strong four-day rally that has recovered most of its losses from the prior week. The gain reflects a modest rebound in US crude prices (up to $89.62/barrel) and sustained refinery operations at 95.2% capacity, which keeps the company's processing margins intact even as global oil markets have shifted into oversupply\u2014Russian production rebounded in October after a diesel deal, pushing worldwide supply above demand according to the International Energy Agency.\n\nThe broader headwind is that oil markets are returning to surplus, which typically pressures refiner margins, though the 59% spike in heating oil prices from last winter provides some offsetting lift for refined product demand as winter approaches. Marathon's stock is still down 6.76% over two weeks, suggesting investors are weighing the near-term tailwind of high heating oil prices against longer-term concerns about a softer global supply-demand balance.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 144,
-    "inputTokens": 124420,
-    "outputTokens": 30814,
-    "estimatedCostUsd": 0.27849,
-    "lastCallHour": "2026-11-15T00"
+    "callsThisMonth": 145,
+    "inputTokens": 125336,
+    "outputTokens": 31020,
+    "estimatedCostUsd": 0.280436,
+    "lastCallHour": "2026-11-15T04"
   }
 }
