@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T15:00:20.167343+00:00",
-  "text": "Marathon Petroleum has climbed nearly 12% over the past week, with today's modest gain continuing a sharp recovery from lows hit on November 6th. The rally coincides with refinery utilization hitting 95.2%\u2014near operational capacity\u2014and heating oil prices surging 59% year-over-year, which boosts demand and margins for refiners who produce these products. Rising crude prices (US oil at $89.62/barrel, up from recent lows) combined with tight product inventories creates favorable conditions for refining profits.\n\nHowever, the broader oil market backdrop is turning less supportive. Russia's crude production has bounced back following Trump administration diesel negotiations, and global supply has shifted into surplus according to the IEA, which typically pressures crude prices lower over time. This supply recovery could crimp the refining margins that have driven the stock's recent strength.",
+  "fetchedAt": "2026-11-15T16:03:07.417002+00:00",
+  "text": "Marathon Petroleum has gained 0.44% today, continuing a strong recovery after losing 6.76% over the past two weeks\u2014the stock has climbed nearly $42 from its November 6th low. The uptick reflects two tailwinds for refiners: U.S. oil prices have risen to $89.62 per barrel (up from the lows that triggered the earlier sell-off), and heating oil prices are up 59% year-over-year as winter demand kicks in, which supports margins on the diesel and heating oil products refineries produce.\n\nThe broader picture is mixed but currently supportive. Refineries are running at 95.2% capacity\u2014near maximum utilization\u2014which means the industry is operating lean and any supply disruption or continued cold weather would tighten margins further. However, the recent news of Russian crude production rebounding and global oil markets shifting into surplus is a longer-term headwind that could eventually pressure both oil prices and refiner profits if it persists.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 151,
-    "inputTokens": 130832,
-    "outputTokens": 32300,
-    "estimatedCostUsd": 0.292332,
-    "lastCallHour": "2026-11-15T15"
+    "callsThisMonth": 152,
+    "inputTokens": 131748,
+    "outputTokens": 32518,
+    "estimatedCostUsd": 0.294338,
+    "lastCallHour": "2026-11-15T16"
   }
 }
