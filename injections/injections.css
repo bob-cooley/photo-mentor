@@ -521,6 +521,15 @@ body::before{
 .page-fade-veil.is-active{
   opacity: 1;
 }
+/* The logo stays visible through both fades: it is lifted above the black layers,
+   but only while a fade runs, so it never sits over the lightbox or fullscreen
+   slideshow. html.page-fade-in is set by the inline script in IO200's head Code
+   Injection (removed when the fade-in ends); html.page-fade-out by injections.js. */
+html.page-fade-in header .website-title,
+html.page-fade-out header .website-title{
+  position: relative;
+  z-index: 2147483002;
+}
 @media (prefers-reduced-motion: reduce){
   body::before{ animation-duration: 120ms; }
   .page-fade-veil{ transition-duration: 120ms; }

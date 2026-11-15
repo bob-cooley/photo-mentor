@@ -156,6 +156,24 @@
      every visit and saves it, so inner pages use the current number;
      FIT_FIXED_DEFAULT covers a first visit that starts on an inner page.
      =================================================================== */
+  /* HEAD SNIPPET (2026-11-14): pasted once into IO200's head Code Injection, right after the
+     injections.css <link>. It runs before the first paint, so the page never shows at 100% and
+     then jumps to the fit zoom (the logo stays visible through the fade, so a jump would show).
+     It repeats fitZoom() below in short form: if FIT_* numbers change here, re-paste it.
+     It also sets html.page-fade-in, which lifts the logo above the fade-in layer until it ends.
+
+<script>
+(function(){var d=document.documentElement;d.classList.add("page-fade-in");
+function done(){d.classList.remove("page-fade-in")}
+document.addEventListener("animationend",function(e){if(e.animationName==="page-fade-in")done()});
+setTimeout(done,3000);
+var w=innerWidth,h=innerHeight-2,f=316;if(w<1000)return;
+try{f=parseFloat(localStorage.getItem("bcp-fit-fixed"))||f}catch(e){}
+var r=9/16;if(f+r*(Math.min(1300,w)-96)<=h)return;
+var z=(h-r*w)/(f-r*96);if(!(z>w/1300))z=h/(f+r*1204);
+z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
+</script>
+  */
   var FIT_MIN = 0.75;
   var FIT_MARGIN = 2;           // px of slack so rounding never leaves a 1px scrollbar
   var FIT_MIN_WIDTH = 1000;     // phone/tablet layouts never zoom
@@ -310,6 +328,7 @@
         document.body.appendChild(veil);
         void veil.offsetWidth; // commit opacity 0 so the transition runs
       }
+      document.documentElement.classList.add("page-fade-out"); // keeps the logo above the veil (CSS)
       veil.classList.add("is-active");
       window.setTimeout(function () {
         window.location.assign(url.href);
@@ -320,6 +339,7 @@
     window.addEventListener("pageshow", function (e) {
       if (!e.persisted) return;
       leaving = false;
+      document.documentElement.classList.remove("page-fade-out");
       if (veil) veil.classList.remove("is-active");
     });
   }
