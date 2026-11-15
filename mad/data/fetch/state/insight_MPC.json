@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T04:21:45.999811+00:00",
-  "text": "Marathon Petroleum stock rose modestly today, continuing a sharp rebound from early last week\u2014it's up nearly 12% since November 6th\u2014but the gain today was tiny. The backdrop is a tightening balance in the refining business: refineries are running at 95.2% capacity, and heating oil prices have spiked 59% year-over-year, which typically supports margins for refiners that make diesel and heating oil. However, that strength is being tempered by rising crude supply globally\u2014Russian output has recovered, pushing the market into surplus\u2014which puts downward pressure on the fuel margins refiners depend on.\n\nThe two-week decline of 6.8% overall reflects this tension: strong heating-oil-driven demand is fighting against a glut of crude coming back online. Refiners benefit when they can turn cheap crude into expensive refined products, but that spread narrows when crude supplies flood the market faster than demand for refined fuels can absorb them.",
+  "fetchedAt": "2026-11-15T05:04:43.727264+00:00",
+  "text": "Marathon Petroleum stock gained modestly today (up 0.4%), continuing a sharp recovery from last week's dip. The stock has climbed about $42 in five trading days, rebounding from November 6's low of $372.74. This bounce reflects tightening refining margins: U.S. crude is trading at $89.62 per barrel while heating oil prices have spiked 59% year-over-year, signaling strong demand for refined products heading into winter. Refineries are running at 95.2% capacity, leaving little room to increase output and supporting margins for those already operating at full throttle.\n\nThe broader backdrop of rising heating oil prices and near-peak refinery utilization should favor Marathon's profitability over the coming weeks. However, the recent news that Russian crude production has rebounded and global oil markets are shifting back toward surplus could eventually pressure margins if supply growth outpaces demand \u2014 something worth watching in coming weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 18,
-    "inputTokens": 15768,
-    "outputTokens": 3915,
-    "estimatedCostUsd": 0.035343,
-    "lastCallHour": "2026-11-15T04"
+    "callsThisMonth": 19,
+    "inputTokens": 16684,
+    "outputTokens": 4125,
+    "estimatedCostUsd": 0.037309,
+    "lastCallHour": "2026-11-15T05"
   }
 }
