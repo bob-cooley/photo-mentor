@@ -141,62 +141,6 @@
   }
 
   /* ===================================================================
-     Homepage fit-to-window (2026-11-10). On desktop (window 1000px+ wide),
-     if the page is taller than the window, the whole page shrinks with CSS
-     zoom so header, rotator and footer all fit. 100% is the maximum (never
-     enlarged past the design size); 75% is the floor, below which the page
-     scrolls as normal. Recomputed on every resize, so making the window
-     bigger scales a shrunk page back up toward 100%.
-     =================================================================== */
-  var FIT_MIN = 0.75;
-  var FIT_MARGIN = 2; // px of slack so rounding never leaves a 1px scrollbar
-
-  function fitHomepage() {
-    var root = document.documentElement;
-    root.style.zoom = "";
-    if (window.innerWidth < 1000) return;
-    // the slideshow's fullscreen view must fill the real window, so no zoom while it's open
-    if (document.querySelector("ul.gallery.fullscreen")) return;
-    // until the theme builds the slideshow, the gallery is a tall grid of every photo, which
-    // made pages that fit at 100% shrink on load and then grow back; wait for gallery-mounted
-    var gallery = document.querySelector("main ul.gallery");
-    if (gallery && !gallery.classList.contains("gallery-mounted")) return;
-
-    var height = root.scrollHeight;
-    if (height <= window.innerHeight) return;
-
-    // Zooming out widens the layout (up to the 1300px max), which makes the 16:9
-    // rotator taller, so re-measure and correct a few times until it fits.
-    var zoom = Math.max(FIT_MIN, (window.innerHeight - FIT_MARGIN) / height);
-    for (var i = 0; i < 4; i++) {
-      root.style.zoom = zoom;
-      height = root.scrollHeight;
-      if (height <= window.innerHeight || zoom <= FIT_MIN) break;
-      zoom = Math.max(FIT_MIN, zoom * (window.innerHeight - FIT_MARGIN) / height);
-    }
-  }
-
-  function initHomepageFit() {
-    if (!document.querySelector("main.frontpage")) return;
-    // short debounce (a timer, not requestAnimationFrame, so it also runs where frames are throttled)
-    var timer = null;
-    function schedule() {
-      window.clearTimeout(timer);
-      timer = window.setTimeout(fitHomepage, 60);
-    }
-    fitHomepage();
-    window.addEventListener("resize", schedule);
-    // the theme sizes the slideshow after its images load, so measure again then
-    window.addEventListener("load", schedule);
-    window.setTimeout(schedule, 600);
-    // re-fit when the slideshow enters or leaves fullscreen (the theme toggles a class)
-    var gallery = document.querySelector("main ul.gallery");
-    if (gallery && window.MutationObserver) {
-      new MutationObserver(schedule).observe(gallery, { attributes: true, attributeFilter: ["class"] });
-    }
-  }
-
-  /* ===================================================================
      Page fade-out (2026-11-14). Only the top navigation (logo and header
      nav links, including future galleries sublinks) fades to black before
      changing pages. Every page fades in from black on load (CSS only, see
@@ -283,7 +227,6 @@
     initNavAmpersand();
     initGalleriesNote();
     initFooterTagline();
-    initHomepageFit();
     initNavFade();
   }
 
