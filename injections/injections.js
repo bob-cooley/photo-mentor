@@ -360,6 +360,8 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
     }
     label();
     holder.appendChild(button);
+    // preload the other logo so it appears with no delay on the first switch
+    new Image().src = isLight() ? "/storage/custom/logo.png" : "/logo-light.png";
     button.addEventListener("click", function (e) {
       e.preventDefault();
       e.stopPropagation(); // keep the theme's header click handler (phone menu) out of it
