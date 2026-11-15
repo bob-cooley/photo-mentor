@@ -196,12 +196,81 @@
     }
   }
 
+  /* ===================================================================
+     Page fade-out (2026-11-14). Only the top navigation (logo and header
+     nav links, including future galleries sublinks) fades to black before
+     changing pages. Every page fades in from black on load (CSS only, see
+     injections.css). Clicking the link for the page you're already on does
+     nothing, so the logo can't be clicked repeatedly to replay the fade.
+     =================================================================== */
+  var PAGE_FADE_OUT_MS = 300;
+  var PAGE_FADE_OUT_REDUCED_MS = 120;
+
+  // bobcooleyphoto.com and www.bobcooleyphoto.com both serve the site (the logo links to www)
+  function siteHost(host) {
+    return host.toLowerCase().replace(/^www\./, "");
+  }
+
+  function sitePath(path) {
+    return path.replace(/\/+$/, "") || "/";
+  }
+
+  function initNavFade() {
+    var links = document.querySelectorAll("header .website-title-link, header nav a");
+    if (!links.length) return;
+    var veil = null;
+    var leaving = false;
+    var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    Array.prototype.forEach.call(links, function (link) {
+      if (link.closest(".nav-galleries-note")) return; // Instagram/Threads/Foto links in the popup
+      link.addEventListener("click", function (e) {
+        if (e.defaultPrevented) return; // e.g. the galleries click-cancel above
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // new tab/window
+        if (link.target && link.target !== "_self") return;
+        var url;
+        try {
+          url = new URL(link.href, window.location.href);
+        } catch (err) {
+          return;
+        }
+        if (siteHost(url.host) !== siteHost(window.location.host)) return; // external link
+        if (sitePath(url.pathname) === sitePath(window.location.pathname) && url.search === window.location.search) {
+          e.preventDefault(); // already on this page
+          return;
+        }
+        e.preventDefault();
+        if (leaving) return;
+        leaving = true;
+        if (!veil) {
+          veil = document.createElement("div");
+          veil.className = "page-fade-veil";
+          veil.setAttribute("aria-hidden", "true");
+          document.body.appendChild(veil);
+          void veil.offsetWidth; // commit opacity 0 so the transition runs
+        }
+        veil.classList.add("is-active");
+        window.setTimeout(function () {
+          window.location.assign(url.href);
+        }, reduced ? PAGE_FADE_OUT_REDUCED_MS : PAGE_FADE_OUT_MS);
+      });
+    });
+
+    // Back/Forward can restore this page from the browser cache with the veil still black
+    window.addEventListener("pageshow", function (e) {
+      if (!e.persisted) return;
+      leaving = false;
+      if (veil) veil.classList.remove("is-active");
+    });
+  }
+
   function init() {
     init404Flicker();
     initNavAmpersand();
     initGalleriesNote();
     initFooterTagline();
     initHomepageFit();
+    initNavFade();
   }
 
   if (document.readyState === "loading") {
