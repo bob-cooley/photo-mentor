@@ -161,10 +161,12 @@
      injections.css <link>. It runs before the first paint, so the page never shows at 100% and
      then jumps to the fit zoom (the logo stays visible through the fade, so a jump would show).
      It repeats fitZoom() below in short form: if FIT_* numbers change here, re-paste it.
-     It also sets html.page-fade-in, which lifts the logo above the fade-in layer until it ends.
+     It also sets html.page-fade-in, which lifts the logo above the fade-in layer until it ends,
+     and applies a saved light-mode choice (2026-11-15) so light pages never flash dark.
 
 <script>
 (function(){var d=document.documentElement;d.classList.add("page-fade-in");
+try{if(localStorage.getItem("bcp-theme")==="light"){d.classList.add("theme-light");var m=document.querySelector('link[href*="mode-dark.css"]');if(m)m.disabled=true}}catch(e){}
 function done(){d.classList.remove("page-fade-in")}
 document.addEventListener("animationend",function(e){if(e.animationName==="page-fade-in")done()});
 setTimeout(done,3000);
@@ -318,6 +320,60 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
     });
   }
 
+  /* ===================================================================
+     Light/dark toggle (2026-11-15). Dark is the default. The button in the
+     header's top-right corner switches to light: it adds html.theme-light,
+     turns off the theme's mode-dark.css and remembers the choice in
+     localStorage ("bcp-theme"). The head Code Injection script applies a
+     saved "light" before the first paint, so light pages never flash dark.
+     The circle's rotation is CSS (injections.css, "Light mode").
+     =================================================================== */
+  var THEME_KEY = "bcp-theme";
+
+  function isLight() {
+    return document.documentElement.classList.contains("theme-light");
+  }
+
+  function applyTheme(light) {
+    document.documentElement.classList.toggle("theme-light", light);
+    var darkSheet = document.querySelector('link[href*="mode-dark.css"]');
+    if (darkSheet) darkSheet.disabled = light;
+  }
+
+  function initThemeToggle() {
+    var holder = document.querySelector("header .title-container");
+    if (!holder || holder.querySelector(".theme-toggle")) return;
+    // in case the head script isn't there, still honor a saved choice
+    try {
+      if (window.localStorage.getItem(THEME_KEY) === "light" && !isLight()) applyTheme(true);
+    } catch (err) {
+      // storage blocked: stay dark
+    }
+    var button = document.createElement("button");
+    button.type = "button";
+    button.className = "theme-toggle";
+    button.innerHTML = '<img src="/theme-toggle.png" alt="" width="26" height="26">';
+    function label() {
+      var text = isLight() ? "Switch to dark mode" : "Switch to light mode";
+      button.setAttribute("aria-label", text);
+      button.title = text;
+    }
+    label();
+    holder.appendChild(button);
+    button.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation(); // keep the theme's header click handler (phone menu) out of it
+      var light = !isLight();
+      applyTheme(light);
+      try {
+        window.localStorage.setItem(THEME_KEY, light ? "light" : "dark");
+      } catch (err) {
+        // storage blocked: the choice lasts until the next page load
+      }
+      label();
+    });
+  }
+
   function init() {
     init404Flicker();
     initNavAmpersand();
@@ -325,6 +381,7 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
     initFooterTagline();
     initFit();
     initNavFade();
+    initThemeToggle();
   }
 
   if (document.readyState === "loading") {

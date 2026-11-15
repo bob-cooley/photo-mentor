@@ -209,7 +209,16 @@ header nav .nav-galleries-note a:focus-visible{color:#00968A;}
   header nav > ul > li.has-galleries-note:focus-within > .nav-galleries-note{display:block;}
 }
 @media (max-width:999px){
-  header nav .nav-galleries-note{padding:0 1.5rem 0.6rem;text-align:center;}
+  /* phone menu: smaller and narrower than the nav items so it reads as a note (2026-11-15) */
+  header nav .nav-galleries-note{
+    max-width:290px;
+    margin:0 auto;
+    padding:0 0 0.6rem;
+    font-size:14px;
+    line-height:1.35;
+    text-align:center;
+  }
+  header nav .nav-galleries-lead{font-size:14px;margin-bottom:3px;}
 }
 
 /* Pipe separators between top-level items, desktop only (phone nav is a stacked hamburger list).
@@ -538,3 +547,126 @@ body:has(main.frontpage) header .website-title,
 body:has(main.frontpage) header .website-title-link{
   cursor: default;
 }
+
+/* ===================================================================
+   Light mode (2026-11-15). Dark is the default. The header toggle
+   (injections.js) adds html.theme-light, turns off the theme's
+   mode-dark.css (the theme's own base styles are its light mode) and
+   saves the choice; the head Code Injection script re-applies a saved
+   light choice before the first paint. Everything below only overrides
+   colors that injections.css or the bio page's own styles set for dark.
+   Dark values are kept above; light values are their mirror on white,
+   except teal, which is darkened to stay readable on white.
+   =================================================================== */
+
+/* Toggle: bisected circle, top-right of the header. Dark mode shows white on the right
+   (image rotated 180deg), light mode black on the right (image as drawn). Switching to dark
+   turns it 180deg clockwise, to light 180deg counterclockwise.
+   The button sits inside .title-container. Desktop: positioned against the header (top-right
+   corner, right edge = end of the nav, top = top of the logo). Phones: positioned against
+   .title-container instead, because the theme places the open phone menu against the whole
+   page and a positioned header would shift it. */
+@media (min-width:1000px){
+  header{position:relative;}
+}
+.theme-toggle{
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:30;
+  width:26px;
+  height:26px;
+  padding:0;
+  margin:0;
+  border:0;
+  background:none;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.theme-toggle img{
+  display:block;
+  width:26px;
+  height:26px;
+  transform:rotate(180deg);
+  transition:transform 500ms ease;
+}
+html.theme-light .theme-toggle img{transform:rotate(0deg);}
+.theme-toggle:focus-visible{outline:2px solid #00BCAC;outline-offset:3px;border-radius:50%;}
+@media (prefers-reduced-motion: reduce){
+  .theme-toggle img{transition-duration:120ms;}
+}
+@media (max-width:999px){
+  /* phones: the logo row ends 20px left of the menu icon; toggle at its right end, vertically centered */
+  header .title-container{position:relative;}
+  .theme-toggle{top:50%;margin-top:-13px;}
+}
+
+/* Logo: dark-on-light version (same 530x115 size) */
+@media (min-width:1000px){
+  html.theme-light header span.website-title{content:url(/logo-light.png);}
+}
+@media (max-width:999px){
+  html.theme-light header span.website-title{background-image:url(/logo-light.png);}
+}
+
+/* Fades go to white */
+html.theme-light body::before,
+html.theme-light .page-fade-veil{background:#FFFFFF;}
+
+/* Header nav */
+html.theme-light header nav > ul.primary > li > .nav-item-title,
+html.theme-light header nav > ul.primary > li:hover > .nav-item-title{color:#555555;}
+html.theme-light header nav > ul > li + li::before{color:#555555;}
+html.theme-light header nav > ul.primary > li.active > .nav-item-title,
+html.theme-light header nav > ul.primary > li.active:not(:hover) > .nav-item-title,
+html.theme-light header nav > ul.primary > li.active:hover > .nav-item-title{color:#008F83;}
+html.theme-light header nav > ul.primary > li > .nav-item-title:hover,
+html.theme-light header nav > ul.primary > li > .nav-item-title:focus-visible,
+html.theme-light header nav > ul.primary > li:hover > .nav-item-title:hover{color:#00756B;}
+html.theme-light .theme-toggle:focus-visible{outline-color:#008F83;}
+
+/* Galleries note */
+html.theme-light header nav .nav-galleries-note{color:#444444;}
+html.theme-light header nav .nav-galleries-lead{color:#111111;}
+html.theme-light header nav .nav-galleries-note a{color:#008F83;}
+html.theme-light header nav .nav-galleries-note a:hover,
+html.theme-light header nav .nav-galleries-note a:focus-visible{color:#00756B;}
+@media (min-width:1000px){
+  html.theme-light header nav .nav-galleries-note{
+    background:#F7F7F7;
+    border-color:#CCCCCC;
+    box-shadow:0 12px 32px rgba(0,0,0,0.12);
+  }
+}
+
+/* Pinstripes, footer tagline, copyright */
+html.theme-light main:has(> ul.gallery.layout-slideshow){border-color:#CCCCCC;}
+html.theme-light footer .footer-tagline{color:#111111;}
+@media (max-width:999px){
+  html.theme-light footer p.footer-tagline{color:#4D4D4D;}
+}
+html.theme-light body > div[align]{color:#999999;}
+
+/* 404 subtitle; client-area particle ring's white sparks would vanish on white */
+html.theme-light main.template-error404 p::after{color:#424242;}
+html.theme-light .particle-orbit-dot.v4{background:#555555;box-shadow:0 0 6px 1px rgba(85,85,85,0.4);}
+html.theme-light .particle-orbit-dot.v5{background:#222222;box-shadow:0 0 10px 3px rgba(34,34,34,0.35);}
+
+/* Bio page: its per-page styles hardcode dark colors with !important;
+   these win by being more specific */
+html.theme-light body{background:#FFFFFF;}
+html.theme-light .bio-metrics,
+html.theme-light .bio h1{border-bottom-color:rgba(0,0,0,0.25);}
+html.theme-light .bio-metrics .metric{border-right-color:rgba(0,0,0,0.25);}
+html.theme-light .bio-metrics .metric:last-child{border-right-color:transparent;}
+html.theme-light .bio h2{border-top-color:rgba(0,0,0,0.25);}
+html.theme-light .bio-metrics .metric-number,
+html.theme-light .bio h1,
+html.theme-light .bio h3,
+html.theme-light .bio strong,
+html.theme-light .bio a{color:#111111 !important;}
+html.theme-light .bio-metrics .label-line,
+html.theme-light .bio h2 span{color:#555555 !important;}
+html.theme-light .bio{color:#222222 !important;}
+html.theme-light .bio p,
+html.theme-light .bio ul{color:#2A2A2A !important;}
