@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T20:02:50.046716+00:00",
-  "text": "MPC rose modestly today, continuing a sharp recovery over the past week after dropping 6.76% in the two weeks prior. The stock has climbed $42 (roughly 11%) since November 6th, driven largely by refinery fundamentals improving: US refineries are running at 95.2% capacity, and heating oil prices have spiked 59% year-over-year due to winter demand and tight supply. That pricing power benefits refiners like Marathon, which profit when the gap between crude input costs and refined product sales widens.\n\nHowever, headwinds are building. Russian crude production has rebounded sharply\u2014the IEA reported output at 8.73 million barrels per day in October\u2014pushing global oil markets back into surplus. That oversupply dynamic typically pressures crude prices and narrows refiner margins, which may explain why today's gain is modest despite the heating oil strength. The stock's recovery could stall if crude supplies continue to ease and refined product demand weakens heading into winter.",
+  "fetchedAt": "2026-11-15T21:02:14.942190+00:00",
+  "text": "MPC gained 0.44% today to close at $414.65, continuing a sharp rebound from last week's lows that has now recovered most of its recent losses. The stock has risen about $42 in five trading days, likely supported by tight refining conditions\u2014US refineries are running at 95.2% capacity while diesel and heating oil inventories sit at just 103.33 million barrels, exactly when heating oil prices have spiked 59% from last winter. Strong refining margins typically help refiners like MPC when product demand is high and inventories are lean.\n\nThe broader oil market backdrop has shifted meaningfully. Russian crude production rebounded significantly following geopolitical developments, and the IEA noted that global oil supply has swung back into surplus\u2014meaning crude prices (now $89.62 per barrel domestically) are stabilizing rather than spiking further. That's a relief for refiners' input costs, though the real driver for MPC's week-long rally appears to be the seasonal squeeze in heating oil and diesel supply heading into winter.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 156,
-    "inputTokens": 135412,
-    "outputTokens": 33350,
-    "estimatedCostUsd": 0.302162,
-    "lastCallHour": "2026-11-15T20"
+    "callsThisMonth": 157,
+    "inputTokens": 136328,
+    "outputTokens": 33585,
+    "estimatedCostUsd": 0.304253,
+    "lastCallHour": "2026-11-15T21"
   }
 }
