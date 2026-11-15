@@ -151,10 +151,11 @@
      The homepage's height at 100% is its "fixed" part (header, pinstripes,
      footer, copyright) plus the 16:9 slideshow, whose width depends on the
      zoom (1300px max container, 48px padding each side). Solving that for
-     the window height gives the zoom without having to measure the
-     homepage from another page. The homepage measures its fixed part on
-     every visit and saves it, so inner pages use the current number;
-     FIT_FIXED_DEFAULT covers a first visit that starts on an inner page.
+     the window height gives the zoom on any page without measuring the
+     homepage. Every page uses the same FIT_FIXED number, so the zoom is
+     identical site-wide. Re-measure FIT_FIXED if the homepage header or
+     footer height changes (homepage content height minus slideshow height,
+     at 100%, in a window shorter than the page).
      =================================================================== */
   /* HEAD SNIPPET (2026-11-14): pasted once into IO200's head Code Injection, right after the
      injections.css <link>. It runs before the first paint, so the page never shows at 100% and
@@ -168,7 +169,6 @@ function done(){d.classList.remove("page-fade-in")}
 document.addEventListener("animationend",function(e){if(e.animationName==="page-fade-in")done()});
 setTimeout(done,3000);
 var w=innerWidth,h=innerHeight-2,f=316;if(w<1000)return;
-try{f=parseFloat(localStorage.getItem("bcp-fit-fixed"))||f}catch(e){}
 var r=9/16;if(f+r*(Math.min(1300,w)-96)<=h)return;
 var z=(h-r*w)/(f-r*96);if(!(z>w/1300))z=h/(f+r*1204);
 z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
@@ -180,18 +180,7 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
   var FIT_MAX_WIDTH = 1300;     // #container max-width
   var FIT_PADDING = 96;         // #container padding, 48px each side
   var FIT_RATIO = 9 / 16;       // slideshow height / width
-  var FIT_FIXED_DEFAULT = 316;  // homepage height minus slideshow at 100%, measured 2026-11-14
-  var FIT_STORE_KEY = "bcp-fit-fixed";
-
-  function fitFixedHeight() {
-    try {
-      var saved = parseFloat(window.localStorage.getItem(FIT_STORE_KEY));
-      if (saved > 0) return saved;
-    } catch (err) {
-      // storage blocked (private mode etc.): use the default
-    }
-    return FIT_FIXED_DEFAULT;
-  }
+  var FIT_FIXED = 316;          // homepage height minus slideshow at 100%, measured 2026-11-15
 
   // zoom at which the homepage (fixed part + slideshow) fits the window
   function fitZoom(fixed) {
@@ -219,22 +208,7 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
       root.style.zoom = "";
       return;
     }
-    var fixed = fitFixedHeight();
-    var gallery = document.querySelector("main.frontpage ul.gallery");
-    if (gallery) {
-      // homepage: measure the fixed part at 100% and save it for the inner pages
-      root.style.zoom = "";
-      var measured = root.scrollHeight - gallery.getBoundingClientRect().height;
-      if (measured > 0) {
-        fixed = measured;
-        try {
-          window.localStorage.setItem(FIT_STORE_KEY, String(Math.round(measured)));
-        } catch (err) {
-          // storage blocked: inner pages fall back to the default
-        }
-      }
-    }
-    var zoom = fitZoom(fixed);
+    var zoom = fitZoom(FIT_FIXED);
     root.style.zoom = zoom < 1 ? String(zoom) : "";
   }
 
