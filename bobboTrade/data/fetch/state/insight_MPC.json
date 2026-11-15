@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T05:02:33.994457+00:00",
-  "text": "MPC rose modestly today, continuing a sharp recovery from an eight-day low on November 6th. The stock has climbed nearly 12% since then, driven largely by a tightening refining margin story: heating oil prices have spiked 59% year-over-year as winter demand sets in, and US refineries are running at 95.2% capacity with diesel and heating oil inventories at relatively lean levels (103.3 million barrels). For a major refiner like Marathon, higher crack spreads\u2014the profit margin between crude input and refined product output\u2014on heating oil are directly accretive to earnings.\n\nThe broader context is that global oil markets have shifted from tight supply (which benefited refiners in September\u2013October) to a looser balance: Russian crude production has rebounded post-sanctions disruption, pushing the market into surplus. This could eventually weigh on refining margins, but the immediate seasonal strength in winter fuels and current low inventories are supporting prices for now.",
+  "fetchedAt": "2026-11-15T06:35:18.522894+00:00",
+  "text": "Marathon Petroleum rose modestly today, continuing a strong three-day rally that's lifted the stock nearly $42 since November 6th. The gain appears tied to the broader refining sector's benefit from tighter diesel and heating oil supplies: diesel & heating oil inventories sit at just 103.3 million barrels while refineries are running at 95.2% capacity, and heating oil prices are up 59% year-over-year, which typically improves margins for refiners who produce these fuels.\n\nHowever, the two-week decline of 6.76% reflects a headwind that today's bounce didn't fully erase: Russian crude production has rebounced to 8.73 million barrels per day and global oil markets have returned to surplus according to the IEA, which puts downward pressure on crude prices (currently $89.62 domestically) and narrows the profit margin refiners earn on each barrel they process.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 146,
-    "inputTokens": 126252,
-    "outputTokens": 31238,
-    "estimatedCostUsd": 0.282442,
-    "lastCallHour": "2026-11-15T05"
+    "callsThisMonth": 147,
+    "inputTokens": 127168,
+    "outputTokens": 31445,
+    "estimatedCostUsd": 0.284393,
+    "lastCallHour": "2026-11-15T06"
   }
 }
