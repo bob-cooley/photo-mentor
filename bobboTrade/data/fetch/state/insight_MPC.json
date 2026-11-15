@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T07:35:43.057800+00:00",
-  "text": "MPC ticked up slightly today, continuing a strong rebound from last week's lows\u2014the stock has gained over 11% since November 6th. The recovery is driven by tight refining conditions: refineries are running at 95.2% capacity with diesel and heating oil inventories at historically low levels (103.33 million barrels), while heating oil prices have surged 59% year-over-year, signaling robust demand for refined products heading into winter. This supply tightness props up refining margins, the profit refiners make by processing crude into fuel.\n\nThat said, some headwinds remain in the background. Russian crude production has rebounded to 8.73 million barrels per day according to the IEA, pushing global oil markets back toward surplus\u2014a shift that could eventually ease the tight supply picture that's currently benefiting refiners. Oil prices themselves have drifted down over the past week despite the refining strength, suggesting the broader commodity market isn't confirming the same bullish tone.",
+  "fetchedAt": "2026-11-15T13:07:26.620397+00:00",
+  "text": "Marathon Petroleum rose modestly today, continuing a strong rebound from a week-long dip that saw the stock fall 6.76% through November 6th. The climb reflects tightness in refined products: heating oil prices have spiked 59% from last winter, and diesel and heating oil inventories remain lean at 103.33 million barrels. Refineries are humming at 95.2% utilization, positioning refiners to profit from the gap between crude costs (holding steady around $90 per barrel) and the premium prices for finished fuels heading into winter.\n\nThe broader backdrop is shifting toward refiner advantage. Russian crude production has recovered after geopolitical turbulence, pushing global oil into oversupply\u2014which typically means cheaper feedstock for refiners. At the same time, heating season demand is real and pressing: consumers are scrambling to cover oil bills as prices have more than doubled year-over-year. This seasonal squeeze on refined products, combined with elevated utilization rates and moderate crude prices, supports margins for companies like Marathon that turn oil into diesel and heating oil.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 148,
-    "inputTokens": 128084,
-    "outputTokens": 31668,
-    "estimatedCostUsd": 0.286424,
-    "lastCallHour": "2026-11-15T07"
+    "callsThisMonth": 149,
+    "inputTokens": 129000,
+    "outputTokens": 31906,
+    "estimatedCostUsd": 0.28853,
+    "lastCallHour": "2026-11-15T13"
   }
 }

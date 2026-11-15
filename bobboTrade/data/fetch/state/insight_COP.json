@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-15T07:33:24.105395+00:00",
-  "text": "ConocoPhillips gained 1.6% today, recovering some ground after a sharp 7.6% drop over the past two weeks. The bounce comes as crude oil prices have stabilized around $89\u201392 per barrel; the stock has climbed steadily for three days as oil recovered from earlier lows. The heating oil shortage story (prices up 59% year-over-year) underscores tight energy markets, which can support oil and integrated energy company valuations.\n\nThe longer context is pushback: Russia's crude production rebounded in October to 8.73 million barrels a day, and the IEA noted global oil supply has returned to surplus. That surplus condition likely explains why the stock fell 7.6% in the first place \u2014 more barrels on the market mean lower prices and margin pressure for producers. Today's rebound may simply reflect a pause in that downward momentum rather than a reversal of the supply glut concern.",
+  "fetchedAt": "2026-11-15T13:04:18.434834+00:00",
+  "text": "ConocoPhillips rose 1.6% today, continuing a sharp four-day rally that's brought the stock up $6 from its November 6 low. The recovery coincides with oil prices stabilizing in the $89\u201392 range and positive sentiment around energy stocks \u2014 the stock's been climbing steadily since it hit bottom earlier this week, suggesting investors are rotating back into the sector after recent weakness.\n\nThe broader context is mixed for oil markets. Russian crude production has rebounded following a Trump diesel deal, and the IEA reports global supply is now in surplus, which normally pressures prices downward. However, heating oil prices have spiked 59% year-over-year, and the recent two-week decline of 7.6% suggests the market had been pricing in concerns about oversupply \u2014 today's bounce may reflect a stabilization after that selloff rather than a fundamental shift in the supply-demand outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 148,
-    "inputTokens": 120637,
-    "outputTokens": 30550,
-    "estimatedCostUsd": 0.273387,
-    "lastCallHour": "2026-11-15T07"
+    "callsThisMonth": 149,
+    "inputTokens": 121477,
+    "outputTokens": 30753,
+    "estimatedCostUsd": 0.275242,
+    "lastCallHour": "2026-11-15T13"
   }
 }
