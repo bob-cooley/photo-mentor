@@ -486,8 +486,8 @@ main.template-error404 p.flicker-dim-3::before{
    so a browser that skips the animation shows the page, never a black screen.
    Fade-out: injections.js adds .page-fade-veil only for the top navigation
    (logo and header nav links). Content links and image enlarging don't fade.
-   Both layers are 200vw x 200vh from the top-left corner (oversized on purpose,
-   left over from the retired homepage zoom; harmless, adds no scrolling).
+   Both layers are 200vw x 200vh from the top-left corner, not inset:0, because
+   the fit-to-window zoom would shrink an inset:0 layer to 75-100% of the window.
    =================================================================== */
 body::before{
   content: "";

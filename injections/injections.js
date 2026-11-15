@@ -141,6 +141,108 @@
   }
 
   /* ===================================================================
+     Fit-to-window, every page (2026-11-14). On desktop (window 1000px+
+     wide), every page is shrunk with CSS zoom by the same amount: the
+     amount the homepage needs so its header, slideshow and footer fit the
+     window. Inner pages use the homepage's number (not their own height),
+     so the logo, nav and margins line up across the whole site. 100% is
+     the maximum, 75% the floor (below that the homepage scrolls).
+
+     The homepage's height at 100% is its "fixed" part (header, pinstripes,
+     footer, copyright) plus the 16:9 slideshow, whose width depends on the
+     zoom (1300px max container, 48px padding each side). Solving that for
+     the window height gives the zoom without having to measure the
+     homepage from another page. The homepage measures its fixed part on
+     every visit and saves it, so inner pages use the current number;
+     FIT_FIXED_DEFAULT covers a first visit that starts on an inner page.
+     =================================================================== */
+  var FIT_MIN = 0.75;
+  var FIT_MARGIN = 2;           // px of slack so rounding never leaves a 1px scrollbar
+  var FIT_MIN_WIDTH = 1000;     // phone/tablet layouts never zoom
+  var FIT_MAX_WIDTH = 1300;     // #container max-width
+  var FIT_PADDING = 96;         // #container padding, 48px each side
+  var FIT_RATIO = 9 / 16;       // slideshow height / width
+  var FIT_FIXED_DEFAULT = 316;  // homepage height minus slideshow at 100%, measured 2026-11-14
+  var FIT_STORE_KEY = "bcp-fit-fixed";
+
+  function fitFixedHeight() {
+    try {
+      var saved = parseFloat(window.localStorage.getItem(FIT_STORE_KEY));
+      if (saved > 0) return saved;
+    } catch (err) {
+      // storage blocked (private mode etc.): use the default
+    }
+    return FIT_FIXED_DEFAULT;
+  }
+
+  // zoom at which the homepage (fixed part + slideshow) fits the window
+  function fitZoom(fixed) {
+    var w = window.innerWidth;
+    var h = window.innerHeight - FIT_MARGIN;
+    if (fixed + FIT_RATIO * (Math.min(FIT_MAX_WIDTH, w) - FIT_PADDING) <= h) return 1;
+    // layout narrower than the 1300px container max: slideshow width = w/zoom - padding
+    var zoom = (h - FIT_RATIO * w) / (fixed - FIT_RATIO * FIT_PADDING);
+    // layout at the container max: slideshow width is fixed at 1300 - padding
+    if (!(zoom > w / FIT_MAX_WIDTH)) zoom = h / (fixed + FIT_RATIO * (FIT_MAX_WIDTH - FIT_PADDING));
+    return Math.max(FIT_MIN, Math.min(1, zoom));
+  }
+
+  // full-window overlays (slideshow fullscreen, lightbox) must fill the real window, so no zoom then
+  function fitOverlayOpen() {
+    return !!(document.fullscreenElement ||
+      document.querySelector("ul.gallery.fullscreen") ||
+      document.body.classList.contains("glightbox-open") ||
+      document.documentElement.classList.contains("glightbox-open"));
+  }
+
+  function fitPage() {
+    var root = document.documentElement;
+    if (window.innerWidth < FIT_MIN_WIDTH || fitOverlayOpen()) {
+      root.style.zoom = "";
+      return;
+    }
+    var fixed = fitFixedHeight();
+    var gallery = document.querySelector("main.frontpage ul.gallery");
+    if (gallery) {
+      // homepage: measure the fixed part at 100% and save it for the inner pages
+      root.style.zoom = "";
+      var measured = root.scrollHeight - gallery.getBoundingClientRect().height;
+      if (measured > 0) {
+        fixed = measured;
+        try {
+          window.localStorage.setItem(FIT_STORE_KEY, String(Math.round(measured)));
+        } catch (err) {
+          // storage blocked: inner pages fall back to the default
+        }
+      }
+    }
+    var zoom = fitZoom(fixed);
+    root.style.zoom = zoom < 1 ? String(zoom) : "";
+  }
+
+  function initFit() {
+    // short debounce (a timer, not requestAnimationFrame, so it also runs where frames are throttled)
+    var timer = null;
+    function schedule() {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(fitPage, 60);
+    }
+    fitPage();
+    window.addEventListener("resize", schedule);
+    window.addEventListener("load", schedule);
+    window.setTimeout(schedule, 600);
+    document.addEventListener("fullscreenchange", schedule);
+    if (window.MutationObserver) {
+      // the theme toggles classes for slideshow fullscreen and the lightbox
+      var observer = new MutationObserver(schedule);
+      observer.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+      observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+      var gallery = document.querySelector("main ul.gallery");
+      if (gallery) observer.observe(gallery, { attributes: true, attributeFilter: ["class"] });
+    }
+  }
+
+  /* ===================================================================
      Page fade-out (2026-11-14). Only the top navigation (logo and header
      nav links, including future galleries sublinks) fades to black before
      changing pages. Every page fades in from black on load (CSS only, see
@@ -227,6 +329,7 @@
     initNavAmpersand();
     initGalleriesNote();
     initFooterTagline();
+    initFit();
     initNavFade();
   }
 
