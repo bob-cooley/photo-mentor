@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-14T20:24:10.549914+00:00",
-  "text": "Marathon Petroleum's stock gained modestly today, continuing a strong recovery from last week's dip. The broader refining sector has benefited from tight diesel and heating oil inventories\u2014diesel storage sits at just 103 million barrels as heating oil demand spikes 59% above last winter\u2014creating better margins for refiners who turn crude into these products. Refineries are running at 95.2% capacity, leaving little spare production to meet this demand surge.\n\nHowever, headwinds are building. Russian crude production has rebounded sharply to 8.73 million barrels per day, pushing global oil markets back into surplus according to recent reporting, which typically pressures refiner margins over time. With oil inventories already elevated at nearly 694 million barrels and crude prices moderating to $89.62 a barrel, the tight supply conditions that have buoyed refiners lately may not last.",
+  "fetchedAt": "2026-11-15T00:45:56.252983+00:00",
+  "text": "Marathon Petroleum rose modestly today, continuing a strong four-day rally that has added about $42 per share since early November. The gains reflect tightening conditions in refined products: heating oil prices are up 59% year-over-year heading into winter, and with refineries already running at 95.2% capacity, there's limited room to ramp up production to meet demand. This supply-demand imbalance typically widens the margin refiners earn between the cost of crude oil and the price they get for finished products like diesel and heating oil.\n\nThe broader picture, though, is becoming more complex. Russian crude production has rebounded sharply \u2014 hitting 8.73 million barrels per day \u2014 which the International Energy Agency says has pushed global oil markets back into surplus. A glut of crude supply alongside solid refined-products demand could squeeze refiner margins going forward, which may explain why the stock remains down 6.76% over the past two weeks despite this week's recovery.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 143,
-    "inputTokens": 123504,
-    "outputTokens": 30601,
-    "estimatedCostUsd": 0.276509,
-    "lastCallHour": "2026-11-14T20"
+    "callsThisMonth": 144,
+    "inputTokens": 124420,
+    "outputTokens": 30814,
+    "estimatedCostUsd": 0.27849,
+    "lastCallHour": "2026-11-15T00"
   }
 }
