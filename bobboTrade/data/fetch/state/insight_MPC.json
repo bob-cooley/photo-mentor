@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T17:02:43.270788+00:00",
-  "text": "Marathon Petroleum has climbed 11% over the past week, with today's modest gain (+0.44%) continuing a strong recovery from an early-November dip. The rally tracks a broader refining environment where crude prices have stabilized in the $89\u2013$92 range, refineries are running at 95.2% capacity, and heating oil prices have spiked 59% year-over-year\u2014a shift that typically boosts refiner margins since they profit from the spread between crude input costs and refined product prices.\n\nHowever, the longer picture shows a headwind: Russian crude production has rebounded to 8.73 million barrels per day, pushing global oil markets back into surplus according to the International Energy Agency. More supply in the world market can pressure the price spreads refiners rely on, which may explain why the stock is still down 6.76% over two weeks despite this week's bounce.",
+  "fetchedAt": "2026-11-15T18:02:21.930904+00:00",
+  "text": "Marathon Petroleum's stock rose modestly today, continuing a strong rebound from a 6.76% dip earlier this month. The gain sits within a broader recovery: the stock has climbed roughly $42 (11%) over the past five trading days, driven by refining fundamentals that have tightened considerably. US refineries are running at 95.2% capacity \u2014 near maximum utilization \u2014 while diesel and heating oil inventories remain relatively lean at 103.33 million barrels; the news of heating oil prices up 59% year-over-year reflects genuine scarcity that refiners can monetize through higher margins.\n\nHowever, there's a headwind worth noting: Russian crude production has rebounded to 8.73 million barrels per day as Gulf exports recovered, pushing global oil markets back into surplus according to the International Energy Agency. That shift away from supply tightness could eventually pressure refining margins, even as current inventory levels still favor the company.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 153,
-    "inputTokens": 132664,
-    "outputTokens": 32717,
-    "estimatedCostUsd": 0.296249,
-    "lastCallHour": "2026-11-15T17"
+    "callsThisMonth": 154,
+    "inputTokens": 133580,
+    "outputTokens": 32928,
+    "estimatedCostUsd": 0.29822,
+    "lastCallHour": "2026-11-15T18"
   }
 }
