@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-15T16:02:06.879855+00:00",
-  "text": "ConocoPhillips rose 1.6% today, building on a four-day rally that's brought the stock up $6 from its November 6 low. The recovery tracks with oil prices holding firm \u2014 US crude at $89.62 and global crude at $92.14 \u2014 and follows positive analyst calls on the company from November 11. The stock has clawed back most of its two-week losses as energy markets stabilized after earlier weakness.\n\nThe broader backdrop matters: heating oil prices are up 59% year-over-year, signaling tight energy markets heading into winter, even as Russian production has recently rebounded. While that rebound adds some supply pressure, elevated heating oil costs underscore persistent demand strength in energy markets, which typically supports crude-linked stocks like ConocoPhillips.",
+  "fetchedAt": "2026-11-15T17:02:17.397945+00:00",
+  "text": "ConocoPhillips gained 1.6% today, continuing a strong three-day rally that's pushed the stock up $6 from its early-week low. The immediate catalyst appears to be rising heating oil prices\u2014up 59% from last winter\u2014which typically boost demand for refined petroleum products and benefit integrated oil companies like ConocoPhillips that have significant refining operations. This demand tailwind comes as crude prices remain stable in the $89\u201392 range, providing a solid floor for margins.\n\nThe broader context is that after a rough week earlier this month, the stock has reversed course over the past few days as energy markets tighten. The news that Russia's crude production is recovering and pushing global supply into surplus could eventually weigh on prices, but for now the spike in heating oil demand\u2014driven by squeezed household budgets facing a harsh winter\u2014is offsetting that pressure and keeping refined-product margins attractive.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 152,
-    "inputTokens": 123997,
-    "outputTokens": 31350,
-    "estimatedCostUsd": 0.280747,
-    "lastCallHour": "2026-11-15T16"
+    "callsThisMonth": 153,
+    "inputTokens": 124837,
+    "outputTokens": 31551,
+    "estimatedCostUsd": 0.282592,
+    "lastCallHour": "2026-11-15T17"
   }
 }
