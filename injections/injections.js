@@ -216,45 +216,59 @@
   }
 
   function initNavFade() {
-    var links = document.querySelectorAll("header .website-title-link, header nav a");
-    if (!links.length) return;
+    var header = document.querySelector("header");
+    if (!header) return;
     var veil = null;
     var leaving = false;
     var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    Array.prototype.forEach.call(links, function (link) {
-      if (link.closest(".nav-galleries-note")) return; // Instagram/Threads/Foto links in the popup
-      link.addEventListener("click", function (e) {
-        if (e.defaultPrevented) return; // e.g. the galleries click-cancel above
-        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // new tab/window
-        if (link.target && link.target !== "_self") return;
-        var url;
-        try {
-          url = new URL(link.href, window.location.href);
-        } catch (err) {
-          return;
-        }
-        if (siteHost(url.host) !== siteHost(window.location.host)) return; // external link
-        if (sitePath(url.pathname) === sitePath(window.location.pathname) && url.search === window.location.search) {
-          e.preventDefault(); // already on this page
-          return;
-        }
+    // The theme's own click handler on <header> navigates with window.location.href and ignores
+    // preventDefault: on the logo (a span that wraps a zero-size link) at every width, and on every
+    // nav link at phone width. So this listens on <header> in the capture phase, ahead of the
+    // theme, and stops the event from reaching the theme whenever it handles the click.
+    header.addEventListener("click", function (e) {
+      var link = null;
+      if (e.target.closest) {
+        var title = e.target.closest(".website-title");
+        link = title ? title.querySelector("a") : e.target.closest("nav a");
+      }
+      if (!link || link.closest(".nav-galleries-note")) return; // Instagram/Threads/Foto links in the popup
+      if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return; // new tab/window
+      if (link.target && link.target !== "_self") return;
+
+      // "galleries" points at the "/#" placeholder; its click only opens the note.
+      // REMOVE THIS with the click-cancel in initGalleriesNote once galleries gets a real URL.
+      if (link.parentNode.classList.contains("has-galleries-note")) {
         e.preventDefault();
-        if (leaving) return;
-        leaving = true;
-        if (!veil) {
-          veil = document.createElement("div");
-          veil.className = "page-fade-veil";
-          veil.setAttribute("aria-hidden", "true");
-          document.body.appendChild(veil);
-          void veil.offsetWidth; // commit opacity 0 so the transition runs
-        }
-        veil.classList.add("is-active");
-        window.setTimeout(function () {
-          window.location.assign(url.href);
-        }, reduced ? PAGE_FADE_OUT_REDUCED_MS : PAGE_FADE_OUT_MS);
-      });
-    });
+        e.stopPropagation();
+        return;
+      }
+
+      var url;
+      try {
+        url = new URL(link.href, window.location.href);
+      } catch (err) {
+        return;
+      }
+      if (siteHost(url.host) !== siteHost(window.location.host)) return; // external link
+      e.preventDefault();
+      e.stopPropagation();
+      // already on this page (logo on the homepage, "contact" on the contact page, etc.): do nothing
+      if (sitePath(url.pathname) === sitePath(window.location.pathname) && url.search === window.location.search) return;
+      if (leaving) return;
+      leaving = true;
+      if (!veil) {
+        veil = document.createElement("div");
+        veil.className = "page-fade-veil";
+        veil.setAttribute("aria-hidden", "true");
+        document.body.appendChild(veil);
+        void veil.offsetWidth; // commit opacity 0 so the transition runs
+      }
+      veil.classList.add("is-active");
+      window.setTimeout(function () {
+        window.location.assign(url.href);
+      }, reduced ? PAGE_FADE_OUT_REDUCED_MS : PAGE_FADE_OUT_MS);
+    }, true);
 
     // Back/Forward can restore this page from the browser cache with the veil still black
     window.addEventListener("pageshow", function (e) {

@@ -526,3 +526,8 @@ body::before{
   body::before{ animation-duration: 120ms; }
   .page-fade-veil{ transition-duration: 120ms; }
 }
+/* Logo does nothing on the homepage (injections.js), so don't show a link cursor there */
+body:has(main.frontpage) header .website-title,
+body:has(main.frontpage) header .website-title-link{
+  cursor: default;
+}
