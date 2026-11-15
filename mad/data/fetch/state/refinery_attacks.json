@@ -238,17 +238,18 @@
     "https://www.theguardian.com/world/2026/nov/06/ukraine-war-briefing-zelenskyy-says-russia-has-damaged-every-power-plant-as-he-seeks-latin-american-help": "2026-11-10T03:21:50.494678+00:00",
     "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-11T01:32:40.530731+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-11T01:32:42.089990+00:00",
-    "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-12T04:18:03.236425+00:00"
+    "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-12T04:18:03.236425+00:00",
+    "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city": "2026-11-15T04:22:29.999437+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 13,
-    "inputTokens": 16280,
-    "outputTokens": 1901,
-    "estimatedCostUsd": 0.025785
+    "calls": 14,
+    "inputTokens": 17330,
+    "outputTokens": 2023,
+    "estimatedCostUsd": 0.027445
   },
-  "lastGdeltOk": true,
+  "lastGdeltOk": false,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-11-13T00:41:54.886946+00:00"
+  "lastRunAt": "2026-11-15T04:22:29.999967+00:00"
 }

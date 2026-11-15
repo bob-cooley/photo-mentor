@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-13T01:13:35.254152+00:00",
-  "text": "Marathon Petroleum jumped 2.5% today, recovering sharply after a rough week that saw the stock down 4.5% through November 10th. The move tracks a significant shift in oil market sentiment: crude prices have climbed roughly $3 a barrel since early last week (from around $86\u201387 to $89.62 today), driven by renewed geopolitical uncertainty over Iran despite earlier Trump administration statements suggesting the conflict might resolve soon. Higher oil prices improve refining margins\u2014the profit refiners make by turning crude into gasoline and diesel\u2014which directly boosts earnings for a company like this.\n\nThe rebound also reflects the stock finding support after overshooting lower on brief hopes for a quick Iran deal early last week (when Brent dipped below $90). With refineries running at 95.2% capacity and crude inventories at healthy levels, the refining complex is positioned to benefit from sustained oil prices in the $89\u201392 range, which explains why the stock bounced hard once the geopolitical narrative shifted back toward caution.",
+  "fetchedAt": "2026-11-15T04:21:45.999811+00:00",
+  "text": "Marathon Petroleum stock rose modestly today, continuing a sharp rebound from early last week\u2014it's up nearly 12% since November 6th\u2014but the gain today was tiny. The backdrop is a tightening balance in the refining business: refineries are running at 95.2% capacity, and heating oil prices have spiked 59% year-over-year, which typically supports margins for refiners that make diesel and heating oil. However, that strength is being tempered by rising crude supply globally\u2014Russian output has recovered, pushing the market into surplus\u2014which puts downward pressure on the fuel margins refiners depend on.\n\nThe two-week decline of 6.8% overall reflects this tension: strong heating-oil-driven demand is fighting against a glut of crude coming back online. Refiners benefit when they can turn cheap crude into expensive refined products, but that spread narrows when crude supplies flood the market faster than demand for refined fuels can absorb them.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 17,
-    "inputTokens": 14852,
-    "outputTokens": 3703,
-    "estimatedCostUsd": 0.033367,
-    "lastCallHour": "2026-11-13T01"
+    "callsThisMonth": 18,
+    "inputTokens": 15768,
+    "outputTokens": 3915,
+    "estimatedCostUsd": 0.035343,
+    "lastCallHour": "2026-11-15T04"
   }
 }
