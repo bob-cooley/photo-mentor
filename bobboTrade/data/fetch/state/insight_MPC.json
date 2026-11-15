@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T21:02:14.942190+00:00",
-  "text": "MPC gained 0.44% today to close at $414.65, continuing a sharp rebound from last week's lows that has now recovered most of its recent losses. The stock has risen about $42 in five trading days, likely supported by tight refining conditions\u2014US refineries are running at 95.2% capacity while diesel and heating oil inventories sit at just 103.33 million barrels, exactly when heating oil prices have spiked 59% from last winter. Strong refining margins typically help refiners like MPC when product demand is high and inventories are lean.\n\nThe broader oil market backdrop has shifted meaningfully. Russian crude production rebounded significantly following geopolitical developments, and the IEA noted that global oil supply has swung back into surplus\u2014meaning crude prices (now $89.62 per barrel domestically) are stabilizing rather than spiking further. That's a relief for refiners' input costs, though the real driver for MPC's week-long rally appears to be the seasonal squeeze in heating oil and diesel supply heading into winter.",
+  "fetchedAt": "2026-11-15T22:00:47.073262+00:00",
+  "text": "Marathon Petroleum recovered slightly today, gaining 0.44%, after a sharp two-week pullback of 6.76%. The gain comes as refineries continue running at high capacity (95.2%) and crude prices hold relatively steady in the $89\u2013$92 range, but the broader context is pulling in opposite directions: Russian oil output has rebounded sharply, pushing global supply back into surplus according to the IEA, which typically pressures refiner margins and crude prices.\n\nThe spike in heating oil prices (up 59% year-over-year) might seem bullish for a refiner, but it reflects constrained supply and high demand\u2014not the kind of sustained margin expansion refiners see in a balanced market. With Russian production recovering and inventories of diesel at comfortable levels, the near-term tailwind for refined product pricing is fading, which helps explain why the stock sold off over the past fortnight despite strong refinery utilization.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 157,
-    "inputTokens": 136328,
-    "outputTokens": 33585,
-    "estimatedCostUsd": 0.304253,
-    "lastCallHour": "2026-11-15T21"
+    "callsThisMonth": 158,
+    "inputTokens": 137244,
+    "outputTokens": 33789,
+    "estimatedCostUsd": 0.306189,
+    "lastCallHour": "2026-11-15T22"
   }
 }
