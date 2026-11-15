@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-15T06:35:18.522894+00:00",
-  "text": "Marathon Petroleum rose modestly today, continuing a strong three-day rally that's lifted the stock nearly $42 since November 6th. The gain appears tied to the broader refining sector's benefit from tighter diesel and heating oil supplies: diesel & heating oil inventories sit at just 103.3 million barrels while refineries are running at 95.2% capacity, and heating oil prices are up 59% year-over-year, which typically improves margins for refiners who produce these fuels.\n\nHowever, the two-week decline of 6.76% reflects a headwind that today's bounce didn't fully erase: Russian crude production has rebounced to 8.73 million barrels per day and global oil markets have returned to surplus according to the IEA, which puts downward pressure on crude prices (currently $89.62 domestically) and narrows the profit margin refiners earn on each barrel they process.",
+  "fetchedAt": "2026-11-15T07:35:43.057800+00:00",
+  "text": "MPC ticked up slightly today, continuing a strong rebound from last week's lows\u2014the stock has gained over 11% since November 6th. The recovery is driven by tight refining conditions: refineries are running at 95.2% capacity with diesel and heating oil inventories at historically low levels (103.33 million barrels), while heating oil prices have surged 59% year-over-year, signaling robust demand for refined products heading into winter. This supply tightness props up refining margins, the profit refiners make by processing crude into fuel.\n\nThat said, some headwinds remain in the background. Russian crude production has rebounded to 8.73 million barrels per day according to the IEA, pushing global oil markets back toward surplus\u2014a shift that could eventually ease the tight supply picture that's currently benefiting refiners. Oil prices themselves have drifted down over the past week despite the refining strength, suggesting the broader commodity market isn't confirming the same bullish tone.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 147,
-    "inputTokens": 127168,
-    "outputTokens": 31445,
-    "estimatedCostUsd": 0.284393,
-    "lastCallHour": "2026-11-15T06"
+    "callsThisMonth": 148,
+    "inputTokens": 128084,
+    "outputTokens": 31668,
+    "estimatedCostUsd": 0.286424,
+    "lastCallHour": "2026-11-15T07"
   }
 }
