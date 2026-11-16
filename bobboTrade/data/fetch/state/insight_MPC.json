@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T19:02:20.226815+00:00",
-  "text": "Marathon Petroleum fell 3.5% today after climbing sharply over the prior three trading days, giving back some recent gains. The move comes as crude oil prices dipped (US oil at $89.62/barrel today) and Russian crude production has rebounded to surplus levels globally, which typically pressures refiner margins\u2014the spread between what refiners pay for oil and what they sell refined products for. Even though refineries are running at a healthy 95.2% capacity, rising global supply without matching demand growth squeezes profitability.\n\nThe broader headwind is a shift in market sentiment on energy supply. After weeks of tighter markets that benefited refiners, the International Energy Agency reported this week that Russia's oil exports are recovering and global supply now exceeds demand. That surplus dynamic\u2014even with heating oil prices up sharply year-over-year\u2014tends to weigh on refiner stocks regardless of near-term inventory levels or utilization rates.",
+  "fetchedAt": "2026-11-16T20:02:51.200089+00:00",
+  "text": "Marathon Petroleum fell 3.1% today, reversing four straight days of gains and closing near its lowest point in two weeks. The decline comes as Russian crude production has rebounded sharply\u2014now back above 8.7 million barrels a day\u2014pushing global oil markets into surplus (more supply than demand). With crude prices sliding toward $90 a barrel and refineries already running at 95% capacity, the outlook for refiner margins has tightened; more crude chasing the same demand means less profit per barrel processed.\n\nThe broader headwinds are compounding. Heating oil prices are up 59% year-over-year, which typically signals strong seasonal demand\u2014but it's also pricing out consumers and creating economic anxiety that could dampen fuel demand heading into winter. At the same time, rising shipping costs are making retailers cautious on holiday inventory, which could slow transportation fuel consumption precisely when refiners were counting on seasonal strength.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 170,
-    "inputTokens": 148102,
-    "outputTokens": 36231,
-    "estimatedCostUsd": 0.329257,
-    "lastCallHour": "2026-11-16T19"
+    "callsThisMonth": 171,
+    "inputTokens": 148998,
+    "outputTokens": 36433,
+    "estimatedCostUsd": 0.331163,
+    "lastCallHour": "2026-11-16T20"
   }
 }
