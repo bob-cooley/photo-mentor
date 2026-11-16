@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T18:08:00.449854+00:00",
-  "text": "Marathon Petroleum dropped 3.3% today after climbing sharply over the prior three trading days. The decline follows news that Russian crude production has rebounded significantly\u2014the IEA reported output at 8.73 million barrels per day in October\u2014which is pushing global oil markets back into surplus (more supply than demand). When global oil supply exceeds demand, refinery margins typically compress, meaning refiners earn less profit on each barrel processed.\n\nThe broader headwind is straightforward: even though U.S. refineries are running at 95.2% capacity and heating oil prices remain elevated year-over-year, the market's shift from supply tightness to surplus reduces the economic advantage that fueled the stock's 6% gain earlier this week. Supply normalization, particularly from Russia, removes pricing power that benefited refiners when crude was scarcer.",
+  "fetchedAt": "2026-11-16T19:02:20.226815+00:00",
+  "text": "Marathon Petroleum fell 3.5% today after climbing sharply over the prior three trading days, giving back some recent gains. The move comes as crude oil prices dipped (US oil at $89.62/barrel today) and Russian crude production has rebounded to surplus levels globally, which typically pressures refiner margins\u2014the spread between what refiners pay for oil and what they sell refined products for. Even though refineries are running at a healthy 95.2% capacity, rising global supply without matching demand growth squeezes profitability.\n\nThe broader headwind is a shift in market sentiment on energy supply. After weeks of tighter markets that benefited refiners, the International Energy Agency reported this week that Russia's oil exports are recovering and global supply now exceeds demand. That surplus dynamic\u2014even with heating oil prices up sharply year-over-year\u2014tends to weigh on refiner stocks regardless of near-term inventory levels or utilization rates.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 169,
-    "inputTokens": 147206,
-    "outputTokens": 36026,
-    "estimatedCostUsd": 0.327336,
-    "lastCallHour": "2026-11-16T18"
+    "callsThisMonth": 170,
+    "inputTokens": 148102,
+    "outputTokens": 36231,
+    "estimatedCostUsd": 0.329257,
+    "lastCallHour": "2026-11-16T19"
   }
 }

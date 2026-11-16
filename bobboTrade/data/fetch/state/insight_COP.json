@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-16T18:07:22.621139+00:00",
-  "text": "ConocoPhillips fell 1.25% today to $140.50, extending a four-day decline from its November 13 peak of $142.28. The pullback aligns with a slight softening in crude oil prices\u2014US oil dropped below $90 per barrel (now at $89.62), and global prices are at $92.14. Even modest crude weakness can pressure oil majors' near-term valuations, particularly after the stock had climbed steadily through mid-November.\n\nThe two-week decline of 4.3% is worth noting in context: heating oil prices are up 59% year-over-year, which typically benefits refiners and integrated oil companies, yet the broader market appears to be pricing in caution around winter demand and consumer spending. Rising energy costs (reflected in shipping and heating concerns) could dampen economic activity heading into the holidays, which may explain why the stock retreated despite favorable fundamentals for the energy sector.",
+  "fetchedAt": "2026-11-16T19:01:50.436340+00:00",
+  "text": "ConocoPhillips fell 1.1% today, pulling back from a three-day rally that had pushed the stock to $142.28 on November 13th. The decline follows a modest dip in US crude oil prices to $89.62 per barrel, down from the highs earlier this week. While oil remains elevated and heating oil prices are significantly up from last year (a tailwind for refiners), the stock's retreat suggests profit-taking after the recent three-day gain rather than a fundamental shift in company prospects.\n\nThe broader energy complex shows mixed signals: crude prices remain firm, and elevated heating oil demand could support refining margins through winter. However, the stock's 4.3% drop over two weeks indicates investors may be digesting concerns about demand \u2014 the holiday shipping slowdown mentioned in recent reports could eventually weigh on fuel consumption, even as near-term heating demand remains strong.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 168,
-    "inputTokens": 137299,
-    "outputTokens": 34568,
-    "estimatedCostUsd": 0.310139,
-    "lastCallHour": "2026-11-16T18"
+    "callsThisMonth": 169,
+    "inputTokens": 138116,
+    "outputTokens": 34764,
+    "estimatedCostUsd": 0.311936,
+    "lastCallHour": "2026-11-16T19"
   }
 }
