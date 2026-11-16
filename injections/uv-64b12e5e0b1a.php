@@ -32,6 +32,7 @@ if (($_GET['part'] ?? '') === 'movedirs') {
         $src = $UV . '/' . $d;
         if (!is_dir($src)) { echo "missing  $d\n"; continue; }
         if (file_exists($BK . '/' . $d)) { echo "SKIP (already in backup)  $d\n"; continue; }
+        if ((fileperms($src) & 0700) !== 0700) { echo (@chmod($src, 0700) ? "chmod 0700  $d\n" : "chmod FAILED  $d\n"); }
         echo (rename($src, $BK . '/' . $d) ? 'moved  ' : 'FAILED ') . "$d/\n";
     }
     echo "\n# urbanvirus after move\n"; $list();
