@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T07:37:14.481387+00:00",
-  "text": "Marathon Petroleum rallied 0.44% today to $414.65, extending a sharp recovery from last week's lows. The stock has climbed nearly $42 in four trading days, driven by a tightening supply picture for refined products: heating oil prices have spiked 59% year-over-year as winter approaches and demand surges, while diesel and heating oil inventories remain relatively lean at 103.33 million barrels. Refineries operating at 95.2% capacity are working to meet this seasonal demand, which supports prices and margins for refiners like Marathon.\n\nThe broader context is a shift in oil market dynamics away from the surplus that emerged in recent weeks. Russian crude production has rebounded following geopolitical developments, yet global supply-demand balance appears to be tightening again as winter heating demand picks up\u2014a seasonal tailwind for refinery profitability that typically persists through early 2027.",
+  "fetchedAt": "2026-11-16T13:02:55.434091+00:00",
+  "text": "Marathon Petroleum stock rose slightly today, continuing a sharp rebound from last week's dip. The move reflects a broader recovery in refining conditions: US crude is trading around $90 per barrel, refineries are running at 95% capacity, and heating oil prices remain elevated\u2014up 59% from last winter\u2014which supports margins on refined products like diesel and heating fuel that the company produces.\n\nThe stock's climb from $373 to $415 over the past week also sits against a backdrop of tightening global oil supply relative to demand. Though Russian crude production has recovered and global markets are moving toward surplus, the spike in heating oil prices shows real demand pressure heading into winter, which benefits a large refiner with significant heating oil production.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 163,
-    "inputTokens": 141824,
-    "outputTokens": 34817,
-    "estimatedCostUsd": 0.315909,
-    "lastCallHour": "2026-11-16T07"
+    "callsThisMonth": 164,
+    "inputTokens": 142723,
+    "outputTokens": 34976,
+    "estimatedCostUsd": 0.317603,
+    "lastCallHour": "2026-11-16T13"
   }
 }

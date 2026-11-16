@@ -395,17 +395,19 @@
     "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-10T21:52:48.183202+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-11T16:28:14.791992+00:00",
     "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city": "2026-11-14T15:32:40.508758+00:00",
-    "https://www.pravda.com.ua/eng/news/2026/11/15/8062944/": "2026-11-16T00:43:39.902356+00:00"
+    "https://www.pravda.com.ua/eng/news/2026/11/15/8062944/": "2026-11-16T00:43:39.902356+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/16/8063092/": "2026-11-16T13:03:18.018481+00:00",
+    "https://www.theguardian.com/environment/2026/nov/16/epa-chemical-detection-plane": "2026-11-16T13:03:20.976935+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 19,
-    "inputTokens": 21649,
-    "outputTokens": 2913,
-    "estimatedCostUsd": 0.036214
+    "calls": 21,
+    "inputTokens": 24351,
+    "outputTokens": 3282,
+    "estimatedCostUsd": 0.040761
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": false,
-  "lastRunAt": "2026-11-16T07:37:59.049357+00:00"
+  "lastGdeltOk": true,
+  "lastRunAt": "2026-11-16T13:03:20.977252+00:00"
 }
