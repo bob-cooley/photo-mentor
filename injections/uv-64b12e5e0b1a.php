@@ -26,4 +26,16 @@ if (($_GET['part'] ?? '') === 'move') {
     echo "\n# urbanvirus after move\n"; $list();
     exit;
 }
+if (($_GET['part'] ?? '') === 'movedirs') {
+    if (!is_dir($BK)) mkdir($BK, 0700, true);
+    foreach (['modules', 'administrator'] as $d) {
+        $src = $UV . '/' . $d;
+        if (!is_dir($src)) { echo "missing  $d\n"; continue; }
+        if (file_exists($BK . '/' . $d)) { echo "SKIP (already in backup)  $d\n"; continue; }
+        echo (rename($src, $BK . '/' . $d) ? 'moved  ' : 'FAILED ') . "$d/\n";
+    }
+    echo "\n# urbanvirus after move\n"; $list();
+    echo "\n# backup folder\n"; foreach (scandir($BK) as $i) if ($i[0] !== '.') echo "  $i\n";
+    exit;
+}
 http_response_code(400);
