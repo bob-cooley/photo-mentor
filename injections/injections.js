@@ -352,11 +352,15 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
     var button = document.createElement("button");
     button.type = "button";
     button.className = "theme-toggle";
-    button.innerHTML = '<img src="/theme-toggle.png" alt="" width="26" height="26">';
+    // custom tooltip (styled like the galleries popup, shown after 150ms by CSS) instead of
+    // title=, whose delay the browser controls; screen readers use aria-label
+    button.innerHTML = '<img src="/theme-toggle.png" alt="" width="26" height="26">' +
+      '<span class="theme-toggle-tip" aria-hidden="true"></span>';
+    var tip = button.querySelector(".theme-toggle-tip");
     function label() {
       var text = isLight() ? "Switch to dark mode" : "Switch to light mode";
       button.setAttribute("aria-label", text);
-      button.title = text;
+      tip.textContent = text;
     }
     label();
     holder.appendChild(button);

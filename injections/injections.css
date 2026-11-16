@@ -595,6 +595,47 @@ html.theme-light .theme-toggle img{transform:rotate(0deg);}
 @media (prefers-reduced-motion: reduce){
   .theme-toggle img{transition-duration:120ms;}
 }
+/* Toggle tooltip (2026-11-15): galleries popup style, appears 150ms after hover or keyboard
+   focus, right edge lined up with the toggle. Desktop with a mouse only (no hover on phones). */
+.theme-toggle-tip{display:none;}
+@media (min-width:1000px) and (hover:hover){
+  .theme-toggle-tip{
+    display:block;
+    position:absolute;
+    top:100%;
+    right:0;
+    margin-top:10px;
+    padding:7px 12px;
+    white-space:nowrap;
+    font-family:"Nunito Sans", sans-serif;
+    font-size:14px;
+    font-weight:400;
+    line-height:1.3;
+    letter-spacing:normal;
+    text-transform:none;
+    color:#BBBBBB;
+    background:#151515;
+    border:2px solid #333333;
+    border-radius:6px;
+    box-shadow:0 12px 32px rgba(0,0,0,0.65);
+    pointer-events:none;
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 120ms ease, visibility 0s linear 120ms;  /* hides at once */
+  }
+  .theme-toggle:hover .theme-toggle-tip,
+  .theme-toggle:focus-visible .theme-toggle-tip{
+    opacity:1;
+    visibility:visible;
+    transition:opacity 120ms ease 150ms, visibility 0s linear 150ms;  /* shows after 150ms */
+  }
+  html.theme-light .theme-toggle-tip{
+    color:#444444;
+    background:#F7F7F7;
+    border-color:#CCCCCC;
+    box-shadow:0 12px 32px rgba(0,0,0,0.12);
+  }
+}
 @media (max-width:999px){
   /* phones: the logo row ends 20px left of the menu icon; toggle at its right end, vertically centered */
   header .title-container{position:relative;}
