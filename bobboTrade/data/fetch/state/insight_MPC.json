@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T14:03:38.686123+00:00",
-  "text": "MPC rose 0.44% today as the refining sector continued to benefit from strong operational conditions. U.S. refineries are running at 95.2% capacity with oil inventories elevated at 694 million barrels, supporting steady margins for processors like Marathon. The stock has climbed $42 (over 11%) in just the past week, reflecting a sharp reversal from its two-week dip of -6.76%.\n\nThe broader context here is mixed for refiners going forward. While heating oil prices have spiked 59% from last winter\u2014which typically boosts demand for refined products\u2014recent news about rising shipping costs and cautious retail inventory strategies suggest softer overall fuel demand ahead. Additionally, the IEA reported that Russian crude production has rebounded, pushing global oil markets back into surplus, which could pressure refining margins over time even if near-term conditions remain supportive.",
+  "fetchedAt": "2026-11-16T15:02:33.687004+00:00",
+  "text": "Marathon Petroleum fell 2.8% today after climbing sharply over the prior three trading days. The stock has given back some recent gains as a broader shift in oil markets weighs on refiner margins: Russian crude production is rebounding following a deal on diesel exports, pushing global oil supplies back into surplus, which typically pressures refinery profits. At the same time, rising heating oil prices (up 59% year-over-year) haven't translated into sustained demand strength\u2014retailers are being cautious on holiday inventory as shipping costs climb, suggesting weaker overall fuel consumption ahead.\n\nThe refining environment remains mixed. Refineries are running at a solid 95.2% capacity, but with oil now in oversupply globally and crude prices softening slightly ($89.62 domestic, $92.14 global), the spread between crude costs and refined product prices\u2014which is what refiners pocket\u2014is likely tightening. Heating oil's price spike reflects regional supply tightness rather than broad demand growth, so the boost to revenues doesn't necessarily help margins across the board.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 165,
-    "inputTokens": 143622,
-    "outputTokens": 35172,
-    "estimatedCostUsd": 0.319482,
-    "lastCallHour": "2026-11-16T14"
+    "callsThisMonth": 166,
+    "inputTokens": 144518,
+    "outputTokens": 35403,
+    "estimatedCostUsd": 0.321533,
+    "lastCallHour": "2026-11-16T15"
   }
 }
