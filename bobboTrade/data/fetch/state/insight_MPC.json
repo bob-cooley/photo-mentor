@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T03:02:02.285838+00:00",
-  "text": "Marathon Petroleum's stock ticked up 0.44% today, capping a strong five-day rally that has lifted it nearly 12% since November 6th. The gains are driven by a tightening refining environment: US refineries are running at 95.2% capacity while heating oil storage sits at unusually low levels (103.33 million barrels) heading into winter\u2014and heating oil prices have spiked 59% year-over-year. For a major refiner, tight product inventories and high heating demand translate directly into better margins and stronger pricing power.\n\nThat said, the broader oil picture is complicated. Russian crude production has rebounded sharply after Trump-era sanctions easing, pushing global markets back into oversupply according to the International Energy Agency, which typically weighs on crude prices and refiner feedstock economics. Oil prices have drifted sideways (US crude near $89.62/barrel), which may cap the upside from the tight product story alone.",
+  "fetchedAt": "2026-11-16T04:09:29.862398+00:00",
+  "text": "Marathon Petroleum stock rose modestly today, continuing a sharp rebound from its 6.76% drop over the past two weeks. The recovery aligns with tightening fuel supply dynamics: heating oil prices have spiked 59% year-over-year ahead of winter, and diesel & heating oil inventories at 103.33 million barrels remain relatively lean, supporting margin conditions for refiners who produce these products. Refineries are running at 95.2% capacity, near full tilt, which positions Marathon to capture value from the supply-demand mismatch as demand heads into the cold season.\n\nThe broader headwind\u2014Russian crude production rebounding to 8.73 million barrels per day, pushing global markets into surplus\u2014explains why the stock fell hard earlier in the month. But the winter fuel crunch and strong operating rates suggest refiners can still earn solid margins even in a surplus crude environment, which is why the stock has stabilized and edged higher over the past few days.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 161,
-    "inputTokens": 139992,
-    "outputTokens": 34398,
-    "estimatedCostUsd": 0.311982,
-    "lastCallHour": "2026-11-16T03"
+    "callsThisMonth": 162,
+    "inputTokens": 140908,
+    "outputTokens": 34614,
+    "estimatedCostUsd": 0.313978,
+    "lastCallHour": "2026-11-16T04"
   }
 }

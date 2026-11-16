@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-16T03:01:36.638475+00:00",
-  "text": "ConocoPhillips gained 1.6% today, continuing a sharp rebound from earlier in the week\u2014the stock has climbed 4% over the last three trading days after dropping 7.6% through November 10th. The bounce aligns with a recovery in crude prices: US oil has risen from around $85 to $89.62 per barrel over that same period, which supports energy stocks broadly. The 59% spike in heating oil prices reported today is also relevant to the sector, signaling tighter supply conditions that can support margins for refiners and producers.\n\nHowever, there's a headwind that hasn't reversed: the International Energy Agency reported that Russian crude production rebounded in October and global oil markets have moved back into surplus (more supply than demand). This longer-term shift toward oversupply is likely why the stock fell 7.6% over the prior week despite today's bounce\u2014the fundamental backdrop for oil has turned less supportive even as short-term prices recovered.",
+  "fetchedAt": "2026-11-16T04:09:04.945073+00:00",
+  "text": "ConocoPhillips rose 1.6% today, continuing a strong three-day rally that's added about $7 to the stock price since Monday. The gain follows heating oil prices jumping 59% from last year\u2014a spike that signals robust demand for petroleum products heading into winter, which supports crude prices and the company's production economics. Oil prices have also firmed, with U.S. crude at $89.62 per barrel, providing a steady backdrop for energy producers.\n\nThe broader context is more complicated. Russian crude production has rebounded sharply to 8.73 million barrels per day in October, pushing global oil markets into surplus\u2014a dynamic that typically pressures prices and producer profits. This headwind explains why the stock is still down 7.6% over the past two weeks despite today's bounce; the recent rally appears to reflect near-term strength in heating demand rather than confidence in longer-term supply-demand balance.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 160,
-    "inputTokens": 130717,
-    "outputTokens": 33000,
-    "estimatedCostUsd": 0.295717,
-    "lastCallHour": "2026-11-16T03"
+    "callsThisMonth": 161,
+    "inputTokens": 131557,
+    "outputTokens": 33204,
+    "estimatedCostUsd": 0.297577,
+    "lastCallHour": "2026-11-16T04"
   }
 }
