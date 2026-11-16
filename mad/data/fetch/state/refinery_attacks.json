@@ -203,6 +203,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-12T04:18:03.236733+00:00"
+    },
+    {
+      "date": "2026-11-14",
+      "facility": "Nizhnekamsk oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-14-nizhnekamsk-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062944/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-16T02:30:37.757287+00:00"
     }
   ],
   "processedUrls": {
@@ -239,17 +255,18 @@
     "https://meduza.io/en/news/2026/11/10/reuters-ukraine-has-knocked-out-30-of-russia-s-oil-refining-capacity": "2026-11-11T01:32:40.530731+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/10/8062172/": "2026-11-11T01:32:42.089990+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/": "2026-11-12T04:18:03.236425+00:00",
-    "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city": "2026-11-15T04:22:29.999437+00:00"
+    "https://meduza.io/en/news/2026/11/13/ukrainian-drone-attack-sparks-fire-at-volgograd-oil-refinery-killing-four-lines-form-at-gas-stations-across-city": "2026-11-15T04:22:29.999437+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/15/8062944/": "2026-11-16T02:30:37.757010+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 14,
-    "inputTokens": 17330,
-    "outputTokens": 2023,
-    "estimatedCostUsd": 0.027445
+    "calls": 15,
+    "inputTokens": 18204,
+    "outputTokens": 2152,
+    "estimatedCostUsd": 0.028964
   },
   "lastGdeltOk": false,
   "backfillDone": true,
   "backfillComplete": false,
-  "lastRunAt": "2026-11-15T04:22:29.999967+00:00"
+  "lastRunAt": "2026-11-16T02:30:37.757322+00:00"
 }

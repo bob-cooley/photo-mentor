@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-15T06:01:04.774697+00:00",
-  "text": "ConocoPhillips rose 1.6% today, continuing a rebound that's gained 4% over the past four trading days after dropping 7.6% in the prior two weeks. The bounce reflects stabilization in oil prices\u2014US crude is holding around $89.60 per barrel\u2014combined with what appears to be renewed investor interest, flagged by CNBC's \"Calls of the day\" segment on November 11th, which highlighted the stock as a notable pick.\n\nThe earlier sell-off likely reflects supply concerns that have now eased: the IEA reported on November 13th that Russian crude production rebounded to 8.73 million barrels per day in October, pushing global oil markets back into surplus after a period of tighter supply. That shift away from supply-constrained markets had weighed on energy stocks, but the stabilization since then has allowed buyers to step back in.",
+  "fetchedAt": "2026-11-16T02:29:34.413196+00:00",
+  "text": "ConocoPhillips rose 1.6% today, extending a four-day rally that's recovered most of last week's losses. The bounce reflects a modest rebound in oil prices (US crude at $89.62/barrel) and continued strength in refined products\u2014heating oil prices are up 59% from last year, which boosts margins for oil companies' refining operations. The stock has climbed $6 in the past four trading days after hitting a low of $134.47 on November 9th.\n\nThe recovery comes despite underlying headwinds: Russian crude production has rebounded to 8.73 million barrels per day following a Trump-era diesel deal, pushing global oil supplies back into surplus. That surplus pressure is a reminder of why the stock fell 7.6% over the past two weeks\u2014when supply rises and demand softens, it typically weighs on both crude prices and the companies that produce it.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 20,
-    "inputTokens": 16491,
-    "outputTokens": 3941,
-    "estimatedCostUsd": 0.036196,
-    "lastCallHour": "2026-11-15T06"
+    "callsThisMonth": 21,
+    "inputTokens": 17331,
+    "outputTokens": 4144,
+    "estimatedCostUsd": 0.038051,
+    "lastCallHour": "2026-11-16T02"
   }
 }
