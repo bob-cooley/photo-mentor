@@ -596,15 +596,17 @@ html.theme-light .theme-toggle img{transform:rotate(0deg);}
   .theme-toggle img{transition-duration:120ms;}
 }
 /* Toggle tooltip (2026-11-15): galleries popup style, appears 150ms after hover or keyboard
-   focus, right edge lined up with the toggle. Desktop with a mouse only (no hover on phones). */
+   focus, directly left of the toggle and centered on it (below it crowded the nav).
+   Desktop with a mouse only (no hover on phones). */
 .theme-toggle-tip{display:none;}
 @media (min-width:1000px) and (hover:hover){
   .theme-toggle-tip{
     display:block;
     position:absolute;
-    top:100%;
-    right:0;
-    margin-top:10px;
+    top:50%;
+    right:100%;
+    margin-right:10px;
+    transform:translateY(-50%);
     padding:7px 12px;
     white-space:nowrap;
     font-family:"Nunito Sans", sans-serif;
