@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T17:02:34.664738+00:00",
-  "text": "Marathon Petroleum fell 3% today after a sharp reversal from Friday's peak of $414.65. The move follows news that Russian crude production has rebounded significantly following a diesel deal, pushing global oil markets into surplus\u2014meaning supply is now outpacing demand. For a refiner, surplus crude is a double-edged sword: while cheaper oil helps processing costs, it narrows the profit margin between what they pay for crude and what they can sell refined products for, which is a core driver of refinery earnings.\n\nThe two-week decline of 6.5% reflects broader pressure on refining margins. Heating oil prices are up 59% from last winter, which sounds bullish for a refiner, but that headline actually signals tight supply and squeezed consumer demand\u2014families cutting back on heating oil purchases because of cost. Meanwhile, U.S. refineries are running at 95.2% capacity with ample crude and product inventories, which suggests the market is well-stocked and demand growth is modest at best.",
+  "fetchedAt": "2026-11-16T18:08:00.449854+00:00",
+  "text": "Marathon Petroleum dropped 3.3% today after climbing sharply over the prior three trading days. The decline follows news that Russian crude production has rebounded significantly\u2014the IEA reported output at 8.73 million barrels per day in October\u2014which is pushing global oil markets back into surplus (more supply than demand). When global oil supply exceeds demand, refinery margins typically compress, meaning refiners earn less profit on each barrel processed.\n\nThe broader headwind is straightforward: even though U.S. refineries are running at 95.2% capacity and heating oil prices remain elevated year-over-year, the market's shift from supply tightness to surplus reduces the economic advantage that fueled the stock's 6% gain earlier this week. Supply normalization, particularly from Russia, removes pricing power that benefited refiners when crude was scarcer.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 168,
-    "inputTokens": 146310,
-    "outputTokens": 35840,
-    "estimatedCostUsd": 0.32551,
-    "lastCallHour": "2026-11-16T17"
+    "callsThisMonth": 169,
+    "inputTokens": 147206,
+    "outputTokens": 36026,
+    "estimatedCostUsd": 0.327336,
+    "lastCallHour": "2026-11-16T18"
   }
 }
