@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-16T13:02:26.030489+00:00",
-  "text": "ConocoPhillips rose 1.6% today, continuing a strong five-day rally that has recovered most of a two-week loss. The bounce aligns with crude oil prices holding in the upper $89\u2013$92 range, which supports exploration and production companies' cash flow and profitability. The stock has gained nearly 6% since November 6, suggesting investors are repositioning into the energy sector as oil stabilizes after earlier weakness.\n\nThe broader backdrop includes elevated heating oil prices\u2014up 59% year-over-year\u2014which signals sustained demand for refined petroleum products heading into winter, a tailwind for integrated oil companies with refining operations. This seasonal strength, combined with stable crude prices, appears to be supporting the sector's near-term outlook.",
+  "fetchedAt": "2026-11-16T14:03:09.094183+00:00",
+  "text": "ConocoPhillips rose 1.6% today to $142.28, continuing a strong four-day rally that has recovered most of the stock's losses from earlier in the week. The move aligns with a steady climb in oil prices \u2014 US crude is trading at $89.62 per barrel, up from the lows that triggered the earlier decline \u2014 and broader energy sector momentum that's lifting exploration and production companies.\n\nThe timing matters: heating oil prices have spiked 59% from last winter, keeping refined product demand elevated heading into the cold months, and there's no sign of weakening energy demand despite shipping cost pressures on retailers elsewhere in the economy. This supports continued strength in both crude and refined products, which underpins companies like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 163,
-    "inputTokens": 133214,
-    "outputTokens": 33593,
-    "estimatedCostUsd": 0.301179,
-    "lastCallHour": "2026-11-16T13"
+    "callsThisMonth": 164,
+    "inputTokens": 134031,
+    "outputTokens": 33762,
+    "estimatedCostUsd": 0.302841,
+    "lastCallHour": "2026-11-16T14"
   }
 }
