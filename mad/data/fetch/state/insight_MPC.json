@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T02:29:46.940898+00:00",
-  "text": "Marathon's stock rose modestly today as it recovered from a significant dip earlier this week, with the gain driven by a combination of strong refinery utilization and elevated heating oil prices. US refineries are running at 95.2% capacity, near maximum, and heating oil prices have spiked 59% from last winter\u2014a jump that typically benefits refiners who produce these fuels and can sell them at higher margins. The stock has climbed $42 over the past week as these tailwinds have built confidence in the refining sector.\n\nThat said, the longer view shows headwinds: the stock is still down 6.76% over two weeks, and recent news suggests oil markets may be shifting toward oversupply. Russian crude production has rebounded and global supply is now exceeding demand, which can pressure oil prices and refining margins over time. While today's bounce reflects near-term strength in the refining environment, that underlying supply surplus could weigh on the sector if it persists.",
+  "fetchedAt": "2026-11-16T03:04:13.763177+00:00",
+  "text": "MPC gained 0.44% today to close at $414.65, capping a strong recovery week that saw the stock climb 11% since Nov 6. The rebound reflects a stabilization in refining economics: US crude held steady around $89.62/barrel while US refineries operated at 95.2% capacity, and critically, heating oil prices remain elevated\u2014up 59% from last winter\u2014which supports diesel and distillate margins that are key to refiner profitability. This pricing backdrop has supported the stock's rebound from its week-ago lows even as broader oil markets show signs of surplus supply.\n\nThe recovery also fits into a shift in near-term refining conditions. Russia's crude production rebounded in October and global oil markets moved to surplus, which typically pressures crude prices, yet heating oil remains historically expensive due to winter demand concerns\u2014a mismatch that can widen margins for refiners who crack crude into distillates. That structural advantage appears to be supporting the stock's momentum over the past few days.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 21,
-    "inputTokens": 18516,
-    "outputTokens": 4530,
-    "estimatedCostUsd": 0.041166,
-    "lastCallHour": "2026-11-16T02"
+    "callsThisMonth": 22,
+    "inputTokens": 19432,
+    "outputTokens": 4756,
+    "estimatedCostUsd": 0.043212,
+    "lastCallHour": "2026-11-16T03"
   }
 }
