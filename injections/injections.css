@@ -556,8 +556,9 @@ body:has(main.frontpage) header .website-title-link{
    light choice before the first paint. Everything below only overrides
    colors that injections.css or the bio page's own styles set for dark.
    Dark values are kept above; light values are their mirror on white,
-   except teal, which is darkened to stay readable on white: #007F74 (4.9:1 on white,
-   4.6:1 on the #F7F7F7 popup, passes WCAG AA), hover #00655C. 2026-11-15.
+   except teal, which is darkened for white: #009C8F, hover #00847A (Bob's pick 2026-11-15).
+   #009C8F is 3.4:1 on white, below WCAG AA's 4.5:1 for the 22px nav; chosen knowingly over
+   #007F74 (4.9:1), which looked too dark to stand out.
    =================================================================== */
 
 /* Toggle: bisected circle, top-right of the header. Dark mode shows white on the right
@@ -663,18 +664,18 @@ html.theme-light header nav > ul.primary > li:hover > .nav-item-title{color:#555
 html.theme-light header nav > ul > li + li::before{color:#555555;}
 html.theme-light header nav > ul.primary > li.active > .nav-item-title,
 html.theme-light header nav > ul.primary > li.active:not(:hover) > .nav-item-title,
-html.theme-light header nav > ul.primary > li.active:hover > .nav-item-title{color:#007F74;}
+html.theme-light header nav > ul.primary > li.active:hover > .nav-item-title{color:#009C8F;}
 html.theme-light header nav > ul.primary > li > .nav-item-title:hover,
 html.theme-light header nav > ul.primary > li > .nav-item-title:focus-visible,
-html.theme-light header nav > ul.primary > li:hover > .nav-item-title:hover{color:#00655C;}
-html.theme-light .theme-toggle:focus-visible{outline-color:#007F74;}
+html.theme-light header nav > ul.primary > li:hover > .nav-item-title:hover{color:#00847A;}
+html.theme-light .theme-toggle:focus-visible{outline-color:#009C8F;}
 
 /* Galleries note */
 html.theme-light header nav .nav-galleries-note{color:#444444;}
 html.theme-light header nav .nav-galleries-lead{color:#111111;}
-html.theme-light header nav .nav-galleries-note a{color:#007F74;}
+html.theme-light header nav .nav-galleries-note a{color:#009C8F;}
 html.theme-light header nav .nav-galleries-note a:hover,
-html.theme-light header nav .nav-galleries-note a:focus-visible{color:#00655C;}
+html.theme-light header nav .nav-galleries-note a:focus-visible{color:#00847A;}
 @media (min-width:1000px){
   html.theme-light header nav .nav-galleries-note{
     background:#F7F7F7;
