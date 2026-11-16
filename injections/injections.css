@@ -666,6 +666,12 @@ html.theme-light .theme-toggle img{transform:rotate(0deg);}
 html.theme-light{--website-background:#EAEAEA;}
 html.theme-light body{background:#EAEAEA;}
 
+/* Form fields (contact page): #F2F2F2 instead of pure white, which jumped out on the
+   #EAEAEA page; about 14% more light than the form box behind them (2026-11-15) */
+html.theme-light main form input:not([type=submit]):not([type=reset]):not([type=button]):not([type=checkbox]):not([type=radio]),
+html.theme-light main form textarea,
+html.theme-light main form select{background:#F2F2F2;}
+
 /* Fades go to the page background */
 html.theme-light body::before,
 html.theme-light .page-fade-veil{background:#EAEAEA;}
