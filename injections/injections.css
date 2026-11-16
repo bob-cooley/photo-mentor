@@ -281,6 +281,10 @@ main.template-contact div.custom-html{
 main.template-contact div.custom-html p{
   text-align: left;
 }
+/* Contact page: more room between the nav and the intro text (was the theme's 32px) - 2026-11-15 */
+@media (min-width:1000px){
+  main.template-contact{margin-top:56px;}
+}
 
 @media (min-width:1000px){
   body{

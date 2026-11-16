@@ -380,6 +380,24 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
     });
   }
 
+  /* ===================================================================
+     Contact page (2026-11-15): bold the opening sentence ("Hi! Sorry to make
+     you fill out a form - it helps cut down on spam."). The intro is one <p>
+     whose lines are split with <br>, so this wraps everything before the
+     first <br> in <strong>. The text comes from IO200's contact form setup,
+     not from the page content, so it can't be bolded in the page editor.
+     =================================================================== */
+  function initContactIntro() {
+    var p = document.querySelector("main.template-contact div.custom-html p");
+    if (!p || p.querySelector("strong.contact-lead")) return;
+    var br = p.querySelector("br");
+    if (!br) return;
+    var strong = document.createElement("strong");
+    strong.className = "contact-lead";
+    while (p.firstChild && p.firstChild !== br) strong.appendChild(p.firstChild);
+    p.insertBefore(strong, br);
+  }
+
   function init() {
     init404Flicker();
     initNavAmpersand();
@@ -388,6 +406,7 @@ z=Math.max(0.75,Math.min(1,z));if(z<1)d.style.zoom=z})();
     initFit();
     initNavFade();
     initThemeToggle();
+    initContactIntro();
   }
 
   if (document.readyState === "loading") {
