@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T03:04:13.763177+00:00",
-  "text": "MPC gained 0.44% today to close at $414.65, capping a strong recovery week that saw the stock climb 11% since Nov 6. The rebound reflects a stabilization in refining economics: US crude held steady around $89.62/barrel while US refineries operated at 95.2% capacity, and critically, heating oil prices remain elevated\u2014up 59% from last winter\u2014which supports diesel and distillate margins that are key to refiner profitability. This pricing backdrop has supported the stock's rebound from its week-ago lows even as broader oil markets show signs of surplus supply.\n\nThe recovery also fits into a shift in near-term refining conditions. Russia's crude production rebounded in October and global oil markets moved to surplus, which typically pressures crude prices, yet heating oil remains historically expensive due to winter demand concerns\u2014a mismatch that can widen margins for refiners who crack crude into distillates. That structural advantage appears to be supporting the stock's momentum over the past few days.",
+  "fetchedAt": "2026-11-16T04:01:49.803216+00:00",
+  "text": "Marathon Petroleum stock has inched up 0.44% today to close at $414.65, extending a strong three-day rally after recovering from a two-week slide. The move appears tied to structural strength in refining margins: US crude is trading at $89.62 per barrel while refineries are running at 95.2% capacity, and critically, heating oil prices have spiked 59% compared to last winter\u2014a direct driver of demand and margins for refineries that produce these products heading into the cold season.\n\nThe broader backdrop has shifted meaningfully since early November. Russia's crude production recovery (which IEA data shows reached 8.73 million barrels daily in October) has pushed global oil markets from undersupply into surplus, which typically pressures crude prices downward\u2014yet heating oil demand remains robust enough to support refinery profitability during winter months. This combination of abundant crude feedstock and seasonal heating demand is the kind of environment where refiners tend to thrive.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 22,
-    "inputTokens": 19432,
-    "outputTokens": 4756,
-    "estimatedCostUsd": 0.043212,
-    "lastCallHour": "2026-11-16T03"
+    "callsThisMonth": 23,
+    "inputTokens": 20348,
+    "outputTokens": 4972,
+    "estimatedCostUsd": 0.045208,
+    "lastCallHour": "2026-11-16T04"
   }
 }
