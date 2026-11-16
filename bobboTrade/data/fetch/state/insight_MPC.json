@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T15:02:33.687004+00:00",
-  "text": "Marathon Petroleum fell 2.8% today after climbing sharply over the prior three trading days. The stock has given back some recent gains as a broader shift in oil markets weighs on refiner margins: Russian crude production is rebounding following a deal on diesel exports, pushing global oil supplies back into surplus, which typically pressures refinery profits. At the same time, rising heating oil prices (up 59% year-over-year) haven't translated into sustained demand strength\u2014retailers are being cautious on holiday inventory as shipping costs climb, suggesting weaker overall fuel consumption ahead.\n\nThe refining environment remains mixed. Refineries are running at a solid 95.2% capacity, but with oil now in oversupply globally and crude prices softening slightly ($89.62 domestic, $92.14 global), the spread between crude costs and refined product prices\u2014which is what refiners pocket\u2014is likely tightening. Heating oil's price spike reflects regional supply tightness rather than broad demand growth, so the boost to revenues doesn't necessarily help margins across the board.",
+  "fetchedAt": "2026-11-16T16:02:49.897765+00:00",
+  "text": "Marathon Petroleum fell 3% today after jumping nearly $12 over the previous two trading days, giving back some of those gains. The decline follows news that Russian crude production has rebounded sharply\u2014the IEA reported output at 8.73 million barrels a day in October\u2014which is pushing global oil markets back toward surplus (more supply than demand). This matters for refiners like Marathon because when global oil supply outpaces demand, crude prices typically soften, squeezing refining margins.\n\nThe broader context here involves a shift in market sentiment around oil supply. After weeks of tighter conditions, the return of Russian crude to the market signals that the supply-demand balance has swung, which can pressure both crude prices and the profit refiners make on each gallon processed. Meanwhile, heating oil prices remain elevated (up 59% year-over-year), which supports some demand, but the concern about rising shipping costs and cautious holiday retail inventory strategies suggests demand growth may slow heading into winter.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 166,
-    "inputTokens": 144518,
-    "outputTokens": 35403,
-    "estimatedCostUsd": 0.321533,
-    "lastCallHour": "2026-11-16T15"
+    "callsThisMonth": 167,
+    "inputTokens": 145414,
+    "outputTokens": 35618,
+    "estimatedCostUsd": 0.323504,
+    "lastCallHour": "2026-11-16T16"
   }
 }
