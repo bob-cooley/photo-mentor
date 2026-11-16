@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-16T04:09:04.945073+00:00",
-  "text": "ConocoPhillips rose 1.6% today, continuing a strong three-day rally that's added about $7 to the stock price since Monday. The gain follows heating oil prices jumping 59% from last year\u2014a spike that signals robust demand for petroleum products heading into winter, which supports crude prices and the company's production economics. Oil prices have also firmed, with U.S. crude at $89.62 per barrel, providing a steady backdrop for energy producers.\n\nThe broader context is more complicated. Russian crude production has rebounded sharply to 8.73 million barrels per day in October, pushing global oil markets into surplus\u2014a dynamic that typically pressures prices and producer profits. This headwind explains why the stock is still down 7.6% over the past two weeks despite today's bounce; the recent rally appears to reflect near-term strength in heating demand rather than confidence in longer-term supply-demand balance.",
+  "fetchedAt": "2026-11-16T07:36:47.136610+00:00",
+  "text": "ConocoPhillips gained 1.6% today, continuing a sharp recovery from its lows earlier this week. The stock has climbed nearly $6 (4.4%) over the past three days as oil prices stabilized\u2014US crude is trading at $89.62 per barrel, a level that supports energy company earnings. The broader sector momentum has been positive: heating oil prices are up 59% from last winter, which benefits integrated oil companies with refining operations, and investor interest in energy stocks appears to have picked back up after the dip.\n\nThat said, the longer two-week decline of 7.6% reflects a genuine headwind: Russian crude output has rebounded sharply to 8.73 million barrels a day, pushing global oil markets back into surplus. Oversupply pressures can weigh on prices and refiner margins, which explains why the stock fell so much before this week's rebound. Today's move is a bounce on near-term stability, not a resolution of that underlying supply concern.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 161,
-    "inputTokens": 131557,
-    "outputTokens": 33204,
-    "estimatedCostUsd": 0.297577,
-    "lastCallHour": "2026-11-16T04"
+    "callsThisMonth": 162,
+    "inputTokens": 132397,
+    "outputTokens": 33428,
+    "estimatedCostUsd": 0.299537,
+    "lastCallHour": "2026-11-16T07"
   }
 }
