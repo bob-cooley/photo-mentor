@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T21:03:29.735554+00:00",
-  "text": "Marathon Petroleum fell 3% today after climbing sharply over the previous three trading days, retreating to levels last seen a week ago. The stock's pullback follows news that Russian crude production has rebounded significantly\u2014reaching 8.73 million barrels per day in October\u2014pushing global oil markets back into surplus (more supply than demand). When the world has excess oil, refiners like Marathon face margin pressure because they can't command premium prices for the fuel they produce.\n\nThe broader refining environment offers some offset: U.S. refineries are running at 95.2% capacity, and heating oil prices remain elevated at 59% above last winter's levels, which supports margins on those products. However, the recent jump in transportation costs and cautious retailer inventory behavior signal softer demand ahead, which could weigh on fuel consumption as we head into the winter season.",
+  "fetchedAt": "2026-11-16T22:01:46.285882+00:00",
+  "text": "Marathon Petroleum fell 3% today after climbing sharply over the prior three trading days, erasing most of those gains. The stock had surged to $414.65 on November 13th\u2014likely on tightness in diesel and heating oil markets, given the news that heating oil prices are up 59% year-over-year\u2014but that bullish setup weakened when the International Energy Agency reported on November 13th that Russian crude production is rebounding and global oil markets are moving back into surplus. With crude supply no longer constrained and refineries already running at 95.2% capacity, the case for outsize refining profits has cooled.\n\nThe broader headwind is straightforward: rising energy costs are starting to squeeze demand. Heating oil prices spiking 59% are \"crushing folks,\" according to reporting on household budgets, and shipping executives are signaling retailers are pulling back on holiday inventory orders due to transportation cost pressure. For a refiner, rising input costs (crude) paired with weakening demand signals (cautious holiday restocking, expensive heating oil crimping consumer budgets) is a mix that tends to compress margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 172,
-    "inputTokens": 149894,
-    "outputTokens": 36620,
-    "estimatedCostUsd": 0.332994,
-    "lastCallHour": "2026-11-16T21"
+    "callsThisMonth": 173,
+    "inputTokens": 150793,
+    "outputTokens": 36866,
+    "estimatedCostUsd": 0.335123,
+    "lastCallHour": "2026-11-16T22"
   }
 }
