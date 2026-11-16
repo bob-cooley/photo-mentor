@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-16T20:02:11.446968+00:00",
-  "text": "ConocoPhillips fell 1% today, pulling back from a three-day rally that had pushed the stock up to $142.28 on November 13th. The decline came as crude oil prices softened slightly\u2014US oil dropped to $89.62 per barrel from levels that had been supporting the recent upward momentum. After a 4% drop over the past two weeks, the stock appears to be consolidating rather than breaking down decisively.\n\nThe energy sector remains buoyed by elevated heating oil prices (up 59% year-over-year) and steady refinery economics, which should continue to support oil majors. However, with crude prices now sitting in a narrower range and no major company-specific news in the past few days, the stock lacks a fresh catalyst to extend its recent gains.",
+  "fetchedAt": "2026-11-16T21:02:55.272362+00:00",
+  "text": "ConocoPhillips fell 1.2% today to $140.52, pulling back from a peak of $142.28 just three days earlier. The stock is giving back gains in a broader energy pullback\u2014oil prices have drifted slightly lower (US crude at $89.62/barrel), and the two-week chart shows the stock up only 4.5% from its November 9th low, suggesting momentum has stalled. No specific company news today explains the decline; the move appears to be a modest profit-taking moment after a sharp four-day rally.\n\nThe backdrop remains mixed for refiners and producers. Heating oil prices have spiked 59% year-over-year, which could lift winter demand for refined products, but broader economic uncertainty\u2014rising shipping costs and cautious retail inventory planning\u2014may be tempering near-term sentiment on energy demand more generally.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 170,
-    "inputTokens": 138934,
-    "outputTokens": 34941,
-    "estimatedCostUsd": 0.313639,
-    "lastCallHour": "2026-11-16T20"
+    "callsThisMonth": 171,
+    "inputTokens": 139750,
+    "outputTokens": 35135,
+    "estimatedCostUsd": 0.315425,
+    "lastCallHour": "2026-11-16T21"
   }
 }

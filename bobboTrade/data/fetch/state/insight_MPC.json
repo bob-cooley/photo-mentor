@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T20:02:51.200089+00:00",
-  "text": "Marathon Petroleum fell 3.1% today, reversing four straight days of gains and closing near its lowest point in two weeks. The decline comes as Russian crude production has rebounded sharply\u2014now back above 8.7 million barrels a day\u2014pushing global oil markets into surplus (more supply than demand). With crude prices sliding toward $90 a barrel and refineries already running at 95% capacity, the outlook for refiner margins has tightened; more crude chasing the same demand means less profit per barrel processed.\n\nThe broader headwinds are compounding. Heating oil prices are up 59% year-over-year, which typically signals strong seasonal demand\u2014but it's also pricing out consumers and creating economic anxiety that could dampen fuel demand heading into winter. At the same time, rising shipping costs are making retailers cautious on holiday inventory, which could slow transportation fuel consumption precisely when refiners were counting on seasonal strength.",
+  "fetchedAt": "2026-11-16T21:03:29.735554+00:00",
+  "text": "Marathon Petroleum fell 3% today after climbing sharply over the previous three trading days, retreating to levels last seen a week ago. The stock's pullback follows news that Russian crude production has rebounded significantly\u2014reaching 8.73 million barrels per day in October\u2014pushing global oil markets back into surplus (more supply than demand). When the world has excess oil, refiners like Marathon face margin pressure because they can't command premium prices for the fuel they produce.\n\nThe broader refining environment offers some offset: U.S. refineries are running at 95.2% capacity, and heating oil prices remain elevated at 59% above last winter's levels, which supports margins on those products. However, the recent jump in transportation costs and cautious retailer inventory behavior signal softer demand ahead, which could weigh on fuel consumption as we head into the winter season.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 171,
-    "inputTokens": 148998,
-    "outputTokens": 36433,
-    "estimatedCostUsd": 0.331163,
-    "lastCallHour": "2026-11-16T20"
+    "callsThisMonth": 172,
+    "inputTokens": 149894,
+    "outputTokens": 36620,
+    "estimatedCostUsd": 0.332994,
+    "lastCallHour": "2026-11-16T21"
   }
 }
