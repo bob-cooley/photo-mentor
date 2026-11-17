@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-17T16:02:16.763389+00:00",
-  "text": "ConocoPhillips ticked up 0.97% today to $141.89, recouping most of Friday's loss. The move tracks closely with a spike in geopolitical risk: Iran escalated military threats against the U.S. as a third American carrier arrived in the Persian Gulf, and a tanker was struck in the Hormuz Strait\u2014a key chokepoint for global oil shipments. Oil-price-sensitive stocks like refiners and producers often rise when supply disruption fears push crude higher, though WTI crude sits at $89.62/barrel, still within its recent range.\n\nThe stock is up nearly $6 from last week's low but remains down 1.68% over the past two weeks, suggesting this Middle East premium is a tactical bounce rather than a sustained reversal. Rising heating oil prices (up 59% year-over-year) point to genuine demand strength in winter months, which could support refined product margins over the near term.",
+  "fetchedAt": "2026-11-17T17:06:51.638813+00:00",
+  "text": "ConocoPhillips inched up 0.38% today to $141.05, marking a modest recovery from Friday's dip. The move comes as crude oil prices remain relatively stable\u2014US oil at $89.62 per barrel and global oil at $92.14\u2014after the stock fell 2.21% over the past two weeks. The stabilization in oil prices may be offering some relief after the recent decline, though today's gain is small enough to suggest cautious sentiment rather than strong conviction.\n\nGeopolitical risk in the Middle East could be providing underlying support. Reports of Iran escalating threats as a third U.S. carrier enters the Gulf typically tighten oil supplies and boost prices for energy producers. Additionally, heating oil prices are up 59% from last year, which signals strong seasonal demand\u2014a tailwind for refiners and crude producers as winter approaches, even if broader economic concerns (holiday shipping caution, inflation pressure on consumers) may be tempering enthusiasm.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 177,
-    "inputTokens": 144728,
-    "outputTokens": 36387,
-    "estimatedCostUsd": 0.326663,
-    "lastCallHour": "2026-11-17T16"
+    "callsThisMonth": 178,
+    "inputTokens": 145561,
+    "outputTokens": 36600,
+    "estimatedCostUsd": 0.328561,
+    "lastCallHour": "2026-11-17T17"
   }
 }
