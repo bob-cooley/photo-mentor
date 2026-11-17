@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T18:03:00.109062+00:00",
-  "text": "Marathon Petroleum fell 1.7% today and has dropped 7.5% over the past two weeks, a decline that tracks closely with crude oil prices sliding from recent highs. US oil fell to $89.62 per barrel today\u2014down from peaks near $100 just days ago\u2014and that matters for a refiner because lower crude costs reduce the value of refined products they sell; refineries are running at 95.2% capacity, so they're at full throttle but lack pricing power when input costs drop faster than output prices can follow.\n\nThe broader headwind is straightforward: crude prices are softening in a market watching geopolitical risk ease. Last week brought escalating Iran-US military tensions that had supported oil prices, but that fear premium appears to be fading as markets price in lower probability of imminent disruption to oil supplies. For a company whose profit margins depend on the spread between crude input and gasoline/diesel output, a falling oil price environment is a structural drag until crude stabilizes.",
+  "fetchedAt": "2026-11-17T19:03:07.758782+00:00",
+  "text": "Marathon Petroleum stock fell 2.2% today to $393.26, extending a sharp 8% decline over the past week. The timing aligns with a pullback in oil prices: U.S. crude is down to $89.62 per barrel today after the stock peaked at $414.65 on November 13th when oil was trading higher. Refiners like Marathon profit most when the gap between crude input costs and refined product prices widens, so when crude softens without a matching drop in gasoline and diesel prices, margins compress.\n\nThe broader concern for refiners right now is that demand signals are mixed. Heating oil is up 59% year-over-year, which could suggest strong winter demand, but retailers are being cautious on holiday inventory as shipping costs rise\u2014a potential headwind for overall fuel consumption. Refineries are already running at 95.2% capacity with ample oil in storage (693.95 million barrels), leaving little room to ramp up production if demand disappoints.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 181,
-    "inputTokens": 158001,
-    "outputTokens": 38630,
-    "estimatedCostUsd": 0.351151,
-    "lastCallHour": "2026-11-17T18"
+    "callsThisMonth": 182,
+    "inputTokens": 158902,
+    "outputTokens": 38852,
+    "estimatedCostUsd": 0.353162,
+    "lastCallHour": "2026-11-17T19"
   }
 }

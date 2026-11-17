@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-17T18:02:19.776603+00:00",
-  "text": "ConocoPhillips ticked up slightly today, essentially flat, as oil prices held steady around $90 per barrel. The stock has been choppy over the past two weeks\u2014it peaked at $142 four days ago, then pulled back, and is now hovering near that lower level. Nothing in the data here clearly explains today's modest move; oil prices haven't shifted meaningfully, and there's no fresh company-specific news to drive the change.\n\nThe broader context is a mix of competing forces. Rising heating oil prices and geopolitical tensions in the Middle East (Iran escalating threats as U.S. carriers arrive) could support energy prices and demand, but weak holiday retail demand signals and elevated shipping costs suggest economic caution that could eventually soften consumption. The stock's recent volatility likely reflects investors weighing these cross-currents.",
+  "fetchedAt": "2026-11-17T19:02:28.971813+00:00",
+  "text": "ConocoPhillips ticked up slightly today as oil prices held steady around $90 per barrel, with U.S. crude at $89.62 and global oil at $92.14. The stock has bounced back from a dip on November 16th, recovering most of that day's losses as prices stabilized after a two-week decline.\n\nGeopolitical tension in the Middle East\u2014with Iran escalating threats as a third U.S. carrier arrived in the Persian Gulf\u2014tends to support oil prices by creating supply uncertainty around a critical shipping chokepoint. Combined with heating oil prices up 59% from last winter, underlying demand for refined petroleum products remains elevated despite broader economic caution.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 179,
-    "inputTokens": 146394,
-    "outputTokens": 36782,
-    "estimatedCostUsd": 0.330304,
-    "lastCallHour": "2026-11-17T18"
+    "callsThisMonth": 180,
+    "inputTokens": 147227,
+    "outputTokens": 36937,
+    "estimatedCostUsd": 0.331912,
+    "lastCallHour": "2026-11-17T19"
   }
 }
