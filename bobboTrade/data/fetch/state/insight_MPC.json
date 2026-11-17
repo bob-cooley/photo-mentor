@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T14:02:13.001169+00:00",
-  "text": "Marathon Petroleum fell 3% today after climbing sharply over the prior three trading days (up roughly 3% from November 11 to November 13). The decline follows geopolitical escalation in the Middle East\u2014Iran has ramped up threats as a third U.S. carrier arrived in the Persian Gulf\u2014which typically pressures oil refiners by raising uncertainty around crude supplies and global demand. U.S. oil prices dropped to $89.62 per barrel today, down from recent highs, removing tailwinds that had supported the stock's recent run.\n\nRefineries are running at 95.2% capacity, near peak levels, which limits upside from production increases if energy demand slows. The sharp rise in heating oil prices this winter (up 59% year-over-year) had been a bright spot for refiners, but broader economic caution\u2014reflected in retailers pulling back holiday inventory due to rising shipping costs\u2014suggests demand headwinds may be building, which would weigh on a refiner's margins and throughput.",
+  "fetchedAt": "2026-11-17T15:02:50.366755+00:00",
+  "text": "Marathon Petroleum stock rose 1.16% today to close at $406.86, bouncing back after a sharp two-day decline earlier in the week. The bump appears tied to escalating geopolitical tensions in the Middle East\u2014Iran's threats against U.S. forces and a reported tanker strike in the Hormuz Strait\u2014which typically tighten oil supply concerns and support refiner margins. U.S. crude closed at $89.62 per barrel today, a modest level, but the geopolitical risk premium embedded in prices helps refiners' economics when their input costs and output demand both strengthen.\n\nThe stock's broader two-week decline of 4.8% reflects mixed signals for the refining sector: while heating oil prices have surged 59% year-over-year (supporting diesel margin potential), rising shipping costs are making retailers cautious on holiday inventory, which could dampen near-term fuel demand. With U.S. refineries running at 95.2% capacity utilization and gasoline inventories elevated at 210.8 million barrels, the refiner is operating near full stretch but facing demand headwinds from economic caution.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 177,
-    "inputTokens": 154396,
-    "outputTokens": 37710,
-    "estimatedCostUsd": 0.342946,
-    "lastCallHour": "2026-11-17T14"
+    "callsThisMonth": 178,
+    "inputTokens": 155297,
+    "outputTokens": 37964,
+    "estimatedCostUsd": 0.345117,
+    "lastCallHour": "2026-11-17T15"
   }
 }
