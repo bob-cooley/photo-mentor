@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-16T22:01:46.285882+00:00",
-  "text": "Marathon Petroleum fell 3% today after climbing sharply over the prior three trading days, erasing most of those gains. The stock had surged to $414.65 on November 13th\u2014likely on tightness in diesel and heating oil markets, given the news that heating oil prices are up 59% year-over-year\u2014but that bullish setup weakened when the International Energy Agency reported on November 13th that Russian crude production is rebounding and global oil markets are moving back into surplus. With crude supply no longer constrained and refineries already running at 95.2% capacity, the case for outsize refining profits has cooled.\n\nThe broader headwind is straightforward: rising energy costs are starting to squeeze demand. Heating oil prices spiking 59% are \"crushing folks,\" according to reporting on household budgets, and shipping executives are signaling retailers are pulling back on holiday inventory orders due to transportation cost pressure. For a refiner, rising input costs (crude) paired with weakening demand signals (cautious holiday restocking, expensive heating oil crimping consumer budgets) is a mix that tends to compress margins.",
+  "fetchedAt": "2026-11-17T01:31:34.058856+00:00",
+  "text": "Marathon Petroleum stock fell 3% today, pulling back from a sharp four-day rally that had pushed it up $25 (6%) through November 13th. The decline follows news that Russian crude production has rebounded significantly \u2014 output hit 8.73 million barrels a day in October \u2014 which the International Energy Agency says has pushed global oil markets into surplus, meaning supply is now outpacing demand. When crude supply grows relative to demand, refiners face tighter margins on their core business.\n\nThe broader context is that refineries are running at 95.2% capacity, which is already a high utilization rate with little room to increase throughput. That means Marathon can't easily offset lower margins by processing more oil \u2014 the main lever a refiner typically has when profit per barrel shrinks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 173,
-    "inputTokens": 150793,
-    "outputTokens": 36866,
-    "estimatedCostUsd": 0.335123,
-    "lastCallHour": "2026-11-16T22"
+    "callsThisMonth": 174,
+    "inputTokens": 151690,
+    "outputTokens": 37038,
+    "estimatedCostUsd": 0.33688,
+    "lastCallHour": "2026-11-17T01"
   }
 }
