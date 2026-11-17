@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-17T15:02:15.128142+00:00",
-  "text": "ConocoPhillips rose 1.6% today to $142.79, recouping losses from earlier in the week as geopolitical tensions in the Middle East drove oil prices higher. Iran's escalation of threats against U.S. forces and the arrival of a third American carrier in the Persian Gulf stoked concerns about potential disruptions to global oil supply, with Brent crude (world oil price) climbing to $92.14 per barrel. For an oil producer like ConocoPhillips, higher crude prices directly improve profit margins on barrels they sell.\n\nThe stock had dipped to $140.52 just yesterday before today's rebound, suggesting the market was pricing in the geopolitical risk as news broke. Heating oil prices have also surged 59% year-over-year, signaling broader energy market tightness heading into winter\u2014a backdrop that tends to support higher crude valuations and benefit producers.",
+  "fetchedAt": "2026-11-17T16:02:16.763389+00:00",
+  "text": "ConocoPhillips ticked up 0.97% today to $141.89, recouping most of Friday's loss. The move tracks closely with a spike in geopolitical risk: Iran escalated military threats against the U.S. as a third American carrier arrived in the Persian Gulf, and a tanker was struck in the Hormuz Strait\u2014a key chokepoint for global oil shipments. Oil-price-sensitive stocks like refiners and producers often rise when supply disruption fears push crude higher, though WTI crude sits at $89.62/barrel, still within its recent range.\n\nThe stock is up nearly $6 from last week's low but remains down 1.68% over the past two weeks, suggesting this Middle East premium is a tactical bounce rather than a sustained reversal. Rising heating oil prices (up 59% year-over-year) point to genuine demand strength in winter months, which could support refined product margins over the near term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 176,
-    "inputTokens": 143895,
-    "outputTokens": 36173,
-    "estimatedCostUsd": 0.32476,
-    "lastCallHour": "2026-11-17T15"
+    "callsThisMonth": 177,
+    "inputTokens": 144728,
+    "outputTokens": 36387,
+    "estimatedCostUsd": 0.326663,
+    "lastCallHour": "2026-11-17T16"
   }
 }

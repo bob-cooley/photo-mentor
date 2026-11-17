@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T15:02:50.366755+00:00",
-  "text": "Marathon Petroleum stock rose 1.16% today to close at $406.86, bouncing back after a sharp two-day decline earlier in the week. The bump appears tied to escalating geopolitical tensions in the Middle East\u2014Iran's threats against U.S. forces and a reported tanker strike in the Hormuz Strait\u2014which typically tighten oil supply concerns and support refiner margins. U.S. crude closed at $89.62 per barrel today, a modest level, but the geopolitical risk premium embedded in prices helps refiners' economics when their input costs and output demand both strengthen.\n\nThe stock's broader two-week decline of 4.8% reflects mixed signals for the refining sector: while heating oil prices have surged 59% year-over-year (supporting diesel margin potential), rising shipping costs are making retailers cautious on holiday inventory, which could dampen near-term fuel demand. With U.S. refineries running at 95.2% capacity utilization and gasoline inventories elevated at 210.8 million barrels, the refiner is operating near full stretch but facing demand headwinds from economic caution.",
+  "fetchedAt": "2026-11-17T16:02:53.380036+00:00",
+  "text": "Marathon Petroleum shares fell barely at all today (down 0.04%), but the stock has lost nearly 6% over the past two weeks after peaking at $414.65 on November 13th. The decline follows geopolitical tension in the Middle East\u2014Iran escalated military threats as a third U.S. carrier arrived in the Gulf on November 17th\u2014which typically weighs on energy stocks despite the initial risk premium. Oil prices remain relatively stable (U.S. crude at $89.62/barrel), but refiners like Marathon are sensitive to uncertainty about supply disruptions that could reshape margins.\n\nThe broader picture shows refineries are running at high capacity (95.2%) with ample crude and product inventories, which limits upside for processors when crude prices aren't spiking and demand signals remain mixed. Rising heating oil prices (up 59% year-over-year) suggest winter demand could strengthen, but that benefit may already be priced in after the sharp two-week drop.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 178,
-    "inputTokens": 155297,
-    "outputTokens": 37964,
-    "estimatedCostUsd": 0.345117,
-    "lastCallHour": "2026-11-17T15"
+    "callsThisMonth": 179,
+    "inputTokens": 156199,
+    "outputTokens": 38181,
+    "estimatedCostUsd": 0.347104,
+    "lastCallHour": "2026-11-17T16"
   }
 }
