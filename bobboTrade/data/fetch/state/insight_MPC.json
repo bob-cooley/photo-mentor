@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T17:07:23.045641+00:00",
-  "text": "Marathon Petroleum fell 1.1% today after a sharp three-day decline from its peak of $414.65 on November 13th. The move appears tied to weakening crude oil prices\u2014U.S. oil dropped to $89.62 per barrel today\u2014combined with broader market caution around holiday retail demand. While refineries are running at a healthy 95.2% capacity, the softer oil price reduces the spread between what a refiner pays for crude and what it earns from selling gasoline and diesel, squeezing profitability.\n\nThe two-week decline of nearly 7% also reflects conflicting signals: elevated heating oil prices (up 59% year-over-year) might suggest strong demand, but retailers are being cautious on inventory ahead of the holidays, and rising shipping costs are dampening consumer spending. Meanwhile, geopolitical tensions in the Middle East\u2014a third U.S. carrier arriving and Iranian escalations\u2014haven't yet pushed oil prices decisively higher, leaving the refiner caught between softer crude and uncertain demand ahead.",
+  "fetchedAt": "2026-11-17T18:03:00.109062+00:00",
+  "text": "Marathon Petroleum fell 1.7% today and has dropped 7.5% over the past two weeks, a decline that tracks closely with crude oil prices sliding from recent highs. US oil fell to $89.62 per barrel today\u2014down from peaks near $100 just days ago\u2014and that matters for a refiner because lower crude costs reduce the value of refined products they sell; refineries are running at 95.2% capacity, so they're at full throttle but lack pricing power when input costs drop faster than output prices can follow.\n\nThe broader headwind is straightforward: crude prices are softening in a market watching geopolitical risk ease. Last week brought escalating Iran-US military tensions that had supported oil prices, but that fear premium appears to be fading as markets price in lower probability of imminent disruption to oil supplies. For a company whose profit margins depend on the spread between crude input and gasoline/diesel output, a falling oil price environment is a structural drag until crude stabilizes.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 180,
-    "inputTokens": 157100,
-    "outputTokens": 38412,
-    "estimatedCostUsd": 0.34916,
-    "lastCallHour": "2026-11-17T17"
+    "callsThisMonth": 181,
+    "inputTokens": 158001,
+    "outputTokens": 38630,
+    "estimatedCostUsd": 0.351151,
+    "lastCallHour": "2026-11-17T18"
   }
 }
