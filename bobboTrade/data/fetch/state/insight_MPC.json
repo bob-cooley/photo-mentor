@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T13:02:16.893680+00:00",
-  "text": "Marathon Petroleum fell 3% today after climbing sharply over the prior three trading days. The stock had surged from $389 to $414 between November 10th and 13th, likely on geopolitical risk premiums as Iran escalated military threats and a third U.S. carrier arrived in the Middle East \u2014 events that typically push oil prices higher and benefit refiners. Today's pullback appears to be profit-taking after that rally, combined with crude prices sliding from their recent highs (U.S. oil is now $89.62, down from the $90+ range that had supported the gains).\n\nThe broader refining environment remains supportive: refineries are running at 95.2% capacity and heating oil prices remain elevated \u2014 up 59% from last winter \u2014 which typically improves refiner margins. However, the two-week decline of 6.5% overall suggests investors may be reassessing the durability of geopolitical premiums or weighing near-term demand concerns tied to cautious holiday retail inventory strategies.",
+  "fetchedAt": "2026-11-17T14:02:13.001169+00:00",
+  "text": "Marathon Petroleum fell 3% today after climbing sharply over the prior three trading days (up roughly 3% from November 11 to November 13). The decline follows geopolitical escalation in the Middle East\u2014Iran has ramped up threats as a third U.S. carrier arrived in the Persian Gulf\u2014which typically pressures oil refiners by raising uncertainty around crude supplies and global demand. U.S. oil prices dropped to $89.62 per barrel today, down from recent highs, removing tailwinds that had supported the stock's recent run.\n\nRefineries are running at 95.2% capacity, near peak levels, which limits upside from production increases if energy demand slows. The sharp rise in heating oil prices this winter (up 59% year-over-year) had been a bright spot for refiners, but broader economic caution\u2014reflected in retailers pulling back holiday inventory due to rising shipping costs\u2014suggests demand headwinds may be building, which would weigh on a refiner's margins and throughput.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 176,
-    "inputTokens": 153494,
-    "outputTokens": 37485,
-    "estimatedCostUsd": 0.340919,
-    "lastCallHour": "2026-11-17T13"
+    "callsThisMonth": 177,
+    "inputTokens": 154396,
+    "outputTokens": 37710,
+    "estimatedCostUsd": 0.342946,
+    "lastCallHour": "2026-11-17T14"
   }
 }
