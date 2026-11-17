@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T10:07:13.027452+00:00",
-  "text": "Marathon Petroleum shares fell 3% today, pulling back after a sharp three-day rally that had pushed the stock up nearly $25 from last week's low. The decline coincides with news of escalating Iran-U.S. military tensions in the Middle East\u2014a third American aircraft carrier arrived in the Gulf and a tanker was struck in the Hormuz Strait\u2014which typically creates uncertainty about oil supplies and shipping routes. Though crude prices remain relatively stable (U.S. oil at $89.62/barrel), geopolitical risk in a key chokepoint for global oil can spook investors and energy stocks even when prices haven't yet moved.\n\nThe broader context shows refineries are running at a healthy 95.2% capacity with solid fuel inventories across gasoline, diesel, and heating oil, so the company's operational picture hasn't deteriorated. The pullback may simply reflect profit-taking after the stock's rapid gain over three days, combined with the reminder that Middle East tensions are a persistent tail risk for energy companies.",
+  "fetchedAt": "2026-11-17T13:02:16.893680+00:00",
+  "text": "Marathon Petroleum fell 3% today after climbing sharply over the prior three trading days. The stock had surged from $389 to $414 between November 10th and 13th, likely on geopolitical risk premiums as Iran escalated military threats and a third U.S. carrier arrived in the Middle East \u2014 events that typically push oil prices higher and benefit refiners. Today's pullback appears to be profit-taking after that rally, combined with crude prices sliding from their recent highs (U.S. oil is now $89.62, down from the $90+ range that had supported the gains).\n\nThe broader refining environment remains supportive: refineries are running at 95.2% capacity and heating oil prices remain elevated \u2014 up 59% from last winter \u2014 which typically improves refiner margins. However, the two-week decline of 6.5% overall suggests investors may be reassessing the durability of geopolitical premiums or weighing near-term demand concerns tied to cautious holiday retail inventory strategies.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 175,
-    "inputTokens": 152592,
-    "outputTokens": 37260,
-    "estimatedCostUsd": 0.338892,
-    "lastCallHour": "2026-11-17T10"
+    "callsThisMonth": 176,
+    "inputTokens": 153494,
+    "outputTokens": 37485,
+    "estimatedCostUsd": 0.340919,
+    "lastCallHour": "2026-11-17T13"
   }
 }
