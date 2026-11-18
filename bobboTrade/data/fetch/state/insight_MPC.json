@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T20:02:10.525512+00:00",
-  "text": "Marathon Petroleum fell 5.8% today to $372.75, extending a sharp five-day slide that wiped out $40 per share. The timing aligns with escalating geopolitical tensions in the Middle East\u2014Iran attacked U.S. military installations in Kuwait on November 18th, and the International Energy Agency warned that confidence in the Strait of Hormuz as a reliable energy corridor has collapsed due to regional conflict. For a refiner like Marathon, this uncertainty is a double-edged problem: while higher oil prices (currently $89.53 domestically) could normally boost refining margins, the risk of supply disruption or military action that might choke off Middle Eastern crude shipments creates fear that overwhelms any near-term benefit.\n\nThe broader context is that refineries are already running at 95.7% capacity with healthy product inventories (gasoline and diesel stockpiles are substantial), so there's little upside surprise from tighter supply\u2014instead, investors are repricing the geopolitical risk and the possibility that military escalation could disrupt the stable operating environment refiners depend on.",
+  "fetchedAt": "2026-11-18T21:03:45.404350+00:00",
+  "text": "Marathon Petroleum dropped 5.5% today after escalating geopolitical tensions in the Middle East\u2014specifically Iran's attacks on U.S. military installations in Kuwait and threats against shipping in the Strait of Hormuz. While crude oil prices held relatively steady (around $90/barrel), the security risks to one of the world's most critical energy chokepoints have spooked energy markets; refiners like Marathon depend on reliable oil supply flows, and disruptions to the Strait threaten both input costs and regional stability.\n\nThe sell-off also reflects a broader two-week slide (down nearly 5% since mid-November) as geopolitical risk has mounted. Even with U.S. refineries running at a healthy 95.7% capacity and adequate fuel storage, uncertainty about Middle East supply chains weighs on refiner stocks\u2014the market is pricing in potential disruption costs rather than waiting to see if one actually materializes.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 194,
-    "inputTokens": 169907,
-    "outputTokens": 41569,
-    "estimatedCostUsd": 0.377752,
-    "lastCallHour": "2026-11-18T20"
+    "callsThisMonth": 195,
+    "inputTokens": 170832,
+    "outputTokens": 41770,
+    "estimatedCostUsd": 0.379682,
+    "lastCallHour": "2026-11-18T21"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T20:01:34.771777+00:00",
-  "text": "ConocoPhillips dropped 3.2% today as crude oil prices fell sharply\u2014US oil slid to $89.53 per barrel, down notably from recent highs. While Middle East tensions remain elevated (Iran attacking U.S. military sites, the Strait of Hormuz facing reliability concerns), the market appears to be pricing in enough supply-side risk already. The selloff suggests investors are rotating away from energy or taking profits after the stock climbed 3.3% over three days through November 13.\n\nOil majors like ConocoPhillips are sensitive to crude price moves in both directions: lower oil doesn't help the profit outlook, even if geopolitical risk keeps some floor under prices. The conflicting headlines\u2014escalating Iran attacks versus a pullback in crude prices\u2014show how fragile the current equilibrium is; any sign that markets are betting on de-escalation or oversupply can quickly undo gains tied to conflict premium.",
+  "fetchedAt": "2026-11-18T21:02:44.505734+00:00",
+  "text": "ConocoPhillips fell 3.6% today to $134.41, dropping sharply from $139.48 yesterday. The sell-off came as escalating geopolitical tensions in the Middle East\u2014Iran attacking U.S. military sites in Kuwait and threatening U.S. naval forces in the Persian Gulf\u2014paradoxically weighed on oil stocks despite supporting crude prices. This reaction suggests investors are treating the military risk itself as a major concern: the IEA warned today that the Iran conflict has \"crushed\" confidence in the Strait of Hormuz as a reliable energy corridor, implying that even if oil prices rise in the short term, sustained supply disruptions and broader economic damage from regional instability could hurt energy companies' long-term earnings.\n\nThe stock's weakness also reflects a broader pullback over the past week\u2014it's down 1.85% over two weeks despite oil prices staying elevated (U.S. crude at $89.53/barrel). When geopolitical shocks push markets toward economic uncertainty rather than pure supply-driven rallies, oil majors often trade down alongside equities overall, since investors worry about demand destruction from recession risk.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 192,
-    "inputTokens": 157427,
-    "outputTokens": 39459,
-    "estimatedCostUsd": 0.354722,
-    "lastCallHour": "2026-11-18T20"
+    "callsThisMonth": 193,
+    "inputTokens": 158290,
+    "outputTokens": 39712,
+    "estimatedCostUsd": 0.35685,
+    "lastCallHour": "2026-11-18T21"
   }
 }
