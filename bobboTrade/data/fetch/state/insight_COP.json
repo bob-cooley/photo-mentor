@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T18:01:23.851123+00:00",
-  "text": "ConocoPhillips fell 2.9% today as crude oil prices dropped sharply\u2014US oil fell to $89.62 per barrel, down from the $140+ range the stock was trading at just days ago. While geopolitical tensions in the Middle East remain high (Iran attacks on Gulf installations, threats to shipping in the Strait of Hormuz), oil markets appear to be pricing in concerns that these conflicts won't actually disrupt supply flows significantly, or that demand weakness may outweigh supply-risk premiums.\n\nThe stock's decline over the past week mirrors the broader pullback in crude prices, which have given back recent gains despite genuine military escalation in the region. When oil traders lose confidence that geopolitical risk will translate into actual supply shortages, prices fall\u2014and integrated oil companies like ConocoPhillips move with them.",
+  "fetchedAt": "2026-11-18T19:01:27.361773+00:00",
+  "text": "ConocoPhillips fell 2.75% today to $135.64, giving back gains from earlier this week as geopolitical tensions in the Middle East escalated without lifting oil prices enough to offset profit-taking. Iran attacked U.S. military installations in Kuwait and struck a tanker in the Strait of Hormuz, yet crude oil prices actually declined\u2014U.S. oil fell below $90 a barrel\u2014suggesting markets are pricing in either supply disruption concerns or investor nervousness that is weighing on energy stocks regardless of the headline risk.\n\nThe stock had climbed steeply from $137.86 just a week ago to $142.28 on November 13, so today's decline looks like a pullback after that rally ran its course. While the geopolitical backdrop remains volatile and the IEA warned of lost confidence in the Strait of Hormuz as a reliable energy corridor, oil traders are not yet translating that into higher prices\u2014a signal that could keep near-term pressure on energy stocks even amid ongoing Middle East risks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 190,
-    "inputTokens": 155701,
-    "outputTokens": 39019,
-    "estimatedCostUsd": 0.350796,
-    "lastCallHour": "2026-11-18T18"
+    "callsThisMonth": 191,
+    "inputTokens": 156564,
+    "outputTokens": 39249,
+    "estimatedCostUsd": 0.352809,
+    "lastCallHour": "2026-11-18T19"
   }
 }

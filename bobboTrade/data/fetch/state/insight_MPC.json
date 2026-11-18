@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T18:01:56.173765+00:00",
-  "text": "Marathon Petroleum fell 4.7% today as geopolitical risk in the Middle East spiked sharply. Iran escalated military threats and attacks on U.S. installations in the Gulf region, with a third American carrier arriving and a tanker struck in the Strait of Hormuz \u2014 the critical chokepoint through which roughly a third of global seaborne oil flows. The IEA's chief publicly warned there is no \"credible pathway\" back to normal shipping reliability there. When geopolitical risk rises, oil prices typically become more volatile and unpredictable, which creates uncertainty for refiners who lock in fuel costs ahead of time and can face margin pressure.\n\nThe stock has been under pressure all week \u2014 down 4% over two weeks \u2014 suggesting this isn't a one-day shock but rather a mounting concern as tensions have accumulated. Despite refineries running at a healthy 95.2% utilization and oil storage remaining moderate, the market appears to be pricing in the risk that a broader regional conflict could disrupt supply chains or force geopolitical de-risking that weighs on energy demand.",
+  "fetchedAt": "2026-11-18T19:01:54.629987+00:00",
+  "text": "Marathon Petroleum stock dropped 5.65% today, capping a sharp six-day decline from $414.65 to $373.25. The timing aligns directly with escalating geopolitical tension in the Middle East\u2014Iran has attacked U.S. military installations in Kuwait and struck a tanker in the Strait of Hormuz, while a third U.S. carrier entered the Gulf. These events typically create immediate uncertainty for refiners, even though oil prices have held relatively stable at $89.53 per barrel domestically. The market appears to be pricing in disruption risk to global energy flows through a critical chokepoint.\n\nRefineries are running at high capacity (95.7%), and U.S. oil inventories are substantial, which normally supports refiner margins. However, the geopolitical shock may be overriding the technical backdrop\u2014investors seem worried about the broader consequences of sustained regional conflict on crude supply reliability and demand rather than focusing on current inventory levels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 192,
-    "inputTokens": 168057,
-    "outputTokens": 41117,
-    "estimatedCostUsd": 0.373642,
-    "lastCallHour": "2026-11-18T18"
+    "callsThisMonth": 193,
+    "inputTokens": 168982,
+    "outputTokens": 41329,
+    "estimatedCostUsd": 0.375627,
+    "lastCallHour": "2026-11-18T19"
   }
 }
