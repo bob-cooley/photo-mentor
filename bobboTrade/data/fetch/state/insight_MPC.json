@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T13:02:02.666586+00:00",
-  "text": "Marathon Petroleum fell 1.6% today as geopolitical tension in the Middle East escalated\u2014Iran attacked U.S. military sites in Kuwait and struck a tanker in the Strait of Hormuz, raising the specter of supply disruptions. Yet oil prices remained relatively flat (U.S. crude at $89.62/barrel), suggesting markets aren't pricing in major production losses yet, and U.S. refineries running at 95% capacity with ample fuel inventories mean there's no immediate squeeze on supply that would benefit refiner margins.\n\nThe stock's broader two-week decline\u2014down 7.4%\u2014fits a pattern where initial geopolitical alarm (which spiked the stock to $414.65 on the 13th) has given way to skepticism that the conflict will meaningfully disrupt global oil flows or refinery profits. Diesel prices hit record highs in the U.K., but that's driven inflation concerns rather than a margin windfall for U.S. refiners.",
+  "fetchedAt": "2026-11-18T14:01:47.410755+00:00",
+  "text": "Marathon Petroleum fell 1.6% today as geopolitical tensions in the Middle East escalated, with Iran targeting U.S. military sites in the Gulf region and the IEA warning that confidence in the Strait of Hormuz\u2014a critical shipping route for oil\u2014has been \"crushed\" by the conflict. While crude oil prices remain above $89 per barrel, the broader market is pricing in concern that prolonged regional instability could disrupt supply chains and weigh on refining margins, despite U.S. refineries currently running at a healthy 95.2% capacity.\n\nThe stock's 7.4% decline over two weeks reflects broader unease about the durability of current energy prices in a destabilized geopolitical environment. When major oil transport routes face credible threats, buyers and sellers become more cautious about forward-looking profits, even if today's supply and demand indicators look solid.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 187,
-    "inputTokens": 163430,
-    "outputTokens": 39993,
-    "estimatedCostUsd": 0.363395,
-    "lastCallHour": "2026-11-18T13"
+    "callsThisMonth": 188,
+    "inputTokens": 164357,
+    "outputTokens": 40191,
+    "estimatedCostUsd": 0.365312,
+    "lastCallHour": "2026-11-18T14"
   }
 }

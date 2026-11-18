@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T13:01:31.290486+00:00",
-  "text": "ConocoPhillips fell 0.74% today to close at $139.48, continuing a three-day decline from its peak of $142.28 on November 13th. The stock's weakness comes despite oil prices holding steady around $89\u2013$92 per barrel, suggesting the move reflects sector-specific headwinds rather than a broad energy market selloff. Escalating geopolitical tensions in the Middle East\u2014including Iran's reported attacks on U.S. military sites in Kuwait and warnings from the International Energy Agency about instability in the Strait of Hormuz\u2014would normally support oil and energy stocks, but the market may be pricing in longer-term uncertainty about supply-chain reliability and global economic resilience.\n\nThe two-week decline of 3.4% reflects a broader consolidation after the stock hit $142 last week. With crude prices not falling significantly, the pullback likely signals investor caution: markets may be weighing whether Middle East tensions will persist as a structural drag on confidence and growth, rather than translate into a sustained oil-price premium that would benefit refiners and producers.",
+  "fetchedAt": "2026-11-18T14:01:19.612982+00:00",
+  "text": "ConocoPhillips fell 0.74% today to $139.48, extending a two-week decline of 3.4%. The decline came as oil prices softened slightly\u2014U.S. crude dropped to $89.62 per barrel today\u2014despite significant geopolitical tension in the Middle East. Iran's reported attacks on U.S. military sites in Kuwait and the IEA's warning about disrupted confidence in the Strait of Hormuz should theoretically support oil prices, but markets may be pricing in uncertainty about whether these tensions will actually disrupt supply flows, or reflecting broader economic concerns signaled by record UK diesel prices driving inflation higher.\n\nThe stock has been volatile over the past week, swinging from $135.59 to a peak of $142.28 before retreating. Oil majors often trade on a combination of crude prices and investor sentiment about global economic health; softer oil prices paired with signs of inflation pressures abroad may be creating conflicting signals about demand.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 185,
-    "inputTokens": 151407,
-    "outputTokens": 37985,
-    "estimatedCostUsd": 0.341332,
-    "lastCallHour": "2026-11-18T13"
+    "callsThisMonth": 186,
+    "inputTokens": 152249,
+    "outputTokens": 38201,
+    "estimatedCostUsd": 0.343254,
+    "lastCallHour": "2026-11-18T14"
   }
 }
