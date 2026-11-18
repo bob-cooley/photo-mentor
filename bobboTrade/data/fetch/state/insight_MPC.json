@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T19:01:54.629987+00:00",
-  "text": "Marathon Petroleum stock dropped 5.65% today, capping a sharp six-day decline from $414.65 to $373.25. The timing aligns directly with escalating geopolitical tension in the Middle East\u2014Iran has attacked U.S. military installations in Kuwait and struck a tanker in the Strait of Hormuz, while a third U.S. carrier entered the Gulf. These events typically create immediate uncertainty for refiners, even though oil prices have held relatively stable at $89.53 per barrel domestically. The market appears to be pricing in disruption risk to global energy flows through a critical chokepoint.\n\nRefineries are running at high capacity (95.7%), and U.S. oil inventories are substantial, which normally supports refiner margins. However, the geopolitical shock may be overriding the technical backdrop\u2014investors seem worried about the broader consequences of sustained regional conflict on crude supply reliability and demand rather than focusing on current inventory levels.",
+  "fetchedAt": "2026-11-18T20:02:10.525512+00:00",
+  "text": "Marathon Petroleum fell 5.8% today to $372.75, extending a sharp five-day slide that wiped out $40 per share. The timing aligns with escalating geopolitical tensions in the Middle East\u2014Iran attacked U.S. military installations in Kuwait on November 18th, and the International Energy Agency warned that confidence in the Strait of Hormuz as a reliable energy corridor has collapsed due to regional conflict. For a refiner like Marathon, this uncertainty is a double-edged problem: while higher oil prices (currently $89.53 domestically) could normally boost refining margins, the risk of supply disruption or military action that might choke off Middle Eastern crude shipments creates fear that overwhelms any near-term benefit.\n\nThe broader context is that refineries are already running at 95.7% capacity with healthy product inventories (gasoline and diesel stockpiles are substantial), so there's little upside surprise from tighter supply\u2014instead, investors are repricing the geopolitical risk and the possibility that military escalation could disrupt the stable operating environment refiners depend on.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 193,
-    "inputTokens": 168982,
-    "outputTokens": 41329,
-    "estimatedCostUsd": 0.375627,
-    "lastCallHour": "2026-11-18T19"
+    "callsThisMonth": 194,
+    "inputTokens": 169907,
+    "outputTokens": 41569,
+    "estimatedCostUsd": 0.377752,
+    "lastCallHour": "2026-11-18T20"
   }
 }

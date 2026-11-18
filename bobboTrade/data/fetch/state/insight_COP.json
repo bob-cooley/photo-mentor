@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T19:01:27.361773+00:00",
-  "text": "ConocoPhillips fell 2.75% today to $135.64, giving back gains from earlier this week as geopolitical tensions in the Middle East escalated without lifting oil prices enough to offset profit-taking. Iran attacked U.S. military installations in Kuwait and struck a tanker in the Strait of Hormuz, yet crude oil prices actually declined\u2014U.S. oil fell below $90 a barrel\u2014suggesting markets are pricing in either supply disruption concerns or investor nervousness that is weighing on energy stocks regardless of the headline risk.\n\nThe stock had climbed steeply from $137.86 just a week ago to $142.28 on November 13, so today's decline looks like a pullback after that rally ran its course. While the geopolitical backdrop remains volatile and the IEA warned of lost confidence in the Strait of Hormuz as a reliable energy corridor, oil traders are not yet translating that into higher prices\u2014a signal that could keep near-term pressure on energy stocks even amid ongoing Middle East risks.",
+  "fetchedAt": "2026-11-18T20:01:34.771777+00:00",
+  "text": "ConocoPhillips dropped 3.2% today as crude oil prices fell sharply\u2014US oil slid to $89.53 per barrel, down notably from recent highs. While Middle East tensions remain elevated (Iran attacking U.S. military sites, the Strait of Hormuz facing reliability concerns), the market appears to be pricing in enough supply-side risk already. The selloff suggests investors are rotating away from energy or taking profits after the stock climbed 3.3% over three days through November 13.\n\nOil majors like ConocoPhillips are sensitive to crude price moves in both directions: lower oil doesn't help the profit outlook, even if geopolitical risk keeps some floor under prices. The conflicting headlines\u2014escalating Iran attacks versus a pullback in crude prices\u2014show how fragile the current equilibrium is; any sign that markets are betting on de-escalation or oversupply can quickly undo gains tied to conflict premium.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 191,
-    "inputTokens": 156564,
-    "outputTokens": 39249,
-    "estimatedCostUsd": 0.352809,
-    "lastCallHour": "2026-11-18T19"
+    "callsThisMonth": 192,
+    "inputTokens": 157427,
+    "outputTokens": 39459,
+    "estimatedCostUsd": 0.354722,
+    "lastCallHour": "2026-11-18T20"
   }
 }
