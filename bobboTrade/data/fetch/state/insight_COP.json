@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T14:01:19.612982+00:00",
-  "text": "ConocoPhillips fell 0.74% today to $139.48, extending a two-week decline of 3.4%. The decline came as oil prices softened slightly\u2014U.S. crude dropped to $89.62 per barrel today\u2014despite significant geopolitical tension in the Middle East. Iran's reported attacks on U.S. military sites in Kuwait and the IEA's warning about disrupted confidence in the Strait of Hormuz should theoretically support oil prices, but markets may be pricing in uncertainty about whether these tensions will actually disrupt supply flows, or reflecting broader economic concerns signaled by record UK diesel prices driving inflation higher.\n\nThe stock has been volatile over the past week, swinging from $135.59 to a peak of $142.28 before retreating. Oil majors often trade on a combination of crude prices and investor sentiment about global economic health; softer oil prices paired with signs of inflation pressures abroad may be creating conflicting signals about demand.",
+  "fetchedAt": "2026-11-18T15:01:41.454433+00:00",
+  "text": "ConocoPhillips fell 1.3% today as oil prices declined, with US crude dropping to $89.62 per barrel. Despite ongoing geopolitical tensions in the Middle East\u2014including Iranian military strikes on U.S. bases in Kuwait and threats to shipping through the Strait of Hormuz\u2014the actual price of oil moved lower, which directly weighs on an oil producer's near-term returns. The stock had climbed sharply over the prior three days (from $137.86 to $142.28) likely on initial concerns those tensions would tighten supply; today's pullback reflects a reassessment that the market isn't pricing in an immediate shortage.\n\nThe broader pattern here is a tension between geopolitical risk and actual crude supply. Even with military escalation and warnings that the Hormuz corridor is no longer seen as reliably safe, global oil is trading in the low $90s rather than spiking\u2014suggesting markets may not yet believe disruptions will materially reduce flows. For an oil producer, that means the upside from conflict-driven scarcity isn't materializing as prices stabilize.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 186,
-    "inputTokens": 152249,
-    "outputTokens": 38201,
-    "estimatedCostUsd": 0.343254,
-    "lastCallHour": "2026-11-18T14"
+    "callsThisMonth": 187,
+    "inputTokens": 153112,
+    "outputTokens": 38446,
+    "estimatedCostUsd": 0.345342,
+    "lastCallHour": "2026-11-18T15"
   }
 }

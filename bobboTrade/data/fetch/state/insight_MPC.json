@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T14:01:47.410755+00:00",
-  "text": "Marathon Petroleum fell 1.6% today as geopolitical tensions in the Middle East escalated, with Iran targeting U.S. military sites in the Gulf region and the IEA warning that confidence in the Strait of Hormuz\u2014a critical shipping route for oil\u2014has been \"crushed\" by the conflict. While crude oil prices remain above $89 per barrel, the broader market is pricing in concern that prolonged regional instability could disrupt supply chains and weigh on refining margins, despite U.S. refineries currently running at a healthy 95.2% capacity.\n\nThe stock's 7.4% decline over two weeks reflects broader unease about the durability of current energy prices in a destabilized geopolitical environment. When major oil transport routes face credible threats, buyers and sellers become more cautious about forward-looking profits, even if today's supply and demand indicators look solid.",
+  "fetchedAt": "2026-11-18T15:02:09.877199+00:00",
+  "text": "Marathon Petroleum fell 3.2% today to $383.03, extending a sharp five-day decline from $412.85 to current levels. The immediate trigger is escalating geopolitical tensions in the Middle East\u2014Iran attacked U.S. military installations in Kuwait and struck a tanker in the Strait of Hormuz, while the International Energy Agency warned that confidence in the Strait as a reliable energy corridor has been \"crushed\" by regional conflict. For a refiner like Marathon, this kind of supply-chain uncertainty and potential disruption to crude flows is a headwind, even though U.S. crude prices remain relatively stable around $89.62 per barrel and U.S. refineries are running at a healthy 95.2% capacity.\n\nThe broader context is that energy markets are caught between conflicting forces: Middle East turmoil typically pushes crude prices higher and squeezes refinery margins (the profit refiners make turning crude into fuel), but surging diesel prices are also dampening global demand and consumer confidence, as seen in the U.K.'s inflation hitting a 1-year high. With storage levels for gasoline and diesel both elevated, refiners face softer demand despite full utilization, leaving limited room for margin expansion even if geopolitical risk keeps crude prices supported.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 188,
-    "inputTokens": 164357,
-    "outputTokens": 40191,
-    "estimatedCostUsd": 0.365312,
-    "lastCallHour": "2026-11-18T14"
+    "callsThisMonth": 189,
+    "inputTokens": 165282,
+    "outputTokens": 40473,
+    "estimatedCostUsd": 0.367647,
+    "lastCallHour": "2026-11-18T15"
   }
 }
