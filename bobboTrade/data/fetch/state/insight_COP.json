@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T15:01:41.454433+00:00",
-  "text": "ConocoPhillips fell 1.3% today as oil prices declined, with US crude dropping to $89.62 per barrel. Despite ongoing geopolitical tensions in the Middle East\u2014including Iranian military strikes on U.S. bases in Kuwait and threats to shipping through the Strait of Hormuz\u2014the actual price of oil moved lower, which directly weighs on an oil producer's near-term returns. The stock had climbed sharply over the prior three days (from $137.86 to $142.28) likely on initial concerns those tensions would tighten supply; today's pullback reflects a reassessment that the market isn't pricing in an immediate shortage.\n\nThe broader pattern here is a tension between geopolitical risk and actual crude supply. Even with military escalation and warnings that the Hormuz corridor is no longer seen as reliably safe, global oil is trading in the low $90s rather than spiking\u2014suggesting markets may not yet believe disruptions will materially reduce flows. For an oil producer, that means the upside from conflict-driven scarcity isn't materializing as prices stabilize.",
+  "fetchedAt": "2026-11-18T16:02:32.337333+00:00",
+  "text": "ConocoPhillips fell 2% today as oil prices weakened, with US crude dropping to $89.62 per barrel despite ongoing geopolitical tensions in the Middle East. The stock has retreated steadily over the past week, losing roughly 4% from its peak of $142.28 on November 13th, even as Iran escalates military threats against U.S. forces and infrastructure in the Gulf region and the IEA warns that confidence in the Strait of Hormuz as a reliable energy corridor has been \"crushed.\" This suggests the market is currently focused on near-term demand concerns and economic softness\u2014like record UK diesel prices pushing inflation higher\u2014rather than pricing in a supply shock from regional conflict.\n\nThe disconnect between rising geopolitical risk and falling oil prices reflects investor skepticism about whether these tensions will actually disrupt flows through one of the world's most critical chokepoints, or whether markets simply expect demand to soften enough to offset any supply fears.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 187,
-    "inputTokens": 153112,
-    "outputTokens": 38446,
-    "estimatedCostUsd": 0.345342,
-    "lastCallHour": "2026-11-18T15"
+    "callsThisMonth": 188,
+    "inputTokens": 153975,
+    "outputTokens": 38659,
+    "estimatedCostUsd": 0.34727,
+    "lastCallHour": "2026-11-18T16"
   }
 }
