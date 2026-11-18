@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T11:03:53.734505+00:00",
-  "text": "Marathon Petroleum fell 1.6% today to close at $395.61, marking the third losing day in a row after peaking at $414.65 on November 13th. The stock's weakness comes as oil prices have drifted lower (U.S. crude at $89.62/barrel, down from recent highs), which pressures refiner margins\u2014the spread between what refiners pay for crude and what they can sell refined products for. While refineries are running near capacity at 95.2%, the decline in oil prices and broader inventory levels (gasoline and diesel storage both elevated) suggest softer near-term demand or pricing pressure on refined fuels.\n\nThe two-week decline of 7.4% reflects a pullback from earlier optimism, even as geopolitical tensions in the Middle East linger (Iran's escalating rhetoric and attacks in the Gulf). Those tensions haven't sustained crude prices at higher levels, and without the tailwind of rising oil costs, Marathon\u2014as a refiner dependent on healthy margins\u2014loses one of its key profit drivers.",
+  "fetchedAt": "2026-11-18T13:02:02.666586+00:00",
+  "text": "Marathon Petroleum fell 1.6% today as geopolitical tension in the Middle East escalated\u2014Iran attacked U.S. military sites in Kuwait and struck a tanker in the Strait of Hormuz, raising the specter of supply disruptions. Yet oil prices remained relatively flat (U.S. crude at $89.62/barrel), suggesting markets aren't pricing in major production losses yet, and U.S. refineries running at 95% capacity with ample fuel inventories mean there's no immediate squeeze on supply that would benefit refiner margins.\n\nThe stock's broader two-week decline\u2014down 7.4%\u2014fits a pattern where initial geopolitical alarm (which spiked the stock to $414.65 on the 13th) has given way to skepticism that the conflict will meaningfully disrupt global oil flows or refinery profits. Diesel prices hit record highs in the U.K., but that's driven inflation concerns rather than a margin windfall for U.S. refiners.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 186,
-    "inputTokens": 162503,
-    "outputTokens": 39770,
-    "estimatedCostUsd": 0.361353,
-    "lastCallHour": "2026-11-18T11"
+    "callsThisMonth": 187,
+    "inputTokens": 163430,
+    "outputTokens": 39993,
+    "estimatedCostUsd": 0.363395,
+    "lastCallHour": "2026-11-18T13"
   }
 }

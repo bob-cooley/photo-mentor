@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T11:03:23.878350+00:00",
-  "text": "ConocoPhillips fell 0.74% today to close at $139.48, continuing a three-day decline from its peak of $142.28 on November 13th. The drop comes as crude oil prices have retreated slightly\u2014US oil is trading at $89.62 per barrel, down from the highs earlier in the week\u2014suggesting that energy investors are taking a step back after a rally. The stock is down 3.41% over the past two weeks, a pullback that follows the broader oil market's recent volatility.\n\nGeopolitical tensions in the Middle East have spiked notably: Iran has escalated attacks on U.S. military installations in the Gulf, and a third American aircraft carrier has arrived in the region, raising concerns about renewed military conflict. While these events typically support higher oil prices by creating supply-risk premiums, oil's modest decline today suggests the market may be pricing in either containment of the conflict or skepticism that it will severely disrupt global oil flows\u2014at least for now.",
+  "fetchedAt": "2026-11-18T13:01:31.290486+00:00",
+  "text": "ConocoPhillips fell 0.74% today to close at $139.48, continuing a three-day decline from its peak of $142.28 on November 13th. The stock's weakness comes despite oil prices holding steady around $89\u2013$92 per barrel, suggesting the move reflects sector-specific headwinds rather than a broad energy market selloff. Escalating geopolitical tensions in the Middle East\u2014including Iran's reported attacks on U.S. military sites in Kuwait and warnings from the International Energy Agency about instability in the Strait of Hormuz\u2014would normally support oil and energy stocks, but the market may be pricing in longer-term uncertainty about supply-chain reliability and global economic resilience.\n\nThe two-week decline of 3.4% reflects a broader consolidation after the stock hit $142 last week. With crude prices not falling significantly, the pullback likely signals investor caution: markets may be weighing whether Middle East tensions will persist as a structural drag on confidence and growth, rather than translate into a sustained oil-price premium that would benefit refiners and producers.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 184,
-    "inputTokens": 150565,
-    "outputTokens": 37745,
-    "estimatedCostUsd": 0.33929,
-    "lastCallHour": "2026-11-18T11"
+    "callsThisMonth": 185,
+    "inputTokens": 151407,
+    "outputTokens": 37985,
+    "estimatedCostUsd": 0.341332,
+    "lastCallHour": "2026-11-18T13"
   }
 }
