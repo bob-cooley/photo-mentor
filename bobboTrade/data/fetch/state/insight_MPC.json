@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-17T21:02:43.476810+00:00",
-  "text": "Marathon Petroleum's stock fell 1.65% today after climbing sharply over the prior three trading days, extending a two-week decline. The pullback comes as crude oil prices have retreated\u2014U.S. crude is trading at $89.62 per barrel, down from the highs that likely drove the recent rally. While U.S. refineries are running at a healthy 95.2% capacity, the softer oil prices cut into margins for companies like Marathon that profit from the difference between crude costs and refined product sales.\n\nGeopolitical tensions remain elevated with Iran escalating threats amid a third U.S. carrier deployment to the Middle East, which typically supports oil prices; however, that support hasn't prevented the recent pullback. The broader energy backdrop\u2014with heating oil demand picking up seasonally and inventories of crude, gasoline, and diesel all in normal ranges\u2014isn't providing enough tailwind to offset profit pressure from lower crude prices on a refiner's bottom line.",
+  "fetchedAt": "2026-11-18T02:04:55.162427+00:00",
+  "text": "Marathon Petroleum stock fell 1.6% today, closing a two-week slide of 7.4%. The drop follows a sharp pullback from peaks hit mid-week (around $415), and comes as crude oil prices have drifted lower\u2014US oil sits at $89.62 a barrel, down from levels that likely supported refiner margins earlier this month. Refineries are running at 95.2% capacity, a healthy utilization rate, but the recent cooling in oil prices and broader weakness in energy stocks over the past week appear to be weighing on the company's valuation.\n\nThe timing also reflects some softening in demand signals: heating oil prices remain elevated from last year's levels, but rising shipping costs and cautious retail inventory planning suggest softer overall transportation fuel demand heading into the winter period. Meanwhile, geopolitical risk in the Middle East (the Iran-carrier tensions) could theoretically support crude prices, but hasn't prevented the recent decline\u2014indicating traders may be more focused on near-term demand weakness than supply disruption fears at the moment.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 184,
-    "inputTokens": 160704,
-    "outputTokens": 39308,
-    "estimatedCostUsd": 0.357244,
-    "lastCallHour": "2026-11-17T21"
+    "callsThisMonth": 185,
+    "inputTokens": 161607,
+    "outputTokens": 39537,
+    "estimatedCostUsd": 0.359292,
+    "lastCallHour": "2026-11-18T02"
   }
 }
