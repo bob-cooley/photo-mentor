@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T17:01:57.072993+00:00",
-  "text": "ConocoPhillips fell 2.8% today as oil prices dropped sharply, with US crude sliding to $89.62 a barrel from levels above $140 just days ago. The decline came despite ongoing geopolitical tensions in the Middle East\u2014Iran's escalating attacks on U.S. positions in Kuwait and threats against shipping in the Strait of Hormuz would normally support oil prices, but broader market forces appear to have overwhelmed those safety concerns.\n\nThe stock's recent weakness reflects a broader pullback in energy prices over the past week, even as headlines have grown more alarming. When oil prices fall this decisively, it typically pressures integrated oil companies like ConocoPhillips regardless of supply-risk premiums, since lower crude undermines both their production revenue and refining margins.",
+  "fetchedAt": "2026-11-18T18:01:23.851123+00:00",
+  "text": "ConocoPhillips fell 2.9% today as crude oil prices dropped sharply\u2014US oil fell to $89.62 per barrel, down from the $140+ range the stock was trading at just days ago. While geopolitical tensions in the Middle East remain high (Iran attacks on Gulf installations, threats to shipping in the Strait of Hormuz), oil markets appear to be pricing in concerns that these conflicts won't actually disrupt supply flows significantly, or that demand weakness may outweigh supply-risk premiums.\n\nThe stock's decline over the past week mirrors the broader pullback in crude prices, which have given back recent gains despite genuine military escalation in the region. When oil traders lose confidence that geopolitical risk will translate into actual supply shortages, prices fall\u2014and integrated oil companies like ConocoPhillips move with them.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 189,
-    "inputTokens": 154838,
-    "outputTokens": 38834,
-    "estimatedCostUsd": 0.349008,
-    "lastCallHour": "2026-11-18T17"
+    "callsThisMonth": 190,
+    "inputTokens": 155701,
+    "outputTokens": 39019,
+    "estimatedCostUsd": 0.350796,
+    "lastCallHour": "2026-11-18T18"
   }
 }
