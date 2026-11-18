@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T02:04:24.062909+00:00",
-  "text": "ConocoPhillips fell slightly today as oil prices retreated\u2014US crude dropped to $89.62 per barrel, down from recent highs around $92\u201393 range. The stock has been volatile over the past week, hitting a peak of $142.28 on November 13 before sliding back nearly $3, suggesting investors are stepping back as near-term energy demand concerns weigh on sentiment.\n\nThe broader backdrop remains mixed for oil refiners. While heating oil prices are sharply elevated (up 59% year-over-year), which normally supports energy stocks, fresh geopolitical risks in the Middle East\u2014Iran escalating threats as a third US carrier arrives in the Gulf\u2014haven't been enough to sustain the rally. These regional tensions can be oil-supportive longer-term, but markets are currently focused on the immediate price pullback rather than potential supply disruptions.",
+  "fetchedAt": "2026-11-18T11:03:23.878350+00:00",
+  "text": "ConocoPhillips fell 0.74% today to close at $139.48, continuing a three-day decline from its peak of $142.28 on November 13th. The drop comes as crude oil prices have retreated slightly\u2014US oil is trading at $89.62 per barrel, down from the highs earlier in the week\u2014suggesting that energy investors are taking a step back after a rally. The stock is down 3.41% over the past two weeks, a pullback that follows the broader oil market's recent volatility.\n\nGeopolitical tensions in the Middle East have spiked notably: Iran has escalated attacks on U.S. military installations in the Gulf, and a third American aircraft carrier has arrived in the region, raising concerns about renewed military conflict. While these events typically support higher oil prices by creating supply-risk premiums, oil's modest decline today suggests the market may be pricing in either containment of the conflict or skepticism that it will severely disrupt global oil flows\u2014at least for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 183,
-    "inputTokens": 149726,
-    "outputTokens": 37520,
-    "estimatedCostUsd": 0.337326,
-    "lastCallHour": "2026-11-18T02"
+    "callsThisMonth": 184,
+    "inputTokens": 150565,
+    "outputTokens": 37745,
+    "estimatedCostUsd": 0.33929,
+    "lastCallHour": "2026-11-18T11"
   }
 }
