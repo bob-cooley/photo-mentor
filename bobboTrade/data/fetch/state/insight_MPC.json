@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-18T21:03:45.404350+00:00",
-  "text": "Marathon Petroleum dropped 5.5% today after escalating geopolitical tensions in the Middle East\u2014specifically Iran's attacks on U.S. military installations in Kuwait and threats against shipping in the Strait of Hormuz. While crude oil prices held relatively steady (around $90/barrel), the security risks to one of the world's most critical energy chokepoints have spooked energy markets; refiners like Marathon depend on reliable oil supply flows, and disruptions to the Strait threaten both input costs and regional stability.\n\nThe sell-off also reflects a broader two-week slide (down nearly 5% since mid-November) as geopolitical risk has mounted. Even with U.S. refineries running at a healthy 95.7% capacity and adequate fuel storage, uncertainty about Middle East supply chains weighs on refiner stocks\u2014the market is pricing in potential disruption costs rather than waiting to see if one actually materializes.",
+  "fetchedAt": "2026-11-19T01:41:43.904447+00:00",
+  "text": "Marathon Petroleum's stock fell 5.5% today, extending a sharp two-week decline. The timing coincides with escalating geopolitical tension in the Middle East\u2014Iran attacking U.S. military installations in Kuwait and threatening shipping in the Strait of Hormuz\u2014which is creating uncertainty about oil supply reliability rather than driving prices higher. Crude fell from recent highs, with U.S. oil now at $89.53 a barrel, and refinery utilization remains high at 95.7%, meaning the company isn't benefiting from supply constraints or pricing power right now.\n\nThe broader picture matters: refined products like diesel are facing record prices in some markets due to tight global supply, yet Marathon's own stock is sinking despite refineries running nearly flat-out. This suggests investors are pricing in concern that geopolitical disruption and regional instability could eventually constrain crude supplies or disrupt operations, even though that hasn't materialized yet in today's prices or inventory levels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 195,
-    "inputTokens": 170832,
-    "outputTokens": 41770,
-    "estimatedCostUsd": 0.379682,
-    "lastCallHour": "2026-11-18T21"
+    "callsThisMonth": 196,
+    "inputTokens": 171759,
+    "outputTokens": 41983,
+    "estimatedCostUsd": 0.381674,
+    "lastCallHour": "2026-11-19T01"
   }
 }

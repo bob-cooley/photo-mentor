@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-18T21:02:44.505734+00:00",
-  "text": "ConocoPhillips fell 3.6% today to $134.41, dropping sharply from $139.48 yesterday. The sell-off came as escalating geopolitical tensions in the Middle East\u2014Iran attacking U.S. military sites in Kuwait and threatening U.S. naval forces in the Persian Gulf\u2014paradoxically weighed on oil stocks despite supporting crude prices. This reaction suggests investors are treating the military risk itself as a major concern: the IEA warned today that the Iran conflict has \"crushed\" confidence in the Strait of Hormuz as a reliable energy corridor, implying that even if oil prices rise in the short term, sustained supply disruptions and broader economic damage from regional instability could hurt energy companies' long-term earnings.\n\nThe stock's weakness also reflects a broader pullback over the past week\u2014it's down 1.85% over two weeks despite oil prices staying elevated (U.S. crude at $89.53/barrel). When geopolitical shocks push markets toward economic uncertainty rather than pure supply-driven rallies, oil majors often trade down alongside equities overall, since investors worry about demand destruction from recession risk.",
+  "fetchedAt": "2026-11-19T01:41:06.774638+00:00",
+  "text": "ConocoPhillips stock fell 3.6% today to $134.40, wiping out most of its gains from the past week. The drop came as crude oil prices retreated\u2014U.S. oil fell below $90 per barrel\u2014despite escalating geopolitical tension in the Middle East. This suggests that whatever risk premium investors were paying for Iranian threats and Strait of Hormuz disruptions a day or two ago has worn off, and profit-taking is outweighing the safety bid that typically supports energy stocks during regional crises.\n\nThe broader context is that oil majors like ConocoPhillips have been trading on a knife's edge: geopolitical scares push prices up temporarily, but then recede as markets decide the actual supply disruption won't materialize or is already priced in. The IEA's warning that confidence in the Strait\u2014one of the world's critical chokepoints\u2014has been \"crushed\" should theoretically support prices, but falling prices suggest the market is skeptical of near-term supply loss, allowing the stock to give back recent gains.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 193,
-    "inputTokens": 158290,
-    "outputTokens": 39712,
-    "estimatedCostUsd": 0.35685,
-    "lastCallHour": "2026-11-18T21"
+    "callsThisMonth": 194,
+    "inputTokens": 159155,
+    "outputTokens": 39952,
+    "estimatedCostUsd": 0.358915,
+    "lastCallHour": "2026-11-19T01"
   }
 }
