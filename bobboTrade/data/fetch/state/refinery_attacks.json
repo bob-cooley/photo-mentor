@@ -400,17 +400,18 @@
     "https://www.theguardian.com/environment/2026/nov/16/epa-chemical-detection-plane": "2026-11-16T13:03:20.976935+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/17/8063200/": "2026-11-17T10:07:33.899644+00:00",
     "https://meduza.io/en/news/2026/11/18/ukrainian-drones-strike-two-oil-refineries-in-southern-russia": "2026-11-18T11:04:40.459301+00:00",
-    "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule": "2026-11-18T11:04:42.055019+00:00"
+    "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule": "2026-11-18T11:04:42.055019+00:00",
+    "https://meduza.io/en/news/2026/11/19/ukrainian-drone-attacks-have-cut-the-amount-of-oil-russia-refines-by-45-since-late-october-reuters-reports": "2026-11-19T13:17:46.976541+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 24,
-    "inputTokens": 28168,
-    "outputTokens": 3719,
-    "estimatedCostUsd": 0.046763
+    "calls": 25,
+    "inputTokens": 29050,
+    "outputTokens": 3832,
+    "estimatedCostUsd": 0.04821
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-18T17:12:13.227005+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-19T13:17:46.976661+00:00"
 }
