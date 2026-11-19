@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T17:01:55.749834+00:00",
-  "text": "ConocoPhillips fell 0.26% today, continuing a sharp downward slide that began on November 18th\u2014the stock dropped roughly $5.70 (4%) in just two trading days. That sell-off coincides with oil prices sliding notably lower: US crude fell to $89.53 per barrel today from around $98\u2013$100 just days prior. Since oil companies' profits depend directly on the prices they can sell oil for, a drop of this magnitude hits their valuations hard, even if it reflects broader energy market weakness rather than problems specific to the company.\n\nThe Middle East tension you might expect to support oil prices\u2014Iran attacking US military installations in the Gulf, threats to the Strait of Hormuz shipping corridor\u2014hasn't prevented the decline, suggesting that other factors (global growth concerns, shifts in energy demand expectations, or rotation out of energy stocks) are overriding geopolitical risk premiums for now.",
+  "fetchedAt": "2026-11-19T18:02:47.768522+00:00",
+  "text": "ConocoPhillips fell 0.14% today to $134.21, capping a sharp five-day decline of about $6 per share from last Wednesday's close. The drop reflects deteriorating Middle East geopolitical risk: Iran's escalating attacks on U.S. positions in the Gulf and warnings that the Strait of Hormuz\u2014through which roughly a fifth of global oil passes\u2014has lost credibility as a reliable corridor. Despite crude oil prices holding steady around $90 per barrel globally, the uncertainty around supply disruptions in the region has weighed on energy stocks this week.\n\nThe timing is significant because elevated geopolitical risk typically supports oil prices and refiner margins, yet the market is pricing in concern that actual supply interruptions or prolonged conflict could disrupt operations or redirect flows, creating chaos rather than simple price support. Meanwhile, longer-term headwinds for traditional energy\u2014like the surge in data center electricity demand favoring power generation over fuel demand\u2014add another layer of pressure to the sector's growth narrative.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 200,
-    "inputTokens": 164300,
-    "outputTokens": 41222,
-    "estimatedCostUsd": 0.37041,
-    "lastCallHour": "2026-11-19T17"
+    "callsThisMonth": 201,
+    "inputTokens": 165156,
+    "outputTokens": 41445,
+    "estimatedCostUsd": 0.372381,
+    "lastCallHour": "2026-11-19T18"
   }
 }

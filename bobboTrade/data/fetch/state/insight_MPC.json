@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T17:03:03.762236+00:00",
-  "text": "Marathon Petroleum stock dropped 0.58% today to $371.67, extending a sharp decline over the past week that has wiped out nearly $41 per share since mid-November. The selloff appears tied to escalating geopolitical risk in the Middle East\u2014Iran has launched attacks on U.S. military installations in Kuwait and the Persian Gulf, and the IEA warned that confidence in the Strait of Hormuz as a reliable energy corridor has been \"crushed\" by the conflict. For a refiner, this kind of regional instability typically creates uncertainty about oil supply and pricing, even though crude prices remain in the $89\u2013$93 range and refineries are running near full capacity (95.7%).\n\nThe timing of the decline also matters: the stock began falling sharply on November 18, the same day the geopolitical warnings escalated, suggesting investors are pricing in concern about potential disruption to Middle Eastern oil flows that could roil refining margins and crude availability in coming weeks.",
+  "fetchedAt": "2026-11-19T18:03:30.937103+00:00",
+  "text": "Marathon Petroleum stock fell 0.47% today to $372.11, continuing a sharp five-day decline of roughly 10% from its peak at $412.85 last week. The drop aligns with a sharp deterioration in refining economics: while U.S. oil is trading at $89.53 per barrel, gasoline and diesel in storage are at elevated levels (215.9 million and 104.9 million barrels respectively), and refineries are running near capacity at 95.7%. This combination\u2014ample product supply relative to demand\u2014narrows the profit margin refiners earn by buying crude and selling finished fuel, a dynamic that has weighed on the stock consistently this week.\n\nThe broader backdrop is concerning for energy demand. Geopolitical tensions in the Strait of Hormuz have created uncertainty about supply reliability, while record diesel prices in the U.K. and other regions suggest demand weakness relative to supply; refiners benefit from strong demand, not from rationed consumption. The stock's steep slide reflects the market repricing refining profitability downward in an environment of adequate supply and softening real-world demand signals.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 202,
-    "inputTokens": 177276,
-    "outputTokens": 43382,
-    "estimatedCostUsd": 0.394186,
-    "lastCallHour": "2026-11-19T17"
+    "callsThisMonth": 203,
+    "inputTokens": 178194,
+    "outputTokens": 43632,
+    "estimatedCostUsd": 0.396354,
+    "lastCallHour": "2026-11-19T18"
   }
 }
