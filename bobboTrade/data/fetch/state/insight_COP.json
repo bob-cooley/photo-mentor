@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T01:41:06.774638+00:00",
-  "text": "ConocoPhillips stock fell 3.6% today to $134.40, wiping out most of its gains from the past week. The drop came as crude oil prices retreated\u2014U.S. oil fell below $90 per barrel\u2014despite escalating geopolitical tension in the Middle East. This suggests that whatever risk premium investors were paying for Iranian threats and Strait of Hormuz disruptions a day or two ago has worn off, and profit-taking is outweighing the safety bid that typically supports energy stocks during regional crises.\n\nThe broader context is that oil majors like ConocoPhillips have been trading on a knife's edge: geopolitical scares push prices up temporarily, but then recede as markets decide the actual supply disruption won't materialize or is already priced in. The IEA's warning that confidence in the Strait\u2014one of the world's critical chokepoints\u2014has been \"crushed\" should theoretically support prices, but falling prices suggest the market is skeptical of near-term supply loss, allowing the stock to give back recent gains.",
+  "fetchedAt": "2026-11-19T09:50:28.764676+00:00",
+  "text": "ConocoPhillips fell 3.6% today as oil prices dropped sharply, with US crude sliding to $89.53 per barrel from above $140 just days ago. The timing coincides with escalating geopolitical tensions in the Middle East\u2014Iran attacking US positions in Kuwait and the Strait of Hormuz facing sustained disruptions\u2014which typically support oil prices by signaling supply risk. The fact that prices are falling anyway suggests markets are pricing in either a near-term ceasefire, reduced demand concerns, or simply a pullback after the sharp run-up earlier this week.\n\nThe broader context matters: even with the Strait of Hormuz unreliable and regional conflicts mounting, the market appears skeptical that these tensions will sustain the supply premium that drove oil higher recently. For a major oil producer, that shift in market sentiment\u2014not the geopolitical facts on the ground\u2014is what moves the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 194,
-    "inputTokens": 159155,
-    "outputTokens": 39952,
-    "estimatedCostUsd": 0.358915,
-    "lastCallHour": "2026-11-19T01"
+    "callsThisMonth": 195,
+    "inputTokens": 160020,
+    "outputTokens": 40153,
+    "estimatedCostUsd": 0.360785,
+    "lastCallHour": "2026-11-19T09"
   }
 }
