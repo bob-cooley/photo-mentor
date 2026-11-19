@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T15:02:08.044114+00:00",
-  "text": "ConocoPhillips rose slightly today as oil prices held steady, with U.S. crude near $89.50 a barrel and global crude at $92.94. The stock has actually fallen sharply over the past week\u2014down nearly 4% from $140 to $134.80\u2014driven by escalating geopolitical tension in the Middle East. Iran's attacks on U.S. military installations in Kuwait and warnings from the International Energy Agency that the Strait of Hormuz is no longer seen as a reliable energy corridor have spooked energy markets, even as physical oil prices remain supported.\n\nThe modest bounce today suggests some stabilization after that sell-off, but the underlying anxiety about supply route security and Middle East instability remains. Paradoxically, the same IEA data showing that data center electricity use could double by 2030 might eventually support longer-term demand for energy\u2014but that's too distant to offset the immediate geopolitical risk priced into the stock this week.",
+  "fetchedAt": "2026-11-19T16:02:31.093625+00:00",
+  "text": "ConocoPhillips fell 4.1% over two days (from $140.52 on Nov 16 to $134.48 today), despite oil prices holding relatively firm \u2014 US crude at $89.53 and global crude at $92.94. The sharp drop came as geopolitical tensions in the Middle East intensified, with Iran attacking U.S. installations in Kuwait and the IEA warning that the Strait of Hormuz \u2014 a critical global oil chokepoint \u2014 has lost credibility as a reliable energy corridor due to the Iran conflict. For an oil major like ConocoPhillips, this kind of regional instability typically pressures valuations even when current oil prices are stable, because it raises longer-term uncertainty about supply and operations.\n\nThe decline also reflects a broader energy market headwind: record diesel prices are now driving inflation higher in major economies like the UK, which could dampen fuel demand if central banks respond with tighter policy. Meanwhile, rising electricity demand from AI data centers is competing for investment capital and policy attention that might otherwise flow toward traditional energy infrastructure.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 198,
-    "inputTokens": 162588,
-    "outputTokens": 40781,
-    "estimatedCostUsd": 0.366493,
-    "lastCallHour": "2026-11-19T15"
+    "callsThisMonth": 199,
+    "inputTokens": 163444,
+    "outputTokens": 41018,
+    "estimatedCostUsd": 0.368534,
+    "lastCallHour": "2026-11-19T16"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T15:03:13.787723+00:00",
-  "text": "Marathon Petroleum stock fell 0.75% today to $371.05, extending a sharp two-week decline of 1.58%. The drop comes as crude oil prices have retreated significantly\u2014U.S. oil dropped to $89.53 per barrel today from over $100 just days ago\u2014which directly pressures refiner margins. Refinery utilization remains strong at 95.7%, but refiners profit from the gap between what they pay for crude and what they sell refined products for; when crude prices fall faster than refined product prices can follow, margins compress and stock prices tend to sink.\n\nGeopolitical risk in the Middle East, highlighted by Iran's recent attacks on U.S. positions in the Gulf, had been supporting oil prices earlier in the week. However, the broader pullback in crude suggests that concern has faded or been overtaken by other factors\u2014possibly weakening demand signals or profit-taking after a period of elevated prices. This kind of reversal is typical when fear premium drains out of the market.",
+  "fetchedAt": "2026-11-19T16:03:31.875258+00:00",
+  "text": "Marathon Petroleum shares fell sharply over the past week\u2014dropping roughly 10% from $412.85 to $372.08\u2014despite refineries running at a healthy 95.7% capacity and elevated global oil prices ($92.94/barrel). The steepest declines came on November 18th and 19th, coinciding with escalating geopolitical tensions in the Middle East: Iran attacked U.S. military installations in the Gulf, and the IEA's chief warned that the Iran war has damaged confidence in the Strait of Hormuz as a reliable energy corridor. While higher crude prices typically benefit refiners' margins, the uncertainty around supply-chain disruption and potential shipping disruptions in a critical chokepoint appears to have outweighed that benefit.\n\nThe broader energy sector is also facing headwinds from the growing competition for electricity as data center demand surges. Record diesel prices in the UK show that refined-product markets are tight, but rising diesel costs also signal inflation pressures that could dampen fuel demand if they feed into broader economic slowdown.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 200,
-    "inputTokens": 175440,
-    "outputTokens": 42934,
-    "estimatedCostUsd": 0.39011,
-    "lastCallHour": "2026-11-19T15"
+    "callsThisMonth": 201,
+    "inputTokens": 176358,
+    "outputTokens": 43165,
+    "estimatedCostUsd": 0.392183,
+    "lastCallHour": "2026-11-19T16"
   }
 }
