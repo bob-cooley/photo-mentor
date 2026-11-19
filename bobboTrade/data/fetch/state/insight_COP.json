@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T13:02:36.323378+00:00",
-  "text": "ConocoPhillips fell 3.6% today as crude oil prices dropped sharply\u2014US oil fell below $90 a barrel (from recent highs near $92\u201393), marking the steepest decline in the stock's recent two-week slide. For a large oil producer like this company, lower oil prices directly reduce the revenue and profit from each barrel sold, which is the primary driver of near-term stock moves.\n\nThe timing coincides with escalating geopolitical tensions in the Middle East\u2014Iran attacked US positions in Kuwait, and the IEA warned that the Strait of Hormuz is no longer seen as a reliable energy corridor. Normally, such regional instability would support higher oil prices by raising supply-risk premiums, but today's sell-off suggests investors are pricing in concern about broader economic weakness (reflected in record diesel-driven UK inflation) that could dampen global oil demand enough to outweigh the supply-shock premium.",
+  "fetchedAt": "2026-11-19T14:02:00.216649+00:00",
+  "text": "ConocoPhillips fell 3.6% today to $134.40, following a sharp three-day decline from $142.28 on November 13th. The move coincides with oil prices dropping\u2014US crude fell to $89.53 per barrel today from higher levels earlier this month\u2014suggesting broad energy sector weakness. While Middle East tensions (Iran attacks, Strait of Hormuz concerns) have been in the news, oil prices themselves have retreated, which is the more direct pressure on an oil producer's near-term stock price.\n\nThe decline also fits a wider pattern: energy stocks face headwinds from long-term demand uncertainty, even as geopolitical risks flash across headlines. The IEA warning about data center power demand doubling by 2030 hints at competition for investment dollars and energy resources shifting away from traditional oil companies toward power infrastructure plays, though this is a slower-moving structural story than today's price drop.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 196,
-    "inputTokens": 160876,
-    "outputTokens": 40360,
-    "estimatedCostUsd": 0.362676,
-    "lastCallHour": "2026-11-19T13"
+    "callsThisMonth": 197,
+    "inputTokens": 161732,
+    "outputTokens": 40565,
+    "estimatedCostUsd": 0.364557,
+    "lastCallHour": "2026-11-19T14"
   }
 }

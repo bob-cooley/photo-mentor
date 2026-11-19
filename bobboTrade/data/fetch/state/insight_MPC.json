@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T13:03:15.630722+00:00",
-  "text": "Marathon Petroleum stock fell 5.5% today, closing a sharp three-day slide that wiped out nearly $40 per share. The immediate trigger appears to be escalating geopolitical tensions in the Middle East\u2014Iran has launched direct attacks on U.S. military installations in the Gulf region, including Kuwait, raising the risk of broader supply disruptions. While crude oil prices remain relatively stable (US oil at $89.53/barrel), the market is pricing in uncertainty: refineries are running at 95.7% capacity and storage levels are healthy, so there's no current supply crunch to support the stock, leaving it vulnerable to risk-off selling when headlines turn negative.\n\nThe sell-off also reflects a longer-term concern for refiners: oil prices aren't high enough to offset margin pressure. Diesel prices hit record highs in the UK this week (pushing inflation to a 1-year high), yet US crude hasn't spiked in response, suggesting global demand may be softening even as regional supply risks mount. For a refiner dependent on the spread between crude input costs and finished fuel prices, that's a pinch.",
+  "fetchedAt": "2026-11-19T14:02:30.381145+00:00",
+  "text": "Marathon Petroleum stock fell 5.5% today to $373.86, extending a sharp two-week decline that has wiped out nearly 5% of its value. The timing tracks closely with escalating geopolitical tension in the Middle East\u2014Iran has launched direct military strikes against U.S. targets in the Gulf region, disrupting confidence in the Strait of Hormuz as a stable energy corridor. While crude oil prices remain relatively firm (U.S. benchmark at $89.53/barrel), the threat to shipping and refining operations in one of the world's most critical energy chokepoints appears to have spooked investors, outweighing the fact that U.S. refineries are running at a healthy 95.7% capacity.\n\nThe sell-off also comes as refinery margins face headwinds from softer demand signals. Record diesel prices are now driving inflation higher in developed economies, which typically precedes reduced consumption as central banks tighten policy\u2014a dynamic that could pressure refining profitability in coming months even if crude prices stay steady.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 198,
-    "inputTokens": 173604,
-    "outputTokens": 42480,
-    "estimatedCostUsd": 0.386004,
-    "lastCallHour": "2026-11-19T13"
+    "callsThisMonth": 199,
+    "inputTokens": 174522,
+    "outputTokens": 42710,
+    "estimatedCostUsd": 0.388072,
+    "lastCallHour": "2026-11-19T14"
   }
 }
