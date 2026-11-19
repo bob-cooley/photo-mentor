@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T16:03:31.875258+00:00",
-  "text": "Marathon Petroleum shares fell sharply over the past week\u2014dropping roughly 10% from $412.85 to $372.08\u2014despite refineries running at a healthy 95.7% capacity and elevated global oil prices ($92.94/barrel). The steepest declines came on November 18th and 19th, coinciding with escalating geopolitical tensions in the Middle East: Iran attacked U.S. military installations in the Gulf, and the IEA's chief warned that the Iran war has damaged confidence in the Strait of Hormuz as a reliable energy corridor. While higher crude prices typically benefit refiners' margins, the uncertainty around supply-chain disruption and potential shipping disruptions in a critical chokepoint appears to have outweighed that benefit.\n\nThe broader energy sector is also facing headwinds from the growing competition for electricity as data center demand surges. Record diesel prices in the UK show that refined-product markets are tight, but rising diesel costs also signal inflation pressures that could dampen fuel demand if they feed into broader economic slowdown.",
+  "fetchedAt": "2026-11-19T17:03:03.762236+00:00",
+  "text": "Marathon Petroleum stock dropped 0.58% today to $371.67, extending a sharp decline over the past week that has wiped out nearly $41 per share since mid-November. The selloff appears tied to escalating geopolitical risk in the Middle East\u2014Iran has launched attacks on U.S. military installations in Kuwait and the Persian Gulf, and the IEA warned that confidence in the Strait of Hormuz as a reliable energy corridor has been \"crushed\" by the conflict. For a refiner, this kind of regional instability typically creates uncertainty about oil supply and pricing, even though crude prices remain in the $89\u2013$93 range and refineries are running near full capacity (95.7%).\n\nThe timing of the decline also matters: the stock began falling sharply on November 18, the same day the geopolitical warnings escalated, suggesting investors are pricing in concern about potential disruption to Middle Eastern oil flows that could roil refining margins and crude availability in coming weeks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 201,
-    "inputTokens": 176358,
-    "outputTokens": 43165,
-    "estimatedCostUsd": 0.392183,
-    "lastCallHour": "2026-11-19T16"
+    "callsThisMonth": 202,
+    "inputTokens": 177276,
+    "outputTokens": 43382,
+    "estimatedCostUsd": 0.394186,
+    "lastCallHour": "2026-11-19T17"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T16:02:31.093625+00:00",
-  "text": "ConocoPhillips fell 4.1% over two days (from $140.52 on Nov 16 to $134.48 today), despite oil prices holding relatively firm \u2014 US crude at $89.53 and global crude at $92.94. The sharp drop came as geopolitical tensions in the Middle East intensified, with Iran attacking U.S. installations in Kuwait and the IEA warning that the Strait of Hormuz \u2014 a critical global oil chokepoint \u2014 has lost credibility as a reliable energy corridor due to the Iran conflict. For an oil major like ConocoPhillips, this kind of regional instability typically pressures valuations even when current oil prices are stable, because it raises longer-term uncertainty about supply and operations.\n\nThe decline also reflects a broader energy market headwind: record diesel prices are now driving inflation higher in major economies like the UK, which could dampen fuel demand if central banks respond with tighter policy. Meanwhile, rising electricity demand from AI data centers is competing for investment capital and policy attention that might otherwise flow toward traditional energy infrastructure.",
+  "fetchedAt": "2026-11-19T17:01:55.749834+00:00",
+  "text": "ConocoPhillips fell 0.26% today, continuing a sharp downward slide that began on November 18th\u2014the stock dropped roughly $5.70 (4%) in just two trading days. That sell-off coincides with oil prices sliding notably lower: US crude fell to $89.53 per barrel today from around $98\u2013$100 just days prior. Since oil companies' profits depend directly on the prices they can sell oil for, a drop of this magnitude hits their valuations hard, even if it reflects broader energy market weakness rather than problems specific to the company.\n\nThe Middle East tension you might expect to support oil prices\u2014Iran attacking US military installations in the Gulf, threats to the Strait of Hormuz shipping corridor\u2014hasn't prevented the decline, suggesting that other factors (global growth concerns, shifts in energy demand expectations, or rotation out of energy stocks) are overriding geopolitical risk premiums for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 199,
-    "inputTokens": 163444,
-    "outputTokens": 41018,
-    "estimatedCostUsd": 0.368534,
-    "lastCallHour": "2026-11-19T16"
+    "callsThisMonth": 200,
+    "inputTokens": 164300,
+    "outputTokens": 41222,
+    "estimatedCostUsd": 0.37041,
+    "lastCallHour": "2026-11-19T17"
   }
 }
