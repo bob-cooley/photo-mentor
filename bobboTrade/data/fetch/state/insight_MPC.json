@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T18:03:30.937103+00:00",
-  "text": "Marathon Petroleum stock fell 0.47% today to $372.11, continuing a sharp five-day decline of roughly 10% from its peak at $412.85 last week. The drop aligns with a sharp deterioration in refining economics: while U.S. oil is trading at $89.53 per barrel, gasoline and diesel in storage are at elevated levels (215.9 million and 104.9 million barrels respectively), and refineries are running near capacity at 95.7%. This combination\u2014ample product supply relative to demand\u2014narrows the profit margin refiners earn by buying crude and selling finished fuel, a dynamic that has weighed on the stock consistently this week.\n\nThe broader backdrop is concerning for energy demand. Geopolitical tensions in the Strait of Hormuz have created uncertainty about supply reliability, while record diesel prices in the U.K. and other regions suggest demand weakness relative to supply; refiners benefit from strong demand, not from rationed consumption. The stock's steep slide reflects the market repricing refining profitability downward in an environment of adequate supply and softening real-world demand signals.",
+  "fetchedAt": "2026-11-19T19:02:05.095399+00:00",
+  "text": "Marathon Petroleum stock fell 0.5% today to close at $371.97, continuing a sharp downward trend over the past week that has wiped out 10% of its value since mid-November. The decline coincides with a significant drop in oil prices\u2014US crude is trading at $89.53 per barrel, down from levels above $100 just days ago\u2014which directly pressures refining company margins. While US refineries are running at a high 95.7% capacity, the collapse in crude prices means less profit per barrel of fuel produced.\n\nThe broader context suggests a pullback from geopolitical risk premiums that had likely supported oil earlier. Reports about Iran's military actions against US positions in the Gulf and threats to Strait of Hormuz shipping drove concerns in mid-November, but those fears appear to have faded as markets reassessed the actual disruption risk. With oil prices normalizing lower and no new supply disruptions materializing, the refining sector has lost the tailwind that had buoyed it.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 203,
-    "inputTokens": 178194,
-    "outputTokens": 43632,
-    "estimatedCostUsd": 0.396354,
-    "lastCallHour": "2026-11-19T18"
+    "callsThisMonth": 204,
+    "inputTokens": 179112,
+    "outputTokens": 43855,
+    "estimatedCostUsd": 0.398387,
+    "lastCallHour": "2026-11-19T19"
   }
 }

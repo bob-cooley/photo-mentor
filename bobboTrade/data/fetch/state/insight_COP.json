@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T18:02:47.768522+00:00",
-  "text": "ConocoPhillips fell 0.14% today to $134.21, capping a sharp five-day decline of about $6 per share from last Wednesday's close. The drop reflects deteriorating Middle East geopolitical risk: Iran's escalating attacks on U.S. positions in the Gulf and warnings that the Strait of Hormuz\u2014through which roughly a fifth of global oil passes\u2014has lost credibility as a reliable corridor. Despite crude oil prices holding steady around $90 per barrel globally, the uncertainty around supply disruptions in the region has weighed on energy stocks this week.\n\nThe timing is significant because elevated geopolitical risk typically supports oil prices and refiner margins, yet the market is pricing in concern that actual supply interruptions or prolonged conflict could disrupt operations or redirect flows, creating chaos rather than simple price support. Meanwhile, longer-term headwinds for traditional energy\u2014like the surge in data center electricity demand favoring power generation over fuel demand\u2014add another layer of pressure to the sector's growth narrative.",
+  "fetchedAt": "2026-11-19T19:01:31.566635+00:00",
+  "text": "ConocoPhillips fell 0.02% today to $134.37, extending a sharp decline from its peak of $142.28 just six days ago. The stock has lost about $8 per share in that span, coinciding with escalating geopolitical tension in the Middle East\u2014Iran has launched direct attacks on U.S. military installations in the Gulf region, and the IEA warned that the Iran conflict has damaged confidence in the Strait of Hormuz as a reliable energy corridor. Paradoxically, oil prices remain elevated (Brent crude at $92.94/barrel), suggesting the market may be pricing in longer-term supply disruption risk or bracing for potential escalation that could disrupt energy infrastructure.\n\nThe broader energy sector is facing competing pressures: while traditional oil demand faces headwinds from an AI-driven electricity boom that could double data center power consumption by 2030, the immediate geopolitical instability is supporting crude prices and should theoretically benefit a major producer like ConocoPhillips. The sell-off may reflect investor concern that Middle East tension could crimp global growth and demand for energy, outweighing the benefit of higher prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 201,
-    "inputTokens": 165156,
-    "outputTokens": 41445,
-    "estimatedCostUsd": 0.372381,
-    "lastCallHour": "2026-11-19T18"
+    "callsThisMonth": 202,
+    "inputTokens": 166012,
+    "outputTokens": 41704,
+    "estimatedCostUsd": 0.374532,
+    "lastCallHour": "2026-11-19T19"
   }
 }
