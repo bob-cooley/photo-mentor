@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T09:51:02.433040+00:00",
-  "text": "Marathon Petroleum's stock fell 5.5% today, extending a sharp four-day decline from $414.65 to $373.86. The timing tracks with escalating geopolitical tension in the Middle East\u2014Iran targeted U.S. military sites in Kuwait on November 18, the same day the stock dropped sharply, while the IEA warned the Strait of Hormuz (a critical oil chokepoint) has lost credibility as a reliable corridor. Paradoxically, U.S. crude remains relatively modest at $89.53 per barrel, suggesting markets may not yet be pricing in sustained supply disruption, but refiners like MPC can face margin pressure if geopolitical risk keeps buyers wary despite adequate current supply.\n\nThe backdrop matters: U.S. refineries are running at 95.7% capacity with oil storage normal at 694 million barrels, so the selloff isn't driven by immediate supply crisis or refining stress. Instead, the market appears to be rotating away from energy stocks on broader fear, or pricing in the possibility that escalating Gulf tensions could eventually tighten crude availability and complicate margins in weeks ahead.",
+  "fetchedAt": "2026-11-19T13:03:15.630722+00:00",
+  "text": "Marathon Petroleum stock fell 5.5% today, closing a sharp three-day slide that wiped out nearly $40 per share. The immediate trigger appears to be escalating geopolitical tensions in the Middle East\u2014Iran has launched direct attacks on U.S. military installations in the Gulf region, including Kuwait, raising the risk of broader supply disruptions. While crude oil prices remain relatively stable (US oil at $89.53/barrel), the market is pricing in uncertainty: refineries are running at 95.7% capacity and storage levels are healthy, so there's no current supply crunch to support the stock, leaving it vulnerable to risk-off selling when headlines turn negative.\n\nThe sell-off also reflects a longer-term concern for refiners: oil prices aren't high enough to offset margin pressure. Diesel prices hit record highs in the UK this week (pushing inflation to a 1-year high), yet US crude hasn't spiked in response, suggesting global demand may be softening even as regional supply risks mount. For a refiner dependent on the spread between crude input costs and finished fuel prices, that's a pinch.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 197,
-    "inputTokens": 172686,
-    "outputTokens": 42235,
-    "estimatedCostUsd": 0.383861,
-    "lastCallHour": "2026-11-19T09"
+    "callsThisMonth": 198,
+    "inputTokens": 173604,
+    "outputTokens": 42480,
+    "estimatedCostUsd": 0.386004,
+    "lastCallHour": "2026-11-19T13"
   }
 }

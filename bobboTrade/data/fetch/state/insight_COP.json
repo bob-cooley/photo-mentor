@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T09:50:28.764676+00:00",
-  "text": "ConocoPhillips fell 3.6% today as oil prices dropped sharply, with US crude sliding to $89.53 per barrel from above $140 just days ago. The timing coincides with escalating geopolitical tensions in the Middle East\u2014Iran attacking US positions in Kuwait and the Strait of Hormuz facing sustained disruptions\u2014which typically support oil prices by signaling supply risk. The fact that prices are falling anyway suggests markets are pricing in either a near-term ceasefire, reduced demand concerns, or simply a pullback after the sharp run-up earlier this week.\n\nThe broader context matters: even with the Strait of Hormuz unreliable and regional conflicts mounting, the market appears skeptical that these tensions will sustain the supply premium that drove oil higher recently. For a major oil producer, that shift in market sentiment\u2014not the geopolitical facts on the ground\u2014is what moves the stock.",
+  "fetchedAt": "2026-11-19T13:02:36.323378+00:00",
+  "text": "ConocoPhillips fell 3.6% today as crude oil prices dropped sharply\u2014US oil fell below $90 a barrel (from recent highs near $92\u201393), marking the steepest decline in the stock's recent two-week slide. For a large oil producer like this company, lower oil prices directly reduce the revenue and profit from each barrel sold, which is the primary driver of near-term stock moves.\n\nThe timing coincides with escalating geopolitical tensions in the Middle East\u2014Iran attacked US positions in Kuwait, and the IEA warned that the Strait of Hormuz is no longer seen as a reliable energy corridor. Normally, such regional instability would support higher oil prices by raising supply-risk premiums, but today's sell-off suggests investors are pricing in concern about broader economic weakness (reflected in record diesel-driven UK inflation) that could dampen global oil demand enough to outweigh the supply-shock premium.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 195,
-    "inputTokens": 160020,
-    "outputTokens": 40153,
-    "estimatedCostUsd": 0.360785,
-    "lastCallHour": "2026-11-19T09"
+    "callsThisMonth": 196,
+    "inputTokens": 160876,
+    "outputTokens": 40360,
+    "estimatedCostUsd": 0.362676,
+    "lastCallHour": "2026-11-19T13"
   }
 }
