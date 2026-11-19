@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T19:02:05.095399+00:00",
-  "text": "Marathon Petroleum stock fell 0.5% today to close at $371.97, continuing a sharp downward trend over the past week that has wiped out 10% of its value since mid-November. The decline coincides with a significant drop in oil prices\u2014US crude is trading at $89.53 per barrel, down from levels above $100 just days ago\u2014which directly pressures refining company margins. While US refineries are running at a high 95.7% capacity, the collapse in crude prices means less profit per barrel of fuel produced.\n\nThe broader context suggests a pullback from geopolitical risk premiums that had likely supported oil earlier. Reports about Iran's military actions against US positions in the Gulf and threats to Strait of Hormuz shipping drove concerns in mid-November, but those fears appear to have faded as markets reassessed the actual disruption risk. With oil prices normalizing lower and no new supply disruptions materializing, the refining sector has lost the tailwind that had buoyed it.",
+  "fetchedAt": "2026-11-19T20:02:02.553414+00:00",
+  "text": "Marathon Petroleum stock dropped 0.82% today to close at $370.78, extending a sharp five-day decline of roughly 11%. The sell-off appears linked to escalating geopolitical tension in the Middle East\u2014Iran has launched direct attacks on U.S. military installations in the Gulf region, including Kuwait, and the IEA warned that the Iran conflict has \"crushed\" confidence in the Strait of Hormuz as a reliable energy corridor. While oil prices remain firm at nearly $90 per barrel domestically, this geopolitical risk and supply-route uncertainty have rattled energy stocks, and refinery margins (the profit refiners make by processing crude into products) are likely under pressure as markets price in potential disruption.\n\nThe broader context adds weight to the sell-off: U.S. refineries are already running at a high utilization rate of 95.7%, leaving little room to boost output if supply routes tighten, and storage levels for gasoline and diesel remain relatively low. When refiners are already running flat-out and can't easily scale up production in response to supply shocks, their margins compress\u2014refiners earn less per barrel processed. The geopolitical overhang matters more when there's no spare capacity to absorb it.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 204,
-    "inputTokens": 179112,
-    "outputTokens": 43855,
-    "estimatedCostUsd": 0.398387,
-    "lastCallHour": "2026-11-19T19"
+    "callsThisMonth": 205,
+    "inputTokens": 180030,
+    "outputTokens": 44129,
+    "estimatedCostUsd": 0.400675,
+    "lastCallHour": "2026-11-19T20"
   }
 }

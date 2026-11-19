@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T19:01:31.566635+00:00",
-  "text": "ConocoPhillips fell 0.02% today to $134.37, extending a sharp decline from its peak of $142.28 just six days ago. The stock has lost about $8 per share in that span, coinciding with escalating geopolitical tension in the Middle East\u2014Iran has launched direct attacks on U.S. military installations in the Gulf region, and the IEA warned that the Iran conflict has damaged confidence in the Strait of Hormuz as a reliable energy corridor. Paradoxically, oil prices remain elevated (Brent crude at $92.94/barrel), suggesting the market may be pricing in longer-term supply disruption risk or bracing for potential escalation that could disrupt energy infrastructure.\n\nThe broader energy sector is facing competing pressures: while traditional oil demand faces headwinds from an AI-driven electricity boom that could double data center power consumption by 2030, the immediate geopolitical instability is supporting crude prices and should theoretically benefit a major producer like ConocoPhillips. The sell-off may reflect investor concern that Middle East tension could crimp global growth and demand for energy, outweighing the benefit of higher prices.",
+  "fetchedAt": "2026-11-19T20:01:28.431880+00:00",
+  "text": "COP fell 0.3% today to $134.64, continuing a sharp decline that began on November 18th when the stock dropped roughly $1 per share. That day brought a confluence of negative news for oil companies: the IEA warned that geopolitical tensions in the Strait of Hormuz have damaged confidence in that crucial shipping corridor's reliability, and Iranian military strikes on U.S. installations in Kuwait escalated regional conflict. Despite those headline risks, crude oil prices remain solid (US crude at $89.53/barrel, world crude at $92.94), suggesting the market is pricing in concern about supply disruptions or broader demand weakness rather than near-term shortage fears.\n\nThe stock's weakness over the past week sits against a backdrop of structural uncertainty for the energy sector. While immediate geopolitical risk typically supports oil prices, the same instability that threatens Gulf supply lines can spook investors about longer-term energy infrastructure stability and capital deployment\u2014especially as major economies signal longer-term shifts in energy demand (like the data center electricity surge highlighting potential power grid strain that could favor renewables and efficiency investments over traditional oil production).",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 202,
-    "inputTokens": 166012,
-    "outputTokens": 41704,
-    "estimatedCostUsd": 0.374532,
-    "lastCallHour": "2026-11-19T19"
+    "callsThisMonth": 203,
+    "inputTokens": 166868,
+    "outputTokens": 41947,
+    "estimatedCostUsd": 0.376603,
+    "lastCallHour": "2026-11-19T20"
   }
 }
