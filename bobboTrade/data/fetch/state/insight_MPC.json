@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T14:02:30.381145+00:00",
-  "text": "Marathon Petroleum stock fell 5.5% today to $373.86, extending a sharp two-week decline that has wiped out nearly 5% of its value. The timing tracks closely with escalating geopolitical tension in the Middle East\u2014Iran has launched direct military strikes against U.S. targets in the Gulf region, disrupting confidence in the Strait of Hormuz as a stable energy corridor. While crude oil prices remain relatively firm (U.S. benchmark at $89.53/barrel), the threat to shipping and refining operations in one of the world's most critical energy chokepoints appears to have spooked investors, outweighing the fact that U.S. refineries are running at a healthy 95.7% capacity.\n\nThe sell-off also comes as refinery margins face headwinds from softer demand signals. Record diesel prices are now driving inflation higher in developed economies, which typically precedes reduced consumption as central banks tighten policy\u2014a dynamic that could pressure refining profitability in coming months even if crude prices stay steady.",
+  "fetchedAt": "2026-11-19T15:03:13.787723+00:00",
+  "text": "Marathon Petroleum stock fell 0.75% today to $371.05, extending a sharp two-week decline of 1.58%. The drop comes as crude oil prices have retreated significantly\u2014U.S. oil dropped to $89.53 per barrel today from over $100 just days ago\u2014which directly pressures refiner margins. Refinery utilization remains strong at 95.7%, but refiners profit from the gap between what they pay for crude and what they sell refined products for; when crude prices fall faster than refined product prices can follow, margins compress and stock prices tend to sink.\n\nGeopolitical risk in the Middle East, highlighted by Iran's recent attacks on U.S. positions in the Gulf, had been supporting oil prices earlier in the week. However, the broader pullback in crude suggests that concern has faded or been overtaken by other factors\u2014possibly weakening demand signals or profit-taking after a period of elevated prices. This kind of reversal is typical when fear premium drains out of the market.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 199,
-    "inputTokens": 174522,
-    "outputTokens": 42710,
-    "estimatedCostUsd": 0.388072,
-    "lastCallHour": "2026-11-19T14"
+    "callsThisMonth": 200,
+    "inputTokens": 175440,
+    "outputTokens": 42934,
+    "estimatedCostUsd": 0.39011,
+    "lastCallHour": "2026-11-19T15"
   }
 }
