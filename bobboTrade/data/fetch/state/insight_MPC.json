@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-20T01:01:33.479234+00:00",
-  "text": "Marathon Petroleum's stock has fallen 6.5% over the past week, with today's 1.6% drop extending a sharp downtrend that accelerated starting November 18th. The timing aligns with a dramatic shift in geopolitical risk: Iran's military attacks on U.S. positions in Kuwait and warnings from the IEA that the Strait of Hormuz\u2014a critical global oil transit route\u2014has lost credibility as a reliable corridor due to regional conflict. This uncertainty typically pressures refiner margins because it creates volatility in crude oil prices (currently around $90 per barrel) without necessarily translating into higher product demand, squeezing the spread between what refiners buy crude for and what they sell refined products for.\n\nAdding pressure, global refinery utilization is running at 95.7%, near maximum capacity, leaving little room to boost output if margins compress. The regional instability and demand concerns appear to have outweighed the tailwind of elevated diesel prices, which are driving inflation concerns in Europe\u2014a signal that energy markets are bracing for tighter supply and economic softness ahead.",
+  "fetchedAt": "2026-11-20T08:22:33.397285+00:00",
+  "text": "Marathon Petroleum's stock fell 1.6% today and is down 2.5% over two weeks, tracking a sharp drop from $412.85 on November 12th to $367.93 today. The main pressure appears to be geopolitical: news of Iranian military attacks on U.S. positions in Kuwait and broader instability in the Strait of Hormuz have created uncertainty in Middle Eastern oil flows, while simultaneously the IEA warned that confidence in the region as a reliable energy corridor has collapsed. Paradoxically, while these tensions typically tighten oil supplies and benefit refiners, U.S. crude is trading at $89.53 per barrel\u2014down noticeably from recent highs\u2014suggesting markets are pricing in either demand concerns or expectations that disruption risk is already priced in.\n\nThe backdrop also includes softer near-term refinery economics: U.S. refineries are running at 95.7% capacity (high utilization), but gasoline and diesel inventories remain elevated, which can compress the margins refiners earn per barrel processed. Meanwhile, longer-term permitting reform (the BAAJA bill) passed the Senate and could ease future energy development, but that's a gradual tailwind, not an immediate earnings driver.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 207,
-    "inputTokens": 181866,
-    "outputTokens": 44652,
-    "estimatedCostUsd": 0.405126,
-    "lastCallHour": "2026-11-20T01"
+    "callsThisMonth": 208,
+    "inputTokens": 182796,
+    "outputTokens": 44926,
+    "estimatedCostUsd": 0.407426,
+    "lastCallHour": "2026-11-20T08"
   }
 }

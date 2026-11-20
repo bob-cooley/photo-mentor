@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-20T01:00:59.609826+00:00",
-  "text": "ConocoPhillips dropped 3.6% over the past two trading days, with today's modest gain doing little to recover those losses. The sharp decline follows geopolitical escalation in the Middle East\u2014Iran's attacks on U.S. military installations in the Gulf region typically create uncertainty for oil markets and energy companies, yet crude oil prices have actually fallen (US oil at $89.53/barrel, down from levels that would have supported higher energy stocks weeks ago). This disconnect suggests investors are pricing in concern that regional instability could disrupt supply chains or operations without yet pushing oil prices higher, leaving refiners and producers caught between tension and weak commodity prices.\n\nThe stock's two-week loss of 0.35% also reflects broader headwinds: while the IEA warns of a \"crushed\" confidence in the Strait of Hormuz as a reliable corridor and data center electricity demand is surging (which typically favors energy companies), oil itself hasn't rallied to match the geopolitical risk. Without a sustained price move in crude to offset the uncertainty, the stock has drifted lower as traders weigh competing forces.",
+  "fetchedAt": "2026-11-20T08:22:02.243776+00:00",
+  "text": "ConocoPhillips ticked up slightly today, but the stock has fallen sharply over the past week\u2014down 3.8% since November 12\u2014despite a backdrop that should theoretically help an oil major. The Iran war has escalated with direct attacks on U.S. and allied targets in the Gulf, and the IEA has warned that the Strait of Hormuz is no longer seen as a reliable energy corridor. Oil prices remain elevated (US crude at $89.53/barrel, global at $92.94), but they've also been sliding, which appears to be weighing on the stock more than geopolitical risk is supporting it.\n\nThe permitting reform bill passed the Senate this week, which is positive for long-cycle energy projects, but the broader market concern seems to be whether oil demand can hold up as economic uncertainty builds. Paradoxically, while AI data center power demand is surging and could double by 2030, that electricity demand may not translate directly into higher crude oil consumption in the near term\u2014and the recent price weakness suggests markets are pricing in softer near-term energy demand rather than the upside from future infrastructure needs.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 205,
-    "inputTokens": 168582,
-    "outputTokens": 42390,
-    "estimatedCostUsd": 0.380532,
-    "lastCallHour": "2026-11-20T01"
+    "callsThisMonth": 206,
+    "inputTokens": 169451,
+    "outputTokens": 42641,
+    "estimatedCostUsd": 0.382656,
+    "lastCallHour": "2026-11-20T08"
   }
 }
