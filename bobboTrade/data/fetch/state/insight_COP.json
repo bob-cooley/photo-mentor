@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-20T17:31:00.798608+00:00",
-  "text": "ConocoPhillips rose 1.65% today, bouncing back after a sharp 3.9% drop on November 18th that followed geopolitical escalation in the Persian Gulf\u2014Iran attacking U.S. military installations in Kuwait and the IEA warning that the Strait of Hormuz is no longer seen as a reliable energy corridor. The recovery today aligns with a modest stabilization in oil prices (US crude holding at $89.53/barrel) and suggests the initial shock from the conflict risks has begun to fade.\n\nThe bounce also comes as permitting reform legislation cleared the Senate, which would ease project development for both the energy and AI sectors. With data center electricity demand expected to double by 2030, there's potential long-term tailwind for oil and gas companies if the BAAJA bill becomes law\u2014though it still needs House approval and the President's signature.",
+  "fetchedAt": "2026-11-20T23:39:18.681881+00:00",
+  "text": "ConocoPhillips rose 0.89% today to $136.19, bouncing back after a sharp 3.9% drop on November 18th. The recovery comes as oil prices stabilized\u2014U.S. crude is trading at $89.53 per barrel today, up from the lows that followed the Iran-Kuwait tensions and geopolitical uncertainty in the Strait of Hormuz earlier this week. The company benefits from higher global oil prices (at $92.94 per barrel) and signs that energy demand remains robust, particularly as the AI data center boom is expected to nearly double global electricity needs by 2030.\n\nThe permitting reform bill that passed the Senate this week also works in the energy sector's favor, potentially easing project development timelines. Combined with stabilizing crude prices and ongoing Middle East tensions that keep energy supplies uncertain, this provides some support for oil majors like ConocoPhillips.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 207,
-    "inputTokens": 170317,
-    "outputTokens": 42834,
-    "estimatedCostUsd": 0.384487,
-    "lastCallHour": "2026-11-20T17"
+    "callsThisMonth": 208,
+    "inputTokens": 171184,
+    "outputTokens": 43037,
+    "estimatedCostUsd": 0.386369,
+    "lastCallHour": "2026-11-20T23"
   }
 }
