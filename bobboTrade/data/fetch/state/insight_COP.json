@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-19T21:01:35.302921+00:00",
-  "text": "The stock rose slightly today while oil prices fell sharply\u2014US crude dropped to $89.53 and global oil to $92.94\u2014which is typical weakness for an energy major. But the move was muted because geopolitical tension in the Middle East has rattled the market; Iran's escalating attacks on US and allied installations in the Gulf over the past two days have made traders nervous about Strait of Hormuz shipping and supply disruptions, which typically supports oil prices and energy stocks even when broader crude weakness prevails.\n\nThe stock has fallen hard over the past week (down $5.60 from $140 to $135), tracking a sharp pullback in oil prices that began around the 18th. This suggests the geopolitical risk premium hasn't been enough to offset the weight of weakening crude demand or supply concerns\u2014possibly tied to softer global growth expectations rather than any structural change in Middle Eastern conflict risk.",
+  "fetchedAt": "2026-11-20T01:00:59.609826+00:00",
+  "text": "ConocoPhillips dropped 3.6% over the past two trading days, with today's modest gain doing little to recover those losses. The sharp decline follows geopolitical escalation in the Middle East\u2014Iran's attacks on U.S. military installations in the Gulf region typically create uncertainty for oil markets and energy companies, yet crude oil prices have actually fallen (US oil at $89.53/barrel, down from levels that would have supported higher energy stocks weeks ago). This disconnect suggests investors are pricing in concern that regional instability could disrupt supply chains or operations without yet pushing oil prices higher, leaving refiners and producers caught between tension and weak commodity prices.\n\nThe stock's two-week loss of 0.35% also reflects broader headwinds: while the IEA warns of a \"crushed\" confidence in the Strait of Hormuz as a reliable corridor and data center electricity demand is surging (which typically favors energy companies), oil itself hasn't rallied to match the geopolitical risk. Without a sustained price move in crude to offset the uncertainty, the stock has drifted lower as traders weigh competing forces.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 204,
-    "inputTokens": 167724,
-    "outputTokens": 42146,
-    "estimatedCostUsd": 0.378454,
-    "lastCallHour": "2026-11-19T21"
+    "callsThisMonth": 205,
+    "inputTokens": 168582,
+    "outputTokens": 42390,
+    "estimatedCostUsd": 0.380532,
+    "lastCallHour": "2026-11-20T01"
   }
 }

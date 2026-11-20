@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-19T21:02:11.985857+00:00",
-  "text": "Marathon Petroleum stock fell 1.6% today to close at $367.99, capping a sharp five-day decline of 10.8% from its November 12 peak. The primary driver appears to be escalating geopolitical tension in the Middle East\u2014Iran has conducted direct military strikes on U.S. installations in Kuwait, extending a broader run of Gulf attacks that has damaged confidence in the Strait of Hormuz as a reliable energy corridor, according to the IEA. While crude oil prices remain elevated around $90 per barrel, refinery utilization is high at 95.7%, refiners like MPC benefit most from stable supply chains and pricing. Disruption risk in a key oil transit route creates uncertainty about feedstock reliability and future margins, even if near-term crude prices haven't collapsed.\n\nThe sell-off also reflects a broader market reassessment of energy demand. Record diesel prices in the UK are driving inflation concerns, and there's growing chatter about massive electricity demand shifts ahead\u2014data center power use could double by 2030 as AI booms\u2014which could reshape longer-term energy consumption patterns in ways refiners are still pricing into their outlooks. The combination of geopolitical friction and demand-side unknowns has pushed the stock down over 2% in just two weeks.",
+  "fetchedAt": "2026-11-20T01:01:33.479234+00:00",
+  "text": "Marathon Petroleum's stock has fallen 6.5% over the past week, with today's 1.6% drop extending a sharp downtrend that accelerated starting November 18th. The timing aligns with a dramatic shift in geopolitical risk: Iran's military attacks on U.S. positions in Kuwait and warnings from the IEA that the Strait of Hormuz\u2014a critical global oil transit route\u2014has lost credibility as a reliable corridor due to regional conflict. This uncertainty typically pressures refiner margins because it creates volatility in crude oil prices (currently around $90 per barrel) without necessarily translating into higher product demand, squeezing the spread between what refiners buy crude for and what they sell refined products for.\n\nAdding pressure, global refinery utilization is running at 95.7%, near maximum capacity, leaving little room to boost output if margins compress. The regional instability and demand concerns appear to have outweighed the tailwind of elevated diesel prices, which are driving inflation concerns in Europe\u2014a signal that energy markets are bracing for tighter supply and economic softness ahead.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 206,
-    "inputTokens": 180947,
-    "outputTokens": 44413,
-    "estimatedCostUsd": 0.403012,
-    "lastCallHour": "2026-11-19T21"
+    "callsThisMonth": 207,
+    "inputTokens": 181866,
+    "outputTokens": 44652,
+    "estimatedCostUsd": 0.405126,
+    "lastCallHour": "2026-11-20T01"
   }
 }
