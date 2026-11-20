@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-20T08:22:02.243776+00:00",
-  "text": "ConocoPhillips ticked up slightly today, but the stock has fallen sharply over the past week\u2014down 3.8% since November 12\u2014despite a backdrop that should theoretically help an oil major. The Iran war has escalated with direct attacks on U.S. and allied targets in the Gulf, and the IEA has warned that the Strait of Hormuz is no longer seen as a reliable energy corridor. Oil prices remain elevated (US crude at $89.53/barrel, global at $92.94), but they've also been sliding, which appears to be weighing on the stock more than geopolitical risk is supporting it.\n\nThe permitting reform bill passed the Senate this week, which is positive for long-cycle energy projects, but the broader market concern seems to be whether oil demand can hold up as economic uncertainty builds. Paradoxically, while AI data center power demand is surging and could double by 2030, that electricity demand may not translate directly into higher crude oil consumption in the near term\u2014and the recent price weakness suggests markets are pricing in softer near-term energy demand rather than the upside from future infrastructure needs.",
+  "fetchedAt": "2026-11-20T17:31:00.798608+00:00",
+  "text": "ConocoPhillips rose 1.65% today, bouncing back after a sharp 3.9% drop on November 18th that followed geopolitical escalation in the Persian Gulf\u2014Iran attacking U.S. military installations in Kuwait and the IEA warning that the Strait of Hormuz is no longer seen as a reliable energy corridor. The recovery today aligns with a modest stabilization in oil prices (US crude holding at $89.53/barrel) and suggests the initial shock from the conflict risks has begun to fade.\n\nThe bounce also comes as permitting reform legislation cleared the Senate, which would ease project development for both the energy and AI sectors. With data center electricity demand expected to double by 2030, there's potential long-term tailwind for oil and gas companies if the BAAJA bill becomes law\u2014though it still needs House approval and the President's signature.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 206,
-    "inputTokens": 169451,
-    "outputTokens": 42641,
-    "estimatedCostUsd": 0.382656,
-    "lastCallHour": "2026-11-20T08"
+    "callsThisMonth": 207,
+    "inputTokens": 170317,
+    "outputTokens": 42834,
+    "estimatedCostUsd": 0.384487,
+    "lastCallHour": "2026-11-20T17"
   }
 }

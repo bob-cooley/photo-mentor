@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-20T08:22:33.397285+00:00",
-  "text": "Marathon Petroleum's stock fell 1.6% today and is down 2.5% over two weeks, tracking a sharp drop from $412.85 on November 12th to $367.93 today. The main pressure appears to be geopolitical: news of Iranian military attacks on U.S. positions in Kuwait and broader instability in the Strait of Hormuz have created uncertainty in Middle Eastern oil flows, while simultaneously the IEA warned that confidence in the region as a reliable energy corridor has collapsed. Paradoxically, while these tensions typically tighten oil supplies and benefit refiners, U.S. crude is trading at $89.53 per barrel\u2014down noticeably from recent highs\u2014suggesting markets are pricing in either demand concerns or expectations that disruption risk is already priced in.\n\nThe backdrop also includes softer near-term refinery economics: U.S. refineries are running at 95.7% capacity (high utilization), but gasoline and diesel inventories remain elevated, which can compress the margins refiners earn per barrel processed. Meanwhile, longer-term permitting reform (the BAAJA bill) passed the Senate and could ease future energy development, but that's a gradual tailwind, not an immediate earnings driver.",
+  "fetchedAt": "2026-11-20T17:31:31.413613+00:00",
+  "text": "Marathon Petroleum stock rose modestly today, gaining 0.83%, but the bigger story is the sharp 10% drop it's taken over the past week. That decline reflects a collapse in refining margins driven by falling crude prices\u2014US oil dropped from roughly $115 per barrel two weeks ago to $89.50 today\u2014combined with weak downstream demand signals. Even though refineries are running hot at 95.7% capacity and storage levels remain relatively normal, lower oil prices squeeze what refiners can earn by processing crude into gasoline and diesel.\n\nThe escalating geopolitical tension in the Middle East\u2014Iran's attacks on US positions in Kuwait and warnings that the Strait of Hormuz is no longer a reliable energy corridor\u2014creates a paradox for the refining sector. While supply disruptions typically support oil prices and refiner margins, the market has instead repriced lower on recession concerns and demand weakness, leaving refiners caught between constrained margins and rising geopolitical risk.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 208,
-    "inputTokens": 182796,
-    "outputTokens": 44926,
-    "estimatedCostUsd": 0.407426,
-    "lastCallHour": "2026-11-20T08"
+    "callsThisMonth": 209,
+    "inputTokens": 183725,
+    "outputTokens": 45136,
+    "estimatedCostUsd": 0.409405,
+    "lastCallHour": "2026-11-20T17"
   }
 }
