@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-21T05:28:56.679002+00:00",
-  "text": "ConocoPhillips rose 0.89% today to $136.19, recovering modestly from a sharp drop two days earlier. The stock bounced back as oil prices stabilized\u2014US crude holding at $89.53 per barrel and global crude at $92.94\u2014after geopolitical tension in the Middle East had rattled energy markets. Last Monday's 3.8% plunge followed reports of Iranian attacks on US installations in the Gulf, which raised concerns about potential disruptions to oil supply routes through the Strait of Hormuz.\n\nThe underlying picture for energy companies remains mixed. While the IEA warned that the Iran conflict has damaged confidence in the Strait of Hormuz as a reliable corridor, potential tailwinds are building: a Senate permitting reform bill just passed that could speed up energy projects, and long-term electricity demand is expected to surge as data centers expand to support AI growth. These competing forces\u2014geopolitical risk pulling prices down, but structural demand and policy support pointing upward\u2014explain why ConocoPhillips has been volatile over the past week rather than trending decisively in either direction.",
+  "fetchedAt": "2026-11-21T14:08:49.677193+00:00",
+  "text": "ConocoPhillips rose 0.84% today to $136.12, recovering from a sharp four-day decline that had knocked the stock down nearly $8 from mid-month highs. The bounce follows a stabilization in oil prices\u2014US crude sitting at $89.53 per barrel today, up modestly from the lows earlier this week\u2014and comes on the heels of Senate passage of the BAAJA permitting reform bill, which removes barriers for energy projects and infrastructure development that major producers like ConocoPhillips rely on to expand operations.\n\nThe broader backdrop remains mixed. Europe's energy crunch from depleted gas stocks and a weakening polar vortex could eventually support energy prices, but the recent geopolitical strain on the Strait of Hormuz corridor\u2014which the IEA says has damaged confidence in Middle Eastern oil supply reliability\u2014has not yet translated into a sustained oil rally strong enough to lift the stock back to its November highs.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 209,
-    "inputTokens": 172051,
-    "outputTokens": 43281,
-    "estimatedCostUsd": 0.388456,
-    "lastCallHour": "2026-11-21T05"
+    "callsThisMonth": 210,
+    "inputTokens": 172914,
+    "outputTokens": 43492,
+    "estimatedCostUsd": 0.390374,
+    "lastCallHour": "2026-11-21T14"
   }
 }

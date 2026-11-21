@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-21T05:29:26.521350+00:00",
-  "text": "Marathon Petroleum stock fell nearly 14% over two weeks, with today's modest decline continuing a sharp selloff that accelerated starting November 17th. The timing and magnitude of the drop align with escalating geopolitical tensions in the Middle East\u2014Iran's attacks on U.S. and allied targets in the Gulf region threaten the Strait of Hormuz, a critical chokepoint for global oil shipments. Despite refineries running at nearly 96% capacity and storage levels that remain elevated, the market is pricing in disruption risk to energy supplies and trade flows, which would hit a major U.S. refiner's ability to source crude and move products.\n\nThe broader concern appears to be less about current oil prices\u2014which remain in the low $90s per barrel globally\u2014and more about geopolitical uncertainty eroding confidence in stable energy markets. When investors fear supply interruptions or shipping disruptions, refiner margins typically compress because input costs rise faster than refining profits can keep pace.",
+  "fetchedAt": "2026-11-21T14:09:25.438947+00:00",
+  "text": "Marathon Petroleum stock fell 0.2% today, capping a sharp 1.5% decline over two weeks. The stock has been hammered since mid-November, dropping roughly $47 per share from $414 to $367. The trigger appears to be a combination of factors: oil prices have softened (US crude around $89.50, down from levels that would have supported higher refining margins), and the geopolitical uncertainty in the Strait of Hormuz noted on November 18th\u2014a key shipping chokepoint for global energy\u2014has weighed on energy sector confidence without pushing prices high enough to help refiners' profit margins.\n\nRefinery utilization remains robust at 95.7%, so the problem isn't lack of work. Rather, refiners like Marathon profit most when the gap between crude input costs and product prices widens; softer oil prices and ample inventory levels (gasoline and diesel storage both elevated) suggest that margin compression has pressured the entire sector. The geopolitical stress in the Middle East, combined with European energy tightness, creates uncertainty rather than the sustained price rally that would typically benefit a large refiner.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 211,
-    "inputTokens": 185585,
-    "outputTokens": 45565,
-    "estimatedCostUsd": 0.41341,
-    "lastCallHour": "2026-11-21T05"
+    "callsThisMonth": 212,
+    "inputTokens": 186510,
+    "outputTokens": 45815,
+    "estimatedCostUsd": 0.415585,
+    "lastCallHour": "2026-11-21T14"
   }
 }
