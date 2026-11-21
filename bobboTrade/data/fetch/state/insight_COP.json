@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-20T23:39:18.681881+00:00",
-  "text": "ConocoPhillips rose 0.89% today to $136.19, bouncing back after a sharp 3.9% drop on November 18th. The recovery comes as oil prices stabilized\u2014U.S. crude is trading at $89.53 per barrel today, up from the lows that followed the Iran-Kuwait tensions and geopolitical uncertainty in the Strait of Hormuz earlier this week. The company benefits from higher global oil prices (at $92.94 per barrel) and signs that energy demand remains robust, particularly as the AI data center boom is expected to nearly double global electricity needs by 2030.\n\nThe permitting reform bill that passed the Senate this week also works in the energy sector's favor, potentially easing project development timelines. Combined with stabilizing crude prices and ongoing Middle East tensions that keep energy supplies uncertain, this provides some support for oil majors like ConocoPhillips.",
+  "fetchedAt": "2026-11-21T05:28:56.679002+00:00",
+  "text": "ConocoPhillips rose 0.89% today to $136.19, recovering modestly from a sharp drop two days earlier. The stock bounced back as oil prices stabilized\u2014US crude holding at $89.53 per barrel and global crude at $92.94\u2014after geopolitical tension in the Middle East had rattled energy markets. Last Monday's 3.8% plunge followed reports of Iranian attacks on US installations in the Gulf, which raised concerns about potential disruptions to oil supply routes through the Strait of Hormuz.\n\nThe underlying picture for energy companies remains mixed. While the IEA warned that the Iran conflict has damaged confidence in the Strait of Hormuz as a reliable corridor, potential tailwinds are building: a Senate permitting reform bill just passed that could speed up energy projects, and long-term electricity demand is expected to surge as data centers expand to support AI growth. These competing forces\u2014geopolitical risk pulling prices down, but structural demand and policy support pointing upward\u2014explain why ConocoPhillips has been volatile over the past week rather than trending decisively in either direction.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 208,
-    "inputTokens": 171184,
-    "outputTokens": 43037,
-    "estimatedCostUsd": 0.386369,
-    "lastCallHour": "2026-11-20T23"
+    "callsThisMonth": 209,
+    "inputTokens": 172051,
+    "outputTokens": 43281,
+    "estimatedCostUsd": 0.388456,
+    "lastCallHour": "2026-11-21T05"
   }
 }

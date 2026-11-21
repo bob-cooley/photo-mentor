@@ -1,7 +1,7 @@
 {
   "payload": {
     "ticker": "MPC",
-    "fetchedAt": "2026-11-20T23:39:38.508009+00:00",
+    "fetchedAt": "2026-11-21T05:29:16.995479+00:00",
     "source": "finance.yahoo.com",
     "windowDays": 60,
     "status": "ok",
@@ -115,16 +115,6 @@
         "targetAction": "Announces",
         "targetFrom": null,
         "targetTo": 413.0
-      },
-      {
-        "date": "2026-09-21",
-        "firm": "Goldman Sachs",
-        "kind": "maintained",
-        "fromGrade": "Buy",
-        "toGrade": "Buy",
-        "targetAction": "Raises",
-        "targetFrom": 376.0,
-        "targetTo": 472.0
       }
     ]
   }

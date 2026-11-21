@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-20T23:39:50.800359+00:00",
-  "text": "Marathon Petroleum's stock has dropped sharply over the past week\u2014down nearly 1.5% over two weeks and falling steeply since November 13\u2014despite refineries running at a healthy 95.7% capacity. The core problem is oil prices: US crude has fallen to $89.53 per barrel, and that lower feedstock cost directly shrinks refiner profit margins (the difference between what they pay for crude and what they earn selling refined products). At the same time, storage levels for gasoline and diesel remain elevated, which signals weak demand and puts additional pressure on the prices refiners can charge.\n\nThe geopolitical uncertainty around Iran and the Strait of Hormuz, while historically bullish for oil prices, hasn't been enough to offset the demand weakness reflected in those stockpiles. The broader market concern\u2014visible in energy sector weakness\u2014appears to be that slowing or stalled economic growth will keep fuel consumption depressed, squeezing refiner economics even as they run at full tilt.",
+  "fetchedAt": "2026-11-21T05:29:26.521350+00:00",
+  "text": "Marathon Petroleum stock fell nearly 14% over two weeks, with today's modest decline continuing a sharp selloff that accelerated starting November 17th. The timing and magnitude of the drop align with escalating geopolitical tensions in the Middle East\u2014Iran's attacks on U.S. and allied targets in the Gulf region threaten the Strait of Hormuz, a critical chokepoint for global oil shipments. Despite refineries running at nearly 96% capacity and storage levels that remain elevated, the market is pricing in disruption risk to energy supplies and trade flows, which would hit a major U.S. refiner's ability to source crude and move products.\n\nThe broader concern appears to be less about current oil prices\u2014which remain in the low $90s per barrel globally\u2014and more about geopolitical uncertainty eroding confidence in stable energy markets. When investors fear supply interruptions or shipping disruptions, refiner margins typically compress because input costs rise faster than refining profits can keep pace.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 210,
-    "inputTokens": 184655,
-    "outputTokens": 45353,
-    "estimatedCostUsd": 0.41142,
-    "lastCallHour": "2026-11-20T23"
+    "callsThisMonth": 211,
+    "inputTokens": 185585,
+    "outputTokens": 45565,
+    "estimatedCostUsd": 0.41341,
+    "lastCallHour": "2026-11-21T05"
   }
 }
