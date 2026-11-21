@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-21T14:09:25.438947+00:00",
-  "text": "Marathon Petroleum stock fell 0.2% today, capping a sharp 1.5% decline over two weeks. The stock has been hammered since mid-November, dropping roughly $47 per share from $414 to $367. The trigger appears to be a combination of factors: oil prices have softened (US crude around $89.50, down from levels that would have supported higher refining margins), and the geopolitical uncertainty in the Strait of Hormuz noted on November 18th\u2014a key shipping chokepoint for global energy\u2014has weighed on energy sector confidence without pushing prices high enough to help refiners' profit margins.\n\nRefinery utilization remains robust at 95.7%, so the problem isn't lack of work. Rather, refiners like Marathon profit most when the gap between crude input costs and product prices widens; softer oil prices and ample inventory levels (gasoline and diesel storage both elevated) suggest that margin compression has pressured the entire sector. The geopolitical stress in the Middle East, combined with European energy tightness, creates uncertainty rather than the sustained price rally that would typically benefit a large refiner.",
+  "fetchedAt": "2026-11-21T20:46:50.565107+00:00",
+  "text": "Marathon Petroleum shares fell 0.2% today to $367.19, continuing a sharp decline over the past week (down 1.5% in two weeks and nearly 11% since November 13). The drop reflects weakness in refining margins: crude oil prices have retreated to $89.53 per barrel while refineries are running at high capacity (95.7%), which typically squeezes the profit refiners make on each barrel processed. Gasoline and diesel storage levels remain elevated, adding further downward pressure on refined product prices.\n\nThe broader concern is a cooling demand outlook. While permitting reforms and Europe's gas crisis create some longer-term tailwinds for energy infrastructure, the immediate near-term signals point downward\u2014geopolitical risks in the Strait of Hormuz and energy supply concerns are not translating into stronger crude prices right now, and high refinery utilization combined with ample product inventories suggests refiners are racing to convert crude to fuel in a market with limited pricing power.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 212,
-    "inputTokens": 186510,
-    "outputTokens": 45815,
-    "estimatedCostUsd": 0.415585,
-    "lastCallHour": "2026-11-21T14"
+    "callsThisMonth": 213,
+    "inputTokens": 187435,
+    "outputTokens": 46033,
+    "estimatedCostUsd": 0.4176,
+    "lastCallHour": "2026-11-21T20"
   }
 }

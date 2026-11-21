@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-21T14:08:49.677193+00:00",
-  "text": "ConocoPhillips rose 0.84% today to $136.12, recovering from a sharp four-day decline that had knocked the stock down nearly $8 from mid-month highs. The bounce follows a stabilization in oil prices\u2014US crude sitting at $89.53 per barrel today, up modestly from the lows earlier this week\u2014and comes on the heels of Senate passage of the BAAJA permitting reform bill, which removes barriers for energy projects and infrastructure development that major producers like ConocoPhillips rely on to expand operations.\n\nThe broader backdrop remains mixed. Europe's energy crunch from depleted gas stocks and a weakening polar vortex could eventually support energy prices, but the recent geopolitical strain on the Strait of Hormuz corridor\u2014which the IEA says has damaged confidence in Middle Eastern oil supply reliability\u2014has not yet translated into a sustained oil rally strong enough to lift the stock back to its November highs.",
+  "fetchedAt": "2026-11-21T20:46:18.277549+00:00",
+  "text": "ConocoPhillips rose 0.84% today, recovering from a sharp four-day slide that saw the stock drop 5.6% from $142.28 to $134.40 between November 13 and 18. The rebound appears tied to stabilizing oil prices and potential tailwinds for U.S. energy producers: crude is holding near $90 per barrel, and the Senate just passed a major permitting reform bill that would streamline project approvals for energy and AI infrastructure\u2014a significant win for large integrated oil companies looking to expand operations.\n\nThe broader backdrop also turned somewhat supportive. Geopolitical tensions in the Middle East continue to threaten oil supply routes (the IEA warned of lost confidence in the Strait of Hormuz), and Europe faces a sharp energy crunch heading into winter with depleted gas stocks and cold weather potentially driving up global energy demand. These structural pressures on energy supply, combined with the permitting reform momentum, likely helped reverse the stock's recent losses.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 210,
-    "inputTokens": 172914,
-    "outputTokens": 43492,
-    "estimatedCostUsd": 0.390374,
-    "lastCallHour": "2026-11-21T14"
+    "callsThisMonth": 211,
+    "inputTokens": 173777,
+    "outputTokens": 43713,
+    "estimatedCostUsd": 0.392342,
+    "lastCallHour": "2026-11-21T20"
   }
 }
