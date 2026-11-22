@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T19:01:29.508375+00:00",
-  "text": "COP rose 0.84% today to $136.12, recovering modestly from a sharp drop two days earlier when the stock fell nearly $5. The bounce appears tied to a combination of geopolitical tension in the Middle East\u2014with reports of Iranian-backed drone and projectile attacks on Saudi Arabia and Bahrain\u2014which typically supports oil prices, and broader energy demand signals from the IEA warning that data center electricity use could double by 2030, adding structural pressure on global energy supply. Oil prices remain elevated at nearly $90 per barrel domestically and $93 globally, providing a steady backdrop for an oil major's earnings.\n\nThe stock had fallen sharply from $142 just a week ago, so today's gain reads as a partial stabilization rather than a fresh breakout. Geopolitical risk premiums in oil markets can be fleeting, but the longer-term demand story\u2014from AI data centers, constrained European gas supplies heading into winter, and potential U.S. interest rate shifts\u2014continues to undergird energy valuations.",
+  "fetchedAt": "2026-11-22T20:01:17.931893+00:00",
+  "text": "ConocoPhillips recovered 0.84% today, climbing back to $136.12 after hitting $134.40 yesterday\u2014the low point of a sharp four-day slide from $142.28 last Thursday. The bounce likely reflects the geopolitical tensions in the Middle East: reports of Iranian and Houthi attacks on Saudi Arabia and Bahrain over the past day can tighten oil markets on supply-disruption fears, and WTI crude sitting near $90 per barrel provides a floor that supports energy stocks even after recent weakness.\n\nThe stock has surrendered ground as a broader energy sell-off, but the news today about rising electricity demand from data centers and potential European gas shortages from depleted winter storage could underpin longer-term demand for energy supplies\u2014though today's small recovery suggests investors remain cautious about near-term direction.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 220,
-    "inputTokens": 181532,
-    "outputTokens": 45686,
-    "estimatedCostUsd": 0.409962,
-    "lastCallHour": "2026-11-22T19"
+    "callsThisMonth": 221,
+    "inputTokens": 182389,
+    "outputTokens": 45874,
+    "estimatedCostUsd": 0.411759,
+    "lastCallHour": "2026-11-22T20"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T19:02:04.250177+00:00",
-  "text": "Marathon Petroleum's stock fell 0.2% today, capping a sharper 1.5% decline over two weeks as crude oil prices have dropped from $414.64 on November 13 to $367.19 today. The underlying driver is the retreat in U.S. oil prices to $89.53 per barrel \u2014 refiners' profit margins depend directly on the spread between crude input costs and refined product prices, so lower crude prices reduce that spread and compress refinery earnings. Refineries are running at high capacity (95.7%), but that activity only benefits a refiner if the margin is wide enough to cover costs and generate profit.\n\nGeopolitical risk in the Middle East \u2014 fresh drone and projectile attacks between Iran-backed forces and Saudi Arabia \u2014 has not been enough to push prices higher or sustain the two-week selloff, suggesting markets may be pricing in either supply assurances or a belief that tensions won't escalate into broader disruptions. The permitting reform bill that passed the Senate this week should help energy projects long-term, but it doesn't address the immediate headwind of lower crude valuations bearing down on refinery margins right now.",
+  "fetchedAt": "2026-11-22T20:01:51.701563+00:00",
+  "text": "Marathon Petroleum's stock has fallen sharply over the past week\u2014dropping roughly 11% from its mid-November high\u2014with today's small decline continuing that downtrend. The steepest drops came on November 18th and 19th, coinciding with crude oil prices sliding from around $95 to below $90 per barrel. Refinery utilization remains healthy at 95.7%, but the weakness in oil prices directly cuts into refinery margins (the difference between what crude costs and what finished products like gasoline sell for), which is the core driver of refiner profitability.\n\nThe broader context is that geopolitical risk premiums in oil prices appear to be fading despite attacks by Iranian-backed forces on Saudi Arabia and Bahrain this week. When those risk events don't trigger sustained price rallies, it signals the market sees supply disruptions as unlikely, leaving refiners exposed to the simpler math of lower crude input costs translating into lower product margins rather than windfall profits.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 222,
-    "inputTokens": 195756,
-    "outputTokens": 48086,
-    "estimatedCostUsd": 0.436186,
-    "lastCallHour": "2026-11-22T19"
+    "callsThisMonth": 223,
+    "inputTokens": 196679,
+    "outputTokens": 48302,
+    "estimatedCostUsd": 0.438189,
+    "lastCallHour": "2026-11-22T20"
   }
 }
