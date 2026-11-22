@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T00:55:46.168795+00:00",
-  "text": "Marathon Petroleum stock fell 0.20% today and 1.49% over two weeks, as refiners face margin pressure from weak crude oil pricing and demand signals. US oil dropped to $89.53 per barrel while refineries are running at high capacity (95.7%), a combination that squeezes the profit refiners make on each barrel processed\u2014the spread between what they pay for crude and what they sell refined products for typically narrows when oil is cheap and supply is plentiful. Even the strong refinery utilization rate can't offset this headwind when input costs fall faster than output prices.\n\nThe broader energy landscape offers mixed signals for refiners. Diesel prices remain elevated in some regions (driving UK inflation higher), and geopolitical tensions in the Strait of Hormuz are creating long-term supply-chain uncertainty, but neither is translating into an immediate demand boost strong enough to lift margins. The recent permitting reform passage could eventually help energy infrastructure projects, but that's a future benefit\u2014today's price action reflects the immediate squeeze refiners are experiencing.",
+  "fetchedAt": "2026-11-22T07:44:54.939546+00:00",
+  "text": "Marathon Petroleum stock fell 0.2% today to $367.19, extending a sharp two-week decline of 1.5%. The drop reflects the broader weakness in refining margins over the past week: US crude oil prices fell from $95+ per barrel earlier this month to $89.53 today, while refineries are running at 95.7% capacity with gasoline and diesel inventories elevated. When oil prices drop faster than refining demand can absorb the supply, margins compress and profitability pressure hits refiners directly.\n\nThe geopolitical risk story that boosted oil prices earlier this month\u2014the Iran conflict threatening the Strait of Hormuz shipping lane\u2014has not prevented the recent selloff, suggesting markets may be pricing in either supply resilience or a shift away from immediate crisis concerns. With data center electricity demand expected to surge and energy infrastructure getting renewed permitting attention, the refining sector is caught between near-term margin headwinds and longer-term structural questions about fuel demand.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 214,
-    "inputTokens": 188360,
-    "outputTokens": 46262,
-    "estimatedCostUsd": 0.41967,
-    "lastCallHour": "2026-11-22T00"
+    "callsThisMonth": 215,
+    "inputTokens": 189289,
+    "outputTokens": 46478,
+    "estimatedCostUsd": 0.421679,
+    "lastCallHour": "2026-11-22T07"
   }
 }

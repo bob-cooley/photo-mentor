@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T00:55:13.819157+00:00",
-  "text": "ConocoPhillips gained 0.84% today, recovering modestly after a sharp 3.8% drop on November 18th. The rebound comes as oil prices stabilized\u2014US crude holding at $89.53 per barrel and world oil at $92.94\u2014following concerns about Middle Eastern supply disruptions and tightening European energy markets. The stock has found a floor around $134\u2013$136 after falling from $142 just a week ago, suggesting some stabilization in investor sentiment.\n\nThe underlying driver for the week's volatility appears rooted in geopolitical risk: the Iran conflict has damaged confidence in the Strait of Hormuz as a reliable shipping route for oil, raising questions about future supply reliability. Meanwhile, emerging pressure on energy infrastructure\u2014from Europe's depleted gas stocks facing cold weather, to surging data center electricity demands\u2014creates longer-term tailwinds for traditional energy producers, even if near-term market swings remain volatile.",
+  "fetchedAt": "2026-11-22T07:44:25.716623+00:00",
+  "text": "COP rose 0.84% to $136.12 today, recovering modestly from a sharp four-day drop that saw the stock fall 5.6% from $142.28 on November 13th to $134.40 on November 18th. The recovery follows stabilization in oil prices\u2014US crude is now trading at $89.53 per barrel, while global oil stands at $92.94\u2014suggesting the panic selling that drove the earlier decline has eased somewhat, though the stock remains well below where it started the two-week period.\n\nThe broader energy sector faces crosscurrents: geopolitical risk in the Middle East (the Strait of Hormuz facing reliability concerns after the Iran war) supports crude prices going forward, while simultaneously, long-term demand pressures are building from energy-intensive AI and data-center expansion that could reshape power grids over the next four years. Near-term European gas stress from low storage and cold weather also supports energy prices, but these moves appear to be reflected incrementally rather than driving sharp daily swings for large-cap oil producers.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 212,
-    "inputTokens": 174640,
-    "outputTokens": 43924,
-    "estimatedCostUsd": 0.39426,
-    "lastCallHour": "2026-11-22T00"
+    "callsThisMonth": 213,
+    "inputTokens": 175507,
+    "outputTokens": 44162,
+    "estimatedCostUsd": 0.396317,
+    "lastCallHour": "2026-11-22T07"
   }
 }
