@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T14:01:44.376494+00:00",
-  "text": "ConocoPhillips rose 0.84% today to $136.12, recovering from a sharp five-day drop that had knocked the stock down nearly 5% from $142.28. The rebound appears tied to escalating tensions in the Middle East: Saudi Arabia and Bahrain reported new attacks involving Iranian-backed forces and Iranian projectiles on November 22nd, which typically tightens oil markets and supports energy company valuations. US crude is trading around $89.50 per barrel, holding steady after the recent slide.\n\nThe broader energy backdrop also shifted in the company's favor this week. Senate passage of permitting reform backed by the energy sector on November 20th removes a regulatory hurdle for future projects, while longer-term demand tailwinds\u2014data center electricity consumption potentially doubling by 2030, and Europe facing tight gas supplies heading into winter\u2014suggest sustained pressure on energy supply chains ahead.",
+  "fetchedAt": "2026-11-22T15:01:13.627185+00:00",
+  "text": "ConocoPhillips gained 0.84% today, recovering from a sharp drop on November 18th (when the stock fell 3.8%) and clawing back to near last week's levels. The bounce follows a stabilization in oil prices\u2014US crude is holding at $89.53 per barrel after earlier weakness\u2014and comes as geopolitical tensions in the Middle East briefly resurfaced with reported attacks between Iran-backed forces and Saudi Arabia. While the immediate news doesn't eliminate the downside risk these tensions represent, the lack of a major supply disruption has allowed prices and the stock to settle.\n\nThe recovery also reflects growing structural tailwinds for energy companies: permitting reform just passed the Senate with backing from both AI and energy sectors, potentially easing development constraints, and long-term demand indicators remain supportive as data center electricity use is expected to double by 2030. These factors may be underpinning confidence in the sector even as near-term volatility persists.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 215,
-    "inputTokens": 177235,
-    "outputTokens": 44543,
-    "estimatedCostUsd": 0.39995,
-    "lastCallHour": "2026-11-22T14"
+    "callsThisMonth": 216,
+    "inputTokens": 178096,
+    "outputTokens": 44758,
+    "estimatedCostUsd": 0.401886,
+    "lastCallHour": "2026-11-22T15"
   }
 }

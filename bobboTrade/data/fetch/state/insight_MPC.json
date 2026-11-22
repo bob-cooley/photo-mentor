@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T14:02:24.799851+00:00",
-  "text": "Marathon Petroleum's stock fell sharply over the past week\u2014dropping nearly 11% from $414.65 to $367.19\u2014and today it continued that slide, losing another 0.2%. The decline coincides with crude oil prices falling from around $100+ per barrel two weeks ago to $89.53 today, a move that directly pressures refiners' profit margins. While US refineries are running at a healthy 95.7% capacity, the lower crude prices reduce the spread between what refiners pay for oil and what they can sell refined products for, which is core to their earnings.\n\nBroader energy market shifts are adding headwinds. The emerging focus on renewable energy infrastructure (data center power, grid optimization, hydrogen catalysts) and new permitting rules could signal longer-term pressure on traditional refining demand, even as the geopolitical flare-ups in the Middle East haven't yet spiked oil prices higher to offset those concerns.",
+  "fetchedAt": "2026-11-22T15:01:50.987565+00:00",
+  "text": "Marathon Petroleum's stock fell 1.5% over two weeks and dipped slightly today, driven by a sharp selloff earlier this week that wiped out $41 per share in four days (November 13\u201318). The trigger appears to be deteriorating crude oil prices: US oil dropped from above $100 per barrel in early November to $89.53 today, compressing refining margins\u2014the profit a refiner makes by turning crude into gasoline and diesel. Refineries are still running near capacity at 95.7%, but lower crude prices and steady fuel inventories (gasoline and diesel storage both ample) mean less room to make money on each barrel processed.\n\nThe broader energy sector is in flux: Middle Eastern tensions are simmering rather than escalating (Saudi Arabia and Iran both signaling some openness to negotiation), so geopolitical risk to oil supply is muted for now. Meanwhile, long-term structural headwinds loom\u2014data center electricity demand could double by 2030, potentially shifting investment away from traditional energy infrastructure, and new permitting reforms may ease deployment of renewable alternatives.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 217,
-    "inputTokens": 191141,
-    "outputTokens": 46900,
-    "estimatedCostUsd": 0.425641,
-    "lastCallHour": "2026-11-22T14"
+    "callsThisMonth": 218,
+    "inputTokens": 192064,
+    "outputTokens": 47141,
+    "estimatedCostUsd": 0.427769,
+    "lastCallHour": "2026-11-22T15"
   }
 }
