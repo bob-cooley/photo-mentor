@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T16:02:11.157090+00:00",
-  "text": "Marathon Petroleum's stock has fallen sharply over the past week\u2014dropping roughly 11% from November 13 to today\u2014despite today's move being nearly flat. The main driver appears to be the collapse in crude oil prices: US oil fell from above $100 a barrel earlier this month to $89.53 today, a drop of roughly 10%. Refiners like Marathon make money on the spread between the crude they buy and the refined products (gasoline, diesel) they sell; when crude prices fall faster than product prices follow, that margin compresses, hurting profitability.\n\nThe broader concern is that geopolitical risk\u2014which had been supporting oil prices\u2014is fading. Reports of Iran-backed attacks on Saudi Arabia and Bahrain briefly kept energy markets elevated, but those concerns don't appear to have stuck. With refineries already running at a healthy 95.7% capacity and storage levels stable, there's no supply-side tightness to prop up prices either, leaving crude vulnerable to demand concerns or shifts in investor positioning.",
+  "fetchedAt": "2026-11-22T17:01:46.395680+00:00",
+  "text": "Marathon Petroleum fell 0.2% today to $367.19, extending a sharp two-week decline of 1.5%. The stock has dropped roughly 11% since mid-November, tracking a significant selloff in oil refining stocks that follows crude oil sliding from around $80 to roughly $90 per barrel over the same period. While U.S. oil prices stabilized near $89.50 today, the refining sector's weakness reflects the reality that lower crude prices shrink margins\u2014the difference between what refiners pay for raw oil and what they sell refined products for\u2014even as refinery utilization remains healthy at 95.7%.\n\nThe geopolitical tensions between Iran, Saudi Arabia, and Bahrain reported today didn't reverse the downward momentum, suggesting markets have already priced in oil supply risk. The permitting reform bill that passed the Senate could eventually ease long-term energy infrastructure costs, but those gains lie too far ahead to support refiner valuations in the face of near-term margin pressure from lower crude costs and ample product inventories\u2014gasoline storage remains elevated at 216 million barrels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 219,
-    "inputTokens": 192987,
-    "outputTokens": 47366,
-    "estimatedCostUsd": 0.429817,
-    "lastCallHour": "2026-11-22T16"
+    "callsThisMonth": 220,
+    "inputTokens": 193910,
+    "outputTokens": 47611,
+    "estimatedCostUsd": 0.431965,
+    "lastCallHour": "2026-11-22T17"
   }
 }

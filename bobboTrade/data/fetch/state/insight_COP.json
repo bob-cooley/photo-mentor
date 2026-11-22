@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T16:01:29.090497+00:00",
-  "text": "ConocoPhillips rose 0.84% today, recovering modestly from a sharp four-day drop that saw the stock lose $7.89 (5.5%) between November 13 and November 18. The bounce came as oil prices stabilized: US crude held at $89.53 per barrel while Brent crude sat at $92.94, supported by fresh geopolitical tension in the Middle East\u2014reports of Iranian and Houthi drone and projectile attacks on Saudi Arabia and Bahrain over the weekend. After a week of losses tied to broader energy weakness, the stock is reclaiming some ground on signs that supply disruption risks remain live.\n\nThe recovery is modest and the stock remains down sharply from last week's levels, suggesting investors are still cautious despite the geopolitical headlines. Longer-term tailwinds for large oil producers\u2014surging electricity demand from data centers, Europe's tight gas markets heading into winter, and permitting reform passing the Senate\u2014may eventually support the sector, but they haven't offset the near-term headwinds that drove last week's selloff.",
+  "fetchedAt": "2026-11-22T17:01:15.862817+00:00",
+  "text": "COP gained 0.84% today, recovering from a sharp drop on November 18th when the stock fell nearly $5 (3.7%). The bounce follows a modest uptick in U.S. oil prices to $89.53 per barrel, though this remains well below the $142+ levels from earlier this month. The rebound also comes as geopolitical tensions in the Middle East resurface\u2014Saudi Arabia and Bahrain reported new attacks linked to Iran and Iranian-backed forces\u2014which historically can support oil prices by raising concerns about supply disruption, even if prices haven't spiked dramatically in response yet.\n\nThe broader energy backdrop remains supportive for oil companies: Europe is facing tight gas markets due to low storage and cold weather, data centers are driving a structural increase in electricity demand, and the Senate passed permitting reform that could accelerate energy infrastructure projects. These trends underpin long-term demand for oil and gas, though near-term sentiment appears cautious given the two-week chart showing COP essentially flat despite the recent volatility.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 217,
-    "inputTokens": 178957,
-    "outputTokens": 45001,
-    "estimatedCostUsd": 0.403962,
-    "lastCallHour": "2026-11-22T16"
+    "callsThisMonth": 218,
+    "inputTokens": 179818,
+    "outputTokens": 45227,
+    "estimatedCostUsd": 0.405953,
+    "lastCallHour": "2026-11-22T17"
   }
 }
