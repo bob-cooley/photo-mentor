@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T20:01:51.701563+00:00",
-  "text": "Marathon Petroleum's stock has fallen sharply over the past week\u2014dropping roughly 11% from its mid-November high\u2014with today's small decline continuing that downtrend. The steepest drops came on November 18th and 19th, coinciding with crude oil prices sliding from around $95 to below $90 per barrel. Refinery utilization remains healthy at 95.7%, but the weakness in oil prices directly cuts into refinery margins (the difference between what crude costs and what finished products like gasoline sell for), which is the core driver of refiner profitability.\n\nThe broader context is that geopolitical risk premiums in oil prices appear to be fading despite attacks by Iranian-backed forces on Saudi Arabia and Bahrain this week. When those risk events don't trigger sustained price rallies, it signals the market sees supply disruptions as unlikely, leaving refiners exposed to the simpler math of lower crude input costs translating into lower product margins rather than windfall profits.",
+  "fetchedAt": "2026-11-22T21:02:25.263043+00:00",
+  "text": "Marathon Petroleum's stock fell sharply over the past week\u2014dropping nearly $48 from its November 13 close to today's $367.19\u2014despite today's move being small. The main driver is crude oil prices, which have declined from levels that would have been around $95\u2013100 two weeks ago to $89.53 per barrel today, squeezing refinery profit margins. Refineries run at 95.7% capacity, and while storage levels remain normal, the downward oil price trend removes the tailwind that had supported energy stocks earlier in the month.\n\nThe broader headwind is geopolitical uncertainty without a clear spark. Reports of Iranian and Houthi attacks on Saudi and Bahraini facilities early this week (November 22) haven't driven oil higher as they might have in past crises, suggesting markets are treating the risk as contained or priced in. That lack of a supply shock, combined with crude's steady decline, has weighed on refining stocks more than any single company-specific news has helped.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 223,
-    "inputTokens": 196679,
-    "outputTokens": 48302,
-    "estimatedCostUsd": 0.438189,
-    "lastCallHour": "2026-11-22T20"
+    "callsThisMonth": 224,
+    "inputTokens": 197602,
+    "outputTokens": 48527,
+    "estimatedCostUsd": 0.440237,
+    "lastCallHour": "2026-11-22T21"
   }
 }
