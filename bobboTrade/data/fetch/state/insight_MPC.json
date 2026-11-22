@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T13:02:35.436530+00:00",
-  "text": "Marathon Petroleum stock has fallen 1.5% over two weeks and declined slightly again today, tracking a broader slide since late November. The main driver is oil prices: US crude has dropped to $89.53 per barrel from above $100 just weeks ago, which directly erodes refinery margins (the profit refiners make by turning crude into fuel). Refineries are running at 95.7% capacity\u2014near maximum\u2014so there's limited room to boost profits through higher throughput, leaving them exposed to commodity price swings.\n\nThe backdrop is a shift in market focus away from energy supply fears. Earlier concerns about Middle Eastern conflict disrupting the Strait of Hormuz have faded from headlines, and looser financial conditions are redirecting investor attention toward technology (data centers, quantum computing) rather than fossil fuels. With oil storage at comfortable levels (694 million barrels) and no acute supply crunch, the near-term narrative no longer supports higher energy prices or refiner valuations.",
+  "fetchedAt": "2026-11-22T14:02:24.799851+00:00",
+  "text": "Marathon Petroleum's stock fell sharply over the past week\u2014dropping nearly 11% from $414.65 to $367.19\u2014and today it continued that slide, losing another 0.2%. The decline coincides with crude oil prices falling from around $100+ per barrel two weeks ago to $89.53 today, a move that directly pressures refiners' profit margins. While US refineries are running at a healthy 95.7% capacity, the lower crude prices reduce the spread between what refiners pay for oil and what they can sell refined products for, which is core to their earnings.\n\nBroader energy market shifts are adding headwinds. The emerging focus on renewable energy infrastructure (data center power, grid optimization, hydrogen catalysts) and new permitting rules could signal longer-term pressure on traditional refining demand, even as the geopolitical flare-ups in the Middle East haven't yet spiked oil prices higher to offset those concerns.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 216,
-    "inputTokens": 190218,
-    "outputTokens": 46692,
-    "estimatedCostUsd": 0.423678,
-    "lastCallHour": "2026-11-22T13"
+    "callsThisMonth": 217,
+    "inputTokens": 191141,
+    "outputTokens": 46900,
+    "estimatedCostUsd": 0.425641,
+    "lastCallHour": "2026-11-22T14"
   }
 }
