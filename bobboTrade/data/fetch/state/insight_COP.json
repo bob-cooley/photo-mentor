@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T07:44:25.716623+00:00",
-  "text": "COP rose 0.84% to $136.12 today, recovering modestly from a sharp four-day drop that saw the stock fall 5.6% from $142.28 on November 13th to $134.40 on November 18th. The recovery follows stabilization in oil prices\u2014US crude is now trading at $89.53 per barrel, while global oil stands at $92.94\u2014suggesting the panic selling that drove the earlier decline has eased somewhat, though the stock remains well below where it started the two-week period.\n\nThe broader energy sector faces crosscurrents: geopolitical risk in the Middle East (the Strait of Hormuz facing reliability concerns after the Iran war) supports crude prices going forward, while simultaneously, long-term demand pressures are building from energy-intensive AI and data-center expansion that could reshape power grids over the next four years. Near-term European gas stress from low storage and cold weather also supports energy prices, but these moves appear to be reflected incrementally rather than driving sharp daily swings for large-cap oil producers.",
+  "fetchedAt": "2026-11-22T13:01:57.517039+00:00",
+  "text": "ConocoPhillips bounced back 0.84% today to $136.12, recovering from a sharp 3.6% drop on November 18th. The recovery comes as oil prices stabilized: US crude settled at $89.53 per barrel today, up from the lows that accompanied the recent selloff. The stock has clawed back most of its week-over-week losses, suggesting buyers saw the recent decline as overdone given steady energy prices.\n\nThe broader energy backdrop remains supportive for a major oil producer. Europe's gas storage concerns heading into winter, potential strains on global electricity grids from data center demand, and the IEA's warning that Middle Eastern supply corridors face persistent uncertainty all point to structural tightness in energy markets\u2014the kind of environment that typically supports oil companies' economics over the medium term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 213,
-    "inputTokens": 175507,
-    "outputTokens": 44162,
-    "estimatedCostUsd": 0.396317,
-    "lastCallHour": "2026-11-22T07"
+    "callsThisMonth": 214,
+    "inputTokens": 176374,
+    "outputTokens": 44345,
+    "estimatedCostUsd": 0.398099,
+    "lastCallHour": "2026-11-22T13"
   }
 }

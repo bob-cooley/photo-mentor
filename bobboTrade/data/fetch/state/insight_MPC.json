@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T07:44:54.939546+00:00",
-  "text": "Marathon Petroleum stock fell 0.2% today to $367.19, extending a sharp two-week decline of 1.5%. The drop reflects the broader weakness in refining margins over the past week: US crude oil prices fell from $95+ per barrel earlier this month to $89.53 today, while refineries are running at 95.7% capacity with gasoline and diesel inventories elevated. When oil prices drop faster than refining demand can absorb the supply, margins compress and profitability pressure hits refiners directly.\n\nThe geopolitical risk story that boosted oil prices earlier this month\u2014the Iran conflict threatening the Strait of Hormuz shipping lane\u2014has not prevented the recent selloff, suggesting markets may be pricing in either supply resilience or a shift away from immediate crisis concerns. With data center electricity demand expected to surge and energy infrastructure getting renewed permitting attention, the refining sector is caught between near-term margin headwinds and longer-term structural questions about fuel demand.",
+  "fetchedAt": "2026-11-22T13:02:35.436530+00:00",
+  "text": "Marathon Petroleum stock has fallen 1.5% over two weeks and declined slightly again today, tracking a broader slide since late November. The main driver is oil prices: US crude has dropped to $89.53 per barrel from above $100 just weeks ago, which directly erodes refinery margins (the profit refiners make by turning crude into fuel). Refineries are running at 95.7% capacity\u2014near maximum\u2014so there's limited room to boost profits through higher throughput, leaving them exposed to commodity price swings.\n\nThe backdrop is a shift in market focus away from energy supply fears. Earlier concerns about Middle Eastern conflict disrupting the Strait of Hormuz have faded from headlines, and looser financial conditions are redirecting investor attention toward technology (data centers, quantum computing) rather than fossil fuels. With oil storage at comfortable levels (694 million barrels) and no acute supply crunch, the near-term narrative no longer supports higher energy prices or refiner valuations.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 215,
-    "inputTokens": 189289,
-    "outputTokens": 46478,
-    "estimatedCostUsd": 0.421679,
-    "lastCallHour": "2026-11-22T07"
+    "callsThisMonth": 216,
+    "inputTokens": 190218,
+    "outputTokens": 46692,
+    "estimatedCostUsd": 0.423678,
+    "lastCallHour": "2026-11-22T13"
   }
 }
