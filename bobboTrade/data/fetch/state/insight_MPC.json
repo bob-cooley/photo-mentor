@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T18:01:53.612316+00:00",
-  "text": "Marathon Petroleum's stock has fallen sharply over the past week\u2014down nearly 1.5% over two weeks and dropping $47 from its peak on November 13th\u2014despite today's move being modest. The largest driver appears to be the collapse in oil prices: crude has fallen from around $95-100 per barrel (implied by the stock's prior strength) to $89.53 today, a move that directly squeezes refinery margins. While refineries are running at a healthy 95.7% capacity and storage levels remain normal, lower oil prices mean less profit per barrel processed, which is especially painful for a refiner when gasoline and diesel inventories are already relatively high.\n\nGeopolitical tensions between Iran and U.S.-aligned Gulf states, reported as recently as today, have failed to provide the oil price support that typically comes with Middle East risk. This suggests the market sees bigger headwinds\u2014potentially the global economic slowdown that would dampen fuel demand\u2014outweighing supply disruption fears.",
+  "fetchedAt": "2026-11-22T19:02:04.250177+00:00",
+  "text": "Marathon Petroleum's stock fell 0.2% today, capping a sharper 1.5% decline over two weeks as crude oil prices have dropped from $414.64 on November 13 to $367.19 today. The underlying driver is the retreat in U.S. oil prices to $89.53 per barrel \u2014 refiners' profit margins depend directly on the spread between crude input costs and refined product prices, so lower crude prices reduce that spread and compress refinery earnings. Refineries are running at high capacity (95.7%), but that activity only benefits a refiner if the margin is wide enough to cover costs and generate profit.\n\nGeopolitical risk in the Middle East \u2014 fresh drone and projectile attacks between Iran-backed forces and Saudi Arabia \u2014 has not been enough to push prices higher or sustain the two-week selloff, suggesting markets may be pricing in either supply assurances or a belief that tensions won't escalate into broader disruptions. The permitting reform bill that passed the Senate this week should help energy projects long-term, but it doesn't address the immediate headwind of lower crude valuations bearing down on refinery margins right now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 221,
-    "inputTokens": 194833,
-    "outputTokens": 47832,
-    "estimatedCostUsd": 0.433993,
-    "lastCallHour": "2026-11-22T18"
+    "callsThisMonth": 222,
+    "inputTokens": 195756,
+    "outputTokens": 48086,
+    "estimatedCostUsd": 0.436186,
+    "lastCallHour": "2026-11-22T19"
   }
 }

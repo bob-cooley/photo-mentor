@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T18:01:23.887687+00:00",
-  "text": "ConocoPhillips rose 0.84% today, recovering slightly after a sharp 3.7% drop on November 18th. The recovery appears tied to geopolitical tension in the Middle East\u2014Saudi Arabia and Bahrain reported new attacks involving Iranian-backed forces and Iranian projectiles\u2014which typically pushes oil prices higher by raising supply concerns. US crude is trading around $89.50 per barrel, though the stock remains well below its November 13th level of $142.28, suggesting the broader market has repriced energy stocks downward over the past week.\n\nEurope's depleted natural gas stocks and the threat of a polar vortex breakdown are adding structural support to energy prices, while long-term demand signals like data center electricity surging by 2030 could sustain higher energy needs. However, today's modest gain masks the fact that ConocoPhillips has lost ground overall in this two-week window, indicating that near-term geopolitical relief hasn't yet fully offset whatever pressures knocked the stock down from $142 earlier this month.",
+  "fetchedAt": "2026-11-22T19:01:29.508375+00:00",
+  "text": "COP rose 0.84% today to $136.12, recovering modestly from a sharp drop two days earlier when the stock fell nearly $5. The bounce appears tied to a combination of geopolitical tension in the Middle East\u2014with reports of Iranian-backed drone and projectile attacks on Saudi Arabia and Bahrain\u2014which typically supports oil prices, and broader energy demand signals from the IEA warning that data center electricity use could double by 2030, adding structural pressure on global energy supply. Oil prices remain elevated at nearly $90 per barrel domestically and $93 globally, providing a steady backdrop for an oil major's earnings.\n\nThe stock had fallen sharply from $142 just a week ago, so today's gain reads as a partial stabilization rather than a fresh breakout. Geopolitical risk premiums in oil markets can be fleeting, but the longer-term demand story\u2014from AI data centers, constrained European gas supplies heading into winter, and potential U.S. interest rate shifts\u2014continues to undergird energy valuations.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 219,
-    "inputTokens": 180675,
-    "outputTokens": 45459,
-    "estimatedCostUsd": 0.40797,
-    "lastCallHour": "2026-11-22T18"
+    "callsThisMonth": 220,
+    "inputTokens": 181532,
+    "outputTokens": 45686,
+    "estimatedCostUsd": 0.409962,
+    "lastCallHour": "2026-11-22T19"
   }
 }
