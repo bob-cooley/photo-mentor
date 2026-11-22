@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T17:01:15.862817+00:00",
-  "text": "COP gained 0.84% today, recovering from a sharp drop on November 18th when the stock fell nearly $5 (3.7%). The bounce follows a modest uptick in U.S. oil prices to $89.53 per barrel, though this remains well below the $142+ levels from earlier this month. The rebound also comes as geopolitical tensions in the Middle East resurface\u2014Saudi Arabia and Bahrain reported new attacks linked to Iran and Iranian-backed forces\u2014which historically can support oil prices by raising concerns about supply disruption, even if prices haven't spiked dramatically in response yet.\n\nThe broader energy backdrop remains supportive for oil companies: Europe is facing tight gas markets due to low storage and cold weather, data centers are driving a structural increase in electricity demand, and the Senate passed permitting reform that could accelerate energy infrastructure projects. These trends underpin long-term demand for oil and gas, though near-term sentiment appears cautious given the two-week chart showing COP essentially flat despite the recent volatility.",
+  "fetchedAt": "2026-11-22T18:01:23.887687+00:00",
+  "text": "ConocoPhillips rose 0.84% today, recovering slightly after a sharp 3.7% drop on November 18th. The recovery appears tied to geopolitical tension in the Middle East\u2014Saudi Arabia and Bahrain reported new attacks involving Iranian-backed forces and Iranian projectiles\u2014which typically pushes oil prices higher by raising supply concerns. US crude is trading around $89.50 per barrel, though the stock remains well below its November 13th level of $142.28, suggesting the broader market has repriced energy stocks downward over the past week.\n\nEurope's depleted natural gas stocks and the threat of a polar vortex breakdown are adding structural support to energy prices, while long-term demand signals like data center electricity surging by 2030 could sustain higher energy needs. However, today's modest gain masks the fact that ConocoPhillips has lost ground overall in this two-week window, indicating that near-term geopolitical relief hasn't yet fully offset whatever pressures knocked the stock down from $142 earlier this month.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 218,
-    "inputTokens": 179818,
-    "outputTokens": 45227,
-    "estimatedCostUsd": 0.405953,
-    "lastCallHour": "2026-11-22T17"
+    "callsThisMonth": 219,
+    "inputTokens": 180675,
+    "outputTokens": 45459,
+    "estimatedCostUsd": 0.40797,
+    "lastCallHour": "2026-11-22T18"
   }
 }

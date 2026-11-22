@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T17:01:46.395680+00:00",
-  "text": "Marathon Petroleum fell 0.2% today to $367.19, extending a sharp two-week decline of 1.5%. The stock has dropped roughly 11% since mid-November, tracking a significant selloff in oil refining stocks that follows crude oil sliding from around $80 to roughly $90 per barrel over the same period. While U.S. oil prices stabilized near $89.50 today, the refining sector's weakness reflects the reality that lower crude prices shrink margins\u2014the difference between what refiners pay for raw oil and what they sell refined products for\u2014even as refinery utilization remains healthy at 95.7%.\n\nThe geopolitical tensions between Iran, Saudi Arabia, and Bahrain reported today didn't reverse the downward momentum, suggesting markets have already priced in oil supply risk. The permitting reform bill that passed the Senate could eventually ease long-term energy infrastructure costs, but those gains lie too far ahead to support refiner valuations in the face of near-term margin pressure from lower crude costs and ample product inventories\u2014gasoline storage remains elevated at 216 million barrels.",
+  "fetchedAt": "2026-11-22T18:01:53.612316+00:00",
+  "text": "Marathon Petroleum's stock has fallen sharply over the past week\u2014down nearly 1.5% over two weeks and dropping $47 from its peak on November 13th\u2014despite today's move being modest. The largest driver appears to be the collapse in oil prices: crude has fallen from around $95-100 per barrel (implied by the stock's prior strength) to $89.53 today, a move that directly squeezes refinery margins. While refineries are running at a healthy 95.7% capacity and storage levels remain normal, lower oil prices mean less profit per barrel processed, which is especially painful for a refiner when gasoline and diesel inventories are already relatively high.\n\nGeopolitical tensions between Iran and U.S.-aligned Gulf states, reported as recently as today, have failed to provide the oil price support that typically comes with Middle East risk. This suggests the market sees bigger headwinds\u2014potentially the global economic slowdown that would dampen fuel demand\u2014outweighing supply disruption fears.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 220,
-    "inputTokens": 193910,
-    "outputTokens": 47611,
-    "estimatedCostUsd": 0.431965,
-    "lastCallHour": "2026-11-22T17"
+    "callsThisMonth": 221,
+    "inputTokens": 194833,
+    "outputTokens": 47832,
+    "estimatedCostUsd": 0.433993,
+    "lastCallHour": "2026-11-22T18"
   }
 }
