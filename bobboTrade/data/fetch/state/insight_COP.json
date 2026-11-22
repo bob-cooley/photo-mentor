@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-22T15:01:13.627185+00:00",
-  "text": "ConocoPhillips gained 0.84% today, recovering from a sharp drop on November 18th (when the stock fell 3.8%) and clawing back to near last week's levels. The bounce follows a stabilization in oil prices\u2014US crude is holding at $89.53 per barrel after earlier weakness\u2014and comes as geopolitical tensions in the Middle East briefly resurfaced with reported attacks between Iran-backed forces and Saudi Arabia. While the immediate news doesn't eliminate the downside risk these tensions represent, the lack of a major supply disruption has allowed prices and the stock to settle.\n\nThe recovery also reflects growing structural tailwinds for energy companies: permitting reform just passed the Senate with backing from both AI and energy sectors, potentially easing development constraints, and long-term demand indicators remain supportive as data center electricity use is expected to double by 2030. These factors may be underpinning confidence in the sector even as near-term volatility persists.",
+  "fetchedAt": "2026-11-22T16:01:29.090497+00:00",
+  "text": "ConocoPhillips rose 0.84% today, recovering modestly from a sharp four-day drop that saw the stock lose $7.89 (5.5%) between November 13 and November 18. The bounce came as oil prices stabilized: US crude held at $89.53 per barrel while Brent crude sat at $92.94, supported by fresh geopolitical tension in the Middle East\u2014reports of Iranian and Houthi drone and projectile attacks on Saudi Arabia and Bahrain over the weekend. After a week of losses tied to broader energy weakness, the stock is reclaiming some ground on signs that supply disruption risks remain live.\n\nThe recovery is modest and the stock remains down sharply from last week's levels, suggesting investors are still cautious despite the geopolitical headlines. Longer-term tailwinds for large oil producers\u2014surging electricity demand from data centers, Europe's tight gas markets heading into winter, and permitting reform passing the Senate\u2014may eventually support the sector, but they haven't offset the near-term headwinds that drove last week's selloff.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 216,
-    "inputTokens": 178096,
-    "outputTokens": 44758,
-    "estimatedCostUsd": 0.401886,
-    "lastCallHour": "2026-11-22T15"
+    "callsThisMonth": 217,
+    "inputTokens": 178957,
+    "outputTokens": 45001,
+    "estimatedCostUsd": 0.403962,
+    "lastCallHour": "2026-11-22T16"
   }
 }

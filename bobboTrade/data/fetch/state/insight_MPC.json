@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T15:01:50.987565+00:00",
-  "text": "Marathon Petroleum's stock fell 1.5% over two weeks and dipped slightly today, driven by a sharp selloff earlier this week that wiped out $41 per share in four days (November 13\u201318). The trigger appears to be deteriorating crude oil prices: US oil dropped from above $100 per barrel in early November to $89.53 today, compressing refining margins\u2014the profit a refiner makes by turning crude into gasoline and diesel. Refineries are still running near capacity at 95.7%, but lower crude prices and steady fuel inventories (gasoline and diesel storage both ample) mean less room to make money on each barrel processed.\n\nThe broader energy sector is in flux: Middle Eastern tensions are simmering rather than escalating (Saudi Arabia and Iran both signaling some openness to negotiation), so geopolitical risk to oil supply is muted for now. Meanwhile, long-term structural headwinds loom\u2014data center electricity demand could double by 2030, potentially shifting investment away from traditional energy infrastructure, and new permitting reforms may ease deployment of renewable alternatives.",
+  "fetchedAt": "2026-11-22T16:02:11.157090+00:00",
+  "text": "Marathon Petroleum's stock has fallen sharply over the past week\u2014dropping roughly 11% from November 13 to today\u2014despite today's move being nearly flat. The main driver appears to be the collapse in crude oil prices: US oil fell from above $100 a barrel earlier this month to $89.53 today, a drop of roughly 10%. Refiners like Marathon make money on the spread between the crude they buy and the refined products (gasoline, diesel) they sell; when crude prices fall faster than product prices follow, that margin compresses, hurting profitability.\n\nThe broader concern is that geopolitical risk\u2014which had been supporting oil prices\u2014is fading. Reports of Iran-backed attacks on Saudi Arabia and Bahrain briefly kept energy markets elevated, but those concerns don't appear to have stuck. With refineries already running at a healthy 95.7% capacity and storage levels stable, there's no supply-side tightness to prop up prices either, leaving crude vulnerable to demand concerns or shifts in investor positioning.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 218,
-    "inputTokens": 192064,
-    "outputTokens": 47141,
-    "estimatedCostUsd": 0.427769,
-    "lastCallHour": "2026-11-22T15"
+    "callsThisMonth": 219,
+    "inputTokens": 192987,
+    "outputTokens": 47366,
+    "estimatedCostUsd": 0.429817,
+    "lastCallHour": "2026-11-22T16"
   }
 }
