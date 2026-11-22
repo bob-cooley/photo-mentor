@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-21T20:46:18.277549+00:00",
-  "text": "ConocoPhillips rose 0.84% today, recovering from a sharp four-day slide that saw the stock drop 5.6% from $142.28 to $134.40 between November 13 and 18. The rebound appears tied to stabilizing oil prices and potential tailwinds for U.S. energy producers: crude is holding near $90 per barrel, and the Senate just passed a major permitting reform bill that would streamline project approvals for energy and AI infrastructure\u2014a significant win for large integrated oil companies looking to expand operations.\n\nThe broader backdrop also turned somewhat supportive. Geopolitical tensions in the Middle East continue to threaten oil supply routes (the IEA warned of lost confidence in the Strait of Hormuz), and Europe faces a sharp energy crunch heading into winter with depleted gas stocks and cold weather potentially driving up global energy demand. These structural pressures on energy supply, combined with the permitting reform momentum, likely helped reverse the stock's recent losses.",
+  "fetchedAt": "2026-11-22T00:55:13.819157+00:00",
+  "text": "ConocoPhillips gained 0.84% today, recovering modestly after a sharp 3.8% drop on November 18th. The rebound comes as oil prices stabilized\u2014US crude holding at $89.53 per barrel and world oil at $92.94\u2014following concerns about Middle Eastern supply disruptions and tightening European energy markets. The stock has found a floor around $134\u2013$136 after falling from $142 just a week ago, suggesting some stabilization in investor sentiment.\n\nThe underlying driver for the week's volatility appears rooted in geopolitical risk: the Iran conflict has damaged confidence in the Strait of Hormuz as a reliable shipping route for oil, raising questions about future supply reliability. Meanwhile, emerging pressure on energy infrastructure\u2014from Europe's depleted gas stocks facing cold weather, to surging data center electricity demands\u2014creates longer-term tailwinds for traditional energy producers, even if near-term market swings remain volatile.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 211,
-    "inputTokens": 173777,
-    "outputTokens": 43713,
-    "estimatedCostUsd": 0.392342,
-    "lastCallHour": "2026-11-21T20"
+    "callsThisMonth": 212,
+    "inputTokens": 174640,
+    "outputTokens": 43924,
+    "estimatedCostUsd": 0.39426,
+    "lastCallHour": "2026-11-22T00"
   }
 }

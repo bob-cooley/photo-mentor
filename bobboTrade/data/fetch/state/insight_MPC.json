@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-21T20:46:50.565107+00:00",
-  "text": "Marathon Petroleum shares fell 0.2% today to $367.19, continuing a sharp decline over the past week (down 1.5% in two weeks and nearly 11% since November 13). The drop reflects weakness in refining margins: crude oil prices have retreated to $89.53 per barrel while refineries are running at high capacity (95.7%), which typically squeezes the profit refiners make on each barrel processed. Gasoline and diesel storage levels remain elevated, adding further downward pressure on refined product prices.\n\nThe broader concern is a cooling demand outlook. While permitting reforms and Europe's gas crisis create some longer-term tailwinds for energy infrastructure, the immediate near-term signals point downward\u2014geopolitical risks in the Strait of Hormuz and energy supply concerns are not translating into stronger crude prices right now, and high refinery utilization combined with ample product inventories suggests refiners are racing to convert crude to fuel in a market with limited pricing power.",
+  "fetchedAt": "2026-11-22T00:55:46.168795+00:00",
+  "text": "Marathon Petroleum stock fell 0.20% today and 1.49% over two weeks, as refiners face margin pressure from weak crude oil pricing and demand signals. US oil dropped to $89.53 per barrel while refineries are running at high capacity (95.7%), a combination that squeezes the profit refiners make on each barrel processed\u2014the spread between what they pay for crude and what they sell refined products for typically narrows when oil is cheap and supply is plentiful. Even the strong refinery utilization rate can't offset this headwind when input costs fall faster than output prices.\n\nThe broader energy landscape offers mixed signals for refiners. Diesel prices remain elevated in some regions (driving UK inflation higher), and geopolitical tensions in the Strait of Hormuz are creating long-term supply-chain uncertainty, but neither is translating into an immediate demand boost strong enough to lift margins. The recent permitting reform passage could eventually help energy infrastructure projects, but that's a future benefit\u2014today's price action reflects the immediate squeeze refiners are experiencing.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 213,
-    "inputTokens": 187435,
-    "outputTokens": 46033,
-    "estimatedCostUsd": 0.4176,
-    "lastCallHour": "2026-11-21T20"
+    "callsThisMonth": 214,
+    "inputTokens": 188360,
+    "outputTokens": 46262,
+    "estimatedCostUsd": 0.41967,
+    "lastCallHour": "2026-11-22T00"
   }
 }
