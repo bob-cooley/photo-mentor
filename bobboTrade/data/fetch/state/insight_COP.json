@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T18:01:28.669093+00:00",
-  "text": "ConocoPhillips fell 2.4% today as oil prices weakened and the broader refining trade showed signs of cooling. US crude dropped to $89.53 per barrel, and headlines emphasized that \"the epic boom in refinery-related stocks is unwinding\"\u2014a direct headwind for energy majors that have benefited from historically strong refining margins. The stock has now surrendered most of its recent gains, sliding from $140.52 two weeks ago.\n\nGeopolitical tensions in the Middle East (Houthi attacks on Saudi refineries, Iranian drone incidents) briefly supported oil prices earlier in the week, but those haven't been enough to offset the broader shift in market sentiment away from energy stocks. With climate negotiations also failing to endorse fossil fuels at COP31, the near-term tailwinds that pushed energy stocks higher are fading.",
+  "fetchedAt": "2026-11-23T19:01:16.384479+00:00",
+  "text": "ConocoPhillips dropped 2.4% today as oil prices fell\u2014U.S. crude slipped to $89.53 per barrel, down from recent highs\u2014and broader energy sector momentum shifted sharply. The collapse of climate negotiations at COP31, which failed to restrict fossil fuels as many had feared, initially looked positive for oil stocks, but that boost was overshadowed by a larger trend: Wall Street analysts and market commentary are now signaling that the exceptional run in refinery and energy stocks is unwinding, pulling investors out of the sector overall.\n\nThe pullback also reflects how fragile the near-term setup is. While geopolitical tensions in the Middle East (Houthi attacks on Saudi refineries) typically support oil prices, they haven't been enough to hold them steady here\u2014suggesting demand concerns or profit-taking may be outweighing supply-risk premiums. The stock is down roughly 5% over the past week despite relatively stable oil prices, pointing to sector rotation away from energy rather than an oil-price story alone.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 230,
-    "inputTokens": 190092,
-    "outputTokens": 47698,
-    "estimatedCostUsd": 0.428582,
-    "lastCallHour": "2026-11-23T18"
+    "callsThisMonth": 231,
+    "inputTokens": 190945,
+    "outputTokens": 47928,
+    "estimatedCostUsd": 0.430585,
+    "lastCallHour": "2026-11-23T19"
   }
 }

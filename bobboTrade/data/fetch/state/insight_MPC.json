@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T18:02:10.736008+00:00",
-  "text": "Marathon Petroleum stock fell 1.4% today, extending a sharp 7% decline over two weeks. The timing aligns with a major shift in market sentiment: energy analysts are calling the \"epic boom in refinery-related stocks\" over, signaling that the exceptionally profitable window for refiners is closing. Refinery margins depend on the spread between crude oil prices and finished fuel prices, and that gap has been compressing as crude and refined products move in sync.\n\nThe broader backdrop reinforces this unwinding. Oil remains in the $89\u2013$93 range globally, refinery utilization is very high at 95.7%, and fuel inventories are substantial\u2014conditions that typically cap margin expansion. Meanwhile, climate talks have collapsed without commitments to curb fossil fuels, removing any near-term tailwind for energy prices or sentiment, and Middle East tensions continue but haven't pushed oil materially higher, suggesting markets aren't pricing in sustained supply disruption.",
+  "fetchedAt": "2026-11-23T19:01:50.913127+00:00",
+  "text": "Marathon Petroleum's stock fell 1.8% today, extending a steep two-week decline of 7.5%, amid a broader unraveling of the refinery-profit trade that has dominated energy stocks this year. The immediate trigger appears to be a CNBC headline explicitly stating \"The biggest money-making energy trade looks over\"\u2014a signal that investors who piled into refiner stocks on the back of strong margins are now heading for the exits, regardless of today's specific operating conditions.\n\nThe refiner's fundamentals remain reasonably solid: refineries are running at 95.7% capacity and crude oil storage is elevated at 694 million barrels, which typically supports margins. However, geopolitical de-escalation in the Middle East (with Iran signaling openness to a U.S. deal) has reduced the premium that refinery stocks enjoyed from supply-disruption fears, while climate negotiations collapsing at COP31 may also be removing a bullish \"energy transition scarcity\" narrative that some investors had priced in. The market is rotating away from the sector as a whole, not reacting to anything broken about Marathon's business today.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 232,
-    "inputTokens": 204926,
-    "outputTokens": 50320,
-    "estimatedCostUsd": 0.456526,
-    "lastCallHour": "2026-11-23T18"
+    "callsThisMonth": 233,
+    "inputTokens": 205837,
+    "outputTokens": 50571,
+    "estimatedCostUsd": 0.458692,
+    "lastCallHour": "2026-11-23T19"
   }
 }
