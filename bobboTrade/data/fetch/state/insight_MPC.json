@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-22T21:02:25.263043+00:00",
-  "text": "Marathon Petroleum's stock fell sharply over the past week\u2014dropping nearly $48 from its November 13 close to today's $367.19\u2014despite today's move being small. The main driver is crude oil prices, which have declined from levels that would have been around $95\u2013100 two weeks ago to $89.53 per barrel today, squeezing refinery profit margins. Refineries run at 95.7% capacity, and while storage levels remain normal, the downward oil price trend removes the tailwind that had supported energy stocks earlier in the month.\n\nThe broader headwind is geopolitical uncertainty without a clear spark. Reports of Iranian and Houthi attacks on Saudi and Bahraini facilities early this week (November 22) haven't driven oil higher as they might have in past crises, suggesting markets are treating the risk as contained or priced in. That lack of a supply shock, combined with crude's steady decline, has weighed on refining stocks more than any single company-specific news has helped.",
+  "fetchedAt": "2026-11-23T02:12:06.503011+00:00",
+  "text": "Marathon Petroleum stock fell 0.2% today to $367.19, extending a sharp two-week decline of 1.5% that has seen the stock lose nearly $48 from mid-November. The drop tracks a broader weakness in refining stocks tied to crude oil prices\u2014US oil closed today at $89.53 per barrel, down significantly from levels that were higher earlier in November. Refineries are running at 95.7% capacity with gasoline and diesel inventories both ample, which limits upside pricing power for refined products when crude itself softens.\n\nThe geopolitical tensions between Iran and Saudi Arabia reported today could normally support oil prices, but the market has priced in limited near-term supply risk so far. Longer-term, the energy sector faces structural headwinds: AI and data centers are set to double their electricity draw by 2030 according to the IEA, potentially dampening oil demand growth, while permitting reform moving through Congress signals an acceleration of renewable energy deployment that could also pressure future fuel consumption.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 224,
-    "inputTokens": 197602,
-    "outputTokens": 48527,
-    "estimatedCostUsd": 0.440237,
-    "lastCallHour": "2026-11-22T21"
+    "callsThisMonth": 225,
+    "inputTokens": 198525,
+    "outputTokens": 48754,
+    "estimatedCostUsd": 0.442295,
+    "lastCallHour": "2026-11-23T02"
   }
 }
