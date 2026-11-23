@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T16:02:00.600773+00:00",
-  "text": "Marathon Petroleum's stock fell 1.66% today, extending a steep two-week decline of 7.4%. The core driver appears to be a broader unwinding of the refinery trade itself\u2014a CNBC report on November 23rd explicitly stated that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of the sector after an extended rally. This pullback comes even as refineries are running at a healthy 95.7% capacity utilization, so the sell-off reflects a shift in market appetite rather than operational weakness.\n\nThe timing also matters: the failed COP31 climate summit and mixed geopolitical signals in the Middle East (Houthi attacks on Saudi refineries, but no major supply disruption) created an environment where refinery stocks lost momentum. Oil prices remain relatively stable in the $89\u2013$93 range, which should support refining margins, but that hasn't been enough to reverse sentiment as money moves elsewhere.",
+  "fetchedAt": "2026-11-23T17:01:55.228062+00:00",
+  "text": "Marathon Petroleum stock fell 1.84% today, extending a sharp 7.55% decline over two weeks. The main driver is a shift in market sentiment around refining stocks: a major financial outlet reported today that \"the epic boom in refinery-related stocks is unwinding,\" signaling investors are rotating out of the sector after an extended run-up. This comes even though refineries are running at a healthy 95.7% capacity and oil inventories remain relatively stable.\n\nThe timing matters because geopolitical tensions in the Middle East\u2014Houthi attacks on Saudi refineries and Iranian-backed drone strikes\u2014have created uncertainty about regional oil supply, yet this risk no longer appears to be supporting refiner valuations the way it did earlier in the year. With climate negotiations failing to curb fossil fuel use and the broader energy trade losing momentum, the tailwind that lifted refining stocks has reversed.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 230,
-    "inputTokens": 203104,
-    "outputTokens": 49921,
-    "estimatedCostUsd": 0.452709,
-    "lastCallHour": "2026-11-23T16"
+    "callsThisMonth": 231,
+    "inputTokens": 204015,
+    "outputTokens": 50114,
+    "estimatedCostUsd": 0.454585,
+    "lastCallHour": "2026-11-23T17"
   }
 }
