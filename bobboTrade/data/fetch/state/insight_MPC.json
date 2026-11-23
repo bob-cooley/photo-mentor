@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T02:12:06.503011+00:00",
-  "text": "Marathon Petroleum stock fell 0.2% today to $367.19, extending a sharp two-week decline of 1.5% that has seen the stock lose nearly $48 from mid-November. The drop tracks a broader weakness in refining stocks tied to crude oil prices\u2014US oil closed today at $89.53 per barrel, down significantly from levels that were higher earlier in November. Refineries are running at 95.7% capacity with gasoline and diesel inventories both ample, which limits upside pricing power for refined products when crude itself softens.\n\nThe geopolitical tensions between Iran and Saudi Arabia reported today could normally support oil prices, but the market has priced in limited near-term supply risk so far. Longer-term, the energy sector faces structural headwinds: AI and data centers are set to double their electricity draw by 2030 according to the IEA, potentially dampening oil demand growth, while permitting reform moving through Congress signals an acceleration of renewable energy deployment that could also pressure future fuel consumption.",
+  "fetchedAt": "2026-11-23T11:45:40.791863+00:00",
+  "text": "Marathon Petroleum's stock fell sharply over the past week, dropping from $414.65 to $367.19\u2014a nearly 11% decline\u2014with today's small move continuing that downtrend. The steepest drops came on November 18th and 19th, coinciding with escalating geopolitical tensions in the Middle East: Houthis claimed attacks on Saudi Arabia's Rabigh refinery, and Iran-backed drone and projectile strikes were reported against Saudi and Bahraini facilities. Refinery operators depend on stable crude supply and predictable shipping routes, so threats to major production and export hubs directly pressure margins and stock valuations for companies like this.\n\nReinforcing the negative pressure, the failed climate talks at COP31 (which rejected including fossil fuels in the final deal) signal lengthening headwinds for refining as global policy shifts toward energy transition\u2014a backdrop that weighs on investor confidence in the sector even as U.S. refineries remain busy at 95.7% capacity and crude inventories sit at comfortable levels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 225,
-    "inputTokens": 198525,
-    "outputTokens": 48754,
-    "estimatedCostUsd": 0.442295,
-    "lastCallHour": "2026-11-23T02"
+    "callsThisMonth": 226,
+    "inputTokens": 199456,
+    "outputTokens": 48987,
+    "estimatedCostUsd": 0.444391,
+    "lastCallHour": "2026-11-23T11"
   }
 }
