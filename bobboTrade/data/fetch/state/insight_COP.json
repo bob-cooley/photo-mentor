@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T11:45:03.745652+00:00",
-  "text": "ConocoPhillips rose 0.84% today to $136.12, recovering modestly from a sharp drop two days earlier when the stock fell nearly $5 on November 18th. The timing and magnitude of that selloff align closely with the collapse of climate negotiations at COP31, where governments rejected a draft deal that failed to address fossil fuels\u2014a development that raised uncertainty about future regulatory and policy risks for oil majors.\n\nThe rebound today comes as oil prices have stabilized around $89\u201393 per barrel and amid ongoing Middle East tensions, with reports of Houthi attacks on Saudi refineries and new Iranian-backed strikes. These geopolitical flashpoints typically support energy stocks by creating supply concerns, which may be counterbalancing some of the policy headwinds the sector faced earlier in the week.",
+  "fetchedAt": "2026-11-23T13:01:26.745546+00:00",
+  "text": "COP gained 0.84% today, recovering slightly after a sharp 3.6% drop on Monday. The bounce likely reflects relief that global oil prices (Brent crude at $92.94/barrel) have stabilized above $89, and that Wall Street analysts continue backing energy stocks\u2014particularly dividend payers\u2014as attractive investments heading into year-end. The stock remains down roughly 4.5% from its mid-November peak, so today's gain is modest recovery, not a reversal of the recent downtrend.\n\nThe broader headwind on the sector is real: a major CNBC story this week announced that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investor appetite for energy has cooled after a prolonged rally. At the same time, geopolitical risk in the Middle East (Houthi and Iranian attacks on Saudi refineries) and the collapse of climate talks\u2014which left fossil fuels out of the final deal\u2014create cross-currents: uncertainty weighs on the sector, but supply-side threats to refining capacity could support crude prices long-term.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 224,
-    "inputTokens": 184971,
-    "outputTokens": 46431,
-    "estimatedCostUsd": 0.417126,
-    "lastCallHour": "2026-11-23T11"
+    "callsThisMonth": 225,
+    "inputTokens": 185825,
+    "outputTokens": 46670,
+    "estimatedCostUsd": 0.419175,
+    "lastCallHour": "2026-11-23T13"
   }
 }

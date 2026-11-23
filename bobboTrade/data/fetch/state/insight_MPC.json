@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T11:45:40.791863+00:00",
-  "text": "Marathon Petroleum's stock fell sharply over the past week, dropping from $414.65 to $367.19\u2014a nearly 11% decline\u2014with today's small move continuing that downtrend. The steepest drops came on November 18th and 19th, coinciding with escalating geopolitical tensions in the Middle East: Houthis claimed attacks on Saudi Arabia's Rabigh refinery, and Iran-backed drone and projectile strikes were reported against Saudi and Bahraini facilities. Refinery operators depend on stable crude supply and predictable shipping routes, so threats to major production and export hubs directly pressure margins and stock valuations for companies like this.\n\nReinforcing the negative pressure, the failed climate talks at COP31 (which rejected including fossil fuels in the final deal) signal lengthening headwinds for refining as global policy shifts toward energy transition\u2014a backdrop that weighs on investor confidence in the sector even as U.S. refineries remain busy at 95.7% capacity and crude inventories sit at comfortable levels.",
+  "fetchedAt": "2026-11-23T13:02:09.271564+00:00",
+  "text": "Marathon Petroleum stock has fallen 1.49% over two weeks, with today's modest decline continuing a broader selloff that accelerated sharply from November 13 through November 18. The main driver is a reported shift in market sentiment: a major financial outlet published a story this past weekend saying \"the epic boom in refinery-related stocks is unwinding,\" signaling that investors who profited heavily from high refining margins are now rotating out of the sector. Refinery stocks like Marathon have been among the market's strongest performers during periods of tight fuel supplies and high margins, so a narrative that this trade is over can trigger rapid exits.\n\nThe underlying refining picture remains reasonably solid\u2014refineries are running at 95.7% capacity and crude inventories are moderate at 694 million barrels\u2014but that strength may no longer be enough to hold investor attention if the belief has shifted to \"this outperformance is priced in and done.\" Persistent Middle East tensions involving Saudi and Iranian assets also create uncertainty about future crude supply and prices, which could weigh on refiner stocks until geopolitical risks clarify.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 226,
-    "inputTokens": 199456,
-    "outputTokens": 48987,
-    "estimatedCostUsd": 0.444391,
-    "lastCallHour": "2026-11-23T11"
+    "callsThisMonth": 227,
+    "inputTokens": 200369,
+    "outputTokens": 49227,
+    "estimatedCostUsd": 0.446504,
+    "lastCallHour": "2026-11-23T13"
   }
 }

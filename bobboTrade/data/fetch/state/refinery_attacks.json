@@ -315,6 +315,54 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-16T00:43:39.902571+00:00"
+    },
+    {
+      "date": "2026-11-23",
+      "facility": "Novoshakhtinsk oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "id": "2026-11-23-novoshakhtinsk-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064198/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-23T13:02:57.422866+00:00"
+    },
+    {
+      "date": "2026-11-23",
+      "facility": "Lukoil-Permnefteorgsintez refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-23-lukoil-permnefteorgsintez-refinery-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/23/ukrainian-drones-strike-two-russian-oil-refineries-and-pumping-station-in-overnight-attacks"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-23T13:02:59.403533+00:00"
+    },
+    {
+      "date": "2026-11-23",
+      "facility": "Rabigh oil refinery",
+      "attacker": "Houthis",
+      "attackedNation": "Saudi Arabia",
+      "attribution": "claimed",
+      "id": "2026-11-23-rabigh-oil-refinery-saudi-arabia",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-23T13:03:00.880781+00:00"
     }
   ],
   "processedUrls": {
@@ -401,17 +449,20 @@
     "https://www.pravda.com.ua/eng/news/2026/11/17/8063200/": "2026-11-17T10:07:33.899644+00:00",
     "https://meduza.io/en/news/2026/11/18/ukrainian-drones-strike-two-oil-refineries-in-southern-russia": "2026-11-18T11:04:40.459301+00:00",
     "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule": "2026-11-18T11:04:42.055019+00:00",
-    "https://meduza.io/en/news/2026/11/19/ukrainian-drone-attacks-have-cut-the-amount-of-oil-russia-refines-by-45-since-late-october-reuters-reports": "2026-11-19T13:17:46.976541+00:00"
+    "https://meduza.io/en/news/2026/11/19/ukrainian-drone-attacks-have-cut-the-amount-of-oil-russia-refines-by-45-since-late-october-reuters-reports": "2026-11-19T13:17:46.976541+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/23/8064198/": "2026-11-23T13:02:57.422670+00:00",
+    "https://meduza.io/en/news/2026/11/23/ukrainian-drones-strike-two-russian-oil-refineries-and-pumping-station-in-overnight-attacks": "2026-11-23T13:02:59.403360+00:00",
+    "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": "2026-11-23T13:03:00.880605+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 25,
-    "inputTokens": 29050,
-    "outputTokens": 3832,
-    "estimatedCostUsd": 0.04821
+    "calls": 28,
+    "inputTokens": 32243,
+    "outputTokens": 4286,
+    "estimatedCostUsd": 0.053673
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-22T16:52:06.645157+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-23T13:03:00.880807+00:00"
 }
