@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T20:01:14.384725+00:00",
-  "text": "ConocoPhillips fell 2.6% today to $132.58, extending a sharp decline from last week's high of $140.52. The sell-off reflects two headwinds: crude oil prices dropped below $90 per barrel globally (now at $92.94 for world crude), which directly pressures the profits of oil producers like this company, and a major shift in market sentiment away from energy stocks\u2014a headline today noted that the refinery-related \"boom is unwinding,\" suggesting investor appetite for the sector has turned.\n\nAdding to the pressure, climate talks at COP31 collapsed over the weekend without committing to fossil fuel phase-outs, which should theoretically be bullish for oil producers; however, the market's broader move away from energy stocks appears to be overriding that benefit. The recent geopolitical tensions in the Middle East (Houthi and Iranian attacks on Saudi refineries) haven't lifted oil prices or the sector's fortunes as they might have in other periods, reinforcing that a tactical rotation out of energy is underway regardless of supply-side risk.",
+  "fetchedAt": "2026-11-23T21:01:24.951409+00:00",
+  "text": "ConocoPhillips fell 2.9% today as crude oil prices slid below $90 a barrel\u2014U.S. crude dropped to $89.53\u2014and broader headwinds hit energy stocks. The collapse of climate talks at COP31, which failed to include fossil fuels in the final agreement, signals that oil demand faces fewer regulatory constraints than some had feared, but it also underscores growing investor concern about the sector's long-term prospects. Meanwhile, analysts are signaling that the refinery boom that drove energy stocks higher is cooling off, pushing money away from the sector.\n\nThe stock has now fallen roughly $8 (or 5.6%) from its peak two weeks ago as oil prices retreated and sentiment shifted. Geopolitical tensions in the Middle East\u2014recent Houthi and Iranian attacks on Saudi refineries\u2014have done little to support prices, suggesting that even supply-side concerns are being overwhelmed by demand weakness or expectations that markets remain adequately supplied.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 232,
-    "inputTokens": 191798,
-    "outputTokens": 48168,
-    "estimatedCostUsd": 0.432638,
-    "lastCallHour": "2026-11-23T20"
+    "callsThisMonth": 233,
+    "inputTokens": 192651,
+    "outputTokens": 48383,
+    "estimatedCostUsd": 0.434566,
+    "lastCallHour": "2026-11-23T21"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T20:01:47.474882+00:00",
-  "text": "Marathon Petroleum's stock fell 1.97% today, extending a sharp two-week decline of 7.67%. The main driver appears to be a significant shift in market sentiment around refinery stocks\u2014CNBC reported directly on November 23rd that \"the epic boom in refinery-related stocks is unwinding,\" signaling that investors are rotating out of the energy refining trade that has been a major profit engine. This comes as oil prices have held relatively stable (US crude at $89.53/barrel) and refineries run near full capacity at 95.7%, so the move is fundamentally about investor appetite changing rather than refining economics breaking down.\n\nThe broader context reinforces this pivot. Geopolitical tensions in the Middle East\u2014including Houthi attacks on Saudi refineries and Iranian threats\u2014had previously supported energy prices and refinery margins, but that bullish narrative may be fading in the market's eyes. Combined with the climate summit developments and broader economic uncertainty, money that flooded into refinery stocks during their boom cycle appears to be flowing elsewhere.",
+  "fetchedAt": "2026-11-23T21:01:56.413682+00:00",
+  "text": "Marathon Petroleum has fallen 2.6% today, extending a sharp slide over the past week that's left the stock down 8% since November 16th. The decline tracks a broad unwinding of the refinery trade that peaked earlier this year\u2014a CNBC headline explicitly noted today that \"the epic boom in refinery-related stocks is unwinding\"\u2014suggesting investors are rotating out of energy infrastructure plays after an extended rally. While U.S. oil prices at $89.53 a barrel remain reasonably firm and U.S. refineries are running at a healthy 95.7% capacity, the momentum has shifted away from the sector.\n\nThe timing matters: the selloff accelerated just as a U.N. climate summit collapsed without including fossil fuels in its final deal, and geopolitical tensions in the Middle East (Houthi attacks on Saudi refineries, Iranian drone incidents) remain volatile but have not escalated into supply disruptions. The combination of a cooling investment thesis and uncertainty about how long energy strength will persist appears to be driving the outflow.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 234,
-    "inputTokens": 206748,
-    "outputTokens": 50801,
-    "estimatedCostUsd": 0.460753,
-    "lastCallHour": "2026-11-23T20"
+    "callsThisMonth": 235,
+    "inputTokens": 207659,
+    "outputTokens": 51032,
+    "estimatedCostUsd": 0.462819,
+    "lastCallHour": "2026-11-23T21"
   }
 }
