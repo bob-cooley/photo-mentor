@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T15:01:23.665261+00:00",
-  "text": "ConocoPhillips fell 0.8% today, extending a sharp decline from earlier in the week when the stock dropped from $140.52 to $134.40 in just two days. The primary driver appears to be the collapse of climate negotiations at the UN's COP31 summit on Sunday, where governments rejected a draft deal that failed to address fossil fuels\u2014a symbolic setback for oil majors seeking regulatory clarity, even though the immediate business impact is unclear. Adding pressure, analysts noted that the \"epic boom in refinery-related stocks is unwinding\" as of today, signaling a shift in market appetite away from energy plays that had recently outperformed.\n\nThe stock is also caught between conflicting forces: crude oil prices remain reasonably firm (US oil at $89.53/barrel), but geopolitical tension in the Middle East\u2014with Houthis attacking Saudi refineries and Iran-backed strikes continuing\u2014has not provided the typical upside that supply disruptions might otherwise deliver. This suggests the market is repricing energy stocks on sentiment and rotation rather than on crude fundamentals alone.",
+  "fetchedAt": "2026-11-23T16:01:28.529272+00:00",
+  "text": "ConocoPhillips fell 1.47% today as oil prices softened and the broader energy sector faced headwinds from shifting market dynamics. U.S. crude dropped to $89.53 per barrel, and a major Wall Street narrative shifted away from refinery stocks\u2014which had been among the year's best performers\u2014suggesting investors are rotating out of energy positions. The stock has been volatile over the past week, losing about 4% from its mid-November high, partly reflecting this sector rotation.\n\nThe collapse of climate negotiations at COP31, which failed to restrict fossil fuels, could have been expected to support energy stocks, but instead the market appears focused on the unwinding of the refinery boom and uncertainty around Middle East supply disruptions (Houthi attacks on Saudi facilities, Iranian tensions) that have so far failed to sustainably lift crude prices higher.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 227,
-    "inputTokens": 187533,
-    "outputTokens": 47116,
-    "estimatedCostUsd": 0.423113,
-    "lastCallHour": "2026-11-23T15"
+    "callsThisMonth": 228,
+    "inputTokens": 188386,
+    "outputTokens": 47303,
+    "estimatedCostUsd": 0.424901,
+    "lastCallHour": "2026-11-23T16"
   }
 }

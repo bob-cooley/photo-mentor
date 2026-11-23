@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T15:01:52.724553+00:00",
-  "text": "Marathon Petroleum stock has fallen 1.7% today and 7.4% over the past two weeks, tracking a sharp broader pullback in refinery stocks. The clearest trigger is a CNBC headline from today explicitly stating \"The biggest money-making energy trade looks over\"\u2014the refinery sector's exceptional run has unwound, and investors are rotating out. This matters for Marathon because refiners profit when the gap between crude oil prices and finished fuel prices widens; that trade is reversing as the market reprices.\n\nThe timing coincides with a collapse in climate talks over the weekend that failed to restrict fossil fuels\u2014which might seem positive for oil demand\u2014but instead has triggered a rotation away from energy stocks entirely. Oil itself is trading around $90 a barrel, refineries are running at high capacity (95.7%), and fuel inventories remain elevated; none of that has changed enough to explain the magnitude of the sell-off in just the past week. The move appears driven by tactical profit-taking and sentiment shift in the sector rather than fundamental deterioration in refining economics.",
+  "fetchedAt": "2026-11-23T16:02:00.600773+00:00",
+  "text": "Marathon Petroleum's stock fell 1.66% today, extending a steep two-week decline of 7.4%. The core driver appears to be a broader unwinding of the refinery trade itself\u2014a CNBC report on November 23rd explicitly stated that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of the sector after an extended rally. This pullback comes even as refineries are running at a healthy 95.7% capacity utilization, so the sell-off reflects a shift in market appetite rather than operational weakness.\n\nThe timing also matters: the failed COP31 climate summit and mixed geopolitical signals in the Middle East (Houthi attacks on Saudi refineries, but no major supply disruption) created an environment where refinery stocks lost momentum. Oil prices remain relatively stable in the $89\u2013$93 range, which should support refining margins, but that hasn't been enough to reverse sentiment as money moves elsewhere.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 229,
-    "inputTokens": 202193,
-    "outputTokens": 49709,
-    "estimatedCostUsd": 0.450738,
-    "lastCallHour": "2026-11-23T15"
+    "callsThisMonth": 230,
+    "inputTokens": 203104,
+    "outputTokens": 49921,
+    "estimatedCostUsd": 0.452709,
+    "lastCallHour": "2026-11-23T16"
   }
 }
