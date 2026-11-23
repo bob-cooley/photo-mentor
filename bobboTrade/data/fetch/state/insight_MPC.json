@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T19:01:50.913127+00:00",
-  "text": "Marathon Petroleum's stock fell 1.8% today, extending a steep two-week decline of 7.5%, amid a broader unraveling of the refinery-profit trade that has dominated energy stocks this year. The immediate trigger appears to be a CNBC headline explicitly stating \"The biggest money-making energy trade looks over\"\u2014a signal that investors who piled into refiner stocks on the back of strong margins are now heading for the exits, regardless of today's specific operating conditions.\n\nThe refiner's fundamentals remain reasonably solid: refineries are running at 95.7% capacity and crude oil storage is elevated at 694 million barrels, which typically supports margins. However, geopolitical de-escalation in the Middle East (with Iran signaling openness to a U.S. deal) has reduced the premium that refinery stocks enjoyed from supply-disruption fears, while climate negotiations collapsing at COP31 may also be removing a bullish \"energy transition scarcity\" narrative that some investors had priced in. The market is rotating away from the sector as a whole, not reacting to anything broken about Marathon's business today.",
+  "fetchedAt": "2026-11-23T20:01:47.474882+00:00",
+  "text": "Marathon Petroleum's stock fell 1.97% today, extending a sharp two-week decline of 7.67%. The main driver appears to be a significant shift in market sentiment around refinery stocks\u2014CNBC reported directly on November 23rd that \"the epic boom in refinery-related stocks is unwinding,\" signaling that investors are rotating out of the energy refining trade that has been a major profit engine. This comes as oil prices have held relatively stable (US crude at $89.53/barrel) and refineries run near full capacity at 95.7%, so the move is fundamentally about investor appetite changing rather than refining economics breaking down.\n\nThe broader context reinforces this pivot. Geopolitical tensions in the Middle East\u2014including Houthi attacks on Saudi refineries and Iranian threats\u2014had previously supported energy prices and refinery margins, but that bullish narrative may be fading in the market's eyes. Combined with the climate summit developments and broader economic uncertainty, money that flooded into refinery stocks during their boom cycle appears to be flowing elsewhere.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 233,
-    "inputTokens": 205837,
-    "outputTokens": 50571,
-    "estimatedCostUsd": 0.458692,
-    "lastCallHour": "2026-11-23T19"
+    "callsThisMonth": 234,
+    "inputTokens": 206748,
+    "outputTokens": 50801,
+    "estimatedCostUsd": 0.460753,
+    "lastCallHour": "2026-11-23T20"
   }
 }
