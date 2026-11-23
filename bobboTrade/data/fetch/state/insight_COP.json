@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T13:01:26.745546+00:00",
-  "text": "COP gained 0.84% today, recovering slightly after a sharp 3.6% drop on Monday. The bounce likely reflects relief that global oil prices (Brent crude at $92.94/barrel) have stabilized above $89, and that Wall Street analysts continue backing energy stocks\u2014particularly dividend payers\u2014as attractive investments heading into year-end. The stock remains down roughly 4.5% from its mid-November peak, so today's gain is modest recovery, not a reversal of the recent downtrend.\n\nThe broader headwind on the sector is real: a major CNBC story this week announced that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investor appetite for energy has cooled after a prolonged rally. At the same time, geopolitical risk in the Middle East (Houthi and Iranian attacks on Saudi refineries) and the collapse of climate talks\u2014which left fossil fuels out of the final deal\u2014create cross-currents: uncertainty weighs on the sector, but supply-side threats to refining capacity could support crude prices long-term.",
+  "fetchedAt": "2026-11-23T14:01:39.871785+00:00",
+  "text": "ConocoPhillips rose 0.84% today to $136.12, recovering slightly after a sharp 3.6% drop on November 18th that brought it to $134.40. The modest bounce appears tied to stabilizing oil prices (US crude holding around $89.50/barrel) and positive analyst commentary on dividend stocks\u2014a potential tailwind for a company known for shareholder payouts. However, the stock remains well below its level two weeks ago ($142.28), and the broader context is working against it.\n\nThe energy sector is facing headwinds that extend beyond day-to-day price moves. Climate talks collapsing without fossil fuel language and reports that the refinery boom is \"unwinding\" both signal longer-term pressure on oil majors. While geopolitical tensions in the Middle East could theoretically support oil prices, the actual impact on crude remains muted so far, suggesting markets are discounting the risk or looking past it.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 225,
-    "inputTokens": 185825,
-    "outputTokens": 46670,
-    "estimatedCostUsd": 0.419175,
-    "lastCallHour": "2026-11-23T13"
+    "callsThisMonth": 226,
+    "inputTokens": 186679,
+    "outputTokens": 46878,
+    "estimatedCostUsd": 0.421069,
+    "lastCallHour": "2026-11-23T14"
   }
 }
