@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T17:01:20.448563+00:00",
-  "text": "ConocoPhillips fell 2% today to $133.43, extending a sharp decline from last week's high of $140.52. The sell-off appears tied to two converging headwinds: first, a broad unwinding of the refinery-related trade that has driven energy stocks higher this year\u2014analysts are signaling the \"boom is over\" and looking elsewhere; second, the collapse of climate negotiations at COP31, which rejected a fossil-fuel-inclusive deal and may signal tougher regulatory or investor sentiment ahead for oil majors.\n\nThe timing matters: oil prices remain solid (US crude at $89.53/barrel, global at $92.94), so the stock decline isn't a commodity crash. Instead, it reflects a rotation away from the energy sector trade itself and growing climate-policy headwinds that could weigh on long-term investor appetite for large oil companies, even if near-term cash flows stay healthy.",
+  "fetchedAt": "2026-11-23T18:01:28.669093+00:00",
+  "text": "ConocoPhillips fell 2.4% today as oil prices weakened and the broader refining trade showed signs of cooling. US crude dropped to $89.53 per barrel, and headlines emphasized that \"the epic boom in refinery-related stocks is unwinding\"\u2014a direct headwind for energy majors that have benefited from historically strong refining margins. The stock has now surrendered most of its recent gains, sliding from $140.52 two weeks ago.\n\nGeopolitical tensions in the Middle East (Houthi attacks on Saudi refineries, Iranian drone incidents) briefly supported oil prices earlier in the week, but those haven't been enough to offset the broader shift in market sentiment away from energy stocks. With climate negotiations also failing to endorse fossil fuels at COP31, the near-term tailwinds that pushed energy stocks higher are fading.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 229,
-    "inputTokens": 189239,
-    "outputTokens": 47508,
-    "estimatedCostUsd": 0.426779,
-    "lastCallHour": "2026-11-23T17"
+    "callsThisMonth": 230,
+    "inputTokens": 190092,
+    "outputTokens": 47698,
+    "estimatedCostUsd": 0.428582,
+    "lastCallHour": "2026-11-23T18"
   }
 }

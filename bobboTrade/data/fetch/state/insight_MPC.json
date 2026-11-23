@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T17:01:55.228062+00:00",
-  "text": "Marathon Petroleum stock fell 1.84% today, extending a sharp 7.55% decline over two weeks. The main driver is a shift in market sentiment around refining stocks: a major financial outlet reported today that \"the epic boom in refinery-related stocks is unwinding,\" signaling investors are rotating out of the sector after an extended run-up. This comes even though refineries are running at a healthy 95.7% capacity and oil inventories remain relatively stable.\n\nThe timing matters because geopolitical tensions in the Middle East\u2014Houthi attacks on Saudi refineries and Iranian-backed drone strikes\u2014have created uncertainty about regional oil supply, yet this risk no longer appears to be supporting refiner valuations the way it did earlier in the year. With climate negotiations failing to curb fossil fuel use and the broader energy trade losing momentum, the tailwind that lifted refining stocks has reversed.",
+  "fetchedAt": "2026-11-23T18:02:10.736008+00:00",
+  "text": "Marathon Petroleum stock fell 1.4% today, extending a sharp 7% decline over two weeks. The timing aligns with a major shift in market sentiment: energy analysts are calling the \"epic boom in refinery-related stocks\" over, signaling that the exceptionally profitable window for refiners is closing. Refinery margins depend on the spread between crude oil prices and finished fuel prices, and that gap has been compressing as crude and refined products move in sync.\n\nThe broader backdrop reinforces this unwinding. Oil remains in the $89\u2013$93 range globally, refinery utilization is very high at 95.7%, and fuel inventories are substantial\u2014conditions that typically cap margin expansion. Meanwhile, climate talks have collapsed without commitments to curb fossil fuels, removing any near-term tailwind for energy prices or sentiment, and Middle East tensions continue but haven't pushed oil materially higher, suggesting markets aren't pricing in sustained supply disruption.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 231,
-    "inputTokens": 204015,
-    "outputTokens": 50114,
-    "estimatedCostUsd": 0.454585,
-    "lastCallHour": "2026-11-23T17"
+    "callsThisMonth": 232,
+    "inputTokens": 204926,
+    "outputTokens": 50320,
+    "estimatedCostUsd": 0.456526,
+    "lastCallHour": "2026-11-23T18"
   }
 }
