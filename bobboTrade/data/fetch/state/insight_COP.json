@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T14:01:39.871785+00:00",
-  "text": "ConocoPhillips rose 0.84% today to $136.12, recovering slightly after a sharp 3.6% drop on November 18th that brought it to $134.40. The modest bounce appears tied to stabilizing oil prices (US crude holding around $89.50/barrel) and positive analyst commentary on dividend stocks\u2014a potential tailwind for a company known for shareholder payouts. However, the stock remains well below its level two weeks ago ($142.28), and the broader context is working against it.\n\nThe energy sector is facing headwinds that extend beyond day-to-day price moves. Climate talks collapsing without fossil fuel language and reports that the refinery boom is \"unwinding\" both signal longer-term pressure on oil majors. While geopolitical tensions in the Middle East could theoretically support oil prices, the actual impact on crude remains muted so far, suggesting markets are discounting the risk or looking past it.",
+  "fetchedAt": "2026-11-23T15:01:23.665261+00:00",
+  "text": "ConocoPhillips fell 0.8% today, extending a sharp decline from earlier in the week when the stock dropped from $140.52 to $134.40 in just two days. The primary driver appears to be the collapse of climate negotiations at the UN's COP31 summit on Sunday, where governments rejected a draft deal that failed to address fossil fuels\u2014a symbolic setback for oil majors seeking regulatory clarity, even though the immediate business impact is unclear. Adding pressure, analysts noted that the \"epic boom in refinery-related stocks is unwinding\" as of today, signaling a shift in market appetite away from energy plays that had recently outperformed.\n\nThe stock is also caught between conflicting forces: crude oil prices remain reasonably firm (US oil at $89.53/barrel), but geopolitical tension in the Middle East\u2014with Houthis attacking Saudi refineries and Iran-backed strikes continuing\u2014has not provided the typical upside that supply disruptions might otherwise deliver. This suggests the market is repricing energy stocks on sentiment and rotation rather than on crude fundamentals alone.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 226,
-    "inputTokens": 186679,
-    "outputTokens": 46878,
-    "estimatedCostUsd": 0.421069,
-    "lastCallHour": "2026-11-23T14"
+    "callsThisMonth": 227,
+    "inputTokens": 187533,
+    "outputTokens": 47116,
+    "estimatedCostUsd": 0.423113,
+    "lastCallHour": "2026-11-23T15"
   }
 }

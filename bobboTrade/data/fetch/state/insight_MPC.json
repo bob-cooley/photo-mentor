@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T14:02:22.497197+00:00",
-  "text": "Marathon Petroleum shares fell nearly 1.5% over the past two weeks, with steep declines this week (down 11% since November 13th). The most direct driver is a shift in market sentiment: energy analysts are signaling that the exceptional profit run refiners have enjoyed is ending, and investors are rotating out of refinery stocks. Oil prices themselves remain reasonably firm\u2014US crude at $89.53 and global at $92.94\u2014and refineries are running at a healthy 95.7% capacity, so the fundamentals haven't collapsed; rather, the market is repricing what it's willing to pay for refiner earnings going forward.\n\nThe broader context matters here: geopolitical tension in the Middle East (Houthi attacks on Saudi refineries, Iranian drone operations) would normally support refiner stocks by keeping oil prices elevated, but that tailwind isn't enough to offset the narrative shift. The failed climate talks at COP31 might have been expected to help fossil fuel traders, yet the opposite is playing out\u2014the investment community appears to be ahead of that curve, already moving capital away from the energy trade that made refiners such strong performers.",
+  "fetchedAt": "2026-11-23T15:01:52.724553+00:00",
+  "text": "Marathon Petroleum stock has fallen 1.7% today and 7.4% over the past two weeks, tracking a sharp broader pullback in refinery stocks. The clearest trigger is a CNBC headline from today explicitly stating \"The biggest money-making energy trade looks over\"\u2014the refinery sector's exceptional run has unwound, and investors are rotating out. This matters for Marathon because refiners profit when the gap between crude oil prices and finished fuel prices widens; that trade is reversing as the market reprices.\n\nThe timing coincides with a collapse in climate talks over the weekend that failed to restrict fossil fuels\u2014which might seem positive for oil demand\u2014but instead has triggered a rotation away from energy stocks entirely. Oil itself is trading around $90 a barrel, refineries are running at high capacity (95.7%), and fuel inventories remain elevated; none of that has changed enough to explain the magnitude of the sell-off in just the past week. The move appears driven by tactical profit-taking and sentiment shift in the sector rather than fundamental deterioration in refining economics.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 228,
-    "inputTokens": 201282,
-    "outputTokens": 49477,
-    "estimatedCostUsd": 0.448667,
-    "lastCallHour": "2026-11-23T14"
+    "callsThisMonth": 229,
+    "inputTokens": 202193,
+    "outputTokens": 49709,
+    "estimatedCostUsd": 0.450738,
+    "lastCallHour": "2026-11-23T15"
   }
 }
