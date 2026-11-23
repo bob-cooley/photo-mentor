@@ -452,17 +452,18 @@
     "https://meduza.io/en/news/2026/11/19/ukrainian-drone-attacks-have-cut-the-amount-of-oil-russia-refines-by-45-since-late-october-reuters-reports": "2026-11-19T13:17:46.976541+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/23/8064198/": "2026-11-23T13:02:57.422670+00:00",
     "https://meduza.io/en/news/2026/11/23/ukrainian-drones-strike-two-russian-oil-refineries-and-pumping-station-in-overnight-attacks": "2026-11-23T13:02:59.403360+00:00",
-    "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": "2026-11-23T13:03:00.880605+00:00"
+    "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": "2026-11-23T13:03:00.880605+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/23/8064267/": "2026-11-23T19:12:49.812292+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 28,
-    "inputTokens": 32243,
-    "outputTokens": 4286,
-    "estimatedCostUsd": 0.053673
+    "calls": 29,
+    "inputTokens": 33384,
+    "outputTokens": 4405,
+    "estimatedCostUsd": 0.055409
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": false,
-  "lastRunAt": "2026-11-23T16:07:30.707357+00:00"
+  "lastGdeltOk": true,
+  "lastRunAt": "2026-11-23T19:12:49.812538+00:00"
 }
