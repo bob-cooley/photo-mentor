@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T17:02:27.800863+00:00",
-  "text": "Marathon Petroleum dropped 0.9% today, extending a brutal two-week slide of 9%. The decline reflects a broad shift in the refining sector: a major business story from November 23rd explicitly noted that \"the epic boom in refinery-related stocks is unwinding,\" signaling that the outsized profits refiners have enjoyed are fading. While U.S. oil prices remain solid at $89.53 per barrel and refineries are running hot at 95.7% capacity, those tailwinds are no longer enough to drive investor enthusiasm the way they did months ago.\n\nGeopolitical tensions in the Middle East\u2014Iranian drone strikes on Saudi facilities, Houthi attacks on refineries, and new U.S. sanctions on Iran\u2014would normally support oil and refiner stocks by tightening global supply. Instead, investors appear to be rotating out of the trade, possibly anticipating that either tensions will ease or that crude supplies will normalize, crushing the high margins refiners have capitalized on. The timing coincides with the collapse of climate talks that failed to curb fossil fuels, which may have reinforced the market's view that the refinery boom is cyclical and nearing its peak.",
+  "fetchedAt": "2026-11-24T18:02:33.404193+00:00",
+  "text": "Marathon Petroleum stock fell 1.76% today, capping a brutal two-week decline of nearly 10%. The drop reflects a broader unwinding of the refinery boom that had driven these stocks higher\u2014a trade that analysts say is now \"over.\" Refineries are running at 95.7% capacity with ample fuel inventories (gasoline and diesel storage both well-stocked), which limits pricing power, while crude oil has pulled back to $89.53 per barrel, eroding margins that refiners need to stay highly profitable.\n\nThe geopolitical chaos in the Middle East\u2014tanker attacks in the Strait of Hormuz, Houthi strikes on Saudi facilities, and escalating U.S. sanctions on Iran\u2014would normally support oil prices and help refiners. Instead, the market is pricing in a shift: the structural advantage refiners enjoyed during the energy supply crunch appears to have faded, and investors are rotating out of the sector regardless of near-term supply risks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 242,
-    "inputTokens": 214171,
-    "outputTokens": 52743,
-    "estimatedCostUsd": 0.477886,
-    "lastCallHour": "2026-11-24T17"
+    "callsThisMonth": 243,
+    "inputTokens": 215104,
+    "outputTokens": 52959,
+    "estimatedCostUsd": 0.479899,
+    "lastCallHour": "2026-11-24T18"
   }
 }
