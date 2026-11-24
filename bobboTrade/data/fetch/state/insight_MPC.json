@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T15:02:16.237991+00:00",
-  "text": "Marathon Petroleum bounced up slightly today after losing nearly 8% over the past two weeks, but the gain masks a deteriorating situation for refiners. Refining margins\u2014the profit from turning crude into gasoline and diesel\u2014have been squeezed as oil storage climbed to 694 million barrels while refineries run at nearly full capacity (95.7%), leaving little room to push more product out. A major industry analyst called the \"epic boom in refinery-related stocks\" over as of Sunday, and that assessment seems to be reflected in the stock's sharp decline.\n\nGeopolitical shocks that would normally prop up energy prices\u2014Iranian tanker attacks in the Strait of Hormuz, Houthi strikes on Saudi refineries, and new U.S. sanctions on Iran\u2014have failed to lift the stock, suggesting markets are pricing in structural headwinds rather than short-term supply disruptions. With climate talks collapsing and no meaningful policy shift toward fossil fuels, refiners face a longer-term squeeze on demand growth even if crude prices stabilize.",
+  "fetchedAt": "2026-11-24T16:02:17.923170+00:00",
+  "text": "Marathon Petroleum stock has fallen 0.95% today and 9% over the past week, driven by a confluence of negative signals for refining profitability. The core issue is that the refining industry's profit engine\u2014the \"crack spread,\" the gap between crude oil prices and refined product prices\u2014has compressed sharply. While U.S. crude sits at $89.53 per barrel, gasoline and diesel inventories remain elevated (216 million and 105 million barrels respectively), and refineries are running near full capacity at 95.7%, limiting the ability to push refined product prices higher. This squeezes the margin that refiners pocket on each barrel processed.\n\nThe broader headwind is a shift in market positioning: a November 23 report noted that the \"epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating away from the trade that powered energy stocks higher earlier this year. Geopolitical risks to Middle Eastern oil supply\u2014Iran-backed attacks on Saudi refineries and U.S. tanker escorts in the Strait of Hormuz\u2014have failed to push crude high enough to restore refining spreads, leaving Marathon's stock to absorb the unwinding without offsetting support.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 240,
-    "inputTokens": 212303,
-    "outputTokens": 52219,
-    "estimatedCostUsd": 0.473398,
-    "lastCallHour": "2026-11-24T15"
+    "callsThisMonth": 241,
+    "inputTokens": 213237,
+    "outputTokens": 52483,
+    "estimatedCostUsd": 0.475652,
+    "lastCallHour": "2026-11-24T16"
   }
 }

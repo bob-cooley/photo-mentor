@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-24T15:01:42.860771+00:00",
-  "text": "ConocoPhillips rose 2.5% today after falling sharply on November 23rd, bouncing back as oil prices stabilized and geopolitical tensions in the Middle East spiked. Iran's report of tanker incidents in the Strait of Hormuz and ongoing Houthi threats to Saudi oil infrastructure created supply-risk concerns that supported crude prices\u2014US oil holding near $89.50 per barrel helps the company's production economics and cash flow.\n\nThe rebound also reflects a pullback from the worst of last week's sell-off, which was triggered by the failed climate negotiations (which spooked investors worried about fossil fuel regulation) and a broader cooling of the refinery-profit trade that had driven energy stocks higher. While refinery margins are unwinding, the geopolitical premium in oil prices is now working in an upstream producer's favor.",
+  "fetchedAt": "2026-11-24T16:01:46.142086+00:00",
+  "text": "ConocoPhillips rose 1.7% today, rebounding from a sharp 2.5% drop on November 23rd. The bounce appears tied to escalating geopolitical tensions in the Middle East\u2014Iran reported three tankers hit mines in the Strait of Hormuz while under U.S. escort, and Yemen's Houthis claimed attacks on Saudi oil infrastructure. These events typically tighten global oil supplies and support crude prices, which may have encouraged buyers back into energy stocks after the previous day's sell-off.\n\nThe rebound is modest and comes against a weaker two-week backdrop, partly because the broader refinery trade\u2014which has been a major money-maker\u2014is unwinding as refining margins compress. While geopolitical risk offers a temporary lift, the structural headwinds in refining profitability and uncertainty from the failed climate talks (which rejected explicit restrictions on fossil fuels but still reflected climate-focused sentiment) continue to weigh on the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 238,
-    "inputTokens": 196948,
-    "outputTokens": 49383,
-    "estimatedCostUsd": 0.443863,
-    "lastCallHour": "2026-11-24T15"
+    "callsThisMonth": 239,
+    "inputTokens": 197809,
+    "outputTokens": 49598,
+    "estimatedCostUsd": 0.445799,
+    "lastCallHour": "2026-11-24T16"
   }
 }
