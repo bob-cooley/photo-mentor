@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-24T08:13:11.181725+00:00",
-  "text": "ConocoPhillips fell 2.9% today as crude oil prices slipped below $90 a barrel\u2014US oil dropped to $89.53\u2014and broader energy sector momentum stalled. The company also faces headwinds from the collapse of climate negotiations over the weekend, which rejected language on phasing out fossil fuels; while this removes a near-term regulatory threat, it heightens longer-term uncertainty about energy demand and policy direction. The stock is down nearly 2% over two weeks as the initial refinery profit boom that boosted energy stocks earlier this year appears to be unwinding.\n\nGeopolitical risks to oil supply\u2014Iran-backed attacks on tankers in the Strait of Hormuz and Houthi strikes on Saudi refineries\u2014have so far failed to lift prices enough to offset the sector's shift in sentiment. Without a floor from rising oil or a tailwind from refining margins, the stock is tracking with the broader energy sector's pullback.",
+  "fetchedAt": "2026-11-24T13:02:08.794475+00:00",
+  "text": "ConocoPhillips fell 2.9% today as crude oil prices slid to $89.53 per barrel, their lowest level in this two-week period. The broader energy sector is under pressure: the epic run-up in refinery stocks is unwinding, and the collapse of international climate talks\u2014which failed to address fossil fuels\u2014has rattled investor confidence in oil companies' long-term prospects. The stock has now lost nearly 5% from its peak of $140.52 just a week ago.\n\nGeopolitical tensions in the Middle East, including Iran laying naval mines in the Strait of Hormuz and Houthis attacking Saudi refineries, have failed to prop up prices so far, suggesting markets are more focused on the softening demand picture than supply disruptions. The unwinding of the refinery trade\u2014which had been a bright spot for energy stocks\u2014signals that traders are rotating out of the sector more broadly.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 235,
-    "inputTokens": 194365,
-    "outputTokens": 48813,
-    "estimatedCostUsd": 0.43843,
-    "lastCallHour": "2026-11-24T08"
+    "callsThisMonth": 236,
+    "inputTokens": 195226,
+    "outputTokens": 49018,
+    "estimatedCostUsd": 0.440316,
+    "lastCallHour": "2026-11-24T13"
   }
 }

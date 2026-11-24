@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T08:13:39.065685+00:00",
-  "text": "Marathon Petroleum's stock has fallen 2.6% today and 8.3% over two weeks as the refinery sector unwinds from what analysts are calling the end of a major profit cycle. The trigger appears to be a broad reassessment: on November 23rd, reporting noted that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of energy refining plays that had benefited from high margins. While U.S. oil prices remain elevated at $89.53 per barrel and refineries are running at 95.7% capacity, the momentum shift away from the sector is overriding those fundamentals.\n\nThe geopolitical tensions in the Middle East\u2014Iranian mines damaging tankers in the Strait of Hormuz, Houthi attacks on Saudi refineries, and escalating U.S. sanctions on Iran\u2014would normally support oil prices and refinery profits. Instead, the sell-off suggests the market is pricing in a longer-term view: climate negotiations collapsing on fossil fuels, combined with the sense that the exceptional refining margins of the past period are unlikely to persist, is prompting investors to exit the trade regardless of near-term supply disruptions.",
+  "fetchedAt": "2026-11-24T13:02:40.550029+00:00",
+  "text": "Marathon Petroleum has fallen 2.6% today and 8.3% over two weeks as refiners broadly face a shifting profit outlook. A major headline from Sunday captured the shift: analysts and headlines declared \"the biggest money-making energy trade looks over,\" signaling that the exceptional refinery margins that drove the sector's rally are fading. With U.S. oil sitting at $89.53 per barrel and refineries running at 95.7% capacity, there's less room for the kind of outsized profits that made refiner stocks perform so well earlier in the cycle.\n\nThe broader geopolitical backdrop\u2014Iran-backed attacks on Saudi and Bahraini facilities, U.S. sanctions tightening, and tanker incidents in the Strait of Hormuz\u2014would normally support higher oil prices and refinery demand. Instead, those tailwinds appear insufficient to offset the market's recognition that the refining boom is cooling. The failed climate deal at COP31, which disappointed those hoping for stronger fossil fuel commitments, may also weigh on longer-term sentiment around energy infrastructure stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 237,
-    "inputTokens": 209503,
-    "outputTokens": 51512,
-    "estimatedCostUsd": 0.467063,
-    "lastCallHour": "2026-11-24T08"
+    "callsThisMonth": 238,
+    "inputTokens": 210436,
+    "outputTokens": 51748,
+    "estimatedCostUsd": 0.469176,
+    "lastCallHour": "2026-11-24T13"
   }
 }
