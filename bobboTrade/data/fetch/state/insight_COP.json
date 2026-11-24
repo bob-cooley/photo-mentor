@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-23T23:20:15.921880+00:00",
-  "text": "ConocoPhillips fell 2.9% today as oil prices weakened and the energy sector faced a broader pullback. U.S. crude dropped to $89.53 per barrel, pulling back from recent highs, while a headline from major financial media noted that \"the biggest money-making energy trade looks over\" \u2014 specifically referring to refinery-related stocks unwinding their gains. For an integrated energy company like this one, lower crude prices directly reduce profit margins and future cash flow from production and operations.\n\nThe sell-off also reflects a shift in market sentiment around energy stocks more broadly. The failed climate talks at COP31, where a deal without fossil fuel language was rejected, underscores long-term policy headwinds for oil producers, even as near-term geopolitical tensions in the Middle East (Houthi attacks on Saudi refineries, Iran-backed incidents) have kept energy in focus. With the refinery-driven profit cycle apparently cooling, investors appear to be rotating away from the sector.",
+  "fetchedAt": "2026-11-24T08:13:11.181725+00:00",
+  "text": "ConocoPhillips fell 2.9% today as crude oil prices slipped below $90 a barrel\u2014US oil dropped to $89.53\u2014and broader energy sector momentum stalled. The company also faces headwinds from the collapse of climate negotiations over the weekend, which rejected language on phasing out fossil fuels; while this removes a near-term regulatory threat, it heightens longer-term uncertainty about energy demand and policy direction. The stock is down nearly 2% over two weeks as the initial refinery profit boom that boosted energy stocks earlier this year appears to be unwinding.\n\nGeopolitical risks to oil supply\u2014Iran-backed attacks on tankers in the Strait of Hormuz and Houthi strikes on Saudi refineries\u2014have so far failed to lift prices enough to offset the sector's shift in sentiment. Without a floor from rising oil or a tailwind from refining margins, the stock is tracking with the broader energy sector's pullback.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 234,
-    "inputTokens": 193504,
-    "outputTokens": 48602,
-    "estimatedCostUsd": 0.436514,
-    "lastCallHour": "2026-11-23T23"
+    "callsThisMonth": 235,
+    "inputTokens": 194365,
+    "outputTokens": 48813,
+    "estimatedCostUsd": 0.43843,
+    "lastCallHour": "2026-11-24T08"
   }
 }

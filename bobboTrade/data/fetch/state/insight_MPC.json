@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-23T23:20:47.152696+00:00",
-  "text": "Marathon Petroleum stock fell 2.6% today, extending a sharp two-week decline of 8.3%. The pullback appears tied to a broad unwinding of the refinery trade\u2014a CNBC report on November 23rd explicitly called out that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of energy companies that benefited from high refining margins. While U.S. oil prices remain solid at $89.53 per barrel and U.S. refineries are running at a healthy 95.7% capacity, the trade's momentum has broken.\n\nThe broader context adds pressure: climate negotiations collapsed over the weekend with no meaningful fossil fuel commitments, and ongoing Middle East tensions\u2014including Houthi attacks on Saudi refineries\u2014are creating uncertainty rather than the sustained supply tightness that fueled the refinery boom earlier this year. The shift in investor appetite away from energy stocks is outweighing the fundamentals that once drove the sector higher.",
+  "fetchedAt": "2026-11-24T08:13:39.065685+00:00",
+  "text": "Marathon Petroleum's stock has fallen 2.6% today and 8.3% over two weeks as the refinery sector unwinds from what analysts are calling the end of a major profit cycle. The trigger appears to be a broad reassessment: on November 23rd, reporting noted that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of energy refining plays that had benefited from high margins. While U.S. oil prices remain elevated at $89.53 per barrel and refineries are running at 95.7% capacity, the momentum shift away from the sector is overriding those fundamentals.\n\nThe geopolitical tensions in the Middle East\u2014Iranian mines damaging tankers in the Strait of Hormuz, Houthi attacks on Saudi refineries, and escalating U.S. sanctions on Iran\u2014would normally support oil prices and refinery profits. Instead, the sell-off suggests the market is pricing in a longer-term view: climate negotiations collapsing on fossil fuels, combined with the sense that the exceptional refining margins of the past period are unlikely to persist, is prompting investors to exit the trade regardless of near-term supply disruptions.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 236,
-    "inputTokens": 208570,
-    "outputTokens": 51248,
-    "estimatedCostUsd": 0.46481,
-    "lastCallHour": "2026-11-23T23"
+    "callsThisMonth": 237,
+    "inputTokens": 209503,
+    "outputTokens": 51512,
+    "estimatedCostUsd": 0.467063,
+    "lastCallHour": "2026-11-24T08"
   }
 }
