@@ -454,17 +454,18 @@
     "https://meduza.io/en/news/2026/11/23/ukrainian-drones-strike-two-russian-oil-refineries-and-pumping-station-in-overnight-attacks": "2026-11-23T13:02:59.403360+00:00",
     "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": "2026-11-23T13:03:00.880605+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/23/8064267/": "2026-11-23T19:12:49.812292+00:00",
-    "https://www.aa.com.tr/en/eurasia/putin-says-russias-response-to-ukrainian-attacks-on-oil-refineries-inevitable/4136296": "2026-11-24T18:23:00.532440+00:00"
+    "https://www.aa.com.tr/en/eurasia/putin-says-russias-response-to-ukrainian-attacks-on-oil-refineries-inevitable/4136296": "2026-11-24T18:23:00.532440+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/24/8064490/": "2026-11-24T21:28:07.380397+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 30,
-    "inputTokens": 34426,
-    "outputTokens": 4538,
-    "estimatedCostUsd": 0.057116
+    "calls": 31,
+    "inputTokens": 35271,
+    "outputTokens": 4656,
+    "estimatedCostUsd": 0.058551
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-11-24T18:23:00.532647+00:00"
+  "lastRunAt": "2026-11-24T21:28:07.380496+00:00"
 }
