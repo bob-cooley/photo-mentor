@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T16:02:17.923170+00:00",
-  "text": "Marathon Petroleum stock has fallen 0.95% today and 9% over the past week, driven by a confluence of negative signals for refining profitability. The core issue is that the refining industry's profit engine\u2014the \"crack spread,\" the gap between crude oil prices and refined product prices\u2014has compressed sharply. While U.S. crude sits at $89.53 per barrel, gasoline and diesel inventories remain elevated (216 million and 105 million barrels respectively), and refineries are running near full capacity at 95.7%, limiting the ability to push refined product prices higher. This squeezes the margin that refiners pocket on each barrel processed.\n\nThe broader headwind is a shift in market positioning: a November 23 report noted that the \"epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating away from the trade that powered energy stocks higher earlier this year. Geopolitical risks to Middle Eastern oil supply\u2014Iran-backed attacks on Saudi refineries and U.S. tanker escorts in the Strait of Hormuz\u2014have failed to push crude high enough to restore refining spreads, leaving Marathon's stock to absorb the unwinding without offsetting support.",
+  "fetchedAt": "2026-11-24T17:02:27.800863+00:00",
+  "text": "Marathon Petroleum dropped 0.9% today, extending a brutal two-week slide of 9%. The decline reflects a broad shift in the refining sector: a major business story from November 23rd explicitly noted that \"the epic boom in refinery-related stocks is unwinding,\" signaling that the outsized profits refiners have enjoyed are fading. While U.S. oil prices remain solid at $89.53 per barrel and refineries are running hot at 95.7% capacity, those tailwinds are no longer enough to drive investor enthusiasm the way they did months ago.\n\nGeopolitical tensions in the Middle East\u2014Iranian drone strikes on Saudi facilities, Houthi attacks on refineries, and new U.S. sanctions on Iran\u2014would normally support oil and refiner stocks by tightening global supply. Instead, investors appear to be rotating out of the trade, possibly anticipating that either tensions will ease or that crude supplies will normalize, crushing the high margins refiners have capitalized on. The timing coincides with the collapse of climate talks that failed to curb fossil fuels, which may have reinforced the market's view that the refinery boom is cyclical and nearing its peak.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 241,
-    "inputTokens": 213237,
-    "outputTokens": 52483,
-    "estimatedCostUsd": 0.475652,
-    "lastCallHour": "2026-11-24T16"
+    "callsThisMonth": 242,
+    "inputTokens": 214171,
+    "outputTokens": 52743,
+    "estimatedCostUsd": 0.477886,
+    "lastCallHour": "2026-11-24T17"
   }
 }
