@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-24T18:01:53.336379+00:00",
-  "text": "ConocoPhillips rose 2% today as oil prices ticked up and geopolitical tensions in the Middle East kept crude supported. The U.S. oil benchmark closed around $89.50 per barrel, while reports of Iranian tankers hitting mines in the Strait of Hormuz and Houthi attacks on Saudi refining capacity underscored ongoing supply-chain risks in a critical shipping chokepoint \u2014 the kind of disruption premium that typically lifts oil explorers and producers.\n\nThat said, the stock remains down 0.6% over the past two weeks, dragged down by last Sunday's climate summit collapse and a broader pullback in energy stocks. Reports suggest the refinery-trade boom that powered much of the energy sector's gains is unwinding, which may be tempering enthusiasm even as crude prices hold steady on geopolitical jitters.",
+  "fetchedAt": "2026-11-24T19:01:51.883896+00:00",
+  "text": "ConocoPhillips rose 2.2% today, recovering most of Friday's sharp 5% drop. The bounce came as geopolitical tension spiked in the Middle East\u2014Iran reported three tankers hit mines in the Strait of Hormuz while the U.S. widened sanctions, and Yemen's Houthis claimed an attack on a Saudi refinery. These developments typically lift oil majors by raising crude prices and signaling supply disruptions; U.S. oil is currently trading at $89.53 per barrel.\n\nThe broader energy sector context also shifted. Over the weekend, climate talks at COP31 collapsed when governments rejected a draft deal excluding fossil fuels\u2014a win for oil producers\u2014and analysts flagged that the refinery-profit boom that powered energy stocks higher is unwinding. That backdrop makes today's rebound look like a relief move on geopolitical risk rather than a sustained directional shift.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 241,
-    "inputTokens": 199531,
-    "outputTokens": 49972,
-    "estimatedCostUsd": 0.449391,
-    "lastCallHour": "2026-11-24T18"
+    "callsThisMonth": 242,
+    "inputTokens": 200392,
+    "outputTokens": 50175,
+    "estimatedCostUsd": 0.451267,
+    "lastCallHour": "2026-11-24T19"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T18:02:33.404193+00:00",
-  "text": "Marathon Petroleum stock fell 1.76% today, capping a brutal two-week decline of nearly 10%. The drop reflects a broader unwinding of the refinery boom that had driven these stocks higher\u2014a trade that analysts say is now \"over.\" Refineries are running at 95.7% capacity with ample fuel inventories (gasoline and diesel storage both well-stocked), which limits pricing power, while crude oil has pulled back to $89.53 per barrel, eroding margins that refiners need to stay highly profitable.\n\nThe geopolitical chaos in the Middle East\u2014tanker attacks in the Strait of Hormuz, Houthi strikes on Saudi facilities, and escalating U.S. sanctions on Iran\u2014would normally support oil prices and help refiners. Instead, the market is pricing in a shift: the structural advantage refiners enjoyed during the energy supply crunch appears to have faded, and investors are rotating out of the sector regardless of near-term supply risks.",
+  "fetchedAt": "2026-11-24T19:02:22.821281+00:00",
+  "text": "MPC fell 0.9% today and has dropped 9% over the past two weeks, tracking a broader unwinding of the refinery boom that powered energy stocks through much of the year. The timing coincides with news that the \"money-making energy trade looks over\"\u2014a shift driven by moderating oil prices (US crude at $89.53, down from earlier highs), refineries already running at 95.7% capacity with ample fuel in storage, and expectations that the exceptional margins refiners enjoyed are fading as supply-demand dynamics normalize.\n\nGeopolitical tension in the Middle East\u2014including Iranian drone and missile attacks on Saudi and Bahrain facilities, tanker incidents in the Strait of Hormuz, and Houthi claims against refineries\u2014has not been enough to offset the fundamental shift in refinery economics. With gasoline and diesel inventories elevated and the broader market consensus turning away from energy as a standalone profitable trade, the stock has entered a downtrend that reflects profit-taking after the sector's earlier run.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 243,
-    "inputTokens": 215104,
-    "outputTokens": 52959,
-    "estimatedCostUsd": 0.479899,
-    "lastCallHour": "2026-11-24T18"
+    "callsThisMonth": 244,
+    "inputTokens": 216038,
+    "outputTokens": 53185,
+    "estimatedCostUsd": 0.481963,
+    "lastCallHour": "2026-11-24T19"
   }
 }
