@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-24T20:01:51.983983+00:00",
-  "text": "ConocoPhillips rose 2.3% today, bouncing back after a sharp 3.5% drop two days earlier. The rebound coincides with escalating geopolitical tension in the Middle East\u2014Iran reported tanker incidents in the Strait of Hormuz, and the U.S. widened sanctions on Tehran, while Yemen's Houthis claimed attacks on Saudi oil infrastructure. These events typically tighten global oil supplies, and U.S. crude moved up slightly to $89.53 a barrel, supporting the energy sector broadly.\n\nThe stock has been volatile over the past week, swinging between $132 and $139, which partly reflects broader sector confusion: analyst coverage highlighted dividend appeal among energy stocks even as a major story warned that \"the refinery boom is unwinding.\" For an oil producer like ConocoPhillips, geopolitical supply risks are generally a tailwind, though the conflicting signals in the market suggest investors remain uncertain about the energy outlook heading into year-end.",
+  "fetchedAt": "2026-11-24T21:01:50.403546+00:00",
+  "text": "ConocoPhillips rose 1.9% today to $134.66, bouncing back from a sharp 3% drop two days earlier. The rebound appears tied to geopolitical tension in the Middle East: Iran reported three oil tankers hit mines in the Strait of Hormuz on November 24th, and Yemen's Houthis claimed attacks on a Saudi refinery the same day. These incidents raise the risk of supply disruptions, which typically support crude oil prices and boost the stocks of large oil producers like ConocoPhillips.\n\nThe move is modest given the broader headwinds. Oil prices remain relatively soft (U.S. crude at $89.50/barrel), and the collapse of fossil fuel language at the COP31 climate summit on November 23rd \u2014 combined with analyst warnings that the refining boom is ending \u2014 suggest limited enthusiasm for energy stocks right now. Today's gain looks more like a tactical rebound on supply-risk news than a shift in the sector's underlying momentum.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 243,
-    "inputTokens": 201253,
-    "outputTokens": 50396,
-    "estimatedCostUsd": 0.453233,
-    "lastCallHour": "2026-11-24T20"
+    "callsThisMonth": 244,
+    "inputTokens": 202114,
+    "outputTokens": 50617,
+    "estimatedCostUsd": 0.455199,
+    "lastCallHour": "2026-11-24T21"
   }
 }

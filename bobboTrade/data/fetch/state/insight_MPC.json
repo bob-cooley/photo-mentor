@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T20:02:28.382242+00:00",
-  "text": "Marathon Petroleum fell 0.9% today, extending a sharp 9% decline over two weeks as the refining sector unwinds from what had been a highly profitable period. The underlying reason is plainly stated in recent headlines: the \"epic boom in refinery-related stocks is unwinding.\" Refineries have been running hot at 95.7% capacity and profiting from high crude prices and tight supply, but that trade is now reversing as market conditions normalize and investors rotate out of energy.\n\nThe geopolitical backdrop that helped fuel refiner gains\u2014tanker attacks in the Strait of Hormuz, Houthi strikes on Saudi refineries, and U.S. sanctions on Iran\u2014initially supported oil prices and refinery margins. With crude near $90 per barrel and storage levels elevated, however, the acute supply concerns that drove the refinery boom appear to be fading, and the market is reassessing whether that outsized profitability can persist.",
+  "fetchedAt": "2026-11-24T21:02:30.683226+00:00",
+  "text": "Marathon Petroleum stock fell 0.7% today, extending a sharp two-week decline of 8.8%. The drop reflects a broad unwinding of the refinery boom that had driven these stocks higher \u2014 a November 23rd report explicitly noted \"the epic boom in refinery-related stocks is unwinding,\" signaling that traders are rotating out of the sector after an extended run. Oil prices remain firm (U.S. crude at $89.53/barrel), and refineries are running at 95.7% capacity, so the fundamental backdrop hasn't collapsed; rather, sentiment has shifted as the profit tailwinds that fueled the rally are fading.\n\nThe timing coincides with softening geopolitical risk premiums around Middle East tensions. While Iranian sanctions escalated and Houthi attacks on Saudi facilities continued through the week, oil markets absorbed the news without sharp spikes\u2014suggesting traders no longer see these conflicts as near-term supply threats. Combined with climate talks collapsing (which removes near-term policy headwinds for fossil fuels but also signals a reversal of regulatory tailwinds), the stock is caught in a rotation out of energy into other sectors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 245,
-    "inputTokens": 216972,
-    "outputTokens": 53394,
-    "estimatedCostUsd": 0.483942,
-    "lastCallHour": "2026-11-24T20"
+    "callsThisMonth": 246,
+    "inputTokens": 217906,
+    "outputTokens": 53646,
+    "estimatedCostUsd": 0.486136,
+    "lastCallHour": "2026-11-24T21"
   }
 }
