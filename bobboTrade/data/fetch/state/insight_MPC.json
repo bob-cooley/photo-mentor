@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T13:02:40.550029+00:00",
-  "text": "Marathon Petroleum has fallen 2.6% today and 8.3% over two weeks as refiners broadly face a shifting profit outlook. A major headline from Sunday captured the shift: analysts and headlines declared \"the biggest money-making energy trade looks over,\" signaling that the exceptional refinery margins that drove the sector's rally are fading. With U.S. oil sitting at $89.53 per barrel and refineries running at 95.7% capacity, there's less room for the kind of outsized profits that made refiner stocks perform so well earlier in the cycle.\n\nThe broader geopolitical backdrop\u2014Iran-backed attacks on Saudi and Bahraini facilities, U.S. sanctions tightening, and tanker incidents in the Strait of Hormuz\u2014would normally support higher oil prices and refinery demand. Instead, those tailwinds appear insufficient to offset the market's recognition that the refining boom is cooling. The failed climate deal at COP31, which disappointed those hoping for stronger fossil fuel commitments, may also weigh on longer-term sentiment around energy infrastructure stocks.",
+  "fetchedAt": "2026-11-24T14:02:19.303999+00:00",
+  "text": "Marathon Petroleum has fallen 2.6% today, extending a sharp decline over the past week that's wiped out $44 per share. The main driver appears to be a reported shift in market sentiment: a major financial news outlet explicitly flagged on November 23rd that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of the refining sector after a sustained rally. This comes as U.S. crude prices have drifted down to $89.53 per barrel, and despite refineries still running at a healthy 95.7% capacity, the momentum that benefited Marathon and similar companies has reversed.\n\nThe broader context reinforces this trend: geopolitical tensions in the Middle East\u2014including reported tanker attacks in the Strait of Hormuz and strikes on Saudi refinery facilities\u2014have failed to sustain oil prices or refiner valuations, while recent climate-focused policy discussions appear to be dampening longer-term sentiment on the energy sector. With oil storage levels elevated at 694 million barrels, there's less urgency supporting prices and refinery margins.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 238,
-    "inputTokens": 210436,
-    "outputTokens": 51748,
-    "estimatedCostUsd": 0.469176,
-    "lastCallHour": "2026-11-24T13"
+    "callsThisMonth": 239,
+    "inputTokens": 211369,
+    "outputTokens": 51987,
+    "estimatedCostUsd": 0.471304,
+    "lastCallHour": "2026-11-24T14"
   }
 }

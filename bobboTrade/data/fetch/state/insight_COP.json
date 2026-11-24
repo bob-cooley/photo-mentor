@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-24T13:02:08.794475+00:00",
-  "text": "ConocoPhillips fell 2.9% today as crude oil prices slid to $89.53 per barrel, their lowest level in this two-week period. The broader energy sector is under pressure: the epic run-up in refinery stocks is unwinding, and the collapse of international climate talks\u2014which failed to address fossil fuels\u2014has rattled investor confidence in oil companies' long-term prospects. The stock has now lost nearly 5% from its peak of $140.52 just a week ago.\n\nGeopolitical tensions in the Middle East, including Iran laying naval mines in the Strait of Hormuz and Houthis attacking Saudi refineries, have failed to prop up prices so far, suggesting markets are more focused on the softening demand picture than supply disruptions. The unwinding of the refinery trade\u2014which had been a bright spot for energy stocks\u2014signals that traders are rotating out of the sector more broadly.",
+  "fetchedAt": "2026-11-24T14:01:47.206088+00:00",
+  "text": "ConocoPhillips fell 2.9% today as crude oil prices dropped sharply, with US crude sliding to $89.53 per barrel. The decline reflects a broader pullback in energy markets and comes on the heels of the UN climate summit's collapse over the weekend\u2014a failure to include fossil fuels in the final deal has fueled concerns about longer-term demand for oil and reinvigorated climate-focused selling pressure on energy stocks.\n\nThe stock's slide also fits into a larger unwinding of the refinery trade that Wall Street flagged this week. While geopolitical risks like Houthi attacks on Saudi facilities and Iranian tanker incidents in the Strait of Hormuz would normally support higher oil prices, the market is instead pricing in weaker demand ahead and rotating away from the energy sector broadly.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 236,
-    "inputTokens": 195226,
-    "outputTokens": 49018,
-    "estimatedCostUsd": 0.440316,
-    "lastCallHour": "2026-11-24T13"
+    "callsThisMonth": 237,
+    "inputTokens": 196087,
+    "outputTokens": 49196,
+    "estimatedCostUsd": 0.442067,
+    "lastCallHour": "2026-11-24T14"
   }
 }
