@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T19:02:22.821281+00:00",
-  "text": "MPC fell 0.9% today and has dropped 9% over the past two weeks, tracking a broader unwinding of the refinery boom that powered energy stocks through much of the year. The timing coincides with news that the \"money-making energy trade looks over\"\u2014a shift driven by moderating oil prices (US crude at $89.53, down from earlier highs), refineries already running at 95.7% capacity with ample fuel in storage, and expectations that the exceptional margins refiners enjoyed are fading as supply-demand dynamics normalize.\n\nGeopolitical tension in the Middle East\u2014including Iranian drone and missile attacks on Saudi and Bahrain facilities, tanker incidents in the Strait of Hormuz, and Houthi claims against refineries\u2014has not been enough to offset the fundamental shift in refinery economics. With gasoline and diesel inventories elevated and the broader market consensus turning away from energy as a standalone profitable trade, the stock has entered a downtrend that reflects profit-taking after the sector's earlier run.",
+  "fetchedAt": "2026-11-24T20:02:28.382242+00:00",
+  "text": "Marathon Petroleum fell 0.9% today, extending a sharp 9% decline over two weeks as the refining sector unwinds from what had been a highly profitable period. The underlying reason is plainly stated in recent headlines: the \"epic boom in refinery-related stocks is unwinding.\" Refineries have been running hot at 95.7% capacity and profiting from high crude prices and tight supply, but that trade is now reversing as market conditions normalize and investors rotate out of energy.\n\nThe geopolitical backdrop that helped fuel refiner gains\u2014tanker attacks in the Strait of Hormuz, Houthi strikes on Saudi refineries, and U.S. sanctions on Iran\u2014initially supported oil prices and refinery margins. With crude near $90 per barrel and storage levels elevated, however, the acute supply concerns that drove the refinery boom appear to be fading, and the market is reassessing whether that outsized profitability can persist.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 244,
-    "inputTokens": 216038,
-    "outputTokens": 53185,
-    "estimatedCostUsd": 0.481963,
-    "lastCallHour": "2026-11-24T19"
+    "callsThisMonth": 245,
+    "inputTokens": 216972,
+    "outputTokens": 53394,
+    "estimatedCostUsd": 0.483942,
+    "lastCallHour": "2026-11-24T20"
   }
 }
