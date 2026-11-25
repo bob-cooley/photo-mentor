@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T14:01:21.101326+00:00",
-  "text": "ConocoPhillips stock rose 1.85% today, bouncing back from a sharp 4.3% drop two days earlier. The rebound reflects stabilizing oil prices\u2014US crude is holding at $89.53 per barrel\u2014and positive sentiment around dividend stocks after major Wall Street analysts highlighted energy dividends as attractive. The stock is still down 0.7% over the two-week span, suggesting today's move is a partial recovery rather than a breakout.\n\nGeopolitical tensions in the Middle East and Russia-Ukraine conflict are creating underlying support for oil prices. Attacks on Saudi infrastructure by Houthi forces and ongoing disruptions to Russian refining capacity keep energy markets on edge, which props up crude prices and can support companies like ConocoPhillips\u2014even as climate negotiations in the near term add long-term policy uncertainty for the sector.",
+  "fetchedAt": "2026-11-25T15:01:21.248629+00:00",
+  "text": "ConocoPhillips rose 0.76% today as oil prices steadied above $89 per barrel, following a sharp dip two days earlier when climate talks collapsed on November 23rd. That collapse\u2014where governments rejected a U.N. draft deal that excluded fossil fuels\u2014removed a near-term regulatory headwind, and the stock has recovered most of the 2.9% loss it took that day. The slight uptick suggests investors viewed the failed climate accord as a relief rather than a threat to near-term energy demand and company operations.\n\nThe broader context is mixed: geopolitical tensions in the Middle East and Ukraine continue to create supply-side noise around refinery and production capacity, while energy prices remain range-bound. Oil's modest stability around $90 isn't strong enough to drive a meaningful rally, which is why the stock remains down 1.6% over two weeks despite today's recovery.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 247,
-    "inputTokens": 204697,
-    "outputTokens": 51185,
-    "estimatedCostUsd": 0.460622,
-    "lastCallHour": "2026-11-25T14"
+    "callsThisMonth": 248,
+    "inputTokens": 205562,
+    "outputTokens": 51383,
+    "estimatedCostUsd": 0.462477,
+    "lastCallHour": "2026-11-25T15"
   }
 }
