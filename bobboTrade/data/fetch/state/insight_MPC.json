@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T16:06:47.514169+00:00",
-  "text": "Marathon Petroleum has fallen 3.5% today and 14.9% over two weeks amid mounting geopolitical risk in the Middle East and signs of refining headwinds. The immediate trigger appears to be escalating attacks on oil infrastructure\u2014Houthi strikes on Saudi Arabian facilities, Iranian tanker incidents in the Strait of Hormuz, and Ukraine's ongoing targeting of Russian refineries\u2014which create supply uncertainty without yet pulling crude prices decisively higher (US oil at $89.53/barrel, down from earlier levels in the month). Meanwhile, U.S. refineries are running at 95.7% capacity with gasoline and diesel stockpiles elevated, which limits margin expansion for domestic refiners even if geopolitical disruptions tighten global markets.\n\nThe stock's weakness also reflects a broader two-week decline that started before today's latest headlines, suggesting investors have been pricing in the risk of Middle East escalation and reduced refining profitability as inventories build. With U.S. oil prices stable but not spiking despite regional threats, refiners face pressure on both the input (crude) and output (fuel margins) sides of the business right now.",
+  "fetchedAt": "2026-11-25T17:02:04.889676+00:00",
+  "text": "Marathon Petroleum dropped 3.5% today, extending a two-week slide of nearly 15%. The proximate driver appears to be escalating geopolitical tension in the Middle East\u2014Houthi attacks on Saudi infrastructure, Iranian tanker incidents in the Strait of Hormuz, and ongoing Russia-Ukraine refinery strikes\u2014which typically create shipping disruptions and price volatility. These events, combined with crude oil prices falling from the $95+ range two weeks ago to $89.53 today, squeeze refining margins (the profit refiners make by turning crude into gasoline and diesel).\n\nRefinery utilization remains robust at 95.7%, so the problem isn't lack of demand or idle capacity; it's that crude is cheaper but product prices haven't fallen as much, compressing what refiners can earn per barrel processed. The two-week sell-off reflects investor concerns that geopolitical risk and lower oil prices are eroding the near-term profit outlook for the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 251,
-    "inputTokens": 222610,
-    "outputTokens": 54870,
-    "estimatedCostUsd": 0.49696,
-    "lastCallHour": "2026-11-25T16"
+    "callsThisMonth": 252,
+    "inputTokens": 223568,
+    "outputTokens": 55084,
+    "estimatedCostUsd": 0.498988,
+    "lastCallHour": "2026-11-25T17"
   }
 }

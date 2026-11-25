@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T16:06:20.786386+00:00",
-  "text": "ConocoPhillips rose 0.47% today to $135.27, recovering modestly from a sharp drop two days earlier when the stock fell nearly 3% after climate talks collapsed without committing to phase out fossil fuels. The rebound reflects stabilization around current oil prices\u2014US crude holding at $89.53 per barrel\u2014rather than any new company-specific catalyst, though geopolitical tensions remain a backdrop with ongoing attacks on Saudi and Russian energy infrastructure.\n\nThe two-week decline of 1.88% sits against a backdrop of mixed signals: climate uncertainty weighs on the energy sector's long-term outlook, but regional tensions in the Middle East and Ukraine that disrupt refinery capacity could support oil prices and benefit producers in the near term. The stock's modest recovery today suggests investors are digesting the climate headline rather than fleeing energy stocks outright.",
+  "fetchedAt": "2026-11-25T17:01:15.579397+00:00",
+  "text": "ConocoPhillips ticked up barely 0.07% today to $134.73, holding near the high end of its recent range after a rough week that saw the stock drop 2.3% from mid-November. The flatness masks conflicting pressures: crude oil prices (both U.S. and global) remain solidly in the $89\u2013$93 range, which should support an oil major's earnings, but the collapse of climate talks at COP31 on November 23rd\u2014which rejected a draft deal to phase out fossil fuels\u2014did little to spark a rally despite the apparent win for oil companies' long-term interests.\n\nThe muted bounce suggests investors aren't yet treating the climate-deal failure as meaningfully bullish for energy stocks, and the week's sharp dip from $136 to $132 may have reflected broader market jitters rather than company-specific news. Geopolitical risk around Russia's refineries (highlighted by Ukraine's attacks and Putin's retaliation threats) and the reported sale of Lukoil assets to Western buyers are reshuffling the global oil landscape, but these moves don't directly change ConocoPhillips' near-term outlook.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 249,
-    "inputTokens": 206427,
-    "outputTokens": 51571,
-    "estimatedCostUsd": 0.464282,
-    "lastCallHour": "2026-11-25T16"
+    "callsThisMonth": 250,
+    "inputTokens": 207308,
+    "outputTokens": 51834,
+    "estimatedCostUsd": 0.466478,
+    "lastCallHour": "2026-11-25T17"
   }
 }
