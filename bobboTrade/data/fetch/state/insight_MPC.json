@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T19:00:51.015843+00:00",
-  "text": "Marathon Petroleum fell 2% today, extending a sharp two-week decline of nearly 14%. The drop reflects deteriorating refining economics: US oil prices dropped from the mid-$80s to $82.24 per barrel while global crude sits higher at $91.80, narrowing the profit margin refiners earn on each barrel processed. With refineries already running at 97.5% capacity and gasoline and diesel inventories remaining elevated, there's limited room for refiners to pass costs along or boost throughput to offset thinner margins.\n\nThe timing aligns with mounting geopolitical tensions in oil-producing regions \u2014 attacks on Saudi infrastructure, sanctions tightening around Iran, and ongoing Ukraine-Russia conflict \u2014 that have kept crude prices volatile rather than trending higher. For a refiner, that instability combined with flat-to-weak refining spreads creates a difficult near-term backdrop, even as the company remains heavily utilized.",
+  "fetchedAt": "2026-11-25T20:02:54.095261+00:00",
+  "text": "Marathon Petroleum fell 1.9% today, continuing a sharp two-week decline of 13.5%. The slide reflects mounting geopolitical tension in the Middle East and broader energy supply concerns: Houthi attacks on Saudi infrastructure, Iranian tanker incidents in the Strait of Hormuz, and ongoing Russia-Ukraine refinery strikes all threaten oil transport and production stability. These disruptions, combined with crude prices holding steady around $82 domestically but rising globally to $91.80, create uncertainty about refining margins and fuel demand that refiners depend on.\n\nRefineries are running near full capacity at 97.5%, which normally supports strong margins, but the stock's decline suggests investors are pricing in that geopolitical risk could disrupt the smooth flow of crude oil to U.S. refineries or demand for refined products. The fact that oil storage remains relatively high (692 million barrels) may also signal concern that demand could soften if global tensions escalate further.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 254,
-    "inputTokens": 225484,
-    "outputTokens": 55501,
-    "estimatedCostUsd": 0.502989,
-    "lastCallHour": "2026-11-25T19"
+    "callsThisMonth": 255,
+    "inputTokens": 226442,
+    "outputTokens": 55714,
+    "estimatedCostUsd": 0.505012,
+    "lastCallHour": "2026-11-25T20"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T19:06:08.119121+00:00",
-  "text": "ConocoPhillips gained 0.74% today as oil prices stabilized and the stock recovered from its sharp 2.2% drop on November 23rd. That drop followed the collapse of climate talks at COP31, where governments rejected a draft deal that would have phased out fossil fuels\u2014initially pressuring energy stocks\u2014but today's modest rebound suggests the market is moving past that headline. With U.S. crude holding at $82 per barrel and global crude at $91.80, prices remain range-bound, which typically supports steady performance for a major oil company with large production volumes.\n\nThe recovery also fits a broader pattern: major Wall Street analysts have recently highlighted dividend-paying stocks as attractive, and energy companies with strong cash flows fit that category. Meanwhile, the geopolitical turbulence in Russia (asset sales, refinery attacks, retaliatory threats) may be reinforcing investor appetite for Western producers like ConocoPhillips as a more stable alternative.",
+  "fetchedAt": "2026-11-25T20:01:52.576165+00:00",
+  "text": "ConocoPhillips ticked up 0.34% today, extending a recovery from a sharp 2.9% drop on November 23rd when climate negotiations at COP31 collapsed without committing to phase out fossil fuels. The rebound suggests investors saw that failure as a mild positive for oil companies\u2014no binding restrictions on oil and gas production emerged from the talks. Oil prices remain relatively stable, with US crude at $82.24 and global crude at $91.80 per barrel, providing a steady backdrop for energy stocks.\n\nThe stock has been volatile over the past two weeks, down 2% overall, which likely reflects the broader uncertainty around climate policy and geopolitical tensions in oil-producing regions (Ukraine's attacks on Russian refineries and Middle East dynamics). That said, the company's heavy dividend yield continues to attract investors, as evidenced by recent analyst coverage highlighting energy stocks as attractive income plays during this period of elevated oil prices and policy uncertainty.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 252,
-    "inputTokens": 209070,
-    "outputTokens": 52242,
-    "estimatedCostUsd": 0.47028,
-    "lastCallHour": "2026-11-25T19"
+    "callsThisMonth": 253,
+    "inputTokens": 209951,
+    "outputTokens": 52450,
+    "estimatedCostUsd": 0.472201,
+    "lastCallHour": "2026-11-25T20"
   }
 }
