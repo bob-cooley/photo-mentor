@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T17:01:15.579397+00:00",
-  "text": "ConocoPhillips ticked up barely 0.07% today to $134.73, holding near the high end of its recent range after a rough week that saw the stock drop 2.3% from mid-November. The flatness masks conflicting pressures: crude oil prices (both U.S. and global) remain solidly in the $89\u2013$93 range, which should support an oil major's earnings, but the collapse of climate talks at COP31 on November 23rd\u2014which rejected a draft deal to phase out fossil fuels\u2014did little to spark a rally despite the apparent win for oil companies' long-term interests.\n\nThe muted bounce suggests investors aren't yet treating the climate-deal failure as meaningfully bullish for energy stocks, and the week's sharp dip from $136 to $132 may have reflected broader market jitters rather than company-specific news. Geopolitical risk around Russia's refineries (highlighted by Ukraine's attacks and Putin's retaliation threats) and the reported sale of Lukoil assets to Western buyers are reshuffling the global oil landscape, but these moves don't directly change ConocoPhillips' near-term outlook.",
+  "fetchedAt": "2026-11-25T18:01:20.327804+00:00",
+  "text": "COP rose 0.92% today to $135.88, bouncing back after a sharp 2.4% drop two days earlier. The rebound appears tied to stabilization in oil markets\u2014US crude holding around $89.50 per barrel\u2014and positive sentiment around dividend stocks, which Wall Street analysts have been highlighting as attractive investments. ConocoPhillips, as a major oil producer with a strong dividend history, would benefit from this renewed focus on yield-paying energy names.\n\nThe broader backdrop remains mixed. The collapse of fossil fuel language at the U.N. climate summit on November 23rd initially weighed on the stock, but geopolitical tensions driving oil demand\u2014Ukraine's attacks on Russian refineries and broader supply concerns\u2014may be providing a floor under prices. The company sits in a relatively stable price range after the recent volatility, with crude prices not moving decisively higher or lower.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 250,
-    "inputTokens": 207308,
-    "outputTokens": 51834,
-    "estimatedCostUsd": 0.466478,
-    "lastCallHour": "2026-11-25T17"
+    "callsThisMonth": 251,
+    "inputTokens": 208189,
+    "outputTokens": 52029,
+    "estimatedCostUsd": 0.468334,
+    "lastCallHour": "2026-11-25T18"
   }
 }

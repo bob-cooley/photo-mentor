@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T17:02:04.889676+00:00",
-  "text": "Marathon Petroleum dropped 3.5% today, extending a two-week slide of nearly 15%. The proximate driver appears to be escalating geopolitical tension in the Middle East\u2014Houthi attacks on Saudi infrastructure, Iranian tanker incidents in the Strait of Hormuz, and ongoing Russia-Ukraine refinery strikes\u2014which typically create shipping disruptions and price volatility. These events, combined with crude oil prices falling from the $95+ range two weeks ago to $89.53 today, squeeze refining margins (the profit refiners make by turning crude into gasoline and diesel).\n\nRefinery utilization remains robust at 95.7%, so the problem isn't lack of demand or idle capacity; it's that crude is cheaper but product prices haven't fallen as much, compressing what refiners can earn per barrel processed. The two-week sell-off reflects investor concerns that geopolitical risk and lower oil prices are eroding the near-term profit outlook for the sector.",
+  "fetchedAt": "2026-11-25T18:01:48.798432+00:00",
+  "text": "Marathon Petroleum fell 2.7% today, extending a two-week decline of 14%, as oil prices remain under pressure and refinery margins tighten. US crude is trading at $89.53 per barrel while refineries are running at 95.7% capacity\u2014high utilization combined with moderating oil prices squeezes the profit refiners make on each barrel processed. Gasoline and diesel inventories are building (215.9 million and 104.9 million barrels respectively), adding to margin pressure as supply outpaces demand signals.\n\nGeopolitical disruptions\u2014Houthi attacks on Saudi infrastructure, mine strikes on tankers in the Hormuz Strait, and ongoing Ukraine-Russia refinery attacks\u2014have failed to sustainably lift oil prices, suggesting markets expect these supply risks to remain contained or that demand concerns are outweighing them. This backdrop of persistent margin compression, despite headline geopolitical risk, is likely keeping downward pressure on refinery stocks.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 252,
-    "inputTokens": 223568,
-    "outputTokens": 55084,
-    "estimatedCostUsd": 0.498988,
-    "lastCallHour": "2026-11-25T17"
+    "callsThisMonth": 253,
+    "inputTokens": 224526,
+    "outputTokens": 55300,
+    "estimatedCostUsd": 0.501026,
+    "lastCallHour": "2026-11-25T18"
   }
 }
