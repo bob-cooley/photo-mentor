@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T18:01:20.327804+00:00",
-  "text": "COP rose 0.92% today to $135.88, bouncing back after a sharp 2.4% drop two days earlier. The rebound appears tied to stabilization in oil markets\u2014US crude holding around $89.50 per barrel\u2014and positive sentiment around dividend stocks, which Wall Street analysts have been highlighting as attractive investments. ConocoPhillips, as a major oil producer with a strong dividend history, would benefit from this renewed focus on yield-paying energy names.\n\nThe broader backdrop remains mixed. The collapse of fossil fuel language at the U.N. climate summit on November 23rd initially weighed on the stock, but geopolitical tensions driving oil demand\u2014Ukraine's attacks on Russian refineries and broader supply concerns\u2014may be providing a floor under prices. The company sits in a relatively stable price range after the recent volatility, with crude prices not moving decisively higher or lower.",
+  "fetchedAt": "2026-11-25T19:06:08.119121+00:00",
+  "text": "ConocoPhillips gained 0.74% today as oil prices stabilized and the stock recovered from its sharp 2.2% drop on November 23rd. That drop followed the collapse of climate talks at COP31, where governments rejected a draft deal that would have phased out fossil fuels\u2014initially pressuring energy stocks\u2014but today's modest rebound suggests the market is moving past that headline. With U.S. crude holding at $82 per barrel and global crude at $91.80, prices remain range-bound, which typically supports steady performance for a major oil company with large production volumes.\n\nThe recovery also fits a broader pattern: major Wall Street analysts have recently highlighted dividend-paying stocks as attractive, and energy companies with strong cash flows fit that category. Meanwhile, the geopolitical turbulence in Russia (asset sales, refinery attacks, retaliatory threats) may be reinforcing investor appetite for Western producers like ConocoPhillips as a more stable alternative.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 251,
-    "inputTokens": 208189,
-    "outputTokens": 52029,
-    "estimatedCostUsd": 0.468334,
-    "lastCallHour": "2026-11-25T18"
+    "callsThisMonth": 252,
+    "inputTokens": 209070,
+    "outputTokens": 52242,
+    "estimatedCostUsd": 0.47028,
+    "lastCallHour": "2026-11-25T19"
   }
 }
