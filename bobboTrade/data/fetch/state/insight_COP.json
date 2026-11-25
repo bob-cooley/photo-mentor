@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-24T21:01:50.403546+00:00",
-  "text": "ConocoPhillips rose 1.9% today to $134.66, bouncing back from a sharp 3% drop two days earlier. The rebound appears tied to geopolitical tension in the Middle East: Iran reported three oil tankers hit mines in the Strait of Hormuz on November 24th, and Yemen's Houthis claimed attacks on a Saudi refinery the same day. These incidents raise the risk of supply disruptions, which typically support crude oil prices and boost the stocks of large oil producers like ConocoPhillips.\n\nThe move is modest given the broader headwinds. Oil prices remain relatively soft (U.S. crude at $89.50/barrel), and the collapse of fossil fuel language at the COP31 climate summit on November 23rd \u2014 combined with analyst warnings that the refining boom is ending \u2014 suggest limited enthusiasm for energy stocks right now. Today's gain looks more like a tactical rebound on supply-risk news than a shift in the sector's underlying momentum.",
+  "fetchedAt": "2026-11-25T03:21:23.863570+00:00",
+  "text": "ConocoPhillips rose 1.85% today, bouncing back from a sharp 4% drop two days earlier. The rebound appears tied to geopolitical tension in the Middle East: Iran reported three tankers hit mines in the Strait of Hormuz while under U.S. escort, and Houthi forces attacked Saudi Arabia's sovereign wealth fund headquarters for the second time in a week. These incidents raise the risk of supply disruptions in a critical shipping chokepoint, which typically lifts oil prices and benefits major producers like ConocoPhillips\u2014though current crude prices (around $89\u201393 per barrel) remain relatively modest and may be limiting the upside.\n\nThe stock's recovery also follows a brutal two days where it fell after climate talks collapsed without committing countries to phase down fossil fuels. Investors appear to have initially overreacted to that headline; the geopolitical risk now seems to have outweighed near-term climate policy concerns, at least for today's move.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 244,
-    "inputTokens": 202114,
-    "outputTokens": 50617,
-    "estimatedCostUsd": 0.455199,
-    "lastCallHour": "2026-11-24T21"
+    "callsThisMonth": 245,
+    "inputTokens": 202969,
+    "outputTokens": 50836,
+    "estimatedCostUsd": 0.457149,
+    "lastCallHour": "2026-11-25T03"
   }
 }

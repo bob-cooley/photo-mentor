@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-24T21:02:30.683226+00:00",
-  "text": "Marathon Petroleum stock fell 0.7% today, extending a sharp two-week decline of 8.8%. The drop reflects a broad unwinding of the refinery boom that had driven these stocks higher \u2014 a November 23rd report explicitly noted \"the epic boom in refinery-related stocks is unwinding,\" signaling that traders are rotating out of the sector after an extended run. Oil prices remain firm (U.S. crude at $89.53/barrel), and refineries are running at 95.7% capacity, so the fundamental backdrop hasn't collapsed; rather, sentiment has shifted as the profit tailwinds that fueled the rally are fading.\n\nThe timing coincides with softening geopolitical risk premiums around Middle East tensions. While Iranian sanctions escalated and Houthi attacks on Saudi facilities continued through the week, oil markets absorbed the news without sharp spikes\u2014suggesting traders no longer see these conflicts as near-term supply threats. Combined with climate talks collapsing (which removes near-term policy headwinds for fossil fuels but also signals a reversal of regulatory tailwinds), the stock is caught in a rotation out of energy into other sectors.",
+  "fetchedAt": "2026-11-25T03:21:56.057018+00:00",
+  "text": "Marathon Petroleum has fallen nearly 9% over two weeks, with today's modest decline continuing a sharper drop that started around November 17th. The timing aligns with a major shift in refiner sentiment: on November 23rd, financial media explicitly reported that \"the epic boom in refinery-related stocks is unwinding,\" suggesting investors are rotating out of the sector after a long period of outsized gains. This shift appears to have outweighed any near-term support from geopolitical supply concerns (Houthi attacks on Saudi facilities, tanker incidents in the Strait of Hormuz) that would normally prop up oil prices and refinery margins.\n\nThe broader context is that refiners like this one have benefited enormously from wide profit margins over the past couple of years, but those conditions are normalizing. U.S. refineries are running at 95.7% capacity and storage levels are healthy across crude, gasoline, and diesel\u2014there's no supply crisis pushing margins higher. Without the tailwind of exceptional profitability and amid a general cooling of energy enthusiasm (reflected in the climate summit headlines and shifting trader positioning), the stock is repricing downward even as geopolitical risks persist.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 246,
-    "inputTokens": 217906,
-    "outputTokens": 53646,
-    "estimatedCostUsd": 0.486136,
-    "lastCallHour": "2026-11-24T21"
+    "callsThisMonth": 247,
+    "inputTokens": 218834,
+    "outputTokens": 53904,
+    "estimatedCostUsd": 0.488354,
+    "lastCallHour": "2026-11-25T03"
   }
 }
