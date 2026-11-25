@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T18:01:48.798432+00:00",
-  "text": "Marathon Petroleum fell 2.7% today, extending a two-week decline of 14%, as oil prices remain under pressure and refinery margins tighten. US crude is trading at $89.53 per barrel while refineries are running at 95.7% capacity\u2014high utilization combined with moderating oil prices squeezes the profit refiners make on each barrel processed. Gasoline and diesel inventories are building (215.9 million and 104.9 million barrels respectively), adding to margin pressure as supply outpaces demand signals.\n\nGeopolitical disruptions\u2014Houthi attacks on Saudi infrastructure, mine strikes on tankers in the Hormuz Strait, and ongoing Ukraine-Russia refinery attacks\u2014have failed to sustainably lift oil prices, suggesting markets expect these supply risks to remain contained or that demand concerns are outweighing them. This backdrop of persistent margin compression, despite headline geopolitical risk, is likely keeping downward pressure on refinery stocks.",
+  "fetchedAt": "2026-11-25T19:00:51.015843+00:00",
+  "text": "Marathon Petroleum fell 2% today, extending a sharp two-week decline of nearly 14%. The drop reflects deteriorating refining economics: US oil prices dropped from the mid-$80s to $82.24 per barrel while global crude sits higher at $91.80, narrowing the profit margin refiners earn on each barrel processed. With refineries already running at 97.5% capacity and gasoline and diesel inventories remaining elevated, there's limited room for refiners to pass costs along or boost throughput to offset thinner margins.\n\nThe timing aligns with mounting geopolitical tensions in oil-producing regions \u2014 attacks on Saudi infrastructure, sanctions tightening around Iran, and ongoing Ukraine-Russia conflict \u2014 that have kept crude prices volatile rather than trending higher. For a refiner, that instability combined with flat-to-weak refining spreads creates a difficult near-term backdrop, even as the company remains heavily utilized.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 253,
-    "inputTokens": 224526,
-    "outputTokens": 55300,
-    "estimatedCostUsd": 0.501026,
-    "lastCallHour": "2026-11-25T18"
+    "callsThisMonth": 254,
+    "inputTokens": 225484,
+    "outputTokens": 55501,
+    "estimatedCostUsd": 0.502989,
+    "lastCallHour": "2026-11-25T19"
   }
 }
