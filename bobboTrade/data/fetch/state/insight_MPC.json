@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T21:01:43.908868+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as oil prices retreated and geopolitical risk in the Middle East remained elevated but contained. US crude dropped to $82.24 per barrel\u2014down sharply from earlier this month\u2014while refineries are running at a high 97.5% capacity utilization, leaving little room for margin expansion. The combination of lower crude costs and limited ability to push throughput higher weighs on refiner profitability.\n\nThe broader backdrop hasn't improved the investment case. Attacks on Saudi and Russian energy infrastructure, Iranian tanker incidents in the Hormuz Strait, and ongoing Ukraine-Russia energy warfare keep Middle Eastern supply disruptions in the headlines, yet oil prices have still fallen\u2014suggesting markets expect global demand to remain soft or supply concerns to ease. Meanwhile, US crude is trading at a significant $9.56 discount to world oil, which limits the arbitrage advantage domestic refiners typically enjoy.",
+  "fetchedAt": "2026-11-25T22:59:18.799619+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as oil prices softened and geopolitical tensions that might support energy demand showed no sign of resolving into actual supply disruptions. US crude dropped to $82.24 per barrel, down from levels that would have supported higher refining margins earlier this month. While refineries are running at a robust 97.5%, the combination of lower oil prices and high product inventories\u2014217.7 million barrels of gasoline and 105.6 million barrels of diesel in storage\u2014squeezes the profit refiners make on each barrel they process.\n\nThe broader headwind is that Middle Eastern tensions (Houthi attacks on Saudi infrastructure, Iranian tankers hitting mines, Ukraine's refinery strikes on Russian assets) remain serious but have not yet created a visible supply crisis or oil price spike that would offset the downward pressure from abundant inventories and softer crude. Traders appear to be pricing in containment rather than escalation.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 256,
-    "inputTokens": 227400,
-    "outputTokens": 55925,
-    "estimatedCostUsd": 0.507025,
-    "lastCallHour": "2026-11-25T21"
+    "callsThisMonth": 257,
+    "inputTokens": 228360,
+    "outputTokens": 56146,
+    "estimatedCostUsd": 0.50909,
+    "lastCallHour": "2026-11-25T22"
   }
 }

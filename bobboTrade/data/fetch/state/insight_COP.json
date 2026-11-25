@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T21:01:14.911920+00:00",
-  "text": "ConocoPhillips rose modestly today as oil markets steadied after a sharp selloff earlier in the week. The stock had dropped nearly 3% by November 23rd following the collapse of climate negotiations at COP31, which raised fears of continued regulatory pressure on fossil fuel companies; today's gain reflects a partial recovery as crude prices stabilized around $82 per barrel domestically. The stock remains down about 2% over the two-week stretch, suggesting investors are still digesting longer-term concerns about the energy transition.\n\nThe bounce is also consistent with Wall Street's continued support for dividend-paying energy stocks like this one, which analysts have highlighted as attractive for income-focused investors despite near-term policy headwinds. Geopolitical developments\u2014including Ukrainian attacks on Russian refineries and speculation about restructuring of Russian oil assets\u2014underscore ongoing supply-chain complexity but haven't significantly reset the broader crude price picture.",
+  "fetchedAt": "2026-11-25T22:57:13.935031+00:00",
+  "text": "ConocoPhillips rose slightly today as oil markets steadied following a sharp drop two days earlier. The stock has bounced back from a low of $132.19 on November 23rd\u2014the day climate talks at COP31 collapsed without committing to phase out fossil fuels. That collapse, which had initially spooked energy investors, actually removed a source of near-term regulatory uncertainty for oil companies, allowing the stock to recover toward its prior levels.\n\nThe modest gain also reflects a stabilizing geopolitical backdrop. While tensions persist around Russian refinery attacks and retaliatory threats, the broader global energy picture has steadied: U.S. crude is trading at $82.24 per barrel and international crude at $91.80, within normal ranges for the past few weeks. The failed climate deal removes the risk of a binding international commitment that could have constrained future oil demand, which keeps the investment case for major oil producers intact for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 254,
-    "inputTokens": 210832,
-    "outputTokens": 52648,
-    "estimatedCostUsd": 0.474072,
-    "lastCallHour": "2026-11-25T21"
+    "callsThisMonth": 255,
+    "inputTokens": 211715,
+    "outputTokens": 52853,
+    "estimatedCostUsd": 0.47598,
+    "lastCallHour": "2026-11-25T22"
   }
 }
