@@ -99,6 +99,10 @@
         {
           "name": "Meduza",
           "url": "https://meduza.io/en/news/2026/10/30/moscow-mayor-says-more-than-800-ukrainian-drones-headed-toward-russian-capital-as-reports-emerge-of-fire-at-samara-region-oil-refinery"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html"
         }
       ],
       "origin": "auto",
@@ -363,6 +367,86 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-23T13:03:00.880781+00:00"
+    },
+    {
+      "date": "2026-11-25",
+      "facility": "Syzran oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "id": "2026-11-25-syzran-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064579/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-25T13:05:31.978469+00:00"
+    },
+    {
+      "date": "2026-11-25",
+      "facility": "Kuibyshev oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "claimed",
+      "id": "2026-11-25-kuibyshev-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/25/8064579/"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-25T13:05:31.978513+00:00"
+    },
+    {
+      "date": "2026-11-25",
+      "facility": "two major Russian oil refineries in Russia's Samara region",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-25-two-major-russian-oil-refineries-in-russ-russia",
+      "sources": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-25T13:05:34.039138+00:00"
+    },
+    {
+      "date": "2026-11-25",
+      "facility": "Kuibyshevsky oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-25-kuibyshevsky-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-25T13:05:36.272311+00:00"
+    },
+    {
+      "date": "2026-11-25",
+      "facility": "Syzransky oil refinery",
+      "attacker": "Ukraine",
+      "attackedNation": "Russia",
+      "attribution": "reported",
+      "id": "2026-11-25-syzransky-oil-refinery-russia",
+      "sources": [
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-25T13:05:36.272363+00:00"
     }
   ],
   "processedUrls": {
@@ -455,17 +539,21 @@
     "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html": "2026-11-23T13:03:00.880605+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/23/8064267/": "2026-11-23T19:12:49.812292+00:00",
     "https://www.aa.com.tr/en/eurasia/putin-says-russias-response-to-ukrainian-attacks-on-oil-refineries-inevitable/4136296": "2026-11-24T18:23:00.532440+00:00",
-    "https://www.pravda.com.ua/eng/news/2026/11/24/8064490/": "2026-11-24T21:28:07.380397+00:00"
+    "https://www.pravda.com.ua/eng/news/2026/11/24/8064490/": "2026-11-24T21:28:07.380397+00:00",
+    "https://www.france24.com/en/video/20261125-yemen-s-houthis-claim-attacks-on-riyadh-financial-district-saudi-refinery": "2026-11-25T13:05:30.043446+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/25/8064579/": "2026-11-25T13:05:31.978269+00:00",
+    "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html": "2026-11-25T13:05:34.038887+00:00",
+    "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze": "2026-11-25T13:05:36.272160+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 31,
-    "inputTokens": 35271,
-    "outputTokens": 4656,
-    "estimatedCostUsd": 0.058551
+    "calls": 35,
+    "inputTokens": 39031,
+    "outputTokens": 5444,
+    "estimatedCostUsd": 0.066251
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": false,
-  "lastRunAt": "2026-11-25T03:22:37.721767+00:00"
+  "lastRunAt": "2026-11-25T13:05:36.272391+00:00"
 }
