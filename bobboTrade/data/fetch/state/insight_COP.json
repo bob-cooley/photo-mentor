@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T20:01:52.576165+00:00",
-  "text": "ConocoPhillips ticked up 0.34% today, extending a recovery from a sharp 2.9% drop on November 23rd when climate negotiations at COP31 collapsed without committing to phase out fossil fuels. The rebound suggests investors saw that failure as a mild positive for oil companies\u2014no binding restrictions on oil and gas production emerged from the talks. Oil prices remain relatively stable, with US crude at $82.24 and global crude at $91.80 per barrel, providing a steady backdrop for energy stocks.\n\nThe stock has been volatile over the past two weeks, down 2% overall, which likely reflects the broader uncertainty around climate policy and geopolitical tensions in oil-producing regions (Ukraine's attacks on Russian refineries and Middle East dynamics). That said, the company's heavy dividend yield continues to attract investors, as evidenced by recent analyst coverage highlighting energy stocks as attractive income plays during this period of elevated oil prices and policy uncertainty.",
+  "fetchedAt": "2026-11-25T21:01:14.911920+00:00",
+  "text": "ConocoPhillips rose modestly today as oil markets steadied after a sharp selloff earlier in the week. The stock had dropped nearly 3% by November 23rd following the collapse of climate negotiations at COP31, which raised fears of continued regulatory pressure on fossil fuel companies; today's gain reflects a partial recovery as crude prices stabilized around $82 per barrel domestically. The stock remains down about 2% over the two-week stretch, suggesting investors are still digesting longer-term concerns about the energy transition.\n\nThe bounce is also consistent with Wall Street's continued support for dividend-paying energy stocks like this one, which analysts have highlighted as attractive for income-focused investors despite near-term policy headwinds. Geopolitical developments\u2014including Ukrainian attacks on Russian refineries and speculation about restructuring of Russian oil assets\u2014underscore ongoing supply-chain complexity but haven't significantly reset the broader crude price picture.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 253,
-    "inputTokens": 209951,
-    "outputTokens": 52450,
-    "estimatedCostUsd": 0.472201,
-    "lastCallHour": "2026-11-25T20"
+    "callsThisMonth": 254,
+    "inputTokens": 210832,
+    "outputTokens": 52648,
+    "estimatedCostUsd": 0.474072,
+    "lastCallHour": "2026-11-25T21"
   }
 }

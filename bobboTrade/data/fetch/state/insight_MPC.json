@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T20:02:54.095261+00:00",
-  "text": "Marathon Petroleum fell 1.9% today, continuing a sharp two-week decline of 13.5%. The slide reflects mounting geopolitical tension in the Middle East and broader energy supply concerns: Houthi attacks on Saudi infrastructure, Iranian tanker incidents in the Strait of Hormuz, and ongoing Russia-Ukraine refinery strikes all threaten oil transport and production stability. These disruptions, combined with crude prices holding steady around $82 domestically but rising globally to $91.80, create uncertainty about refining margins and fuel demand that refiners depend on.\n\nRefineries are running near full capacity at 97.5%, which normally supports strong margins, but the stock's decline suggests investors are pricing in that geopolitical risk could disrupt the smooth flow of crude oil to U.S. refineries or demand for refined products. The fact that oil storage remains relatively high (692 million barrels) may also signal concern that demand could soften if global tensions escalate further.",
+  "fetchedAt": "2026-11-25T21:01:43.908868+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as oil prices retreated and geopolitical risk in the Middle East remained elevated but contained. US crude dropped to $82.24 per barrel\u2014down sharply from earlier this month\u2014while refineries are running at a high 97.5% capacity utilization, leaving little room for margin expansion. The combination of lower crude costs and limited ability to push throughput higher weighs on refiner profitability.\n\nThe broader backdrop hasn't improved the investment case. Attacks on Saudi and Russian energy infrastructure, Iranian tanker incidents in the Hormuz Strait, and ongoing Ukraine-Russia energy warfare keep Middle Eastern supply disruptions in the headlines, yet oil prices have still fallen\u2014suggesting markets expect global demand to remain soft or supply concerns to ease. Meanwhile, US crude is trading at a significant $9.56 discount to world oil, which limits the arbitrage advantage domestic refiners typically enjoy.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 255,
-    "inputTokens": 226442,
-    "outputTokens": 55714,
-    "estimatedCostUsd": 0.505012,
-    "lastCallHour": "2026-11-25T20"
+    "callsThisMonth": 256,
+    "inputTokens": 227400,
+    "outputTokens": 55925,
+    "estimatedCostUsd": 0.507025,
+    "lastCallHour": "2026-11-25T21"
   }
 }
