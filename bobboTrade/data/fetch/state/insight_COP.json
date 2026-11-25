@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T13:02:26.997602+00:00",
-  "text": "ConocoPhillips rose 1.85% today as oil prices held steady in the mid-$90s globally and the mid-$89s domestically. The stock had dropped sharply on November 23rd following the collapse of climate negotiations at COP31, which failed to include fossil fuel phase-out language\u2014a symbolic win for the energy sector that removed near-term regulatory risk. Today's rebound reflects both stabilization after that selloff and the absence of fresh negative headlines.\n\nRegional geopolitical tensions\u2014Houthi attacks on Saudi infrastructure and ongoing strikes on Russian refineries\u2014keep underlying energy prices supported, which benefits a major crude producer like ConocoPhillips even without directional movement in the broader oil market.",
+  "fetchedAt": "2026-11-25T14:01:21.101326+00:00",
+  "text": "ConocoPhillips stock rose 1.85% today, bouncing back from a sharp 4.3% drop two days earlier. The rebound reflects stabilizing oil prices\u2014US crude is holding at $89.53 per barrel\u2014and positive sentiment around dividend stocks after major Wall Street analysts highlighted energy dividends as attractive. The stock is still down 0.7% over the two-week span, suggesting today's move is a partial recovery rather than a breakout.\n\nGeopolitical tensions in the Middle East and Russia-Ukraine conflict are creating underlying support for oil prices. Attacks on Saudi infrastructure by Houthi forces and ongoing disruptions to Russian refining capacity keep energy markets on edge, which props up crude prices and can support companies like ConocoPhillips\u2014even as climate negotiations in the near term add long-term policy uncertainty for the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 246,
-    "inputTokens": 203833,
-    "outputTokens": 50996,
-    "estimatedCostUsd": 0.458813,
-    "lastCallHour": "2026-11-25T13"
+    "callsThisMonth": 247,
+    "inputTokens": 204697,
+    "outputTokens": 51185,
+    "estimatedCostUsd": 0.460622,
+    "lastCallHour": "2026-11-25T14"
   }
 }

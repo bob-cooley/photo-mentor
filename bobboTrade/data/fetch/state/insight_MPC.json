@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T13:04:40.976051+00:00",
-  "text": "Marathon Petroleum has fallen 0.7% today, extending a sharp two-week drop of 8.8% that accelerated over the last week. The slide reflects weakness in oil and refining margins: US crude is trading at $89.53 per barrel, down from levels that would have supported higher refinery profits, and with refineries running at 95.7% capacity and storage inventories elevated (694 million barrels of oil, 216 million barrels of gasoline in storage), there's less urgency for refined products\u2014the main profit driver for refiners like Marathon.\n\nGeopolitical risks to global oil supply\u2014including Houthi attacks on Saudi infrastructure, Iranian tanker incidents near the Hormuz Strait, and attacks on Russian refineries\u2014haven't pushed crude prices higher, suggesting markets are skeptical these will severely disrupt flows. That leaves refiners competing on thinner margins in an oversupplied environment.",
+  "fetchedAt": "2026-11-25T14:02:14.239712+00:00",
+  "text": "Marathon Petroleum fell 0.71% today, extending a sharp 8.83% decline over two weeks. The stock is reacting to a combination of geopolitical tensions disrupting global oil supply and domestic refining pressures: attacks on Saudi and Iranian infrastructure, mine strikes on tankers in the Strait of Hormuz, and escalating U.S. sanctions on Iran all create shipping risk and uncertainty. Meanwhile, U.S. refineries are running at 95.7% capacity with oil inventories at 694 million barrels\u2014high enough that even with supply threats abroad, refiners aren't seeing the demand surge that would justify higher margins and stock prices.\n\nThe broader issue for Marathon is that geopolitical chaos abroad hasn't translated into the tight supply conditions that typically boost refiner profitability. Oil prices have held relatively flat (U.S. crude at $89.53/barrel), suggesting the market isn't pricing in a major supply shock despite the Middle East tensions and Iran-related shipping disruptions. Refiners make money on the spread between crude input costs and refined product sales\u2014when crude prices spike without corresponding product price jumps, margins compress.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 248,
-    "inputTokens": 219779,
-    "outputTokens": 54109,
-    "estimatedCostUsd": 0.490324,
-    "lastCallHour": "2026-11-25T13"
+    "callsThisMonth": 249,
+    "inputTokens": 220724,
+    "outputTokens": 54359,
+    "estimatedCostUsd": 0.492519,
+    "lastCallHour": "2026-11-25T14"
   }
 }
