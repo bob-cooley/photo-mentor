@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T18:02:47.497982+00:00",
-  "text": "MPC stock fell 2.5% today, extending a two-week decline of 14%, as refineries operate at peak capacity (97.5%) while oil storage sits at elevated levels (692 million barrels). When refineries are already running flat-out and crude inventories build up, it signals weak downstream demand\u2014refiners have less pricing power and face tighter margins because they can't process more oil even if prices look attractive.\n\nThe broader backdrop isn't helping either. Climate talks collapsed without committing to phase out fossil fuels, which removes near-term regulatory pressure on oil demand but also reflects weak confidence in future energy transition. At the same time, news around alternative energy infrastructure (quantum computing for grids, hydrogen catalysts) and rising AI energy demand suggests money is flowing toward new energy sectors, potentially pulling investor interest away from traditional refining plays already facing margin compression from oversupply.",
+  "fetchedAt": "2026-11-26T19:02:06.151908+00:00",
+  "text": "Marathon Petroleum stock fell 2.5% today, extending a two-week decline of 14%, as crude oil prices dropped sharply\u2014US oil fell to $82.24 per barrel, down notably from recent highs. While refineries are running at a healthy 97.5% capacity, the decline in both domestic and global oil prices (Brent at $91.80) reduces the profit margin refiners earn by processing crude into products like gasoline and diesel. This pricing pressure, sustained over the past week, has been the primary headwind for the stock.\n\nThe broader context shows refining margins are under structural pressure. Oil storage levels remain elevated at 692 million barrels\u2014suggesting supply abundance\u2014and there is no news of a sudden demand shock or supply disruption that would prop up prices. While news about quantum computing in energy optimization and AI-driven demand for power could eventually support energy prices, that remains speculative; for now, the refiner is facing a simple arithmetic problem: lower input costs (crude) but no corresponding lift in what it can sell refined products for.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 264,
-    "inputTokens": 234858,
-    "outputTokens": 57608,
-    "estimatedCostUsd": 0.522898,
-    "lastCallHour": "2026-11-26T18"
+    "callsThisMonth": 265,
+    "inputTokens": 235781,
+    "outputTokens": 57840,
+    "estimatedCostUsd": 0.524981,
+    "lastCallHour": "2026-11-26T19"
   }
 }

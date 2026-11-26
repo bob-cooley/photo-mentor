@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T18:01:31.579671+00:00",
-  "text": "ConocoPhillips edged up 0.28% today in a narrow range, holding near its recovery level after a sharp dip on November 23rd. The move reflects some stability in oil markets\u2014US crude is trading at $82.24 per barrel\u2014but broader headwinds persist. The collapse of fossil fuel language in the COP31 climate agreement over the weekend created uncertainty for the sector, and that uncertainty has kept the stock down 2% over the past two weeks despite the modest daily gain.\n\nThe company operates in a mixed environment right now: while growing energy demand from AI infrastructure buildout and Latin America's resource potential could support long-term demand for oil and gas, near-term sentiment remains clouded by climate policy risk and the political pushback against fossil fuels at major international forums.",
+  "fetchedAt": "2026-11-26T19:01:35.012650+00:00",
+  "text": "ConocoPhillips edged up 0.28% today, a modest gain that reflects conflicting pressures on energy stocks. The stock has been volatile over the past two weeks (down 2% overall), and today's small move comes as crude oil prices remain relatively soft: US oil is trading at $82.24 per barrel, down from levels that would typically support bigger gains for an oil producer. The major headwind is last weekend's collapse of climate talks at COP31, where governments rejected a draft agreement that failed to include language on phasing out fossil fuels\u2014a development that deepens uncertainty around future energy demand and policy frameworks.\n\nThe modest bounce today may reflect some relief that the climate outcome, while disappointing to energy companies, wasn't worse, or renewed interest in oil dividends amid Wall Street's recent focus on high-yielding energy stocks. Longer term, the company sits at the intersection of two opposing trends: regulatory pressure and clean-energy investment on one side, and emerging demand drivers like AI infrastructure buildout on the other, particularly in energy-rich regions like Latin America.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 262,
-    "inputTokens": 217656,
-    "outputTokens": 54308,
-    "estimatedCostUsd": 0.489196,
-    "lastCallHour": "2026-11-26T18"
+    "callsThisMonth": 263,
+    "inputTokens": 218499,
+    "outputTokens": 54543,
+    "estimatedCostUsd": 0.491214,
+    "lastCallHour": "2026-11-26T19"
   }
 }
