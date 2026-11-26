@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T19:02:06.151908+00:00",
-  "text": "Marathon Petroleum stock fell 2.5% today, extending a two-week decline of 14%, as crude oil prices dropped sharply\u2014US oil fell to $82.24 per barrel, down notably from recent highs. While refineries are running at a healthy 97.5% capacity, the decline in both domestic and global oil prices (Brent at $91.80) reduces the profit margin refiners earn by processing crude into products like gasoline and diesel. This pricing pressure, sustained over the past week, has been the primary headwind for the stock.\n\nThe broader context shows refining margins are under structural pressure. Oil storage levels remain elevated at 692 million barrels\u2014suggesting supply abundance\u2014and there is no news of a sudden demand shock or supply disruption that would prop up prices. While news about quantum computing in energy optimization and AI-driven demand for power could eventually support energy prices, that remains speculative; for now, the refiner is facing a simple arithmetic problem: lower input costs (crude) but no corresponding lift in what it can sell refined products for.",
+  "fetchedAt": "2026-11-26T20:01:55.937309+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refinery margins compressed. U.S. crude dropped to $82.24 per barrel (down sharply from levels earlier in November), while world oil sits at $91.80\u2014a gap that narrows the profit margin refiners earn by processing cheaper domestic crude into products. With refineries already running at a high 97.5% utilization rate and gasoline stocks elevated at 217.7 million barrels, there's limited room for refiners to push volumes higher or command better prices.\n\nThe broader headwinds also shifted this week. Collapse of a meaningful climate agreement at COP31 removed near-term regulatory uncertainty that had weighed on oil, but it didn't support prices\u2014instead, it reflected softening global energy demand expectations. Meanwhile, conversations around alternative energy infrastructure (quantum computing for grid optimization, hydrogen catalysts) and investment in non-Russian oil assets suggest longer-term transitions are quietly underway, which can weigh on sentiment around traditional refining even if today's move is driven by crude weakness and margin pressure.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 265,
-    "inputTokens": 235781,
-    "outputTokens": 57840,
-    "estimatedCostUsd": 0.524981,
-    "lastCallHour": "2026-11-26T19"
+    "callsThisMonth": 266,
+    "inputTokens": 236704,
+    "outputTokens": 58089,
+    "estimatedCostUsd": 0.527149,
+    "lastCallHour": "2026-11-26T20"
   }
 }

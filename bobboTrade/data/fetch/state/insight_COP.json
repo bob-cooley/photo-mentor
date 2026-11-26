@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T19:01:35.012650+00:00",
-  "text": "ConocoPhillips edged up 0.28% today, a modest gain that reflects conflicting pressures on energy stocks. The stock has been volatile over the past two weeks (down 2% overall), and today's small move comes as crude oil prices remain relatively soft: US oil is trading at $82.24 per barrel, down from levels that would typically support bigger gains for an oil producer. The major headwind is last weekend's collapse of climate talks at COP31, where governments rejected a draft agreement that failed to include language on phasing out fossil fuels\u2014a development that deepens uncertainty around future energy demand and policy frameworks.\n\nThe modest bounce today may reflect some relief that the climate outcome, while disappointing to energy companies, wasn't worse, or renewed interest in oil dividends amid Wall Street's recent focus on high-yielding energy stocks. Longer term, the company sits at the intersection of two opposing trends: regulatory pressure and clean-energy investment on one side, and emerging demand drivers like AI infrastructure buildout on the other, particularly in energy-rich regions like Latin America.",
+  "fetchedAt": "2026-11-26T20:01:26.724098+00:00",
+  "text": "ConocoPhillips edged up 0.28% today, a modest gain that reflects conflicting pressures on oil stocks. The collapse of fossil fuel language from the UN climate summit (COP31) on Sunday removed a near-term regulatory risk that had been weighing on the sector, while oil prices remain relatively stable\u2014US crude at $82/barrel and global crude at $91.80/barrel. This modest recovery comes after the stock fell 2% over the past two weeks, driven by uncertainty around climate policy and broader energy sector concerns.\n\nThe stock is caught between two longer-term currents: climate policy headwinds that discourage traditional fossil fuel investment, and growing AI-driven demand for energy infrastructure that could support oil and gas companies' future prospects. Today's small gain suggests the immediate relief from the failed climate deal outweighs those deeper structural concerns, at least for now.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 263,
-    "inputTokens": 218499,
-    "outputTokens": 54543,
-    "estimatedCostUsd": 0.491214,
-    "lastCallHour": "2026-11-26T19"
+    "callsThisMonth": 264,
+    "inputTokens": 219342,
+    "outputTokens": 54736,
+    "estimatedCostUsd": 0.493022,
+    "lastCallHour": "2026-11-26T20"
   }
 }
