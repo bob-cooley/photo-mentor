@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T16:02:37.897045+00:00",
-  "text": "ConocoPhillips stock ticked up slightly today despite a broader two-week decline, as oil prices held relatively steady with U.S. crude near $82 a barrel. The small gain comes after the stock fell sharply on November 23rd (down to $132.19), suggesting some stabilization, though the collapse of fossil-fuel language at the U.N. climate summit (COP31) over the weekend signals ongoing headwinds for oil-focused companies and their investors.\n\nThe stock remains down 2% over two weeks, reflecting the tension energy companies face: while developing economies in Latin America are signaling they'll continue needing oil and gas to fund infrastructure and development, the global climate negotiation process is moving away from explicitly endorsing fossil fuels, creating uncertainty about long-term demand and policy support.",
+  "fetchedAt": "2026-11-26T17:02:47.571973+00:00",
+  "text": "ConocoPhillips edged up 0.28% today to $135.02, a modest gain that follows a volatile week marked by a sharp 2.8% drop on November 23rd. The move comes as oil prices remain under pressure\u2014US crude sits at $82.24 per barrel, down from levels earlier this month\u2014but the stock has recovered somewhat over the past two days. The collapse of fossil fuel language in climate talks over the weekend may actually have provided some relief to energy investors worried about regulatory headwinds, though the broader energy sector remains caught between weaker near-term demand signals and longer-term uncertainty.\n\nThe gap between US and world oil prices (US at $82 versus global Brent at $91.80) suggests logistical constraints are supporting prices somewhat, which helps refiners and integrated producers like ConocoPhillips. Longer term, news around Latin America's energy resources and AI infrastructure buildout touching on oil and energy demand points to structural tailwinds that could matter for a major producer, though these remain speculative compared to the immediate headwind of soft crude prices.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 260,
-    "inputTokens": 215970,
-    "outputTokens": 53892,
-    "estimatedCostUsd": 0.48543,
-    "lastCallHour": "2026-11-26T16"
+    "callsThisMonth": 261,
+    "inputTokens": 216813,
+    "outputTokens": 54133,
+    "estimatedCostUsd": 0.487478,
+    "lastCallHour": "2026-11-26T17"
   }
 }

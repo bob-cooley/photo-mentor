@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T16:05:51.810657+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as refining margins came under pressure from a widening gap between U.S. and global crude oil prices. U.S. oil is trading at $82.24 per barrel while world oil sits at $91.80\u2014a spread that typically squeezes refiner profits since they buy crude at the higher global price but sell refined products into a U.S.-focused market. With refineries running at 97.5% capacity and storage levels elevated across gasoline and diesel, there's less room for refiners to push through pricing strength even as they run at near-maximum output.\n\nThe broader refining sector is also contending with longer-term headwinds: the failed climate talks at COP31 have removed near-term pressure for aggressive fossil fuel phase-outs, which might sound bullish, but investors are increasingly pricing in the structural demand risks from energy transition investment and AI's power-hungry build-out shifting infrastructure spending away from traditional refining. The stock's steep two-week decline suggests the market is repricing refiner valuations in an environment where profit margins are compressing now while long-term growth remains uncertain.",
+  "fetchedAt": "2026-11-26T17:04:43.229286+00:00",
+  "text": "MPC fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refinery margins compressed. US crude dropped to $82.24 per barrel while refineries ran at 97.5% capacity with elevated fuel inventories\u2014gasoline storage at 217.7 million barrels and diesel at 105.6 million barrels. When refineries are running flat-out but storage is building, the profit margin refiners earn on each barrel shrinks, which directly cuts into Marathon's earnings.\n\nThe broader headwind is a shift in market sentiment around energy. Climate talks collapsed over the weekend without committing to phase out fossil fuels, which might have spooked investors expecting tighter long-term supply\u2014instead, the lack of a binding agreement suggests oil demand concerns remain. At the same time, the news cycle is focusing on alternative energy solutions (quantum computing for grid optimization, hydrogen) and geopolitical oil reallocation (Lukoil assets), not on refining strength, which may have pushed money out of refiners like MPC into other sectors.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 262,
-    "inputTokens": 233012,
-    "outputTokens": 57179,
-    "estimatedCostUsd": 0.518907,
-    "lastCallHour": "2026-11-26T16"
+    "callsThisMonth": 263,
+    "inputTokens": 233935,
+    "outputTokens": 57416,
+    "estimatedCostUsd": 0.521015,
+    "lastCallHour": "2026-11-26T17"
   }
 }
