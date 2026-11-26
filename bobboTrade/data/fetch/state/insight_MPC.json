@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-25T22:59:18.799619+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as oil prices softened and geopolitical tensions that might support energy demand showed no sign of resolving into actual supply disruptions. US crude dropped to $82.24 per barrel, down from levels that would have supported higher refining margins earlier this month. While refineries are running at a robust 97.5%, the combination of lower oil prices and high product inventories\u2014217.7 million barrels of gasoline and 105.6 million barrels of diesel in storage\u2014squeezes the profit refiners make on each barrel they process.\n\nThe broader headwind is that Middle Eastern tensions (Houthi attacks on Saudi infrastructure, Iranian tankers hitting mines, Ukraine's refinery strikes on Russian assets) remain serious but have not yet created a visible supply crisis or oil price spike that would offset the downward pressure from abundant inventories and softer crude. Traders appear to be pricing in containment rather than escalation.",
+  "fetchedAt": "2026-11-26T04:45:35.120565+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide that's cost the stock 14%. The decline tracks a broader pullback in refining stocks amid falling crude oil prices\u2014U.S. oil dropped to $82 per barrel, well below the $91 Brent price, compressing the profit margin refiners earn by processing crude into products like gasoline and diesel. Refineries are running at 97.5% capacity with ample fuel in storage, meaning high throughput isn't translating to stronger margins in this price environment.\n\nGeopolitical tensions in the Middle East\u2014Houthi attacks on Saudi infrastructure and Iranian mines in the Strait of Hormuz\u2014haven't lifted oil prices despite disruption risks, suggesting markets aren't pricing in sustained supply cuts. The absence of a bull case in the data, combined with weak crude spreads, has kept refining plays under pressure.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 257,
-    "inputTokens": 228360,
-    "outputTokens": 56146,
-    "estimatedCostUsd": 0.50909,
-    "lastCallHour": "2026-11-25T22"
+    "callsThisMonth": 258,
+    "inputTokens": 229320,
+    "outputTokens": 56345,
+    "estimatedCostUsd": 0.511045,
+    "lastCallHour": "2026-11-26T04"
   }
 }

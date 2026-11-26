@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-25T22:57:13.935031+00:00",
-  "text": "ConocoPhillips rose slightly today as oil markets steadied following a sharp drop two days earlier. The stock has bounced back from a low of $132.19 on November 23rd\u2014the day climate talks at COP31 collapsed without committing to phase out fossil fuels. That collapse, which had initially spooked energy investors, actually removed a source of near-term regulatory uncertainty for oil companies, allowing the stock to recover toward its prior levels.\n\nThe modest gain also reflects a stabilizing geopolitical backdrop. While tensions persist around Russian refinery attacks and retaliatory threats, the broader global energy picture has steadied: U.S. crude is trading at $82.24 per barrel and international crude at $91.80, within normal ranges for the past few weeks. The failed climate deal removes the risk of a binding international commitment that could have constrained future oil demand, which keeps the investment case for major oil producers intact for now.",
+  "fetchedAt": "2026-11-26T04:43:44.139166+00:00",
+  "text": "ConocoPhillips inched up 0.28% today after two days of recovery from a sharp 2.9% drop on November 23rd. That sell-off followed the collapse of climate talks at COP31, where governments rejected a draft deal that failed to commit to phasing out fossil fuels\u2014a development that briefly weighed on oil majors. Today's modest gain reflects stabilization as oil markets steadied: US crude holding at $82 per barrel with Brent at $91.80, and the immediate shock from the climate summit disappointment has faded.\n\nThe stock remains down 2% over two weeks, sitting at the lower end of its recent range, which suggests investors are still pricing in some caution around long-term demand pressures and regulatory uncertainty despite this week's rebound. Meanwhile, geopolitical disruptions\u2014Ukraine's attacks on Russian refineries and U.S. efforts to acquire Russian assets outside Russia\u2014are adding complexity to global energy markets without yet translating into a clear directional push for the stock.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 255,
-    "inputTokens": 211715,
-    "outputTokens": 52853,
-    "estimatedCostUsd": 0.47598,
-    "lastCallHour": "2026-11-25T22"
+    "callsThisMonth": 256,
+    "inputTokens": 212598,
+    "outputTokens": 53079,
+    "estimatedCostUsd": 0.477993,
+    "lastCallHour": "2026-11-26T04"
   }
 }
