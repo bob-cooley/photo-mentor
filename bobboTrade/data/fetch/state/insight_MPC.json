@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T14:01:59.796566+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as oil prices weakened and refinery margins compressed. US crude dropped to $82.24 per barrel while refineries ran at 95.7% capacity\u2014near maximum\u2014with gasoline and diesel inventories rising, a signal that demand isn't keeping pace with supply. When refineries are already running flat out and product stockpiles are building, there's little room for profitability to expand.\n\nThe broader headwind is energy transition risk. Climate talks collapsed over the weekend without committing fossil fuels to phase-out language, which should theoretically be bullish for oil; instead, the market seems focused on longer-term uncertainty around energy demand as quantum computing and AI infrastructure push toward alternative energy solutions. For a refiner whose earnings depend on the spread between crude costs and refined product prices, that combination of near-term margin pressure and longer-term demand concerns has weighed on the stock.",
+  "fetchedAt": "2026-11-26T15:01:56.785351+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as refineries across the U.S. operate at high utilization (95.7%) while oil inventories remain elevated at 694 million barrels. High refinery rates combined with plentiful supply typically compress profit margins\u2014refiners make money when they can process cheap crude into higher-value products, but that advantage shrinks when crude is abundant and storage is full.\n\nThe broader headwind is energy transition risk. This week's climate summit collapse removed a potential floor under fossil fuel prices, and multiple news stories highlight how capital is rotating toward clean energy infrastructure (quantum computing for grid optimization, hydrogen catalysts) and toward companies positioning themselves as energy providers for AI rather than traditional oil and gas. For a refiner dependent on the crude-to-products spread, that sentiment shift matters as much as today's inventory levels.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 260,
-    "inputTokens": 231166,
-    "outputTokens": 56722,
-    "estimatedCostUsd": 0.514776,
-    "lastCallHour": "2026-11-26T14"
+    "callsThisMonth": 261,
+    "inputTokens": 232089,
+    "outputTokens": 56916,
+    "estimatedCostUsd": 0.516669,
+    "lastCallHour": "2026-11-26T15"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T14:01:33.629629+00:00",
-  "text": "ConocoPhillips rose a modest 0.28% today, holding near $135 after bouncing back from a sharp drop earlier this week. The stock had fallen about 3% from November 18th to November 23rd, likely tracking the broader weakness in oil prices\u2014US crude fell to the mid-$70s range before recovering to $82 today, while global Brent crude sits at nearly $93. The slight gain today reflects stabilization in energy markets rather than any company-specific catalyst.\n\nThe collapse of climate negotiations at COP31, which failed to commit governments to phasing out fossil fuels, may have provided some relief to energy investors worried about regulatory headwinds. At the same time, Wall Street analysts have continued to highlight dividend-paying energy stocks as attractive income plays, which could be supporting the stock's recovery from its recent lows.",
+  "fetchedAt": "2026-11-26T15:01:30.977769+00:00",
+  "text": "ConocoPhillips rose 0.28% today in a week marked by significant volatility\u2014the stock fell 3.8% from November 20 to November 23, then recovered most of that loss over the following two days. The modest gain today comes as U.S. oil prices sit at $82.24 per barrel, while the broader global oil market is trading higher at $92.94. The collapse of fossil fuel language in the COP31 climate deal on Sunday, while framed negatively by climate campaigners, removed a near-term regulatory threat that had weighed on energy stocks and may have provided some relief to energy investors.\n\nThe recovery over the past two trading sessions likely reflects the market processing that outcome\u2014a failed climate accord that explicitly excluded fossil fuels is a small positive for oil producers in the short term, even as it signals continued political polarization on energy policy. Longer-term demand signals remain mixed: AI-driven energy needs in Latin America could support oil and gas production in the region, but quantum computing advances targeting energy efficiency could eventually reduce energy intensity across industries.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 258,
-    "inputTokens": 214284,
-    "outputTokens": 53477,
-    "estimatedCostUsd": 0.481669,
-    "lastCallHour": "2026-11-26T14"
+    "callsThisMonth": 259,
+    "inputTokens": 215127,
+    "outputTokens": 53714,
+    "estimatedCostUsd": 0.483697,
+    "lastCallHour": "2026-11-26T15"
   }
 }
