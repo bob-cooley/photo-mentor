@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T20:01:55.937309+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refinery margins compressed. U.S. crude dropped to $82.24 per barrel (down sharply from levels earlier in November), while world oil sits at $91.80\u2014a gap that narrows the profit margin refiners earn by processing cheaper domestic crude into products. With refineries already running at a high 97.5% utilization rate and gasoline stocks elevated at 217.7 million barrels, there's limited room for refiners to push volumes higher or command better prices.\n\nThe broader headwinds also shifted this week. Collapse of a meaningful climate agreement at COP31 removed near-term regulatory uncertainty that had weighed on oil, but it didn't support prices\u2014instead, it reflected softening global energy demand expectations. Meanwhile, conversations around alternative energy infrastructure (quantum computing for grid optimization, hydrogen catalysts) and investment in non-Russian oil assets suggest longer-term transitions are quietly underway, which can weigh on sentiment around traditional refining even if today's move is driven by crude weakness and margin pressure.",
+  "fetchedAt": "2026-11-26T21:01:59.484182+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refining margins came under pressure. US crude is trading at $82.24 per barrel\u2014down sharply from levels earlier this month\u2014while refineries are running at a high 97.5% capacity, which means refining companies have less room to boost output or margins when demand softens. The gap between crude costs and refined product values (what refiners actually earn) tightens when oil prices fall but storage levels stay elevated: gasoline and diesel inventories remain above seasonal norms, suggesting demand isn't keeping pace with supply.\n\nThe broader context is a shift in energy sentiment. While climate talks in Geneva collapsed on fossil fuel language over the weekend\u2014which might normally support oil prices\u2014the market is instead pricing in a longer-term softening as AI-driven energy infrastructure investment in Latin America and elsewhere remains contingent on actual infrastructure buildout, not just potential. Near-term refining economics are simply weaker right now, and that's what's driving the stock down.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 266,
-    "inputTokens": 236704,
-    "outputTokens": 58089,
-    "estimatedCostUsd": 0.527149,
-    "lastCallHour": "2026-11-26T20"
+    "callsThisMonth": 267,
+    "inputTokens": 237627,
+    "outputTokens": 58323,
+    "estimatedCostUsd": 0.529242,
+    "lastCallHour": "2026-11-26T21"
   }
 }
