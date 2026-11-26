@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T04:45:35.120565+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide that's cost the stock 14%. The decline tracks a broader pullback in refining stocks amid falling crude oil prices\u2014U.S. oil dropped to $82 per barrel, well below the $91 Brent price, compressing the profit margin refiners earn by processing crude into products like gasoline and diesel. Refineries are running at 97.5% capacity with ample fuel in storage, meaning high throughput isn't translating to stronger margins in this price environment.\n\nGeopolitical tensions in the Middle East\u2014Houthi attacks on Saudi infrastructure and Iranian mines in the Strait of Hormuz\u2014haven't lifted oil prices despite disruption risks, suggesting markets aren't pricing in sustained supply cuts. The absence of a bull case in the data, combined with weak crude spreads, has kept refining plays under pressure.",
+  "fetchedAt": "2026-11-26T13:04:38.639924+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as refineries operate at high capacity (95.7%) while oil inventories remain elevated at 694 million barrels. When refineries are running full but storage is full, margins compress\u2014refiners make less profit per barrel processed because supply outpaces demand, forcing prices down. The stock has been sliding steadily since mid-November alongside this inventory buildup.\n\nThe recent climate talks collapse, which rejected language on phasing out fossil fuels, might have offered a headline tailwind for oil stocks, but the data suggests it was overwhelmed by the structural refining headwind: too much crude in tanks and refineries already maxed out on throughput, leaving limited pricing power.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 258,
-    "inputTokens": 229320,
-    "outputTokens": 56345,
-    "estimatedCostUsd": 0.511045,
-    "lastCallHour": "2026-11-26T04"
+    "callsThisMonth": 259,
+    "inputTokens": 230243,
+    "outputTokens": 56511,
+    "estimatedCostUsd": 0.512798,
+    "lastCallHour": "2026-11-26T13"
   }
 }

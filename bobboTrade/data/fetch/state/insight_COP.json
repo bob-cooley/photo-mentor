@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T04:43:44.139166+00:00",
-  "text": "ConocoPhillips inched up 0.28% today after two days of recovery from a sharp 2.9% drop on November 23rd. That sell-off followed the collapse of climate talks at COP31, where governments rejected a draft deal that failed to commit to phasing out fossil fuels\u2014a development that briefly weighed on oil majors. Today's modest gain reflects stabilization as oil markets steadied: US crude holding at $82 per barrel with Brent at $91.80, and the immediate shock from the climate summit disappointment has faded.\n\nThe stock remains down 2% over two weeks, sitting at the lower end of its recent range, which suggests investors are still pricing in some caution around long-term demand pressures and regulatory uncertainty despite this week's rebound. Meanwhile, geopolitical disruptions\u2014Ukraine's attacks on Russian refineries and U.S. efforts to acquire Russian assets outside Russia\u2014are adding complexity to global energy markets without yet translating into a clear directional push for the stock.",
+  "fetchedAt": "2026-11-26T13:02:35.161785+00:00",
+  "text": "ConocoPhillips edged up 0.28% today, a small gain that marks a modest recovery after the stock fell 3.9% over the two prior days (November 23\u201324). The bounce came as oil prices stabilized: US crude held at $82.24 per barrel while global oil prices rose to $92.94, suggesting some steadying in the market after recent volatility. This modest recovery fits the pattern of the broader energy sector stabilizing after a dip.\n\nThe backdrop remains challenging for the stock. The collapse of draft climate language at COP31 that failed to address fossil fuels\u2014a major story on the same day as today's gain\u2014reflects ongoing uncertainty around long-term energy policy that weighs on oil and gas valuations. While near-term oil price stability may have supported today's small rebound, the two-week decline of 2.06% reflects investor concern about the regulatory and climate headwinds facing the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 256,
-    "inputTokens": 212598,
-    "outputTokens": 53079,
-    "estimatedCostUsd": 0.477993,
-    "lastCallHour": "2026-11-26T04"
+    "callsThisMonth": 257,
+    "inputTokens": 213441,
+    "outputTokens": 53289,
+    "estimatedCostUsd": 0.479886,
+    "lastCallHour": "2026-11-26T13"
   }
 }
