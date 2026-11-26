@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T15:01:30.977769+00:00",
-  "text": "ConocoPhillips rose 0.28% today in a week marked by significant volatility\u2014the stock fell 3.8% from November 20 to November 23, then recovered most of that loss over the following two days. The modest gain today comes as U.S. oil prices sit at $82.24 per barrel, while the broader global oil market is trading higher at $92.94. The collapse of fossil fuel language in the COP31 climate deal on Sunday, while framed negatively by climate campaigners, removed a near-term regulatory threat that had weighed on energy stocks and may have provided some relief to energy investors.\n\nThe recovery over the past two trading sessions likely reflects the market processing that outcome\u2014a failed climate accord that explicitly excluded fossil fuels is a small positive for oil producers in the short term, even as it signals continued political polarization on energy policy. Longer-term demand signals remain mixed: AI-driven energy needs in Latin America could support oil and gas production in the region, but quantum computing advances targeting energy efficiency could eventually reduce energy intensity across industries.",
+  "fetchedAt": "2026-11-26T16:02:37.897045+00:00",
+  "text": "ConocoPhillips stock ticked up slightly today despite a broader two-week decline, as oil prices held relatively steady with U.S. crude near $82 a barrel. The small gain comes after the stock fell sharply on November 23rd (down to $132.19), suggesting some stabilization, though the collapse of fossil-fuel language at the U.N. climate summit (COP31) over the weekend signals ongoing headwinds for oil-focused companies and their investors.\n\nThe stock remains down 2% over two weeks, reflecting the tension energy companies face: while developing economies in Latin America are signaling they'll continue needing oil and gas to fund infrastructure and development, the global climate negotiation process is moving away from explicitly endorsing fossil fuels, creating uncertainty about long-term demand and policy support.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 259,
-    "inputTokens": 215127,
-    "outputTokens": 53714,
-    "estimatedCostUsd": 0.483697,
-    "lastCallHour": "2026-11-26T15"
+    "callsThisMonth": 260,
+    "inputTokens": 215970,
+    "outputTokens": 53892,
+    "estimatedCostUsd": 0.48543,
+    "lastCallHour": "2026-11-26T16"
   }
 }

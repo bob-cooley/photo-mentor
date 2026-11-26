@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T15:01:56.785351+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as refineries across the U.S. operate at high utilization (95.7%) while oil inventories remain elevated at 694 million barrels. High refinery rates combined with plentiful supply typically compress profit margins\u2014refiners make money when they can process cheap crude into higher-value products, but that advantage shrinks when crude is abundant and storage is full.\n\nThe broader headwind is energy transition risk. This week's climate summit collapse removed a potential floor under fossil fuel prices, and multiple news stories highlight how capital is rotating toward clean energy infrastructure (quantum computing for grid optimization, hydrogen catalysts) and toward companies positioning themselves as energy providers for AI rather than traditional oil and gas. For a refiner dependent on the crude-to-products spread, that sentiment shift matters as much as today's inventory levels.",
+  "fetchedAt": "2026-11-26T16:05:51.810657+00:00",
+  "text": "Marathon Petroleum fell 2.5% today, extending a two-week slide of 14%, as refining margins came under pressure from a widening gap between U.S. and global crude oil prices. U.S. oil is trading at $82.24 per barrel while world oil sits at $91.80\u2014a spread that typically squeezes refiner profits since they buy crude at the higher global price but sell refined products into a U.S.-focused market. With refineries running at 97.5% capacity and storage levels elevated across gasoline and diesel, there's less room for refiners to push through pricing strength even as they run at near-maximum output.\n\nThe broader refining sector is also contending with longer-term headwinds: the failed climate talks at COP31 have removed near-term pressure for aggressive fossil fuel phase-outs, which might sound bullish, but investors are increasingly pricing in the structural demand risks from energy transition investment and AI's power-hungry build-out shifting infrastructure spending away from traditional refining. The stock's steep two-week decline suggests the market is repricing refiner valuations in an environment where profit margins are compressing now while long-term growth remains uncertain.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 261,
-    "inputTokens": 232089,
-    "outputTokens": 56916,
-    "estimatedCostUsd": 0.516669,
-    "lastCallHour": "2026-11-26T15"
+    "callsThisMonth": 262,
+    "inputTokens": 233012,
+    "outputTokens": 57179,
+    "estimatedCostUsd": 0.518907,
+    "lastCallHour": "2026-11-26T16"
   }
 }
