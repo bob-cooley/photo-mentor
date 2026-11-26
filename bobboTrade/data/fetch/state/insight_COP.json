@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T13:02:35.161785+00:00",
-  "text": "ConocoPhillips edged up 0.28% today, a small gain that marks a modest recovery after the stock fell 3.9% over the two prior days (November 23\u201324). The bounce came as oil prices stabilized: US crude held at $82.24 per barrel while global oil prices rose to $92.94, suggesting some steadying in the market after recent volatility. This modest recovery fits the pattern of the broader energy sector stabilizing after a dip.\n\nThe backdrop remains challenging for the stock. The collapse of draft climate language at COP31 that failed to address fossil fuels\u2014a major story on the same day as today's gain\u2014reflects ongoing uncertainty around long-term energy policy that weighs on oil and gas valuations. While near-term oil price stability may have supported today's small rebound, the two-week decline of 2.06% reflects investor concern about the regulatory and climate headwinds facing the sector.",
+  "fetchedAt": "2026-11-26T14:01:33.629629+00:00",
+  "text": "ConocoPhillips rose a modest 0.28% today, holding near $135 after bouncing back from a sharp drop earlier this week. The stock had fallen about 3% from November 18th to November 23rd, likely tracking the broader weakness in oil prices\u2014US crude fell to the mid-$70s range before recovering to $82 today, while global Brent crude sits at nearly $93. The slight gain today reflects stabilization in energy markets rather than any company-specific catalyst.\n\nThe collapse of climate negotiations at COP31, which failed to commit governments to phasing out fossil fuels, may have provided some relief to energy investors worried about regulatory headwinds. At the same time, Wall Street analysts have continued to highlight dividend-paying energy stocks as attractive income plays, which could be supporting the stock's recovery from its recent lows.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 257,
-    "inputTokens": 213441,
-    "outputTokens": 53289,
-    "estimatedCostUsd": 0.479886,
-    "lastCallHour": "2026-11-26T13"
+    "callsThisMonth": 258,
+    "inputTokens": 214284,
+    "outputTokens": 53477,
+    "estimatedCostUsd": 0.481669,
+    "lastCallHour": "2026-11-26T14"
   }
 }
