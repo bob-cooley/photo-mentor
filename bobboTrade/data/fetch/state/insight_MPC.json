@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T21:01:59.484182+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refining margins came under pressure. US crude is trading at $82.24 per barrel\u2014down sharply from levels earlier this month\u2014while refineries are running at a high 97.5% capacity, which means refining companies have less room to boost output or margins when demand softens. The gap between crude costs and refined product values (what refiners actually earn) tightens when oil prices fall but storage levels stay elevated: gasoline and diesel inventories remain above seasonal norms, suggesting demand isn't keeping pace with supply.\n\nThe broader context is a shift in energy sentiment. While climate talks in Geneva collapsed on fossil fuel language over the weekend\u2014which might normally support oil prices\u2014the market is instead pricing in a longer-term softening as AI-driven energy infrastructure investment in Latin America and elsewhere remains contingent on actual infrastructure buildout, not just potential. Near-term refining economics are simply weaker right now, and that's what's driving the stock down.",
+  "fetchedAt": "2026-11-26T23:32:16.416864+00:00",
+  "text": "Marathon Petroleum dropped 2.5% today, extending a broader decline over the past two weeks (-14% total). The immediate driver appears to be weakness in the crude oil market itself\u2014US oil fell to $82.24 per barrel, down from higher levels earlier in the month\u2014which directly shrinks refinery margins and profit. Refineries are running at high capacity (95.7%), so there's little room to cut costs by reducing production, meaning lower oil prices flow straight through to earnings.\n\nThe collapse of climate talks at COP31, which failed to include commitments against fossil fuels, removes a near-term regulatory risk that had been hanging over energy stocks. That should theoretically be supportive, but it's been drowned out by the fundamental oil price weakness and the stock's sharp two-week sell-off, which suggests investors are pricing in a broader energy demand concern or macro pullback rather than reacting to any single headline.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 267,
-    "inputTokens": 237627,
-    "outputTokens": 58323,
-    "estimatedCostUsd": 0.529242,
-    "lastCallHour": "2026-11-26T21"
+    "callsThisMonth": 268,
+    "inputTokens": 238550,
+    "outputTokens": 58525,
+    "estimatedCostUsd": 0.531175,
+    "lastCallHour": "2026-11-26T23"
   }
 }
