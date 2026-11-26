@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-26T17:04:43.229286+00:00",
-  "text": "MPC fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refinery margins compressed. US crude dropped to $82.24 per barrel while refineries ran at 97.5% capacity with elevated fuel inventories\u2014gasoline storage at 217.7 million barrels and diesel at 105.6 million barrels. When refineries are running flat-out but storage is building, the profit margin refiners earn on each barrel shrinks, which directly cuts into Marathon's earnings.\n\nThe broader headwind is a shift in market sentiment around energy. Climate talks collapsed over the weekend without committing to phase out fossil fuels, which might have spooked investors expecting tighter long-term supply\u2014instead, the lack of a binding agreement suggests oil demand concerns remain. At the same time, the news cycle is focusing on alternative energy solutions (quantum computing for grid optimization, hydrogen) and geopolitical oil reallocation (Lukoil assets), not on refining strength, which may have pushed money out of refiners like MPC into other sectors.",
+  "fetchedAt": "2026-11-26T18:02:47.497982+00:00",
+  "text": "MPC stock fell 2.5% today, extending a two-week decline of 14%, as refineries operate at peak capacity (97.5%) while oil storage sits at elevated levels (692 million barrels). When refineries are already running flat-out and crude inventories build up, it signals weak downstream demand\u2014refiners have less pricing power and face tighter margins because they can't process more oil even if prices look attractive.\n\nThe broader backdrop isn't helping either. Climate talks collapsed without committing to phase out fossil fuels, which removes near-term regulatory pressure on oil demand but also reflects weak confidence in future energy transition. At the same time, news around alternative energy infrastructure (quantum computing for grids, hydrogen catalysts) and rising AI energy demand suggests money is flowing toward new energy sectors, potentially pulling investor interest away from traditional refining plays already facing margin compression from oversupply.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 263,
-    "inputTokens": 233935,
-    "outputTokens": 57416,
-    "estimatedCostUsd": 0.521015,
-    "lastCallHour": "2026-11-26T17"
+    "callsThisMonth": 264,
+    "inputTokens": 234858,
+    "outputTokens": 57608,
+    "estimatedCostUsd": 0.522898,
+    "lastCallHour": "2026-11-26T18"
   }
 }

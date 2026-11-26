@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T17:02:47.571973+00:00",
-  "text": "ConocoPhillips edged up 0.28% today to $135.02, a modest gain that follows a volatile week marked by a sharp 2.8% drop on November 23rd. The move comes as oil prices remain under pressure\u2014US crude sits at $82.24 per barrel, down from levels earlier this month\u2014but the stock has recovered somewhat over the past two days. The collapse of fossil fuel language in climate talks over the weekend may actually have provided some relief to energy investors worried about regulatory headwinds, though the broader energy sector remains caught between weaker near-term demand signals and longer-term uncertainty.\n\nThe gap between US and world oil prices (US at $82 versus global Brent at $91.80) suggests logistical constraints are supporting prices somewhat, which helps refiners and integrated producers like ConocoPhillips. Longer term, news around Latin America's energy resources and AI infrastructure buildout touching on oil and energy demand points to structural tailwinds that could matter for a major producer, though these remain speculative compared to the immediate headwind of soft crude prices.",
+  "fetchedAt": "2026-11-26T18:01:31.579671+00:00",
+  "text": "ConocoPhillips edged up 0.28% today in a narrow range, holding near its recovery level after a sharp dip on November 23rd. The move reflects some stability in oil markets\u2014US crude is trading at $82.24 per barrel\u2014but broader headwinds persist. The collapse of fossil fuel language in the COP31 climate agreement over the weekend created uncertainty for the sector, and that uncertainty has kept the stock down 2% over the past two weeks despite the modest daily gain.\n\nThe company operates in a mixed environment right now: while growing energy demand from AI infrastructure buildout and Latin America's resource potential could support long-term demand for oil and gas, near-term sentiment remains clouded by climate policy risk and the political pushback against fossil fuels at major international forums.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 261,
-    "inputTokens": 216813,
-    "outputTokens": 54133,
-    "estimatedCostUsd": 0.487478,
-    "lastCallHour": "2026-11-26T17"
+    "callsThisMonth": 262,
+    "inputTokens": 217656,
+    "outputTokens": 54308,
+    "estimatedCostUsd": 0.489196,
+    "lastCallHour": "2026-11-26T18"
   }
 }
