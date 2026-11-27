@@ -447,6 +447,22 @@
       ],
       "origin": "auto",
       "addedAt": "2026-11-25T13:05:36.272363+00:00"
+    },
+    {
+      "date": "2026-11-26",
+      "facility": "Jazan refinery",
+      "attacker": "Houthis",
+      "attackedNation": "Saudi Arabia",
+      "attribution": "claimed",
+      "id": "2026-11-26-jazan-refinery-saudi-arabia",
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations"
+        }
+      ],
+      "origin": "auto",
+      "addedAt": "2026-11-27T06:36:53.625229+00:00"
     }
   ],
   "processedUrls": {
@@ -543,17 +559,19 @@
     "https://www.france24.com/en/video/20261125-yemen-s-houthis-claim-attacks-on-riyadh-financial-district-saudi-refinery": "2026-11-25T13:05:30.043446+00:00",
     "https://www.pravda.com.ua/eng/news/2026/11/25/8064579/": "2026-11-25T13:05:31.978269+00:00",
     "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html": "2026-11-25T13:05:34.038887+00:00",
-    "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze": "2026-11-25T13:05:36.272160+00:00"
+    "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze": "2026-11-25T13:05:36.272160+00:00",
+    "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations": "2026-11-27T06:36:53.624872+00:00",
+    "https://www.bbc.co.uk/news/articles/crx209kwk4kzo": "2026-11-27T06:36:55.045016+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 35,
-    "inputTokens": 39031,
-    "outputTokens": 5444,
-    "estimatedCostUsd": 0.066251
+    "calls": 37,
+    "inputTokens": 41452,
+    "outputTokens": 5698,
+    "estimatedCostUsd": 0.069942
   },
   "backfillDone": true,
   "backfillComplete": false,
   "lastGdeltOk": true,
-  "lastRunAt": "2026-11-26T04:45:57.370890+00:00"
+  "lastRunAt": "2026-11-27T06:36:55.045193+00:00"
 }

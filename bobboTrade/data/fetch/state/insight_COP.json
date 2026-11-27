@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-26T23:29:57.332307+00:00",
-  "text": "ConocoPhillips edged up 0.28% today, a modest gain that reflects the broader steadiness in oil markets\u2014US crude is holding near $89.50 a barrel and global oil near $93, prices that have been relatively stable over the past week despite the stock's 2% dip since mid-November. The company recovered from Friday's sharp drop (when the stock fell nearly 3% to $132.19) but remains below the levels it hit earlier in the week, suggesting lingering caution among investors.\n\nThe collapse of fossil fuel commitments at the U.N. climate summit (COP31) over the weekend may have provided some relief to energy stocks\u2014the rejection of a deal that would have included language on phasing down oil and gas lifted concerns that stricter climate mandates were imminent. That said, the modest size of today's gain and the stock's overall two-week weakness suggest that headline risk and uncertainty around energy policy are keeping investors from fully committing to the sector.",
+  "fetchedAt": "2026-11-27T06:34:37.124990+00:00",
+  "text": "ConocoPhillips edged up 0.28% today, a modest gain that reflects conflicting forces in the energy sector. The collapse of climate talks at COP31\u2014which failed to include language on phasing out fossil fuels\u2014removed a near-term regulatory risk that had weighed on oil stocks, providing some relief. However, this modest bounce comes after the stock fell 2% over the past two weeks, suggesting broader headwinds outweigh the climate-deal news.\n\nThe oil price backdrop is mixed: US crude is trading at $82 per barrel, down from earlier this month, which pressures refiner and producer margins. Geopolitical risk from the drone attack in Kuwait and escalating Iran tensions could support prices, but those risks haven't yet translated into a sustained oil rally strong enough to drive the stock higher. The stock remains in a narrow trading range, caught between the tailwind of reduced climate regulation and the headwind of softer oil prices and broader energy sector uncertainty.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 266,
-    "inputTokens": 221028,
-    "outputTokens": 55173,
-    "estimatedCostUsd": 0.496893,
-    "lastCallHour": "2026-11-26T23"
+    "callsThisMonth": 267,
+    "inputTokens": 221873,
+    "outputTokens": 55387,
+    "estimatedCostUsd": 0.498808,
+    "lastCallHour": "2026-11-27T06"
   }
 }
