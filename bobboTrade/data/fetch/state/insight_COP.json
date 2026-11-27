@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-27T06:34:37.124990+00:00",
-  "text": "ConocoPhillips edged up 0.28% today, a modest gain that reflects conflicting forces in the energy sector. The collapse of climate talks at COP31\u2014which failed to include language on phasing out fossil fuels\u2014removed a near-term regulatory risk that had weighed on oil stocks, providing some relief. However, this modest bounce comes after the stock fell 2% over the past two weeks, suggesting broader headwinds outweigh the climate-deal news.\n\nThe oil price backdrop is mixed: US crude is trading at $82 per barrel, down from earlier this month, which pressures refiner and producer margins. Geopolitical risk from the drone attack in Kuwait and escalating Iran tensions could support prices, but those risks haven't yet translated into a sustained oil rally strong enough to drive the stock higher. The stock remains in a narrow trading range, caught between the tailwind of reduced climate regulation and the headwind of softer oil prices and broader energy sector uncertainty.",
+  "fetchedAt": "2026-11-27T17:12:23.416841+00:00",
+  "text": "ConocoPhillips rose 1.83% today as oil prices firmed across both U.S. and global markets, with WTI crude at $82.24/barrel and Brent at $91.80/barrel. The stock has bounced back from a low of $132.19 on November 23rd, recouping losses over the past week as energy markets steadied. The timing follows geopolitical tension in the Middle East\u2014a drone attack in Kuwait and rhetoric around Iran\u2014which typically supports oil prices by creating supply-risk premiums.\n\nThe broader backdrop matters too: climate talks collapsed without binding restrictions on fossil fuels, which removes a near-term regulatory overhang for oil majors, while analyst coverage highlighting dividend stocks (ConocoPhillips is known for its dividend) keeps institutional interest alive in the sector.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 267,
-    "inputTokens": 221873,
-    "outputTokens": 55387,
-    "estimatedCostUsd": 0.498808,
-    "lastCallHour": "2026-11-27T06"
+    "callsThisMonth": 268,
+    "inputTokens": 222723,
+    "outputTokens": 55572,
+    "estimatedCostUsd": 0.500583,
+    "lastCallHour": "2026-11-27T17"
   }
 }

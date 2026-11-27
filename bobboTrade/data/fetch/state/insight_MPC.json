@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-27T06:36:26.193409+00:00",
-  "text": "Marathon Petroleum fell 2.5% today, extending a two-week decline of 14%, as oil prices weakened and refinery margins compressed. US crude dropped below $82 per barrel while refining capacity remains high at 95.7%, leaving less room for profitable processing spreads\u2014the difference between what refiners can sell refined products for versus the cost of crude input. Inventories of gasoline and diesel are ample, adding further pressure on margins and limiting upside for a refiner in this environment.\n\nThe broader headwind is geopolitical uncertainty without a clear oil supply shock: while tensions in the Middle East have flared (the Kuwait incident), Trump's rhetoric about controlling the conflict's pace suggests markets aren't pricing in a sustained supply disruption. Meanwhile, the failed climate talks at COP31 removed any near-term risk of fossil-fuel restrictions, but also removed a potential \"risk premium\" that might have supported energy prices. MPC is caught in a low-price, high-capacity squeeze with no near-term catalyst.",
+  "fetchedAt": "2026-11-27T17:12:57.510583+00:00",
+  "text": "Marathon Petroleum stock jumped 4.7% today, bouncing back after a brutal five-day slide that had erased 6% of its value. The rebound comes as oil prices stabilized\u2014US crude holding at $82 per barrel after weeks of volatility\u2014and amid de-escalation signals from geopolitical tensions that had rattled energy markets. Refineries are running at 97.5% capacity, suggesting strong demand for the fuel they produce.\n\nThe broader context: the stock had been hammered by uncertainty around Iran tensions and Middle East conflict risk, which typically send oil prices higher but create unpredictability that weighs on refiner stocks. Today's modest recovery suggests investors are reading recent comments from U.S. officials as cooling rhetoric, at least for now, reducing the immediate tail-risk premium that had pushed prices down.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 269,
-    "inputTokens": 239456,
-    "outputTokens": 58749,
-    "estimatedCostUsd": 0.533201,
-    "lastCallHour": "2026-11-27T06"
+    "callsThisMonth": 270,
+    "inputTokens": 240359,
+    "outputTokens": 58931,
+    "estimatedCostUsd": 0.535014,
+    "lastCallHour": "2026-11-27T17"
   }
 }
