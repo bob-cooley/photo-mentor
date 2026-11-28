@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-27T17:12:57.510583+00:00",
-  "text": "Marathon Petroleum stock jumped 4.7% today, bouncing back after a brutal five-day slide that had erased 6% of its value. The rebound comes as oil prices stabilized\u2014US crude holding at $82 per barrel after weeks of volatility\u2014and amid de-escalation signals from geopolitical tensions that had rattled energy markets. Refineries are running at 97.5% capacity, suggesting strong demand for the fuel they produce.\n\nThe broader context: the stock had been hammered by uncertainty around Iran tensions and Middle East conflict risk, which typically send oil prices higher but create unpredictability that weighs on refiner stocks. Today's modest recovery suggests investors are reading recent comments from U.S. officials as cooling rhetoric, at least for now, reducing the immediate tail-risk premium that had pushed prices down.",
+  "fetchedAt": "2026-11-28T01:02:49.224524+00:00",
+  "text": "Marathon Petroleum stock rebounded 3.9% today after a sharp five-day decline that wiped out 12.85% of its value. The bounce appears tied to geopolitical tension: news of a drone attack in Kuwait and escalating Iran-U.S. rhetoric raised immediate concerns about potential supply disruptions in the Middle East, which typically pushes oil prices higher and benefits refiners. U.S. oil is currently trading at $82.24 per barrel while global crude sits at $91.80, and U.S. refineries are running at 97.5% capacity \u2014 a sign the market is pricing in tighter supply.\n\nThe five-day selloff before today likely reflected broader concerns about refining margins and demand. With both gasoline and diesel inventories elevated (217.7 million and 105.6 million barrels respectively), refiners face pressure from oversupply even as geopolitical risks periodically spike the crude price. The recent collapse of climate talks, which rejected binding fossil fuel limits, may have eased some regulatory uncertainty for energy companies \u2014 a small tailwind on top of the geopolitical support.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 270,
-    "inputTokens": 240359,
-    "outputTokens": 58931,
-    "estimatedCostUsd": 0.535014,
-    "lastCallHour": "2026-11-27T17"
+    "callsThisMonth": 271,
+    "inputTokens": 241264,
+    "outputTokens": 59177,
+    "estimatedCostUsd": 0.537149,
+    "lastCallHour": "2026-11-28T01"
   }
 }
