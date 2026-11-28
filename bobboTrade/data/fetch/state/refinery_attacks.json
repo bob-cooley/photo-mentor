@@ -561,17 +561,18 @@
     "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html": "2026-11-25T13:05:34.038887+00:00",
     "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze": "2026-11-25T13:05:36.272160+00:00",
     "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations": "2026-11-27T06:36:53.624872+00:00",
-    "https://www.bbc.co.uk/news/articles/crx209kwk4kzo": "2026-11-27T06:36:55.045016+00:00"
+    "https://www.bbc.co.uk/news/articles/crx209kwk4kzo": "2026-11-27T06:36:55.045016+00:00",
+    "https://www.pravda.com.ua/eng/news/2026/11/28/8065065/": "2026-11-28T09:46:39.348511+00:00"
   },
   "usage": {
     "month": "2026-11",
-    "calls": 37,
-    "inputTokens": 41452,
-    "outputTokens": 5698,
-    "estimatedCostUsd": 0.069942
+    "calls": 38,
+    "inputTokens": 42507,
+    "outputTokens": 5817,
+    "estimatedCostUsd": 0.071592
   },
   "backfillDone": true,
   "backfillComplete": false,
-  "lastGdeltOk": true,
-  "lastRunAt": "2026-11-27T06:36:55.045193+00:00"
+  "lastGdeltOk": false,
+  "lastRunAt": "2026-11-28T09:46:39.348732+00:00"
 }

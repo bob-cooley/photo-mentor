@@ -1,14 +1,14 @@
 {
   "ticker": "MPC",
-  "fetchedAt": "2026-11-28T01:02:49.224524+00:00",
-  "text": "Marathon Petroleum stock rebounded 3.9% today after a sharp five-day decline that wiped out 12.85% of its value. The bounce appears tied to geopolitical tension: news of a drone attack in Kuwait and escalating Iran-U.S. rhetoric raised immediate concerns about potential supply disruptions in the Middle East, which typically pushes oil prices higher and benefits refiners. U.S. oil is currently trading at $82.24 per barrel while global crude sits at $91.80, and U.S. refineries are running at 97.5% capacity \u2014 a sign the market is pricing in tighter supply.\n\nThe five-day selloff before today likely reflected broader concerns about refining margins and demand. With both gasoline and diesel inventories elevated (217.7 million and 105.6 million barrels respectively), refiners face pressure from oversupply even as geopolitical risks periodically spike the crude price. The recent collapse of climate talks, which rejected binding fossil fuel limits, may have eased some regulatory uncertainty for energy companies \u2014 a small tailwind on top of the geopolitical support.",
+  "fetchedAt": "2026-11-28T09:45:55.087016+00:00",
+  "text": "Marathon Petroleum bounced back 3.9% today after a brutal two-week slide of nearly 13%, likely getting support from renewed geopolitical tension in the Middle East. The drone attack on Kuwait and inflammatory rhetoric from Iran raised concerns about potential disruption to oil flows in a region critical to global supply, which typically lifts refiner margins \u2014 the profit spread between crude oil costs and product prices. With US refineries running at 97.5% capacity and storage levels moderate, any supply shock would tighten the market in ways that favor processors like Marathon.\n\nThe broader context here is mixed. The collapse of climate talks at COP31 \u2014 specifically the removal of language calling for phasing out fossil fuels \u2014 removes a near-term regulatory threat that had likely weighed on the stock during the two-week decline. However, the pending Dangote Refinery IPO in Africa and Saudi Arabia's pivot toward more efficient spending signal long-term headwinds for refining margins globally, as new capacity and conservative investment spending will eventually moderate the profit environment.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 271,
-    "inputTokens": 241264,
-    "outputTokens": 59177,
-    "estimatedCostUsd": 0.537149,
-    "lastCallHour": "2026-11-28T01"
+    "callsThisMonth": 272,
+    "inputTokens": 242195,
+    "outputTokens": 59403,
+    "estimatedCostUsd": 0.53921,
+    "lastCallHour": "2026-11-28T09"
   }
 }

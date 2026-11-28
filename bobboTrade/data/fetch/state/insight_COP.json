@@ -1,14 +1,14 @@
 {
   "ticker": "COP",
-  "fetchedAt": "2026-11-28T01:02:14.860895+00:00",
-  "text": "ConocoPhillips rose 1.3% today as oil prices stabilized and geopolitical tensions in the Middle East eased slightly after weekend rhetoric. US crude is trading at $82.24 per barrel\u2014down from recent highs but holding steady\u2014while the broader international oil market at $91.80 per barrel suggests persistent demand. The company, as a major oil producer, benefits when crude prices remain above $80, since that improves margins on every barrel produced.\n\nThe stock's 2% decline over the past two weeks reflects the broader uncertainty around climate policy and energy demand: the failed fossil-fuel language at the U.N. climate summit created a brief relief for oil markets (since stricter climate commitments would have pressured demand), but it also highlighted ongoing political risk around the energy sector's long-term role.",
+  "fetchedAt": "2026-11-28T09:45:24.459398+00:00",
+  "text": "ConocoPhillips rose 1.3% today, bouncing back after a two-week decline that had pulled the stock down 2.3%. The rebound appears tied to firming oil prices\u2014US crude climbed to $82.24 per barrel and global crude to $91.80\u2014which supports stronger earnings potential for the company's exploration and production business. The stock has been volatile over the past week, swinging between $132 and $137, but today's move aligns with the broader oil price recovery.\n\nThe bounce also follows news that could ease some pressure on energy companies: the failed climate talks at COP31 (which collapsed when governments rejected a fossil fuel reduction deal) may have relieved near-term policy concerns, and the UAE's optimistic growth forecast signals continued demand from a key Middle East market. However, the longer-term headwinds remain\u2014including Saudi Arabia's shift to more disciplined spending\u2014which is why the stock is still down on the two-week view despite today's gain.",
   "status": "ok",
   "usage": {
     "month": "2026-11",
-    "callsThisMonth": 269,
-    "inputTokens": 223573,
-    "outputTokens": 55752,
-    "estimatedCostUsd": 0.502333,
-    "lastCallHour": "2026-11-28T01"
+    "callsThisMonth": 270,
+    "inputTokens": 224438,
+    "outputTokens": 55973,
+    "estimatedCostUsd": 0.504303,
+    "lastCallHour": "2026-11-28T09"
   }
 }
